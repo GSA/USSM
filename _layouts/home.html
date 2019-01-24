@@ -1,0 +1,116 @@
+---
+layout: base
+---
+<section>
+  <div class="hero-unit" style="background-image: url('{{ site.baseurl }}/assets/img/homepage-update-image.png')">    <div class="usa-grid">
+      <div class="usa-width-whole hero-content">
+        <h1>{{ page.hero-title }}</h1>
+        <p style="color:#ffffff;">{{ page.hero-text }}</p>
+        <a class="usa-button usa-button-secondary " href="{{ page.hero-button-link | prepend: site.baseurl }}">{{ page.hero-button-text }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+  <DIV style="width: 1040px; margin: 200 auto;" style="border: 1px solid #FF0000;">{{ content }}</DIV>
+-->
+
+<section class="usa-grid usa-section" style="background-color: #FFFFFF;">
+<div class="usa-grid usa-graphic_list-row">
+
+    {% include home.ussm.html %}
+
+  </div>
+</section>
+
+<script>
+  $(".blue-border").click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
+});
+</script>
+
+<section class="usa-section " style="background-color:#046b99;">
+<div class="usa-grid usa-graphic_list-row">
+  <div class="usa-width-one-fourth">
+    <div class="blue-border" >
+      <div class="blue-border-child">
+        <h4>Governance Model</h4>
+       <a href="{{ site.baseurl }}/governance/"></a>
+      </div>
+     </div>
+   </div>
+   <div class="usa-width-one-fourth">
+     <div class="blue-border" >
+       <div class="blue-border-child">
+     <h4>Federal Integrated Business Framework</h4>
+     <a href="{{ site.baseurl }}/fibf/"></a>
+   </div>
+  </div>
+</div>
+  <div class="usa-width-one-fourth">
+    <div class="blue-border" >
+      <div class="blue-border-child">
+     <h4>Quality Service Management Offices</h4>
+     <a href="{{ site.baseurl }}/qsmo/"></a>
+   </div>
+  </div>
+</div>
+  <div class="usa-width-one-fourth">
+    <div class="blue-border" >
+      <div class="blue-border-child">
+   <h4>Modernization and Migration Management (M3) Framework</h4>
+   <a href="{{ site.baseurl }}/m3/"></a>
+   </div>
+  </div>
+</div>
+</div>
+</section>
+
+<section class="usa-grid usa-section" style="background-color:#FFFFFF;">
+  <h2>News and Updates</h2>
+    {% include home.news.updates.html %}
+</section>
+
+<section class="usa-section usa-section-dark">
+  <div class="usa-grid">
+    <div class="usa-width-one-half">
+      <form id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSA/subscribers/qualify" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZhCoiMxoWiSHeJTiR19j3v2+S7Z6oMVPNTy2Ytiv7ukUos3n+vi5J/Fc0MG7tmBSLdsHmRfj02xB0ztqUS0YWQ==" />
+      <input type="hidden" name="topic_id" id="topic_id" value="USGSA_512" />
+        <fieldset>
+          <legend>
+            C-Suite Quarterly Newsletter
+          </legend>
+        <div>
+          Sign up for C-Suite Quarterly, a quarterly update on management priorities, transformation success stories, and tools and information to help agencies improve performance.<BR><BR>
+
+          To sign up for updates or to access your subscriber preferences, please enter your contact information below.
+        </div>
+    </div>
+  <div class="usa-width-one-half">
+    <ol style="padding-left:0px;" class='form'>
+    <li class='email_fields' style='display: block'>
+    <label for="email">*Email Address</label>
+    <input type="text" name="email" id="email" class="long" />
+
+    </li>
+    </ol>
+    <div class='button_panel'>
+    <input type="submit" name="commit" value="Submit" class="form_button" />
+    </div>
+    </fieldset>
+    </form>
+    </div>
+  </div>
+</section>
+
+
+{% include contact.html %}
+
+<script>
+  $(".blue-border").click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
+});
+</script>

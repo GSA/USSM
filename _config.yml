@@ -1,0 +1,107 @@
+# Site settings
+title: Unified Shared Services Management
+description: Unified Shared Services Management (USSM)
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'https://www.ussm.gov' # the base hostname & protocol for your site
+logo: /assets/img/placeholder-logo.gif
+feature_image: /assets/img/frontpageheader.png
+org_name: GSA
+repo_name: federalist-modern-team-template
+
+colors:
+  background: '#555555'
+  link:
+    color: '#0071bc'
+    active: '#0071bc'
+    hover: '#205493'
+    visited: '#0071bc'
+  button:
+    background: '#0071bc'
+    hover: '#205493'
+    text: '#fff'
+  headers: '#205493'
+  text: '#212121'
+  reverse_text: '#ffffff'
+  projects:
+    accent: '#02bfe7'
+    card-heading: '#0071bc'
+  banner:
+    background: '#112e51'
+    text: '#fff'
+    button:
+      background: '#dce4ef'
+      text: '#112e51'
+  footer:
+    primary-background: '#f1f1f1'
+    secondary-background: '#d6d7d9'
+    text: '#212121'
+
+analytics:
+  google:
+    code: 'UA-48605964-32' # Change this to your GSA analytics code
+  dap:
+    agency: GSA    # Change this to your agency
+    subagency: USSM # Change this to your agency
+
+
+forms:
+- type: newsletter
+  heading: Sign up to receive updates from our team
+  url: https://docs.google.com/forms/d/1Tsdm_2spbxWnmTFMrH5eHxpOAN9W4LB3eaMMXJ1N0rU/formResponse
+  button: Subscribe
+  privacypolicy: Your privacy and security are important to us, we'll only share your information as described in the <a href="http://www.gsa.gov/portal/content/116609">GSA Privacy and Security Notice</a>
+  fields:
+    - type: email
+      name: entry.1440502332
+      label: Email Address
+    - type: hidden
+      name: fbzx
+      value: -7861934959779167198
+
+footer:
+  links:
+      - text: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+      - text: 'Governance'
+        href: '/governance/'
+      - text: 'FIBF'
+        href: '/fibf/'
+      - text: 'QSMO'
+        href: '/qsmo/'
+      - text: 'M3 Framework'
+        href: '/m3/'
+      - text: 'About OSSPI'
+        href: '/about/'
+      - text: 'Contact Us'
+        href: '/ussm-contact/'
+
+
+
+  image: /assets/img/gsa-logo-dark.jpg
+  contact:
+    name: Office of Shared Services and Performance Improvement
+    phonenumber:
+    email: ussmteam@gsa.gov
+    twitter:
+    facebook:
+    youtube:
+    rss:
+  text: This site was built using <a href="https://federalist.18f.gov/" target="_blank">Federalist, from 18F</a>.
+ # Change to a tag line for your agency
+
+# Build settings
+markdown: kramdown
+include:
+  - _navigation.json
+exclude:
+  - CONTRIBUTING.md
+  - LICENSE.md
+  - README.md
+
+# Inititalize project and team collections
+collections:
+  projects:
+    output: true
+  team:
+    output: true
+
+wds-version: 1.1.0

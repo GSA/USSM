@@ -1,0 +1,45 @@
+---
+layout: base
+---
+<section >
+  <div class="standard-unit" style="background-image: url('{{ page.background-image | prepend: site.baseurl }}'); height: 200px;">
+   <BR><BR>
+    <section class="usa-grid usa-section">
+     <font style="font-family: 'Poppins', sans-serif; COLOR: #FFFFFF; font-size: 42px; align: left;">Helping Consumers</font>
+    </section>
+  </div>
+</section>
+
+<div style="margin: auto; width: 70%;">
+
+ {% include helping-consumers.html %}  
+
+
+</div>
+    
+    
+
+{% if page.banner-heading %}
+<section class="usa-section banner tagline" style="background-color: #a1b1bc;">
+  <div class="usa-grid">
+
+    <div class="usa-width-one-whole usa-end-row">
+     
+<!--
+    <div class="usa-width-whole hero-content">
+  -->
+<h2>{{ page.banner-heading }}</h2>
+      {% if page.banner-text %}
+        <p>{{ page.banner-text }}</p>
+      {% endif %}
+      {% if page.banner-button-text %}
+      <div class="center-content">
+        <a href="{{ page.banner-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.banner-button-text }}</a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
+    
+    <BR>
