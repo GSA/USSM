@@ -6,7 +6,7 @@ url: 'https://www.ussm.gov' # the base hostname & protocol for your site
 logo: /assets/img/placeholder-logo.gif
 feature_image: /assets/img/frontpageheader.png
 org_name: GSA
-repo_name: federalist-modern-team-template
+repo_name: USSM
 
 colors:
   background: '#555555'
