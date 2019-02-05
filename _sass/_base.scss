@@ -28,7 +28,6 @@ ul, li {
 form {
   max-width: 100%;
 }
-.usa-section p,
 .usa-section > ul,
 .usa-section > ol,
 .usa-section > h1,
@@ -40,6 +39,10 @@ form {
   max-width: 62.5rem;
 }
 
+.usa-section p, {
+  max-width: 100%;
+
+}
 a {
   color: $link-color;
   &:hover {
