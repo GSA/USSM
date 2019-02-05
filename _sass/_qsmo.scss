@@ -1,4 +1,22 @@
+.grid-cap {
+ position: relative;
+ display: grid;
+ grid-gap: 0px;
+ grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+ margin-right: 0rem;
+ margin-left: 0rem;
+ padding: 2% 0;
+ width: 100%;
+}
 
+@media screen and (min-width: 800px) {
+ .grid-cap {
+   width: 100%;
+   margin-left: auto ;
+   margin-right: auto ;
+   padding: 0 0;
+ }
+}
 
 .border {
   border-right: 2px solid black;
@@ -123,4 +141,73 @@
   color: white;
   content: '\00AB'
 
+}
+
+
+/*grid for themes*/
+/* old grid
+.grid {
+ position: relative;
+ display: grid;
+ grid-gap: 10px;
+ grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+ margin-right: 7rem;
+ margin-left: 7rem;
+ padding: 2% 0;
+}*/
+
+.grid {
+ position: relative;
+ display: grid;
+ grid-gap: 10px;
+ grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+ margin-right: 7rem;
+ margin-left: 7rem;
+ padding: 2% 0;
+}
+
+@media screen and (min-width: 800px) {
+ .grid {
+   width: 1200px;
+   margin-left: auto ;
+   margin-right: auto ;
+   padding: 0 0;
+ }
+}
+
+.flex-center {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 90px;
+ resize: vertical;
+
+}
+
+
+#transparent-grid {
+ background: none;
+ color: #ffffff;
+ font-size: 1.5rem;
+ text-align: center;
+ margin: 10px;
+ height: 125px;
+ padding: 3.5px;
+}
+
+#transparent-grid:hover {
+ color: #02bfe7;
+ transition-duration: 1s;
+
+}
+
+#transparent-grid:hover a {
+ color: #02bfe7;
+ transition-duration: 1s;
+}
+
+
+#transparent-grid a {
+ color: #ffffff;
+ text-decoration: none;
 }
