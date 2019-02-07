@@ -5,7 +5,7 @@
       <span class="date">
        <b>{{ news-posts.source }}</b><br>
      </span>
-     <a class="article" href="{{ page.link }}" class="ext-link" rel"external no folow">{{ news-posts.title }}</a><br>
+     <a class="article" href="{{  news-posts.link }}" class="ext-link" rel"external no folow">{{ news-posts.title }}</a><br>
      <span class="date">
        <i>{{ news-posts.date | date: '%B %d, %Y' }}</i>
      </span>
@@ -21,7 +21,7 @@
  <span class="date">
    <b>{{ updates.date | date: '%B %d, %Y' }}</b><br>
  </span>
-   <a class="article" href="{{ page.link }}" class="ext-link" rel"external no folow">{{ updates.title }}</a><br>
+   <a class="article" href="{{ updates.link }}" class="ext-link" rel"external no folow">{{ updates.title }}</a><br>
 
 {% endfor %}
   </ul>
