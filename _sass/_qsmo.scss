@@ -211,3 +211,27 @@
  color: #ffffff;
  text-decoration: none;
 }
+
+.speech-bubble {
+	position: relative;
+	background: #112e51;
+	border-radius: .4em;
+  z-index: 9999;
+  width:390px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #112e51;
+	border-top: 0;
+	border-right: 0;
+	margin-left: -18px;
+	margin-top: -19px;
+
+}
