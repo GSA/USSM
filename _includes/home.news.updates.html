@@ -1,5 +1,38 @@
 <div class="usa-width-one-half">
  <ul style="list-style-type: none; padding-left: 0;">
+  {% for news-posts in site.news-posts reversed limit:4 %}
+    <li class="space-at-bottom"><img src="{{ site.baseurl }}/assets/img/project-icons/news.png" class="news">
+      <span class="date">
+       <b>{{ news-posts.source }}</b><br>
+     </span>
+     <a class="article" href="{{ page.link }}" class="ext-link" rel"external no folow">{{ news-posts.title }}</a><br>
+     <span class="date">
+       <i>{{ news-posts.date | date: '%B %d, %Y' }}</i>
+     </span>
+
+  {% endfor %}
+  </ul>
+</div>
+
+<div class="usa-width-one-half">
+ <ul style="list-style-type: none; padding-left: 0;">
+{% for updates in site.updates reversed limit:4 %}
+<li class="space-at-bottom "><img src="{{ site.baseurl }}/assets/img/project-icons/update.png" class="news" >
+ <span class="date">
+   <b>{{ updates.date | date: '%B %d, %Y' }}</b><br>
+ </span>
+   <a class="article" href="{{ page.link }}" class="ext-link" rel"external no folow">{{ updates.title }}</a><br>
+
+{% endfor %}
+  </ul>
+</div>
+
+
+<!--OLD POSTS-->
+
+
+<!--<div class="usa-width-one-half">
+ <ul style="list-style-type: none; padding-left: 0;">
    <li class="space-at-bottom"><img src="{{ site.baseurl }}/assets/img/project-icons/news.png" class="news">
     <span class="date">
       <b>Government Matters</b><br>
@@ -67,7 +100,7 @@
    href="http://federalnewsradio.com/digital-government/2016/12/possible-solution-shared-services-funding-problem-emerges/" class="ext-link" rel="external nofollow" onclick="this.target=&#039;_blank&#039;;">A Possible Solution to the Shared Services Funding Problem</a>FederalNewsRadio, December 9, 2016</li></span>
    <li>&#128196;&nbsp;<span style="font-family: arial"><a
    href="https://fcw.com/articles/2016/12/07/shared-services-future.aspx" class="ext-link" rel="external nofollow" onclick="this.target=&#039;_blank&#039;;">Making a Market for Shared Services</a> FCW, December 7, 2016</li></span>-->
-   </ul>
+<!--   </ul>
 </div>
 <div class="usa-width-one-half">
  <ul style="list-style-type: none; padding-left: 0;">
@@ -103,5 +136,3 @@
    href="https://www.whitehouse.gov/blog/2016/08/03/making-modernizations-and-migrations-successful" class="ext-link" rel="external nofollow" onclick="this.target=&#039;_blank&#039;;">Making Modernizations and Migrations Successful</a> OMB, August 3, 2016</li></span>
    <li><span style="font-family: arial"><a
    href="https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m-16-11.pdf" class="ext-link" rel="external nofollow" onclick="this.target=&#039;_blank&#039;;">Improving Administrative Functions through Shared Services</a> OMB M-16-11, <i>May 4, 2016</i></li></span>-->
- </ul>
-</div>
