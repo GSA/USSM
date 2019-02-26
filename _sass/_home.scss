@@ -10,7 +10,7 @@
 }
 
 .blue-border {
-  border:3px solid white;
+  border:3px solid #046b99;
   position: relative;
   height: 170px;
   padding: 10px;
@@ -21,25 +21,25 @@
 }
 
 .blue-border h4 {
-  color: white;
+  color: #046b99;
 }
 
 .blue-border a {
-  color: white;
+  color: #046b99;
   text-decoration: none;
 }
 
 
 .blue-border:hover {
-  background-color: white;
+  background-color: #046b99;
 }
 
 .blue-border:hover h4 {
-  color: #046b99;
+  color: #ffffff;
 }
 
 .blue-border:hover a {
-  color: #046b99;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 600px) {
@@ -50,7 +50,7 @@
 
 .blue-border-child {
   display: inline-block;
-  color:#ffffff;
+  color:#046b99;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

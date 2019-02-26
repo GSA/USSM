@@ -16,22 +16,7 @@ layout: base
   <DIV style="width: 1040px; margin: 200 auto;" style="border: 1px solid #FF0000;">{{ content }}</DIV>
 -->
 
-<section class="usa-grid usa-section" style="background-color: #FFFFFF;">
-<div class="usa-grid usa-graphic_list-row">
-
-    {% include home.ussm.html %}
-
-  </div>
-</section>
-
-<script>
-  $(".blue-border").click(function() {
-  window.location = $(this).find("a").attr("href");
-  return false;
-});
-</script>
-
-<section class="usa-section " style="background-color:#046b99;">
+<section class="usa-section " style="background-color:#ffffff;">
 <div class="usa-grid usa-graphic_list-row">
   <div class="usa-width-one-fourth">
     <div class="blue-border" >
@@ -67,6 +52,23 @@ layout: base
 </div>
 </div>
 </section>
+
+
+  <section class="usa-section " style="background-color:#046b99;">
+<div class="usa-grid usa-graphic_list-row">
+
+    {% include home.ussm.html %}
+
+  </div>
+</section>
+
+<script>
+  $(".blue-border").click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
+});
+</script>
+
 
 <section class="usa-grid usa-section" style="background-color:#FFFFFF;">
   <h2>News and Updates</h2>
