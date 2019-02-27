@@ -64,6 +64,7 @@
   line-height: 1;
   margin-top: 8px;
   margin-bottom: 8px;
+  height:60px
 }
 
 @media only screen and (max-width: 600px) {
@@ -242,4 +243,8 @@
   background-color: white;
   border-radius: 25px;
   padding: 6px;
+}
+
+.align {
+      margin-left: 30px;
 }
