@@ -1,0 +1,87 @@
+<footer class="usa-footer usa-footer-medium" role="contentinfo">
+  {% if site.footer.links %}
+  <div class="usa-footer-primary-section">
+    <div class="usa-grid-full">
+      <nav class="usa-footer-nav">
+        <ul class="usa-unstyled-list">
+        {% for link in site.footer.links %}
+          <li class="usa-width-one-sixth usa-footer-primary-content">
+            <a class="usa-footer-primary-link" href="{{ link.href }}">{{ link.text }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+  {% endif %}
+  <div class="usa-footer-secondary_section">
+    <div class="usa-grid">
+      <div class="usa-footer-logo usa-width-one-fourth">
+
+       <p <p style="color:#046b99;font-size:1em; font-weight:bold;">Related Websites<br>
+        <A HREF="https://cfo.gov">CFO.gov</A><BR>
+        <A HREF="https://cao.gov">CAO.gov</A><BR>
+        <A HREF="https://cio.gov">CIO.gov</A><BR>
+        <A HREF="https://gsa.gov">GSA.gov</A><BR>
+        <A HREF="https://opm.gov">OPM.gov</A><BR>
+        <A HREF="https://pic.gov">PIC.gov</A><BR>
+        <A HREF="https://treasury.gov">Treasury.gov</A><BR>
+</p>
+</div>
+<div class="usa-footer-logo usa-width-one-fourth">
+
+          <p style="color:#046b99;font-size:1em; font-weight:bold;">Archives<br>
+         <A HREF="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1041/2017/09/Archived_v2016-Playbook_Guidance_Tollgate-Decks_Templates9.5.pdf">M3 Playbook (Version 2016)</A><BR>
+         <A HREF="https://ussm.gov/assets/files/Approved-M3-Playbook-9.15.17.pdf">M3 Playbook (Version 2017)</A><BR>
+           </p>
+         </div>
+
+      <div class="usa-footer-logo usa-width-one-fourth" >
+
+      <p style="color:#046b99;font-size:1em; font-weight:bold;">  Website Information<br>
+        <A HREF="http://www.gsa.gov/portal/content/116621">Accessibility Information</A><BR>
+        <A HREF="http://www.gsa.gov/portal/category/21546">Budget and Performance</A><BR>
+        <A HREF="https://www.gsa.gov/reference/freedom-of-information-act-foia">FOIA</A><BR>
+        <A HREF="http://www.gsa.gov/portal/content/102469">No Fear ACT Data</A><BR>
+        <A HREF="http://www.gsa.gov/portal/content/104660">Office of the Inspector General</A><BR>
+        <A HREF="http://www.gsa.gov/portal/content/116609">Privacy Statement</A><BR>
+        <A HREF="http://www.usa.gov/">USA.gov</A><BR>
+          </p>
+          </div>
+
+           <div class="usa-footer-logo usa-width-one-fourth">
+
+
+             {% if site.footer.contact.twitter %}
+             <a class="usa-link-twitter" href="https://twitter.com/{{ twitter }}"><span>Twitter</span></a>
+             {% endif %}
+             {% if site.footer.contact.facebook %}
+             <a class="usa-link-facebook" href="https://facebook.com/{{ facebook }}"><span>Facebook</span></a>
+             {% endif %}
+             {% if site.footer.contact.youtube %}
+             <a class="usa-link-youtube" href="https://youtube.com/{{ youtube }}"><span>YouTube</span></a>
+             {% endif %}
+             {% if site.footer.contact.rss %}
+             <a class="usa-link-rss" href="{{ rss }}"><span>RSS feed</span></a>
+             {% endif %}
+           <address>
+             {% if site.footer.contact.name %}
+               <h3 class="usa-footer-contact-heading" style="text-align:right;color:#046b99;">{{ site.footer.contact.name }}</h3>
+             {% endif %}
+             {% if site.footer.contact.phonenumber %}
+               <p><a href="tel:{{ site.footer.contact.phonenumber }}">{{ site.footer.contact.phonenumber }}</a></p>
+             {% endif %}
+             <p style="text-align:right;"><a href="mailto:{{ site.footer.contact.email }}" >{{ site.footer.contact.email }}</a></p>
+           </address>
+
+            <img src="{{ site.url }}{{ site.footer.image }}" style="width:120px;float:right;">
+          </DIV>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script language="javascript">
+  imageMapResize();
+</script>

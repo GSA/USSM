@@ -1,0 +1,84 @@
+.center-content {
+  text-align: center;
+}
+
+.home .usa-width-one-whole > p {
+  // same as .usa-font-lead
+  max-width: 77rem;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.blue-border {
+  border:3px solid #046b99;
+  position: relative;
+  height: 170px;
+  padding: 10px;
+  maring:10px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.blue-border h4 {
+  color: #046b99;
+}
+
+.blue-border a {
+  color: #046b99;
+  text-decoration: none;
+}
+
+
+.blue-border:hover {
+  background-color: #046b99;
+}
+
+.blue-border:hover h4 {
+  color: #ffffff;
+}
+
+.blue-border:hover a {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .blue-border {
+    margin-bottom: 15px;
+  }
+}
+
+.blue-border-child {
+  display: inline-block;
+  color:#046b99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+
+
+}
+
+.space-at-bottom {
+  margin-bottom: 14px;
+}
+
+.news {
+  width: 50px;
+  float: left;
+  padding-bottom: 28px;
+  padding-left: 0px;
+}
+
+.date {
+  font-size: .8em;
+  color: #323a45;
+}
+
+.article {
+  color: #046b99;
+  text-decoration: none;
+  font-size: 1.05em;
+  class: ext-link;
+  rel: external no folow;
+}

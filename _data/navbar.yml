@@ -1,0 +1,72 @@
+assigned:
+    -
+        text: Home
+        href: pages/home.md
+        permalink: /
+        show_in_menu: false
+        show_in_footer: false
+    -
+        text: Initiatives
+        href: /pages/projects.md
+        permalink: /initiatives/
+        show_in_menu: false
+        show_in_footer: false
+        children:
+            -
+                text: 'M3 Framework'
+                href: pages/projects/microloans-for-farmers.md
+                show_in_menu: false
+                show_in_footer: false
+            -
+                text: 'Federal Integrated Businss Framework'
+                href: pages/projects/reducing-summer-melt.md
+                show_in_menu: false
+                show_in_footer: false
+            -
+                text: 'Draft NewPay Software as a Service'
+                href: pages/projects/reducing-summer-melt.md
+                show_in_menu: false
+                show_in_footer: false
+
+    -
+        text: 'Governance'
+        href: pages/team.md
+        permalink: /governance/
+        show_in_menu: true
+        show_in_footer: false
+    -
+        text: 'FIBF'
+        href: /pages/team.md
+        permalink: /fibf/
+        show_in_menu: true
+        show_in_footer: false
+    -
+        text: 'QSMO'
+        href: /pages/qsmo.md
+        permalink: /qsmo/
+        show_in_menu: true
+        show_in_footer: false
+    -
+        text: 'M3 Framework'
+        href: /pages/team.md
+        permalink: /m3/
+        show_in_menu: true
+        show_in_footer: false
+    -
+        text: About OSSPI
+        href: /pages/about.md
+        permalink: /about/
+        show_in_menu: true
+        show_in_footer: false
+    -
+        text: 'Contact Us'
+        href: /pages/ussm-contact.md
+        permalink: /ussm-contact/
+        show_in_menu: false
+        show_in_footer: false
+    -
+        text: 'Project data'
+        href: _data/projects.yml
+        show_in_menu: false
+        show_in_footer: false
+unassigned: []

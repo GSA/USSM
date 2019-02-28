@@ -1,0 +1,10 @@
+---
+layout: base
+---
+<h1> {{ page.title }}</h1>
+<section class="usa-section usa-grid">
+  {% if page.image %}
+  <img src="url({{ page.image | prepend: site.baseurl }});" align=right>
+  {% endif %}
+  {{ content }}
+</section>
