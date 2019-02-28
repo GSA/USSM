@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<section class="usa-section usa-grid">
+ <h1> {{ page.title }}</h1>
+ <div class="tbtable">
+  <div class="tbcell left">
+    <div>{{ content }}</div>
+  </div>
+  <div class="tbcell right">
+    <div>
+      {% if page.image %}
+      <img src="{{ page.image | prepend: site.baseurl }}">
+     {% endif %}
+    </div>
+  </div>
+</div
+</section>

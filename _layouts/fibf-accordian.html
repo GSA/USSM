@@ -1,0 +1,39 @@
+---
+layout: base
+---
+<section class="usa-section usa-grid">
+
+     <ul class="usa-accordion-bordered" style="width:100%;">
+
+  <li>
+    <button class="usa-accordion-button"
+      aria-expanded="false"
+      aria-controls="b-a1">
+      General Complaints About Commercial Privacy Practices
+    </button>
+    <div id="b-a1" class="usa-accordion-content">
+Concerned about how a company is handling your personal information? You can file complaints through the 
+Federal Trade Commission’s <A HREF="https://www.ftccomplaintassistant.gov/#&panel1-1">Complaint Assistant</A> regarding alleged violations of privacy policies, potential harms resulting from data security breaches, questions about the use of information for certain commercial marketing activities, and other complaints concerning the ways in which private companies may allegedly misuse consumers’ information.                                                 
+                                                
+    </div>
+  </li>
+
+    </ul>
+    
+
+<h1> {{ page.title }}</h1>
+  {{ page.description }}
+
+  <div class="tbtable">
+  <div class="tbcell left">
+    <div>{{ content }}</div>
+  </div>
+  <div class="tbcell right">
+    <div>
+      {% if page.image %}
+      <img src="{{ page.image | prepend: site.baseurl }}">
+     {% endif %}
+    </div>
+  </div>
+  </div>
+</section>

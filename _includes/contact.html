@@ -1,0 +1,58 @@
+  {% for form in site.forms %}
+    {% if form.type == 'newsletter' %}
+      {% assign f = form %}
+    {% endif %}
+  {% endfor %}
+
+<!--
+<form id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSA/subscribers/qualify" accept-charset="UTF-8" method="post" target="_blank"><input name="utf8" type="hidden" value="✓" /><input type="hidden" name="authenticity_token" value="OmpVuYESHv+SccYMCRNJaxbCmTGERGw/OXWPv59ppg4hziQG+lh7WkbDhRakuEIIxGozs5kG+33oX8JMVCYPtA==" />
+<input type="hidden" name="topic_id" id="topic_id" value="USGSA_512" />
+<fieldset style="padding:10px;margin:0 auto;border:2px solid #2c4f7e;">
+<div>
+<p style="font-size:14px;text-decoration:underline;"><b>Sign up to receive updates</b></p>
+<span style="font-size:14px;">To sign up for updates or to access your subscriber preferences, please enter your contact information below.</span>
+</div>
+<ol class='form' style="margin:10px 0px;padding:0;">
+<li class='email_fields' style='display: block'>
+<label for="email"><img class="required" src="https://public.govdelivery.com/static/required.gif" alt="Required" /><span style="font-size:14px;">Email Address</span></label><br/>
+<input type="text" name="email" id="email" class="long" style="width:100%;" />
+
+</li>
+</ol>
+<div class='button_panel'>
+<input type="submit" name="commit" value="Submit" class="form_button" />
+</div>
+</fieldset>
+</form>
+
+
+  <form id="contact" action="{{ f.url }}" method="POST">
+    <fieldset>
+      <legend>{{ f.heading }}</legend>
+      <div class="usa-width-one-half">
+        {% for field in f.fields %}
+          {% unless field.type == 'hidden' %}<label for="contact-{{ field.name }}">{{ field.label }}</label>{% endunless %}
+          <input id="contact-{{ field.name }}"
+            name="{{ field.name }}" type="{{ field.type }}"
+            {% if field.value %} value="{{ field.value }}" {% endif %}>
+        {% endfor %}
+        <div class="usa-input-buttons-inline">
+          <input type="submit" value="{{ f.button }}">
+        </div>
+      </div>
+      <div class="usa-width-one-half" style="margin-top: 3rem;">
+        {% if f.privacypolicy %}
+          <p>{{ f.privacypolicy }}</p>
+        {% else %}
+          <p></p>
+        {% endif %}
+      </div>
+
+
+    </fieldset>
+
+  </form>
+-->
+
+  </div>
+</section>
