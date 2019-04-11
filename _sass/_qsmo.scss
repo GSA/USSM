@@ -19,8 +19,9 @@
 }
 
 .border {
-  border-right: 2px solid black;
+  border-right: 2px solid gray;
   text-align: center;
+  padding-right: 19px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -238,12 +239,23 @@
 
 }
 
-.designated {
+#designated {
   color:black;
   font-size:14px;
   background-color: white;
   border-radius: 25px;
   padding: 6px;
+  width: 200px;
+  color:#323a45;
+  margin:7px 0px 20px 0px;
+  text-align: center;
+  align-content: center;
+
+}
+
+#qsmo {
+  color:#323a45;
+  margin:5px 0px 0px 0px;
 }
 
 .align {
