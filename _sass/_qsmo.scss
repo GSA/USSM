@@ -69,16 +69,6 @@
 
 }
 
-@media only screen and (max-width: 600px) {
-  .border-padding {
-      margin-left: 0px;
-      border-bottom: 1px dotted black;
-      border-left: none;
-      padding-top:10px;
-
-  }
-}
-
 .border-last {
   text-align: center;
 }
@@ -276,7 +266,7 @@
 .tooltip .tooltiptext {
   visibility: hidden;
   width: inherit;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.9);
   color: #fff;
   text-align: center;
   padding: 15px;
@@ -294,4 +284,11 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
 
+}
+
+#dark-blue-icon {
+  width:42px;
+  background-color:#112e51;
+  border-radius:25px;
+  padding:4px;
 }
