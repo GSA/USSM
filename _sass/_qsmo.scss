@@ -62,6 +62,13 @@
     height:100px
 }
 
+@media only screen and (max-width: 600px) {
+  .border-padding {
+      height: auto;
+
+  }
+}
+
 .border-padding p {
   line-height: 1;
   margin-top: 8px;
@@ -238,10 +245,16 @@
   width: 200px;
   color:#323a45;
   margin:7px 0px 20px 0px;
-  text-align: center;
-  align-content: center;
 
 }
+
+@media screen and (min-width: 800px) {
+#designated {
+  margin-left: 0px;
+
+}
+}
+
 
 #qsmo {
   color:#323a45;
@@ -250,16 +263,22 @@
 
 .align {
       margin-left: 30px;
+
 }
 
 /*TOOLTIP*/
 
 /* Tooltip container */
-.tooltip {
+.tooltip-2 {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
   cursor: pointer;
+}
+
+.tooltip-2 {
+  position: relative;
+  display: inline-block;
 }
 
 /* Tooltip text */
