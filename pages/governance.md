@@ -6,7 +6,7 @@ image: /assets/img/governance/governance-diagram-1.png
 ---
 The governmentwide governance and operating model drives collaboration and change management with stakeholders across the federal government to identify solutions that deliver the best value to taxpayers and support efficient government.
 
-For a full diagram of the governance framework please [download](#####) (NEED THIS LINK) the updated Sharing Quality Services Cross-Agency Priority Goal action plan.
+For a full diagram of the governance framework please [download](../assets/img/governance/governance-diagram-1.png) the updated Sharing Quality Services Cross-Agency Priority Goal action plan.
 
 **The Shared Services Policy Officer**
 

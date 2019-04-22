@@ -32,6 +32,8 @@
   }
 }
 
+
+
 .border-left-white {
   border-left: 1px solid #112e51;
   text-align: center;
@@ -310,4 +312,15 @@
   background-color:#112e51;
   border-radius:25px;
   padding:4px;
+}
+
+.travel p {
+    margin-top: 30px;
+}
+
+/*media query for travel qsmo*/
+@media only screen and (max-width: 600px) {
+  .travel p {
+      margin-top: 0px;
+  }
 }
