@@ -97,6 +97,7 @@ exclude:
   - LICENSE.md
   - README.md
 
+
 # Inititalize project and team collections
 collections:
   projects:

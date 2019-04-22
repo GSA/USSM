@@ -7,17 +7,17 @@ permalink: /ssgb/
 <br>
 <br>
 
-| Representation     | Name           | 
-| ------------- |-------------| 
-| SSPO (Co-Chair)    | Lesley Field | 
+| Representation     | Name           |
+| ------------- |-------------|
+| SSPO (Co-Chair)    | Suzette Kent |
 | USSM ED (Co-Chair) | Beth Angerman   |  
-| Category Management     | John Bashista      | 
-| CFO Council     |  Stacy Marcott      | 
+| Category Management     | John Bashista      |
+| CFO Council     |  Stacy Marcott      |
 | CFO Council | Sheila Conley |  
 | CIO Council | Joe Klimavicz      |  
 | CIO Council | Jason Gray      |  
+| Jason Gray EA | Angela Butler      |
 | CAO Council | Soraya Correa      |  
-| CAO Council | Iris Cooper     |  
 | CHCO Council   | Bob Gibbs        |  
 | CHCO Council   | Anita Blair        |  
 | Central Policy Agency FM | Dave Lebryk    |  
@@ -25,18 +25,18 @@ permalink: /ssgb/
 | Central Policy Agency Acq/Travel/Fleet | Jessica Salmoiraghi    |  
 | Small Agency Council | Steve McLaughlin    |  
 | Small Agency Council | Corrine Eilo    |  
-| GSA FAS | Alan Thomas    |  
 | PIC Council | Dat Tran      |  
-| PIC Council | Henry Hensley      | 
+| GSA FAS | Alan Thomas      |
+| Department of Treasury | Amy Edwards      |
 
 
 
 
-<!-- | Representation     | Name           | 
-| ------------- |-------------| 
-| OMB - Shared Services Policy Officer    | Lesley Field | 
+<!-- | Representation     | Name           |
+| ------------- |-------------|
+| OMB - Shared Services Policy Officer    | Lesley Field |
 | Unified Shared Services Management | Beth Angerman   |  
-| OMB - Office of Federal Procurement Policy     | Karen Pica      | 
+| OMB - Office of Federal Procurement Policy     | Karen Pica      |
 | Customer Council Representative | TBD |  
 | Provider Council Representative | Doug Anderson      |  
 | General Services Administration | Tony Costa      |  

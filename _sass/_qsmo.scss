@@ -19,17 +19,20 @@
 }
 
 .border {
-  border-right: 2px solid black;
+  border-right: 1px solid #aeb0b5;
   text-align: center;
+  padding-right: 19px;
 }
 
 @media only screen and (max-width: 600px) {
   .border {
-      border-bottom: 2px solid #112e51;
+      border-bottom: 1px solid #aeb0b5;
       border-right: 0px;
 
   }
 }
+
+
 
 .border-left-white {
   border-left: 1px solid #112e51;
@@ -61,21 +64,18 @@
     height:100px
 }
 
+@media only screen and (max-width: 600px) {
+  .border-padding {
+      height: auto;
+
+  }
+}
+
 .border-padding p {
   line-height: 1;
   margin-top: 8px;
   margin-bottom: 8px;
 
-}
-
-@media only screen and (max-width: 600px) {
-  .border-padding {
-      margin-left: 0px;
-      border-bottom: 1px dotted black;
-      border-left: none;
-      padding-top:10px;
-
-  }
 }
 
 .border-last {
@@ -238,14 +238,89 @@
 
 }
 
-.designated {
+#designated {
   color:black;
   font-size:14px;
   background-color: white;
   border-radius: 25px;
   padding: 6px;
+  width: 200px;
+  color:#323a45;
+  margin:7px 0px 20px 0px;
+
+}
+
+@media screen and (min-width: 800px) {
+#designated {
+  margin-left: 0px;
+
+}
+}
+
+
+#qsmo {
+  color:#323a45;
+  margin:5px 0px 0px 0px;
 }
 
 .align {
       margin-left: 30px;
+
+}
+
+/*TOOLTIP*/
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  cursor: pointer;
+}
+
+.tooltip-2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: inherit;
+  background-color: rgba(0,0,0,0.9);
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+
+}
+
+#dark-blue-icon {
+  width:42px;
+  background-color:#112e51;
+  border-radius:25px;
+  padding:4px;
+}
+
+.travel p {
+    margin-top: 30px;
+}
+
+/*media query for travel qsmo*/
+@media only screen and (max-width: 600px) {
+  .travel p {
+      margin-top: 0px;
+  }
 }
