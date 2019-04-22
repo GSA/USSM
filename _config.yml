@@ -96,7 +96,7 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE.md
   - README.md
-
+  - /pages 
 
 # Inititalize project and team collections
 collections:
