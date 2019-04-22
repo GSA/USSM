@@ -18,7 +18,6 @@ permalink: /ssgb/
 | CIO Council | Jason Gray      |  
 | Jason Gray EA | Angela Butler      |
 | CAO Council | Soraya Correa      |  
-| CAO Council | Iris Cooper     |  
 | CHCO Council   | Bob Gibbs        |  
 | CHCO Council   | Anita Blair        |  
 | Central Policy Agency FM | Dave Lebryk    |  
@@ -26,7 +25,6 @@ permalink: /ssgb/
 | Central Policy Agency Acq/Travel/Fleet | Jessica Salmoiraghi    |  
 | Small Agency Council | Steve McLaughlin    |  
 | Small Agency Council | Corrine Eilo    |  
-| GSA FAS | Alan Thomas    |  
 | PIC Council | Dat Tran      |  
 | GSA FAS | Alan Thomas      |
 | Department of Treasury | Amy Edwards      |
