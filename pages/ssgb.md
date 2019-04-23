@@ -10,13 +10,12 @@ permalink: /ssgb/
 | Representation     | Name           |
 | ------------- |-------------|
 | SSPO (Co-Chair)    | Suzette Kent |
-| USSM ED (Co-Chair) | Beth Angerman   |  
+| OSSPI (Co-Chair) | Beth Angerman   |  
 | Category Management     | John Bashista      |
 | CFO Council     |  Stacy Marcott      |
 | CFO Council | Sheila Conley |  
 | CIO Council | Joe Klimavicz      |  
 | CIO Council | Jason Gray      |  
-| Jason Gray EA | Angela Butler      |
 | CAO Council | Soraya Correa      |  
 | CHCO Council   | Bob Gibbs        |  
 | CHCO Council   | Anita Blair        |  
@@ -25,9 +24,10 @@ permalink: /ssgb/
 | Central Policy Agency Acq/Travel/Fleet | Jessica Salmoiraghi    |  
 | Small Agency Council | Steve McLaughlin    |  
 | Small Agency Council | Corrine Eilo    |  
-| PIC Council | Dat Tran      |  
-| GSA FAS | Alan Thomas      |
-| Department of Treasury | Amy Edwards      |
+| Performance Improvement Council | Dat Tran      |
+| Performance Improvement Council | TBD    |  
+| GSA Federal Acquisition Service | Alan Thomas      |
+
 
 
 

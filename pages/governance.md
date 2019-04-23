@@ -6,8 +6,6 @@ image: /assets/img/governance/governance-diagram-1.png
 ---
 The governmentwide governance and operating model drives collaboration and change management with stakeholders across the federal government to identify solutions that deliver the best value to taxpayers and support efficient government.
 
-For a full diagram of the governance framework please [download](../assets/img/governance/governance-diagram-1.png) the updated Sharing Quality Services Cross-Agency Priority Goal action plan.
-
 **The Shared Services Policy Officer**
 
 The Shared Services Policy Officer (SSPO) is designated by the OMB Director and has the responsibility and authority, in conjunction with OMB offices, to lead the development and implementation of mission support shared services policy across the government.  They also co-chair the Shared Solutions Governance Board (SSGB). Suzette Kent, the Federal CIO at the Office of Management and Budget, is currently serving as the SSPO.
