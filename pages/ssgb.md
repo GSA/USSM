@@ -24,9 +24,9 @@ permalink: /ssgb/
 | Central Policy Agency Acq/Travel/Fleet | Jessica Salmoiraghi    |  
 | Small Agency Council | Steve McLaughlin    |  
 | Small Agency Council | Corrine Eilo    |  
-| Performance Improvement Council | Dat Tran      | 
+| Performance Improvement Council | Dat Tran      |
 | Performance Improvement Council | TBD    |  
-| GSA Federal Aquisition Service | Alan Thomas      |
+| GSA Federal Acquisition Service | Alan Thomas      |
 
 
 
