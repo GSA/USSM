@@ -16,7 +16,6 @@ permalink: /ssgb/
 | CFO Council | Sheila Conley |  
 | CIO Council | Joe Klimavicz      |  
 | CIO Council | Jason Gray      |  
-| Jason Gray EA | Angela Butler      |
 | CAO Council | Soraya Correa      |  
 | CHCO Council   | Bob Gibbs        |  
 | CHCO Council   | Anita Blair        |  
