@@ -1,7 +1,7 @@
 ---
 layout: council
 title: Shared Solutions Governance Board
-description: <B>Role of the Shared Solutions Governance Board (SSGB)</B> <BR> The Shared Solutions Governance Board (SSGB) is the primary executive body responsible for advising the Shared Service Policy Officer (SSPO) on the development of shared solutions policies in pursuit of the shared solutions mission and successful achievement of shared solutions vision and goals. Membership includes executives from across the Federal enterprise to provide a broad perspective on opportunities, concerns, and policies related to shared solutions.  The SSGB collaborates with organizations and stakeholders across the federal government to identify solutions that deliver the best value to taxpayers and support efficient government.
+description: <B>The Shared Solutions Governance Board (SSGB) is comprised of representatives from the CXO councils and is responsible for making recommendations to OMB on potential sharing opportunities and for advising on the implementation of the designated activities. The SSGB will also serve as the escalation point for the Business Standards Council (BSC) to resolve inconsistencies in the creation of business and data standards or to suggest possible resolutions for OMB policy officials. Membership includes executives from across the Federal enterprise to provide a broad perspective on opportunities, concerns, and policies related to shared solutions.
 permalink: /ssgb/
 ---
 <br>
