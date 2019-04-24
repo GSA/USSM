@@ -60,7 +60,6 @@ forms:
 
 footer:
   links:
-      - text: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
       - text: 'Governance'
         href: '/governance/'
       - text: 'FIBF'
