@@ -381,6 +381,25 @@
   }
 }
 
+/*MOBILE RESPONSIVE FOR QSMO; SCREENS 600PX TO 1201PX*/
+@media only screen and (max-width: 1201px) and (min-width: 599px) {
+   #qsmo-large {
+     display:none;
+   }
+}
+
+@media only screen and (min-width: 1202px) {
+   #qsmo-mobile {
+     display:none;
+   }
+}
+
+@media only screen and (max-width: 598px) {
+   #qsmo-mobile {
+     display:none;
+   }
+}
+/* END***** MOBILE RESPONSIVE FOR QSMO; SCREENS 600PX TO 1201PX*/
 
 /*
 
