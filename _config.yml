@@ -2,7 +2,7 @@
 title: Unified Shared Services Management
 description: Unified Shared Services Management (USSM)
 baseurl: '' # the subpath of your site, e.g. /blog/
-url: 'https://www.ussm.gov' # the base hostname & protocol for your site
+url: 'https://www.ussm.gsa.gov' # the base hostname & protocol for your site
 logo: /assets/img/placeholder-logo.gif
 feature_image: /assets/img/frontpageheader.png
 org_name: GSA
@@ -95,7 +95,7 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE.md
   - README.md
-
+  - /pages 
 
 # Inititalize project and team collections
 collections:
