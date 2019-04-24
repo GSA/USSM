@@ -12,7 +12,7 @@ The Shared Services Policy Officer (SSPO) is designated by the OMB Director and 
 
 **[Shared Solutions Governance Board](../ssgb)**
 
-The Shared Solutions Governance Board (SSGB) is a cross functional steering committee co-chaired by GSA and a co-chair selected by the voting membership that will rotate annually. The SSGB is comprised of representatives from the CXO councils and is responsible for making recommendations to OMB on potential sharing opportunities and for advising on the implementation of the designated activities.  The SSGB will also serve as the escalation point for the Business Standards Council (BSC) to resolve inconsistencies in the creation of business and data standards or to suggest possible resolutions for OMB policy officials.
+The Shared Solutions Governance Board (SSGB) is comprised of representatives from the CXO councils and is responsible for making recommendations to OMB on potential sharing opportunities and for advising on the implementation of the designated activities.  The SSGB will also serve as the escalation point for the Business Standards Council (BSC) to resolve inconsistencies in the creation of business and data standards or to suggest possible resolutions for OMB policy officials.
 
 **Business Standards Council**
 
