@@ -9,7 +9,7 @@ permalink: /ssgb/
 
 | Representation     | Name           |
 | ------------- |-------------|
-| SSPO (Co-Chair)    | Suzette Kent |
+| SSGC (Co-Chair)    | Suzette Kent |
 | OSSPI (Co-Chair) | Beth Angerman   |  
 | Category Management     | John Bashista      |
 | CFO Council     |  Stacy Marcott      |
