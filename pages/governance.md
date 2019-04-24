@@ -16,4 +16,6 @@ The Shared Solutions Governance Board (SSGB) is comprised of representatives fro
 
 **Business Standards Council**
 
-The Business Standards Council (BSC) is the cross-government working group comprised of OMB-designated functional leads that will work together to design an integrated, end-to-end future state of mission support activities, in collaboration with each CXO Council and the authoritative governance bodies over business processes or standards. The standards will follow the [Federal Integrated Business Framework (FIBF)](../fibf) to identify a common set of capabilities for designated mission-support functions.
+The Business Standards Council (BSC) is a cross-government team of practioners and strategists that is designing an integrated end-to-end future state of mission support activities in collaboration with each CXO council and, as applicable, the authoritative governance bodies over the respective functional area. The standards will follow the [Federal Integrated Business Framework (FIBF)](../fibf).
+
+
