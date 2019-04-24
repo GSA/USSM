@@ -8,7 +8,7 @@ The governmentwide governance and operating model drives collaboration and chang
 
 **The Shared Services Policy Officer**
 
-The Shared Services Policy Officer (SSPO) is designated by the OMB Director and has the responsibility and authority, in conjunction with OMB offices, to lead the development and implementation of mission support shared services policy across the government.  They also co-chair the Shared Solutions Governance Board (SSGB). Suzette Kent, the Federal CIO at the Office of Management and Budget, is currently serving as the SSPO.
+The Shared Services Policy Officer (SSPO) is designated by the OMB Director and has the responsibility and authority, in conjunction with OMB offices, to lead the development and implementation of mission support shared services policy across the government.  They also co-chair the Shared Solutions Governance Board (SSGB). Suzette Kent, the Federal Chief Information Officer at the Office of Management and Budget, is currently serving as the SSPO.
 
 **[Shared Solutions Governance Board](../ssgb)**
 
