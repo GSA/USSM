@@ -8,7 +8,7 @@ The governmentwide governance and operating model drives collaboration and chang
 
 **The Shared Solutions Governance Chair**
 
-The Shared Solutions Governance Chair (SSGC) is designated by the OMB Director and has the responsibility and authority, in conjunction with OMB offices, to lead the development and implementation of mission support shared services policy across the government.  They also co-chair the Shared Solutions Governance Board (SSGB). Suzette Kent, the Federal Chief Information Officer at the Office of Management and Budget, is currently serving as the SSGC.
+The Shared Solutions Governance Chair (SSGC) is designated by the OMB Director and has the responsibility, in conjunction with OMB offices, to lead the development and implementation of mission support shared services policy across the government. She/he also co-chairs the Shared Solutions Governance Board (SSGB). Suzette Kent, the Federal Chief Information Officer at the Office of Management and Budget, is currently serving as the SSGC.
 
 **[Shared Solutions Governance Board](../ssgb)**
 
@@ -16,4 +16,4 @@ The Shared Solutions Governance Board (SSGB) is comprised of representatives fro
 
 **Business Standards Council**
 
-The Business Standards Council (BSC) is a cross-government team of practioners and strategists that is designing an integrated end-to-end future state of mission support activities in collaboration with each CXO council and, as applicable, the authoritative governance bodies over the respective functional area. The standards will follow the [Federal Integrated Business Framework (FIBF)](../fibf).
+The Business Standards Council (BSC) is a cross-government team of practitioners and strategists that is designing an integrated end-to-end future state of mission support activities in collaboration with each CXO council and, as applicable, the authoritative governance bodies over the respective functional area. The standards will follow the [Federal Integrated Business Framework (FIBF)](../fibf).
