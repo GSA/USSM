@@ -2,16 +2,16 @@
 layout: base2
 ---
 <A NAME="top">
- 
- 
- 
+
+
+
 <link rel="stylesheet" type="text/css" href="/assets/datatables/datatables.min.css"/>
  <link rel="stylesheet" type="text/css" href="/assets/datatables/responsive.dataTables.min.css"/>
 <script type="text/javascript" src="/assets/datatables/datatables.min.js"></script>
 <script src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/js/uswds.min.js"></script>
 <script src="{{ '/assets/js/index.js' | prepend: site.baseurl  }}"></script>
- 
- 
+
+
 <style>
  .two {
 background: url('../assets/img/fibf/fibf.plain.png');
@@ -20,35 +20,44 @@ background: url('../assets/img/fibf/fibf.plain.png');
 .two:hover {
 background: url('../assets/img/fibf/fibf.bc.on.png');
 }
- 
 
+	 #rcorners2 {
+    border-radius: 15px 50px;
+    border: 2px solid #205493;
+    padding: 20px; 
+    width: 450px;
+    height: 100px;    
+}
 
 </style>
 
 
 
+	
+	
+
 <section class="usa-section usa-grid">
- <a href="../fibf"><span 
+ <a href="../fibf"><span
 style="font-family: arial">Federal Integrated Business Framework</A> &gt; <B>Procurement Standards</B></span>
 
- <p></p> 
- 
+ <p></p>
+
  <p></p>
  <font style="font-family: arial; font-size:30px;"><strong>Procurement Standards</font></strong><BR>
 
- 
+
  <script language="javascript">
 function flipImage(strImage) {
   document.fibfimage.src = strImage; return true;
 }
-  
+
   function flipMenu(strImage) {
   document.svcarea.src = strImage; return true;
 }
-  
-  
+
+
  </script>
- 
+
 <table>
  <tr><td valign=top width="450" style="border-style: hidden;"><center>
 <img height=400 width=400 src="../assets/img/fibf/fibf.plain.png" alt="Components of the Federal Integrated Business Framework" name="fibfimage" usemap="#image-map">
@@ -56,85 +65,92 @@ function flipImage(strImage) {
   </td>
   <td valign=top  style="border-style: hidden;">
   <img src="../assets/img/fibf/service.areas.acq.acq.png" alt="Functional Area Menu" name="svcarea" usemap="#svc-map"><BR>
-   
-   
-   
+
+
+
 <map name="svc-map">
- <area target="" alt="Human Capital" title="Human Capital" href="../fibf-hr/" 
+ <area target="" alt="Human Capital" title="Human Capital" href="../fibf-hr/"
           onMouseOver="flipMenu('../assets/img/fibf/service.areas.acq.hr.png');" onMouseOut="flipMenu('../assets/img/fibf/service.areas.acq.acq.png');"
           coords="109,0,206,125" shape="rect">
     <area target="" alt="Procurement" title="Procurement" href="../fibf-procurement/"
                  onMouseOver="flipMenu('../assets/img/fibf/service.areas.acq.acq.png');" onMouseOut="flipMenu('../assets/img/fibf/service.areas.acq.acq.png');"
           coords="208,2,310,125" shape="rect">
-    <area target="" alt="Grants Management" title="Grants Management" href="../fibf-gm/" 
+    <area target="" alt="Grants Management" title="Grants Management" href="../fibf-gm/"
                  onMouseOver="flipMenu('../assets/img/fibf/service.areas.acq.gm.png');" onMouseOut="flipMenu('../assets/img/fibf/service.areas.acq.acq.png');"
           coords="311,1,424,125" shape="rect">
-    <area target="" alt="Travel" title="Travel" href="../fibf-travel/" 
+    <area target="" alt="Travel" title="Travel" href="../fibf-travel/"
                  onMouseOver="flipMenu('../assets/img/fibf/service.areas.acq.tv.png');" onMouseOut="flipMenu('../assets/img/fibf/service.areas.acq.acq.png');"
           coords="427,1,520,125" shape="rect">
-    <area target="" alt="Financial Management" title="Financial Management" href="../fibf-fm/" 
+    <area target="" alt="Financial Management" title="Financial Management" href="../fibf-fm/"
                  onMouseOver="flipMenu('../assets/img/fibf/service.areas.acq.fm.png');" onMouseOut="flipMenu('../assets/img/fibf/service.areas.acq.acq.png');"
           coords="6,2,104,124" shape="rect">
 </map>
- 
- 
- &nbsp;&nbsp;The Federal Integrated Business Framework is a model that enables the Federal government to better coordinate and document common business needs across agencies and focus on outcomes, data, processes and performance. It is the essential first step towards standards that will drive economies of scale and leverage the government’s buying power. 
+
+
+ &nbsp;&nbsp;The Federal Integrated Business Framework is a model that enables the Federal government to better coordinate and document common business needs across agencies and focus on outcomes, data, processes and performance. It is the essential first step towards standards that will drive economies of scale and leverage the government’s buying power.
  <BR><BR>
   <!--
-  
+
   <TABLE CELLPADDING=2 width="300px;"><TR><TD>
   <B>Procurement Standards Lead</B><BR>
   <B>Name:</B> OMB<BR>
    </TD></TR></TABLE>
     -->
-  
-  
+
+<!--
   <img src="../assets/img/fibf/svc.lead.procurement.png" alt="Procurement Standards Lead">
+
+-->
   
+    <p id="rcorners2">
+<B>Procurement Standards Lead</B><BR>
+  <B><FONT STYLE="font-size:14px;">Name:</B> OMB</FONT></p>
+ 	 </p>
+	 
   
    </td>
-  
+
   </tr>
   </table>
- 
-  
-  
+
+
+
   <BR><BR>
- 
+
  <!-- Image Map Generated by http://www.image-map.net/ -->
 
 <map name="image-map">
- 
- <area class="one" target="" alt="Federal Business Lifecycle" title="Federal Business Lifecycle" 
+
+ <area class="one" target="" alt="Federal Business Lifecycle" title="Federal Business Lifecycle"
         onMouseOver="flipImage('../assets/img/fibf/01.fibf.bl.on.png');" onMouseOut="flipImage('../assets/img/fibf/fibf.plain.png');"
-href="#business_lifecycle" 
+href="#business_lifecycle"
 coords="64,60,138,131,169,122,198,116,234,117,258,133,335,56,287,24,227,10,169,2,117,21" shape="poly">
- 
+
  <area class="two" target="" onMouseOver="flipImage('../assets/img/fibf/02.fibf.bc.on.png');" onMouseOut="flipImage('../assets/img/fibf/fibf.plain.png');"
- alt="Business Capabilities" title="Business Capabilities" href="#business_capabilities" 
+ alt="Business Capabilities" title="Business Capabilities" href="#business_capabilities"
 coords="261,135,338,63,361,89,383,137,393,179,391,224,382,268,376,285,279,235,287,187,276,158" shape="poly">
 
- <area class="three" target="" alt="Business Use Cases" title="Business Use Cases" 
+ <area class="three" target="" alt="Business Use Cases" title="Business Use Cases"
         onMouseOver="flipImage('../assets/img/fibf/03.fibf.uc.on.png');" onMouseOut="flipImage('../assets/img/fibf/fibf.plain.png');"
-href="#business_use_cases" 
+href="#business_use_cases"
 coords="275,237,370,287,314,357,207,389,202,320,202,284,244,269" shape="poly">
- 
- <area class="four" target="" alt="Standard Data Elements" 
+
+ <area class="four" target="" alt="Standard Data Elements"
         onMouseOver="flipImage('../assets/img/fibf/04.fibf.de.on.png');" onMouseOut="flipImage('../assets/img/fibf/fibf.plain.png');"
-title="Standard Data Elements" href="#standard_data_elements" 
+title="Standard Data Elements" href="#standard_data_elements"
 coords="196,280,192,388,125,378,72,345,35,303,28,289,119,234,137,259,166,274" shape="poly">
- 
- <area class="five" target="" alt="Performance Metrics" 
+
+ <area class="five" target="" alt="Performance Metrics"
         onMouseOver="flipImage('../assets/img/fibf/05.fibf.pm.on.png');" onMouseOut="flipImage('../assets/img/fibf/fibf.plain.png');"
-title="Performance Metrics" href="#performance_metrics" 
+title="Performance Metrics" href="#performance_metrics"
 coords="120,232,25,279,7,199,13,137,36,94,61,64,132,139,115,169,114,195" shape="poly">
 
  </map>
- 
 
-  
+
+
  <!-- BUSINESS LIFE CYCLE -->
-   
+
    <hr>
  <table style="border-style: hidden;"><tr><td  width="220" valign=top style="border-style: hidden;">
  <A NAME="business_lifecycle"> <img src="../assets/img/fibf/01.federal.business.lifecycle.sm.png">
@@ -143,22 +159,22 @@ coords="120,232,25,279,7,199,13,137,36,94,61,64,132,139,115,169,114,195" shape="
    <font style="font-family: arial; font-size: 20px;"><strong>Federal Business Lifecycle - Procurement</STRONG></font><BR>
    <I>Federal Business Lifecycles, functional areas, functions, and activities serve as the basis for a common understanding of what services agencies need and solutions should offer.</I>
    <BR><BR>
-    <I>Functions: Breakdown of a functional area into categories of services provided to customers. 
+    <I>Functions: Breakdown of a functional area into categories of services provided to customers.
 <BR><BR>
     Activities: Within a function, processes that provide identifiable outputs/outcomes to customers are defined as activities.</I>
 </td>
   </tr>
  </table>
- 
-    
+
+
     <font style="font-size:16px;"><I>Select from the list of available functions to view associated activities</I></font>
-    
+
      <ul class="usa-accordion-bordered" style="width:1500px;">
 
-   
-     
 
-      
+
+
+
   <li style="width:1000px;">
     <button class="usa-accordion-button"
       aria-expanded="false"
@@ -177,113 +193,113 @@ coords="120,232,25,279,7,199,13,137,36,94,61,64,132,139,115,169,114,195" shape="
   <td valign=top class="capability_class">
    <B><I>Description</I></B>
   </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
  <tr>
   <td valign=top class="capability_class">
 ACQ.010.010
-   
+
   </td>
-  
+
   <td valign=top class="capability_class" width="27%">
-   Requirements Development 
+   Requirements Development
   </td>
   <td valign=top class="capability_class">
  Identify and document requirements the acquisition must meet to satisfy the government's needs; Includes developing business/system requirements and technical specifications
   </td>
-  
+
  </tr>
-     
-  
+
+
  <tr>
   <td valign=top class="capability_class">
 
    ACQ.010.020
   </td>
-  
+
   <td valign=top class="capability_class" width="27%">
    Business Case Development
   </td>
   <td valign=top class="capability_class">
  Develop and document analyses of how the acquisition will be beneficial to the government; Includes developing cost/benefit/alternatives analyses
   </td>
-  
+
  </tr>
-     
- 
- 
- 
- 
+
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
 ACQ.010.030
-   
+
   </td>
-  
+
   <td valign=top class="capability_class" width="27%">
    Market Research
   </td>
   <td valign=top class="capability_class">
  Collect, analyze, and document information about capabilities within the market to satisfy government needs (e.g., commerciality, availability, affordability and options); Develop and issue announcement that the government is looking for sources (firms able to provide) the particular goods/services needed; Includes  issuing sources sought announcements and conducting industry outreach or industry days
   </td>
-  
+
  </tr>
-     
- 
- 
- 
- 
- 
+
+
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
 ACQ.010.040
-   
+
   </td>
-  
+
   <td valign=top class="capability_class" width="27%">
    Request for Information (RFI) Issuance
   </td>
   <td valign=top class="capability_class">
  Develop and issue request for information to be used to inform the government's acquisition of particular goods/services needed
   </td>
-  
+
  </tr>
-     
- 
- 
- 
- 
- 
+
+
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
 ACQ.010.050
-   
+
   </td>
-  
+
   <td valign=top class="capability_class" width="27%">
-   Acquisition Strategy/Plan Development 
+   Acquisition Strategy/Plan Development
   </td>
   <td valign=top class="capability_class">
  Document government's need and how it will be met through the acquisition; Determine and document how solicitation will be issued, type of contract that will be awarded, and source selection delegation and approach; Includes developing acquisition timeline or milestone plan and identification of appropriate streamlined acquisition vehicles (e.g., Government-Wide Acquisition Contracts (GWACs), Agency Indefinite Delivery Indefinite Quantity (IDIQ) contracts, or Category Management vehicles
   </td>
-  
+
  </tr>
-     
- 
- 
-  
+
+
+
+
      </table>
- 
+
     </div>
   </li>
-     
-      
-      
-      
-      
+
+
+
+
+
   <li style="width:1000px;">
     <button class="usa-accordion-button"
       aria-expanded="false"
@@ -292,280 +308,280 @@ ACQ.010.050
     </button>
     <div id="b-a2" class="usa-accordion-content">
 <table width="950px;">
- 
+
   <tr>
   <td valign=top class="capability_class">
    <i><B>Identifier</B></I>
-   
+
   </td>
-  
+
   <td valign=top class="capability_class" width="27%">
    <B><I>Activity</I></B>
-   
+
   </td>
   <td valign=top class="capability_class">
    <B><I>Description</I></B>
   </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
       <tr>
   <td valign=top class="capability_class">
-  
+
    ACQ.020.010
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
  Procurement Request (PR) Processing
-  
+
   </td>
   <td valign=top class="capability_class">
 Develop, submit/recieve, review, and approve request for acquisition of goods/services, including requirements, estimated costs, and funding sources; Verify availability of and reserve/commit funds; Includes purchase requests and requisitions
        </td>
-  
+
  </tr>
-     
-    
- 
- 
+
+
+
+
       <tr>
   <td valign=top class="capability_class">
-  
+
    ACQ.020.020
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
   Justification for Other than Full and Open Competition (JOFOC) Development
-  
+
   </td>
   <td valign=top class="capability_class">
 Document reason the contract will be awarded without providing for full and open competition
    </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
       <tr>
   <td valign=top class="capability_class">
-  
+
    ACQ.020.030
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
   Performance Work Statement (PWS), Statement of Work (SOW), Statement of Objectives (SOO) (Section C) Development
-  
+
   </td>
   <td valign=top class="capability_class">
 Develop and document description of the work to be performed using specifications, minimum requirements, quantities, performance dates, time and place of performance, and/or quality measures
    </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
       <tr>
   <td valign=top class="capability_class">
-  
+
    ACQ.020.040
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
-  
+
   Technical Evaluation Criteria and Instructions to Offerors (Sections L&M) Development
   </td>
   <td valign=top class="capability_class">
 Identify and document price and non-price factors that will be used to evaluate the submissions received
    </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
       <tr>
   <td valign=top class="capability_class">
   ACQ.020.050
-   
+
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
-  
+
   Source Selection/Technical Evaluation Plan Development
   </td>
   <td valign=top class="capability_class">
 Determine and document how the source selection will be organized, how proposals will be evaluated and analyzed, and how source(s) will be selected.
    </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
       <tr>
   <td valign=top class="capability_class">
-  
+
    ACQ.020.060
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
-  
-  Performance Based Services Acquisition (PBSA) Documentation Development 
+
+  Performance Based Services Acquisition (PBSA) Documentation Development
   </td>
   <td valign=top class="capability_class">
 Develop and document how acquired performance based services will be monitored, measured, evaluated, and managed; Includes development of Quality Assurance Surveillance Plans and Incentive Plans
    </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
       <tr>
   <td valign=top class="capability_class">
   ACQ.020.070
-   
+
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
   Independent Government Cost Estimate (IGCE) Development
-  
+
   </td>
   <td valign=top class="capability_class">
 Develop and document unbiased estimate of the resources and projected cost of the resources that a contractor will incur in the performance of a contract
    </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
       <tr>
   <td valign=top class="capability_class">
   ACQ.020.080
-   
+
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
   Solicitation Documentation Development
-  
+
   </td>
   <td valign=top class="capability_class">
 Develop standard solicitation documents, including Terms and Conditions and Reps and Certs; Develop solicitation documents for simplified acquisitions; Includes developing Request for Proposal (RFP) and Request for Quote (RFQ) documentation
    </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
       <tr>
   <td valign=top class="capability_class">
   ACQ.020.090
-   
+
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
-  
+
   Pre-Solicitation Communications
   </td>
   <td valign=top class="capability_class">
 Conduct events with and/or issue communications to industry to provide information regarding the upcoming acquisition; Includes issuing pre-solicitation notice
    </td>
-  
+
  </tr>
- 
- 
+
+
       <tr>
   <td valign=top class="capability_class">
-  
+
    ACQ.020.100
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
   Solicitation Issuance
-  
+
   </td>
   <td valign=top class="capability_class">
 Provide solicitation to the identified pool of vendors; Publish solicitation in Fed BizOpps
    </td>
-  
+
  </tr>
- 
- 
+
+
       <tr>
   <td valign=top class="capability_class">
   ACQ.020.110
-   
+
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
-  
+
   Pre-Proposal Conferences
   </td>
   <td valign=top class="capability_class">
 Conduct events with industry to present solicitation information and respond to questions; Includes conducting bidders conferences
    </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
       <tr>
   <td valign=top class="capability_class">
-  
+
    ACQ.020.120
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
-  
+
   Disposition of Solicitation Questions
   </td>
   <td valign=top class="capability_class">
 Develop and document responses to questions submitted by offerors
    </td>
-  
+
  </tr>
- 
- 
+
+
       <tr>
   <td valign=top class="capability_class">
   ACQ.020.130
-   
+
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
   Solicitation Amendment
-  
+
   </td>
   <td valign=top class="capability_class">
 Develop and issue amendments to the solicitation (e.g., changes to the specifications, terms or conditions, or quantities required); Includes amending solicitation based on pre-proposal conference feedback and solicitation questions
    </td>
-  
+
  </tr>
- 
- 
+
+
      </table>
- 
- 
+
+
     </div>
   </li>
-     
-      
-      
-      
-      
-      
+
+
+
+
+
+
         <li style="width:1000px;">
     <button class="usa-accordion-button"
       aria-expanded="false"
@@ -574,166 +590,166 @@ Develop and issue amendments to the solicitation (e.g., changes to the specifica
     </button>
     <div id="b-a3" class="usa-accordion-content">
 
-   
+
      <table width="950px;">
- 
+
   <tr>
   <td valign=top class="capability_class">
    <i><B>Identifier</B></I>
-   
+
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
    <B><I>Activity</I></B>
-   
+
   </td>
   <td valign=top class="capability_class">
    <B><I>Description</I></B>
   </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
       <tr>
   <td valign=top class="capability_class">
 ACQ.030.010
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
- Proposal Evaluation 
+ Proposal Evaluation
   </td>
   <td valign=top class="capability_class">
 Receive offeror proposals/quotes; Identify and document deficiencies, weaknesses, strengths, and risks; Evaluate rates; Includes conducting technical, cost, and past performance evaluations
    </td>
-  
+
  </tr>
 
-   
-      
+
+
       <tr>
   <td valign=top class="capability_class">
 ACQ.030.020
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
- Competitive Range Determination 
+ Competitive Range Determination
   </td>
   <td valign=top class="capability_class">
 Identify and document comparative analysis of proposals that have a reasonable chance of being selected for award of a contract
    </td>
-  
+
  </tr>
 
- 
+
       <tr>
   <td valign=top class="capability_class">
 ACQ.030.030
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
- 
+
 Proposal Discussions/Clarifications
   </td>
   <td valign=top class="capability_class">
    Conduct discussions to obtain additional information or clarifications on information submitted by offeror(s)
-   
+
    </td>
-  
+
  </tr>
 
- 
+
       <tr>
   <td valign=top class="capability_class">
 ACQ.030.040
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
  Negotiations/Proposal Revisions
   </td>
   <td valign=top class="capability_class">
 Conduct negotiations with offeror(s) and accept proposal revisions, as necessary
    </td>
-  
+
  </tr>
 
- 
+
       <tr>
   <td valign=top class="capability_class">
 ACQ.030.050
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
- Best Value Determination and Source Selection Authority Briefing 
+ Best Value Determination and Source Selection Authority Briefing
   </td>
   <td valign=top class="capability_class">
 Determine and document for the source selection authority's consideration the recommended outcome that, in the Government’s estimation, provides the greatest overall benefit in response to the government's requirements
    </td>
-  
+
  </tr>
 
- 
+
       <tr>
   <td valign=top class="capability_class">
 ACQ.030.060
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
  Award Decision
   </td>
   <td valign=top class="capability_class">
 Determine and document the winning offeror(s) based on information provided and award criteria
    </td>
-  
+
  </tr>
 
- 
+
       <tr>
   <td valign=top class="capability_class">
 ACQ.030.070
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
  Contract Award Issuance
   </td>
   <td valign=top class="capability_class">
 Develop and issue to successful offeror(s) contract award and associated documents; Verify availability of and obligate funds; Request/confirm set-up of payee record; Includes developing/issuing contracts, task orders, and purchase orders
    </td>
-  
+
  </tr>
 
- 
+
       <tr>
   <td valign=top class="capability_class">
 ACQ.030.080
   </td>
-  
-   
+
+
    <td valign=top width="20%" class="capability_class">
  Notification/Debriefing of Unsuccessful Offerors
   </td>
   <td valign=top class="capability_class">
 Prepare and deliver unsuccessful offeror letters; Conduct sessions with unsuccessful offerors identifying deficiencies in their proposals
    </td>
-  
+
  </tr>
 
      </table>
-      
-     
-     
-     
+
+
+
+
     </div>
   </li>
-     
-      
+
+
              <li style="width:1000px;">
     <button class="usa-accordion-button"
       aria-expanded="false"
@@ -746,64 +762,64 @@ Prepare and deliver unsuccessful offeror letters; Conduct sessions with unsucces
  <tr>
   <td valign=top class="capability_class">
    <i><B>Identifier</B></I>
-   
+
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
    <B><I>Activity</I></B>
-   
+
   </td>
   <td valign=top class="capability_class">
    <B><I>Description</I></B>
   </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
  <tr>
   <td valign=top class="capability_class">
     ACQ.040.010
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 Kickoff Meeting\Documentation of Contract Transition
-  
+
   </td>
   <td valign=top class="capability_class">
   Conduct and document initial meeting with successful offeror, program manager, contracting officer's technical representative, etc. and provide any information from a previous contract that may be needed by the offeror
   </td>
-  
+
  </tr>
- 
- 
-    
-    
-    
+
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
     ACQ.040.020
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 Documentation of Delivery/Acceptance
-  
+
   </td>
   <td valign=top class="capability_class">
   Document the government's receipt and acceptance of goods or services; Receive and review vendor progress reports, invoices, and claims; Determine financial accrual of liability; Determine adjustments to invoiced amounts and interest due, if any; Verify availability and request disbursement of funds; Document approval of vendor invoices and claims
   </td>
-  
+
  </tr>
- 
-    
-    
+
+
+
  <tr>
   <td valign=top class="capability_class">
-    
-   
+
+
   ACQ.040.030
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 
   Contract Modification
@@ -811,17 +827,17 @@ Documentation of Delivery/Acceptance
   <td valign=top class="capability_class">
   Issue a written change in the terms of a contract after agreement is obtained for bilateral modifications; Includes novation agreements, change-of-name agreements, and change in period of performance; Verify availability of and obligate or de-obligate funds
   </td>
-  
+
  </tr>
- 
-    
-    
-    
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
     ACQ.040.040
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 
   Contract Closeout
@@ -829,135 +845,135 @@ Documentation of Delivery/Acceptance
   <td valign=top class="capability_class">
   Document evidence of physical completion; Verify contractor’s final invoice has been submitted; Prepare contract completion statement; De-obligate any remaining funds
   </td>
-  
+
  </tr>
- 
-    
-    
-    
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
     ACQ.040.050
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 Earned Value Management
-  
+
   </td>
   <td valign=top class="capability_class">
   Perform earned value management to track program execution and risk
   </td>
-  
+
  </tr>
- 
-    
-    
-    
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
     ACQ.040.060
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 Incentive\Award Fee Management
-  
+
   </td>
   <td valign=top class="capability_class">
   Determine and document whether the requirements for a fee payment have been met; Provide information to enable payment of fees; Includes fee determination for Cost Plus Fixed Fee (CPFF) and Cost Plus Award Fee (CPAF) contracts
   </td>
-  
+
  </tr>
- 
-    
-    
-    
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
     ACQ.040.070
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 Contractor Clearance Tracking
-  
+
   </td>
   <td valign=top class="capability_class">
   Track/document the status of contractors' clearances
   </td>
-  
+
  </tr>
- 
-    
-    
-    
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
     ACQ.040.080
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 Vendor Performance Monitoring and Dispute Resolution
-  
+
   </td>
   <td valign=top class="capability_class">
   Document ongoing review of vendor performance;  Document and address issues and/or disputes with the vendor; Document and provide information to support suspension and/or debarment of vendor
   </td>
-  
+
  </tr>
- 
-    
-    
-    
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
     ACQ.040.090
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 
-  Acquisition Reporting 
+  Acquisition Reporting
   </td>
   <td valign=top class="capability_class">
   Provide reports on acquisition status and outcomes (e.g., contracts awarded, dollar value, type of contract, vendor information, time to award); Includes acquisition milestone reporting and providing award information to Federal Procurement Data System (FPDS)
   </td>
-  
+
  </tr>
- 
-    
-    
-    
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
     ACQ.040.100
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
    Acquisition Analysis and Forecasting
-  
+
   </td>
   <td valign=top class="capability_class">
   Conduct analyses of agency's historical acquisition needs, patterns, and processes; Forecast agency's acquisition demand
   </td>
-  
+
  </tr>
- 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
      </table>
-     
+
     </div>
   </li>
 
-      
-      
-      
+
+
+
              <li style="width:1000px;">
     <button class="usa-accordion-button"
       aria-expanded="false"
@@ -966,108 +982,108 @@ Vendor Performance Monitoring and Dispute Resolution
     </button>
     <div id="b-a5" class="usa-accordion-content">
 
-   
+
         <table width="950px;">
  <tr>
   <td valign=top class="capability_class">
    <i><B>Identifier</B></I>
-   
+
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
    <B><I>Activity</I></B>
-   
+
   </td>
   <td valign=top class="capability_class">
    <B><I>Description</I></B>
   </td>
-  
+
  </tr>
- 
- 
- 
+
+
+
  <tr>
   <td valign=top class="capability_class">
- 
+
   ACQ.050.010
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 Purchase Card Account Set-Up and Maintenance
-  
+
   </td>
   <td valign=top class="capability_class">
-  Prepare and submit applications for new accounts and requests for changes to existing accounts; Process applications for and requests for changes to accounts; Set up new accounts and approving officials; Update existing accounts; Includes establishing and maintaining Government employee and Government central billed account information 
+  Prepare and submit applications for new accounts and requests for changes to existing accounts; Process applications for and requests for changes to accounts; Set up new accounts and approving officials; Update existing accounts; Includes establishing and maintaining Government employee and Government central billed account information
   </td>
-  
+
  </tr>
- 
- 
-         
- 
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
- 
+
   ACQ.050.020
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 Purchase Card Issuance and Support
-  
+
   </td>
   <td valign=top class="capability_class">
   Issue and cancel purchase cards of Government employees; Provide support and guidance; Maintain and provide card use procedures and training
   </td>
-  
+
  </tr>
-         
-         
-         
- 
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
- 
+
   ACQ.050.030
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 Purchase Card Reconciliation
-  
+
   </td>
   <td valign=top class="capability_class">
   Receive purchase card account statements; Match purchase card receipts to account statements; Identify and resolve purchase card account statement discrepancies; Verify availability and request disbursement of funds; Approve purchase card account statements for payment
   </td>
-  
+
  </tr>
-         
-         
-         
- 
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
- 
+
   ACQ.050.040
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 Purchase Card Audit
-  
+
   </td>
   <td valign=top class="capability_class">
   Conduct random sampling of card use; Advise of instances of potential abuse; Revoke cards based on identified abuse
   </td>
-  
+
  </tr>
-         
-         
-         
- 
+
+
+
+
  <tr>
   <td valign=top class="capability_class">
  ACQ.050.050
-  
+
   </td>
-  
+
   <td valign=top class="capability_class" width="20%">
 
   Purchase Card Reporting
@@ -1075,81 +1091,81 @@ Purchase Card Audit
   <td valign=top class="capability_class">
   Provide information on purchase card usage, trends, and patterns
   </td>
-  
+
  </tr>
-         
-         
-         
+
+
+
      </table>
-     
-     
-     
-     
+
+
+
+
     </div>
   </li>
 
-      
-   
+
+
 
     </ul>
-    
-    
-    
-        
+
+
+
+
       <table width="100%">
        <tr><td align=right style="border-style:hidden;">
     <A HREF="#top">Back to top</A>
         </td>
-        
+
        </tr>
-       
-      </table>    
-    
+
+      </table>
+
    <BR><BR>
-    
+
     <hr>
-     
+
  <!-- BUSINESS CAPABILITIES -->
-      
-    
+
+
      <table  style="border-style: hidden;"><tr><td  width="220" valign=top style="border-style: hidden;">
  <A NAME="business_capabilities"> <img src="../assets/img/fibf/02.business.capabilities.sm.png">
   </td>
   <td valign=top style="border-style: hidden;">
    <font style="font-family: arial; font-size: 20px;"><strong>Business Capabilities  - Procurement</STRONG></font><BR>
  <I>Business Capabilities are the outcome-based business needs mapped to Federal government authoritative references, forms, and data standards.</I><BR><BR>
-    
+
    Full life-cycle Procurement business capabilities to be developed.
-   
+
    <UL>
     <LI><A HREF="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1041/2017/01/FederalGovernmentElectronicInvoiceStandardBusinessProcesses.pdf">E-Invoicing Business Capabilities</A>
-    
+
    </UL>
-   
+
 </td>
   </tr>
  </table>
- 
-       
-    
+
+
+
     <center>
-    
-         
+
+
       <table width="100%">
        <tr><td align=right  style="border-style:hidden;">
     <A HREF="#top">Back to top</A>
         </td>
-        
+
        </tr>
-       
+
       </table>
    <BR>
 
-    <hr>       
+    <hr>
  <!-- BUSINESS USE CASES -->
-   
-             
-   
+
+
+
         <table style="border-style: hidden;"><tr><td width="220" valign=top style="border-style: hidden;">
  <A NAME="business_use_cases"> <img src="../assets/img/fibf/03.business.use.cases.sm.png">
   </td>
@@ -1158,28 +1174,28 @@ Purchase Card Audit
    <I>a set of agency “stories” that document the key activities, inputs, outputs, and other LOB intersections to describe how the Federal government operates.</I>
    <BR><BR>
    To be developed.
-   
+
    </td>
   </tr>
  </table>
- 
+
 <section class="usa-section usa-grid">
       <table  width="100%">
        <tr><td align=right  style="border-style:hidden;">
     <A HREF="#top">Back to top</A>
         </td>
-        
+
        </tr>
-       
+
       </table>
-      
+
    <BR><BR>
 
 
- 
+
  <hr>
  <!-- STANDARD DATA ELEMENTS -->
-   
+
         <table  style="border-style: hidden;"><tr><td  width="220" valign=top>
  <A NAME="standard_data_elements" style="border-style: hidden;"> <img src="../assets/img/fibf/04.standard.data.elements.sm.png">
   </td>
@@ -1190,64 +1206,64 @@ Purchase Card Audit
 Full life cycle procurement standard data elements to be developed.
  <UL>
   <LI><A HREF="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1041/2017/01/FederalElectronicInvoicingDataElementsStandards.pdf">Electronic Invoicing Standard Data ELements</A></LI>
-  
+
  </UL>
-   
+
    </td>
   </tr>
  </table>
- 
-       
+
+
       <table  width="100%">
        <tr><td align=right  style="border-style:hidden;">
     <A HREF="#top">Back to top</A>
         </td>
-        
+
        </tr>
-       
+
       </table>
- 
-   
+
+
    <BR><BR>
-             <hr>  
+             <hr>
  <!-- PERFORMANCE METRICS -->
-   
+
         <table style="border-style: hidden;"><tr><td valign=top  width="220" style="border-style: hidden;">
  <A NAME="performance_metrics"> <img src="../assets/img/fibf/05.performance.metrics.sm.png">
   </td>
   <td valign=top style="border-style: hidden;">
    <font style="font-family: arial; font-size: 20px;"><strong>Performance Metrics - Procurement</STRONG></font><BR>
 <I>Define how the government measures successful delivery of outcomes based on timeliness, efficiency, and accuracy targets.</I>
-  
+
    <BR><BR>
     To be developed.
 </td>
   </tr>
  </table>
- 
-   
-       
+
+
+
       <table  width="100%">
        <tr><td align=right  style="border-style:hidden;">
     <A HREF="#top">Back to top</A>
         </td>
-        
+
        </tr>
-       
+
       </table>
-    
+
    <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
 
-   
-         
+
+
         </section>
-      
-         
-         
-         
+
+
+
+
 
  <script type="text/javascript">
-   
+
   $(document).ready(function() {
     $('#table_id').DataTable( {
         dom: 'Bfrtip',
@@ -1256,14 +1272,14 @@ Full life cycle procurement standard data elements to be developed.
         ]
     } );
 } );
-  
-  
-  
- </script>
-    
-    
 
-  
+
+
+ </script>
+
+
+
+
   <SCRIPT LANGUAGE="javascript">
 
 Image1 = new Image(265,406)
@@ -1273,32 +1289,31 @@ Image2 = new Image(265,406)
 Image2.src = "../assets/img/fibf/01.fibf.bc.on.png"
 
 Image3 = new Image(265,406)
-Image3.src = "../assets/img/fibf/01.fibf.uc.on.png" 
+Image3.src = "../assets/img/fibf/01.fibf.uc.on.png"
 
 Image4 = new Image(265,406)
-Image4.src = "../assets/img/fibf/01.fibf.de.on.png" 
+Image4.src = "../assets/img/fibf/01.fibf.de.on.png"
 
 Image5 = new Image(265,406)
-Image5.src = "../assets/img/fibf/01.fibf.pm.on.png" 
+Image5.src = "../assets/img/fibf/01.fibf.pm.on.png"
 
 Image6 = new Image(265,406)
-Image6.src = "../assets/img/fibf/service.areas.fm.hr.png" 
+Image6.src = "../assets/img/fibf/service.areas.fm.hr.png"
 
 Image7 = new Image(265,406)
-Image7.src = "../assets/img/fibf/service.areas.fm.fm.png" 
+Image7.src = "../assets/img/fibf/service.areas.fm.fm.png"
 
 Image8 = new Image(265,406)
-Image8.src = "../assets/img/fibf/service.areas.fm.acq.png" 
+Image8.src = "../assets/img/fibf/service.areas.fm.acq.png"
 
 Image9 = new Image(265,406)
-Image9.src = "../assets/img/fibf/service.areas.fm.tv.png" 
-   
+Image9.src = "../assets/img/fibf/service.areas.fm.tv.png"
+
 Image10 = new Image(265,406)
-Image10.src = "../assets/img/fibf/service.areas.fm.gm.png" 
-   
-      
-   
-   
-   
+Image10.src = "../assets/img/fibf/service.areas.fm.gm.png"
+
+
+
+
+
 </SCRIPT>
-  
