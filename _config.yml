@@ -95,7 +95,6 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE.md
   - README.md
-    - /pages 
 
 
 
