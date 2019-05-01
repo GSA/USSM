@@ -4,7 +4,7 @@ description: Unified Shared Services Management (USSM)
 baseurl: '' # the subpath of your site, e.g. /blog/
 url: 'https://www.ussm.gsa.gov' # the base hostname & protocol for your site
 logo: /assets/img/placeholder-logo.gif
-feature_image: /assets/img/placeholder-logo.png
+feature_image: assets/img/about/ussm-mark.png
 org_name: GSA
 repo_name: federalist-modern-team-template
 
