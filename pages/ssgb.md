@@ -9,25 +9,21 @@ permalink: /ssgb/
 
 | Representation     | Name           |
 | ------------- |-------------|
-| SSGC (Co-Chair)    | Suzette Kent |
-| OSSPI (Co-Chair) | Beth Angerman   |  
-| Category Management     | John Bashista      |
-| CFO Council     |  Stacy Marcott      |
-| CFO Council | Sheila Conley |  
+| SSGB (Co-Chair)    | Suzette Kent |
+| SSGB (Co-Chair) | Emily Murphy   |  
+| CFO Council     |  Tom Gilman      |
+| CFO Council | Jen Funk |  
+| CIO Council | Dorothy Aronson      |  
 | CIO Council | Joe Klimavicz      |  
-| CIO Council | Jason Gray      |  
-| CAO Council | Soraya Correa      |  
-| CAO Council | TBD     |  
-| CHCO Council   | Bob Gibbs        |  
-| CHCO Council   | Anita Blair        |  
-| Central Policy Agency FM | Dave Lebryk    |  
-| Central Policy Agency HR | Mark Reinhold    |  
-| Central Policy Agency Acq/Travel/Fleet | Jessica Salmoiraghi    |  
-| Small Agency Council | Steve McLaughlin    |  
-| Small Agency Council | Corrine Eilo    |  
+| CAO Council | John Bashista      |  
+| CAO Council | Michael Wooten     |  
+| CHCO Council   | Kevin Mahoney        |  
+| CHCO Council   | Ann Vicks        |  
 | Performance Improvement Council | Dat Tran      |
-| Performance Improvement Council | TBD    |  
-| GSA Federal Acquisition Service | Alan Thomas      |
+| Performance Improvement Council | Final confirmation in process    |  
+| Small Agency Council | Patrick Bevill    |  
+| Small Agency Council | Final confirmation in process    |  
+
 
 
 
