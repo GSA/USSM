@@ -11,13 +11,13 @@ permalink: /ssgb/
 | ------------- |-------------|
 | SSGB (Co-Chair)    | Suzette Kent |
 | SSGB (Co-Chair) | Emily Murphy   |  
-| CFO Council     |  Tom Gilman      |
+| CFO Council     |  Irv Dennis      |
 | CFO Council | Jen Funk |  
 | CIO Council | Dorothy Aronson      |  
 | CIO Council | Joe Klimavicz      |  
 | CAO Council | John Bashista      |  
 | CAO Council | Michael Wooten     |  
-| CHCO Council   | Kevin Mahoney        |  
+| CHCO Council   | Paula Patrick   |  
 | CHCO Council   | Ann Vicks        |  
 | Performance Improvement Council | Dat Tran      |
 | Performance Improvement Council | Final confirmation in process    |  
