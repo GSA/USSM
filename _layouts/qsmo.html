@@ -2,6 +2,12 @@
 layout: base
 
 ---
+<div class="usa-alert usa-alert-info" style="margin-top:0px">
+    <div class="usa-alert__body">
+    <p style="padding-left:55px;" class="usa-alert__text"><b>March X, 2020</b>: Agency X has been designated for XXX. Learn more here.</p>
+  </div>
+</div>
+
 <section class="usa-section"  style="background-image: url('{{ site.baseurl }}/assets/img/homepage-update-image-2.png');color:#ffffff">
   <div class="usa-grid">
     <div class="usa-width-one-whole usa-media_block">
@@ -37,13 +43,13 @@ layout: base
 
 <section class="usa-section" style="background-color: #f1f1f1; padding-top:30px;padding-bottom:15px">
   <div class="usa-grid">
-    <div class="usa-width-one-third border usa-media_block" style="padding: 5px;">
-      <a class=" hvr-sink" href="#what" style="text-decoration:none;"><h4 style="color:black">What are QSMOs?</h4>
-      <center><p><img  src="../assets/img/project-icons/arrow-down.png" style="width:35px;"></p></center></a>
-    </div>
     <div class="usa-width-one-third border usa-media_block inner" style="padding: 5px;">
       <a class="hvr-sink" href="#who"style="text-decoration:none;"><h4 style="color:black">Who are the QSMOs?</h4>
       <center><p><img src="../assets/img/project-icons/arrow-down.png" style="width:35px;"></p></center</a>
+    </div>
+    <div class="usa-width-one-third border usa-media_block" style="padding: 5px;">
+      <a class=" hvr-sink" href="#what" style="text-decoration:none;"><h4 style="color:black">What are QSMOs?</h4>
+      <center><p><img  src="../assets/img/project-icons/arrow-down.png" style="width:35px;"></p></center></a>
     </div>
     <div class="usa-width-one-third border-last usa-media_block inner" style="padding: 5px;">
     <a class="hvr-sink" class="grow "href="#how" style="text-decoration:none;"><h4 style="color:black">How will agencies get support from the QSMO?</h4>
@@ -51,33 +57,23 @@ layout: base
     </div>
 </section>
 
-<a name="what"></a>
-<section class="usa-section">
-  <div class="usa-grid">
-    <a name="what"></a>
-    <div class="usa-width-one-third usa-media_block">
-      <h3>{{ page.about-text }}</h3>
-    </div>
-    <div class="usa-width-two-thirds usa-media_block">
-      <a name="what"></a>
-      <p style="margin-top:0;">Housed in federal agencies with the mission and expertise to deliver standard capabilities for other agencies, QSMOs will:</p>
-      <ul>
-        <li>Offer and manage a marketplace of solutions for common technology, services, or fully managed services to respond to agency needs;</li>
-        <li>Guide and govern the long-term sustainability of the services and solutions marketplace;</li>
-        <li>Institute a customer engagement and feedback model that allows for continuous improvement and performance management of solutions; and </li>
-        <li>Drive the implementation to standards established through the collaborative governance process that produce efficiencies in process and scale. </li>
-      </ul>
-    </div>
-</section>
 
 <a name="who"></a>
-<section class="usa-section" style="background-color: #205493;">
+<section class="usa-section" style="background-color: #205493;padding-bottom:20px;">
   <div class="usa-grid">
     <div class="usa-width-one-whole usa-media_block">
       <a name="who"></a>
       <h2 style="color:#ffffff;margin-top:0px;">Who are the QSMOs?</h2>
       <h4 style="color:#ffffff">OMB will designate specific agencies to stand up QSMOs for select mission support functions. These agencies will submit initial 5-Year Plans indicating how they will offer select mission support functions to other Federal agencies. Final QSMO designation, issued by OMB in consultation with the Shared Solutions Governance Board (SSGB), is contingent upon development and approval of the aforementioned 5-Year Plan and its alignment with QSMO long-term designation criteria.</h4>
     </div>
+    </div>
+    </section>
+    <section class="usa-section" style="background-color: #205493;padding-top:0px;">
+    <div class="usa-grid">
+    <div class="usa-width-one-whole usa-media_block">
+      <hr color-"white">
+      <h5 style="color:white;"><b>March X, 2020</b>: Agency X has been designated for XXXX. </h5>
+     </div>
   </div>
 </section>
 
@@ -87,11 +83,12 @@ layout: base
     <div class="usa-width-one-sixth usa-media_block">
           <!--<center><img src ="{{ site.baseurl }}/assets/img/project-icons/three.png" style="width:60px;">REMOVING NUMBERS-->
       <h4 style="color:black;margin-top:10px;">Formal Designation Phase</h4></center>
+      <a class="usa-button" style="font-size:14px;" href="{{ site.baseurl}}/assets/files/QSMO-Long-term-Designation-Criteria.pdf">Designation Criteria</a>
+
     </div>
 
     <div class="usa-width-five-sixths usa-media_block border-left-white" style="padding-top: 3%;padding-bottom: 3%;text-align: left;">
       <div class="border-padding" style="border-bottom:none;">
-          <a class="usa-button usa-button" href="{{ site.baseurl}}/assets/files/QSMO-Long-term-Designation-Criteria.pdf">Read Designation Criteria</a>
       </div>
   </div>
 </div>
@@ -101,7 +98,7 @@ layout: base
 <div class="usa-width-one-whole usa-media_block">
       <!--<center><img src ="{{ site.baseurl }}/assets/img/project-icons/three.png" style="width:60px;">REMOVING NUMBERS-->
   <h4 style="color:black;margin-top:10px;">Formal Designation Phase</h4></center>
-  <a class="usa-button usa-button" href="{{ site.baseurl}}/assets/files/QSMO-Long-term-Designation-Criteria.pdf">Read Designation Criteria</a>
+  <a class="usa-button" href="{{ site.baseurl}}/assets/files/QSMO-Long-term-Designation-Criteria.pdf">Designation Criteria</a>
 </div>
 </div>
 </div>
@@ -114,7 +111,7 @@ layout: base
     <div class="usa-width-one-sixth usa-media_block ">
       <!--<img src ="{{ site.baseurl }}/assets/img/project-icons/two.png" style="width:60px;"> REMOVING NUMBERS-->
       <h4 style="color:black;margin-top:10px;">Assessment & Pre-designation Phase</h4>
-      <p style="font-size:14px;"><em>Specific scope and timeline of services offered will be determined/defined during the pre-designation phase</em></p>
+      <p><em>Specific scope and timeline of services offered will be determined/defined during the pre-designation phase</em></p>
       <!--<div class="rotate">&#171;</div>-->
     </div>
   <div id="qsmo-large"> <!--mobile responsive id tag - hides this section for 600px -1201px-->
@@ -385,6 +382,26 @@ layout: base
     </div>
   </div>
 </section>-->
+
+<a name="what"></a>
+<section class="usa-section">
+  <div class="usa-grid">
+    <a name="what"></a>
+    <div class="usa-width-one-third usa-media_block">
+      <h3>{{ page.about-text }}</h3>
+    </div>
+    <div class="usa-width-two-thirds usa-media_block">
+      <a name="what"></a>
+      <p style="margin-top:0;">Housed in federal agencies with the mission and expertise to deliver standard capabilities for other agencies, QSMOs will:</p>
+      <ul>
+        <li>Offer and manage a marketplace of solutions for common technology, services, or fully managed services to respond to agency needs;</li>
+        <li>Guide and govern the long-term sustainability of the services and solutions marketplace;</li>
+        <li>Institute a customer engagement and feedback model that allows for continuous improvement and performance management of solutions; and </li>
+        <li>Drive the implementation to standards established through the collaborative governance process that produce efficiencies in process and scale. </li>
+      </ul>
+    </div>
+</section>
+
 
 <a name="how"></a>
 <section class="usa-section">
