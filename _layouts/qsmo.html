@@ -2,9 +2,9 @@
 layout: base
 
 ---
-<div class="usa-alert usa-alert-info" style="margin-top:0px">
+<div class="usa-alert usa-alert-info" style="margin-top:0px; background-color:#f1f1f1">
     <div class="usa-alert__body">
-    <p style="padding-left:55px;" class="usa-alert__text"><b>March X, 2020</b>: Agency X has been designated for XXX. Learn more here.</p>
+    <p style="padding-left:55px;margin-top:10px" class="usa-alert__text"><b>March X, 2020</b>: Agency X has been designated for XXX. To learn more, read the <a href="##">press release</a>, view the <a href="##">designation letter</a>, or view our designation table below.</p>
   </div>
 </div>
 
@@ -35,9 +35,9 @@ layout: base
     </div>
     <br>
     <br>
-    <a class="usa-button usa-button-big" target="_blank" href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf" style="background-color:#e31c3d">&nbsp {{ page.button-text-1 }}&nbsp </a>
-    <a class="usa-button  usa-button-big " href="https://www.performance.gov/CAP/CAP_goal_5.html" style="background-color:#e31c3d">{{ page.button-text-2 }}</a>
-    <a class="usa-button usa-button-big" href="{{ site.baseurl }}/assets/files/SQS-Public-FAQs-April-2019.pdf" style="background-color:#e31c3d">FAQs</a>
+    <a class="usa-button" target="_blank" href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf" style="background-color:#e31c3d">Memo 19-16</a>
+    <a class="usa-button" href="https://www.performance.gov/CAP/CAP_goal_5.html" style="background-color:#e31c3d">Press Release</a>
+    <a class="usa-button" href="{{ site.baseurl }}/assets/files/SQS-Public-FAQs-April-2019.pdf" style="background-color:#e31c3d">Designation Letter</a>
   </center>
 </section>
 
@@ -72,7 +72,8 @@ layout: base
     <div class="usa-grid">
     <div class="usa-width-one-whole usa-media_block">
       <hr color-"white">
-      <h5 style="color:white;"><b>March X, 2020</b>: Agency X has been designated for XXXX. </h5>
+      <p class="qsmo-tag" style="color:white;font-size:15px;margin-top:5px;margin-bottom:0px;">March X, 2020</p>
+      <p style="color:white;margin-top:10px">Agency X has been designated for XXXX. To learn more, read the <a href="##" style="color:white">press release</a>, view the <a href="##" style="color:white">designation letter</a>, or view our designation table below.</p>
      </div>
   </div>
 </section>
@@ -87,11 +88,23 @@ layout: base
 
     </div>
 
-    <div class="usa-width-five-sixths usa-media_block border-left-white" style="padding-top: 3%;padding-bottom: 3%;text-align: left;">
+      <div class="usa-width-one-sixth usa-media_block border-left-white" style="text-align:center;">
+        <div class="border-padding">
+          <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/cyber.png" id="dark-blue-icon">
+        <p id="qsmo"><b>XXX, XXX, XXX</b></p>
+          <p class="qsmo-tag">Cybersecurity Services</p>
+        <p></p>
+        </div>
+        <div class="align">
+          <p id="designated" class="tooltip"><i>QSMO Agency: XXX</i>
+            <br /><a href="mailto:QSMO@hq.dhs.gov">Learn more</a>
+            <span class="tooltiptext"><i>XXX, XXXX, XXX, XX </i><br><br><a style="color:white" href="mailto:QSMO@hq.dhs.gov">QSMO@hq.dhs.gov</a></span></p>
+        </div>
+      </div>
+
       <div class="border-padding" style="border-bottom:none;">
       </div>
   </div>
-</div>
 
 <!--MOBILE RESPONSIVE-->
 <div id="qsmo-mobile"> <!--mobile responsive id tag - hides this section for 600px -1201px-->
@@ -122,7 +135,7 @@ layout: base
     </div>
     <div class="align">
       <p id="designated" class="tooltip"><i>QSMO Agency: GSA</i>
-        <br /><a href="mailto:QSMO_Info@gsa.gov">Contact</a>
+        <br /><a href="mailto:QSMO_Info@gsa.gov">Learn more</a>
       <span class="tooltiptext"><i>Talent Acquisition, Talent Development, Employee Performance Management, and Compensation and Benefits Management</i><br><br><a style="color:white" href="mailto:QSMO_Info@gsa.gov">QSMO_Info@gsa.gov</a></span></p>
       </div>
     </div>
@@ -133,7 +146,7 @@ layout: base
       </div>
       <div class="align">
         <p id="designated" class="tooltip"><i>QSMO Agency: Treasury</i>
-          <br /><a href="mailto:FMQSMO@Fiscal.Treasury.Gov">Contact</a>
+          <br /><a href="mailto:FMQSMO@Fiscal.Treasury.Gov">Learn more</a>
         <span class="tooltiptext"><i>Accounts Payable, Accounts Receivable, General Ledger, Reporting</i><br><br><a style="color:white" href="mailto:FMQSMO@Fiscal.Treasury.Gov">FMQSMO@Fiscal.Treasury.Gov</a></span></p>
     </div>
     </div>
@@ -144,7 +157,7 @@ layout: base
       </div>
       <div class="align">
         <p id="designated" class="tooltip"><i>QSMO Agency: DHS</i>
-          <br /><a href="mailto:QSMO@hq.dhs.gov">Contact</a>
+          <br /><a href="mailto:QSMO@hq.dhs.gov">Learn more</a>
           <span class="tooltiptext"><i>Network Defense, Vulnerability Management, Security Operations, Incident Management, Threat Intelligence, Enterprise Intrusion, Detection/Prevention, Cyber Supply Chain Risk Management, DNS Services, Hardware/Software Asset Management, Digital Identity and Access Management, Data Protection, Mobile Security Services</i><br><br><a style="color:white" href="mailto:QSMO@hq.dhs.gov">QSMO@hq.dhs.gov</a></span></p>
       </div>
     </div>
@@ -155,7 +168,7 @@ layout: base
     </div>
     <div class="align">
       <p id="designated" class="tooltip"><i>QSMO Agency: HHS</i>
-        <br /><a href="mailto:GrantsQSMO@hhs.gov">Contact</a>
+        <br /><a href="mailto:GrantsQSMO@hhs.gov">Learn more</a>
       <span class="tooltiptext"><i>Grant Program Administration and Oversight, Management of Grant Pre-Award, Award, Post-Award & Closeout, Grant Recipient Oversight (initial focus may be a Single Audit Solution)</i><br><br><a style="color:white" href="mailto:GrantsQSMO@hhs.gov">GrantsQSMO@hhs.gov</a></span></p>
     </div>
     </div>
@@ -171,7 +184,7 @@ layout: base
   </div>
   <div class="align">
     <p id="designated" class="tooltip"><i>QSMO Agency: GSA</i>
-      <br /><a href="mailto:QSMO_Info@gsa.gov">Contact</a>
+      <br /><a href="mailto:QSMO_Info@gsa.gov">Learn more</a>
     <span class="tooltiptext"><i>Operational Support for: Talent Acquisition, Talent Development, Employee Performance Management, and Compensation and Benefits Management</i><br><br><a style="color:white" href="mailto:QSMO_Info@gsa.gov">QSMO_Info@gsa.gov</a></span></p>
     </div>
   </div>
@@ -182,7 +195,7 @@ layout: base
     </div>
     <div class="align">
       <p id="designated" class="tooltip"><i>QSMO Agency: Treasury</i>
-        <br /><a href="mailto:FMQSMO@Fiscal.Treasury.Gov">Contact</a>
+        <br /><a href="mailto:FMQSMO@Fiscal.Treasury.Gov">Learn more</a>
       <span class="tooltiptext"><i>Accounts Payable, Accounts Receivable, General Ledger, Reporting</i><br><br><a style="color:white" href="mailto:FMQSMO@Fiscal.Treasury.Gov">FMQSMO@Fiscal.Treasury.Gov</a></span></p>
   </div>
   </div>
@@ -195,7 +208,7 @@ layout: base
     </div>
     <div class="align">
       <p id="designated" class="tooltip"><i>QSMO Agency: DHS</i>
-        <br /><a href="mailto:QSMO@hq.dhs.gov">Contact</a>
+        <br /><a href="mailto:QSMO@hq.dhs.gov">Learn more</a>
         <span class="tooltiptext"><i>Network Defense, Vulnerability Management, Security Operations, Incident Management, Threat Intelligence, Enterprise Intrusion, Detection/Prevention, Cyber Supply Chain Risk Management, DNS Services, Hardware/Software Asset Management, Digital Identity and Access Management, Data Protection, Mobile Security Services</i><br><br><a style="color:white" href="mailto:QSMO@hq.dhs.gov">QSMO@hq.dhs.gov</a></span></p>
     </div>
   </div>
@@ -206,7 +219,7 @@ layout: base
     </div>
     <div class="align">
       <p id="designated" class="tooltip"><i>QSMO Agency: HHS</i>
-        <br /><a href="mailto:GrantsQSMO@hhs.gov">Contact</a>
+        <br /><a href="mailto:GrantsQSMO@hhs.gov">Learn more</a>
       <span class="tooltiptext"><i>Grant Program Administration and Oversight, Management of Grant Pre-Award, Award, Post-Award & Closeout, Grant Recipient Oversight (initial focus may be a Single Audit Solution)</i><br><br><a style="color:white" href="mailto:GrantsQSMO@hhs.gov">GrantsQSMO@hhs.gov</a></span></p>
     </div>
   </div>
@@ -422,7 +435,7 @@ layout: base
         <tr>
           <th style="background-color: #205493;color:white;">Functional Area</th>
           <th style="background-color: #205493;color:white;">Legacy Designated Providers</th>
-          <th style="background-color: #205493;color:white;">Pre-Designated QSMO</th>
+          <th style="background-color: #205493;color:white;">Pre/Designated QSMO</th>
         </tr>
         <tr>
          <td style="padding:1.15rem;">Civilian HR Transaction Services</td>
