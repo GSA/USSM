@@ -1,0 +1,977 @@
+
+/*2020 styling*/
+
+.card-image-gog-team-2020 {
+  object-position: center;
+    height: 160px;
+    margin: 0;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.winner {
+  margin-bottom: 20px;
+}
+
+.description-2020 {
+  font-size: 12px;
+}
+
+.archive-container {
+  padding: 15px;
+  border-left: 8px solid #ffbe2e;
+  background: #f0f0f0;
+  height: 235px;
+
+}
+
+.archive-container-team {
+  padding: 15px;
+  border-left: 8px solid #60bb46;
+  background: #f0f0f0;
+  height: 350px;
+
+}
+
+.archive-container-council {
+  padding: 15px;
+  border-left: 8px solid #60a9d2;
+  background: #f0f0f0;
+  height: 350px;
+
+}
+
+/****************************styling for policy catalog******************************/
+.no-style {
+  text-decoration: none;
+  color: black;
+}
+.grid-spacing {
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px 10px 0px 0px;
+
+}
+
+.filters {
+
+}
+
+.filters ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.filters li {
+    margin: 0 2px 2px 0;
+}
+
+.big {
+  font-size: 20px;
+}
+
+.filters a {
+    display: block;
+    padding: .5em 1em;
+    font-size: 80%;
+    border: solid 1px hsl(0, 0%, 50%);
+    color: #333;
+    text-decoration: none;
+    background: white;
+}
+
+
+.filters a:hover {
+    outline: 2px solid hsl(0, 0%, 50%);
+}
+
+a.checked {
+    background: hsl(0, 0%, 50%);
+    color: white;
+}
+
+.policy-border {
+  border-top: solid 4px #f2938c;
+}
+
+.priority-border {
+  border-top: solid 4px #97d4ea
+}
+
+
+.website-border {
+  border-top: solid 4px #07648d;
+}
+
+.guidance-border {
+  border-top: solid 4px #07648d;
+}
+
+.report-border {
+  border-top: solid 4px #07648d;
+}
+
+.presentation-border {
+  border-top: solid 4px #07648d;
+}
+
+.gog-agency-text {
+    background-color: #1a4480;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 3px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    padding: 2px;
+
+}
+.gog-agency-tag {
+background-color: #981b1e;
+border-radius: 0.3rem;
+color: #ffffff;
+font-size: 1.2rem;
+margin-right: .5em;
+padding: 0.3rem;
+}
+
+
+/* ****** button dropdown ******** */
+.iso-nav {
+  text-align: left;
+  padding-bottom:10px;
+  z-index: 9999;
+  padding-left: 0;
+}
+
+.iso-nav ul li {
+
+  margin: 0;
+  padding: 8px 10px;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 9999;
+
+}
+
+.iso-nav #agency {
+  border: 1px solid #112e51;
+  cursor: pointer;
+  margin: 3.5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+}
+
+.iso-nav #agency:hover {
+ background:#00bde3;
+  color: #ffffff;
+
+}
+
+.iso-nav #agency-1 {
+  border: 1px solid #112e51;
+  cursor: pointer;
+  margin: 3.5px;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+
+
+}
+
+.iso-nav #agency-1:hover {
+ background:#00bde3;
+  color: #ffffff;
+
+}
+
+.iso-nav #show-all {
+  border: 1px solid #cd2026;
+  cursor: pointer;
+  margin: 3.5px;
+  color: #cd2026;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.iso-nav #show-all:hover {
+  background:#cd2026;
+  color: #ffffff;
+}
+
+.iso-nav ul li:hover {
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#myDropdown {
+      z-index: 9999;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #ffffff;
+    width:100%;
+    overflow:auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin:15px;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+        z-index: 9999;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* ****** MAIN PORTFOLIO ******** */
+
+.main-iso {
+  width:inherit;
+}
+ .no-results {
+   font-size: 3rem;
+   font-weight: bold;
+   align: center;
+ }
+
+.main-iso .item {
+
+}
+.item img {
+}
+
+.active {
+  background-color: #00bde3;
+  color: #ffffff;
+
+/*Card styling*/
+}
+.winner-text {
+background-color: #ffffff;
+ flex: 1 0 auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  float: left;
+  height:156px;
+  padding: 0rem 2rem 1rem 2rem;
+  width: 100%;
+  margin-top: -7px;
+  z-index: 1;
+
+}
+
+.winner-text-president {
+background-color: #ffffff;
+ flex: 1 0 auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  float: left;
+  height:142px;
+  padding: 0rem 2rem 1rem 2rem;
+  width: 100%;
+  margin-top: -7px;
+  z-index: 1;
+
+}
+
+.winner-text-ag-cou {
+background-color: #ffffff;
+ flex: 1 0 auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  float: left;
+  height:240px;
+  padding: 0rem 2rem 1rem 2rem;
+  width: 100%;
+  margin-top: -7px;
+  z-index: 1;}
+
+  .winner-text-team {
+    border-top: 1px solid #f1f1f1;
+    flex: 1 0 auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    float: left;
+    height:200px;
+    padding: 0rem 2rem 1rem 2rem;
+    width: 100%;
+    margin-top: -7px;
+    z-index: 1;
+
+  }
+
+  #winner {
+  width: 100%;
+  height: 160px;
+  object-fit: cover ;
+     z-index: 1;
+  }
+
+  #winner-left {
+  width: 72%;
+  float: left;
+  height: 30px;
+  }
+
+  #winner-right {
+  width: 28%;
+  float: right;
+  height: 50px;
+  }
+
+  .card-image-gog {
+    object-fit:cover;
+    border-radius: 10px 10px 0px 0px;
+    height: 160px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   }
+
+
+ .card-image-gog-presidents {
+   object-fit:cover;
+   height: 257px;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+  }
+
+ .card-image-gog-agency {
+   object-fit:cover;
+   height: 80px;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+  }
+
+  .card-image-gog-team {
+    object-position: center;
+    object-fit: scale-down;
+    height: 160px;
+    margin: 0;
+    padding: 9px;
+    width: 160px;
+   }
+
+  .card-image-gog-team-award {
+   border-radius: 10px 10px 0px 0px;
+   object-position: center;
+   object-fit: cover;
+   height: 160px;
+   margin: 0;
+}
+
+
+
+
+  .team {
+    color: #323a45;
+    list-style: none;
+    font-size: .7em;
+    margin-bottom: 0;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .team-modal {
+    color: #212121;
+    list-style: square;
+    font-size: .7em;
+    margin-bottom: 0;
+  }
+
+  .modal-title {
+    color: #212121;
+    list-style: square;
+    font-size: .7em;
+    margin-bottom: 0;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+.team-right {
+  color: #323a45;
+  list-style: none;
+  font-size: .7em;
+  margin-bottom: 0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+
+
+.name-text {
+
+ z-index: 1;
+}
+* { box-sizing: border-box; }
+
+#agency-winner-border {
+  border-left: .6rem solid #00cfff;
+      border-color: #2e8540;
+      padding-left: .7rem;
+      color:#ffffff;
+}
+
+#agency-winner-border-modal {
+  border-left: .6rem solid #00cfff;
+      border-color: #2e8540;
+      padding-left: .7rem;
+      color:#212121;
+}
+
+
+#council-winner-border {
+  border-left: .6rem solid #00cfff;
+      border-color: #02bfe7;
+      padding-left: .7rem;
+      color:#ffffff;
+}
+
+#council-winner-border-modal {
+  border-left: .6rem solid #00cfff;
+      border-color: #02bfe7;
+      padding-left: .7rem;
+      color:#212121;
+}
+
+#president-winner-border {
+  border-left: .6rem solid #00cfff;
+      border-color: #fdb81e;
+      padding-left: .7rem;
+      color:#ffffff;
+}
+
+#president-winner-border-modal {
+  border-left: .6rem solid #00cfff;
+      border-color: #fdb81e;
+      padding-left: .7rem;
+      color:#212121;
+}
+
+
+  /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
+.shadow {
+  margin:10px;
+  height:320px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);}
+  /*perspective: 1000px;} flipper */
+  /*.shadow:hover .flipper  { for flipper
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    transform: rotateY(180deg);}*/
+
+.shadow:active {
+  box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf; }
+  @media screen and (min-width: 600px) {
+    .shadow {
+      margin-bottom: 10px; } }
+
+.shadow, .front, .back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    top: 0;
+    left: 0;
+
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+      background-color: #112e51;
+      color: #ffffff;
+      position: absolute;
+      height: -webkit-fill-available;
+      width: -webkit-fill-available;
+      padding: 0rem 2rem 1rem 2rem;
+
+}
+
+  /* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+  }
+
+
+  /*SMOOTH ACCORDION*/
+
+
+
+
+
+/** =======================
+ * Contenedor Principal
+ ===========================*/
+
+.accordion {
+  width: 100%;
+  max-width: 100%;
+  margin: 30px auto 20px;
+  background: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px 15px 8px;
+  margin: 3.5px 3.5px 20px 3.5px;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+
+.accordion li:last-child .link { border-bottom: 0; }
+
+.accordion li i {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 18px;
+  color: #595959;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px;
+}
+
+.accordion li.open .link { color: #1a4480; }
+
+.accordion li.open i { color: #1a4480; }
+
+.accordion li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/*second menu*/
+.accordion-1 {
+  width: 100%;
+  max-width: 100%;
+  margin: 30px auto 20px;
+  background: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.accordion-1 .link-1 {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px 15px 8px;
+  margin: 3.5px 3.5px 20px 3.5px;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion-1 li:last-child .link { border-bottom: 0; }
+
+.accordion-1 li i {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 18px;
+  color: #595959;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion-1 li i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px;
+}
+
+.accordion-1 li.open .link-1{ color: #1a4480; }
+
+.accordion-1 li.open i { color: #1a4480; }
+
+.accordion-1 li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.submenu-1 {
+  display: none;
+  font-size: 14px;
+}
+
+.submenu-1 li { border-bottom: 1px solid #4b4a5e; }
+
+.submenu-1 a {
+  display: block;
+  text-decoration: none;
+  color: #d9d9d9;
+  padding: 12px;
+  padding-left: 0px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.submenu-1 a:hover {
+  background: #b63b4d;
+  color: #FFF;
+}
+
+
+
+/**
+ * Submenu
+ -----------------------------*/
+
+
+.submenu {
+  display: none;
+  font-size: 14px;
+}
+
+.submenu li { border-bottom: 1px solid #4b4a5e; }
+
+.submenu a {
+  display: block;
+  text-decoration: none;
+  color: #d9d9d9;
+  padding: 12px;
+  padding-left: 0px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.submenu a:hover {
+  background: #b63b4d;
+  color: #FFF;
+}
+
+
+/*slide down*/
+
+.container-GoG {
+  position: relative;
+  padding: 15px;
+  width: 100%;
+  display: block;
+  width: 100%;
+  height: 225px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.container-GoG-pres {
+  position: relative;
+  width: 100%;
+  display: block;
+  width: 100%;
+    border-radius: 10px;
+    height: 150px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.image {
+
+}
+
+.overlay {
+  color: white;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(17,46,81,1);
+  overflow: hidden;
+  border-radius: 10px;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container-GoG:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.container-GoG:focus .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text-ag-cou {
+  position: absolute;
+
+}
+.text {
+  color: white;
+  position: absolute;
+  padding: 15px;
+}
+.card-tag-winner {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.twitter {
+  color: white;
+  background-color: #1DA1F2;
+  width: 200px;
+  text-align: center;
+  font-size: 1.4rem;
+  float: right;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 8px;
+  margin: 3.5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .twitter {
+    float: none; } }
+
+
+    /* The Modal (background) */
+    .GoG-modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 50px; /* Location of the box */
+        bottom: 0;
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content-GoG {
+        background-color: #ffffff;
+        color: #212121;
+        margin: auto;
+        padding: 40px;
+        border: 5px solid #d6d7d9;
+        width: 40%;
+        text-align: left;
+        min-width: 400px;
+
+    }
+
+    .modal-content-GoG h2 {
+      font-size: 2em;
+    }
+
+    /* The Close Button */
+    .close-GoG {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close-GoG:hover,
+    .close-GoG:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+/*title*/
+
+.title-container {
+  width: 100%;
+  padding-top:30px;
+  padding-bottom:40px;
+}
+
+.title-container-left {
+ width:18%;
+ float: left;
+
+}
+
+.title-container-right {
+ width:82%;
+ float: right;
+}
+
+.title-container-right h1 {
+ margin-top: 10px;
+}
+
+#image-GoG {
+  background-image: url(../img/GoG/title-banner.png);
+  object-fit: fill;
+}
+
+@media screen and (max-width: 831px) {
+  .media-GoG {
+    display: none; } }
+
+.item-presidents {
+  width:200px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left;
+  }
+
+  @media screen and (max-width: 900px) {
+    #desktop-pres {
+      display: none; }
+
+    }
+
+  @media screen and (min-width: 899px) {
+    #mobile-pres {
+      display: none; }
+
+    }
+
+    #image-data {
+      background-image: url(../img/homepage_images/graphs.png);
+      object-fit: fill;
+    }
+
+
+//data//
+
+#initializing_thin_client {
+opacity: 0;
+}
+
+.wcBody {
+opacity: 0;
+}
+
+#svg-spinner {
+  width: 50px;
+  height: 50px;
+  -webkit-animation: svg-spinner-animation 1s linear infinite;
+  animation: svg-spinner-animation 1s linear infinite;
+  opacity:0;
+  /* display: none; */
+}
+
+#loadingGlassPane {
+    /* background-color: #EBEBEB; */
+    opacity: 0.24;}
+
+.qsmo-tag {
+  color: #1a4480;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 3px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  padding: 2px;
+}
