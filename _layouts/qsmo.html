@@ -71,9 +71,29 @@ layout: base
 
 <section class="usa-section usa-graphic_list">
  <div class="usa-grid usa-graphic_list-row">
-   <div class="usa-width-one-whole usa-media_block ">
+   <div class="usa-width-one-whole ">
       {% include qsmo-filter.html %}
-      {% include qsmo-container.html %}
+      <!--********Generates policy catalog items. Individual cards live in the in the _policies folder**************-->
+
+      <div class="usa-width-three-fourths usa-media_block ">
+        <p class="filter-count qsmo-tag"></p>
+        <div class="2020-winners">
+
+          {% for qsmos in site.qsmos %}
+            <div class="usa-width-one-third {{ qsmos.filters }} ">
+              <div class="container-GoG" tabindex="0" style="border-top: 5px solid #{{qsmos.border}};">
+                <p class="qsmo-tag">{{ qsmos.phase }}</p>
+                <b>{{ qsmos.name}}</b>
+                <p style="font-size:11px;margin-top:3px;margin-bottom:1px"><b>QSMO Agency</b>: {{ qsmos.agency }}</p>
+                <p style="font-size:11px;margin-top:2px;margin-bottom:1px;"><b>Services</b>: {{ qsmos.services }}</p>
+                <p style="font-size:11px;margin-top:2px;"><b>Contact</b>: {{ qsmos.contact }}</p>
+              </div>
+            </div>
+            {% endfor %}
+
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
