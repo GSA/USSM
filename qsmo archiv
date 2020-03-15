@@ -71,28 +71,90 @@ layout: base
 
 <section class="usa-section usa-graphic_list">
  <div class="usa-grid usa-graphic_list-row">
-   <div class="usa-width-one-whole ">
-      {% include qsmo-filter.html %}
-      <!--********Generates policy catalog items. Individual cards live in the in the _policies folder**************-->
+   <div class="usa-width-one-whole usa-media_block ">
 
-      <div class="usa-width-three-fourths usa-media_block ">
+     <div class="usa-width-one-fourth">
+      {% include qsmo-filter.html %}
+      </div>
+
+      <div class="usa-width-three-fourths qsmo-section">
+        <p class="filter-count qsmo-tag"></p>
+
+
+        <div class="usa-grid usa-graphic_list-row" style="padding:0px;">
+          <div class="usa-width-one-third selector research acquisition ">
+              <p class="qsmo-tag">Initiation & Research</p>
+              <b>Assisted Acquisition</b>
+          </div>
+
+          <div class="usa-width-one-third selector research acquisition ">
+              <p class="qsmo-tag">Initiation & Research</p>
+              <b>Assisted Acquisition</b>
+          </div>
+
+          <div class="usa-width-one-third selector research acquisition ">
+              <p class="qsmo-tag">Initiation & Research</p>
+              <b>Assisted Acquisition</b>
+         </div>
+      </div>
+
+      <div class="usa-grid usa-graphic_list-row" style="padding:0px;">
+        <div class="usa-width-one-third selector research acquisition ">
+            <p class="qsmo-tag">Initiation & Research</p>
+            <b>Assisted Acquisition</b>
+        </div>
+
+        <div class="usa-width-one-third selector research acquisition ">
+            <p class="qsmo-tag">Initiation & Research</p>
+            <b>Assisted Acquisition</b>
+        </div>
+
+        <div class="usa-width-one-third selector research acquisition ">
+            <p class="qsmo-tag">Initiation & Research</p>
+            <b>Assisted Acquisition</b>
+       </div>
+    </div>
+    <div class="usa-grid usa-graphic_list-row" style="padding:0px;">
+      <div class="usa-width-one-third selector research acquisition ">
+          <p class="qsmo-tag">Initiation & Research</p>
+          <b>Assisted Acquisition</b>
+      </div>
+
+      <div class="usa-width-one-third selector research acquisition ">
+          <p class="qsmo-tag">Initiation & Research</p>
+          <b>Assisted Acquisition</b>
+      </div>
+
+      <div class="usa-width-one-third selector research acquisition ">
+          <p class="qsmo-tag">Initiation & Research</p>
+          <b>Assisted Acquisition</b>
+     </div>
+  </div>
+
+    </div>
+    </div>
+
+
+
+
+      <!--<div class="usa-width-three-fourths usa-media_block ">
         <p class="filter-count qsmo-tag"></p>
         <div class="qsmos">
 
           {% for qsmos in site.qsmos %}
-            <div class="usa-width-one-third qsmo {{ qsmos.filters }} " style="width:29%; margin-bottom:15px;">
+            <div class="usa-width-one-third qsmo {{ qsmos.filters }} ">
               <div class="container-GoG" tabindex="0" style="border-top: 5px solid #{{qsmos.border}};">
-                <span class="qsmo-tag">{{ qsmos.phase }}</span><br>
+                <p class="qsmo-tag">{{ qsmos.phase }}</p>
                 <b>{{ qsmos.name}}</b>
                 <p style="font-size:11px;margin-top:3px;margin-bottom:1px"><b>QSMO Agency</b>: {{ qsmos.agency }}</p>
                 <p style="font-size:11px;margin-top:2px;margin-bottom:1px;"><b>Services</b>: {{ qsmos.services }}</p>
                 <p style="font-size:11px;margin-top:2px;"><b>Contact</b>: {{ qsmos.contact }}</p>
               </div>
             </div>
-            {% endfor %}
+          {% endfor %}
 
         </div>
-      </div>
+      </div>-->
 
     </div>
   </div>
@@ -169,3 +231,120 @@ layout: base
 
 <script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
 <script src="{{ site.baseurl }}/js/isotope.settings.js"></script>
+
+
+----------
+
+
+// Filter based on two factors + alphabetical sort
+// Uses URI hash as trigger allowing direct links etc
+// Losely based on: http://isotope.metafizzy.co/filtering.html#url-hash
+
+jQuery(document).ready(function ($) {
+    var $container = $(".qsmo-section");
+
+    // Filter isotope
+    $container.isotope({
+        // options
+        itemSelector: ".qsmo",
+        layoutMode: "masonry",
+        getSortData: {
+            date: "p"
+        }
+    });
+
+var iso = $container.data('isotope');
+var $filterCount = $('.filter-count');
+
+function updateFilterCount() {
+  $filterCount.text( iso.filteredItems.length + ' items' );
+}
+
+
+    // Set up filters array with default values
+    var filters = {};
+    // When a button is pressed, run filterSelect
+    $( ".filter-list a" ).on( "click", filterSelect );
+    // Set the URI hash to the current selected filters
+    function filterSelect() {
+        // Current hash value
+        var hashFilter = getHashFilter();
+        // Set filters to current values (important for first run)
+        filters["subject"] = hashFilter["subject"];
+        filters["role"] = hashFilter["role"];
+        filters["status"] = hashFilter["status"];
+        // data-filter attribute of clicked button
+        var currentFilter = $(this).attr("data-filter");
+        // Navigation group (subject or role) as object
+        var $navGroup = $(this).parents(".filter-list");
+        // data-filter-group key for the current nav group
+        var filterGroup = $navGroup.attr("data-filter-group");
+        // If the current data-filter attribute matches the current filter,
+        if ( currentFilter == hashFilter["subject"] || currentFilter == hashFilter["role"] || currentFilter == hashFilter["status"] ) {
+            // Reset group filter as the user has unselected the button
+            filters[ filterGroup ] = "*";
+        } else {
+            // Set data-filter of current button as value with filterGroup as key
+            filters[ filterGroup ] = $(this).attr("data-filter");
+        }
+        // Create new hash
+        var newHash = "subject=" + encodeURIComponent( filters["subject"] ) + "&role=" + encodeURIComponent( filters["role"] ) + "&status=" + encodeURIComponent( filters["status"] );
+        // If sort value exists, add it to hash
+        if ( sortValue ) {
+            newHash = newHash + "&sort=" + encodeURIComponent( sortValue );
+        }
+        // Apply the new hash to the URI, triggering onHahschange()
+        location.hash = newHash;
+    } // filterSelect
+
+    function onHashChange() {
+        // Current hash value
+        var hashFilter = getHashFilter();
+        // Concatenate subject and role for Isotope filtering
+        var theFilter = hashFilter["subject"] + hashFilter["role"] + hashFilter["status"];
+
+        if ( hashFilter ) {
+            // Repaint Isotope container with current filters and sorts
+            $container.isotope( {
+                filter:  decodeURIComponent( theFilter ),
+                sortBy: hashFilter["sorts"]
+            } );
+
+            updateFilterCount();
+            // Toggle checked status of sort button
+            if ( hashFilter["sorts"] ) {
+                $(".sort").addClass("checked");
+            } else {
+                $(".sort").removeClass("checked");
+            }
+            // Toggle checked status of filter buttons
+            $( ".filter-list" ).find(".checked").removeClass("checked").attr("aria-checked","false");
+            $( ".filter-list" ).find("[data-filter='" + hashFilter["subject"] + "'],[data-filter='" + hashFilter["role"] + "'] ,[data-filter='" + hashFilter["status"] + "']").addClass("checked").attr("aria-checked","true");
+        }
+    } // onHahschange
+
+    function getHashFilter() {
+        // Get filters (matches) and sort order (sorts)
+        var subject = location.hash.match( /subject=([^&]+)/i );
+        var role = location.hash.match( /role=([^&]+)/i );
+        var status = location.hash.match( /status=([^&]+)/i );
+        var sorts = location.hash.match( /sort=([^&]+)/i );
+
+        // Set up a hashFilter array
+        var hashFilter = {};
+        // Populate array with matches and sorts using ternary logic
+        hashFilter["subject"] = subject ? subject[1] : "*";
+        hashFilter["role"] = role ? role[1] : "*";
+        hashFilter["status"] = status ? status[1] : "*";
+        hashFilter["sorts"] = sorts ? sorts[1]: "";
+
+        return hashFilter;
+    } // getHashFilter
+
+    // When the hash changes, run onHashchange
+    window.onhashchange = onHashChange;
+
+    // When the page loads for the first time, run onHashChange
+    onHashChange();
+
+});
