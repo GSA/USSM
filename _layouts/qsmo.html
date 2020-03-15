@@ -77,10 +77,10 @@ layout: base
 
       <div class="usa-width-three-fourths usa-media_block ">
         <p class="filter-count qsmo-tag"></p>
-        <div class="2020-winners">
+        <div class="qsmos">
 
           {% for qsmos in site.qsmos %}
-            <div class="usa-width-one-third {{ qsmos.filters }} ">
+            <div class="usa-width-one-third qsmo {{ qsmos.filters }} ">
               <div class="container-GoG" tabindex="0" style="border-top: 5px solid #{{qsmos.border}};">
                 <p class="qsmo-tag">{{ qsmos.phase }}</p>
                 <b>{{ qsmos.name}}</b>
