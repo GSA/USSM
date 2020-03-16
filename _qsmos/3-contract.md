@@ -1,6 +1,6 @@
 ---
 name: Contract Writing Systems
-border: 3d4551
+border:  757575
 phase: Initiation & Research
 agency: TBD
 contact: TBD
