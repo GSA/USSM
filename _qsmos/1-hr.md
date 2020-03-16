@@ -1,6 +1,6 @@
 ---
 name: Civilian HR Transaction Services
-border: 07648d
+border: 04c585
 phase: Formally Designated
 agency: TBD
 contact: QSMO_Info@gsa.gov

@@ -1,6 +1,6 @@
 ---
 name: Cybersecurity Services
-border: 07648d
+border: 04c585
 phase: Formally Designated
 agency: DHS
 contact: QSMO@hq.dhs.gov
