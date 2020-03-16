@@ -59,7 +59,7 @@ layout: base
 
 
 <a name="who"></a>
-<section class="usa-section" style="background-color: #205493;padding-bottom:20px;">
+<section class="usa-section" style="background-color: #205493;padding-bottom:60px;">
   <div class="usa-grid">
     <div class="usa-width-one-whole usa-media_block">
       <a name="who"></a>
@@ -67,6 +67,7 @@ layout: base
       <h4 style="color:#ffffff">OMB will designate specific agencies to stand up QSMOs for select mission support functions. These agencies will submit initial 5-Year Plans indicating how they will offer select mission support functions to other Federal agencies. Final QSMO designation, issued by OMB in consultation with the Shared Services Governance Board (SSGB), is contingent upon development and approval of the aforementioned 5-Year Plan and its alignment with QSMO long-term designation criteria.</h4>
     </div>
     </div>
+
     </section>
 
 <section class="usa-section usa-graphic_list">
@@ -80,16 +81,16 @@ layout: base
         <div class="qsmos">
 
           {% for qsmos in site.qsmos %}
-            <div class="usa-width-one-third qsmo {{ qsmos.filters }} " style="width:29%; margin-bottom:15px;">
+            <div class="usa-width-one-third qsmo {{ qsmos.filters }} " style="width:31%; margin-bottom:15px;">
               <div class="container-GoG" tabindex="0" style="background-color:#f9f9f9;padding:0px;#{{qsmos.border}} solid 2px">
                 <div style="background:#{{qsmos.border}};border-radius:10px 10px 0px 0px; padding:14px;">
                   <span class="qsmo-tag" style="color:white">{{ qsmos.phase }}</span><br>
                   <b style="color:white">{{ qsmos.name}}</b>
                 </div>
               <div style="padding:14px;">
-                <p style="font-size:11px;margin-top:3px;margin-bottom:1px"><b>QSMO Agency</b>: {{ qsmos.agency }}</p>
-                <p style="font-size:11px;margin-top:2px;margin-bottom:1px;"><b>Services</b>: {{ qsmos.services }}</p>
-                <p style="font-size:11px;margin-top:2px;"><b>Contact</b>: {{ qsmos.contact }}</p>
+                <p style="font-size:12px;margin-top:5px;margin-bottom:2px"><b>QSMO Agency</b>: {{ qsmos.agency }}</p>
+                <p style="font-size:12px;margin-top:5px;margin-bottom:2px;"><b>Services</b>: {{ qsmos.services }}</p>
+                <p style="font-size:12px;margin-top:6px;"><b>Contact</b>: {{ qsmos.contact }}</p>
               </div>
             </div>
             </div>
