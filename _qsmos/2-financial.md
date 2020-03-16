@@ -1,6 +1,6 @@
 ---
 name: Core Financial Management
-border: BBCADE
+border: 162e51
 phase: Pre-designated
 agency: Treasury
 contact: FMQSMO@Fiscal.Treasury.Gov

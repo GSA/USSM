@@ -1,6 +1,6 @@
 ---
 name: Cybersecurity Services
-border: BBCADE
+border: 162e51
 phase: Pre-designated
 agency: DHS
 contact: QSMO@hq.dhs.gov

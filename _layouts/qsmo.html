@@ -81,13 +81,17 @@ layout: base
 
           {% for qsmos in site.qsmos %}
             <div class="usa-width-one-third qsmo {{ qsmos.filters }} " style="width:29%; margin-bottom:15px;">
-              <div class="container-GoG" tabindex="0" style="border-top: 5px solid #{{qsmos.border}};">
-                <span class="qsmo-tag">{{ qsmos.phase }}</span><br>
-                <b>{{ qsmos.name}}</b>
+              <div class="container-GoG" tabindex="0" style="background-color:#f9f9f9;padding:0px;#{{qsmos.border}} solid 2px">
+                <div style="background:#{{qsmos.border}};border-radius:10px 10px 0px 0px; padding:14px;">
+                  <span class="qsmo-tag" style="color:white">{{ qsmos.phase }}</span><br>
+                  <b style="color:white">{{ qsmos.name}}</b>
+                </div>
+              <div style="padding:14px;">
                 <p style="font-size:11px;margin-top:3px;margin-bottom:1px"><b>QSMO Agency</b>: {{ qsmos.agency }}</p>
                 <p style="font-size:11px;margin-top:2px;margin-bottom:1px;"><b>Services</b>: {{ qsmos.services }}</p>
                 <p style="font-size:11px;margin-top:2px;"><b>Contact</b>: {{ qsmos.contact }}</p>
               </div>
+            </div>
             </div>
             {% endfor %}
 
