@@ -1,7 +1,7 @@
 ---
 layout: council
 title: Shared Services Governance Board
-description: The Shared Services Governance Board (SSGB) is comprised of representatives from the CXO councils and is responsible for making recommendations to OMB on potential sharing opportunities and for advising on the implementation of the designated activities. The SSGB will also serve as the escalation point for the Business Standards Council (BSC) to resolve inconsistencies in the creation of business and data standards or to suggest possible resolutions for OMB policy officials. Membership includes executives from across the Federal enterprise to provide a broad perspective on opportunities, concerns, and policies related to shared solutions.
+description: The Shared Services Governance Board (SSGB) is comprised of representatives from the CXO councils and is responsible for making recommendations to OMB on potential sharing opportunities and for advising on the implementation of the designated activities. The SSGB will also serve as the escalation point for the Business Standards Council (BSC) to resolve inconsistencies in the creation of business and data standards or to suggest possible resolutions for OMB policy officials. Membership includes executives from across the Federal enterprise to provide a broad perspective on opportunities, concerns, and policies related to shared services.
 permalink: /ssgb/
 ---
 <br>
