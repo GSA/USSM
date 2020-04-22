@@ -4,7 +4,7 @@ body-class: home
 permalink: /
 hero-image: "../assets/img/homepage-update-image.png"
 hero-title: "Centralized Mission Support Capabilities for the Federal Government"
-hero-text: "Office of Management and Budget has designated QSMOs for XX, XX, and XX services."
+hero-text: "Office of Management and Budget has designated the United States Department of Homeland Security as the Cybersecurity QSMO for XXX, XXX, and Xxxx services."
 hero-button-text: Read the Press Release
 hero-button-link: ##
 banner-heading:
