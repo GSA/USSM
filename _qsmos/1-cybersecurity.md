@@ -4,7 +4,7 @@ border: 04c585
 phase: Formally Designated
 agency: DHS
 contact: QSMO@hq.dhs.gov
-services: xxx, xxxxx, xxxx
+services: Security Operations Center standardization, Vulnerability Management standardization, and DNS Resolver service
 filters: formal dhs cyber
 
 ---

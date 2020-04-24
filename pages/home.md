@@ -4,7 +4,7 @@ body-class: home
 permalink: /
 hero-image: "../assets/img/homepage-update-image.png"
 hero-title: "Centralized Mission Support Capabilities for the Federal Government"
-hero-text: "Office of Management and Budget has designated the United States Department of Homeland Security as the Cybersecurity QSMO for XXX, XXX, and Xxxx services."
+hero-text: "Office of Management and Budget has formally designated the Department of Homeland Security (DHS) as the Quality Service Management Office for Cybersecurity Services, specifically Security Operations Center standardization, Vulnerability Management standardization, and DNS Resolver service.  "
 hero-button-text: Read the Press Release
 hero-button-link: ##
 banner-heading:
