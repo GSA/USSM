@@ -2,12 +2,18 @@
 layout: base
 
 ---
+<!--<div class="usa-alert usa-alert-info" style="margin-top:0px; background-color:#f1f1f1">
+    <div class="usa-alert__body">
+    <p style="padding-left:55px;margin-top:10px" class="usa-alert__text"><b>March X, 2020</b>: Agency X has been designated for XXX. To learn more, read the <a href="##">press release</a>, view the <a href="##">designation letter</a>, or view our designation table below.</p>
+  </div>
+</div>-->
+
 <section class="usa-section"  style="background-image: url('{{ site.baseurl }}/assets/img/homepage-update-image-2.png');color:#ffffff">
   <div class="usa-grid">
     <div class="usa-width-one-whole usa-media_block">
         <h1 style="color:#ffffff;">Quality Service Management Offices (QSMOs)</h1>
       <center>
-        <h3 style="color:#ffffff;">Shared services will create efficiencies in government and optimize the workforce "by shifting resources to higher value work and reducing duplication across agencies" – OMB M-19-16 Centralized Mission Support Capabilities for the Federal Government </h3>
+        <h3 style="color:#ffffff;">The Office of Management and Budget (OMB) has designated the Department of Homeland Security (DHS) Cybersecurity and Infrastructure Security Agency (CISA) as the Quality Service Management Office for Cybersecurity Services, specifically Security Operations Center standardization, Vulnerability Management standardization, and DNS Resolver service.</h3>
       </center>
      </div>
     </div>
@@ -29,30 +35,78 @@ layout: base
     </div>
     <br>
     <br>
-    <a class="usa-button usa-button-big" target="_blank" href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf" style="background-color:#e31c3d">&nbsp {{ page.button-text-1 }}&nbsp </a>
-    <a class="usa-button  usa-button-big " href="https://www.performance.gov/CAP/CAP_goal_5.html" style="background-color:#e31c3d">{{ page.button-text-2 }}</a>
-    <a class="usa-button usa-button-big" href="{{ site.baseurl }}/assets/files/SQS-Public-FAQs-April-2019.pdf" style="background-color:#e31c3d">FAQs</a>
+    <a class="usa-button" target="_blank" href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf" style="background-color:#e31c3d">Read the Memo</a>
+    <a class="usa-button" href="https://www.performance.gov/CAP/CAP_goal_5.html" style="background-color:#e31c3d">View the CAP Goal</a>
+    <a class="usa-button" href="{{ site.baseurl }}/assets/files/SQS-Public-FAQs-April-2020.pdf" style="background-color:#e31c3d">FAQs</a>
   </center>
 </section>
 
 <section class="usa-section" style="background-color: #f1f1f1; padding-top:30px;padding-bottom:15px">
   <div class="usa-grid">
-    <div class="usa-width-one-third border usa-media_block" style="padding: 5px;">
-      <a class=" hvr-sink" href="#what" style="text-decoration:none;"><h4 style="color:black">What are QSMOs?</h4>
-      <center><p><img  src="../assets/img/project-icons/arrow-down.png" style="width:35px;"></p></center></a>
-    </div>
     <div class="usa-width-one-third border usa-media_block inner" style="padding: 5px;">
       <a class="hvr-sink" href="#who"style="text-decoration:none;"><h4 style="color:black">Who are the QSMOs?</h4>
       <center><p><img src="../assets/img/project-icons/arrow-down.png" style="width:35px;"></p></center</a>
     </div>
+    <div class="usa-width-one-third border usa-media_block" style="padding: 5px;">
+      <a class=" hvr-sink" href="#what" style="text-decoration:none;"><h4 style="color:black">What are QSMOs?</h4>
+      <center><p><img  src="../assets/img/project-icons/arrow-down.png" style="width:35px;"></p></center></a>
+    </div>
     <div class="usa-width-one-third border-last usa-media_block inner" style="padding: 5px;">
-    <a class="hvr-sink" class="grow "href="#how" style="text-decoration:none;"><h4 style="color:black">How will agencies get support from the QSMO?</h4>
+    <a class="hvr-sink" class="grow "href="#how" style="text-decoration:none;"><h4 style="color:black">How agencies get support from the QSMO?</h4>
       <center><p><img  src="../assets/img/project-icons/arrow-down.png" style="width:35px;"></p></center></a>
     </div>
 </section>
 
+
+<a name="who"></a>
+<section class="usa-section" style="background-color: #205493;padding-bottom:60px;">
+  <div class="usa-grid">
+    <div class="usa-width-one-whole usa-media_block">
+      <a name="who"></a>
+      <h2 style="color:#ffffff;margin-top:0px;">Who are the QSMOs?</h2>
+      <h4 style="color:#ffffff; margin-bottom:15px;">OMB is designating specific agencies to stand up QSMOs for select mission support functions. Designated QSMOs serve as governmentwide storefronts, offering <u>multiple solutions for technology and services</u> in their functional area. QSMO offerings are based on the QSMO long-term designation criteria and the Sharing Quality Services strategy established in OMB Memorandum 19-16. Future QSMO designations will continue to be issued by OMB in consultation with the Shared Services Governance Board; official designation remains contingent upon the development and approval of a 5-Year Plan and its alignment with QSMO long-term designation criteria.</h4>
+    </div>
+  <!--  <hr style="color:white;">
+    <p style="color:white"><i>4/XX/2020</i> - Press Release: DHS QSMO Designated XXXXX</p>
+    </div>-->
+
+    </section>
+
+<section class="usa-section usa-graphic_list">
+ <div class="usa-grid usa-graphic_list-row">
+   <div class="usa-width-one-whole ">
+      {% include qsmo-filter.html %}
+      <!--********Generates policy catalog items. Individual cards live in the in the _policies folder**************-->
+
+      <div class="usa-width-three-fourths usa-media_block ">
+        <p class="filter-count qsmo-tag"></p>
+        <div class="qsmos">
+
+          {% for qsmos in site.qsmos %}
+            <div class="usa-width-one-third qsmo {{ qsmos.filters }} " style="width:31%; margin-bottom:15px;">
+              <div class="container-GoG" tabindex="0" style="background-color:#f9f9f9;padding:0px;#{{qsmos.border}} solid 2px; cursor:default">
+                <div style="background:#{{qsmos.border}};border-radius:10px 10px 0px 0px; padding:14px;">
+                  <span class="qsmo-tag" style="color:white">{{ qsmos.phase }}</span><br>
+                  <b style="color:white">{{ qsmos.name}}</b>
+                </div>
+              <div style="padding:14px;">
+                <p style="font-size:12px;margin-top:5px;margin-bottom:2px"><b>QSMO Agency</b>: {{ qsmos.agency }}</p>
+                <p style="font-size:12px;margin-top:5px;margin-bottom:2px;"><b>Services</b>: {{ qsmos.services }}</p>
+                <p style="font-size:12px;margin-top:6px;"><b>Contact</b>: <a href="mailto:{{ qsmos.contact }}">{{ qsmos.contact }}</a></p>
+              </div>
+            </div>
+            </div>
+            {% endfor %}
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <a name="what"></a>
-<section class="usa-section">
+<section class="usa-section" style="background-color: #f1f1f1">
   <div class="usa-grid">
     <a name="what"></a>
     <div class="usa-width-one-third usa-media_block">
@@ -60,7 +114,7 @@ layout: base
     </div>
     <div class="usa-width-two-thirds usa-media_block">
       <a name="what"></a>
-      <p style="margin-top:0;">Housed in federal agencies with the mission and expertise to deliver standard capabilities for other agencies, QSMOs will:</p>
+      <p style="margin-top:0;">Housed in federal agencies with the mission and expertise to deliver standard capabilities for other agencies, QSMOs:</p>
       <ul>
         <li>Offer and manage a marketplace of solutions for common technology, services, or fully managed services to respond to agency needs;</li>
         <li>Guide and govern the long-term sustainability of the services and solutions marketplace;</li>
@@ -70,321 +124,6 @@ layout: base
     </div>
 </section>
 
-<a name="who"></a>
-<section class="usa-section" style="background-color: #205493;">
-  <div class="usa-grid">
-    <div class="usa-width-one-whole usa-media_block">
-      <a name="who"></a>
-      <h2 style="color:#ffffff;margin-top:0px;">Who are the QSMOs?</h2>
-      <h4 style="color:#ffffff">OMB will designate specific agencies to stand up QSMOs for select mission support functions. These agencies will submit initial 5-Year Plans indicating how they will offer select mission support functions to other Federal agencies. Final QSMO designation, issued by OMB in consultation with the Shared Solutions Governance Board (SSGB), is contingent upon development and approval of the aforementioned 5-Year Plan and its alignment with QSMO long-term designation criteria.</h4>
-    </div>
-  </div>
-</section>
-
-<section class="usa-section" style="background-color:#8ba6ca;padding-top:30px;padding-bottom:30px;">
-  <div class="usa-grid">
-    <div id="qsmo-large"> <!--mobile responsive id tag - hides this section for 600px -1201px-->
-    <div class="usa-width-one-sixth usa-media_block">
-          <!--<center><img src ="{{ site.baseurl }}/assets/img/project-icons/three.png" style="width:60px;">REMOVING NUMBERS-->
-      <h4 style="color:black;margin-top:10px;">Formal Designation Phase</h4></center>
-    </div>
-
-    <div class="usa-width-five-sixths usa-media_block border-left-white" style="padding-top: 3%;padding-bottom: 3%;text-align: left;">
-      <div class="border-padding" style="border-bottom:none;">
-          <a class="usa-button usa-button" href="{{ site.baseurl}}/assets/files/QSMO-Long-term-Designation-Criteria.pdf">Read Designation Criteria</a>
-      </div>
-  </div>
-</div>
-
-<!--MOBILE RESPONSIVE-->
-<div id="qsmo-mobile"> <!--mobile responsive id tag - hides this section for 600px -1201px-->
-<div class="usa-width-one-whole usa-media_block">
-      <!--<center><img src ="{{ site.baseurl }}/assets/img/project-icons/three.png" style="width:60px;">REMOVING NUMBERS-->
-  <h4 style="color:black;margin-top:10px;">Formal Designation Phase</h4></center>
-  <a class="usa-button usa-button" href="{{ site.baseurl}}/assets/files/QSMO-Long-term-Designation-Criteria.pdf">Read Designation Criteria</a>
-</div>
-</div>
-</div>
-
-<!--END MOBILE RESPONSIVE-->
-  </div>
-</section>
-<section class="usa-section" style="background-color: #BBCADE;padding-top:30px;padding-bottom:30px;">
-  <div class="usa-grid">
-    <div class="usa-width-one-sixth usa-media_block ">
-      <!--<img src ="{{ site.baseurl }}/assets/img/project-icons/two.png" style="width:60px;"> REMOVING NUMBERS-->
-      <h4 style="color:black;margin-top:10px;">Assessment & Pre-designation Phase</h4>
-      <p style="font-size:14px;"><em>Specific scope and timeline of services offered will be determined/defined during the pre-designation phase</em></p>
-      <!--<div class="rotate">&#171;</div>-->
-    </div>
-  <div id="qsmo-large"> <!--mobile responsive id tag - hides this section for 600px -1201px-->
-    <div class="usa-width-one-sixth usa-media_block border-left-white" style="text-align:center;">
-      <div class="border-padding">
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/civilian.png" id="dark-blue-icon">
-      <p id="qsmo"><b>Civilian HR Transaction Services</b></p>
-    </div>
-    <div class="align">
-      <p id="designated" class="tooltip"><i>QSMO Agency: GSA</i>
-        <br /><a href="mailto:QSMO_Info@gsa.gov">Contact</a>
-      <span class="tooltiptext"><i>Talent Acquisition, Talent Development, Employee Performance Management, and Compensation and Benefits Management</i><br><br><a style="color:white" href="mailto:QSMO_Info@gsa.gov">QSMO_Info@gsa.gov</a></span></p>
-      </div>
-    </div>
-    <div class="usa-width-one-sixth usa-media_block" style="text-align:center;">
-      <div class="border-padding">
-        <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/finance.png" id="dark-blue-icon">
-        <p id="qsmo"><b>Core Financial Management</b></p>
-      </div>
-      <div class="align">
-        <p id="designated" class="tooltip"><i>QSMO Agency: Treasury</i>
-          <br /><a href="mailto:FMQSMO@Fiscal.Treasury.Gov">Contact</a>
-        <span class="tooltiptext"><i>Accounts Payable, Accounts Receivable, General Ledger, Reporting</i><br><br><a style="color:white" href="mailto:FMQSMO@Fiscal.Treasury.Gov">FMQSMO@Fiscal.Treasury.Gov</a></span></p>
-    </div>
-    </div>
-    <div class="usa-width-one-sixth usa-media_block" style="text-align:center;">
-      <div class="border-padding">
-        <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/cyber.png" id="dark-blue-icon">
-      <p id="qsmo"><b>Cybersecurity Services</b></p>
-      </div>
-      <div class="align">
-        <p id="designated" class="tooltip"><i>QSMO Agency: DHS</i>
-          <br /><a href="mailto:QSMO@hq.dhs.gov">Contact</a>
-          <span class="tooltiptext"><i>Network Defense, Vulnerability Management, Security Operations, Incident Management, Threat Intelligence, Enterprise Intrusion, Detection/Prevention, Cyber Supply Chain Risk Management, DNS Services, Hardware/Software Asset Management, Digital Identity and Access Management, Data Protection, Mobile Security Services</i><br><br><a style="color:white" href="mailto:QSMO@hq.dhs.gov">QSMO@hq.dhs.gov</a></span></p>
-      </div>
-    </div>
-    <div class="usa-width-one-sixth usa-media_block" style="text-align:center;">
-      <div class="border-padding" style="border-bottom:none;">
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/grants.png" id="dark-blue-icon">
-      <p id="qsmo"><b>Grants Management</b></p>
-    </div>
-    <div class="align">
-      <p id="designated" class="tooltip"><i>QSMO Agency: HHS</i>
-        <br /><a href="mailto:GrantsQSMO@hhs.gov">Contact</a>
-      <span class="tooltiptext"><i>Grant Program Administration and Oversight, Management of Grant Pre-Award, Award, Post-Award & Closeout, Grant Recipient Oversight (initial focus may be a Single Audit Solution)</i><br><br><a style="color:white" href="mailto:GrantsQSMO@hhs.gov">GrantsQSMO@hhs.gov</a></span></p>
-    </div>
-    </div>
-  </div>
-<!--*************************************MOBILE RESPONSIVE for screens 600px - 1201px wide *******************************************************-->
-<div id="qsmo-mobile">
-<div class="usa-width-five-sixths usa-media_block" style="text-align:center;">
-<div class="usa-graphic_list-row">
-  <div class="usa-width-half usa-media_block" style="text-align:center;width:50%;float:left;">
-    <div class="border-padding">
-    <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/civilian.png" id="dark-blue-icon">
-    <p id="qsmo"><b>Civilian HR Transaction Services</b></p>
-  </div>
-  <div class="align">
-    <p id="designated" class="tooltip"><i>QSMO Agency: GSA</i>
-      <br /><a href="mailto:QSMO_Info@gsa.gov">Contact</a>
-    <span class="tooltiptext"><i>Operational Support for: Talent Acquisition, Talent Development, Employee Performance Management, and Compensation and Benefits Management</i><br><br><a style="color:white" href="mailto:QSMO_Info@gsa.gov">QSMO_Info@gsa.gov</a></span></p>
-    </div>
-  </div>
-  <div class="usa-width-half usa-media_block" style="text-align:center;width:50%;float:left;">
-    <div class="border-padding">
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/finance.png" id="dark-blue-icon">
-      <p id="qsmo"><b>Core Financial Management</b></p>
-    </div>
-    <div class="align">
-      <p id="designated" class="tooltip"><i>QSMO Agency: Treasury</i>
-        <br /><a href="mailto:FMQSMO@Fiscal.Treasury.Gov">Contact</a>
-      <span class="tooltiptext"><i>Accounts Payable, Accounts Receivable, General Ledger, Reporting</i><br><br><a style="color:white" href="mailto:FMQSMO@Fiscal.Treasury.Gov">FMQSMO@Fiscal.Treasury.Gov</a></span></p>
-  </div>
-  </div>
-</div>
-<div class="usa-graphic_list-row" style="padding-top:20px;">
-  <div class="usa-width-half usa-media_block" style="text-align:center;width:50%;float:left;">
-    <div class="border-padding">
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/cyber.png" id="dark-blue-icon">
-    <p id="qsmo"><b>Cybersecurity Services</b></p>
-    </div>
-    <div class="align">
-      <p id="designated" class="tooltip"><i>QSMO Agency: DHS</i>
-        <br /><a href="mailto:QSMO@hq.dhs.gov">Contact</a>
-        <span class="tooltiptext"><i>Network Defense, Vulnerability Management, Security Operations, Incident Management, Threat Intelligence, Enterprise Intrusion, Detection/Prevention, Cyber Supply Chain Risk Management, DNS Services, Hardware/Software Asset Management, Digital Identity and Access Management, Data Protection, Mobile Security Services</i><br><br><a style="color:white" href="mailto:QSMO@hq.dhs.gov">QSMO@hq.dhs.gov</a></span></p>
-    </div>
-  </div>
-  <div class="usa-width-half usa-media_block" style="text-align:center;width:50%;float:left;">
-    <div class="border-padding" style="border-bottom:none;">
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/grants.png" id="dark-blue-icon">
-    <p id="qsmo"><b>Grants Management</b></p>
-    </div>
-    <div class="align">
-      <p id="designated" class="tooltip"><i>QSMO Agency: HHS</i>
-        <br /><a href="mailto:GrantsQSMO@hhs.gov">Contact</a>
-      <span class="tooltiptext"><i>Grant Program Administration and Oversight, Management of Grant Pre-Award, Award, Post-Award & Closeout, Grant Recipient Oversight (initial focus may be a Single Audit Solution)</i><br><br><a style="color:white" href="mailto:GrantsQSMO@hhs.gov">GrantsQSMO@hhs.gov</a></span></p>
-    </div>
-  </div>
-</div>
-
-</div>
-</div>
-<!--*********************************************END MOBILE RESPONSIVE*******************************-->
-
-  </div>
-</section>
-<section class="usa-section" style="background-color:#dce4ef;;padding-top:30px;padding-bottom:30px;">
-    <div class="usa-grid">
-      <div class="usa-width-one-sixth usa-media_block">
-      <!--  <img src ="{{ site.baseurl }}/assets/img/project-icons/one.png" style="width:60px;">REMOVING NUMBER-->
-        <h4 style="color:black;margin-top:10px;">Initiation & Research Phase</h4>
-        <!--<div class="rotate">&#171;</div>-->
-  </div>
-
-  <div id="qsmo-large"> <!--mobile responsive id tag - hides this section for 600px -1201px-->
-      <div class="usa-width-one-sixth usa-media_block border-left-white" style="text-align:center;">
-        <div class="border-padding-I">
-          <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/acquisition.png" id="dark-blue-icon">
-          <p id="qsmo"><b>Assisted Acquisition</b></p>
-          </div>
-            <!--<div class="align" >
-              <p id="designated" class="tooltip-2"><i>Designated Agency: TBD</i></p>
-            </div>-->
-        <div class="border-padding-I travel"  >
-          <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/travel.png" id="dark-blue-icon">
-          <p id="qsmo"><b>Travel</b></p>
-        </div>
-          <!--<div class="align" >
-            <p id="designated" class="tooltip-2"><i>Designated Agency: GSA</i></p>
-      </div>-->
-      </div>
-      <center><div class="usa-width-one-sixth usa-media_block" style="text-align:center;">
-        <div class="border-padding-I">
-        <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/contract.png" id="dark-blue-icon">
-        <p id="qsmo"><b>Contract Writing Systems</b></p>
-      </div>
-      <div class="border-padding-I travel"  >
-        <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/FOIA.png" id="dark-blue-icon">
-        <p id="qsmo"><b>FOIA</b></p>
-      </div>
-      <!--<div class="align">
-        <p id="designated"  class="tooltip-2"><i>Designated Agency: DHS</i></p>
-      </div>-->
-      </div>
-      <div class="usa-width-one-sixth usa-media_block" style="text-align:center;">
-        <div class="border-padding-I">
-          <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/cx.png" id="dark-blue-icon">
-          <p id="qsmo"><b>Customer Experience</b></p>
-        </div>
-        <div class="border-padding-I travel"  >
-          <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/property.png" id="dark-blue-icon">
-          <p id="qsmo"><b>Real Property Management</b></p>
-        </div>
-        <!--<div class="align">
-          <p id="designated"  class="tooltip-2"><i>Designated Agency: GSA</i></p>
-      </div>-->
-      </div>
-    </div>
-<!--*****BEGIN MOBILE RESPONSIVE-->
-<div id="qsmo-mobile">
-<div class="usa-width-five-sixths usa-media_block" style="text-align:center;">
-<div class="usa-graphic_list-row">
-  <div class="usa-width-half usa-media_block" style="text-align:center;width:50%;float:left;">
-    <div class="border-padding-I">
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/acquisition.png" id="dark-blue-icon">
-      <p id="qsmo"><b>Assisted Acquisition</b></p>
-    </div>
-  </div>
-  <div class="usa-width-half usa-media_block" style="text-align:center;width:50%;float:left;">
-    <div class="border-padding-I">
-    <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/contract.png" id="dark-blue-icon">
-    <p id="qsmo"><b>Contract Writing Systems</b></p>
-  </div>
-  </div>
-</div>
-<div class="usa-graphic_list-row">
-  <div class="usa-width-half usa-media_block" style="text-align:center;width:50%;float:left;">
-    <div class="border-padding-I">
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/cx.png" id="dark-blue-icon">
-      <p id="qsmo"><b>Customer Experience</b></p>
-    </div>
-  </div>
-  <div class="usa-width-half usa-media_block" style="text-align:center;width:50%;float:left;">
-    <div class="border-padding-I">
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/FOIA.png" id="dark-blue-icon">
-      <p id="qsmo"><b>FOIA</b></p>
-    </div>
-  </div>
-</div>
-<div class="usa-graphic_list-row">
-  <div class="usa-width-half usa-media_block" style="text-align:center;width:50%;float:left;">
-    <div class="border-padding-I">
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/property.png" id="dark-blue-icon">
-      <p id="qsmo"><b>Real Property Management</b></p>
-    </div>
-  </div>
-  <div class="usa-width-half usa-media_block" style="text-align:center;width:50%;float:left;">
-    <div class="border-padding-I"  >
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/travel.png" id="dark-blue-icon">
-      <p id="qsmo"><b>Travel</b></p>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-
-
-<!--end mobile-->
-    </div>
-
-
-    </center>
-
-  </section>
-
-<!--<section class="usa-section" style="background-color: #f1f1f1;padding-top:60px;padding-bottom:30px;">
-  <div class="usa-grid">
-    <div class="usa-width-one-third border usa-media_block ">
-      <h4>Initiation & Research Phase</h4>
-        <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/acquisition.png" style="width:42px;background-color:#112e51;border-radius:25px;padding:4px;">
-          <p id="qsmo"><b>Assisted Acquisition</b></p>
-          <center><p id="designated"><i>Designated Agency: TBD</i></p></center>
-        <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/contract.png" style="width:42px;background-color:#112e51;border-radius:25px;padding:4px;">
-          <p id="qsmo"><b>Contract Writing Systems</b></p>
-          <center><p id="designated"><i>Designated Agency: DHS</i></p></center>
-        <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/cx.png" style="width:42px;background-color:#112e51;border-radius:25px;padding:4px;">
-          <p id="qsmo"><b>Customer Experience</b></p>
-          <center><p id="designated"><i>Designated Agency: GSA</i></p></center>
-        <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/FOIA.png" style="width:42px;background-color:#112e51;border-radius:25px;padding:4px;">
-          <p id="qsmo"><b>FOIA</b></p>
-          <center><p id="designated"><i>Designated Agency: TBD</i></p></center>
-        <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/property.png" style="width:42px;background-color:#112e51;border-radius:25px;padding:4px;">
-          <p id="qsmo"><b>Real Property Management</b></p>
-          <center><p id="designated"><i>Designated Agency: GSA</i></p></center>
-        <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/travel.png" style="width:42px;background-color:#112e51;border-radius:25px;padding:4px;">
-          <p id="qsmo"><b>Travel</b></p>
-          <center><p id="designated"><i>Designated Agency: GSA</i></p></center>
-    </div>
-    <div class="usa-width-one-third border usa-media_block ">
-      <h4>Assessment & Pre-designation Phase*</h4>
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/civilian.png" style="width:42px;background-color:#112e51;border-radius:25px;padding:4px;">
-        <p id="qsmo"><b>Civilian HR Management Services</b></p>
-        <center><p id="designated" class="tooltip"><i>Designated Agency: GSA</i>
-          <span class="tooltiptext"><i>Operational Support for: Talent Acquisition, Talent Development, Employee Performance Management, and Compensation and Benefits Management</i></span></p>
-        </center>
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/finance.png" style="width:42px;background-color:#112e51;border-radius:25px;padding:4px;">
-        <p id="qsmo"><b>Core Financial Management</b></p>
-        <center><p id="designated" class="tooltip"><i>Designated Agency: Treasury</i>
-          <span class="tooltiptext"><i>Accounts Payable, Accounts Receivable, General Ledger, Reporting</i></span></p>
-        </center>
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/cyber.png" style="width:42px;background-color:#112e51;border-radius:25px;padding:4px;">
-        <p id="qsmo"><b>Cyber Security Services</b></p>
-        <center><p id="designated" class="tooltip"><i>Designated Agency: DHS</i>
-          <span class="tooltiptext"><i>Operational guidance, Threat Intelligence and Information Sharing, CyberHunt, Audit Trail / Log, Capture Analysis, Continuous Diagnostics, Incident Response, Data Loss Prevention</i></span></p>
-        </center>
-      <img src ="{{ site.baseurl }}/assets/img/project-icons/qsmo/grants.png" style="width:42px;background-color:#112e51;border-radius:25px;padding:4px;">
-        <p id="qsmo"><b>Grants Management</b></p>
-        <center><p id="designated" class="tooltip"><i>Designated Agency: HHS</i>
-          <span class="tooltiptext"><i>Grant Program Administration and Oversight, Management of Grant Pre-Award, Award, Post-Award & Closeout, Grant Recipient Oversight (initial focus may be a Single Audit Solution)</i></span></p>
-        </center>
-        <p style="font-size:14px;"><em>*Specific scope and timeline of services offered will be determined/defined during the pre-designation phase</em></p>
-
-    </div>
-    <div class="usa-width-one-third border usa-media_block ">
-      <h4>Formal Designation Phase</h4>
-        <p style="font-size:14px;"><em>Coming Soon</em></p>
-        <center><a class="usa-button" href="{{ site.baseurl}}/assets/files/QSMO-Long-term-Designation-Criteria.pdf"> Read Designation Criteria</a>
-    </div>
-  </div>
-</section>-->
 
 <a name="how"></a>
 <section class="usa-section">
@@ -405,7 +144,7 @@ layout: base
         <tr>
           <th style="background-color: #205493;color:white;">Functional Area</th>
           <th style="background-color: #205493;color:white;">Legacy Designated Providers</th>
-          <th style="background-color: #205493;color:white;">Pre-Designated QSMO</th>
+          <th style="background-color: #205493;color:white;">Pre/Designated QSMO</th>
         </tr>
         <tr>
          <td style="padding:1.15rem;">Civilian HR Transaction Services</td>
@@ -434,3 +173,6 @@ layout: base
       <i>Agencies listed were previously designated by either OMB or an e-gov Managing Partner</i>
       </div>
 </section>
+
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
+<script src="{{ site.baseurl }}/js/isotope.settings.js"></script>

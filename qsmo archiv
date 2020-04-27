@@ -1,0 +1,350 @@
+---
+layout: base
+
+---
+<!--<div class="usa-alert usa-alert-info" style="margin-top:0px; background-color:#f1f1f1">
+    <div class="usa-alert__body">
+    <p style="padding-left:55px;margin-top:10px" class="usa-alert__text"><b>March X, 2020</b>: Agency X has been designated for XXX. To learn more, read the <a href="##">press release</a>, view the <a href="##">designation letter</a>, or view our designation table below.</p>
+  </div>
+</div>-->
+
+<section class="usa-section"  style="background-image: url('{{ site.baseurl }}/assets/img/homepage-update-image-2.png');color:#ffffff">
+  <div class="usa-grid">
+    <div class="usa-width-one-whole usa-media_block">
+        <h1 style="color:#ffffff;">Quality Service Management Offices (QSMOs)</h1>
+      <center>
+        <h3 style="color:#ffffff;">Shared services will create efficiencies in government and optimize the workforce "by shifting resources to higher value work and reducing duplication across agencies" – OMB M-19-16 Centralized Mission Support Capabilities for the Federal Government </h3>
+      </center>
+     </div>
+    </div>
+    <br>
+    <center>
+    <div class="usa-grid usa-graphic_list-row">
+      <div class="usa-width-one-third usa-media_block">
+        <img style="width:70px;" src="{{ site.baseurl }}/assets/img/project-icons/increase.png">
+        <h3 style="color:#ffffff;margin-top:.2em;margin-bottom:0em;">Improve</h3> <p style="margin-top:0em;color:#ffffff;">service delivery and performance</p>
+      </div>
+      <div class="usa-width-one-third usa-media_block">
+        <img style="width:70px;" src="{{ site.baseurl }}/assets/img/project-icons/enhance.png">
+        <h3 style="color:#ffffff;margin-top:.2em;margin-bottom:0em;">Enhance</h3> <p style="margin-top:0em;color:#ffffff;">customer satisfaction</p>
+      </div>
+      <div class="usa-width-one-third usa-media_block">
+        <img style="width:70px;" src="{{ site.baseurl }}/assets/img/project-icons/reduce.png">
+        <h3 style="color:#ffffff;margin-top:.2em;margin-bottom:0em;">Create</h3> <p style="margin-top:0em;color:#ffffff;">high value work</p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <a class="usa-button" target="_blank" href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf" style="background-color:#e31c3d">Read the Memo</a>
+    <a class="usa-button" href="https://www.performance.gov/CAP/CAP_goal_5.html" style="background-color:#e31c3d">View the CAP Goal</a>
+    <a class="usa-button" href="{{ site.baseurl }}/assets/files/SQS-Public-FAQs-April-2019.pdf" style="background-color:#e31c3d">FAQs</a>
+  </center>
+</section>
+
+<section class="usa-section" style="background-color: #f1f1f1; padding-top:30px;padding-bottom:15px">
+  <div class="usa-grid">
+    <div class="usa-width-one-third border usa-media_block inner" style="padding: 5px;">
+      <a class="hvr-sink" href="#who"style="text-decoration:none;"><h4 style="color:black">Who are the QSMOs?</h4>
+      <center><p><img src="../assets/img/project-icons/arrow-down.png" style="width:35px;"></p></center</a>
+    </div>
+    <div class="usa-width-one-third border usa-media_block" style="padding: 5px;">
+      <a class=" hvr-sink" href="#what" style="text-decoration:none;"><h4 style="color:black">What are QSMOs?</h4>
+      <center><p><img  src="../assets/img/project-icons/arrow-down.png" style="width:35px;"></p></center></a>
+    </div>
+    <div class="usa-width-one-third border-last usa-media_block inner" style="padding: 5px;">
+    <a class="hvr-sink" class="grow "href="#how" style="text-decoration:none;"><h4 style="color:black">How will agencies get support from the QSMO?</h4>
+      <center><p><img  src="../assets/img/project-icons/arrow-down.png" style="width:35px;"></p></center></a>
+    </div>
+</section>
+
+
+<a name="who"></a>
+<section class="usa-section" style="background-color: #205493;padding-bottom:20px;">
+  <div class="usa-grid">
+    <div class="usa-width-one-whole usa-media_block">
+      <a name="who"></a>
+      <h2 style="color:#ffffff;margin-top:0px;">Who are the QSMOs?</h2>
+      <h4 style="color:#ffffff">OMB will designate specific agencies to stand up QSMOs for select mission support functions. These agencies will submit initial 5-Year Plans indicating how they will offer select mission support functions to other Federal agencies. Final QSMO designation, issued by OMB in consultation with the Shared Services Governance Board (SSGB), is contingent upon development and approval of the aforementioned 5-Year Plan and its alignment with QSMO long-term designation criteria.</h4>
+    </div>
+    </div>
+    </section>
+
+<section class="usa-section usa-graphic_list">
+ <div class="usa-grid usa-graphic_list-row">
+   <div class="usa-width-one-whole usa-media_block ">
+
+     <div class="usa-width-one-fourth">
+      {% include qsmo-filter.html %}
+      </div>
+
+      <div class="usa-width-three-fourths qsmo-section">
+        <p class="filter-count qsmo-tag"></p>
+
+
+        <div class="usa-grid usa-graphic_list-row" style="padding:0px;">
+          <div class="usa-width-one-third selector research acquisition ">
+              <p class="qsmo-tag">Initiation & Research</p>
+              <b>Assisted Acquisition</b>
+          </div>
+
+          <div class="usa-width-one-third selector research acquisition ">
+              <p class="qsmo-tag">Initiation & Research</p>
+              <b>Assisted Acquisition</b>
+          </div>
+
+          <div class="usa-width-one-third selector research acquisition ">
+              <p class="qsmo-tag">Initiation & Research</p>
+              <b>Assisted Acquisition</b>
+         </div>
+      </div>
+
+      <div class="usa-grid usa-graphic_list-row" style="padding:0px;">
+        <div class="usa-width-one-third selector research acquisition ">
+            <p class="qsmo-tag">Initiation & Research</p>
+            <b>Assisted Acquisition</b>
+        </div>
+
+        <div class="usa-width-one-third selector research acquisition ">
+            <p class="qsmo-tag">Initiation & Research</p>
+            <b>Assisted Acquisition</b>
+        </div>
+
+        <div class="usa-width-one-third selector research acquisition ">
+            <p class="qsmo-tag">Initiation & Research</p>
+            <b>Assisted Acquisition</b>
+       </div>
+    </div>
+    <div class="usa-grid usa-graphic_list-row" style="padding:0px;">
+      <div class="usa-width-one-third selector research acquisition ">
+          <p class="qsmo-tag">Initiation & Research</p>
+          <b>Assisted Acquisition</b>
+      </div>
+
+      <div class="usa-width-one-third selector research acquisition ">
+          <p class="qsmo-tag">Initiation & Research</p>
+          <b>Assisted Acquisition</b>
+      </div>
+
+      <div class="usa-width-one-third selector research acquisition ">
+          <p class="qsmo-tag">Initiation & Research</p>
+          <b>Assisted Acquisition</b>
+     </div>
+  </div>
+
+    </div>
+    </div>
+
+
+
+
+      <!--<div class="usa-width-three-fourths usa-media_block ">
+        <p class="filter-count qsmo-tag"></p>
+        <div class="qsmos">
+
+          {% for qsmos in site.qsmos %}
+            <div class="usa-width-one-third qsmo {{ qsmos.filters }} ">
+              <div class="container-GoG" tabindex="0" style="border-top: 5px solid #{{qsmos.border}};">
+                <p class="qsmo-tag">{{ qsmos.phase }}</p>
+                <b>{{ qsmos.name}}</b>
+                <p style="font-size:11px;margin-top:3px;margin-bottom:1px"><b>QSMO Agency</b>: {{ qsmos.agency }}</p>
+                <p style="font-size:11px;margin-top:2px;margin-bottom:1px;"><b>Services</b>: {{ qsmos.services }}</p>
+                <p style="font-size:11px;margin-top:2px;"><b>Contact</b>: {{ qsmos.contact }}</p>
+              </div>
+            </div>
+          {% endfor %}
+
+        </div>
+      </div>-->
+
+    </div>
+  </div>
+</section>
+
+<a name="what"></a>
+<section class="usa-section" style="background-color: #f1f1f1">
+  <div class="usa-grid">
+    <a name="what"></a>
+    <div class="usa-width-one-third usa-media_block">
+      <h3>{{ page.about-text }}</h3>
+    </div>
+    <div class="usa-width-two-thirds usa-media_block">
+      <a name="what"></a>
+      <p style="margin-top:0;">Housed in federal agencies with the mission and expertise to deliver standard capabilities for other agencies, QSMOs will:</p>
+      <ul>
+        <li>Offer and manage a marketplace of solutions for common technology, services, or fully managed services to respond to agency needs;</li>
+        <li>Guide and govern the long-term sustainability of the services and solutions marketplace;</li>
+        <li>Institute a customer engagement and feedback model that allows for continuous improvement and performance management of solutions; and </li>
+        <li>Drive the implementation to standards established through the collaborative governance process that produce efficiencies in process and scale. </li>
+      </ul>
+    </div>
+</section>
+
+
+<a name="how"></a>
+<section class="usa-section">
+  <div class="usa-grid">
+    <div class="usa-width-one-whole usa-media_block">
+      <center><h2>How Will Agencies get Support from the QSMO?</h2></center>
+      <center><img src ="{{ site.baseurl }}/assets/img/project-images/support-qsmo.png" style="width:950px; padding:40px 20px 20px 20px;"></center>
+    </div>
+  </div>
+</section>
+<section class="usa-section" style="background-color: #f1f1f1;">
+  <div class="usa-grid">
+    <div class="usa-width-one-whole">
+      <h2 style="color:black">Legacy Designated Providers</h2>
+      <p>Memo 19-16 directs legacy designated providers to propose a <a href="{{ site.baseurl}}/assets/files/Investment-Action-Plan-SOP-April-2019.pdf">joint business case</a> with the QSMO to accept any new customers, expand services to existing customers, or make investments in technology or services for these functions.
+      </p>
+      <table id="customers" style="font-size:15px;">
+        <tr>
+          <th style="background-color: #205493;color:white;">Functional Area</th>
+          <th style="background-color: #205493;color:white;">Legacy Designated Providers</th>
+          <th style="background-color: #205493;color:white;">Pre/Designated QSMO</th>
+        </tr>
+        <tr>
+         <td style="padding:1.15rem;">Civilian HR Transaction Services</td>
+          <ul>
+          <td style="padding:1.15rem;"><li>Defense Accounting and Financial Service (Department of Defense)</li><li>Interior Business Center (Department of Interior)</li> <li>Administrative Resource Center and Treasury Shared Service Center (Department of Treasury)</li><li> National Finance Center (Department of Agriculture)</li> </td>
+          <td style="padding:1.15rem;">General Services Administration</td>
+        </tr>
+        <tr>
+          <td style="padding:1.15rem;">Core Financial Management</td>
+          <ul>
+          <td style="padding:1.15rem;"><li>Interior Business Center (Department of Interior)</li><li> Financial Management Services (Department of Agriculture)</li><li> Enterprise Services Center (Department of Transportation)</li><li> Administrative Resource Center (Department of Treasury)</li>  </td>
+          <td style="padding:1.15rem;">Department of Treasury</td>
+        </tr>
+        <tr>
+          <td style="padding:1.15rem;">Grants Management</td>
+          <td style="padding:1.15rem;">N/A</td>
+          <td style="padding:1.15rem;">Department of Health and Human Services</td>
+        </tr>
+        <tr>
+          <td style="padding:1.15rem;">Cybersecurity Services</td>
+          <td style="padding:1.15rem;">N/A</td>
+          <td style="padding:1.15rem;">Department of Homeland Security </td>
+        </tr>
+      </table>
+      <br>
+      <i>Agencies listed were previously designated by either OMB or an e-gov Managing Partner</i>
+      </div>
+</section>
+
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
+<script src="{{ site.baseurl }}/js/isotope.settings.js"></script>
+
+
+----------
+
+
+// Filter based on two factors + alphabetical sort
+// Uses URI hash as trigger allowing direct links etc
+// Losely based on: http://isotope.metafizzy.co/filtering.html#url-hash
+
+jQuery(document).ready(function ($) {
+    var $container = $(".qsmo-section");
+
+    // Filter isotope
+    $container.isotope({
+        // options
+        itemSelector: ".qsmo",
+        layoutMode: "masonry",
+        getSortData: {
+            date: "p"
+        }
+    });
+
+var iso = $container.data('isotope');
+var $filterCount = $('.filter-count');
+
+function updateFilterCount() {
+  $filterCount.text( iso.filteredItems.length + ' items' );
+}
+
+
+    // Set up filters array with default values
+    var filters = {};
+    // When a button is pressed, run filterSelect
+    $( ".filter-list a" ).on( "click", filterSelect );
+    // Set the URI hash to the current selected filters
+    function filterSelect() {
+        // Current hash value
+        var hashFilter = getHashFilter();
+        // Set filters to current values (important for first run)
+        filters["subject"] = hashFilter["subject"];
+        filters["role"] = hashFilter["role"];
+        filters["status"] = hashFilter["status"];
+        // data-filter attribute of clicked button
+        var currentFilter = $(this).attr("data-filter");
+        // Navigation group (subject or role) as object
+        var $navGroup = $(this).parents(".filter-list");
+        // data-filter-group key for the current nav group
+        var filterGroup = $navGroup.attr("data-filter-group");
+        // If the current data-filter attribute matches the current filter,
+        if ( currentFilter == hashFilter["subject"] || currentFilter == hashFilter["role"] || currentFilter == hashFilter["status"] ) {
+            // Reset group filter as the user has unselected the button
+            filters[ filterGroup ] = "*";
+        } else {
+            // Set data-filter of current button as value with filterGroup as key
+            filters[ filterGroup ] = $(this).attr("data-filter");
+        }
+        // Create new hash
+        var newHash = "subject=" + encodeURIComponent( filters["subject"] ) + "&role=" + encodeURIComponent( filters["role"] ) + "&status=" + encodeURIComponent( filters["status"] );
+        // If sort value exists, add it to hash
+        if ( sortValue ) {
+            newHash = newHash + "&sort=" + encodeURIComponent( sortValue );
+        }
+        // Apply the new hash to the URI, triggering onHahschange()
+        location.hash = newHash;
+    } // filterSelect
+
+    function onHashChange() {
+        // Current hash value
+        var hashFilter = getHashFilter();
+        // Concatenate subject and role for Isotope filtering
+        var theFilter = hashFilter["subject"] + hashFilter["role"] + hashFilter["status"];
+
+        if ( hashFilter ) {
+            // Repaint Isotope container with current filters and sorts
+            $container.isotope( {
+                filter:  decodeURIComponent( theFilter ),
+                sortBy: hashFilter["sorts"]
+            } );
+
+            updateFilterCount();
+            // Toggle checked status of sort button
+            if ( hashFilter["sorts"] ) {
+                $(".sort").addClass("checked");
+            } else {
+                $(".sort").removeClass("checked");
+            }
+            // Toggle checked status of filter buttons
+            $( ".filter-list" ).find(".checked").removeClass("checked").attr("aria-checked","false");
+            $( ".filter-list" ).find("[data-filter='" + hashFilter["subject"] + "'],[data-filter='" + hashFilter["role"] + "'] ,[data-filter='" + hashFilter["status"] + "']").addClass("checked").attr("aria-checked","true");
+        }
+    } // onHahschange
+
+    function getHashFilter() {
+        // Get filters (matches) and sort order (sorts)
+        var subject = location.hash.match( /subject=([^&]+)/i );
+        var role = location.hash.match( /role=([^&]+)/i );
+        var status = location.hash.match( /status=([^&]+)/i );
+        var sorts = location.hash.match( /sort=([^&]+)/i );
+
+        // Set up a hashFilter array
+        var hashFilter = {};
+        // Populate array with matches and sorts using ternary logic
+        hashFilter["subject"] = subject ? subject[1] : "*";
+        hashFilter["role"] = role ? role[1] : "*";
+        hashFilter["status"] = status ? status[1] : "*";
+        hashFilter["sorts"] = sorts ? sorts[1]: "";
+
+        return hashFilter;
+    } // getHashFilter
+
+    // When the hash changes, run onHashchange
+    window.onhashchange = onHashChange;
+
+    // When the page loads for the first time, run onHashChange
+    onHashChange();
+
+});
