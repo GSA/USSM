@@ -4,8 +4,8 @@ body-class: home
 permalink: /
 hero-image: "../assets/img/homepage-update-image.png"
 hero-title: "Centralized Mission Support Capabilities for the Federal Government"
-hero-text: "Office of Management and Budget has formally designated the Department of Homeland Security (DHS) as the Quality Service Management Office for Cybersecurity Services, specifically Security Operations Center standardization, Vulnerability Management standardization, and DNS Resolver service.  "
-hero-button-text: Learn more
+hero-text: "The Office of Management and Budget has designated the Department of Homeland Security as the Quality Service Management Office for Cybersecurity Services, specifically Security Operations Center standardization, Vulnerability Management standardization, and DNS Resolver service.  "
+hero-button-text: Learn more about QSMOs
 hero-button-link: /qsmo/
 banner-heading:
 banner-text:
