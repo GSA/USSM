@@ -10,7 +10,7 @@ hero-button-link: /qsmo/
 banner-heading:
 banner-text:
 banner-button-text: Learn more
-banner-button-link: /about/
+banner-button-link: /qsmo/
 ---
 ## Unified Shared Services Management
 The Unified Shared Services Management (USSM) office, residing in the General Services Administration (GSA), provides the strategy and leadership to make mission enabling services better, faster and more affordable.
