@@ -1,7 +1,7 @@
 ---
 layout: council
-title: Shared Solutions Governance Board
-description: <B>Role of the Shared Solutions Governance Board (SSGB)</B> <BR> The Shared Solutions Governance Board (SSGB) is the primary executive body responsible for advising the Shared Service Policy Officer (SSPO) on the development of shared solutions policies in pursuit of the shared solutions mission and successful achievement of shared solutions vision and goals. Membership includes executives from across the Federal enterprise to provide a broad perspective on opportunities, concerns, and policies related to shared solutions.  The SSGB collaborates with organizations and stakeholders across the federal government to identify solutions that deliver the best value to taxpayers and support efficient government.
+title: Shared Services Governance Board
+description: The SSGB is comprised of representatives from the CXO councils and is responsible for making recommendations to Office of Management and Budget (OMB) on potential sharing opportunities and for advising on the implementation of the designated activities. The SSGB will also serve as the escalation point for the BSC to resolve inconsistencies in the creation of business and data standards or to suggest possible resolutions for OMB policy officials. Membership includes executives from across the Federal enterprise to provide a broad perspective on opportunities, concerns, and policies related to shared services.
 permalink: /ssgb/
 ---
 <br>
@@ -9,25 +9,22 @@ permalink: /ssgb/
 
 | Representation     | Name           |
 | ------------- |-------------|
-| SSPO (Co-Chair)    | Suzette Kent |
-| USSM ED (Co-Chair) | Beth Angerman   |  
-| Category Management     | John Bashista      |
-| CFO Council     |  Stacy Marcott      |
-| CFO Council | Sheila Conley |  
+| SSGB (Co-Chair)    | Suzette Kent |
+| SSGB (Co-Chair) | Emily Murphy   |  
+| CFO Council     |  Irv Dennis      |
+| CFO Council | Jen Funk |  
+| CIO Council | Dorothy Aronson      |  
 | CIO Council | Joe Klimavicz      |  
-| CIO Council | Jason Gray      |  
-| Jason Gray EA | Angela Butler      |
-| CAO Council | Soraya Correa      |  
-| CHCO Council   | Bob Gibbs        |  
-| CHCO Council   | Anita Blair        |  
-| Central Policy Agency FM | Dave Lebryk    |  
-| Central Policy Agency HR | Mark Reinhold    |  
-| Central Policy Agency Acq/Travel/Fleet | Jessica Salmoiraghi    |  
-| Small Agency Council | Steve McLaughlin    |  
-| Small Agency Council | Corrine Eilo    |  
-| PIC Council | Dat Tran      |  
-| GSA FAS | Alan Thomas      |
-| Department of Treasury | Amy Edwards      |
+| CAO Council | John Bashista      |  
+| CAO Council | Michael Wooten     |  
+| CHCO Council   | Paula Patrick   |  
+| CHCO Council   | Ann Vicks        |  
+| Performance Improvement Council | Dat Tran      |
+| Performance Improvement Council | Final confirmation in process    |  
+| Small Agency Council | Patrick Bevill    |  
+| Small Agency Council | Final confirmation in process    |  
+
+
 
 
 

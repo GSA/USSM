@@ -5,8 +5,8 @@ layout: base
   <div class="hero-unit" style="background-image: url('{{ site.baseurl }}/assets/img/homepage-update-image-2.png')">    <div class="usa-grid">
       <div class="usa-width-whole hero-content">
         <h1>{{ page.hero-title }}</h1>
-        <p style="color:#ffffff;">{{ page.hero-text }}</p>
-        <a class="usa-button usa-button-secondary " href="{{ page.hero-button-link | prepend: site.baseurl }}" style="background-color:#e31c3d">{{ page.hero-button-text }}</a>
+        <p style="color:#ffffff;font-size:20px;">{{ page.hero-text }}</p>
+        <a class="usa-button usa-button-secondary " href="{{site.baseurl}}/qsmo/" style="background-color:#e31c3d">{{ page.hero-button-text }}</a>
       </div>
     </div>
   </div>
@@ -54,10 +54,10 @@ layout: base
 </section>
 
 
-  <section class="usa-section " style="background-color:#046b99;">
+  <section class="usa-section " style="background-color:#f1f1f1;">
 <div class="usa-grid usa-graphic_list-row">
 
-    {% include home.ussm.html %}
+  {% include qsmo-homepage.html %}
 
   </div>
 </section>
@@ -74,6 +74,15 @@ layout: base
   <h2>News and Updates</h2>
     {% include home.news.updates.html %}
 </section>
+
+<section class="usa-section " style="background-color:#046b99;">
+<div class="usa-grid usa-graphic_list-row">
+
+  {% include home.ussm.html %}
+
+</div>
+</section>
+
 
 <section class="usa-section usa-section-dark">
   <div class="usa-grid">

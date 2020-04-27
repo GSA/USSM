@@ -2,9 +2,9 @@
 title: Unified Shared Services Management
 description: Unified Shared Services Management (USSM)
 baseurl: '' # the subpath of your site, e.g. /blog/
-url: 'https://www.ussm.gov' # the base hostname & protocol for your site
+url: 'https://www.ussm.gsa.gov' # the base hostname & protocol for your site
 logo: /assets/img/placeholder-logo.gif
-feature_image: /assets/img/frontpageheader.png
+feature_image: /assets/img/placeholder-logo.png
 org_name: GSA
 repo_name: federalist-modern-team-template
 
@@ -60,7 +60,6 @@ forms:
 
 footer:
   links:
-      - text: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
       - text: 'Governance'
         href: '/governance/'
       - text: 'FIBF'
@@ -78,7 +77,7 @@ footer:
 
   image: /assets/img/gsa-logo-dark.jpg
   contact:
-    name: Office of Shared Services and Performance Improvement
+    name: Office of Shared Solutions and Performance Improvement
     phonenumber:
     email: ussmteam@gsa.gov
     twitter:
@@ -98,6 +97,7 @@ exclude:
   - README.md
 
 
+
 # Inititalize project and team collections
 collections:
   projects:
@@ -107,6 +107,8 @@ collections:
   news-posts:
     output: true
   updates:
+    output: true
+  qsmos:
     output: true
 
 wds-version: 1.1.0
