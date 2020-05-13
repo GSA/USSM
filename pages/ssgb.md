@@ -14,11 +14,11 @@ permalink: /ssgb/
 | CFO Council     |  Irv Dennis      |
 | CFO Council | Jen Funk |  
 | CIO Council | Dorothy Aronson      |  
-| CIO Council | Joe Klimavicz      |  
+| CIO Council | TBD      |  
 | CAO Council | John Bashista      |  
 | CAO Council | Michael Wooten     |  
 | CHCO Council   | Paula Patrick   |  
-| CHCO Council   | Ann Vicks        |  
+| CHCO Council   | TBD       |  
 | Performance Improvement Council | Dat Tran      |
 | Performance Improvement Council | Final confirmation in process    |  
 | Small Agency Council | Patrick Bevill    |  
