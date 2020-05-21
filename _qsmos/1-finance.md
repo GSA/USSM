@@ -4,8 +4,8 @@ border: 04c585
 phase: Formally Designated
 agency: TBD
 contact: FMQSMO@Fiscal.Treasury.Gov
-services: xxx, xxxxx, xxxx
+services: Accounts Payable, Accounts Receivable, General Ledger, Reporting
 filters: formal finance
-published: false
+published: true
 
 ---
