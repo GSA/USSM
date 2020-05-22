@@ -4,7 +4,7 @@ body-class: home
 permalink: /
 hero-image: "../assets/img/homepage-update-image.png"
 hero-title: "Centralized Mission Support Capabilities for the Federal Government"
-hero-text: "The Office of Management and Budget has designated Quality Service Management Offices in Cybersecurity Services, Core Financial Management, and Civilian Human Resources Transaction Services.   "
+hero-text: "The Office of Management and Budget has designated Quality Service Management Offices in Cybersecurity Services, Core Financial Management, and Civilian Human Resources Transaction Services. "
 hero-button-text: Learn more about QSMOs
 hero-button-link: /qsmo/
 banner-heading:
