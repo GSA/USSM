@@ -4,7 +4,7 @@ body-class: home
 permalink: /
 hero-image: "../assets/img/homepage-update-image.png"
 hero-title: "Centralized Mission Support Capabilities for the Federal Government"
-hero-text: "The Office of Management and Budget has designated the Department of Homeland Security (DHS) Cybersecurity and Infrastructure Security Agency (CISA) as the Quality Service Management Office for Cybersecurity Services, specifically Security Operations Center standardization, Vulnerability Management standardization, and DNS Resolver service.  "
+hero-text: "The Office of Management and Budget has designated Quality Service Management Offices in Cybersecurity Services, Core Financial Management, and Compensation Management, Work Schedule and Leave Management services. "
 hero-button-text: Learn more about QSMOs
 hero-button-link: /qsmo/
 banner-heading:
