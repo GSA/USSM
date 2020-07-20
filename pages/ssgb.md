@@ -15,11 +15,11 @@ permalink: /ssgb/
 | CFO Council | Jen Funk |  
 | CIO Council | Dorothy Aronson      |  
 | CIO Council | Jason Gray      |  
-| CAO Council | John Bashista      |  
+| CAO Council | Final confirmation in process      |  
 | CAO Council | Michael Wooten     |  
-| CHCO Council   | Paula Patrick   |  
-| CHCO Council   | Traci DiMartini       |  
-| Performance Improvement Council | Dat Tran      |
+| CHCO Council   | Traci DiMartini   |  
+| CHCO Council   | TBD       |  
+| Performance Improvement Council | Final confirmation in process      |
 | Performance Improvement Council | Final confirmation in process    |  
 | Small Agency Council | Patrick Bevill    |  
 | Small Agency Council | Bryan Burnett    |  
