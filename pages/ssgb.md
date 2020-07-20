@@ -9,20 +9,20 @@ permalink: /ssgb/
 
 | Representation     | Name           |
 | ------------- |-------------|
-| SSGB (Co-Chair)    | Suzette Kent |
+| SSGB (Co-Chair)    | Maria Roat |
 | SSGB (Co-Chair) | Emily Murphy   |  
 | CFO Council     |  Irv Dennis      |
 | CFO Council | Jen Funk |  
 | CIO Council | Dorothy Aronson      |  
-| CIO Council | TBD      |  
+| CIO Council | Jason Gray      |  
 | CAO Council | John Bashista      |  
 | CAO Council | Michael Wooten     |  
 | CHCO Council   | Paula Patrick   |  
-| CHCO Council   | TBD       |  
+| CHCO Council   | Traci DiMartini       |  
 | Performance Improvement Council | Dat Tran      |
 | Performance Improvement Council | Final confirmation in process    |  
 | Small Agency Council | Patrick Bevill    |  
-| Small Agency Council | Final confirmation in process    |  
+| Small Agency Council | Bryan Burnett    |  
 
 
 
