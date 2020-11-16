@@ -1,0 +1,16 @@
+---
+title: List of all posts
+permalink: /api/posts/
+---
+[
+{% for post in site.json %}
+{
+"date": "{{ post.date }}",
+"title": "{{ post.title }}",
+"id": "{{ post.uid }}",
+"content": "{{ post.content }}",
+"url": "{{ post.url }}"
+}
+{% unless forloop.last %}, <br> {% endunless %}
+{% endfor %}
+]

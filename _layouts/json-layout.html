@@ -1,0 +1,14 @@
+---
+title: JSON output
+---
+[
+{
+"date": "{{ page.date }}",
+"title": "{{ page.title }}",
+"id": "{{ page.uid }}"
+"content": "{{ page.content }}",
+"tags": "{{ page.tags | jsonify }}",
+"url": "{{ page.url }}"
+}
+]
+
