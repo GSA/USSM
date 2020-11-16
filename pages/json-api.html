@@ -10,10 +10,10 @@ permalink: /api/posts/
 "id": "{{ post.uid }}",
 "content": "{{ post.content }}",
 "url": "{{ post.url }}",
-"identifier": "{{page.identifier}}",
-"activity": "{{page.activity}}",
-"Description": "{{page.description}}"
+"identifier": "{{ post.identifier }}",
+"activity": "{{ post.activity }}",
+"Description": "{{ post.description }}"
 }
-{% unless forloop.last %}, <br> {% endunless %}
+{% unless forloop.last %}, <br><br> {% endunless %}
 {% endfor %}
 ]
