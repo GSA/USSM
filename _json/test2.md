@@ -8,5 +8,4 @@ identifier: this is the identifier 2
 description: this is the description 2
 activity: this is the activity 2
 ---
----
 content of the second page goes here. 
