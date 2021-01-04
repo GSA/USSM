@@ -35,7 +35,7 @@ assigned:
         show_in_menu: true
         show_in_footer: false
     -
-        text: 'FIBF'
+        text: 'Business Standards'
         href: /pages/team.md
         permalink: /fibf/
         show_in_menu: true
