@@ -26,6 +26,12 @@ background: url('../assets/img/fibf/fibf.bc.on.png');
     width: 500px;
     height: 160px;
 }
+.subnav {
+  margin-top:0px;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  text-align: center;
+}
 
 </style>
 
@@ -63,13 +69,54 @@ function flipImage(strImage) {
   <BR><font style="font-size: 12px;"><i>Click wheel to review standards</i></font>
   </td>
   <td valign=top  style="border-style: hidden;">
-    <img src="../assets/img/fibf/service.areas.hr.hr.png" alt="Service Area Menu" name="svcarea" usemap="#svc-map">
+    <!--<img src="../assets/img/fibf/service.areas.hr.hr.png" alt="Service Area Menu" name="svcarea" usemap="#svc-map">-->
+
+    <div class="usa-grid usa-graphic_list-row" style="margin-top:10px;padding-right:5px;padding-left:5px;">
+     <div class="usa-width-one-sixth usa-media_block subnav">
+          <A class=" hvr-sink" HREF="../fibf-fm" style="padding-left: 5px;padding-right: 5px;">
+            <img src="../assets/img/icon.fm.png" style="width:50px;" alt="Financial Management">
+          <p>Financial Management</p>
+        </a>
+         </div>
+   
+        <div class="usa-width-one-sixth usa-media_block subnav">
+        <A class=" hvr-sink" HREF="../fibf-hr" style="margin-left:15px;padding-left:5px;padding-right:5px;"> 
+         <img src="../assets/img/icon.hr.png" style="width:50px;" alt="HR Management Services">
+         <p>HR Management<BR>Services</p>
+       </a>
+        </div>
+       <div class="usa-width-one-sixth usa-media_block subnav">
+        <A class=" hvr-sink" HREF="../fibf-procurement" style="margin-left:20px;padding-left:5px;padding-right:5px;">
+         <img src="../assets/img/icon.procurement.png" style="width:48px;" alt="Procurement">
+         <p>Procurement</p>
+       </a>
+      </div>
+      <div class="usa-width-one-sixth usa-media_block subnav">
+        <A class=" hvr-sink" HREF="../fibf-gm" style="margin-left:22px;padding-left:5px;padding-right:5px;">
+         <img src="../assets/img/icon.grants.png" style="width:53px;" alt="Grants Management">
+         <p>Grants Management</p>
+       </a>
+      </div>
+      <div class="usa-width-one-sixth usa-media_block subnav">
+        <A class=" hvr-sink" HREF="../fibf-travel" style="margin-left:20px;padding-left:5px;padding-right:5px;">
+         <img src="../assets/img/icon.travel.png" style="width:50px;" alt="Travel">
+         <p>Travel</p>
+       </a>
+      </div>
+      <div class="usa-width-one-sixth usa-media_block subnav">
+        <A class=" hvr-sink" HREF="../fibf-ini" style="padding-left:5px;padding-right:5px;">
+         <img src="../assets/img/icon.ERM.png" style="width:48px;" alt="Electronic Records Management">
+         <p>Electronic Records Management</p>
+       </a>
+      </div>
+    </div>
+
   <CENTER>
 	  <FONT style="font-size:17px;"><B>Employee Lifecycle</B></FONT>
    <img name="hrarea" src="../assets/img/fibf/hr.sub.td.png" alt="Service Area Menu" usemap="#hr-map">
 	  </CENTER>
 
-
+<!--
 <map name="svc-map">
  <area target="" alt="Human Capital" title="Human Capital" href="../fibf-hr/"
           onMouseOver="flipMenu('../assets/img/fibf/service.areas.hr.hr.png');" onMouseOut="flipMenu('../assets/img/fibf/service.areas.hr.hr.png');"
@@ -87,6 +134,7 @@ function flipImage(strImage) {
                  onMouseOver="flipMenu('../assets/img/fibf/service.areas.hr.fm.png');" onMouseOut="flipMenu('../assets/img/fibf/service.areas.hr.hr.png');"
           coords="6,2,104,124" shape="rect">
 </map>
+-->
 
 <map name="hr-map">
     <area target="" alt="Human Capital - Talent Acquisition"
