@@ -9,42 +9,17 @@ permalink: /ssgb/
 
 | Representation     | Name           |
 | ------------- |-------------|
-| SSGB (Co-Chair)    | Maria Roat |
-| SSGB (Co-Chair) | Emily Murphy   |  
-| CFO Council     |  Irv Dennis      |
-| CFO Council | Jen Funk |  
-| CIO Council | Dorothy Aronson      |  
-| CIO Council | Jason Gray      |  
-| CAO Council | Final confirmation in process      |  
-| CAO Council | Michael Wooten     |  
-| CHCO Council   | Traci DiMartini   |  
-| CHCO Council   | TBD       |  
-| Performance Improvement Council | Final confirmation in process      |
-| Performance Improvement Council | Final confirmation in process    |  
+| SSGB (Co-Chair)    | Basil Parker |
+| SSGB (Co-Chair) | TBD   |  
+| Chief Financial Officers Council (CFOC) Representative     |  Irv Dennis      |
+| Chief Financial Officers Council (CFOC) Representative | Jen Funk |  
+| Chief Information Officers Council (CIOC) Representative  | Dorothy Aronson      |  
+| Chief Information Officers Council (CIOC) Representative  | Jason Gray      |  
+| Chief Acquisition Officers Council (CAOC) Representative  | Michael Allen       |  
+| Chief Acquisition Officers Council (CAOC) Representative  | Michael Wooten     |  
+| Chief Human Capital Officers Council (CHCOC) Representative    | TBD   |  
+| Chief Human Capital Officers Council (CHCOC) Representative    | Traci DiMartini       |  
+| Performance Improvement Council (PIC) | Harry Knight      |
+| Performance Improvement Council (PIC) | TBD    |  
 | Small Agency Council | Patrick Bevill    |  
 | Small Agency Council | Bryan Burnett    |  
-
-
-
-
-
-
-<!-- | Representation     | Name           |
-| ------------- |-------------|
-| OMB - Shared Services Policy Officer    | Lesley Field |
-| Unified Shared Services Management | Beth Angerman   |  
-| OMB - Office of Federal Procurement Policy     | Karen Pica      |
-| Customer Council Representative | TBD |  
-| Provider Council Representative | Doug Anderson      |  
-| General Services Administration | Tony Costa      |  
-| Department of Treasury | Kristie Conrath      |  
-| Office of Personnel Management | Joe Kennedy     |  
-| Chief Human Capital Officer Council Representative |Robert Gibbs        |  
-| Chief Financial Officer Council Representative | Stacy Marcott   |  
-| Chief Acquisition Officer Council Representative | Iris Cooper      |  
-| Chief Information Officer Representative | Joe Klimavicz       |  
-| Department of Defense | Mark Easton      |  
-| Department of Agriculture | Lynn Moanney       |  
-| Department of Transportation | Jennifer Funk    |  
-| Department of Interior | Elena Gonzalez      |  
-| Unified Shared Services Management | Beth Angerman   |  -->
