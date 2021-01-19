@@ -16,7 +16,7 @@ permalink: /ssgb/
 | Chief Information Officers Council (CIOC) Representative  | Dorothy Aronson      |  
 | Chief Information Officers Council (CIOC) Representative  | Jason Gray      |  
 | Chief Acquisition Officers Council (CAOC) Representative  | Michael Allen       |  
-| Chief Acquisition Officers Council (CAOC) Representative  | Vacant     |  
+| Chief Acquisition Officers Council (CAOC) Representative  | TBD     |  
 | Chief Human Capital Officers Council (CHCOC) Representative    | TBD   |  
 | Chief Human Capital Officers Council (CHCOC) Representative    | Traci DiMartini       |  
 | Performance Improvement Council (PIC) | Harry Knight      |
