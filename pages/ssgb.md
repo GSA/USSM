@@ -9,14 +9,14 @@ permalink: /ssgb/
 
 | Representation     | Name           |
 | ------------- |-------------|
-| SSGB (Co-Chair)    | Basil Parker |
+| SSGB (Co-Chair)    | Maria Roat |
 | SSGB (Co-Chair) | TBD   |  
-| Chief Financial Officers Council (CFOC) Representative     |  Irv Dennis      |
+| Chief Financial Officers Council (CFOC) Representative     |  TBD      |
 | Chief Financial Officers Council (CFOC) Representative | Jen Funk |  
 | Chief Information Officers Council (CIOC) Representative  | Dorothy Aronson      |  
 | Chief Information Officers Council (CIOC) Representative  | Jason Gray      |  
 | Chief Acquisition Officers Council (CAOC) Representative  | Michael Allen       |  
-| Chief Acquisition Officers Council (CAOC) Representative  | Michael Wooten     |  
+| Chief Acquisition Officers Council (CAOC) Representative  | Vacant     |  
 | Chief Human Capital Officers Council (CHCOC) Representative    | TBD   |  
 | Chief Human Capital Officers Council (CHCOC) Representative    | Traci DiMartini       |  
 | Performance Improvement Council (PIC) | Harry Knight      |
