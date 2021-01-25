@@ -21,6 +21,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+  
+  }
+
 /*  OLD HERO class
     background-color: transparentize($text-color, .6);
     bottom: 20px;

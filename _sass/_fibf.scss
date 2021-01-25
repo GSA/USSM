@@ -13,3 +13,35 @@
         margin-left: -10%;
     }
 }
+
+.end-to-end-table, .fibf-built-table {
+    text-align: center;
+    width: 90%;
+
+    thead {
+        tr th {
+            background-color: #205493;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+    }
+}
+
+.end-to-end-table thead tr th:first-child {
+    width: 20%;
+}
+
+.top-link {
+    color: #02bfe7;
+    float: right;
+    margin-right: 20%;
+
+    @media only screen and (max-width: 600px) {
+        display: none;    
+    }
+}
+
+.top-link:visited {
+    color: #02bfe7;
+}
