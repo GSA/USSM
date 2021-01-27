@@ -1,5 +1,5 @@
 ---
-layout: fibf-ini
+layout: fibf-ERM
 title: Federal Integrated Business Framework - Electronics Record Management
-permalink: /fibf-ini/
+permalink: /fibf-ERM/
 ---
