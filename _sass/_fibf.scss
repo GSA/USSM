@@ -26,6 +26,11 @@
             padding: 10px 20px;
         }
     }
+
+    caption {
+        text-align: left;
+        visibility: hidden;
+    }
 }
 
 .end-to-end-table thead tr th:first-child {
