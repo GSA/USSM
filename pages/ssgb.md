@@ -9,7 +9,7 @@ permalink: /ssgb/
 
 | Representation     | Name           |
 | ------------- |-------------|
-| SSGB (Co-Chair)    | Maria Roat |
+| SSGB (Acting Co-Chair)    | Maria Roat |
 | SSGB (Co-Chair) | TBD   |  
 | Chief Financial Officers Council (CFOC) Representative     |  TBD      |
 | Chief Financial Officers Council (CFOC) Representative | Jen Funk |  
