@@ -1,11 +1,19 @@
 ---
 layout: json-layout
-title: JSON output test file 1
-uid: 1
-permalink: /json/test1/
-date: 21st October 2020
-identifier: this is the identifier 1
-description: this is the description 1
-activity: this is the activity 2
+type: ffm-010
+permalink: /business-standards/business-lifecycle-fm/ffm-010
 ---
-content of the first page goes here. 
+<pre>
+[
+{
+"ID": "FFM.010.010",
+"Activity": "Budget Set-Up and Maintenance",
+"Description": "Establish budgetary resource reporting attributes; Record appropriated fund subdivisions before any of the appropriated funds are expended; Includes recording appropriation warrants, apportionments, allotments, allowances, allocations, reapportionments, transfer allocations, continuing resolutions, rescissions, and reprogramming actions; Includes setting up direct and reimbursable funding."
+},
+{
+"ID": "FFM.010.020",
+"Activity": "Fund Allocation and Control",
+"Description": "Implement controls designed to detect or prevent overspending for defined accounting segments; Execute statutory limitation control of funds restricting obligations and expenditures to amounts authorized by law; Execute administrative control of funds restricting obligation and expenditure from each account to the lower of the amount apportioned by OMB or the amount available for obligation and/or expenditure; Update funds control rules"
+}
+]
+</pre>

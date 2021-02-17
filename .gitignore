@@ -1,3 +1,16 @@
 _site
 .sass-cache
 .DS_Store
+.idea/*
+.jekyll-cache/*
+/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/cf/05a96416701bcc55cce3554df980714bbcc3c5c96cfbfe4c63674c2bb8426f
+/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/8b/cd3ec1513b826d54ae09abbc781399c58c745682f6d756cd12bd269e186062
+/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/a7/e77f5a069ac80a5c55ae6cfee3d4752a1dfb91188799623cab9be518aa2a5a
+/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/5e/f496b8c85a02102eade7bfc499c00a5d515396bd35a36177231e92d9f97dc2
+/.idea/misc.xml
+/.idea/modules.xml
+/package.json
+/package-lock.json
+/.idea/copyright/profiles_settings.xml
+/.idea/USSM.iml
+/.idea/vcs.xml

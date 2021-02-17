@@ -1,17 +1,4 @@
 ---
 title: JSON output
 ---
-[
-{
-"date": "{{ page.date }}",
-"title": "{{ page.title }}",
-"id": "{{ page.uid }}"
-"content": "{{ page.content }}",
-"tags": "{{ page.tags | jsonify }}",
-"url": "{{ page.url }}",
-"identifier": "{{page.identifier}}",
-"activity": "{{page.activity}}",
-"Description": "{{page.description}}"
-}
-]
-
+{{page.content | strip_html}}

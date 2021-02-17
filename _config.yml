@@ -112,5 +112,9 @@ collections:
     output: true
   json:
     output: true
+  hr:
+    output: true
+  fm:
+    output: true
 
 wds-version: 1.1.0
