@@ -1,6 +1,6 @@
 # Site settings
-title: Unified Shared Services Management
-description: Unified Shared Services Management (USSM)
+title:  Federal Shared Services
+description: Federal Shared Services
 baseurl: '' # the subpath of your site, e.g. /blog/
 url: 'https://www.ussm.gsa.gov' # the base hostname & protocol for your site
 logo: /assets/img/placeholder-logo.gif

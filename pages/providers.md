@@ -27,6 +27,6 @@ image: /assets/img/councils.png
 | Human Resources Solutions, OPM |  
 | Veterans Administration |  
 | Federal Acquisition Service, GSA | 
-| Unified Shared Services Management |  
+| Federal Shared Services |  
 
 <!--p>*The Provider Council Co-Chairs serve on the SSGB. They will bring forth recommendations and issues that surface in the Provider Council meetings for consideration to the SSGB.</p-->

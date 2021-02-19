@@ -9,7 +9,7 @@ image: /assets/img/customers.png
 | ------------- |-------------| 
 | Department of Commerce    | TBD | 
 | Department of Treasury      | TBD      | 
-| Unified Shared Services Management | Beth Angerman      |  
+| Federal Shared Services | Beth Angerman      |  
 | Department of Homeland Security | Soraya Correa      |  
 | Department of Education | Denise L. Carter      |  
 | Department of Transpotation | Jennifer Funk      |  
