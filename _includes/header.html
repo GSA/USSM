@@ -75,10 +75,19 @@
           <ul id="{{ nav_id }}" class="usa-nav-submenu">
             {% for subnav_item in nav.children %}
               <li class="usa-nav-submenu-item">
-                {% if subnav_item.link == false %} <span class="navheader">{{ subnav_item.text | escape }}</span> {% elsif subnav_item.tooltip %}
-                <a class="usa-tooltip" data-position="bottom" href="{{ subnav_item.permalink | prepend: site.baseurl }}" title="{{ subnav_item.tooltip | escape }}">{{ subnav_item.text | escape }}{% if subnav_item.external %}<img src="{{site.baseurl}}/assets/img/external-link.png" style="width:12px; margin-left:10px;" alt="External Link"/>{% endif %}</a>
+                {% if subnav_item.link == false %}
+                  <span class="navheader">{{ subnav_item.text | escape }}</span>
+                {% elsif subnav_item.tooltip %}
+                  <a class="usa-tooltip" data-position="bottom" href="{% if subnav_item.external %}{{ subnav_item.permalink }}{% else %} {{ subnav_item.permalink | prepend: site.baseurl }} {% endif %}" title="{{ subnav_item.tooltip | escape }}">
+                    {{ subnav_item.text | escape }}
+                      {% if subnav_item.external %}
+                        <img src="{{site.baseurl}}/assets/img/external-link.png" style="width:12px; margin-left:10px;" alt="External Link"/>
+                      {% endif %}
+                  </a>
                 {% else %}
-                <a href="{{ subnav_item.permalink | prepend: site.baseurl }}">{{ subnav_item.text | escape }}{% if subnav_item.external %}<img src="{{site.baseurl}}/assets/img/external-link.png" style="width:12px; margin-left:10px;" alt="External Link"/>{% endif %}</a>
+                  <a href="{{ subnav_item.permalink | prepend: site.baseurl }}">
+                    {{ subnav_item.text | escape }}
+                  </a>
                 {% endif %}
               </li>
             {% endfor %}

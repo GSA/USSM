@@ -61,7 +61,7 @@ assigned:
             permalink: /fibf-gm/
             show_in_menu: true
             show_in_footer: false
-          - text: 'Travel'
+          - text: 'Travel and Expense Management'
             permalink: /fibf-travel/
             show_in_menu: true
             show_in_footer: false
