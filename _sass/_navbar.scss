@@ -10,6 +10,9 @@
     // keep header img from overflowing menu bar
     max-height: 3.7rem;
   }
+  .usa-nav-submenu-item a {
+    color: #0071bc;
+  }
 }
 
 .usa-nav-primary a:hover {
@@ -18,4 +21,15 @@
 
 .usa-nav-link:hover span {
   border-bottom-color: $button-color;
+}
+.navheader{
+  text-decoration: none;
+  color: #02bfe7;
+  font-weight: bold;
+  margin-left: 0.75em;
+}
+@media screen and (min-width: 951px) {
+  .usa-nav-submenu-item a {
+    color: #FFFFFF;
+  }
 }
