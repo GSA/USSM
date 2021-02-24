@@ -8,7 +8,7 @@ The governance and operating model drives collaboration and change management wi
 
 **The Shared Services Governance Chair**
 
-The SSGC is designated by the Office of Management and Budget (OMB) Director and has the responsibility, in conjunction with OMB offices, to lead the development and implementation of mission support shared services policy across the government. She/he also co-chairs the Shared Services Governance Board (SSGB). Suzette Kent, the Federal Chief Information Officer at OMB, is currently serving as the SSGC.
+The SSGC is designated by the Office of Management and Budget (OMB) Director and has the responsibility, in conjunction with OMB offices, to lead the development and implementation of mission support shared services policy across the government. She/he also co-chairs the Shared Services Governance Board (SSGB).
 
 **[Shared Services Governance Board](../ssgb)**
 
