@@ -41,7 +41,7 @@ assigned:
         show_in_menu: true
         show_in_footer: false
         children:
-          - text: 'All Business Standards'
+          - text: 'Business Standards Home'
             permalink: /fibf/
             show_in_menu: true
             show_in_footer: false
