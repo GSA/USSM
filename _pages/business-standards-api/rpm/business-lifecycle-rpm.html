@@ -1,0 +1,9 @@
+---
+title: List of all posts
+permalink: /business-standards-api/rpm/business-lifecycle/
+---
+{% raw %}{{% endraw %}
+{% for post in site.rpm %}
+"{{post.type |strip_newlines}}": {{ post.content | strip_html | strip_newlines }}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+{% raw %}}{% endraw %}

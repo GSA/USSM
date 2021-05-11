@@ -1,0 +1,170 @@
+{% comment %}
+To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
+where we provide an easy way to manage your navigation system
+{% endcomment %}
+
+<div class="sidenav-main-1">
+    <a id="show-sidebar" class="usa-button usa-button--base usa-button--active" aria-label="side navigation" href="#"><i class="fas fa-bars"></i></a>
+
+    <div class="sidenav-main">
+
+        <nav id="sidebar" class="sidebar-wrapper" aria-label="Secondary navigation">
+            <div class="sidebar-content">
+
+                <div class="sidebar-brand">
+                    <div id="close-sidebar" aria-label="close side navigation">
+                        <button aria-label= "close button" role="button" class="usa-button usa-button--big usa-button--unstyled"><i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="sidebar-menu">
+                    <ul class="usa-sidenav">
+                        <li class="usa-sidenav__item bs" style="background-color:#0f274a; margin-bottom: 5px; margin-top: 31px;" >
+                            <a class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework' %} usa-current-1{% endif %}"  href="{{site.baseurl}}/fibf/" style="outline:none">
+                                <div class="image-txt-container ">
+                                    <img src="../assets/images/fibf-home.png" style="width:35px;margin-right:12px;" alt="FIBF Home">
+                                    <img src="../assets/images/fibf-home-icon-update.png" style="width:35px;margin-right:12px;" class="img-top" alt="FIBF Home">
+                                    <span>Business Standards Home
+                            </span>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li class="usa-sidenav__item bs" style="background-color:#0f274a; margin-bottom: 5px;">
+                            <a style="outline:none" class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Electronic Records Management' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-ERM/">
+                                <div class="image-txt-container">
+                                    <img src="../assets/images/ERMicon (1).png" style="width:35px;margin-right:12px;" alt="Travel and Expense Management">
+                                    <img src="../assets/images/ERMicon.png" style="width:35px;margin-right:12px;" class="img-top" alt="Travel and Expense Management">
+                                    <span>Electronic Records Management</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="usa-sidenav__item bs" style="background-color:#0f274a; margin-bottom: 5px;" >
+                            <a class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Financial Management Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-fm/" style="outline:none">
+                                <div class="image-txt-container ">
+                                    <img src="../assets/images/fm-icon.png" style="width:35px;margin-right:12px;" alt="Financial Management">
+                                    <img src="../assets/images/icon.fm 2.png" style="width:35px;margin-right:12px;" class="img-top" alt="Financial Management">
+                                    <span>Financial Management
+                            </span>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li class="usa-sidenav__item bs" style="background-color:#0f274a; margin-bottom: 5px;">
+                            <a style="outline:none" class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Grants Management Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-gm/">
+                                <div class="image-txt-container">
+                                    <img src="../assets/images/grants-icon.png" style="width:35px;margin-right:12px;" alt="Grants Management">
+                                    <img src="../assets/images/grants2.png" style="width:35px;margin-right:12px;" class="img-top" alt="Grants Management">
+                                    <span>Grants Management
+                            </span>
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li class="sidebar-dropdown usa-sidenav__item bs{% if page.title contains 'Federal Integrated Business Framework - HR Management Services' %} active{% endif %}" style="background-color:#0f274a; margin-bottom: 5px;">
+                            <a href="#" style="outline:none" class="usa-nav__link{% if page.title contains 'Federal Integrated Business Framework - HR Management Services' %} usa-current-1{% endif %}">
+                                <div class="image-txt-container">
+                                    <img src="../assets/images/hrm-icon.png" style="width:35px;margin-right:12px;" alt="HR Management Services">
+                                    <img src="../assets/images/icon.hr 2.png" style="width:35px;margin-right:12px;" class="img-top" alt="HR Management Services">
+                                    <span>HR Management Services
+                            </span>
+                                </div>
+
+                            </a>
+                            <div class="sidebar-submenu{% if page.title contains 'Federal Integrated Business Framework - HR Management Services' %} active{% endif %}" style="background-color:#1b355c;">
+                                <ul class="dropdown-menu usa-sidenav__sublist" >
+                                    <li>
+                                        <a style="outline:none" class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - HR Management Services - Compensation and Benefits Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-hr-cb/">
+                                            <div class="image-txt-container">
+                                                <img src="../assets/images/compensation-ben-icon.png" style="width:30px; margin-right:12px;" alt="Compensation and Benefits">
+                                                <span>Compensation and Benefits
+                            </span>
+                                            </div>
+
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a style="outline:none" class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - HR Management Services - Employee Performance Management Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-hr-epm/">
+                                            <div class="image-txt-container">
+                                                <img src="../assets/images/EPM-icon.png" style="width:30px; margin-right:12px;" alt="Employee Performance Management">
+                                                <span>Employee Performance Management
+                            </span>
+                                            </div>
+
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - HR Management Services - Talent Acquisition Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-hr/" style="outline:none">
+                                            <div class="image-txt-container">
+                                                <img src="../assets/images/talent-acq-icon.png" style="width:30px; margin-right:12px;" alt="Talent Acquisition">
+                                                <span>Talent Acquisition
+                            </span>
+                                            </div>
+
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a style="outline:none" class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - HR Management Services - Talent Development Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-hr-td/">
+                                            <div class="image-txt-container">
+                                                <img src="../assets/images/talent-dev-icon.png" style="width:30px; margin-right:12px;" alt="Talent Development">
+                                                <span>Talent Development
+                            </span>
+                                            </div>
+
+                                        </a>
+
+                                    </li>
+
+
+                                </ul>
+                            </div>
+
+
+                        </li>
+                        <li class="usa-sidenav__item bs" style="background-color:#0f274a; margin-bottom: 5px;">
+                            <a style="outline:none" class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Procurement Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-procurement/">
+                                <div class="image-txt-container bs">
+                                    <img src="../assets/images/proc-icon.png" style="width:35px;margin-right:12px;" alt="Procurement">
+                                    <img src="../assets/images/icon.procurement 2.png" style="width:35px;margin-right:12px;" class="img-top" alt="Procurement">
+                                    <span>Procurement
+                            </span>
+                                </div>
+                            </a>
+                        </li>
+
+
+
+                        <li class="usa-sidenav__item bs" style="background-color:#0f274a; margin-bottom: 5px;">
+                            <a style="outline:none" class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Real Property Management' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-RPM/">
+                                <div class="image-txt-container">
+                                    <img src="../assets/images/real-Property-icon_1.png" style="width:35px;margin-right:12px;" alt="Real Property Management">
+                                    <img src="../assets/images/real-Property-icon.png" style="width:35px;margin-right:12px;" class="img-top" alt="Real Property Management">
+                                    <span>Real Property Management</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="usa-sidenav__item bs" style="background-color:#0f274a; margin-bottom: 5px;">
+                            <a style="outline:none" class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Travel and Expense Management Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-travel/">
+                                <div class="image-txt-container">
+                                    <img src="../assets/images/travel-icon.png" style="width:35px;margin-right:12px;" alt="Travel and Expense Management">
+                                    <img src="../assets/images/IMG_0331.png" style="width:35px;margin-right:12px;" class="img-top" alt="Travel and Expense Management">
+                                    <span>Travel and Expense Management</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+
+</div>
+
+

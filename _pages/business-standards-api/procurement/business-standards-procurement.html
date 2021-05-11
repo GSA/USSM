@@ -1,0 +1,16 @@
+---
+title: List of all posts
+permalink: /business-standards-api/acq/
+---
+{
+"Business-Standards": "Procurement Standards",
+"Business Lifecycle": {% raw %}[{{% endraw %}
+{% for post in site.procurement %}
+"{{post.type |strip_newlines}}": {{ post.content | strip_html | strip_newlines }}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+{% raw %}}],{% endraw %}
+"Business Capabilities": [{% include business-standards-api/acq/acq-capabilities.html %}],
+"Business Use Cases": {% include business-standards-api/acq/acq-use-cases.html %},
+"Standard Data Elements": [{% include business-standards-api/acq/acq-data-elements.html %}],
+"Performance Metrics": {% include business-standards-api/acq/acq-performance-metrics.html %}
+}

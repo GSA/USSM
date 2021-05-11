@@ -1,0 +1,16 @@
+---
+title: List of all posts
+permalink: /business-standards-api/rpm/
+---
+{
+"Business-Standards": "Rpm Management Standards",
+"Business Lifecycle": {% raw %}[{{% endraw %}
+{% for post in site.rpm %}
+"{{post.type |strip_newlines}}": {{ post.content | strip_html | strip_newlines }}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+{% raw %}}],{% endraw %}
+"Business Capabilities": [{% include business-standards-api/rpm/rpm-capabilities.html %}],
+"Business Use Cases": [{% include business-standards-api/rpm/rpm-use-cases.html %}],
+"Standard Data Elements": [{% include business-standards-api/rpm/rpm-data-elements.html %}],
+"Performance Metrics": {% include business-standards-api/rpm/rpm-performance-metrics.html %}
+}

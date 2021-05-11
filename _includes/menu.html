@@ -1,0 +1,86 @@
+{% comment %}
+To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
+where we provide an easy way to manage your navigation system
+{% endcomment %}
+
+
+
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--basic">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      <div class="usa-logo" id="logo">
+        <em class="usa-logo-text">
+          <a href="{{site.baseurl}}/" accesskey="1" title="Unified Shared Services Management Home" aria-label="Home">
+            {% if site.logo %}
+
+            <a href="{{site.baseurl}}/"><img src="{{ site.baseurl }}{{ site.logo }}" alt="Federal Shared Services" class="logo-size cfo-logo-size" style="width: 109px;"></a>
+
+
+            {% else %}
+            <h1 class="usa-header-title">{{ site.title }}</h1>
+            {% endif %}
+          </a>
+        </em>
+      </div>
+      <button class="usa-menu-btn">Menu</button>
+    </div>
+    <nav aria-label="Primary navigation" class="usa-nav">
+      <div class="usa-nav__inner">
+        <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
+        <ul class="usa-nav__primary usa-accordion"  >
+          {% for nav in include.primary_navigation %}
+          {% unless nav.children %}
+          {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
+          {% assign linkdir = nav.permalink | replace: "/", "" | lstrip %}
+          <li class="usa-nav__primary-item">
+            <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}" href="{{ nav.permalink | prepend: site.baseurl}}"><span>{{ nav.text | escape }}</span></a>
+          </li>
+          {% else %}
+          {% assign nav_id = 'primary-nav-' | append: forloop.index %}
+          <li class="usa-nav__primary-item">
+            <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ nav_id }}"><span>{{ nav.text | escape }}</span></button>
+            <ul id="{{ nav_id }}" class="usa-nav__submenu">
+              {% for subnav_item in nav.children %}
+              <li class="usa-nav__submenu-item{% if subnav_item.sub == true %} ck{% endif %}">
+                {% if subnav_item.link == false %}
+                <span class="navheader text-accent-cool">{{ subnav_item.text | escape }}</span>
+                {% elsif subnav_item.tooltip %}
+                <a class="usa-tooltip" data-position="bottom" href="{% if subnav_item.external %}{{ subnav_item.permalink }}{% else %} {{ subnav_item.permalink | prepend: site.baseurl }} {% endif %}" title="{{ subnav_item.tooltip | escape }}">
+                  {{ subnav_item.text | escape }}
+                  {% if subnav_item.external %}
+                  {% asset external-link-alt.svg class="width-2 margin-left-05" alt="External Link" %}
+                  {% endif %}
+                </a>
+                {% elsif subnav_item.sub == true %}
+                <a class="subsubnav text-accent-cool" href="{{ subnav_item.permalink | prepend: site.baseurl }}">
+                  {{ subnav_item.text | escape }}
+                </a>
+
+                {% else %}
+                <a href="{{ subnav_item.permalink | prepend: site.baseurl }}">
+                  {{ subnav_item.text | escape }}
+                </a>
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endunless %}
+          {% endfor %}
+        </ul>
+        <div class="usa-nav__secondary secondary-nav-padding">
+          <ul class="usa-nav__secondary-links">
+            {% for nav_item in include.secondary_navigation %}
+            <li class="usa-nav__secondary-item">
+              <a href="{{ nav_item.url  }}">{{ nav_item.name | escape }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% include searchgov/form.html searchgov=site.searchgov %}
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<main id="main-content"></main>
