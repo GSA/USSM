@@ -1,7 +1,7 @@
 ---
 layout: standards
 permalink: /fibf-ERM/
-title: Federal Integrated Business Framework - Electronic Records Management
+title: Federal Integrated Business Framework - Electronic Records Management Standards
 sub-title: Electronic Records Management
 sec-title: Electronic Records Management Lead
 sec-name: National Archives and Records Administration

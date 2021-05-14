@@ -88,6 +88,10 @@ primary_navigation:
           permalink: /fibf/
           show_in_menu: true
           show_in_footer: false
+        - text: 'Contract Writing'
+          permalink: /fibf-cw/
+          show_in_menu: true
+          show_in_footer: false
         - text: 'Electronic Records Management'
           permalink: /fibf-ERM/
           show_in_menu: true
@@ -132,10 +136,6 @@ primary_navigation:
           link: true
           external: false
           sub: true
-        - text: 'Procurement'
-          permalink: /fibf-procurement/
-          show_in_menu: true
-          show_in_footer: false
         - text: 'Real Property Management'
           permalink: /fibf-RPM/
           show_in_menu: true

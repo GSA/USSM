@@ -1,7 +1,7 @@
 ---
 layout: standards
 permalink: /fibf-RPM/
-title: Federal Integrated Business Framework - Real Property Management
+title: Federal Integrated Business Framework - Real Property Management Standards
 sub-title: Real Property Management
 sec-title: Real Property Management Standards Lead
 sec-name: GSA

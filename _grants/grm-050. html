@@ -1,0 +1,17 @@
+---
+layout: json-layout
+type: grm-050
+permalink: /business-standards-api/grm/business-lifecycle/grm-050/
+---
+[
+ {
+   "Identifier": "GRM.050.010",
+   "Activity": "Grant Program Reporting and Review",
+   "Description": "Develop and document program-level performance and financial report information; Evaluate and document program performance and financial results; Evaluate and document variance between past program liability estimates and the program's actual operating cost; Determine grant program risk of material financial misstatement and record results; Determine program liability accrual estimate information; Conduct program review of program performance and financial results against objectives and other information and record results; Evaluate and document program compliance with authorizing legislation and program internal controls compliance with program policies and procedures; Document significant findings reported in past grant program audits; Develop program lessons learned and promising practices"
+ },
+ {
+   "Identifier": "GRM.050.020",
+   "Activity": "Grant Program Closeout",
+   "Description": "Determine and document if all awards for grant program have been closed out; Evaluate program performance and financial reports to determine the need for grant program funds reprogramming and document results;  Verify and document that all grant program closeout actions are completed"
+ }
+]

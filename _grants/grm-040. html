@@ -1,0 +1,32 @@
+---
+layout: json-layout
+type: grm-040
+permalink: /business-standards-api/grm/business-lifecycle/grm-040/
+---
+[
+ {
+   "Identifier": "GRM.040.010",
+   "Activity": "Grant Award Modification",
+   "Description": "Receive, evaluate and document award recipient request for award modification; Receive, evaluate and document award recipient request for approval to waive specific award terms and conditions; Receive, evaluate and document request for approval of award recipient special or unusual costs; Receive, evaluate and document award recipient request for termination; Determine funds availability and provide funds obligation information for award modifications; Develop and issue award modifications to award recipients; Execute award modifications; Provide award modification information to OMB designated source(s)"
+ },
+ {
+   "Identifier": "GRM.040.020",
+   "Activity": "Grant Award Performance Review",
+   "Description": "Receive, evaluate and document award performance information and results; Determine and document performance issues and concerns, and notify award recipient; Evaluate award recipient response to performance issues and concerns; Request, receive and evaluate award recipient improvement plan addressing performance issues and concerns; Receive and evaluate award recipient improvement plan status information for performance issues and concerns"
+ },
+ {
+   "Identifier": "GRM.040.030",
+   "Activity": "Grant Award Financial Review",
+   "Description": "Receive, evaluate and document award recipient financial information; Evaluate cost information against award agreement; Evaluate earned interest, allowable audit costs for services and cost sharing contributions; Receive, evaluate and document request to include unrecovered indirect costs in cost sharing; Determine and document whether allowable costs were incurred by award recipient during a suspension or after termination; Evaluate and document award financial information to award performance accomplishments; Determine and document financial issues and concerns, and notify award recipient; Evaluate award recipient response to financial issues and concerns; Request, receive and evaluate award recipient improvement plan addressing financial issues and concerns; Receive and evaluate award recipient improvement plan status information for financial issues and concerns; Determine and document cost adjustments or refunds; Determine and document award liability accrual estimate for unbilled incurred cost; Receive and evaluate award recipient inventory information for Federally owned property and equipment provided to award recipient or acquired with award funds"
+ },
+ {
+   "Identifier": "GRM.040.040",
+   "Activity": "Grant Award Compliance Review",
+   "Description": "Prepare for and notify recipient of site visit; Evaluate and document site visit information and results; Evaluate and document award recipient current and previous audit findings; Evaluate and document award recipient compliance with internal control standards, Federal procurement policies and procedures, Federal statutes and regulations, and award agreement terms and conditions; Determine and document compliance issues and concerns, and notify award recipient; Evaluate award recipient response to compliance issues and concerns; Request, receive and evaluate award recipient improvement plan addressing compliance issues and concerns; Receive and evaluate award recipient improvement plan status information for compliance issues and concerns; Determine and document award recipient non-compliance; Determine remedies for award recipient non-compliance and notify award recipient; Determine and document award full or partial termination, or award recipient suspension or disbarment"
+ },
+ {
+   "Identifier": "GRM.040.050",
+   "Activity": "Grant Award Closeout",
+   "Description": "Determine and document awards where the period of performance is ending; Notify award recipients of award closeout; Receive and respond to award recipient request for extension of time period to submit final reports; Receive, evaluate and document final financial, performance and other reports; Notify award recipient of acceptance of final reports; Determine and document ownership and disposition of property assets and equipment; Determine and document ownership and disposition of intangible property resulting from award research, experimentation or development; Verify and document that all award closeout actions are completed; Provide award closeout information to OMB designated source(s)"
+ }
+]

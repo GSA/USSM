@@ -14,30 +14,31 @@ jQuery(document).ready(function () {
         {
             accordian: 'fm-lifecycle',
             table: 'fm-capabilities',
+            ElementsList: 'fm-data-elements',
+            UseCasesList: 'fm-use-cases',
             url: '../business-standards-api/fm',
             hasSubsection: false
         },
         {
             accordian: 'erm-lifecycle',
             table: 'erm-capabilities',
+            UseCasesList: 'erm-use-cases',
             url: '../business-standards-api/erm',
             hasSubsection: false
         },
         {
             accordian: 'grants-lifecycle',
             table: 'grants-capabilities',
+            UseCasesList: 'grants-use-cases',
+            ElementsList: 'grants-data-elements',
             url: '../business-standards-api/grants',
             hasSubsection: false
-        },
-        {
-            accordian: 'procurment-lifecycle',
-            table: 'procurement-capabilities',
-            url: '../business-standards-api/procurement',
-            hasSubsection: false
-        },
+        },       
         {
             accordian: 'travel-lifecycle',
             table: 'travel-capabilities',
+            UseCasesList: 'travel-use-cases',
+            ElementsList: 'travel-data-elements',
             url: '../business-standards-api/travel',
             hasSubsection: false
         },
@@ -45,7 +46,8 @@ jQuery(document).ready(function () {
             accordian: 'acq-lifecycle',
             table: 'acq-capabilities',
             url: '../business-standards-api/acq',
-            hasSubsection: false
+            hasSubsection: false,
+            UseCasesList: 'acq-use-cases'
         },
         {
             accordian: 'rpm-lifecycle',
@@ -54,11 +56,26 @@ jQuery(document).ready(function () {
             hasSubsection: false
         }
     ];
-
+function imageChecker(url){
+    var img= '';
+    if (url.includes(".doc")){
+        img= '<img src="../img/file-word.svg" class="margin-right-05" width="16" valign="middle" alt="word">';
+    }
+    else if ((url.includes(".xls"))){
+        img= '<img src="../assets/images/icon.xls.png" class="margin-right-05" width="16" valign="middle" alt="Excel">';
+    }
+    else if ((url.includes(".pdf"))){
+        img= '<img src="../assets/images/icon.pdf.png" class="margin-right-05" width="16" valign="middle" alt="PDF">';
+    }
+    return img
+}
     jQuery.each(pages, function (index, page) {
 
         let table = jQuery("#" + page.table);
         let accordian = jQuery('#' + page.accordian);
+        let UseCasesList = jQuery('#' + page.UseCasesList);
+        let ElementsList = jQuery('#' + page.ElementsList);
+        //let PerformanceMetricsList = jQuery('#' + page.PerformanceMetricsList);
 
         if (table.length > 0 || accordian.length > 0) {
             jQuery.get(page.url, function (result) {
@@ -106,6 +123,27 @@ jQuery(document).ready(function () {
                                         });
                                     }
                                 });
+                            });
+                        }
+                        else if (outerKey === "Business Use Cases" && UseCasesList.length > 0){
+                            jQuery.each(outerValue, function (key1, value1) {
+                                let image = imageChecker(value1);
+                                let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
+                                jQuery("#" + page.UseCasesList ).append(li);
+                            });
+                        }
+                        else if (outerKey === "Standard Data Elements" && ElementsList.length > 0){
+                            jQuery.each(outerValue, function (key1, value1) {
+                                let image = imageChecker(value1);
+                                let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
+                                jQuery("#" + page.ElementsList ).append(li);
+                            });
+                        }
+                        else if (outerKey==="Performance Metrics" && PerformanceMetricsList.length > 0){
+                            jQuery.each(outerValue, function (key1, value1) {
+                                let image = imageChecker(value1);
+                                let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
+                                jQuery("#" + page.PerformanceMetricsList ).append(li);
                             });
                         }
                     });

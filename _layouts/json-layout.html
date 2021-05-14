@@ -1,4 +1,4 @@
 ---
 title: JSON output
 ---
-{{page.content | strip_html}}
+{{page.content |  remove: '<p>' | remove: '</p>' | strip_newlines}}
