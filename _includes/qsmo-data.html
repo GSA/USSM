@@ -1,0 +1,40 @@
+{% comment %}
+This tagline will appear in your homepage
+{% endcomment %}
+
+<section class="usa-graphic-list margin-bottom-4 margin-top-4">
+    <div class="grid-container">
+        <div class="usa-graphic-list__row grid-row">
+            {% include qsmo-filter.html %}
+            <!--********Generates policy catalog items. Individual cards live in the in the _policies folder**************-->
+
+            <div class="tablet:grid-col-9 qsmo-crd">
+                <p class="filter-count qsmo-tag margin-top-0 text-gray-50 text-thin"></p>
+                <div class="qsmos">
+                    {% for qsmos in site.qsmos %}
+                    <div class="desktop:grid-col-4 usa-card grid-spacing qsmo {{ qsmos.filters }} " >
+                        <div class="container-GoG" tabindex="0" style="background-color:#f9f9f9;padding:0px;#{{qsmos.border}} solid 2px; cursor:default;">
+                            <div style="background:#{{qsmos.border}};border-radius:10px 10px 0px 0px; padding:14px;">
+                                <span class="qsmo-tag" style="color:white">{{ qsmos.phase }}</span><br>
+                                <b style="color:white">{{ qsmos.name}}</b>
+                            </div>
+                            <div style="padding:14px; height: 17rem;">
+                                <p style="font-size:12px;margin-top:5px;margin-bottom:2px"><b>QSMO Agency</b>: {{ qsmos.agency }}</p>
+                                <p style="font-size:12px;margin-top:5px;margin-bottom:2px;"><b>Services</b>: {{ qsmos.services }}</p>
+                                {% if qsmos.website %}
+                                <p style="font-size:12px;margin-top:5px;margin-bottom:2px;"><b>Website</b>: <a href="https://www.{{ qsmos.website }}">{{ qsmos.website }}</a></p>
+                                {% endif %}
+                                <p style="font-size:12px;margin-top:6px;"><b>Contact</b>: <a href="mailto:{{ qsmos.contact }}">{{ qsmos.contact }}</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+</section>

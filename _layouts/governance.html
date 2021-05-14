@@ -2,17 +2,52 @@
 layout: base
 ---
 
+{% comment %}
+This is used for just about every page. It provides the border around the content.
+The home page uses wide.html layout, since it extends full width of page
+{% endcomment %}
 
-<section class="usa-section usa-grid">
-<div class="usa-width-one-whole usa-media_block">
-  <h1> {{ page.title }}</h1> <br>
-  {{ page.description }}
-</div>
-<div class="usa-width-one-half usa-media_block">
+
+
+<section class="usa-graphic-list usa-section sml-margin bg-gradient">
+    <div class="grid-container">
+        <div class="grid-row">
+            <div class="tablet:grid-col">
+                <h1 class="text-primary" style="font-size: 30px;" > {{ page.title }}</h1>
+<div>
     {{ content }}
-  </div>
-  <div class="usa-width-one-half usa-media_block">
-        {% include governance-modal.html %}
-  <div>
-  </div>
+
+</div>
+            </div>
+ 
+            <div id="tabs-1" tabindex="0" role="tabpanel" class="tablet:grid-col">
+              <span><center><b>Governance &amp; Operating Model</b>
+               
+                <img src="{{site.baseurl}}/assets/images/governance/governance-diagram-1.png" style="width:400px;padding-left:20px;" alt="Governance and operating model">
+              <a href="#governance" title="" class="image-link usa-button usa-button--secondary margin-top-5">Enlarge</a>
+              <div id="governance" class="white-popup mfp-hide">
+                  <img  alt="Governance and operating model" src="{{site.baseurl}}/assets/images/governance/governance-diagram-1.png">
+              </div>
+          </div>
+
+        </div>
+    </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

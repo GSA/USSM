@@ -1,6 +1,6 @@
 ---
 name: Core Financial Management
-border: 04c585
+border: 008659
 phase: Formally Designated
 agency: Treasury
 contact: FMQSMO@Fiscal.Treasury.Gov

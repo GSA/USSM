@@ -1,6 +1,6 @@
 ---
 name: Grants Management
-border: 04c585
+border: 008659
 phase: Formally Designated
 agency: HHS
 contact: GrantsQSMO@hhs.gov
