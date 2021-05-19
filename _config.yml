@@ -183,7 +183,7 @@ primary_navigation:
           external: true
           tooltip: 'Grants Management external link.'
         - text: 'NewPay'
-          permalink: 'https://www.gsa.gov/shared-services/newpay'
+          permalink: 'https://www.gsa.gov/shared-services/quality-services-management-office'
           show_in_menu: true
           show_in_footer: false
           link: true
