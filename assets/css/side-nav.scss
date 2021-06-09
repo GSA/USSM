@@ -84,6 +84,7 @@
 .page-wrapper.toggled .sidebar-wrapper {
   left: 0px;
   top: 35px;          /*** added to for SideNav to bring it down so that "Skip to main content" can be seen ****/
+  border-right: 1px solid #97999B;
 }
 
 @media screen and (min-width: 768px) {
