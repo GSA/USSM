@@ -290,7 +290,7 @@ collections:
     output: true
   cyb-cvd:
     output: true
-  cyd-soc:
+  cyb-soc:
     output: true
 
 markdown: kramdown

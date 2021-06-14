@@ -6,6 +6,12 @@ jQuery(document).ready(function () {
 
     let pages = [
         {
+            accordian: 'cyb-cvd-lifecycle',
+            table: 'cyb-cvd-capabilities',
+            url: '../business-standards-api/cyb',
+            hasSubsection: true
+        },
+        {
             accordian: 'hr-benefits-lifecycle',
             table: 'hr-benefits-capabilities',
             url: '../business-standards-api/hr',
