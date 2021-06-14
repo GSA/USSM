@@ -288,6 +288,10 @@ collections:
     output: true
   rpm:
     output: true
+  cyb/soc:
+    output: true
+  cyb/cvd:
+    output:true
 
 markdown: kramdown
 plugins:
