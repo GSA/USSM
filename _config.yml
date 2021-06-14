@@ -108,40 +108,20 @@ primary_navigation:
           permalink: /fibf-hr/
           show_in_menu: true
           show_in_footer: false
-        - text: 'Compensation and Benefits'
-          permalink: /fibf-hr-cb/
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: false
-          sub: true
-        - text: 'Employee Performance Management'
-          permalink: /fibf-hr-epm/
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: false
-          sub: true
-        - text: 'Talent Acquisition'
-          permalink: /fibf-hr/
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: false
-          sub: true
-        - text: 'Talent Development'
-          permalink: /fibf-hr-td/
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: false
-          sub: true
         - text: 'Real Property Management'
           permalink: /fibf-RPM/
           show_in_menu: true
           show_in_footer: false
         - text: 'Travel and Expense Management'
           permalink: /fibf-travel/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Regulation Management'
+          permalink: /fibf-rm/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Cybersecurity Standards'
+          permalink: /fibf-cyb-soc/
           show_in_menu: true
           show_in_footer: false
     - text: 'QSMO'
