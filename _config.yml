@@ -288,9 +288,9 @@ collections:
     output: true
   rpm:
     output: true
-  _cyb-cvd:
+  cyb-cvd:
     output: true
-  _cyd-soc:
+  cyd-soc:
     output: true
 
 markdown: kramdown
