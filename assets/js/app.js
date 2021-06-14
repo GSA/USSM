@@ -167,6 +167,8 @@ function imageChecker(url){
             );
         }
     });
+    jQuery("#cyb-cvd-capabilities > tbody >tr:eq(1)").remove();
+    jQuery('#cyb-cvd-capabilities > tbody >tr:first').remove();
 });
 
 
