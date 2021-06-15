@@ -168,8 +168,8 @@ function imageChecker(url){
         }
     });
     setTimeout(function(){
-        jQuery("#cyb-cvd-capabilities > tbody >tr:eq(1)").remove();
-        jQuery('#cyb-cvd-capabilities > tbody >tr:first').remove();
+        /*jQuery("#cyb-cvd-capabilities > tbody >tr:eq(1)").remove();
+        jQuery('#cyb-cvd-capabilities > tbody >tr:first').remove();*/
         }, 1000);
 });
 $('#cyb-cvd-capabilities').on( 'order.dt', function () {
