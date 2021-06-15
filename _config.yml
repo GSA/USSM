@@ -166,10 +166,6 @@ primary_navigation:
           permalink: /fibf-travel/
           show_in_menu: true
           show_in_footer: false
-        - text: 'Cybersecurity Standards'
-          permalink: /fibf-cyb-soc/
-          show_in_menu: true
-          show_in_footer: false
     - text: 'QSMO'
       href: /pages/qsmo.md
       permalink: /qsmo/
