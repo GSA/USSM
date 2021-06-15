@@ -7,4 +7,7 @@ sec-title:  Cybersecurity Standards Lead
 sec-name: DHS
 lifecycle-content: cyb/soc/lifecycle.html
 capabilities-content: cyb/soc/capabilities.html
+capabilities-pdf: assets/files/downloads/cyb/Cybersecurity-Services(SOC)-Business-Capabilities.xlsx
+capabilities-source-document-type: xls
+capabilities-source-document: assets/files/downloads/cyb/Cybersecurity-Services(SOC)-Business-Capabilities.xlsx
 ---
