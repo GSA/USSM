@@ -167,10 +167,15 @@ function imageChecker(url){
             );
         }
     });
-    setTimeout(function(){ jQuery("#cyb-cvd-capabilities > tbody >tr:eq(1)").remove();
-        jQuery('#cyb-cvd-capabilities > tbody >tr:first').remove(); }, 1000);
+    setTimeout(function(){
+        jQuery("#cyb-cvd-capabilities > tbody >tr:eq(1)").remove();
+        jQuery('#cyb-cvd-capabilities > tbody >tr:first').remove();
+        }, 1000);
 });
-
+$('#cyb-cvd-capabilities').on( 'order.dt', function () {
+    jQuery("#cyb-cvd-capabilities > tbody >tr:eq(1)").remove();
+    jQuery('#cyb-cvd-capabilities > tbody >tr:first').remove();
+} );
 
 // Get the modal
 var modal = document.getElementById('myModal');
