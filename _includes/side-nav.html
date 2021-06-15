@@ -49,6 +49,43 @@ where we provide an easy way to manage your navigation system
                                 </div>
                             </a>
                         </li>
+                        <li class="sidebar-dropdown usa-sidenav__item bs{% if page.permalink contains 'fibf-cyb' %} active{% endif %}"
+                            style="margin-bottom: 5px;">
+                            <a href="#" style="outline:none"
+                               class="usa-nav__link{% if page.permalink contains 'fibf-cyb' %} usa-current-1{% endif %}">
+                                <div class="image-txt-container">
+                                    <img src="../assets/images/cyb-white.png" style="width:35px;margin-right:12px;"
+                                         alt="">
+                                    <img src="../assets/images/cyb-black.png" style="width:35px;margin-right:12px;"
+                                         class="img-top" alt="">
+                                    <span> Cybersecurity Standards</span>
+                                </div>
+                            </a>
+                            <div class="sidebar-submenu{% if page.permalink contains 'fibf-cyb' %} active{% endif %}"
+                                 style="background-color:#1b355c;">
+                                <ul class="dropdown-menu usa-sidenav__sublist">
+                                    <li>
+                                        <a style="outline:none"
+                                           class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Security Operations Center' %} usa-current-1{% endif %}"
+                                           href="{{site.baseurl}}/fibf-cyb-soc/">
+                                            <div class="image-txt-container">
+                                                <span> Security Operations Center</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style="outline:none"
+                                           class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Coordinated Vulnerability Disclosure' %} usa-current-1{% endif %}"
+                                           href="{{site.baseurl}}/fibf-cyb-cvd/">
+                                            <div class="image-txt-container">
+                                                <span>Coordinated Vulnerability Disclosure</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
                         <li class="usa-sidenav__item bs" style="margin-bottom: 5px;">
                             <a style="outline:none"
                                class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Electronic Records Management Standards' %} usa-current-1{% endif %}"
@@ -188,19 +225,6 @@ where we provide an easy way to manage your navigation system
                         </li>
                         <li class="usa-sidenav__item bs" style="margin-bottom: 5px;">
                             <a style="outline:none"
-                               class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Travel and Expense Management Standards' %} usa-current-1{% endif %}"
-                               href="{{site.baseurl}}/fibf-travel/">
-                                <div class="image-txt-container">
-                                    <img src="../assets/images/travel-icon.png" style="width:35px;margin-right:12px;"
-                                         alt="">
-                                    <img src="../assets/images/IMG_0331.png" style="width:35px;margin-right:12px;"
-                                         class="img-top" alt="">
-                                    <span>Travel and Expense Management</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="usa-sidenav__item bs" style="margin-bottom: 5px;">
-                            <a style="outline:none"
                                class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Regulation Management Standards' %} usa-current-1{% endif %}"
                                href="{{site.baseurl}}/fibf-rm/">
                                 <div class="image-txt-container">
@@ -212,41 +236,19 @@ where we provide an easy way to manage your navigation system
                                 </div>
                             </a>
                         </li>
-                        <li class="sidebar-dropdown usa-sidenav__item bs{% if page.permalink contains 'fibf-cyb' %} active{% endif %}"
-                            style="margin-bottom: 5px;">
-                            <a href="#" style="outline:none"
-                               class="usa-nav__link{% if page.permalink contains 'fibf-cyb' %} usa-current-1{% endif %}">
+
+                        <li class="usa-sidenav__item bs" style="margin-bottom: 5px;">
+                            <a style="outline:none"
+                               class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Travel and Expense Management Standards' %} usa-current-1{% endif %}"
+                               href="{{site.baseurl}}/fibf-travel/">
                                 <div class="image-txt-container">
-                                    <img src="../assets/images/cyb-white.png" style="width:35px;margin-right:12px;"
+                                    <img src="../assets/images/travel-icon.png" style="width:35px;margin-right:12px;"
                                          alt="">
-                                    <img src="../assets/images/cyb-black.png" style="width:35px;margin-right:12px;"
+                                    <img src="../assets/images/IMG_0331.png" style="width:35px;margin-right:12px;"
                                          class="img-top" alt="">
-                                    <span> Cybersecurity Standards</span>
+                                    <span>Travel and Expense Management</span>
                                 </div>
                             </a>
-                            <div class="sidebar-submenu{% if page.permalink contains 'fibf-cyb' %} active{% endif %}"
-                                 style="background-color:#1b355c;">
-                                <ul class="dropdown-menu usa-sidenav__sublist">
-                                    <li>
-                                        <a style="outline:none"
-                                           class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Security Operations Center' %} usa-current-1{% endif %}"
-                                           href="{{site.baseurl}}/fibf-cyb-soc/">
-                                            <div class="image-txt-container">
-                                                <span> Security Operations Center</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style="outline:none"
-                                           class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Coordinated Vulnerability Disclosure' %} usa-current-1{% endif %}"
-                                           href="{{site.baseurl}}/fibf-cyb-cvd/">
-                                            <div class="image-txt-container">
-                                                <span>Coordinated Vulnerability Disclosure</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
                         </li>
                     </ul>
                 </div>
