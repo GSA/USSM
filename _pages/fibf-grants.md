@@ -6,7 +6,7 @@ sub-title: Grants Management
 sec-title: Grants Management Standards Lead
 sec-name: HHS
 lifecycle-pdf: assets/files/downloads/grants/Grants-Management-Federal-Business-Lifecycle.xlsx
-capabilities-pdf: assets/files/downloads/grants/Grants-Management-Business-Capabilities.xlsx
+capabilities-pdf: assets/files/downloads/grants/Grants-Management-Business-Capabilities.xlsm
 use-cases-pdf: assets/files/downloads/grants/Grants-Management-Business-Use-Cases.zip
 standard-data-elements-pdf: assets/files/downloads/grants/grants-management-standard-data-elements.xlsm
 all-zip: assets/files/downloads/grants/Grants-Management-Download-All.zip
