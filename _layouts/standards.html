@@ -14,6 +14,15 @@ This template is for a single page that does not have a date associated with it.
 <section class="usa-section about margin-bottom-3 padding-y-105">
   <div class="usa-grid">
     <div class="grid-container">
+      {% if page.permalink contains 'fibf-cyb' %}
+      <div class="usa-alert usa-alert--info">
+        <div class="usa-alert__body">
+          <p class="usa-alert__text">
+            Note: The business standards and capabilities listed below are not representative of the full Federal cybersecurity lifecycle. Additional phases of the cybersecurity lifecycle will be added as they become available.
+          </p>
+        </div>
+      </div>
+      {% endif %}
       <div class="priority-tag-line"><h1 class="margin-y-105 font-ui-l">{{ page.title }}</h1></div>
       <div class="grid-row fibf-wheel" >
       {% include fibf-circle.html %}

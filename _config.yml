@@ -92,7 +92,7 @@ primary_navigation:
           permalink: /fibf-cw/
           show_in_menu: true
           show_in_footer: false
-        - text: 'Cybersecurity Standards'
+        - text: 'Cybersecurity'
           permalink: /fibf-cyb-soc/
           show_in_menu: true
           show_in_footer: false
