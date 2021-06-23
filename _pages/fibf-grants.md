@@ -16,6 +16,6 @@ data-elements-content: grants/data-elements.html
 use-cases-content: grants/use-cases.html
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
-lifecycle-source-document: assets/files/downloads/grants/Grants-Management-Federal-Business-Lifecycle.xlsx
-capabilities-source-document: assets/files/downloads/grants/Grants-Management-Business-Capabilities.xlsm
+lifecycle-source-document: assets/files/downloads/grants/Grants-Management-Federal-Business-Lifecycle-2.0.xlsx
+capabilities-source-document: assets/files/downloads/grants/Grants-Management-Business-Capabilities-2.0.xlsm
 ---
