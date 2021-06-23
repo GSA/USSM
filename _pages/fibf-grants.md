@@ -5,10 +5,10 @@ title: Federal Integrated Business Framework - Grants Management Standards
 sub-title: Grants Management
 sec-title: Grants Management Standards Lead
 sec-name: HHS
-lifecycle-pdf: assets/files/downloads/grants/Grants-Management-Federal-Business-Lifecycle.xlsx
-capabilities-pdf: assets/files/downloads/grants/Grants-Management-Business-Capabilities.xlsm
+lifecycle-pdf: assets/files/downloads/grants/Grants-Management-Federal-Business-Lifecycle-2.0.xlsx
+capabilities-pdf: assets/files/downloads/grants/Grants-Management-Business-Capabilities-2.0.xlsm
 use-cases-pdf: assets/files/downloads/grants/Grants-Management-Business-Use-Cases.zip
-standard-data-elements-pdf: assets/files/downloads/grants/grants-management-standard-data-elements.xlsm
+standard-data-elements-pdf: assets/files/downloads/grants/grants-management-standard-data-elements-2.0.xlsm
 all-zip: assets/files/downloads/grants/Grants-Management-Download-All.zip
 lifecycle-content: grants/lifecycle.html
 capabilities-content: grants/capabilities.html
