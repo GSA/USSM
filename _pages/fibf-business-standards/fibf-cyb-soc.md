@@ -1,10 +1,10 @@
 ---
 layout: standards
 permalink: /fibf-cyb-soc/
-title: Federal Integrated Business Framework - Security Operations Center
+title: Security Operations Center
 sub-title: Security Operations Center
 sec-title: Cybersecurity Lead
-sec-name: DHS
+sec-name: DHS - Cybersecurity and Infrastructure Security Agency (CISA)
 lifecycle-content: cyb/soc/lifecycle.html
 capabilities-content: cyb/soc/capabilities.html
 capabilities-pdf: assets/files/downloads/cyb/Cybersecurity-Services(SOC)-Business-Capabilities.xlsx

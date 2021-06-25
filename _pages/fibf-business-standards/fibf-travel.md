@@ -1,10 +1,11 @@
 ---
 layout: standards
 permalink: /fibf-travel/
-title: Federal Integrated Business Framework - Travel and Expense Management Standards
+title: Travel and Expense Management Standards
 sub-title: Travel and Expense Management
 sec-title: Travel and Expense Management Standards Lead
 sec-name: GSA
+contact: TravelLOB@gsa.gov
 lifecycle-pdf: assets/files/downloads/travel/Travel-and-Expense-Management-Federal-Business-Lifecycle.xlsx
 capabilities-pdf: assets/files/downloads/travel/Travel-and-Expense-Management-Business-Capabilities.xlsx
 use-cases-pdf: assets/files/downloads/travel/Travel-and-Expense-Management-Business-use-cases.zip

@@ -1,7 +1,7 @@
 ---
 layout: standards
 permalink: /fibf-cw/
-title: Federal Integrated Business Framework - Contract Writing Standards
+title: Contract Writing Standards
 sub-title: Contract Writing
 sec-title: Contract Writing Standards Lead
 sec-name: DHS
