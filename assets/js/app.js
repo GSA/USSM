@@ -6,6 +6,22 @@ jQuery(document).ready(function () {
 
     let pages = [
         {
+            accordian: 'cyb-cvd-lifecycle',
+            table: 'cyb-cvd-capabilities',
+            url: '../business-standards-api/cyb/cvd',
+            hasSubsection: false
+        },
+        {
+            table: 'cyb-soc-capabilities',
+            url: '../business-standards-api/cyb/soc',
+            hasSubsection: false
+        },
+        {
+            accordian: 'cyb-soc-lifecycle',
+            url: '../business-standards-api/cyb/',
+            hasSubsection: true
+        },
+        {
             accordian: 'hr-benefits-lifecycle',
             table: 'hr-benefits-capabilities',
             url: '../business-standards-api/hr',
@@ -139,20 +155,27 @@ function imageChecker(url){
                                 jQuery("#" + page.ElementsList ).append(li);
                             });
                         }
-                        else if (outerKey==="Performance Metrics" && PerformanceMetricsList.length > 0){
+                        /*else if (outerKey==="Performance Metrics" && PerformanceMetricsList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
                                 let image = imageChecker(value1);
                                 let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
                                 jQuery("#" + page.PerformanceMetricsList ).append(li);
                             });
-                        }
+                        }*/
                     });
                 }
             );
         }
     });
+    setTimeout(function(){
+        /*jQuery("#cyb-cvd-capabilities > tbody >tr:eq(1)").remove();
+        jQuery('#cyb-cvd-capabilities > tbody >tr:first').remove();*/
+        }, 1000);
 });
-
+$('#cyb-cvd-capabilities').on( 'order.dt', function () {
+    jQuery("#cyb-cvd-capabilities > tbody >tr:eq(1)").remove();
+    jQuery('#cyb-cvd-capabilities > tbody >tr:first').remove();
+} );
 
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -161,7 +184,7 @@ var modal = document.getElementById('myModal');
 var img1 = document.getElementById('myImg');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
-img1.onclick = function () {
+img1.click = function () {
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
