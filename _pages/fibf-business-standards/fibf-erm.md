@@ -1,7 +1,7 @@
 ---
 layout: standards
 permalink: /fibf-ERM/
-title: Electronic Records Management Standards
+title: Electronic Records Management
 sub-title: Electronic Records Management
 sec-title: Electronic Records Management Lead
 sec-name: National Archives and Records Administration

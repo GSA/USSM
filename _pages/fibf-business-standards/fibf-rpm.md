@@ -1,7 +1,7 @@
 ---
 layout: standards
 permalink: /fibf-RPM/
-title: Real Property Management Standards
+title: Real Property Management
 sub-title: Real Property Management
 sec-title: Real Property Management Standards Lead
 sec-name: GSA

@@ -1,7 +1,7 @@
 ---
 layout: standards
 permalink: /fibf-fm/
-title: Financial Management Standards
+title: Financial Management
 contact: FMSC@fiscal.treasury.gov
 sub-title: Financial Management
 sec-title: Financial Management Standards Lead

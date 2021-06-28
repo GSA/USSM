@@ -1,7 +1,7 @@
 ---
 layout: standards
 permalink: /fibf-travel/
-title: Travel and Expense Management Standards
+title: Travel and Expense Management
 sub-title: Travel and Expense Management
 sec-title: Travel and Expense Management Standards Lead
 sec-name: GSA
