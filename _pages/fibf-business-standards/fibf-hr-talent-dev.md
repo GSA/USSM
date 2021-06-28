@@ -1,10 +1,11 @@
 ---
 layout: standards
-permalink: /fibf-hr/
-title: Federal Integrated Business Framework - HR Management Services - Talent Acquisition Standards
-sub-title: Talent Acquisition
+permalink: /fibf-hr-td/
+title: HR Management Services - Talent Development
+sub-title: Talent Development
 sec-title: HR Management Services Standards Lead
 sec-name: OPM, Human Resources Line of Business
+contact: HRLoB@opm.gov
 sec-website: www.opm.gov/services-for-agencies/hr-line-of-business/
 sec-website-href: https://www.opm.gov/services-for-agencies/hr-line-of-business/
 sec-references: Human Capital Business Reference Model

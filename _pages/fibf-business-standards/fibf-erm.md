@@ -1,12 +1,13 @@
 ---
 layout: standards
 permalink: /fibf-ERM/
-title: Federal Integrated Business Framework - Electronic Records Management Standards
+title: Electronic Records Management
 sub-title: Electronic Records Management
 sec-title: Electronic Records Management Lead
 sec-name: National Archives and Records Administration
 sec-website: https://www.archives.gov/records-mgmt/policy/fermi
 sec-website-href: https://www.archives.gov/records-mgmt/policy/fermi
+contact: RMPolicy@nara.gov
 capabilities-pdf: assets/files/downloads/erm/Electronic-Records-Management-Business-Capabilities.xlsx
 use-cases-pdf: assets/files/downloads/erm/Electronic-Records-Management-Business-Use-Cases.zip
 all-zip: assets/files/downloads/erm/Electronic-Records-Management-Download-All.zip
