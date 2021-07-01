@@ -6,9 +6,8 @@ contact: FMSC@fiscal.treasury.gov
 sub-title: Financial Management
 sec-title: Financial Management Standards Lead
 sec-name: Treasury, Office of Financial Innovation and Transformation
-sec-name-href: https://www.fiscal.treasury.gov/fsservices/gov/fit/fit_home.htm
-sec-website: www.fiscal.treasury.gov/fsservices/gov/fit/fit_home.htm
-sec-website-href: https://www.fiscal.treasury.gov/fsservices/gov/fit/fit_home.htm
+sec-website: www.fiscal.treasury.gov/fmsc/financial-management-standards.html
+sec-website-href: https://www.fiscal.treasury.gov/fmsc/financial-management-standards.html
 lifecycle-pdf: assets/files/downloads/fm/Financial-Management-Federal-Business-Lifecycle.pdf
 capabilities-pdf: assets/files/downloads/fm/Financial-Management-Business-Capabilities.xlsx
 standard-data-elements-pdf: assets/files/downloads/fm/financial-management-standard-data-elements.xlsx
