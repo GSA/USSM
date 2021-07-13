@@ -1,0 +1,71 @@
+{% comment %}
+To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
+where we provide an easy way to manage your navigation system
+{% endcomment %}
+{% assign phases = site.pages | where: 'layout', 'm3' %}
+
+{% assign workstreams = "programManagement:Program Management, workforce:Workforce, technology:Technology, process:Process" | split: ", " %}
+
+
+
+  <div class="usa-nav-container">
+    <nav role="navigation" class="usa-nav m3-nav">
+      <div class="usa-nav__inner">
+        <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
+        <ul class="usa-nav__primary usa-accordion">
+          <li class="usa-nav__primary-item">
+            <a class="usa-nav__link m3-intro-menuLink" href="{{site.baseurl}}"><span>
+              <img src="{{site.baseurl}}/img/m3-logo-large.svg" alt="M3 Logo">
+              M<sup>3</sup> Playbook
+            </span></a>
+          </li>
+    
+          {% for phase in phases %}
+            {% assign active = "" %}
+            {% if phase.phase == page.phase %}
+              {% assign active = " active" %}
+            {% endif %}
+            <li class="usa-nav__primary-item{{active}}">
+              <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+                aria-controls="NavItem-Phase{{phase.phase}}"><span>{{phase.phase}}: {{ phase.name }}</span></button>
+              {% assign keyTasks = site.pages | where: 'layout', 'keyTask' | where: 'phase', phase.phase %}
+              {% assign programTasks = keyTasks | where: 'category', "programManagement" %}
+              {% assign workforceTasks = keyTasks | where: 'category', "workforce" %}
+              {% assign technologyTasks = keyTasks | where: 'category', "technology" %}
+              {% assign processTasks = keyTasks | where: 'category', "process" %}
+              <div id="NavItem-Phase{{phase.phase}}" class="usa-nav__submenu usa-megamenu">
+                <a href="{{site.baseurl}}/m3/phase/{{ phase.phase }}"><h2>Phase {{phase.phase}}: {{ phase.name }}</h2></a>
+                <div class="grid-container">
+                  <div class="grid-row">
+                    {% for workstream in workstreams %}
+                      {% assign workstreamName = workstream | split: ":" | last %}
+                      {% assign workstreamTag = workstream | split: ":" | first %}
+                      {% assign workstreamTasks = keyTasks | where: 'category', workstreamTag %}
+                      <div class="desktop:grid-col-3">
+                        <h3>{{workstreamName}}</h3>
+                        <div class="usa-col">
+                          <ul class="usa-nav__submenu-list">
+                            {% for keyTask in workstreamTasks %}
+                            <li class="usa-nav__submenu-item">
+                              <a href="{{site.baseurl}}/m3/subphase/{{ phase.phase }}.{{keyTask.keyTask}}">{{ keyTask.name | escape }}</a>
+                            </li>
+                            {% endfor %}
+                          </ul>
+                        </div>
+                      </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            </li>
+    
+          {% endfor %}
+          <li class="usa-nav__primary-item">
+            <a class="usa-nav__link" href="javascript:void(0)"><span>
+              Recources
+            </span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
