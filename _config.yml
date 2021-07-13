@@ -263,11 +263,11 @@ primary_navigation:
       show_in_menu: true
       show_in_footer: false
 
-#secondary_navigation:
-#  - name: Secondary link
-#    url: "#main-content"
-#  - name: Another secondary link
-#    url: "#main-content"
+m3_navigation:
+  - name: m3 link
+    url: "#main-content"
+  - name: Another m3 link
+    url: "#main-content"
 
 
 
@@ -384,3 +384,5 @@ assets:
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss
     - node_modules/netlify-cms/dist
+
+page_gen-dirs: true

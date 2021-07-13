@@ -1,0 +1,68 @@
+
+$color-customer: #1C76F0;
+$color-provider: #EF5C4B;
+$color-shared: #D366D3;
+$color-qsmo: #819D00;
+$color-programManagement: #6030A3;
+$color-workforce: #0070CF;
+$color-technology: #0099C8;
+$color-process: #00A297;
+
+
+.color-customer{
+  color: $color-customer;
+}
+.color-provider{
+  color: $color-provider;
+}
+.color-shared{
+  color: $color-shared;
+}
+.color-qsmo{
+  color: $color-qsmo;
+}
+.color-programManagement{
+  color: $color-programManagement;
+}
+.color-workforce{
+  color: $color-workforce;
+}
+.color-technology{
+  color: $color-technology;
+}
+.color-process{
+  color: $color-process;
+}
+
+.bg-customer{
+  background-color: $color-customer;
+  color: white;
+}
+.bg-provider{
+  background-color: $color-provider;
+  color: white;
+}
+.bg-shared{
+  background-color: $color-shared;
+  color: white;
+}
+.bg-qsmo{
+  background-color: $color-qsmo;
+  color: white;
+}
+.bg-programManagement{
+  background-color: $color-programManagement;
+  color: white;
+}
+.bg-workforce{
+  background-color: $color-workforce;
+  color: white;
+}
+.bg-technology{
+  background-color: $color-technology;
+  color: white;
+}
+.bg-process{
+  background-color: $color-process;
+  color: white;
+}

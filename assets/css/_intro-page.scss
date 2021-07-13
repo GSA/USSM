@@ -1,0 +1,65 @@
+.m3-hero{
+  background: rgb(16,47,175);
+  background: linear-gradient(94deg, rgba(16,47,175,1) 0%, rgba(86,226,211,1) 100%);
+  background-image: url(../img/m3-pattern.svg),  linear-gradient(94deg, rgba(16,47,175,1) 0%, rgba(86,226,211,1) 100%);
+  padding-top: 3em;
+  padding-bottom: 3em;
+  .usa-hero__heading{
+    color: white;
+    max-width: 20em;
+  }
+}
+section.usa-hero.m3-framework-overview {
+  background-image: none;
+  background: #f8f8f8;
+  color:black;
+}
+.framework-overview{
+  position: relative;
+  display: grid;
+}
+ul.workstreams {
+  list-style: none;
+  padding: 0;
+  margin-top: 4em;
+}
+
+ul.workstreams li {
+  padding:0.5em 2em;
+  margin-bottom:1em;
+  border-radius:5px;
+}
+ol.phases {
+  position: absolute;
+  top: 0;
+  color:black;
+  display:flex;
+  gap:1em;
+  margin-left: 25em;
+  counter-set: my-counter -1;
+
+  li {
+    position: relative;
+    background: white;
+    padding: 1em;
+    box-shadow: #00000033 0px 3px 5px;
+    counter-increment: my-counter;
+    list-style: none;
+
+    &::before {
+      content: counter(my-counter);
+      background: black;
+      color: white;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border-radius: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: -1em;
+      left: -0.5em;
+    }
+  }
+}

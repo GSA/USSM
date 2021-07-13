@@ -1,0 +1,76 @@
+$gray-light: #D6D7D9;
+$global-header-black: #656565;
+$gsa-blue: #005EA2;
+$black: #000000;
+$primary-blue: #000083;
+$role-provider: #D258CA;
+$role-customer: #1C76F0;
+$role-shared: #EF5C4B;
+$role-qsmo: #819D00;
+$m3-turquoise: #1CDEFF;
+$gray-light-f0f0f0: #F0F0F0;
+$workstream-process: #00A297;
+$workstream-technology: #0099C8;
+$workstream-management: #6030A3;
+$workstream-workforce: #0070CF;
+$gray-lightest: #F8F8F8;
+$font-black: #1B1B1B;
+$bg-gray: #DCDEE0;
+$text-disabled: #828C95;
+$white: #FFFFFF;
+
+.usa-accordion div {
+  margin-bottom: 0 !important;
+}
+
+.m3-playbook-menu-wrapper {
+  background: $primary-blue; // linear-gradient(0.25turn, $primary-blue, #f69d3c);
+
+  .m3-playbook-menu {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 87.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+
+    nav {
+      font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+
+      ul {
+        list-style: none;
+        display: flex;
+        align-items:center;
+        padding: 0;
+        margin: 0;
+
+        li {
+
+          img {
+            height: 1.5em;
+            max-width: 100%;
+            border-style: none;
+          }
+
+          a {
+            display: block;
+            padding: 7px 12px;
+            color: $white;
+            font-weight: 700;
+            text-decoration: none;
+          }
+
+          a.m3-intro-menuLink {
+            font-size: 1.3em;
+            display: flex;
+            align-items:center;
+          }
+
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

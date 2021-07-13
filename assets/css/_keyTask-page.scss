@@ -1,0 +1,240 @@
+
+#keyTaskHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  h2 {
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+  ul {
+    padding-left: 1em;
+    margin: 0;
+  }
+}
+.prevnext{
+  display: flex;
+  justify-content: space-between;
+}
+.next{
+  margin-left: auto;
+}
+
+.m3-taskActivity{
+  display:grid;
+  grid-template:
+    [row1-start] "responsibleParty" auto [row1-end]
+    [row2-start] "name" auto [row2-end]
+    [row3-start] "output" auto [row3-end]
+    [row4-start] "parties" auto [row4-end];
+  padding-bottom: 0.5em;
+
+  .keyTask-resources {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .keyTask-resources > div {
+      width: 50%;
+  }
+  
+
+  .keyTask-output{
+    grid-area:output;
+    border-bottom: 1px solid lightgrey;
+    display: grid;
+    grid-template:
+    [row1-start] "label icons" auto [row1-end]
+    [row2-start] "name icons" auto [row2-end]
+    / auto 1fr;
+  }
+
+  .keyTask-output-label{
+    grid-area:label;
+  }
+  .keyTask-output-name{
+    grid-area:name;
+  }
+  .parties{
+    grid-area: parties;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid lightgrey;
+  }
+  .keyTask-output-icons{
+    grid-area:icons;
+    a{
+      display: inline-block;
+    }
+    .usa-icon{
+      width: 2.5em;
+      height: 2.5em;
+    }
+  }
+  .keyTask-name{
+    grid-area:name;
+    margin-bottom: 0.5em;
+  }
+  .keyTask-responsibleParty{
+    grid-area:responsibleParty;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+    margin-top: -5px;
+    max-width: 100px;
+  }
+  @media (min-width: 550px){
+    grid-template:
+    [row1-start] "responsibleParty name name" auto [row1-end]
+    [row2-start] "responsibleParty output parties" auto [row2-end]
+    / 100px 1fr fit-content(50%);
+
+    .keyTask-output{
+      grid-template:
+      [row1-start] "label icons" auto [row1-end]
+      [row2-start] "name icons" auto [row2-end]
+      / auto 1fr;
+    }
+    .keyTask-resources > div {
+      width: 25%;
+    }
+  }
+}
+
+
+.m3-process-list{
+  .usa-process-list__item {
+    max-width: none;
+    max-height: 300px;
+    transition: all 0.5s ease;
+    &::before {
+      border: none;
+      color: white;
+      font-size: 1em;
+      content: attr(data-number);
+    }
+    &[data-label~="customer"]::before {
+      background-color: $color-customer;
+    }
+    &[data-label~="provider"]::before {
+      background-color: $color-provider;
+    }
+    &[data-label~="qsmo"]::before {
+      background-color: $color-qsmo;
+    }
+    &[data-label~="shared"]::before {
+      background-color: $color-shared;
+    }
+    &.hidden{
+      display:none;
+    }
+    &[aria-hidden="true"]{
+      max-height: 0;
+      opacity: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+.m3-tag[aria-selected="true"]{
+  color: white;
+  &.customer{
+    background-color: $color-customer;
+    .usa-icon {
+      fill: white;
+    }
+  }
+  &.provider{
+    background-color: $color-provider;
+    .usa-icon {
+      stroke: white;
+    }
+  }
+  &.qsmo{
+    background-color: $color-qsmo;
+    .usa-icon {
+      fill: white;
+    }
+  }
+  &.shared{
+    background-color: $color-shared;
+    .usa-icon {
+      fill: white;
+    }
+  }
+}
+.best-practices{
+  h3{
+    background: #060183;
+    color: white;
+    padding: 1em;
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    background-color: #f8f8f8;
+    background-image: url(../img/m3-logo.svg);
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position: 1em;
+    margin: 0.5em 0;
+    border: 1px solid #dddee0;
+    padding: 1em 1em 1em 4em;
+    border-radius: 5px;
+  }
+}
+
+#documentation{
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px #dfe1e2;
+  padding: 1em;
+  ul {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+  .stakeholders{
+    ul{
+      list-style: none;
+      li::before{
+        content: "\2022";
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+      }
+    }
+    .customerStakeholders{
+      li::before{
+        color: $color-customer;
+      }
+    }
+    .providerStakeholders{
+      li::before{
+        color: $color-provider;
+      }
+    }
+    .qsmoStakeholders{
+      li::before{
+        color: $color-qsmo;
+      }
+    }
+    .sharedStakeholders{
+      li::before{
+        color: $color-shared;
+      }
+    }
+  }
+  .linkedOutput{
+    background: #060183;
+    display: inline-block;
+    border-radius: 1em;
+    padding: 0 0.5em;
+    height: 1.3em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+}
