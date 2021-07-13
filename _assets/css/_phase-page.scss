@@ -1,0 +1,367 @@
+
+.m3-nav {
+  background: #0b0083;
+  .usa-nav__primary a:not(.usa-button), .usa-nav__primary button {
+    color:white;
+    padding-left: 0;
+    &:hover{
+      background-color: #0b0083;
+    }
+  }
+  .usa-nav__primary button[aria-expanded="true"] {
+    background-color: #0b0083;
+    background-image: url(../img/usa-icons-bg/remove--white.svg), linear-gradient(transparent, transparent);
+  }
+  .usa-nav__primary button[aria-expanded="false"] {
+    background-image: url(../img/usa-icons-bg/expand_more--white.svg), linear-gradient(transparent, transparent);
+  }
+  .usa-nav__submenu {
+    background-color: #0b0083;
+    &:before, &:after{
+      background-color: #0b0083;
+    }
+  }
+  .usa-nav__primary-item > .usa-current::after, .usa-nav__primary-item > .usa-nav__link:hover::after {
+    background-color: white;
+}
+}
+.usa-header + .usa-section, .usa-header + main {
+  border-top: 1px solid #0b0083;
+}
+
+a.usa-nav__link.m3-intro-menuLink {
+  font-size: 1.3em;
+  padding: 3px 16px;
+  line-height: 2em;
+
+  span {
+    display: flex;
+    align-items: center;
+  }
+  img {
+    height: 1.5em;
+  }
+}
+
+#keyTaskLegend li{
+  display: inline-block;
+}
+.m3-tag {
+  display: inline-block;
+  background: #f8f8f8;
+  color:black;
+  border-radius: 0.2em;
+  padding: 0px 4px;
+
+  .usa-icon {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  &.customer{
+    .usa-icon {
+      fill: $color-customer;
+    }
+  }
+  &.provider{
+    .usa-icon {
+      stroke: $color-provider;
+      stroke-width: 2;
+      fill: none;
+      width: 1.4em;
+      height: 1.4em;
+    }
+  }
+  &.shared{
+    .usa-icon {
+      fill: $color-shared;
+    }
+  }
+  &.qsmo{
+    .usa-icon {
+      fill: $color-qsmo;
+    }
+  }
+}
+
+.keyTaskCategory{
+  &.programManagement{
+    .keyTaskCategoryHeading, .m3-keyTask-group:before{
+      background: $color-programManagement;
+    }
+  }
+  &.workforce{
+    .keyTaskCategoryHeading, .m3-keyTask-group:before{
+      background-color: $color-workforce;
+    }
+  }
+  &.technology{
+    .keyTaskCategoryHeading, .m3-keyTask-group:before{
+      background-color: $color-technology;
+    }
+  }
+  &.process{
+    .keyTaskCategoryHeading, .m3-keyTask-group:before{
+      background-color: $color-process;
+    }
+  }
+  .keyTaskCategoryHeading{
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    border-radius: 10px;
+    padding: 0.25em 1.5em;
+    margin-bottom: 0.3em;
+
+    svg {
+      stroke: white;
+      stroke-width: 3px;
+      width: 20px;
+      height: 20px;
+      margin-right: 1em;
+    }
+  }
+}
+
+.m3-keyTask-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  margin-top: 0;
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5em;
+
+  &:before {
+    content: "";
+    width: 0.5em;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0.2;
+    border-radius: 10px;
+}
+}
+
+// .parties {
+//   border: 1px solid lightgrey;
+//   border-radius: 4px;
+//   padding: 5px;
+//   margin-left: -10px;
+//   width: 100px;
+// }
+.party {
+  display: inline-block;
+}
+.m3-keyTask{
+  width: 100%;
+  margin-bottom: 0.3em;
+  display:grid;
+  grid-template:
+    [row1-start] "id responsibleParty" auto [row1-end]
+    [row2-start] "id name" auto [row2-end]
+    [row2-start] "id button" auto [row2-end]
+    / 40px auto;
+  border: 1px solid #dfe1e2;
+  border-radius: 0.5em;
+  padding-left: 0.5em;
+  max-height: 150px;
+  transition: all 0.5s ease;
+  padding: 0.5em 1em;
+  
+  .keyTask-id{
+    grid-area:id;
+    justify-self:center;
+  }
+  .keyTask-name{
+    grid-area:name;
+    align-self:center;
+    text-decoration: none;
+    color: initial;
+    margin-bottom: 0.5em;
+  }
+  .keyTask-responsibleParty{
+    grid-area:responsibleParty;
+  }
+  .usa-button{
+    grid-area:button;
+    justify-self:baseline;
+    align-self:center;
+  }
+
+  @media (min-width: 550px){
+    grid-template:
+    [row1-start] "id responsibleParty button" auto [row1-end]
+    [row2-start] "id name button" 25px [row2-end]
+    / 50px auto 140px;
+    .keyTask-id{
+      align-self:center;
+    }
+    .keyTask-responsibleParty {
+      margin-left: 0;
+    }
+    .parties {
+      display: inline-block;
+      width: auto;
+      margin-left: 5px;
+    }
+  }
+
+  &:last-of-type{
+    margin-bottom: 0;
+  }
+  
+  &:hover, &:focus-within{
+    background: #f8f8f8;
+    border-color: #f8f8f8;
+    box-shadow: 0 3px 5px #dfe1e2;
+  }
+
+  &:before {
+    content:"";
+    display: block;
+    width: 0.3em;
+    border-radius: 0.5em 0 0 0.5em;
+    transition: box-shadow 0.4s;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    height: 100%;
+    border: 1px solid;
+    box-sizing: content-box;
+  }
+    
+  &[data-label~="customer"]::before {
+    background: $color-customer;
+    border-color: $color-customer;
+  }
+  &[data-label~="provider"]::before {
+    background: $color-provider;
+    border-color: $color-provider;
+  }
+  &[data-label~="qsmo"]::before {
+    background: $color-qsmo;
+    border-color: $color-qsmo;
+  }
+  &[data-label~="shared"]::before {
+    background: $color-shared;
+    border-color: $color-shared;
+  }
+  &.hidden{
+    display:none;
+  }
+  &[aria-hidden="true"]{
+    max-height: 0;
+    opacity: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+  }
+}
+
+
+
+.m3-modal{
+  &.usa-modal{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0;
+    transition: transform 0.4s;
+    transform: translateX(30rem);
+    margin: 0;
+    min-height: 100%;
+  }
+  .usa-modal__main, .usa-modal__content{
+    padding: 0;
+    margin: 0;
+  }
+  .usa-modal__close{
+    position: absolute;
+    top: 3em;
+    right: 1em;
+    color: white;
+  }
+  .m3-modal-header{
+    background-image: url(../img/m3-pattern.svg);
+    padding: 2em;
+
+    svg{
+      stroke: white;
+      width: 3em;
+      height: 3em;
+    }
+  }
+  section{
+    padding: 0 2em 1em;
+  }
+  .keyTask-id {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+  }
+}
+.usa-modal-wrapper.is-visible .usa-modal.m3-modal{
+  transform: translateX(0);
+}
+.m3-process-list{
+  .usa-process-list__item {
+    max-width: none;
+    
+    &::before {
+      border: none;
+      color: white;
+      font-size: 1em;
+    }
+    &.party-customer::before {
+      background-color: $color-customer;
+    }
+    &.party-provider::before {
+      background-color: $color-provider;
+    }
+    &.party-shared::before {
+      background-color: $color-shared;
+    }
+    &.party-qsmo::before {
+      background-color: $color-qsmo;
+    }
+  }
+}
+
+.m3-summary-box.usa-summary-box {
+  background: #f8f8f8;
+  @include u-border('primary');
+  border-width: 1em 0 0 0;
+  padding: 0.5em 1.5em;
+}
+.m3-summary-box.usa-summary-box.with-label {
+  border: 0;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+}
+.m3-summary-box-label {
+  color: white;
+  padding: 0.5em 1.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  border-radius: 10px 10px 0 0;
+  svg{
+    stroke: white;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+#documentation{
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px #dfe1e2;
+  padding: 1em;
+  ul {
+    padding-left: 0;
+    list-style-position: inside;
+    &.stakeholders{
+      list-style: none;
+    }
+  }
+}

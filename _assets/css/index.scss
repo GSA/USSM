@@ -1,0 +1,117 @@
+/*
+  Customize US Web Design System SASS
+  See all at designsystem.digital.gov/documentation/settings
+*/
+
+// Example - Override the background image in the hero component using SASS:
+// $theme-hero-image: asset_path("whatever-the-default-is.png");
+
+$theme-color-primary: 'indigo-70';
+$theme-color-primary-darker: 'indigo-cool-70';
+
+$theme-process-list-counter-size: 3;
+
+$theme-grid-container-max-width:    'widescreen';
+$theme-site-max-width:              'widescreen';
+$theme-site-margins-breakpoint:     'widescreen';
+$theme-header-max-width:            'widescreen';
+
+@import "_variables";
+@import "uswds";
+@import "_utilities";
+@import "_phase-page";
+@import "_keyTask-page";
+@import "_intro-page";
+
+// Example - Override the background image in the hero component using CSS:
+//.usa-hero {
+//  background-image: asset_url("your-image.png")
+//  background-position: 50%;
+//  background-size: cover;
+//}
+
+/*
+  Add your SASS/CSS here
+*/
+
+// default mode hide banner
+.usa-banner__content {
+  display: hidden;
+}
+.borderBottom{
+  border-bottom: 1px solid grey;
+}
+.textAlignCenter{
+  text-align: center;
+}
+.space-between{
+  justify-content: space-between;
+}
+
+// [href$=".pdf"]::after {
+//   content: '  (PDF)';
+//   color: red;
+// }
+// [href$=".docx"]::after {
+//   content: '  (DOCX)';
+//   color: blue;
+// }
+// [href$=".pptx"]::after {
+//   content: '  (PPTX)';
+//   color: orange;
+// }
+// [href$=".xlsx"]::after {
+//   content: '  (XLSX)';
+//   color: green;
+// }
+// [href$=".pdf"]::after, [href$=".docx"]::after, [href$=".pptx"]::after, [href$=".xlsx"]::after {
+//   content: ' ';
+//   background-image: url(../img/spritesheet.svg#file_download;);
+// }
+
+
+.usa-section.m3-section{
+  padding-top: 1em;
+}
+.usa-nav__primary > .usa-nav__primary-item > a, .usa-nav__primary button{
+  font-weight: normal;
+}
+.usa-nav__primary-item.active button {
+  font-weight: bold;
+}
+.usa-nav__primary-item h2{
+  color: white;
+  display: inline-block;
+  padding: 0;
+}
+.usa-nav__primary-item h3{
+  color: white;
+}
+
+
+@media screen and (min-width: 640px) {
+  .tablet\:width-1\/3 {
+    width: 33%;
+  }
+  .tablet\:float-left {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .paginate-link {
+    display: initial;
+  }
+  .paginate-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .paginate-link {
+    display: none;
+  }
+  .paginate-button {
+    display: block;
+  }
+}
