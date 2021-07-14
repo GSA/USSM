@@ -1,0 +1,119 @@
+
+
+<ul class="m3-keyTask-group">
+  {% for item in list %}
+  {% if item.responsibleParty.first and item.responsibleParty.size > 1 %}
+    {% assign responsibleParty = "shared" %}
+  {% else %}
+    {% assign responsibleParty = item.responsibleParty %}
+  {% endif %}
+  <li class="m3-keyTask overlayLinkContainer" data-label='{{responsibleParty}} {% if responsibleParty == "shared" -%}{{item.responsibleParty | join: " " }}{%- endif -%}'>
+
+    <div class="keyTask-id">{{ page.phase }}.{{item.keyTask}}</div>
+
+    <a href="#modal-{{ page.phase }}-{{item.keyTask}}" aria-controls="modal-{{ page.phase }}-{{item.keyTask}}" data-open-modal class="keyTask-name overlayLink">
+      {{ item.name }}
+    </a>
+    
+    <div class="keyTask-responsibleParty">
+      <svg class="usa-icon color-{{ responsibleParty }}" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include categoryTag.html category = responsibleParty %}"></use>
+      </svg>
+      {{responsibleParty}}
+      {% if responsibleParty == "shared" %}
+        {% for party in item.responsibleParty %}
+            <svg class="usa-icon color-{{ party }}" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include categoryTag.html category = party %}"></use>
+            </svg>
+            {{ party }}
+        {% endfor %}
+      {% endif %}
+
+    </div>
+
+    <a href="{{site.baseurl}}/m3/subphase/{{ page.phase }}.{{item.keyTask}}" class="usa-button usa-button--outline">
+      View Details
+    </a>
+
+  </li>
+
+  {% endfor %}
+</ul>
+
+{% for item in list %}
+  {% assign workstream = "" %}
+  {%- case item.category -%}
+    {%- when "programManagement" -%}
+      {% assign workstream = "Program Management" %}
+    {%- when "workforce" -%}
+      {% assign workstream = "Workforce Organization & Stakeholders" %}
+    {%- when "technology" -%}
+      {% assign workstream = "Technology" %}
+    {%- when "process" -%}
+      {% assign workstream = "Process & Service Delivery" %}
+  {%- endcase -%}
+  {% assign party = "" %}
+  {%- case item.responsibleParty -%}
+    {%- when "provider" -%}
+      {% assign party = "Provider" %}
+    {%- when "customer" -%}
+      {% assign party = "Customer" %}
+    {%- when "shared" -%}
+      {% assign party = "Shared" %}
+    {%- when "qsmo" -%}
+      {% assign party = "QSMO" %}
+  {%- endcase -%}
+    
+  <div class="usa-modal m3-modal" id="modal-{{ page.phase }}-{{item.keyTask}}" aria-labelledby="modal-{{ page.phase }}-{{item.keyTask}}-heading" aria-describedby="modal-{{ page.phase }}-{{item.keyTask}}-description">
+    <div class="usa-modal__content">
+      <section class="usa-modal__main">
+        <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal="">
+          <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+            <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#close"></use>
+          </svg>
+        </button>
+
+        <section class="m3-modal-header bg-{{item.category}}">
+            <svg aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="{{site.baseurl}}/img/icon-{{item.category}}.svg#icon-{{item.category}}"></use>
+            </svg>
+          <div id="modal-{{ page.phase }}-{{item.keyTask}}-heading" class="keyTask-id">{{ page.phase }}.{{item.keyTask}}</div>
+          <h2 id="modal-{{ page.phase }}-{{item.keyTask}}-description">{{ item.name }}</h2>
+        </section>
+
+        <section class="borderBottom">
+          <h3>Responsible Party</h3>
+          <svg class="usa-icon color-{{ item.responsibleParty }}" aria-hidden="true" focusable="false" role="img">
+            <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include categoryTag.html category = item.responsibleParty %}"></use>
+          </svg>
+          {{ party }}
+        </section>
+
+        <section class="borderBottom">
+          <h3>Inputs</h3>
+          <ul>
+          {% for input in item.inputs %}
+            <li>{{input}}</li>
+            
+          {% endfor %}
+          </ul>
+        </section>
+
+        <section>
+          <h3>Outputs</h3>
+          <ul>
+          {% for output in item.outputs %}
+            <li>{{output}}</li>
+          {% endfor %}
+          </ul>
+        </section>
+
+        <section class="textAlignCenter">
+          <a href="{{site.baseurl}}/m3/subphase/{{ page.phase }}.{{item.keyTask}}" class="usa-button">
+            View Details
+          </a>
+        </section>
+
+    </div>
+  </div>
+{% endfor %}

@@ -33,16 +33,24 @@
   .usa-nav__primary > .usa-nav__primary-item > a, .usa-nav__primary button{
     font-weight: normal;
   }
-  .usa-nav__primary-item.active button {
-    font-weight: bold;
-  }
-  .usa-nav__primary-item h2{
-    color: white;
-    display: inline-block;
-    padding: 0;
-  }
-  .usa-nav__primary-item h3{
-    color: white;
+  .usa-nav__primary-item{
+    &.active {
+    background-color: initial;
+    }
+
+    button {
+      font-weight: bold;
+    }
+
+    h2{
+      color: white;
+      display: inline-block;
+      padding: 0;
+    }
+
+    h3{
+      color: white;
+    }
   }
 }
 

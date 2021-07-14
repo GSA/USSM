@@ -2,7 +2,7 @@
 To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
 where we provide an easy way to manage your navigation system
 {% endcomment %}
-{% assign phases = site.pages | where: 'layout', 'm3' %}
+{% assign phases = site.pages | where: 'layout', 'm3/phase' %}
 
 {% assign workstreams = "programManagement:Program Management, workforce:Workforce, technology:Technology, process:Process" | split: ", " %}
 
@@ -28,7 +28,7 @@ where we provide an easy way to manage your navigation system
             <li class="usa-nav__primary-item{{active}}">
               <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
                 aria-controls="NavItem-Phase{{phase.phase}}"><span>{{phase.phase}}: {{ phase.name }}</span></button>
-              {% assign keyTasks = site.pages | where: 'layout', 'keyTask' | where: 'phase', phase.phase %}
+              {% assign keyTasks = site.pages | where: 'layout', 'm3/keyTask' | where: 'phase', phase.phase %}
               {% assign programTasks = keyTasks | where: 'category', "programManagement" %}
               {% assign workforceTasks = keyTasks | where: 'category', "workforce" %}
               {% assign technologyTasks = keyTasks | where: 'category', "technology" %}
@@ -47,7 +47,7 @@ where we provide an easy way to manage your navigation system
                           <ul class="usa-nav__submenu-list">
                             {% for keyTask in workstreamTasks %}
                             <li class="usa-nav__submenu-item">
-                              <a href="{{site.baseurl}}/m3/subphase/{{ phase.phase }}.{{keyTask.keyTask}}">{{ keyTask.name | escape }}</a>
+                              <a href="{{site.baseurl}}/m3/keyTask/{{ phase.phase }}.{{keyTask.keyTask}}">{{ keyTask.name | escape }}</a>
                             </li>
                             {% endfor %}
                           </ul>

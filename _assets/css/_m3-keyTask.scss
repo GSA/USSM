@@ -102,13 +102,17 @@
   }
 }
 
-
+$m3-process-list-counter-size: 1.5em;
 .m3-process-list{
+  padding: 20px 0 0 calc( ( (1.5rem / 2) - (0.5rem / 2) ) );
+
   .usa-process-list__item {
     max-width: none;
     max-height: 300px;
     transition: all 0.5s ease;
     &::before {
+      width: $m3-process-list-counter-size;
+      height: $m3-process-list-counter-size;
       border: none;
       color: white;
       font-size: 1em;
