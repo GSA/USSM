@@ -16,7 +16,19 @@ site, this is the place to do it.
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Title and meta description
     ================================================== -->
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% if page.layout == "m3/phase" %}
+    <title>Phase {{page.phase}} | {{site.title}}</title>
+    <meta property="og:title" content="Phase {{page.phase}} | {{site.title}}">
+  {% elsif page.layout == "m3/keyTask" %}
+    <title>Key Task {{page.phase}}.{{page.keyTask}} | {{site.title}}</title>
+    <meta property="og:title" content="{{site.title}}">
+  {% elsif page.title %}
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+  {% else %}
+    <title>{{site.title}}</title>
+    <meta property="og:title" content="{{site.title}}">
+  {% endif %}
   <meta property="og:title" content="{{site.title}}">
   <meta name="description" content="{{site.description}}">
   <meta property="og:description" content="{{site.description}}">

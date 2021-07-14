@@ -17,13 +17,13 @@
     
     <div class="keyTask-responsibleParty">
       <svg class="usa-icon color-{{ responsibleParty }}" aria-hidden="true" focusable="false" role="img">
-        <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include categoryTag.html category = responsibleParty %}"></use>
+        <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = responsibleParty %}"></use>
       </svg>
       {{responsibleParty}}
       {% if responsibleParty == "shared" %}
         {% for party in item.responsibleParty %}
             <svg class="usa-icon color-{{ party }}" aria-hidden="true" focusable="false" role="img">
-              <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include categoryTag.html category = party %}"></use>
+              <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = party %}"></use>
             </svg>
             {{ party }}
         {% endfor %}
@@ -69,13 +69,13 @@
       <section class="usa-modal__main">
         <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal="">
           <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-            <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#close"></use>
+            <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#close"></use>
           </svg>
         </button>
 
         <section class="m3-modal-header bg-{{item.category}}">
             <svg aria-hidden="true" focusable="false" role="img">
-              <use xlink:href="{{site.baseurl}}/img/icon-{{item.category}}.svg#icon-{{item.category}}"></use>
+              <use xlink:href="{{site.baseurl}}/assets/images/m3/icon-{{item.category}}.svg#icon-{{item.category}}"></use>
             </svg>
           <div id="modal-{{ page.phase }}-{{item.keyTask}}-heading" class="keyTask-id">{{ page.phase }}.{{item.keyTask}}</div>
           <h2 id="modal-{{ page.phase }}-{{item.keyTask}}-description">{{ item.name }}</h2>
@@ -84,7 +84,7 @@
         <section class="borderBottom">
           <h3>Responsible Party</h3>
           <svg class="usa-icon color-{{ item.responsibleParty }}" aria-hidden="true" focusable="false" role="img">
-            <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include categoryTag.html category = item.responsibleParty %}"></use>
+            <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = item.responsibleParty %}"></use>
           </svg>
           {{ party }}
         </section>

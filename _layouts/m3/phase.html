@@ -2,7 +2,7 @@
 layout: m3/m3-layout
 ---
 
-{% assign keyTasks = site.pages | where: 'layout', 'keyTask' | where: 'phase', page.phase %}
+{% assign keyTasks = site.pages | where: 'layout', 'm3/keyTask' | where: 'phase', page.phase %}
 
 {% assign customerTasks = keyTasks | where: 'responsibleParty', "customer" %}
 {% assign providerTasks = keyTasks | where: 'responsibleParty', "provider" %}
