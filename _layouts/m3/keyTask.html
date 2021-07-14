@@ -3,7 +3,7 @@ layout: m3/m3-layout
 ---
 
 
-{% assign parent = site.pages | where: 'layout', 'm3' | where: 'phase', page.phase | first %}
+{% assign parent = site.pages | where: 'layout', 'm3/phase' | where: 'phase', page.phase | first %}
 
 {% assign prevTask = page.keyTask | minus: 1 %}
 {% assign prev = site.pages | where: 'phase', page.phase | where: 'keyTask', prevTask | first %}
