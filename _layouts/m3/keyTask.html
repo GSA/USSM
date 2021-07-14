@@ -44,18 +44,18 @@ layout: m3/m3-layout
         <section class="prevnext">
           
           {% if prev %}
-            <a class="prev" href="{{site.baseurl}}/m3/subphase/{{prev.phase}}.{{prev.keyTask}}">
+            <a class="prev" href="{{site.baseurl}}/m3/keyTask/{{prev.phase}}.{{prev.keyTask}}">
               <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#arrow_back"></use>
+                <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#arrow_back"></use>
               </svg>
               {{prev.phase}}.{{prev.keyTask}} {{prev.name}}
             </a>
           {% endif %}
           {% if next %}
-            <a class="next" href="{{site.baseurl}}/m3/subphase/{{next.phase}}.{{next.keyTask}}">
+            <a class="next" href="{{site.baseurl}}/m3/keyTask/{{next.phase}}.{{next.keyTask}}">
               {{next.phase}}.{{next.keyTask}} {{next.name}}
               <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#arrow_forward"></use>
+                <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#arrow_forward"></use>
               </svg>
             </a>
           {% endif %}
@@ -68,7 +68,7 @@ layout: m3/m3-layout
 
         <div class="m3-summary-box-label bg-{{page.category}}">
           <svg aria-hidden="true" focusable="false" role="img">
-            <use xlink:href="{{site.baseurl}}/img/icon-{{page.category}}.svg#icon-{{page.category}}"></use>
+            <use xlink:href="{{site.baseurl}}/assets/images/m3/icon-{{page.category}}.svg#icon-{{page.category}}"></use>
           </svg>
           {{workstream}}
         </div>
@@ -79,7 +79,7 @@ layout: m3/m3-layout
               <p>{{page.objective}}</p>
               <a href="#BestPractice" class="usa-button ">
                 <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                  <use xlink:href="/img/spritesheet.svg#arrow_downward"></use>
+                  <use xlink:href="/assets/images/m3/spritesheet.svg#arrow_downward"></use>
                 </svg>
                 View Best Practices
               </a>
@@ -98,7 +98,7 @@ layout: m3/m3-layout
               <li>
                 <button class="usa-button m3-tag customer" data-filter="customer" aria-controls="keyTasks" role="option" aria-selected="false">
                   <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                    <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include m3/categoryTag.html category = "customer" %}"></use>
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "customer" %}"></use>
                   </svg>
                   Customer
                 </button>
@@ -109,7 +109,7 @@ layout: m3/m3-layout
             <li>
               <button class="usa-button m3-tag provider" data-filter="provider" aria-controls="keyTasks" role="option" aria-selected="false">
               <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include m3/categoryTag.html category = "provider" %}"></use>
+                <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "provider" %}"></use>
               </svg>
               Provider
             </button>
@@ -120,7 +120,7 @@ layout: m3/m3-layout
             <li>
               <button class="usa-button m3-tag qsmo" data-filter="qsmo" aria-controls="keyTasks" role="option" aria-selected="false">
               <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include m3/categoryTag.html category = "qsmo" %}"></use>
+                <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "qsmo" %}"></use>
               </svg>
               QSMO
             </button>
@@ -131,7 +131,7 @@ layout: m3/m3-layout
             <li>
               <button class="usa-button m3-tag shared" data-filter="shared" aria-controls="keyTasks" role="option" aria-selected="false">
               <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include m3/categoryTag.html category = "shared" %}"></use>
+                <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "shared" %}"></use>
               </svg>
               Shared
             </button>
@@ -154,7 +154,7 @@ layout: m3/m3-layout
               <div class="keyTask-responsibleParty">
                   {{responsibleParty | capitalize}}
                   <svg class="usa-icon color-{{ responsibleParty }}" aria-hidden="true" focusable="false" role="img">
-                    <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include m3/categoryTag.html category = responsibleParty %}"></use>
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = responsibleParty %}"></use>
                   </svg>
               </div>
               
@@ -177,7 +177,7 @@ layout: m3/m3-layout
                   <div class="keytask-value">
                     <a href="{{item.template}}"{% comment %} class="usa-tooltip" data-position="right" title="Download Template"{% endcomment %}>
                       Download Template <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                        <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#file_download"></use>
+                        <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#file_download"></use>
                       </svg>
                     </a>
                   </div>
@@ -189,7 +189,7 @@ layout: m3/m3-layout
                   <div class="keytask-value">
                     <a href="{{item.template}}"{% comment %} class="usa-tooltip" data-position="right" title="Download Template"{% endcomment %}>
                       View Template <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                        <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#launch"></use>
+                        <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#launch"></use>
                       </svg>
                     </a>
                   </div>
@@ -202,7 +202,7 @@ layout: m3/m3-layout
                 {% for party in item.responsibleParty %}
                   <div class="party">
                     <svg class="usa-icon color-{{ party }}" aria-hidden="true" focusable="false" role="img">
-                      <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include m3/categoryTag.html category = party %}"></use>
+                      <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = party %}"></use>
                     </svg>
                     {{ party | capitalize }}
                   </div>
@@ -239,7 +239,7 @@ layout: m3/m3-layout
             {% if customerStakeholders.size > 0 %}
               <h3>
                 <svg class="usa-icon color-customer" aria-hidden="true" focusable="false" role="img">
-                  <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include m3/categoryTag.html category = "customer" %}"></use>
+                  <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "customer" %}"></use>
                 </svg>
                 Customer
               </h3>
@@ -255,7 +255,7 @@ layout: m3/m3-layout
             {% if providerStakeholders.size > 0 %}
               <h3>
                 <svg class="usa-icon color-provider" aria-hidden="true" focusable="false" role="img">
-                  <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include m3/categoryTag.html category = "provider" %}"></use>
+                  <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "provider" %}"></use>
                 </svg>
                 Provider
               </h3>
@@ -271,7 +271,7 @@ layout: m3/m3-layout
             {% if qsmoStakeholders.size > 0 %}
               <h3>
                 <svg class="usa-icon color-qsmo" aria-hidden="true" focusable="false" role="img">
-                  <use xlink:href="{{site.baseurl}}/img/spritesheet.svg#{% include m3/categoryTag.html category = "qsmo" %}"></use>
+                  <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "qsmo" %}"></use>
                 </svg>
                 QSMO
               </h3>
@@ -293,7 +293,7 @@ layout: m3/m3-layout
               {% assign keyTaskPages = site.pages | where: 'layout', 'keyTask' %}
               {% for keyTaskPage in keyTaskPages %}
                 {% if keyTaskPage.outputs contains item %}
-                  <a class="linkedOutput" href="/m3/subphase/{{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}/">{{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}</a>
+                  <a class="linkedOutput" href="/m3/keyTask/{{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}/">{{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}</a>
                   {% break %}
                 {% endif %}
               {% endfor %}

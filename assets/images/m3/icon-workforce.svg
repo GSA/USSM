@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="icon-workforce" viewBox="0 0 59.108 45.75">
+    <ellipse id="Ellipse_43" data-name="Ellipse 43" cx="7.5" cy="7.778" rx="7.5" ry="7.778" transform="translate(29.77 0.695)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle id="Ellipse_44" data-name="Ellipse 44" cx="6.25" cy="6.25" r="6.25" transform="translate(8.52)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_4337" data-name="Path 4337" d="M1332.337,118.013a14.873,14.873,0,0,0-8.792-2.853,15.022,15.022,0,0,0-14.725,12.125,2.474,2.474,0,0,0,2.475,2.875h11" transform="translate(-1308.775 -96.41)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_4338" data-name="Path 4338" d="M1335.578,117.16h0a20,20,0,0,0-19.8,17.158,2.515,2.515,0,0,0,2.5,2.842h34.605a2.515,2.515,0,0,0,2.5-2.842A20.005,20.005,0,0,0,1335.578,117.16Z" transform="translate(-1298.308 -93.41)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+</svg>
