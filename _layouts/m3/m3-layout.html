@@ -6,7 +6,6 @@ layout: base
 {% comment %}
 This template is for a single page that does not have a date associated with it. For example, an about page.
 {% endcomment %}
-
 <div class="m3-content">
   {% include m3/menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
   
@@ -14,3 +13,5 @@ This template is for a single page that does not have a date associated with it.
       {{ content }}
   </section>
 </div>
+
+<script>console.log( "The content on this page can be access in JSON format here: {{ site.url }}/{{ site.baseurl }}static-api{{ page.url }}data.json" )</script>

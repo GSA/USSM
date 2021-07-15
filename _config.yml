@@ -315,6 +315,8 @@ collections:
   cyb-soc:
     output: true
 
+keep_files: [static-api]
+
 markdown: kramdown
 plugins:
   - jekyll-feed
@@ -322,6 +324,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-datapage-generator
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
