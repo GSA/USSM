@@ -34,7 +34,7 @@ where we provide an easy way to manage your navigation system
               {% assign technologyTasks = keyTasks | where: 'category', "technology" %}
               {% assign processTasks = keyTasks | where: 'category', "process" %}
               <div id="NavItem-Phase{{phase.phase}}" class="usa-nav__submenu usa-megamenu">
-                <a href="{{site.baseurl}}/m3/phase/{{ phase.phase }}"><h2>Phase {{phase.phase}}: {{ phase.name }}</h2></a>
+                <a href="{{site.baseurl}}/m3phase{{ phase.phase }}"><h2>Phase {{phase.phase}}: {{ phase.name }}</h2></a>
                 <div class="grid-container">
                   <div class="grid-row">
                     {% for workstream in workstreams %}
@@ -47,7 +47,7 @@ where we provide an easy way to manage your navigation system
                           <ul class="usa-nav__submenu-list">
                             {% for keyTask in workstreamTasks %}
                             <li class="usa-nav__submenu-item">
-                              <a href="{{site.baseurl}}/m3/keyTask/{{ phase.phase }}.{{keyTask.keyTask}}">{{ keyTask.name | escape }}</a>
+                              <a href="{{site.baseurl}}/{{ phase.phase }}.{{keyTask.keyTask}}">{{ keyTask.name | escape }}</a>
                             </li>
                             {% endfor %}
                           </ul>

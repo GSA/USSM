@@ -44,7 +44,7 @@ layout: m3/m3-layout
         <section class="prevnext">
           
           {% if prev %}
-            <a class="prev" href="{{site.baseurl}}/m3/keyTask/{{prev.phase}}.{{prev.keyTask}}">
+            <a class="prev" href="{{site.baseurl}}/{{prev.phase}}.{{prev.keyTask}}">
               <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
                 <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#arrow_back"></use>
               </svg>
@@ -52,7 +52,7 @@ layout: m3/m3-layout
             </a>
           {% endif %}
           {% if next %}
-            <a class="next" href="{{site.baseurl}}/m3/keyTask/{{next.phase}}.{{next.keyTask}}">
+            <a class="next" href="{{site.baseurl}}/{{next.phase}}.{{next.keyTask}}">
               {{next.phase}}.{{next.keyTask}} {{next.name}}
               <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
                 <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#arrow_forward"></use>
@@ -293,7 +293,7 @@ layout: m3/m3-layout
               {% assign keyTaskPages = site.pages | where: 'layout', 'keyTask' %}
               {% for keyTaskPage in keyTaskPages %}
                 {% if keyTaskPage.outputs contains item %}
-                  <a class="linkedOutput" href="/m3/keyTask/{{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}/">{{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}</a>
+                  <a class="linkedOutput" href="/{{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}/">{{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}</a>
                   {% break %}
                 {% endif %}
               {% endfor %}
