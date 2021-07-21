@@ -149,15 +149,38 @@ layout: m3/m3-layout
           {% endif %}
           <li class='usa-process-list__item' data-number='{{ forloop.index }}' data-label='{{responsibleParty}} {% if responsibleParty == "shared" -%}{{item.responsibleParty | join: " " }}{%- endif -%}'>
             <div class="m3-taskActivity">
-              <p class="usa-process-list__heading font-sans-md line-height-sans-1 keyTask-name">{{ item.text }}</p>
-              
               <div class="keyTask-responsibleParty">
                   {{responsibleParty | capitalize}}
                   <svg class="usa-icon color-{{ responsibleParty }}" aria-hidden="true" focusable="false" role="img">
                     <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = responsibleParty %}"></use>
                   </svg>
               </div>
+
+              <div class="keyTask-details">
+                <p class="usa-process-list__heading font-sans-md line-height-sans-1 keyTask-name">{{ item.text }}</p>
+
+                {% if item.output %}
+                <div class="keytask-output">
+                  <div class="keytask-label">Targeted Output:</div>
+                  <div class="keytask-value">{{item.output}}</div>
+                </div>
+                {% endif %}
+
+                {% if responsibleParty == "shared" and item.responsibleParty != "shared" %}
+                <div class="parties">
+                  {% for party in item.responsibleParty %}
+                    <div class="party">
+                      <svg class="usa-icon color-{{ party }}" aria-hidden="true" focusable="false" role="img">
+                        <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = party %}"></use>
+                      </svg>
+                      {{ party }}
+                    </div>
+                  {% endfor %}
+                </div>
+                {% endif %}
+              </div>
               
+              {% comment %}
               <div class="keyTask-resources">
                 {% if item.input %}
                 <div class="keytask-input">
@@ -175,7 +198,7 @@ layout: m3/m3-layout
                 <div class="keytask-template">
                   <div class="keytask-label">Template:</div>
                   <div class="keytask-value">
-                    <a href="{{item.template}}"{% comment %} class="usa-tooltip" data-position="right" title="Download Template"{% endcomment %}>
+                    <a href="{{item.template}}">
                       Download Template <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
                         <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#file_download"></use>
                       </svg>
@@ -187,7 +210,7 @@ layout: m3/m3-layout
                 <div class="keytask-example">
                   <div class="keytask-label">Example:</div>
                   <div class="keytask-value">
-                    <a href="{{item.template}}"{% comment %} class="usa-tooltip" data-position="right" title="Download Template"{% endcomment %}>
+                    <a href="{{item.template}}">
                       View Template <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
                         <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#launch"></use>
                       </svg>
@@ -196,15 +219,14 @@ layout: m3/m3-layout
                 </div>
                 {% endif %}
               </div>
-              {% comment %}
-              {% if responsibleParty == "shared" %}
+              {% if responsibleParty == "shared" and item.responsibleParty != "shared" %}
               <div class="parties">
                 {% for party in item.responsibleParty %}
                   <div class="party">
                     <svg class="usa-icon color-{{ party }}" aria-hidden="true" focusable="false" role="img">
                       <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = party %}"></use>
                     </svg>
-                    {{ party | capitalize }}
+                    {{ party }}
                   </div>
                 {% endfor %}
               </div>
