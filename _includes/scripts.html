@@ -1,0 +1,76 @@
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<script src="{{ site.baseurl }}/assets/js/isotope.pkgd.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/isotope.settings.js"></script>
+<script src="{{ site.baseurl }}/assets/js/side-nav.js"></script>
+{% if site.dap.agency %}
+<script
+  id="_fed_an_ua_tag"
+  src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency={{site.dap.agency}}{% if site.dap.subagency %}&subagency={{site.dap.subagency}}{% endif %}"
+></script>
+{% endif %}
+
+{% if site.ga.ua %}
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga.ua }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  /**
+    * `forceSSL` was used for analytics.js (the older Google Analytics script).
+    * It isn't documented for gtag.js, but the term occurs in the gtag.js code;
+    * figure it doesn't hurt to leave it in. -@afeld, 5/29/19
+    */
+  gtag('config', '{{ site.ga.ua }}', { 'anonymize_ip': true, 'forceSSL': true });
+</script>
+{% endif %}
+
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/slick.js?{{ site.time | date: '%s%N' }}"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('.carousel').slick({
+            lazyLoad: 'ondemand', // ondemand progressive anticipated
+            infinite: true,
+            dots:true,
+            arrows:false
+        });
+
+    });
+
+</script>
+   
+
+{% asset uswds.min.js %}
+<script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.7/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.7.0/js/buttons.print.min.js"></script>
+{% asset app.js %}
+
+
+
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/slick.js?1617716038051754794"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/magnific-popup.js?1617716038051754794"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+  jQuery('.top').slick({
+      lazyLoad: 'ondemand', // ondemand progressive anticipated
+      infinite: true,
+      dots:true,
+      arrows:false
+  });
+  jQuery('.image-link').magnificPopup({
+      type:'inline',
+      midClick: true
+  });
+});
+
+</script>

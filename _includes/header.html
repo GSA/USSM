@@ -1,104 +1,52 @@
-<a href="#main" class="usa-skipnav">Skip to main content</a>
+{% comment %}
+This appears at the top of the page letting the user know it's an official government website
+{% endcomment %}
 
-<header class="usa-header usa-header-basic" role="banner">
-  <!-- Gov banner BEGIN -->
+<div class="page-landing-page layout-demo ">
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
   <div class="usa-banner">
     <div class="usa-accordion">
-      <header class="usa-banner-header">
-        <div class="usa-grid usa-banner-inner">
-          <img src="{{ site.baseurl }}/assets/img/favicon-57.png" alt="U.S. flag">
-          <p>An official website of the United States government</p>
-          <button class="usa-accordion-button usa-banner-button"
-                  aria-expanded="false" aria-controls="gov-banner">
-            <span class="usa-banner-button-text">Here's how you know</span>
+      <header class="usa-banner__header">
+        <div class="usa-banner__inner">
+          <div class="grid-col-auto">
+            {% asset us_flag_small.png class="usa-banner__header-flag" alt="U.S. flag" %}
+          </div>
+          <div class="grid-col-fill tablet:grid-col-auto">
+            <p class="usa-banner__header-text">An official website of the United States government</p>
+            <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+          </div>
+          <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+            <span class="usa-banner__button-text">Here's how you know</span>
           </button>
         </div>
       </header>
-      <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
-        <div class="usa-banner-guidance-gov usa-width-one-half">
-          <img class="usa-banner-icon usa-media_block-img" src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/icon-dot-gov.svg" alt="SSL">
-          <div class="usa-media_block-body">
-            <p>
-              <strong>The .gov means it’s official.</strong>
-              <br>
-              Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
-            </p>
+      <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+        <div class="grid-row grid-gap-lg">
+          <div class="usa-banner__guidance tablet:grid-col-6">
+            {% asset icon-dot-gov.svg class="usa-banner__icon usa-media-block__img" alt="Dot gov" %}
+            <div class="usa-media-block__body">
+              <p>
+                <strong>The .gov means it’s official.</strong>
+                <br>
+                Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure
+                you’re on a federal government site.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="usa-banner-guidance-ssl usa-width-one-half">
-          <img class="usa-banner-icon usa-media_block-img" src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/icon-https.svg" alt="SSL">
-          <div class="usa-media_block-body">
-            <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted — in other words, any information or browsing history that you provide is transmitted securely.</p>
+          <div class="usa-banner__guidance tablet:grid-col-6">
+            {% asset icon-https.svg class="usa-banner__icon usa-media-block__img" alt="Https" %}
+            <div class="usa-media-block__body">
+              <p>
+                <strong>The site is secure.</strong>
+                <br>
+                The <strong>https://</strong> ensures that you are connecting to the official website and that any
+                information you provide is encrypted and transmitted securely.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Gov banner END -->
-
-  <div class="usa-nav-container">
-    <div class="usa-navbar">
-      <button class="usa-menu-btn">Menu</button>
-      <div class="usa-logo" id="logo">
-        <em class="usa-logo-text">
-          <a href="../" accesskey="1" title="Unified Shared Services Management Home" aria-label="Home">
-            {% if site.logo %}
-
-            <a href="../"><img src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}" style="max-width:36%;"></a>
-
-
-            {% else %}
-            <h1 class="usa-header-title">{{ site.title }}</h1>
-            {% endif %}
-          </a>
-        </em>
-      </div>
-    </div>
-    <nav role="navigation" class="usa-nav">
-      <button class="usa-nav-close">
-        <img src="{{ site.url }}/assets/vendor/uswds-{{ site.wds-version }}/img/close.svg" alt="close">
-      </button>
-      <ul class="usa-nav-primary usa-accordion">
-        {% assign navs = site.data.navbar.assigned %}
-        {% for nav in navs %}
-        {% if nav.show_in_menu %}
-        {% unless nav.children %}
-        {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
-        {% assign linkdir = nav.permalink | replace: "/", "" | lstrip %}
-        <li class="usa-nav-primary-item">
-          <a class="usa-nav-link{% if basedir == linkdir %} usa-current{% endif %}" href="{{ nav.permalink | prepend: site.baseurl}}"><span>{{ nav.text | escape }}</span></a>
-        </li>
-        {% else %}
-        {% assign nav_id = 'primary-nav-' | append: forloop.index %}
-        <li class="usa-nav-primary-item">
-          <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="{{ nav_id }}"><span>{{ nav.text | escape }}</span></button>
-          <ul id="{{ nav_id }}" class="usa-nav-submenu">
-            {% for subnav_item in nav.children %}
-              <li class="usa-nav-submenu-item">
-                {% if subnav_item.link == false %}
-                  <span class="navheader">{{ subnav_item.text | escape }}</span>
-                {% elsif subnav_item.tooltip %}
-                  <a class="usa-tooltip" data-position="bottom" href="{% if subnav_item.external %}{{ subnav_item.permalink }}{% else %} {{ subnav_item.permalink | prepend: site.baseurl }} {% endif %}" title="{{ subnav_item.tooltip | escape }}">
-                    {{ subnav_item.text | escape }}
-                      {% if subnav_item.external %}
-                        <img src="{{site.baseurl}}/assets/img/external-link.png" style="width:12px; margin-left:10px;" alt="External Link"/>
-                      {% endif %}
-                  </a>
-                {% else %}
-                  <a href="{{ subnav_item.permalink | prepend: site.baseurl }}">
-                    {{ subnav_item.text | escape }}
-                  </a>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        </li>
-        {% endunless %}
-        {% endif %}
-        {% endfor %}
-      </ul>
-
-
-    </nav>
-  </div>
-</header>
+  <div class="usa-overlay"></div>
+</div>

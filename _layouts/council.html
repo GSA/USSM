@@ -1,20 +1,101 @@
 ---
 layout: base
 ---
-<section class="usa-section usa-grid">
-  <h1> {{ page.title }}</h1>
-  {{ page.description }}
 
-  <div class="tbtable">
-  <div class="tbcell left">
-    <div>{{ content }}</div>
-  </div>
-  <div class="tbcell right">
-    <div>
-      {% if page.image %}
-      <img src="{{ page.image | prepend: site.baseurl }}">
-     {% endif %}
+{% comment %}
+This template is for a single page that does not have a date associated with it. For example, an about page.
+{% endcomment %}
+
+<section  class="usa-graphic-list" >
+        <div class="grid-container">
+
+            <h1 class="text-primary column-centered-heading margin-bottom-1" style="font-size: 34px;"> Shared Services Governance Board</h1>
+
+            <div class="usa-graphic-list__row grid-row grid-gap margin-0">
+
+
+                <p class="font-sans-sm padding-top-1"> The SSGB is comprised of representatives from the CXO councils and is responsible for making recommendations to Office of Management and Budget (OMB) on potential sharing opportunities and for advising on the implementation of the designated activities. The SSGB will also serve as the escalation point for the BSC to resolve inconsistencies in the creation of business and data standards or to suggest possible resolutions for OMB policy officials. Membership includes executives from across the Federal enterprise to provide a broad perspective on opportunities, concerns, and policies related to shared services.</p>
+
+
+                <br>
+            </div>
+
+
+            <table class="usa-table" aria-label="Shared Services Governance Board Members" role="presentation">
+                <thead>
+                <tr>
+                    <td>Representation</th>
+                    <td>Name</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>SSGB (Co-Chair)</td>
+                    <td>Clare Martorana, Federal Chief Information Officer</td>
+                </tr>
+                <tr>
+                    <td>SSGB (Co-Chair)</td>
+                    <td>Katy Kale, Acting GSA Administrator</td>
+                </tr>
+                <tr>
+                    <td>Chief Financial Officers Council (CFOC) Representative</td>
+                    <td>Jen Funk</td>
+                </tr>
+                <tr>
+                    <td>Chief Financial Officers Council (CFOC) Representative</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <td>Chief Information Officers Council (CIOC) Representative</td>
+                    <td>Dorothy Aronson</td>
+                </tr>
+                <tr>
+                    <td>Chief Information Officers Council (CIOC) Representative</td>
+                    <td>Jason Gray</td>
+                </tr>
+                <tr>
+                    <td>Chief Acquisition Officers Council (CAOC) Representative</td>
+                    <td>Michael Allen</td>
+                </tr>
+                <tr>
+                    <td>Chief Acquisition Officers Council (CAOC) Representative</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <td>Chief Human Capital Officers Council (CHCOC) Representative</td>
+                    <td>Traci DiMartini</td>
+                </tr>
+                <tr>
+                    <td>Chief Human Capital Officers Council (CHCOC) Representative</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <td>Performance Improvement Council (PIC)</td>
+                    <td>Harry Knight</td>
+                </tr>
+                <tr>
+                    <td>Performance Improvement Council (PIC)</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <td>Small Agency Council</td>
+                    <td>Patrick Bevill</td>
+                </tr>
+                <tr>
+                    <td>Small Agency Council</td>
+                    <td>Bryan Burnett</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
     </div>
-  </div>
-  </div>
 </section>
+
+<style>
+.usa-table td{
+ padding: 2px;
+
+
+}
+</style>

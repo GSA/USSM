@@ -1,114 +1,386 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title:  Federal Shared Services
-description: Federal Shared Services
-baseurl: '' # the subpath of your site, e.g. /blog/
-url: 'https://www.ussm.gsa.gov' # the base hostname & protocol for your site
-logo: /assets/img/placeholder-logo.gif
-feature_image: /assets/img/placeholder-logo.png
-org_name: GSA
-repo_name: federalist-modern-team-template
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-colors:
-  background: '#555555'
-  link:
-    color: '#0071bc'
-    active: '#0071bc'
-    hover: '#205493'
-    visited: '#0071bc'
-  button:
-    background: '#0071bc'
-    hover: '#205493'
-    text: '#fff'
-  headers: '#205493'
-  text: '#212121'
-  reverse_text: '#ffffff'
-  projects:
-    accent: '#02bfe7'
-    card-heading: '#0071bc'
-  banner:
-    background: '#112e51'
-    text: '#fff'
-    button:
-      background: '#dce4ef'
-      text: '#112e51'
-  footer:
-    primary-background: '#f1f1f1'
-    secondary-background: '#d6d7d9'
-    text: '#212121'
+##########################################################################################
+# Be sure to edit the values below
+##########################################################################################
 
-analytics:
-  google:
-    code: 'UA-48605964-32' # Change this to your GSA analytics code
-  dap:
-    agency: GSA    # Change this to your agency
-    subagency: USSM # Change this to your agency
+title: Governmentwide Business Standards and Capabilities - Federal Integrated Business Framework
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  Business standards enable the Federal Government to better coordinate and document common business needs.
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
+logo: /assets/images/placeholder-logo.gif
+# Twitter handle. Only the handle, not the URL.
+twitter: 18F
+
+#################################################################
+#
+# Digital Analytics Program (DAP) configuration
+#
+# USAID   - Agency for International Development
+# USDA    - Department of Agriculture
+# DOC     - Department of Commerce
+# DOD     - Department of Defense
+# ED      - Department of Education
+# DOE     - Department of Energy
+# HHS     - Department of Health and Human Services
+# DHS     - Department of Homeland Security
+# HUD     - Department of Housing and Urban Development
+# DOJ     - Department of Justice
+# DOL     - Department of Labor
+# DOS     - Department of State
+# DOI     - Department of the Interior
+# TREAS   - Department of the Treasury
+# DOT     - Department of Transportation
+# VA      - Department of Veterans Affairs
+# EPA     - Environmental Protection Agency
+# EOP     - Executive Office of the President
+# GSA     - General Services Administration
+# NASA    - National Aeronautics and Space Administration
+# NARA    - National Archives and Records Administration
+# NSF     - National Science Foundation
+# NRC     - Nuclear Regulatory Commission
+# OPM     - Office of Personnel Management
+# USPS    - Postal Service
+# SBA     - Small Business Administration
+# SSA     - Social Security Administration
+#
+#################################################################
+dap:
+   agency: GSA
+
+  # Optional
+  # subagency: your-subagency
+
+# Configuration for Google Analytics
+ga:
+  # ua: your-ua
+
+# Site Navigation
+primary_navigation:
+    - text: 'Governance'
+      href: pages/team.md
+      permalink: /governance/
+      show_in_menu: true
+      show_in_footer: false
+    - text: 'Business Standards'
+      href: /pages/team.md
+      permalink: /fibf/
+      show_in_menu: true
+      show_in_footer: false
+      children:
+        - text: 'Business Standards Home'
+          permalink: /fibf/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Contract Writing'
+          permalink: /fibf-cw/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Cybersecurity'
+          permalink: /fibf-cyb-soc/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Coordinated Vulnerability Disclosure'
+          permalink: /fibf-cyb-cvd/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Security Operations Center'
+          permalink: /fibf-cyb-soc/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Electronic Records Management'
+          permalink: /fibf-ERM/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Financial Management'
+          permalink: /fibf-fm/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Grants Management'
+          permalink: /fibf-gm/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'HR Management Services'
+          permalink: /fibf-hr/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Compensation and Benefits'
+          permalink: /fibf-hr-cb/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Employee Performance Management'
+          permalink: /fibf-hr-epm/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Talent Acquisition'
+          permalink: /fibf-hr/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Talent Development'
+          permalink: /fibf-hr-td/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Real Property Management'
+          permalink: /fibf-RPM/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Regulation Management'
+          permalink: /fibf-rm/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Travel and Expense Management'
+          permalink: /fibf-travel/
+          show_in_menu: true
+          show_in_footer: false
+    - text: 'QSMO'
+      href: /pages/qsmo.md
+      permalink: /qsmo/
+      show_in_menu: true
+      show_in_footer: false
+      children:
+        - text: 'QSMO'
+          permalink: /qsmo/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+        - text: 'External QSMO Websites'
+          show_in_menu: true
+          show_in_footer: false
+          link: false
+          external: false
+        - text: 'Cybersecurity Services'
+          permalink: 'https://www.cisa.gov/cyber-qsmo/'
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: true
+          tooltip: 'Cybersecurity Services external link.'
+        - text: 'Core Financial Management'
+          permalink: 'https://www.fiscal.treasury.gov/fmqsmo/'
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: true
+          tooltip: 'Core Financial Management external link.'
+        - text: 'Grants Management'
+          permalink: 'https://www.hhs.gov/about/agencies/asfr/grants-management-quality-services-management-office/index.html'
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: true
+          tooltip: 'Grants Management external link.'
+        - text: 'NewPay'
+          permalink: 'https://www.gsa.gov/shared-services/quality-services-management-office'
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: true
+          tooltip: 'NewPay external link.'
+
+    - text: 'M3 Framework'
+      href: /pages/team.md
+      permalink: /m3/
+      show_in_menu: true
+      show_in_footer: false
+      children:
+        - text: 'Overview'
+          permalink: /m3overview/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Phase 0: Assessment'
+          tooltip: 'Phase 0 (Assessment): Fulfill requirement to submit capital planning investments though Capital Planning and Investment Control (CPIC) process with required additional information.'
+          permalink: /m3phase0/
+          show_in_menu: false
+          show_in_footer: false
+        - text: 'Phase 1: Readiness'
+          tooltip: 'Phase 1 (Readiness): Prepare the migrating organization by defining initial scope of services and customer governance for the modernization effort.'
+          permalink: /m3phase1/
+          show_in_menu: false
+          show_in_footer: false
+        - text: 'Phase 2: Selection'
+          tooltip: 'Phase 2 (Selection): Selection: Conduct due diligence to identify and select the provider based on requirements and initial target end state.'
+          permalink: /m3phase2/
+          show_in_menu: false
+          show_in_footer: false
+        - text: 'Phase 3: Engagement'
+          tooltip: 'Phase 3 (Engagement): Engagement: Conduct detailed planning through a fit-gap analysis and finalize the implementation roadmap. An Agile approach should be adopted for this phase.'
+          permalink: /m3phase3/
+          show_in_menu: false
+          show_in_footer: false
+        - text: 'Phase 4: Migration'
+          tooltip: 'Phase 4 (Migration): Build, test, and deploy the new system, concept of operations, and workforce design. An Agile approach should be adopted for this phase.'
+          permalink: /m3phase4/
+          show_in_menu: false
+          show_in_footer: false
+        - text: 'Phase 5: Operations'
+          tooltip: 'Phase 5 (Operations): Deliver services and conduct continuous process improvement.'
+          permalink: /m3phase5/
+          show_in_menu: false
+          show_in_footer: false
+        - text: 'Resources'
+          permalink: /m3resources/
+          tooltip: 'Resources, guidelines, and templates to help.'
+          show_in_menu: false
+          show_in_footer: false
+    - text: About OSSPI
+      href: /pages/about.md
+      permalink: /about/
+      show_in_menu: true
+      show_in_footer: false
+
+#secondary_navigation:
+#  - name: Secondary link
+#    url: "#main-content"
+#  - name: Another secondary link
+#    url: "#main-content"
 
 
-forms:
-- type: newsletter
-  heading: Sign up to receive updates from our team
-  url: https://docs.google.com/forms/d/1Tsdm_2spbxWnmTFMrH5eHxpOAN9W4LB3eaMMXJ1N0rU/formResponse
-  button: Subscribe
-  privacypolicy: Your privacy and security are important to us, we'll only share your information as described in the <a href="http://www.gsa.gov/portal/content/116609">GSA Privacy and Security Notice</a>
-  fields:
-    - type: email
-      name: entry.1440502332
-      label: Email Address
-    - type: hidden
-      name: fbzx
-      value: -7861934959779167198
 
-footer:
-  links:
-      - text: 'Governance'
-        href: '/governance/'
-      - text: 'Business Standards'
-        href: '/fibf/'
-      - text: 'QSMO'
-        href: '/qsmo/'
-      - text: 'M3 Framework'
-        href: '/m3/'
-      - text: 'About OSSPI'
-        href: '/about/'
-      - text: 'Contact Us'
-        href: '/ussm-contact/'
+# Search.gov configuration
+#
+# 1. Create an account with Search.gov https://search.usa.gov/signup
+# 2. Add a new site.
+# 3. Add your site/affiliate name here.
+searchgov:
+  endpoint: https://search.usa.gov # You should not change this.
+  affiliate: ussm_gov # replace this with your search.gov account
+  access_key: 1WaDqhNlgjWRxQU_q56to7FlutyliCg_eSvP6sgPsGk= # This is placeholder. Not private.
+  inline: false #this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
+##########################################################################################
+# The values below here are more advanced and should only be
+# changed if you know what they do
+##########################################################################################
 
-
-
-  image: /assets/img/gsa-logo-dark.jpg
-  contact:
-    name: Office of Shared Solutions and Performance Improvement
-    phonenumber:
-    email: ussmteam@gsa.gov
-    twitter:
-    facebook:
-    youtube:
-    rss:
-  text: This site was built using <a href="https://federalist.18f.gov/" target="_blank">Federalist, from 18F</a>.
- # Change to a tag line for your agency
-
-# Build settings
-markdown: kramdown
-include:
-  - _navigation.json
-exclude:
-  - CONTRIBUTING.md
-  - LICENSE.md
-  - README.md
-
-
-
-# Inititalize project and team collections
 collections:
-  projects:
+  pages:
     output: true
-  team:
-    output: true
+    permalink: /:path/
   news-posts:
     output: true
   updates:
     output: true
   qsmos:
     output: true
+  hr:
+    output: true
+  fm:
+    output: true
+  procurement:
+    output: true
+  erm:
+    output: true
+  grants:
+    output: true
+  travel:
+    output: true
+  rpm:
+    output: true
+  cyb-cvd:
+    output: true
+  cyb-soc:
+    output: true
 
-wds-version: 1.1.0
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+############################################################
+# Site configuration for the Jekyll 3 Pagination Gem
+# The values here represent the defaults if nothing is set
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled: true
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: false
+  # The default document collection to paginate if nothing is specified ('posts' is default)
+  collection: "posts"
+  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  per_page: 3
+  # The permalink structure for the paginated pages (this can be any level deep)
+  permalink: "/page/:num/" # Pages are index.html inside this folder (default)
+  #permalink: '/page/:num.html' # Pages are simple html files
+  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
+  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
+  title: ":title - page :num"
+  # Limit how many pagenated pages to create (default: 0, means all)
+  limit: 0
+  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
+  sort_field: "date"
+  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
+  sort_reverse: true
+  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
+  category: "posts"
+  # Optional, the default tag to use, omit to disable
+  tag: ""
+  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts,
+  # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
+  locale: ""
+  # Optional,omit or set both before and after to zero to disable.
+  # Controls how the pagination trail for the paginated pages look like.
+  trail:
+    before: 2
+    after: 2
+  # Optional, the default file extension for generated pages (e.g html, json, xml).
+  # Internally this is set to html by default
+  extension: html
+  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
+  # Without file extension
+  indexpage: "index.html"
+
+exclude:
+  - package.json
+  - package-lock.json
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE.md
+  - degit.json
+  - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+
+assets:
+  sources:
+    - node_modules/uswds/dist/img
+    - node_modules/uswds/dist/js
+    - node_modules/uswds/dist/scss
+    - node_modules/netlify-cms/dist

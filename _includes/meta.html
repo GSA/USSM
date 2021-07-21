@@ -1,0 +1,76 @@
+{% comment %}
+You shouldn't have to edit this page very often. But if you want to modify some of the meta-data for the
+site, this is the place to do it.
+{% endcomment %}
+
+<head>
+  <!-- Basic Page Needs
+    ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="index,follow">
+  <!-- Mobile Specific Metas
+    ================================================== -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title and meta description
+    ================================================== -->
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta property="og:title" content="{{site.title}}">
+  <meta name="description" content="{{site.description}}">
+  <meta property="og:description" content="{{site.description}}">
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@{{site.twitter}}" />
+  <meta name="twitter:title" content="{{site.title}}" />
+  <meta name="twitter:description" content="{{site.description}}" />
+  <meta name="twitter:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png">
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png">
+  <!-- Favicons
+    ================================================== -->
+  <!-- 128x128 -->
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/img/favicon.ico" />
+  <!--<link rel="shortcut icon" type="image/png" href="{% asset favicons/favicon.ico @path %}">-->
+  <link rel="icon" type="image/png" href="{% asset favicons/favicon.png @path %}">
+
+  <!-- 192x192, as recommended for Android
+    http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+    -->
+  <!-- 128x128 -->
+  <link rel="shortcut icon" type="image/ico" href="{{ site.baseurl }}/assets/images/favicon-2.ico">
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon-2.ico">
+  <!-- 192x192, as recommended for Android
+    http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+    -->
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ site.baseurl }}/assets/images/favicon-2.ico">
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/assets/images/favicon-2.ico">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/assets/images/favicon-2.ico">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/assets/images/favicon-2.ico">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/images/favicon-2.ico">
+  <!-- CSS
+    ================================================== -->
+
+
+  {% asset index.scss %}
+  {% asset main-page.scss %}
+  {% asset governance.scss %}
+  {% asset qsmo.scss %}
+  {% asset filter.scss %}
+  {% asset side-nav.scss %}
+  {% asset global.scss %}
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/slick.css?{{ site.time | date: '%s%N' }}">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/slick-theme.css?{{ site.time | date: '%s%N' }}">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/magnific-popup.css?{{ site.time | date: '%s%N' }}">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.7/css/responsive.dataTables.min.css">
+  <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+</head>
