@@ -87,7 +87,7 @@
   @media (min-width: 550px){
     grid-template:
     [row1-start] "responsibleParty name name" auto [row1-end]
-    [row2-start] "responsibleParty output parties" auto [row2-end]
+    [row2-start] "responsibleParty output output" auto [row2-end]
     / 100px 1fr fit-content(50%);
 
     .keyTask-output{
