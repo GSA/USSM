@@ -14,9 +14,15 @@ title: More About Shared Services
         <div>
         <div>
             <p>To learn more about the government-wide Shared Services approach and the benefits of creating centralized capabilities, view the following videos that focus on related topics:</p>
-            <ul>
-                <li><a href="https://vimeo.com/569954187/07960a41a1">What Are Shared Services</a></li>
-                <li><a href="https://vimeo.com/569978556/8972d50810">QSMOs and The Trail to Mission Success</a></li>
-            </ul>
+        </div>
+        <div class="grid-row grid-gap">
+            <div class="table: grid-col-6">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/569954187?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="What are Shared Services"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <h2>What Are Shared Services</h2>
+            </div>
+            <div class="table: grid-col-6">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/569978556?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="QSMOs and the Trail to Mission Success"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <h2>QSMOs and The Trail to Mission Success</h2>
+            </div>  
         </div>
     </div>
