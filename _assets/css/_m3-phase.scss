@@ -47,11 +47,12 @@ a.usa-nav__link.m3-intro-menuLink {
   display: inline-block;
 }
 .m3-tag {
-  display: inline-block;
-  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
   color:black;
   border-radius: 0.2em;
-  padding: 0px 4px;
+  padding: 4px;
 
   .usa-icon {
     width: 1.5em;
@@ -211,8 +212,8 @@ a.usa-nav__link.m3-intro-menuLink {
   }
   
   &:hover, &:focus-within{
-    background: #f8f8f8;
-    border-color: #f8f8f8;
+    background: $color-m3-background;
+    border-color: $color-m3-background;
     box-shadow: 0 3px 5px #dfe1e2;
   }
 
@@ -331,8 +332,9 @@ a.usa-nav__link.m3-intro-menuLink {
 }
 
 .m3-summary-box.usa-summary-box {
-  background: #f8f8f8;
+  background: $color-m3-background;
   @include u-border('primary');
+  border-color: $color-m3-primary;
   border-width: 1em 0 0 0;
   padding: 0.5em 1.5em;
 }
@@ -356,7 +358,7 @@ a.usa-nav__link.m3-intro-menuLink {
 }
 
 #documentation{
-  background: #f8f8f8;
+  background: $color-m3-background;
   border-radius: 10px;
   box-shadow: 0 3px 5px #dfe1e2;
   padding: 1em;

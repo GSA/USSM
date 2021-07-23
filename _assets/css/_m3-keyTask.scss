@@ -12,6 +12,9 @@
     padding-left: 1em;
     margin: 0;
   }
+  label {
+    font-weight: 700;
+  }
 }
 .prevnext{
   display: flex;
@@ -179,7 +182,7 @@ $m3-process-list-counter-size: 1.5em;
     padding: 0;
   }
   li{
-    background-color: #f8f8f8;
+    background-color: $color-m3-background;
     background-image: url(../assets/images/m3-logo.svg);
     background-repeat: no-repeat;
     background-size: 2em;
@@ -192,7 +195,7 @@ $m3-process-list-counter-size: 1.5em;
 }
 
 #documentation{
-  background: #f8f8f8;
+  background: $color-m3-background;
   border-radius: 10px;
   box-shadow: 0 3px 5px #dfe1e2;
   padding: 1em;
