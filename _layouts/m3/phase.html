@@ -126,7 +126,7 @@ layout: m3/m3-layout
 
         <div class="m3-summary-box usa-summary-box" role="complementary">
           <div class="usa-summary-box__body">
-            <h2 class="usa-summary-box__heading">Criteria to Exit Phase {{ page.phase }}</h2>
+            <h2 class="usa-summary-box__heading">Exit Criteria (to move into Phase {{ page.phase | plus:1 }})</h2>
             <div class="usa-summary-box__text">
               <ul>
                 {% for item in page.exitCriteria  %}
@@ -147,9 +147,12 @@ layout: m3/m3-layout
       <div class="desktop:grid-col-3">
 
         <section id="documentation">
-          <h2>Phase {{ page.phase }} Artifact Samples:	</h2>
-          <a href="https://community.max.gov/pages/viewpage.action?spaceKey=GSA&title=M3+Artifact+Samples">M3 Artifact Samples MAX Page</a>
+          <h2>Phase {{ page.phase }} Examples:	</h2>
+          <a href="https://community.max.gov/pages/viewpage.action?spaceKey=GSA&title=M3+Artifact+Samples">M3 Examples MAX Page</a>
           <h2>Phase {{ page.phase }} Documentation</h2>
+          {% if page.documentation_intro %}
+            <p>{{page.documentation_intro}}</p>
+          {% endif %}
           <ul>
             {% if page.documentation %}
             {% assign documentationByName = page.documentation | sort: "name" %}
@@ -165,9 +168,16 @@ layout: m3/m3-layout
               
             {% endif %}
           </ul>
+          {% if page.documentation_outro %}
+            <p>{{page.documentation_outro}}</p>
+          {% endif %}
         </section>
         
       </div>
+      <div class="desktop:grid-col-12">
+        <a href="#main-content">Return to top</a>
+      </div>
+      
     </div>
   </div>
 </div>

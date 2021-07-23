@@ -19,6 +19,7 @@
 .prevnext{
   display: flex;
   justify-content: space-between;
+  margin-top: 1em;
 }
 .next{
   margin-left: auto;
@@ -203,15 +204,19 @@ $m3-process-list-counter-size: 1.5em;
     padding-left: 0;
     list-style-position: inside;
   }
+  ul{
+    list-style: none;
+    li::before{
+      content: "\25CF";
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+    }
+  }
   .stakeholders{
-    ul{
-      list-style: none;
-      li::before{
-        content: "\2022";
-        font-weight: bold;
-        display: inline-block;
-        width: 1em;
-      }
+    h3{
+      display: flex;
+      align-items: center;
     }
     .customerStakeholders{
       li::before{
