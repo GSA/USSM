@@ -22,7 +22,7 @@ The following script logs a link in the console to view the JSON data for the cu
     console.log( "The content on this page can be access in JSON format here: {{ site.url }}/{{ site.baseurl }}static-api{{ page.url }}data.json" )
   {% else %}
     let baseURL = "{{ site.baseurl }}";
-    let url = "http://" + window.location.hostname + window.location.pathname.replace(baseURL, baseURL+"static-api/") + "data.json";
+    let url = "http://" + window.location.hostname + window.location.pathname.replace(baseURL, baseURL+"/static-api") + "data.json";
     console.log( "The content on this page can be access in JSON format here: " + url );
   {% endif %}
 </script>
