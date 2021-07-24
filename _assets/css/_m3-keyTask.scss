@@ -20,6 +20,14 @@
   display: flex;
   justify-content: space-between;
   margin-top: 1em;
+  .usa-icon {
+    width: 2em;
+    height: 2em;
+  }
+  a {
+    display:flex;
+    align-items: center;
+  }
 }
 .next{
   margin-left: auto;
@@ -30,7 +38,7 @@
   grid-template:
     [row1-start] "responsibleParty" auto [row1-end]
     [row2-start] "name" auto [row2-end]
-    [row3-start] "output" auto [row3-end]
+    [row3-start] "details" auto [row3-end]
     [row4-start] "parties" auto [row4-end];
   padding-bottom: 0.5em;
 
@@ -43,38 +51,15 @@
       width: 50%;
   }
   
-
-  .keyTask-output{
-    grid-area:output;
+  .keyTask-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     border-bottom: 1px solid lightgrey;
-    display: grid;
-    grid-template:
-    [row1-start] "label icons" auto [row1-end]
-    [row2-start] "name icons" auto [row2-end]
-    / auto 1fr;
-  }
-
-  .keyTask-output-label{
-    grid-area:label;
-  }
-  .keyTask-output-name{
-    grid-area:name;
   }
   .parties{
-    grid-area: parties;
-    display: flex;
-    align-items: flex-end;
-    border-bottom: 1px solid lightgrey;
-  }
-  .keyTask-output-icons{
-    grid-area:icons;
-    a{
-      display: inline-block;
-    }
-    .usa-icon{
-      width: 2.5em;
-      height: 2.5em;
-    }
+    margin-left: auto;
+    margin-top: auto;
   }
   .keyTask-name{
     grid-area:name;
@@ -88,18 +73,33 @@
     margin-top: -5px;
     max-width: 100px;
   }
+  .keytask-output{
+    display: grid;
+    grid-template:
+    [row1-start] "label icons" auto [row1-end]
+    [row2-start] "name icons" auto [row2-end]
+    / auto 1fr;
+  }
+  .keytask-output-label{
+    grid-area: label;
+  }
+  .keytask-output-name{
+    grid-area: name;
+  }
+  .keytask-output-icons{
+    grid-area: icons;
+    .usa-icon{
+      width: 2.5em;
+      height: 2.5em;
+    }
+  }
   @media (min-width: 550px){
     grid-template:
     [row1-start] "responsibleParty name name" auto [row1-end]
-    [row2-start] "responsibleParty output output" auto [row2-end]
+    [row2-start] "responsibleParty details details" auto [row2-end]
     / 100px 1fr fit-content(50%);
 
-    .keyTask-output{
-      grid-template:
-      [row1-start] "label icons" auto [row1-end]
-      [row2-start] "name icons" auto [row2-end]
-      / auto 1fr;
-    }
+    
     .keyTask-resources > div {
       width: 25%;
     }

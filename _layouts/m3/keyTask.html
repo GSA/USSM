@@ -158,37 +158,29 @@ layout: m3/m3-layout
 
               <p class="usa-process-list__heading font-sans-md line-height-sans-1 keyTask-name">{{ item.text }}</p>
 
-              <div class="keyTask-output">
+              <div class="keyTask-details">
 
                 {% if item.output %}
                   <div class="keytask-output">
-                    <div class="keytask-label">Targeted Output:</div>
-                    <div class="keytask-value">{{item.output}}</div>
-                  </div>
-                  {% if item.template %}
-                  <div class="keytask-template">
-                    <div class="keytask-label">Template:</div>
-                    <div class="keytask-value">
-                      <a href="{{item.template}}">
-                        <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                          <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#file_download"></use>
-                        </svg>
-                      </a>
+                    <div class="keytask-output-label">Targeted Output:</div>
+                    <div class="keytask-output-name">{{item.output}}</div>
+                    <div class="keytask-output-icons">
+                      {% if item.template %}
+                        <a href="{{item.template}}">
+                          <svg class="usa-icon usa-tooltip" data-position="top" title="Download Output Template Document" aria-hidden="true" focusable="false" role="img">
+                            <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#file_download"></use>
+                          </svg>
+                        </a>
+                      {% endif %}
+                      {% if item.example %}
+                        <a href="{{item.example}}">
+                          <svg class="usa-icon usa-tooltip" data-position="top" title="Download Output Example Document"  aria-hidden="true" focusable="false" role="img">
+                            <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#launch"></use>
+                          </svg>
+                        </a>
+                      {% endif %}
                     </div>
                   </div>
-                  {% endif %}
-                  {% if item.example %}
-                  <div class="keytask-example">
-                    <div class="keytask-label">Example:</div>
-                    <div class="keytask-value">
-                      <a href="{{item.example}}">
-                        <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                          <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#launch"></use>
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                  {% endif %}
                 {% endif %}
 
                 {% if responsibleParty == "shared" and item.responsibleParty != "shared" %}
