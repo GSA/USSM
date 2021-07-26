@@ -241,12 +241,14 @@ $m3-process-list-counter-size: 1.5em;
   }
   .linkedOutput{
     background: #060183;
-    display: inline-block;
     border-radius: 1em;
-    padding: 0 0.5em;
-    height: 1.3em;
+    padding: 0 0 0 0.4em;
     color: white;
     text-decoration: none;
-    text-align: center;
+    width: fit-content;
+    align-items: center;
+    flex-wrap: wrap;
+    display: inline-flex;
+    line-height: 1.2em;
   }
 }

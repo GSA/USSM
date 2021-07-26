@@ -197,67 +197,6 @@ layout: m3/m3-layout
                 {% endif %}
               </div>
               
-
-
-
-              {% comment %}
-THIS IS COMMENTED OUT TO DO A REIMPLEMENTATION
-THE NEW IMPLEMENTATION WILL HAVE "Targeted Output:" and icons for Templates and Examples followed by Responsible Parties
-
-              <div class="keyTask-resources">
-                {% if item.input %}
-                <div class="keytask-input">
-                  <div class="keytask-label">Input:</div>
-                  <div class="keytask-value">{{item.input}}</div>
-                </div>
-                {% endif %}
-                {% if item.output %}
-                <div class="keytask-output">
-                  <div class="keytask-label">Targeted Output:</div>
-                  <div class="keytask-value">{{item.output}}</div>
-                </div>
-                {% endif %}
-                {% if item.template %}
-                <div class="keytask-template">
-                  <div class="keytask-label">Template:</div>
-                  <div class="keytask-value">
-                    <a href="{{item.template}}">
-                      Download Template <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                        <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#file_download"></use>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                {% endif %}
-                {% if item.example %}
-                <div class="keytask-example">
-                  <div class="keytask-label">Example:</div>
-                  <div class="keytask-value">
-                    <a href="{{item.template}}">
-                      View Template <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                        <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#launch"></use>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                {% endif %}
-              </div>
-              {% if responsibleParty == "shared" and item.responsibleParty != "shared" %}
-              <div class="parties">
-                {% for party in item.responsibleParty %}
-                  <div class="party">
-                    <svg class="usa-icon color-{{ party }}" aria-hidden="true" focusable="false" role="img">
-                      <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = party %}"></use>
-                    </svg>
-                    {{ party }}
-                  </div>
-                {% endfor %}
-              </div>
-              {% endif %}
-              {% endcomment %}
-
-
-
             </div>
           </li>
 
@@ -338,10 +277,15 @@ THE NEW IMPLEMENTATION WILL HAVE "Targeted Output:" and icons for Templates and 
             {% for item in page.inputs %}
             <li>
               {{ item }}
-              {% assign keyTaskPages = site.pages | where: 'layout', 'keyTask' %}
+              {% assign keyTaskPages = site.pages | where: 'layout', 'm3/keyTask' %}
               {% for keyTaskPage in keyTaskPages %}
                 {% if keyTaskPage.outputs contains item %}
-                  <a class="linkedOutput" href="/{{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}/">{{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}</a>
+                  <a class="linkedOutput" href="/{{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}/">
+                    {{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}
+                    <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                      <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#navigate_next"></use>
+                    </svg>
+                  </a>
                   {% break %}
                 {% endif %}
               {% endfor %}
