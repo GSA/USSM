@@ -1,4 +1,4 @@
----
+<!-- ---
 
 source: Fedscoop
 link: "https://www.fedscoop.com/shared-services-suzette-kent-emily-murphy-it-modernization/"
@@ -6,4 +6,4 @@ title:  The gospel of shared services resonates across the PMA, say Kent and Mur
 date: November 2, 2018
 published: false
 
----
+--- -->
