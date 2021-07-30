@@ -139,13 +139,16 @@ layout: m3/m3-layout
             {% endif %}
           </ul>
         </div>
-
+        
         <ol class="m3-process-list usa-process-list" >
           {% for item in page.activities %}
           {% if item.responsibleParty.first and item.responsibleParty.size > 1 %}
             {% assign responsibleParty = "shared" %}
           {% else %}
             {% assign responsibleParty = item.responsibleParty %}
+          {% endif %}
+          {% if item.preamble %}
+            <h4 class="usa-preamble-h4">{{ item.preamble }}</h4>
           {% endif %}
           <li class='usa-process-list__item' data-number='{{ forloop.index }}' data-label='{{responsibleParty}} {% if responsibleParty == "shared" -%}{{item.responsibleParty | join: " " }}{%- endif -%}'>
             <div class="m3-taskActivity">
