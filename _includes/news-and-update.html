@@ -1,36 +1,41 @@
 <section class="grid-container usa-section" style="background-color:#FFFFFF;">
     <h2 class="text-primary" >News and Updates</h2>
+    
     <div class="grid-row">
+        {% for news-posts in site.news-posts reversed limit:8 %}
         <div class="grid-col-6 min">
             <ul style="list-style-type: none; padding-left: 0;">
-                {% for news-posts in site.news-posts reversed limit:4 %}
+                
                 <li class="margin-bottom-105"><img src="{{ site.baseurl }}/assets/images/project-icons/news.png" class="news" alt="news icon">
                     <span class="date">
-       <b>{{ news-posts.source }}</b><br>
-     </span>
+                        <b>{{ news-posts.source }}</b><br>
+                    </span>
                     <a class="article" href="{{  news-posts.link }}" target="_blank" aria-label="Opens in new window" class="ext-link" rel="external no folow">{{ news-posts.title }}</a><br>
                     <span class="date">
-       <i>{{ news-posts.date | date: '%B %d, %Y' }}</i>
-     </span>
-
-                    {% endfor %}
+                        <i>{{ news-posts.date | date: '%B %d, %Y' }}</i>
+                    </span>
+                
                 </li>
             </ul>
         </div>
+        {% endfor %}
+
+        
 
         <div class="grid-col-6 min">
             <ul style="list-style-type: none; padding-left: 0;">
                 {% for updates in site.updates reversed limit:4 %}
-                <li class="margin-bottom-105"><img src="{{ site.baseurl }}/assets/images/project-icons/update.png" class="news" alt="update icon" >
+                <li class="margin-bottom-7"><img src="{{ site.baseurl }}/assets/images/project-icons/update.png" class="news" alt="update icon" >
                     <span class="date">
-   <b>{{ updates.date | date: '%B %d, %Y' }}</b><br>
- </span>
+                        <b>{{ updates.date | date: '%B %d, %Y' }}</b><br>
+                    </span>
                     <a class="article" href="{{ updates.link }}" class="ext-link" rel="external no folow">{{ updates.title }}</a><br>
-
-                    {% endfor %}
                 </li>
+                {% endfor %}
             </ul>
         </div>
+        
     </div>
+    
 </section>
 
