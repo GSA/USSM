@@ -22,7 +22,14 @@
 //   content: ' ';
 //   background-image: url(../img/spritesheet.svg#file_download;);
 // }
-
+.m3-page{
+  .usa-nav-container{
+    max-width: $m3-content-max-width;
+  }
+  .usa-header--extended .usa-nav__primary{
+    margin-left: 0;
+  }
+}
 .m3-content{
   .usa-nav__inner, .grid-container {
     max-width: $m3-content-max-width;

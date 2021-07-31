@@ -9,7 +9,9 @@ The home page uses wide.html layout, since it extends full width of page
 
 {% include meta.html %}
 
-<body>
+<body {% if page.layout contains "m3" %}
+  class="m3-page"
+{% endif %}>
   {% include header.html %}
 
   {% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}

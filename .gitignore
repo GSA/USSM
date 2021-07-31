@@ -5,3 +5,4 @@ _site
 .idea/*
 .jekyll-cache/*
 node_modules
+_pages/m3/keyTask/keytask template.md

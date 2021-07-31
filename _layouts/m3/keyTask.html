@@ -277,6 +277,9 @@ layout: m3/m3-layout
             {% for item in page.inputs %}
             <li>
               {{ item }}
+
+              {% comment %}
+              ### The following code would add an icon linking to the first keyTask that has this input as an output ###
               {% assign keyTaskPages = site.pages | where: 'layout', 'm3/keyTask' %}
               {% for keyTaskPage in keyTaskPages %}
                 {% if keyTaskPage.outputs contains item %}
@@ -289,6 +292,8 @@ layout: m3/m3-layout
                   {% break %}
                 {% endif %}
               {% endfor %}
+              {% endcomment %}
+
             </li>
             {% endfor %}
           </ul>
