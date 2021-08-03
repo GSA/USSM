@@ -103,7 +103,13 @@
           <h3>Outputs</h3>
           <ul>
           {% for output in item.outputs %}
-            <li>{{output}}</li>
+            <li>
+              {% if output.filename %}
+                <a href="/assets/files/{{output.filename}}">{{ output.text }}</a>
+              {% else %}
+                {{ output }}
+              {% endif %}
+            </li>
           {% endfor %}
           </ul>
         </section>

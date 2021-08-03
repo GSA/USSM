@@ -139,7 +139,7 @@ layout: m3/m3-layout
             {% endif %}
           </ul>
         </div>
-        
+
         <ol class="m3-process-list usa-process-list" >
           {% for item in page.activities %}
           {% if item.responsibleParty.first and item.responsibleParty.size > 1 %}
@@ -202,8 +202,6 @@ layout: m3/m3-layout
               
             </div>
           </li>
-
-          {% endfor %}
         </ol>
         </div>
 
@@ -280,6 +278,9 @@ layout: m3/m3-layout
             {% for item in page.inputs %}
             <li>
               {{ item }}
+
+              {% comment %}
+              ### The following code would add an icon linking to the first keyTask that has this input as an output ###
               {% assign keyTaskPages = site.pages | where: 'layout', 'm3/keyTask' %}
               {% for keyTaskPage in keyTaskPages %}
                 {% if keyTaskPage.outputs contains item %}
@@ -292,6 +293,8 @@ layout: m3/m3-layout
                   {% break %}
                 {% endif %}
               {% endfor %}
+              {% endcomment %}
+
             </li>
             {% endfor %}
           </ul>
@@ -299,7 +302,12 @@ layout: m3/m3-layout
           <ul>
             {% for item in page.outputs %}
             <li>
-              {{ item }}
+              {% if item.filename %}
+                <a href="/assets/files/{{item.filename}}">{{ item.text }}</a>
+              {% else %}
+                {{ item }}
+              {% endif %}
+              
             </li>
             {% endfor %}
           </ul>
