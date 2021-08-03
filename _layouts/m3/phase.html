@@ -158,10 +158,13 @@ layout: m3/m3-layout
             {% assign documentationByName = page.documentation | sort: "name" %}
             {% for item in documentationByName %}
             <li>
-              {% if item.url %}
-              <a href="{{ item.url }}">{{ item.name }}</a>
+              
+              {% if item.filename %}
+                <a href="/assets/files/{{item.filename}}">{{ item.name }}</a>
+              {% elsif item.url %}
+                <a href="{{ item.url }}">{{ item.name }}</a>
               {% else %}
-              {{ item.name }}
+                {{ item.name }}
               {% endif %}
             </li>
             {% endfor %}

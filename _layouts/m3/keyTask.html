@@ -278,7 +278,13 @@ layout: m3/m3-layout
           <ul>
             {% for item in page.inputs %}
             <li>
-              {{ item }}
+              {% if item.filename %}
+                <a href="/assets/files/{{item.filename}}">{{ item.text }}</a>
+              {% elsif item.url %}
+                <a href="{{ item.url }}">{{ item.text }}</a>
+              {% else %}
+                {{ item }}
+              {% endif %}
 
               {% comment %}
               ### The following code would add an icon linking to the first keyTask that has this input as an output ###
