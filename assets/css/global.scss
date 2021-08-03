@@ -310,3 +310,15 @@ span[role="link"]:focus {
   color: black;
   text-decoration: none;
 }
+
+.usa-preamble-h4 {
+  margin: 0;
+}
+
+.usa-nav-container-wide, .usa-footer-wide {
+  max-width: 92rem !important;
+}
+
+.usa-banner__inner div {
+  margin-bottom: 0 !important;
+}

@@ -1,7 +1,11 @@
 
 <footer class="usa-footer">
   <div class="usa-footer__secondary-section" style="background-color:#f1f1f1;">
+    {% if page.layout == 'm3/keyTask' or page.layout == 'm3/phase' or page.layout == 'm3/m3-layout' %}
+    <nav class="usa-footer__nav usa-footer-wide" aria-label="Primary Footer navigation">
+    {% else %}
     <nav class="usa-footer__nav" aria-label="Primary Footer navigation">
+    {% endif %}
       <ul class="grid-row grid-gap" >
         <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
           <a class="usa-footer__primary-link" href="{{site.baseurl}}/governance/">Governance</a>
@@ -27,10 +31,18 @@
   </div>
 
   <div class="usa-footer__primary-section" style="background-color:#d6d7d9;">
+    {% if page.layout == 'm3/keyTask' or page.layout == 'm3/phase' or page.layout == 'm3/m3-layout' %}
+    <nav class="grid-container usa-footer-wide">
+    {% else %}
     <div class="grid-container">
+    {% endif %}
       <div class="grid-row ">
-        <div class="tablet:grid-col-10">
+        <div class="tablet:grid-col-9">
+          {% if page.layout == 'm3/keyTask' or page.layout == 'm3/phase' or page.layout == 'm3/m3-layout' %}
+          <nav class="usa-footer__nav usa-footer-wide" aria-label="Footer navigation">
+          {% else %}
           <nav class="usa-footer__nav" aria-label="Footer navigation">
+          {% endif %}
             <div class="grid-row grid-gap-10">
               <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
                 <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
@@ -77,7 +89,7 @@
             </div>
           </nav>
         </div>
-        <div class="tablet:grid-col-2">
+        <div class="tablet:grid-col-3">
           <div class="usa-sign-up">
             <address>
 
