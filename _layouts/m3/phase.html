@@ -86,7 +86,7 @@ layout: m3/m3-layout
               </svg>
               Program Management
             </h3>
-            {% assign list = keyTasks | where: 'category', 'programManagement' %}
+            {% assign list = keyTasks | where: 'category', 'programManagement' | sort: "keyTask" %}
             {% include m3/keyTaskList.html %}
           </section>
           
