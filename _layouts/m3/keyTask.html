@@ -23,15 +23,34 @@ layout: m3/m3-layout
     {% assign workstream = "Process & Service Delivery" %}
 {%- endcase -%}
 
-{% assign customerActivities = page.activities | where: 'responsibleParty', "customer" %}
-{% assign providerActivities = page.activities | where: 'responsibleParty', "provider" %}
-{% assign qsmoActivities = page.activities | where: 'responsibleParty', "qsmo" %}
-{% assign sumActivities = customerActivities.size | plus: providerActivities.size | plus: qsmoActivities.size %}
+
 
 
 {% assign customerStakeholders = page.stakeholders | where: 'responsibleParty', "customer" %}
 {% assign providerStakeholders = page.stakeholders | where: 'responsibleParty', "provider" %}
 {% assign qsmoStakeholders = page.stakeholders | where: 'responsibleParty', "qsmo" %}
+
+{% if page.activitiesGroups %}
+  {% for item in page.activitiesGroups %}
+
+    {% comment %}
+    TODO:
+    Need to calculate sum of activities across all activity groups
+    {% endcomment %}
+
+    {% assign customerActivities = item.activities | where: 'responsibleParty', "customer" %}
+    {% assign providerActivities = item.activities | where: 'responsibleParty', "provider" %}
+    {% assign qsmoActivities = item.activities | where: 'responsibleParty', "qsmo" %}
+    {% assign sharedActivities = item.activities | where: 'responsibleParty', "shared" %}
+    {% assign sumActivities = customerActivities.size | plus: providerActivities.size | plus: qsmoActivities.size %}
+  {% endfor %}
+{% else %}
+  {% assign customerActivities = page.activities | where: 'responsibleParty', "customer" %}
+  {% assign providerActivities = page.activities | where: 'responsibleParty', "provider" %}
+  {% assign qsmoActivities = page.activities | where: 'responsibleParty', "qsmo" %}
+  {% assign sharedActivities = page.activities | where: 'responsibleParty', "shared" %}
+  {% assign sumActivities = customerActivities.size | plus: providerActivities.size | plus: qsmoActivities.size %}
+{% endif %}
 
 
 <div class="usa-section m3-section">
@@ -127,7 +146,7 @@ layout: m3/m3-layout
             </li>
             {% endif %}
             
-            {% if sumActivities > page.activities.size %}
+            {% if sumActivities > page.activities.size or sharedActivities.size > 0  %}
             <li>
               <button class="usa-button m3-tag shared" data-filter="shared" aria-controls="keyTasks" role="option" aria-selected="false">
               <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">

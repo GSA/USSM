@@ -93,7 +93,13 @@
           <h3>Inputs</h3>
           <ul>
           {% for input in item.inputs %}
-            <li>{{input}}</li>
+            <li>
+              {% if input.filename %}
+                <a href="/assets/files/{{input.filename}}">{{ input.text }}</a>
+              {% else %}
+                {{ input }}
+              {% endif %}
+            </li>
             
           {% endfor %}
           </ul>
