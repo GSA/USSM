@@ -245,7 +245,7 @@ layout: m3/m3-layout
             {% for item in page.inputs %}
             <li>
               {% if item.filename %}
-                <a href="/assets/files/{{item.filename}}">{{ item.text }}</a>
+                <a href="{{site.baseurl}}/assets/files/{{item.filename}}">{{ item.text }}</a>
               {% elsif item.url %}
                 <a href="{{ item.url }}">{{ item.text }}</a>
               {% else %}
@@ -276,7 +276,7 @@ layout: m3/m3-layout
             {% for item in page.outputs %}
             <li>
               {% if item.filename %}
-                <a href="/assets/files/{{item.filename}}">{{ item.text }}</a>
+                <a href="{{site.baseurl}}/assets/files/{{item.filename}}">{{ item.text }}</a>
               {% else %}
                 {{ item }}
               {% endif %}

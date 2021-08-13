@@ -40,14 +40,14 @@ where we provide an easy way to manage your navigation system
                     {% for workstream in workstreams %}
                       {% assign workstreamName = workstream | split: ":" | last %}
                       {% assign workstreamTag = workstream | split: ":" | first %}
-                      {% assign workstreamTasks = keyTasks | where: 'category', workstreamTag %}
+                      {% assign workstreamTasks = keyTasks | where: 'category', workstreamTag | sort: 'keyTask' %}
                       <div class="desktop:grid-col-3">
                         <h3>{{workstreamName}}</h3>
                         <div class="usa-col">
                           <ul class="usa-nav__submenu-list">
                             {% for keyTask in workstreamTasks %}
                             <li class="usa-nav__submenu-item">
-                              <a href="{{site.baseurl}}{{keyTask.url}}">{{ keyTask.name | escape }}</a>
+                              <a href="{{site.baseurl}}{{keyTask.url}}">{{ keyTask.phase }}.{{ keyTask.keyTask }} {{ keyTask.name | escape }}</a>
                             </li>
                             {% endfor %}
                           </ul>
