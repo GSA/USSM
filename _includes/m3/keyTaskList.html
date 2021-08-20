@@ -63,6 +63,12 @@
     {%- when "qsmo" -%}
       {% assign party = "QSMO" %}
   {%- endcase -%}
+
+  {% if item.responsibleParty.first and item.responsibleParty.size > 1 %}
+    {% assign responsibleParty = "shared" %}
+  {% else %}
+    {% assign responsibleParty = item.responsibleParty %}
+  {% endif %}
     
   <div class="usa-modal m3-modal" id="modal-{{ page.phase }}-{{item.keyTask}}" aria-labelledby="modal-{{ page.phase }}-{{item.keyTask}}-heading" aria-describedby="modal-{{ page.phase }}-{{item.keyTask}}-description">
     <div class="usa-modal__content">
@@ -83,10 +89,18 @@
 
         <section class="borderBottom">
           <h3>Responsible Party</h3>
-          <svg class="usa-icon color-{{ item.responsibleParty }}" aria-hidden="true" focusable="false" role="img">
-            <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = item.responsibleParty %}"></use>
+          <svg class="usa-icon color-{{ responsibleParty }}" aria-hidden="true" focusable="false" role="img">
+            <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = responsibleParty %}"></use>
           </svg>
-          {{ party }}
+          {{responsibleParty}}
+          {% if responsibleParty == "shared" and item.responsibleParty != "shared" %}
+            {% for party in item.responsibleParty %}
+                <svg class="usa-icon color-{{ party }}" aria-hidden="true" focusable="false" role="img">
+                  <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = party %}"></use>
+                </svg>
+                {{ party }}
+            {% endfor %}
+          {% endif %}
         </section>
 
         <section class="borderBottom">

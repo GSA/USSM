@@ -4,7 +4,7 @@ where we provide an easy way to manage your navigation system
 {% endcomment %}
 {% assign phases = site.pages | where: 'layout', 'm3/phase' %}
 
-{% assign workstreams = "programManagement:Program Management, workforce:Workforce, technology:Technology, process:Process" | split: ", " %}
+{% assign workstreams = "programManagement:Program Management|workforce:Workforce, Organization, and Stakeholders|technology:Technology|process:Process and Service Delivery" | split: "|" %}
 
 
 
@@ -35,7 +35,7 @@ where we provide an easy way to manage your navigation system
               {% assign processTasks = keyTasks | where: 'category', "process" %}
               <div id="NavItem-Phase{{phase.phase}}" class="usa-nav__submenu usa-megamenu">
                 <a href="{{site.baseurl}}{{ phase.url }}"><h2>Phase {{phase.phase}}: {{ phase.name }}</h2></a>
-                <div class="grid-container">
+                <div class="">
                   <div class="grid-row">
                     {% for workstream in workstreams %}
                       {% assign workstreamName = workstream | split: ":" | last %}
