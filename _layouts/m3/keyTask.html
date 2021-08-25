@@ -244,6 +244,14 @@ layout: m3/m3-layout
           <ul>
             {% for item in page.inputs %}
             <li>
+              {% if item.text %}
+                {{ item.text }}
+              {% else %}
+                {{ item }}
+              {% endif %}
+
+              {% comment %}
+              ### The following code would include a link to the related template
               {% if item.filename %}
                 <a href="{{site.baseurl}}/assets/files/{{item.filename}}">{{ item.text }}</a>
               {% elsif item.url %}
@@ -251,6 +259,7 @@ layout: m3/m3-layout
               {% else %}
                 {{ item }}
               {% endif %}
+              {% endcomment %}
 
               {% comment %}
               ### The following code would add an icon linking to the first keyTask that has this input as an output ###
@@ -275,11 +284,20 @@ layout: m3/m3-layout
           <ul>
             {% for item in page.outputs %}
             <li>
+              {% if item.text %}
+                {{ item.text }}
+              {% else %}
+                {{ item }}
+              {% endif %}
+
+              {% comment %}
+              ### The following code would include a link to the related template
               {% if item.filename %}
                 <a href="{{site.baseurl}}/assets/files/{{item.filename}}">{{ item.text }}</a>
               {% else %}
                 {{ item }}
               {% endif %}
+              {% endcomment %}
               
             </li>
             {% endfor %}
