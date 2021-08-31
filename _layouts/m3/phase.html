@@ -4,6 +4,7 @@ layout: m3/m3-layout
 
 {% assign keyTasks = site.pages | where: 'layout', 'm3/keyTask' | where: 'phase', page.phase %}
 
+{% assign sharedTasks = keyTasks | where: 'responsibleParty', "shared" %}
 {% assign customerTasks = keyTasks | where: 'responsibleParty', "customer" %}
 {% assign providerTasks = keyTasks | where: 'responsibleParty', "provider" %}
 {% assign qsmoTasks = keyTasks | where: 'responsibleParty', "qsmo" %}
@@ -67,7 +68,7 @@ layout: m3/m3-layout
               </li>
               {% endif %}
               
-              {% if sumTasks > keyTasks.size %}
+              {% if sumTasks > keyTasks.size or sharedTasks.size > 0 %}
               <li>
                 <button class="usa-button m3-tag shared" data-filter="shared" aria-controls="FilterList" role="option" aria-selected="false">
                 <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
