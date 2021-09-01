@@ -54,37 +54,62 @@ p {
 }
 
 #m3-glossary-menu {
-  position: fixed;
-  top: 17rem;
-  left: 17rem;
-  width: 12rem;
+  display: none;
+}
 
-  ul {
-    background: #F0F0F0;
-    border: 1px solid #1B1B1B;
-    border-radius: 5px;
-    list-style: none;
-    padding: 0;
-    margin: 5px 0 0 0;
-
-    li:not(:last-child) {
-      border-bottom: 1px solid #D6D7D9;
-    }
-
-    li {
-
-      a {
-        color: #1B1B1B;
-        display: block;
-        padding: 10px 12px;
-        text-decoration: none;
+@media screen and (min-width: 1025px) {
+  #m3-glossary-menu {
+    display: block;
+    position: fixed;
+    top: 17rem;
+    left: 3rem;
+    width: 12rem;
+  
+    ul {
+      background: #F0F0F0;
+      border: 1px solid #1B1B1B;
+      border-radius: 5px;
+      list-style: none;
+      padding: 0;
+      margin: 5px 0 0 0;
+  
+      li:not(:last-child) {
+        border-bottom: 1px solid #D6D7D9;
       }
-
-      a.active {
-        color: #0b0083;
-        border-left: 2px solid #0b0083;
-        font-weight: bold;
+  
+      li {
+  
+        a {
+          color: #1B1B1B;
+          display: block;
+          padding: 10px 12px;
+          text-decoration: none;
+        }
+  
+        a.active {
+          color: #0b0083;
+          border-left: 2px solid #0b0083;
+          font-weight: bold;
+        }
       }
     }
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  #m3-glossary-menu {
+    left: 7rem;
+  }
+}
+
+@media screen and (min-width: 1750px) {
+  #m3-glossary-menu {
+    left: 12rem;
+  }
+}
+
+@media screen and (min-width: 1850px) {
+  #m3-glossary-menu {
+    left: 17rem;
   }
 }
