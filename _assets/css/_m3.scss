@@ -29,6 +29,43 @@
   .usa-header--extended .usa-nav__primary{
     margin-left: 0;
   }
+  .m3-sidenav{
+    position: sticky;
+    top: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  .usa-sidenav{
+    border: 1px solid $color-text;
+    border-radius: 0.5em;
+    background: $color-m3-background;
+    overflow: hidden;
+
+    .usa-sidenav__item {
+      border-top: 1px solid #dfe1e2;
+
+      &:first-of-type {
+        border-top: none;
+      }
+    }
+    a {
+      color: #565c65;
+
+      &:not(.usa-button):not(.usa-current-1) {
+        color: #565c65;
+      }
+    }
+    .usa-current::after{
+      top: 0;
+      bottom: 0;
+    }
+  }
+}
+.m3-sidenav-page{
+  .usa-prose h2{
+    font-size: 2em;
+    border-bottom: 1px solid grey;
+  }
 }
 .m3-content{
   .usa-nav__inner, .grid-container {

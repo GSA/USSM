@@ -1,0 +1,21 @@
+---
+
+layout: m3/m3-layout
+---
+
+{% comment %}
+This template is for all M3 pages with the M3 sidenav.
+{% endcomment %}
+
+<div class="grid-container m3-sidenav-page">
+  <div class="grid-row">
+    <div class="grid-col-auto display-none desktop:display-block">
+      {% include m3/sidenav.html  %}
+    </div>
+    <div class="grid-col">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+
