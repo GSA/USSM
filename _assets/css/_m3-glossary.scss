@@ -1,0 +1,90 @@
+p {
+  font-size: 1rem;
+}
+
+.m3-breadcrumbs {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+  box-shadow: 1px 3px 6px #efefef;
+}
+
+.m3-content .usa-section.m3-section.m3-glossary-section {
+  padding-top: 0;
+}
+
+.m3-glossary-title {
+  color: #1B1B1B;
+  font-family: 'Merriweather bold';
+}
+
+.m3-glossary-h1 {
+  font-size: 4rem;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.m3-glossary-h2 {
+  font-size: 2.5rem;
+  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.m3-h2-top {
+  margin-top: 15px;
+}
+
+.m3-glossary-h3 {
+  font-size: 1.5rem;
+}
+
+.m3-glossary-h4 {
+  color: #1B1B1B;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.no-space {
+  padding: 0;
+  margin: 0;
+}
+
+#m3-glossary-menu {
+  position: fixed;
+  top: 17rem;
+  left: 17rem;
+  width: 12rem;
+
+  ul {
+    background: #F0F0F0;
+    border: 1px solid #1B1B1B;
+    border-radius: 5px;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+
+    li:not(:last-child) {
+      border-bottom: 1px solid #D6D7D9;
+    }
+
+    li {
+
+      a {
+        color: #1B1B1B;
+        display: block;
+        padding: 10px 12px;
+        text-decoration: none;
+      }
+
+      a.active {
+        color: #0b0083;
+        border-left: 2px solid #0b0083;
+        font-weight: bold;
+      }
+    }
+  }
+}
