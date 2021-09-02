@@ -31,9 +31,6 @@ sections:
 
   - name: Documentation Templates
     items:
-      - name: Phase 1 Progress Review
-        filename: Phase 1 Progress Review.pptx
-      
       - name: As Is System Environment
         filename: M3-Playbook-As-Is-System-Environment-Template.xlsx
       - name: Baseline and Target Performance Success Metrics
