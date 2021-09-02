@@ -258,7 +258,7 @@ primary_navigation:
           show_in_menu: false
           show_in_footer: false
     - text: About OSSPI
-      href: /pages/about.md
+      href: 'https://www.gsa.gov/governmentwide-initiatives/shared-solutions-and-performance-improvement'
       permalink: 'https://www.gsa.gov/governmentwide-initiatives/shared-solutions-and-performance-improvement'
       show_in_menu: true
       show_in_footer: false
