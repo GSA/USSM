@@ -10,7 +10,19 @@ This template is for all M3 pages with the M3 sidenav.
 <div class="grid-container m3-sidenav-page">
   <div class="grid-row">
     <div class="grid-col-auto display-none desktop:display-block">
-      {% include m3/sidenav.html  %}
+      <nav class="m3-sidenav" aria-label="Secondary navigation">
+        Jump To:
+        <ul class="usa-sidenav">
+          <li class="usa-sidenav__item">
+            <a href="#main-content" class="usa-current">{{page.title}}</a>
+          </li>
+        {% for section in page.sections %}
+          <li class="usa-sidenav__item">
+            <a href="#{{section.name | remove: " "}}">{{section.name}}</a>
+          </li>
+        {% endfor %}
+        </ul>
+      </nav>
     </div>
     <div class="grid-col">
       {{ content }}
