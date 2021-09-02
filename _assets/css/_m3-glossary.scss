@@ -19,7 +19,7 @@ p {
   font-family: 'Merriweather bold';
 }
 
-.m3-glossary-h1 {
+.m3-glossary-content-header {
   font-size: 4rem;
   margin-top: 5px;
   margin-bottom: 0;
@@ -38,11 +38,11 @@ p {
   margin-top: 15px;
 }
 
-.m3-glossary-h3 {
+.m3-glossary-menu-header {
   font-size: 1.5rem;
 }
 
-.m3-glossary-h4 {
+.m3-glossary-h3 {
   color: #1B1B1B;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -85,14 +85,24 @@ p {
           padding: 10px 12px;
           text-decoration: none;
         }
-  
-        a.active {
-          color: #0b0083;
-          border-left: 2px solid #0b0083;
-          font-weight: bold;
+
+        a:active {
+          
         }
       }
     }
+  }
+
+  .m3-menu-item[aria-selected="true"] {
+    color: #0b0083;
+    border-left: 4px solid #0b0083;
+    font-weight: bold;
+  }
+
+  .m3-menu-item[aria-selected="false"] {
+    color: #1B1B1B;
+    border-left: none;
+    font-weight: normal;
   }
 }
 

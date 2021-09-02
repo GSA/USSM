@@ -6,7 +6,7 @@ layout: m3/m3-layout
   <div class="m3-breadcrumbs">
     <div class="grid-container">
       <div class="desktop:grid-col-12">
-        <a href="{{'/m3/introduction' | relative_url}}">M3 Playbook</a> > <a href="{{'/m3/introduction' | relative_url}}">Resources</a> > Glossary
+        <a href="{{'/m3/introduction' | relative_url}}" title="M3 Playbook breadcrumb">M3 Playbook</a> > <a href="{{'/m3/introduction' | relative_url}}" title="Resources breadcrumb">Resources</a> > Glossary
       </div>
     </div>
   </div>
@@ -15,10 +15,14 @@ layout: m3/m3-layout
       <div class="desktop:grid-col-3">
         {% if page.menulinks.size > 0 %}
           <div id="m3-glossary-menu">
-            <h3 class="m3-glossary-title m3-glossary-h3 no-space">Jump To:</h3>
+            <p class="m3-glossary-title m3-glossary-menu-header no-space"><b>Jump To:</b></p>
             <ul>
               {% for item in page.menulinks %}
-                <li><a href="{{ item.link }}">{{ item.text }}</a></li>
+                {% if forloop.first %}
+                <li><a href="{{ item.link }}" title="{{ item.text }}" class="m3-menu-item" aria-selected="true">{{ item.text }}</a></li>
+                {% else %}
+                <li><a href="{{ item.link }}" title="{{ item.text }}" class="m3-menu-item" aria-selected="false">{{ item.text }}</a></li>
+                {% endif %}
               {% endfor %}
             </ul>
           </div>
@@ -26,7 +30,7 @@ layout: m3/m3-layout
       </div>
       <div class="desktop:grid-col-9">
         <div id="m3-glossary-glossary">
-          <h1 class="m3-glossary-title m3-glossary-h1">Glossary</h1>
+          <h1 class="m3-glossary-title m3-glossary-content-header">Glossary</h1>
         </div>
         <div id="m3-glossary-stakeholders">
           <h2 class="m3-glossary-title m3-glossary-h2 m3-h2-top">Stakeholders</h2>
@@ -34,7 +38,7 @@ layout: m3/m3-layout
             <div class="desktop:grid-col-6">
               {% if page.stakeholders1.size > 0 %}
                 {% for item in page.stakeholders1 %}
-                  <h4 class="m3-glossary-h4">{{ item.title }}</h4>
+                  <h3 class="m3-glossary-h3">{{ item.title }}</h3>
                   <p class="no-space">{{ item.text }}</p>
                 {% endfor %}
               {% endif %}
@@ -42,7 +46,7 @@ layout: m3/m3-layout
             <div class="desktop:grid-col-6">
               {% if page.stakeholders2.size > 0 %}
                 {% for item in page.stakeholders2 %}
-                  <h4 class="m3-glossary-h4">{{ item.title }}</h4>
+                  <h3 class="m3-glossary-h3">{{ item.title }}</h3>
                   <p class="no-space">{{ item.text }}</p>
                 {% endfor %}
               {% endif %}
@@ -55,7 +59,7 @@ layout: m3/m3-layout
             <div class="desktop:grid-col-6">
               {% if page.abbreviations1.size > 0 %}
                 {% for item in page.abbreviations1 %}
-                  <h4 class="m3-glossary-h4">{{ item.abbreviation }}</h4>
+                  <h3 class="m3-glossary-h3">{{ item.abbreviation }}</h3>
                   <p class="no-space">{{ item.title }}</p>
                 {% endfor %}
               {% endif %}
@@ -63,7 +67,7 @@ layout: m3/m3-layout
             <div class="desktop:grid-col-6">
               {% if page.abbreviations2.size > 0 %}
                 {% for item in page.abbreviations2 %}
-                  <h4 class="m3-glossary-h4">{{ item.abbreviation }}</h4>
+                  <h3 class="m3-glossary-h3">{{ item.abbreviation }}</h3>
                   <p class="no-space">{{ item.title }}</p>
                 {% endfor %}
               {% endif %}
@@ -76,7 +80,7 @@ layout: m3/m3-layout
             <div class="desktop:grid-col-6">
               {% if page.general1.size > 0 %}
                 {% for item in page.general1 %}
-                  <h4 class="m3-glossary-h4">{{ item.title }}</h4>
+                  <h3 class="m3-glossary-h3">{{ item.title }}</h3>
                   <p class="no-space">{{ item.text }}</p>
                 {% endfor %}
               {% endif %}
@@ -84,7 +88,7 @@ layout: m3/m3-layout
             <div class="desktop:grid-col-6">
               {% if page.general2.size > 0 %}
                 {% for item in page.general2 %}
-                  <h4 class="m3-glossary-h4">{{ item.title }}</h4>
+                  <h3 class="m3-glossary-h3">{{ item.title }}</h3>
                   <p class="no-space">{{ item.text }}</p>
                 {% endfor %}
               {% endif %}
