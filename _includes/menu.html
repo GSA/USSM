@@ -33,9 +33,15 @@ where we provide an easy way to manage your navigation system
           {% unless nav.children %}
           {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
           {% assign linkdir = nav.permalink | replace: "/", "" | lstrip %}
+          {% if nav.external == true %}
+          <li class="usa-nav__primary-item">
+            <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}" href="{{ nav.permalink }}"><span>{{ nav.text | escape }}</span></a>
+          </li>
+          {% else %}
           <li class="usa-nav__primary-item">
             <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}" href="{{ nav.permalink | prepend: site.baseurl}}"><span>{{ nav.text | escape }}</span></a>
           </li>
+          {% endif %}
           {% else %}
           {% assign nav_id = 'primary-nav-' | append: forloop.index %}
           <li class="usa-nav__primary-item">
