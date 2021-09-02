@@ -262,6 +262,8 @@ primary_navigation:
       permalink: 'https://www.gsa.gov/governmentwide-initiatives/shared-solutions-and-performance-improvement'
       show_in_menu: true
       show_in_footer: false
+      link: true
+      external: true
 
 #secondary_navigation:
 #  - name: Secondary link
