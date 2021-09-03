@@ -80,12 +80,13 @@
     font-weight: normal;
   }
   .usa-nav__primary-item{
+    margin-bottom: 0;
     &.active {
     background-color: initial;
     }
 
     button {
-      font-weight: bold;
+      font-weight: normal;
     }
 
     h2{

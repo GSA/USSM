@@ -21,12 +21,12 @@ where we provide an easy way to manage your navigation system
           </li>
     
           {% for phase in phases %}
-            {% assign active = "" %}
+            {% assign current = "" %}
             {% if phase.phase == page.phase %}
-              {% assign active = " active" %}
+              {% assign current = " usa-current" %}
             {% endif %}
-            <li class="usa-nav__primary-item{{active}}">
-              <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            <li class="usa-nav__primary-item">
+              <button class="usa-accordion__button usa-nav__link{{current}}" aria-expanded="false"
                 aria-controls="NavItem-Phase{{phase.phase}}"><span>{{phase.phase}}: {{ phase.name }}</span></button>
               {% assign keyTasks = site.pages | where: 'layout', 'm3/keyTask' | where: 'phase', phase.phase %}
               {% assign programTasks = keyTasks | where: 'category', "programManagement" %}
@@ -60,13 +60,21 @@ where we provide an easy way to manage your navigation system
             </li>
     
           {% endfor %}
+          {% assign current = "" %}
+          {% if page.permalink == "/m3resources/" %}
+            {% assign current = " usa-current" %}
+          {% endif %}
           <li class="usa-nav__primary-item">
-            <a class="usa-nav__link" href="{{site.baseurl}}/m3resources/"><span>
+            <a class="usa-nav__link{{current}}" href="{{site.baseurl}}/m3resources/"><span>
               Resources
             </span></a>
           </li>
+          {% assign current = "" %}
+          {% if page.permalink == "/m3glossary/" %}
+            {% assign current = " usa-current" %}
+          {% endif %}
           <li class="usa-nav__primary-item">
-            <a class="usa-nav__link" href="{{site.baseurl}}/m3glossary/"><span>
+            <a class="usa-nav__link{{current}}" href="{{site.baseurl}}/m3glossary/"><span>
               Glossary
             </span></a>
           </li>

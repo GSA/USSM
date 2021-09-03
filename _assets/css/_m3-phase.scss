@@ -23,6 +23,7 @@
   }
   .usa-nav__primary-item > .usa-current::after, .usa-nav__primary-item > .usa-nav__link:hover::after {
     background-color: white;
+    left: 0;
 }
 }
 .usa-header + .usa-section, .usa-header + main {
