@@ -44,8 +44,22 @@ a.usa-nav__link.m3-intro-menuLink {
   }
 }
 
-#keyTaskLegend li{
-  display: inline-block;
+#keyTaskRoles{
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+
+  li{
+    display: inline-block;
+  }
+}
+.keyTaskLegend {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
 }
 .m3-tag {
   display: flex;
@@ -54,6 +68,7 @@ a.usa-nav__link.m3-intro-menuLink {
   color:black;
   border-radius: 0.2em;
   padding: 4px;
+  margin: 0;
 
   .usa-icon {
     width: 1.5em;

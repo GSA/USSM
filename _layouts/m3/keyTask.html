@@ -108,67 +108,69 @@ layout: m3/m3-layout
         
         
         <div id="keyTasks" class="filterlist" data-items=".usa-process-list__item" data-filters=".m3-tag" aria-live="polite">
-        <div id="keyTaskHeader">
-          <h2>Task Activities</h2>
-          <label for="keyTaskLegend">Filter Responsible Roles:</label>
-          <ul id="keyTaskLegend">
-            
-            {% if customerActivities.size > 0 %}
-              <li>
-                <button class="usa-button m3-tag customer" data-filter="customer" aria-controls="keyTasks" role="option" aria-selected="false">
+          <div id="keyTaskHeader">
+            <h2>Task Activities</h2>
+            <div class="keyTaskLegend">
+              <label for="keyTaskRoles">Filter Responsible Roles:</label>
+              <ul id="keyTaskRoles">
+              
+                {% if customerActivities.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag customer" data-filter="customer" aria-controls="keyTasks" role="option" aria-selected="false">
+                    <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                      <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "customer" %}"></use>
+                    </svg>
+                    Customer
+                  </button>
+                </li>
+                {% endif %}
+              
+                {% if providerActivities.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag provider" data-filter="provider" aria-controls="keyTasks" role="option" aria-selected="false">
                   <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "customer" %}"></use>
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "provider" %}"></use>
                   </svg>
-                  Customer
+                  Provider
                 </button>
-              </li>
-            {% endif %}
-            
-            {% if providerActivities.size > 0 %}
-            <li>
-              <button class="usa-button m3-tag provider" data-filter="provider" aria-controls="keyTasks" role="option" aria-selected="false">
-              <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "provider" %}"></use>
-              </svg>
-              Provider
-            </button>
-            </li>
-            {% endif %}
-            
-            {% if qsmoActivities.size > 0 %}
-            <li>
-              <button class="usa-button m3-tag qsmo" data-filter="qsmo" aria-controls="keyTasks" role="option" aria-selected="false">
-              <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "qsmo" %}"></use>
-              </svg>
-              QSMO
-            </button>
-            </li>
-            {% endif %}
-            
-            {% if sumActivities > page.activities.size or sharedActivities.size > 0  %}
-            <li>
-              <button class="usa-button m3-tag shared" data-filter="shared" aria-controls="keyTasks" role="option" aria-selected="false">
-              <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "shared" %}"></use>
-              </svg>
-              Shared
-            </button>
-            </li>
-            {% endif %}
-          </ul>
-        </div>
+                </li>
+                {% endif %}
+                
+                {% if qsmoActivities.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag qsmo" data-filter="qsmo" aria-controls="keyTasks" role="option" aria-selected="false">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "qsmo" %}"></use>
+                  </svg>
+                  QSMO
+                </button>
+                </li>
+                {% endif %}
+                
+                {% if sumActivities > page.activities.size or sharedActivities.size > 0  %}
+                <li>
+                  <button class="usa-button m3-tag shared" data-filter="shared" aria-controls="keyTasks" role="option" aria-selected="false">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "shared" %}"></use>
+                  </svg>
+                  Shared
+                </button>
+                </li>
+                {% endif %}
+              </ul>
+            </div>
+          </div>
 
-        {% if page.activitiesGroups %}
-          {% for item in page.activitiesGroups %}
-            <h4>{{item.group}}</h4>
-            {% assign activitiesGroup = item.activities %}
+          {% if page.activitiesGroups %}
+            {% for item in page.activitiesGroups %}
+              <h4>{{item.group}}</h4>
+              {% assign activitiesGroup = item.activities %}
+              {% include m3/activitiesGroup.html %}
+            {% endfor %}
+          {% else %}
+            {% assign activitiesGroup = page.activities %}
             {% include m3/activitiesGroup.html %}
-          {% endfor %}
-        {% else %}
-          {% assign activitiesGroup = page.activities %}
-          {% include m3/activitiesGroup.html %}
-        {% endif %}
+          {% endif %}
 
         </div>
 

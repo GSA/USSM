@@ -32,10 +32,11 @@ layout: m3/m3-layout
         <div id="FilterList" class="keyTasks filterlist" data-items=".m3-keyTask" data-filters=".m3-tag" aria-live="polite">
           <div id="keyTaskHeader">
             <h2>Key Tasks</h2>
-            <label for="keyTaskLegend">Filter Responsible Roles:</label>
-            <ul id="keyTaskLegend">
+            <div class="keyTaskLegend">
+              <label for="keyTaskRoles">Filter Responsible Roles:</label>
+              <ul id="keyTaskRoles">
               
-              {% if customerTasks.size > 0 %}
+                {% if customerTasks.size > 0 %}
                 <li>
                   <button class="usa-button m3-tag customer" data-filter="customer" aria-controls="FilterList" role="option" aria-selected="false">
                     <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
@@ -44,41 +45,42 @@ layout: m3/m3-layout
                     Customer
                   </button>
                 </li>
-              {% endif %}
+                {% endif %}
               
-              {% if providerTasks.size > 0 %}
-              <li>
-                <button class="usa-button m3-tag provider" data-filter="provider" aria-controls="FilterList" role="option" aria-selected="false">
-                <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                  <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "provider" %}"></use>
-                </svg>
-                Provider
-              </button>
-              </li>
-              {% endif %}
-              
-              {% if qsmoTasks.size > 0 %}
-              <li>
-                <button class="usa-button m3-tag qsmo" data-filter="qsmo" aria-controls="FilterList" role="option" aria-selected="false">
-                <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                  <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "qsmo" %}"></use>
-                </svg>
-                QSMO
-              </button>
-              </li>
-              {% endif %}
-              
-              {% if sumTasks > keyTasks.size or sharedTasks.size > 0 %}
-              <li>
-                <button class="usa-button m3-tag shared" data-filter="shared" aria-controls="FilterList" role="option" aria-selected="false">
-                <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                  <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "shared" %}"></use>
-                </svg>
-                Shared
-              </button>
-              </li>
-              {% endif %}
-            </ul>
+                {% if providerTasks.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag provider" data-filter="provider" aria-controls="FilterList" role="option" aria-selected="false">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "provider" %}"></use>
+                  </svg>
+                  Provider
+                </button>
+                </li>
+                {% endif %}
+                
+                {% if qsmoTasks.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag qsmo" data-filter="qsmo" aria-controls="FilterList" role="option" aria-selected="false">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "qsmo" %}"></use>
+                  </svg>
+                  QSMO
+                </button>
+                </li>
+                {% endif %}
+                
+                {% if sumTasks > keyTasks.size or sharedTasks.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag shared" data-filter="shared" aria-controls="FilterList" role="option" aria-selected="false">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "shared" %}"></use>
+                  </svg>
+                  Shared
+                </button>
+                </li>
+                {% endif %}
+              </ul>
+            </div>
           </div>
           <section class="keyTaskCategory programManagement">
             <h3 id="" class="keyTaskCategoryHeading">

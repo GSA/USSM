@@ -4,13 +4,11 @@
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
+
   h2 {
     flex-grow: 1;
     flex-shrink: 0;
-  }
-  ul {
-    padding-left: 1em;
-    margin: 0;
+    margin-right: 2em;
   }
   label {
     font-weight: 700;
