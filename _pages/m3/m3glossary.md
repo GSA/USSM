@@ -38,8 +38,6 @@ sections:
         description: Individual(s)  who is (are) responsible for information systems security 
       - name: Labor Relations Leader
         description: Responsible leader(s) for labor relations with the Union(s)
-      - name: Service Area Lead/Service Area Sponsor
-        description: Expert(s) from a particular Service Area who represents that Service Area
       - name: Network SME
         description: Individual(s) with network subject matter expertise
 
@@ -134,14 +132,12 @@ sections:
         description: An artifact (usually created in a prior activity) or an event recommended to support completion of activities.
       - name: Exit Outcome
         description: An outcome that should be achieved by the time a phase is complete but is not necessarily a tollgate.
-      - name: Tollgate
-        description: A checkpoint to access risk and inform budget/funding decisions for the migration.
       - name: Output
         description: An artifact or an event that is produced by an activity to facilitate robust planning and migration activities in comprehensive program artifacts.
       - name: Guildance Item
         description: A supporting tool for agencies to evaluate their plans and program artifacts against leading practices; guidance items can be used to shape the content of agency specific documentation when not using a template.
-      - name: Tollgate Review Discussion
-        description: A summary review that must be submitted at the end of a tollgate with key components to inform risk review and budget/funding decisions for the migration.
+      - name: Progress Review Discussion
+        description: A summary review that must be submitted at the end of a phase with key components to inform risk review and budget/funding decisions for the migration.
 
 
 
