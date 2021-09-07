@@ -109,7 +109,7 @@
           {% for input in item.inputs %}
             <li>
               {% if input.filename %}
-                <a href="/assets/files/{{input.filename}}">{{ input.text }}</a>
+                {{ input.text }}
               {% else %}
                 {{ input }}
               {% endif %}
@@ -125,7 +125,7 @@
           {% for output in item.outputs %}
             <li>
               {% if output.filename %}
-                <a href="/assets/files/{{output.filename}}">{{ output.text }}</a>
+                {{ output.text }}
               {% else %}
                 {{ output }}
               {% endif %}
