@@ -39,6 +39,7 @@ jQuery(document).ready(function () {
             accordian: 'erm-lifecycle',
             table: 'erm-capabilities',
             UseCasesList: 'erm-use-cases',
+            ElementsList: 'erm-data-elements',
             url: '../business-standards-api/erm',
             hasSubsection: false
         },
