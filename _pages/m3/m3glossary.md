@@ -40,6 +40,40 @@ sections:
         description: Responsible leader(s) for labor relations with the Union(s)
       - name: Network SME
         description: Individual(s) with network subject matter expertise
+      - name: O&M Team
+        description: Group of individuals who run O&M for customer and provider 
+      - name: OSSPI
+        description: Office that coordinates government-wide shared services governance, executes program management, and develops processes to support development and implementation of OMB policy as it relates to mission support services
+      - name: PMO Lead
+        description: Responsible leader(s) for managing and overseeing program activities
+      - name: PMO Team
+        description: Group of individuals responsible for preventing governance gaps in program activities
+      - name: Program Manager
+        description: Individual(s) managing the overall program and integration of activities
+      - name: QSMO
+        description: Designated federal agency serving as governmentwide storefronts and brokers, offering solutions for technology and services in their functional area
+      - name: Requirements Lead
+        description: Responsible leader(s) for the process of defining and managing requirements
+      - name: Risk Lead
+        description: Responsible leader(s) for risk management processes
+      - name: Risk Manager
+        description: Individual(s) managing risk management processes
+      - name: Security Lead 
+        description: Responsible leader(s) for security management
+      - name: Security SME
+        description: Individual(s) with security subject matter expertise
+      - name: Technical Lead/Solution Architect
+        description: Responsible leader(s) for the technical aspects of solution implementation
+      - name: Technical SME
+        description: Individual(s) with technical subject matter expertise
+      - name: Test Lead
+        description: Responsible leader(s) for testing
+      - name: Test Team
+        description: Group of individuals who run testing
+      - name: Training Lead
+        description: Responsible leader(s) for running training
+      - name: Workforce Lead 
+        description: Responsible leader(s) for workforce planning
 
   - name: Abbreviations
     terms:

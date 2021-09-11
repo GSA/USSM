@@ -19,11 +19,10 @@
   vertical-align: -20%;
   display: inline;
 }
-
 .m3-hero {
-  background: rgb(16,47,175);
-  background: linear-gradient(94deg, rgba(16,47,175,1) 0%, rgba(86,226,211,1) 100%);
-  background-image: url(../assets/images/m3-pattern.svg),  linear-gradient(94deg, rgba(16,47,175,1) 0%, rgba(86,226,211,1) 100%);
+  background: rgb(19,22,142);
+  background: linear-gradient(94deg, rgba(19,22,142,1) 0%, rgba(27,185,182,1) 100%);
+  background-image: url(../assets/images/m3-pattern.svg),  linear-gradient(94deg, rgba(19,22,142,1) 0%, rgba(27,185,182,1) 100%);
   padding-top: 2em;
   padding-bottom: 2em;
 
@@ -143,8 +142,7 @@
   border-radius: 10px;
   box-shadow: 1px 6px 12px #00000033;
   color: #333333;
-  min-height: 350px;
-  margin-bottom: 1em;
+  height: 100%;
 
   img {
     margin-bottom: 30px;
@@ -160,6 +158,7 @@
   h4 {
     text-align: center;
     color: #000083;
+    margin-bottom: 0;
   }
 
   p {
@@ -167,6 +166,9 @@
     margin-top: 0;
     font-size: 18px;
   }
+}
+.m3-feature{
+  margin-bottom:1em;
 }
 
 .m3-box-small p {
@@ -242,6 +244,7 @@
 //   max-width: 90rem;
 // }
 
+
 section.usa-hero.m3-framework-overview {
   background-image: none;
   background: #f0f0f0 0% 0% no-repeat padding-box;
@@ -268,6 +271,52 @@ section.usa-hero.m3-framework-overview {
 
   .framework-overview {
     display: none;
+    margin-bottom: 3em;
+
+    .workstreams svg{
+      stroke: white;
+    }
+  }
+  .phases{
+    position: absolute;
+    text-align: left;
+    top: 0;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: .5em;
+    margin-left: 9em;
+    margin-right: 1em;
+    counter-set: my-counter -1;
+    padding: 0;
+
+    li{
+      position: relative;
+      background: white;
+      padding: 1.5em 1em;
+      box-shadow: #00000033 0px 3px 5px;
+      counter-increment: my-counter;
+      list-style: none;
+      width: 100%;
+      min-height: 280px;
+      font-size: 12px;
+
+      &::before {
+        content: counter(my-counter);
+        background: black;
+        color: white;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -1em;
+        left: -0.5em;
+      }
+    }
   }
 }
 
@@ -290,7 +339,8 @@ section.m3-playbook-overview {
   a.m3-download-pdf {
     padding: 7px 12px;
     color: $color-text;
-    border: 2px solid $color-text;
+    font-weight: bold;
+    border: 1px solid $color-text;
     border-radius: 5px;
     text-decoration: none;
     background: linear-gradient(to left, white 50%, #333333 50%) right;
@@ -358,47 +408,6 @@ section.m3-playbook-overview {
         }
       }
 
-      ol.phases {
-        position: absolute;
-        text-align: left;
-        top: 90;
-        color:black;
-        display:flex;
-        flex-wrap: nowrap;
-        gap:.5em;
-        margin-left: 6.5em;
-        counter-set: my-counter -1;
-      
-        li {
-          position: relative;
-          background: white;
-          padding: 1em;
-          box-shadow: #00000033 0px 3px 5px;
-          counter-increment: my-counter;
-          list-style: none;
-          max-width: 150px;
-          min-width: 90px;
-          width: 100%;
-          min-height: 250px;
-          font-size: 12px;
-      
-          &::before {
-            content: counter(my-counter);
-            background: black;
-            color: white;
-            display: inline-block;
-            width: 40px;
-            height: 40px;
-            border-radius: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: absolute;
-            top: -1em;
-            left: -0.5em;
-          }
-        }
-      }
     }
   }
 }
@@ -479,75 +488,11 @@ section.m3-playbook-overview {
     text-align: right;
   }
 
-  .m3-boxes {
-    min-height: 400px;
-  }
 
   .m3-shared-hr {
     margin-top: 50px;
   }
 
-  /* section.usa-hero.m3-framework-overview {
-    .framework-overview {
-      position: relative;
-      display: grid;
-      
-      ul.workstreams {
-        list-style: none;
-        padding: 0;
-        margin-top: 5em;
-        text-align: left;
-        font-size: 14px;
-
-        li {
-          display: flex;
-          padding:0.5em 2em;
-          margin-bottom:.5em;
-          border-radius:5px;
-        }
-      }
-
-      ol.phases {
-        position: absolute;
-        text-align: left;
-        top: 0;
-        color:black;
-        display:flex;
-        flex-wrap: nowrap;
-        gap:.5em;
-        margin-left: 18em;
-        counter-set: my-counter -1;
-      
-        li {
-          position: relative;
-          background: white;
-          padding: 1.5em 1em;
-          box-shadow: #00000033 0px 3px 5px;
-          counter-increment: my-counter;
-          list-style: none;
-          width: 133px;
-          min-height: 290px;
-          font-size: 14px;
-      
-          &::before {
-            content: counter(my-counter);
-            background: black;
-            color: white;
-            display: inline-block;
-            width: 40px;
-            height: 40px;
-            border-radius: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: absolute;
-            top: -1em;
-            left: -0.5em;
-          }
-        }
-      }
-    }
-  } */
 }
 
 @media screen and (min-width: 1250px) {
@@ -588,9 +533,6 @@ section.m3-playbook-overview {
     width: 480px;
   }
 
-  .m3-boxes {
-    min-height: 350px;
-  }
 
   .usa-footer__primary-section > .grid-container {
     padding-left: 0;
@@ -622,45 +564,15 @@ section.m3-playbook-overview {
             max-width: 180px;
           }
         }
+        .m3-icons{
+          margin: 0 0.5em 0 0;
+        }
       }
 
       ol.phases {
-        position: absolute;
-        text-align: left;
-        top: 0;
-        color:black;
-        display:flex;
-        flex-wrap: nowrap;
-        gap:.5em;
-        margin-left: 11em;
-        counter-set: my-counter -1;
-      
-        li {
-          position: relative;
-          background: white;
-          padding: 1.5em 1em;
-          box-shadow: #00000033 0px 3px 5px;
-          counter-increment: my-counter;
-          list-style: none;
-          width: 153px;
-          min-height: 290px;
+        margin-left: 14em;
+        li{
           font-size: 15px;
-      
-          &::before {
-            content: counter(my-counter);
-            background: black;
-            color: white;
-            display: inline-block;
-            width: 40px;
-            height: 40px;
-            border-radius: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: absolute;
-            top: -1em;
-            left: -0.5em;
-          }
         }
       }
     }
@@ -691,45 +603,8 @@ section.m3-playbook-overview {
           }
         }
       }
-
       ol.phases {
-        position: absolute;
-        text-align: left;
-        top: 0;
-        color:black;
-        display:flex;
-        flex-wrap: nowrap;
-        gap:.5em;
         margin-left: 20em;
-        counter-set: my-counter -1;
-      
-        li {
-          position: relative;
-          background: white;
-          padding: 1.5em 1em;
-          box-shadow: #00000033 0px 3px 5px;
-          counter-increment: my-counter;
-          list-style: none;
-          width: 153px;
-          min-height: 290px;
-          font-size: 15px;
-      
-          &::before {
-            content: counter(my-counter);
-            background: black;
-            color: white;
-            display: inline-block;
-            width: 40px;
-            height: 40px;
-            border-radius: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: absolute;
-            top: -1em;
-            left: -0.5em;
-          }
-        }
       }
     }
   }

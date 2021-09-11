@@ -59,11 +59,11 @@ layout: m3/m3-layout
 
       <div class="desktop:grid-col-12">
         
-        <a href="{{'/m3/introduction' | relative_url}}">M3 Playbook</a> > <a href="{{parent.url | relative_url}}">Phase {{parent.phase}}: {{parent.name}}</a> > {{page.phase}}.{{page.keyTask}} {{page.name}}
+        <a href="{{site.baseurl}}/m3">M3 Playbook</a> > <a href="{{parent.url | relative_url}}">Phase {{parent.phase}}: {{parent.name}}</a> > {{page.phase}}.{{page.keyTask}} {{page.name}}
         <section class="prevnext">
           
           {% if prev %}
-            <a class="prev" href="{{site.baseurl}}/{{prev.phase}}.{{prev.keyTask}}">
+            <a class="prev" href="{{site.baseurl}}{{prev.url}}">
               <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
                 <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#arrow_back"></use>
               </svg>
