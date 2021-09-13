@@ -14,6 +14,8 @@
   }
   .usa-nav__primary button[aria-expanded="false"] {
     background-image: url(../img/usa-icons-bg/expand_more--white.svg), linear-gradient(transparent, transparent);
+    padding-right: 0;
+    background-position: right 0 top 53%;
   }
   .usa-nav__submenu {
     background-color: #0b0083;
