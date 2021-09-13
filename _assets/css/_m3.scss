@@ -28,6 +28,8 @@
   }
   .usa-header--extended .usa-nav__primary{
     margin-left: 0;
+    justify-content: space-between;
+    max-width: 70em;
   }
   .m3-sidenav{
     position: sticky;
