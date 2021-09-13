@@ -61,14 +61,17 @@
 
   .flex-grid {
     display: flex;
-    flex-direction: row;
+    // flex-direction: row;
     justify-content:center;
     align-items:center;
+    flex-wrap: nowrap;
+    gap: 2em;
 
     .key-features-h2 {
       color: white;
       max-width: 20em;
       font-family: 'Merriweather';
+      flex-shrink: 0;
     }
 
     .key-features-hr {
@@ -78,7 +81,8 @@
       /* Set the hr color */
       color: #999999; /* old IE */
       background-color: #999999; /* Modern Browsers */
-      width: 50%;
+      width: 100%;
+      flex-shrink: 1;
     }
   }
 }
@@ -465,32 +469,32 @@ section.m3-playbook-overview {
     }
   }
 
-  .m3-features {
-    background: #000083;
-    margin-bottom: -90px;
+  // .m3-features {
+  //   background: #000083;
+  //   margin-bottom: -90px;
   
-    .flex-grid {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  //   .flex-grid {
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: center;
   
-      .key-features-h2 {
-        color: white;
-        max-width: 20em;
-        font-family: 'Merriweather';
-      }
+  //     .key-features-h2 {
+  //       color: white;
+  //       max-width: 20em;
+  //       font-family: 'Merriweather';
+  //     }
   
-      .key-features-hr {
-        border: none;
-        height: 1px;
-        margin-right: 20px;
-        /* Set the hr color */
-        color: #999999; /* old IE */
-        background-color: #999999; /* Modern Browsers */
-        width: 70%;
-      }
-    }
-  }
+  //     .key-features-hr {
+  //       border: none;
+  //       height: 1px;
+  //       margin-right: 20px;
+  //       /* Set the hr color */
+  //       color: #999999; /* old IE */
+  //       background-color: #999999; /* Modern Browsers */
+  //       width: 70%;
+  //     }
+  //   }
+  // }
 
   .m3-playbook-left {
     order: 1;
