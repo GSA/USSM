@@ -161,6 +161,10 @@ layout: m3/m3-layout
             </div>
           </div>
 
+          {% if page.activitiesText %}
+            <p>{{ page.activitiesText }}</p>
+          {% endif %}
+
           {% if page.activitiesGroups %}
             {% for item in page.activitiesGroups %}
               <h4>{{item.group}}</h4>

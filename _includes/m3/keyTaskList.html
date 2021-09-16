@@ -2,41 +2,39 @@
 
 <ul class="m3-keyTask-group">
   {% for item in list %}
-  {% if item.responsibleParty.first and item.responsibleParty.size > 1 %}
-    {% assign responsibleParty = "shared" %}
-  {% else %}
-    {% assign responsibleParty = item.responsibleParty %}
-  {% endif %}
-  <li class="m3-keyTask overlayLinkContainer" data-label='{{responsibleParty}} {% if responsibleParty == "shared" -%}{{item.responsibleParty | join: " " }}{%- endif -%}'>
+    {% if item.responsibleParty.first and item.responsibleParty.size > 1 %}
+      {% assign responsibleParty = "shared" %}
+    {% else %}
+      {% assign responsibleParty = item.responsibleParty %}
+    {% endif %}
+    <li class="m3-keyTask overlayLinkContainer" data-label='{{responsibleParty}} {% if responsibleParty == "shared" -%}{{item.responsibleParty | join: " " }}{%- endif -%}'>
 
-    <div class="keyTask-id">{{ page.phase }}.{{item.keyTask}}</div>
+      <div class="keyTask-id">{{ page.phase }}.{{item.keyTask}}</div>
 
-    <a href="#modal-{{ page.phase }}-{{item.keyTask}}" aria-controls="modal-{{ page.phase }}-{{item.keyTask}}" data-open-modal class="keyTask-name overlayLink">
-      {{ item.name }}
-    </a>
-    
-    <div class="keyTask-responsibleParty">
-      <svg class="usa-icon color-{{ responsibleParty }}" aria-hidden="true" focusable="false" role="img">
-        <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = responsibleParty %}"></use>
-      </svg>
-      {{responsibleParty}}
-      {% if responsibleParty == "shared" and item.responsibleParty != "shared" %}
-        {% for party in item.responsibleParty %}
-            <svg class="usa-icon color-{{ party }}" aria-hidden="true" focusable="false" role="img">
-              <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = party %}"></use>
-            </svg>
-            {{ party }}
-        {% endfor %}
-      {% endif %}
+      <a href="#modal-{{ page.phase }}-{{item.keyTask}}" aria-controls="modal-{{ page.phase }}-{{item.keyTask}}" data-open-modal class="keyTask-name overlayLink">
+        {{ item.name }}
+      </a>
+      
+      <div class="keyTask-responsibleParty">
+        <svg class="usa-icon color-{{ responsibleParty }}" aria-hidden="true" focusable="false" role="img">
+          <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = responsibleParty %}"></use>
+        </svg>
+        {{responsibleParty}}
+        {% if responsibleParty == "shared" and item.responsibleParty != "shared" %}
+          {% for party in item.responsibleParty %}
+              <svg class="usa-icon color-{{ party }}" aria-hidden="true" focusable="false" role="img">
+                <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = party %}"></use>
+              </svg>
+              {{ party }}
+          {% endfor %}
+        {% endif %}
+      </div>
 
-    </div>
+      <a href="{{site.baseurl}}{{item.url}}" class="usa-button usa-button--outline">
+        View Details
+      </a>
 
-    <a href="{{site.baseurl}}{{item.url}}" class="usa-button usa-button--outline">
-      View Details
-    </a>
-
-  </li>
-
+    </li>
   {% endfor %}
 </ul>
 

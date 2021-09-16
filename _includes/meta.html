@@ -17,11 +17,11 @@ site, this is the place to do it.
   <!-- Title and meta description
     ================================================== -->
   {% if page.layout == "m3/phase" %}
-    <title>Phase {{page.phase}} | {{site.title}}</title>
-    <meta property="og:title" content="Phase {{page.phase}} | {{site.title}}">
+    <title>Phase {{page.phase}} | {{page.name}}</title>
+    <meta property="og:title" content="Phase {{page.phase}} | {{page.name}}">
   {% elsif page.layout == "m3/keyTask" %}
-    <title>Key Task {{page.phase}}.{{page.keyTask}} | {{site.title}}</title>
-    <meta property="og:title" content="{{site.title}}">
+    <title>Key Task {{page.phase}}.{{page.keyTask}} | {{page.name}}</title>
+    <meta property="og:title" content="{{page.name}}">
   {% elsif page.title %}
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
