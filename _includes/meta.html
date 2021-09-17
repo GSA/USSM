@@ -3,6 +3,37 @@ You shouldn't have to edit this page very often. But if you want to modify some 
 site, this is the place to do it.
 {% endcomment %}
 
+{% assign title = site.title %}
+
+{% if page.title %}
+  {% capture title %}
+    {{ page.title }} | {{ site.title }}
+  {% endcapture %}
+{% endif %}
+
+{% if page.layout == "m3/phase" %}
+  {% capture title %}
+    M3 Playbook | Phase {{page.phase}}
+  {% endcapture %}
+{% elsif page.layout == "m3/keyTask" %}
+  {% capture title %}
+    M3 Playbook | Key Task {{page.phase}}.{{page.keyTask}}
+  {% endcapture %}
+{% endif %}
+
+
+{% assign ogtitle = title %}
+{% assign description = site.description %}
+{% assign ogimage = false %}
+
+{% if page.url == "/more-about-shared-services/" %}
+  {% assign ogtitle = "What are Shared Services? - Learn about the Federal Government's Shared Services efforts" %}
+  {% assign description = "A 3-part approach to delivering on the Federal government's vision for shared services." %}
+  {% assign ogimage = "https://ussm.gsa.gov/assets/images/fibf/SM-WhatAreSharedServices600x300.png" %}
+{% elsif page.url contains "fibf" %}
+  {% assign ogimage = "https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png" %}
+{% endif %}
+
 <head>
   <!-- Basic Page Needs
     ================================================== -->
@@ -16,32 +47,34 @@ site, this is the place to do it.
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Title and meta description
     ================================================== -->
-  {% if page.layout == "m3/phase" %}
-    <title>Phase {{page.phase}} | {{page.name}}</title>
-    <meta property="og:title" content="Phase {{page.phase}} | {{page.name}}">
-  {% elsif page.layout == "m3/keyTask" %}
-    <title>Key Task {{page.phase}}.{{page.keyTask}} | {{page.name}}</title>
-    <meta property="og:title" content="{{page.name}}">
-  {% elsif page.title %}
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
-  {% else %}
-    <title>{{site.title}}</title>
-    <meta property="og:title" content="{{site.title}}">
-  {% endif %}
-  <meta property="og:title" content="{{site.title}}">
-  <meta name="description" content="{{site.description}}">
-  <meta property="og:description" content="{{site.description}}">
+  <title>{{title}}</title>
+  <meta property="og:title" content="{{title}}">
+  <meta name="description" content="{{description}}">
+  <meta property="og:description" content="{{description}}">
 
+  {% if ogimage %}
+  <meta property="og:image" content="{{ogimage}}">
+  {% endif %}
+  
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
+  {% if page.url == "/more-about-shared-services/" %}
+  <meta name="twitter:title" content="What are Shared Services? - Learn about the Federal Government's Shared Services efforts" />
+  <meta name="twitter:image" content="https://ussm.gsa.gov/assets/images/fibf/SM-WhatAreSharedServices600x300.png">
+  <meta name="twitter:description" content="A 3-part approach to delivering on the Federal government's vision for shared services." />
+  {% elsif page.url contains "fibf" %}
   <meta name="twitter:title" content="{{site.title}}" />
-  <meta name="twitter:description" content="{{site.description}}" />
   <meta name="twitter:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png">
+  <meta name="twitter:description" content="{{site.description}}" />
+  {% else %}
+  <meta name="twitter:title" content="{{site.title}}" />
+  <!-- <meta name="twitter:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png"> -->
+  <meta name="twitter:description" content="{{site.description}}" />
+  {% endif %}
+  
   <meta property="og:type" content="article">
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
-  <meta property="og:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png">
   <!-- Favicons
     ================================================== -->
   <!-- 128x128 -->
