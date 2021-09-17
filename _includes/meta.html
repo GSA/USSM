@@ -6,19 +6,13 @@ site, this is the place to do it.
 {% assign title = site.title %}
 
 {% if page.title %}
-  {% capture title %}
-    {{ page.title }} | {{ site.title }}
-  {% endcapture %}
+  {% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}
 {% endif %}
 
 {% if page.layout == "m3/phase" %}
-  {% capture title %}
-    M3 Playbook | Phase {{page.phase}}
-  {% endcapture %}
+  {% capture title %}M3 Playbook | Phase {{page.phase}}{% endcapture %}
 {% elsif page.layout == "m3/keyTask" %}
-  {% capture title %}
-    M3 Playbook | Key Task {{page.phase}}.{{page.keyTask}}
-  {% endcapture %}
+  {% capture title %}M3 Playbook | Key Task {{page.phase}}.{{page.keyTask}}{% endcapture %}
 {% endif %}
 
 
@@ -79,7 +73,6 @@ site, this is the place to do it.
     ================================================== -->
   <!-- 128x128 -->
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/img/favicon.ico" />
-  <!--<link rel="shortcut icon" type="image/png" href="{% asset favicons/favicon.ico @path %}">-->
   <link rel="icon" type="image/png" href="{% asset favicons/favicon.png @path %}">
 
   <!-- 192x192, as recommended for Android
