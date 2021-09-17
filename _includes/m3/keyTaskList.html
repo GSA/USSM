@@ -20,14 +20,6 @@
           <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = responsibleParty %}"></use>
         </svg>
         {{responsibleParty}}
-        {% if responsibleParty == "shared" and item.responsibleParty != "shared" %}
-          {% for party in item.responsibleParty %}
-              <svg class="usa-icon color-{{ party }}" aria-hidden="true" focusable="false" role="img">
-                <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = party %}"></use>
-              </svg>
-              {{ party }}
-          {% endfor %}
-        {% endif %}
       </div>
 
       <a href="{{site.baseurl}}{{item.url}}" class="usa-button usa-button--outline">
