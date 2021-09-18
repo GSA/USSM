@@ -93,3 +93,26 @@
 .usa-sidenav a:not(.usa-button):not(.usa-current-1) {
   color: #ffffff;
 }
+
+
+// -webkit-masks because USWDS autoprefixer is not working
+.usa-alert--info:before {
+  -webkit-mask: url(../img/usa-icons/info.svg) no-repeat center/2rem 2rem;
+}
+
+.usa-banner__header-action::after {
+  -webkit-mask: url(../img/usa-icons/expand_more.svg) no-repeat center/1rem 1rem;
+}
+@media (min-width: 40em){
+  .usa-banner__button::after {
+    -webkit-mask: url(../img/usa-icons/expand_more.svg) no-repeat center/1rem 1rem;
+  }
+  .usa-banner__button[aria-expanded="true"]::after {
+    -webkit-mask: url(../img/usa-icons/expand_less.svg) no-repeat center/1rem 1rem;
+  }
+}
+@media (max-width: 39.99em){
+  .usa-banner__button[aria-expanded="true"]::after {
+    -webkit-mask: url(../img/usa-icons/close.svg) no-repeat center/1.5rem 1.5rem;
+  }
+}
