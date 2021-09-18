@@ -1,44 +1,40 @@
 ---
-layout: m3/keyTask
+#layout: m3/keyTask
 phase: 1
 keyTask: 9
-permalink: /1.9/
+#permalink: /1.9/
 name: Define As-Is and Initial Target State Systems Environments
 
 objective: Conduct a thorough stakeholder analysis to understand all impacted organizational groups including the most appropriate ways to communicate with each group. Develop a detailed and comprehensive communications plan.
 responsibleParty: customer
 category: technology
 
-activitiesGroups:
-  - group: Understand the As-Is Systems Environment
-    activities:
-    - text: Validate as-is application landscape
-      responsibleParty: customer
-    - text: Validate as-is interface inventory
-      responsibleParty: customer
-    - text: Validate IT architecture
-      responsibleParty: customer
-    - text: Validate data flows
-      responsibleParty: customer
-    - text: Update the Project Business Case
-      responsibleParty: customer
-    - text: Populate the Investment Readiness Checklist
-      responsibleParty: customer
 
-  - group: Define Initial Target State Systems Environment as part of the Initial Scope of Services desired from the migration
-    activities:
-    - text: Determine functionality and systems to migrate to the provider and those that will be retained
-      responsibleParty: customer
-    - text: Identify required business intelligence capabilities against the <a href="https://ussm.gsa.gov/fibf/">Federal Integrated Business Framework (FIBF)</a> and legacy data management strategy to support reporting needs
-      responsibleParty: customer 
-    - text: Identify required interfaces based on mandatory organization activities
-      responsibleParty: customer
-    - text: Document the initial capabilities to be included in the Initial Target State Concept of Operations
-      responsibleParty: customer
-    - text: Update the Project Business Case and begin filling out the <a href="/assets/files/M3-Playbook-Business-Needs-Workbook-2021.xlsx">Business Needs Workbook</a>
-      responsibleParty: customer
-    - text: Populate the Investment Readiness Checklist
-      responsibleParty: customer
+activities:
+  - text: Validate as-is application landscape
+    responsibleParty: customer
+  - text: Validate as-is interface inventory
+    responsibleParty: customer
+  - text: Validate IT architecture
+    responsibleParty: customer
+  - text: Validate data flows
+    responsibleParty: customer
+  - text: Update the Project Business Case
+    responsibleParty: customer
+  - text: Populate the Investment Readiness Checklist
+    responsibleParty: customer
+  - text: Determine functionality and systems to migrate to the provider and those that will be retained
+    responsibleParty: customer
+  - text: Identify required business intelligence capabilities against the <a href="https://ussm.gsa.gov/fibf/">Federal Integrated Business Framework (FIBF)</a> and legacy data management strategy to support reporting needs
+    responsibleParty: customer 
+  - text: Identify required interfaces based on mandatory organization activities
+    responsibleParty: customer
+  - text: Document the initial capabilities to be included in the Initial Target State Concept of Operations
+    responsibleParty: customer
+  - text: Update the Project Business Case and begin filling out the Business Needs Workbook
+    responsibleParty: customer
+  - text: Populate the Investment Readiness Checklist
+    responsibleParty: customer
 
 
 inputs:

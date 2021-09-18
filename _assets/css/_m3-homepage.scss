@@ -295,7 +295,7 @@ section.usa-hero.m3-framework-overview {
     display: flex;
     flex-wrap: nowrap;
     gap: .5em;
-    margin-left: 9em;
+    margin-left: 10em;
     margin-right: 1em;
     counter-set: my-counter -1;
     padding: 0;
@@ -303,13 +303,30 @@ section.usa-hero.m3-framework-overview {
     li{
       position: relative;
       background: white;
-      padding: 1.5em 1em;
+      // padding: 1.5em 1em;
       box-shadow: #00000033 0px 3px 5px;
       counter-increment: my-counter;
       list-style: none;
       width: 100%;
       min-height: 280px;
       font-size: 12px;
+        transition: all 0.5s ease;
+      
+      &:hover, &:focus-within {
+          box-shadow: 3px 7px 8px #00000033;
+          transform: translateY(-0.5em);
+        }
+
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 20px 1em;
+        color: inherit;
+        text-decoration: none;
+
+        
+      }
 
       &::before {
         content: counter(my-counter);
@@ -331,6 +348,7 @@ section.usa-hero.m3-framework-overview {
     }
     h4{
       color: #0b0083;
+      margin-top: 0;
     }
   }
 }

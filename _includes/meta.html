@@ -13,6 +13,8 @@ site, this is the place to do it.
   {% capture title %}M3 Playbook | Phase {{page.phase}}{% endcapture %}
 {% elsif page.layout == "m3/keyTask" %}
   {% capture title %}M3 Playbook | Key Task {{page.phase}}.{{page.keyTask}}{% endcapture %}
+{% elsif page.layout contains "m3/" %}
+  {% capture title %}M3 Playbook | {{ page.title }}{% endcapture %}
 {% endif %}
 
 

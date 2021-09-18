@@ -168,7 +168,7 @@ sections:
         description: An outcome that should be achieved by the time a phase is complete but is not necessarily a tollgate.
       - name: Output
         description: An artifact or an event that is produced by an activity to facilitate robust planning and migration activities in comprehensive program artifacts.
-      - name: Guildance Item
+      - name: Best Practice
         description: A supporting tool for agencies to evaluate their plans and program artifacts against leading practices; guidance items can be used to shape the content of agency specific documentation when not using a template.
       - name: Progress Review Discussion
         description: A summary review that must be submitted at the end of a phase with key components to inform risk review and budget/funding decisions for the migration.

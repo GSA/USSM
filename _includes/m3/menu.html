@@ -16,7 +16,7 @@ where we provide an easy way to manage your navigation system
           <li class="usa-nav__primary-item">
             <a class="usa-nav__link m3-intro-menuLink" href="{{site.baseurl}}/m3/"><span>
               <img src="{{site.baseurl}}/assets/images/m3-logo-large.svg" alt="M3 Logo">
-              M<sup>3</sup> Playbook
+              M3 Playbook
             </span></a>
           </li>
     
@@ -67,15 +67,6 @@ where we provide an easy way to manage your navigation system
           <li class="usa-nav__primary-item">
             <a class="usa-nav__link{{current}}" href="{{site.baseurl}}/m3resources/"><span>
               Resources
-            </span></a>
-          </li>
-          {% assign current = "" %}
-          {% if page.permalink == "/m3glossary/" %}
-            {% assign current = " usa-current" %}
-          {% endif %}
-          <li class="usa-nav__primary-item">
-            <a class="usa-nav__link{{current}}" href="{{site.baseurl}}/m3glossary/"><span>
-              Glossary
             </span></a>
           </li>
         </ul>
