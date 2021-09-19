@@ -116,3 +116,7 @@
     -webkit-mask: url(../img/usa-icons/close.svg) no-repeat center/1.5rem 1.5rem;
   }
 }
+
+.usa-table thead th, .usa-prose > table thead th {
+  background-clip: unset;
+}

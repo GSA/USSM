@@ -29,20 +29,17 @@ layout: m3/m3-layout
 {% assign customerStakeholders = page.stakeholders | where: 'responsibleParty', "customer" %}
 {% assign providerStakeholders = page.stakeholders | where: 'responsibleParty', "provider" %}
 {% assign qsmoStakeholders = page.stakeholders | where: 'responsibleParty', "qsmo" %}
+{% assign numActivities = 0 %}
+{% assign sumActivities = 0 %}
 
 {% if page.activitiesGroups %}
   {% for item in page.activitiesGroups %}
-
-    {% comment %}
-    TODO:
-    Need to calculate sum of activities across all activity groups
-    {% endcomment %}
-
     {% assign customerActivities = item.activities | where: 'responsibleParty', "customer" %}
     {% assign providerActivities = item.activities | where: 'responsibleParty', "provider" %}
     {% assign qsmoActivities = item.activities | where: 'responsibleParty', "qsmo" %}
     {% assign sharedActivities = item.activities | where: 'responsibleParty', "shared" %}
-    {% assign sumActivities = customerActivities.size | plus: providerActivities.size | plus: qsmoActivities.size %}
+    {% assign sumActivities = sumActivities | plus: customerActivities.size | plus: providerActivities.size | plus: qsmoActivities.size %}
+    {% assign numActivities = numActivities | plus: item.activities.size %}
   {% endfor %}
 {% else %}
   {% assign customerActivities = page.activities | where: 'responsibleParty', "customer" %}
@@ -50,6 +47,7 @@ layout: m3/m3-layout
   {% assign qsmoActivities = page.activities | where: 'responsibleParty', "qsmo" %}
   {% assign sharedActivities = page.activities | where: 'responsibleParty', "shared" %}
   {% assign sumActivities = customerActivities.size | plus: providerActivities.size | plus: qsmoActivities.size %}
+  {% assign numActivities = page.activities.size %}
 {% endif %}
 
 
@@ -147,7 +145,7 @@ layout: m3/m3-layout
                 </li>
                 {% endif %}
                 
-                {% if sumActivities > page.activities.size or sharedActivities.size > 0  %}
+                {% if sumActivities > numActivities or sharedActivities.size > 0  %}
                 <li>
                   <button class="usa-button m3-tag shared" data-filter="shared" aria-controls="keyTasks" role="option" aria-selected="false">
                   <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
