@@ -120,3 +120,6 @@
 .usa-table thead th, .usa-prose > table thead th {
   background-clip: unset;
 }
+.usa-table-container--scrollable td, .usa-prose>.usa-table-container--scrollable td {
+  white-space: unset;
+}
