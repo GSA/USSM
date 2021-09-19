@@ -83,6 +83,9 @@ sections:
         filename: M3-Playbook-Training-Plan-Template.docx
 
   - name: Glossary
-    description: '<a href="/m3glossary/" class="usa-button">View the Glossary</a>'
+    items:
+      - name: View the Glossary
+        url: /m3glossary/
+    #description: '<a href="/m3glossary/" class="usa-button">View the Glossary</a>'
 
 ---
