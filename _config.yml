@@ -123,7 +123,7 @@ primary_navigation:
           show_in_menu: true
           show_in_footer: false
         - text: 'HR Management Services'
-          permalink: /fibf-hr/
+          permalink: /fibf-hr-ac/
           show_in_menu: true
           show_in_footer: false
         - text: 'Compensation and Benefits'
@@ -141,7 +141,7 @@ primary_navigation:
           external: false
           sub: true
         - text: 'Talent Acquisition'
-          permalink: /fibf-hr/
+          permalink: /fibf-hr-ac/
           show_in_menu: true
           show_in_footer: false
           link: true
