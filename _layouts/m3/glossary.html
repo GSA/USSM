@@ -10,16 +10,14 @@ layout: m3/m3-layout-sidenav
     {% if section.description %}
       <p>{{section.description}}</p>
     {% endif %}
-    <dl>
-      <div class="grid-row grid-gap">
+    <ul class="grid-row grid-gap add-list-reset">
       {% for term in section.terms %}
-        <div class="tablet:grid-col-6 padding-bottom-3">
-          <dt class="text-bold">{{ term.name }}</dt>
-          <dd class="margin-0">{{ term.description }}</dd>
-        </div>
+        <li class="tablet:grid-col-6 padding-bottom-3">
+          <div class="text-bold">{{ term.name }}</div>
+          <div class="margin-0">{{ term.description }}</div>
+        </li>
       {% endfor %}
-      </div>
-    </dl>
+    </ul>
   </section>
 {% endfor %}
 </div>
