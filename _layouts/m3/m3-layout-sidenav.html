@@ -17,11 +17,11 @@ This template is for all M3 pages with the M3 sidenav.
         Jump To:
         <ul class="usa-sidenav">
           <li class="usa-sidenav__item">
-            <a href="#main-content">{{page.title}}</a>
+            <a href="#main-content" aria-label="{{page.title}} section">{{page.title}}</a>
           </li>
         {% for section in page.sections %}
           <li class="usa-sidenav__item">
-            <a href="#{{section.name | remove: " "}}">{{section.name}}</a>
+            <a href="#{{section.name | remove: " "}}" aria-label="{{section.name}} section">{{section.name}}</a>
           </li>
         {% endfor %}
         </ul>
