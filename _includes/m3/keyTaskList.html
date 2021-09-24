@@ -60,7 +60,7 @@
     {% assign responsibleParty = item.responsibleParty %}
   {% endif %}
     
-  <div class="usa-modal m3-modal" id="modal-{{ page.phase }}-{{item.keyTask}}" aria-labelledby="modal-{{ page.phase }}-{{item.keyTask}}-heading" aria-describedby="modal-{{ page.phase }}-{{item.keyTask}}-description">
+  <div class="usa-modal m3-modal" id="modal-{{ page.phase }}-{{item.keyTask}}" aria-labelledby="modal-{{ page.phase }}-{{item.keyTask}}-keytask" aria-describedby="modal-{{ page.phase }}-{{item.keyTask}}-keytaskname">
     <div class="usa-modal__content">
       <section class="usa-modal__main">
         <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal="">
@@ -73,8 +73,8 @@
             <svg aria-hidden="true" focusable="false" role="img">
               <use xlink:href="{{site.baseurl}}/assets/images/m3/icon-{{item.category}}.svg#icon-{{item.category}}"></use>
             </svg>
-          <div id="modal-{{ page.phase }}-{{item.keyTask}}-heading" class="keyTask-id">{{ page.phase }}.{{item.keyTask}}</div>
-          <h2 id="modal-{{ page.phase }}-{{item.keyTask}}-description">{{ item.name }}</h2>
+          <div id="modal-{{ page.phase }}-{{item.keyTask}}-keytask" class="keyTask-id" aria-label="Key Task {{ page.phase }}.{{item.keyTask}}">{{ page.phase }}.{{item.keyTask}}</div>
+          <h2 id="modal-{{ page.phase }}-{{item.keyTask}}-keytaskname">{{ item.name }}</h2>
         </section>
 
         <section class="borderBottom">
