@@ -1,6 +1,6 @@
 ---
 layout: standards
-permalink: /fibf-hr/
+permalink: /fibf-hr-ac/
 title: HR Management Services - Talent Acquisition
 sub-title: Talent Acquisition
 sec-title: HR Management Services Standards Lead
