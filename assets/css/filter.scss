@@ -80,7 +80,7 @@
     display: block;
     padding: .5em 1em;
     font-size: 80%;
-    border: solid 1px hsl(0, 0%, 50%);
+    border: solid 1px #767676;
     color: #333;
     text-decoration: none;
     background: white;
@@ -88,11 +88,11 @@
 
 
 .filters a:hover {
-    outline: 2px solid hsl(0, 0%, 50%);
+    outline: 2px solid #767676;
 }
 
 a.checked {
-    background: hsl(0, 0%, 50%);
+    background: #767676;
     color: white;
 }
 
