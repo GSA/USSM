@@ -28,8 +28,10 @@
     left: 0;
 }
 }
-.usa-header + .usa-section, .usa-header + main {
-  border-top: 1px solid #0b0083;
+.m3-page{
+  .usa-header + .usa-section, .usa-header + main {
+    border-top: 0;
+  }
 }
 
 a.usa-nav__link.m3-intro-menuLink {
