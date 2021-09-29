@@ -22,8 +22,7 @@ module Jekyll
       path = "_site/static-api" + post.url + "/data.json"
 
       # TODO: output different set of fields based on pagetype
-      
-      output = [
+      output = {
         "url": post.to_liquid["url"],
         "name": post.to_liquid["name"],
         "phase": post.to_liquid["phase"],
@@ -35,12 +34,18 @@ module Jekyll
         "outputs": post.to_liquid["outputs"],
         "stakeholders": post.to_liquid["stakeholders"],
         "bestPractice": post.to_liquid["bestPractice"],
-        "downloads": post.to_liquid["downloads"],
         "activities": post.to_liquid["activities"],
+        "activitiesGroups": post.to_liquid["activitiesGroups"],
+        "activitiesText": post.to_liquid["activitiesText"],
         "documentation": post.to_liquid["documentation"],
-        "tollgateInfo": post.to_liquid["tollgateInfo"],
-        "exitCriteria": post.to_liquid["exitCriteria"]
-      ]
+        "documentation_intro": post.to_liquid["documentation_intro"],
+        "exitCriteria": post.to_liquid["exitCriteria"],
+        "sections": post.to_liquid["sections"]
+      }
+      
+      # Alternative: Simply output all available data
+      # there are some unwanted items though
+      # output = {"data": post.to_liquid}
 
       FileUtils.mkdir_p(File.dirname(path))
       File.open(path, 'w') do |f|
