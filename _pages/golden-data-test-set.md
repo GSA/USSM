@@ -1,7 +1,7 @@
 ---
 layout: goldendata
 permalink: /golden-data-test-set/
-title: Payroll Golden Data Test Set
+title: Human Capital Golden Data Test Set
 img:
 ---
 An enduring challenge in the Federal IT ecosystem is testing potential new products with relevant "real-world" data prior to a costly acquisition action without infringing upon numerous security requirements, Privacy Act laws, regulations or policies. Programs have spent significant time and money  granting Authority to Operate (ATO) for non-production systems to test de-identified data with a prospective software vendor. A corollary challenge arises when proposing and/or testing interfaces between existing systems that cross Agency or Departmental boundaries.
