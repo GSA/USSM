@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="400" viewBox="0 0 30 60">
+  <g id="Group_4380" data-name="Group 4380" transform="translate(0 0)">
+    <path id="Polygon_3" data-name="Polygon 3" d="M 10 20 l 0 -20 l 20 0 Z
+M 0 40 l 0 -20 l 20 0 Z
+M 0 50 l 0 -10 l 10 0 Z
+M 20 60 l 0 -20 l 10 0 l 0 10 Z" fill="hsl(0deg 0% 0% / 2%)"/>
+    <path id="Polygon_6" data-name="Polygon 6" d="M 0 20 l 10 0 l 0 -10 Z
+M 10 20 l 20 0 l 0 -20 Z
+M 0 40 l 20 0 l 0 -20 Z
+M 20 40 l 10 0 l 0 -10 Z
+M 0 60 l 10 0 l 0 -20 l -10 10 Z
+M 10 60 l 10 0 l 0 -10 l -10 10 Z
+M 20 60 l 10 0 l 0 -10 l -10 10 Z"  fill="hsl(0deg 0% 100% / 3%)"/>
+  </g>
+</svg>

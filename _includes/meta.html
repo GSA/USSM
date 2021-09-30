@@ -3,6 +3,33 @@ You shouldn't have to edit this page very often. But if you want to modify some 
 site, this is the place to do it.
 {% endcomment %}
 
+{% assign title = site.title %}
+
+{% if page.title %}
+  {% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}
+{% endif %}
+
+{% if page.layout == "m3/phase" %}
+  {% capture title %}M3 Playbook | Phase {{page.phase}}{% endcapture %}
+{% elsif page.layout == "m3/keyTask" %}
+  {% capture title %}M3 Playbook | Key Task {{page.phase}}.{{page.keyTask}}{% endcapture %}
+{% elsif page.layout contains "m3/" %}
+  {% capture title %}M3 Playbook | {{ page.title }}{% endcapture %}
+{% endif %}
+
+
+{% assign ogtitle = title %}
+{% assign description = site.description %}
+{% assign ogimage = false %}
+
+{% if page.url == "/more-about-shared-services/" %}
+  {% assign ogtitle = "What are Shared Services? - Learn about the Federal Government's Shared Services efforts" %}
+  {% assign description = "A 3-part approach to delivering on the Federal government's vision for shared services." %}
+  {% assign ogimage = "https://ussm.gsa.gov/assets/images/fibf/SM-WhatAreSharedServices600x300.png" %}
+{% elsif page.url contains "fibf" %}
+  {% assign ogimage = "https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png" %}
+{% endif %}
+
 <head>
   <!-- Basic Page Needs
     ================================================== -->
@@ -16,22 +43,13 @@ site, this is the place to do it.
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Title and meta description
     ================================================== -->
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  {% if page.url == "/more-about-shared-services/" %}
-  <meta property="og:title" content="What are Shared Services? - Learn about the Federal Government's Shared Services efforts">
-  <meta property="og:image" content="https://ussm.gsa.gov/assets/images/fibf/SM-WhatAreSharedServices600x300.png">
-  <meta name="description" content="A 3-part approach to delivering on the Federal government's vision for shared services.">
-  <meta property="og:description" content="A 3-part approach to delivering on the Federal government's vision for shared services.">
-  {% elsif page.url contains "fibf" %}
-  <meta property="og:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png">
-  <meta property="og:title" content="{{site.title}}">
-  <meta name="description" content="{{site.description}}">
-  <meta property="og:description" content="{{site.description}}">
-  {% else %}
-  <meta property="og:title" content="{{site.title}}">
-  <!-- <meta property="og:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png"> -->
-  <meta name="description" content="{{site.description}}">
-  <meta property="og:description" content="{{site.description}}">
+  <title>{{title}}</title>
+  <meta property="og:title" content="{{title}}">
+  <meta name="description" content="{{description}}">
+  <meta property="og:description" content="{{description}}">
+
+  {% if ogimage %}
+  <meta property="og:image" content="{{ogimage}}">
   {% endif %}
   
   <meta name="twitter:card" content="summary_large_image" />
@@ -57,7 +75,6 @@ site, this is the place to do it.
     ================================================== -->
   <!-- 128x128 -->
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/img/favicon.ico" />
-  <!--<link rel="shortcut icon" type="image/png" href="{% asset favicons/favicon.ico @path %}">-->
   <link rel="icon" type="image/png" href="{% asset favicons/favicon.png @path %}">
 
   <!-- 192x192, as recommended for Android

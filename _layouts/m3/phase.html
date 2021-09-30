@@ -1,0 +1,189 @@
+---
+layout: m3/m3-layout
+---
+
+{% assign keyTasks = site.pages | where: 'layout', 'm3/keyTask' | where: 'phase', page.phase %}
+
+{% assign sharedTasks = keyTasks | where: 'responsibleParty', "shared" %}
+{% assign customerTasks = keyTasks | where: 'responsibleParty', "customer" %}
+{% assign providerTasks = keyTasks | where: 'responsibleParty', "provider" %}
+{% assign qsmoTasks = keyTasks | where: 'responsibleParty', "qsmo" %}
+{% assign sumTasks = customerTasks.size | plus: providerTasks.size | plus: qsmoTasks.size %}
+
+<div class="usa-section m3-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap space-between">
+
+      <div class="desktop:grid-col-12">
+        <a href="{{site.baseurl}}/m3">M3 Playbook</a> > Phase {{page.phase}}: {{page.name}}
+        <h1>Phase {{page.phase}}: {{page.name}}</h1>
+      </div>
+
+      <div class="desktop:grid-col-8">
+
+        <div class="m3-summary-box usa-summary-box" role="complementary">
+          <div class="usa-summary-box__body">
+            <h2 class="usa-summary-box__heading">Objective</h2>
+            <div class="usa-summary-box__text">
+              <p>{{page.objective}}</p>
+            </div>
+          </div>
+        </div>
+        <div id="FilterList" class="keyTasks filterlist" data-items=".m3-keyTask" data-filters=".m3-tag" aria-live="polite">
+          <div id="keyTaskHeader">
+            <h2>Key Tasks</h2>
+            <div class="keyTaskLegend">
+              <label for="keyTaskRoles">Filter Responsible Roles:</label>
+              <ul id="keyTaskRoles">
+              
+                {% if customerTasks.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag customer" data-filter="customer" aria-controls="FilterList" role="option" aria-selected="false">
+                    <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                      <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "customer" %}"></use>
+                    </svg>
+                    Customer
+                  </button>
+                </li>
+                {% endif %}
+              
+                {% if providerTasks.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag provider" data-filter="provider" aria-controls="FilterList" role="option" aria-selected="false">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "provider" %}"></use>
+                  </svg>
+                  Provider
+                </button>
+                </li>
+                {% endif %}
+                
+                {% if qsmoTasks.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag qsmo" data-filter="qsmo" aria-controls="FilterList" role="option" aria-selected="false">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "qsmo" %}"></use>
+                  </svg>
+                  QSMO
+                </button>
+                </li>
+                {% endif %}
+                
+                {% if sumTasks > keyTasks.size or sharedTasks.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag shared" data-filter="shared" aria-controls="FilterList" role="option" aria-selected="false">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "shared" %}"></use>
+                  </svg>
+                  Shared
+                </button>
+                </li>
+                {% endif %}
+              </ul>
+            </div>
+          </div>
+          <section class="keyTaskCategory programManagement">
+            <h3 id="" class="keyTaskCategoryHeading">
+              <svg aria-hidden="true" focusable="false" role="img">
+                <use xlink:href="{{site.baseurl}}/assets/images/m3/icon-programManagement.svg#icon-programManagement"></use>
+              </svg>
+              Program Management
+            </h3>
+            {% assign list = keyTasks | where: 'category', 'programManagement' | sort: "keyTask" %}
+            {% include m3/keyTaskList.html %}
+          </section>
+          
+          <section class="keyTaskCategory workforce">
+            <h3 id="" class="keyTaskCategoryHeading">
+              <svg aria-hidden="true" focusable="false" role="img">
+                <use xlink:href="{{site.baseurl}}/assets/images/m3/icon-workforce.svg#icon-workforce"></use>
+              </svg>
+              Workforce, Organization, and Stakeholders
+            </h3>
+            {% assign list = keyTasks | where: 'category', 'workforce' | sort: "keyTask" %}
+            {% include m3/keyTaskList.html %}
+          </section>
+          
+          <section class="keyTaskCategory technology">
+            <h3 id="" class="keyTaskCategoryHeading">
+              <svg aria-hidden="true" focusable="false" role="img">
+                <use xlink:href="{{site.baseurl}}/assets/images/m3/icon-technology.svg#icon-technology"></use>
+              </svg>
+              Technology
+            </h3>
+            {% assign list = keyTasks | where: 'category', 'technology' | sort: "keyTask" %}
+            {% include m3/keyTaskList.html %}
+          </section>
+          
+          <section class="keyTaskCategory process">
+            <h3 id="" class="keyTaskCategoryHeading">
+              <svg aria-hidden="true" focusable="false" role="img">
+                <use xlink:href="{{site.baseurl}}/assets/images/m3/icon-process.svg#icon-process"></use>
+              </svg>
+              Process and Service Delivery
+            </h3>
+            {% assign list = keyTasks | where: 'category', 'process' | sort: "keyTask" %}
+            {% include m3/keyTaskList.html %}
+          </section>
+        </div>
+
+        {% if page.exitCriteria %}
+        <div class="m3-summary-box usa-summary-box" role="complementary">
+          <div class="usa-summary-box__body">
+            <h2 class="usa-summary-box__heading">Exit Criteria (to move into Phase {{ page.phase | plus:1 }})</h2>
+            <div class="usa-summary-box__text">
+              <ul>
+                {% for item in page.exitCriteria  %}
+                <li>
+                  {% if item.url %}
+                  <a href="{{site.baseurl}}/m3/{{ item.url }}">{{ item.name }}</a>
+                  {% else %}
+                  {{ item.name }}
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+
+      </div>
+      <div class="desktop:grid-col-3">
+        {% if page.documentation %}
+        <section id="documentation">
+          <h2>Phase {{ page.phase }} Examples:	</h2>
+          <a href="https://community.max.gov/pages/viewpage.action?spaceKey=GSA&title=M3+Artifact+Samples">M3 Examples MAX Page</a>
+          <h2>Phase {{ page.phase }} Documentation</h2>
+          {% if page.documentation_intro %}
+            <p>{{page.documentation_intro}}</p>
+          {% endif %}
+          <ul>
+            {% if page.documentation %}
+            {% assign documentationByName = page.documentation | sort: "name" %}
+            {% for item in documentationByName %}
+            <li>
+              
+              {% if item.filename %}
+                <a href="{{site.baseurl}}/assets/files/{{item.filename}}">{{ item.name }}</a>
+              {% elsif item.url %}
+                <a href="{{ item.url }}">{{ item.name }}</a>
+              {% else %}
+                {{ item.name }}
+              {% endif %}
+            </li>
+            {% endfor %}
+              
+            {% endif %}
+          </ul>
+          {% if page.documentation_outro %}
+            <p>{{page.documentation_outro}}</p>
+          {% endif %}
+        </section>
+        {% endif %}
+        
+      </div>
+      
+    </div>
+  </div>
+</div>

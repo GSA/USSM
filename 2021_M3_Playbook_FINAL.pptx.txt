@@ -1,0 +1,3867 @@
+Modernization and Migration Management (M3) Playbook
+GSA, Unified Shared Services Management
+1
+
+Introduction 
+I-1
+2
+
+Modernization and Migration Management (M3) Framework
+I-2
+The Modernization and Migration (M3) Framework is the roadmap for agencies “buying a service” - delivering projects on time, on budget, and on value. The M3 framework is designed to help Chief Financial Officers (CFO) Act agencies achieve successful outcomes and reduce risk during administrative system and/or service modernizations and migrations.
+
+The M3 Framework is a six-phased approach to system and service modernizations and migrations including objectives, key activities and outcomes for each phase. Within each phase, there are associated activities grouped across four workstreams: (1) Program Management,	(2) Workforce, Organization and Stakeholders, (3) Technology, (4) Process and Service Delivery 
+
+The M3 Framework is aligned with the Investment Planning Process – CFO Act agencies may be required to conduct mandatory formal reviews. These reviews are designed to: 1) Evaluate migration risk and make recommendations to customer and provider organizations to mitigate potential hurdles to success, and 2) Assess outcomes at each phase and make recommendations to Office of Management and Budget (OMB) on budgeting for modernization and migration investments.
+3
+
+What is the M3 Playbook? The M3 Playbook was developed to help customer and provider organizations apply the M3 Framework. The M3 Playbook is not prescriptive, but provides guidance, tools, and templates, based on best practices, to help CFO Act agency customers and providers improve the likelihood of successful outcomes of their modernization and migration projects. Customers and providers are encouraged to leverage their own tools and templates to satisfy the expected outcomes.The Playbook consists of guidance and tools to help agencies plan for and navigate transitions. It was developed based on feedback from over 100 Government and industry experts, reflects best practices and lessons learned from prior migrations and is updated annually.60+ Activities: Descriptions for how to apply the M3 framework, including detailed activity steps, inputs, outputs, lessons learned, and stakeholders involved.25+ Templates: Template documents that include comprehensive guidance that aid customers and providers in the completion of activities and provide key considerations.Examples: An OMB Max page that includes sample documentation from previous modernization and migration projects.M3 Document and Example Tracker: Outlines the initial creation and updates of M3 Documents as outlined throughout all Phases for easy-to-follow tracking and maintenance. It also includes a list of current M3 Examples as stored on Max.gov.
+I-3
+
+
+
+
+Who are the Responsible Parties? Customers are agency program/project managers or representatives that will use the M3 Playbook to develop an understanding of how to approach shared services modernization.
+
+QSMOs (Quality Service Management Offices) are OMB designated federal agencies serving as governmentwide storefronts and brokers, offering multiple solutions for technology and services in their functional area. They offer modern technology and transaction processing solutions to drive scale, standardization, and efficiency. Housed in federal agencies with the mission and expertise to deliver standard capabilities for other agencies, QSMOs are trusted advisors that:
+
+Offer and manage a marketplace of solutions for common technology, services, or fully managed services to respond to agency needs;
+Guide and govern the long-term sustainability of the services and solutions marketplace;
+Institute a customer engagement and feedback model that allows for continuous improvement and performance management of solutions; and
+Drive the implementation to standards established through the collaborative governance process that produce efficiencies in process and scale.
+
+Providers offer customers with access to technology and services within their designated functional area, and use the M3 Playbook to assist customer agencies in their shared services modernization journeys. There are two types of Shared Services Providers (SSP’s), Federal Shared Services Providers (FSSPs) and Commercial Shared Services Providers (CSSPs). 
+
+Shared indicates a shared responsibility between customers and providers.
+
+Who is OSSPI?
+The Office of Shared Solutions and Performance Improvement (OSSPI) coordinates government-wide shared services governance, executes program management, and develops processes to support development and implementation of OMB policy as it relates to mission support services. For the M3 Playbook, OSSPI coordinates and organizes between customers, QSMOs, and providers potentially escalating questions, concerns, and useful information as needed.
+
+I-4
+
+Who are the Stakeholders?
+Below are a list of potential stakeholders with representation from customers, QSMOs, providers, and Shared parties:
+
+Budget or Financial Analyst
+Business Owner
+Change Management Lead
+Communications Lead
+Configuration Lead
+Contracting or Procurement Officer
+Data Conversion Lead
+Data Subject Matter Expert (SME)
+Development Team
+Executive Sponsor
+Functional Lead
+Functional SME
+Information Systems Security Officer (ISSO)
+Interface Lead
+Independent Verification & Validation (IV&V) Team
+Labor Relations Leader
+Network SME
+Operations & Maintenance (O&M) Team
+Organization Executives (CXOs)
+OSSPI
+
+
+Project Management Office (PMO) Lead
+PMO Team
+Program Manager
+QMSO
+Requirements Lead
+Risk Lead
+Risk Manager
+Security Lead
+Security SME
+Service Area Lead/Service Area Sponsor
+Technical Lead/Solution Architect
+Technical SME
+Test Lead
+Test Team
+Training Lead
+Workforce Lead
+I-5
+
+Overview 
+O-1
+7
+
+Modernization and Migration Management (M3) Playbook Overview
+Key Activities*
+Exit Outcomes
+Objective
+Assess different providers to understand which can best meet the scope of services requirements
+Select provider for Engagement 
+Begin preparing the organization for change
+Conduct initial data cleansing
+Provider Selected
+Provider Agreements Established
+Mitigation Plans in Place for Major Risks/Issues
+Initial Master Schedule Updated
+Data Cleansing Commenced
+Life Cycle Cost Estimate Updated
+Communications to Stakeholders Delivered
+2. Selection
+Conduct due diligence to select the provider based on capabilities, requirements, and desired target end state
+Conduct a Requirements Fit-Gap Analysis to understand how the requirements will be met and where tailored solutions will be required
+Define Migration Approach and roadmap
+Integrate PMO processes between the customer and provider
+Requirements Fit-Gap Analysis Completed
+PMO and Governance Processes Integrated
+Migration Approach Finalized
+Master Schedule Drafted
+Service Level Agreements (SLAs) defined    
+Go/No-Go Criteria Approved
+3. Engagement
+Conduct detailed planning through a Fit-Gap Analysis and finalize the migration and Operations and Maintenance (O&M) approach and costs
+Configure, test, and deploy the new solution and concept of operations
+Migrate in-scope processes and design the transformed organization for the future state environment 
+Go/No-Go Criteria Met to Deploy Solution
+4. Migration
+Configure, test, and deploy the new system, concept of operations, and workforce design
+Monitor the success of the migration and move into operations
+Continue training and communications
+Conduct process improvement and customer care activities
+Post-migration Performance Metrics Reported
+Lessons Learned Report Developed
+5. Operations
+Deliver services and conduct continuous process improvement
+PMO and Governance Structure Defined
+Resources On Boarded
+Mitigation Plans in Place 
+       for Major Risks/Issues
+Initial Master Schedule Defined 
+Life Cycle Cost Estimate Developed
+Change Management Strategies Defined
+Data Quality Assessed
+Acquisition Strategy Developed
+Business Capabilities Defined
+1. Readiness
+Establish Program Management Office (PMO)
+Define migration scope of services and program management processes
+Establish customer risk processes
+Assess data quality
+Conduct Market Research
+Conduct Acquisition Planning
+Prepare the customer organization for the modernization effort and define capabilities
+Vision Statement, Expected Benefits, and High Level Timelines
+Project Business Case
+0. Assessment
+Define Vision
+Develop Project Business Case
+Build a vision and Project Business Case for the migration or modernization
+Investment Review Process
+Progress Review
+* Agencies purchasing transaction processing services only will customize the M3 Playbook using the M3 Services Tailoring Guide to identify relevant activities and outputs within each Phase of the M3 Framework. **An agile approach should be adopted for Phase 4.
+
+The M3 Playbook is not prescriptive – it is guidance for customer and provider organizations to help improve the successful outcomes of modernizations and migrations. Customers and providers are encouraged to tailor the M3 Playbook to leverage their own tools and templates to satisfy the expected outcomes.
+O-2
+
+M3 Playbook Outline
+Investment Review Process
+Phase 0: Assessment
+Phase 2: Selection
+Phase 3: Engagement
+Phase 4: Migration 
+Phase 5: Operations
+0.1 Define Vision 
+0.2 Develop Project Business Case
+1.1 Conduct a Business Readiness Assessment
+1.2 Establish Customer Program Management Office (PMO) Processes
+1.3 Establish Customer Governance Structure and Processes
+1.4 Establish Customer Risk Processes
+1.5 Develop Life Cycle Cost in the Business Case
+1.6 Define Target Performance Metrics
+2.1 Select Provider for Engagement
+2.2 Update Life Cycle Cost Estimate 2.3 Monitor and Control Program Execution
+2.4 Maintain and Execute Risk Processes
+3.1 Integrate Program Management Office (PMO) Structures
+3.2 Integrate Governance Structures
+3.3 Monitor and Control Program Execution
+3.4 Maintain and Execute Risk Processes
+3.5 Finalize Migration Approach
+
+4.1 Monitor and Control Program Execution 
+4.2 Maintain and Execute Risk Processes
+4.3 Develop Operations and Maintenance (O&M) Governance 
+4.16 Assess Readiness for Go-Live
+
+5.1 Review Performance Against Expected Benefits
+5.2 Collect Lessons Learned
+5.3 Implement Operations & Maintenance (O&M) Governance
+
+1.7 Define Change Management Approach 
+1.8 Define Stakeholders and Develop Communications Plan
+2.5 Design Labor Relations Outreach
+2.6 Solidify Change Management Plan
+3.6 Engage with Labor Relations
+3.7 Execute Change Management Plan
+3.8 Develop Training Plan 
+4.5 Design Target State Organization
+4.13 Execute Workforce Transition and Prepare for Go-Live
+4.14 Execute Training for Go-Live
+4.15 Execute Labor Relations Strategy
+5.4 Support Stabilization and Perform Change Management
+1.9 Define As-Is and Initial Target State Systems Environments
+1.10 Plan and Conduct Initial Data Quality Assessment
+
+2.7 Conduct Initial Data Cleansing Activities
+2.8 Develop a Decommission Plan
+
+3.9 Finalize Requirements
+3.10 Conduct Requirements Fit-Gap Analysis
+3.11 Finalize Target State Systems Environment
+3.12 Develop Technical Strategy
+3.13 Prepare Data for Mock Conversions (Data Cleansing, Data Mapping)
+4.6 Conduct Security and Privacy Reviews
+4.7 Define Roles and User Access
+4.8 Configure Systems 
+4.9 Design and Develop Interfaces 
+4.10 Design and Develop Reports
+4.11 Conduct Mock Conversions
+4.12 Test Systems and Processes
+4.17 Develop and Execute Cutover Plan for Go-Live
+5.5 Maintain Applications Post Go-Live
+5.6 Decommission Legacy Systems
+1.11 Develop Initial Target State Concept of Operations and Scope of Services 1.12 Review Standard Business Capabilities & Document Initial Business Capabilities1.13 Conduct Market Research and Analysis
+1.14 Develop Acquisition Strategy 
+2.9 Understand As-Is Business Processes
+3.14 Finalize Target State Concept of Operations
+3.15 Define Contact Center Structure
+3.16 Define Service Level Agreements (SLAs)
+4.4 Design Target State Processes
+5.7 Conduct Continuous Process Improvement
+5.8 Manage Integrated Contact Center
+5.9 Monitor and Update Service Level Agreements (SLAs)
+Progress Review
+Phase 1: Readiness
+
+
+
+Program Management
+
+
+
+Workforce, Organization, & Stakeholders
+
+
+
+
+
+Technology
+
+
+
+Process & Service Delivery
+*An agile approach should be adopted for Phase 4.
+Responsible Party:            Customer             QSMO             Provider             Shared
+O-3
+9
+
+How to Read an Activity Description
+Objective:
+Provides the overall objective of the activity
+
+Activities:
+Describes the step-by-step activities that the program team should conduct in order to achieve the intended objective
+Inputs:
+Lists inputs that will be needed to conduct the activities
+
+Outputs:
+Lists the required outputs at the end of the activities
+Responsible Party: Indicates the party/parties responsible for the activity as denoted by the letter at the end of each activity
+Stakeholders:
+Describes who is typically involved in the activities
+Best Practice:
+Provides best practice from previous migrations for consideration as activities are conducted
+Workstreams:
+Indicates the workstream in which the activity occurs: PMO (dark green), Change Management (light blue), Technology (light green), or Process & Service Delivery (dark blue)
+O-4
+
+Frequently Used Terms
+Input
+A document (usually created in a prior activity), or an event required by that process before a process proceeds
+Output 
+A document, or event that is produced by an activity to facilitate robust planning and migration activities
+Exit Outcome
+An outcome that should be achieved by the time a phase is complete
+Template
+A document that contains required fields and details for an output
+Progress Review Discussions
+A summary presentation that must be submitted at the end of a phase progress review with key components to inform risk review and budget/funding decisions for the migration 
+Best Practice
+Recommended actions for specific activities derived from successful migrations and lessons learned. Includes guidance on the content development of specific documentation when not using a template
+O-5
+
+Phase 0: Assessment
+0-1
+
+Program 
+Management
+Workforce, Organization, & Stakeholders
+Technology
+Process & Service 
+Delivery
+0.1 Define Vision 
+0.2 Develop Project Business Case
+
+
+
+Phase 0 Summary and Documentation
+Exit Criteria (to Move to Phase 1) 
+In-Scope Service Area(s) and Function(s)
+Steering Committee Review of Project Business Case
+Vision Statement, Expected Benefits, and High Level Timelines
+Phase 0 Documentation
+Investment Readiness Checklist
+Project Business Case
+Vision Statement
+
+Navigate to OMB CPIC Guidance to complete the Project Business Case by clicking here.
+Information Contained in Review Discussion (if necessary)
+In-Scope Service Area(s) and Function(s)
+Vision Statement
+Objective: 
+Fulfill requirement to submit capital planning investments though Capital Planning and Investment Control (CPIC) process with required additional information.
+Phase 0 Documentation: 
+The following documentation is developed during Phase 0, follows Federal CPIC requirements, and is used to inform a review, if necessary. Agencies should follow CPIC guidance to develop these outputs. Agencies purchasing transaction processing services only will identify relevant activities and examples for their project using the M3 Services Tailoring Guide.
+Phase 0: Assessment
+Activities
+Examples:
+For sample documentation from previous modernizations and migrations, please go to M3 Examples MAX Page. 
+0-2
+Responsible Party:            Customer             QSMO             Provider             Shared
+13
+
+Program Management0.1 Define Vision 
+Objective: Define vision and objectives for the Modernization or Migration to Common Solution.
+Activities
+Conduct an organizational review assessing current state analysis to identify potential areas for a modernization or migration effort (C)
+Determine optimal path for modernization or migration effort; keeping services in-house or moving to an external shared service solution (look to the Embarking On Shared Services Strategies Tool) (C)
+Create Vision Statement and Objectives of modernization or migration (C)
+Identify in-scope service area(s) provided through the Federal Integrated Business Framework (FIBF) website (e.g. financial management, human capital, acquisition, grants management, travel) (C)
+Identify in-scope function(s) from service area list provided through FIBF website (C)
+Begin to define Scope of Services (i.e. modernizing to shared system, migrating to shared transaction processing service(s), or both) (C)
+Conduct initial market research with QSMOs to identify what currently exists in the QSMO Marketplace (C), (Q)
+If no previous engagement has occurred, coordinate with QSMOs for costing information, additional detail, and Investment Action Planning (IAP) discussions (C) 
+Define Expected Benefits from the Service and/or System being acquired (C)
+Determine High Level Timelines for modernization or migration (C)
+Outputs
+Vision Statement
+In-scope Service Area(s) and Function(s) 
+Expected Benefits
+High Level Timelines
+Best Practice
+Leverage an outside group for facilitation of visioning session with organization executives. Consider contacting ussm.m3@gsa.gov for facilitation services
+Define the following if hosting a visioning session with key stakeholders: vision statement and objectives, identify which service areas will be migrated to a common solution, identify functions available through the FIBF, expected benefits from the Service and/or System being acquired, and high level timelines
+To help prepare and facilitate a visioning session, the following documents can be utilized: search “Establish or Update your Vision Statement” on pic.gov to define vision, leverage the Goal Playbook to create goals or search “Set or Revise Goals” on pic.gov, and search “Outcomes Matrix” on pic.gov to help define the end state
+For a cloud migration, consider contacting GSA’s Data Center Optimization Initiative (DCOI) at dcoi@gsa.gov and reviewing the following resources in MAX: “Cloud Readiness: Preparing Your Agency for Migration”, “Key Cost Considerations for Agencies Planning Cloud Migration”, “DCOI PMO IaaS Considerations for the Data Center Community”
+0-3
+Stakeholders
+Executive Sponsor (C)
+Organization Executives (CXOs) (C)
+Program Manager (C)
+PMO Lead, if on-boarded (C)
+QSMO (Q)
+Inputs
+Government-wide Standards defined through the FIBF website
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+
+
+
+Program Management0.2 Develop Project Business Case
+Objective: Develop the Project Business Case for funding.
+Activities
+The M3 Playbook uses the overarching term “Project Business Case” to describe any business case (Major IT, Services, Minor IT, etc.). For a Major IT Investment, click here for guidance. For all other efforts, navigate to the M3 Examples MAX Page and select a business case that best resembles your agency's effort as a guide. Complete the following steps regardless of the investment type:
+Conduct high-level Alternatives Analysis to gather preliminary information needed for the Project Business Case (C)
+Populate the Project Business Case with Activity 0.1 Outputs: Vision Statement, Scope of Services, Expected Benefits, High Level Timelines, and regularly engage with QSMOs throughout Project Business Case development (C)
+Identify preliminary investment information based on the migration or modernization effort with criteria listed in the Project Business Case (C)
+Identify preliminary estimated life cycle cost for this investment (C)
+Identify preliminary activities that are performed to achieve the outcome of each project (C)
+Identify preliminary risks to each project’s success (C)
+Identify preliminary performance targets and results for evaluating operations. (C)
+Populate the Project Business Case with preliminary information (C)
+Internal Steering Committee review of Project Business Case (C)
+Populate the Investment Readiness Checklist (C)
+Stakeholders
+Executive Sponsor (C)
+Organization Executives (CXOs) (C)
+Program Manager (C)
+PMO Lead, if on-boarded (C)
+Functional SME (C)
+
+Inputs
+Vision Statement
+In-scope Service Area(s) and Function(s) 
+Expected Benefits
+High Level Timelines
+Government-wide Standards defined through the Federal Integrated Business Framework (FIBF) website
+Capital Planning and Investment Control (CPIC) Guidance
+Outputs
+Project Business Case
+Investment Readiness Checklist
+Best Practice
+Use existing performance metric data to assist in identifying performance targets (e.g. previous Federal Benchmarking results, Customer Satisfaction Surveys, Shared Service Survey, etc.). Consider contacting ussm.m3@gsa.gov for assistance researching agency specific and government-wide results
+Operational performance metrics should seek to answer more subjective questions in the specific areas of: Customer Satisfaction, Strategic and Business Results, Financial Performance, and Innovation 
+All projects should have a business case. However, the Major IT Business Case is not required where no major IT acquisition and no capital assets are being procured 
+Use the Investment Readiness Checklist throughout Phase 1 to verify that the correct information is included in the Project Business Case and pinpoint any missing information
+0-4
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+
+Phase 1: Readiness
+1-1
+
+Phase 1 Summary and Documentation
+ Exit Criteria (to move into Phase 2)
+Acquisition Strategy
+Baseline and Target Performance Success Metrics Defined; Aligned with Performance Framework
+Change Management Strategies Defined
+Completed Business Readiness Assessment
+Completed Project Business Case
+Confirmed Alignment of Business Capabilities against FIBF
+Data Quality Assessed
+Initial Master Schedule Defined
+Initial QSMO Marketplace Research Conducted
+Investment Readiness Checklist
+LCCE Developed
+Mitigation Plans in Place for Major Risks/Issues
+PMO and Governance Structure Defined
+Resources On-Boarded
+Risks and Issues Management Defined
+Information Contained in Progress Review Discussion
+Acquisition Strategy
+Baseline and Target Performance Success Metrics Defined
+Business Capabilities
+Business Readiness Assessment
+Change Management and Communications Approach
+Data Management/Data Quality Approach
+Initial Master Schedule Overview
+Investment Readiness Checklist
+IV&V Plan
+LCCE
+Market Research
+M3 Risk Assessment Tool
+Program Governance Model
+Project Business Case
+Resource Management Plan
+Scope of Services Overview
+Top Risks
+Objective:
+Prepare the migrating organization by defining initial scope of services and customer governance for the modernization effort.
+Phase 1 Documentation:
+The following documentation is developed throughout Phase 1 and is used to inform the Phase 1 Progress Review discussion: the M3 Services Tailoring Guide for transaction services, Investment Readiness Checklist, Business Readiness Assessment, and Project Business Case.
+Phase 1 Documentation
+Acquisition Strategy 
+As-Is Systems Environment  
+As-Is Workforce Documentation 
+Baseline and Target Performance and Success Metrics
+Business Capabilities
+Business Needs Workbook 
+Business Readiness Assessment
+Change Management Plan 
+Change Readiness Assessment
+Communications Plan
+Data Cleansing Plan 
+Data Governance Model 
+Governance Plan
+Independent Verification & Validation (IV&V) Plan
+Initial Master Schedule 
+Investment Readiness Checklist
+Life Cycle Cost Estimate (LCCE) 
+M3 Risk Assessment Tool
+Migration and O&M training needs
+Program Charter
+Program Management Plan
+Project Business Case
+Quality Assurance Surveillance Plan (QASP)
+Requirements Management Plan
+Resource Management Plan
+Risk Management Plan
+Risks, Actions, Issues, and Decisions (RAID) Log
+Stakeholder Analysis
+Status Reports/Dashboard
+Target State Concept of Operations
+Target State Systems Environment 
+Workforce Assessment 
+Examples:
+For sample documentation from previous modernizations and migrations, please go to M3 Examples MAX Page.  
+1-2
+Responsible Party:            Customer             QSMO             Provider             Shared
+Program 
+Management
+Workforce, Organization, & Stakeholders
+Technology
+Process & Service 
+Delivery
+1.1 Conduct a Business Readiness Assessment 
+1.2 Establish Initial Customer Program Management Office (PMO) Processes
+1.3 Establish Customer Governance Structure and Processes
+1.4 Establish Customer Risk Processes 
+1.5 Develop Life Cycle Cost in the Business Case
+1.6 Define Target Performance Metrics
+1.7 Define Change Management Approach
+1.8 Define Stakeholders and Develop Communications Plan
+1.9 Define As-Is and Initial Target
+State Systems Environments
+1.10 Plan and Conduct Initial Data Quality Assessment
+1.11 Develop Initial Target State Concept of Operations and Scope of Services
+1.12 Review Standard Business Capabilities and Document Initial Business Capabilities
+1.13 Conduct Market Research and Analysis 
+1.14 Develop Acquisition Strategy
+Phase 1: Readiness
+Activities
+17
+
+Program Management1.1 Conduct a Business Readiness Assessment
+Activities
+Review shared Vision Statement and Objectives of modernization or migration effort from Phase 0 (C)
+Assess the agency's existing solution by documenting its high-level capabilities, offerings, challenges, and limitations (C)
+Define the target operational end state and draft desired high-level business requirements (C)
+Identify gaps in business needs between the existing solution and target end state (C)
+Brainstorm methods to close identified business need gaps (C)
+Update Business Readiness Assessment template (C)
+Inform QSMOs of Business Readiness Assessment results (C)
+Update the Project Business Case with Business Readiness Assessment results (C)
+Populate the Investment Readiness Checklist (C)
+
+1-3
+Inputs
+Project Business Case
+Vision Statement
+Stakeholders
+Executive Sponsor (C)
+Program Manager (C)
+PMO Lead (C)
+PMO Team, if on-boarded (C)
+
+Outputs
+Business Readiness Assessment
+Best Practice
+Reference past Annual Readiness Assessment Reports, available on the Data to Decisions (D2D) website, to help perform the gap analyses
+Clearly articulate the Vision, Objectives, and strategic intent of modernization or migration effort
+Host a working session to ensure all major stakeholders understand the identified gaps in business needs
+Establish how this effort aligns to current initiatives that are underway
+Establish a shared vision with a sense of urgency based on data
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Objective: Conduct a Business Readiness Assessment to identify gaps between the agency’s existing solution and target end state and manage stakeholders in the process.
+
+
+
+Program Management1.2 Establish Initial Customer Program Management Office (PMO) Processes
+Activities
+Onboard PMO lead and team to support Phase 1 activities (C)
+Develop Program Charter (C)
+Develop Resource Management Plan (including PMO roles and responsibilities) (C)
+Develop Program Management Plan (including risk, acquisition, cost, communications/stakeholder, and quality) (C)
+Develop Initial Master Schedule for Phases 1 and 2 activities  (C)
+Develop Independent Verification & Validation (IV&V) Plan (C)
+Execute onboarding/off boarding activities as defined within the Resource Management Plan (C)
+Begin executing against Program Management Plan (C)
+Manage schedule weekly by updating activities, dates, duration, and dependencies in conjunction with activity owners (C)
+Develop Status Report/Dashboard and report on schedule, issues, and risks (C)
+Update the Project Business Case (C)
+Populate the Investment Readiness Checklist (C)
+Inputs
+Project Business Case
+Vision Statement
+Best Practice
+Establish the necessary PMO structure, staff, and processes upfront as it will set the stage for the remainder of the migration
+Maintain the same key personnel throughout the program 
+Develop Program Charter with a defined scope upfront based on the agreed upon vision; the Initial Master Schedule should be flexible and closely monitored for necessary updates
+Align program resources in the Initial Master Schedule to the Resource Management Plan and Acquisition Strategy. Develop work breakdown structure (WBS), critical path, schedule management process, and identify dependencies 
+Agencies purchasing transaction processing services only should use the M3 Services Tailoring Guide to identify M3 activities and outputs relevant to their project
+Develop IV&V Plan to independently and proactively identify risks, define reporting structure, integrate governance processes, and establish procedures to incorporate findings
+Clearly articulate goals and objectives that capture the “why” of the change and a high level statement of future activities
+Stakeholders
+Executive Sponsor (C)
+Program Manager (C)
+PMO Lead (C)
+PMO Team, if on-boarded (C)
+
+
+Outputs
+Program Charter
+Resource Management Plan
+Program Management Plan 
+Initial Master Schedule 
+IV&V Plan 
+Status Reports/Dashboards 
+1-4
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Objective: Establish a customer PMO structure as well as supporting PMO processes to manage and oversee program activities.
+
+
+
+Program Management1.3 Establish Customer Governance Structure and Processes
+Activities
+Identify or create customer governance bodies that will participate in the program and integrate with broader governance structures (C)
+Assign a designated point of contact to serve as the QSMO Liaison (C)
+Define governance authority, roles, and responsibilities for oversight, management decision-making, and risk/issue escalation procedures (C)
+Establish regular meeting cadence and reporting timelines for Phases 1 and 2 (C)
+Develop Governance Plan (C) 
+Begin executing against Governance Plan (C)
+Escalate decisions, risks, and issues to governance bodies for decision making and issue resolution (C)
+Hold regular governance meetings to review progress and address escalated decisions, risks, and issues (C)
+Update the Project Business Case (C)
+Populate the Investment Readiness Checklist (C)
+
+Stakeholders
+Executive Sponsor (C)
+Business Owner (C)
+Program Manager (C)
+PMO Lead (C)
+PMO Team (C)
+Functional Lead (C)
+Technical Lead/Solution Architect (C)
+Change Management Lead (C)
+
+Outputs
+Governance Plan
+Inputs
+Project Business Case
+Program Management Plan
+Existing Governance Bodies within Customer Organization
+Best Practice
+Develop internal governance model at the beginning of the migration to make decisions in alignment with the objectives and goals of the program
+Obtain buy-in from internal organizations early on to establish collaboration throughout the migration; obtain buy-in from executives, managers, and line personnel as stakeholders and Subject Matter Experts (SMEs)
+Encourage decisions to be made at the lowest possible level, while allowing elevation of important or contentious issues through the governance model
+Incorporate a variety of stakeholders, including the governance and transition team, in the development of the agency vision
+Ensure that leadership within the governance structure is able to make all necessary decisions with regard to financing and direction
+Assign a QSMO Liaison as a designated point of contact to increase efficiency
+1-5
+Objective: Develop a governance structure that establishes program activity ownership and decision making authority for the customer throughout the migration.
+
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+
+Program Management1.4 Establish Customer Risk Processes 
+Objective: Establish a Risk Management Plan and supporting processes to identify risks and develop risk mitigation plans throughout the migration.
+
+Activities
+Develop risk management processes and associated roles and responsibilities for identifying and mitigating risks in the Risk Management Plan (C)
+Develop and employ mitigation strategies continuously throughout Phase 1 (C)
+Maintain and update Risks, Actions, Issues, and Decisions (RAID) Log with new risks, changes to existing risks, and status of risk management activities continuously at a minimum of every two weeks throughout Phase 1 (C)
+Report on new risks/issues and ongoing risk/issue mitigation activities in governance meetings and Status Reports/Dashboards (C) 
+
+Update Risk Management Plan as necessary (C)
+Document Action Items and Decisions in the RAID log (C)
+Perform Risk Assessment (C)
+Update the Project Business Case (C)
+Populate the Investment Readiness Checklist (C)
+
+Inputs
+Program Charter
+Governance Plan
+Program Management Plan 
+Initial Master Schedule
+Project Business Case
+
+Stakeholders
+Executive Sponsor (C)
+Business Owner (C)
+Program Manager (C)
+Risk Manager (C)
+PMO Lead (C)
+PMO Team (C)
+Outputs
+Risk Management Plan
+RAID Log
+M3 Risk Assessment Tool
+Status Reports/Dashboards 
+Best Practice
+Identify roles and responsibilities for risk management early on and establish a risk manager to coordinate all risk management activities throughout the program
+Train migration team members on how to identify and document risk mitigation plans and how to escalate and communicate to leadership effectively
+1-6
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+
+Program Management1.5 Develop Life Cycle Cost in the Business Case
+Activities
+Develop Life Cycle Cost Estimate (LCCE) based on information gained in previous activities (e.g., requirements gathering, acquisition decisions, risk mitigation, scope of services) and reasonableness and affordability (C)
+Develop LCCE for all future phases (C) 
+Compare actual spending with budget and adjust LCCE as needed (C)
+
+Report changes to program costs and actual spending in governance meetings and Status Reports/Dashboards (C) 
+Update the Project Business Case (C)
+Populate the Investment Readiness Checklist (C)
+
+Inputs
+Project Business Case 
+Scope of Services  
+Best Practice
+Plan multi-year budget requests through life cycle cost analyses based on expected scope and operational impacts of releases 
+Provide LCCE at the work breakdown structure (WBS) product or activity level, breakout costs as recurring/non-recurring (e.g., migration and Operations and Maintenance costs), align budget estimates and other required investment documentation (e.g., E300) to the LCCE, and receive final approval from the Executive Sponsor
+LCCE examples are available on the M3 Example MAX Page
+1-7
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Objective: Develop the estimated costs of a migration based on the customer Scope of Services requirements to manage and plan budgetary needs.
+
+Stakeholders
+Executive Sponsor (C)
+Program Manager (C)
+PMO Lead (C)
+PMO Team (C)
+Budget or Financial Analyst (as needed) (C)
+
+Outputs
+LCCE 
+Status Reports/Dashboards 
+
+Program Management1.6 Define Target Performance Metrics
+Activities
+Understand government-wide shared services performance goals and strategic drivers based on the objectives of the program (C), (Q)
+Understand strategic drivers based on the objectives of the program (C), (Q)
+Identify and document metrics to measure outcomes of the program against government-wide shared services performance goals and strategic drivers (C), (Q)
+Set baselines for current state performance metrics and define success targets expected to be achieved after completion of the program (C)
+Develop reporting mechanism, in coordination with the guidance set forth in the QSMO Performance Management Framework, and timeline to report on metrics after migration Go-Live (C), (Q)
+Update the Project Business Case (C)
+Populate the Investment Readiness Checklist (C)
+
+Inputs
+Organization Strategic Goals and Objectives
+Government-wide Shared Services Strategic Goals and Objectives 
+Project Business Case
+Best Practice
+Set defined performance and success metrics (including a combination of compliance, process, and workload measures to define baselines and target metrics) at the beginning of the program to be able to measure and communicate the benefits intended, and ultimately achieved, by the program
+Benchmark Key Performance Indicators (KPIs) against internal and external standards and use existing performance metric data to assist in identifying performance targets (e.g. previous Federal Benchmarking results, Shared Services Customer Satisfaction Surveys, etc.). Consider contacting ussm.m3@gsa.gov for assistance researching agency specific and government-wide results
+In most cases greater efficiencies are achieved, but short-term cost reductions are not. With the introduction of greater amounts of IT support however, substantial savings are realized in the longer term
+Stakeholders
+Business Owner (C)
+Executive Sponsor (C)
+Program Manager (C)
+PMO Lead (C)
+PMO Team, if on-boarded (C)
+QSMO (Q)
+Outputs
+Baseline and Target Performance Success Metrics
+1-8
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Objective: Define the programs target performance metrics based on the strategic objectives of the organization.
+
+Workforce, Organization & Stakeholders1.7 Define Change Management Approach
+Objective: Assess the organization’s readiness for change to inform the change management approach and strategies. Determine the as-is workforce of the customer organization to understand how the migration will impact the organization. 
+
+
+Inputs
+Vision Statement
+Project Business Case
+Current Organization Structure
+Position Descriptions 
+Best Practice
+Confirm the accuracy of the organization structures based on the records maintained by first level managers and the customer Human Capital office
+A Change Readiness Assessment involves the periodic assessment of how stakeholders are responding or engaging with the change. Note this is not a one-time assessment. If an organization’s leadership and management are driving the change in a modeled way, then they should see changes in readiness scores as the change process approaches
+Industry standards and change management best practices provide multiple change models that can be harnessed based on preference or organizational needs (e.g., Prosci, Prosci’s ADKAR Change Model, Kotter, Lewin’s Change Model) 
+Change management’s end goal is shifting the organization from a state of resistance to acceptance. Utilize the Change Curve to better understand the stages of individual transition and organizational change. Top level leadership commitment and active support for the change effort drives the most impact when implementing any change
+Stakeholders
+Business Owner (C)
+PMO Team (C)
+Change Management Lead (C)
+Workforce Lead (C)
+Outputs
+As-Is Workforce Documentation
+Current Organization Structure
+Initial Change Readiness Assessment
+Change Management Plan
+Workforce Assessment
+Status Reports/Dashboards 
+
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Activities
+Conduct a Workforce Assessment by documenting as-is organization structure, skills, capabilities, and workload (C)
+Validate As-is Workforce and Workload Documentation with customer organization managers (C)
+Conduct an initial Change Readiness Assessment (C) 
+Based on initial Change Readiness Assessment, identify initial key Change Management initiatives, strategies, and approaches to guide the as-is organization through the change (C) 
+Report updates in governance meetings, Status Reports/Dashboards, and to QSMOs (C) 
+Update the Project Business Case (C)
+Populate the Investment Readiness Checklist (C)
+1-9
+
+Workforce, Organization & Stakeholders1.8 Define Stakeholders and Develop Communications Plan
+Objective: Conduct a thorough stakeholder analysis to understand all impacted organizational groups including the most appropriate ways to communicate with each group. Develop a detailed and comprehensive communications plan.
+ 
+Activities
+Conduct Stakeholder Analysis to identify all stakeholders that will potentially be affected (C)
+Develop an initial Communications Plan including audience, purpose, delivery methods, and timeline considerations (C) 
+Document migration and Operations and Maintenance (O&M) training needs to inform the Target State Concept of Operations and Initial Scope of Services (C) 
+Create a feedback mechanism to collect input from stakeholders throughout the program (C)
+Update the Project Business Case (C)
+Populate the Investment Readiness Checklist (C)
+Inputs
+As-Is Workforce Documentation
+Current Organization Structure
+Change Readiness Assessment
+Change Management Plan
+Project Business Case
+
+Best Practice
+The Stakeholder Analysis is necessary to strategically and proactively communicate and involve stakeholders in change management activities, which will improve stakeholder engagement, reduce risk, and remove barriers to migration
+Incorporate change management strategies and approaches, as applicable, directly into communications planning (e.g., targeted email campaigns, leadership brown bags)
+Include Communications Lead early in the process and consider Communications Lead’s roles throughout the entire process
+Provide frequent, early, and as close to real-time audience targeted communication updates throughout the process. Communications may need to account for a union presence, reach out internally within the agency to determine appropriate handlings
+Communicate the value and benefits of migration and business process changes to the larger workforce after the business case and throughout the implementation
+Stakeholders
+PMO Team (C)
+Change Management Lead (C)
+Communications Lead (C)
+Outputs
+Stakeholder Analysis 
+Communications Plan
+Migration and O&M training needs
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+1-10
+
+Technology1.9 Define As-Is and Initial Target State Systems Environments
+Objective: Understand and validate the As-is Systems Environment, including applications, interfaces, data management, and security needs, and draft the initial high-level Target State Systems Environment. 
+ 
+Activities
+Understand the As-is Systems Environment 
+Validate as-is application landscape (C)
+Validate as-is interface inventory (C)
+Validate IT architecture (C)
+Validate data flows (C)
+Update the Project Business Case (C)
+Populate the Investment Readiness Checklist (C)
+
+Define Initial Target State Systems Environment as part of the Initial Scope of Services desired from the migration
+Determine functionality and systems to migrate to the provider and those that will be retained (C)
+Identify required business intelligence capabilities against the Federal Integrated Business Framework (FIBF) and legacy data management strategy to support reporting needs (C) 
+Identify required interfaces based on mandatory organization activities (C)
+Document the initial capabilities to be included in the Initial Target State Concept of Operations (C)
+Update the Project Business Case and begin filling out the Business Needs Workbook (C)
+Populate the Investment Readiness Checklist (C)
+
+Inputs
+Vision Statement 
+Project Business Case
+Existing Enterprise Architecture Documents & System Specifications
+Best Practice
+Begin with the current systems architecture and specification documents to understand as-is systems environment
+Assess the data needs for business intelligence capabilities between mission and mission-support systems
+Assess current capabilities to help determine whether the capability should be developed internally or migrated to the provider
+Use the Business Needs Workbook to document and prioritize target systems/services including performance capabilities for implementation based on customer’s prioritization 
+
+Stakeholders
+Business Owner (C)
+Program Manager (C)
+Functional Lead (C)
+Technical Lead/Solution Architect (C)
+Interface Lead (C)
+Functional SME (C)
+Technical SME (C)
+Outputs
+As-Is Systems Environment  
+Target State Systems Environment 
+Target State Concept of Operations
+
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+1-11
+
+Technology1.10 Plan and Conduct Initial Data Quality Assessment
+Activities
+Develop Data Governance Model to include the approach, process, roles and responsibilities, criteria/metrics (C)
+Determine criteria for assessing data quality (C)
+Conduct Data Quality Assessment, including master and transactional data (C)
+Identify data issues (e.g. duplication, missing data, incorrect data) based on the assessment and prioritize data cleansing needs (C)
+Develop a Data Cleansing Plan based on the prioritization (C)
+Report updates in governance meetings and Status Reports/Dashboards (C) 
+Begin initial data cleansing (C)
+Update the Project Business Case (C)
+Populate the Investment Readiness Checklist (C)
+
+
+Inputs
+Existing System Data Dictionaries
+Existing Data Quality Assessments
+Functional Specifications
+Project Business Case
+Best Practice
+It is critical to success to begin data cleansing activities well before migration activities begin and continuously throughout the implementation to assist with data readiness
+Define and establish the framework for the overall management of the availability, usability, integrity, and security of data in the Data Governance Model
+Assign dedicated resources for data cleansing activities to ensure successful migration
+Gain agreement on data governance including metadata management and data quality management
+Allocate a sufficient number of Subject Matter Experts (SMEs) with the appropriate skill sets to support data conversion activities throughout the implementation
+Establish criteria and metrics through the Data Governance Model on what threshold constitutes “clean” data. Outline the course of actions to cleanse data in legacy systems or staging area to prepare it for migration to the provider system in the Data Cleansing Plan
+Stakeholders
+Business Owner (C)
+Program Manager (C)
+Functional Lead (C)
+Technical Lead/Solution Architect (C)
+Data Conversion Lead (C)
+Data SME (C)
+Outputs
+Data Governance Model 
+Data Cleansing Plan 
+Status Reports/Dashboards 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+1-12
+Objective: Develop initial data governance approach and conduct initial data quality assessment and cleansing plan.
+
+
+
+
+Process and Service Delivery1.11 Develop Initial Target State Concept of Operations and Scope of Services 
+Objective: Define which processes and service layers are desired to be migrated to the provider versus retained to understand the Target State Concept of Operations and identify initial performance requirements.
+
+.
+Activities
+Review Vision Statement (C)
+Understand the as-is operating model including people, process, organization, and systems (C) 
+Validate and update as-is operating model with stakeholders (C) 
+Validate the scope of service for Operations and Maintenance (O&M) and Migration (C):
+O&M type of support (e.g. seeking transaction processing, system only, or full services)
+Additional O&M support services (e.g. help desk, business intelligence, training, surge support) 
+Migration support services (e.g. training, data conversion, data clean-up)
+
+Identify major processes that will be performed in the new solution, how users will   interact with the solution, the future state operating model (which processes will be performed where in the future), and how the solution will be supported during 
+O&M (C)
+Define the Target State Concept of Operations for retained and modernized/migrated systems and processes, which includes the Target State Systems Environment (C)
+Report updates in governance meetings and Status Reports/Dashboards (C)
+Update the Project Business Case and Business Needs Workbook (C)
+Populate the Investment Readiness Checklist (C)
+Inputs
+Vision Statement
+Project Business Case
+As-Is Business Process Documentation
+As-Is Systems Environment 
+Target State Systems Environment  
+Migration and O&M Training needs
+Business Needs Workbook
+Best Practice
+Understand which processes should be retained versus migrated
+Understand which processes will have to change due to the migration to a shared environment
+Document the process taxonomy to determine what will stay, what will go, and what will be migrated 
+Define all target systems/services, including expected performance requirements (e.g., estimated services/transaction volumes), performance metrics (i.e. based on the Federal Integrated Business Framework), and prioritized target systems/services for implementation developing prioritization basis for the scope of services for O&M and Migration
+Stakeholders
+Executive Sponsor (C)
+Business Owner  (C)
+Program Manager (C)
+Functional Lead (C)
+Function SME (C)
+PMO Lead (C)
+PMO Team (C)
+Outputs
+Target State Concept of Operations
+Scope of Services updated in Business Needs Workbook
+Status Reports/Dashboards 
+1-13
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+
+
+
+28
+
+Process and Service Delivery1.12 Review Standard Business Capabilities and Document Initial Business Capabilities
+Activities
+Review Standard Business Capabilities previously defined by Government-wide Standards working group provided through the Federal Integrated Business Framework (FIBF) website (C)
+As needed, document additional capabilities referencing the authoritative source and prioritize must-have versus nice-to-have capabilities against the FIBF capabilities (C)
+Identify Business Standards Lead through the FIBF website and discuss additional capabilities identified in step 2 above with the Business Standards Lead (C)
+Validate capabilities with Business Owners and perform initial baselining (C)
+Report updates in governance meetings and Status Reports/Dashboards (C)
+Define requirements and management processes and document in the Requirements Management Plan (C)
+Update the Project Business Case and Business Needs Workbook (C)
+Populate the Investment Readiness Checklist (C)
+Consider steps 1.1 and 1.2 of the Investment Planning Guidance and engage with QSMOs as necessary (C)
+
+Best Practice
+Define capabilities within the customer organization before engaging a provider to communicate needs in a consistent manner 
+Provide criteria to define mission critical versus nice-to-have capabilities to enable improved provider selection
+Provide training to Subject Matter Experts (SMEs) on requirements processes and how to define, communicate, and document mission critical requirements
+Obtain a robust requirements management tool or process to manage requirements throughout the migration, including a robust change control process
+In Phase 1, customers should not create detailed business requirements for every service, but should instead focus on documenting must-have capabilities not in the FIBF Business Capabilities. Examples of capabilities that should be documented include; must-have mandatory system interfaces, hours of operation or availability of services, or other criteria that a provider must be able to meet in order to provide services to the customer. Customers and providers will not jointly discuss detailed technical and functional requirements until Phase 3
+Stakeholders
+Executive Sponsor (C)
+Business Owner (C)
+Business Standards Lead (C)
+Program Manager (C)
+PMO Lead (C)
+Functional Lead (C)
+Technical Lead/Solution Architect (C)
+Requirements Lead (C)
+Functional SME (C)
+Technical SME  (C) 
+Outputs
+Requirements Management Plan 
+Business Needs Workbook
+Business Capabilities
+Status Reports/Dashboards 
+1-14
+Objective: Document business capabilities, mission critical, and unique capabilities of the customer organization to support the Business Readiness Assessment.
+.
+Inputs
+Vision Statement
+Target State Concept of Operations
+Target State Systems Environment
+Government-wide Standards Defined through FIBF
+Project Business Case
+Business Needs Workbook
+As-Is Systems Environment
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+
+Process and Service Delivery1.13 Conduct Market Research and Analysis 
+Best Practice
+Research QSMO Marketplace offerings and available resources/best practices first before exploring other providers
+Stakeholders
+Executive Sponsor (C)
+Business Owner (C)
+Program Manager (C)
+PMO Lead (C)
+Functional Lead (C)
+Technical Lead/Solution Architect (C)
+Requirements Lead (C)
+QSMO (Q)
+Outputs
+1-15
+Objective: Research and engage with QSMOs on available solution offerings within the marketplace and assess the solutions’ ability to meet business, capability, and requirement needs.
+Activities
+Review the Requirements Management Plan, Business Needs Workbook, Business Capabilities, and Business Readiness Assessment Template from previous activities (C), (Q)
+Meet with QSMOs to review business needs and available marketplace solutions (C)
+Evaluate whether a QSMO marketplace solution can meet business, capability, and requirements needs (C), (Q) 
+If a QSMO solution does not satisfy the needs, work with the QSMO to understand the process and documentation required for developing an Investment Action Plan (IAP) (C), (Q)
+Develop a recommendation with supporting rationale from QSMOs for a proposed path forward (C), (Q)
+Update the Project Business Case (C)
+Populate the Investment Readiness Checklist (C)
+Inputs
+Requirements Management Plan 
+Business Needs Workbook
+Business Capabilities
+Business Readiness Assessment
+Project Business Case
+
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+
+Process and Service Delivery1.14 Develop Acquisition Strategy 
+Objective: Develop approach and plan to procure products and services for customer planning and to support activities for which customer is responsible throughout the migration.
+
+
+Activities
+Define acquisition needs and associated timelines for the program which may include support for program management, change management, business process reengineering, data management, interface development, and integration (C)
+Collaborate with category manager to identify Acquisition Strategy (C)
+Coordinate with QSMOs to obtain Acquisition Strategy templates (e.g. Statements of Work) and other relevant Acquisition Strategy documentation, if available (C)
+Develop a plan that documents the approach for program acquisition for support services as well as provider migration and operations and maintenance (O&M) (C) 
+Develop Quality Assurance Surveillance Plan (QASP) and approach to monitor metrics and performance of provider during the migration (C)
+Begin developing Requests for Proposals (RFPs) utilizing the Federal Integrated Business Framework (FIBF) standards, Requests for Quotes (RFQs), and Performance Work Statements (PWSs) to procure support or other services for activities the customer will be performing (C)
+Obtain contract support through Phases 1 and 2 (C)
+Report changes to Acquisition Strategy in governance meetings and Status Reports/Dashboards (C) 
+Update the Project Business Case and submit for funding (C)
+Complete the Investment Readiness Checklist (C)
+Inputs
+Program Charter  
+Governance Plan
+Program Management Plan
+Life Cycle Cost Estimate (LCCE) 
+Project Business Case
+
+Best Practice
+Identify personnel with critical skill sets and align them with specific program activities; bring on Subject Matter Experts (SMEs) and information technology (IT) personnel early to ensure a successful migration in later phases
+Define people, budget, and contracts before beginning implementation activities; align activities to specific resources in the Initial Master Schedule
+Map the agency system development life cycle (SDLC), if existent, to the M3 framework to identify appropriate agency documentation and templates that can be adapted to the M3 framework in order  to minimize re-work
+When developing an Acquisition Strategy, align all program acquisitions with the Resource Management Plan, define scope and period of performance for each contract, integrate Contracting Officer’s Representative (COR), and define types of contracts and acquisition methods for all planned program acquisitions
+Follow FAR and any internal agency processes (e.g. FAR 7.105, Acquisition Strategy, written plans)
+Stakeholders
+Executive Sponsor (C)
+Business Owner (C)
+Program Manager (C)
+PMO Lead (C)
+PMO Team (C)
+Contracting or Procurement Officer (as needed) (C)
+
+Outputs
+Acquisition Strategy 
+QASP
+Status Reports/Dashboards 
+Investment Readiness Checklist
+Completed Project Business Case
+
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+1-16
+
+Exit Criteria (to move into Phase 2)
+Acquisition Strategy
+Baseline and Target Performance Success Metrics Defined; Aligned with Performance Framework
+Change Management Strategies Defined
+Completed Business Readiness Assessment
+Completed Project Business Case
+Confirmed Alignment of Business Capabilities against FIBF
+Data Quality Assessed
+Initial Master Schedule Defined
+Initial QSMO Marketplace Research Conducted
+Investment Readiness Checklist
+LCCE Developed
+Mitigation Plans in Place for Major Risks/Issues
+PMO and Governance Structure Defined
+Resources on-boarded
+Risks and Issues Management Defined
+Documentation Required for Phase 1 Progress Review
+The following documentation is developed throughout Phase 1 and is used to inform the Phase 1 Progress Review discussion. The M3 Services Tailoring Guide for transaction services, Investment Readiness Checklist, Business Readiness Assessment, and Project Business Case.
+Information Contained in Progress Review Discussion
+Acquisition Strategy
+Baseline and Target Performance Success Metrics Defined
+Business Capabilities
+Business Readiness Assessment
+Change Management and Communications Approach
+Data Management/Data Quality Approach
+Initial Master Schedule Overview
+Investment Readiness Checklist
+IV&V Plan
+LCCE
+Market Research 
+M3 Risk Assessment Tool
+Program Governance Model
+Project Business Case
+Resource Management Plan
+Scope of Services Overview
+Top Risks
+
+
+
+
+
+Phase 1 Documentation
+Acquisition Strategy 
+As-Is Systems Environment  
+As-Is Workforce Documentation 
+Baseline and Target Performance and Success Metrics
+Business Capabilities
+Business Needs Workbook 
+Business Readiness Assessment
+Change Management Plan 
+Change Readiness Assessment
+Communications Plan
+Data Cleansing Plan 
+Data Governance Model 
+Governance Plan
+Independent Verification & Validation (IV&V) Plan
+Initial Master Schedule 
+Investment Readiness Checklist
+Life Cycle Cost Estimate (LCCE) 
+M3 Risk Assessment Tool
+Migration and O&M training needs
+Program Charter
+Program Management Plan
+Project Business Case
+Quality Assurance Surveillance Plan (QASP)
+Requirements Management Plan
+Resource Management Plan
+Risk Management Plan
+Risks, Actions, Issues, and Decisions (RAID) Log
+Stakeholder Analysis
+Status Reports/Dashboard
+Target State Concept of Operations
+Target State Systems Environment 
+Workforce Assessment 
+1-17
+32
+
+Phase 2: Selection
+2-1
+33
+
+Phase 2 Summary and Documentation
+ Exit Criteria (to move into Phase 3)
+Business Needs Workbook
+Communications to Stakeholder Delivered
+Data Cleansing Commenced
+Initial Master Schedule Updated
+LCCE
+Mitigation Plans in Place for Major Risks/Issues
+Provider Agreement
+Provider Selected
+Staffing Plan Ready for Execution
+Information Contained in Progress Review Discussion
+Acquisition Strategy
+Business Needs Workbook
+Change Management and Communication Approach
+Data Management/Data Quality Approach
+Decommission Plan
+Initial Master Schedule Overview
+Labor Relations Strategy
+LCCE
+M3 Risk Assessment Tool
+Provider Agreement
+Provider Selection Summary
+Request for Proposal (RFP) (Commercial Only)
+Resource Management Plan Overview (Provider)
+Resource Management Plan Update (Customer)
+Scope of Services Overview
+Top Risks 
+Objective:
+Conduct due diligence to identify and select the provider based on requirements and initial target end state.
+Phase 2 Documentation:
+The following documentation is developed during Phase 2 and is used to inform the Phase 2 Progress Review discussion. Agencies purchasing transaction processing services only will identify relevant activities and examples for their project using the M3 Services Tailoring Guide.
+Phase 2 Documentation
+Acquisition Strategy
+Business Needs Workbook 
+Business Process Reengineering Strategy
+Change Management Plan 
+Change Readiness Assessment
+Communications Plan 
+Cost Estimates
+Data Cleansing Plan
+Data Cleansing Scripts
+Decommission Plan
+Governance Plan
+Implementation Approach/Schedule
+Independent Verification and Validation (IV&V) Plan 
+Initial Master Schedule 
+Labor Relations Strategy
+Life Cycle Cost Estimate (LCCE) 
+M3 Risk Assessment Tool
+Program Management Plan
+Provider Agreement
+Provider Assessment Report (Federal Only)
+Request for Proposal (RFP) (Commercial Only)
+Resource Management Plan 
+Risk Management Plan 
+Risks, Actions, Issues, and Decisions  (RAID) Log 
+Stakeholder Analysis
+Status Reports/Dashboards 
+Target State Concept of Operations
+Validated As-Is Process Maps 
+Examples:
+For sample documentation from previous modernizations and migrations, please go to M3 Examples MAX Page.  
+2-2
+Responsible Party:            Customer             QSMO             Provider             Shared
+Program 
+Management
+Workforce, Organization, & Stakeholders
+Technology
+Process & Service 
+Delivery
+2.1 Select Provider for Engagement
+2.2 Update Life Cycle Cost Estimate (LCCE) 
+2.3 Monitor and Control Program Execution
+2.4 Maintain and Execute Risk Processes
+2.5 Design Labor Relations Outreach
+2.6 Solidify Change Management Plan
+2.7 Conduct Initial Data Cleansing Activities
+2.8 Develop a Decommission Plan
+2.9 Understand As-Is Business Processes
+Phase 2: Selection
+Activities
+34
+
+Program Management2.1 Select Provider for Engagement 
+Objective: Customers will select the appropriate path forward, evaluate the capabilities of potential providers, and providers will help determine the fit of a potential customer-provider engagement. 
+Inputs
+Scope of Services 
+Business Capabilities
+Target State Concept of Operations
+Business Needs Workbook
+Acquisition Strategy 
+QASP
+
+Outputs
+Business Needs Workbook
+Implementation Approach/Schedule
+Cost Estimates
+Investment Action Plan (if applicable)
+Provider Assessment Report (Federal Only)
+Provider Agreement (IAA, if Federal )
+RFP (Commercial Only)
+Stakeholders
+Executive Sponsor (C)
+Business Owner (C)
+Program Manager (C, P)
+Functional Lead (C, P)
+Functional SME (C, P)
+Technical Lead/Solution Architect (C, P)
+Technical SME (C, P)
+Managing Partner/Service Area Sponsor (Service Area)
+QSMO (Q)
+Activities
+Select the proposed path forward within the QSMO Marketplace (C), (Q)
+Exception: If no marketplace exists or marketplace solutions do not meet the need, proceed to Step 2: Investment Action Plan (IAP) in the Investment Planning Guidance (C), (Q)
+Complete Business Needs Workbook on requested services (C)
+Potential providers complete Business Needs Workbook on provided services if not already captured in the QSMO Marketplace (P)
+Develop the Implementation Approach, proposed schedule, and cost estimate (C)
+Commercial Shared Services Providers (CSSP)
+For a CSSP, draft Request for Proposal (RFP) in accordance with QSMO task order review guidance for M3 Phase 3 with optional tasks for M3 Phases 4 and 5, and review with QSMO prior to releasing for commercial providers to respond (C), (Q)
+Issue RFP, assess responses and select provider (C), (Q)
+Select provider, negotiate, finalize, and sign Provider Agreement (C), (P), (Q)
+Federal Shared Services Providers (FSSP) 
+For a FSSP, develop a Provider Assessment Report (C)
+Select provider and develop, negotiate, and finalize Provider Agreement (Interagency Agreement [IAA]) (C), (P), (Q)
+Sign Provider Agreement (IAA) (C), (P), (Q)
+Best Practice
+Include use of M3 Playbook in the requirements for the contract with the provider and support contractors in managing project risks
+Use previously developed understanding of the target state to populate the Business Needs Workbook 
+Use the Business Needs Workbook to facilitate due diligence conversations on the provider’s ability to satisfy those the Federal Integrated Business Framework (FIBF) 
+common requirements on which the customer’s environment is based
+2-3
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+
+Program Management2.2 Update Life Cycle Cost Estimate (LCCE)
+Objective: Update the LCCE of a migration based on Phase 1 and the cost estimates from providers to manage and plan budgetary needs.
+Activities
+Identify changes required to the Life Cycle Cost Estimate (LCCE) based on cost estimates prepared by providers during Phase 2 including reasonableness and affordability (C)
+Compare actual spending with budget for Phase 2 and adjust LCCE as needed (C)
+Update LCCE for all future phases (C)
+
+Report changes to projected costs and results of actual spending in governance meetings and Status Reports/Dashboards, informing QSMOs as necessary  (C) 
+
+
+Inputs
+LCCE
+Business Capabilities
+Target State Concept of Operations
+Target State Systems Environment
+Cost Estimates from Provider
+Scope of Services
+
+Outputs
+LCCE 
+Status Reports/Dashboards 
+Stakeholders
+Executive Sponsor (C)
+Business Owner (C)
+Program Manager (C)
+PMO Lead (C)
+PMO Team (C)
+Budget or Financial Analyst (as needed) (C)
+Best Practice
+Conduct life cycle cost analyses and incorporate initial migration cost estimates from the provider in order to plan out-year budget needs and requests
+Be realistic about when cost savings will be realized by tracking cost and efficiencies achieved during the full implementation of the vision through to the decommissioning of the legacy system
+Include direct and indirect costs in estimates
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+2-4
+
+Program Management2.3 Monitor and Control Program Execution 
+Objective: Monitor and report on program progress.
+Activities
+Manage scope and program performance using Program Management Plan (C)
+Manage Initial Master Schedule through weekly updates of activities, dates, duration, and dependencies (C)
+Manage costs against the budget (C)
+Manage acquisition lifecycle and contract performance against Acquisition Strategy for Phase 2 program support services (C) 
+Manage and update Resource Management Plan as resources are on or off boarded or as needs change (C)
+Update program management documentation as necessary (C)
+Develop and distribute Status Reports/Dashboards (C)
+Hold status meetings to monitor status against milestones, issues, risks, and make decisions needed for work-streams, informing QSMOs as necessary (C)
+Escalate decisions and issues as needed through Governance bodies (C)
+Conduct executive briefings with organization leadership and oversight entities as necessary (C)
+Develop and manage Resource Management Plan, Scope of Services overview, and Mitigation Plans (P)
+Draft initial program management documentation for Phase 3 Engagement (P)
+Best Practice
+Implement knowledge management tools that can be leveraged across the program team
+Use the Status Reports/Dashboards to focus on metrics that will help the program team and executive sponsor identify whether or not the migration is successful
+Inputs
+Program Charter 
+Program Management Plan
+Initial Master Schedule
+Independent Verification & Validation (IV&V)  Plan
+Resource Management Plan
+Governance Plan
+Acquisition Strategy 
+Outputs
+Acquisition Strategy 
+Initial Master Schedule 
+Resource Management Plan
+Program Management Plan
+IV&V Plan 
+Status Reports/Dashboards 
+Stakeholders
+Executive Sponsor (C)
+Business Owner (C)
+Program Manager (C)
+PMO Lead (C)
+PMO Team (C)
+Managing Partner/Service Area Sponsor (Service Area)
+
+
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+2-5
+
+Program Management2.4 Maintain and Execute Risk Processes
+Objective: Execute risk management processes to identify and mitigate risks and issues throughout the migration.
+Activities
+Maintain and update Risk Management Plan, as necessary (C)
+Maintain and update Risks, Actions, Issues, and Decisions (RAID) Log with new risks, changes to existing risks, status of risk mitigation activities, and action item resolution and decisions continuously (at a minimum of every two weeks) throughout Phase 2 (C)
+Develop and employ mitigation strategies continuously throughout Phase 2 (C)
+Report on new risks/issues and ongoing risk/issue mitigation activities in governance meetings and Status Reports/Dashboards, informing QSMOs as necessary (C) 
+Perform Risk Assessment (C)
+
+Inputs
+Governance Plan 
+Risk Management Plan
+RAID Log
+Best Practice
+Hold regular risk management meetings and include risk management in status reporting and escalation procedures
+Document risks and issues in RAID Log in order to clearly communicate risks
+Stakeholders
+Executive Sponsor (C)
+Business Owner (C)
+Program Manager (C)
+Risk Manager (C)
+PMO Lead (C)
+PMO Team (C)
+IV&V Team (C)
+Outputs
+Risk Management Plan 
+RAID Log 
+M3 Risk Assessment Tool
+
+Status Reports/Dashboards 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+2-6
+
+Objective: Develop a strategy to engage with the unions and establish a relationship with the labor relations and/or unions to understand Collective Bargaining Agreements.
+Workforce, Organization & Stakeholders2.5 Design Labor Relations Outreach
+Activities
+Identify Labor Relation/Union Liaisons within the customer agency (C)
+
+Work with your Labor Relation/Union Liaisons to:
+Review Target State Concept of Operations, capabilities, and previously completed Workforce Assessment to identify potential impacts on Collective Bargaining Agreements (C)
+Identify what, if any, activities may be dependent on union approval (e.g., impact of implementation) (C)
+Develop Labor Relations Strategy to achieve timely and effective negotiations with unions and begin documenting necessary information to communicate to Labor Relations (C)
+Engage in communications with union leadership based on Labor Relations Strategy (C)
+Report updates in governance meetings and Status Reports/Dashboards, informing QSMOs as necessary (C) 
+
+Inputs
+Collective Bargaining Agreements
+Stakeholder Analysis
+Workforce Assessment
+Target State Concept of Operations
+Scope of Services
+Change Management Plan
+
+Outputs
+Labor Relations Strategy
+Status Reports/Dashboards 
+Stakeholders
+Executive Sponsor (C)
+Business Owner (C)
+Change Management Lead (C)
+Labor Relations Leader (C)
+
+
+
+Best Practice
+Notify unions of changes that may impact bargaining unit employees as well as potential changes of their work
+Account for union-related activities in the Initial Master Schedule and building dependencies for change management activities (e.g., communications, training) 
+Establish expectations with labor relations and union leadership
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+2-7
+
+Workforce, Organization & Stakeholders2.6 Solidify Change Management Plan
+Activities
+Update the Change Readiness Assessment (if necessary) and finalize the Change Management Plan; including the strategies and timeline (C)
+Update Communications Plan based on labor relations meetings (C)
+Develop and deliver messages based on the Communications Plan (C)
+Monitor feedback from stakeholders and adjust Communications Plan (C)
+Report updates in governance meetings and Status Reports/Dashboards, informing QSMOs as necessary (C)
+Inputs
+Labor Relations Strategy
+Change Readiness Assessment
+Change Management Plan
+Communications Plan
+Best Practice
+Communicate the value/benefits of migrations and business process changes to the larger workforce throughout the program
+Identify and describe the people, groups, departments, organizations, business processes, programs, and information technology (IT) systems/infrastructure that will serve as barriers to the change. Describe the ways in which these things will be a barrier to change
+Include barriers and understand key stakeholders and how they will react to the migration in the key messages
+Ensure all major stakeholders understand and buy in to the shared vision defined in Phase 0 and understand the role they play in the success of the initiative as outlined in the Project Business Case. The shared vision and roles stakeholders play should be reflected in the organization's Strategic Plan and personnel performance appraisals
+Stakeholders
+Business Owner (C)
+Program Manager (C)
+Change Management Lead (C)
+Communications Lead (C)
+
+
+Outputs
+Change Readiness Assessment
+Change Management Plan
+Communications Plan
+Status Reports/Dashboards 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Objective: Update Change Management Plan based on selected provider and deliver communications to engage stakeholders prior to the migration.
+2-8
+
+Technology2.7 Conduct Initial Data Cleansing Activities
+Activities
+Assess data quality against defined criteria in the Data Cleansing Plan after cleansing activities from previous phase (C)
+Update manual and automated cleansing methods as necessary for additional cleansing needs (C)
+Conduct additional data cleansing and update Data Cleansing Scripts and batch cycles (C)
+Report updates in governance meetings and Status Reports/Dashboards, informing QSMOs as necessary (C) 
+Inputs
+Data Cleansing Plan
+Data Quality Assessment Results 
+Best Practice
+Begin data cleansing activities prior to migration activities and continuously throughout the implementation to assist with data readiness
+Obtain agreement on data governance including metadata management and data quality management
+Allocate a sufficient number of Subject Matter Experts (SMEs) with the appropriate skill sets to support data conversion activities throughout the implementation
+Establish criteria and metrics to clearly convey what constitutes “clean” data as part of the broader data governance approach
+Stakeholders
+Business Owner (C)
+Program Manager (C)
+Functional Lead (C)
+Technical Lead/Solution Architect (C)
+Data Conversion Lead (C)
+Data SME (C)
+
+
+Outputs
+Data Cleansing Plan 
+Data Cleansing Scripts
+Status Reports/Dashboards 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Objective: Continue cleansing data based upon Data Quality Assessment Results and agreed upon quality metrics in data governance model.
+2-9
+
+Technology2.8 Develop a Decommission Plan
+Activities
+Review and understand contract language of legacy system to determine decommissioning activities, including licensing expirations, contract expirations, options to extend, etc. for both software and infrastructure contracts, and the O&M support contracts (S)
+Identify application components  (i.e. classify components to be decommissioned such as testing or production environments, systems user IDs, and business app) (C)
+Ascertain hardware components  - if applicable (i.e. ascertain where infrastructure is in its maintenance/resource life cycle) (C)
+Pinpoint network devices (C)
+Work with system owner, Agency Privacy Officer, and other key stakeholders of the legacy system to establish how far back to archive data, what data will be migrated, and timelines for migration (C)
+
+Identify any records to be disposed of in accordance with the records retention schedule (C)
+Identify network, software and hardware location/ownership (i.e. activities include but are not limited to population of assets, management of data stores and development and validation of assets) (C)
+Prioritize decommission effort (i.e. which components are simple versus complex to offline) (C)
+Identify failover/offline procedures (i.e. have components  backup/archive current state been verified) (C)
+Coordinate with agency IT Security office to identify guidelines for managing/cleansing the data (C)
+Draft Decommission Plan with timelines and key activities for retiring legacy system (based on activities noted above) (C)
+
+Inputs
+As-is Systems Environment
+Outputs
+Decommission Plan
+Stakeholders
+Business Owner (C)
+Functional Lead (C)
+Functional Team (C)
+Technical Lead/Solution Architect (C)
+Technical SME (C)
+Functional SME (C)
+PMO Lead (C)
+
+Objective: Develop a plan to retire legacy system.
+
+Best Practice
+Conduct cost benefit analysis to determine cost of archiving, migrating legacy data, or maintaining legacy systems in place 
+Leverage common standards and solutions defined by NARA for records management found at https://ussm.gsa.gov/fibf-ERM/ 
+If system is accessed via website, coordinate domain name transition through Domain Name System (DNS) and with IT security POC
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+2-10
+
+Process and Service Delivery2.9 Understand As-Is Business Processes 
+Objective: Validate as-is processes to understand current state environment, existing challenges, and opportunities for improvement/standardization.
+
+Activities
+Identify initial business process re-engineering strategy by understanding areas of change (C)
+Validate as-is business processes with stakeholders to understand process flows, transaction volumes, workload, end user security roles, and enabling technology. If as-is business processes do not exist, develop a strategy to address training and change management gaps created by the lack of as-is business processes (C)
+Determine if as-is business processes are in line with the Federal Integrated Business Framework (FIBF) use cases and make updates as applicable (C)
+Report updates in governance meetings and Status Reports/Dashboards, informing QSMOs as necessary (C) 
+
+Inputs
+Existing As-Is Process Documentation
+Outputs
+Business Process Reengineering Strategy
+Validated As-Is Process Maps 
+Status Reports/Dashboards 
+Stakeholders
+Business Owner  (C)
+Functional Lead (C)
+Functional Team (C)
+Technical Lead/Solution Architect (C)
+Technical SME (C)
+Functional SME (C)
+Best Practice
+Validate as-is processes and workloads to be able to understand the magnitude of change in the target state environment 
+Perform business process realignment activities in addition to traditional business process reengineering
+Identify key functional process leads and Subject Matter Experts (SMEs) to drive process ownership and decision making
+Leverage business use cases through the FIBF website
+
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+2-11
+
+
+
+
+Documentation Required for Phase 2 Progress Review
+The following documentation is required in guiding a discussion to demonstrate readiness and gain approval for Phase 2. Agencies purchasing transaction processing services only will identify relevant activities and examples for their project using the M3 Services Tailoring Guide.
+
+Information Contained in Progress Review Discussion
+Acquisition Strategy
+Business Needs Workbook
+Change Management and Communication Approach
+Data Management/Data Quality Approach
+Decommission Plan
+Initial Master Schedule Overview
+Labor Relations Strategy
+LCCE
+M3 Risk Assessment Tool
+Provider Agreement
+Provider Selection Summary
+Request for Proposal (RFP) (Commercial Only)
+Resource Management Plan Overview (Provider)
+Resource Management Plan Update (Customer)
+Scope of Services Overview
+Top Risks 
+
+Exit Criteria (to move into Phase 3)
+Business Needs Workbook
+Communications to Stakeholder Delivered
+Data Cleansing Commenced
+Initial Master Schedule Updated
+LCCE
+Mitigation Plans in Place for Major Risks/Issues
+Provider Agreement
+Provider Selected 
+Staffing Plan Ready for Execution
+
+Phase 2 Documentation
+Acquisition Strategy
+Business Needs Workbook 
+Business Process Reengineering Strategy
+Change Management Plan 
+Change Readiness Assessment
+Communications Plan 
+Cost Estimates
+Data Cleansing Plan
+Data Cleansing Scripts
+Decommission Plan
+Governance Plan
+Implementation Approach/Schedule
+Independent Verification and Validation (IV&V) Plan 
+Initial Master Schedule 
+Labor Relations Strategy
+Life Cycle Cost Estimate (LCCE) 
+M3 Risk Assessment Tool
+Program Management Plan
+Provider Agreement
+Provider Assessment Report (Federal Only)
+Request for Proposal (RFP) (Commercial Only)
+Resource Management Plan 
+Risk Management Plan 
+Risks, Actions, Issues, and Decisions  (RAID) Log 
+Stakeholder Analysis
+Status Reports/Dashboards 
+Target State Concept of Operations
+Validated As-Is Process Maps 
+2-12
+44
+
+Phase 3: Engagement
+3-1
+45
+
+Phase 3 Summary and Documentation
+ Exit Criteria (to move into Phase 4)
+Go/No-Go Criteria Approved
+Integrated Master Schedule Drafted
+Migration Approach Finalized 
+PMO and Governance Process Integrated
+Requirements Fit-Gap Analysis Completed
+SLAs Defined
+Information Contained in Progress Review Discussion
+Acquisition Strategy (Customer)
+Acquisition Strategy (Provider, Federal) 
+Change Management and Communications Approach 
+Contact Center Approach
+Data Management/Data Quality Approach
+Lessons Learned
+M3 Risk Assessment Tool
+Migration Plan, Schedule, and Release Approach
+Program Governance Model
+Requirements Fit-Gap Analysis
+Resource Management Plan (Customer)
+Resource Management Plan (Provider)
+SLAs
+Target State Solution Scope
+Top Risks
+Training Approach 
+Objective:
+Conduct detailed planning through a Requirements Fit-Gap Analysis and finalize the implementation roadmap. An Agile approach should be adopted for this phase. 
+Phase 3 Documentation:
+The following documentation is developed during Phase 3 and is used to inform the Phase 3 Progress Review discussion. Agencies purchasing transaction processing services only will identify relevant activities and examples for their project using the M3 Services Tailoring Guide.
+Phase 3 Documentation
+Acquisition Strategy
+Business Readiness Assessment 
+Business Needs Workbook
+Change Management Plan 
+Change Readiness Assessment
+Change Request Form 
+Change Request Log 
+Communications Plan 
+Configuration Management Plan 
+Contact Center Strategy 
+CooP and Disaster Recovery Plan 
+Data Cleansing Plan 
+Data Cleansing Scripts 
+Data Conversion Plan
+Decommission Plan 
+Documented Data Structure and Mapping 
+Enhancement Strategy 
+Go/No-Go Criteria for Go-Live Assessment 
+Governance Plan 
+Implementation Approach/Schedule
+Independent Verification & Validation (IV&V) Plan 
+Integrated Master Schedule (IMS) 
+Interface Strategy 
+Labor Relations Strategy 
+M3 Risk Assessment Tool 
+Migration Approach, including Technical Strategies
+Migration Plan 
+Service Level Agreements (SLAs) 
+Program Charter 
+Program Management Plan
+Quality Assurance Surveillance Plan (QASP)
+Requirements Fit-Gap Analysis
+Requirements Management Plan 
+Requirements Traceability Matrix (RTM) 
+Resource Management Plan 
+Risk Management Plan 
+Risks, Actions, Issues, and Decisions (RAID) Log 
+Stakeholder Analysis
+Status Reports/Dashboards 
+Target State Concept of Operations 
+Target State Systems Environment 
+Technical Strategy
+Test Plan 
+Training Plan 
+Validated and Updated As-Is Systems Environment 
+Workforce Assessment 
+Examples:
+For sample documentation from previous modernizations and migrations, please go to M3 Examples MAX Page.  
+3-2
+Responsible Party:            Customer             QSMO             Provider             Shared
+Program 
+Management
+Workforce, Organization, & Stakeholders
+Technology
+Process & Service 
+Delivery
+3.1 Integrate Program Management Office (PMO) Structures
+3.2 Integrate Governance Structures
+3.3 Monitor and Control Program Execution
+3.4 Maintain and Execute Risk Processes
+3.5 Finalize Migration Approach
+3.6 Engage with Labor Relations
+3.7 Execute Change Management Plan
+3.8 Develop Training Plan
+3.9 Finalize Requirements
+3.10 Conduct Requirements Fit-Gap Analysis
+3.11 Finalize Target State Systems Environment
+3.12 Develop Technical Strategy
+3.13 Prepare Data for Mock Conversions (Data Cleansing, Data Mapping)
+3.14 Finalize Target State Concept of Operations
+3.15 Define Contact Center Structure
+3.16 Define Service Level Agreements (SLAs)
+Phase 3: Engagement
+Activities
+46
+
+Program Management3.1 Integrate Program Management Office (PMO) Structures
+Objective: Establish an integrated Program Management Office team and process to manage and oversee the activities shared by the customer and provider throughout the migration.
+Activities
+Onboard provider PMO lead and team (P)
+Review and update the Program Charter based on changes to the scope or timeline of the program (S)
+Determine and agree on PMO roles and responsibilities between the customer and provider (S)
+Document the roles and responsibilities in an integrated Resource Management Plan (S)
+Review customer Independent Verification and Validation (IV&V) procedures and update IV&V Plan (S)
+Develop integrated Program Management Plan, including; schedule, scope, risk, acquisition, cost, communications/stakeholder, and quality (S)
+Develop integrated Quality Assurance Surveillance Plan (QASP) for acquisition activities to monitor metrics and performance of the program provider (C)
+Create an Integrated Master Schedule (IMS), using the customer’s Initial Master Schedule and refine and continuously elaborate on the IMS for all activities during Phase 3 (S) 
+Begin managing schedule through agreed upon procedures, informing QSMOs as necessary (S)
+Stakeholders
+Executive Sponsor (C, P)
+Business Owner (C)
+Program Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+
+
+Inputs
+Program Charter
+Resource Management Plan
+Initial Master Schedule
+IV&V Plan
+Program Management Plan
+Status Report
+QASP
+Implementation Approach/Schedule
+Outputs
+Program Charter
+Resource Management Plan 
+Integrated Master Schedule
+Program Management Plan 
+IV&V Plan
+QASP
+Best Practice
+To maximize program integration, including network access, and conferencing needs for large agencies and for complex implementations involving segregated business processes, teams should be co-located to ensure ease of communication, collaboration, and problem solving 
+Hold detailed discussions on the customer’s and provider’s goals, processes that will be migrated, systems, and program close-out roles and responsibilities early on
+Develop an integrated Program Management Plan that is a coordinated view of activities from the customer and provider and takes specific customer needs into consideration
+Staff and engage both customer and provider PMO teams in the governance process to prevent governance gaps and disruptions to the flow of information
+Establish and communicate customer and provider roles and responsibilities through written agreements
+Establish and confirm common nomenclature between the provider and customer organizations to ensure clear and concise communication throughout Phases 3 and 4   
+Use Memorandums of Understanding (MOUs) to document Subject Matter Experts (SMEs) commitment and maintain accountability for participating in Fit-Gap sessions
+Ensure provider transparency with regular reporting on expenditure to date
+3-3
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+
+Objective: Develop an integrated governance structure that establishes program activity ownership and decision making authority for the customer and provider agencies throughout a migration.
+
+Program Management 3.2 Integrate Governance Structures
+Activities
+Identify provider governance bodies that will participate in the migration effort (P)
+Define integrated governance authority, roles, and responsibilities for oversight, management decision-making and risk/issue escalation (S)
+Establish integrated governance meeting cadence and status reporting timelines for the remainder of the program (S)
+Create integrated Governance Plan (S) 
+Begin executing against Governance Plan to guide Phase 3 activities (S)
+
+Inputs
+Existing Governance Bodies and Processes within Customer and Provider Agencies
+Governance Plan
+Provider Agreement 
+Best Practice
+Establish goals, timeframes, resources, and responsibilities clearly during the migration that has buy-in from senior management at the customer and provider agencies
+Develop an integrated governance model to make decisions in alignment with the objectives and goals of the program
+Obtain buy-in from internal customer and provider agencies early on to establish communication channels throughout the migration 
+Encourage decisions to be made at the lowest possible level, while allowing elevation of important or contentious issues through the governance model
+Develop an integrated recurring meeting and status reporting cadence to help align customer and provider leadership on the status of ongoing activities and priorities
+
+Stakeholders
+Executive Sponsor (C, P)
+Business Owner (C, P)
+Program Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+
+Outputs
+Governance Plan (integrated)
+
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+3-4
+
+Program Management 3.3 Monitor and Control Program Execution
+Objective: Monitor, measure, and report on program migration progress. 
+Activities
+Manage scope and program performance using Program Management Plan (S)
+Manage Integrated Master Schedule (IMS) through weekly updates of activities, dates, duration, and dependencies (S)
+Manage costs against the budget (S)
+Manage acquisition lifecycle and contract performance against Provider Agreement (S)
+Manage and update Resource Management Plan as resources are on or off boarded or as needs change (S)
+Manage and update the Independent Verification and Validation (IV&V) Plan (S)
+Update program management documentation as necessary (S)
+Initiate and perform change requests to address changes in schedule, scope, and requirements throughout the program through the Change Request Form, documenting changes through the Change Request Log (S)
+Develop and distribute Status Reports/Dashboards (S)
+Hold status meetings to monitor status against milestones, issues, risks, and make decisions needed for work streams, informing QSMOs as necessary (S)
+Escalate decisions and issues as needed through governance bodies (S)
+Conduct executive briefings with organization leadership and oversight entities as necessary (S)
+Inputs
+Program Charter
+Program Management Plan
+IMS 
+IV&V Plan
+Acquisition Strategy
+Resource Management Plan
+Governance Plan
+Provider Agreement
+Outputs
+Program Management Plan
+Status Reports/Dashboards 
+IV&V Plan 
+Change Request Log
+Resource Management Plan
+Change Request Form
+IMS 
+Stakeholders
+Executive Sponsor (C, P)
+Business Owner (C, P)
+Program Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+
+Best Practice
+Include all migration activities and responsible parties in the IMS 
+Implement weekly change control process to manage changes to the IMS to understand downstream impacts and associated risks
+Review and update the integrated program plan regularly and establish an integrated recurring meeting and status reporting cadence
+Utilize collaboration tools to the fullest extent in order to facilitate information sharing across the migration program
+Create a consolidated list of action items for the customer and provider
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+3-5
+
+Program Management 3.4 Maintain and Execute Risk Processes
+Inputs
+Governance Plan
+Risk Management Plan
+RAID Log
+Best Practice
+Develop an integrated Risk Management Plan between the customer and provider and establish a risk management function within the PMO to coordinate all risk management activities across the customer and provider before migration
+Hold regular risk management meetings and include risk management into status reporting and escalation procedures. Ensure documentation of risks in RAID Log in order to facilitate communication of risks
+Develop risk management roles and responsibilities for customer and provider team members and executives and train team members on identifying and mitigating risks
+Train and empower risk liaisons and points of contact in risk management to improve accountability 
+Stakeholders
+Executive Sponsor (C, P) 
+Business Owner (C, P)
+Program Manager (C, P)
+Risk Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+
+Outputs
+Risk Management Plan 
+RAID Log 
+M3 Risk Assessment Tool 
+Status Reports/Dashboards
+
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Objective: Execute risk management processes to identify and mitigate risks and issues throughout the migration.
+
+
+
+
+3-6
+Activities
+Integrate risk processes between the customer and provider and update the Risk Management Plan (S) 
+Maintain and update Risks, Actions, Issues, and Decisions (RAID) Log, coordinating across all work streams, with new risks, changes to existing risks, and status of risk mitigation activities continuously (at a minimum of every two weeks) throughout Phase 3 (S)
+Develop and employ mitigation strategies continuously throughout Phase 3 (S)
+Report on new risks/issues and ongoing risk/issue mitigation activities in governance meetings and Status Reports/Dashboards (S) 
+Perform M3 Risk Assessment (S)
+
+
+Program Management3.5 Finalize Migration Approach
+Activities
+Develop an initial Migration Approach and Integrated Master Schedule (IMS) based on Requirements Traceability Matrix (RTM) and timeline requirements (S)
+Finalize Migration Approach including a release approach based on Business Readiness Assessment and Scope of Services (P)
+Update the Decommission Plan for system decommissioning post migration (C)
+Develop detailed design of the retained organization (C)
+Develop Go/No-Go Criteria to assess readiness for Go-Live. Criteria may include: program readiness, system readiness, workforce readiness, and operational readiness (S)
+Report updates in governance meetings and Status Reports/Dashboards (S) 
+Inputs
+RTM 
+Business Readiness Assessment
+Decommission Plan
+
+Best Practice
+Define, agree on, and communicate customer and provider roles and responsibilities prior to the start of implementation through the Provider Agreement and implementation team organization charts and Responsible, Accountable, Consulted, Informed (RACI) Matrix
+Understand the Provider Agreement services, Service Level Agreements (SLAs), and cost structures and develop relevant metrics to be able to monitor provider performance
+Leverage an agile approach in the migration and consider phasing the implementation to provide for quick wins
+Use Provider Agreement to define the roles and responsibilities of the customer, provider, and governance bodies during migration, including decision rights, key activities and reporting procedures
+Use the IMS to develop the work breakdown structure (WBS) that includes full scope of work for both the customer and provider through the migration. Develop the critical path and align the schedule management process with identified program resources to the Resources Management Plan and Acquisition Strategy
+Stakeholders
+Executive Sponsor (C, P)
+Business Owner (C, P)
+Program Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Contracting Officer (C, P)
+
+Outputs
+Migration Approach, including Technical Strategies
+Go/No-Go Criteria for Go-Live Assessment 
+IMS
+Decommission Plan
+Status Reports/Dashboards 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Objective: Develop Migration Approach, schedule, and cost based on Business Readiness Assessment. 
+
+3-7
+
+Objective: Continue to engage and communicate with labor relations to obtain approval towards a shared services migration. 
+Workforce, Organization & Stakeholders3.6 Engage with Labor Relations
+Activities
+Review potential impacts on staff in the Target State Concept of Operations and Workforce Assessment (C)
+Engage in communications with union leadership based on Labor Relations Strategy (C)
+Determine the methods to align to Collective Bargaining Agreements, resolve issues, and document outcomes and next steps (C)
+Update the Labor Relations Strategy as needed (C)
+Report updates in governance meetings and Status Reports/Dashboards (S) 
+Inputs
+Labor Relations Strategy
+Target State Concept of Operations
+Workforce Assessment  
+Best Practice
+Account for union-related activities in the Integrated Master Schedule and building dependencies for change management activities (e.g., communications, training)
+
+Stakeholders
+Program Manager (C)
+Change Management Lead (C)
+Communications Lead (C)
+Labor Relations Leader (C)
+
+Outputs
+Labor Relations Strategy
+Status Reports/Dashboards 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+3-8
+52
+
+Workforce, Organization & Stakeholders3.7 Execute Change Management Plan
+Objective: Maintain and execute the Change Management and Communications Plans based on feedback from the previous phases; implement updates as appropriate.
+Activities
+Develop and deliver messages based on the Communications Plan (C)
+Monitor feedback from stakeholders and adjust Communications Plan (C)
+Update Communications Plan based on labor relations meetings (C) 
+Update Workforce Assessment to identify any additional impacts to the workforce from the migration (C)
+Conduct additional Change Readiness Assessment to further understand stakeholder ability to adapt to change; update the Change Management Plan as necessary (C)
+Determine if provider needs to adjust staffing levels based on the requirements of the new customer and, if yes, develop staffing plan (P)
+Report updates in governance meetings and Status Reports/Dashboards, informing QSMOs as necessary (S)
+
+
+
+Inputs
+Change Management Plan
+Change Readiness Assessment
+Communications Plan
+Workforce Assessment
+Best Practice
+Institute frequent communication sessions with stakeholders
+Align business process efforts to change management tasks to better communicate and coordinate process changes with the change management strategy components 
+Create and deploy user surveys to monitor success of Organizational Change Management drives
+Stakeholders
+Program Manager (C)
+Change Management Lead (C)
+Communications Lead (C)
+Workforce Lead (C)
+Functional Lead (C, P)
+
+Outputs
+Change Management Plan
+Communications Plan 
+Change Readiness Assessment
+Workforce Assessment 
+Status Reports/Dashboards 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+3-9
+
+Workforce, Organization & Stakeholders3.8 Develop Training Plan
+Objective: Develop a plan and approach for training curriculum, design, development, delivery, and evaluation.
+Activities
+Review customer organization training Scope of Services (S)
+Review provider Migration and O&M training capabilities and associated costs (S) 
+Finalize training services for Phases 4 and 5 and define roles and responsibilities for development and delivery (S)
+Develop initial Training Plan to include approach, audience, purpose, delivery methods, timeline, and evaluation (P)
+Review and finalize Initial Training Plan (S)
+Report updates in governance meetings and Status Reports/Dashboards (S) 
+
+Inputs
+Business Needs Workbook
+Scope of Services
+Stakeholder Analysis 
+Workforce Assessment
+Best Practice
+Define the customer’s and provider’s training needs early on in the program life cycle
+Define the roles and responsibilities of training planning, material development, delivery, and evaluation. Identify training audiences, stakeholder groups, and number of expected end users who require training. Develop training schedule and process to collect feedback on training delivery from participants
+Stakeholders
+Program Manager (C, P)
+Change Management Lead (C, P)
+Training Lead (C, P)
+Communications Lead (C, P)
+Functional Lead (C, P)
+
+Outputs
+Training Plan 
+Status Reports/Dashboards 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+3-10
+
+Objective: Perform knowledge transfer of requirements, validate requirements, and baseline all standard and unique requirements with approvals to inform the Requirements Fit-Gap Analysis.
+Technology3.9 Finalize Requirements
+Activities
+Update Requirements Management Plan and processes based on provider’s approach (S)
+Share updates to documentation of requirements, Target State Systems Environment, and Target State Concept of Operations with provider (C)
+Create a joint Requirements Traceability Matrix (RTM) (S)
+Prioritize mission critical and nice-to-have requirements against standard requirements and provider capability, and capacity in the RTM (S)
+Finalize requirements with Business Owners and baseline the RTM (S)
+Report updates in governance meetings and Status Reports/Dashboards (S) 
+
+Best Practice
+Conduct system demonstrations and Conference Room Pilots to validate the solution meets the intended scope of services requirements
+Provide training to SMEs on requirements processes and how to define, communicate, and document requirements effectively (e.g., essential, verifiable requirements)
+Provide criteria to define mission critical versus nice-to-have requirements to enable improved provider selection
+Use requirements management tool and establish requirements management approach that follows leading practices to increase consistency and enhance traceability throughout the program’s life cycle
+Validate requirements against the FIBF and ensure requirements are documented to allow for effective testing
+Use the Requirements Traceability Matrix (RTM) to align, categorize, and prioritize outcome focused requirements with applicable Service Area standard requirements based on mission need and legislation/policy. Define and reference the specific source legislation/policy document(s) for each requirement and include requirement's status (i.e. awaiting approval, approved, rejected, or deferred)
+Stakeholders
+Executive Sponsor (C, P)
+Business Owner (C, P)
+Program Manager (C, P)
+Requirements Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Functional SME  (C, P)
+Technical SME  (C, P)
+Managing Partner/Service Area Sponsor (Service Area)
+
+Inputs 
+Target State Systems Environment
+Target State Concept of Operations
+Business Capabilities
+Business Needs Workbook
+RTM
+Requirements Management Plan
+Government-wide Standards defined through the Federal Integrated Business Framework (FIBF) 
+Outputs
+Requirements Management Plan 
+RTM
+Status Reports/Dashboards 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+3-11
+
+Technology3.10 Conduct Requirements Fit-Gap Analysis
+Inputs
+RTM
+Provider’s Standard Solution and Requirements
+Requirements Management Plan
+Best Practice
+Assess functional, technical, and operational requirements as part of the Requirements Fit-Gap Analysis
+Technical requirements for the Requirements Fit Gap Analysis should align to the FIBF standards 
+Develop a detailed approach for the fit-gap with a Business Process Reengineering (BPR) Statement document that includes an Overview, BPR Vision, fit-gap Purpose and Objectives, and defines exit/success criteria for the process. A sample requirements fit-gap process kick-off guide is available here
+Use live demonstrations for requirements fit-gap review sessions 
+Document gaps using formal gap ID forms and assess consensus with feedback surveys. A sample gap ID form is available here
+Stakeholders
+Executive Sponsor (C, P)
+Business Owner (C, P)
+Program Manager (C, P)
+Requirements Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Functional SME (C, P)
+Technical SME (C, P)
+Managing Partner/Service Area Sponsor (Service Area)
+
+Outputs
+Requirements Fit-Gap Analysis
+RTM
+Status Reports/Dashboards 
+
+Activities
+Identify where functional and technical (e.g., security, interfaces) requirements can be met by the provider’s standard solution and where gaps may exist using the baselined Requirements Traceability Matrix (RTM) (P)
+Conduct stakeholder validation sessions to review the Requirements Fit-Gap Analysis. A sample requirements fit-gap process kick-off is available here (S) Design gap solutions with options for configuration changes, enhancements, and processes changes and review with the customer (P)
+Select the desired solution to resolve each gap (S)
+Document gaps and proposed solutions in the Requirements Fit-Gap Analysis (C)
+Use gap solutions to inform migration and release approach, schedule, and revised cost estimate (S)
+Manage requirements through the RTM and PMO change control processes as agreed upon in the Requirements Management Plan and PMO governance (P)
+Report updates in governance meetings, and Status Reports/Dashboards, informing QSMOs as necessary (S) 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Objective: Understand gaps between the customer requirements, provider’s standard solution, and processes. Develop gap solutions to inform the migration approach, timeline, and revised cost estimates.
+3-12
+
+Technology3.11 Finalize Target State Systems Environment
+Objective: Perform knowledge transfer of As-is Environment and finalize the Initial Target State Systems Environment that captures all required interfaces, application, security/privacy, and data layers.
+Activities
+Perform knowledge transfer to provider to gain an understanding of the customer’s As-Is Systems Environment including which interfaces to legacy systems will be required (C) 
+Review initial Target State Systems Environment and compare against the provider’s standard solution to determine where gaps exist (S)
+Develop solutions for technical gaps where enhancements are required to systems and infrastructure and where new interfaces will be required (P)
+Assess gap solutions of technical environment based on cost and timeline implications and document impacts to release strategy (S)
+Finalize Target State Systems Environment, through technical reviews if necessary, to define the scope of the migration and at each release, if applicable (S) 
+Report updates in governance meetings and Status Reports/Dashboards (S) 
+Inputs
+Vision Statement and Business Case
+Requirements Traceability Matrix (RTM)
+Existing Enterprise Architecture Documents & System Specifications
+Target State Systems Environment
+Customer’s As-Is Systems Environment 
+Best Practice
+Leverage the current systems architecture and specification documents as a starting point
+Document critical interfaces between legacy systems and new systems including detailed data requirements and network requirements
+Stakeholders
+Program Manager (C, P)
+Business Owner (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Interface Lead (C, P)
+Functional SME (C, P)
+Technical SME (C, P)
+
+Outputs
+Validated and Updated As-Is Systems Environment
+Target State Systems Environment 
+Status Reports/Dashboards 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+3-13
+57
+
+Technology3.12 Develop Technical Strategy
+Objective: Develop the IT strategy to define the overall management and execution approach to system enhancements and implementation.
+
+Activities
+Based on the Requirements Fit-Gap Analysis and finalized Target State Systems Environment, develop the Migration Plan, including the approach for technical components: 
+Develop the reporting and associated strategies including Business Intelligence development standards and tool analysis (S)
+Develop Interface Strategy (S)
+Develop Enhancement Strategy (S)
+Update the Decommission Plan for system decommissioning post migration (C)
+Document development controls (S)
+Document configuration and workflow strategy (S)
+Develop Configuration Management Plan and change request process (S)
+Document Continuity of Operations (CooP) and Disaster Recovery Plan (S)
+Develop Test Plan (S)
+Report updates in governance meetings and Status Reports/Dashboards (S) 
+
+
+Inputs
+Requirements Traceability Matrix (RTM)
+Target State Concept of Operations
+Target State Systems Environment
+Decommission Plan
+Requirements Fit-Gap Analysis
+Best Practice
+Conduct a thorough analysis early to determine which existing reports are still in use and need to be included in requirements
+Minimize enhancements, leverage bolt-ons where possible, to help ease patch/fix application and upgrade path
+Use the Test Plan to identify the strategies, objectives, and approach of testing cycles, involved stakeholders, needed resources, and scope and schedule of planned test activities. Develop approach to train testers and define test items and data requirements, features to be tested, testing roles and responsibilities, and any risks requiring contingency planning
+Stakeholders
+Program Manager (C, P)
+Business Owner (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Interface Lead (C, P)
+Data Conversion Lead (C, P)
+Functional SME (C, P)
+Technical SME (C, P)
+Change Management Lead (C, P)
+PMO Lead (C, P)
+Outputs
+Test Plan 
+Configuration Management Plan 
+CooP and Disaster Recovery Plan
+Interface Strategy
+Enhancement Strategy
+Decommission Plan
+Migration Plan
+Technical Strategy
+Status Reports/Dashboards 
+Test Plan
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+3-14
+58
+
+Technology3.13 Prepare Data for Mock Conversions (Data Cleansing, Data Mapping)
+Objective: Jointly develop a Data Conversion Plan with input from the data cleansing process, and execute against plan to address potential data conversion issues.
+
+Activities
+Develop integrated data governance approach to include process, roles, responsibilities, and cleansing and mapping criteria (S)
+Review customer data architecture (P) 
+Discuss standard data management approach with customer (P)
+Finalize an integrated approach and plan for data cleansing, mapping, extract/transfer/load, mock conversion, conversion, and data validation (S)
+Assess data quality based on Data Cleansing Plan activities from previous phase against defined criteria (S)
+Initiate legacy-to-target data mapping (S)
+Identify data errors/anomalies and prioritize resolution activities (S)
+Develop and execute Data Cleansing Scripts and perform manual correction, updating as needed (S)
+Validate results of data cleansing and readiness for conversion based on data quality criteria and metrics (C)
+Report updates in governance meetings and Status Reports/Dashboards (S) 
+Inputs
+Data Elements
+Data Cleansing Plan  
+Data Quality Assessment Results
+Existing System Data Dictionaries 
+Existing Data Governance Model
+Data Cleansing Results 
+Existing Data Quality Assessment
+Best Practice
+Begin data cleansing activities prior to migration activities and continuously throughout the implementation to assist with data readiness
+Agree on data governance including metadata management and data quality management
+Incorporate additional post Go-Live data cleansing and quality activities into the Data Conversion Plan strategy, schedule, and resource planning
+Investigate provider service offerings around post Go-Live conversion support prior to finalizing cleansing metrics
+Develop procedures, tools, and protocols to extract data and define system structure, major components, and type of conversion effort. Define system hardware and software conversion steps, identify necessary data and preparation requirements, and establish data quality assurance controls for conversion. Identify and address affected interfaces and security issues related to conversion efforts
+Stakeholders
+Program Manager (C, P)
+Business Owner (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Data Conversion Lead (C, P)
+Data SME (C, P)
+Outputs
+Data Cleansing Scripts
+Documented Data Structure and Mapping 
+Data Conversion Plan 
+Status Reports/Dashboards 
+
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+3-15
+59
+
+Process and Service Delivery3.14 Finalize Target State Concept of Operations
+Objective: Define which processes and services will be performed between the customer and provider to understand the Target State Concept of Operations.
+
+Activities
+Review Provider Agreement to determine in scope processes and target state requirements (S) 
+Review and agree upon where the business processes and services should be performed in the future (e.g., internally versus with provider) based on the requirements and requirements fit-gap analysis (S)
+Update the Initial Concept of Operations (CONOPS) (S)
+Validate updated CONOPS with stakeholders (S)
+Define roles and responsibilities for Operations and Maintenance (O&M) (e.g., systems maintenance, incident identification, change control and release management, service level agreement reviews, and governance) (S)
+Finalize Target State CONOPS based on processes to be migrated to the provider and the designed retained organization (S)
+Report updates in governance meetings and Status Reports/Dashboards, informing QSMOs as necessary (S) 
+Inputs
+Target State CONOPS
+As-Is Workforce
+As-Is Process Flows
+Scope of Services
+Requirements Traceability Matrix (RTM)
+Requirements Fit-Gap Analysis
+Initial Concept of Operations (CONOPS)
+Provider Agreement
+Stakeholders
+Business Owners (C, P)
+Program Manager (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Technical SME (C, P)
+Functional SME (C, P)
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+Best Practice
+Outputs
+Target State Concept of Operations
+Status Reports/Dashboards 
+
+3-16
+
+Process and Service Delivery3.15 Define Contact Center Structure
+Objective: Understand provider contact center capabilities, finalize customer care procedures, and define customer and provider roles and responsibilities for issue resolution. 
+
+Activities
+Document requirements for the customer contact center function based on Target State Concept of Operations and Operations and Maintenance (O&M) requirements (C)
+Review provider contact center capabilities, tier structure, and estimated cost of services (S)
+Identify gaps between provider contact center capabilities and the customer requirements (S)
+Develop gap solutions for contact center gaps and adjust estimated cost of services (S)
+Document Integrated Contact Center Strategy to implement changes to contact center processes, roles, and capacity for customer and provider (S)
+Report updates in governance meetings and Status Reports/Dashboards (S) 
+Inputs
+Business Needs Workbook
+Target State Concept of Operations 
+Scope of Services
+Best Practice
+Develop procedures to triage and escalate inquiries and incidents between the customer and provider
+Establish integration points and handoffs between customer and provider including inquiry and issue routing. Define performance metrics (e.g., wait times, average call time, call volume) and identify technology to be used to track and record help desk inquires. Define plans to train help desk support and identify knowledge required for the contact center
+Stakeholders
+Business Owner (C, P)
+Program Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Functional Lead (C, P)
+Functional SME (C, P)
+Change Management Lead (C, P)
+Outputs
+Contact Center Strategy
+Status Reports/Dashboards  
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+3-17
+
+Process and Service Delivery3.16 Define Service Level Agreements (SLAs) 
+Objective: Define the level of service standards provided to the customer during Operations and Maintenance (O&M).
+Activities
+Review Target State Concept of Operations and roles and responsibilities for O&M services (S)
+Review and discuss existing provider service level metrics to determine if there need to be adjustments. All service level metrics must align, and not conflict with, the metrics included in the QSMO Performance Management Framework   (S) 
+Identify additional service level metrics based on objective, clearly-defined, and measurable criteria, in alignment with the QSMO Performance Management Framework (S)
+Gain stakeholder buy-in on metrics that will be used post-migration to measure O&M performance as part of the performance management strategy (S)
+Define performance management capabilities, processes, and tools (S)
+Finalize service level metrics, targets, and remediation or issue resolution policies, in alignment with the QSMO Performance Management Framework (S)
+Report updates in governance meetings, and Status Reports/Dashboards, informing QSMOs as necessary (S) 
+Inputs
+Target State Concept of Operations 
+Provider Agreement
+Federal Integrated Business Framework (FIBF) Performance Measures 
+Best Practice
+Include services and systems with identified target metrics in your SLAs 
+Review Provider Agreements, SLAs, and Life Cycle Cost Estimate (LCCEs) for any potential updates that may be required
+Set up the SLA to foster a mutually beneficial relationship. Make sure that both the provider and customer are clear on expectations of success defined in Activity 1.6
+
+
+Stakeholders
+Executive Sponsor (C, P)
+Business Owner  (C, P)
+Program Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Technical SME (C, P)
+Functional SME  (C, P)
+Outputs
+SLAs
+Status Reports/Dashboards 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+3-18
+
+Phase 3 Documentation
+Acquisition Strategy 
+Business Readiness Assessment 
+Business Needs Workbook
+Change Management Plan 
+Change Readiness Assessment
+Change Request Form 
+Change Request Log 
+Communications Plan 
+Configuration Management Plan 
+Contact Center Strategy 
+CooP and Disaster Recovery Plan 
+Data Cleansing Plan 
+Data Cleansing Scripts 
+Data Conversion Plan
+Decommission Plan 
+Documented Data Structure and Mapping 
+Enhancement Strategy 
+Go/No-Go Criteria for Go-Live Assessment 
+Governance Plan 
+Implementation Approach/Schedule
+Independent Verification & Validation (IV&V) Plan 
+Integrated Master Schedule (IMS) 
+Interface Strategy
+Labor Relations Strategy
+M3 Risk Assessment Tool 
+Migration Approach, including Technical Strategies
+Migration Plan 
+Service Level Agreements (SLAs) 
+Program Charter 
+Program Management Plan
+Quality Assurance Surveillance Plan (QASP)
+Requirements Fit-Gap Analysis
+Requirements Management Plan 
+Requirements Traceability Matrix (RTM) 
+Resource Management Plan 
+Risk Management Plan 
+Risks, Actions, Issues, and Decisions (RAID) Log 
+Stakeholder Analysis
+Status Reports/Dashboards 
+Target State Concept of Operations 
+Target State Systems Environment 
+Technical Strategy
+Test Plan 
+Training Plan 
+Validated and Updated As-Is Systems Environment 
+Workforce Assessment 
+Documentation Required for Phase 3 Progress Review
+The following documentation is required in guiding a discussion to demonstrate readiness and gain approval for Phase 3. Agencies purchasing transaction processing services only will identify relevant activities and examples for their project using the M3 Services Tailoring Guide.
+Information Contained in Progress Review Discussion
+Acquisition Strategy (Customer)
+Acquisition Strategy (Provider, Federal) 
+Change Management and Communications Approach 
+Contact Center Approach
+Data Management/Data Quality Approach
+Lessons Learned
+M3 Risk Assessment Tool
+Migration Plan, Schedule, and Release Approach
+Program Governance Model
+Requirements Fit-Gap Analysis
+Resource Management Plan (Customer)
+Resource Management Plan (Provider)
+SLAs
+Target State Solution Scope
+Top Risks
+Training Approach 
+
+Exit Criteria (to move into Phase 4)
+Fit-Gap Analysis Completed
+Go/No-Go Criteria Approved
+Integrated Master Schedule Drafted
+Migration Approach Finalized 
+PMO and Governance Process Integrated
+SLAs 
+3-19
+63
+
+Phase 4: Migration
+4-1
+64
+
+Phase 4 Summary and Documentation
+Objective:
+Build, test, and deploy the new system, concept of operations, and workforce design. An Agile approach should be adopted for this Phase. Note: The activities in this Phase are organized by workstream and do not appear sequentially.
+Phase 4 Documentation:
+The following documentation is developed during Phase 4 and is used to inform the Phase 4 Progress Review discussion. Agencies purchasing transaction processing services only will identify relevant activities and examples for their project using the M3 Services Tailoring Guide.
+Examples:
+For sample documentation from previous modernizations and migrations, please go to M3 Examples MAX Page.  
+4-2
+Responsible Party:            Customer             QSMO             Provider             Shared
+Program 
+Management
+Workforce, Organization, & Stakeholders
+Technology
+Process & Service 
+Delivery
+4.1 Monitor and Control Program Execution 
+4.2 Maintain and Execute Risk Processes
+4.3 Develop Operations and Maintenance (O&M) Governance
+4.16 Assess Readiness for Go-Live
+4.5 Design Target State Organization
+4.13 Execute Workforce Transition and Prepare for Go-Live
+4.14 Execute Training for Go-Live
+4.15 Execute Labor Relations Strategy
+4.6 Conduct Security and Privacy Reviews
+4.7 Define Roles and User Access
+4.8 Configure Systems
+4.9 Design and Develop Interfaces 
+4.10 Design and Develop Reports
+4.11 Conduct Mock Conversions 
+4.12 Test Systems and Processes
+4.17 Develop and Execute Cutover Plan for Go-Live
+4.4 Design Target State Processes
+Phase 4: Migration
+Activities
+ Exit Criteria (to move into Phase 4)
+Go/No-Go Criteria Met
+Information Contained in Progress Review Discussion
+Business Operations Readiness Criteria Tasks and Status
+Contingency Plan
+Data Conversion Results
+M3 Risk Assessment Tool
+Organizational Readiness Criteria Tasks and Status 
+Program Management Readiness Criteria Tasks and Status 
+Risk and Issues Summary
+Technology Readiness Criteria Tasks and Status 
+Test Results
+Phase 4 Documentation
+Baselined List of ID Credentials 
+Business Process Reengineering Strategy 
+Change Management Plan 
+Change Readiness Assessment
+Change Request Form 
+Change Request Log 
+Communications Plan 
+Configuration Management Plan
+Configuration Workbooks 
+Contingency Plan 
+Conversion Defect Log 
+Cutover Plan 
+Data Conversion Plan 
+Decommission Plan 
+Desk Guides/User Guide
+Go/No-Go Assessment Report 
+Go/No-Go Readiness Criteria 
+Independent Verification & Validation (IV&V) Plan 
+Integrated Master Schedule (IMS) 
+Interface Control Document 
+Labor Relations Strategy 
+M3 Risk Assessment Tool
+Mock Conversion Report 
+O&M Governance Plan 
+Privacy Documentation 
+Program Management Plan 
+Resource Management Plan
+Reports Design Document 
+Requirements Traceability Matrix (RTM) 
+Risk Management Plan 
+Risks, Actions, Issues, and Decisions (RAID) Log 
+Security Documentation
+Standard Operating Procedures 
+Status Reports/Dashboards 
+Target State Organization Design 
+Target State Process Flows
+Target State Process Maps
+Targeted Cutover Communications Plan 
+Test Defect Log 
+Test Plan 
+Target State Concept of Operations
+Test Results Report
+Test Scripts 
+Training Evaluations 
+Training Materials 
+Training Plan 
+Workforce Assessment 
+Workforce Transition Strategy 
+
+65
+
+Inputs
+Program Charter
+Governance Plan
+IMS
+Program Management Plan
+Integrated Independent Validation and Verification (IV&V) Plan 
+Resource Management Plan 
+Change Request Form
+Best Practice
+Review and update the IMS as necessary and maintain an integrated recurring meeting and reporting cadence
+Include all migration activities and responsible parties in the IMS. Migrations that include core and non-core services should align all services to the IMS
+Create a consolidated list of action items for the customer and provider
+Utilize collaboration tools to the fullest extent in order to facilitate information sharing across the migration program
+For large agencies and complex implementations involving segregated business processes, teams  should be co-located to ensure ease of communication, collaboration and problem solving; and  to maximize program integration, including network access, conferencing needs
+Ensure provider transparency with regular reporting on expenditure to date
+Stakeholders
+Executive Sponsor (C, P)
+Business Owner (C, P)
+Program Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Outputs
+Change Request Form
+Change Request Log
+IMS
+Program Management Plan
+IV&V Plan
+Resource Management Plan 
+Status Reports/Dashboards 
+
+Program Management4.1 Monitor and Control Program Execution
+Objective: Monitor, measure, and communicate program migration progress.
+Activities
+Manage Migration Integrated Master Schedule (IMS) through weekly updates of activities, dates, duration, and dependencies (S)
+Manage scope and monitor program performance using Program Management Plan (S)
+Manage costs against the budget (S)
+Manage and update Resource Management Plan as resources are on or off boarded or as needs change (S)
+Manage and update the Integrated Independent Validation and Verification (IV&V) Plan (S)
+Update program management documentation as necessary (S)
+Develop and distribute Status Reports/Dashboards and escalate decisions and issues as needed through governance bodies (S)
+Hold status meetings to monitor status against milestones, issues, risks, and make decisions needed for work streams, informing QSMOs as necessary (S)
+Hold executive briefing to share progress on transition (S) 
+Continue to initiate and perform change requests to address changes in schedule, scope, and requirements throughout the program through the Change Request Form, documenting changes through the Change Request Log (S)
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-3
+
+Program Management4.2 Maintain and Execute Risk Processes 
+Activities
+Maintain and update Risk Management Plan as necessary (S)
+Develop and employ mitigation strategies continuously throughout the migration (S)
+Maintain and update Risks, Actions, Issues, and Decisions (RAID) Log with new risks and status of risk mitigation at a minimum of every 2 weeks throughout the migration (S)
+Report on new risk and ongoing risk mitigation activities in governance meetings and Status Reports/Dashboards, informing QSMOs as necessary  (S) 
+Perform M3 Risk Assessment (S)
+
+Inputs
+Governance Structure and Process
+Status Reports/Dashboards
+Independent Verification and Validation (IV&V) Plan
+Risk Management Plan 
+RAID Log
+Best Practice
+Maintain a risk management function within the PMO to coordinate all risk management activities across the customer and provider before migration
+Hold regular risk management meetings and include risk management into status reporting and escalation procedures. Include documentation of risks in RAID Log in order to facilitate communication of risks
+Maintain risk management roles and responsibilities for customer and provider team members and executives, and train team members on identifying and mitigating risks
+Stakeholders
+Executive Sponsor (C, P) 
+Business Owner (C, P)
+Program Manager (C, P)
+Risk Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-4
+Outputs
+Risk Management Plan
+RAID Log
+M3 Risk Assessment Tool
+Status Reports/Dashboards 
+
+Objective: Execute risk management processes to identify and mitigate risks and issues throughout the migration.
+
+
+Program Management4.3 Develop Operations and Maintenance (O&M) Governance
+Objective: Develop integrated O&M governance structure to manage and oversee system and process performance.
+Activities
+Identify provider governance bodies that will participate during O&M (P)
+Define integrated governance authority, roles, and responsibilities for oversight and management decision-making on topics such as risk/issue escalation, Service Level Agreement (SLA) monitoring, contract negotiations, service/change requests, and management after system Go-Live (S)
+Establish integrated governance meeting cadence and reporting timelines for customer and provider (S)
+Create integrated O&M Governance Plan (S) 
+Begin executing against Governance Plan to facilitate decision-making and issue escalation upon Go-Live (S)
+
+Inputs
+Existing Governance Bodies and Processes within Customer and Provider Agencies
+Governance Plan
+Provider Agreement
+Best Practice
+Establish goals, timeframes, resources, and responsibilities clearly during the migration that has buy-in from senior management at the customer and provider agencies
+Encourage decisions to be made at the lowest possible level, while allowing elevation of important or contentious issues through the governance model
+Review Provider Agreements, SLAs, and Life Cycle Cost Estimate (LCCEs) for any potential updates that may be required
+Use the O&M Governance Plan to develop an integrated governance body of providers and customers with defined roles and responsibilities. Establish voting rights and escalation criteria accounting for all O&M activities. Outline voting procedures and determine governance meeting cadence and communications
+Stakeholders
+Executive Sponsor (C, P)
+Business Owner (C, P)
+Program Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Outputs
+O&M Governance Plan
+Risks, Actions, Issues, and Decisions (RAID) Log
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-5
+
+Process and Service Delivery4.4 Design Target State Processes
+Objective: Design the Target State Process Maps, activities, decision points, interrelationships, and systems interactions.
+Activities
+Finalize list of in-scope processes for migration and identify which processes will undergo reengineering (S) 
+Validate and update the Business Process Reengineering Strategy (S)
+Validate and update process decomposition for in-scope processes based on Service Area functions and activities (S)
+Develop Target State Process Maps for in-scope processes, considering internal control, segregation of duties, technology, handoffs, workloads, and manual workarounds (S)
+Review, validate, and update processes with stakeholders (S)
+Update and develop Standard Operating Procedures (SOPs) and develop Desk Guides/User Guide for customer and provider processes (S)
+Update/validate SLAs (as applicable) to ensure process steps are met that allow customers to meet agreed upon SLAs with provider (S)
+
+
+Inputs
+Target State Concept of Operations
+Target State Systems Environment
+Best Practice
+Establish a standardized and common process decomposition to have consistency in terminology using guidance from the applicable Service Area
+Perform business process alignment activities rather than traditional business process reengineering to avoid bad practices continuing in the new system
+Identify key functional process lead and Subject Matter Experts (SMEs) to drive process ownership and decision making
+Use the Target State Process Maps to document process flows and handoffs, transaction volumes, enabling technology, user roles and responsibilities, and supporting tools/documentation used to complete processes
+Use the Standard Operating Procedures to follow agency-specific step-by-step instructions for the execution of routine operations to ensure efficiency, quality output, consistency and uniformity of performance, and compliance with relevant regulations. Organize to-be process maps into end-to-end executable steps, and specify scope, purpose, input, output, and tools and relevant regulations
+Stakeholders
+Business Owner  (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect  (C, P)
+Technical SME (C, P)
+Functional SME (C, P) 
+Program Manager (C, P)
+Outputs
+Target State Process Maps
+SOPs
+Business Process Reengineering Strategy 
+Desk Guides/User Guide
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-6
+
+Workforce, Organization & Stakeholders4.5 Design Target State Organization
+Objective: Identify and design the target state organization needs and prepare for changes to the workforce.
+
+Activities
+Review Target State Concept of Operations (CONOPS) and Target State Process Flows (C)
+Align customer organizations to Target State Process Flows (C)
+Define roles and responsibilities including position descriptions and job duties (C)
+Map staff to positions (C)
+Continue to assess impact of reorganization on the workforce and update Workforce Assessment (C)
+Develop Workforce Transition Strategy (C)
+Evaluate provider organization workforce based on customer migration and determine if there are impacts to provider workforce and Organization Structure (P)  
+
+Inputs
+ Workforce Assessment 
+Current Organization Structure 
+Target State Process Flows
+Target State Concept of Operations 
+Best Practice
+Confirm the accuracy of the organizational structures based on the records maintained by first level managers versus the customer human capital office
+Stakeholders
+Program Manager (C, P)
+Change Management Lead (C, P)
+Training Lead (C, P)
+Communications Lead (C, P)
+Outputs
+Target State Organization Design 
+Workforce Assessment
+Workforce Transition Strategy
+Target State Process Flows
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-7
+70
+
+Technology4.6 Conduct Security and Privacy Reviews
+Objective: Conduct security and privacy reviews to validate the system (data, applications, interfaces, network) is protected and personally identifiable information (PII) and data are secure.
+
+Activities
+Conduct Privacy Reviews:
+Develop Privacy Framework to include system categorization, data type, handling, storing and sharing method, and incident response process (S)
+Develop Privacy documentation and training material (if needed) to provide guidance to all stakeholders (S)
+Implement privacy training roadmap and integrate with overall Training Plan (S) 
+Roll out privacy regulations to all users (S)
+Document and receive Systems of Record Notice (SORN), if required (S)
+Conduct Security Reviews:
+Understand provider security environment and assess against requirements (S)
+Develop Security documentation and Security Test Plan if applicable (S)
+Execute security test according to test plan to include both physical and logical security, document and correct issues (S)
+Request and receive Authority to Operate (ATO) if necessary (S) 
+
+Inputs
+Requirements Traceability Matrix (RTM)
+Requirements Fit-Gap Analysis
+Target State Concept of Operations
+Technical Strategy
+Training Plan
+Best Practice
+Understand the customer’s ATO process and allow sufficient time to get documentation through review and approvals
+Develop and define Security/Privacy plan before development as part of the Target State Solution Architecture
+Begin security and privacy planning early and include security steps across all migration phases
+Stakeholders
+Program Manager (C, P)
+Functional Lead (C, P)
+Functional SME (C,P)
+Data SME (C)
+Technical Lead/Solution Architect (C, P)
+Security Lead (C, P)
+Information Systems Security Officer (ISSO) (C, P)
+Network SME (C, P)
+PMO Lead (C, P)
+Outputs
+Security Documentation, including Security Test Results and ATO 
+Privacy Documentation, including Initial Privacy Assessment, FIPS 199, SORN, Privacy Impact Assessment 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-8
+
+
+
+
+Technology4.7 Define Roles and User Access
+Objective: Define roles and user access according to user requirements.
+Activities
+Document roles and access rights, segregation of duties, identification (ID) request and ID management processes based on Identity, Credentials, and Access Management Framework (ICAM) (S)
+Finalize roles and responsibilities for granting user access in Operations and Maintenance (O&M) (S)
+Implement Security Configuration for user roles and user access as documented in ICAM (P)
+Assign user access rights to employees (S)
+Load production user accounts (P)
+Test production user accounts (P)
+Provide credentials to end users for testing, training, and production (S)
+Inputs
+Requirements Traceability Matrix (RTM)
+Requirements Fit-Gap Analysis
+Target State Process Flows
+Target State Organization Design
+Technical Strategy
+Best Practice
+Have an ID management tool, ID request process, and contact center procedures to resolve access related issues in place before cutover
+Provide sufficient security access to the deployment team to perform their tasks effectively in advance of deployment 
+Establish security roles and responsibilities well in advance of deployment to resolve issues while time allows
+Stakeholders
+Program Manager (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Security Lead (C, P)
+ISSO (C, P)
+Network SME (C, P)
+PMO Lead  (C, P)
+Change Management Lead (C,P)
+Training Lead (C, P)
+Outputs
+Baselined List of ID Credentials
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-9
+
+Technology4.8 Configure Systems 
+Objective: Configure changes and enhancements of system software, hardware, and documentation throughout the life cycle.
+Activities
+Document Configuration Workbooks to understand data and system layouts (P)
+Create baseline system configuration and execute unit test to validate configuration changes (P)
+Assess and define batch jobs (P)
+Define and verify business process controls framework (P)
+Baseline and sign-off on functional and technical requirements (S) 
+Develop functional and technical specifications for enhancement based on requirements (P)
+Code and unit test enhancements (P)
+Validate the configuration and controls with customer Functional Subject Matter Experts (SMEs) (and Technical SMEs) to validate enhancements have met requirements (S)
+Inputs
+Requirements Traceability Matrix (RTM)
+Target State Architecture Solution
+Technical Strategy
+Requirements Fit-Gap Analysis
+Configuration Management Plan
+Best Practice
+Leverage functional specifications to support contact center team, test case, script development, training development, and user guide development
+Conduct Configuration Workbook validation after Conference Room Pilots (CRPs) to help the customer better understand the configuration options
+Consider hiring or staffing independent Enterprise Resource Planning (ERP) experts to provide unbiased configuration alternatives for the customer
+Stakeholders
+Program Manager (P) 
+Technical Lead/Solution Architect (P)
+Configuration Lead (P)
+Development Team (P)
+Functional Lead (C, P)
+Functional SME (C, P)
+Managing Partner/Service Are Sponsor (Service Area)
+
+Outputs
+RTM
+Configuration Workbooks 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-10
+
+Technology4.9 Design and Develop Interfaces
+Objective: Design and develop interfaces between applications.
+Activities
+Create or update Interface Control Documents to describe the functionality including data flow, security and controls, and transfer methods between various legacy systems (P)
+Leverage standard interfaces and application programming interfaces (APIs) to create connections between applications (S)
+Coordinate with the interface partner to collaborate and agree on data exchanges, integration methods and unit testing timeframes (S)
+Code and unit test Interfaces (P)
+Establish batch jobs to execute interfaces and conduct integration testing (S)
+Inputs
+Requirements Traceability Matrix (RTM)
+Target State Architecture Solution
+Technical Strategy
+Requirements Fit-Gap Analysis 
+Target State Concept of Operations
+Best Practice
+Maintain a detailed network architecture to help troubleshoot interface design and development issues 
+Conduct frequent checkpoints with interfacing application developers between customer and provider
+Coordinate early with external interface providers to properly plan testing windows
+Stakeholders
+Program Manager (C, P)
+Technical Lead/Solution Architect (C, P)
+Development Team (C, P)
+Functional Lead (C, P)
+Network SME (C, P)
+Outputs
+Interface Control Document
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-11
+
+Technology4.10 Design and Develop Reports
+Objective: Design and develop operational reports.
+Activities
+Based on reporting requirements within Requirements Traceability Matrix (RTM), design reports (P)
+Leverage standard reports available in the existing application (S)
+Validate report designs with customer (S)
+Build and unit test reports (P)
+Provide sample reports and prepare for user testing (P)
+Inputs
+RTM
+Reports Design Document
+
+Best Practice
+Conduct a thorough analysis of current reports to determine which are still needed or used before developing reports in the new system
+Prioritize reporting requirements and develop reports in phases
+Include sufficient time to develop and test reports
+
+Stakeholders
+Program Manager (P)
+Technical Lead/Solution Architect (P)
+Development Team (P)
+Functional Lead (P)
+Functional SME (C, P)
+Network SME (P)
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-12
+Outputs
+Reports Design Document
+
+Technology4.11 Conduct Mock Conversions
+Objective: Conduct mock data conversions to test transfer of data.
+Activities
+Define and test conversion scenarios (S)
+Design, build and unit test data conversion including extracting, transforming, and loading procedures (S)
+Design, build, and unit test validation/reconciliation reports (S)
+Test manual conversion and document results (P)
+Run mock conversion and document results in a Mock Conversion Report (P)
+Clean up data issues uncovered during mock conversions (S)
+Repeat subsequent mock conversions and update scripts as necessary, cleansing more data each time until program team is satisfied with data accuracy (S)
+Inputs
+Requirements Traceability Matrix (RTM)
+Technical Strategy
+Data Conversion Plan
+Data Cleansing Plan 
+Data Quality Results
+Best Practice
+Conduct multiple mock conversions to mitigate complex conversion risks and include enough time in the IMS to correct anomalies and update conversion programs
+Use the Data Conversion Plan to identify strategies for converting data from an existing system to a new system environment. Define system structure, hardware and software conversion steps, and type of conversion effort. Identify available data, its preparation requirements for conversion, and necessary updates to available interfaces. Establish data quality assurance controls for before and after data conversion, and define tasks, procedures, and necessary support for carrying out conversion efforts
+Use the Mock Conversion Report to define data required for conversion, understand the percent of data successfully converted, and develop a data conversion issue list to track resolved and outstanding items. Evaluate data conversion against success criteria to determine readiness for cutover and develop history of prior data conversion runs
+Stakeholders
+Program Manager (C, P)
+Functional Lead (C, P)
+Functional SME (C)
+Technical Lead/Solution Architect (C, P)
+Development Team (C, P)
+Network SME (C, P)
+Data Conversion Lead (C, P)
+Data SME (C, P)
+Outputs
+Data Conversion Plan 
+Mock Conversion Report 
+Conversion Defect Log
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-13
+
+Technology4.12 Test Systems and Processes
+Objective: Test systems and processes and trace test cases and results in the Requirements Traceability Matrix (RTM). 
+Activities
+Develop Test Plans and Scripts (Integration, System, Regression, Performance/Stress, User Acceptance, 508, Smoke) (S)
+Plan and develop test data (S) 
+Execute tests for each test cycle (S)
+Record, correct, and report defects in Test Defect Log (S)
+Perform regression test (S)
+Develop Test Results Report for each test cycle, confirm exit criteria have been met, and document results in RTM (S)
+Inputs
+RTM
+Target State Concept of Operations
+Technical Strategy
+Interface Control Document
+Target State Process Flows
+Baselined List of ID Credentials
+
+Best Practice
+Sequence System Integration Testing (SIT) and User Acceptance Testing (UAT) testing with mock conversions to be able to test with quality data to validate both system functionality and reports/data
+Implement a consolidated defect tracking tool for use by both provider and customer during test planning; agree upon implementation tools (like requirements management and defect tracking tools) in the Provider Agreement
+Leverage the RTM to map and trace requirements, test cases, and test scripts
+Involve testing team members in requirements sessions to understand requirements better
+Use the Test Defect Log to create test case and associated test scripts for each requirement, and define tester and test acceptance criteria. Log, track, and assign ownership for resolution of test issues to address outstanding items
+Use the Test Results Report to document tested system functions, completed test case percentages, and a mapped user story and test issue list including resolved and outstanding defects. Determine test acceptance and readiness of system for next steps
+Stakeholders
+Program Manager (C, P)
+Technical Lead/Solution Architect (C, P)
+Development Team (C, P)
+Functional Lead (C, P)
+Test Lead (C, P)
+Test Team (C, P)
+Outputs
+Test Plan 
+Test Scripts
+Test Results Report 
+Test Defect Log 
+RTM
+
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-14
+
+Workforce, Organization & Stakeholders4.13 Execute Workforce Transition and Prepare for Go-Live 
+Objective: Execute against and expand upon Communications Plan to include targeted communications against the Cutover Plan.
+
+
+Activities
+Develop and deliver messages based on the Communications Plan (C)
+Monitor feedback from stakeholders and adjust Communications Plan (C)
+Update Communications Plan based on labor relations meetings (C) 
+Update Workforce Assessment to identify how the workforce may be impacted by the migration (C)
+Update Change Readiness Assessment to further understand stakeholder ability to adapt to change; update the Change Management Plan as necessary (C)
+Create an additional Targeted Cutover Communications Plan based on Go-Live schedule and activities (S)
+Update Communications Plan based on workforce transitions to the Target State Organization Design, if needed (C)
+Develop strategy for employee transition and notify staff of reorganization, if required (C)  
+Develop and deliver messages based on the Targeted Cutover Communications Plan (S)
+Inputs
+Communications Plan 
+Change Management Plan
+Workforce Assessment
+Change Readiness Assessment
+Best Practice
+Deliver communications to stakeholders directly before Go-Live regarding new systems, processes, and roles
+Establish or maintain a PMO dedicated to continue to assess the impact of reorganization on the workforce 
+Stakeholders
+Program Manager (C, P)
+Training Lead (C, P)
+Change Management Lead (C, P) 
+Communications Lead (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Outputs
+Communications Plan
+Targeted Cutover Communications Plan 
+Workforce Assessment
+Change Readiness Assessment
+Change Management Plan
+
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-15
+78
+
+Workforce, Organization & Stakeholders4.14 Execute Training for Go-Live 
+Objective: Develop and deliver training to the organization to prepare for Go-Live. 
+
+Activities
+Review and update the Training Plan to include specific training styles tailored to customer segments affected by the migration (C)
+Design training content and supporting materials and develop job-aids (S)
+Plan logistics for training delivery and confirm training roles and responsibilities (S) 
+Deliver training (S)
+Develop Training Evaluation form and feedback process (S)
+Collect feedback and update Training Materials and delivery methods as needed (S) 
+Inputs
+Training Plan
+Best Practice
+Consider developing webpages to share information for ease of access and frequent use by employees
+Provide training in a variety of formats to accommodate different learning styles of stakeholders 
+Stakeholders
+Program Manager (C, P)
+Training Lead (C, P)
+Change Management Lead (C, P)
+Communications Lead (C, P)
+Outputs
+Training Plan 
+Training Materials
+Training Evaluations
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-16
+79
+
+Workforce, Organization & Stakeholders4.15 Execute Labor Relations Strategy
+Objective: Continue to manage the relationship(s) with the union(s).
+
+Activities
+Review Target State Organization Design and updates to requirements based on the migration along with the updated Workforce Assessment to identify potential impacts on staff (C)
+Engage in communications with Union Leadership based on Labor Relations Strategy (C)
+Determine the methods to align to collective bargaining agreements, resolve issues and document outcomes and next steps (C)
+Update the Labor Relations Strategy as needed (C)
+Finalize union agreements to proceed with deployment activities (C)
+Inputs
+Labor Relations Strategy
+Change Management Plan
+Target State Organization Design
+Workforce Assessment
+Best Practice
+Encourage participation in regularly scheduled “Meet and Discuss” session with union leadership and organization management
+Stakeholders
+Program Manager (C)
+Change Management Lead (C)
+Communications Lead (C) 
+Labor Relations Leader (C)
+Outputs
+Labor Relations Strategy 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-17
+80
+
+Program Management4.16 Assess Readiness for Go-Live
+Objective: Monitor program performance and measure against Go-Live criteria to assess the program’s readiness for Go-Live.
+
+Activities
+Finalize Go/No-Go Criteria, which may include program readiness, system readiness, workforce readiness, and operational readiness (S)
+Identify deliverables/milestones required to demonstrate successful migration (S) 
+Develop Contingency Plan to prepare in case a No-Go decision is made or solution needs to be rolled back to existing environment (S)
+Perform Go/No-Go Assessment using criteria and develop Go/No-Go Assessment Report and preliminary decision 30 – 60 days prior to Go-Live (S)
+Present Go/No-Go Assessment to customer and provider leadership, along with key stakeholders, to review decision and finalize (S)
+Document results of Go/No-Go decision, including mitigation steps for risks for deploying the solution or executing the Contingency Plan (S)
+Inputs
+Go/No-Go Assessment Criteria
+Status Reports/Dashboards
+Integrated Master Schedule (IMS)
+Program Management Plan
+Risks, Actions, Issues, and Decisions (RAID) Log
+Best Practice
+Define Go/No-Go Assessment Criteria upfront and define measurable criteria to make decisions
+Use the Contingency Plan to account for all decision scenarios resulting from the Go/No-Go assessment (e.g., No-Go Decision, Roll-Back Decision). For each scenario, this includes completed plans for required communications and activities, detailed analysis of impacted systems and interfaces, and defined roles and responsibilities for re-planning activities and managing legacy systems
+Stakeholders
+Executive Sponsor (C, P) 
+Business Owner (C, P)
+Business Standards Lead (C)
+Program Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Outputs
+Contingency Plan 
+Go/No-Go Readiness Criteria
+Go/No-Go Assessment Report
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-18
+
+Technology4.17 Develop and Execute Cutover Plan for Go-Live
+Objective: Create and execute Cutover Plan to deploy the solution into production.
+Activities
+Develop Cutover Plan to include pre cutover, cutover, and post cutover steps (S) 
+Integrate the Cutover Plan with the overall communication and program Go-Live schedule (S)
+If Go decision is made, begin executing Cutover Plan and monitor activities towards deployment (S)
+If No-Go decision is made, execute Contingency Plan procedures (S)
+Communicate the cutover activities to stakeholders (S)
+Execute pre cutover tasks (S)
+Initiate post cutover activities to include warranty period support (P)
+Schedule all necessary checkpoints to monitor Go-Live progress (S)
+Execute cutover tasks to include deployment of code to production, activation of system components, and securing or shutting down legacy systems (P)
+Initiate post cutover activities to include warranty period support (P)
+Update decommission plan for legacy systems (C)
+Inputs
+Requirements Traceability Matrix (RTM)
+Technical Strategy
+Integrated Master Schedule (IMS)
+Decommission Plan 
+Contingency Plan
+Go/No-Go Readiness Criteria
+Go/No-Go Assessment Report
+Best Practice
+Establish an ongoing and committed contact center support at each organization to help facilitate Go-Live transition 
+Have all key Subject Matter Experts (SMEs) available onsite during final pilot trial and actual deployment
+Conduct daily meetings to monitor progress and issues for timely resolution
+Use the Cutover Plan to define cutover communication steps and checkpoint meetings, align resources, and identify risks with aligned contingency plans in place. Determine activities for before, during, and after the day of cutover
+
+Stakeholders
+Program Manager (C, P)
+Functional Lead (C, P )
+Technical Lead/Solution Architect (C, P)
+Security Lead (ISSO) (C, P)
+Network SME (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Change Management Lead (C, P)
+Communications Lead (C, P)
+Data Conversion Lead (C, P)
+Interface Lead (C, P)
+Outputs
+Cutover Plan 
+Decommission Plan
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+4-19
+
+Documentation Required for Phase 4 Progress Review
+The following documentation is required in guiding a discussion to demonstrate readiness and gain approval for Phase 4. Agencies purchasing transaction processing services only will identify relevant activities and examples for their project using the M3 Services Tailoring Guide.
+Exit Criteria (to move into Phase 5)
+Go/No-Go Criteria Met
+Information Contained in Progress Review Discussion
+Business Operations Readiness Criteria Tasks and Status
+Contingency Plan
+Data Conversion Results
+M3 Risk Assessment Tool
+Organizational Readiness Criteria Tasks and Status 
+Program Management Readiness Criteria Tasks and Status 
+Risk and Issues Summary
+Technology Readiness Criteria Tasks and Status 
+Test Results
+
+
+Phase 4 Documentation
+Baselined List of ID Credentials 
+Business Process Reengineering Strategy 
+Change Management Plan 
+Change Readiness Assessment
+Change Request Form 
+Change Request Log 
+Communications Plan 
+Configuration Management Plan
+Configuration Workbooks 
+Contingency Plan 
+Conversion Defect Log 
+Cutover Plan 
+Data Conversion Plan 
+Decommission Plan 
+Desk Guides/User Guide
+Go/No-Go Assessment Report 
+Go/No-Go Readiness Criteria 
+Independent Verification & Validation (IV&V) Plan 
+Integrated Master Schedule (IMS) 
+Interface Control Document 
+Labor Relations Strategy 
+M3 Risk Assessment Tool
+Mock Conversion Report 
+O&M Governance Plan 
+Privacy Documentation 
+Program Management Plan 
+Resource Management Plan
+Reports Design Document 
+Requirements Traceability Matrix (RTM) 
+Risk Management Plan 
+Risks, Actions, Issues, and Decisions (RAID) Log 
+Security Documentation
+Standard Operating Procedures 
+Status Reports/Dashboards 
+Target State Organization Design 
+Target State Process Flows
+Target State Process Maps
+Targeted Cutover Communications Plan 
+Test Defect Log 
+Test Plan 
+Target State Concept of Operations
+Test Results Report
+Test Scripts 
+Training Evaluations 
+Training Materials 
+Training Plan 
+Workforce Assessment 
+Workforce Transition Strategy 
+4-20
+83
+
+Phase 5: Operations
+5-1
+84
+
+Phase 5 Summary
+Objective:
+Deliver services and conduct continuous process improvement.
+5-2
+Responsible Party:            Customer             QSMO             Provider             Shared
+Program 
+Management
+Workforce, Organization, & Stakeholders
+Technology
+Process & Service 
+Delivery
+5.1 Review Performance Against Expected Benefits
+5.2 Collect Lessons Learned
+5.3 Implement Operations & Maintenance (O&M) Governance
+5.4 Support Stabilization and Perform Change Management
+5.5 Maintain Applications Post Go-Live
+5.6 Decommission Legacy Systems
+5.7 Conduct Continuous Process Improvement
+5.8 Manage Integrated Contact Center 
+5.9 Monitor and Update Service Level Agreements (SLAs)
+Phase 5: Operations
+Activities
+85
+
+Program Management5.1 Review Performance Against Expected Benefits 
+Objective: Evaluate and measure the migration’s performance and success to determine if objectives were achieved. 
+
+Activities
+Receive all final deliverables/milestones to determine program completion (S)
+Evaluate schedule, scope, and cost of the migration against baseline metrics including performance against relevant metrics that align with the QMSO Performance Management Framework (S)
+Collect data and evaluate Success Metrics and relevant metrics that align with the QSMO Performance Management Framework against baseline targets (S)
+Document the results of the program management success metrics and relevant metrics that align with the QSMO Performance Management Framework and present results to key stakeholders (S)
+Collect and archive your cost actuals (S)
+Outputs
+Final Report on Success Metrics
+Inputs
+Program Charter
+Program Management Plan 
+Integrated Master Schedule (IMS)
+Success Metrics
+Service Level Agreements (SLAs)
+QSMO Performance Management Framework Metrics
+Stakeholders
+Executive Sponsor (C, P) 
+Business Owner (C, P)
+Program Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+5-3
+Best Practice
+Set defined performance and success metrics (including baselines and targets) at the beginning of the program to be able to measure and communicate the benefits intended and ultimately achieved
+Measure performance against key performance indicators (KPIs) set in Phase 1, internal and external standards including benchmarks.gsa.gov, and the Federal Integrated Business Framework (FIBF) Performance Management Framework
+Correctly set expectations of performance noting that while savings often are realized from shared support arrangements, the efficiencies do not appear immediately and in the short-run may appear to be more costly during the stabilization period
+
+Program Management5.2 Collect Lessons Learned
+Objective: Identify the Program’s successes and areas for improvement, and report findings in a Lessons Learned Report.
+
+Activities
+Develop a Lessons Learned Questionnaire and provide it to program stakeholders to gather feedback on the successes and areas for improvement, including feedback on the Communications Plan (S)
+Distribute questionnaire and provide time for response (S) 
+Identify major successes and areas for improvement based on stakeholder responses (S)
+Facilitate a Lessons Learned Session with program stakeholders to review and further discuss Lessons Learned Questionnaire findings and additional program insights(S)
+Document the major successes, areas for improvement, and lessons learned of the program and present the Lessons Learned Report to the key stakeholders (S)
+Conduct knowledge transfer from migration team to Operations and Maintenance (O&M) team and closeout program (S)
+Best Practice
+Three key questions should be included in the Lessons Learned Questionnaire; (1) What went well, (2) What went wrong, and (3) What could be improved. The survey should also include questions around project activities scored on a range from low to high to allow participants to quantitatively identify what went well and what didn’t. Recommended questions categories could include project management, technology, communication, business processes, requirements, design and build, and testing and implementation 
+When facilitating the Lessons Learned Session, the facilitator should utilize the Questionnaire findings, key project documents, and project survey results to help guide the participant conversation
+Use the Lessons Learned Report to document the program's effectiveness by comparing the Baseline Performance and Success Metrics against the Target Performance Success Metrics and how well it aligned with the Performance Management Framework. Identify the unmet performance gaps and develop continuous improvement strategies that can help eliminate them
+Outputs
+Lessons Learned Questionnaire
+Lessons Learned Session
+Lessons Learned Report
+Inputs
+Communications Plan
+Program Charter
+Program Management Plan 
+Integrated Master Schedule (IMS)
+Status Report/Dashboard
+Stakeholders
+Executive Sponsor (C, P) 
+Business Owner (C, P)
+Program Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+5-4
+
+Program Management5.3 Implement Operations & Maintenance (O&M) Governance
+Objective: Implement O&M governance structures to manage and oversee performance after Go-Live.
+Activities
+Finalize Integrated O&M Governance Plan to include integrated governance authority, roles, and responsibilities for decision-making on topics such as risk/issue escalation, Service Level Agreement (SLA) and Provider Agreement monitoring, contract negotiations, service requests/change requests management after system Go-Live (S)
+Implement processes, integrated governance meeting cadence, and reporting timelines for customer and provider (S) 
+Update Governance Plan and processes as changes are identified or conduct an annual review (at a minimum) to determine if changes are needed (S)
+Review and report on SLAs after Go-Live on the timeline specified in the SLA (P) 
+Review Provider Agreement and SLAs at least once annually and determine if updates need to be made (C)
+Inputs
+SLAs
+Provider Agreement
+Best Practice
+Encourage decisions to be made at the lowest possible level, while allowing elevation of important or contentious issues through the governance model
+Implement an integrated recurring meeting and status reporting cadence to help align customer and provider leadership on the status of ongoing activities and priorities
+Stakeholders
+Business Owner (C, P)
+O&M Team (C, P)
+Outputs
+O&M Governance Plan
+SLA Performance Reports 
+Change Request Log
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+5-5
+
+Workforce, Organization & Stakeholders5.4 Support Stabilization and Perform Change Management
+Objective: Maintain regular communication with stakeholders and assess the effectiveness of the training after the migration is complete to support stabilization and user adoption.
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+5-6
+Activities
+Develop and deliver messages based on the Targeted Cutover Communications Plan (S)
+Assess the impact of the Targeted Cutover Communications Plan and provide stabilization support for transition (S)
+Continue to conduct change management activities and training for employees during the stabilization period (S) 
+Assess the impact of change management activities and training for employees through elevations and metrics (S)
+Document lessons learned from Training Evaluations and stakeholder feedback on communications (S)
+Update the existing Change Management, Communications, and Training Plans to account for the Operations and Maintenance (O&M) section (S) 
+Conduct training on a regular basis, specifically as new employees are on-boarded or as process improvements and/or system enhancements are made (S) 
+Develop and deliver ongoing methods and Communications Materials to message process improvements and/or system enhancements (S) 
+Best Practice
+Develop and execute frequent and multi-directional communications to increase the likelihood that most stakeholders receive the messages
+Maintain job-aids, Standard Operating Procedures (SOPs) and Frequently Asked Questions (FAQs) and other documentation and ensure they are readily available for employees to refresh after migration 
+Use the O&M sections within the Change Management, Communications, and Training Plans to capture what the expected changes are and how best to manage them
+Encourage exploration by those impacted by changes and address perceived resistance to improve the change adoption. Reinforce change in the transition by using communication and training to gather customer and staff feedback during the process
+Continue to seek feedback from all stakeholder groups to better ensure a successful change process
+Inputs
+Change Management Plan
+Training Materials 
+Training Assessment and Metrics
+Targeted Cutover Communications Plan
+Communications Plan
+Training Plan
+Stakeholders
+Business Owner (C,P) 
+Change Management Lead (C, P)
+Communications Lead (C, P)
+O&M Team (C, P)
+Training Lead (C, P)
+
+
+Outputs
+Completed Training Evaluations
+Change Management Plan
+Communications Plan
+Training Plan 
+Communications Materials 
+Training Materials
+89
+
+Technology5.5 Maintain Applications Post Go-Live
+Objective: Support and maintain application post Go-Live to address system and user’s concerns for operational effectiveness.
+
+Activities
+Provide heightened levels of service for 90 days after Go-Live to ensure stabilization (e.g., service desk, incident management, event management, access management) (P)
+Develop Post Implementation and Evaluation Report to capture lessons learned and next steps (S)
+Maintain applications, update documentations, and adjust resource, as required, through Information Technology Information Library (ITIL) management to meet Service Level Agreements (SLAs) and sustain an agreed upon level of operational performance (P)
+Plan and perform future modernization efforts to improve operational effectiveness (P)
+
+Inputs
+Requirements Traceability Matrix (RTM)
+Target State Systems Environment
+Technical Strategy
+Cutover Plan
+SLAs
+Best Practice
+Engage Operations and Maintenance (O&M) team early and conduct multiple simulations and training to adequately prepare support team before cutover
+Gain agreement on SLAs and SLA reporting and processes in advance of cutover
+Determine system administration split of responsibilities between customer and provider early and develop documentation to support
+
+
+Stakeholders
+O&M Team (C, P)
+Outputs
+Post Implementation and Evaluation Report
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+5-7
+
+Technology5.6 Decommission Legacy Systems
+Objective: Retire legacy systems including hardware, software, licenses, interface, and close out support contracts.
+
+Activities
+Once the Cutover Plan is complete, execute the Decommission Plan (C)
+Finalize plans for hardware disposition, software licensing, and contract end of life plan (C)
+Archive software, data, and documentations (security and access) necessary to bring back the system if required (C)
+Retire applications, databases, and hardware per requirements (C)
+Provide Decommission Report to appropriate stakeholders (C)
+Inputs
+Cutover Plan
+Decommission Plan
+
+Best Practice
+Build the Decommission Plan into the overall migration program to capitalize on cost reduction and operational improvements
+Stakeholders
+Program Manager (C)
+Business Owner (C)
+Functional Lead (C)
+Technical Lead/Solution Architect (C)
+Security SME (C)
+Network SME (C)
+O&M Team (C) 
+PMO Lead (C) 
+Outputs
+Decommission Report
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+5-8
+
+Process and Service Delivery5.7 Conduct Continuous Process Improvement
+Objective: Monitor operational performance to identify and implement process improvement opportunities. 
+Activities
+Monitor performance of the new system and processes (S)
+Identify areas for process improvement (S)
+Validate As-Is and document Target State Process Flows and update Standard Operating Procedures (SOPs) (S)
+Communicate changes to stakeholders and train end users as necessary (S)
+Inputs
+Target State Process Flows
+SOPs
+Service Level Agreements (SLAs)
+Lessons Learned Report
+Best Practice
+Define key performance metrics to monitor operations and identify improvement opportunities
+Define meeting cadence and mechanism for performance reviews, including customer satisfaction surveys
+Use SOPs to continue monitoring process flows in order to identify potential opportunities for process enhancement, updating SOPs on a regular basis
+Leverage the QSMO Performance Management Framework and the Performance Management Guidebook for guidance on continuous performance management and improvement
+
+Stakeholders
+Change Management Lead (C, P)
+Communications Lead (C, P)
+O&M Team (C, P)
+Training Lead (C, P)
+
+Outputs
+Target State Process Flows 
+SOPs
+SLAs
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+5-9
+
+Process and Service Delivery5.8 Manage Integrated Contact Center 
+Objective: Provide service and assistance to customers in Operations & Maintenance (O&M). 
+Activities
+Provide customer care for issue resolution and escalation according to service level agreement (SLA) metrics (P)
+Coordinate escalated requests between customer and provider (S) 
+Document frequent issues and make appropriate requirement changes and training adjustments (S)
+Inputs
+SLAs
+Contact Center Strategy
+Best Practice
+Define mandatory requirements clearly and align with SLAs
+
+Stakeholders
+Business Owner (C, P)
+Program Manager (C ,P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Functional Lead (C, P)
+Functional SME (C, P)
+Training Lead (C, P)
+Change Management Lead (C, P)
+Communications Lead (C, P)
+Outputs
+SLAs
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+5-10
+
+Process and Service Delivery5.9 Monitor and Update Service Level Agreements (SLAs)
+Activities
+Create reports based on ongoing tracking/managing of performance against established Service Level Agreements (SLAs) (S)
+Identify any gaps between customer service level requirements and provider capabilities (S)
+Update SLAs according to the new operational and financial terms and conditions (i.e., timing of services, cost for services, payment terms) (S) 
+Inputs
+SLAs
+Best Practice
+Ensure proper monitoring of SLAs where both customer and provider responsibilities are clearly defined
+Work collaboratively across the provider and customer to identify and capture the appropriate performance metrics and targets (SLAs include customer defined performance measures with associated targets inclusive of metrics to monitor customer responsiveness and quality)
+Review Provider Agreements, SLAs, and Life Cycle Cost Estimate (LCCEs) for any potential updates that may be required
+
+Stakeholders
+Executive Sponsor (C, P)
+Business Owner(C, P)
+Program Manager (C, P)
+PMO Lead (C, P)
+PMO Team (C, P)
+Functional Lead (C, P)
+Technical Lead/Solution Architect (C, P)
+Technical SME(C, P)
+Functional SME(C, P)
+Outputs
+SLAs 
+Responsible Party:   (C) Customer     (Q) QSMO     (P) Provider     (S) Shared
+5-11
+Objective: Update the agreement on the level of service provided by the provider to the customer during operations and maintenance (O&M) for a defined period of time.
+
+Resources
+R-1
+95
+
+Resources
+For sample documentation from previous modernizations and migrations, please go to the M3 Example MAX Page. 
+
+For additional information on what types of services typically are acquired during migrations, go to the M3 Service Categories page.
+
+M3 Playbook
+Descriptions for how to apply the M3 framework for a modernization or migration, including detailed activity steps, inputs, outputs, lessons learned, and stakeholders involved.
+M3 Playbook PDF
+
+M3 Document and Example Tracker	
+Outlines the initial creation and updates of M3 Documents as outlined throughout all Phases for easy-to-follow tracking and maintenance. It also includes a list of current M3 Examples as stored on Max.gov.
+M3 Document and Example Tracker
+
+Tollgate Review Templates
+Templates aid customers and providers in the completion of activities, providing aspects to consider while completing the activity. Templates do not have to be used if a customer or provider organization already has its own template as long as the detail included is the same.
+Phase 1 Tollgate Review
+Phase 2 Tollgate Review
+Phase 3 Tollgate Review
+Phase 4 Tollgate Review
+Templates
+As Is System Environment
+Baseline and Target Performance Success Metrics
+Business Needs Workbook
+Business Readiness Assessment Template
+Change Management Plan
+Change Request Form
+Communications Plan
+Configuration Management Plan
+Data Conversion Plan
+Governance Plan
+Investment Readiness Checklist
+Lessons Learned Report
+Master Schedule
+Provider Assessment
+RAID Log
+Requirements Management Plan
+Requirements Traceability Matrix
+Resource Management Plan
+Risk Assessment Tool
+Risk Management Plan
+Stakeholder Analysis
+Status Report Dashboard
+Target State CONOPS
+Test Plan
+Training Plan
+R-2
+
+Service Categories
+The following are services typically acquired during migrations:
+Category
+Service
+Definition
+M3 Phase
+0
+1
+2
+3
+4
+5
+Professional Services
+Strategy and Feasibility Studies
+Initial study to determine best course of action for future migrations (e.g., what systems should migrate when)
+x
+Professional Services
+Program Management Office (PMO) Support
+Provide program management support throughout the planning and migration process
+x
+x
+x
+x
+x
+Professional Services
+Proposal Support (e.g., providing estimates to potential customers)
+Support SSP in developing estimates for the costs for new customers to migrate to the SSP solution
+x
+x
+Professional Services
+Integrated Master Scheduling (IMS) Support
+Support in developing an integrated master schedule between the provider and customer
+x
+x
+x
+x
+Technical Services
+System Documentation
+Document existing system requirements
+x
+x
+x
+Professional Services
+Business Process Mapping
+Document existing business processes related to the system/service being migrated or modernized
+x
+x
+Technical Services
+Gap Analysis and Benchmarking
+Assist in understanding gaps between the customer requirements and provider’s standard solution and processes and developing gap solutions
+x
+x
+Technical Services
+Data Cleansing and Migration
+Review existing data; identify data with errors and make corrections; migrate data into new system
+x
+x
+x
+x
+Subject Matter Expertise
+Independent Verification and Validation (IV&V)
+Independent verification and validation to evaluate the correctness and quality of critical and complex software systems throughout the system development life cycle
+x
+x
+x
+x
+Professional Services
+Business Process Reengineering (BPR)
+Develop and document new business processes as they relate to the end state of the migration
+x
+x
+Technical Services
+Test and Evaluation Services
+Conduct necessary testing to ensure that the migration is occurring successfully
+x
+x
+Technical Services
+Integration (e.g., interface development)
+Development of interfaces/integration between systems
+x
+x
+x
+Technical Services
+Integrator Support
+Support for the provider throughout the process of migrating a customer to the provider’s offering
+x
+x
+x
+x
+Professional Services
+Change Management Support
+Identification of change management needs, development of materials and training, if necessary
+x
+x
+x
+x
+x
+Professional Services
+Business Intelligence and Reporting
+Tool to consolidate data and provide canned and customizable reports
+x
+x
+x
+Subject Matter Expertise
+Accounting Subject Matter Experts
+Provide expertise in accounting during financial systems migration
+x
+x
+x
+x
+R-3
+
+Abbreviations
+Abbreviation
+Definition
+ATO
+Authority to Operate
+BI
+Business Intelligence
+CooP
+Continuity of Operations
+CPIC
+Capital Planning and Investment Control
+CSSP
+Commercial Shared Services Providers
+ERP
+Enterprise Resource Planning
+FAQ 
+Frequently Asked Questions
+FIBF
+Federal Integrated Business Framework
+FSSP
+Federal Shared Services Providers
+GSA
+General Services Administration
+HR
+Human Resources
+IAA
+Interagency Agreement
+ID
+Identification
+IMS
+Integrated Master Schedule
+ICAM
+Identity, Credentials, and Access Management Framework
+IT
+Information Technology
+ITIL
+Information Technology Information Library 
+ISSO
+Information Systems Security Officer 
+IV&V
+Independent Verification and Validation
+LCCE
+Life Cycle Cost Estimate
+O&M
+Operations and Maintenance
+Abbreviation
+Definition
+OMB
+Office of Management and Budget
+OSSPI
+Office of Shared Solutions and Performance Improvement
+PIV
+Personal Identification Verification
+PMO
+Program Management Office
+PWS
+Performance Work Statement
+QASP
+Quality Assurance Surveillance Plan
+QSMO
+Quality Service Management Offices
+RAID 
+Risks, Actions, Issues, and Decisions 
+RACI
+Responsible, Accountable, Consulted, Informed
+RFI
+Request for Information
+RFP
+Request for Proposal
+RFQ
+Request for Quote
+ROI
+Return on Investment
+ROM
+Rough Order of Magnitude
+RTM
+Requirements Traceability Matrix
+SLA
+Service Level Agreement
+SME
+Subject Matter Expert
+SOP
+Standard Operating Procedure
+SORN
+System of Records Notice 
+SSP
+Shared Services Providers
+Abbreviations 
+
+Glossary - Stakeholders
+Stakeholder
+Definition
+Budget or Financial Analyst 
+Individual(s) conducting  budget or financial analysis
+Business Owner  
+Responsible leader(s) for particular business functions on customer side, e.g., CFO, CHCO
+Change Management Lead
+Responsible leader(s) for change management activities for the program
+Communications Lead
+Responsible leader(s) for communications activities for the program
+Configuration Lead
+Responsible leader(s) for configuration changes 
+Contracting Procurement Officer 
+Individual(s) responsible for acquisition for the organization and managing contracts
+Data Conversion Lead 
+Responsible leader(s) for data conversion for the program
+Data SME
+Individual(s) with data subject matter expertise
+Development Team
+Group of individuals responsible for developing the technical solution
+Executive Sponsor 
+Executive(s) who sponsors the program
+Functional Lead
+Responsible leader(s) for the functional aspect of solution implementation 
+Functional SME
+Individual(s) with functional subject matter expertise
+Interface Lead 
+Responsible leader(s)  for managing interfaces during the solution implementation
+IV&V Team
+Group of individuals responsible for verifying and validating processes
+Information Systems Security Officer (ISSO)
+Individual(s)  who is (are) responsible for information systems security 
+Labor Relations Leader
+Responsible leader(s) for labor relations with the Union(s)
+Service Area Lead/Service Area Sponsor
+Expert(s) from a particular Service Area who represents that Service Area
+Network SME
+Individual(s) with network subject matter expertise
+Stakeholder
+Definition
+O&M Team
+Group of individuals who run O&M for customer and provider 
+OSSPI
+Office that coordinates government-wide shared services governance, executes program management, and develops processes to support development and implementation of OMB policy as it relates to mission support services
+PMO Lead
+Responsible leader(s) for managing and overseeing program activities
+PMO Team
+Group of individuals responsible for preventing governance gaps in program activities
+Program Manager
+Individual(s) managing the overall program and integration of activities
+QSMO
+Designated federal agency serving as governmentwide storefronts and brokers, offering solutions for technology and services in their functional area
+Requirements Lead
+Responsible leader(s) for the process of defining and managing requirements
+Risk Lead
+Responsible leader(s) for risk management processes
+Risk Manager
+Individual(s) managing risk management processes
+Security Lead 
+Responsible leader(s) for security management
+Security SME
+Individual(s) with security subject matter expertise
+Technical Lead/Solution Architect
+Responsible leader(s) for the technical aspects of solution implementation
+Technical SME
+Individual(s) with technical subject matter expertise
+Test Lead
+Responsible leader(s) for testing
+Test Team
+Group of individuals who run testing
+Training Lead
+Responsible leader(s) for running training
+Workforce Lead 
+Responsible leader(s) for workforce planning
+Glossary -1

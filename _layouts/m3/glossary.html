@@ -1,0 +1,23 @@
+---
+title: "Glossary"
+layout: m3/m3-layout-sidenav
+---
+<div class="usa-prose margin-x-auto">
+<h1>{{page.title}}</h1>
+{% for section in page.sections %}
+  <section>
+    <h2 id="{{section.name | remove: " "}}" class="border-bottom border-base-lighter">{{section.name}}</h2>
+    {% if section.description %}
+      <p>{{section.description}}</p>
+    {% endif %}
+    <ul class="grid-row grid-gap add-list-reset">
+      {% for term in section.terms %}
+        <li class="tablet:grid-col-6 padding-bottom-3">
+          <div class="text-bold">{{ term.name }}</div>
+          <div class="margin-0">{{ term.description }}</div>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endfor %}
+</div>

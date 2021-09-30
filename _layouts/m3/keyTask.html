@@ -1,0 +1,317 @@
+---
+layout: m3/m3-layout
+---
+
+
+{% assign parent = site.pages | where: 'layout', 'm3/phase' | where: 'phase', page.phase | first %}
+
+{% assign prevTask = page.keyTask | minus: 1 %}
+{% assign prev = site.pages | where: 'phase', page.phase | where: 'keyTask', prevTask | first %}
+
+{% assign nextTask = page.keyTask | plus: 1 %}
+{% assign next = site.pages | where: 'phase', page.phase | where: 'keyTask', nextTask | first %}
+
+{% assign workstream = "" %}
+{%- case page.category -%}
+  {%- when "programManagement" -%}
+    {% assign workstream = "Program Management" %}
+  {%- when "workforce" -%}
+    {% assign workstream = "Workforce, Organization, and Stakeholders" %}
+  {%- when "technology" -%}
+    {% assign workstream = "Technology" %}
+  {%- when "process" -%}
+    {% assign workstream = "Process and Service Delivery" %}
+{%- endcase -%}
+
+
+
+
+{% assign customerStakeholders = page.stakeholders | where: 'responsibleParty', "customer" %}
+{% assign providerStakeholders = page.stakeholders | where: 'responsibleParty', "provider" %}
+{% assign qsmoStakeholders = page.stakeholders | where: 'responsibleParty', "qsmo" %}
+{% assign numActivities = 0 %}
+{% assign sumActivities = 0 %}
+
+{% if page.activitiesGroups %}
+  {% for item in page.activitiesGroups %}
+    {% assign customerActivities = item.activities | where: 'responsibleParty', "customer" %}
+    {% assign providerActivities = item.activities | where: 'responsibleParty', "provider" %}
+    {% assign qsmoActivities = item.activities | where: 'responsibleParty', "qsmo" %}
+    {% assign sharedActivities = item.activities | where: 'responsibleParty', "shared" %}
+    {% assign sumActivities = sumActivities | plus: customerActivities.size | plus: providerActivities.size | plus: qsmoActivities.size %}
+    {% assign numActivities = numActivities | plus: item.activities.size %}
+  {% endfor %}
+{% else %}
+  {% assign customerActivities = page.activities | where: 'responsibleParty', "customer" %}
+  {% assign providerActivities = page.activities | where: 'responsibleParty', "provider" %}
+  {% assign qsmoActivities = page.activities | where: 'responsibleParty', "qsmo" %}
+  {% assign sharedActivities = page.activities | where: 'responsibleParty', "shared" %}
+  {% assign sumActivities = customerActivities.size | plus: providerActivities.size | plus: qsmoActivities.size %}
+  {% assign numActivities = page.activities.size %}
+{% endif %}
+
+
+<div class="usa-section m3-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap space-between">
+
+      <div class="desktop:grid-col-12">
+        
+        <a href="{{site.baseurl}}/m3">M3 Playbook</a> > <a href="{{parent.url | relative_url}}">Phase {{parent.phase}}: {{parent.name}}</a> > {{page.phase}}.{{page.keyTask}} {{page.name}}
+        <section class="prevnext">
+          
+          {% if prev %}
+            <a class="prev" href="{{site.baseurl}}{{prev.url}}">
+              <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#arrow_back"></use>
+              </svg>
+              {{prev.phase}}.{{prev.keyTask}} {{prev.name}}
+            </a>
+          {% endif %}
+          {% if next %}
+            <a class="next" href="{{site.baseurl}}{{next.url}}">
+              {{next.phase}}.{{next.keyTask}} {{next.name}}
+              <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#arrow_forward"></use>
+              </svg>
+            </a>
+          {% endif %}
+          
+        </section>
+        <h1>{{page.phase}}.{{page.keyTask}} {{page.name}}</h1>
+      </div>
+
+      <div class="desktop:grid-col-8">
+
+        <div class="m3-summary-box-label bg-{{page.category}}">
+          <svg aria-hidden="true" focusable="false" role="img">
+            <use xlink:href="{{site.baseurl}}/assets/images/m3/icon-{{page.category}}.svg#icon-{{page.category}}"></use>
+          </svg>
+          {{workstream}}
+        </div>
+        <div class="m3-summary-box usa-summary-box with-label" role="complementary">
+          <div class="usa-summary-box__body">
+            <h2 class="usa-summary-box__heading">Objective</h2>
+            <div class="usa-summary-box__text">
+              <p>{{page.objective}}</p>
+              <a href="#BestPractice" class="usa-button ">
+                <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                  <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#arrow_downward"></use>
+                </svg>
+                View Best Practices
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div id="keyTasks" class="filterlist" data-items=".usa-process-list__item" data-filters=".m3-tag" aria-live="polite">
+          <div id="keyTaskHeader">
+            <h2>Task Activities</h2>
+            <div class="keyTaskLegend">
+              <label for="keyTaskRoles">Filter Responsible Roles:</label>
+              <ul id="keyTaskRoles">
+              
+                {% if customerActivities.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag customer" data-filter="customer" aria-controls="keyTasks" role="option" aria-selected="false">
+                    <svg class="usa-icon" aria-hidden="true" focusable="false" role="img" aria-label=" customer activities in investment planning guidance">
+                      <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "customer" %}"></use>
+                    </svg>
+                    Customer
+                  </button>
+                </li>
+                {% endif %}
+              
+                {% if providerActivities.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag provider" data-filter="provider" aria-controls="keyTasks" role="option" aria-selected="false">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "provider" %}"></use>
+                  </svg>
+                  Provider
+                </button>
+                </li>
+                {% endif %}
+                
+                {% if qsmoActivities.size > 0 %}
+                <li>
+                  <button class="usa-button m3-tag qsmo" data-filter="qsmo" aria-controls="keyTasks" role="option" aria-selected="false">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "qsmo" %}"></use>
+                  </svg>
+                  QSMO
+                </button>
+                </li>
+                {% endif %}
+                
+                {% if sumActivities > numActivities or sharedActivities.size > 0  %}
+                <li>
+                  <button class="usa-button m3-tag shared" data-filter="shared" aria-controls="keyTasks" role="option" aria-selected="false">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "shared" %}"></use>
+                  </svg>
+                  Shared
+                </button>
+                </li>
+                {% endif %}
+              </ul>
+            </div>
+          </div>
+
+          {% if page.activitiesText %}
+            <p>{{ page.activitiesText }}</p>
+          {% endif %}
+
+          {% if page.activitiesGroups %}
+            {% for item in page.activitiesGroups %}
+              <h4>{{item.group}}</h4>
+              {% assign activitiesGroup = item.activities %}
+              {% include m3/activitiesGroup.html %}
+            {% endfor %}
+          {% else %}
+            {% assign activitiesGroup = page.activities %}
+            {% include m3/activitiesGroup.html %}
+          {% endif %}
+
+        </div>
+
+        <div class="best-practices">
+          <h3 id="BestPractice">{{page.phase}}.{{page.keyTask}} Best Practices</h3>
+          <ul>
+            {% for item in page.bestPractice  %}
+            <li>
+              {{ item }}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        
+      </div>
+      <div class="desktop:grid-col-3">
+        <section id="documentation">
+
+          <div class="stakeholders">
+            <h2>Stakeholders</h2>
+            
+            {% if customerStakeholders.size > 0 %}
+              <h3>
+                <svg class="usa-icon color-customer" aria-hidden="true" focusable="false" role="img">
+                  <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "customer" %}"></use>
+                </svg>
+                Customer
+              </h3>
+              <ul class="customerStakeholders">
+              {% for item in customerStakeholders %}
+                <li>
+                  {{ item.text }}
+                </li>
+              {% endfor %}
+              </ul>
+            {% endif %}
+            
+            {% if providerStakeholders.size > 0 %}
+              <h3>
+                <svg class="usa-icon color-provider" aria-hidden="true" focusable="false" role="img">
+                  <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "provider" %}"></use>
+                </svg>
+                Provider
+              </h3>
+              <ul class="providerStakeholders">
+              {% for item in providerStakeholders %}
+                <li>
+                  {{ item.text }}
+                </li>
+              {% endfor %}
+              </ul>
+            {% endif %}
+            
+            {% if qsmoStakeholders.size > 0 %}
+              <h3>
+                <svg class="usa-icon color-qsmo" aria-hidden="true" focusable="false" role="img">
+                  <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = "qsmo" %}"></use>
+                </svg>
+                QSMO
+              </h3>
+              <ul class="qsmoStakeholders">
+              {% for item in qsmoStakeholders %}
+                <li>
+                  {{ item.text }}
+                </li>
+              {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+
+          <h2>Inputs</h2>
+          <ul>
+            {% for item in page.inputs %}
+            <li>
+
+              {% comment %}
+              ### The following code would not include a link to the related template
+              {% if item.text %}
+                {{ item.text }}
+              {% else %}
+                {{ item }}
+              {% endif %}
+              {% endcomment %}
+
+              {% if item.filename %}
+                <a href="{{site.baseurl}}/assets/files/{{item.filename}}">{{ item.text }}</a>
+              {% elsif item.url %}
+                <a href="{{ item.url }}">{{ item.text }}</a>
+              {% else %}
+                {{ item }}
+              {% endif %}
+
+              {% comment %}
+              ### The following code would add an icon linking to the first keyTask that has this input as an output ###
+              {% assign keyTaskPages = site.pages | where: 'layout', 'm3/keyTask' %}
+              {% for keyTaskPage in keyTaskPages %}
+                {% if keyTaskPage.outputs contains item %}
+                  <a class="linkedOutput" href="/{{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}/">
+                    {{keyTaskPage.phase}}.{{keyTaskPage.keyTask}}
+                    <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                      <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#navigate_next"></use>
+                    </svg>
+                  </a>
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+              {% endcomment %}
+
+            </li>
+            {% endfor %}
+          </ul>
+          <h2>Outputs</h2>
+          <ul>
+            {% for item in page.outputs %}
+            <li>
+              {% comment %}
+              ### The following code would not include a link to the related template
+              {% if item.text %}
+                {{ item.text }}
+              {% else %}
+                {{ item }}
+              {% endif %}
+              {% endcomment %}
+
+              {% if item.filename %}
+                <a href="{{site.baseurl}}/assets/files/{{item.filename}}">{{ item.text }}</a>
+              {% elsif item.url %}
+                <a href="{{ item.url }}">{{ item.text }}</a>
+              {% else %}
+                {{ item }}
+              {% endif %}
+              
+            </li>
+            {% endfor %}
+          </ul>
+        </section>
+        
+      </div>
+    </div>
+  </div>
+</div>
