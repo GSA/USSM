@@ -50,11 +50,11 @@ Thus, the transactional purpose of the Golden Data Test Set (GDTS) is to provide
             <td>Time and Attendance Data Pay Period 3</td>
         </tr>
         <tr>
-            <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/TA_TRANS_PP3_02010327_v1.0.xml">TA_TRANS_PP3_02010327_v1.0.xml</a></td>
+            <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/TA_TRANS_PP4_02010327_v1.0.xml">TA_TRANS_PP4_02010327_v1.0.xml</a></td>
             <td>Time and Attendance Data Pay Period 4</td>
         </tr>
         <tr>
-            <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/TA_TRANS_PP3_02010410_v1.0.xml">TA_TRANS_PP3_02010410_v1.0.xml</a></td>
+            <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/TA_TRANS_PP5_02010410_v1.0.xml">TA_TRANS_PP5_02010410_v1.0.xml</a></td>
             <td>Time and Attendance Data Pay Period 5</td>
         </tr>
         <tr>
