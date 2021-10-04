@@ -20,8 +20,8 @@ Thus, the transactional purpose of the Golden Data Test Set (GDTS) is to provide
     </colgroup>
     <thead style="background-color: #1b1b1b; text-align: center; font-weight: bold;">
         <tr>
-            <th>File</th> 
-            <th>Description</th>
+            <td>File</td> 
+            <td>Description</td>
         </tr>
     </thead>
     <tbody>
