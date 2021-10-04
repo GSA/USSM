@@ -7,7 +7,11 @@ This appears at the top of the page letting the user know it's an official gover
   <div class="usa-banner">
     <div class="usa-accordion">
       <header class="usa-banner__header">
+        {% if page.layout == 'm3/keyTask' or page.layout == 'm3/phase' or page.layout == 'm3/m3-layout' %}
+        <div class="usa-banner__inner usa-nav-container-wide">
+        {% else %}
         <div class="usa-banner__inner">
+        {% endif %}
           <div class="grid-col-auto">
             {% asset us_flag_small.png class="usa-banner__header-flag" alt="U.S. flag" %}
           </div>
@@ -56,7 +60,7 @@ This appears at the top of the page letting the user know it's an official gover
     <div class="usa-alert usa-alert--info usa-alert--slim">
       <div class="usa-alert__body">
         <p class="usa-alert__text">
-          <b>COMING SOON:</b> The Modernization Migration and Management (M3) Playbook is getting an all new look in October!
+          The Modernization and Migration Management (M3) Playbook has a new look! Explore our new features <a href="{{site.baseurl}}/m3/">here</a>.
         </p>
       </div>
     </div>

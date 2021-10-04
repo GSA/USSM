@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="icon-process" viewBox="0 0 59.5 37">
+    <path id="Path_4334" data-name="Path 4334" d="M1284.394,141.41h17.5v-27.5a2.508,2.508,0,0,0-2.5-2.5h-27.5a2.507,2.507,0,0,0-2.5,2.5v27.5h5" transform="translate(-1269.394 -111.41)" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <path id="Path_4335" data-name="Path 4335" d="M1297.394,124.41h-15v-10h7.5C1294.036,114.41,1297.394,124.41,1297.394,124.41Z" transform="translate(-1249.894 -106.91)" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <path id="Path_4336" data-name="Path 4336" d="M1302.394,130.91h5v-7.5a5.015,5.015,0,0,0-5-5h-20v12.5h10" transform="translate(-1249.894 -100.91)" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <circle id="Ellipse_41" data-name="Ellipse 41" cx="5" cy="5" r="5" transform="translate(42.499 25)" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <circle id="Ellipse_42" data-name="Ellipse 42" cx="5" cy="5" r="5" transform="translate(4.999 25)" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+</svg>

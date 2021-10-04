@@ -1,0 +1,88 @@
+.color-customer{
+  color: $color-customer;
+}
+.color-provider{
+  color: $color-provider;
+}
+.color-shared{
+  color: $color-shared;
+}
+.color-qsmo{
+  color: $color-qsmo;
+}
+.color-programManagement{
+  color: $color-programManagement;
+}
+.color-workforce{
+  color: $color-workforce;
+}
+.color-technology{
+  color: $color-technology;
+}
+.color-process{
+  color: $color-process;
+}
+
+.bg-customer{
+  background-color: $color-customer;
+  color: white;
+}
+.bg-provider{
+  background-color: $color-provider;
+  color: white;
+}
+.bg-shared{
+  background-color: $color-shared;
+  color: white;
+}
+.bg-qsmo{
+  background-color: $color-qsmo;
+  color: white;
+}
+.bg-programManagement{
+  background-color: $color-programManagement;
+  color: white;
+}
+.bg-workforce{
+  background-color: $color-workforce;
+  color: white;
+}
+.bg-technology{
+  background-color: $color-technology;
+  color: white;
+}
+.bg-process{
+  background-color: $color-process;
+  color: white;
+}
+
+// default mode hide banner
+.usa-banner__content {
+  display: hidden;
+}
+.borderBottom{
+  border-bottom: 1px solid grey;
+}
+.textAlignCenter{
+  text-align: center;
+}
+.space-between{
+  justify-content: space-between;
+}
+
+/*
+OverlayLink is a way of making a clickable card with other links inside of it
+all links inside overlayLinkContainer 
+https://codepen.io/pwkip/pen/oGMZjb
+*/
+.overlayLinkContainer {
+  position:relative;
+}
+.overlayLinkContainer a {
+  z-index: 1;
+}
+.overlayLinkContainer .overlayLink::before {
+  content: "";
+  position:absolute;
+  left:0; top:0; bottom:0; right:0;
+}

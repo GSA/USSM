@@ -134,6 +134,20 @@ ga:
 
 - `search/index.html` is used by search.gov.
 
+### M3 Pages
+The Modernization and Migration Management (M3) pages provide a convenient website format of the [M3 Playbook](https://ussm.gsa.gov/assets/files/M3-Playbook.pdf).
+
+* Content is in `_pages/m3`
+  * Most of the M3 content is highly structured, so it was written as variables in the frontmatter of markdown files
+* Layouts is in `_layouts/m3`
+* Includes is in `_includes/m3`
+* Styles are in `_assets/css`
+* Javascript is in `assets/js/m3.js`
+  * used for filtering items on phase pages and keyTask pages
+* Static JSON API Generator is in `_plugins/json_generator.rb`
+  * After editing the plugin, you must rerun `npm start` for the changes to take effect
+
+
 ## Getting Started
 
 ### Easy mode

@@ -1,0 +1,10 @@
+{%- case include.category -%}
+  {%- when "customer" -%}
+    person
+  {%- when "provider" -%}
+    person
+  {%- when "shared" -%}
+    people
+  {%- when "qsmo" -%}
+    location_city
+{%- endcase -%}
