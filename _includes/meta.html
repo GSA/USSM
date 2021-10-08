@@ -45,7 +45,11 @@ site, this is the place to do it.
     ================================================== -->
   <title>{{title}}</title>
   <meta property="og:title" content="{{title}}">
+  {% if page.layout contains "m3/" %}
+  <meta name="description" content="">
+  {% else %}
   <meta name="description" content="{{description}}">
+  {% endif %}
   <meta property="og:description" content="{{description}}">
 
   {% if ogimage %}
