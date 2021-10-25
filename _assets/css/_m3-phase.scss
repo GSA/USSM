@@ -203,7 +203,7 @@ a.usa-nav__link.m3-intro-menuLink {
     align-self:center;
     text-decoration: none;
     color: initial;
-    margin-bottom: 0.5em;
+    margin-bottom: 0px;
   }
   .keyTask-responsibleParty{
     grid-area:responsibleParty;
@@ -218,11 +218,11 @@ a.usa-nav__link.m3-intro-menuLink {
 
   @media (min-width: 550px){
     grid-template:
-    [row1-start] "id responsibleParty button" auto [row1-end]
-    [row2-start] "id name button" 25px [row2-end]
+    [row1-start] "id name button" auto [row1-end]
+    [row2-start] "id responsibleParty button" 25px [row2-end]
     / 50px auto 140px;
     .keyTask-id{
-      align-self:center;
+      align-self:start;
     }
     .keyTask-responsibleParty {
       margin-left: 0;

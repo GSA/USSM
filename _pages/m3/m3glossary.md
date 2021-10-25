@@ -164,7 +164,7 @@ sections:
     terms:
       - name: Input
         description: An artifact (usually created in a prior activity) or an event recommended to support completion of activities.
-      - name: Exit Outcome
+      - name: Exit Criteria
         description: An outcome that should be achieved by the time a phase is complete but is not necessarily a tollgate.
       - name: Output
         description: An artifact or an event that is produced by an activity to facilitate robust planning and migration activities in comprehensive program artifacts.

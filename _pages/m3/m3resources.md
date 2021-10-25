@@ -14,6 +14,8 @@ sections:
   - name: M3 Document and Example Tracker
     description: Outlines the initial creation and updates of M3 Documents as outlined throughout all Phases for easy-to-follow tracking and maintenance. It also includes a list of current M3 Examples as stored on Max.gov.
     items:
+      - name: M3 Examples MAX Page
+        url: https://login.max.gov/cas/login?service=https%3A%2F%2Fcommunity.max.gov%2Flogin.action%3Fos_destination%3D%252Fpages%252Fviewpage.action%253FspaceKey%253DGSA%2526title%253DM3%252BArtifact%252BSamples
       - name: M3 Document and Example Tracker
         filename: M3-Document-and-Example-Tracker.xlsx
 
