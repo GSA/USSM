@@ -182,8 +182,8 @@ a.usa-nav__link.m3-intro-menuLink {
   margin-bottom: 0.3em;
   display:grid;
   grid-template:
-    [row1-start] "id responsibleParty" auto [row1-end]
-    [row2-start] "id name" auto [row2-end]
+    [row1-start] "id name" auto [row1-end]
+    [row2-start] "id responsibleParty" auto [row2-end]
     [row2-start] "id button" auto [row2-end]
     / 40px auto;
   border: 1px solid #dfe1e2;
