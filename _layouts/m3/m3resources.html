@@ -17,6 +17,8 @@ layout: m3/m3-layout-sidenav
         <a href="{{site.baseurl}}/assets/files/{{item.filename}}">{{ item.name }}</a>
       {% elsif item.url %}
         <a href="{{ item.url }}">{{ item.name }}</a>
+      {% elsif item.external_url %}
+        <a href="http://{{ item.external_url }}">{{ item.name }}</a>  
       {% else %}
         {{ item }}
       {% endif %}
