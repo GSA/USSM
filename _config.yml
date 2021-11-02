@@ -198,7 +198,7 @@ primary_navigation:
           external: true
           tooltip: 'Core Financial Management external link.'
         - text: 'Grants Management'
-          permalink: 'https://www.hhs.gov/about/agencies/asfr/grants-management-quality-services-management-office/index.html'
+          permalink: 'https://www.hhs.gov/grants/qsmo'
           show_in_menu: true
           show_in_footer: false
           link: true
