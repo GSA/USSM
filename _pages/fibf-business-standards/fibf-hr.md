@@ -10,4 +10,6 @@ sec-website: www.opm.gov/services-for-agencies/hr-line-of-business/
 sec-website-href: https://www.opm.gov/services-for-agencies/hr-line-of-business/
 sec-references: Human Capital Business Reference Model
 sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-business/hc-business-reference-model/
+lifecycle-content: hr/benefits/lifecycle.html
+metrics-content: hr/acquisition/performance-metrics-hr.html
 ---
