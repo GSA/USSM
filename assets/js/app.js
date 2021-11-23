@@ -100,8 +100,6 @@ function imageChecker(url){
         let UseCasesList = jQuery('#' + page.UseCasesList);
         let ElementsList = jQuery('#' + page.ElementsList);
         let PerformanceMetricsList = jQuery('#' + page.PerformanceMetricsList);
-
-        if (table.length > 0 || accordian.length > 0) {
             jQuery.get(page.url, function (result) {
                     var jObject = JSON.parse(result);
                     if (page.hasSubsection) {
@@ -173,7 +171,6 @@ function imageChecker(url){
                     });
                 }
             );
-        }
     });
     setTimeout(function(){
         /*jQuery("#cyb-cvd-capabilities > tbody >tr:eq(1)").remove();
