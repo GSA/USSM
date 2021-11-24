@@ -12,4 +12,5 @@ sec-references: Human Capital Business Reference Model
 sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-business/hc-business-reference-model/
 metrics-content: hr/acquisition/performance-metrics.html
 capabilities-content: hr/acquisition/capabilities.html
+lifecycle-content: hr/acquisition/lifecycle.html
 ---
