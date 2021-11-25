@@ -13,4 +13,12 @@ sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-busine
 metrics-content: hr/acquisition/performance-metrics.html
 capabilities-content: hr/acquisition/capabilities.html
 lifecycle-content: hr/acquisition/lifecycle.html
+lifecycle-pdf: assets/files/downloads/hr/acquisition/acquisition-lifecycle.xlsx
+lifecycle-source-document: assets/files/downloads/hr/acquisition/acquisition-lifecycle.xlsx
+capabilities-source-document-type: xls
+lifecycle-source-document-type: xls
+capabilities-source-document: assets/files/downloads/hr/acquisition/acquisition-business-capabilities.xlsx
+capabilities-pdf: assets/files/downloads/hr/acquisition/acquisition-business-capabilities.xlsx
+performance-metrics-pdf: assets/files/downloads/hr/acquisition/PerformanceMetrics.xlsx
+all-zip: assets/files/downloads/hr/acquisition/acquisition.zip
 ---

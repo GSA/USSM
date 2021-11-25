@@ -14,6 +14,11 @@ capabilities-pdf: assets/files/downloads/hr/benefits/HR-Management-Services-Busi
 lifecycle-content: hr/benefits/lifecycle.html
 capabilities-content: hr/benefits/capabilities.html
 capabilities-source-document-type: xls
+lifecycle-source-document-type: xls
 capabilities-source-document: assets/files/downloads/hr/benefits/HR-Management-Services-Business-Capabilities.xlsx
 data-elements-content: hr/benefits/data-elements.html
+standard-data-elements-pdf: assets/files/downloads/hr/benefits/Standard Data Elements.xlsx
+lifecycle-pdf: assets/files/downloads/hr/benefits/CompensationBenefitBusinessLifecycle.xlsx
+lifecycle-source-document: assets/files/downloads/hr/benefits/CompensationBenefitBusinessLifecycle.xlsx
+all-zip: assets/files/downloads/hr/benefits/benefit.zip
 ---
