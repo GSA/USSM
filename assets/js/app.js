@@ -23,7 +23,15 @@ jQuery(document).ready(function () {
         {
             accordian: 'hr-benefits-lifecycle',
             table: 'hr-benefits-capabilities',
+            ElementsList: 'hr-benefit-data-elements',
             url: '../business-standards-api/hr',
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-acquisition-lifecycle',
+            table: 'hr-acquisition-capabilities',
+            PerformanceMetricsList: 'hr-acquisition-performance-metrics',
+            url: '../business-standards-api/hr/acquisition/',
             hasSubsection: true
         },
         {
@@ -91,9 +99,7 @@ function imageChecker(url){
         let accordian = jQuery('#' + page.accordian);
         let UseCasesList = jQuery('#' + page.UseCasesList);
         let ElementsList = jQuery('#' + page.ElementsList);
-        //let PerformanceMetricsList = jQuery('#' + page.PerformanceMetricsList);
-
-        if (table.length > 0 || accordian.length > 0) {
+        let PerformanceMetricsList = jQuery('#' + page.PerformanceMetricsList);
             jQuery.get(page.url, function (result) {
                     var jObject = JSON.parse(result);
                     if (page.hasSubsection) {
@@ -155,17 +161,16 @@ function imageChecker(url){
                                 jQuery("#" + page.ElementsList ).append(li);
                             });
                         }
-                        /*else if (outerKey==="Performance Metrics" && PerformanceMetricsList.length > 0){
+                        else if (outerKey==="Performance Metrics" && PerformanceMetricsList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
                                 let image = imageChecker(value1);
                                 let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
                                 jQuery("#" + page.PerformanceMetricsList ).append(li);
                             });
-                        }*/
+                        }
                     });
                 }
             );
-        }
     });
     setTimeout(function(){
         /*jQuery("#cyb-cvd-capabilities > tbody >tr:eq(1)").remove();

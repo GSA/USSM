@@ -154,6 +154,13 @@ primary_navigation:
           link: true
           external: false
           sub: true
+        - text: 'Separation and Retirement'
+          permalink: /fibf-hr-sep-ret/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
         - text: 'Real Property Management'
           permalink: /fibf-RPM/
           show_in_menu: true
