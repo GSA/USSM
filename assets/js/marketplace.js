@@ -21,4 +21,4 @@ setTimeout(function () {
     });
 
   })(jQuery);
-}, 10);
+}, 250);

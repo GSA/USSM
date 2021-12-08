@@ -33,62 +33,88 @@ layout: wide
       </div>
     </div>
   </div>
-  <h2>Grants Management: External Shared Federal Solutions</h2>
+  <h2>Grants Management: Externally Shared Federal Solutions</h2>
   <div class="esgms-table-wrapper">
     <table>
       <thead>
         <tr>
-          <th>&nbsp;</th>
+          <th class="populated">Solution Name</th>
           <th class="populated">
             <div class="table-header-wrapper">
               <div class="title"><span>Electronic Research Administration (eRA)</span></div>
-              <span class="desc"><a href="#">View Description</a></span>
-              {% asset login_gov.png class="login_gov" alt="Login.gov required" %}
-              <div class="validated">Validated</div>
             </div>
           </th>
           <th class="populated">
             <div class="table-header-wrapper">
               <div class="title"><span>GrantSolutions<span></div>
-              <span class="desc"><a href="#">View Description</a></span>
-              {% asset login_gov.png class="login_gov" alt="Login.gov required" %}
-              <div class="validated">Validated</div>
             </div>
           </th>
           <th class="populated">
             <div class="table-header-wrapper">
               <div class="title"><span>Payment Management System (PMS)</span></div>
-              <span class="desc"><a href="#">View Description</a></span>
-              {% asset login_gov.png class="login_gov" alt="Login.gov required" %}
-              <div class="validated element-hidden">Validated</div>
             </div>
           </th>
           <th class="populated">
             <div class="table-header-wrapper">
               <div class="title"><span>Automated Standard Application for Payments (ASAP)</span></div>
-              <span class="desc"><a href="#">View Description</a></span>
-              {% asset login_gov.png class="login_gov" alt="Login.gov required" %}
-              <div class="validated">Validated</div>
             </div>
           </th>
           <th class="populated">
             <div class="table-header-wrapper">
               <div class="title"><span>Program Support Center (PSC) Indirect Cost Rate Service</span></div>
-              <span class="desc"><a href="#">View Description</a></span>
-              {% asset login_gov.png class="login_gov" alt="Login.gov required" %}
-              <div class="validated hidden">Validated</div>
             </div>
           </th>
         </tr>
       </thead>
       <tbody>
         <tr>
+          <td>Validation Status</td>
+          <td><div class="validated">Validated</div></td>
+          <td><div class="validated">Validated</div></td>
+          <td>Under Review</td>
+          <td>Under Review</td>
+          <td>Under Review</td>
+        </tr>
+        <tr>
+          <td>Solution Description</td>
+          <td>
+            <span class="desc"><a href="#">View Description</a></span>
+            <div class="description-popup">
+              eRA provides mission-critical IT infrastructure to manage the receipt, processing, review, award and monitoring of research and non-research grants.
+            </div>
+          </td>
+          <td>
+            <span class="desc"><a href="#">View Description</a></span>
+            <div class="description-popup">
+              GrantSolutions supports Federal agencies throughout the full grants lifecycle – from pre-award planning through application, award, and closeout. As a shared service provider, GrantSolutions offerings solve for shared mission needs across agencies while incorporating unique business and regulatory processes for grant programs.
+            </div>
+          </td>
+          <td>
+            <span class="desc"><a href="#">View Description</a></span>
+            <div class="description-popup">
+              The Automated Standard Application for Payments (ASAP) is a completely electronic system that federal agencies use to quickly and securely transfer money to recipient organizations.
+            </div>
+          </td>
+          <td>
+            <span class="desc"><a href="#">View Description</a></span>
+            <div class="description-popup">
+              Payment Management System (PMS) is a secure, online grants payment platform which provides awarding agency and grant recipient customers with efficient grant and grant-like payments, cash management, and personal grant accounting support services. 
+            </div>
+          </td>
+          <td>
+            <span class="desc"><a href="#">View Description</a></span>
+            <div class="description-popup">
+              Program Support Center's Cost Allocation Services (CAS) is responsible for reviewing and negotiating facility and administrative (indirect) cost rates, fringe benefit rates, special rates as determined to be appropriate, research patient care rates, statewide cost allocation plans and public assistance cost allocation plans. In addition to the aforementioned negotiations, CAS is responsible for resolving audits that involve indirect costs and cost allocation issues and methodologies, and provides technical assistance and guidance to both Federal departments and agencies and the recipient community.
+            </div>
+          </td>
+        </tr>
+        <tr>
           <td>Provider Agency</td>
-          <td>HHS NIH</td>
-          <td>HHS</td>
+          <td>{% asset logo_hhs.webp class="agency_logo" alt="HHS logo" %}HHS NIH</td>
+          <td>{% asset logo_hhs.webp class="agency_logo" alt="HHS logo" %}HHS</td>
           <td>TREAS</td>
-          <td>HHS PSC</td>
-          <td>HHS PSC</td>
+          <td>{% asset logo_hhs.webp class="agency_logo" alt="HHS logo" %}HHS PSC</td>
+          <td>{% asset logo_hhs.webp class="agency_logo" alt="HHS logo" %}HHS PSC</td>
         </tr>
         <tr>
           <td>Contact Details</td>
@@ -121,6 +147,14 @@ layout: wide
           <td>TBD</td>
           <td>TBD</td>
           <td>TBD</td>
+        </tr>
+        <tr>
+          <td>Notes</td>
+          <td>{% asset login_gov.png class="login_gov" alt="Login.gov required" %}</td>
+          <td>{% asset login_gov.png class="login_gov" alt="Login.gov required" %}</td>
+          <td>&nbsp;</td>
+          <td>{% asset login_gov.png class="login_gov" alt="Login.gov required" %}</td>
+          <td>&nbsp;</td>
         </tr>
         <tr>
           <td colspan="6"><strong>GRM.010</strong> - Grant Program Administration</td>
