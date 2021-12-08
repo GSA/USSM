@@ -1,3 +1,5 @@
+
+
 #esgms-header {
   .column-left {
     display: inline-block;
@@ -57,6 +59,7 @@
   padding-left: 20px;
   position: relative;
   font-weight: bold;
+  width: fit-content;
   &:before {
     content: ' ';
     text-indent: -999em;
@@ -76,8 +79,10 @@
   margin: 0.5em 0;
 }
 
-.element-hidden {
-  visibility: hidden;
+.agency-logo {
+  max-height: 2em;
+  vertical-align: middle;
+  margin: 0 0.5em;
 }
 
 .esgms-table-wrapper  {
@@ -129,33 +134,40 @@
       border: 1px solid /*#DEDEDE;*/ black;
       text-align: center;
       padding: 1em;
+      position: relative;
+      .validate {
+        margin: 0 auto;
+      }
+      .description-popup {
+        position: absolute;
+        left: calc(100% - 5px);
+        top: 2em;
+        background-color: white;
+        width: 30em;
+        padding: 10px;
+        font-weight: normal;
+        display: none;
+        border: 1px solid black;
+        border-radius: 5px;
+        z-index: 10;
+        &:hover {
+          display: block;
+        }
+      }
+      &:last-child  .description-popup{
+        left: auto;
+        right: calc(100% - 5px);
+      }
+      &:hover .description-popup {
+        display: block;
+      }
       &:first-child {
         border-color: #727272;
         background-color: #F7F7F7;
         color: #333333;
         font-weight: 700;
-        position: relative;
         a {
           font-weight: normal;
-        }
-        .description-popup {
-          position: absolute;
-          left: calc(100% - 5px);
-          top: 2em;
-          background-color: white;
-          width: 30em;
-          padding: 10px;
-          font-weight: normal;
-          display: none;
-          border: 1px solid black;
-          border-radius: 5px;
-          z-index: 10;
-          &::hover {
-            display: block;
-          }
-        }
-        &:hover .description-popup {
-          display: block;
         }
       }
       &:only-child {
