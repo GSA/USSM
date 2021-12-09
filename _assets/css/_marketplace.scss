@@ -73,6 +73,10 @@
   }
 }
 
+.element-hidden {
+  visibility: hidden;
+}
+
 .login_gov {
   height: 14px;
   width: 100px;
@@ -135,7 +139,7 @@
       text-align: center;
       padding: 1em;
       position: relative;
-      .validate {
+      .validated {
         margin: 0 auto;
       }
       .description-popup {
@@ -184,6 +188,9 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: 2em 2em;
+      }
+      .desc {
+        white-space: nowrap;
       }
     }
   }
