@@ -2,9 +2,6 @@
 
 #esgms-header {
   .column-left {
-    display: inline-block;
-    width: 61.5%;
-    margin-right: 3.5em;
     background-color: rgba(251, 253, 255, 1);
     border: none;
     box-shadow: 1px 1px 5px rgba(128, 128, 128, 15%);
@@ -15,11 +12,8 @@
     }
   }
   .column-right  {
-    display: inline-block;
-    vertical-align: top;
-    width: calc(37.5% - 3.5em);
     .legend {
-      border: 2x solid #BCBCBC;
+      border: 2px solid #BCBCBC;
       border-radius: 5px;
       padding: 1em;
       line-height: normal;
@@ -87,12 +81,6 @@
   max-height: 2em;
   vertical-align: middle;
   margin: 0 0.5em;
-}
-
-.usa-modal__main  .usa-prose {
-  padding-left: 1rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .esgms-table-wrapper  {
@@ -197,6 +185,22 @@
       }
       .desc {
         white-space: nowrap;
+      }
+    }
+  }
+}
+.usa-modal{
+  border-radius: 0;
+  border-left:10px solid #005ea2;
+  .usa-modal__content{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .usa-modal__main{
+      padding:0;
+      .usa-prose, .usa-modal__footer{
+        padding: 0 2em;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
       }
     }
   }
