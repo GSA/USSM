@@ -64,7 +64,7 @@ attached:
           </th>
           <th class="populated">
             <div class="table-header-wrapper">
-              <div class="title"><span>Program Support Center (PSC) Indirect Cost Rate Service</span></div>
+              <div class="title"><span>Program Support Center Cost Allocation Services (PSC/CAS) Indirect Cost Rate Negotiation Service</span></div>
             </div>
           </th>
         </tr>
@@ -188,31 +188,31 @@ attached:
         </tr>
         <tr>
           <td>Provider Agency</td>
-          <td>{% asset logo_hhs.webp class="agency-logo" alt="HHS logo" %}HHS NIH</td>
+          <td>{% asset logo_hhs.webp class="agency-logo" alt="HHS logo" %}HHS {% asset nih.png class="agency-logo" alt="NIH logo" %} NIH</td>
           <td>{% asset logo_hhs.webp class="agency-logo" alt="HHS logo" %}HHS</td>
-          <td>{% asset logo_hhs.webp class="agency-logo" alt="HHS logo" %}HHS PSC</td>
-          <td>TREAS</td>
+          <td>{% asset treasury.png class="agency-logo" alt="Treasury logo" %}TREAS</td>
+          <td>{% asset logo_hhs.webp class="agency-logo" alt="HHS logo" %}HHS {% asset nih.png class="agency-logo" alt="NIH logo" %} PSC</td>
           <td>{% asset logo_hhs.webp class="agency-logo" alt="HHS logo" %}HHS PSC</td>
         </tr>
         <tr>
           <td>Contact Details</td>
           <td><a href="mailto:eRAinfo@mail.nih.gov">eRAinfo@mail.nih.gov</a></td>
           <td><a href="mailto:Renee.Lobanovskyy@acf.hhs.gov">Renee.Lobanovskyy@acf.hhs.gov</a></td>
-          <td><a href="mailto:PMSSupport@psc.hhs.gov">PMSSupport@psc.hhs.gov</a></td>
           <td><a href="mailto:asaphelpdesk@fiscal.treasury.gov">asaphelpdesk@fiscal.treasury.gov</a></td>
+          <td><a href="mailto:PMSSupport@psc.hhs.gov">PMSSupport@psc.hhs.gov</a></td>
           <td><a href="mailto:CAS-Bethesda@psc.hhs.gov">mCAS-Bethesda@psc.hhs.gov</a></td>
         </tr>
         <tr>
           <td>Agency Customers</td>
           <td>HHS, VA1, DOC2</td>
           <td>CPSC, GCERC, Denali Commission, DHS, DOI, DOT, HHS, HUD, SBA, SSA, TREAS, DOL</td>
-          <td>ASC, HHS, CNCS, DHS, DOD, DOL, DOS, EOP, NASA, SBA, TREAS, USAID, USDA, VA</td>
           <td>DHS/CGFC, DOC, DOE, DOI, EPA, GCERC, NRC, SSA, TREAS, USDA/FNS, USDA/NIFA, DOJ</td>
+          <td>ASC, HHS, CNCS, DHS, DOD, DOL, DOS, EOP, NASA, SBA, TREAS, USAID, USDA, VA</td>
           <td>HHS, CNCS, DHS/FEMA, DOD/WHS, DOT/NHTSA, EAC, HUD, MCC, USDA/FSIS, USDA/NASS</td>
         </tr>
         <tr>
           <td>Pricing</td>
-          <td>Under Review</td>
+          <td>Cost Estimate Drivers include # of Federal staff users, # of applications and # of awards</td>
           <td>Under Review</td>
           <td>TBD</td>
           <td>TBD</td>
@@ -230,8 +230,8 @@ attached:
           <td>Notes</td>
           <td>{% asset login_gov.png class="login_gov" alt="Login.gov required" %}</td>
           <td>{% asset login_gov.png class="login_gov" alt="Login.gov required" %}</td>
-          <td>{% asset login_gov.png class="login_gov" alt="Login.gov required" %}</td>
           <td>&nbsp;</td>
+          <td>{% asset login_gov.png class="login_gov" alt="Login.gov required" %}</td>
           <td>&nbsp;</td>
         </tr>
         <tr>
@@ -310,7 +310,7 @@ attached:
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td colspan="6"><strong>GRM.040</strong> - Grant Award</td>
+          <td colspan="6"><strong>GRM.040</strong> - Grant Post-Award Management and Closeout</td>
         </tr>
         <tr>
           <td>
@@ -379,7 +379,7 @@ attached:
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td colspan="6"><strong>GRM.050</strong> - Grant Program</td>
+          <td colspan="6"><strong>GRM.050</strong> - Grant Program Oversight</td>
         </tr>
         <tr>
           <td>
@@ -388,8 +388,8 @@ attached:
           </td>
           <td class="check"><span class="sr-only">Approved</span></td>
           <td class="check"><span class="sr-only">Approved</span></td>
-          <td>&nbsp;</td>
           <td class="check"><span class="sr-only">Approved</span></td>
+          <td>&nbsp;</td>
           <td>&nbsp;</td>
         </tr>
         <tr>
@@ -404,11 +404,11 @@ attached:
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td colspan="6"><strong>GRM.060</strong> - Grant Recipient
+          <td colspan="6"><strong>GRM.060</strong> - Grant Recipient Oversight
         </tr>
         <tr>
           <td>
-            <a href="#" data-identifier="GRM.060.010"><strong>GRM.060.010</strong><br />Grant Recpient Indirect Cost Rate Negotiation</a>
+            <a href="#" data-identifier="GRM.060.010"><strong>GRM.060.010</strong><br />Grant Recipient Indirect Cost Rate Negotiation</a>
             <div class="description-popup"></div>
           </td>
           <td>&nbsp;</td>
@@ -435,7 +435,7 @@ attached:
     <table>
       <thead>
         <tr>
-          <th rowspan="2">&nbsp;</th>
+          <th class="populated" rowspan="2">Soluton Name</th>
           <th class="populated" rowspan="2">
             <div class="table-header-wrapper">
               <div class="title"><span>Grants.gov</span></div>
@@ -631,7 +631,25 @@ attached:
           <td>Notes</td>
           <td>
             {% asset login_gov.png class="login_gov" alt="Login.gov required" %}
-            <p>OMB directs all Federal grant-making agencies to publish funding opportunity announcements – called "synopses" – on Grants.gov. These announcements allow the public to identify funding opportunities for which they can apply. Grants.gov is part of the extended implementation of the Federal Financial Assistance Management Improvement Act of 1999 (Public Law 106-107).</p>
+            <span class="desc"><a href="#" aria-controls="grants-gov-modal" data-open-modal>View Description</a></span>
+            <div class="usa-modal" id="grants-gov-modal" aria-describedby="grants-gov-modal-description">
+              <div class="usa-modal__content">
+                <div class="usa-modal___main">
+                  <div class="usa-prose">
+                    <p id="grants-gov-modal-description">
+                      OMB directs all Federal grant-making agencies to publish funding opportunity announcements – called "synopses" – on Grants.gov. These announcements allow the public to identify funding opportunities for which they can apply. Grants.gov is part of the extended implementation of the Federal Financial Assistance Management Improvement Act of 1999 (Public Law 106-107).
+                    </p>
+                  </div>
+                  <div class="usa-modal__footer">
+                    <ul class="usa-button-group">
+                      <li class="usa-button-group__item">
+                        <button type="button" class="usa-button" data-close-modal>Close</button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </td>
           <td>
             {% asset login_gov.png class="login_gov" alt="Login.gov required" %}
@@ -641,11 +659,47 @@ attached:
           </td>
           <td>
             {% asset login_gov.png class="login_gov" alt="Login.gov required" %}
-            <p>The GSA/Integrated Award Environment (IAE) uses an innovative design and development approach to improve processes and implement policies for those who award, administer, or receive federal awards. Until recently, the IAE managed ten online systems for people who make, manage, and receive federal awards. Today, the number of IAE systems has been reduced to six. In the long run, it will be reduced to one in what is known today as SAM.gov. Part of the SAM.gov modernization effort will be to incorporate FSRS onto their site. </p>
+            <span class="desc"><a href="#" aria-controls="fsrs-modal" data-open-modal>View Description</a></span>
+            <div class="usa-modal" id="fsrs-modal" aria-describedby="fsrs-modal-description">
+              <div class="usa-modal__content">
+                <div class="usa-modal___main">
+                  <div class="usa-prose">
+                    <p id="fsrs-modal-description">
+                      The GSA/Integrated Award Environment (IAE) uses an innovative design and development approach to improve processes and implement policies for those who award, administer, or receive federal awards. Until recently, the IAE managed ten online systems for people who make, manage, and receive federal awards. Today, the number of IAE systems has been reduced to six. In the long run, it will be reduced to one in what is known today as SAM.gov. Part of the SAM.gov modernization effort will be to incorporate FSRS onto their site.
+                    </p>
+                  </div>
+                  <div class="usa-modal__footer">
+                    <ul class="usa-button-group">
+                      <li class="usa-button-group__item">
+                        <button type="button" class="usa-button" data-close-modal>Close</button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </td>
           <td>
             {% asset login_gov.png class="login_gov element-hidden" alt="Login.gov required" %}
-            <p>The GSA/Integrated Award Environment (IAE) uses an innovative design and development approach to improve processes and implement policies for those who award, administer, or receive federal awards. Until recently, the IAE managed ten online systems for people who make, manage, and receive federal awards. Today, the number of IAE systems has been reduced to six. In the long run, it will be reduced to one in what is known today as SAM.gov. Part of the SAM.gov modernization effort will be to incorporate FAPIIS onto their site.</p>
+            <span class="desc"><a href="#" aria-controls="fapiis-modal" data-open-modal>View Description</a></span>
+            <div class="usa-modal" id="fapiis-modal" aria-describedby="fapiis-modal-description">
+              <div class="usa-modal__content">
+                <div class="usa-modal___main">
+                  <div class="usa-prose">
+                    <p id="fapiis-modal-description">
+                      The GSA/Integrated Award Environment (IAE) uses an innovative design and development approach to improve processes and implement policies for those who award, administer, or receive federal awards. Until recently, the IAE managed ten online systems for people who make, manage, and receive federal awards. Today, the number of IAE systems has been reduced to six. In the long run, it will be reduced to one in what is known today as SAM.gov. Part of the SAM.gov modernization effort will be to incorporate FAPIIS onto their site.
+                    </p>
+                  </div>
+                  <div class="usa-modal__footer">
+                    <ul class="usa-button-group">
+                      <li class="usa-button-group__item">
+                        <button type="button" class="usa-button" data-close-modal>Close</button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </td>
           <td>
             {% asset login_gov.png class="login_gov element-hidden" alt="Login.gov required" %}
@@ -734,7 +788,7 @@ attached:
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td colspan="7"><strong>GRM.040</strong> - Grant Award</td>
+          <td colspan="7"><strong>GRM.040</strong> - Grant Post-Award Management and Closeout</td>
         </tr>
         <tr>
           <td>
@@ -809,7 +863,7 @@ attached:
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td colspan="7"><strong>GRM.050</strong> - Grant Program</td>
+          <td colspan="7"><strong>GRM.050</strong> - Grant Program Oversight</td>
         </tr>
         <tr>
           <td>
@@ -836,11 +890,11 @@ attached:
           <td class="check"><span class="sr-only">Approved</span></td>
         </tr>
         <tr>
-          <td colspan="7"><strong>GRM.060</strong> - Grant Recipient
+          <td colspan="7"><strong>GRM.060</strong> - Grant Recipient Oversight
         </tr>
         <tr>
           <td>
-            <a href="#" data-identifier="GRM.060.010"><strong>GRM.060.010</strong><br />Grant Recpient Indirect Cost Rate Negotiation</a>
+            <a href="#" data-identifier="GRM.060.010"><strong>GRM.060.010</strong><br />Grant Recipient Indirect Cost Rate Negotiation</a>
             <div class="description-popup"></div>
           </td>
           <td>&nbsp;</td>
