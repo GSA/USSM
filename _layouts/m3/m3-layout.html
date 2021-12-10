@@ -7,11 +7,7 @@ layout: base
 This template is for all M3 pages with the M3 menu.
 {% endcomment %}
 <div class="m3-content">
-  {% if page.permalink != '/marketplace/' %}
   {% include m3/menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
-  {% else %}
-  <div style="border-top:1px solid #dfe1e2"></div>
-  {% endif %}
   <section  id="main-content">
       {{ content }}
   </section>
