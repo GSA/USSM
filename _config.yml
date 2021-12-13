@@ -296,6 +296,7 @@ collections:
   qsmos:
     output: true
   hr:
+    relative_directory: _api/_hr
     output: true
   fm:
     output: true
