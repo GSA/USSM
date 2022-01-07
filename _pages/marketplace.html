@@ -7,34 +7,38 @@ attached:
 ---
 
 <div class="grid-container">
-  <h1>Externally Shared Grants Management Solutions</h1>
   <div id="esgms-header" class="grid-row">
+    <div class="column-left desktop:grid-col-12 margin-y-4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Consequat semper viverra nam libero. Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque.</p></div>
     <div class="column-left desktop:grid-col-7">
       <div class="esgms-overview">
         <h2>Welcome to the Grants Quality Service Management Office (Grants QSMO) Marketplace!</h2>
-        <p>The Grants QSMO seeks to transform grants management by empowering and enabling federal awarding agencies, applicants, and recipients with modern tools to efficiently and effectively deliver on the federal grants mission. The Marketplace is an online catalog of Grants QSMO validated federal grants management shared solutions/services that provide high quality, innovative, and trusted services that cover functions and activities across the grants lifecycle, as aligned to the <a href="{{site.baseurl}}/fibf-gm/">Federal Integrated Business Framework (FIBF)</a>. The Marketplace also provides federal agency customers with detailed information about each solution offering to support and inform decisions regarding adoption of these shared solutions/services, as well as information regarding mandatory federal solutions/services utilized in the grant management lifecycle. The Grant QSMO will continue to expand and mature the Marketplace over time to provide solution offerings that address the varying needs of all federal awarding agency customers.</p>
+        <p>The Marketplace is an online catalog of Grants QSMO validated federal grants management shared solutions/services that provide high quality, innovative, and trusted services that cover functions and activities across the grants lifecycle, as aligned to the Federal Integrated Business Framework (FIBF) for Grants Management (GRM).</p>
       </div>
     </div>
     <div class="column-right desktop:grid-col-4 desktop:grid-offset-1">
       <div class="legend">
         <h2 style="font-size: 24px;">Legend</h2>
         <ul>
-          <li> 
-            {% asset login_gov.png class="login_gov" alt="Login.gov required" %}
-            <span>Solution leverages Login.gov for single sign-on authentication</span>
+          <li class="grid-row">
+            <div class="grid-col-4">{% asset login_gov.png class="login_gov" alt="Login.gov required" %}</div>
+            <div class="grid-col-8">Solution leverages Login.gov for single sign-on authentication</div>
           </li>
           <li class="grid-row">
-            <div class="validated grid-col-3">Validated</div>
-            <div class="grid-col-9">Solution has completed the Marketplace Validation Process and has been validated by the Grants QSMO</div>
+            <div class="validated grid-col-4">Validated</div>
+            <div class="grid-col-8">Solution has completed the Marketplace Validation Process and has been validated by the Grants QSMO</div>
           </li>
-          <li>
-            <div class="check"><span class="sr-only">Approved</span></div>
-            <span>Solution addresses an activity within the grants lifecycle</span>
+          <li class="grid-row">
+            <div class="check grid-col-3"><span class="sr-only">Approved</span></div>
+            <div class="grid-col-8 grid-offset-1">Solution addresses an activity within the grants lifecycle</div>
           </li>
         </ul>
       </div>
     </div>
   </div>
+  <ul class="usa-button-group margin-top-4">
+    <li class="usa-button-group__item"><a href="#mandatory" class="usa-button usa-button--accent-cool text-white">Grants Management: Mandatory Solutions</a></li>
+    <li class="usa-button-group__item"><a href="#faq" class="usa-button usa-button--accent-cool text-white">FAQ</a></li>
+  </ul>
   <h2>Grants Management: Externally Shared Federal Solutions</h2>
   <div class="esgms-table-wrapper">
     <table aria-label="Grants Management: Externally Shared Federal Solutions">
@@ -210,15 +214,15 @@ attached:
         <tr>
           <td>Contact Details</td>
           <td><a href="mailto:eRAinfo@mail.nih.gov">eRAinfo@mail.nih.gov</a></td>
-          <td><a href="mailto:Renee.Lobanovskyy@acf.hhs.gov">Renee.Lobanovskyy@acf.hhs.gov</a></td>
+          <td><a href="mailto:Renee.Lobanovskyy@hhs.gov">Renee.Lobanovskyy@hhs.gov</a></td>
           <td><a href="mailto:asaphelpdesk@fiscal.treasury.gov">asaphelpdesk@fiscal.treasury.gov</a></td>
           <td><a href="mailto:PMSSupport@psc.hhs.gov">PMSSupport@psc.hhs.gov</a></td>
           <td><a href="mailto:CAS-Bethesda@psc.hhs.gov">CAS-Bethesda@psc.hhs.gov</a></td>
         </tr>
         <tr>
           <td>Agency Customers</td>
-          <td>HHS, VA1, DOC2</td>
-          <td>DHS, DOI, DOT, GCERC, HHS, HUD, SBA, SSA, TREAS, USDA, DOL, EAC</td>
+          <td>HHS, DOC<sup>2</sup></td>
+          <td>DHS<sup>1</sup>, DOI, DOT<sup>1</sup>, GCERC, HHS, HUD<sup>1</sup>, SBA, SSA, TREAS<sup>1</sup>, USDA<sup>1</sup>, DOL<sup>2</sup>, EAC<sup>2</sup></td>
           <td>DHS/CGFC, DOC, DOE, DOI, EPA, GCERC, NRC, SSA, TREAS, USDA/FNS, USDA/NIFA, DOJ</td>
           <td>ASC, HHS, CNCS, DHS, DOD, DOL, DOS, EOP, NASA, SBA, TREAS, USAID, USDA, VA</td>
           <td>HHS, CNCS, DHS/FEMA, DOD/WHS, DOT/NHTSA, EAC, HUD, MCC, USDA/FSIS, USDA/NASS</td>
@@ -699,8 +703,11 @@ attached:
         </tr>
       </tbody>
     </table>
+    <ul><li><sup>1</sup>Solution is leveraged by specific programs and offices within the agency.</li>
+      <li><sup>2</sup>Customers that are migrating to a shared services provider, as of 11/23/2021</li>
+    </ul>
     <hr />
-    <h2>Grants Management: Mandatory Solutions</h2>
+    <h2 id="mandatory">Grants Management: Mandatory Solutions</h2>
     <table aria-label="Grants Management: Mandatory Solutions">
       <thead>
         <tr>
@@ -839,7 +846,7 @@ attached:
                 <div class="usa-modal__main">
                   <div class="usa-prose">
                     <p id="fapiss-modal-description">
-                      FAPIIS is composed of an input and an output module.  The input module is located in the Contractor Performance Assessment Reporting System (CPARS) at www.cpars.gov.  FAPIIS Data Entry users input records via FAPIIS' CPARS input module.  The FAPIIS output module providers users access to integrity and performance information from the FAPIIS reporting module in CPARS, proceedings information from the Entity Management section of SAM.gov, and suspension/debarment information from the Performance Information section of SAM.gov.  
+                      FAPIIS is composed of an input and an output module.  The input module is located in the Contractor Performance Assessment Reporting System (CPARS) at www.cpars.gov.  FAPIIS Data Entry users input records via FAPIIS' CPARS input module.  The FAPIIS output module provides users access to integrity and performance information from the FAPIIS reporting module in CPARS, proceedings information from the Entity Management section of SAM.gov, and suspension/debarment information from the Performance Information section of SAM.gov.
                     </p>
                   </div>
                   <div class="usa-modal__footer">
@@ -1461,16 +1468,14 @@ attached:
       </tbody>
     </table>
   </div>
-  <p></p>
   <hr>
-  <p></p>
-  <div class="usa-accordion">
+  <div id="faq" class="usa-accordion">
     <button class="usa-accordion__button" aria-expanded="false" aria-controls="a-1" tabindex="0">What is the Grants QSMO Marketplace Validation Process?</button>
     <div id="a-1" class="usa-accordion__content">
       <p>For inclusion in the Marketplace, the Grants QSMO requires all externally shared federal solutions/services to complete its 3-step Marketplace Validation Process (MVP):</p>
       <ul>
         <li>
-          Step 1: Solution/service owners complete the Grants QSMO's Federal Shared Service Provider MVP Questionnaire, an in-depth list of standardized questions and associated validation criteria that drive toward a more transparent and detailed understanding of each offering. The MVP Questionnaire helps the Grants QSMO evaluate and ensure each solution offering aligns with to the Grants QSMO's Seven Guiding Principles for Grants Technology Modernization:
+          Step 1: Solution/service owners complete the Grants QSMO's Federal Shared Service Provider MVP Questionnaire, an in-depth list of standardized questions and associated validation criteria that drive toward a more transparent and detailed understanding of each offering. The MVP Questionnaire helps the Grants QSMO evaluate and ensure each solution offering aligns to the Grants QSMO's Seven Guiding Principles for Grants Technology Modernization:
           <ul>
             <li>Central focus on customer experience and improved mission delivery</li>
             <li>Adoption of business and data standards</li>
@@ -1504,7 +1509,7 @@ attached:
     </div>
   </div>
   <div class="usa-accordion">
-    <button class="usa-accordion__button" aria-expanded="false" aria-controls="a-3" tabindex="0">Are you a Commercial Vendor Interested in getting on the Grants QSMO Marketplace?</button>
+    <button class="usa-accordion__button" aria-expanded="false" aria-controls="a-3" tabindex="0">Are you a Commercial Vendor interested in getting on the Grants QSMO Marketplace?</button>
     <div id="a-3" class="usa-accordion__content">
       <p>The Grants QSMO is currently surveying the Federal awarding agencies' grants technology needs to best determine the demand for additional shared solutions/services in the Marketplace. The Grants QSMO team expects to engage with industry on future Marketplace solution needs later in FY22. Please contact us at <a href="mailto:GrantsQSMO@hhs.gov">GrantsQSMO@hhs.gov</a> with any questions or feedback.</p>
     </div>

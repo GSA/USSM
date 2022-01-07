@@ -33,9 +33,6 @@
           }
           .check {
             padding: 2em 3em;
-            position: absolute;
-            left: 0;
-            top: calc(50% - 1.5em);
           }
           img {
             position: absolute;
@@ -65,8 +62,8 @@
     text-indent: -999em;
     background-image: asset_url('check-icon.svg');
     background-size: cover;
-    height: 16px;
-    width: 16px;
+    height: 19px;
+    width: 19px;
     display: block;
     position: absolute;
     left: 0;
@@ -109,6 +106,7 @@
     z-index: 1;
     tr {
       height: 1px; /** hack **/
+      border-bottom: 1px solid #000;
       th {
         height: inherit;
         border: 1px solid black;
@@ -118,7 +116,6 @@
           padding: 1em 2em;
           width: 17%;
           vertical-align: top;
-          outline: 1px solid black;
           .table-header-wrapper {
             display: flex;
             flex-direction: column;
@@ -152,7 +149,6 @@
         margin: 0 auto;
       }
       &:first-child {
-        border-color: #727272;
         background-color: #F7F7F7;
         color: #333333;
         font-weight: 700;
