@@ -44,7 +44,7 @@ where we provide an easy way to manage your navigation system
           {% assign nav_id = 'primary-nav-' | append: forloop.index %}
           <li class="usa-nav__primary-item">
             <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ nav_id }}"><span>{{ nav.text | escape }}</span></button>
-            <ul id="{{ nav_id }}" class="usa-nav__submenu">
+            <ul id="{{ nav_id }}" class="usa-nav__submenu" style="width: unset;">
               {% for subnav_item in nav.children %}
               <li class="usa-nav__submenu-item{% if subnav_item.sub == true %} ck{% endif %}">
                 {% if subnav_item.link == false %}
