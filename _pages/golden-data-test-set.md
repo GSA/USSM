@@ -66,15 +66,15 @@ Thus, the transactional purpose of the Golden Data Test Set (GDTS) is to provide
             <td>Leave Earnings Statement Data Pay Period 2</td>
         </tr>
         <tr>
-            <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/LES_PP2_v1.0.xml">LES_PP3_v1.0.xml</a></td>
+            <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/LES_PP3_v1.0.xml">LES_PP3_v1.0.xml</a></td>
             <td>Leave Earnings Statement Data Pay Period 3</td>
         </tr>
         <tr>
-            <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/LES_PP2_v1.0.xml">LES_PP4_v1.0.xml</a></td>
+            <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/LES_PP4_v1.0.xml">LES_PP4_v1.0.xml</a></td>
             <td>Leave Earnings Statement Data Pay Period 4</td>
         </tr>
         <tr>
-            <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/LES_PP2_v1.0.xml">LES_PP5_v1.0.xml</a></td>
+            <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/LES_PP5_v1.0.xml">LES_PP5_v1.0.xml</a></td>
             <td>Leave Earnings Statement Data Pay Period 5</td>
         </tr>
         <tr>
