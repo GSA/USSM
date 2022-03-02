@@ -13,6 +13,7 @@ lifecycle-content: rpm/lifecycle.html
 capabilities-content: rpm/capabilities.html
 data-elements-content: rpm/data-elements.html
 use-cases-content: rpm/use-cases.html
+use-cases-pdf: assets/files/downloads/rpm/Real-Property-Management-Business-Use-Cases.zip
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 lifecycle-source-document: assets/files/downloads/rpm/Real-Property-Management-Federal-Business-Lifecycle.xlsx
