@@ -76,6 +76,7 @@ jQuery(document).ready(function () {
         {
             accordian: 'rpm-lifecycle',
             table: 'rpm-capabilities',
+            UseCasesList: 'rpm-use-cases',
             url: '../business-standards-api/rpm',
             hasSubsection: false
         }
