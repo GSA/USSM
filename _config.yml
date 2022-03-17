@@ -320,6 +320,8 @@ collections:
     output: true
   cyb-soc:
     output: true
+  it-services:
+    output: true
 
 keep_files: [static-api]
 
