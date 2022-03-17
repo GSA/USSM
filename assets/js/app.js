@@ -79,6 +79,11 @@ jQuery(document).ready(function () {
             UseCasesList: 'rpm-use-cases',
             url: '../business-standards-api/rpm',
             hasSubsection: false
+        },
+        {
+            accordian: 'its-lifecycle',
+            url: '../business-standards-api/its',
+            hasSubsection: false
         }
     ];
 function imageChecker(url){
