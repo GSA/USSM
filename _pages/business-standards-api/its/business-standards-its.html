@@ -1,0 +1,12 @@
+---
+title: List of all posts
+permalink: /business-standards-api/its/
+---
+{
+"Business-Standards": "IT Services",
+"Business Lifecycle": {% raw %}[{{% endraw %}
+{% for post in site.it-services %}
+"{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+{% raw %}}]{% endraw %}
+}

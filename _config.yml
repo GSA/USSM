@@ -161,6 +161,10 @@ primary_navigation:
           link: true
           external: false
           sub: true
+        - text: 'Information Technology Services'
+          permalink: /fibf-its/
+          show_in_menu: true
+          show_in_footer: false
         - text: 'Real Property Management'
           permalink: /fibf-RPM/
           show_in_menu: true
@@ -319,6 +323,8 @@ collections:
   cyb-cvd:
     output: true
   cyb-soc:
+    output: true
+  it-services:
     output: true
 
 keep_files: [static-api]

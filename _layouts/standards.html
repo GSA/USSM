@@ -29,6 +29,7 @@ This template is for a single page that does not have a date associated with it.
       <div class="desktop:grid-col-7 mobile:grid-col-12 fibf-wheel-media2">
         <p class="text-italic text-primary font-body-md">Federal Integrated Business Framework (FIBF)</h2>
         <p>The FIBF is a model that enables the Federal government to better coordinate and document common business needs across agencies and focus on outcomes, data, processes and performance. It is the essential first step towards standards that will drive economies of scale and leverage the government’s buying power.</p>
+        {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{% endif %}
         {% if page.sec-title %}
         <div id="rcorners2">
          <p><strong>{{ page.sec-title}}</strong></p>
@@ -108,9 +109,6 @@ This template is for a single page that does not have a date associated with it.
             <a href="{{ site.baseurl }}/{{page.lifecycle-source-document}}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
           </p>
           {% endif %}
-          {% if page.lifecycle-content == null %}
-            <p>Business Standards Under Development.</p>
-          {% endif %}
         </div>
         {% if page.lifecycle-content %}
         <div class="desktop:grid-col-12">{% include {{ page.lifecycle-content }} %}</div>
@@ -134,9 +132,6 @@ This template is for a single page that does not have a date associated with it.
             <p><img src="{{ site.baseurl }}/assets/images/icon.{{page.capabilities-source-document-type}}.png" valign="middle" alt="{{page.capabilities-source-document-type}}">
               <a href="{{ site.baseurl }}/{{page.capabilities-source-document}}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
             </p>
-            {% endif %}
-            {% if page.capabilities-content == null %}
-              <p>Business Standards Under Development.</p>
             {% endif %}
           </div>
         </div>
@@ -167,8 +162,6 @@ This template is for a single page that does not have a date associated with it.
             </p>
             {% if page.use-cases-content %}
             {% include {{ page.use-cases-content }} %}
-            {% else %}
-            <p>Business Standards Under Development.</p>
             {% endif %}
             <p><a class="text-primary" style="display:flex; justify-content:flex-end; margin-top: 95px;"  href="#top">Back to top</a></p>
           </div>
@@ -187,8 +180,6 @@ This template is for a single page that does not have a date associated with it.
             </p>
             {% if page.data-elements-content %}
             {% include {{ page.data-elements-content }} %}
-            {% else %}
-            <p>Business Standards Under Development.</p>
             {% endif %}
             <p><a class="text-primary" style="display:flex; justify-content:flex-end; margin-top: 75px;"  href="#top">Back to top</a></p>
           </div>
@@ -206,8 +197,6 @@ This template is for a single page that does not have a date associated with it.
             </p>
             {% if page.metrics-content %}
             {% include {{ page.metrics-content }} %}
-            {% else %}
-            <p>Business Standards Under Development.</p>
             {% endif %}
             <p><a class="text-primary" style="display:flex; justify-content:flex-end; margin-top: 75px;"  href="#top">Back to top</a></p>
           </div>
