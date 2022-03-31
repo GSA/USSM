@@ -215,13 +215,6 @@ primary_navigation:
           link: true
           external: true
           tooltip: 'Grants Management external link.'
-        - text: 'Civilian HR Transaction Services'
-          permalink: 'https://www.gsa.gov/shared-services/quality-services-management-office'
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: true
-          tooltip: 'Civilian HR Transaction Services external link.'
     - text: 'M3 Framework'
       href: /pages/team.md
       permalink: /m3/
