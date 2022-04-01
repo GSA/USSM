@@ -24,7 +24,9 @@ This tagline will appear in your homepage
                                 {% if qsmos.website %}
                                 <p style="font-size:12px;margin-top:5px;margin-bottom:2px;"><b>Website</b>: <a href="https://www.{{ qsmos.website }}">{{ qsmos.website }}</a></p>
                                 {% endif %}
+                                {% if qsmos.contact %}
                                 <p style="font-size:12px;margin-top:6px;"><b>Contact</b>: <a href="mailto:{{ qsmos.contact }}">{{ qsmos.contact }}</a></p>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
