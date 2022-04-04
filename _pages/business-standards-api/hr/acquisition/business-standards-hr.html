@@ -7,5 +7,5 @@ permalink: /business-standards-api/hr/acquisition/
 "Sub-section":"Talent Acquisition",
 "Business Lifecycle": [{% raw %}{{% endraw %}{% for post in site.hr %}"{{post.type | strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines }}{% unless forloop.last %},{% endunless %}{% endfor %}{% raw %}}{% endraw %}],
 "Business Capabilities": [{% include business-standards-api/hr/acquisition/hr-capabilities.html %}],
-"Performance Metrics": {% include business-standards-api/hr/acquisition/hr-performance-metrics.html %}
+"Service Measures": {% include business-standards-api/hr/acquisition/hr-performance-metrics.html %}
 }]

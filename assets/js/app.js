@@ -167,7 +167,7 @@ function imageChecker(url){
                                 jQuery("#" + page.ElementsList ).append(li);
                             });
                         }
-                        else if (outerKey==="Performance Metrics" && PerformanceMetricsList.length > 0){
+                        else if (outerKey==="Service Measures" && PerformanceMetricsList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
                                 let image = imageChecker(value1);
                                 let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
