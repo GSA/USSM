@@ -12,6 +12,7 @@ Thus, the transactional purpose of the Golden Data Test Set (GDTS) is to provide
 * Alleviate security and privacy concerns in test data, and
 * Foster a standards-compliant ecosystem that enhances interoperability, accuracy, and efficiency of integration.
 
+Note: The GDTS is in the public domain and there are no restrictions on the use of the data test set.
 
 <table class="usa-table" aria-label="Shared Services Governance Board Members" role="presentation" style="font-size: 14px;">
     <colgroup>
