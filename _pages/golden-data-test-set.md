@@ -14,6 +14,8 @@ Thus, the transactional purpose of the Golden Data Test Set (GDTS) is to provide
 
 Note: The GDTS is in the public domain and there are no restrictions on the use of the data test set.
 
+April, 2022: The guide and files have been restructured to provide additional clarity, correct some minor quality assurance items, add a file to reflect some non-noa related actions separately (Pay_PP4_v1.1), and one transaction was split into a different XML file to make it clear to apply them in the correct order (HR_TRANS_RETRO_20210214_v1.1).
+
 <table class="usa-table" aria-label="Shared Services Governance Board Members" role="presentation" style="font-size: 14px;">
     <colgroup>
         <col span="1" style="width: 50%;">
