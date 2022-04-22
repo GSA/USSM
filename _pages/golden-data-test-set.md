@@ -105,13 +105,13 @@ April, 2022: The guide and files have been restructured to provide additional cl
             <td>HR Transaction data (NOAs, etc.) Pay Period 3</td>
         </tr>
         <tr>
-            <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/HR_TRANS_20210305_v1.1.xml">HR_TRANS_20210305_v1.1.xml</a></td>
+            <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/HR_TRANS_20210313_v1.1.xml">HR_TRANS_20210313_v1.1.xml</a></td>
             <td>HR Transaction data (NOAs, etc.) Pay Period 3</td>
         </tr>
-        <tr>
+        <!-- <tr>
             <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/HR_TRANS_20210307_v1.1.xml">HR_TRANS_20210307_v1.1.xml</a></td>
             <td>HR Transaction data (NOAs, etc.) Pay Period 3</td>
-        </tr>
+        </tr> -->
         <tr>
             <td><a href="{{site.baseurl}}/assets/files/golden-data-test-set/HR_TRANS_20210314_v1.1.xml">HR_TRANS_20210314_v1.1.xml</a></td>
             <td>HR Transaction data (NOAs, etc.) Pay Period 4</td>
