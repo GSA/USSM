@@ -245,6 +245,13 @@ span[role="link"]:focus {
     padding: 10px 20px;
 }
 
+@media screen and (min-width: 1110px){
+  .fibf-video {
+    width: 22rem;
+    height: 12rem;
+  }
+}
+
 .usa-accordion__content.usa-prose {
   margin: 0;
   padding: 1rem;
