@@ -110,6 +110,10 @@ primary_navigation:
           link: true
           external: false
           sub: true
+        - text: 'Equal Employment Opportunity Services'
+          permalink: /fibf-eeo/
+          show_in_menu: true
+          show_in_footer: false
         - text: 'Electronic Records Management'
           permalink: /fibf-ERM/
           show_in_menu: true
