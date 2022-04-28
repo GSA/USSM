@@ -84,6 +84,11 @@ jQuery(document).ready(function () {
             accordian: 'its-lifecycle',
             url: '../business-standards-api/its',
             hasSubsection: false
+        },
+        {
+            accordian: 'eeo-lifecycle',
+            url: '../business-standards-api/eeo',
+            hasSubsection: false
         }
     ];
 function imageChecker(url){
