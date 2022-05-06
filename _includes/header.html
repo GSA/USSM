@@ -59,9 +59,15 @@ This appears at the top of the page letting the user know it's an official gover
   <div class="grid-container">
     <div class="usa-alert usa-alert--info usa-alert--slim">
       <div class="usa-alert__body">
+        {% if page.title == "Federal Mission Support Shared Services Marketplace : Grants Management" %}
+        <p class="usa-alert__text">
+          This Grants QSMO Marketplace is under construction and will continue to be updated.
+        </p>
+        {% else %}
         <p class="usa-alert__text">
           The Modernization and Migration Management (M3) Playbook has a new look! Explore our new features <a href="{{site.baseurl}}/m3/">here</a>.
         </p>
+        {% endif %}
       </div>
     </div>
   </div>
