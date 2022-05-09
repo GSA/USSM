@@ -35,7 +35,11 @@ site, this is the place to do it.
     ================================================== -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  {% if page.title == "Federal Mission Support Shared Services Marketplace : Grants Management" %}
+  <meta name="robots" content="noindex">
+  {% else %}
   <meta name="robots" content="index,follow">
+  {% endif %}
   <!-- Mobile Specific Metas
     ================================================== -->
   <meta name="HandheldFriendly" content="True">

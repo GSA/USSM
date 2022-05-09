@@ -19,7 +19,9 @@
 @import "m3-keyTask";
 @import "m3-homepage";
 
-// Example - Override the background image in the hero component using CSS:
+@import "marketplace";
+
+/* Example - Override the background image in the hero component using CSS:
 //.usa-hero {
 //  background-image: asset_url("your-image.png")
 //  background-position: 50%;
@@ -29,7 +31,7 @@
 /*
   Add your SASS/CSS here
 */
-// default mode hide banner
+/* default mode hide banner */
 .usa-banner__content {
   display: hidden;
 }
