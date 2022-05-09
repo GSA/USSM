@@ -3,7 +3,7 @@ title: List of all posts
 permalink: /business-standards-api/eeo/
 ---
 {
-"Business-Standards": "Equal Employment Opportunity Services",
+"Business-Standards": "Federal Sector Equal Employment Opportunity Services",
 "Business Lifecycle": {% raw %}[{{% endraw %}
 {% for post in site.eeo %}
 "{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
