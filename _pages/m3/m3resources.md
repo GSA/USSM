@@ -6,7 +6,7 @@ permalink: /m3resources/
 
 sections:
   - name: M3 Orientation Materials
-    description: Provides an orientation of the tools and resources contained within the M3 framework and Playbook.
+    description: Provides an orientation of the tools and resources available within the M3 framework and Playbook. Download the document below for best results
     items:
       - name: M3 Playbook Orientation (PowerPoint)
         filename: M3 Playbook Orientation Final 6.27.22.pptx
