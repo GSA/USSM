@@ -4,7 +4,7 @@
     let $this = $(this);
     
     $.get({
-      url: '../business-standards-api/grants/business-lifecycle/',
+      url: '/business-standards-api/grants/business-lifecycle/',
       dataType: 'json',
       success: function (data) {
         console.log(data);
