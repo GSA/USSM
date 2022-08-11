@@ -18,7 +18,7 @@ img: /assets/images/governance/governance-diagram-1.png
 
 <p><strong><a href="../sapoc">Senior Accountable Point of Contact for Shared Services</a></strong></p>
 
-<p>CFO Act Agencies designate a Senior Accountable Point of Contact (SAPOC) to coordinate across agency mission support functions and collaborate with program offices to support adoption of shared service strategies, communicate information across their agency, and take other related actions to drive operational efficiency and effectiveness consistent with the goals of the President’s Management Agenda (PMA), as outlined on Performance.gov.</p>
+<p>CFO Act Agencies designate a Senior Accountable Point of Contact (SAPOC) to coordinate across agency mission support functions and collaborate with program offices to support adoption of shared service strategies, communicate information across their agency, and take related actions that will drive operational efficiency and effectiveness consistent with the goals of the President’s Management Agenda (PMA).</p>
 
 <p><strong>Business Standards Council</strong></p>
 
