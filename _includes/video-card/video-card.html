@@ -1,16 +1,17 @@
 
+{% if include.video_data %}
 <li class="usa-card tablet:grid-col-4" tabindex="0">
     <div class="usa-card__container" id="ogp-usa-card__container">
         <div class="margin-top-05">
-            <a  class="text-black ogp-card__link--unset" href="{{ site.baseurl }}{{page.url}}">
-                <b>Enhancing Your Agencies Services by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF. </b>
+            <a  class="text-black ogp-card__link--unset" href="{{ site.baseurl }}{{include.video_data.directory}}{{include.video_data.page_name}}">
+                <b>{{include.video_data.title}} </b>
             </a>
         </div>
         <div class="usa-card__media">
             <div class="usa-card__img">
             <img 
-                src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg"
-                alt="A placeholder image"
+                src="{{include.video_data.image}}"
+                alt="{{include.video_data.image_alt}}"
             />
             </div>
         </div>
@@ -19,22 +20,23 @@
                 <span>
                     <img
                         class="width-105"
-                        src="assets/images/video-card/circle-solid-blue.svg"
+                        src="assets/images/video-card/circle-solid-{{include.video_data.tag_color}}.svg"
                         alt="A placeholder image"
                     />
                 </span> 
-                <sapn> M3 </sapn>
+                <sapn> {{include.video_data.tag}} </sapn>
             </div>
             <div>
                 <span>
                     <img
                         class="width-105"
                         src="assets/images/video-card/clock-regular.svg"
-                        alt="A placeholder image"
+                        alt="Last updated time"
                     />
                 </span> 
-                <span> 14 months ago</span>
+                <span> {{include.video_data.last_updated}}o</span>
             </div>
         </div>
     </div>
 </li>
+{% endif %}

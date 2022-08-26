@@ -1,0 +1,35 @@
+{
+  "title": "Landing Page Video Player",
+  "videos": [
+    {
+      "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
+      "image_alt": "",
+      "title": "Enhancing Your Agencies Services by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF.",
+      "tag": "M3",
+      "tag_color": "blue",
+      "page_name": "enhancing-your-agencies-services",
+      "last_updated": "14 months ago",
+      "directory": "/video-card/"
+    },
+    {
+        "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
+        "image_alt": "",
+        "title": "Enhancing Your Agencies Services by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF.",
+        "tag": "M3",
+        "tag_color": "orange",
+        "page_name": "enhancing-your-agencies-services",
+        "last_updated": "14 months ago",
+        "directory": "/video-card/"
+    },
+    {
+        "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
+        "image_alt": "",
+        "title": "Enhancing Your Agencies Services by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF.",
+        "tag": "M3",
+        "tag_color": "red",
+        "page_name": "enhancing-your-agencies-services",
+        "last_updated": "14 months ago",
+        "directory": "/video-card/"
+    }
+  ]
+}

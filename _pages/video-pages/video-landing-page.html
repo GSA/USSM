@@ -9,11 +9,9 @@ permalink: /video-center
 <section id="main-content" class="usa-graphic-list usa-section sml-margin bg-gradient">
   <div class="grid-container">
     <ul class="usa-card-group">
-      {% include video-card/video-card.html %}
-      {% include video-card/video-card.html %}
-      {% include video-card/video-card.html %}
-      {% include video-card/video-card.html %}
-      {% include video-card/video-card.html %}
+      {% for each_video in site.data.videos.videos %}
+        {% include video-card/video-card.html video_data =  each_video%}
+      {% endfor %}
     </ul>
   </div>
 </section>
