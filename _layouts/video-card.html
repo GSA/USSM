@@ -10,13 +10,54 @@ This is an example showing how you can load date from the _data/ folder
 <div class="usa-layout-docs usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
-      <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
-        {{ content }}
-        <ul>
-          {% for item in site.data[page.datafile] %}
-          <li>
-            <a href="{{ item.url }}"><b>{{ item.name }}</b></a>: {{item.description}}
-          </li>
+      <div class="grid-col-12 desktop:grid-col-9">
+        {% for single_video in site.data.videos.videos %}
+          {% assign item_name = page.url | split:"/" | last %}
+          {% if item_name == single_video.page_name %}
+            <div class="usa-card__container" id="ogp-usa-card__container">
+              <div class="margin-top-05">
+                  <a  class="text-black ogp-card__link--unset" href="{{ site.baseurl }}{{single_video.directory}}{{single_video.page_name}}">
+                      <b>{{single_video.title}} </b>
+                  </a>
+              </div>
+              <div class="usa-card__media">
+                  <div class="usa-card__img">
+                  <img
+                      src="{{single_video.image}}"
+                      alt="{{single_video.image_alt}}"
+                  />
+                  </div>
+              </div>
+              <div>
+                  <div>
+                      <span>
+                          <img
+                              class="width-105"
+                              src="{{ site.baseurl }}/assets/images/video-card/circle-solid-{{single_video.tag_color}}.svg"
+                              alt="A placeholder image"
+                          />
+                      </span>
+                      <sapn> {{single_video.tag}} </sapn>
+                  </div>
+                  <div>
+                      <span>
+                          <img
+                              class="width-105"
+                              src="{{ site.baseurl }}/assets/images/video-card/clock-regular.svg"
+                              alt="Last updated time"
+                          />
+                      </span>
+                      <span> {{single_video.last_updated}}o</span>
+                  </div>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="grid-col-12 desktop:grid-col-3">
+        <ul class="usa-card-group">
+          {% for each_video in site.data.videos.videos %}
+            {% include video-card/video-card-sidebar.html video_data = each_video %}
           {% endfor %}
         </ul>
       </div>
