@@ -1,42 +1,43 @@
 
 {% if include.video_data %}
-<li class="usa-card tablet:grid-col-4" tabindex="0">
-    <div class="usa-card__container" id="ogp-usa-card__container">
-        <div class="margin-top-05">
-            <a  class="text-black ogp-card__link--unset" href="{{ site.baseurl }}{{include.video_data.directory}}{{include.video_data.page_name}}">
-                <b>{{include.video_data.title}} </b>
-            </a>
-        </div>
-        <div class="usa-card__media">
-            <div class="usa-card__img">
-            <img 
-                src="{{include.video_data.image}}"
-                alt="{{include.video_data.image_alt}}"
-            />
+    <a class="usa-card tablet:grid-col-4 hvr-sink" 
+       id="ogp-usa-card__container" 
+       tabindex="0" 
+       href="{{ site.baseurl }}{{include.video_data.directory}}{{include.video_data.page_name}}">
+        <div class="usa-card__container">
+            <div class="margin-top-05">
+                    <b>{{include.video_data.title}} </b>
             </div>
-        </div>
-        <div>
-            <div>
-                <span>
-                    <img
-                        class="width-105"
-                        src="{{ site.baseurl }}/assets/images/video-card/circle-solid-{{include.video_data.tag_color}}.svg"
-                        alt="A placeholder image"
-                    />
-                </span> 
-                <sapn> {{include.video_data.tag}} </sapn>
+            <div class="usa-card__media">
+                <div class="usa-card__img">
+                <img 
+                    src="{{include.video_data.image}}"
+                    alt="{{include.video_data.image_alt}}"
+                />
+                </div>
             </div>
             <div>
-                <span>
-                    <img
-                        class="width-105"
-                        src="{{ site.baseurl }}/assets/images/video-card/clock-regular.svg"
-                        alt="Last updated time"
-                    />
-                </span> 
-                <span> {{include.video_data.last_updated}}</span>
+                <div>
+                    <span>
+                        <img
+                            class="width-105"
+                            src="{{ site.baseurl }}/assets/images/video-card/circle-solid-{{include.video_data.tag_color}}.svg"
+                            alt="A placeholder image"
+                        />
+                    </span> 
+                    <sapn> {{include.video_data.tag}} </sapn>
+                </div>
+                <div>
+                    <span>
+                        <img
+                            class="width-105"
+                            src="{{ site.baseurl }}/assets/images/video-card/clock-regular.svg"
+                            alt="Last updated time"
+                        />
+                    </span> 
+                    <span> {{include.video_data.last_updated}}</span>
+                </div>
             </div>
         </div>
-    </div>
-</li>
+    </a>
 {% endif %}
