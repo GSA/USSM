@@ -7,29 +7,32 @@
       "title": "What Are Shared Services",
       "tag": "Shared Services",
       "tag_color": "blue",
-      "page_name": "What-are-shared-services",
+      "page_name": "what-are-shared-services",
       "last_updated": "August 29th, 2022",
-      "directory": "/video-center/"
+      "directory": "/video-cards/",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
-        "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
-        "image_alt": "QSMOs and the Trail to Mission Success image",
-        "title": "QSMOs and the Trail to Mission Success",
-        "tag": "QSMOs",
-        "tag_color": "orange",
-        "page_name": "qsmos-and-the-trail-to-mission-success",
-        "last_updated": "August 29th, 2022",
-        "directory": "/video-center/"
+      "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
+      "image_alt": "QSMOs and the Trail to Mission Success image",
+      "title": "QSMOs and the Trail to Mission Success",
+      "tag": "QSMOs",
+      "tag_color": "orange",
+      "page_name": "qsmos-and-the-trail-to-mission-success",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-cards/",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
-        "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
-        "image_alt": "Enhancing Your Agencies Services by Utilizing FIBF image",
-        "title": "Enhancing Your Agencies Services by Utilizing FIBF",
-        "tag": "Business Standards",
-        "tag_color": "green",
-        "page_name": "enhancing-your-agencies-services",
-        "last_updated": "August 29th, 2022",
-        "directory": "/video-center/"
+      "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
+      "image_alt": "Enhancing Your Agencies Services by Utilizing FIBF image",
+      "title": "Enhancing Your Agencies Services by Utilizing FIBF",
+      "tag": "Business Standards",
+      "tag_color": "green",
+      "page_name": "enhancing-your-agencies-services",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-cards/",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
@@ -39,7 +42,8 @@
       "tag_color": "purple",
       "page_name": "m3-framework",
       "last_updated": "August 29th, 2022",
-      "directory": "/video-center/"
+      "directory": "/video-cards/",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
@@ -49,7 +53,8 @@
       "tag_color": "purple",
       "page_name": "m3-playbook",
       "last_updated": "August 29th, 2022",
-      "directory": "/video-center/"
+      "directory": "/video-cards/",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
@@ -59,7 +64,8 @@
       "tag_color": "purple",
       "page_name": "modernization-phases",
       "last_updated": "August 29th, 2022",
-      "directory": "/video-center/"
+      "directory": "/video-cards/",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     }
   ]
 }
