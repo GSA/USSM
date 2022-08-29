@@ -3,33 +3,63 @@
   "videos": [
     {
       "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
-      "image_alt": "",
-      "title": "Enhancing Your Agencies Services by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF.",
-      "tag": "M3",
+      "image_alt": "What Are Shared Services image",
+      "title": "What Are Shared Services",
+      "tag": "Shared Services",
       "tag_color": "blue",
-      "page_name": "enhancing-your-agencies-services",
-      "last_updated": "14 months ago",
-      "directory": "/video-card/"
+      "page_name": "What-are-shared-services",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-center/"
     },
     {
         "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
-        "image_alt": "",
-        "title": "Enhancing Your Agencies Services by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF.",
-        "tag": "M3",
+        "image_alt": "QSMOs and the Trail to Mission Success image",
+        "title": "QSMOs and the Trail to Mission Success",
+        "tag": "QSMOs",
         "tag_color": "orange",
-        "page_name": "enhancing-your-agencies-services",
-        "last_updated": "14 months ago",
-        "directory": "/video-card/"
+        "page_name": "qsmos-and-the-trail-to-mission-success",
+        "last_updated": "August 29th, 2022",
+        "directory": "/video-center/"
     },
     {
         "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
-        "image_alt": "",
-        "title": "Enhancing Your Agencies Services by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF.",
-        "tag": "M3",
-        "tag_color": "red",
+        "image_alt": "Enhancing Your Agencies Services by Utilizing FIBF image",
+        "title": "Enhancing Your Agencies Services by Utilizing FIBF",
+        "tag": "Business Standards",
+        "tag_color": "green",
         "page_name": "enhancing-your-agencies-services",
-        "last_updated": "14 months ago",
-        "directory": "/video-card/"
+        "last_updated": "August 29th, 2022",
+        "directory": "/video-center/"
+    },
+    {
+      "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
+      "image_alt": "M3 Framework - Move Your Agency Forward with M3 image",
+      "title": "M3 Framework - Move Your Agency Forward with M3",
+      "tag": "M3",
+      "tag_color": "purple",
+      "page_name": "m3-framework",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-center/"
+    },
+    {
+      "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
+      "image_alt": "M3 Playbook - Move Your Agency Forward with M3 image",
+      "title": "M3 Playbook - Move Your Agency Forward with M3",
+      "tag": "M3",
+      "tag_color": "purple",
+      "page_name": "m3-playbook",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-center/"
+    },
+    {
+      "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
+      "image_alt": "Modernization Phases - Move Your Agency Forward with M3 image",
+      "title": "Modernization Phases - Move Your Agency Forward with M3",
+      "tag": "M3",
+      "tag_color": "purple",
+      "page_name": "modernization-phases",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-center/"
     }
   ]
 }
