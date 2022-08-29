@@ -1,20 +1,21 @@
 
 #ogp-usa-card__container{
-  border-color: white;
 
-  .ogp-card__link--unset{
-    text-decoration: unset;
-  };
+  text-decoration: unset;
 
-  .ogp-card__link--unset:hover{
-    text-decoration: unset;
-    color:#0071bc;
-  };
+  .usa-card__container{
+    border-color: white;
+  }
 
   .usa-card__img{
     border-radius: calc( 0.5rem - 2px );
   };
+
+  .hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active{
+    transform: translateY(-8px);
+  }
 }
+
 
 .circle {
   height: 350px;
