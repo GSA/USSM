@@ -17,8 +17,15 @@
   .hvr-sink:active {
     transform: translateY(-8px);
   }
+
 }
 
+#main-content__tag-line.bg-gradient{
+    background: linear-gradient(52deg, #102A4A 50%, #205493 100%);
+    h1{
+      color: white !important;
+    }
+}
 
 .circle {
   height: 350px;
