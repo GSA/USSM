@@ -347,3 +347,11 @@ span[role="link"]:focus {
 .ussm-related-links {
   margin-top: 30px;
 }
+
+a.ogp-card__link--unset {
+  text-decoration: none;
+}
+
+a.ogp-card__link--unset:hover {
+  text-decoration: underline;
+}

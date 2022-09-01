@@ -44,7 +44,7 @@ This is an example showing how you can load date from the _data/ folder
                               alt="Last updated time"
                           />
                       </span>
-                      <span> {{single_video.last_updated}}o</span>
+                      <span> {{single_video.last_updated}}</span>
                   </div>
               </div>
 
@@ -69,6 +69,9 @@ This is an example showing how you can load date from the _data/ folder
             {% include video-card/video-card-sidebar.html video_data = each_video %}
           {% endfor %}
         </ul>
+      </div>
+      <div class="grid-col-12 text-right">
+        <a href="#">Return to top</a>
       </div>
     </div>
   </div>
