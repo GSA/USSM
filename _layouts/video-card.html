@@ -66,7 +66,10 @@ This is an example showing how you can load date from the _data/ folder
       <div class="grid-col-12 desktop:grid-col-3">
         <ul class="usa-card-group">
           {% for each_video in site.data.videos.videos %}
-            {% include video-card/video-card-sidebar.html video_data = each_video %}
+            {% assign item_name = page.url | split:"/" | last %}
+            {% if item_name != each_video.page_name %}
+              {% include video-card/video-card-sidebar.html video_data = each_video %}
+            {% endif %}
           {% endfor %}
         </ul>
       </div>

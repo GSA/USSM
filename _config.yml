@@ -342,7 +342,7 @@ plugins:
 page_gen:
   - data: "videos.videos"
     template: "video-card"
-    dir: "/video-cards/"
+    dir: "/video-center/"
     name: "page_name"
     title: "title"
     index_files: true

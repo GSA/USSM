@@ -2,40 +2,40 @@
   "title": "Landing Page Video Player",
   "videos": [
     {
-      "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
+      "image": "/assets/images/video-card/what-are-shared-services.png",
       "image_alt": "What Are Shared Services image",
       "title": "What Are Shared Services",
       "tag": "Shared Services",
       "tag_color": "blue",
       "page_name": "what-are-shared-services",
       "last_updated": "August 29th, 2022",
-      "directory": "/video-cards/",
+      "directory": "/video-center/",
       "video_link": "https://player.vimeo.com/video/569954187?badge=0&autopause=0&player_id=0&app_id=58479",
       "description": "Learn how Shared Services can help agencies solve the challenges of outdated technology, redundant process, and constrained resources such as money and time.",
       "related_links": []
     },
     {
-      "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
+      "image": "/assets/images/video-card/qsmos-and-the-trail-to-mission-success.png",
       "image_alt": "QSMOs and the Trail to Mission Success image",
       "title": "QSMOs and the Trail to Mission Success",
       "tag": "QSMOs",
       "tag_color": "orange",
       "page_name": "qsmos-and-the-trail-to-mission-success",
       "last_updated": "August 29th, 2022",
-      "directory": "/video-cards/",
+      "directory": "/video-center/",
       "video_link": "https://player.vimeo.com/video/569978556?badge=0&autopause=0&player_id=0&app_id=58479",
       "description": "Learn about Quality Service Management Offices and how they advance agency decision making in selecting the right solutions and tools to support their mission.",
       "related_links": []
     },
     {
-      "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
+      "image": "/assets/images/video-card/enhancing-your-agencies-services.png",
       "image_alt": "Enhancing Your Agencies Services by Utilizing FIBF image",
       "title": "Enhancing Your Agencies Services by Utilizing FIBF",
       "tag": "Business Standards",
       "tag_color": "green",
       "page_name": "enhancing-your-agencies-services",
       "last_updated": "August 29th, 2022",
-      "directory": "/video-cards/",
+      "directory": "/video-center/",
       "video_link": "https://player.vimeo.com/video/698159819?h=f7c711fc66&badge=0&autopause=0&player_id=0&app_id=58479",
       "description": "Enhance your agency's services by utilizing the Federal Integrated Business Framework. Learn how the FIBF facilitates procurement requirements, translates policy into practices and supports agency modernization planning.",
       "related_links": [
@@ -50,7 +50,7 @@
       "tag_color": "purple",
       "page_name": "m3-framework",
       "last_updated": "August 29th, 2022",
-      "directory": "/video-cards/",
+      "directory": "/video-center/",
       "video_link": "https://player.vimeo.com/video/677308076?h=f71d457043&badge=0&autopause=0&player_id=0&app_id=58479",
       "description": "Looking to modernize a system or mission support services? The M3 Framework can help. The GSA Office of Shared Solutions and Performance Improvement (OSSPI) worked with experts across government to create the M3 Framework - which lists best practices and activities critical to modernization success.  It reduces risk and implementation time, gain efficiences and deliver results in agency modernization efforts.",
       "related_links": [
@@ -65,7 +65,7 @@
       "tag_color": "purple",
       "page_name": "m3-playbook",
       "last_updated": "August 29th, 2022",
-      "directory": "/video-cards/",
+      "directory": "/video-center/",
       "video_link": "https://player.vimeo.com/video/704934121?h=437ef4784d&badge=0&autopause=0&player_id=0&app_id=58479",
       "description": "M3 Playbook provides a comprehensive set of tools and templates. Developed in coordination with Federal agencies, Providers, and Industry the playbook includes more than 70 step-by-step guided activities.",
       "related_links": [
@@ -80,7 +80,7 @@
       "tag_color": "purple",
       "page_name": "modernization-phases",
       "last_updated": "August 29th, 2022",
-      "directory": "/video-cards/",
+      "directory": "/video-center/",
       "video_link": "https://player.vimeo.com/video/720261803?h=ddd231c12c&badge=0&autopause=0&player_id=0&app_id=58479",
       "description": "Learn about the phases of the M3 Playbook - Assessment, Readiness, Selection, Engagement, Migration, and Operations on the journey to modernizing your agency's mission support platform. It's a how to guide to delivering on your promise of agency modernization.",
       "related_links": [
