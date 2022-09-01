@@ -1,6 +1,5 @@
 
 #ogp-usa-card__container{
-
   text-decoration: unset;
 
   .usa-card__container{
@@ -9,19 +8,34 @@
 
   .usa-card__img{
     border-radius: calc( 0.5rem - 2px );
-  };
+  }
 
   .hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active{
     transform: translateY(-8px);
   }
-
 }
 
 #main-content__tag-line.bg-gradient{
     background: linear-gradient(52deg, #102A4A 50%, #205493 100%);
+
+    a{
+      text-decoration: unset;
+      cursor: unset !important;
+    }
+
     h1{
       color: white !important;
     }
+
+    .ogp-current{
+      h1:hover{
+        color:#00bde3 !important;
+      }
+      a{
+        cursor: pointer !important;
+      }
+      
+    }   
 }
 
 .circle {
