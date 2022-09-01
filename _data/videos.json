@@ -2,70 +2,64 @@
   "title": "Landing Page Video Player",
   "videos": [
     {
-      "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
-      "image_alt": "",
-      "title": "Enhancing Your Agencies Services 1 by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF.",
-      "tag": "M3",
+      "image": "/assets/images/video-card/what-are-shared-services.png",
+      "image_alt": "What Are Shared Services image",
+      "title": "What Are Shared Services",
+      "tag": "Shared Services",
       "tag_color": "blue",
-      "page_name": "enhancing-your-agencies-services-1",
-      "last_updated": "11 months ago",
-      "directory": "/video-cards/",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "page_name": "what-are-shared-services",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-center/"
     },
     {
-        "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
-        "image_alt": "",
-        "title": "Enhancing Your Agencies Services 2 by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF.",
-        "tag": "M3",
+        "image": "/assets/images/video-card/qsmos-and-the-trail-to-mission-success.png",
+        "image_alt": "QSMOs and the Trail to Mission Success image",
+        "title": "QSMOs and the Trail to Mission Success",
+        "tag": "QSMOs",
         "tag_color": "orange",
-        "page_name": "enhancing-your-agencies-services-2",
-        "last_updated": "16 months ago",
-        "directory": "/video-cards/",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "page_name": "qsmos-and-the-trail-to-mission-success",
+        "last_updated": "August 29th, 2022",
+        "directory": "/video-center/"
     },
     {
-        "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
-        "image_alt": "",
-        "title": "Enhancing Your Agencies Services 3 by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF.",
-        "tag": "M3",
-        "tag_color": "red",
-        "page_name": "enhancing-your-agencies-services-3",
-        "last_updated": "14 months ago",
-        "directory": "/video-cards/",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "image": "/assets/images/video-card/enhancing-your-agencies-services.png",
+        "image_alt": "Enhancing Your Agencies Services by Utilizing FIBF image",
+        "title": "Enhancing Your Agencies Services by Utilizing FIBF",
+        "tag": "Business Standards",
+        "tag_color": "green",
+        "page_name": "enhancing-your-agencies-services",
+        "last_updated": "August 29th, 2022",
+        "directory": "/video-center/"
     },
     {
-      "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
-      "image_alt": "",
-      "title": "Enhancing Your Agencies Services 4 by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF.",
+      "image": "/assets/images/video-card/m3-framework.png",
+      "image_alt": "M3 Framework - Move Your Agency Forward with M3 image",
+      "title": "M3 Framework - Move Your Agency Forward with M3",
       "tag": "M3",
-      "tag_color": "blue",
-      "page_name": "enhancing-your-agencies-services-4",
-      "last_updated": "10 months ago",
-      "directory": "/video-cards/",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "tag_color": "purple",
+      "page_name": "m3-framework",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-center/"
     },
     {
-        "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
-        "image_alt": "",
-        "title": "Enhancing Your Agencies Services 5 by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF.",
-        "tag": "M3",
-        "tag_color": "orange",
-        "page_name": "enhancing-your-agencies-services-5",
-        "last_updated": "9 months ago",
-        "directory": "/video-cards/",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "image": "/assets/images/video-card/m3-playbook.png",
+      "image_alt": "M3 Playbook - Move Your Agency Forward with M3 image",
+      "title": "M3 Playbook - Move Your Agency Forward with M3",
+      "tag": "M3",
+      "tag_color": "purple",
+      "page_name": "m3-playbook",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-center/"
     },
     {
-        "image": "https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg",
-        "image_alt": "",
-        "title": "Enhancing Your Agencies Services 6 by utilizing FIBF. Enhancing Your Agencies Services by utilizing FIBF.",
-        "tag": "M3",
-        "tag_color": "red",
-        "page_name": "enhancing-your-agencies-services-6",
-        "last_updated": "14 months ago",
-        "directory": "/video-cards/",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "image": "/assets/images/video-card/modernization-phases.png",
+      "image_alt": "Modernization Phases - Move Your Agency Forward with M3 image",
+      "title": "Modernization Phases - Move Your Agency Forward with M3",
+      "tag": "M3",
+      "tag_color": "purple",
+      "page_name": "modernization-phases",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-center/"
     }
   ]
 }

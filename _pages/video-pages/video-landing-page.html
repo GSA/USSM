@@ -1,13 +1,22 @@
 ---
-title: "Video Landing Page"
+title: "Learn about Shared Services"
 layout: base
-permalink: /video-center
+permalink: /video-center/
 ---
 
-{% include video-card/tag-line.html %}
+{% include video-card/tag-line.html title = page.title %}
 
 <section id="main-content" class="usa-graphic-list usa-section sml-margin bg-gradient">
   <div class="grid-container">
+    <div class="usa-alert usa-alert--info usa-alert--no-icon margin-top-neg-205 margin-bottom-5">
+      <div class="usa-alert__body">
+        <p class="usa-alert__text">
+          Learn about the Shared Services ecosystem from Business Standards, 
+    to Modernization Guidance, to the fundamentals of what are Shared Services 
+    and how are Quality Services Management Offices organizing around them.
+        </p>
+      </div>
+    </div>
     <ul class="usa-card-group">
       {% for each_video in site.data.videos.videos %}
         {% include video-card/video-card.html video_data = each_video %}
