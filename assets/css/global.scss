@@ -24,7 +24,7 @@
     cursor: unset !important;
   }
 
-  h1 {
+  h1, h6 {
     color: white !important;
   }
 
@@ -33,10 +33,15 @@
       color: #00bde3 !important;
     }
 
-    a {
+    h1{
       cursor: pointer !important;
-    }
+      margin:0px !important;
 
+    }
+    h6{
+      margin:0px !important;
+      font-size: 23px !important;
+    }
   }
 }
 

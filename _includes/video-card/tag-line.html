@@ -9,13 +9,16 @@
                         alt="Last updated time"
                     />
                 </span>
-                <h1 class="font-sans-xl text-black" >
-                    <b>{{include.title}}</b>
-                </h1>
-                {% if include.sub_title %}
-                <h2 class="font-sans-xl text-black" >
-                    <b>{{include.sub_title}}</b>
-                </h2>
+                <span>
+                    <h1 class="font-sans-xl text-black" >
+                        <b>{{include.title}}</b>
+                    </h1>
+                    {% if include.sub_title %}
+                    <h6 class="font-sans-xl text-black" >
+                        <b>{{include.sub_title}}</b>
+                    </h6>
+                </span>
+               
                 {% endif %}
             </a>                
         </div>
