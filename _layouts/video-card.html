@@ -7,7 +7,7 @@ layout: default
 This is an example showing how you can load date from the _data/ folder
 {% endcomment %}
 
-{% include video-card/tag-line.html title = "Learn about Shared Services" sub_title = page.title go_back_url = '/video-center/' %}
+{% include video-card/tag-line.html title = "Learn About Shared Services" sub_title = page.title go_back_url = '/video-center/' %}
 
 <div class="usa-layout-docs usa-section">
   <div class="grid-container">
@@ -33,7 +33,7 @@ This is an example showing how you can load date from the _data/ folder
                           <img
                               class="width-105"
                               src="{{ site.baseurl }}/assets/images/video-card/circle-solid-{{single_video.tag_color}}.svg"
-                              alt="A placeholder image"
+                              alt="{{single_video.tag_color}} tag color"
                           />
                       </span>
                       <sapn> {{single_video.tag}} </sapn>
