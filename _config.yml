@@ -336,6 +336,18 @@ plugins:
   - jekyll-datapage-generator
 
 ############################################################
+# Configuration for the Jekyll 3 jekyll-datapage-generator
+# The values here represent the defaults if nothing is set
+
+page_gen:
+  - data: "videos.videos"
+    template: "video-card"
+    dir: "/video-center/"
+    name: "page_name"
+    title: "title"
+    index_files: true
+
+############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
 pagination:
