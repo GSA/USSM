@@ -1,3 +1,6 @@
+/**
+ * opens and closes content on the fibf.html page
+ */
 jQuery(document).ready(function ($) {
   jQuery('#hr-management-services-main').click(function(e) {
     e.preventDefault();

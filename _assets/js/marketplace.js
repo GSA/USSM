@@ -15,11 +15,6 @@ $(document).ready(function () {
     link.click(function () {
     });
   });
-
-  /* $('#hr-management-services-main').hover(function(e) {
-      e.preventDefault();
-      $(".hr-management-services").toggle();
-  }); */
 });
 
 })(jQuery);
