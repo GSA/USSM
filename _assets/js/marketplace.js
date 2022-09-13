@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
   let descriptions = {};
-  
+
   $.get({
     url: '/business-standards-api/grants/business-lifecycle/',
     success: function (data) {
@@ -15,6 +15,11 @@ $(document).ready(function () {
     link.click(function () {
     });
   });
+
+  /* $('#hr-management-services-main').hover(function(e) {
+      e.preventDefault();
+      $(".hr-management-services").toggle();
+  }); */
 });
 
-}(jQuery);
+})(jQuery);
