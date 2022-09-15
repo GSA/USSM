@@ -1,8 +1,1 @@
-{
-    "020.RPM.L1.01 Provisioning of Real Property from GSA Public Building Service Inventory": "{{site.baseurl}}/assets/files/downloads/rpm/020.RPM.L1.01 Provisioning of Real Property from GSA Public Building Service Inventory.pdf",
-    "020.RPM.L1.02 GSA-managed Lease of Non-Federal Real Property": "{{site.baseurl}}/assets/files/downloads/rpm/020.RPM.L1.02 GSA-managed Lease of Non-Federal Real Property.pdf",
-    "020.RPM.L1.03 Site Purchase and Construction of Special Use Facility": "{{site.baseurl}}/assets/files/downloads/rpm/020.RPM.L1.03 Site Purchase and Construction of Special Use Facility.pdf",
-    "020.RPM.L1.04 Capital Improvements to High Security Real Property": "{{site.baseurl}}/assets/files/downloads/rpm/020.RPM.L1.04 Capital Improvements to High Security Real Property.pdf",
-    "020.RPM.L1.05 Disposal of Federally Owned Real Property": "{{site.baseurl}}/assets/files/downloads/rpm/020.RPM.L1.05 Disposal of Federally Owned Real Property.pdf",
-    "020.RPM.L1.06 Budget Cuts Impact Schedule for New Parking Facility Completion": "{{site.baseurl}}/assets/files/downloads/rpm/020.RPM.L1.06 Budget Cuts Impact Schedule for New Parking Facility Completion.pdf"
-}
+{{ site.data.rpm.Business_Use_Cases | remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}

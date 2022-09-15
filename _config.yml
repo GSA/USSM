@@ -18,7 +18,7 @@
 # Be sure to edit the values below
 ##########################################################################################
 
-title: Governmentwide Business Standards and Capabilities - Federal Integrated Business Framework
+title: Federal Shared Services
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Business standards enable the Federal Government to better coordinate and document common business needs.
@@ -346,6 +346,44 @@ page_gen:
     name: "page_name"
     title: "title"
     index_files: true
+  - data: "grants.Business_Lifecycle"
+    template: "json-gen-layout"
+    dir: "business-standards-api1/grm/business-lifecycle/"
+    index_files: true # true
+    name_expr: "record['type']"
+    title: "record['type']"
+  - data: "acq.Business_Lifecycle"
+    template: "json-gen-layout"
+    dir: "business-standards-api1/acq/business-lifecycle/"
+    index_files: true # true
+    name_expr: "record['type']"
+    title: "record['type']"
+  - data: "erm.Business_Lifecycle"
+    template: "json-gen-layout"
+    dir: "business-standards-api1/erm/business-lifecycle/"
+    index_files: true # true
+    name_expr: "record['type']"
+    title: "record['type']"
+  - data: "fm.Business_Lifecycle"
+    template: "json-gen-layout"
+    dir: "business-standards-api1/fm/business-lifecycle/"
+    index_files: true # true
+    name_expr: "record['type']"
+    title: "record['type']"
+  - data: "rpm.Business_Lifecycle"
+    template: "json-gen-layout"
+    dir: "business-standards-api1/rpm/business-lifecycle/"
+    index_files: true # true
+    name_expr: "record['type']"
+    title: "record['type']"
+  - data: "trt.Business_Lifecycle"
+    template: "json-gen-layout"
+    dir: "business-standards-api1/trt/business-lifecycle/"
+    index_files: true # true
+    name_expr: "record['type']"
+    title: "record['type']"
+
+
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
