@@ -209,8 +209,8 @@ $('#cyb-cvd-capabilities').on( 'order.dt', function () {
 } );
 
 $('.marketplace-validation').on('click', function() {
-    $( ".usa-accordion__button[aria-controls='a-1']" ).attr("aria-expanded", "true");
-    $('#a-1').removeAttr("hidden");
+    $( ".usa-accordion__button[aria-controls='a-2']" ).attr("aria-expanded", "true");
+    $('#a-2').removeAttr("hidden");
 })
 
 // Get the modal
