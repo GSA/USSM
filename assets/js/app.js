@@ -215,16 +215,26 @@ var modal = document.getElementById('myModal');
 var img1 = document.getElementById('myImg');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
-img1.click = function () {
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
+if(img1){
+    img1.click = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
 }
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
+// // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
     modal.style.display = "none";
 }
+
+// Get the button that shows the share links
+// var shareButton = document.getElementById("btnShare");
+
+// // When the user clicks on the button, show the FB, Twitter etc link
+$("#btnShare").click(function(){
+    $('#shareLinkUl').show();
+    $(this).hide();
+});
