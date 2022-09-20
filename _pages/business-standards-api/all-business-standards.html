@@ -18,9 +18,9 @@ permalink: /business-standards-api/
 "Business-Standards": "HR",
 "Sub-section":"Compensation and Benefits",
 "Business Lifecycle": [{% raw %}{{% endraw %}
-{% for post in site.hr %}
-"{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
-{% endfor %}
+{% for post in site.data.hr_benefits.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},
+{% endunless %}{% endfor %}
 {% raw %}}{% endraw %}],
 "Business Capabilities": [{% include business-standards-api/hr/benefits/hr-capabilities.html %}],
 "Business Use Cases": {% include business-standards-api/hr/benefits/hr-use-cases.html %},
@@ -29,7 +29,14 @@ permalink: /business-standards-api/
 },
 {
 "Business-Standards": "HR",
-"Sub-section":"Talent Acquisition",
+"Sub-section":"Talent Acquisition":[{% raw %}{{% endraw %}
+{% for post in site.data.hr_acquisition.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% endfor %} ,
+{% for post in site.data.hr_benefits.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},
+{% endunless %}{% endfor %}
+{% raw %}}{% endraw %}],
 "Business Lifecycle": {% include business-standards-api/hr/benefits/hr-use-cases.html %},
 "Business Capabilities": {% include business-standards-api/hr/benefits/hr-use-cases.html %},
 "Business Use Cases": {% include business-standards-api/hr/benefits/hr-use-cases.html %},
@@ -105,8 +112,8 @@ permalink: /business-standards-api/
 "Business-Standards": "Cybersecurity Standards",
 "Sub-section":"Coordinated Vulnerability Disclosure",
 "Business Lifecycle": {% raw %}[{{% endraw %}
-{% for post in site.cyb-cvd %}
-"{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% for post in site.data.cvd.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% raw %}}],{% endraw %}
 "Business Capabilities": [{% include business-standards-api/cyb/cvd/cvd-capabilities.html %}],
@@ -118,8 +125,8 @@ permalink: /business-standards-api/
 "Business-Standards": "Cybersecurity Standards",
 "Sub-section":"Security Operations Center",
 "Business Lifecycle": {% raw %}[{{% endraw %}
-{% for post in site.cyb-soc %}
-"{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% for post in site.data.soc.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% raw %}}],{% endraw %}
 "Business Capabilities": [{% include business-standards-api/cyb/soc/soc-capabilities.html %}],

@@ -26,6 +26,19 @@
     {% assign bs = site.data.trt.Business_Lifecycle | where: 'type', page.title | first %}
 {% endif %}
 
+{% if page.url contains "cyb/cvd/" %} 
+    {% assign bs = site.data.cvd.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+{% if page.url contains "cyb/soc/" %} 
+    {% assign bs = site.data.soc.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+{% if page.url contains "hr" %} 
+    {% assign bs = site.data.hr_benefits.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+
 
 
 {{bs["data"] | replace: "=>", ":" }}
