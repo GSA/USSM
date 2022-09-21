@@ -38,6 +38,10 @@
     {% assign bs = site.data.hr_benefits.Business_Lifecycle | where: 'type', page.title | first %}
 {% endif %}
 
+{% if page.url contains "its" %} 
+    {% assign bs = site.data.its.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
 
 
 
