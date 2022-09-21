@@ -15,7 +15,7 @@ jQuery(document).ready(function () {
       */
      const hostname = window.location.hostname;
      if(hostname.includes("federalist")) {
-       prefixUrl = "../../"; // because this url is used in the pathname:/marketplace/grm/ going to path back will send us to /
+       prefixUrl = "../"; // because this url is used in the pathname:/marketplace/grm/ going to path back will send us to /
      }
 
     let pages = [
