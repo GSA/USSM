@@ -143,7 +143,7 @@
           ]
        }
     ],
-    "Business-Capabilities":[
+    "Business_Capabilities":[
        {
           "Capability ID":"ACQ.010.010.011",
           "Function Name":"ACQ.010 Business Analysis & Acquisition Strategy",
