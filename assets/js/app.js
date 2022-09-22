@@ -2,6 +2,7 @@
 // Add your custom javascript here
 
 jQuery(document).ready(function () {
+    console.log("document");
 
     /**
      * @type string
@@ -109,18 +110,17 @@ jQuery(document).ready(function () {
 function imageChecker(url){
     var img= '';
     if (url.includes(".doc")){
-        img= '<img src="../../img/file-word.svg" class="margin-right-05" width="16" valign="middle" alt="word">';
+        img= '<img src="../img/file-word.svg" class="margin-right-05" width="16" valign="middle" alt="word">';
     }
     else if ((url.includes(".xls"))){
-        img= '<img src="../../assets/images/icon.xls.png" class="margin-right-05" width="16" valign="middle" alt="Excel">';
+        img= '<img src="../assets/images/icon.xls.png" class="margin-right-05" width="16" valign="middle" alt="Excel">';
     }
     else if ((url.includes(".pdf"))){
-        img= '<img src="../../assets/images/icon.pdf.png" class="margin-right-05" width="16" valign="middle" alt="PDF">';
+        img= '<img src="../assets/images/icon.pdf.png" class="margin-right-05" width="16" valign="middle" alt="PDF">';
     }
     return img
 }
     jQuery.each(pages, function (index, page) {
-
         let table = jQuery("#" + page.table);
         let accordian = jQuery('#' + page.accordian);
         let UseCasesList = jQuery('#' + page.UseCasesList);
