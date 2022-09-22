@@ -1127,10 +1127,10 @@
     ],
     "Business_Use_Cases":"coming soon",
     "Standard_Data_Elements":{
-        "Standard Data Elements":"/assets/files/downloads/hr/benefits/Standard Data Elements.xlsx"
+        "Standard Data Elements":"assets/files/downloads/hr/benefits/Standard Data Elements.xlsx"
     },
     "Service_Measures":{
-        "Service Measures":"/assets/files/downloads/hr/acquisition/PerformanceMetrics.xlsx"
+        "Service Measures":"assets/files/downloads/hr/acquisition/PerformanceMetrics.xlsx"
     }
 
 }

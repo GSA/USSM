@@ -1018,9 +1018,9 @@
        }
     ],
     "Business_Use_Cases":{
-       "Acquisition Planning and Solicitation":"/assets/files/cw/Acquisition_Planning_and_Solicitation.pdf",
-       "Acquisition Award":"/assets/files/cw/Acquisition_Award.pdf",
-       "Acquisition Post-Award":"/assets/files/cw/Acquisition_Post_Award.pdf"
+       "Acquisition Planning and Solicitation":"assets/files/cw/Acquisition_Planning_and_Solicitation.pdf",
+       "Acquisition Award":"assets/files/cw/Acquisition_Award.pdf",
+       "Acquisition Post-Award":"assets/files/cw/Acquisition_Post_Award.pdf"
     },
     "Standard_Data_Elements":[
        "coming soon"
