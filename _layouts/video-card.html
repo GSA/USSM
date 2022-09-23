@@ -43,11 +43,6 @@ fjs.parentNode.insertBefore(js, fjs);
       ajs.parentNode.insertBefore(js,ajs);}
   }(document, "script", "tumblr-js");
 </script>
-<!-- Your share button code -->
-<!-- <div class="fb-share-button" 
-data-href="http://0.0.0.0:4000/video-center/qsmos-and-the-trail-to-mission-success/" 
-data-layout="button">
-</div> -->
 
 <div class="usa-layout-docs usa-section">
   <div class="grid-container">
@@ -66,34 +61,34 @@ data-layout="button">
                   <a  class="text-black ogp-card__link--unset" href="{{ site.baseurl }}{{single_video.directory}}{{single_video.page_name}}">
                       <b>{{single_video.title}} </b>
                   </a>
-                  <button type="button" class="usa-button usa-button--outline" style="float:right;outline: none;" id="btnShare">Share</button>
+                  <button type="button" class="usa-button usa-button--outline" style="float:right;" id="btnShare">Share</button>
                   <ul class="usa-button-group usa-button-group--segmented" style="float:right;display: none;" id="shareLinkUl">
                     <li class="usa-button-group__item">
-                      <a type="button" class="usa-button" title="Share on Facebook" 
+                      <button type="button" class="usa-button" title="Share on Facebook" 
                           target="popup" 
-                          onclick="window.open('https:\/\/facebook.com/sharer/sharer.php?kid_directed_site=0&amp;sdk=joey&amp;u={{page.url | absolute_url}}&amp;display=popup&amp;ref=plugin&amp;src=share_button','popup','width=600,height=600');return false;"
+                          onclick="window.open('https:\/\/facebook.com/sharer/sharer.php?kid_directed_site=0&amp;sdk=joey&amp;u={{ site.baseurl }}{{single_video.directory}}{{single_video.page_name}}&amp;display=popup&amp;ref=plugin&amp;src=share_button','popup','width=600,height=600');return false;"
                           id="u_0_1_Th">
                         <i class="fab fa-facebook-f"></i>
-                      </a>
+                      </button>
                     </li>
                     <li class="usa-button-group__item">
-                        <a type="button" class="usa-button" title="Share on Twitter" 
+                        <button type="button" class="usa-button" title="Share on Twitter" 
                           target="popup"
-                          onclick="window.open('https:\/\/twitter.com/intent/tweet?original_referer={{page.baseurl}}&amp;ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&amp;url={{page.url | absolute_url}}','popup','width=600,height=600');return false;"
+                          onclick="window.open('https:\/\/twitter.com/intent/tweet?original_referer={{ site.baseurl }}&amp;ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&amp;url={{ site.baseurl }}{{single_video.directory}}{{single_video.page_name}}','popup','width=600,height=600');return false;"
                           id="b">
                           <i class="fab fa-twitter"></i>
-                        </a>
+                        </button>
                     </li>
                     <li class="usa-button-group__item">
-                      <a type="button" class="usa-button" title="Share on Tumblr" 
+                      <button type="button" class="usa-button" title="Share on Tumblr" 
                         target="popup"
-                        onclick="window.open('https:\/\/www.tumblr.com/widgets/share/tool?canonicalUrl={{page.url | absolute_url}}&amp;title={{single_video.title}}','popup','width=600,height=600');return false;">
+                        onclick="window.open('https:\/\/www.tumblr.com/widgets/share/tool?canonicalUrl={{ site.baseurl }}{{single_video.directory}}{{single_video.page_name}}&amp;title={{single_video.title}}','popup','width=600,height=600');return false;">
                         <i class="fab fa-tumblr"></i>
-                      </a>
+                      </button>
                     </li>
                     <li class="usa-button-group__item">
-                      <a type="button" class="usa-button" title="Share by Email" style="outline: none;"
-                        href="mailto:?subject=Check out this Shared Services video&amp;body= I found a nice video on Shared Services that I'd like you to know about. You can watch it here : {{page.url | absolute_url}}">
+                      <a type="button" class="usa-button" title="Share by Email" 
+                        href="mailto:?subject=Check out this Shared Services video&amp;body=I found a nice video on Shared Services that I'd like you to know about. You can watch it here : {{ site.baseurl }}{{single_video.directory}}{{single_video.page_name}}">
                         <i class="far fa-envelope"></i>
                       </a>
                     </li>

@@ -232,10 +232,9 @@ if(span){
     }
 }
 
-// Get the button that shows the share links
-// var shareButton = document.getElementById("btnShare");
 
-// // When the user clicks on the button, show the FB, Twitter etc link
+
+// When the user clicks on the Share button, show the FB, Twitter, Tumblr etc link
 $("#btnShare").click(function(){
     $('#shareLinkUl').show();
     $(this).hide();
