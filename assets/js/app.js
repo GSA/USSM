@@ -176,7 +176,8 @@ function imageChecker(url){
                         else if (outerKey === "Business Use Cases" && UseCasesList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
                                 let image = imageChecker(value1);
-                                let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
+                                console.log(value1); 
+                                let li = '<li><a href="../'+value1+'">' + image + key1 + '</a></li>';
                                 jQuery("#" + page.UseCasesList ).append(li);
                             });
                         }
