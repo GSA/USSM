@@ -208,6 +208,11 @@ $('#cyb-cvd-capabilities').on( 'order.dt', function () {
     jQuery('#cyb-cvd-capabilities > tbody >tr:first').remove();
 } );
 
+$('.marketplace-validation').on('click', function() {
+    $( ".usa-accordion__button[aria-controls='a-2']" ).attr("aria-expanded", "true");
+    $('#a-2').removeAttr("hidden");
+})
+
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -228,3 +233,5 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function () {
     modal.style.display = "none";
 }
+
+
