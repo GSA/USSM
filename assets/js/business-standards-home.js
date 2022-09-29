@@ -14,3 +14,17 @@ jQuery(document).ready(function ($) {
     jQuery(".hr-management-services").slideToggle();
   });
 });
+
+jQuery(document).ready(function ($) {
+    jQuery('#cybersecurity-services-main').click(function (e) {
+        e.preventDefault();
+        if ($('.cybersecurity-services').css('display') == 'none') {
+            $('#cybersecurity-services-main').html("<i class=\"fas fa-minus-circle\"></i>");
+            $('#cybersecurity-services-main').attr("aria-label", "Show Less expanded");
+        } else {
+            $('#cybersecurity-services-main').html("<i class=\"fas fa-plus-circle\"></i>");
+            $('#cybersecurity-services-main').attr("aria-label", "Show More collapsed");
+        }
+        jQuery(".cybersecurity-services").slideToggle();
+    });
+});
