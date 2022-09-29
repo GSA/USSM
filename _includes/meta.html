@@ -89,6 +89,9 @@ site, this is the place to do it.
   <meta name='twitter:title' content="M3 Playbook | Introduction to Modernization and Migration Management" />
   <meta name='twitter:image' content='https://ussm.gsa.gov/assets/images/m3/m3-wider-social-media-image.png' />
   <meta name='twitter:description' content='Transitions are difficult but you can be successful with sufficient planning and follow-through' />
+  {% elsif page.url contains "/video-center/" %}
+  <meta name="twitter:title" content="{{title}}">
+  <meta name="twitter:description" content="{{description}}" />
   {% else %}
   <meta name="twitter:title" content="{{site.title}}" />
   <!-- <meta name="twitter:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png"> -->
