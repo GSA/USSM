@@ -1,5 +1,2 @@
-{
-    "Acquisition Planning and Solicitation": "{{site.baseurl}}/assets/files/cw/Acquisition_Planning_and_Solicitation.pdf",
-    "Acquisition Award": "{{site.baseurl}}/assets/files/cw/Acquisition_Award.pdf",
-    "Acquisition Post-Award": "{{site.baseurl}}/assets/files/cw/Acquisition_Post_Award.pdf"
-}
+
+{{ site.data.acq.Business_Use_Cases | remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}
