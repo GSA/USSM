@@ -3,16 +3,7 @@
 }
 
 #hr-management-services-main {
-  background-color: white;
-  border: 2px solid #0071bc;
-  border-radius: 5px;
-  padding: 5px 10px;
-  color: #0071bc;
-  margin-top: 10px;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  min-width: 130px;
+  margin-left: 10px;
 }
 
 .hrms-arrow {
@@ -43,4 +34,12 @@
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   margin-bottom: 3px;
+}
+
+.cybersecurity-services {
+    display: none;
+}
+
+#cybersecurity-services-main {
+    margin-left: 10px;
 }
