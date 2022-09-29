@@ -1,7 +1,1 @@
-{
-"Overview of Use Cases for Electronic Records Management": "https://ussm.gsa.gov/assets/files/ERM/NARA%20ERM%20Overview%20of%20Use%20Cases%20for%20Electronic%20Records%20March%202021.pdf",
-"ERM.010 Use Case for Electronic Records Capture": "https://ussm.gsa.gov/assets/files/ERM/NARA%20FERMI%20Use%20Cases%20for%20Capture%20March%202021.pdf",
-"ERM.020 Use Case for Electronic Records Maintenance and Use": "https://ussm.gsa.gov/assets/files/ERM/NARA%20FERMI%20Use%20Cases%20for%20Maintenance%20and%20Use%20March%202021.pdf",
-"ERM.030 Use Case for Electronic Records Disposal": "https://ussm.gsa.gov/assets/files/ERM/NARA%20FERMI%20Use%20Cases%20for%20Disposal%20March%202021.pdf",
-"ERM.040 Use Case for Electronic Records Transfer": "https://ussm.gsa.gov/assets/files/ERM/NARA%20FERMI%20Use%20Cases%20for%20Transfer%20March%202021.pdf"
-}
+{{ site.data.erm.Business_Use_Cases | remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}

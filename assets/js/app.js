@@ -2,13 +2,11 @@
 // Add your custom javascript here
 
 jQuery(document).ready(function () {
-    console.log("document");
-
     /**
      * @type string
      * @description to store the url prefix based on the environment url.cloudfront federalist url come with additional pathname. Using / as a prefix will removed these extra pathname and the url will be wrong
      */
-     let prefixUrl = "/";
+     let prefixUrl = "";
 
      /**
       * @type string
@@ -16,38 +14,38 @@ jQuery(document).ready(function () {
       */
      const hostname = window.location.hostname;
      if(hostname.includes("federalist")) {
-       prefixUrl = "../"; // because this url is used in the pathname:/marketplace/grm/ going to path back will send us to /
+       prefixUrl = ".."; // because this url is used in the pathname:/marketplace/grm/ going to path back will send us to /
      }
 
     let pages = [
         {
             accordian: 'cyb-cvd-lifecycle',
             table: 'cyb-cvd-capabilities',
-            url: prefixUrl.concat('business-standards-api/cyb/cvd'),
+            url: prefixUrl.concat('/business-standards-api/cyb/cvd'),
             hasSubsection: false
         },
         {
             table: 'cyb-soc-capabilities',
-            url:  prefixUrl.concat('business-standards-api/cyb/soc'),
+            url:  prefixUrl.concat('/business-standards-api/cyb/soc'),
             hasSubsection: false
         },
         {
             accordian: 'cyb-soc-lifecycle',
-            url:  prefixUrl.concat('business-standards-api/cyb/'),
+            url:  prefixUrl.concat('/business-standards-api/cyb/'),
             hasSubsection: true
         },
         {
             accordian: 'hr-benefits-lifecycle',
             table: 'hr-benefits-capabilities',
             ElementsList: 'hr-benefit-data-elements',
-            url:  prefixUrl.concat('business-standards-api/hr'),
+            url:  prefixUrl.concat('/business-standards-api/hr'),
             hasSubsection: true
         },
         {
             accordian: 'hr-acquisition-lifecycle',
             table: 'hr-acquisition-capabilities',
             PerformanceMetricsList: 'hr-acquisition-performance-metrics',
-            url:  prefixUrl.concat('business-standards-api/hr/acquisition/'),
+            url:  prefixUrl.concat('/business-standards-api/hr/acquisition/'),
             hasSubsection: true
         },
         {
@@ -55,7 +53,7 @@ jQuery(document).ready(function () {
             table: 'fm-capabilities',
             ElementsList: 'fm-data-elements',
             UseCasesList: 'fm-use-cases',
-            url:  prefixUrl.concat('business-standards-api/fm'),
+            url:  prefixUrl.concat('/business-standards-api/fm'),
             hasSubsection: false
         },
         {
@@ -63,7 +61,7 @@ jQuery(document).ready(function () {
             table: 'erm-capabilities',
             UseCasesList: 'erm-use-cases',
             ElementsList: 'erm-data-elements',
-            url:  prefixUrl.concat('business-standards-api/erm'),
+            url:  prefixUrl.concat('/business-standards-api/erm'),
             hasSubsection: false
         },
         {
@@ -71,7 +69,7 @@ jQuery(document).ready(function () {
             table: 'grants-capabilities',
             UseCasesList: 'grants-use-cases',
             ElementsList: 'grants-data-elements',
-            url:  prefixUrl.concat('business-standards-api/grants'),
+            url:  prefixUrl.concat('/business-standards-api/grants'),
             hasSubsection: false
         },       
         {
@@ -79,13 +77,13 @@ jQuery(document).ready(function () {
             table: 'travel-capabilities',
             UseCasesList: 'travel-use-cases',
             ElementsList: 'travel-data-elements',
-            url:  prefixUrl.concat('business-standards-api/travel'),
+            url:  prefixUrl.concat('/business-standards-api/travel'),
             hasSubsection: false
         },
         {
             accordian: 'acq-lifecycle',
             table: 'acq-capabilities',
-            url:  prefixUrl.concat('business-standards-api/acq'),
+            url:  prefixUrl.concat('/business-standards-api/acq'),
             hasSubsection: false,
             UseCasesList: 'acq-use-cases'
         },
@@ -93,17 +91,17 @@ jQuery(document).ready(function () {
             accordian: 'rpm-lifecycle',
             table: 'rpm-capabilities',
             UseCasesList: 'rpm-use-cases',
-            url:  prefixUrl.concat('business-standards-api/rpm'),
+            url:  prefixUrl.concat('/business-standards-api/rpm'),
             hasSubsection: false
         },
         {
             accordian: 'its-lifecycle',
-            url:  prefixUrl.concat('business-standards-api/its'),
+            url:  prefixUrl.concat('/business-standards-api/its'),
             hasSubsection: false
         },
         {
             accordian: 'eeo-lifecycle',
-            url:  prefixUrl.concat('business-standards-api/eeo'),
+            url:  prefixUrl.concat('/business-standards-api/eeo'),
             hasSubsection: false
         }
     ];
@@ -175,22 +173,28 @@ function imageChecker(url){
                         }
                         else if (outerKey === "Business Use Cases" && UseCasesList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
+                                // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
+                                prefixUrl = value1.includes("https")?"":prefixUrl; 
                                 let image = imageChecker(value1);
-                                let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
+                                let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
                                 jQuery("#" + page.UseCasesList ).append(li);
                             });
                         }
                         else if (outerKey === "Standard Data Elements" && ElementsList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
+                                // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
+                                prefixUrl = value1.includes("https")?"":prefixUrl; 
                                 let image = imageChecker(value1);
-                                let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
+                                let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
                                 jQuery("#" + page.ElementsList ).append(li);
                             });
                         }
                         else if (outerKey==="Service Measures" && PerformanceMetricsList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
+                                // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
+                                prefixUrl = value1.includes("https")?"":prefixUrl; 
                                 let image = imageChecker(value1);
-                                let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
+                                let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
                                 jQuery("#" + page.PerformanceMetricsList ).append(li);
                             });
                         }

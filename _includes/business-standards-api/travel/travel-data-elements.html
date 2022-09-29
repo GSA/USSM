@@ -1,3 +1,2 @@
-{
-"TravelandExpense FIBF Standard Data Elements": "https://ussm.gsa.gov/assets/files/travel/TravelandExpense_FIBF_Standard_Data_Elements_11242020V1.4.xlsm"
-}
+
+{{ site.data.trt.Standard_Data_Elements | remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}
