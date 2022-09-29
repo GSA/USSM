@@ -6,10 +6,10 @@ jQuery(document).ready(function ($) {
     e.preventDefault();
     if ($('.hr-management-services').css('display') == 'none') {
         $('#hr-management-services-main').html("<i class=\"fas fa-minus-circle\"></i>");
-      $('#hr-management-services-main').attr("aria-label", "Show Less expanded");
+        $('#hr-management-services-main').attr("aria-label", "HR Management Services expanded");
     } else {
         $('#hr-management-services-main').html("<i class=\"fas fa-plus-circle\"></i>");
-      $('#hr-management-services-main').attr("aria-label", "Show More collapsed");
+        $('#hr-management-services-main').attr("aria-label", "HR Management Services collapsed");
     }
     jQuery(".hr-management-services").slideToggle();
   });
@@ -20,10 +20,10 @@ jQuery(document).ready(function ($) {
         e.preventDefault();
         if ($('.cybersecurity-services').css('display') == 'none') {
             $('#cybersecurity-services-main').html("<i class=\"fas fa-minus-circle\"></i>");
-            $('#cybersecurity-services-main').attr("aria-label", "Show Less expanded");
+            $('#cybersecurity-services-main').attr("aria-label", "Cybersecurity Services expanded");
         } else {
             $('#cybersecurity-services-main').html("<i class=\"fas fa-plus-circle\"></i>");
-            $('#cybersecurity-services-main').attr("aria-label", "Show More collapsed");
+            $('#cybersecurity-services-main').attr("aria-label", "Cybersecurity Services collapsed");
         }
         jQuery(".cybersecurity-services").slideToggle();
     });
