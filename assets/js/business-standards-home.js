@@ -20,10 +20,10 @@ jQuery(document).ready(function ($) {
         e.preventDefault();
         if ($('.cybersecurity-services').css('display') == 'none') {
             $('#cybersecurity-services-main').html("<i class=\"fas fa-minus-circle\"></i>");
-            $('#cybersecurity-services-main').attr("aria-label", "Cybersecurity expanded");
+            $('#cybersecurity-services-main').attr("aria-label", "Cybersecurity Services expanded");
         } else {
             $('#cybersecurity-services-main').html("<i class=\"fas fa-plus-circle\"></i>");
-            $('#cybersecurity-services-main').attr("aria-label", "Cybersecurity collapsed");
+            $('#cybersecurity-services-main').attr("aria-label", "Cybersecurity Services collapsed");
         }
         jQuery(".cybersecurity-services").slideToggle();
     });
