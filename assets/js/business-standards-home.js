@@ -6,10 +6,10 @@ jQuery(document).ready(function ($) {
     e.preventDefault();
     if ($('.hr-management-services').css('display') == 'none') {
         $('#hr-management-services-main').html("<i class=\"fas fa-minus-circle\"></i>");
-        $('#hr-management-services-main').attr("aria-label", "HR Management Services expanded");
+        $('#hr-management-services-main').attr("aria-label", "Human Resources expanded");
     } else {
         $('#hr-management-services-main').html("<i class=\"fas fa-plus-circle\"></i>");
-        $('#hr-management-services-main').attr("aria-label", "HR Management Services collapsed");
+        $('#hr-management-services-main').attr("aria-label", "Human Resources collapsed");
     }
     jQuery(".hr-management-services").slideToggle();
   });
