@@ -76,6 +76,13 @@ site, this is the place to do it.
   <meta property='og:description' content='Introduction to Modernization and Migration Management'/>
   <meta property='og:url' content='https://ussm.gsa.gov/m3/'/>
   {% endif %}
+
+  {% if page.url contains "video-center" %}
+  <meta property='og:title' content='Video Series : Learn About Shared Services'/>
+  <meta property='og:image' content='../assets/images/video-card/video-center-icons-large.png' />
+  <meta property='og:description' content='Learn about the  work underway in Shared Services to improve service delivery and customer experience in Federal agencies.'/>
+  <meta property='og:url' content='https://ussm.gsa.gov/video-center/'/>
+  {% endif %}
   
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
