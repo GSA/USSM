@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
   let descriptions = {};
-  
+
   $.get({
     url: '/business-standards-api/grants/business-lifecycle/',
     success: function (data) {
@@ -17,4 +17,4 @@ $(document).ready(function () {
   });
 });
 
-}(jQuery);
+})(jQuery);
