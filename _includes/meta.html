@@ -34,7 +34,7 @@ site, this is the place to do it.
   {% assign ogimage = "https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png" %}
 {% endif %}
 
-{% if page.url contains "video-center" %}
+{% if page.url contains "video-center" and page.layout contains "base" %}
   {% assign description = "Learn about the  work underway in Shared Services to improve service delivery and customer experience in Federal agencies." %}
   {% assign ogimage = "https://federalist-4be496a3-cca3-4187-b4d4-c3d573ae3139.app.cloud.gov/preview/gsa/ussm/feature/ECASOGP-6883/assets/images/video-card/video-center-icons-large.png" %}
 {% endif %}
@@ -103,10 +103,6 @@ site, this is the place to do it.
   <meta name='twitter:title' content="Video Series : Learn About Shared Services" />
   <meta name='twitter:image' content='https://federalist-4be496a3-cca3-4187-b4d4-c3d573ae3139.app.cloud.gov/preview/gsa/ussm/feature/ECASOGP-6883/assets/images/video-card/video-center-icons-large.png' />
   <meta name='twitter:description' content='Learn about the  work underway in Shared Services to improve service delivery and customer experience in Federal agencies.' />
-  {% elsif page.url contains "video-center/" and page.layout contains "default" %}
-  <meta name='twitter:title' content='{{title | slice:0, 59}}' />
-  <meta name='twitter:image' content='https://federalist-4be496a3-cca3-4187-b4d4-c3d573ae3139.app.cloud.gov/preview/gsa/ussm/feature/ECASOGP-6883/assets/images/video-card/video-center-icons-large.png' />
-  <meta name='twitter:description' content='{{description}}' />
   {% else %}
   {% if ogimage %}
   <meta property="og:image" content="{{ogimage}}">
