@@ -236,6 +236,6 @@ if(span){
 
 // When the user clicks on the Share button, show the FB, Twitter, Tumblr etc link
 $("#btnShare").click(function(){
-    $('#shareLinkUl').show();
+    $('#shareLinkUl').css('display','flex');
     $(this).hide();
 });
