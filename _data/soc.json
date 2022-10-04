@@ -1,0 +1,2646 @@
+{
+    "Business-Standards":"Cybersecurity Standards",
+    "Sub-section":"Security Operations Center",
+    "Business_Lifecycle":[
+        {
+            "type":"cyb-010",
+            "data":[
+            {
+                "Identifier":"CYB.010.010",
+                "Activity":"Mission Systems Identification",
+                "Description":"Clearly and quickly identify High Value Assets (HVA), Mission Critical and/or Mission essential system components in security monitoring systems to include IP addresses, host name, and functional owner."
+            },
+            {
+                "Identifier":"CYB.010.020",
+                "Activity":"Asset Inventory",
+                "Description":"Define all (including SOC) systems and data within the organization."
+            }
+            ]
+    },
+    {
+            "type":"cyb-020",
+            "data":[
+            {
+                "Identifier":"CYB.020.010",
+                "Activity":"Risk Assessment",
+                "Description":"Conduct periodical risk assessments (RA) of organization's systems, and report on the results, in order to improve the security posture of the organization."
+            },
+            {
+                "Identifier":"CYB.020.020",
+                "Activity":"Insider Threat",
+                "Description":"Provide awareness & training; analysis, and assessment capabilities to the organization's insider threat program in order to counter insider threats."
+            },
+            {
+                "Identifier":"CYB.020.030",
+                "Activity":"Cyber Threat Intelligence",
+                "Description":"Cyber Threat intelligence is aggregated, transformed, analyzed, interpreted, or enriched to provide the actionable information for decision-making processes."
+            }
+            ]
+    },
+    {
+            "type":"cyb-030",
+            "data":[
+            {
+                "Identifier":"CYB.030.010",
+                "Activity":"Coordination",
+                "Description":"Activities are coordinated with internal and external parties (e.g. coordinating centers, Internet Service Providers, owners of attacking systems, victims, other CSIRTs, and vendors)."
+            },
+            {
+                "Identifier":"CYB.030.020",
+                "Activity":"Communications",
+                "Description":"Communicate activities across the organization in order to quickly disseminate the right information to the right people at the right time."
+            },
+            {
+                "Identifier":"CYB.030.030",
+                "Activity":"Continuous Improvement",
+                "Description":"Planning and processes are improved by incorporating lessons learned into future activities."
+            },
+            {
+                "Identifier":"CYB.030.040",
+                "Activity":"Response Planning",
+                "Description":"Response processes and procedures are maintained, to ensure response to detected cybersecurity incidents."
+            },
+            {
+                "Identifier":"CYB.030.050",
+                "Activity":"Information Sharing",
+                "Description":"Maintain relations between organizational and federal experts in order to share relevant and needed information."
+            },
+            {
+                "Identifier":"CYB.030.060",
+                "Activity":"Monitoring and Response Prioritization",
+                "Description":"Prioritize mission systems and data in security monitoring and incident response systems."
+            },
+            {
+                "Identifier":"CYB.030.070",
+                "Activity":"Supply Chain Risk Management",
+                "Description":"Consistent cyber supply chain risk management processes are identified, established, assessed, managed, and agreed to by component stakeholders."
+            }
+            ]
+    },
+    {
+            "type":"cyb-040",
+            "data":[
+            {
+                "Identifier":"CYB.040.010",
+                "Activity":"Anti-Malware",
+                "Description":"Establish agency program in order to have enterprise-wide malware prevention."
+            }
+            ]
+    },
+    {
+            "type":"cyb-050",
+            "data":[
+            {
+                "Identifier":"CYB.050.010",
+                "Activity":"Awareness",
+                "Description":"Maintain awareness of emerging technologies for SOC personnel to implement into existing tactics, techniques, and procedures."
+            }
+            ]
+    },
+    {
+            "type":"cyb-060",
+            "data":[
+            {
+                "Identifier":"CYB.060.010",
+                "Activity":"Patch Management",
+                "Description":"Implement a comprehensive patch management program in order to identify, report, and correct information system flaws."
+            },
+            {
+                "Identifier":"CYB.060.020",
+                "Activity":"Remediation / Mitigation",
+                "Description":"Correct problems identified by confirmed weaknesses or vulnerability assessment activities, in order to provide guidance to the organization on reducing any risk or exposure."
+            },
+            {
+                "Identifier":"CYB.060.030",
+                "Activity":"Coordinated Vulnerability Disclosure",
+                "Description":"Gathering information from vulnerability finders, coordinating the sharing of that information between relevant stakeholders, and disclosing the existence of software vulnerabilities and their mitigations to various stakeholders including the public in order to reduce an adversary's advantage while an information security vulnerability is being mitigated."
+            }
+            ]
+    },
+    {
+            "type":"cyb-070",
+            "data":[
+            {
+                "Identifier":"CYB.070.010",
+                "Activity":"Contingency Planning",
+                "Description":"Implement appropriate continuity measures to restore capabilities or services that were impaired due to a cybersecurity incident."
+            }
+            ]
+    },
+    {
+            "type":"cyb-080",
+            "data":[
+            {
+                "Identifier":"CYB.080.010",
+                "Activity":"Data Protection",
+                "Description":"Evaluate data protection measures for consistent implementation to protect the confidentiality, integrity, and availability (CIA) across the organization."
+            },
+            {
+                "Identifier":"CYB.080.020",
+                "Activity":"Application Security Testing",
+                "Description":"Conduct proactive vulnerability assessments on organizational applications and websites (including the SOC) and within the organization's prescibed timeframes."
+            },
+            {
+                "Identifier":"CYB.080.030",
+                "Activity":"Application Security Development",
+                "Description":"Implement and test security features within software, applications, and ISO layer 7 information to prevent unauthorized access and modification."
+            }
+            ]
+    },
+    {
+            "type":"cyb-090",
+            "data":[
+            {
+                "Identifier":"CYB.090.010",
+                "Activity":"Network, System and Data Monitoring",
+                "Description":"Continuously perform security monitoring on all networks, systems, applications and data in the organization and external environments (including cloud and websites) and other trusted sources of information owned by the organization in order to detect suspicious activity across the enterprise."
+            },
+            {
+                "Identifier":"CYB.090.020",
+                "Activity":"Penetration Testing",
+                "Description":"Conduct penetration testing of organizational networks and systems to make the organization aware of weaknesses that can be similarly identified or exploited."
+            },
+            {
+                "Identifier":"CYB.090.030",
+                "Activity":"Vulnerability Assessment",
+                "Description":"Conduct proactive vulnerability assessments on organizational networks and systems (including the SOC) and address findings in a timely manner in order to prevent or minimize damage to the organization."
+            }
+            ]
+    },
+    {
+            "type":"cyb-100",
+            "data":[
+            {
+                "Identifier":"CYB.100.010",
+                "Activity":"Incident Analysis",
+                "Description":"Analyze incidents for accurate and quick response in order to identify the scope and nature of the incident, the involved parties, the timeframe, the relationship of the incident to other activities, and available response strategies."
+            },
+            {
+                "Identifier":"CYB.100.020",
+                "Activity":"Incident Correlation",
+                "Description":"Correlate incidents for accurate and quick response in order to determine any interrelations, patterns, common intruder signatures, common targets, or exploitation of common vulnerabilities."
+            },
+            {
+                "Identifier":"CYB.100.030",
+                "Activity":"Incident Reporting",
+                "Description":"Report incidents to organizational management and coordinate with the appropriate external organizations or groups, in accordance with organizational and federal requirements, in order to broaden situational awareness."
+            },
+            {
+                "Identifier":"CYB.100.040",
+                "Activity":"Incident Handling",
+                "Description":"Establish incident response abilities and handle incidents efficiently and effectively, per the organization's incident response plan."
+            },
+            {
+                "Identifier":"CYB.100.050",
+                "Activity":"Event Archive",
+                "Description":"Store and make available all security event and incident reporting in a central and secure repository in order for data to be used as a source for any legal/law enforcement, situational awareness, incident correlation, or other incident analysis (including fusion analysis or retrospective analysis) that may be done."
+            }
+            ]
+    }
+    ],
+    "Business_Capabilities":[
+        {
+            "Capability ID":"CYB.010.010.100",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.010 - Mission Systems Identification",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Capture mission-critical, mission-essential, and/or HVA hardware, software, and data inventory (for enhanced monitoring) consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.010.010.101",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.010 - Mission Systems Identification",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Define criteria for identifying mission-critical, mission-essential, and/or HVA systems and data, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.010.010.102",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.010 - Mission Systems Identification",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Identify and document what information and level of detail is needed to enable analysts to determine whether an event or incident affects mission-critical, mission-essential, and/or HVA systems and data as consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 MP-8, SC-12, SC-28"
+        },
+        {
+            "Capability ID":"CYB.010.010.103",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.010 - Mission Systems Identification",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Prioritize events according to mission-critical, mission-essential, and/or HVA status as consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.010.010.104",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.010 - Mission Systems Identification",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Develop processes and procedures for SOC systems and data inventory consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.010.010.105",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.010 - Mission Systems Identification",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Establish incident handling and tracking system that display the criticality of affected or compromised systems and data consistent with NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.010.010.106",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.010 - Mission Systems Identification",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Ensure SOC security tool suites meet the appropriate NIST SO 800-43, Rev 4 controls for physical security of SOC systems.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.010.010.107",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.010 - Mission Systems Identification",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Ensure personnel are aware of and adhere to the documented security procedures",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.010.010.108",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.010 - Mission Systems Identification",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Label security systems and media properly",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.010.010.109",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.010 - Mission Systems Identification",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Reference all applicable security and classification guidelines are available to cybersecurity personnel, and ensure that it is consistently followed",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.010.010.110",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.010 - Mission Systems Identification",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Restrict access to sensitive cybersecurity analysis data and encrypt repository of analysis data as appropriate",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.010.020.100",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.020 - Asset Inventory",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Capture/receive organization hardware, software, and data inventory including externally-hosted and cloud assets, updating based on an organizationally-defined frequency, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 MP-8, SC-12, SC-28"
+        },
+        {
+            "Capability ID":"CYB.010.020.101",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.020 - Asset Inventory",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Conduct inventory evaluations to identify systems and data to monitor, and ensure endpoint security is applied to all assets consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 MP-8, SC-12, SC-28"
+        },
+        {
+            "Capability ID":"CYB.010.020.102",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.020 - Asset Inventory",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Verify the organization configuration management program is applicable to all assets, verifying any asset exemptions are documented and includes a justification, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 MP-8, SC-12, SC-28"
+        },
+        {
+            "Capability ID":"CYB.010.020.103",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.020 - Asset Inventory",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Establish a secure and protected database or other mechanism is used to track systems, data, information, and corresponding POCs consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 MP-8, SC-12, SC-28"
+        },
+        {
+            "Capability ID":"CYB.010.020.104",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.020 - Asset Inventory",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Maintain security configuration compliance status for assets, either collectively or maintain Security system status while the enterprise maintains the enterprise assets, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 MP-8, SC-12, SC-28"
+        },
+        {
+            "Capability ID":"CYB.010.020.105",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.020 - Asset Inventory",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Participate in the organization Change Control Board (CCB) to maintain awareness of asset, software, and network configuration changes",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 MP-8, SC-12, SC-28"
+        },
+        {
+            "Capability ID":"CYB.010.020.106",
+            "Function":"CYB.010 IDENTIFY - Asset Management",
+            "Activity Name":"CYB.010.020 - Asset Inventory",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Receive and maintain access to current hardware/software inventory, and network and host vulnerability scan analysis results, and the technical reference model established by the organization documenting approved hardware/software, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 MP-8, SC-12, SC-28"
+        },
+        {
+            "Capability ID":"CYB.020.010.100",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.010 - Risk Assessment",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Develop and maintain a secure archive of Security Risk Assessment data for use by SOC analysts consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 SA-12, SA-15; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.010.101",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.010 - Risk Assessment",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Identify, document, and follow processes and procedures for security risk assessment performance, and assist organization in determining the risk and impact to operations, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 SA-12, SA-15; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.010.102",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.010 - Risk Assessment",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Perform risk analysis of systems and networks, checking against approved hardware/software list to identify unapproved assets, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 SA-12, SA-15; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.010.103",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.010 - Risk Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Document procedures for performance of a security RA (e.g., COBIT, OCTAVE), consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 SA-12, SA-15; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.010.104",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.010 - Risk Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Document procedures for contracting with a third party to perform a security risk analysis. A list of security RA providers and the type of assessments they perform is collected, maintained, and updated if third-party providers perform security RAs for the organization, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 SA-12, SA-15; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.010.105",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.010 - Risk Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Document processes and procedures for analyzing the security RA results, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 SA-12, SA-15; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.010.106",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.010 - Risk Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Identify and document corrective actions and mitigation processes and procedures for identified risks, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 SA-12, SA-15; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.010.107",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.010 - Risk Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide Security RA results to the organization in a secure and protected manner according to organizational guidelines, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 SA-12, SA-15; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.010.108",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.010 - Risk Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide technical assistance for risk improvement to the organization and track corrective actions, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 SA-12, SA-15; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.010.109",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.010 - Risk Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Track and record assessment results in a Security RA report, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 SA-12, SA-15; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.010.110",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.010 - Risk Assessment",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Facilitate the removal of unapproved assets and flag/report identified rogue/unmanaged systems to applicable departments, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 SA-12, SA-15; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.010.111",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.010 - Risk Assessment",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Assess unauthorized/rogue hardware assets and correlate to current identified vulnerabilities, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 SA-12, SA-15; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.020.100",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Capture organization provided watch list, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.020.101",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Perform additional monitoring for watch list hosts, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.020.102",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Establish a baseline of normal behavior for both networks and employees, updating at an interval set by the organization, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.020.103",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Advance insider threat processes and utilize existing technology to reduce false positivies and false negatives, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.020.104",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Monitor and alert on deviations from normal behavior baseline, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.020.105",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Identify and document elements of the Insider Threat program that will be supported by the SOC, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.020.106",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide watch list and baseline anomaly alerts to the insider threat POCs, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.020.107",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide analyst support for insider threat POCs, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.020.108",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify personnel that will be assigned to monitor/detect anomalous activity and establish separation of duties to ensure accountability is upheld, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.020.109",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Maintain access to/request tools that will meet organization needs for monitoring employee use of IT systems and evaluate anomalous usage patterns, and assist with the deployment tools, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.020.110",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Evaluate detected events and identify suspected Insider Threat activity and ensure the organizational Incident Handling processes are followed for all Insider Threat activity, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.020.111",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Secure all data collected in support of Insider Threat detection (I) in a manner that meets compliance with Federal and organizational regulations/policy guidance (e.g., PII, HIPAA, LE/CI), consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.020.112",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.020 - Insider Threat",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Assist organization with the creation of processes/procedures to preserve user activity monitoring audit data chain of custody, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 5, Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AT-2:CA-2:CP-2:IR-4:PM-12:PM-13"
+        },
+        {
+            "Capability ID":"CYB.020.030.100",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.030 - Cyber Threat Intelligence",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Receive monitoring data/information from external/public sources and store in an established knowledge management database, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.030.101",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.030 - Cyber Threat Intelligence",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Collect tactics, techniques and procedures (TTP) from a pre-defined list of reliable sources, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.030.102",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.030 - Cyber Threat Intelligence",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Collect indicators of organization exposure/compromise from external sources, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.030.103",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.030 - Cyber Threat Intelligence",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Determine and document how the SOC will support the cyber threat intelligence program, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.030.104",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.030 - Cyber Threat Intelligence",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Develop a repository for cyber threat intelligence data and information to support cyber threat intelligence feeds, data, sources, and analysis, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4; NIST SP800-161"
+        },
+        {
+            "Capability ID":"CYB.020.030.105",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.030 - Cyber Threat Intelligence",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Establish and utilize a secure means to receive/send and communicate threat information with both the internal organization and external information sharing partners, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AU-6:IR-4:PM-13:SI-4"
+        },
+        {
+            "Capability ID":"CYB.020.030.106",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.030 - Cyber Threat Intelligence",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Receive and process notices from approved sources including Defense Intelligence Agency (DIA), NCCIC/US-CERT, NSA, non-government and counterpart cybersecurity service provider web sites, maintaining source location information, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AU-6:IR-4:PM-13:SI-4"
+        },
+        {
+            "Capability ID":"CYB.020.030.107",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.030 - Cyber Threat Intelligence",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Share intelligence notifications, analysis, reports, and potential impact information with appropriate organization departments and other external information sharing partners, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AU-6:IR-4:PM-13:SI-4"
+        },
+        {
+            "Capability ID":"CYB.020.030.108",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.030 - Cyber Threat Intelligence",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Analyze intelligence data and provide the organization with potential impacts and countermeasures and/or mitigation recommendations for appropriate changes to IDS, router, firewall rules within all internal Intelligence reports/alerts, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AU-6:IR-4:PM-13:SI-4"
+        },
+        {
+            "Capability ID":"CYB.020.030.109",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.030 - Cyber Threat Intelligence",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Analyze intelligence information and identify potential impact to their operations or mission (e.g. increased IDS alerts, logs, loss of service, File Transfer Protocol (FTP) port blocked), consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AU-6:IR-4:PM-13:SI-4"
+        },
+        {
+            "Capability ID":"CYB.020.030.110",
+            "Function":"CYB.020 IDENTIFY - Risk Management",
+            "Activity Name":"CYB.020.030 - Cyber Threat Intelligence",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Document countermeasure and/or mitigation recommendations for appropriate changes to IDS, router, firewall rules within all internal Intelligence reports/alerts",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:AU-6:IR-4:PM-13:SI-4"
+        },
+        {
+            "Capability ID":"CYB.030.010.100",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Develop criteria to outline when and what information can and cannot be shared, with other entities consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.101",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Determine and document criteria for when and how to coordinate with CISA, other Federal agencies, or other CSIRTs consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.102",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Establish MOU/MOA/SLA/NDA between the organization and the external experts to establish the rules of engagement consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.103",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify data classification standards/requirements, including data storage and handling consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.104",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Obtain a list of internal groups/external POCs for coordination of activities consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.105",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Organizational requirements and set categorization/prioritizations are available and referenced consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.106",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Coordinate response activities with necessary stakeholders and organizational business units consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.107",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Distribute policy to all stakeholders and SOC personnel so all parties have been notified on the processes and relevant mechanisms for reporting to or notifying management consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.108",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Report on the results of the communication activity testing and evaluation for making any necessary adjustments to the process and/or procedures consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.109",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Route incident related information according to the incident management communication plan consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.110",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Establish a defined process for coordinating response activities and sharing information with appropriate internal groups consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.111",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Designate a department, group, or manager in the organization as the responsible party for coordinating response activities across the enterprise consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.112",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Establish a list of document types to communicate with stakeholders and share with appropriate internal and external personnel consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.113",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Conduct regular meetings, conference calls, technical exchanges, etc. to improve communication channels with internal organizations (IT staff, HR, Legal department, Public Affairs, etc.) consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.114",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Coordinate with established responsible parties on other incident response teams and security organizations, to compare and exchange notes, analysis reports, and other information on intrusions, attacks, and suspicious activities within organizational guidelines consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.115",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Document procedures for reporting incidents to other relevant organizations, including assigned roles, responsibilities, updated POCs, information-sharing channels, requirements for evidence handling, and associated reporting requirements consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.116",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Perform periodic testing and evaluation of communications availability and methods with all identified POCs consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.117",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Identify personnel contact and work with expert POCs as needed consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.010.118",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.010 - Coordination",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Participate in workshops, conferences, working groups, and/or technical exchanges to improve communication channels with external organizations (CISA, other Federal agencies, other CSIRTs, LE, etc.) consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST SP 800-53 Rev. 4 CM-8, PM-5"
+        },
+        {
+            "Capability ID":"CYB.030.020.100",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Create and periodically update a communications plan for reporting, alerts and incidents consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.101",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Create detailed procedures for using alternate communications methods when primary means are unavailable consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.102",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Establish organizational defined criteria for when and how to share incident data and monitoring activities with other internal groups and external parties consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.103",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify communication methods and POCs for notification and use for testing and evaluation activities consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.104",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Obtain primary and secondary stakeholders and use when incident communication occurs consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.105",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Document communication strategies and disseminate to applicable stakeholders consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.106",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Establish and use alternate communication mechanisms when normal mechanisms are unavailable consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.107",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Notify appropriate personnel about current incident activity and resolution, as outlined in the incident management Communications plan consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.108",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Develop primary and secondary communication strategies and procedures consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.109",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Ensure all SOC personnel are informed and kept up to date on established procedures for incident management communications and the associated mechanisms consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.110",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Establish and follow guidance for creating various reporting templates to be used for communications consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.111",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Identify and implement alternate communication mechanisms when normal mechanisms are unavailable consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.112",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Specify the criteria on how and when to use alternate communications methods within the documented procedures consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.113",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify organizations to be included in incident communications consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.020.114",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.020 - Communications",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Sanitize information provided to other organizational business units or external contacts as appropriate consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.030.100",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.030 - Continuous Improvement",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Develop and use lessons learned, after action reports, feedback, changes in procedures, and other necessary information as guidance for updating communications guidance consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.030.101",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.030 - Continuous Improvement",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Use identified root cause/deficiencies to develop improvement plans consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.030.102",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.030 - Continuous Improvement",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Implement improvements for identified deficiencies consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.030.103",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.030 - Continuous Improvement",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Incorporate lessons learned from security assessments (patch scanning, vulnerability, risk assessment) are incorporated into security processes, training, and testing consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.030.104",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.030 - Continuous Improvement",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Perform tests to identify needed improvements for successful weakness mitigations/countermeasures consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.030.105",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.030 - Continuous Improvement",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Coordinate improvements with any broader organization-wide improvement programs for efficiency consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.030.106",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.030 - Continuous Improvement",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Evaluate measurement data per the improvement plan to identify deficiencies in the incident management function consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.030.107",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.030 - Continuous Improvement",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Receive and maintain data on the changes to organization systems and their environment of operation for situational awareness, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4)"
+        },
+        {
+            "Capability ID":"CYB.030.030.108",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.030 - Continuous Improvement",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Access and review applicable current and/or updated Security Authorization Package(s) (i.e., Security Plan, Security Assessment Reports, and POA&M) based on the findings and recommendations in security assessment reports to verify subsequent changes to the information system and its environment of operation have been documented, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4)"
+        },
+        {
+            "Capability ID":"CYB.030.030.109",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.030 - Continuous Improvement",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Assist with any necessary changes to security authorizations with system owners and Authorizing Officials if requested, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4)"
+        },
+        {
+            "Capability ID":"CYB.030.040.100",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.040 - Response Planning",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Document and distribute all predefined countermeasures or protection strategies a consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.030.040.101",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.040 - Response Planning",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify incident categories, incident priorities, correlation criteria and documented response to specific groups or individuals for establishing a triage process consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.030.040.102",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.040 - Response Planning",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify countermeasure protection strategies consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.030.040.103",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.040 - Response Planning",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Document procedures on risk/impact analysis for assessing an incident's level of risk and corresponding impact relative to the organization consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.030.040.104",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.040 - Response Planning",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Document procedures that cover event/incident triage consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 IR-4:IR-5:I-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.030.040.105",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.040 - Response Planning",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide the established procedures to all SOC personnel for proper execution consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 IR-4:IR-5:I-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.030.050.100",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.050 - Information Sharing",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify types of external experts/groups that may need to be contacted consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.050.101",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.050 - Information Sharing",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Develop guidance on when external POCs will be contacted consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.050.102",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.050 - Information Sharing",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Develop documentation that outlines what the duties for external parties are as related to the incident investigation/analysis/etc. consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.050.103",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.050 - Information Sharing",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Develop documentation that outlines when and what information these groups can and cannot share with other entities consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.050.104",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.050 - Information Sharing",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Complete MOU/MOA/SLA/NDAs or some other documentation between the organization and the external experts to establish the rules for incident management consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.050.105",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.050 - Information Sharing",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide agreement documentation and procedures for external party communications to the SOC personnel consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.050.106",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.050 - Information Sharing",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Determine the information that needs to be included for incident sharing (i.e. category/impact, timeframes to follow, mechanisms, etc.) consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.050.107",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.050 - Information Sharing",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify information sharing requirements and personnel consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.030.060.100",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.060 - Monitoring and Response Prioritization",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide guidance on categorizing and prioritizing events and incidents that cannot be categorized or prioritized using the predefined criteria consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.030.060.101",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.060 - Monitoring and Response Prioritization",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Capture anomaly and event data across multiple sources and sensors, including network and application data consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.030.060.102",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.060 - Monitoring and Response Prioritization",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Assign at least one categorization to each event consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.030.060.103",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.060 - Monitoring and Response Prioritization",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Comply with CISA guidance on categorizing and prioritizing events and incidents consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.030.060.104",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.060 - Monitoring and Response Prioritization",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Analyze enterprise data in order to classify and categorize its security status and protection needs consistent with NIST publication 800-53 and 800-60.",
+            "Authoritative Source":"NIST 800-53 Rev. 4 AR-2, AR-7, DI-1, PL-1, PL-2, PM-11, RA-2, SE-1; NIST SP800-60"
+        },
+        {
+            "Capability ID":"CYB.030.070.100",
+            "Function":"CYB.030 IDENTIFY - Governance",
+            "Activity Name":"CYB.030.070 - Supply Chain Risk Management",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Define measures to protect against suppy chain threats consistent with NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"NIST 800-53 Rev. 4 AR-2, AR-7, DI-1, PL-1, PL-2, PM-11, RA-2, SE-1; NIST SP800-60"
+        },
+        {
+            "Capability ID":"CYB.040.010.100",
+            "Function":"CYB.040 PROTECT - Protective Technology",
+            "Activity Name":"CYB.040.010 - Anti-malware",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Gather malware notifications from external sources, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.040.010.101",
+            "Function":"CYB.040 PROTECT - Protective Technology",
+            "Activity Name":"CYB.040.010 - Anti-malware",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Analyze new malware notifications to see if they are applicable to the environment, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.040.010.102",
+            "Function":"CYB.040 PROTECT - Protective Technology",
+            "Activity Name":"CYB.040.010 - Anti-malware",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Review sources of malware threat notification on a regular basis to ensure that entries are still valid, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.040.010.103",
+            "Function":"CYB.040 PROTECT - Protective Technology",
+            "Activity Name":"CYB.040.010 - Anti-malware",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Develop and implement countermeasures to eliminate or mitigate malware threats, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.040.010.104",
+            "Function":"CYB.040 PROTECT - Protective Technology",
+            "Activity Name":"CYB.040.010 - Anti-malware",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Use anti-malware software on both network entry/exit points and on asset/endpoint, according to organizational requirements, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.040.010.105",
+            "Function":"CYB.040 PROTECT - Protective Technology",
+            "Activity Name":"CYB.040.010 - Anti-malware",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Automate or manually execute malware scans for malicious activity and the presence of malware, configuring scans to provide Date/Time, Scan method (i.e., automated or manual with technician's name), Anomalies or significant issues in the results, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.040.010.106",
+            "Function":"CYB.040 PROTECT - Protective Technology",
+            "Activity Name":"CYB.040.010 - Anti-malware",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Update malware software, engines, and signatures automatically according to organizational or SLA timeframes, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.040.010.107",
+            "Function":"CYB.040 PROTECT - Protective Technology",
+            "Activity Name":"CYB.040.010 - Anti-malware",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Provide notification to business units about current and emerging malware threats, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.040.010.108",
+            "Function":"CYB.040 PROTECT - Protective Technology",
+            "Activity Name":"CYB.040.010 - Anti-malware",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Maintain a list of 24x7/after-hours POCs for malware notifications, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.040.010.109",
+            "Function":"CYB.040 PROTECT - Protective Technology",
+            "Activity Name":"CYB.040.010 - Anti-malware",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide malware detection reports, recent anti-malware Signature updates, logs, distribution of alerts and/or warnings to appropriate departments in the organization, and annotate on applicable shift logs, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.040.010.110",
+            "Function":"CYB.040 PROTECT - Protective Technology",
+            "Activity Name":"CYB.040.010 - Anti-malware",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Provide assistance as requested, to introduce malware incident prevention and handling into organization's awareness training , consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.050.010.100",
+            "Function":"CYB.050 PROTECT - Awareness and Training",
+            "Activity Name":"CYB.050.010 - Awareness",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Identify and document how information is to be reviewed, collected, synthesized, disseminated, archived, and used consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.050.010.101",
+            "Function":"CYB.050 PROTECT - Awareness and Training",
+            "Activity Name":"CYB.050.010 - Awareness",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Identify and document process to review high-risk websites such as \"black-hat\" sites consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.050.010.102",
+            "Function":"CYB.050 PROTECT - Awareness and Training",
+            "Activity Name":"CYB.050.010 - Awareness",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Develop and report, on a regular basis, synthesized information about emerging threats to the organization for inclusion in role-based awareness training consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.050.010.103",
+            "Function":"CYB.050 PROTECT - Awareness and Training",
+            "Activity Name":"CYB.050.010 - Awareness",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Store collected information in a knowledge management system, for ease of tagging, searching, and accessibility by incident management personnel consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.060.010.100",
+            "Function":"CYB.060 PROTECT - Information Protection Policy",
+            "Activity Name":"CYB.060.010 - Patch Management",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Maintain a list of systems and application that are partially patched or cannot be patched due to business, compliance, or other reasons consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.060.010.101",
+            "Function":"CYB.060 PROTECT - Information Protection Policy",
+            "Activity Name":"CYB.060.010 - Patch Management",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Maintain a list of POCs for to contact for patch notifications and alerts consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.060.010.102",
+            "Function":"CYB.060 PROTECT - Information Protection Policy",
+            "Activity Name":"CYB.060.010 - Patch Management",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Identify and document process to monitor systems that cannot be patched consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.060.010.103",
+            "Function":"CYB.060 PROTECT - Information Protection Policy",
+            "Activity Name":"CYB.060.010 - Patch Management",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Monitor patch deployments and provide technical assistance regarding patches consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.060.010.104",
+            "Function":"CYB.060 PROTECT - Information Protection Policy",
+            "Activity Name":"CYB.060.010 - Patch Management",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Scan organization for missing patches, including Operating Systems and applications consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.060.010.105",
+            "Function":"CYB.060 PROTECT - Information Protection Policy",
+            "Activity Name":"CYB.060.010 - Patch Management",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Report patch compliance to organization POCs consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4"
+        },
+        {
+            "Capability ID":"CYB.060.020.100",
+            "Function":"CYB.060 PROTECT - Information Protection Policy",
+            "Activity Name":"CYB.060.020 - Remediation / Mitigation",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify and document criteria for prioritizing vulnerabilities and/or risk based on business impact consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.060.020.101",
+            "Function":"CYB.060 PROTECT - Information Protection Policy",
+            "Activity Name":"CYB.060.020 - Remediation / Mitigation",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Verify that actions are taken to correct problems and that actions are closed consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.060.020.102",
+            "Function":"CYB.060 PROTECT - Information Protection Policy",
+            "Activity Name":"CYB.060.020 - Remediation / Mitigation",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide recommendations for mitigating risk and/or remediating security issues consistent with Title 44, Chapter 35 and NIST SP 800-43, Rev 4.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev. 4 AC-21:IR-4:PM-13:SC-42:SI-3:SI-4: SI-8"
+        },
+        {
+            "Capability ID":"CYB.070.010.100",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Document security operations emergency, contingency, and/or recovery operations and review annually updating as needed, consistent with",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.101",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify and document access to a backup accredited Special Compartmented Information Facility (SCIF) , for any applicable special enclaves (P); maintain a copy of current SCIF accreditation on file",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.102",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Verify the continuity plan accounts for necessary key personnel availability (i.e., events preventing site access), and site availability (e.g., power outages, facility damage, etc.)",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.103",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify business essential functions for security operations",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.104",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Document procedures to follow during communications failures (e.g., connectivity to data warehouses, cybersecurity resources, etc.)",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.105",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Conduct exercises against the documented Continuity/COOP plan and document the results",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.106",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Ensure system component failures (e.g., sensors, cybersecurity workstations, etc.) and capability failures (e.g., correlation tools, automated data collectors, etc.) are accounted for and documented",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.107",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Incorporate lessons learned into the Continuity/COOP plan, and share updates with organization OCIO/executive level and/or other departments as appropriate",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.108",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Use exercise results to identify process improvements within security operations capabilities, personnel, and facilities (e.g., redundancy, availability, etc.)",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.109",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Create a formal Backup Plan",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.110",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Create and maintain an updated list of security operations systems and applicable data",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.111",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Create secure backup of security operation systems and data in order to ensure business continuity",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.112",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Ensure backups are not collocated with operational systems, and are secured in a fired-rated container and/or an access-controlled room with fire and environmental safeguards",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.070.010.113",
+            "Function":"CYB.070 PROTECT - Business Continuity Management",
+            "Activity Name":"CYB.070.010 - Contingency Planning",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Label and test backups in accordance with defined organizational processes, to ensure reliability",
+            "Authoritative Source":"NIST SP800-53 Rev. 4 CP-9"
+        },
+        {
+            "Capability ID":"CYB.080.010.100",
+            "Function":"CYB.080 PROTECT - Data Security",
+            "Activity Name":"CYB.080.010 - Data Protection",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Comply with storage and handling of sensitive and classified information, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-21:AT-3:PE-6, PM-13"
+        },
+        {
+            "Capability ID":"CYB.080.010.101",
+            "Function":"CYB.080 PROTECT - Data Security",
+            "Activity Name":"CYB.080.010 - Data Protection",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Protect organization/customer data at all times (collection, transmission, storage, review, and manipulation), consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-21:AT-3:PE-6, PM-13"
+        },
+        {
+            "Capability ID":"CYB.080.010.102",
+            "Function":"CYB.080 PROTECT - Data Security",
+            "Activity Name":"CYB.080.010 - Data Protection",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Sanitize vulnerability information when it is shared with external entities to the organization, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-21:AT-3:PE-6, PM-13"
+        },
+        {
+            "Capability ID":"CYB.080.010.103",
+            "Function":"CYB.080 PROTECT - Data Security",
+            "Activity Name":"CYB.080.010 - Data Protection",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Train personnel on how to respond to breaches of protected data, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-21:AT-3:PE-6, PM-13"
+        },
+        {
+            "Capability ID":"CYB.080.010.104",
+            "Function":"CYB.080 PROTECT - Data Security",
+            "Activity Name":"CYB.080.010 - Data Protection",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Review network diagrams and assist organization to ensure perimeter-based systems (e.g., router/ firewall blocking/filtering, DMZs, DNS, etc.) are in place and configured as needed, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-21:AT-3:PE-6, PM-13"
+        },
+        {
+            "Capability ID":"CYB.080.010.105",
+            "Function":"CYB.080 PROTECT - Data Security",
+            "Activity Name":"CYB.080.010 - Data Protection",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Assist in the deployment and configuration of Intrusion sensor capabilities (e.g., network-based IDS/IPS), consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-21:AT-3:PE-6, PM-13"
+        },
+        {
+            "Capability ID":"CYB.080.010.106",
+            "Function":"CYB.080 PROTECT - Data Security",
+            "Activity Name":"CYB.080.010 - Data Protection",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Ensure there is a logical separation of management traffic from other operational traffic, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-21:AT-3:PE-6, PM-13"
+        },
+        {
+            "Capability ID":"CYB.080.010.107",
+            "Function":"CYB.080 PROTECT - Data Security",
+            "Activity Name":"CYB.080.010 - Data Protection",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Monitor availability and performance of mission essential/critical and SOC/security operations systems and capabilities (e.g., content security, platform health/status monitors, etc.), consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-21:AT-3:PE-6, PM-13"
+        },
+        {
+            "Capability ID":"CYB.080.010.108",
+            "Function":"CYB.080 PROTECT - Data Security",
+            "Activity Name":"CYB.080.010 - Data Protection",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Analyze enterprise data in order to classify and categorize its security status and protection needs consistent with NIST publication 800-53 and 800-60.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4)"
+        },
+        {
+            "Capability ID":"CYB.090.010.100",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.010 - Application Security Testing",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Perform dynamic or runtime assessment to discover application-specific vulnerabilities, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4)"
+        },
+        {
+            "Capability ID":"CYB.090.010.101",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.010 - Application Security Testing",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Perform static or source code review on custom developed (non-COTS) software, applications, and websites, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4)"
+        },
+        {
+            "Capability ID":"CYB.090.020.100",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.020 - Application Security Development",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Follow a secure development framework to ensure that new vulnerabilities are not introduced in software/applications/websites, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.100",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Identify and document criteria for characterizing anomalous events, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.101",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Perform analysis of data collected from networks, systems, and applications on a continual basis, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.102",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Maintain 24 x 7 access to sensor data from deployed network-based sensors for all security domains monitored, and monitor systems, networks and applications, at the organization, SOC and external environments, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.103",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Document allowed procedures and technology for external environments and sites (including cloud) and monitor accordingly, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.104",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Allow for integration of tools/technologies from external sites into monitoring systems, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.105",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Integrate external site notices/alerts/reports into current offerings, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.106",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Document approved monitoring processes/technology and ensure only designated SOC/security operations personnel have access to and review organization monitoring data, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.107",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify POCs, and assign roles and responsibilities for protecting and defending organizational systems, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.108",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Develop and document criteria for characterizing anomalous events, including suspicious ports, protocols, and services (both network based and host based), consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.109",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Review network, host, and application logs and data on a continual basis to detect possible intruders, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.110",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Develop and implement a variety of monitoring methodologies including behavior-based, signature-based, etc., consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.111",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Disseminate analysis results of monitoring activities to other organizational business units (including other service providers) as specified by organizational policy or guidance, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.112",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Support continuous monitoring of organizational assets by maintaining access to enterprise assets, SOC security systems, HVA/Mission essential/critical assets, architecture diagrams that shows the placement of sensors (e.g., IDS/IPS, Routers, NetFlow/PCAP systems, firewalls, etc.) and include IP address, domain, system criticality, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.113",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Correlate asset information with supporting threat and vulnerability data, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.114",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Analyze asset and threat data to present overall security posture of assets to the organization, and use threat/vulnerability reports to prioritize actions to improve security posture, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.115",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Communicate with network management personnel to obtain information and receive alerts regarding traffic, fault, performance, and bandwidth indicators, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.116",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Analyze network traffic, fault, performance, and bandwidth information/alerts/data, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.117",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Create monitoring filters to augment detection of network anomalies and potential unauthorized activity , consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.118",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Maintain and/or continuously review event/incident dashboards implemented by the organization (e.g., CDM), consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.119",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Analyze available alert and traffic flow systems (e.g., IDS/IPS, Routers, NetFlow, firewalls, etc.), following established attack sensing and warning processes/procedures for systematic cyber event correlation and analysis, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.120",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Search for distributed, long-term, coordinated, and low-visibility network-based attacks across multiple networks, identifying any advanced, persistent, and coordinated threats, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.121",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Document unauthorized activity and/or attacks to include source/destination addresses and ports, attack vector (e.g., email, web-based, network intrusion, etc.), and attack timeframe, and engage with appropriate organization departments, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.122",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Review traffic indicators of network attack and identify potential cyber event impacts, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.123",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Identify courses of action (COAs) necessary to remediate or mitigate network attacks, and develop interim guidance on countermeasure and/or mitigation recommendations for appropriate changes to IDS, router, firewall rules, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.124",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide notifications with analysis and potential COA/recommended changes to organization departments and cybersecurity personnel, and applicable external information sharing partners, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35;\n \t\t\tSP 800-53 Rev. 4 SA-11(4):AC-21:PM-13:IR-3:IR-4:IR-5:IR-6:IR-7"
+        },
+        {
+            "Capability ID":"CYB.090.030.125",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.030 - Network, System and Data Monitoring",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Review/reference applicable continuous event management updates, applicable consistent shift turnover of events/incidents, and applicable recurring incident awareness briefs, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.040.100",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.040 - Penetration Testing",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Obtain written permission from management (or other authorization) to conduct penetration testing on the organization's networks and systems, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.040.101",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.040 - Penetration Testing",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide pre-report alerts of urgent security deficiencies found in networks or systems, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.040.102",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.040 - Penetration Testing",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Conduct penetration testing assessments on organizational networks and systems, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.040.103",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.040 - Penetration Testing",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide penetration testing results to SOC personnel for further analysis or trending, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.040.104",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.040 - Penetration Testing",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Document and provide a method for business units to request ad-hoc penetration testing, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.040.105",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.040 - Penetration Testing",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Develop and implement a system to analyze, record, and track penetration testing results, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.040.106",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.040 - Penetration Testing",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide documentation that describes the penetration testing tools and methods, and their potential impact on organizational networks and systems, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.040.107",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.040 - Penetration Testing",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Compare penetration testing results with event logs and other captured data to determine if vulnerabilities were exploited, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.100",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Compare scan results with event logs and other captured data to determine if vulnerabilities were exploited, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.101",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Create, track and report on vulnerability trends to improve the organization's Vulnerability Management process, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.102",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Develop and implement a procedure for reporting newly discovered (zero-day) vulnerabilities outside of the organization, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.103",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Document and provide a method for business units to request ad-hoc vulnerability assessments, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.104",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Forward results of vulnerability scanning performed by other business units/providers to SOC personnel for further analysis or trending, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.105",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Implement and/or provide assistance in remediation, response, and recovery solutions to address findings in the results of vulnerability assessments, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.106",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Obtain written permission from management (or other authorization) to conduct vulnerability assessments on the organization's networks and systems, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.107",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Perform vulnerability assessments on organization and SOC systems and networks, at the required frequency, method, and capability consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.108",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide authorizations to perform vulnerability assessments against SOC systems (by procedures, documented roles and responsibilities, MOUs, email, policies, etc.), consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.109",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide documentation that describes the vulnerability scanning tools and methods, and their potential impact on organizational networks and systems, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.110",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide pre-report alerts of urgent security deficiencies found in networks or systems, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.111",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Track and record information from vulnerability assessments, including completion of corrective actions/remediations, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.112",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Test and evaluate vulnerability scanning tools prior to their use on organizational networks and systems, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.113",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Analyze vulnerability scan results to identify open and unauthorized Transmission Control Protocol/User Datagram Protocol (TCP/UDP) ports (P), vulnerable software and misconfigured services, and operating system and application misconfigurations and vulnerabilities, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.114",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide scan reports including any identified trends with recommendations for remediation/corrective actions to the applicable organization departments for remediation, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.115",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Establish an ISVM process and Facilitate integration of ISVM process with the configuration management process to ensure ISVM alerts are delivered as needed throughout the organization, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.116",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Designate primary and secondary POCs to distribute ISVMs as appropriate, and applicable organization points of contact to verify their compliance with prevailing orders and instructions, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.117",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Generate trend reports for all inventoried assets on increases/decreases in number of vulnerabilities, trends in detected vulnerability severity or category, any recurring vulnerabilities, and common vulnerabilities present across enclaves/network segments, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53r4; CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.090.050.118",
+            "Function":"CYB.090 DETECT - Continuous Monitoring",
+            "Activity Name":"CYB.090.050 - Vulnerability Assessment",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide trend reports to organization's OCIO/executive level, and external information sharing partners as required, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.100",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Include recommendations and countermeasures in analysis results to address the incident, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.101",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Create and provide incident report with analysis details, recommendations and countermeasures, including all required information regarding the event (e.g., description of the event, status, systems affected, etc.), and update as status changes, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.102",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Categorize, characterize, and determine the business impact of identified incidents, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.103",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Document completion of training for all analysts personnel, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.104",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Document procedures for conducting incident analysis, utilizing provided Agency POCs, SOC POCs, the organizational requirements for managing incidents, types of incidents, roles, responsibilities, and restrictions for handling analysis data, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.105",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Disseminate analysis results to appropriate stakeholders, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.106",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide Incident reports to the affected organizational business units according to organizational guidelines, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.107",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Forward the incident report from analysis performed by other business units/providers to SOC personnel, for further analysis or trending, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.108",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Reference organizational requirements for incident analysis and tools/technologies used for performing analysis when selecting and documenting required training for analysts, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.109",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Train security operations personnel appropriately on the relevant process, technology, and methodologies for incident analysis, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.110",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Conduct a level and type of analysis appropriate for the incident’s category and severity to identify the incident's attack methods and root cause (i.e., system-specific cause of the incident), consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.111",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Provide an incident triage prioritization structure, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.112",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide enterprise level correlated report to all stakeholders, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.113",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide report that describes the incidents impact to the organization, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.114",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Compare external reports with internal incident reports to identify connections between identified correlations, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.115",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Review Organizational unit's provided guidelines and POCs for analysis report distribution, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.116",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Use reported incident and identified vulnerability data to conduct analysis and identify trends, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.117",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Develop a process for audit log review and the collection of relevant incident data (e.g., shutdown/disconnect policy, related system data collection, etc.), consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.118",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide technical/operational impact (i.e., detrimental impact on the technical abilities of an organization, or an organization’s ability to perform its mission)",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.119",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Enhance incident identification through understanding of TIC (internet perimeter)-level data (e.g., tools available through logging system, CDM), consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.120",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Maintain an initial triage and incident response process for cyber events/incidents, which includes incident/event prioritization and course of action (COA) development, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.121",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Develop countermeasures to contain cyber incidents through network system configuration (e.g., firewall and router blocks and filters), or other courses of action that could be used to eradicate and prevent incident from reoccurrences, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.122",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Deploy countermeasures to systems under SOC/security operations control (e.g., network and host-based IPS, monitoring systems, email filtering and quarantining, etc.) to contain cyber incidents, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.123",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Coordinate recall of organization department personnel in support of cyber incidents including operational and technical personnel as appropriate, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.124",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Ensure forensically sound acquisition and preservation of incident data including volatile (i.e., system registers, cache, RAM), persistent (i.e., system images, logs, malware), and environmental (i.e., location, configuration data), as applicable, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.125",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify containment measures for regaining control of identified systems and preventing further malicious activity, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.126",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Contain the spread of malware to prevent further damage to systems through initial malware detection, analysis and identification, and the execution of containment measures, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.010.127",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.010 - Incident Analysis",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Provide any requested assistance to organizational departments for preserving system data, mitigating vulnerabilities, rebuilding systems, and restoring system functionality, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.100",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Use internal and external reports, and internal and external stakeholders to perform enterprise correlation review, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.101",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Use security information and event management (SIEM) processes and tools for event and incident correlation, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.102",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Use incident data and inventory of similar systems to perform analysis for correlation, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.103",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Receive reports on identified correlations from external parties / Organizational units, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.104",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Obtain input from SOC experts for developing process and documenting procedures for system/incident correlation, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.105",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Report identified trends to Organizational units, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.106",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Report any incident/system correlations to the affected Organizational unit, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.107",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Publish a sanitized report on incident correlations to be shared internally and external to the organization, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.108",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Maintain access to various sources of data, incidents, and vulnerabilities for conducting trend analysis, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.109",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Perform analysis to ensure similar systems were not affected and identify any correlations, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.110",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Provide recommendations and countermeasures in correlation report, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.111",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Sanitize information provided to other organizations according to the organizational guidelines, and ensure same sanitization is performed when receiving information, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.112",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Document the process and procedures for incident correlation, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.020.113",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.020 - Incident Correlation",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Train personnel how to obtain and use analysis reports provided by other organizations or vendors, and on the process/procedures for correlation analysis, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.100",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide reports on incidents to CISA and other defined entities (ISACs) in accordance with law (FISMA), OMB memoranda, and organizational guidelines, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.101",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Report incidents to other organizational units and/or external responsible parties, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.102",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Use applicable template for reporting incidents and other communication activity, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.103",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Designate the department, group, or manager in the organization as the responsible party for reporting incidents to CISA, LE, and IC, ensuring an understanding of how and when to engage Security and/or LE/CI contacts consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.104",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Identify organizational policy / guidance on sharing sensitive information that defines what types of incidents should be reported and to whom, both internal and external, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.105",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Report applicable incidents involving security practice and/or potential or confirmed loss of Classified or Controlled Unclassified Information (CUI), PII breaches to the appropriate entities in accordance with OMB Memorandum M-07-16, state security breach notification laws, and organizational guidelines, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.106",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Solicit confirmation that reported incidents are received from external organizations, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls..",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.107",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Review reporting guidelines on a periodic basis with organizational management and updated as needed, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.108",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Develop procedures for escalating and reporting incidents consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.109",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify responsible parties to include on the reporting chain for incidents, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.110",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Verify that organizational guidance on reporting incidents includes (a) criteria for what incidents to report, (b) required content for reporting, and (c) required timeframes, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.111",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Report incidents involving any cleared Federal contracting site",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.112",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Report applicable incidents involving security practice and/or potential or confirmed loss of Classified or Controlled Unclassified Information (CUI) Security points of contact",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP 800-53 Rev 4 AC-13:AU-6:IR-4:IR-5:IR-7:PM-12:SI-4"
+        },
+        {
+            "Capability ID":"CYB.100.030.113",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.030 - Incident Reporting",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Maintain incident reports and data for a minimum of one year, and in accordance with organization's Records Management guidance and policy",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-13:AU-6:IR-4:IR-5:IR-7"
+        },
+        {
+            "Capability ID":"CYB.100.040.100",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.040 - Event Archive",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Create a central repository (either in hard copy or electronic form) to store all event and incident data, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-13:AU-6:IR-4:IR-5:IR-7"
+        },
+        {
+            "Capability ID":"CYB.100.040.101",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.040 - Event Archive",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Create a central repository backup location that is located off-site from the main repository, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-13:AU-6:IR-4:IR-5:IR-7"
+        },
+        {
+            "Capability ID":"CYB.100.040.102",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.040 - Event Archive",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Store all event and incident data for a period of at least one year or in accordance with organizational guidelines consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-13:AU-6:IR-4:IR-5:IR-7"
+        },
+        {
+            "Capability ID":"CYB.100.040.103",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.040 - Event Archive",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Limit access of the central repository to authorized incident management personnel, consistent with NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-13:AU-6:IR-4:IR-5:IR-7"
+        },
+        {
+            "Capability ID":"CYB.100.040.104",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.040 - Event Archive",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Encrypt all electronic archived reports and data according to organizational guidance, using approved methods, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-13:AU-6:IR-4:IR-5:IR-7"
+        },
+        {
+            "Capability ID":"CYB.100.040.105",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.040 - Event Archive",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide designated incident information and supporting materials in a forensically sound manner to support law enforcement, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-13:AU-6:IR-4:IR-5:IR-7"
+        },
+        {
+            "Capability ID":"CYB.100.040.106",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.040 - Event Archive",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify criteria for record retention policy of event and incident data, and supporting materials including logs and emails, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-13:AU-6:IR-4:IR-5:IR-7"
+        },
+        {
+            "Capability ID":"CYB.100.040.107",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.040 - Event Archive",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Document processes for the secure collection, handling, transmission, storage, and destruction of event and incident data, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls..",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-13:AU-6:IR-4:IR-5:IR-7"
+        },
+        {
+            "Capability ID":"CYB.100.040.108",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.040 - Event Archive",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Distribute retention policy and procedures to all personnel accessing the central repository, consistent with NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 AC-13:AU-6:IR-4:IR-5:IR-7"
+        },
+        {
+            "Capability ID":"CYB.100.040.109",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.040 - Event Archive",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Secure repository is reviewed on a periodic basis to ensure security measures are adequate, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.100",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Add and/or change incident response procedures to account for incident response actions that needed improvement, based on the postmortem incident review, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.101",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Implement predefined countermeasures or protection strategies consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.102",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Follow documented procedures on risk/impact analysis for assessing an incident's level of risk and corresponding impact relative to the organization consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.103",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Provide information to participants on where and how to provide monitoring data consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.104",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Implement procedures for event/incident handling consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.105",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Follow process and procedures for categorizing and prioritizing incidents consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.106",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Identify criteria for completing incident close-outs consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.107",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Document escalation procedures for event/incident responses consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.108",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Document incident close-out procedures consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.109",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Escalate event/incidents as required by incident management policy/guidance, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.110",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Document the policy which authorizes incident management personnel to test or verify (e.g., through vulnerability scanning or penetration testing) that vulnerabilities or weaknesses have been corrected following an incident, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.111",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Use established categorizations and prioritization process for developing escalation procedures consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.112",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Implement and execute the mitigation plan for response activities consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.113",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Document new vulnerabilities or other weaknesses identified from the incident in the organization’s vulnerability tracking system, and addressed through appropriate channels/actions, consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.114",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Input",
+            "Business Capability Statement":"Maintain a list of questions to be answered during postmortem incident reviews consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.115",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Process",
+            "Business Capability Statement":"Conduct postmortem review on incident records before closure for accuracy and completeness of information, and that all needed actions have been taken consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.116",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Document closure of event/incident within central repository, and notify all applicable POCs consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        },
+        {
+            "Capability ID":"CYB.100.050.117",
+            "Function":"CYB.100 RESPOND - Incident Management",
+            "Activity Name":"CYB.100.050 - Incident Handling",
+            "(I)input/(P)process/(O)output":"Output",
+            "Business Capability Statement":"Submit changes to the organizational infrastructure based on incident response lessons learned through the appropriate change management process consistent with Title 44, Chapter 35 and NIST SP 800-53, Rev 4 controls.",
+            "Authoritative Source":"U.S.C Title 44, Chapter 35; NIST SP800-53 Rev. 4 CA-2:CA-8:RA-3:RA-5:SA-11:SA-15"
+        }
+    ],
+    "Business_Use_Cases":"coming soon",
+    "Standard_Data_Elements":"coming soon",
+    "Service_Measures":"coming soon"
+}

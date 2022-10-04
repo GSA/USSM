@@ -1,5 +1,2 @@
-{
-"FFM Use Case Library Overview": "https://ussm.gsa.gov/assets/files/FM%20Data%20Elements%20Announcement%202020%2005%2028.pdf",
-"Federal Financial Management Standard Data Elements - PDF": "https://www.fiscal.treasury.gov/files/fit/ffm-standard-data-elements.pdf",
-"Federal Financial Management Standard Data Elements": "https://www.fiscal.treasury.gov/files/fit/ffm-standard-data-elements.xlsx"
-}
+
+{{ site.data.fm.Standard_Data_Elements | remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}

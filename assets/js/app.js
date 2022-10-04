@@ -2,12 +2,11 @@
 // Add your custom javascript here
 
 jQuery(document).ready(function () {
-
     /**
      * @type string
      * @description to store the url prefix based on the environment url.cloudfront federalist url come with additional pathname. Using / as a prefix will removed these extra pathname and the url will be wrong
      */
-     let prefixUrl = "/";
+     let prefixUrl = "";
 
      /**
       * @type string
@@ -15,38 +14,38 @@ jQuery(document).ready(function () {
       */
      const hostname = window.location.hostname;
      if(hostname.includes("federalist")) {
-       prefixUrl = "../../"; // because this url is used in the pathname:/marketplace/grm/ going to path back will send us to /
+       prefixUrl = ".."; // because this url is used in the pathname:/marketplace/grm/ going to path back will send us to /
      }
 
     let pages = [
         {
             accordian: 'cyb-cvd-lifecycle',
             table: 'cyb-cvd-capabilities',
-            url: prefixUrl.concat('business-standards-api/cyb/cvd'),
+            url: prefixUrl.concat('/business-standards-api/cyb/cvd'),
             hasSubsection: false
         },
         {
             table: 'cyb-soc-capabilities',
-            url:  prefixUrl.concat('business-standards-api/cyb/soc'),
+            url:  prefixUrl.concat('/business-standards-api/cyb/soc'),
             hasSubsection: false
         },
         {
             accordian: 'cyb-soc-lifecycle',
-            url:  prefixUrl.concat('business-standards-api/cyb/'),
+            url:  prefixUrl.concat('/business-standards-api/cyb/'),
             hasSubsection: true
         },
         {
             accordian: 'hr-benefits-lifecycle',
             table: 'hr-benefits-capabilities',
             ElementsList: 'hr-benefit-data-elements',
-            url:  prefixUrl.concat('business-standards-api/hr'),
+            url:  prefixUrl.concat('/business-standards-api/hr'),
             hasSubsection: true
         },
         {
             accordian: 'hr-acquisition-lifecycle',
             table: 'hr-acquisition-capabilities',
             PerformanceMetricsList: 'hr-acquisition-performance-metrics',
-            url:  prefixUrl.concat('business-standards-api/hr/acquisition/'),
+            url:  prefixUrl.concat('/business-standards-api/hr/acquisition/'),
             hasSubsection: true
         },
         {
@@ -54,7 +53,7 @@ jQuery(document).ready(function () {
             table: 'fm-capabilities',
             ElementsList: 'fm-data-elements',
             UseCasesList: 'fm-use-cases',
-            url:  prefixUrl.concat('business-standards-api/fm'),
+            url:  prefixUrl.concat('/business-standards-api/fm'),
             hasSubsection: false
         },
         {
@@ -62,7 +61,7 @@ jQuery(document).ready(function () {
             table: 'erm-capabilities',
             UseCasesList: 'erm-use-cases',
             ElementsList: 'erm-data-elements',
-            url:  prefixUrl.concat('business-standards-api/erm'),
+            url:  prefixUrl.concat('/business-standards-api/erm'),
             hasSubsection: false
         },
         {
@@ -70,21 +69,21 @@ jQuery(document).ready(function () {
             table: 'grants-capabilities',
             UseCasesList: 'grants-use-cases',
             ElementsList: 'grants-data-elements',
-            url:  prefixUrl.concat('business-standards-api/grants'),
+            url:  prefixUrl.concat('/business-standards-api/grants'),
             hasSubsection: false
-        },       
+        },
         {
             accordian: 'travel-lifecycle',
             table: 'travel-capabilities',
             UseCasesList: 'travel-use-cases',
             ElementsList: 'travel-data-elements',
-            url:  prefixUrl.concat('business-standards-api/travel'),
+            url:  prefixUrl.concat('/business-standards-api/travel'),
             hasSubsection: false
         },
         {
             accordian: 'acq-lifecycle',
             table: 'acq-capabilities',
-            url:  prefixUrl.concat('business-standards-api/acq'),
+            url:  prefixUrl.concat('/business-standards-api/acq'),
             hasSubsection: false,
             UseCasesList: 'acq-use-cases'
         },
@@ -92,41 +91,40 @@ jQuery(document).ready(function () {
             accordian: 'rpm-lifecycle',
             table: 'rpm-capabilities',
             UseCasesList: 'rpm-use-cases',
-            url:  prefixUrl.concat('business-standards-api/rpm'),
+            url:  prefixUrl.concat('/business-standards-api/rpm'),
             hasSubsection: false
         },
         {
             accordian: 'its-lifecycle',
-            url:  prefixUrl.concat('business-standards-api/its'),
+            url:  prefixUrl.concat('/business-standards-api/its'),
             hasSubsection: false
         },
         {
             accordian: 'eeo-lifecycle',
-            url:  prefixUrl.concat('business-standards-api/eeo'),
+            url:  prefixUrl.concat('/business-standards-api/eeo'),
             hasSubsection: false
         }
     ];
 function imageChecker(url){
     var img= '';
     if (url.includes(".doc")){
-        img= '<img src="../../img/file-word.svg" class="margin-right-05" width="16" valign="middle" alt="word">';
+        img= '<img src="../img/file-word.svg" class="margin-right-05" width="16" valign="middle" alt="word">';
     }
     else if ((url.includes(".xls"))){
-        img= '<img src="../../assets/images/icon.xls.png" class="margin-right-05" width="16" valign="middle" alt="Excel">';
+        img= '<img src="../assets/images/icon.xls.png" class="margin-right-05" width="16" valign="middle" alt="Excel">';
     }
     else if ((url.includes(".pdf"))){
-        img= '<img src="../../assets/images/icon.pdf.png" class="margin-right-05" width="16" valign="middle" alt="PDF">';
+        img= '<img src="../assets/images/icon.pdf.png" class="margin-right-05" width="16" valign="middle" alt="PDF">';
     }
     return img
 }
     jQuery.each(pages, function (index, page) {
-
         let table = jQuery("#" + page.table);
         let accordian = jQuery('#' + page.accordian);
         let UseCasesList = jQuery('#' + page.UseCasesList);
         let ElementsList = jQuery('#' + page.ElementsList);
         let PerformanceMetricsList = jQuery('#' + page.PerformanceMetricsList);
-            jQuery.get(page.url, function (result) {
+        jQuery.get(page.url, function (result) {
                     var jObject = JSON.parse(result);
                     if (page.hasSubsection) {
                         jObject = jObject[0];
@@ -175,22 +173,28 @@ function imageChecker(url){
                         }
                         else if (outerKey === "Business Use Cases" && UseCasesList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
+                                // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
+                                prefixUrl = value1.includes("https")?"":prefixUrl; 
                                 let image = imageChecker(value1);
-                                let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
+                                let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
                                 jQuery("#" + page.UseCasesList ).append(li);
                             });
                         }
                         else if (outerKey === "Standard Data Elements" && ElementsList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
+                                // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
+                                prefixUrl = value1.includes("https")?"":prefixUrl; 
                                 let image = imageChecker(value1);
-                                let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
+                                let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
                                 jQuery("#" + page.ElementsList ).append(li);
                             });
                         }
                         else if (outerKey==="Service Measures" && PerformanceMetricsList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
+                                // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
+                                prefixUrl = value1.includes("https")?"":prefixUrl; 
                                 let image = imageChecker(value1);
-                                let li = '<li><a href="'+value1+'">' + image + key1 + '</a></li>';
+                                let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
                                 jQuery("#" + page.PerformanceMetricsList ).append(li);
                             });
                         }
@@ -207,6 +211,11 @@ $('#cyb-cvd-capabilities').on( 'order.dt', function () {
     jQuery("#cyb-cvd-capabilities > tbody >tr:eq(1)").remove();
     jQuery('#cyb-cvd-capabilities > tbody >tr:first').remove();
 } );
+
+$('.marketplace-validation').on('click', function() {
+    $( ".usa-accordion__button[aria-controls='a-2']" ).attr("aria-expanded", "true");
+    $('#a-2').removeAttr("hidden");
+})
 
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -231,7 +240,6 @@ if(span){
         modal.style.display = "none";
     }
 }
-
 
 
 // When the user clicks on the Share button, show the FB, Twitter, Tumblr etc link

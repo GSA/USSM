@@ -15,14 +15,14 @@ jQuery(document).ready(function ($) {
         }
     });
 
-var iso = $container.data('isotope');
-var $filterCount = $('.filter-count');
+    var iso = $container.data('isotope');
+    var $filterCount = $('.filter-count');
 
-function updateFilterCount() {
-  $filterCount.text( iso.filteredItems.length + ' items' );
-}
-
-
+    function updateFilterCount() {
+        if (typeof iso !== 'undefined') {
+            $filterCount.text(iso.filteredItems.length + ' items');
+        }
+    }
 
     // Alphabetical sort
     // Sort items alphabetically based on course title

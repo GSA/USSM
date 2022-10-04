@@ -17,6 +17,8 @@ site, this is the place to do it.
   {% capture title %}M3 Playbook | {{ page.title }}{% endcapture %}
 {% elsif page.url == "/sapoc/" %}
   {% capture title %}Shared Services | Senior Accountable Point of Contact{% endcapture %}
+{% elsif page.title == "Federal Mission Support Shared Services Marketplace : Grants Management" %}
+  {% capture title %}{{page.title}}{% endcapture %} 
 {% endif %}
 
 
