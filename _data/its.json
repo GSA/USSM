@@ -1,0 +1,389 @@
+{
+    "Business-Standards":"IT Services",
+    "Business_Lifecycle":[
+       {
+           "type":"itm-010",
+           "data":[
+             {
+                "ID":"ITS.010.010",
+                "Activity":"Application Hosting",
+                "Description":"Fully managed application and web hosting services including the general computing server, database server, web and application server services. Includes standalone Web Service and App Service platform services."
+             },
+             {
+                "ID":"ITS.010.020",
+                "Activity":"Foundation Platform ",
+                "Description":"Foundation Platform includes the core foundation capabilities provided by large Enterprise Resource Planning (ERP) systems, as well as the \"platform as a service\" provided by many SaaS applications. ERP foundation platforms are the technical underpinning that enables the ERP application to function. It typically consists of programs and tools that support the interoperability and portability of ERP applications across systems and databases. Many SaaS applications also provide a platform capability to enable integration and development of additional applications or modules that complement the primary application suite to support the full organization."
+             },
+             {
+                "ID":"ITS.010.030",
+                "Activity":"Streaming",
+                "Description":"Services that deliver live and on-demand media streams including audio and video."
+             },
+             {
+                "ID":"ITS.010.040",
+                "Activity":"Message Bus & Integration",
+                "Description":"A messaging infrastructure to allow different systems to communicate through a shared set of interfaces. Includes event streaming to multiple applications, subscribe and publish notification service for enterprise and mobile messaging, task completion alerts and threshold alerts."
+             },
+             {
+                "ID":"ITS.010.050",
+                "Activity":"Content Management",
+                "Description":"A set of services that support role-based access and enable the capture, creation, modification, management, and/or disposition of digital content using a simple interface in a collaborative environment. Includes records management and digital asset management."
+             },
+             {
+                "ID":"ITS.010.060",
+                "Activity":"Search",
+                "Description":"A search service for finding data within desktop, web, and mobile applications."
+             },
+             {
+                "ID":"ITS.010.070",
+                "Activity":"Decision Intelligence & Automation",
+                "Description":"Decision Intelligence & Automation services allow software and devices to utilizing large datasets to become more accurate in predicting outcomes without being explicitly programmed. Natural language processing, facial recognition, object recognition, intelligent personal assistants and robotic process automation are offerings that utilize these technologies to augment the human thought process."
+             }
+          ]
+        },{
+            "type":"itm-020",
+            "data":[
+             {
+                "ID":"ITS.020.010",
+                "Activity":"Bring Your Own Device",
+                "Description":"A set of services that enable users to bring in their own personal computing devices (laptop, tablet, smartphone) and connect to the organization's enterprise network in accordance with the organization's security and other standards. Standard support may include connectivity to access business applications, information and other technology resources; as well as other security, back-up, updates and patches, remote access and centralized service desk."
+             },
+             {
+                "ID":"ITS.020.020",
+                "Activity":"Computer",
+                "Description":"A selection of IT-provided computers, workstations, laptop or tablet configurations. Each type may be ordered with additional memory and storage. Standard enterprise image will be loaded on each device. Requestor may order optional software through the Productivity services. Includes network and remote network access. Standard support package including security, back-up, antivirus, updates and patches, remote access, centralized service desk."
+             },
+             {
+                "ID":"ITS.020.030",
+                "Activity":"Mobile",
+                "Description":"A selection of IT-provided smartphone configurations. Includes network access. Standard support package including security, encryption, back-up, updates and patches, and remote access."
+             },
+             {
+                "ID":"ITS.020.040",
+                "Activity":"Virtual Client",
+                "Description":"The virtualization of desktop and application software enables PC and tablet functionality to be separate from the physical device used to access those functions - whether a fixed or mobile workspace environment. Virtual Workspaces may have different, pre-configured packages of software application and enable access from multiple devices. Advanced desktop management provides higher levels of flexibility, security, backup and disaster recovery capabilities."
+             }
+          ]
+        },
+        {
+              "type":"itm-030",
+              "data":[
+             {
+                "ID":"ITS.030.010",
+                "Activity":"Collaboration",
+                "Description":"A selection of collaborative software offerings that enable people to work together to achieve common goals across locations and time zones. Enables the sharing of documents and deliverables across distributed users."
+             },
+             {
+                "ID":"ITS.030.020",
+                "Activity":"Communication",
+                "Description":"Communication represents a broad set of integrated or individual services that enable users to communicate with other users, partners or customers. This communication may occur via electronic mail, calendaring, messaging, social communities, audio conferencing, video conferencing and voice calls. More robust, unified messaging service offerings provide file transfer, file sync and share, embedded images, clickable hyperlinks, Voice over IP (VoIP) and video chat."
+             },
+             {
+                "ID":"ITS.030.030",
+                "Activity":"Print",
+                "Description":"A variety of peripheral devices that enable the distribution of information. Devices may offer one or more of these services - print, copy, or fax. Printing output creates a \"hard copy\" of digital documents, presentations, spreadsheets, etc. Scan translates hard copy documents into a digital format for a computer to ingest and use."
+             },
+             {
+                "ID":"ITS.030.040",
+                "Activity":"Productivity",
+                "Description":"End user application software enabling the creation, editing, and saving of information in a variety of formats including, but not limited to: documents, presentations, spreadsheet, modeling tools, project management documentation, databases, desktop publishing, web design, graphics and image editing, audio/video editing and CD/DVD recording."
+             }
+          ]
+        },
+        {
+              "type":"itm-040",
+              "data":[
+             {
+                "ID":"ITS.040.010",
+                "Activity":"Compute on Demand",
+                "Description":"Offer transient compute services that are executed automatically, either on a schedule or triggered by a predefined event or set of events."
+             },
+             {
+                "ID":"ITS.040.020",
+                "Activity":"Mainframe",
+                "Description":"Offer transactional and batch oriented compute services supported by a mainframe infrastructure."
+             },
+             {
+                "ID":"ITS.040.030",
+                "Activity":"Physical Compute",
+                "Description":"Offer a variety of compute configurations comprised of physical servers. These are typically distributed compute services based on the Windows, Linux or UNIX operating systems for pre defined configurations of memory, CPU and storage. Standard operational support includes security hardening, backup, updates, patches, and centralized monitoring."
+             },
+             {
+                "ID":"ITS.040.040",
+                "Activity":"Virtual Compute & Containers",
+                "Description":"Offer a variety of compute configurations delivered through the virtualization of physical compute resources. May include on-demand provisioning and de-provisioning based on user interaction or the performance of the application itself. These virtual instances are typically running Windows or Linux operating systems and have predefined configurations of virtually allocated memory, CPU and storage. Standard operational support includes security hardening, back-up, updates and patches and centralized monitoring."
+             }
+          ]
+        },
+        {
+            "type":"itm-050",
+            "data":[
+             {
+                "ID":"ITS.050.010",
+                "Activity":"Network Access",
+                "Description":"A set of connectivity services which enable users to access a private or public network from their client computing device. Once connected, as part of the network they can access business applications and information; and can communicate and collaborate with other users on the network. Often times, this may be bundled with a Client Computing service."
+             },
+             {
+                "ID":"ITS.050.020",
+                "Activity":"Remote Access",
+                "Description":"A set of connectivity services which enable users to access the organization's internal private network from their client computing device when away from the enterprise facilities. Once connected, the user can access the organization's business applications and information. Often times, this may be bundled with a Client Computing service."
+             }
+          ]
+        },
+        {
+            "type":"itm-060",
+            "data":[
+             {
+                "ID":"ITS.060.010",
+                "Activity":"Enterprise Data Center",
+                "Description":"Purpose-built facilities to securely house computer equipment providing physical security, clean & redundant power, data connectivity and environmental controls - temperature, humidity, fire suppression. Includes data centers owned and operated by the enterprise, as well as co-location or point-of presence services operated by other service providers. Additional services may include shipping and receiving, assembly, rack and stack and maintenance."
+             },
+             {
+                "ID":"ITS.060.020",
+                "Activity":"Other Data Center",
+                "Description":"Other data center services that may be delivered through dedicated secure rooms or telecom closets with a facility."
+             }
+          ]
+        },
+        {
+            "type":"itm-070",
+            "data":[
+             {
+                "ID":"ITS.070.010",
+                "Activity":"Database",
+                "Description":"A relational database service for applications to access transactional data. A No-SQL database service for applications that need consistent, low-latency scaled out document/key-value store models."
+             },
+             {
+                "ID":"ITS.070.020",
+                "Activity":"Distributed Cache",
+                "Description":"An in-memory cache service that helps improve web application performance."
+             },
+             {
+                "ID":"ITS.070.030",
+                "Activity":"Data Management",
+                "Description":"A set of data analytic services that automate the movement and transformation of data including extract, transform and load (ETL) processes, data quality management and master data management."
+             },
+             {
+                "ID":"ITS.070.040",
+                "Activity":"Data Warehouse",
+                "Description":"Services supporting a central repository or set of repositories of integrated data from one or more disparate source systems. Stores current and historical data used for creating analytical reports."
+             },
+             {
+                "ID":"ITS.070.050",
+                "Activity":"Data Analytics & Visualizations",
+                "Description":"Software services and BI tools to analyze and communicate information clearly and efficiently to users via graphs, charts and other visual representations including geospatial analytics. Also includes real-time streaming analysis of data by providing low latency, highly available, scalable complex event processing over streaming data in the cloud."
+             }
+          ]
+        },
+        {
+            "type":"itm-080",
+            "data":[
+             {
+                "ID":"ITS.080.010",
+                "Activity":"Application Design & Development",
+                "Description":"Design and Development services provide the planning, design, programming, documenting, testing, and fixing involved in creating and maintaining a software product."
+             },
+             {
+                "ID":"ITS.080.020",
+                "Activity":"Application System Integration",
+                "Description":"Development services that link together different computing systems and software applications physically or functionally, to act as a coordinated whole. This can be accomplished across systems that reside within the enterprise's data centers as well as with SaaS services that reside in the provider's facilities."
+             },
+             {
+                "ID":"ITS.080.030",
+                "Activity":"Application Testing",
+                "Description":"Testing services execute a program or application with the intent of finding errors or other defects. The investigations are conducted to provide stakeholders with information about the quality of the product or service and allow the business to understand the risks of software implementation. Testing may take multiple forms including functional, system, integration, performance and usability."
+             }
+          ]
+        },
+        {
+            "type":"itm-090",
+            "data":[
+             {
+                "ID":"ITS.090.010",
+                "Activity":"Domain Services",
+                "Description":"Domain services provide lookup capabilities to convert domain names (e.g., www.acme.com) into the associated IP address to enable communication between hosts."
+             },
+             {
+                "ID":"ITS.090.020",
+                "Activity":"Internet Connectivity",
+                "Description":"Telecommunication services using the public internet to enable communications across the organization including its data centers, office buildings, remote locations, partners and service providers. Virtual Private Networks may be created to limit access and provide security."
+             },
+             {
+                "ID":"ITS.090.030",
+                "Activity":"Load Balancing",
+                "Description":"Offer ability to optimize incoming application/workload requests through load balancing and traffic management to deliver high availability and network performance to applications."
+             },
+             {
+                "ID":"ITS.090.040",
+                "Activity":"Virtual Private Network ",
+                "Description":"Virtual Private Network (VPN) services offer a secure method to authenticate users and enable access to enterprise systems and information. VPN can also isolate and secure environments in the data center across physical and virtual machines and applications."
+             },
+             {
+                "ID":"ITS.090.050",
+                "Activity":"Data Network",
+                "Description":"A selection of network connection offerings that enable direct data communications across the organization including its data centers, office buildings, remote locations as well as partners and service providers (including public cloud service providers) without traversing the public internet. Typically provides a greater level of performance, security and control. The available service offerings may include terrestrial and non-terrestrial (e.g., satellite) technologies as well as field networks or special-use networks."
+             },
+             {
+                "ID":"ITS.090.060",
+                "Activity":"Voice Network",
+                "Description":"Telecommunication offerings for voice circuits to deliver \"plain old telephone service\" and other advanced features including 800-services, automatic call distribution, etc. The available service offerings may include terrestrial and non-terrestrial (e.g., satellite) technologies."
+             }
+          ]
+        },
+        {
+            "type":"itm-100",
+            "data":[
+             {
+                "ID":"ITS.100.010",
+                "Activity":"Application Deployment & Administration",
+                "Description":"Includes the release management and software distribution services to deploy new and/or the most recent software version to the host servers or client computing devices. Also includes ongoing operating system (OS) support and patch management."
+             },
+             {
+                "ID":"ITS.100.020",
+                "Activity":"IT Service Management",
+                "Description":"IT Service Management refers to the incident, problem and change management services necessary for IT to plan, deliver, operate and control the IT services offered to its customers. Software tools and services for assessing, recording and managing asset configurations, such as server settings or network router tables."
+             },
+             {
+                "ID":"ITS.100.030",
+                "Activity":"Capacity Planning & Management",
+                "Description":"Services which ensure that IT resources are right-sized to meet current and future business requirements in a cost-effective manner. Takes into account the expected demand from the business or consumer along with the availability and performance of existing capacity and projects future requirements. Capacity management occurs across data center, compute, storage, network and other IT resources."
+             },
+             {
+                "ID":"ITS.100.040",
+                "Activity":"Event Management",
+                "Description":"Services to monitor resources and applications. Services that records API calls and delivers logs and insights. Services that provide log data consolidation, reporting and analysis to enable IT administrators and security personnel to understand asset utilization, user logins, and information access."
+             },
+             {
+                "ID":"ITS.100.050",
+                "Activity":"Scheduling",
+                "Description":"Services involved in the execution of tasks required to operate an IT Service and are often automated using software tools that run batch or online tasks based on specific events or at specific times of the day, week, month or year."
+             }
+          ]
+        },
+        {
+            "type":"itm-110",
+            "data":[
+             {
+                "ID":"ITS.110.010",
+                "Activity":"Identity & Access Management",
+                "Description":"Identity and access management (IAM) services set policy, business processes, establishes controls and provide technologies to facilitate the management of digital identities by ensuring individuals have the appropriate access to necessary systems at the right times. Specific areas include authentication, identity management and identity governance & administration. Specific areas included: Authentication/Authorization, Identity Management, Identity Governance & Administration, Privileged Access Management, and Certificate Management."
+             },
+             {
+                "ID":"ITS.110.020",
+                "Activity":"Security Awareness",
+                "Description":"Security awareness sets policy, procedures and provides enterprise knowledge training to members of an organization to promote an understanding for all individuals regarding the protection of an organization's physical and digital assets. Specific areas included: Security Training, Security Advisory, and Security Policies and procedures."
+             },
+             {
+                "ID":"ITS.110.030",
+                "Activity":"Cyber Security & Incident Response",
+                "Description":"Cybersecurity services provide policies, procedures and technologies to recognize existing and emerging threats as well as determine associated risk to ensure the organization has the appropriate defense and responses to each incident. Specific areas included: Cyber Security Monitoring and Security Incident Response."
+             },
+             {
+                "ID":"ITS.110.040",
+                "Activity":"Threat & Vulnerability Management",
+                "Description":"Threat and vulnerability management services ensures an organizations applications and infrastructure vulnerabilities are proactively identified, classified and corrected to ensure they are not exploited by unauthorized individuals or parties. Specific areas included: Application Vulnerability Management, Infrastructure Vulnerability Management, and Network / Endpoint Security."
+             },
+             {
+                "ID":"ITS.110.050",
+                "Activity":"Data Privacy & Security",
+                "Description":"Data privacy and security ensures enterprise and user data is not used or accessed by unauthorized individuals or entities by ensuring data and identities are classified appropriately, the correct controls are in place to prevent data loss and data is appropriately secured. Specific areas included: Data Classification & Identification, Data Loss Prevention, Data Encryption, Data Access, and Database Security."
+             },
+             {
+                "ID":"ITS.110.060",
+                "Activity":"Governance, Risk & Compliance",
+                "Description":"IT Compliance services set policy, establish controls and measuring compliance to relevant legal and compliance requirements. Ensure risks are met, alignment with regulatory needs (SSAE16, HIPAA, PCI DSS, SOX, TRICARE etc.), Documented and communicated to business owners. Ensure third parties meet risk and security requirements."
+             },
+             {
+                "ID":"ITS.110.070",
+                "Activity":"Business Continuity & Disaster Recovery",
+                "Description":"Business Continuity ensures the continuous operation of the enterprise. Services include business impact assessments, business resiliency plans, disaster recovery capabilities and the associated exercise, testing, training and awareness to support people, process and technology recoveries in case of an incident."
+             }
+          ]
+        },
+        {
+            "type":"itm-120",
+            "data":[
+             {
+                "ID":"ITS.120.010",
+                "Activity":"File & Object Storage",
+                "Description":"Secure and durable object storage where an object can be unstructured data such as documents and media files or structured data like tables."
+             },
+             {
+                "ID":"ITS.120.020",
+                "Activity":"Backup & Archive",
+                "Description":"Secure, durable and lower-cost storage service offerings for data backup and archiving. May include disk backup, tape backup, optical backup and off-site storage services."
+             },
+             {
+                "ID":"ITS.120.030",
+                "Activity":"Networked Storage",
+                "Description":"Storage services that provide a pool of storage to a server for the purposes of hosting data and applications, or to a virtualization environment for the purposes of hosting servers. Networked Storage services enable redundancy, ease of management, rapid move/add/change/delete capabilities, and economies of scale. Storage array network (SAN), network attached storage (NAS) and solid state drives (SSD) storage are example technologies."
+             },
+             {
+                "ID":"ITS.120.040",
+                "Activity":"Distributed Storage (CDN)",
+                "Description":"A content delivery service for storing high-bandwidth content at the edge network to reduce latency and improve application performance."
+             }
+          ]
+        },
+        {
+            "type":"itm-130",
+            "data":[
+             {
+                "ID":"ITS.130.010",
+                "Activity":"Enterprise Architecture",
+                "Description":"Enterprise architecture guides organizations through the business, information, process, and technology changes necessary to execute their business and IT strategies."
+             },
+             {
+                "ID":"ITS.130.020",
+                "Activity":"Business Solution Consulting",
+                "Description":"Business solution consulting services help the enterprise improve their performance, primarily through the analysis of existing business problems and development of plans for improvement. This includes business relationship management, demand management, and business process analysis."
+             },
+             {
+                "ID":"ITS.130.030",
+                "Activity":"Technology Business Management",
+                "Description":"The disciplines and value conversations for improving the business outcomes enabled by the technology portfolio. Enables technology leaders and their business partners to collaborate on business-aligned decisions. Includes IT management, IT finance and costing, IT billing, business value, metrics, benchmarking, service portfolio management, service catalog management, service level management and availability management."
+             },
+             {
+                "ID":"ITS.130.040",
+                "Activity":"Innovation & Ideation",
+                "Description":"The investment, development and incubation of new technologies to create new or better solutions which meet unarticulated or existing market needs. Includes new technology solutions and new product incubation services."
+             },
+             {
+                "ID":"ITS.130.050",
+                "Activity":"IT Vendor Management",
+                "Description":"The management of technology suppliers who provide, deliver and support technology products and services. Includes services across the life cycle of a vendor including selection, negotiation, contracting, procurement, maintenance and subscription renewals, and performance management."
+             },
+             {
+                "ID":"ITS.130.060",
+                "Activity":"Program, Product & Project Management",
+                "Description":"Program Management is the process of managing several related projects, often with the intention of improving an organization's performance. Product Management refers to a more collaborative and continuous planning, prioritization and delivery process (e.g., Agile methodologies) to provide frequent releases of small packages of new functionality in an iterative approach. Project Management is a traditional method of discrete planning, budgeting and execution of projects to deliver new capabilities, enhance existing capabilities or retire applications or services. Project Management services initiate, plan, execute, control, and close the work of a team to achieve specific goals and meet specific success criteria. Representative service offerings for this service include: Portfolio Investment Planning, Project Planning & Delivery, and Continuous Planning & Delivery."
+             }
+          ]
+        },
+        {
+            "type":"itm-140",
+            "data":[
+             {
+                "ID":"ITS.140.010",
+                "Activity":"Application Support",
+                "Description":"Application Support services provide the ongoing operational activities required to keep the application or service up and running, provide Tier 2 and Tier 3 technical support to more complex or difficulty user questions and requests. Application Support may also include minor development and validation of smaller application enhancements (e.g., minor changes, new reports)."
+             },
+             {
+                "ID":"ITS.140.020",
+                "Activity":"Central Print",
+                "Description":"Central Print services provide high-volume and advanced printing for invoices, product literature or other complex documents for mass distribution. Additional post-print services may include folding, envelope stuffing, postage and bundling to expedite distribution."
+             },
+             {
+                "ID":"ITS.140.030",
+                "Activity":"IT Training",
+                "Description":"IT Training provides educational services to the organization's users on how the access and effectively use the organization's business application services, as well as common productivity software and tools."
+             },
+             {
+                "ID":"ITS.140.040",
+                "Activity":"Service Desk",
+                "Description":"Service Desk provides a single point of contact to meet the support needs of users and the IT organization. Service Desk services provide end users with information and support related to IT products and services, usually to troubleshoot problems or provide guidance about products such as computers, electronic equipment, or software. Help desk support may be delivered through various channels such as phone, website, instant messaging, or email. Additional service delivery offerings include IT knowledge management, request fulfillment, desk-side and \"tech bar\" service offerings."
+             }
+          ]
+       }
+    ]
+ }

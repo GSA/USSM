@@ -27,6 +27,9 @@ This tagline will appear in your homepage
                                 {% if qsmos.contact %}
                                 <p style="font-size:12px;margin-top:6px;"><b>Contact</b>: <a href="mailto:{{ qsmos.contact }}">{{ qsmos.contact }}</a></p>
                                 {% endif %}
+                                {% if qsmos.marketplace %}
+                                <p style="font-size:12px;margin-top:5px;margin-bottom:2px;"><b>Marketplace</b>: <a href="https://{{ qsmos.marketplace }}">{{ qsmos.marketplace }}</a></p>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
