@@ -67,8 +67,8 @@
   height: 130px;
   width: 130px;
   transform: translate(-50%, -50%);
-  background-color: #112e51;
-  color: #fff;
+  background-color: #fff;
+  color: #474685;
   z-index: 3;
   border-radius: 100%;
   text-align: center
@@ -88,7 +88,7 @@
 .circle__usage h2 {
   transform: scale(1.75);
   top: 20%;
-  color: #fff
+  color: #474685
 }
 
 .circle .slice {
@@ -108,7 +108,6 @@
 
 .circle .slice:after {
   content: "";
-  background-color: #96999B;
   position: absolute;
   height: 175px;
   width: 175px;
@@ -147,6 +146,7 @@
 .circle .slice:nth-child(1) {
   transform: rotate(-37deg);
   transition-delay: 0.6s;
+  background-color: #66519e;
 }
 
 .circle .slice:nth-child(1):after {
@@ -169,6 +169,7 @@
 .circle .slice:nth-child(2) {
   transform: rotate(36deg);
   transition-delay: 0.4s;
+  background-color: #2e7abb;
 }
 
 .circle .slice:nth-child(2):after {
@@ -191,6 +192,7 @@
 .circle .slice:nth-child(3) {
   transform: rotate(108deg);
   transition-delay: 0.2s;
+  background-color: #039cc7;
 }
 
 .circle .slice:nth-child(3):after {
@@ -213,6 +215,7 @@
 .circle .slice:nth-child(4) {
   transform: rotate(179deg);
   transition-delay: 0s;
+  background-color: #03a389;
 }
 
 .circle .slice:nth-child(4):after {
@@ -238,7 +241,8 @@
 }
 
 .circle .slice:nth-child(5):after {
-  transition-delay: -0.2s
+  transition-delay: -0.2s;
+  background-color: #b77bb4;
 }
 
 .circle .slice:nth-child(5).is-active {
