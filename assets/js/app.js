@@ -71,7 +71,7 @@ jQuery(document).ready(function () {
             ElementsList: 'grants-data-elements',
             url:  prefixUrl.concat('/business-standards-api/grants'),
             hasSubsection: false
-        },       
+        },
         {
             accordian: 'travel-lifecycle',
             table: 'travel-capabilities',
@@ -124,7 +124,7 @@ function imageChecker(url){
         let UseCasesList = jQuery('#' + page.UseCasesList);
         let ElementsList = jQuery('#' + page.ElementsList);
         let PerformanceMetricsList = jQuery('#' + page.PerformanceMetricsList);
-            jQuery.get(page.url, function (result) {
+        jQuery.get(page.url, function (result) {
                     var jObject = JSON.parse(result);
                     if (page.hasSubsection) {
                         jObject = jObject[0];
@@ -224,18 +224,26 @@ var modal = document.getElementById('myModal');
 var img1 = document.getElementById('myImg');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
-img1.click = function () {
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
+if(img1){
+    img1.click = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
 }
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-    modal.style.display = "none";
+// // When the user clicks on <span> (x), close the modal
+if(span){
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
 }
 
 
+// When the user clicks on the Share button, show the FB, Twitter, Tumblr etc link
+$("#btnShare").click(function(){
+    $('#shareLinkUl').css('display','flex');
+    $(this).hide();
+});
