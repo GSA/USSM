@@ -53,17 +53,6 @@ site, this is the place to do it.
     ================================================== -->
   <title>{{title}}</title>
 
-  {% if page.layout contains "m3/" %}
-  <meta property='og:title' content='M3 Playbook | Introduction to Modernization and Migration Management'/>
-  <meta property='og:image' content='https://ussm.gsa.gov/assets/images/m3/m3-wider-social-media-image.png' />
-  {% else %}
-  <meta property='og:title' content='{{title}}'/>
-  <meta property='og:description' content='{{description}}'/>
-  {% endif %}
-
-  {% if ogimage %}
-  <meta property="og:image" content="{{ogimage}}">
-  {% endif %}
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
@@ -80,9 +69,21 @@ site, this is the place to do it.
   <meta name='twitter:image' content='https://ussm.gsa.gov/assets/images/m3/m3-wider-social-media-image.png' />
   <meta name='twitter:description' content='Transitions are difficult but you can be successful with sufficient planning and follow-through' />
   {% else %}
-  <meta name='twitter:title' content="{{title}}" />
+  <meta name='twitter:title' content="{{site.title}}" />
   {% endif %}
-  
+   
+  {% if page.layout contains "m3/" %}
+  <meta property='og:title' content='M3 Playbook | Introduction to Modernization and Migration Management'/>
+  <meta property='og:image' content='https://ussm.gsa.gov/assets/images/m3/m3-wider-social-media-image.png' />
+  {% else %}
+  <meta property='og:title' content='{{title}}'/>
+  <meta property='og:description' content='{{description}}'/>
+  {% endif %}
+
+  {% if ogimage %}
+  <meta property="og:image" content="{{ogimage}}">
+  {% endif %}
+
   <meta property="og:type" content="article">
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
