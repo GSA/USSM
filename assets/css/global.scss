@@ -94,7 +94,7 @@
 .circle .slice {
   height: 175px;
   width: 173px;
-  border-left: 2px solid #d2d3d5;
+  // border-left: 0 solid #d2d3d5;
   position: absolute;
   left: 50%;
   top: 0;
@@ -170,6 +170,7 @@
   transform: rotate(36deg);
   transition-delay: 0.4s;
   background-color: #2e7abb;
+  box-shadow: 5px 5px 5px 9px #48357c;
 }
 
 .circle .slice:nth-child(2):after {
@@ -193,6 +194,7 @@
   transform: rotate(108deg);
   transition-delay: 0.2s;
   background-color: #039cc7;
+  box-shadow: 5px 5px 5px 9px #1e5a8c;
 }
 
 .circle .slice:nth-child(3):after {
@@ -216,6 +218,7 @@
   transform: rotate(179deg);
   transition-delay: 0s;
   background-color: #03a389;
+  box-shadow: 5px 5px 5px 9px #1b6e85;
 }
 
 .circle .slice:nth-child(4):after {
@@ -238,11 +241,14 @@
 .circle .slice:nth-child(5) {
   transform: rotate(251deg);
   transition-delay: -0.2s;
+  box-shadow: 5px -30px 5px 9px #2b6d63;
 }
 
 .circle .slice:nth-child(5):after {
   transition-delay: -0.2s;
   background-color: #b77bb4;
+  left: 5px;
+  box-shadow: 5px -7px 5px 9px #42278b;
 }
 
 .circle .slice:nth-child(5).is-active {
