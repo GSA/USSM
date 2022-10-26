@@ -1,15 +1,1 @@
-{
-"100.TRT.L1.01.Domestic Trip with Date Change": "https://ussm.gsa.gov/assets/files/travel/TRT_Domestic_Trip.pdf",
-"100.TRT.L1.02.Year End Foreign Trip": "https://ussm.gsa.gov/assets/files/travel/TRT_Year_End_Foreign_Trip.pdf",
-"100.TRT.L1.03.US Government Funded Travel and Expense Management for Foreign Scientist": "https://ussm.gsa.gov/assets/files/travel/TRT_US_Government_Funded_Travel_for_Foreign_Scientist.pdf",
-"100.TRT.L1.04.Investigator Conducting Local Interviews": "https://ussm.gsa.gov/assets/files/travel/TRT_Investigator_Conducting.pdf",
-"100.TRT.L1.05.Visit to Department Field Office": "https://ussm.gsa.gov/assets/files/travel/TRT_Visit_to_Department_Field_Office.pdf",
-"100.TRT.L1.06.New Employee Attending Conference": "https://ussm.gsa.gov/assets/files/travel/TRT_New_Employee_Attending.pdf",
-"100.TRT.L1.07.Trip Combined with Personal Travel and Expense Management": "https://ussm.gsa.gov/assets/files/travel/TRT_Trip_Combined_with_Personal_Travel.pdf",
-"100.TRT.L1.08.Travel and Expense Management Reporting": "https://ussm.gsa.gov/assets/files/travel/TRT_Travel_Reporting.pdf",
-"100.TRT.L2.01.Cancelled TDY for Special Needs Traveler": "https://ussm.gsa.gov/assets/files/travel/TRT_Cancelled_TDY.pdf",
-"100.TRT.L2.02.TDY Travel and Expense Management to Multiple Locations": "https://ussm.gsa.gov/assets/files/travel/TRT_TDY_Travel_to_Multiple_Locations.pdf",
-"100.TRT.L2.03.Sponsored Travel and Expense Management to Conf During Special Events": "https://ussm.gsa.gov/assets/files/travel/TRT_Sponsored%20Travel_to_Conf_During_Special_Events.pdf",
-"100.TRT.L2.04.Remote Foreign Travel and Expense Management with Family Emergency": "https://ussm.gsa.gov/assets/files/travel/Remote_Foreign_Travel.pdf",
-"100.TRT.L2.05.Trip During Long-Term TDY": "https://ussm.gsa.gov/assets/files/travel/TRT_Trip_During_Long-Term_TDY.pdf"
-}
+{{ site.data.trt.Business_Use_Cases | remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}

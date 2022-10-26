@@ -1,0 +1,26 @@
+<section id="main-content__tag-line" class="usa-section usa-section--dark usa-graphic-list padding-y-3 bg-gradient">
+    <div {% if include.go_back_url and page.url != "{{include.go_back_url}}" %} class="grid-container usa-graphic-list__row ogp-current" {% else %} class="grid-container usa-graphic-list__row" {% endif %}>
+        <div class="grid-col-12 usa-media-block">
+            <a href="{{site.baseurl}}{% if include.go_back_url  %}{{include.go_back_url}}{% else %}{{page.url}}{% endif %}" class="display-flex flex-row flex-align-center">
+                <span class="text-white margin-right-4 margin-top-105">
+                    <img
+                        class="width-10"
+                        src="{{ site.baseurl }}/assets/images/video-card/tv-solid.svg"
+                        alt=""
+                    />
+                </span>
+                <span>
+                    <h1 class="font-sans-xl text-black" >
+                        <b>{{include.title}}</b>
+                    </h1>
+                    {% if include.sub_title %}
+                    <div class="tag-line-subtitle font-sans-xl text-white" >
+                        <b>{{include.sub_title}}</b>
+                    </div>
+                </span>
+               
+                {% endif %}
+            </a>                
+        </div>
+    </div>
+</section>
