@@ -1,0 +1,48 @@
+{% if page.url contains "grm" %} 
+    {% assign bs = site.data.grants.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+{% if page.url contains "acq" %} 
+    {% assign bs = site.data.acq.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+{% if page.url contains "eeo" %} 
+    {% assign bs = site.data.eeo.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+{% if page.url contains "erm" %} 
+    {% assign bs = site.data.erm.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+{% if page.url contains "ffm" %} 
+    {% assign bs = site.data.fm.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+{% if page.url contains "rpm" %} 
+    {% assign bs = site.data.rpm.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+{% if page.url contains "trt" %} 
+    {% assign bs = site.data.trt.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+{% if page.url contains "cyb/cvd/" %} 
+    {% assign bs = site.data.cvd.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+{% if page.url contains "cyb/soc/" %} 
+    {% assign bs = site.data.soc.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+{% if page.url contains "hr" %} 
+    {% assign bs = site.data.hr_benefits.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+{% if page.url contains "its" %} 
+    {% assign bs = site.data.its.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
+
+
+
+{{bs["data"] | replace: "=>", ":" }}

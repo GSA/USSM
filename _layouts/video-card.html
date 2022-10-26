@@ -1,0 +1,116 @@
+---
+layout: default
+
+---
+
+{% comment %}
+This is an example showing how you can load date from the _data/ folder
+{% endcomment %}
+
+{% include video-card/tag-line.html title = "Learn About Shared Services" sub_title = page.title go_back_url = '/video-center/' %}
+<script src="{{ base.url | prepend: site.url }}/assets/js/shareButton.js"></script>
+
+<div class="usa-layout-docs usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="grid-col-12 desktop:grid-col-9">
+        {% for single_video in site.data.videos.videos %}
+          {% assign item_name = page.url | split:"/" | last %}
+          {% if item_name == single_video.page_name %}
+            <div id="ogp-usa-card__container">
+              <div class="usa-card__media">
+                  <div class="usa-card__img">
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="{{ single_video.video_link }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="QSMOs and the Trail to Mission Success"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                  </div>
+              </div>
+              <div class="margin-top-05">
+                  <a  class="text-black ogp-card__link--unset" href="{{ site.baseurl }}{{single_video.directory}}{{single_video.page_name}}">
+                      <b>{{single_video.title}} </b>
+                  </a>
+                  <button type="button" class="usa-button usa-button--outline float-right"  id="btnShare">Share</button>
+                  <ul class="usa-button-group usa-button-group--segmented float-right display-none" id="shareLinkUl">
+                    <li class="usa-button-group__item">
+                      <button type="button" class="usa-button" title="Share on Facebook" 
+                          target="popup" 
+                          onclick="window.open('https:\/\/facebook.com/sharer/sharer.php?kid_directed_site=0&amp;sdk=joey&amp;u=https://ussm.gsa.gov{{single_video.directory}}{{single_video.page_name}}&amp;display=popup&amp;ref=plugin&amp;src=share_button','popup','width=600,height=600');return false;"
+                          id="u_0_1_Th">
+                        <i class="fab fa-facebook-f"></i>
+                      </button>
+                    </li>
+                    <li class="usa-button-group__item">
+                        <button type="button" class="usa-button" title="Share on Twitter" 
+                          target="popup"
+                          onclick="window.open('https:\/\/twitter.com/intent/tweet?original_referer=https://ussm.gsa.gov&amp;ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&amp;url=https://ussm.gsa.gov{{single_video.directory}}{{single_video.page_name}}','popup','width=600,height=600');return false;"
+                          id="b">
+                          <i class="fab fa-twitter"></i>
+                        </button>
+                    </li>
+                    <li class="usa-button-group__item">
+                      <button type="button" class="usa-button" title="Share on Tumblr" 
+                        target="popup"
+                        onclick="window.open('https:\/\/www.tumblr.com/widgets/share/tool?canonicalUrl=https://ussm.gsa.gov{{single_video.directory}}{{single_video.page_name}}&amp;title={{single_video.title}}','popup','width=600,height=600');return false;">
+                        <i class="fab fa-tumblr"></i>
+                      </button>
+                    </li>
+                    <li class="usa-button-group__item">
+                      <a type="button" class="usa-button" title="Share by Email" 
+                        href="mailto:?subject=Check out this Shared Services video&amp;body=I found a nice video on Shared Services that I'd like you to know about. You can watch it here : https://ussm.gsa.gov{{single_video.directory}}{{single_video.page_name}} %0D%0A %0D%0A">
+                        <i class="far fa-envelope"></i>
+                      </a>
+                    </li>
+                  </ul>
+              </div>
+              <div>
+                  <div>
+                      <span>
+                          <img
+                              class="width-105"
+                              src="{{ site.baseurl }}/assets/images/video-card/circle-solid-{{single_video.tag_color}}.svg"
+                              alt="{{single_video.tag_color}} tag color"
+                          />
+                      </span>
+                      <sapn> {{single_video.tag}} </sapn>
+                  </div>
+                  <div>
+                      <span>
+                          <img
+                              class="width-105"
+                              src="{{ site.baseurl }}/assets/images/video-card/clock-regular.svg"
+                              alt="Last updated time"
+                          />
+                      </span>
+                      <span> {{single_video.last_updated}}</span>
+                  </div>
+              </div>
+
+              <div class="ussm-description-text">
+                  <p class="ussm-description-header"><b>Description</b></p>
+                  <div>
+                      <sapn> {{single_video.description}} </sapn>
+                  </div>
+                  <div class="ussm-related-links">
+                      {% for link_content in single_video.related_links %}
+                        <a href="{{ link_content }}" aria-label="{{ link_content }}">{{ link_content }}</a>
+                      {% endfor %}
+                  </div>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="grid-col-12 desktop:grid-col-3">
+        <ul class="usa-card-group">
+          {% for each_video in site.data.videos.videos %}
+            {% assign item_name = page.url | split:"/" | last %}
+            {% if item_name != each_video.page_name %}
+              {% include video-card/video-card-sidebar.html video_data = each_video %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="grid-col-12 text-right">
+        <a href="#">Return to top</a>
+      </div>
+    </div>
+  </div>
+</div>

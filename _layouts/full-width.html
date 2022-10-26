@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+{% include meta.html %}
+<body class="m3-page">
+<div class="m3-content">
+  {% include header.html %}
+  {% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
+  <div style="border-top:1px solid #dfe1e2"></div>
+  <section  id="main-content">
+      {{ content }}
+  </section>
+  <div class="grid-container">
+    <div class="grid-row grid-gap space-between">
+      <div class="desktop:grid-col-12 margin-bottom-2">
+        <a href="#main-content">Return to top</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% include footer.html %}
+
+{% include scripts.html %}
+</body>
+
+</html>
