@@ -76,13 +76,19 @@ site, this is the place to do it.
   <meta property='og:url' content='https://ussm.gsa.gov/video-center/'/>
   {% endif %}
 
+  {% if page.url contains "fibf" %}
+  {% assign custom_title = true %}
+  <meta property='og:title' content="{{site.title}}" />
+  <meta property='og:image' content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png">
+  <meta property='og:description' content="{{site.description}}" />
+  <meta property='og:url' content='https://ussm.gsa.gov/fibf/'/>
+  {% endif %}
+
   {% if custom_title == false %}
     {% if ogimage %}
     <meta property="og:image" content="{{ogimage}}">
   {% endif %}
     <meta property="og:title" content="{{title | slice: 0, 59}}">
-    <meta name="description" content="{{description}}">
-    <meta property="og:description" content="{{description}}">
   {% endif %}
   
   <meta name="twitter:card" content="summary_large_image" />
@@ -107,9 +113,8 @@ site, this is the place to do it.
   {% if ogimage %}
   <meta property="og:image" content="{{ogimage}}">
   {% endif %}
-  <meta name="twitter:title" content="{{site.title | slice: 0, 59}}" />
+  <meta name="twitter:title" content="{{title | slice: 0, 59}}" />
   <!-- <meta name="twitter:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png"> -->
-  <meta name="twitter:description" content="{{site.description}}" />
   {% endif %}
   <meta property="og:type" content="article">
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
