@@ -71,7 +71,20 @@
   color: #474685;
   z-index: 3;
   border-radius: 100%;
-  text-align: center
+  text-align: center;
+  box-shadow: 7px 5px 5px -4px #5b5372;
+}
+.circle-semitrans{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 150px;
+  width: 150px;
+  transform: translate(-50%, -50%);
+  background-color: #e4dcdc61;
+  z-index: 3;
+  border-radius: 100%;
+  text-align: center;
 }
 
 .circle__usage strong,
