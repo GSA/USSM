@@ -84,11 +84,20 @@ site, this is the place to do it.
   <meta property='og:url' content='https://ussm.gsa.gov/fibf/'/>
   {% endif %}
 
+   {% if page.url == "/more-about-shared-services/" %}
+  {% assign custom_title = true %}
+  <meta property='og:title' content="What are Shared Services? - Learn about the Federal Government's Shared Services efforts"" />
+  <meta property='og:image' content="https://ussm.gsa.gov/assets/images/fibf/SM-WhatAreSharedServices600x300.png">
+  <meta property='og:description' content="A 3-part approach to delivering on the Federal government's vision for shared services." />
+  <meta property='og:url' content='https://ussm.gsa.gov/more-about-shared-services/'/>
+  {% endif %}
+
   {% if custom_title == false %}
     {% if ogimage %}
     <meta property="og:image" content="{{ogimage}}">
   {% endif %}
     <meta property="og:title" content="{{title | slice: 0, 59}}">
+     <meta property="og:description" content="">
   {% endif %}
   
   <meta name="twitter:card" content="summary_large_image" />
@@ -115,6 +124,7 @@ site, this is the place to do it.
   {% endif %}
   <meta name="twitter:title" content="{{title | slice: 0, 59}}" />
   <!-- <meta name="twitter:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png"> -->
+  <meta name='twitter:description' content='' />
   {% endif %}
   <meta property="og:type" content="article">
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
