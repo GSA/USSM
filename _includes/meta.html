@@ -91,7 +91,7 @@ site, this is the place to do it.
   <meta property="og:image" content="https://ussm.gsa.gov/assets/images/fibf/SM-WhatAreSharedServices600x300.png">
   <meta property="og:description" content="A 3-part approach to delivering on the Federal government's vision for shared services." />
   <meta property="og:url" content="https://ussm.gsa.gov/more-about-shared-services/"/>
-  {% elsif page.url == "/marketplace/grm" %}
+  {% elsif page.url contains "/grm" %}
   {% assign custom_title = true %}
   <meta property="og:title" content="{{ogtitle | slice: 0, 59}}" />
   <meta property="og:image" content="{{ogimage}}">
