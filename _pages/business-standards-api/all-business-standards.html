@@ -5,36 +5,43 @@ permalink: /business-standards-api/
 [{
 "Business-Standards": "Financial Management Standards",
 "Business Lifecycle": {% raw %}[{{% endraw %}
-{% for post in site.fm %}
-"{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% for post in site.data.fm.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>'  | replace: "=>", ":"  | strip_newlines  }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% raw %}}],{% endraw %}
 "Business Capabilities": [{% include business-standards-api/fm/fm-capabilities.html %}],
 "Business Use Cases": [{% include business-standards-api/fm/fm-use-cases.html %}],
 "Standard Data Elements": [{% include business-standards-api/fm/fm-data-elements.html %}],
-"Performance Metrics": {% include business-standards-api/fm/fm-performance-metrics.html %}
+"Service Measures": {% include business-standards-api/fm/fm-performance-metrics.html %}
 },
 {
 "Business-Standards": "HR",
 "Sub-section":"Compensation and Benefits",
 "Business Lifecycle": [{% raw %}{{% endraw %}
-{% for post in site.hr %}
-"{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
-{% endfor %}
+{% for post in site.data.hr_benefits.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},
+{% endunless %}{% endfor %}
 {% raw %}}{% endraw %}],
 "Business Capabilities": [{% include business-standards-api/hr/benefits/hr-capabilities.html %}],
 "Business Use Cases": {% include business-standards-api/hr/benefits/hr-use-cases.html %},
 "Standard Data Elements": {% include business-standards-api/hr/benefits/hr-data-elements.html %},
-"Performance Metrics": {% include business-standards-api/hr/benefits/hr-performance-metrics.html %}
+"Service Measures": {% include business-standards-api/hr/benefits/hr-performance-metrics.html %}
 },
 {
 "Business-Standards": "HR",
-"Sub-section":"Talent Acquisition",
+"Sub-section":"Talent Acquisition":[{% raw %}{{% endraw %}
+{% for post in site.data.hr_acquisition.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% endfor %} ,
+{% for post in site.data.hr_benefits.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},
+{% endunless %}{% endfor %}
+{% raw %}}{% endraw %}],
 "Business Lifecycle": {% include business-standards-api/hr/benefits/hr-use-cases.html %},
 "Business Capabilities": {% include business-standards-api/hr/benefits/hr-use-cases.html %},
 "Business Use Cases": {% include business-standards-api/hr/benefits/hr-use-cases.html %},
 "Standard Data Elements": {% include business-standards-api/hr/benefits/hr-data-elements.html %},
-"Performance Metrics": {% include business-standards-api/hr/acquisition/hr-performance-metrics.html %}
+"Service Measures": {% include business-standards-api/hr/acquisition/hr-performance-metrics.html %}
 },
 {
 "Business-Standards": "HR",
@@ -43,7 +50,7 @@ permalink: /business-standards-api/
 "Business Capabilities": {% include business-standards-api/hr/benefits/hr-use-cases.html %},
 "Business Use Cases": {% include business-standards-api/hr/benefits/hr-use-cases.html %},
 "Standard Data Elements": {% include business-standards-api/hr/benefits/hr-data-elements.html %},
-"Performance Metrics": {% include business-standards-api/hr/benefits/hr-performance-metrics.html %}
+"Service Measures": {% include business-standards-api/hr/benefits/hr-performance-metrics.html %}
 },
 {
 "Business-Standards": "HR",
@@ -52,86 +59,86 @@ permalink: /business-standards-api/
 "Business Capabilities": {% include business-standards-api/hr/benefits/hr-use-cases.html %},
 "Business Use Cases": {% include business-standards-api/hr/benefits/hr-use-cases.html %},
 "Standard Data Elements": {% include business-standards-api/hr/benefits/hr-data-elements.html %},
-"Performance Metrics": {% include business-standards-api/hr/benefits/hr-performance-metrics.html %}
+"Service Measures": {% include business-standards-api/hr/benefits/hr-performance-metrics.html %}
 },
 {
 "Business-Standards": "Procurement Standards",
 "Business Lifecycle": {% raw %}[{{% endraw %}
-{% for post in site.procurement %}
-"{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% for post in site.data.acq.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% raw %}}],{% endraw %}
 "Business Capabilities": [{% include business-standards-api/acq/acq-capabilities.html %}],
 "Business Use Cases": {% include business-standards-api/acq/acq-use-cases.html %},
 "Standard Data Elements": [{% include business-standards-api/acq/acq-data-elements.html %}],
-"Performance Metrics": {% include business-standards-api/acq/acq-performance-metrics.html %}
+"Service Measures": {% include business-standards-api/acq/acq-performance-metrics.html %}
 },
 {
 "Business-Standards": "Grants Management Standards",
 "Business Lifecycle": {% raw %}[{{% endraw %}
-{% for post in site.grants %}
-"{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% for post in site.data.grants.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% raw %}}],{% endraw %}
 "Business Capabilities": [{% include business-standards-api/grants/grants-capabilities.html %}],
 "Business Use Cases": [{% include business-standards-api/grants/grants-use-cases.html %}],
 "Standard Data Elements": [{% include business-standards-api/grants/grants-data-elements.html %}],
-"Performance Metrics": {% include business-standards-api/grants/grants-performance-metrics.html %}
+"Service Measures": {% include business-standards-api/grants/grants-performance-metrics.html %}
 },
 {
 "Business-Standards": "Electronic Records Management",
 "Business Lifecycle": {% raw %}[{{% endraw %}
-{% for post in site.erm %}
-"{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% for post in site.data.erm.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% raw %}}],{% endraw %}
 "Business Capabilities": [{% include business-standards-api/erm/erm-capabilities.html %}],
 "Business Use Cases": [{% include business-standards-api/erm/erm-use-cases.html %}],
 "Standard Data Elements": {% include business-standards-api/erm/erm-data-elements.html %},
-"Performance Metrics": {% include business-standards-api/erm/erm-performance-metrics.html %}
+"Service Measures": {% include business-standards-api/erm/erm-performance-metrics.html %}
 },
 {
 "Business-Standards": "Travel and Expense Management Standards",
 "Business Lifecycle": {% raw %}[{{% endraw %}
-{% for post in site.travel %}
-"{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% for post in site.data.trt.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% raw %}}],{% endraw %}
 "Business Capabilities": [{% include business-standards-api/travel/travel-capabilities.html %}],
 "Business Use Cases": [{% include business-standards-api/travel/travel-use-cases.html %}],
 "Standard Data Elements": [{% include business-standards-api/travel/travel-data-elements.html %}],
-"Performance Metrics": {% include business-standards-api/travel/travel-performance-metrics.html %}
+"Service Measures": {% include business-standards-api/travel/travel-performance-metrics.html %}
 }{
 "Business-Standards": "Cybersecurity Standards",
 "Sub-section":"Coordinated Vulnerability Disclosure",
 "Business Lifecycle": {% raw %}[{{% endraw %}
-{% for post in site.cyb-cvd %}
-"{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% for post in site.data.cvd.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% raw %}}],{% endraw %}
 "Business Capabilities": [{% include business-standards-api/cyb/cvd/cvd-capabilities.html %}],
 "Business Use Cases": {% include business-standards-api/cyb/cvd/cvd-use-cases.html %},
 "Standard Data Elements": {% include business-standards-api/cyb/cvd/cvd-data-elements.html %},
-"Performance Metrics": {% include business-standards-api/cyb/cvd/cvd-performance-metrics.html %}
+"Service Measures": {% include business-standards-api/cyb/cvd/cvd-performance-metrics.html %}
 },
 {
 "Business-Standards": "Cybersecurity Standards",
 "Sub-section":"Security Operations Center",
 "Business Lifecycle": {% raw %}[{{% endraw %}
-{% for post in site.cyb-soc %}
-"{{post.type |strip_newlines}}": {{ post.content |  remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% for post in site.data.soc.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% raw %}}],{% endraw %}
 "Business Capabilities": [{% include business-standards-api/cyb/soc/soc-capabilities.html %}],
 "Business Use Cases": {% include business-standards-api/cyb/soc/soc-use-cases.html %},
 "Standard Data Elements": {% include business-standards-api/cyb/soc/soc-data-elements.html %},
-"Performance Metrics": {% include business-standards-api/cyb/soc/soc-performance-metrics.html %}
+"Service Measures": {% include business-standards-api/cyb/soc/soc-performance-metrics.html %}
 },
 {
 "Business-Standards": "IT Services",
 "Business Lifecycle": {% raw %}[{{% endraw %}
-{% for post in site.it-services %}
-"{{post.type |strip_newlines}}": {{ post.content | remove: '<p>' | remove: '</p>' | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% for post in site.data.its.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% raw %}}]{% endraw %}
 }]
