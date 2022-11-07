@@ -558,7 +558,7 @@
           "Activity Name":"FFM.010.010 Budget Set-Up and Maintenance",
           "Input/Output/Process":"DI",
           "Business Capability Statement":"Provide budgetary resource reporting attributes (for example, Treasury Account Fund Symbol, expired, and unexpired) consistent with the budget execution activities as defined in OMB Circular No. A-11.",
-          "Authoritative Reference":"OMB Circular No. A-11, Part 4, Instructions on Budget Execution; OMB Circular No. A-11, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR; OMB Circular No. A-11, Part 4, Section 130, SF 133, Report on Budget Execution and Budgetary Resources; SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting"
+          "Authoritative Reference":"OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 130, SF 133, Report on Budget Execution and Budgetary Resources;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Appendix H, Checklist for Fund Control Regulations, Section 4: Definitions, Terminology, and Concepts;SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting."
        },
        {
           "Capability ID":"FFMSR.2.1.1.2",
@@ -606,7 +606,7 @@
           "Activity Name":"FFM.010.030 Budgetary Reporting",
           "Input/Output/Process":"DO",
           "Business Capability Statement":"Provide budgetary resource and budget execution data as specified in the TFM to support the budget reporting activities defined in OMB Circular No. A-11, OMB Circular No. A-136, and the FASAB Handbook.",
-          "Authoritative Reference":"OMB Circular No. A-11, Part 4, Instructions on Budget Execution; OMB Circular No. A-11, Part 4, Instructions on Budget Execution, Section 120.29 – Who is responsible for preparing the apportionment request for allocation (parent/child) accounts?; OMB Circular No. A-11, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR; OMB Circular No. A-136, Financial Reporting Requirements, Number II.4.6, Statement of Budgetary Resources; TFM Volume I, Part 2, Chapter 4200 Agency Year-end Reporting on Unexpended Balances of Appropriation Accounts; SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting; TFM Volume I, Part 6, Chapter 2100 Fiscal Service Data Registry \n\nAdditional Reference(s)\n FFMSR 2.3.2 Verifying Traceability"
+          "Authoritative Reference":"OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 120.29;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR;OMB Circular No. A-136, Financial Reporting Requirements, Number II.3.5, Statement of Budgetary Resources;TFM Volume I, Part 2, Chapter 4200 Agency Year-end Reporting on Unexpended Balances of Appropriation Accounts;TFM Volume I, Part 6, Chapter 2100 Fiscal Service Data Registry;SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting;SFFAS 53: Budget and Accrual Reconciliation."
        },
        {
           "Capability ID":"FFMSR.2.2.1.1",
@@ -622,15 +622,15 @@
           "Activity Name":"FFM.030.010 Payee Set-Up and Maintenance",
           "Input/Output/Process":"DI",
           "Business Capability Statement":"Capture federal government unique payment information (for example, appropriation and fund) to support payment reports consistent with the TFM.",
-          "Authoritative Reference":"TFM Volume I, Part 2, Chapter 3100 Instructions for Disbursing Officers' Reports; TFM Volume I, Part 6, Chapter 2100 Fiscal Service Data Registry"
+          "Authoritative Reference":"TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Agencies;TFM Volume I, Part 6, Chapter 2100 Fiscal Service Data Registry;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 120.65;48 CFR 32, Contract Financing."
        },
        {
           "Capability ID":"FFMSR.2.2.1.3",
           "Function":"FFM.030 Payable Management",
           "Activity Name":"FFM.030.020 Obligation Management",
           "Input/Output/Process":"P",
-          "Business Capability Statement":"Determine proper payable amount and other payable information consistent with FASAB Handbook and as specified in the TFM.",
-          "Authoritative Reference":"TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service; TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Agencies, Section 2070 Preaudit of Vouchers; SFFAS 1: Accounting for Selected Assets and Liabilities; SFFAS 2: Accounting for Direct Loans and Loan Guarantees; SFFAS 5: Accounting for Liabilities of the Federal Government; SFFAS 12: Recognition of Contingent Liabilities Arising from Litigation: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government; SFFAS 17: Accounting for Social Insurance; SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; SFFAS 19: Technical Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2"
+          "Business Capability Statement":"Determine proper payable amount and other payable information consistent with FASAB Handbook, 48 CFR 32, and Federal Acquisition Regulation (FAR) and as specified in the TFM.",
+          "Authoritative Reference":"TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Agencies, Section 2070 Preaudit of Vouchers;TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service;SFFAS 1: Accounting for Selected Assets and Liabilities;SFFAS 2: Accounting for Direct Loans and Loan Guarantees;SFFAS 5: Accounting for Liabilities of the Federal Government;SFFAS 12: Recognition of Contingent Liabilities Arising from Litigation: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government;SFFAS 17: Accounting for Social Insurance;SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;SFFAS 19: Technical Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;SFFAS 51: Insurance Programs;48 CFR 32, Contract Financing;FAR 32.905, Payment Documentation and Process"
        },
        {
           "Capability ID":"FFMSR.2.2.1.4",
