@@ -2,60 +2,50 @@
     "Business-Standards":"Financial Management Standards",
     "Business_Lifecycle":[
        {
-        "type":"ffm-010",
-        "data":[
-             {
-                "ID":"FFM.010.010",
-                "Activity":"Budget Set-Up and Maintenance",
-                "Description":"Establish budgetary resource reporting attributes; Record appropriated fund subdivisions before any of the appropriated funds are expended; Includes recording appropriation warrants, apportionments, allotments, allowances, allocations, reapportionments, transfer allocations, continuing resolutions, rescissions, and reprogramming actions; Includes setting up direct and reimbursable funding."
-             },
-             {
-                "ID":"FFM.010.020",
-                "Activity":"Fund Allocation and Control",
-                "Description":"Implement controls designed to detect or prevent overspending for defined accounting segments; Execute statutory limitation control of funds restricting obligations and expenditures to amounts authorized by law; Execute administrative control of funds restricting obligation and expenditure from each account to the lower of the amount apportioned by OMB or the amount available for obligation and/or expenditure; Update funds control rules"
-             },
-             {
-                "ID":"FFM.010.030",
-                "Activity":"Budgetary Reporting",
-                "Description":"Perform budgetary resource and budget execution analysis; Provide budgetary resource and budget execution information and reports; Verify required budget reports can be traced to general ledger account balances; Includes generating SF-132 and SF-133 and providing information needed for Budget Formulation."
-             }
-          ]
-        },
-        {
-         "type":"ffm-020",
-         "data":[
-             {
-                "Identifier":"FFM.020.010",
-                "Activity":"Financial Asset Information Processing - Property, Plant, and Equipment",
-                "Description":"Record financial asset type, category, value, and value adjustments (e.g., depreciation, impairment); Includes financial asset information processing for purchase and lease transactions, inventory, and software"
-             },
-             {
-                "Identifier":"FFM.020.020",
-                "Activity":"Financial Asset Information Processing - Loans",
-                "Description":"Record financial asset type, category, value, and value adjustments (e.g., allowance for uncollectible amounts, subsidy allowance)"
-             },
-             {
-                "Identifier":"FFM.020.030",
-                "Activity":"Financial Asset Information Processing - Heritage Assets and Stewardship Land",
-                "Description":"Record financial asset type, category, value, and value adjustments (e.g., depreciation, impairment)"
-             },
+         "type":"ffm-010",
+          "data":[
+              {
+                "ID": "FFM.010.010",
+                "Activity": "Budget Set-Up and Maintenance",
+                "Description": "Establish and maintain budgetary resource reporting attributes; Receive agency spend and operating plan; Establish and maintain appropriated fund subdivisions and associated funding levels before any of the appropriated funds are obligated, expended, or disbursed according to OMB apportionments and agency spend and operating plan; Set up the funds control structure, levels, and accounting segments; Record the Treasury Accounting Fund Symbol (TAFS)/ Program/ Project/ Activity (PPA) information and organizational information for fund subdivisions; Includes setting up direct, reimbursable, revolving, contract, borrowing, financing, liquidating, advanced appropriation, anticipated collections, and non- expenditure transfer funds; Includes recording appropriation warrants, apportionments, allotments, sub-allotments, allowances, allocations, reapportionments, transfer allocations, continuing resolutions, rescissions, and reprogramming actions"
+              },
+              {
+                "ID": "FFM.010.030",
+                "Activity": "Budgetary Reporting",
+                "Description": "Perform budgetary resource and budget execution analysis; Verify required budgetary resource and budget execution reporting information can be traced to general ledger account balances; Provide reviewed and approved cumulative budgetary resource and budget execution information to governing financial management authorities (e.g., OMB) for generation of SF-132 and SF-133; Provide reports of impacts from unusual events, such as sequestration, rescission, and deferrals; Provide reports on Antideficiency Act violations; Includes providing information needed for Budget Formulation"
+              }
+             ]
+          },
+       {
+          "type":"ffm-020",
+          "data":[
+              {
+                "Identifier": "FFM.020.010",
+                "Activity": "Financial Asset Information Processing - Property, Plant, and Equipment",
+                "Description": "Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments (e.g., depreciation, impairment); Includes financial asset information processing for purchase and lease transactions, inventory, constructed assets, and software"
+              },
+              {
+                "Identifier": "FFM.020.020",
+                "Activity": "Financial Asset Information Processing - Loans",
+                "Description": "Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments (e.g., allowance for uncollectible amounts, subsidy allowance)"
+              },
+              {
+                "Identifier": "FFM.020.030",
+                "Activity": "Financial Asset Information Processing - Heritage Assets and Stewardship Land",
+                "Description": "Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments (e.g., depreciation, impairment)"
+              },
              {
                 "Identifier":"FFM.020.040",
                 "Activity":"Financial Asset Information Processing - Federal Oil and Gas Resources",
-                "Description":"Record financial asset type, category, value, and value adjustments"
+                "Description":"Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments"
              },
              {
                 "Identifier":"FFM.020.050",
                 "Activity":"Financial Asset Information Processing - Other Federal Assets",
-                "Description":"Record financial asset type, category, value, and value adjustments; Includes financial asset information processing for seized and forfeited assets and investments in Treasury securities"
-             },
-             {
-                "Identifier":"FFM.020.060",
-                "Activity":"Financial Asset Information Reporting",
-                "Description":"Provide financial asset information for balance sheet and financial statement reporting"
+                "Description":"Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments; Includes financial asset information processing for seized and forfeited assets and investments in Treasury securities"
              }
           ]
-        },
+       },
         {
           "type":"ffm-030",
           "data":[
