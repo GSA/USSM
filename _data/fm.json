@@ -106,7 +106,7 @@
              },
              {
                 "Identifier":"FFM.030.100",
-                "Activity":"Payment Processing - Other Payments (Loans, Foreign, and Miscellaneous Payments)",
+                "Activity":"Payment Processing - Other Payments",
                 "Description":"Record receiving reports; Record invoices; Match invoice, order, and receiving report (as appropriate); Route invoices for approval by appropriate party (if needed); Complete foreign exchange conversions for foreign payments; Generate payment transactions; Resolve invoice and payment issues; Record payment adjustments; Audit payments; Includes processing payments for incurred expenses and payments in advance; Includes capturing payment information for other forms of financial assistance as required to support the Digital Accountability and Transparency Act of 2014 (DATA Act)  and Coronavirus Aid, Relief and Economic Security Act of 2019 (CARES Act)"
              },
              {
@@ -605,7 +605,7 @@
           "Function":"FFM.010 Budget Execution",
           "Activity Name":"FFM.010.030 Budgetary Reporting",
           "Input/Output/Process":"DO",
-          "Business Capability Statement":"Provide budgetary resource and budget execution data as specified in the TFM to support the budget reporting activities defined in OMB Circular No. A-11, OMB Circular No. A-136, and the FASAB Handbook.",
+          "Business Capability Statement":"Provide reviewed and approved  budgetary resource and budget execution data to support budget reporting activities as specified in the TFM, OMB Circular No. A-11, OMB Circular No. A-136, and the FASAB Handbook.",
           "Authoritative Reference":"OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 120.29;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR;OMB Circular No. A-136, Financial Reporting Requirements, Number II.3.5, Statement of Budgetary Resources;TFM Volume I, Part 2, Chapter 4200 Agency Year-end Reporting on Unexpended Balances of Appropriation Accounts;TFM Volume I, Part 6, Chapter 2100 Fiscal Service Data Registry;SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting;SFFAS 53: Budget and Accrual Reconciliation."
        },
        {
