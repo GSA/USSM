@@ -1,3 +1,9 @@
+---
+layout: base
+permalink: /shared-services-lessons-learned/
+title: Knowledge Library
+---
+
 Knowledge Library - Resources, Guidance, and Lessons Learned
 
 This Knowledge Library serves as a compendium of resources, guidance, and lessons learned to improve stakeholder understanding of the recommended practices and methods to drive successful agency use of shared services across common functions.
