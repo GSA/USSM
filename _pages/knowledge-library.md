@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 permalink: /shared-services-lessons-learned/
 title: Knowledge Library
 ---
