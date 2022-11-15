@@ -8,19 +8,19 @@ title: Knowledge Library
 
 <p>This Knowledge Library serves as a compendium of resources, guidance, and lessons learned to improve stakeholder understanding of the recommended practices and methods to drive successful agency use of shared services across common functions.</p>
 
-<div>[OMB Memo M-19-16](https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf){:target="_blank"}</div>
+[OMB Memo M-19-16](https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf){:target="_blank"}
 <div>Foundational policy memo outlining the next steps in a continuously evolving vision for enabling agencies to fully leverage and benefit of shared and centralized services in delivering on their mission-support responsibilities.</div>
 
-<div>[Advancing the PMA through Shared Services](https://ussm.gsa.gov/assets/files/PMA%20Placemat.pdf)</div>
+[Advancing the PMA through Shared Services](https://ussm.gsa.gov/assets/files/PMA%20Placemat.pdf)
 <div>A one-page placemat to help agencies, policymakers, and industry stakeholders better understand the role that shared services can play as a lever for advancing the priorities of the President's Management Agenda.</div>
 
-<div>[Video Center - Learn About Shared Services](https://ussm.gsa.gov/video-center/)</div>
+[Video Center - Learn About Shared Services](https://ussm.gsa.gov/video-center/)
 <div>Easy to view 2-minute videos that summarize what shared services are and how the Federal government is currently organizing around them.</div>
 
-<div>[Long-term Designation Criteria](https://ussm.gsa.gov/assets/files/QSMO-Long-term-Designation-Criteria.pdf)</div>
+[Long-term Designation Criteria](https://ussm.gsa.gov/assets/files/QSMO-Long-term-Designation-Criteria.pdf)
 <div>A set of long-term criteria across key dimensions of Finance, Organization, Operations, Program Management, and Technology that serve as key maturity indicators in any organization that would deliver or organize around the delivery of shared services to the agency community.</div>
 
-<div>[M3 Playbook](https://ussm.gsa.gov/m3/)</div>
+[M3 Playbook](https://ussm.gsa.gov/m3/)
 <div>Transitions are difficult but agencies can be successful with sufficient planning and follow-through. The Modernization and Migration Management framework will help agencies achieve successful outcomes and reduce risk during administrative system and/or service modernizations and migrations.  M3 was developed based on feedback from over 100 Government and industry experts.  It reflects best practices and lessons learned from prior migrations and is updated annually.</div>
 
 [Investment Planning Guidance](https://ussm.gsa.gov/assets/files/Investment-Planning-Guidance-March%202021.pdf)
