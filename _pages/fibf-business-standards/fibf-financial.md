@@ -10,7 +10,7 @@ sec-website: www.fiscal.treasury.gov/fmsc/financial-management-standards.html
 sec-website-href: https://www.fiscal.treasury.gov/fmsc/financial-management-standards.html
 lifecycle-pdf: assets/files/downloads/fm/Financial-Management-Federal-Business-Lifecycle.pdf
 capabilities-pdf: assets/files/downloads/fm/Financial-Management-Business-Capabilities.pdf
-standard-data-elements-pdf: assets/files/downloads/fm/Financial-Management-Standard-Data-Elements.xlsx
+standard-data-elements-pdf: assets/files/downloads/fm/financial-management-standard-data-elements.xlsx
 all-zip: assets/files/downloads/fm/Financial-Management-Download-All.zip
 lifecycle-source-document: assets/files/downloads/fm/Financial-Management-Federal-Business-Lifecycle.pdf
 lifecycle-content: fm/lifecycle.html
