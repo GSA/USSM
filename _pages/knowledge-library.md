@@ -14,7 +14,7 @@ Foundational policy memo outlining the next steps in a continuously evolving vis
 [Advancing the PMA through Shared Services](https://ussm.gsa.gov/assets/files/PMA%20Placemat.pdf)
 A one-page placemat to help agencies, policymakers, and industry stakeholders better understand the role that shared services can play as a lever for advancing the priorities of the President's Management Agenda.
 
-[Video Center – Learn About Shared Services](https://ussm.gsa.gov/video-center/)
+[Video Center - Learn About Shared Services](https://ussm.gsa.gov/video-center/)
 Easy to view 2-minute videos that summarize what shared services are and how the Federal government is currently organizing around them.
 
 [Long-term Designation Criteria](https://ussm.gsa.gov/assets/files/QSMO-Long-term-Designation-Criteria.pdf)
