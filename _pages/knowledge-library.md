@@ -12,7 +12,7 @@ This Knowledge Library serves as a compendium of resources, guidance, and lesson
 Foundational policy memo outlining the next steps in a continuously evolving vision for enabling agencies to fully leverage and benefit of shared and centralized services in delivering on their mission-support responsibilities.
 
 [Advancing the PMA through Shared Services](https://ussm.gsa.gov/assets/files/PMA%20Placemat.pdf)<br>
-A one-page placemat to help agencies, policymakers, and industry stakeholders better understand the role that shared services can play as a lever for advancing the priorities of the President's Management Agenda
+A one-page placemat to help agencies, policymakers, and industry stakeholders better understand the role that shared services can play as a lever for advancing the priorities of the President's Management Agenda.
 
 [Video Center - Learn About Shared Services](https://ussm.gsa.gov/video-center/)<br>
 Easy to view 2-minute videos that summarize what shared services are and how the Federal government is currently organizing around them.
