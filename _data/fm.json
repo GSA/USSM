@@ -7,7 +7,7 @@
              {
                 "ID":"FFM.010.010",
                 "Activity":"Budget Set-Up and Maintenance",
-                "Description":"Establish budgetary resource reporting attributes; Record appropriated fund subdivisions before any of the appropriated funds are expended; Includes recording appropriation warrants, apportionments, allotments, allowances, allocations, reapportionments, transfer allocations, continuing resolutions, rescissions, and reprogramming actions; Includes setting up direct and reimbursable funding."
+                "Description":"Establish and maintain budgetary resource reporting attributes; Receive agency spend and operating plan; Establish and maintain appropriated fund subdivisions and associated funding levels before any of the appropriated funds are obligated, expended, or disbursed according to OMB apportionments and agency spend and operating plan; Set up the funds control structure, levels, and accounting segments; Record the Treasury Accounting Fund Symbol (TAFS)/ Program/ Project/ Activity (PPA) information and organizational information for fund subdivisions; Includes setting up direct, reimbursable, revolving, contract, borrowing, financing, liquidating, advanced appropriation, anticipated collections, and non- expenditure transfer funds; Includes recording appropriation warrants, apportionments, allotments, sub-allotments, allowances, allocations, reapportionments, transfer allocations, continuing resolutions, rescissions, and reprogramming actions"
              },
              {
                 "ID":"FFM.010.020",
@@ -17,7 +17,7 @@
              {
                 "ID":"FFM.010.030",
                 "Activity":"Budgetary Reporting",
-                "Description":"Perform budgetary resource and budget execution analysis; Provide budgetary resource and budget execution information and reports; Verify required budget reports can be traced to general ledger account balances; Includes generating SF-132 and SF-133 and providing information needed for Budget Formulation."
+                "Description":"Perform budgetary resource and budget execution analysis; Verify required budgetary resource and budget execution reporting information can be traced to general ledger account balances; Provide reviewed and approved cumulative budgetary resource and budget execution information to governing financial management authorities (e.g., OMB) for generation of SF-132 and SF-133; Provide reports of impacts from unusual events, such as sequestration, rescission, and deferrals; Provide reports on Antideficiency Act violations; Includes providing information needed for Budget Formulation"
              }
           ]
         },
@@ -27,27 +27,27 @@
              {
                 "Identifier":"FFM.020.010",
                 "Activity":"Financial Asset Information Processing - Property, Plant, and Equipment",
-                "Description":"Record financial asset type, category, value, and value adjustments (e.g., depreciation, impairment); Includes financial asset information processing for purchase and lease transactions, inventory, and software"
+                "Description":"Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments (e.g., depreciation, impairment); Includes financial asset information processing for purchase and lease transactions, inventory, constructed assets, and software"
              },
              {
                 "Identifier":"FFM.020.020",
                 "Activity":"Financial Asset Information Processing - Loans",
-                "Description":"Record financial asset type, category, value, and value adjustments (e.g., allowance for uncollectible amounts, subsidy allowance)"
+                "Description":"Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments (e.g., allowance for uncollectible amounts, subsidy allowance)"
              },
              {
                 "Identifier":"FFM.020.030",
                 "Activity":"Financial Asset Information Processing - Heritage Assets and Stewardship Land",
-                "Description":"Record financial asset type, category, value, and value adjustments (e.g., depreciation, impairment)"
+                "Description":"Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments (e.g., depreciation, impairment)"
              },
              {
                 "Identifier":"FFM.020.040",
                 "Activity":"Financial Asset Information Processing - Federal Oil and Gas Resources",
-                "Description":"Record financial asset type, category, value, and value adjustments"
+                "Description":"Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments"
              },
              {
                 "Identifier":"FFM.020.050",
                 "Activity":"Financial Asset Information Processing - Other Federal Assets",
-                "Description":"Record financial asset type, category, value, and value adjustments; Includes financial asset information processing for seized and forfeited assets and investments in Treasury securities"
+                "Description":"Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments; Includes financial asset information processing for seized and forfeited assets and investments in Treasury securities"
              },
              {
                 "Identifier":"FFM.020.060",
@@ -67,12 +67,12 @@
              {
                 "Identifier":"FFM.030.020",
                 "Activity":"Obligation Management",
-                "Description":"Record commitments (if applicable); Record obligations; Record receiving report accruals (if applicable); Includes de-commitments/modifications, liquidating commitments, de-obligations/modifications, and liquidating obligations"
+                "Description":"Establish and maintain tolerance percentages or amounts (if applicable) between obligation amounts and commitment amounts and between expenditure amounts and obligation amounts; Record commitments (if applicable); Record obligations for both procurement and non-procurement purchases; Confirm difference between obligation amount and commitment amount does not exceed tolerance percentage/amount (if applicable);  Confirm difference between expenditure amount and obligation amount does not exceed tolerance percentage/amount (if applicable); Monitor undelivered orders balance/obligation status; Includes decommitments/modifications,  liquidating commitments, de-obligations/ modifications, and liquidating obligations; Includes capturing obligation information as required to support the Digital Accountability and Transparency Act of 2014 (DATA Act)"
              },
              {
                 "Identifier":"FFM.030.030",
                 "Activity":"Payment Processing - Intragovernmental Payments",
-                "Description":"Record intragovernmental invoices; Route invoices for approval by appropriate party; Provide payment information to execute intragovernmental funds transfers; Confirm payments were settled properly; Record payment adjustments; Includes processing payments for incurred expenses and payments in advance"
+                "Description":"Record federal intragovernmental performance information retrieved from G-Invoicing; Route federal intragovernmental performance information for approval by appropriate party (as needed); Provide payment information to execute intragovernmental funds transfers; Retrieve settlement information from G-Invoicing; Confirm payments were settled properly; Record payment adjustments; Includes processing payments for incurred expenses and payments in advance"
              },
              {
                 "Identifier":"FFM.030.040",
@@ -92,22 +92,22 @@
              {
                 "Identifier":"FFM.030.070",
                 "Activity":"Payment Processing - Commercial Payments",
-                "Description":"Record receiving reports; Record invoices; Match invoice, order, and receiving report (as appropriate); Route invoices for approval by appropriate party; Generate payment transactions; Resolve invoice and payment issues; Record payment adjustments; Audit payments; Includes processing payments for incurred expenses, payments in advance, and non-travel temporary and permanent change of station (TCS/PCS) costs (e.g., relocation services vendor, household goods shipment)"
+                "Description":"Record receiving and acceptance reports; Receive and record invoices; Match invoice, order, acceptance and receiving report (as appropriate); Route invoices for approval by appropriate party (as needed); Net AR and AP for commercial vendors with outstanding balances; In accordance with federal regulations, calculate discounts for early payments, and interest and penalties for late payments; Hold payments that fail validation; Generate payment transactions; Resolve invoice and payment issues; Record credits and payment adjustments; Audit payments; Includes processing payments for incurred expenses, payments in advance, credit card statements, and non-travel temporary and permanent change of station (TCS/PCS) costs (e.g., relocation services vendor, household goods shipment); Includes capturing commercial payment information as required to support the Digital Accountability and Transparency Act of 2014 (DATA Act) and Coronavirus Aid, Relief and Economic Security Act of 2019 (CARES Act) reporting"
              },
              {
                 "Identifier":"FFM.030.080",
                 "Activity":"Payment Processing - Grant Payments",
-                "Description":"Record requests for grant payment; Match grant payment requests to obligating documents; Route grant payment requests for approval by appropriate party (as appropriate); Generate payment transactions; Resolve payment issues; Record payment adjustments; Audit payments; Includes processing payments for incurred expenses and payments in advance"
+                "Description":"Record requests for grant payment; Match grant payment requests to obligating documents; Route grant payment requests for approval by appropriate party (as needed); Generate payment transactions; Resolve payment issues; Record credits and payment adjustments; Audit payments; Includes processing payments for incurred expenses and payments in advance; Includes capturing grant and cooperative agreement payment information as required to support the Digital Accountability and Transparency Act of 2014 (DATA Act) and Coronavirus Aid, Relief and Economic Security Act of 2019 (CARES Act) reporting"
              },
              {
                 "Identifier":"FFM.030.090",
                 "Activity":"Payment Processing - Loan Payments",
-                "Description":"Record requests for loan payment; Match loan payment requests to obligating documents; Route loan payment requests for approval by appropriate party (as appropriate); Generate payment transactions; Resolve payment issues; Record payment adjustments; Audit payments"
+                "Description":"Record requests for loan payment; Match loan payment requests to obligating documents; Route loan payment requests for approval by appropriate party (as needed); Generate payment transactions; Resolve payment issues; Record payment adjustments; Audit payments; Includes capturing loan payment information as required to support the Digital Accountability and Transparency Act of 2014 (DATA Act)  and Coronavirus Aid, Relief and Economic Security Act of 2019 (CARES Act)"
              },
              {
                 "Identifier":"FFM.030.100",
-                "Activity":"Payment Processing - Other Payments (Loans, Foreign, and Miscellaneous Payments)",
-                "Description":"Record receiving reports; Record invoices; Match invoice, order, and receiving report (as appropriate); Route invoices for approval by appropriate party; Complete foreign exchange conversions for foreign payments; Generate payment transactions; Resolve invoice and payment issues; Record payment adjustments; Audit payments; Includes processing payments for incurred expenses and payments in advance"
+                "Activity":"Payment Processing - Other Payments",
+                "Description":"Record receiving reports; Record invoices; Match invoice, order, and receiving report (as appropriate); Route invoices for approval by appropriate party (if needed); Complete foreign exchange conversions for foreign payments; Generate payment transactions; Resolve invoice and payment issues; Record payment adjustments; Audit payments; Includes processing payments for incurred expenses and payments in advance; Includes capturing payment information for other forms of financial assistance as required to support the Digital Accountability and Transparency Act of 2014 (DATA Act)  and Coronavirus Aid, Relief and Economic Security Act of 2019 (CARES Act)"
              },
              {
                 "Identifier":"FFM.030.110",
@@ -147,22 +147,22 @@
              {
                 "Identifier":"FFM.050.010",
                 "Activity":"Reimbursable Agreement Set-up and Maintenance",
-                "Description":"Establish and maintain Federal and non-Federal payer information; Establish unfilled customer orders (UCO); Establish projects, as appropriate, to accumulate costs; Request advance payments; Includes set-up and maintenance of Interagency Agreements (IAA); Does not include reimbursable agreement negotiations between trading partners of general terms, conditions, and order details"
+                "Description":"Establish and maintain customer, agreement, and unfilled customer order (UCO) information; Retrieve and provide agreement general terms and conditions (GT&C) and order information with G-Invoicing; Establish projects, as appropriate, to accumulate costs; Request advance payments; Includes setup and maintenance of Interagency Agreements (IAA) and federal and nonfederal agreements; Includes all pertinent customer information for trading partner processing"
              },
              {
                 "Identifier":"FFM.050.020",
                 "Activity":"Reimbursable Invoicing",
-                "Description":"Record costs incurred for delivering goods/services; Generate invoices and customer account statements; Establish receivables; Includes applying cost information when generating invoices"
+                "Description":"Review costs incurred for delivering goods/services; Provide earned unbilled information to trading partners; Incorporate cost information when generating invoices; Generate nonfederal invoices and federal intragovernmental performance information; Generate customer account statements; Establish and monitor receivables; Provide federal intragovernmental performance information to G-Invoicing"
              },
              {
                 "Identifier":"FFM.050.030",
                 "Activity":"Reimbursable Receipt Processing",
-                "Description":"Monitor/confirm funds were transferred from Federal agency trading partners; Receive payments from non-Federal trading partners or payment information from Treasury; Record collections and deposits; Match funds transfers/collections to invoices; Includes processing advance payments"
+                "Description":"Monitor/confirm funds were transferred from federal agency trading partners; Receive payments from nonfederal trading partners or payment information from Treasury; Match funds transfers/collections to nonfederal invoices or federal intragovernmental performance information; Prepare and record collections and deposits for non-federal receipts; Process returned negotiable instruments (e.g., returned check because of insufficient funds or closed account) for non-federal receipts; Includes processing of unbilled (advance) and billed collections, and researching and resolving collections not clearly identified to an agreement"
              },
              {
                 "Identifier":"FFM.050.040",
                 "Activity":"Reimbursable Reconciliation",
-                "Description":"Reconcile reimbursable activity on the orders; Resolve reconciliation issues; Work with trading partner to resolve unsettled invoices; Apply credit memos and adjustments; Assess interest, penalties and administrative fees; Determine whether to transfer receivable for delinquent debt collection"
+                "Description":"Reconcile federal reimbursable order, intragovernmental performance, and funds transfer information with G-Invoicing; Reconcile reimbursable activity on nonfederal orders; Resolve reconciliation issues; Work with trading partner to resolve unsettled invoices; Apply credit and debit memos and adjustments to nonfederal invoices; Assess interest, penalties and administrative fees on nonfederal unpaid invoices; Determine whether to transfer nonfederal receivable for delinquent debt collection; Provide adjustments to federal intragovernmental performance information to G-Invoicing"
              },
              {
                 "Identifier":"FFM.050.050",
@@ -172,7 +172,7 @@
              {
                 "Identifier":"FFM.050.060",
                 "Activity":"Reimbursable Reporting",
-                "Description":"Provide earned unbilled information with trading partners; Analyze and report on reimbursable costs, receivables, and receipts; Provide deposit summary and detail information to support financial reconciliation activities"
+                "Description":"Analyze and report on reimbursable orders, costs, invoices/federal intragovernmental performance, receivables, and receipts/funds transfers; Provide nonfederal deposit summary and detail information to support financial reconciliation activities"
              }
           ]
         },
@@ -202,7 +202,7 @@
              {
                 "Identifier":"FFM.060.050",
                 "Activity":"Public Receivable Monitoring and Maintenance",
-                "Description":"Analyze status of receivables; Contact debtors; Assess interest, penalties, and administrative fees; Determine whether to transfer receivables for delinquent debt collection"
+                "Description":"Analyze status of receivables; Contact debtors; Assess interest, penalties, and administrative fees; Monitor age of receivables; Determine whether to transfer receivables for delinquent debt collection"
              },
              {
                 "Identifier":"FFM.060.060",
@@ -262,12 +262,12 @@
              {
                 "Identifier":"FFM.090.020",
                 "Activity":"General Ledger Posting",
-                "Description":"Receive general ledger account transaction information provided by supporting financial management operations; Post general ledger proprietary, budgetary, and memorandum account transactions; Includes posting manual journal vouchers, adjustments to the general ledger, individual and aggregated transactions from sub-ledgers, and transactions funded, obligated, or expended over multiple years to general ledger accounts that do not close"
+                "Description":"Receive general ledger account transaction information provided by supporting financial management operations; Prepare manual journal vouchers and route for approval (as needed); Post general ledger proprietary, budgetary, and memorandum account transactions; Includes posting  adjustments to the general ledger, discrete  and aggregated transactions from subledgers, and transactions funded, obligated, or expended over multiple years to general ledger accounts that do not close"
              },
              {
                 "Identifier":"FFM.090.030",
                 "Activity":"Accrual and Liability/Asset Processing",
-                "Description":"Record and reverse accruals; Record adjustments to budgetary and financial (proprietary) accruals; Record Federal liabilities; Includes intragovernmental liabilities, contingent liabilities, and liabilities related to loans and accrued employees' wages and entitlement benefits"
+                "Description":"Record, adjust, and liquidate budgetary and financial (proprietary) accruals, Record allowance for uncollectible amounts; Record actual and estimated liabilities; Includes, but is not limited to, intragovernmental liabilities, accrued employees' wages and entitlement benefits, and other liabilities"
              },
              {
                 "Identifier":"FFM.090.040",
@@ -302,7 +302,7 @@
              {
                 "Identifier":"FFM.110.010",
                 "Activity":"Treasury Reporting",
-                "Description":"Prepare year-end closing statements, statements of accountability, foreign currency reports, and reports of reclassified consolidated agency financial statements; Verify required financial reports can be traced to general ledger account balances; Includes Government wide Treasury Account Symbol Adjusted Trial Balance (GTAS) reporting"
+                "Description":"Prepare statements of accountability and foreign currency reports; Verify required financial reports can be traced to general ledger account balances; Provide reviewed and approved financial reporting information to Treasury; Includes, but is not limited to, Government-wide Treasury Account Symbol Adjusted Trial Balance System (GTAS) reporting, transactional posting to the Central Accounting Reporting System (CARS), and reporting to USAspending.gov"
              },
              {
                 "Identifier":"FFM.110.020",
@@ -317,7 +317,7 @@
              {
                 "Identifier":"FFM.110.040",
                 "Activity":"Financial Performance and Operational Reporting",
-                "Description":"Provide general ledger information for agency-specific financial reports; Verify required financial reports can be traced to general ledger account balances; Includes providing financial performance and operational information to agency program offices"
+                "Description":"Provide general ledger and financial transaction information for agency-specific financial reports; Verify required financial reports can be traced to general ledger account balances; Provide financial performance and operational information to agency program offices; Includes providing pre-defined and user-defined outputs of financial and master reference information"
              },
              {
                 "Identifier":"FFM.110.050",
@@ -558,7 +558,7 @@
           "Activity Name":"FFM.010.010 Budget Set-Up and Maintenance",
           "Input/Output/Process":"DI",
           "Business Capability Statement":"Provide budgetary resource reporting attributes (for example, Treasury Account Fund Symbol, expired, and unexpired) consistent with the budget execution activities as defined in OMB Circular No. A-11.",
-          "Authoritative Reference":"OMB Circular No. A-11, Part 4, Instructions on Budget Execution; OMB Circular No. A-11, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR; OMB Circular No. A-11, Part 4, Section 130, SF 133, Report on Budget Execution and Budgetary Resources; SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting"
+          "Authoritative Reference":"OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 130, SF 133, Report on Budget Execution and Budgetary Resources;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Appendix H, Checklist for Fund Control Regulations, Section 4: Definitions, Terminology, and Concepts;SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting."
        },
        {
           "Capability ID":"FFMSR.2.1.1.2",
@@ -605,8 +605,8 @@
           "Function":"FFM.010 Budget Execution",
           "Activity Name":"FFM.010.030 Budgetary Reporting",
           "Input/Output/Process":"DO",
-          "Business Capability Statement":"Provide budgetary resource and budget execution data as specified in the TFM to support the budget reporting activities defined in OMB Circular No. A-11, OMB Circular No. A-136, and the FASAB Handbook.",
-          "Authoritative Reference":"OMB Circular No. A-11, Part 4, Instructions on Budget Execution; OMB Circular No. A-11, Part 4, Instructions on Budget Execution, Section 120.29 – Who is responsible for preparing the apportionment request for allocation (parent/child) accounts?; OMB Circular No. A-11, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR; OMB Circular No. A-136, Financial Reporting Requirements, Number II.4.6, Statement of Budgetary Resources; TFM Volume I, Part 2, Chapter 4200 Agency Year-end Reporting on Unexpended Balances of Appropriation Accounts; SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting; TFM Volume I, Part 6, Chapter 2100 Fiscal Service Data Registry \n\nAdditional Reference(s)\n FFMSR 2.3.2 Verifying Traceability"
+          "Business Capability Statement":"Provide reviewed and approved  budgetary resource and budget execution data to support budget reporting activities as specified in the TFM, OMB Circular No. A-11, OMB Circular No. A-136, and the FASAB Handbook.",
+          "Authoritative Reference":"OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 120.29;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR;OMB Circular No. A-136, Financial Reporting Requirements, Number II.3.5, Statement of Budgetary Resources;TFM Volume I, Part 2, Chapter 4200 Agency Year-end Reporting on Unexpended Balances of Appropriation Accounts;TFM Volume I, Part 6, Chapter 2100 Fiscal Service Data Registry;SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting;SFFAS 53: Budget and Accrual Reconciliation."
        },
        {
           "Capability ID":"FFMSR.2.2.1.1",
@@ -622,15 +622,15 @@
           "Activity Name":"FFM.030.010 Payee Set-Up and Maintenance",
           "Input/Output/Process":"DI",
           "Business Capability Statement":"Capture federal government unique payment information (for example, appropriation and fund) to support payment reports consistent with the TFM.",
-          "Authoritative Reference":"TFM Volume I, Part 2, Chapter 3100 Instructions for Disbursing Officers' Reports; TFM Volume I, Part 6, Chapter 2100 Fiscal Service Data Registry"
+          "Authoritative Reference":"TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Agencies;TFM Volume I, Part 6, Chapter 2100 Fiscal Service Data Registry;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts;OMB Circular No. A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 120.65;48 CFR 32, Contract Financing."
        },
        {
           "Capability ID":"FFMSR.2.2.1.3",
           "Function":"FFM.030 Payable Management",
           "Activity Name":"FFM.030.020 Obligation Management",
           "Input/Output/Process":"P",
-          "Business Capability Statement":"Determine proper payable amount and other payable information consistent with FASAB Handbook and as specified in the TFM.",
-          "Authoritative Reference":"TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service; TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Agencies, Section 2070 Preaudit of Vouchers; SFFAS 1: Accounting for Selected Assets and Liabilities; SFFAS 2: Accounting for Direct Loans and Loan Guarantees; SFFAS 5: Accounting for Liabilities of the Federal Government; SFFAS 12: Recognition of Contingent Liabilities Arising from Litigation: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government; SFFAS 17: Accounting for Social Insurance; SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; SFFAS 19: Technical Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2"
+          "Business Capability Statement":"Determine proper payable amount and other payable information consistent with FASAB Handbook, 48 CFR 32, and Federal Acquisition Regulation (FAR) and as specified in the TFM.",
+          "Authoritative Reference":"TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Agencies, Section 2070 Preaudit of Vouchers;TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service;SFFAS 1: Accounting for Selected Assets and Liabilities;SFFAS 2: Accounting for Direct Loans and Loan Guarantees;SFFAS 5: Accounting for Liabilities of the Federal Government;SFFAS 12: Recognition of Contingent Liabilities Arising from Litigation: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government;SFFAS 17: Accounting for Social Insurance;SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;SFFAS 19: Technical Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;SFFAS 51: Insurance Programs;48 CFR 32, Contract Financing;FAR 32.905, Payment Documentation and Process"
        },
        {
           "Capability ID":"FFMSR.2.2.1.4",
@@ -874,23 +874,21 @@
        }
     ],
     "Business_Use_Cases":{
-       "FFM Use Case Library Overview":"https://www.fiscal.treasury.gov/files/fit/ffm-use-case-library-overview-2020.pdf",
-       "FFM Use Cases 010 Budget Formulation-to-Execution 2018":"https://www.fiscal.treasury.gov/files/fit/ffm-use-cases-010-budget-formulation-to-execution-2018.pdf",
-       "FFM Use Cases 020 Acquire-to-Dispose 2018":"https://www.fiscal.treasury.gov/files/fit/ffm-use-cases-020-acquire-to-dispose-2018.pdf",
-       "FFM Use Cases 030 Request-to-Procure 2018":"https://www.fiscal.treasury.gov/files/fit/ffm-use-cases-030-request-to-procure-2018.pdf",
-       "FFM Use Cases 040 Procure-to-Pay 2018":"https://www.fiscal.treasury.gov/files/fit/ffm-use-cases-040-procure-to-pay-2018.pdf",
-       "FFM Use Cases 050 Bill-to-Collect 2018":"https://www.fiscal.treasury.gov/files/fit/ffm-use-cases-050-bill-to-collect-2018.pdf",
-       "FFM Use Cases 060 Record-to-Report 2020":"https://fiscal.treasury.gov/files/fit/ffm-use-cases-060-record-to-report-2020.pdf",
-       "FFM Use Cases 070 Agree-to-Reimburse 2018":"https://www.fiscal.treasury.gov/files/fit/ffm-use-cases-070-agree-to-reimburse-2018.pdf",
-       "FFM Use Cases 080 Apply-to-Perform 2018":"https://www.fiscal.treasury.gov/files/fit/ffm-use-cases-080-apply-to-perform-2018.pdf",
-       "FFM Use Cases 090 Hire-to-Retire 2018":"https://www.fiscal.treasury.gov/files/fit/ffm-use-cases-090-hire-to-retire-2018.pdf",
-       "FFM Use Cases 100 Book-to-Reimburse 2018":"https://www.fiscal.treasury.gov/files/fit/ffm-use-cases-100-book-to-reimburse-2018.pdf",
-       "FFM Use Cases 110 Apply-to-Repay 2018":"https://www.fiscal.treasury.gov/files/fit/ffm-use-cases-110-apply-to-repay-2018.pdf"
+       "FFM Use Case Library Overview":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases Overview_v2.0.pdf",
+       "FFM Use Cases 010 Budget Formulation-to-Execution":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 010 Budget Formulation-to-Execution_v2.0.pdf",
+       "FFM Use Cases 020 Acquire-to-Dispose":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 020 Acquire-to-Dispose_v2.0.pdf",
+       "FFM Use Cases 030 Request-to-Procure":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 030 Request-to-Procure_v2.0.pdf",
+       "FFM Use Cases 040 Procure-to-Pay":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 040 Procure-to-Pay_v2.0.pdf",
+       "FFM Use Cases 050 Bill-to-Collect":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 050 Bill-to-Collect_v2.0.pdf",
+       "FFM Use Cases 060 Record-to-Report":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 060 Record-to-Report_v2.0.pdf",
+       "FFM Use Cases 070 Agree-to-Reimburse":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 070 Agree-to-Reimburse_v2.0.pdf",
+       "FFM Use Cases 080 Apply-to-Perform":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 080 Apply-to-Perform_v2.0.pdf",
+       "FFM Use Cases 090 Hire-to-Retire":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 090 Hire-to-Retire_v2.0.pdf",
+       "FFM Use Cases 100 Book-to-Reimburse":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 100 Book-to-Reimburse_v2.0.pdf",
+       "FFM Use Cases 110 Apply-to-Repay":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 110 Apply-to-Repay_v2.0.pdf"
     },
-    "Standard_Data_Elements":{
-       "FFM Use Case Library Overview":"https://ussm.gsa.gov/assets/files/FM%20Data%20Elements%20Announcement%202020%2005%2028.pdf",
-       "Federal Financial Management Standard Data Elements - PDF":"https://www.fiscal.treasury.gov/files/fit/ffm-standard-data-elements.pdf",
-       "Federal Financial Management Standard Data Elements":"https://www.fiscal.treasury.gov/files/fit/ffm-standard-data-elements.xlsx"
-    },
+  "Standard_Data_Elements": {
+    "Federal Financial Management Standard Data Elements": "https://ussm.gsa.gov/assets/files/downloads/fm/Financial-Management-Standard-Data-Elements_v2.xlsx"
+  },
     "Service_Measures":"coming soon"
  }
