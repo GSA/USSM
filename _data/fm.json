@@ -887,10 +887,8 @@
        "FFM Use Cases 100 Book-to-Reimburse":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 100 Book-to-Reimburse_v2.0.pdf",
        "FFM Use Cases 110 Apply-to-Repay":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 110 Apply-to-Repay_v2.0.pdf"
     },
-    "Standard_Data_Elements":{
-       "FFM Use Case Library Overview":"https://ussm.gsa.gov/assets/files/FM%20Data%20Elements%20Announcement%202020%2005%2028.pdf",
-       "Federal Financial Management Standard Data Elements - PDF":"https://www.fiscal.treasury.gov/files/fit/ffm-standard-data-elements.pdf",
-       "Federal Financial Management Standard Data Elements":"/assets/files/downloads/fm/Financial-Management-Standard-Data-Elements.xlsx"
-    },
+  "Standard_Data_Elements": {
+    "Federal Financial Management Standard Data Elements": "https://ussm.gsa.gov/assets/files/downloads/fm/Financial-Management-Standard-Data-Elements_v2.xlsx"
+  },
     "Service_Measures":"coming soon"
  }
