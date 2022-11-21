@@ -4,7 +4,7 @@ permalink: /shared-services-lessons-learned/
 title: Knowledge Library
 ---
 
-<h1 class="text-align font-sans-lg"> Knowledge Library - Resources, Guidance, and Lessons Learned</h1>
+<h1 class="text-align"> Knowledge Library - Resources, Guidance, and Lessons Learned</h1>
 
 This Knowledge Library serves as a compendium of resources, guidance, and lessons learned to improve stakeholder understanding of the recommended practices and methods to drive successful agency use of shared services across common functions.
 
