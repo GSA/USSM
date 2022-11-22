@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /shared-services-lessons-learned/
-title: Knowledge Library
+title: Federal Shared Services - Knowledge Library
 ---
 
 <h1 class="text-align"> Knowledge Library - Resources, Guidance, and Lessons Learned</h1>
@@ -15,10 +15,10 @@ Foundational policy memo outlining the next steps in a continuously evolving vis
 A one-page placemat to help agencies, policymakers, and industry stakeholders better understand the role that shared services can play as a lever for advancing the priorities of the President's Management Agenda.
 
 [Video Center - Learn About Shared Services](https://ussm.gsa.gov/video-center/)<br>
-Easy to view 2-minute videos that summarize what shared services are and how the Federal government is currently organizing around them.
+Short, 2-minute videos that summarize what shared services are and how the Federal government is organizing around them.
 
 [Long-term Designation Criteria](https://ussm.gsa.gov/assets/files/QSMO-Long-term-Designation-Criteria.pdf)<br>
-A set of long-term criteria across key dimensions of Finance, Organization, Operations, Program Management, and Technology that serve as key maturity indicators in any organization that would deliver or organize around the delivery of shared services to the agency community.
+A set of long-term criteria across dimensions of Finance, Organization, Operations, Program Management, and Technology that serve as maturity indicators in any organization that would organize around the delivery of shared services to Federal agencies.
 
 [M3 Playbook](https://ussm.gsa.gov/m3/)<br>
 Transitions are difficult but agencies can be successful with sufficient planning and follow-through. The Modernization and Migration Management framework will help agencies achieve successful outcomes and reduce risk during administrative system and/or service modernizations and migrations.  M3 was developed based on feedback from over 100 Government and industry experts.  It reflects best practices and lessons learned from prior migrations and is updated annually.
