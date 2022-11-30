@@ -9,16 +9,16 @@ sec-name: Treasury, Office of Financial Innovation and Transformation
 sec-website: www.fiscal.treasury.gov/fmsc/financial-management-standards.html
 sec-website-href: https://www.fiscal.treasury.gov/fmsc/financial-management-standards.html
 lifecycle-pdf: assets/files/downloads/fm/Financial-Management-Federal-Business-Lifecycle.pdf
-capabilities-pdf: assets/files/downloads/fm/Financial-Management-Business-Capabilities.xlsx
-standard-data-elements-pdf: assets/files/downloads/fm/financial-management-standard-data-elements.xlsx
+capabilities-pdf: assets/files/downloads/fm/Financial-Management-Business-Capabilities.pdf
+standard-data-elements-pdf: assets/files/downloads/fm/Financial-Management-Standard-Data-Elements_v2.xlsx
 all-zip: assets/files/downloads/fm/Financial-Management-Download-All.zip
 lifecycle-source-document: assets/files/downloads/fm/Financial-Management-Federal-Business-Lifecycle.pdf
 lifecycle-content: fm/lifecycle.html
 capabilities-content: fm/capabilities.html
-capabilities-source-document: assets/files/downloads/fm/Financial-Management-Business-Capabilities.xlsx
+capabilities-source-document: assets/files/downloads/fm/Financial-Management-Business-Capabilities.pdf
 use-cases-content: fm/use-cases.html
 data-elements-content: fm/data-elements.html
-capabilities-source-document-type: xls
+capabilities-source-document-type: pdf
 lifecycle-source-document-type: pdf
 ---
 
