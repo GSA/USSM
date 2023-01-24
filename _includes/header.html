@@ -54,3 +54,17 @@ This appears at the top of the page letting the user know it's an official gover
   </div>
   <div class="usa-overlay"></div>
 </div>
+
+{% if page.title contains "HR Management Services" %}
+<section>
+  <div class="grid-container">
+    <div class="usa-alert usa-alert--info usa-alert--slim">
+      <div class="usa-alert__body">
+        <p class="usa-alert__text">
+          To view and provide feedback on current draft Human Capital Management business standards, please go to Docket ID <a href="https://www.regulations.gov/docket/BSC-HCM-2022-0005" target="_blank">BSC-HCM-2022-0005</a> on <a href="https://www.regulations.gov/" target="_blank">regulations.gov</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
