@@ -99,7 +99,7 @@ site, this is the place to do it.
   <meta property="og:url" content="{{ogurl}}"/>
   {% else %}
   <meta property="og:title" content="{{title | slice: 0, 59}}">
-  <meta property="og:description" content="">
+  <meta property="og:description" content="my description">
   {% endif %}
 
   {% if custom_title == false %}
@@ -107,7 +107,7 @@ site, this is the place to do it.
     <meta property="og:image" content="{{ogimage}}">
   {% endif %}
     <meta property="og:title" content="{{title | slice: 0, 59}}">
-     <meta property="og:description" content="">
+     <meta property="og:description" content="my description 1">
   {% endif %}
   
   <meta name="twitter:card" content="summary_large_image" />
@@ -131,14 +131,14 @@ site, this is the place to do it.
   {% elsif page.url contains "/grm" %}
   <meta name="twitter:title" content="{{ogtitle | slice: 0, 59}}" />
   <meta name="twitter:image" content="{{ogimage}}" />
-  <meta name="twitter:description" content="{{ogdescription}}" />
+  <meta name="twitter:description" content="my description 3" />
   {% else %}
   {% if ogimage %}
   <meta property="og:image" content="{{ogimage}}">
   {% endif %}
   <meta name="twitter:title" content="{{title | slice: 0, 59}}" />
-  <!-- <meta name="twitter:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png"> -->
-  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png"> 
+  <meta name="twitter:description" content="tero bau" />
   {% endif %}
   <meta property="og:type" content="article">
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
