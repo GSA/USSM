@@ -118,12 +118,14 @@ function imageChecker(url){
     }
     return img
 }
+    //Looping through the page array defined above with objects
     jQuery.each(pages, function (index, page) {
         let table = jQuery("#" + page.table);
         let accordian = jQuery('#' + page.accordian);
         let UseCasesList = jQuery('#' + page.UseCasesList);
         let ElementsList = jQuery('#' + page.ElementsList);
         let PerformanceMetricsList = jQuery('#' + page.PerformanceMetricsList);
+        //Getting the json data from each url
         jQuery.get(page.url, function (result) {
                     var jObject = JSON.parse(result);
                     if (page.hasSubsection) {
@@ -183,10 +185,16 @@ function imageChecker(url){
                         else if (outerKey === "Standard Data Elements" && ElementsList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
                                 // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
-                                prefixUrl = value1.includes("https")?"":prefixUrl; 
-                                let image = imageChecker(value1);
-                                let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
-                                jQuery("#" + page.ElementsList ).append(li);
+                                if(key1 !== "jsonData"){
+                                    prefixUrl = value1.includes("https")?"":prefixUrl; 
+                                    let image = imageChecker(value1);
+                                    let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
+                                    jQuery("#" + page.ElementsList ).append(li);
+                                }else{ // For key equal to jsonData
+                                    prefixUrl = value1.url.includes("https")?"":prefixUrl; 
+                                    let li = '<li><a href="'+prefixUrl+value1.url+'">' + value1.name + '</a></li>';
+                                    jQuery("#" + page.ElementsList ).append(li);
+                                }
                             });
                         }
                         else if (outerKey==="Service Measures" && PerformanceMetricsList.length > 0){
