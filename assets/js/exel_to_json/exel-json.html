@@ -1,8 +1,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
-<script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" integrity="sha512-r22gChDnGvBylk90+2e/ycr3RVrDi8DIOkIGNhJlKfuyQM4tIRAI062MaV8sfjQKYVGjOBaZBOA87z+IhZE9DA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.mini.min.js" integrity="sha512-NDQhXrK2pOCL18FV5/Nc+ya9Vz+7o8dJV1IGRwuuYuRMFhAR0allmjWdZCSHFLDYgMvXKyN2jXlSy2JJEmq+ZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script>
   // This function is called when a file is loaded
   var ExcelToJSON = function() {
 
@@ -14,13 +12,21 @@
         var workbook = XLSX.read(data, {
           type: 'binary'
         });
+        let jsonPagesArray = [];
+
         workbook.SheetNames.forEach(function(sheetName) {
           // Here is your object
-          var XL_row_object = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[sheetName]);
-          var json_object = JSON.stringify(XL_row_object);
-          console.log(JSON.parse(json_object));
+          const jsonPage = {
+            name: sheetName,
+            content: JSON.parse(JSON.stringify(XLSX.utils.sheet_to_json(workbook.Sheets[sheetName],
+            {blankRows: true, defval:''})))
+        };
+        jsonPagesArray.push(jsonPage);
+        var json_object = JSON.stringify(jsonPage);
           jQuery('#xlx_json').val(json_object);
         })
+        console.log(jsonPagesArray[0].content);
+
       };
 
       reader.onerror = function(ex) {
