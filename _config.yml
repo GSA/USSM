@@ -181,6 +181,14 @@ primary_navigation:
           permalink: /fibf-travel/
           show_in_menu: true
           show_in_footer: false
+        - text: 'Freedom of Information Act (FOIA) Services'
+          permalink: /fibf-foia/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Mail Operations Management'
+          permalink: /fibf-mom/
+          show_in_menu: true
+          show_in_footer: false
     - text: 'QSMO'
       href: /pages/qsmo.md
       permalink: /qsmo/
