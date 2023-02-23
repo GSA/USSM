@@ -110,16 +110,20 @@ primary_navigation:
           link: true
           external: false
           sub: true
-        - text: 'Federal Sector Equal Employment Opportunity Services'
-          permalink: /fibf-eeo/
-          show_in_menu: true
-          show_in_footer: false
         - text: 'Electronic Records Management'
           permalink: /fibf-ERM/
           show_in_menu: true
           show_in_footer: false
+        - text: 'Federal Sector Equal Employment Opportunity Services'
+          permalink: /fibf-eeo/
+          show_in_menu: true
+          show_in_footer: false
         - text: 'Financial Management'
           permalink: /fibf-fm/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Freedom of Information Act (FOIA) Services'
+          permalink: /fibf-foia/
           show_in_menu: true
           show_in_footer: false
         - text: 'Grants Management'
@@ -167,6 +171,10 @@ primary_navigation:
           sub: true
         - text: 'Information Technology Services'
           permalink: /fibf-its/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Mail Operations Management'
+          permalink: /fibf-mom/
           show_in_menu: true
           show_in_footer: false
         - text: 'Real Property Management'
