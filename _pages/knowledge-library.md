@@ -23,6 +23,9 @@ A set of long-term criteria across dimensions of Finance, Organization, Operatio
 [M3 Playbook](https://ussm.gsa.gov/m3/)<br>
 Transitions are difficult but agencies can be successful with sufficient planning and follow-through. The Modernization and Migration Management framework will help agencies achieve successful outcomes and reduce risk during administrative system and/or service modernizations and migrations.  M3 was developed based on feedback from over 100 Government and industry experts.  It reflects best practices and lessons learned from prior migrations and is updated annually.
 
+[Funding Playbook for Shared Services - Quality Service Management Offices](https://ussm.gsa.gov/assets/files/Initial-Draft-QSMO-Funding-Playbook-Deliverable_Draft.pdf)<br>
+A coordinated funding strategy, considerate of long-term goals and priorities, that draws on a well-understood toolbox of available funding mechanisms is a pillar in driving continued progress across the shared services ecosystem. This playbook guidance is intended to establish a baseline understanding of funding tools available to QSMO, but may also serve as a useful reference to agencies considering funding options for their own shared services journey.
+
 [Investment Planning Guidance](https://ussm.gsa.gov/assets/files/Investment-Planning-Guidance-March%202021.pdf)<br>
 Key guidance defining the process, roles, and responsibilities related to reviewing an agency's request for an investment in new or modernized technology / services in functional areas that are pre-designated or formally designated Quality Service Management Office (QSMO) per OMB Memorandum M-19-16, Centralized Mission Support Capabilities for the Federal Government.
 
