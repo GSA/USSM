@@ -161,3 +161,12 @@
   font-size: 10px;
   color: #3ea0db;
 }
+
+.filter-list {
+    a {
+        &.is-checked {
+            background: #595959;
+            color: white;
+        }
+    }
+}

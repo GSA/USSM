@@ -8,7 +8,7 @@
 
 <div class="usa-media-block {{gridClass}} display-block">
     <p class="filter-count itm-tag margin-top-0 text-gray-50 text-thin count"></p>
-    <div class="resources">
+    <div id="pic-resources">
         {% assign resources = site.data.resource-data | sort: 'year' | reverse %}
         {% for resource in resources %}
         {% assign className = resource.filters | split: ' ' | first %}
