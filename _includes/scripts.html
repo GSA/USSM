@@ -79,3 +79,7 @@ jQuery(document).ready(function(){
 });
 
 </script>
+
+{% if page.permalink == "/marketplace/"%}
+<script type="module" src="{{site.baseurl}}/assets/js/resources-script.js"></script>
+{% endif %}

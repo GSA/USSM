@@ -1,0 +1,54 @@
+<!--********Generates resource catalog items. **************-->
+{% assign pageFilters= include.filters | split: ' ' %}
+{% assign gridClass = "tablet:grid-col-9" %}
+
+{% if pageFilters.size > 0 %}
+    {% assign gridClass = "tablet:grid-col-12" %}
+{% endif %}
+
+<div class="usa-media-block {{gridClass}} display-block">
+    <p class="filter-count itm-tag margin-top-0 text-gray-50 text-thin count"></p>
+    <div class="resources">
+        {% assign resources = site.data.resource-data | sort: 'year' | reverse %}
+        {% for resource in resources %}
+        {% assign className = resource.filters | split: ' ' | first %}
+        {% assign resourceFilters = resource.filters | split: ' '  %}
+        {% assign showCard = "no" %}
+        {% if pageFilters.size > 0 %}
+        {% for pageFilter in pageFilters %}
+        {% for resourceFilter in resourceFilters %}
+        {% if pageFilter == resourceFilter %}
+        {% assign showCard="yes" %}
+        {% break %}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% else %}
+        {% assign showCard = "yes" %}
+        {% endif %}
+
+        {% if showCard=="yes" %}
+        <div class="tablet:grid-col-4 grid-spacing policy {{resource.filters}}">
+            <div class="shadow-1  {{ className }}-border">
+                <div class="text-container">
+                    <span class="card-tag">{{resource.type}}</span>
+                    {% if resource.external_url %}
+                    <a class="anchor-fill text-ink text-no-underline" href="https://{{ resource.external_url }}" aria-label="{{ resource.aria-label }} link (opens in new window)." target="_blank">
+                        <p class="title-resources">{{ resource.resourceTitle }} &nbsp; <span><i class="fas fa-external-link-alt"></i></span></p>
+                    </a>
+                    {% elsif resource.doc-link %}
+                    <a class="anchor-fill text-ink text-no-underline" href="{{ site.baseurl }}/{{ resource.doc-link }}" aria-label="{{ resource.aria-label }} link (opens in new window)." target="_blank">
+                        <p class="title-resources">{{ resource.resourceTitle }} &nbsp; <span><i class="fas fa-external-link-alt"></i></span></p>
+                    </a>
+                    {% elsif resource.perma_link %}
+                    <p class="title-resources"><a class="text-ink text-no-underline" href="{{ site.baseurl }}{{resource.perma_link}}{{resource.name}}">{{ resource.resourceTitle }}</a></p>
+                    {% else %}
+                    <p class="title-resources">{{ resource.resourceTitle }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

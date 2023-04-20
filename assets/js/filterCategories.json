@@ -1,0 +1,4 @@
+{
+    "type":"module",
+    "filterTypes":["focus-area", "type", "source", "year"]
+}

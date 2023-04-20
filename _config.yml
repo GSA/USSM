@@ -73,6 +73,11 @@ ga:
 
 # Site Navigation
 primary_navigation:
+    - text: 'MarketPlace'
+      href: pages/team.md
+      permalink: /marketplace/
+      show_in_menu: true
+      show_in_footer: false
     - text: 'Governance'
       href: pages/team.md
       permalink: /governance/
