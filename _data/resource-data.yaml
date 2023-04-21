@@ -141,6 +141,7 @@
   year: 2021
   description:
   external_url: militaryfamilies.psu.edu/
+  aria-label: Clearinghouse for Military Family
   type: Memorandum
   filters: memorandum federal focus-area1 2021
 - name: name17
@@ -148,5 +149,6 @@
   year: 2022
   description:
   external_url: www.pewtrusts.org/en/research-and-analysis/data-visualizations/2015/results-first-clearinghouse-database
+  aria-label: Results First Clearinghouse
   type: Playbook
   filters: playbook omb focus-area4 2022
