@@ -29,8 +29,13 @@ jQuery(document).ready(function ($) {
     }
 
     $("#btnClearAll").on("click", function () {
+        var count = filters.length;
+        for (let filter = 0; filter < count; filter++) {
+            removeFilter(filters[0]);
+        }
+        $grid.isotope({ filter: filters.join(',') });
+        updateFilterCount();
         $(".filter-list").find(".is-checked").removeClass("is-checked").attr("aria-checked", "false");
-        location.reload();
     });
 
     var filters = [];
