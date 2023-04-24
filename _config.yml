@@ -75,7 +75,7 @@ ga:
 primary_navigation:
     - text: 'MarketPlace'
       href: pages/team.md
-      permalink: /marketplace/
+      permalink: /marketplace1/
       show_in_menu: true
       show_in_footer: false
     - text: 'Governance'
@@ -425,6 +425,12 @@ page_gen:
     index_files: true # true
     name_expr: "record['type']"
     title: "record['type']"
+  - data: "resource-data"
+    template: "sub-page-resource"
+    dir: "/marketplace1/"
+    name_expr: "record['name']"
+    title: "record['name']"
+    index_files: true
 
 
 

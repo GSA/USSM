@@ -1,12 +1,12 @@
 jQuery(document).ready(function ($) {
     var link = window.location.href;
     var filterCategories = [];
-    if (link.indexOf("/marketplace/") != -1) {
+    if (link.indexOf("/marketplace1/") != -1) {
         $.getJSON("../assets/js/filterCategories.json", function (json) {
             filterCategories = json.filterTypes;
         });
     }
-    if (link.indexOf("/marketplace/") != -1) {
+    if (link.indexOf("/marketplace1/") != -1) {
         var $grid = $('#pic-resources');
     }
 
