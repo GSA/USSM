@@ -7,11 +7,11 @@ description: Excepturi sint occaecati cupiditate non provident, similique sunt i
 
 <div id="main-content" class="usa-layout-docs">
     <section class="usa-graphic-list margin-bottom-4">
-        <div class="usa-hero clearfix " style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.png');background-repeat:no-repeat">
+        <div class="usa-hero clearfix heading">
             <div class="grid-container">
                 <div class="usa-width-whole hero-content text-center">
-                    <h1 style="color:white">{{page.title}}</h1>
-                    <p style="color:white">{{page.description}}</p>
+                    <h1 class="color-white">{{page.title}}</h1>
+                    <p class="color-white">{{page.description}}</p>
                 </div>
             </div>
         </div>

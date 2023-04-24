@@ -5,9 +5,7 @@ jQuery(document).ready(function ($) {
         $.getJSON("../assets/js/filterCategories.json", function (json) {
             filterCategories = json.filterTypes;
         });
-    }
-    if (link.indexOf("/marketplace1/") != -1) {
-        var $grid = $('#pic-resources');
+        var $grid = $('#resources');
     }
 
     // Filter isotope
