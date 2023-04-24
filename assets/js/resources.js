@@ -1,3 +1,5 @@
+// Filter based on two factors + alphabetical sort
+// Uses URI hash as trigger allowing direct links etc
 jQuery(document).ready(function ($) {
     var link = window.location.href;
     var filterCategories = [];
