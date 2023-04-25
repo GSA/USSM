@@ -18,4 +18,5 @@ capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 lifecycle-source-document: assets/files/downloads/grants/Grants-Management-Federal-Business-Lifecycle-version-2.0.xlsx
 capabilities-source-document: assets/files/downloads/grants/Grants-Management-Business-Capabilities-version-2.0.xlsm
+full-json: https://ussm.gsa.gov/business-standards-api/grants/
 ---
