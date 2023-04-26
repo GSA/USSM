@@ -17,6 +17,8 @@ use-cases-content: grants/use-cases.html
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 lifecycle-source-document: assets/files/downloads/grants/Grants-Management-Federal-Business-Lifecycle-version-2.0.xlsx
+lifecycle-json-api: https://ussm.gsa.gov/business-standards-api/grants/business-lifecycle
 capabilities-source-document: assets/files/downloads/grants/Grants-Management-Business-Capabilities-version-2.0.xlsm
+capabilities-json-api: https://ussm.gsa.gov/business-standards-api/grants/capabilities
 full-json: https://ussm.gsa.gov/business-standards-api/grants/
 ---
