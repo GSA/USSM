@@ -103,12 +103,24 @@ This template is for a single page that does not have a date associated with it.
           <p><i>Federal Business Lifecycles, functional areas, functions, and activities serve as the basis for a common understanding of what services agencies need and solutions should offer.</i></p>
           <p><i>Functions: Breakdown of a functional area into categories of services provided to customers.</i></p>
           <p><i>Activities: Within a function, processes that provide identifiable outputs/outcomes to customers are defined as activities.</i></p>
-          {% if page.lifecycle-source-document %}
-          <p style="word-wrap: break-word;">
-            <img src="{{ site.baseurl }}/assets/images/icon.{{page.lifecycle-source-document-type}}.png" valign="middle" alt="{{page.lifecycle-source-document-type}}">
-            <a href="{{ site.baseurl }}/{{page.lifecycle-source-document}}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
-          </p>
-          {% endif %}
+
+          <ul>
+            {% if page.lifecycle-source-document %}
+            <li>
+              <div style="word-wrap: break-word;">
+                <img src="{{ site.baseurl }}/assets/images/icon.{{page.lifecycle-source-document-type}}.png" valign="middle" alt="{{page.lifecycle-source-document-type}}">
+                <a href="{{ site.baseurl }}/{{page.lifecycle-source-document}}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
+              </div>
+            </li>
+            {% endif %}
+          
+            {% if page.lifecycle-json-api %}
+            <li>
+              <a href="{{ page.lifecycle-json-api }}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 (JSON) {% endif %}</a>
+            </li>
+            {% endif %}
+          </ul>
+
         </div>
         {% if page.lifecycle-content %}
         <div class="desktop:grid-col-12">{% include {{ page.lifecycle-content }} %}</div>
@@ -128,11 +140,24 @@ This template is for a single page that does not have a date associated with it.
           <div class="desktop:grid-col-9">
             <p><i>Business Capabilities are the outcome-based business needs mapped to Federal government authoritative references, forms, and data standards.</i>
             </p>
-            {% if page.capabilities-source-document %}
-            <p><img src="{{ site.baseurl }}/assets/images/icon.{{page.capabilities-source-document-type}}.png" valign="middle" alt="{{page.capabilities-source-document-type}}">
-              <a href="{{ site.baseurl }}/{{page.capabilities-source-document}}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
-            </p>
-            {% endif %}
+
+            <ul>
+              {% if page.capabilities-source-document %}
+              <li>
+                <div style="word-wrap: break-word;">
+                  <img src="{{ site.baseurl }}/assets/images/icon.{{page.capabilities-source-document-type}}.png" valign="middle" alt="{{page.capabilities-source-document-type}}">
+                  <a href="{{ site.baseurl }}/{{page.capabilities-source-document}}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
+                </div>
+              </li>
+              {% endif %}
+            
+              {% if page.capabilities-json-api %}
+              <li>
+                <a href="{{ page.capabilities-json-api }}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0 (JSON) {% endif %}</a>
+              </li>
+              {% endif %}
+            </ul>
+
           </div>
         </div>
         {% if page.capabilities-content %}
