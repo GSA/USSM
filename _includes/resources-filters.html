@@ -10,7 +10,7 @@
                 {% assign filters = site.data.resource-filter %}
                 {% for filterItem in filters %}
                 {% assign currentFilterItem = forloop.index %}
-                <h2 class="filter-title font-sans-sm">Filter by {{filterItem.name | upcase}}</h2>
+                <h2 class="filter-title font-sans-sm">Filter by {{filterItem.name}}</h2>
                 <ul class="filter-list" data-filter-group="{{filterItem.code}}">
                     {% for each_filterItem in filterItem.children %}
                     {% assign filterTitle = "" %}
