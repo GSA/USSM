@@ -19,7 +19,7 @@ description: Excepturi sint occaecati cupiditate non provident, similique sunt i
 
     <section class="usa-graphic-list margin-bottom-4">
     <div class="grid-container">
-        <div class="usa-graphic-list__row grid-row">
+        <div class="usa-graphic-list__row grid-row grid-gap">
                 {% include resources-filters.html %}
                 {% include resources-data.html %}
         </div>
