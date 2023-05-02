@@ -103,6 +103,7 @@ This template is for a single page that does not have a date associated with it.
           <p><i>Federal Business Lifecycles, functional areas, functions, and activities serve as the basis for a common understanding of what services agencies need and solutions should offer.</i></p>
           <p><i>Functions: Breakdown of a functional area into categories of services provided to customers.</i></p>
           <p><i>Activities: Within a function, processes that provide identifiable outputs/outcomes to customers are defined as activities.</i></p>
+
           {% if page.lifecycle-source-document %}
           <p style="word-wrap: break-word;">
             <ul>
@@ -116,6 +117,7 @@ This template is for a single page that does not have a date associated with it.
             </ul>
           </p>
           {% endif %}
+
         </div>
         {% if page.lifecycle-content %}
         <div class="desktop:grid-col-12">{% include {{ page.lifecycle-content }} %}</div>
@@ -135,6 +137,7 @@ This template is for a single page that does not have a date associated with it.
           <div class="desktop:grid-col-9">
             <p><i>Business Capabilities are the outcome-based business needs mapped to Federal government authoritative references, forms, and data standards.</i>
             </p>
+
             {% if page.capabilities-source-document %}
             <ul>
               <li>
