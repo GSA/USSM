@@ -2,37 +2,50 @@
   {
     "name": "name01",
     "resourceTitle": "Turpis, etiam nisi eu lorem litora auctor habitant rutrum, nulla, dui a at iaculis tincidunt placerat proin.",
-    "title": "CFO - Our Work - Playbook",
     "year": 2022,
     "description": null,
     "perma_link": "/marketplace1/",
     "aria-label": "Turpis",
     "type": "Playbook",
     "table": null,
-    "childPageTitle": "Cubilia",
-    "childPageParagraph": "Lectus. Cubilia. Ultrices purus. Orci, fermentum netus elementum pretium nunc, dignissim fames, at pulvinar vestibulum auctor. Purus scelerisque class dictum class rutrum pede curae; quisque vivamus interdum. Imperdiet nascetur quis platea phasellus a interdum curabitur urna morbi eget taciti donec congue ad phasellus enim nullam scelerisque turpis facilisi. Ullamcorper libero ultricies mi mi congue. Felis euismod platea litora posuere suspendisse quis aptent arcu Cubilia tincidunt scelerisque sociis consectetuer ut inceptos, quam inceptos aenean enim vulputate. Est pharetra eget primis litora nunc varius aenean.",
+    "subPage": [
+      {
+        "childPageTitle": "Title",
+        "childPageParagraph": "Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et quidem expedita dist. Ase Nam libero tempore."
+      },
+      {
+        "childPageTitle": "Title",
+        "childPageParagraph": "Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et quidem expedita dist. Ase Nam libero tempore."
+      }
+    ],
     "childPageFilter": "focus-area2",
     "filters": "playbook omb focus-area4 2022"
   },
   {
     "name": "name02",
     "resourceTitle": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.",
-    "title": "CFO - Our Work - Playbook",
     "year": 2019,
     "description": null,
     "perma_link": "/marketplace1/",
     "aria-label": "Turpis",
     "type": "Playbook",
     "table": "yes",
-    "childPageTitle": "Lorem Ipsum",
-    "childPageParagraph": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    "subPage": [
+      {
+        "childPageTitle": "Title",
+        "childPageParagraph": "Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et quidem expedita dist. Ase Nam libero tempore."
+      },
+      {
+        "childPageTitle": "Title",
+        "childPageParagraph": "Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et quidem expedita dist. Ase Nam libero tempore."
+      }
+    ],
     "childPageFilter": null,
     "filters": "playbook omb focus-area4 2019"
   },
   {
     "name": "name03",
     "resourceTitle": "OMB M-18-04, Monitoring and Evaluation Guidelines for Federal Departments and Agencies that Administer United States Foreign Assistance, 2018",
-    "title": "CFO - Our Work - Article",
     "year": 2018,
     "description": null,
     "perma_link": "/marketplace1/",
@@ -89,7 +102,6 @@
   {
     "name": "name08",
     "resourceTitle": "Home Visiting Evidence of Effectiveness (HomVEE)&#58; Administration for Children and Families, U.S. Department of Health and Human Services",
-    "title": "CFO - Our Work - Legislation",
     "year": 2018,
     "description": null,
     "type": "Legislation",
@@ -102,7 +114,6 @@
   {
     "name": "name09",
     "resourceTitle": "Administration for Children and Families, U.S. Department of Health and Human Services",
-    "title": "CFO - Our Work - Website",
     "year": 2017,
     "description": null,
     "type": "Website",
