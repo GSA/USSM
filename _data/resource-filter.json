@@ -61,53 +61,5 @@
         "name": "OMB"
       }
     ]
-  },
-  {
-    "name": "Focus Area",
-    "code": "focus-area",
-    "children": [
-      {
-        "name": "Focus Area1"
-      },
-      {
-        "name": "Focus Area2"
-      },
-      {
-        "name": "Focus Area3"
-      },
-      {
-        "name": "Focus Area4"
-      }
-    ]
-  },
-  {
-    "name": "Fiscal Year",
-    "code": "year",
-    "children": [
-      {
-        "name": 2015
-      },
-      {
-        "name": 2016
-      },
-      {
-        "name": 2017
-      },
-      {
-        "name": 2018
-      },
-      {
-        "name": 2019
-      },
-      {
-        "name": 2020
-      },
-      {
-        "name": 2021
-      },
-      {
-        "name": 2022
-      }
-    ]
   }
 ]
