@@ -7476,7 +7476,10 @@
       "020.RPM.L2.02 Beneficial Conveyance of Historic Federally owned Building to State Government": "/assets/files/downloads/rpm/020.RPM.L2.02 Business Use Case.pdf",
       "020.RPM.L2.03 Lease of Non-Domestic Building Accommodating Special Needs": "/assets/files/downloads/rpm/020.RPM.L2.03 Business Use Case.pdf"
    },
-    "Standard_Data_Elements":[
-    ],
-    "Service_Measures":"coming soon"
+    "Standard_Data_Elements":{
+      "Real Property Management Standard Data Elements":"/assets/files/downloads/rpm/RPM-Business-Data-Elements-V1.3.xlsx"
+    },
+    "Service_Measures":{
+      "Real Property Management Service Measures":"/assets/files/downloads/rpm/RPM-Service-Measures-V1.3.xlsx"
+    }
  }
