@@ -79,8 +79,7 @@ This template is for a single page that does not have a date associated with it.
             Data Elements</a></li>
           {% endif %}
           {% if page.performance-metrics-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white">Performance
-            Metrics</a></li>
+          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white">Service Measures</a></li>
           {% endif %}
           {% if page.all-zip %}
           <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.all-zip}}" class="usa-button text-white">Download
@@ -116,7 +115,7 @@ This template is for a single page that does not have a date associated with it.
           
             {% if page.lifecycle-json-api %}
             <li>
-              <a href="{{ page.lifecycle-json-api }}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 (JSON) {% endif %}</a>
+              <a href="{{ page.lifecycle-json-api }}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
             </li>
             {% endif %}
           </ul>
@@ -153,7 +152,7 @@ This template is for a single page that does not have a date associated with it.
             
               {% if page.capabilities-json-api %}
               <li>
-                <a href="{{ page.capabilities-json-api }}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0 (JSON) {% endif %}</a>
+                <a href="{{ page.capabilities-json-api }}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
               </li>
               {% endif %}
             </ul>
