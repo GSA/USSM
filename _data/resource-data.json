@@ -2,6 +2,7 @@
   {
     "PartnerID": "QSMO-FFM",
     "Services": "Accounts Payable, Accounts Receivable, General Ledger, Reporting",
+    "perma_link": "/marketplace1/",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
@@ -21,6 +22,7 @@
   {
     "PartnerID": "QSMO-GRM",
     "Services": "Grant Program Administration and Oversight, Management of Grant Pre-Award, Award, Post-Award & Closeout, Grant Recipient Oversight",
+    "perma_link": "/marketplace1/",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
@@ -39,6 +41,7 @@
   {
     "PartnerID": "QSMO-CYB",
     "Services": "Security Operations Center standardization, Vulnerability Management standardization, and DNS Resolver service",
+    "perma_link": "/marketplace1/",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
@@ -57,6 +60,7 @@
   {
     "PartnerID": "QSMO-HCM",
     "Services": "Talent Acquisition, Talent Development, Employee Performance Management, Compensation Management, Benefits Management",
+    "perma_link": "/marketplace1/",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
@@ -74,6 +78,7 @@
   },
   {
     "PartnerID": "ESS-SMARTPAY",
+    "perma_link": "/marketplace1/",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
@@ -91,6 +96,7 @@
   },
   {
     "PartnerID": "ESS-FLEET",
+    "perma_link": "/marketplace1/",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
@@ -108,6 +114,7 @@
   },
   {
     "PartnerID": "ESS-ERM",
+    "perma_link": "/marketplace1/",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
