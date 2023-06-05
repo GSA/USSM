@@ -2,7 +2,7 @@
   {
     "PartnerID": "QSMO-FFM",
     "Services": "Accounts Payable, Accounts Receivable, General Ledger, Reporting",
-    "Link": "/marketplace1/QSMO-FFM",
+    "Link": "/marketplace1/qsmo-ffm",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
@@ -22,7 +22,7 @@
   {
     "PartnerID": "QSMO-GRM",
     "Services": "Grant Program Administration and Oversight, Management of Grant Pre-Award, Award, Post-Award & Closeout, Grant Recipient Oversight",
-    "Link": "/marketplace1/QSMO-GRM",
+    "Link": "/marketplace1/qsmo-grm",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
@@ -41,7 +41,7 @@
   {
     "PartnerID": "QSMO-CYB",
     "Services": "Security Operations Center standardization, Vulnerability Management standardization, and DNS Resolver service",
-    "Link": "/marketplace1/QSMO-CYB",
+    "Link": "/marketplace1/qsmo-cyb",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
@@ -60,7 +60,7 @@
   {
     "PartnerID": "QSMO-HCM",
     "Services": "Talent Acquisition, Talent Development, Employee Performance Management, Compensation Management, Benefits Management",
-    "Link": "/marketplace1/QSMO-HCM",
+    "Link": "/marketplace1/qsmo-hcm",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
@@ -78,7 +78,7 @@
   },
   {
     "PartnerID": "ESS-SMARTPAY",
-    "Link": "/marketplace1/ESS-SMARTPAY",
+    "Link": "/marketplace1/ess-smartpay",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
@@ -96,7 +96,7 @@
   },
   {
     "PartnerID": "ESS-FLEET",
-    "Link": "/marketplace1/ESS-FLEET",
+    "Link": "/marketplace1/ess-fleet",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
@@ -114,7 +114,7 @@
   },
   {
     "PartnerID": "ESS-ERM",
-    "Link": "/marketplace1/ESS-ERM",
+    "Link": "/marketplace1/ess-erm",
     "SubPage": [
       {
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
