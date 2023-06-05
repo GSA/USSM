@@ -11,6 +11,7 @@ layout: base
         </div>
     </div>
 </section>
+
 <section>
     <div class="grid-container padding-top-2 padding-bottom-2">
         <div class="desktop:grid-col-12">
@@ -18,76 +19,64 @@ layout: base
         </div>
     </div>
 </section>
-    <section class="usa-graphic-list">
-        <div class="grid-container usa-graphic-list__row">
-            <div class="grid-col-12 usa-media-block">
-                <p><img src="{{site.baseurl}}/assets/images/about/ussm-mark.png" alt="ussm-logo-mark" style="height:50%; width:50%;"></p>
-                 <p style="margin-top:25px">Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et quidem expedita dist.Ase Nam libero tempore.</p>
-            </div>
+
+{% assign subPage = page.SubPage %}
+{% for subPage in page.SubPage %}
+
+<section class="usa-graphic-list">
+    <div class="grid-container usa-graphic-list__row">
+        <div class="grid-col-12 usa-media-block">
+            <p><img src="{{site.baseurl}}{{subPage.LogoPath}}" alt="{{subPage.AltText}}" style="height:50%; width:50%;"></p>
+            <p style="margin-top:25px">{{subPage.PartnerName}}</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="usa-graphic-list">
-        <div class="grid-container usa-graphic-list__row">
-            <div class="grid-col-12 usa-media-block">
-                <p><img src="{{site.baseurl}}/assets/images/priority-middle-image.png" alt="priority-middle-image" style="height:200px; width:2000px;"></p>
-            </div>
-            <div class="grid-col-12 usa-media-block">
-                <p>
-                    Excepturi sint occaecati cupiditate non provident, similique sunt in
-                    culpa qui officia deserunt mollitia animi, id est laborum et dolorum
-                    fuga. Et harum quidem rerum facilis est et quidem expedita dist.
-                    Ase Nam libero tempore.
-                </p>
-            </div>
+<section class="usa-graphic-list">
+    <div class="grid-container usa-graphic-list__row">
+        <div class="grid-col-12 usa-media-block">
+            <p>{{subPage.Description01}}</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="usa-graphic-list ">
-        <div class="grid-container padding-top-2 padding-bottom-2">
-            <div class="grid-col-12 usa-media-block ogp-top-line ">
-                <div class="">
-                    <b>VISIT: WWW.WEBSITE.GOV | CONTACT: NAME@EMAIL.GOV</b>
-                </div>
+<section class="usa-graphic-list">
+    <div class="grid-container padding-top-2 padding-bottom-2">
+        <div class="grid-col-12 usa-media-block ogp-top-line">
+            {% if subPage contains "PartnerCatalogURL" %}
+            <div class="">
+                <b>VISIT: {{subPage.PartnerURL}} | {{subPage.PartnerCatalogURL}} | CONTACT: {{subPage.PartnerContact}}</b>
             </div>
+            {% else %}
+            <div class="">
+                <b>VISIT: {{subPage.PartnerURL}} | CONTACT: {{subPage.PartnerContact}}</b>
+            </div>
+            {% endif %}
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="usa-graphic-list ">
-        <div class="grid-container usa-graphic-list__row">
-            <!--<div class="display-block">
-                <h2 class="text-primary margin-top-0 margin-bottom-0">Title</h2>
-                <p>
-                    Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                    officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum
-                    quidem rerum facilis est et quidem expedita dist. Ase Nam libero tempore.
-                </p>
-            </div>
-
-            <div class="display-block">
-                <h2 class="text-primary margin-top-0 margin-bottom-0">Title</h2>
-                <p>
-                    Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                    officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum
-                    quidem rerum facilis est et quidem expedita dist. Ase Nam libero tempore.
-                </p>
-            </div>
-
-            <div class="display-block">
-                <h2 class="text-primary margin-top-0 margin-bottom-0">Title</h2>
-                <p>
-                    Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                    officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum
-                    quidem rerum facilis est et quidem expedita dist. Ase Nam libero tempore.
-                </p>
-            </div>-->
-             {% for subPage in page.subPage %}
-            <div class="display-block">
-                <h2 class="text-primary margin-top-0 margin-bottom-0">{{subPage.childPageTitle}}</h2>
-                <p>
-                    {{subPage.childPageParagraph}}
-                </p>
-            </div>
-            {% endfor %}
+<section class="usa-graphic-list">
+    <div class="grid-container usa-graphic-list__row">
+        {% if subPage contains "DescriptionTitle02" %}
+        <div class="display-block">
+            <h2 class="text-primary margin-top-0 margin-bottom-0">{{subPage.DescriptionTitle02}}</h2>
+            <p>{{subPage.Description02}}</p>
         </div>
-    </section>
+        {% endif %}
+        {% if subPage contains "DescriptionTitle03" %}
+        <div class="display-block">
+            <h2 class="text-primary margin-top-0 margin-bottom-0">{{subPage.DescriptionTitle03}}</h2>
+            <p>{{subPage.Description03}}</p>
+        </div>
+        {% endif %}
+        {% if subPage contains "DescriptionTitle04" %}
+        <div class="display-block">
+            <h2 class="text-primary margin-top-0 margin-bottom-0">{{subPage.DescriptionTitle04}}</h2>
+            <p>{{subPage.Description04}}</p>
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+{% endfor %}

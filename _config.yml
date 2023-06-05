@@ -428,8 +428,8 @@ page_gen:
   - data: "resource-data"
     template: "sub-page-resource"
     dir: "/marketplace1/"
-    name_expr: "record['name']"
-    title: "record['name']"
+    name_expr: "record['PartnerID']"
+    title: "record['PartnerID']"
     index_files: true
 
 

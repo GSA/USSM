@@ -1,64 +1,49 @@
 [
   {
-    "name": "Type",
-    "code": "type",
+    "name": "Function-1",
+    "code": "function-1",
     "children": [
       {
-        "name": "Article"
+        "name": "FIBF-FM"
       },
       {
-        "name": "Presentation"
+        "name": "FIBF-GM"
       },
       {
-        "name": "Controller Alert"
+        "name": "FIBF-CYB"
       },
       {
-        "name": "Quick Reference"
+        "name": "FIBF-HR"
       },
       {
-        "name": "Executive Order"
+        "name": "FIBF-PC"
       },
       {
-        "name": "Report"
+        "name": "FIBF-FLT"
       },
       {
-        "name": "Guidance"
-      },
-      {
-        "name": "Regulation"
-      },
-      {
-        "name": "Legislation"
-      },
-      {
-        "name": "Training"
-      },
-      {
-        "name": "Memorandum"
-      },
-      {
-        "name": "Website"
-      },
-      {
-        "name": "Playbook"
+        "name": "FIBF-ERM"
       }
     ]
   },
   {
-    "name": "Source",
-    "code": "source",
+    "name": "Function-2",
+    "code": "function-2",
     "children": [
       {
-        "name": "Congress"
+        "name": "FIBF-GM"
       },
       {
-        "name": "Federal Agency"
-      },
+        "name": "FIBF-FM"
+      }
+    ]
+  },
+  {
+    "name": "Function-3",
+    "code": "function-3",
+    "children": [
       {
-        "name": "External"
-      },
-      {
-        "name": "OMB"
+        "name": "FIBF-PC"
       }
     ]
   }
