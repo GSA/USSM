@@ -5,8 +5,8 @@ layout: base
     <div class="usa-hero clearfix " style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.png');background-repeat:no-repeat">
         <div class="grid-container">
             <div class="usa-width-whole hero-content text-center">
-                <h1 style="color:white">Cybersecurity Services</h1>
-                <p style="color:white">Quality Service Management Offices</p>
+                <h1 class="text-white">Cybersecurity Services</h1>
+                <p class="text-white">Quality Service Management Offices</p>
             </div>
         </div>
     </div>
@@ -22,7 +22,7 @@ layout: base
 {% assign service = page.Services %}
 {% assign subPage = page.SubPage %}
 {% for subPage in page.SubPage %}
-
+<!--This section is for Images-->
 <section class="usa-graphic-list">
     <div class="grid-container usa-graphic-list__row">
         <div class="grid-row">
@@ -42,7 +42,7 @@ layout: base
         </div>
     </div>
 </section>
-
+<!--This section is for Services-->
 {% if page contains "Services" %}
 <section class="usa-graphic-list">
     <div class="grid-container usa-graphic-list__row">
@@ -52,6 +52,7 @@ layout: base
     </div>
 </section>
 {% endif %}
+<!--This section is for Description-->
 <section class="usa-graphic-list">
     <div class="grid-container usa-graphic-list__row">
         <div class="grid-col-12 usa-media-block">
@@ -59,7 +60,7 @@ layout: base
         </div>
     </div>
 </section>
-
+<!--This section is for URL and Contact Info-->
 <section class="usa-graphic-list">
     <div class="grid-container padding-top-2 padding-bottom-2">
         <div class="grid-col-12 usa-media-block ogp-top-line">
@@ -75,7 +76,7 @@ layout: base
         </div>
     </div>
 </section>
-
+<!--This section is for Description-->
 <section class="usa-graphic-list">
     <div class="grid-container usa-graphic-list__row">
         {% if subPage contains "DescriptionTitle02" %}
