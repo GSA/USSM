@@ -25,13 +25,30 @@ layout: base
 
 <section class="usa-graphic-list">
     <div class="grid-container usa-graphic-list__row">
-        <div class="grid-col-12 usa-media-block">
-            <p><img src="{{site.baseurl}}{{subPage.LogoPath}}" alt="{{subPage.AltText}}" style="height:50%; width:50%;"></p>
-            <p style="margin-top:25px">{{subPage.PartnerName}}</p>
+        <div class="grid-row">
+            <div class="usa-media-block tablet:grid-col">
+                {% if subPage contains "LogoPath" %}
+                <img class="image" src="{{site.baseurl}}{{subPage.LogoPath}}" alt="{{subPage.AltText}}">
+                {% else %}
+                <img class="image" src="{{site.baseurl}}/assets/images/about/ussm-mark.png" alt="ussm-logo-mark">
+                {% endif %}
+                <div class="usa-media-block__body margin-top-1">
+                    <h2>&nbsp;&nbsp;- {{subPage.PartnerName}}</h2>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
+{% if subPage contains "Services" %}
+<section class="usa-graphic-list">
+    <div class="grid-container usa-graphic-list__row">
+        <div class="grid-col-12 usa-media-block">
+            <p>Services: {{subPage.Services}}</p>
+        </div>
+    </div>
+</section>
+{% endif %}
 <section class="usa-graphic-list">
     <div class="grid-container usa-graphic-list__row">
         <div class="grid-col-12 usa-media-block">
