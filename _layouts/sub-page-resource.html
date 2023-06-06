@@ -28,12 +28,15 @@ layout: base
         <div class="grid-row">
             <div class="usa-media-block tablet:grid-col">
                 {% if subPage contains "LogoPath" %}
-                <img class="image" src="{{site.baseurl}}{{subPage.LogoPath}}" alt="{{subPage.AltText}}">
+                <img class="subpage-image" src="{{site.baseurl}}{{subPage.LogoPath}}" alt="{{subPage.AltText}}">
                 {% else %}
                 <img class="image" src="{{site.baseurl}}/assets/images/about/ussm-mark.png" alt="ussm-logo-mark">
                 {% endif %}
-                <div class="usa-media-block__body margin-top-1">
-                    <h2>&nbsp;&nbsp;- {{subPage.PartnerName}}</h2>
+                <div class="margin-top-205 margin-left-105">
+                    <p> - </p>
+                </div>
+                <div class="usa-media-block__body margin-top-4 margin-left-105">
+                    <h2>{{subPage.PartnerName}}</h2>
                 </div>
             </div>
         </div>
@@ -44,7 +47,7 @@ layout: base
 <section class="usa-graphic-list">
     <div class="grid-container usa-graphic-list__row">
         <div class="grid-col-12 usa-media-block">
-            <p>Services: {{subPage.Services}}</p>
+            <p><b>Services</b>: {{subPage.Services}}</p>
         </div>
     </div>
 </section>

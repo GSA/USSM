@@ -63,6 +63,8 @@
     "Link": "/marketplace1/qsmo-hcm",
     "SubPage": [
       {
+        "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
+        "AltText": "Shared services",
         "PartnerName": "Human Capital QSMO",
         "Services": "Talent Acquisition, Talent Development, Employee Performance Management, Compensation Management, Benefits Management",
         "Description01": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tristique ex, sed congue nibh. Integer venenatis hendrerit tristique. Aliquam aliquet magna at sollicitudin congue. Duis vel sapien sapien. Ut posuere, tortor eget sagittis semper, tellus lectus consectetur eros, id pulvinar lorem nisl sit amet urna.",
