@@ -1,4 +1,4 @@
 {
     "type":"module",
-    "filterTypes":["focus-area", "type", "source", "year"]
+  "filterTypes": [ "function-1", "function-2", "function-3" ]
 }

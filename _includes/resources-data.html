@@ -31,20 +31,8 @@
         <div class="tablet:grid-col-4 grid-spacing policy {{resource.filters}}">
             <div class="shadow-1  {{ className }}-border">
                 <div class="text-container">
-                    <span class="card-tag">{{resource.type}}</span>
-                    {% if resource.external_url %}
-                    <a class="anchor-fill text-ink text-no-underline" href="https://{{ resource.external_url }}" aria-label="{{ resource.aria-label }} link (opens in new window)." target="_blank">
-                        <p class="title-resources">{{ resource.resourceTitle }} &nbsp; <span><i class="fas fa-external-link-alt"></i></span></p>
-                    </a>
-                    {% elsif resource.doc-link %}
-                    <a class="anchor-fill text-ink text-no-underline" href="{{ site.baseurl }}/{{ resource.doc-link }}" aria-label="{{ resource.aria-label }} link (opens in new window)." target="_blank">
-                        <p class="title-resources">{{ resource.resourceTitle }} &nbsp; <span><i class="fas fa-external-link-alt"></i></span></p>
-                    </a>
-                    {% elsif resource.perma_link %}
-                    <p class="title-resources"><a class="text-ink text-no-underline" href="{{ site.baseurl }}{{resource.perma_link}}{{resource.name}}">{{ resource.resourceTitle }}</a></p>
-                    {% else %}
-                    <p class="title-resources">{{ resource.resourceTitle }}</p>
-                    {% endif %}
+                    <span class="card-tag"><a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}">{{resource.PartnerID}}</a></span>
+                    <p class="title-resources"><a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}">{{ resource.Services }}</a></p>
                 </div>
             </div>
         </div>

@@ -1,112 +1,49 @@
 [
   {
-    "name": "Type",
-    "code": "type",
+    "name": "Function-1",
+    "code": "function-1",
     "children": [
       {
-        "name": "Article"
+        "name": "FIBF-FM"
       },
       {
-        "name": "Presentation"
+        "name": "FIBF-GM"
       },
       {
-        "name": "Controller Alert"
+        "name": "FIBF-CYB"
       },
       {
-        "name": "Quick Reference"
+        "name": "FIBF-HR"
       },
       {
-        "name": "Executive Order"
+        "name": "FIBF-PC"
       },
       {
-        "name": "Report"
+        "name": "FIBF-FLT"
       },
       {
-        "name": "Guidance"
-      },
-      {
-        "name": "Regulation"
-      },
-      {
-        "name": "Legislation"
-      },
-      {
-        "name": "Training"
-      },
-      {
-        "name": "Memorandum"
-      },
-      {
-        "name": "Website"
-      },
-      {
-        "name": "Playbook"
+        "name": "FIBF-ERM"
       }
     ]
   },
   {
-    "name": "Source",
-    "code": "source",
+    "name": "Function-2",
+    "code": "function-2",
     "children": [
       {
-        "name": "Congress"
+        "name": "FIBF-GM"
       },
       {
-        "name": "Federal Agency"
-      },
-      {
-        "name": "External"
-      },
-      {
-        "name": "OMB"
+        "name": "FIBF-FM"
       }
     ]
   },
   {
-    "name": "Focus Area",
-    "code": "focus-area",
+    "name": "Function-3",
+    "code": "function-3",
     "children": [
       {
-        "name": "Focus Area1"
-      },
-      {
-        "name": "Focus Area2"
-      },
-      {
-        "name": "Focus Area3"
-      },
-      {
-        "name": "Focus Area4"
-      }
-    ]
-  },
-  {
-    "name": "Fiscal Year",
-    "code": "year",
-    "children": [
-      {
-        "name": 2015
-      },
-      {
-        "name": 2016
-      },
-      {
-        "name": 2017
-      },
-      {
-        "name": 2018
-      },
-      {
-        "name": 2019
-      },
-      {
-        "name": 2020
-      },
-      {
-        "name": 2021
-      },
-      {
-        "name": 2022
+        "name": "FIBF-PC"
       }
     ]
   }

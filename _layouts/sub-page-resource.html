@@ -5,87 +5,99 @@ layout: base
     <div class="usa-hero clearfix " style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.png');background-repeat:no-repeat">
         <div class="grid-container">
             <div class="usa-width-whole hero-content text-center">
-
-                <h1 style="color:white">Mission Support Business Standards</h1>
-                <p style="color:white">Business standards, established and agreed to by agencies, using the Federal Integrated Business Framework (FIBF) enable the government to better coordinate on the decision-making needed to determine what can be adopted and commonly shared.  They are an essential first step towards agreement on outcomes, data, and cross-functional end to end processes that will drive economies of scale and leverage the government’s buying power.</p>
-                <!--a class="usa-button usa-button-secondary " href="#" style="background-color:#e31c3d">FIBF Artifacts</a>-->
-
+                <h1 class="text-white">Cybersecurity Services</h1>
+                <p class="text-white">Quality Service Management Offices</p>
             </div>
         </div>
     </div>
 </section>
----{{page.resourceTitle}}
+
+<section>
+    <div class="grid-container padding-top-2 padding-bottom-2">
+        <div class="desktop:grid-col-12">
+            <a href="{{site.baseurl}}/">Home</a> > <a href="{{site.baseurl}}/marketplace1">Mission Support MarketPlace Catalog</a> > Quality Service Management Offices Cybersecurity Services
+        </div>
+    </div>
+</section>
+{% assign service = page.Services %}
+{% assign subPage = page.SubPage %}
+{% for subPage in page.SubPage %}
+<!--This section is for Images-->
+<section class="usa-graphic-list">
+    <div class="grid-container usa-graphic-list__row">
+        <div class="grid-row">
+            <div class="usa-media-block tablet:grid-col">
+                {% if subPage contains "LogoPath" %}
+                <img class="image" src="{{site.baseurl}}{{subPage.LogoPath}}" alt="{{subPage.AltText}}">
+                {% else %}
+                <img class="image" src="{{site.baseurl}}/assets/images/about/ussm-mark.png" alt="ussm-logo-mark">
+                {% endif %}
+                <div class="margin-top-205 margin-left-105">
+                    <p> - </p>
+                </div>
+                <div class="usa-media-block__body margin-top-4 margin-left-105">
+                    <h2>{{subPage.PartnerName}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--This section is for Services-->
+{% if page contains "Services" %}
 <section class="usa-graphic-list">
     <div class="grid-container usa-graphic-list__row">
         <div class="grid-col-12 usa-media-block">
-            <!-- <P> <img  src="../assets/images/about/ussm-mark.png" alt="ussm-logo-mark" style="height:auto; width:89%;min-width: 48px; margin-top:-15px; padding-right: 15px; padding-bottom: 0px;"></P> -->
-            <div >
-                <h2 class="text-primary margin-top-0" style="font-size: 30px">How OSSPI Supports Shared Services</h2>
-                <p style="max-width:none;margin-bottom: 1em; margin-top: 0em; float: left;">
-                    OSSPI coordinates governance, executes program management, and develops processes to support development and implementation of OMB policy as it relates to mission support services.
-                </p>
-            </div>
+            <p><b>Services</b>: {{service}}</p>
         </div>
     </div>
-    </div>
 </section>
-
-<section class="usa-graphic-list"> 
+{% endif %}
+<!--This section is for Description-->
+<section class="usa-graphic-list">
     <div class="grid-container usa-graphic-list__row">
         <div class="grid-col-12 usa-media-block">
-            <div>
-                <p>Excepturi sint occaecati cupiditate non provident, similique sunt in
-                    culpa qui officia deserunt mollitia animi, id est laborum et dolorum
-                    fuga. Et harum quidem rerum facilis est et quidem expedita dist.
-                    Ase Nam libero tempore.</p>
-            </div>
+            <p>{{subPage.Description01}}</p>
         </div>
     </div>
-    </div>
 </section>
-
-<section class="usa-graphic-list "> 
-    <div class="grid-container usa-graphic-list__row">
-        <div class="grid-col-12 usa-media-block ogp-top-line ">
+<!--This section is for URL and Contact Info-->
+<section class="usa-graphic-list">
+    <div class="grid-container padding-top-2 padding-bottom-2">
+        <div class="grid-col-12 usa-media-block ogp-top-line">
+            {% if subPage contains "PartnerCatalogURL" %}
             <div class="">
-                <b>VISIT: WWW.WEBSITE.GOV | CONTACT: NAME@EMAIL.GOV</b>
+                <b>VISIT: {{subPage.PartnerURL}} | {{subPage.PartnerCatalogURL}} | CONTACT: {{subPage.PartnerContact}}</b>
             </div>
+            {% else %}
+            <div class="">
+                <b>VISIT: {{subPage.PartnerURL}} | CONTACT: {{subPage.PartnerContact}}</b>
+            </div>
+            {% endif %}
         </div>
     </div>
+</section>
+<!--This section is for Description-->
+<section class="usa-graphic-list">
+    <div class="grid-container usa-graphic-list__row">
+        {% if subPage contains "DescriptionTitle02" %}
+        <div class="display-block">
+            <h2 class="text-primary margin-top-0 margin-bottom-0">{{subPage.DescriptionTitle02}}</h2>
+            <p>{{subPage.Description02}}</p>
+        </div>
+        {% endif %}
+        {% if subPage contains "DescriptionTitle03" %}
+        <div class="display-block">
+            <h2 class="text-primary margin-top-0 margin-bottom-0">{{subPage.DescriptionTitle03}}</h2>
+            <p>{{subPage.Description03}}</p>
+        </div>
+        {% endif %}
+        {% if subPage contains "DescriptionTitle04" %}
+        <div class="display-block">
+            <h2 class="text-primary margin-top-0 margin-bottom-0">{{subPage.DescriptionTitle04}}</h2>
+            <p>{{subPage.Description04}}</p>
+        </div>
+        {% endif %}
     </div>
 </section>
 
-<section class="usa-graphic-list "> 
-    <div class="grid-container usa-graphic-list__row">
-        <div class=" ">
-            <div class="display-block">
-                <p>Title</p>
-            
-                <p>Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                    officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum
-                    quidem rerum facilis est et quidem expedita dist. Ase Nam libero tempore.</p>
-            </div>
-        </div>
-        <div >
-            <div class="display-block">
-                <p>Title</p>
-            </div>
-            <div class="display-block">
-                <p>Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                    officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum
-                    quidem rerum facilis est et quidem expedita dist. Ase Nam libero tempore.</p>
-            </div>
-        </div>
-        <div class="">
-            <div class="display-block">
-                <p>Title</p>
-            </div>
-            <div class="display-block">
-                <p>Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                    officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum
-                    quidem rerum facilis est et quidem expedita dist. Ase Nam libero tempore.</p>
-            </div>
-        </div>
-    </div>
-    </div>
-</section>
+{% endfor %}
