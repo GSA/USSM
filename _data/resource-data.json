@@ -6,7 +6,6 @@
     "SubPage": [
       {
         "PartnerName": "Financial Management QSMO",
-        "Services": "Accounts Payable, Accounts Receivable, General Ledger, Reporting",
         "Description01": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tristique ex, sed congue nibh. Integer venenatis hendrerit tristique. Aliquam aliquet magna at sollicitudin congue. Duis vel sapien sapien. Ut posuere, tortor eget sagittis semper, tellus lectus consectetur eros, id pulvinar lorem nisl sit amet urna.",
         "PartnerURL": "<a href='https://www.fiscal.treasury.gov/fmqsmo/' target='_blank'>https://www.fiscal.treasury.gov/fmqsmo/</a>",
         "PartnerCatalogURL": "<a href='https://fiscal.treasury.gov/fmqsmo/marketplace-catalog.html' target='_blank'>https://fiscal.treasury.gov/fmqsmo/marketplace-catalog.html</a>",
@@ -26,7 +25,6 @@
     "SubPage": [
       {
         "PartnerName": "Grants Management QSMO",
-        "Services": "Grant Program Administration and Oversight, Management of Grant Pre-Award, Award, Post-Award & Closeout, Grant Recipient Oversight",
         "Description01": "Proin posuere in quam sed tincidunt. Aliquam sollicitudin magna odio, sed laoreet ante lobortis id. Phasellus vel malesuada odio. Aenean tincidunt leo quis volutpat porttitor.",
         "PartnerURL": "<a href='https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html' target='_blank'>https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html</a>",
         "PartnerContact": "GrantsQSMO@hhs.gov",
@@ -45,7 +43,6 @@
     "SubPage": [
       {
         "PartnerName": "Cybersecurity QSMO",
-        "Services": "Security Operations Center standardization, Vulnerability Management standardization, and DNS Resolver service",
         "Description01": "Fusce eget facilisis dolor. Pellentesque non venenatis ex. Ut pharetra sodales eros, quis consequat lorem mattis vitae. Ut vulputate gravida risus ac egestas. Sed a hendrerit mi. Quisque non erat id libero luctus cursus in ut elit. Phasellus mollis quam vitae mauris ultrices maximus.",
         "PartnerURL": "<a href='https://www.cisa.gov/cyber-qsmo-marketplace' target='_blank'>https://www.cisa.gov/cyber-qsmo-marketplace</a>",
         "PartnerContact": "QSMO@hq.dhs.gov",
@@ -66,7 +63,6 @@
         "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
         "AltText": "Shared services",
         "PartnerName": "Human Capital QSMO",
-        "Services": "Talent Acquisition, Talent Development, Employee Performance Management, Compensation Management, Benefits Management",
         "Description01": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tristique ex, sed congue nibh. Integer venenatis hendrerit tristique. Aliquam aliquet magna at sollicitudin congue. Duis vel sapien sapien. Ut posuere, tortor eget sagittis semper, tellus lectus consectetur eros, id pulvinar lorem nisl sit amet urna.",
         "PartnerURL": "<a href='https://www.opm.gov' target='_blank'>https://www.opm.gov</a>",
         "PartnerContact": "hrqsmo@opm.gov",

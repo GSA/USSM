@@ -19,7 +19,7 @@ layout: base
         </div>
     </div>
 </section>
-
+{% assign service = page.Services %}
 {% assign subPage = page.SubPage %}
 {% for subPage in page.SubPage %}
 
@@ -43,11 +43,11 @@ layout: base
     </div>
 </section>
 
-{% if subPage contains "Services" %}
+{% if page contains "Services" %}
 <section class="usa-graphic-list">
     <div class="grid-container usa-graphic-list__row">
         <div class="grid-col-12 usa-media-block">
-            <p><b>Services</b>: {{subPage.Services}}</p>
+            <p><b>Services</b>: {{service}}</p>
         </div>
     </div>
 </section>
