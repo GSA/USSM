@@ -5,6 +5,7 @@
     "Link": "/marketplace1/qsmo-ffm",
     "SubPage": [
       {
+        "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
         "PartnerName": "Financial Management QSMO",
         "Description01": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tristique ex, sed congue nibh. Integer venenatis hendrerit tristique. Aliquam aliquet magna at sollicitudin congue. Duis vel sapien sapien. Ut posuere, tortor eget sagittis semper, tellus lectus consectetur eros, id pulvinar lorem nisl sit amet urna.",
         "PartnerURL": "<a href='https://www.fiscal.treasury.gov/fmqsmo/' target='_blank'>https://www.fiscal.treasury.gov/fmqsmo/</a>",
@@ -24,6 +25,7 @@
     "Link": "/marketplace1/qsmo-grm",
     "SubPage": [
       {
+        "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
         "PartnerName": "Grants Management QSMO",
         "Description01": "Proin posuere in quam sed tincidunt. Aliquam sollicitudin magna odio, sed laoreet ante lobortis id. Phasellus vel malesuada odio. Aenean tincidunt leo quis volutpat porttitor.",
         "PartnerURL": "<a href='https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html' target='_blank'>https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html</a>",
@@ -42,6 +44,7 @@
     "Link": "/marketplace1/qsmo-cyb",
     "SubPage": [
       {
+        "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
         "PartnerName": "Cybersecurity QSMO",
         "Description01": "Fusce eget facilisis dolor. Pellentesque non venenatis ex. Ut pharetra sodales eros, quis consequat lorem mattis vitae. Ut vulputate gravida risus ac egestas. Sed a hendrerit mi. Quisque non erat id libero luctus cursus in ut elit. Phasellus mollis quam vitae mauris ultrices maximus.",
         "PartnerURL": "<a href='https://www.cisa.gov/cyber-qsmo-marketplace' target='_blank'>https://www.cisa.gov/cyber-qsmo-marketplace</a>",
@@ -79,6 +82,7 @@
     "Link": "/marketplace1/ess-smartpay",
     "SubPage": [
       {
+        "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
         "PartnerName": "GSA SmartPay",
         "Description01": "Proin posuere in quam sed tincidunt. Aliquam sollicitudin magna odio, sed laoreet ante lobortis id. Phasellus vel malesuada odio. Aenean tincidunt leo quis volutpat porttitor.",
         "PartnerURL": "<a href='https://smartpay.gsa.gov/' target='_blank'>https://smartpay.gsa.gov/</a>",
@@ -96,6 +100,7 @@
     "Link": "/marketplace1/ess-fleet",
     "SubPage": [
       {
+        "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
         "PartnerName": "GSA Fleet",
         "Description01": "Proin posuere in quam sed tincidunt. Aliquam sollicitudin magna odio, sed laoreet ante lobortis id. Phasellus vel malesuada odio. Aenean tincidunt leo quis volutpat porttitor.",
         "PartnerURL": "<a href='https://www.gsa.gov/buy-through-us/products-services/transportation-logistics-services/fleet-management' target='_blank'>https://www.gsa.gov/buy-through-us/products-services/transportation-logistics-services/fleet-management</a>",
@@ -113,6 +118,7 @@
     "Link": "/marketplace1/ess-erm",
     "SubPage": [
       {
+        "LogoPath": "/assets/images/video-card/what-are-shared-services.png",
         "PartnerName": "Electronic Records Management",
         "Description01": "Proin posuere in quam sed tincidunt. Aliquam sollicitudin magna odio, sed laoreet ante lobortis id. Phasellus vel malesuada odio. Aenean tincidunt leo quis volutpat porttitor.",
         "PartnerURL": "<a href='https://www.gsa.gov/events/gsa-schedule-36-records-management-solutions' target='_blank'>https://www.gsa.gov/events/gsa-schedule-36-records-management-solutions</a>",
