@@ -32,7 +32,9 @@
             <div class="shadow-1  {{ className }}-border">
                 <div class="text-container">
                     <span class="card-tag"><a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}">{{resource.PartnerID}}</a></span>
+                    {% if resource contains "Services" %}
                     <p class="title-resources"><a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}">{{ resource.Services }}</a></p>
+                    {% endif %}
                 </div>
             </div>
         </div>
