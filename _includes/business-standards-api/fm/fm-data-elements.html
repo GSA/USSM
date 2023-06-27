@@ -1,2 +1,8 @@
 
-{{ site.data.fm.Standard_Data_Elements | remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}
+{
+    "Federal Financial Management Standard Data Elements": "https://ussm.gsa.gov/assets/files/downloads/fm/Financial-Management-Standard-Data-Elements_v2.xlsx",
+    "jsonData": {
+        "url":"{{site.baseurl}}/assets/json/Financial-Management-Standard-Data-Elements.json",
+        "name":"Federal Financial Management Standard Data Elements (JSON)"
+    }
+}
