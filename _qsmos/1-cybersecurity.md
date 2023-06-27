@@ -7,5 +7,6 @@ contact: QSMO@hq.dhs.gov
 services: Security Operations Center standardization, Vulnerability Management standardization, and DNS Resolver service
 website: cisa.gov/cyber-qsmo
 filters: formal dhs cyber
+catalog: www.cisa.gov/cyber-qsmo-marketplace
 
 ---

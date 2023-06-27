@@ -6127,8 +6127,8 @@
        "080.GRM.L1.10 Grant Applicant Risk Identified from Single Audit Findings":"https://ussm.gsa.gov/assets/files/GRM.Business.Use.Case.080.GRM.L1.10.Grant.Applicant.Risk.Identified.from.Single.Audit.Findings.v1.0.pdf",
        "080.GRM.L2.02 Non-Competitive Grant with Overpayment":"https://ussm.gsa.gov/assets/files/GRM.Business.Use.Case.080.GRM.L2.02.Non-Competitive.Grant.with.Overpayment.v1.1.pdf"
     },
-    "Standardkkk_Data_Elements":{
-       "Grants Management Standardkkk Data Elements Version 2.0":"/assets/files/downloads/grants/grants-management-standard-data-elements-version-2.0.xlsm"
+    "Standard_Data_Elements":{
+       "Grants Management Standard Data Elements Version 2.0":"/assets/files/downloads/grants/grants-management-standard-data-elements-version-2.0.xlsm"
     },
     "Service_Measures":"coming soon"
  }
