@@ -79,8 +79,7 @@ This template is for a single page that does not have a date associated with it.
             Data Elements</a></li>
           {% endif %}
           {% if page.performance-metrics-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white">Performance
-            Metrics</a></li>
+          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white">Service Measures</a></li>
           {% endif %}
           {% if page.all-zip %}
           <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.all-zip}}" class="usa-button text-white">Download
@@ -109,15 +108,17 @@ This template is for a single page that does not have a date associated with it.
             <ul>
               <li>
                 <img src="{{ site.baseurl }}/assets/images/icon.{{page.lifecycle-source-document-type}}.png" valign="middle" alt="{{page.lifecycle-source-document-type}}">
-                <a href="{{ site.baseurl }}/{{page.lifecycle-source-document}}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>  
-              </li>
-              <li>
-                <a href="https://ussm.gsa.gov/business-standards-api/grants/business-lifecycle">Grants Management Business Lifecycle Version 2.0 (JSON)</a>
-              </li>  
-            </ul>
-          </p>
-          {% endif %}
-
+                <a href="{{ site.baseurl }}/{{page.lifecycle-source-document}}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
+              </div>
+            </li>
+            {% endif %}
+          
+            {% if page.lifecycle-json-api %}
+            <li>
+              <a href="{{ page.lifecycle-json-api }}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
+            </li>
+            {% endif %}
+          </ul>
         </div>
         {% if page.lifecycle-content %}
         <div class="desktop:grid-col-12">{% include {{ page.lifecycle-content }} %}</div>
@@ -145,7 +146,7 @@ This template is for a single page that does not have a date associated with it.
                 <a href="{{ site.baseurl }}/{{page.capabilities-source-document}}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>    
               </li>
               <li>
-                <a href="https://ussm.gsa.gov/business-standards-api/grants/business-lifecycle">Grants Management Business Capabilities Version 2.0 (JSON)</a>
+                <a href="{{ page.capabilities-json-api }}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
               </li>
             </ul>
             {% endif %}

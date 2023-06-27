@@ -91,6 +91,8 @@ jQuery(document).ready(function () {
             accordian: 'rpm-lifecycle',
             table: 'rpm-capabilities',
             UseCasesList: 'rpm-use-cases',
+            ElementsList: 'rpm-data-elements',
+            PerformanceMetricsList:"rpm-performance-metrics",
             url:  prefixUrl.concat('/business-standards-api/rpm'),
             hasSubsection: false
         },
