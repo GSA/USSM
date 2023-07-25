@@ -1,6 +1,6 @@
 [
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "PersonPre-fixName",
     "Definition": "The prefix by which a person is known or designated on all official transactions.",
@@ -19,7 +19,7 @@
     "Related Data Element Reference": "PersonNamePrefixText"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "PersonGivenName",
     "Definition": "Given/chosen/often first name by which a person is known or designated on all official transactions. ",
@@ -38,7 +38,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "PersonMiddleName",
     "Definition": "Middle name, or initial, by which a person is known or designated on all official transactions.",
@@ -57,7 +57,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "PersonFamilyName",
     "Definition": "Non-chosen/inherited/married name by which a person is known or designated on all official transactions.",
@@ -76,7 +76,7 @@
     "Related Data Element Reference": "PersonSurName\n "
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "PersonSuffixName",
     "Definition": "Non-chosen/inherited/married name by which a person is known or designated on all official transactions.",
@@ -95,7 +95,7 @@
     "Related Data Element Reference": "PersonNameSuffixText\n"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "HCM",
     "Data Element Label": "PositionOfficialTitle",
     "Definition": "Official classification title description of the position of the employee.",
@@ -114,7 +114,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "HCM",
     "Data Element Label": "PayPlan/Grade",
     "Definition": "The employee's current pay plan, pay grade, and step. If an employee is in 'retained grade' status the retained pay plan, grade and step used to calculate pay entitlements are not printed, however, the message 'PAY COMPUTED USING RETAINED INFORMATION' is printed in the Remarks section.",
@@ -133,7 +133,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "PersonDepartmentCode",
     "Definition": "The code for the top-level government department or independent agency in the federal hierarchy where a person is employed.",
@@ -152,7 +152,7 @@
     "Related Data Element Reference": "DepartmentAgencyCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "PersonDepartmentName",
     "Definition": "The name for the top-level government department or independent agency in the federal hierarchy where a person is employed.",
@@ -171,7 +171,7 @@
     "Related Data Element Reference": "DepartmentAgencyName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "PersonBureauCode",
     "Definition": "The code for the first layer down within a department or independent agency in the federal hierarchy where a person is employed.",
@@ -190,7 +190,7 @@
     "Related Data Element Reference": "DepartmentAgencySubTierCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "PersonBureauName",
     "Definition": "The name for the first layer down within a department or independent agency in the federal hierarchy where a person is employed.",
@@ -209,7 +209,7 @@
     "Related Data Element Reference": "DepartmentAgencySubTierName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "PersonOfficeCode",
     "Definition": "The code for the lowest organizational level of a department/independent agency's federal hierarchy where a person is employed.",
@@ -228,7 +228,7 @@
     "Related Data Element Reference": "DepartmentAgencySubTierOfficeCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "PersonOfficeName",
     "Definition": "The name for the lowest organizational level of a department/independent agency's federal hierarchy where a person is employed.",
@@ -247,7 +247,7 @@
     "Related Data Element Reference": "DepartmentAgencySubTierOfficeName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileLocationTypeName",
     "Definition": "The type(s) of location(s) associated with the travel personnel profile.  ",
@@ -266,7 +266,7 @@
     "Related Data Element Reference": "AddressTypeCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileMailingAddress1Text",
     "Definition": "The street address assigned to a mailing location in the travel personnel profile.",
@@ -285,7 +285,7 @@
     "Related Data Element Reference": "AddressLine1Text"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileMailingAddress2Text",
     "Definition": "The building name, room, apartment, or suite number assigned to a mailing location in the travel personnel profile.",
@@ -304,7 +304,7 @@
     "Related Data Element Reference": "AddressLine2Text"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileDomesticCityCode",
     "Definition": "The code assigned to the city or town situated both within the Continental United States (CONUS) and non-foreign areas, i.e., a domestic location, in the travel personnel profile.",
@@ -323,7 +323,7 @@
     "Related Data Element Reference": "CityCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileDomesticCityName",
     "Definition": "The name of the city or town situated both within the Continental United States (CONUS) and non-foreign areas, i.e., a domestic location, in the travel personnel profile.",
@@ -342,7 +342,7 @@
     "Related Data Element Reference": "CityName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileForeignCityCode",
     "Definition": "The code assigned to the city or town situated both outside the Continental United States (CONUS) and non-foreign areas, i.e., a foreign location, in the travel personnel profile.",
@@ -361,7 +361,7 @@
     "Related Data Element Reference": "ForeignCityCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileForeignCityName",
     "Definition": "The name of the city or town situated both outside the Continental United States (CONUS) and non-foreign areas, i.e., a foreign location, in the travel personnel profile.",
@@ -380,7 +380,7 @@
     "Related Data Element Reference": "ForeignCityName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileDomesticStateOrTerritoryCode",
     "Definition": "The code assigned to the domestic State, Province, District, etc. in the travel personnel profile. ",
@@ -399,7 +399,7 @@
     "Related Data Element Reference": "StateOrTerritoryCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileDomesticStateOrTerritoryName",
     "Definition": "The name of the domestic State, Province, District, etc. in the travel personnel profile. ",
@@ -418,7 +418,7 @@
     "Related Data Element Reference": "StateOrTerritoryName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileForeignStateCode",
     "Definition": "The code assigned to the foreign State, Province, District, etc. in the travel personnel profile. ",
@@ -437,7 +437,7 @@
     "Related Data Element Reference": "ForeignSubdivisionCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileForeignStateName",
     "Definition": "The name of the foreign State, Province, District, etc. in the travel personnel profile. ",
@@ -456,7 +456,7 @@
     "Related Data Element Reference": "ForeignSubdivisionName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileCountryCode",
     "Definition": "The code assigned to the country in the travel personnel profile. ",
@@ -475,7 +475,7 @@
     "Related Data Element Reference": "CountryCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileCountryName",
     "Definition": "The name of the country in the travel personnel profile. ",
@@ -494,7 +494,7 @@
     "Related Data Element Reference": "CountryName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileZIPPostalCode",
     "Definition": "The five-digit postal code used by the United States Postal Service (USPS) for a location situated both within the Continental United States (CONUS) and non-foreign areas, i.e., a domestic location, in the travel personnel profile.",
@@ -513,7 +513,7 @@
     "Related Data Element Reference": "ZipCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfile+4PostalCode",
     "Definition": "The four-digits that follow the five-digit ZIP code for a domestic location in the travel personnel profile.",
@@ -532,7 +532,7 @@
     "Related Data Element Reference": "Zip+4Code"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TravelPersonnelProfileForeignPostalCode",
     "Definition": "The foreign postal code assigned to an area situated both outside the Continental United States (CONUS) and non-foreign areas, i.e., a foreign location, in the travel personnel profile.",
@@ -551,7 +551,7 @@
     "Related Data Element Reference": "ForeignPostalCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "EmailAddressTypeName",
     "Definition": "The purpose for which an email address is established.",
@@ -570,7 +570,7 @@
     "Related Data Element Reference": "EmailAddressTypeCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "EmailAddressName",
     "Definition": "A valid email address used to communicate with an entity associated with the travel process.",
@@ -589,7 +589,7 @@
     "Related Data Element Reference": "EmailAddressText"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TelephoneNumberTypeName",
     "Definition": "A name that identifies the type of telephone number. ",
@@ -608,7 +608,7 @@
     "Related Data Element Reference": "TelephoneNumberTypeCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TelephoneNumberDomesticText",
     "Definition": "A full domestic telephone number.",
@@ -627,7 +627,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "TelephoneNumberForeignText",
     "Definition": "A full foreign telephone number.",
@@ -646,7 +646,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelPersonnelRoleTypeName",
     "Definition": "Role(s) of a person with a responsibility to be executed during the travel and expense management process.",
@@ -665,7 +665,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelPersonnelPayeeID",
     "Definition": "An identifier that uniquely identifies the individual who incurred a reimbursable expense.",
@@ -684,7 +684,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "PaymentMethod",
     "Definition": "The form of payment identified by the travel personnel on how the agency will reimburse them for official business expenses.",
@@ -703,7 +703,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "BusinessIdentifierCode",
     "Definition": "The identifier for institutions within the financial services industry to facilitate automated processing of telecommunication messages in banking and related financial transaction environments.",
@@ -722,7 +722,7 @@
     "Related Data Element Reference": "FinancialInstitutionIdentifier\n\n"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "RoutingTransitNumber",
     "Definition": "The 9-digit account number assigned by the American Banking Association the financial institution has with the Federal Reserve. ",
@@ -741,7 +741,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "BankName",
     "Definition": "The name of the financial institution associated with the routing transit number.",
@@ -760,7 +760,7 @@
     "Related Data Element Reference": "FinancialInstitutionName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "BankAccountTypeCode",
     "Definition": "The code associated with the bank account type that identifies the type of account.",
@@ -779,7 +779,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "BasicBankAccountNumber",
     "Definition": "An identifier that uniquely identifies an individual account at a specific financial institution in a particular country and which includes a bank identifier of the financial institution servicing that account.\n",
@@ -798,7 +798,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "InternationalBankAccountNumber",
     "Definition": "An expanded version of the basic bank account number (BBAN), intended for use internationally, which uniquely identifies an individual account at a specific financial institution, in a particular country. Note 1 to entry: Although designed for use internationally, there is nothing to prevent the use of the IBAN domestically.\n",
@@ -817,7 +817,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerEmployeeTypeName",
     "Definition": "The traveler \"employee\" type for an individual authorized to travel or be reimbursed for official expenses at Government expense.",
@@ -836,7 +836,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "KnownTravelerNumber",
     "Definition": "A unique number assigned to an individual for whom the Federal government has conducted a security threat assessment and determined does not pose a security threat.",
@@ -855,7 +855,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "RedressNumber",
     "Definition": "The number assigned by the Department of Homeland Security (DHS) to an individual processed through the redress procedures described in 49 CFR part 1560, subpart C.",
@@ -874,7 +874,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerIDDocumentTypeName",
     "Definition": "Type of official document that validates a traveler's identity.",
@@ -893,7 +893,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerIDDocumentIssuingDomesticCityName",
     "Definition": "The domestic city where a traveler's form of identification was issued. ",
@@ -912,7 +912,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerIDDocumentIssuingStateName",
     "Definition": "The state or province where a traveler's form of identification was issued. ",
@@ -931,7 +931,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerIDDocumentIssuingForeignCityName",
     "Definition": "The foreign city where a traveler's form of identification was issued. ",
@@ -950,7 +950,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerIDDocumentIssuingCountryName",
     "Definition": "The country where a traveler's form of identification was issued. ",
@@ -969,7 +969,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerIDDocumentIssueDate",
     "Definition": "The date when a traveler's form of identification was issued.",
@@ -988,7 +988,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerIDDocumentExpirationDate",
     "Definition": "The date when a traveler's form of identification expires.",
@@ -1007,7 +1007,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerIDDocumentIDNumber",
     "Definition": "Unique identification number assigned a traveler's form of identification. ",
@@ -1026,7 +1026,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerIDDocumentVisaHeldName",
     "Definition": "Foreign country visa(s) held by a traveler.",
@@ -1045,7 +1045,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerCountryVisaIssueDate",
     "Definition": "The date a country visa was issued to a traveler.",
@@ -1064,7 +1064,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "HCM",
     "Data Element Label": "PersonSexCode",
     "Definition": "Traveler's sex or gender.",
@@ -1083,7 +1083,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "HCM",
     "Data Element Label": "PersonBirthDate",
     "Definition": "Date when the traveler was born.",
@@ -1102,7 +1102,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "HCM",
     "Data Element Label": "PersonPlaceOfBirthName",
     "Definition": "Traveler's place of birth. ",
@@ -1121,7 +1121,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "CitizenshipCountryCode",
     "Definition": "The code assigned to the traveler's country of citizenship. ",
@@ -1140,7 +1140,7 @@
     "Related Data Element Reference": "PersonCitizenshipCountryCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "Common",
     "Data Element Label": "CitizenshipCountryName",
     "Definition": "The name of the traveler's country of citizenship. ",
@@ -1159,7 +1159,7 @@
     "Related Data Element Reference": "PersonCitizenshipCountryName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerSpecialNeedsTypeName",
     "Definition": "Identifies whether a traveler has a medical disability or special need.",
@@ -1178,7 +1178,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerSpecialAccommodationsCertificationDate",
     "Definition": "The date a traveler's medical disability or special need was certified by the agency reasonable accommodations official.",
@@ -1197,7 +1197,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerSpecialAccommodationsExpiredCertificationIndicator",
     "Definition": "Indicates the traveler with a temporary medical disability or special need has an expired certification for reasonable accommodation.",
@@ -1216,7 +1216,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerSpecialAccommodationsSeatingClassTypeName",
     "Definition": "Indicates the class of accommodations/seating necessary to accommodate a traveler's medical disability or other special need.",
@@ -1235,7 +1235,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerSpecialAccommodationsNonCompactCarIndicator",
     "Definition": "Indicates use of other than a compact car is necessary to accommodate a traveler's medical disability or other special need.",
@@ -1254,7 +1254,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerDietaryRestrictionsIndicator",
     "Definition": "Indicates the traveler has a dietary restriction because of medical requirements or religious beliefs.",
@@ -1273,7 +1273,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerSpecialAccommodationsText",
     "Definition": "Other information provided by the employee with a medical disability or special need that may be useful to the authorizing/approving official.",
@@ -1292,7 +1292,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ChargeCardExemptionTypeName",
     "Definition": "Identifies the reason a traveler is exempt from mandatory use of the travel charge card.",
@@ -1311,7 +1311,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ChargeCardIssuerName",
     "Definition": "The name of a bank or issuing organization associated with a charge card.",
@@ -1330,7 +1330,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ChargeCardIssuerIdentifier",
     "Definition": "The identifier for the charge card issuer.",
@@ -1349,7 +1349,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ChargeCardHolderName",
     "Definition": "The name of the card holder printed on a travel charge card.",
@@ -1368,7 +1368,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ChargeCardNumberID",
     "Definition": "Charge card number, including card verification value (CVV), used to pay for official business expenses.",
@@ -1387,7 +1387,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ChargeCardExpirationDate",
     "Definition": "Expiration date of the travel charge card.",
@@ -1406,7 +1406,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ChargeCardTrainingCompletionDate",
     "Definition": "The most recent date the travel charge card holder completed the agency's travel charge card training.",
@@ -1425,7 +1425,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerLoyaltyProgramTypeName",
     "Definition": "The type of loyalty program in a traveler's profile.",
@@ -1444,7 +1444,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerLoyaltyProgramName",
     "Definition": "A traveler's preferred vendor for travel and transportation related services.",
@@ -1463,7 +1463,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerLoyaltyProgramID",
     "Definition": "The traveler's loyalty program unique membership identification number.",
@@ -1482,7 +1482,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerLoyaltyBenefitsText",
     "Definition": "The number of points or miles earned by a traveler's primary loyalty program.",
@@ -1501,7 +1501,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerAltLoyaltyProgramName",
     "Definition": "A traveler's alternate vendor for travel and transportation related services.",
@@ -1520,7 +1520,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerAltLoyaltyProgramID",
     "Definition": "The traveler's alternate loyalty program unique membership identification number.",
@@ -1539,7 +1539,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerAltLoyaltyBenefitsText",
     "Definition": "The number of points or miles earned by a traveler's alternate loyalty program.",
@@ -1558,7 +1558,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerOriginPreferenceAirportCode",
     "Definition": "The airport code for the traveler's preferred point of origin/departure.",
@@ -1577,7 +1577,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerSeatingClassPreferenceName",
     "Definition": "The traveler's preferred class of seating aboard a common carrier/commercial transportation (i.e., air or rail).",
@@ -1596,7 +1596,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerAirSeatingPreferenceName",
     "Definition": "The traveler's airline seating preference.",
@@ -1615,7 +1615,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerTransportationMealPreferenceName",
     "Definition": "The type of meal requested by a traveler aboard a common carrier to meet dietary preference or need.",
@@ -1634,7 +1634,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerLodgingRoomTypePreferenceName",
     "Definition": "The traveler's preferred lodging accommodations room type.",
@@ -1653,7 +1653,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerLodgingSmokingPreferenceIndicator",
     "Definition": "The traveler's smoking preference for lodging accommodations.",
@@ -1672,7 +1672,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelerRentalVehiclePreferredClassName",
     "Definition": "The traveler's preferred class for a rental vehicle.",
@@ -1691,7 +1691,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelPersonnelProfileDate",
     "Definition": "Date when a travel personnel baseline or traveler profile is created or updated.",
@@ -1710,7 +1710,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelPersonnelProfileSignature",
     "Definition": "Signature or digital representation associated with a travel personnel baseline or traveler profile.",
@@ -1729,7 +1729,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationAssistanceRequestText",
     "Definition": "The information contained in a request for travel reservation assistance. ",
@@ -1748,7 +1748,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationBookingMethodTypeName",
     "Definition": "The booking method used to create the reservation.",
@@ -1767,7 +1767,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationRemarksText",
     "Definition": "Remarks included as part of reservation(s), such as reason(s) for a change in the reservation status or remark(s) about an itinerary.",
@@ -1786,7 +1786,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationBookingSourceName",
     "Definition": "Booking source used to book a reservation, such as the Global Distribution System (e.g., Saber, Worldspan).",
@@ -1805,7 +1805,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationAccommodationsSearchTypeName",
     "Definition": "The different types of travel and transportation accommodation reservation (e.g., airline, lodging, rental vehicle) associated with official travel.",
@@ -1824,7 +1824,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TripItineraryTypeName",
     "Definition": "The type of itinerary for the planned route or journey of the authorized travel.",
@@ -1843,7 +1843,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationTypeIndicator",
     "Definition": "The type of location where official travel is authorized. Multiple destinations are possible.",
@@ -1862,7 +1862,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationCountryCode",
     "Definition": "The code assigned to the country associated with official travel.",
@@ -1881,7 +1881,7 @@
     "Related Data Element Reference": "CountryCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationCountryName",
     "Definition": "The name of the country associated with official travel.",
@@ -1900,7 +1900,7 @@
     "Related Data Element Reference": "CountryName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationDomesticStateOrTerritoryCode",
     "Definition": "The code assigned to the domestic State, Province, District, etc. associated with official travel.",
@@ -1919,7 +1919,7 @@
     "Related Data Element Reference": "StateOrTerritoryCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationDomesticStateOrTerritoryName",
     "Definition": "The name of the domestic State, Province, District, etc. associated with official travel.",
@@ -1938,7 +1938,7 @@
     "Related Data Element Reference": "StateOrTerritoryName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationForeignStateCode",
     "Definition": "The code assigned to the foreign State, Province, District, etc. associated with official travel.",
@@ -1957,7 +1957,7 @@
     "Related Data Element Reference": "ForeignSubdivisionCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationForeignStateName",
     "Definition": "The name of the foreign State, Province, District, etc. associated with official travel.",
@@ -1976,7 +1976,7 @@
     "Related Data Element Reference": "ForeignSubdivisionName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationDomesticCityCode",
     "Definition": "The code assigned to the domestic city or town associated with official travel.",
@@ -1995,7 +1995,7 @@
     "Related Data Element Reference": "CityCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationDomesticCityName",
     "Definition": "The name of the domestic city or town associated with official travel.",
@@ -2014,7 +2014,7 @@
     "Related Data Element Reference": "CityName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationForeignCityCode",
     "Definition": "The code assigned to the foreign city or town associated with official travel.",
@@ -2033,7 +2033,7 @@
     "Related Data Element Reference": "ForeignCityCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationForeignCityName",
     "Definition": "The name of the foreign city or town associated with official travel.",
@@ -2052,7 +2052,7 @@
     "Related Data Element Reference": "ForeignCityName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationDomesticCountyName",
     "Definition": "The name of the domestic county associated with official travel.",
@@ -2071,7 +2071,7 @@
     "Related Data Element Reference": "CountyName"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationZIPPostalCode",
     "Definition": "The five-digit postal code used by the United States Postal Service (USPS) for a location situated both within the Continental United States (CONUS) and non-foreign areas, i.e., a domestic location, associated with official travel.",
@@ -2090,7 +2090,7 @@
     "Related Data Element Reference": "ZipCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocation+4PostalCode",
     "Definition": "The four-digits that follow the five-digit ZIP code for a domestic location associated with official travel.",
@@ -2109,7 +2109,7 @@
     "Related Data Element Reference": "Zip+4Code"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationForeignPostalCode",
     "Definition": "The foreign postal code assigned to an area situated both outside the Continental United States (CONUS) and non-foreign areas, i.e., a foreign location, associated with official travel.",
@@ -2128,7 +2128,7 @@
     "Related Data Element Reference": "ForeignPostalCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationAddress1Text",
     "Definition": "The street address associated with official travel.",
@@ -2147,7 +2147,7 @@
     "Related Data Element Reference": "AddressLine1Text\n"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelLocationAddress2Text",
     "Definition": "The building name, room, apartment, or suite number associated with official travel.",
@@ -2166,7 +2166,7 @@
     "Related Data Element Reference": "AddressLine2Text\n"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationBeginDate",
     "Definition": "The date of departure for a common carrier reservation, date of check-in for a lodging reservation, and date of pick-up for a rental vehicle reservation.",
@@ -2185,7 +2185,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationEndDate",
     "Definition": "The date of return for a common carrier reservation, date of check-out for a lodging reservation, and date of drop-off for a rental vehicle reservation.",
@@ -2204,7 +2204,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationPassengerCountValue",
     "Definition": "The number of travelers associated with a travel reservation.",
@@ -2223,7 +2223,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationRoomCountValue",
     "Definition": "The number of rooms associated with a travel reservation.",
@@ -2242,7 +2242,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "FedRoomsRateIndicator",
     "Definition": "Indicates the commercial lodging facility participates in the FedRooms lodging agreement program",
@@ -2261,7 +2261,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationCommonCarrierServiceClassTypeName",
     "Definition": "The class of accommodation or seating aboard common carrier requested at time of making a reservation.",
@@ -2280,7 +2280,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "AirlineCompanyCode",
     "Definition": "The designator code associated with the airline company on a travel reservation.",
@@ -2299,7 +2299,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "AirlineCompanyName",
     "Definition": "The name of the airline company associated with a travel reservation.",
@@ -2318,7 +2318,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "AirportOrStationLocationCode",
     "Definition": "The code associated with the airport location on a travel reservation.",
@@ -2337,7 +2337,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "AirportLocationCityName",
     "Definition": "City name of the airport associated with the origin or destination on a travel reservation.",
@@ -2356,7 +2356,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "AirportLocationName",
     "Definition": "Location name, e.g., metropolitan area, airport station, etc., associated with the origin or destination on a travel reservation.",
@@ -2375,7 +2375,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TrainCompanyName",
     "Definition": "The name of the train company associated with a travel reservation.",
@@ -2394,7 +2394,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TrainDomesticStationLocationCode",
     "Definition": "The code associated with a train station situated both within the Continental United States (CONUS) and non-foreign areas, i.e., a domestic location, on a travel reservation.",
@@ -2413,7 +2413,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TrainDomesticLocationCityName",
     "Definition": "Domestic city name of the train company associated the origin or destination on a travel reservation.",
@@ -2432,7 +2432,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TrainDomesticLocationName",
     "Definition": "Domestic location name, e.g., metropolitan area, train station, etc., associated with the origin or destination on a travel reservation.",
@@ -2451,7 +2451,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TrainForeignLocationCode",
     "Definition": "The code associated with a train location situated both outside the Continental United States (CONUS) and non-foreign areas, i.e., a foreign location, on a travel reservation.",
@@ -2470,7 +2470,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TrainForeignLocationCityName",
     "Definition": "Foreign city name of the train company associated the origin or destination on a travel reservation.",
@@ -2489,7 +2489,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TrainForeignLocationName",
     "Definition": "Foreign location name, e.g., metropolitan area, train station, etc., associated with the origin or destination on a travel reservation.",
@@ -2508,7 +2508,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "BusCompanyName",
     "Definition": "The name of the bus company associated with a travel reservation.",
@@ -2527,7 +2527,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "BusDomesticStationLocationCode",
     "Definition": "The code associated with a bus station situated both within the Continental United States (CONUS) and non-foreign areas, i.e., a domestic location, on a travel reservation.",
@@ -2546,7 +2546,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "BusDomesticLocationCityName",
     "Definition": "Domestic city name of the train company associated the origin or destination on a travel reservation.",
@@ -2565,7 +2565,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "BusDomesticLocationName",
     "Definition": "Domestic location name, e.g., metropolitan area, bus station, etc., associated with the origin or destination on a travel reservation.",
@@ -2584,7 +2584,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "BusForeignLocationCode",
     "Definition": "The code associated with a bus location situated both outside the Continental United States (CONUS) and non-foreign areas, i.e., a foreign location, on a travel reservation.",
@@ -2603,7 +2603,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "BusForeignLocationCityName",
     "Definition": "Foreign city name of the bus company associated the origin or destination on a travel reservation.",
@@ -2622,7 +2622,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "BusForeignLocationName",
     "Definition": "Foreign location name, e.g., metropolitan area, bus station, etc., associated with the origin or destination on a travel reservation.",
@@ -2641,7 +2641,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ShipCompanyName",
     "Definition": "The name of the ship company associated with a travel reservation.",
@@ -2660,7 +2660,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ShipDomesticStationLocationCode",
     "Definition": "The code associated with a ship station or port situated both within the Continental United States (CONUS) and non-foreign areas, i.e., a domestic location, on a travel reservation.",
@@ -2679,7 +2679,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ShipDomesticLocationCityName",
     "Definition": "Domestic city name of the ship company associated the origin or destination on a travel reservation.",
@@ -2698,7 +2698,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ShipDomesticLocationName",
     "Definition": "Domestic location name, e.g., metropolitan area, ship station or port, etc., associated with the origin or destination on a travel reservation.",
@@ -2717,7 +2717,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ShipForeignLocationCode",
     "Definition": "The code associated with a ship location situated both outside the Continental United States (CONUS) and non-foreign areas, i.e., a foreign location, on a travel reservation.",
@@ -2736,7 +2736,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ShipForeignLocationCityName",
     "Definition": "Foreign city name of the ship company associated the origin or destination on a travel reservation.",
@@ -2755,7 +2755,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ShipForeignLocationName",
     "Definition": "Foreign location name, e.g., metropolitan area, ship station or port, etc., associated with the origin or destination on a travel reservation.",
@@ -2774,7 +2774,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "CommonCarrierProviderNumberCode",
     "Definition": "Number assigned to a specific transportation route by a transportation provider, such as flight number, bus number, or rail number.",
@@ -2793,7 +2793,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "CommonCarrierLocationTypeName",
     "Definition": "The type of location associated with a common carrier (e.g., airline, train) reservation/itinerary authorized for official travel.",
@@ -2812,7 +2812,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationTripSegmentNumberCode",
     "Definition": "The number identifying an individual trip segment. Multiple segments are possible.",
@@ -2831,7 +2831,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationStartTime",
     "Definition": "Time of day when a reservation begins.",
@@ -2850,7 +2850,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationEndTime",
     "Definition": "Time of day when a reservation ends.",
@@ -2869,7 +2869,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationCreationDate\n",
     "Definition": "Date when reservation(s) is/are created.",
@@ -2888,7 +2888,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationCreationTime",
     "Definition": "Time of day when reservation(s) is/are created.",
@@ -2907,7 +2907,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationID",
     "Definition": "Unique ID associated with a travel reservation.",
@@ -2926,7 +2926,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "SegmentScheduledFlightTimeValue",
     "Definition": "The uninterrupted flight time between the point of departure and the destination. Does not include stopovers or change of planes.",
@@ -2945,7 +2945,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TotalScheduledFlightTimeValue",
     "Definition": "The total flight time, including non-overnight stopovers and change of planes, between the point of departure and the destination.",
@@ -2964,7 +2964,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "CoachClassExceptionTypeName",
     "Definition": "Exception for using other than coach class common carrier (air, rail, or ship) accommodations.",
@@ -2983,7 +2983,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "14HourRuleCostComparisonText",
     "Definition": "Statement to consider using coach class accommodations with a rest stop or period instead of business class accommodations without a rest stop or period.",
@@ -3002,7 +3002,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "CityPairProgramExceptionTypeName",
     "Definition": "Exception for using a non-contract City Pair Program (CPP) fare.",
@@ -3021,7 +3021,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TransportationUSFlagCarrierIndicator",
     "Definition": "Indicator that a reservation uses U.S. flag carriers (air, ship).",
@@ -3040,7 +3040,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ForeignFlagCarrierExceptionTypeName",
     "Definition": "Exception for using a foreign flag carrier (air, ship).",
@@ -3059,7 +3059,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LowestFareIndicator",
     "Definition": "Indicates that a transportation fare (e.g., airfare, train fare) is the lowest price evaluated against other comparable fares.",
@@ -3078,7 +3078,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LowestFareAvailableTypeName",
     "Definition": "The type of lowest available fare evaluated against other comparable fares.",
@@ -3097,7 +3097,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "FareComparisonAmount",
     "Definition": "A codified notation recorded in the PNR that documents a stipulated airline fare against which comparison can be made to the actual fare booked and purchased. The basis for determining the most appropriate comparison fare varies according to the travel management objectives of the customer; however, comparison fares form the most basic metric for quantifying savings realized or lost in a given travel reservation.",
@@ -3116,7 +3116,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "FareRestrictedPenaltyAmount",
     "Definition": "The penalty dollar amount for cancellations or changes made to the original restricted fare ticket.",
@@ -3135,7 +3135,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationBookingPseudoCityCode",
     "Definition": "Alphanumeric code unique to a specific office of a travel agency associated with each booking in the PNR.",
@@ -3154,7 +3154,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "CorporateDiscountNumber",
     "Definition": "The number assigned to a Travel Management Company (TMC) to ensure that they get the appropriate discount. ",
@@ -3173,7 +3173,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TicketARCCode",
     "Definition": "The 3-digit numeric Airline Reporting Corporation (ARC) code associated with the TMC's ticketing location for the related PNR.",
@@ -3192,7 +3192,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TicketDeliveryMethodTypeName",
     "Definition": "Method by which a ticket is delivered to the traveler.",
@@ -3211,7 +3211,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "FareBasisCode",
     "Definition": "A code that enables airline and travel agents to retrieve the rules applicable to the associated booked or quoted fare. The characters, including order, can grant some indication of applicable terms, but not necessarily all of them. For instance, the first character is alpha and represents the associated booking class of service. Subsequent characters may indicate travel restrictions and/or booking requirements that may include advanced booking, minimum stays, days of week, season limitations, traveler type, among many other qualifiers.",
@@ -3230,7 +3230,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TranslationFareBasisCodeCommonCarrierTypeName",
     "Definition": "Translation of the fare basis code for the type of common carrier or commercial transportation associated with a booked or quoted fare.",
@@ -3249,7 +3249,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TranslationFareBasisCodeCommonCarrierContractTypeName",
     "Definition": "Translation of the fare basis code for the type of city-pair contract award associated with a booked or quoted fare.",
@@ -3268,7 +3268,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TranslationFareBasisCodeCommonCarrierCancelationPolicyTypeName",
     "Definition": "Translation of the fare basis code for the cancelation policy associated with a booked or quoted fare.",
@@ -3287,7 +3287,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TranslationFareBasisCodeCommonCarrierClassTypeName",
     "Definition": "Translation of the fare basis code for the type of seating class associated with a booked or quoted fare.",
@@ -3306,7 +3306,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TranslationFareBasisCodeCommonCarrierSeatingLocationTypeName",
     "Definition": "Translation of the fare basis code for the type of seating location associated with a booked or quoted fare.",
@@ -3325,7 +3325,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TicketStatusTypeName",
     "Definition": "The status of a ticket(s) during the travel process.",
@@ -3344,7 +3344,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TicketNumberCode",
     "Definition": "Number used to identify a ticket.",
@@ -3363,7 +3363,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PNRLocatorCode",
     "Definition": "Alphanumeric code used as a pointer to a specific reservation. Sometimes referred to as record locator number, but in general vendors use confirmation number.",
@@ -3382,7 +3382,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PNRSuperLocatorCode",
     "Definition": "Alphanumeric code used as a pointer to multiple reservations, potentially from different booking sources, associated with the same itinerary.",
@@ -3401,7 +3401,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PNROriginalBookingDate",
     "Definition": "Original booking date contained in the passenger name record (PNR) which has the traveler itinerary with reservation information.",
@@ -3420,7 +3420,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TicketIssueDate",
     "Definition": "Date when the ticket or Government Travel Request (GTR) was issued.\n",
@@ -3439,7 +3439,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TicketIssueTime",
     "Definition": "Time when the ticket was issued.\n",
@@ -3458,7 +3458,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelExpenseCategoryCode",
     "Definition": "The code for the travel expense category.",
@@ -3477,7 +3477,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelExpenseCategoryName",
     "Definition": "The expense category associated with an expense type for travel.",
@@ -3496,7 +3496,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelExpenseTypeCode",
     "Definition": "The code for the travel expense type.",
@@ -3515,7 +3515,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelExpenseTypeName",
     "Definition": "The type of expense associated with travel.",
@@ -3534,7 +3534,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelExpenseTypeDescriptionText",
     "Definition": "Text describing an \"Other\" expense.",
@@ -3553,7 +3553,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelExpenseAmount",
     "Definition": "The cost of an expense associated with the travel process. Includes the monetary value of support for each benefit provided by a non-Federal source. Monetary value is estimated fair market value and/or meals and incidental expense (M&IE) meal rate(s) when actual value of benefit is unknown or payment was made in kind.",
@@ -3572,7 +3572,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelExpenseDate",
     "Definition": "Date an expense incurred.",
@@ -3591,7 +3591,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "FlightCategoryName",
     "Definition": "The category of a commercial flight based on the number of hours traveled/scheduled flight time.",
@@ -3610,7 +3610,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "FlightDurationNauticalMilesValue",
     "Definition": "The number of nautical miles (nmi) traveled by a commercial flight.",
@@ -3629,7 +3629,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TransportationFuelTypeName",
     "Definition": "The grade of fuel used to calculate carbon footprint designated in the PNR.",
@@ -3648,7 +3648,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationCarbonFootprintValue",
     "Definition": "The total amount of greenhouse gases that are emitted as a result of the identified travel reservation option or from sources not owned or directly controlled by an agency.",
@@ -3667,7 +3667,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LodgingPropertyName",
     "Definition": "Property name(s) of the hotel or suite associated with official travel.",
@@ -3686,7 +3686,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LodgingGDSPropertyID",
     "Definition": "The unique alphanumeric identifier associated with each property in the Global Distribution Systems (GDS) e.g., Sabre, Apollo, Worldspan.",
@@ -3705,7 +3705,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LodgingPropertyBrandName",
     "Definition": "Property brand name of the hotel or suite associated with official travel.",
@@ -3724,7 +3724,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LodgingPropertyChainName",
     "Definition": "Name(s) of the hotel or suite chain associated with official travel.",
@@ -3743,7 +3743,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LodgingRoomTypeName",
     "Definition": "Lodging room type reserved by the traveler.",
@@ -3762,7 +3762,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LodgingRateTermAgreementName",
     "Definition": "The term duration for renting or leasing a place of accommodation.",
@@ -3781,7 +3781,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LongTermLodgingSolutionText",
     "Definition": "Statement that encourages the use of a long-term lodging program solution when lodging is needed for 30 nights or longer.",
@@ -3800,7 +3800,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LodgingRateAmount ",
     "Definition": "The occupancy rate charged by the lodging provider.",
@@ -3819,7 +3819,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "AlternatePerDiemLocationIndicator",
     "Definition": "Indicates conventional lodging facilities are not available or are in short supply at the traveler's temporary duty (TDY) location or traveler is required to travel to an alternate location while on official travel.",
@@ -3838,7 +3838,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "BookingExceptionTypeName",
     "Definition": "Extenuating circumstances that prevents use of online self-service booking tool or Travel Management Service (TMS) to book travel reservations.",
@@ -3857,7 +3857,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "BookingExceptionOtherText",
     "Definition": "Description or explanation of an \"Other\" extenuating circumstances that prevents use of online self-service booking tool or Travel Management Service (TMS) to book travel reservations.",
@@ -3876,7 +3876,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PerDiemActualExpenseJustificationTypeName",
     "Definition": "The reason for requesting reimbursement of actual subsistence expenses instead of the lodgings-plus per diem method.",
@@ -3895,7 +3895,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "RentalVehicleCompanyName",
     "Definition": "The name of the rental vehicle company associated with official travel.",
@@ -3914,7 +3914,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "RentalVehicleClassName",
     "Definition": "The class of rental vehicle associated with official travel.",
@@ -3933,7 +3933,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "RentalVehicleRateTermAgreementName",
     "Definition": "The term duration for renting or leasing a rental vehicle.",
@@ -3952,7 +3952,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "RentalVehicleCostComparisonRateAmount",
     "Definition": "The least expensive compact rental vehicle available at time of authorization to be used for cost comparison purposes.",
@@ -3971,7 +3971,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "DTMORentalVehicleIndicator",
     "Definition": "Indicates a rental vehicle vendor participates in the Defense Travel Management Office (DTMO) U.S. Government Car Rental Agreement program.",
@@ -3990,7 +3990,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "CompactRentalCarExceptionTypeName",
     "Definition": "Exception for using other than a compact rental car.",
@@ -4009,7 +4009,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelExpensePaymentMethodTypeName",
     "Definition": "The form of payment used by an agency and traveler to pay for official expenses.",
@@ -4028,7 +4028,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PaymentMethodChargeCardTransactionReferenceID",
     "Definition": "The reference number associated with a transaction made by credit charge card.",
@@ -4047,7 +4047,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "GTRControlNumber",
     "Definition": "Unique identification number assigned by an agency to Optional Form 1169, Government Transportation Request.",
@@ -4066,7 +4066,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TicketRefundAmount",
     "Definition": "Amount refunded for unused, partially used, or canceled ticket(s).",
@@ -4085,7 +4085,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TicketRefundName",
     "Definition": "Agency, person, or account to which refund should be made for unused, partially used, or canceled ticket(s).",
@@ -4104,7 +4104,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationUpdateDate\n",
     "Definition": "Date when reservation(s) is modified.",
@@ -4123,7 +4123,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationUpdateTime",
     "Definition": "Time when reservation(s) is modified.",
@@ -4142,7 +4142,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationUpdateTravelPersonnelID",
     "Definition": "Travel personnel identification number associated with individual modifying a travel reservation. ",
@@ -4161,7 +4161,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationStatusTypeName",
     "Definition": "The status in which the reservation exists, such as canceled, unused, processed, confirmed, or guaranteed. ",
@@ -4180,7 +4180,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TMCTripChangeAuthorizationRequestText",
     "Definition": "The information contained in a request from the TMC for authorization of unexpected trip changes. \n",
@@ -4199,7 +4199,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TMCTripChangeAuthorizationResponseText",
     "Definition": "The response to a request from the TMC for authorization of unexpected trip changes. ",
@@ -4218,7 +4218,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationErrorChecksAndComplianceEvaluationResultsText",
     "Definition": "The evaluation results produced during a travel reservation check for completeness, errors, and compliance with documentary guidelines, governmentwide regulations, and internal agency policies.",
@@ -4237,7 +4237,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReservationErrorChecksAndComplianceNotificationText",
     "Definition": "Notification sent to the traveler pertaining to travel reservation deficiencies, errors, and compliance issues.",
@@ -4256,7 +4256,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "NonFederalSourcePaymentIndicator",
     "Definition": "Indicates the traveler has been authorized at the highest practical administrative level by the agency to accept payment and/or payment in kind on behalf of the agency for travel, subsistence, or other travel-related services from a non-Federal source (NFS)(i.e., person or entity other than the United States Government) for official travel.",
@@ -4275,7 +4275,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "NonFederalSourceName",
     "Definition": "The name of the person or entity other than the Government of the United States (i.e., non-Federal source) making payment for travel, subsistence, or related expenses. A non-Federal source includes any individual, private or commercial entity, nonprofit organization or association, international or multinational organization (irrespective of whether an agency holds membership in the organization or association), or foreign, State or local government (including the government of the District of Columbia).",
@@ -4294,7 +4294,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "NonFederalSourceTravelerPaymentRequestText",
     "Definition": "Information contained in a request for acceptance of payment for expenses from a non-Federal source. ",
@@ -4313,7 +4313,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "NonFederalSourceEventDescriptionText",
     "Definition": "A short, concise description of the meeting or similar function the non-Federal source is sponsoring (e.g., Conference on Asia-Pacific\nRelations sponsored by Asia-Pacific Forum).",
@@ -4332,7 +4332,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "NonFederalSourceEventSponsorName",
     "Definition": "The name of the entity or organization sponsoring the meeting or similar function supported by the traveler and non-Federal source (e.g., Asia-Pacific Forum Pacific Rim Assoc.).",
@@ -4351,7 +4351,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "NonFederalSourceEventBeginDate",
     "Definition": "The beginning date for the meeting or similar function supported by the traveler and non-Federal source.",
@@ -4370,7 +4370,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "NonFederalSourceEventEndDate",
     "Definition": "The ending date for the meeting or similar function supported by the traveler and non-Federal source.",
@@ -4389,7 +4389,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VerbalAuthorizationText",
     "Definition": "Information to verbally authorize official travel when it is not practicable or possible to obtain written authorization prior to travel.",
@@ -4408,7 +4408,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ArrangingTravelExceptionTypeName",
     "Definition": "Exception for not using the eGovernment Travel Service (ETS) or Travel Management Service (TMS) to arrange official travel.",
@@ -4427,7 +4427,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelAuthorizationTypeName",
     "Definition": "The type of authorization issued to conduct official business.",
@@ -4446,7 +4446,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelAuthorizationID",
     "Definition": "Unique identification number assigned to a travel authorization.",
@@ -4465,7 +4465,7 @@
     "Related Data Element Reference": "FFM: DocumentReferenceNumber"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelAuthorizationAmendmentID",
     "Definition": "An identifier issued by an agency that uniquely identifies modification(s) or amendment(s) made to an approved travel authorization.",
@@ -4484,7 +4484,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TripClassificationIndicator",
     "Definition": "Identifies whether a trip is classified and not reported to GSA (i.e., Senior Federal Travel Report) or reported in aggregate (i.e., Premium Class Travel Report).",
@@ -4503,7 +4503,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelPurposeIdentifierCode",
     "Definition": "The code used to identify the travel purpose for which travel is necessary. The travel purpose code corresponds to a specific travel purpose name.",
@@ -4522,7 +4522,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelPurposeIdentifierName",
     "Definition": "Travel purpose identifying why travel is necessary. A travel authorization may have multiple travel purposes that may correspond to one or more travel periods.",
@@ -4541,7 +4541,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelPurposeTripTypeName",
     "Definition": "The type of activity performed during travel. Travel type is associated with a specific travel purpose.",
@@ -4560,7 +4560,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelPurposeTripTypeDescriptionText",
     "Definition": "Text describing an \"Other\" travel purpose trip type.",
@@ -4579,7 +4579,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelPeriodStartDate",
     "Definition": "The date a traveler is authorized to depart their home, office, or other authorized point. Total duration of travel includes all official and personal travel, which may include personal time off or leave. ",
@@ -4598,7 +4598,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelPeriodEndDate",
     "Definition": "The date a traveler is authorized to return to their home, office, or other authorized point. Total duration of travel includes all official and personal travel, which may include personal time off or leave.",
@@ -4617,7 +4617,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TaxableExtendedTDYIndicator",
     "Definition": "Identifies travel trip durations that exceed one year. Also known as Indefinite Travel under the Internal Revenue Code.",
@@ -4636,7 +4636,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelDeviationIndicator",
     "Definition": "Indicator used to identify when a traveler is authorized to deviate from a usually traveled route or travel by an indirect route between the traveler's official station or other authorized point of departure to a temporary duty location and return from a temporary duty location or between two temporary duty locations.",
@@ -4655,7 +4655,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelDeviationRemarksText",
     "Definition": "Information that describes why a deviation from the usually traveled route is required.",
@@ -4674,7 +4674,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TransportationModeTypeName",
     "Definition": "The mode(s) of transportation authorized for official travel.",
@@ -4693,7 +4693,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "GovAirRequiredUseIndicator",
     "Definition": "Indicates the traveler is required to use Government aircraft for bona fide communications (e.g., 24-hour secure communications) or security reasons (e.g., highly unusual circumstances that present a clear and present danger) or exceptional scheduling requirements (e.g., a national emergency or other compelling operational considerations). Required use travel may include travel for official, personal, or political purposes.",
@@ -4712,7 +4712,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "GovAirJustificationTypeName",
     "Definition": "Identifies the justification for a traveler to use Government aircraft.",
@@ -4731,7 +4731,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "CharterAirJustificationTypeName",
     "Definition": "Identifies the justification for a traveler to use a reduced group or chartered aircraft for official travel.",
@@ -4750,7 +4750,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "GovAirTravelerPassengerTypeName",
     "Definition": "The designation of a passenger authorized to use Government aircraft.",
@@ -4769,7 +4769,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "GovAirCostAmount",
     "Definition": "The cost of using a Government aircraft.",
@@ -4788,7 +4788,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "GovAirCostComparisonAmount",
     "Definition": "For personal or political travel, the amount that the traveler must reimburse the Government (i.e., the full coach fare or appropriate share of that fare). For official travel, the comparable city-pair fare (if available to the traveler) or full coach fare if a city-pair fare is not available.",
@@ -4807,7 +4807,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "GovAutoRequiredUseIndicator",
     "Definition": "Identifies a traveler is required to use a Government-furnished automobile for official travel.",
@@ -4826,7 +4826,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PassengerIndicator",
     "Definition": "Identifies that the traveler is required to travel as a passenger in a Government-furnished automobile or commercial rental vehicle.",
@@ -4845,7 +4845,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "POVMileageReimbursementRate",
     "Definition": "The reimbursement rate authorized when POV is mode of travel.",
@@ -4864,7 +4864,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "POVConstructedTravelAmount",
     "Definition": "The estimated constructive travel cost to use a privately owned vehicle (POV) to travel to the temporary duty (TDY) location instead of using a common carrier, Government-furnished automobile, or rental vehicle. ",
@@ -4883,7 +4883,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ConstructedTravelText",
     "Definition": "A description of the estimated expenses used to calculate the constructive travel cost to travel to the temporary duty (TDY) location.",
@@ -4902,7 +4902,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ConstructiveCostAmount",
     "Definition": "The estimated total constructive cost that would incur with the authorized mode of transportation (i.e. common carrier, rental vehicle, Government-furnished automobile).",
@@ -4921,7 +4921,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "CommonCarrierNotAdvantageousTypeName",
     "Definition": "Reason use of common carrier is not the most advantageous method of transportation to perform official travel.",
@@ -4940,7 +4940,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "POVAdvantageousOfficialStationIndicator",
     "Definition": "Indicates that the use of a privately owned vehicle (POV)  at the official station (e.g., residence to airport) is advantageous to the Government, when cost and other factors are considered, rather than the use of special conveyance, Government-furnished automobile, or rental vehicle.",
@@ -4959,7 +4959,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "POVAdvantageousTDYLocationIndicator",
     "Definition": "Indicates that the use of a privately owned vehicle (POV) is advantageous to the Government to travel to the temporary duty (TDY) location, when cost and other factors are considered, rather than the use of common carrier, Government-furnished automobile, or rental vehicle.",
@@ -4978,7 +4978,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PerDiemNotAuthorizedOrLimitedTypeName",
     "Definition": "Circumstance for not authorizing or limiting reimbursement of a subsistence allowance (per diem or actual expense).",
@@ -4997,7 +4997,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PerDiemMethodTypeName",
     "Definition": "The method of reimbursing per diem. A trip may include multiple reimbursement methods, but only one method may be used on a calendar day.",
@@ -5016,7 +5016,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PerDiemCONUSRateAmount",
     "Definition": "The maximum per diem rate for a CONUS location based on the geographic temporary duty (TDY) location.",
@@ -5035,7 +5035,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PerDiemOCONUSNonForeignRateAmount",
     "Definition": "The maximum per diem rate for an OCONUS non-foreign location based on the geographic temporary duty (TDY) location.",
@@ -5054,7 +5054,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PerDiemForeignRateAmount",
     "Definition": "The maximum per diem rate for a foreign location based on the geographic temporary duty (TDY) location.",
@@ -5073,7 +5073,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ShipMIERateAmount",
     "Definition": "Meals and incidental expenses (M&IE) allowance rate when travel is by ship, either commercial or Government.",
@@ -5092,7 +5092,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PerDiemIDLRateAmount",
     "Definition": "Calculated per diem amount based on actual elapsed time when crossing the International Dateline (IDL).",
@@ -5111,7 +5111,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "MIEItemizationIndicator",
     "Definition": "Indicates traveler is required to itemize each meal and incidental expense when claiming reimbursement for expenses.",
@@ -5130,7 +5130,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelAdvanceJustificationTypeName",
     "Definition": "The justification for receiving a travel advance.",
@@ -5149,7 +5149,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelAdvanceAuthorizedMaximumAmount",
     "Definition": "The maximum amount authorized for a travel advance.",
@@ -5168,7 +5168,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "AgencyTransactionIdentifier",
     "Definition": "The identifier an agency provides for a transaction.",
@@ -5187,7 +5187,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelExpenseLineIdentifier",
     "Definition": "The line identifier associated with a travel expense line.\n",
@@ -5206,7 +5206,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "AgencyFundCode",
     "Definition": "A code designated by the agency to a fund. It is a shorthand code entered on transactions that enables the derivation of the account identification codes required for reporting externally to Treasury (the TAS) and OMB (the budget account) as well as the derivation of USSGL account attributes. It can be used for segregating funds that have multiple apportionment categories, or that have both discretionary and mandatory authority.  ",
@@ -5225,7 +5225,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelExpenseLineLOAIdentifier",
     "Definition": "An identifier for a line of accounting (LOA) that associates the LOA with a travel expense line.",
@@ -5244,7 +5244,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "BudgetFiscalYear",
     "Definition": "The fiscal year associated with the funding that is committed, obligated, or expended",
@@ -5263,7 +5263,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "FFMProgramCode",
     "Definition": "The identifier for an organized set of activities directed toward a common purpose or goal that an agency undertakes or proposes to carry out its responsibilities. ",
@@ -5282,7 +5282,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "ProgramActivityCode",
     "Definition": "Code of a specific activity or project as listed in the program and financing schedules of the annual budget of the United States Government.",
@@ -5301,7 +5301,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "CostCenterIdentifier",
     "Definition": "A Cost Center is a clearly defined responsibility area where costs are incurred.",
@@ -5320,7 +5320,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "FFMProjectIdentifier",
     "Definition": "A planned undertaking of work to be performed or product to be produced having a finite beginning and end. A temporary endeavor to create a unique product or service with a start date, a completion date, and a defined scope.",
@@ -5339,7 +5339,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "FFMProjectTaskIdentifier",
     "Definition": "Identifies the actual work task or step performed in producing and delivering products and services, or the aggregation of actions performed within an organization that is useful for purposes of activity-based costing.",
@@ -5358,7 +5358,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "DisasterEmergencyFundCode",
     "Definition": "Distinguishes whether the budgetary resources, obligations incurred, unobligated and obligated balances, and outlays are \nclassified as disaster, emergency, wildfire suppression or none of the three. Note - Once one of the three has been identified, the title \"Disaster/Emergency/Wildfire Suppression\", for example, will be replaced with the actual \ntitle identified by OMB such as \"Emergency PL 115-56.\"",
@@ -5377,7 +5377,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "EventIndicatorCode",
     "Definition": "A code that represents the national interest for which the contract is created.",
@@ -5396,7 +5396,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LOAAllocationPercent",
     "Definition": "The allocation percentage associated with a line of accounting (LOA) code.",
@@ -5415,7 +5415,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LOAAllocationAmount",
     "Definition": "The total dollar amount allocated to a line of accounting (LOA) code.",
@@ -5434,7 +5434,7 @@
     "Related Data Element Reference": "FFM: FinancialTransactionLineLOAAmount"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelAuthorizationRemarksText",
     "Definition": "Text field used for comments on the travel authorization from the traveler, approver, etc.",
@@ -5453,7 +5453,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelAuthorizationStatusDate",
     "Definition": "Date associated with an action (e.g., approval, amendment) on a travel authorization.",
@@ -5472,7 +5472,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelAuthorizationStatusTypeName",
     "Definition": "Description used to identify the status of a travel authorization.",
@@ -5491,7 +5491,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelAuthorizationErrorChecksAndComplianceEvaluationResultsText",
     "Definition": "The evaluation results produced during a travel authorization check for completeness, errors, and compliance with government-wide and agency-specific policies.",
@@ -5510,7 +5510,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelAuthorizationErrorChecksAndComplianceNotificationText",
     "Definition": "Notification to the traveler that the travel authorization has completed the compliance and error checking process (e.g., travel dates, estimated expenses, expenses exceeding approved rates, lines of accounting codes).",
@@ -5529,7 +5529,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "TravelAuthorizationFundsAvailabilityRequestText",
     "Definition": "The information contained in a request for a funds availability check for a travel authorization.",
@@ -5548,7 +5548,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "TravelAuthorizationFundsAvailabilityResponseText",
     "Definition": "The result produced in response to a request for a funds availability check for a travel authorization.",
@@ -5567,7 +5567,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelAuthorizationSignatureName",
     "Definition": "Signature or digital representation of an official associated with the travel authorization process.",
@@ -5586,7 +5586,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "OpenAuthorizationObligationRemainingAmount",
     "Definition": "The amount of obligated funds remaining on an Open Authorization",
@@ -5605,7 +5605,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelTicketingTransportationFlightConfirmationCode",
     "Definition": "Confirmation code associated with a booked flight.",
@@ -5624,7 +5624,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TransportationSeatAssignmentCode",
     "Definition": "Code used to identify seat assigned to traveler.",
@@ -5643,7 +5643,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TicketIssueNotificationText",
     "Definition": "Notification to common carrier provider to issue a ticket(s).",
@@ -5662,7 +5662,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TicketContentValidationTypeName",
     "Definition": "Test of PNR ticket information against content validation routines required for ticketing/fulfillment to facilitate travel reporting.",
@@ -5681,7 +5681,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TicketIssuanceLocationName",
     "Definition": "Location at which a travel ticket is issued.",
@@ -5700,7 +5700,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "EmployeeEmergencyEventTypeName",
     "Definition": "Identifies the type of employee emergency that occurs while an employee is on a travel assignment.",
@@ -5719,7 +5719,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "EmployeeEmergencyInstructionsText",
     "Definition": "Instructions provided due to a personal emergency while on official travel.",
@@ -5738,7 +5738,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherTypeName",
     "Definition": "The type of voucher used to claim reimbursement of actual and necessary business expenses.",
@@ -5757,7 +5757,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherID",
     "Definition": "Unique identification number assigned to voucher.",
@@ -5776,7 +5776,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherAmendmentID",
     "Definition": "An identifier issued by an agency that uniquely identifies a previously approved travel voucher.",
@@ -5795,7 +5795,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "AnnotationTripDurationIndicator",
     "Definition": "Identifies travel trip durations of less than 24 hours on a single calendar day.",
@@ -5814,7 +5814,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LeaveTypeName",
     "Definition": "Type of leave for each day while on official travel. Identifies leave type as the reason for an interruption of per diem entitlement.",
@@ -5833,7 +5833,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LeaveAmountQuantity",
     "Definition": "The number of hours of leave for each day while on official travel.",
@@ -5852,7 +5852,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelCardPaymentExceptionTypeName",
     "Definition": "The exception for using cash (i.e., personal credit card, cash withdrawals from an ATM, personal or travelers check, rather than a Government travel charge card to pay for an official travel expense.",
@@ -5871,7 +5871,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "NonFederalSourcePaymentTypeName",
     "Definition": "The type of payment authorized by the agency for travel, subsistence, or other travel-related services provided by a non-Federal source (NFS)(i.e., person or entity other than the United States Government) for official travel.",
@@ -5890,7 +5890,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PerDiemMIEExpenseTypeName",
     "Definition": "The name of the type of meal and incidental expenses (M&IE) allowance in a traveler's per diem allowance.",
@@ -5909,7 +5909,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PerDiemMIEAdjustedAmount",
     "Definition": "The amount the traveler's meals and incidental expense allowance daily rate is adjusted to account for the value of a meal(s) provided by another source (i.e., non-Federal source payment or paid as part of a conference registration fee).",
@@ -5928,7 +5928,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ExpenseReceiptRequiredIndicator",
     "Definition": "Indicates that an expense requires a receipt.",
@@ -5947,7 +5947,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ExpenseReceiptExemptionIndicator",
     "Definition": "Indicates that an expense is exempt from receipt requirement according to agency internal policy.",
@@ -5966,7 +5966,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ExpenseReceiptAttachedIndicator",
     "Definition": "Indicates that the proper receipt or documentary evidence is attached or provided.",
@@ -5985,7 +5985,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "NoExpenseReceiptText",
     "Definition": "Explanation why traveler is unable to provide required receipt or documentary evidence for expense.",
@@ -6004,7 +6004,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "DeniedBoardingCompensationAcknowledgmentIndicator",
     "Definition": "Acknowledgement that a check for denied boarding pass compensation has been received.",
@@ -6023,7 +6023,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "DeniedBoardingCompensationAmount",
     "Definition": "Payment(s) received from a common carrier/commercial transportation provider for failure to grant confirmed reserved space or dollar amount/credit of denied boarding pass compensation. Checks should be payable to the \"Treasurer of the United States.\"",
@@ -6042,7 +6042,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "UseOfCashAffirmationText",
     "Definition": "Statement on a voucher when traveler uses cash to pay for common carrier expense(s).",
@@ -6061,7 +6061,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "POVTypeName",
     "Definition": "Type of privately owned vehicle (i.e., a vehicle not owned or leased by the Government) used to conduct official travel. ",
@@ -6080,7 +6080,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "POVEmissionTypeIndicator",
     "Definition": "Indicates traveler used either a zero-emission vehicle (e.g., electric/battery-powered, hydrogen-fueled) or hybrid (i.e., combines at least one electric motor with a gasoline engine) to conduct official travel.",
@@ -6099,7 +6099,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "POVMileageQuantity",
     "Definition": "Statute miles traveled in a vehicle not owned or leased by the Government. ",
@@ -6118,7 +6118,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ConfinedToMedicalFacilityBeginDate",
     "Definition": "The date when a traveler is admitted to a medical facility while on official travel.",
@@ -6137,7 +6137,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ConfinedToMedicalFacilityEndDate",
     "Definition": "The date when a traveler is discharged from a medical facility while on official travel.",
@@ -6156,7 +6156,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "MIEAffirmationIndicator",
     "Definition": "Indicates that due to medical requirements or religious beliefs traveler was unable to consume a meal(s) provided by the Government and desires to be reimbursed the full meals and incidental expenses (MIE) allowance.",
@@ -6175,7 +6175,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "MIESplitDisbursementAmount",
     "Definition": "The amount of meals and incidental expense (M&IE) allowance the traveler authorizes to make direct payment to their individually billed travel card account.",
@@ -6194,7 +6194,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "MIEBalanceAmount",
     "Definition": "The balance remaining on the amount of meals and incidental expense (M&IE) allowance, after split disbursement, paid to the traveler.",
@@ -6213,7 +6213,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PerDiemDaysQuantity",
     "Definition": "Total number of days traveler claims to be on per diem status, for each official travel location. The number of days must be represented as a whole number.",
@@ -6232,7 +6232,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "PerDiemTotalAmount",
     "Definition": "The amount of money traveler claims as per diem expense.",
@@ -6251,7 +6251,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ActualExpenseDaysQuantity",
     "Definition": "Total number of days the employee charged actual subsistence expenses. The number of days must be represented as a whole number.",
@@ -6270,7 +6270,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "ActualExpenseTotalAmount",
     "Definition": "Total amount of actual subsistence expenses claimed as authorized. Actual subsistence rate, per day, may not exceed the maximum subsistence expense rate established for official travel by the Federal Travel Regulation.",
@@ -6289,7 +6289,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "TravelExpenseForeignCurrencyCode",
     "Definition": "The code associated with the unit of currency used to pay for an official expense.",
@@ -6308,7 +6308,7 @@
     "Related Data Element Reference": "CurrencyCode"
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "TravelExpenseForeignCurrencyTypeName",
     "Definition": "The name of the unit of currency used to pay for an official expense.",
@@ -6327,7 +6327,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "FFM",
     "Data Element Label": "TravelExpenseForeignCurrencyExchangeRate",
     "Definition": "The rate at which one currency is exchanged for another.",
@@ -6346,7 +6346,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelAdvanceOutstandingLOAAmount",
     "Definition": "The amount of the travel advance--at the line of accounting level--in excess of entitlements after the traveler files one or more travel claims/vouchers.",
@@ -6365,7 +6365,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "FraudulentClaimAffirmationText",
     "Definition": "Individual's acknowledgment that they have read the \"fraudulent claim/responsibility\" statement.",
@@ -6384,7 +6384,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherRemarksText",
     "Definition": "Text field used for comments on the voucher from the traveler, approver, etc.",
@@ -6403,7 +6403,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherErrorChecksAndComplianceNotificationText",
     "Definition": "Notification issued to the traveler indicating the voucher has completed the compliance and error checking process (e.g., travel dates, estimated expenses, expenses exceeding approved rates, lines of accounting codes).",
@@ -6422,7 +6422,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherErrorChecksAndComplianceEvaluationResultsText",
     "Definition": "The evaluation results produced during a voucher check for completeness, errors, and compliance with government-wide and agency-specific policies.",
@@ -6441,7 +6441,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherExpenseDisallowedRemarksText",
     "Definition": "Comment(s) or remark(s) regarding why an expenses or expenses is/are disallowed.",
@@ -6460,7 +6460,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherFundsAvailabilityPaymentRequestText",
     "Definition": "The information contained in a request for a funds availability check for a voucher payment.",
@@ -6479,7 +6479,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherFundsAvailabilityPaymentResponseText",
     "Definition": "The result produced in response to a request for a funds availability check for the voucher payment.",
@@ -6498,7 +6498,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherStatusDate",
     "Definition": "Date associated with a voucher.",
@@ -6517,7 +6517,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherStatusTypeName",
     "Definition": "Description used to identify the status of a voucher.",
@@ -6536,7 +6536,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherSignatureName",
     "Definition": "The signature or digital representation of a person submitting, reviewing, or approving a voucher.",
@@ -6555,7 +6555,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LocalExpenseTravelPurposeIdentifierCode",
     "Definition": "The code used to identify a \"travel purpose\" incurred with a local expense (i.e., expense within the area defined by the agency that includes the location where the employee regularly performs his or her duties or an invitational traveler's home or regular place of business).",
@@ -6574,7 +6574,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LocalExpensePaymentMethodIndicator",
     "Definition": "The form of payment used to pay for a local expense.",
@@ -6593,7 +6593,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LocalExpenseCategoryCode",
     "Definition": "The code for the local expense category.",
@@ -6612,7 +6612,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LocalExpenseCategoryName",
     "Definition": "The expense category for an expense incurred to conduct official business locally, i.e., within the vicinity of the employee's official station and not on temporary duty (TDY) travel.",
@@ -6631,7 +6631,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LocalExpenseTypeCode",
     "Definition": "The code for the local expense type.",
@@ -6650,7 +6650,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LocalExpenseTypeName",
     "Definition": "Type of expense incurred to conduct official business locally, i.e., within the vicinity of the employee's official station and not on temporary duty (TDY) travel.",
@@ -6669,7 +6669,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LocalExpenseTypeDescriptionText",
     "Definition": "Text describing an \"Other\" local expense. ",
@@ -6688,7 +6688,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LocalExpenseAmount",
     "Definition": "The cost of an expense associated with a local voucher.",
@@ -6707,7 +6707,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "LocalExpenseDate",
     "Definition": "Date a local expense incurred. Expenses may be aggregated.",
@@ -6726,7 +6726,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "VoucherOutstandingCompletedTripsText",
     "Definition": "Notification issued to traveler indicating completed trip(s) with outstanding voucher(s).",
@@ -6745,7 +6745,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "NonFederalSourceUnauthorizedPaymentPenaltyAmount",
     "Definition": "The amount to be repaid to a non-Federal source for accepting their unauthorized payment for an expense or expenses. Fair market value will be applied when the actual value is not known.",
@@ -6764,7 +6764,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "NonFederalSourceNegativeReportIndicator",
     "Definition": "Indicates the agency has not accepted payment from a non-Federal source during the semi-annual reporting period.",
@@ -6783,7 +6783,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReportStartDate",
     "Definition": "Start date of a standard travel report.",
@@ -6802,7 +6802,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelReportEndDate",
     "Definition": "End date of a standard travel report.",
@@ -6821,7 +6821,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelExpenseOverpaymentEstablishmentRequestText",
     "Definition": "The information contained in a request for establishing a receivables account for traveler overpayment. \n\n",
@@ -6840,7 +6840,7 @@
     "Related Data Element Reference": ""
   },
   {
-    " Functional Area": "TRT",
+    "Functional Area": "TRT",
     "Steward": "TRT",
     "Data Element Label": "TravelExpenseOverpaymentEstablishmentConfirmationText",
     "Definition": "The confirmation that a receivables account has been established for traveler overpayment. ",
