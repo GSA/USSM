@@ -1,1703 +1,1787 @@
 {
-   "Business-Standards":"HR",
-   "Sub-section":"Compensation and Benefits",
-   "Business_Lifecycle":[
-   {
-         "type":"hcm-180",
-         "data":[
-            {
-              "Identifier": "HCM.180.010",
-              "Activity": "Compensation Strategy Development",
-              "Description": "Setting the overarching goals and priorities at the organizational level. The service outcome(s) will include, but not limited to:<ul><li>agency-specific compensation strategy to include, but not limited to:</li><li>analysis and overview of the environment / climate impacting agency compensation management initiatives</li><li>compensation program objectives</li><li>documented plan for communicating  strategic compensation management priorities</li><li>documented plan for evaluating, enforcing, and reporting progress against compensation management strategic objectives</li></ul>"
-            },
-            {   
-              "Identifier": "HCM.180.020",
-              "Activity": "Compensation Policy and Procedure Management",
-              "Description": "Designing, developing, implementing, and managing compensation policies, programs, and procedures to meet agency strategies. The service outcome(s) will include, but not limited to:<ul><li>agency-specific pay systems, if applicable</li><li>policies, programs, and procedures to support implementation of agency compensation strategy</li></ul>"
-            },
-            {
-              "Identifier": "HCM.180.030",
-              "Activity": "Agency Compensation Administration",
-              "Description": "Setting and calculating employee compensation properly in accordance with agency compensation strategy, policies, programs, and  procedures.  The service outcome(s) will include, but not limited to:<ul><li>compensation is set accurately</li><li>audit of employee compensation and supporting documentation to determine accuracy and compliance</li><li>agency review to ensure automatic pay processing systems are aligned with agency compensation strategy, policies, programs, and procedures</li><li>advisory services to stakeholders on pay setting and compensation flexibilities</li></ul>"
-            },
-            {   
-              "Identifier": "HCM.180.040",
-              "Activity": "Compensation Research and Advisement",
-              "Description": "Researching and interpreting compensation laws and regulations in order to provide strategic advisory services to agency leadership and managers. The service outcome(s) will include, but not limited to:<ul><li>accurate advice and guidance</li></ul>"
-            },
-            {
-              "Identifier": "HCM.180.050",
-              "Activity": "Payroll Processing",
-              "Description": "Define and maintain the processes, business rules, and calculations necessary to accurately and efficiently execute payroll for employees paid by the Federal Government. Outcomes include, but are not limited to:<ul><li>Processes and workflows for integrating with HR and Time and Attendance systems and other resources necessary to calculate and execute payroll (e.g., third party Interfaces, benefits systems, etc.)</li><li>Leave and earning statements for every employee</li><li>Calculated results for amounts payable to appropriate payees (e.g. employees, beneficiaries, taxing authorities, etc.)</li><li>Furnish appropriate compensation documents (e.g., W-2s, 1099s, etc.) to employees and other stakeholders (e.g., IRS, OPM, TSP, Treasury)</li><li>Leave accrual and balance maintenance</li><li>Integrated payroll workflow management capability</li></ul>"
-            },
-            {
-              "Identifier": "HCM.180.060",
-              "Activity": "Payroll Data Capture, Transfer, and Reporting",
-              "Description": "Capture, analyze, and report compensation data. Outcomes include, but are not limited to:<ul><li>Standard payroll and compensation program reports</li><li>Error reporting</li><li>Ad-hoc reporting</li><li>Data transfers between agencies, certified providers, and vendors</li></ul>"
-            },
-            {
-              "Identifier": "HCM.180.070",
-              "Activity": "Payroll System Administration",
-              "Description": "Provide and maintain administrative and logistical activities related to payroll systems and records management. Outcomes include, but are not limited to:<ul><li>Audit trails</li><li>Updated and maintained employee record</li><li>Historical payroll information for all employees</li><li>Continuity of operations plan</li></ul>"
-            },
-            {
-              "Identifier": "HCM.180.080",
-              "Activity": "Payroll System Change Management",
-              "Description": "Provide and maintain change management activities related to payroll systems. Outcomes include, but are not limited to:<ul><li>Formalized process for tracing and documenting the translation of federal policy to functional, and then to technical requirements</li></ul>"
-            }
-          ]
-   },
-   {
-         "type":"hcm-190",
-         "data": [
-            {
-              "Identifier": "HCM.190.010",
-              "Activity": "Work Schedule and Leave Policy Development and Management",
-              "Description": "Establishing, maintaining, and enforcing agency work schedule and leave policy.  The service outcome(s) will include, but not limited to:<ul><li>agency WSLM needs assessment</li><li>objectives for the management and oversight of agency WSLM</li><li>agency WSLM policy, in accordance with all applicable federal rules and regulations</li><li>agency WSLM policy assessment and review as needed</li></ul>"
-            },
-            {
-              "Identifier": "HCM.190.020",
-              "Activity": "Develop Work Schedule and Leave Management Standard Operating Procedures",
-              "Description": "Designing, maintaining, and updating prescribed methods to be followed routinely for the capture and administration of Time and Attendance and Leave Management. SOPs must be approved by designated agency officials. The service outcome(s) will include, but not limited to:<ul><li>documented, agency approved procedures detailing how employee timecard and leave management activities will be performed</li><li>communicate agency-approved Time and Attendance and Leave Management procedures to employees</li><li>updated agency-approved Time and Attendance and Leave Management procedures based on changing policy or other factors</li></ul>"
-            },
-            {
-              "Identifier": "HCM.190.030",
-              "Activity": "Work Schedule Development and Management",
-              "Description": "Providing and maintaining employee's work schedule so that it corresponds with the employee's actual work requirements to accomplish the mission of the agency. The service outcome(s) will include, but not limited to:<ul><li>developed and approved employee work schedules</li><li>employee work schedule edits or changes</li></ul>"
-            },
-            {
-              "Identifier": "HCM.190.040",
-              "Activity": "Time Card Management",
-              "Description": "Recording, validating, certifying, and amending/correcting Time & Attendance. The service outcome(s) will include, but not limited to:<ul><li>method and process for employee/timekeeper to record employee time worked</li><li>method and process for timekeeper/supervisor/employee to validate employee Time and Attendance</li><li>method and process for certifying official to approve finalized employee time cards</li><li>method and process for employees and approved personnel to amend/correct time cards</li><li>method and process for employees to request and record leave and premium pay, and for approving official to review request and take appropriate action</li></ul>"
-            },
-            {
-              "Identifier": "HCM.190.050",
-              "Activity": "T&A Transmittal",
-              "Description": "Creating batch process for transmittal of Time & Attendance  data to Payroll Provider.  The service outcome(s) will include, but not limited to:<ul><li>T&A batch processing</li><li>T&A data transmittal to Payroll Provider</li><li>track and manage the T&A transmittal process to Payroll Provider</li><li>coordination with Payroll Provider to remediate transmittal and Time &Attendance issues</li></ul>"
-            },
-            {
-              "Identifier": "HCM.190.060",
-              "Activity": "T&A Reporting",
-              "Description": "Extracting reports on the captured Time & Attendance data.  The service outcome(s) will include, but not limited to:<ul><li>captured, stored, exportable  time and attendance data</li><li>standard and ad hoc employee time and attendance reports</li></ul>"
-            }
-          ]
-   },
-   {
-         "type":"hcm-200",
-         "data":[
-            {
-              "Identifier": "HCM.200.010",
-              "Activity": "Benefits Policy and Procedure Management",
-              "Description": "Interpreting and advising on Federal and Agency benefit policies and designing agency benefits strategy, policies, and procedures.   The service outcome(s) will include, but not limited to:<ul><li>agency-specific benefits strategy as needed</li><li>agency-specific benefits policies and procedures as needed</li><li>accurate advice and guidance</li>"
-            },
-            {
-              "Identifier": "HCM.200.020",
-              "Activity": "Agency-level Benefits Administration ",
-              "Description": "Managing eligibility and enrollment for benefits programs. The service outcome(s) will include, but not limited to:<ul><li>accurate determination of enrollment eligibility</li><li>accurate benefits processing</li><li>customer service (e.g., error remediation, system support, processing issues)</li><li>Audit of employee benefit documentation to determine accuracy and compliance</li><li>Standard Operating Procedures (SOPs), as needed</li><li>facilitate and manage the development of agency-specific benefit tools, as needed</li><li>coordination with stakeholders to support the administration of benefits programs</li><li>Benefits reports, as needed</li></ul>"
-            },
-            {
-              "Identifier": "HCM.200.030",
-              "Activity": "Benefits Counseling and Communication",
-              "Description": "Implementing benefits communication strategy to educate and counsel employees. The service outcome(s) will include, but not limited to:<ul><li>benefits programs communication and education plan</li><li>marketing materials</li><li>benefits education seminars and briefings, etc.</li><li>benefits counseling</li><li>promote awareness of established benefits tools</li></ul>"
-            }
-          ]
-   },
-   {
-         "type":"hcm-210",
-         "data":[
-            {
-              "Identifier": "HCM.210.010",
-              "Activity": "Work-life Strategy, Program, and Policy Development",
-              "Description": "Developing Agency Work-Life strategies, programs, and, policies. The service outcome(s) will include, but not limited to:<ul><li>agency work-life strategy, which may include, but not limited to:<ul><li>analysis and overview of the environment / climate impacting  agency work-life initiatives</li><li>work-life program objectives</li><li>documented plan for communicating strategic work-life priorities to stakeholders</li><li>documented plan for evaluating, enforcing, and reporting progress</li><li>against work-life strategic objectives</li></ul></li><li>agency Work-life Programs policies, as needed</li></ul>"
-            },
-            {
-              "Identifier": "HCM.210.020",
-              "Activity": "Work-life Programs Administration",
-              "Description": "Administering Work-life Programs. The service outcome(s) will include, but not limited to:<ul><li>Work-life Programs marketing materials and communication plan</li><li>employee guidance on participation and access to Work-life Programs</li><li>determination of enrollment eligibility as required</li><li>Work-life Programs processing and customer service</li><li>Standard Operating Procedures (SOPs), as needed</li><li>Implementation of plan for evaluating, enforcing, and reporting progress against work-life strategic objectives</li></ul>"
-            }
-          ]
-   }
-   ],
-   "Business_Capabilities":[
-      {
-         "Capability ID":"HCM.180.010.010",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Strategy Development",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Develop agency compensation, benefits, and/or work-life management strategy, as needed. "
-      },
-      {
-         "Capability ID":"HCM.180.010.020",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Strategy Development",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Track public and private sector compensation, benefits and/or work-life program trends for best practices and agency's needs, in accordance with agency preferences"
-      },
-      {
-         "Capability ID":"HCM.180.010.030",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Strategy Development",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Provide support for market-based pay surveys. "
-      },
-      {
-         "Capability ID":"HCM.180.010.040",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Strategy Development",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Define objectives for agency's compensation, benefits, and/or work-life programs."
-      },
-      {
-         "Capability ID":"HCM.180.010.050",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Strategy Development",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Define agency strategy on the use of pay flexibilities "
-      },
-      {
-         "Capability ID":"HCM.180.010.060",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Strategy Development",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Evaluate progress toward compensation, benefits, and work-life programs strategic objectives"
-      },
-      {
-         "Capability ID":"HCM.180.010.070",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Strategy Development",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Adjust strategic goals and objectives based on program evaluation results "
-      },
-      {
-         "Capability ID":"HCM.180.010.080",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Strategy Development",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Establish communication plan"
-      },
-      {
-         "Capability ID":"HCM.180.010.090",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Strategy Development",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Review legislation, regulation, policy, and/or guidelines and advise stakeholders on its impact on the agency's compensation, benefits, and/or Work-Life Program strategic objectives. "
-      },
-      {
-         "Capability ID":"HCM.180.020.010",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Policy and Procedure Management ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Conduct periodic reviews of compensation, benefits, and work-life programs to ensure compliance with policies, procedures, and internal controls."
-      },
-      {
-         "Capability ID":"HCM.180.020.020",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Policy and Procedure Management ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Communicate changes in compensation, benefits, and/or work-life program legislation, policies and protocols to stakeholders."
-      },
-      {
-         "Capability ID":"HCM.180.020.030",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Policy and Procedure Management ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop and/or deliver compensation, benefits, and/or work-life programs communication content and guidance as needed. "
-      },
-      {
-         "Capability ID":"HCM.180.020.040",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Policy and Procedure Management ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop alternative pay systems, as needed, to meet agency needs in accordance with applicable laws, rules, regulations, and guidelines."
-      },
-      {
-         "Capability ID":"HCM.180.020.050",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Policy and Procedure Management ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop compensation, benefits, and/or Work-Life programs, policies, and procedures to meet agency's strategic objectives."
-      },
-      {
-         "Capability ID":"HCM.180.020.060",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Policy and Procedure Management ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop and/or provide training to HR Practitioners/Specialists on compensation, benefits, and/or work-life programs, as needed."
-      },
-      {
-         "Capability ID":"HCM.180.020.070",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Policy and Procedure Management ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Evaluate progress toward compensation, benefits, and work-life programs strategic objectives"
-      },
-      {
-         "Capability ID":"HCM.180.020.080",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Policy and Procedure Management ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Support timely responses to Congressional inquiries and/or other mandates."
-      },
-      {
-         "Capability ID":"HCM.180.030.010",
-         "Function":"Compensation Management",
-         "Activity Name":"Agency Compensation Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Conduct periodic reviews of compensation, benefits, and work-life programs to ensure compliance with policies, procedures, and internal controls."
-      },
-      {
-         "Capability ID":"HCM.180.030.020",
-         "Function":"Compensation Management",
-         "Activity Name":"Agency Compensation Administration ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Communicate changes in compensation, benefits, and/or work-life program legislation, policies and protocols to stakeholders."
-      },
-      {
-         "Capability ID":"HCM.180.030.030",
-         "Function":"Compensation Management",
-         "Activity Name":"Agency Compensation Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Conduct audit of employee compensation."
-      },
-      {
-         "Capability ID":"HCM.180.030.040",
-         "Function":"Compensation Management",
-         "Activity Name":"Agency Compensation Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Accurately set employee compensation."
-      },
-      {
-         "Capability ID":"HCM.180.030.050",
-         "Function":"Compensation Management",
-         "Activity Name":"Agency Compensation Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Implement agency strategy on the use of pay flexibilities "
-      },
-      {
-         "Capability ID":"HCM.180.030.060",
-         "Function":"Compensation Management",
-         "Activity Name":"Agency Compensation Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Perform corrective actions as necessary. "
-      },
-      {
-         "Capability ID":"HCM.180.030.070",
-         "Function":"Compensation Management",
-         "Activity Name":"Agency Compensation Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Implement compensation, benefits, and/or Work-Life programs in accordance with applicable laws, rules, regulations, and guidelines."
-      },
-      {
-         "Capability ID":"HCM.180.030.080",
-         "Function":"Compensation Management",
-         "Activity Name":"Agency Compensation Administration ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop and/or provide training to HR Practitioners/Specialists on compensation, benefits, and/or work-life programs, as needed."
-      },
-      {
-         "Capability ID":"HCM.180.030.090",
-         "Function":"Compensation Management",
-         "Activity Name":"Agency Compensation Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Ensure compensation, benefits, and/or work-life program records are properly maintained in accordance with NARA's General Records Schedule."
-      },
-      {
-         "Capability ID":"HCM.180.030.100",
-         "Function":"Compensation Management",
-         "Activity Name":"Agency Compensation Administration ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Generate and provide compensation, benefits, and/or work-life data and reports to stakeholders."
-      },
-      {
-         "Capability ID":"HCM.180.030.110",
-         "Function":"Compensation Management",
-         "Activity Name":"Agency Compensation Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Support timely responses to Congressional inquiries and/or other mandates."
-      },
-      {
-         "Capability ID":"HCM.180.040.010",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Research and Advisement ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Communicate changes in compensation, benefits, and/or work-life program legislation, policies and protocols to stakeholders."
-      },
-      {
-         "Capability ID":"HCM.180.040.020",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Research and Advisement ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Track public and private sector compensation, benefits and/or work-life program trends for best practices and agency's needs, in accordance with agency preferences"
-      },
-      {
-         "Capability ID":"HCM.180.040.030",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Research and Advisement ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide support for market-based pay surveys. "
-      },
-      {
-         "Capability ID":"HCM.180.040.040",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Research and Advisement ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop and/or deliver compensation, benefits, and/or work-life programs communication content and guidance as needed. "
-      },
-      {
-         "Capability ID":"HCM.180.040.050",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Research and Advisement ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop and/or provide training to HR Practitioners/Specialists on compensation, benefits, and/or work-life programs, as needed."
-      },
-      {
-         "Capability ID":"HCM.180.040.060",
-         "Function":"Compensation Management",
-         "Activity Name":"Compensation Research and Advisement ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Generate and provide compensation, benefits, and/or work-life data and reports to stakeholders."
-      },
-      {
-         "Capability ID":"HCM.180.050.010",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Capture Federal regulatory and Federal statutory authorities applicable to compensation management (Human Capital Management, Work Schedule and Leave Management, Payroll, Leave, and Finance). "
-      },
-      {
-         "Capability ID":"HCM.180.050.020",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Capture agency-specific policy/guidance and labor agreements applicable to compensation management (Human Capital Management, Work Schedule and Leave Management, Payroll, Leave, and Finance). "
-      },
-      {
-         "Capability ID":"HCM.180.050.030",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Interface with Human Resources, Time & Attendance, and Finance systems, and third party vendors."
-      },
-      {
-         "Capability ID":"HCM.180.050.040",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O/P",
-         "Business Capability Statement":"Design and implement an integrated payroll workflow management capability that improves efficiencies, reduces errors, and increases automation throughout the payroll processes."
-      },
-      {
-         "Capability ID":"HCM.180.050.050",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Capture federal data resources necessary to calculate gross pay (e.g., pay plans, pay tables, locality pay tables, COLAs, transaction codes, etc.). "
-      },
-      {
-         "Capability ID":"HCM.180.050.060",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Capture properly authorized input from the Time and Attendance (T&A) Processing Function, employee personnel inputs, third party inputs, and personnel action processing data."
-      },
-      {
-         "Capability ID":"HCM.180.050.070",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Calculate pay at the end of each pay period, (e.g., daily, bi-weekly, monthly) after properly authorized inputs have been received and after personnel action processing is completed."
-      },
-      {
-         "Capability ID":"HCM.180.050.080",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Compute pay based on assigned pay plan. "
-      },
-      {
-         "Capability ID":"HCM.180.050.090",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Process prior-pay period, current-pay period, and future-pay period actions or adjustments based on effective dates."
-      },
-      {
-         "Capability ID":"HCM.180.050.100",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Establish a debt in accordance with the appropriate debt management regulations if the current or retroactive pay processing results in money owed to the government (e.g., employing agency). "
-      },
-      {
-         "Capability ID":"HCM.180.050.110",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Apply retroactive adjustments based on prior-pay period time and attendance and personnel adjustments, changes to regulatory requirements, mass table changes, and/or changes to an employee's entitlement or incentives."
-      },
-      {
-         "Capability ID":"HCM.180.050.120",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Compute all types of pay entitlements with various payment frequencies (e.g., foreign and non-foreign allowances, differentials, awards, incentives, and premium pay)."
-      },
-      {
-         "Capability ID":"HCM.180.050.130",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Compute earnings amounts or rates for partial-pay periods when entitlement effective dates do not coincide with pay period beginning and ending dates. Earning adjustments must be processed on a begin-date/end-date basis."
-      },
-      {
-         "Capability ID":"HCM.180.050.140",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Calculate overtime based on Fair Labor Standards Act (FLSA), the appropriate pay plan, or any agencies’ policies or labor agreements, as appropriate."
-      },
-      {
-         "Capability ID":"HCM.180.050.150",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Calculate differentials based on applicable hours certified by an approving official."
-      },
-      {
-         "Capability ID":"HCM.180.050.160",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Capture information requirements to support off-cycle and supplemental pay actions, recertified payments, and re-issued payments."
-      },
-      {
-         "Capability ID":"HCM.180.050.170",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Process and compute supplemental pay actions, recertified payments, and re-issued payments."
-      },
-      {
-         "Capability ID":"HCM.180.050.180",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Calculate allowances, premiums, and differentials as defined by law, regulation, pay plan, agency policies, and labor agreements (these may be set dollar amounts or computed as a percentage of pay, applying caps, or other limitations when applicable)."
-      },
-      {
-         "Capability ID":"HCM.180.050.190",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Process and compute pay and deductions for dual appointment positions under different appointment authorities. "
-      },
-      {
-         "Capability ID":"HCM.180.050.200",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Perform statutory limits and reasonable thresholds on gross pay (e.g., annual, aggregate, biweekly, and overtime limitations)."
-      },
-      {
-         "Capability ID":"HCM.180.050.210",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Record gross pay."
-      },
-      {
-         "Capability ID":"HCM.180.050.220",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Calculate the applicable earnings subject to wage categories, and adjust taxable gross pay by deducting pre-taxable items (e.g., Thrift Savings Plan, FEHB deductions, and retirement annuity offsets, etc.)."
-      },
-      {
-         "Capability ID":"HCM.180.050.230",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Calculate mandatory (e.g., federal and state income taxes, court ordered child support payments, etc.), voluntary (e.g., flexible spending account, life insurance premiums, etc.), and involuntary deductions (e.g., tax levies, garnishments, etc.). "
-      },
-      {
-         "Capability ID":"HCM.180.050.240",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Apply calculated deductions in the order of precedence specified by OPM or other laws or regulations, agency policies, and labor agreements."
-      },
-      {
-         "Capability ID":"HCM.180.050.250",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Ensure net pay is not negative. The solution must follow and apply insufficient funds and process rules for taking deductions. "
-      },
-      {
-         "Capability ID":"HCM.180.050.260",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Record deductions and net pay."
-      },
-      {
-         "Capability ID":"HCM.180.050.270",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Calculate retroactive adjustments based on prior-pay period time and attendance and personnel adjustments, changes to regulatory requirements, mass table changes, and/or changes to an employee's entitlement or incentives by comparing prior-pay period data and automatically compute differences."
-      },
-      {
-         "Capability ID":"HCM.180.050.280",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Track and process payroll calculations and adjustments that cross fiscal years, calendar years, and/or other accounting period and provide appropriate data to the core financial and other information systems."
-      },
-      {
-         "Capability ID":"HCM.180.050.290",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Record net pay after adjustments."
-      },
-      {
-         "Capability ID":"HCM.180.050.300",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Calculate advances and indebtedness upon separation. "
-      },
-      {
-         "Capability ID":"HCM.180.050.310",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Calculate and pay a lump sum payment at separation as required by 5 USC 551 and 6306; 5 CFR part 50 sub part L."
-      },
-      {
-         "Capability ID":"HCM.180.050.320",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Record pay adjustments."
-      },
-      {
-         "Capability ID":"HCM.180.050.330",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Allow for a review and verification and a manual adjustment prior to an adjustment being applied. "
-      },
-      {
-         "Capability ID":"HCM.180.050.340",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Suspend payment if necessary (e.g., lapse in appropriation, calculated payment exceeds threshold, etc.)."
-      },
-      {
-         "Capability ID":"HCM.180.050.350",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Support unemployment compensation for Federal employees processing and responding to ES-931 Request for Wage and Separation Information - Unemployment Compensation for Federal Employees (UCFE) requests."
-      },
-      {
-         "Capability ID":"HCM.180.050.360",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Generate payments for separation entitlements/incentives. "
-      },
-      {
-         "Capability ID":"HCM.180.050.370",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Report on employee pay status after separation, termination, or retirement."
-      },
-      {
-         "Capability ID":"HCM.180.050.380",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Provide real time pay simulation tool. "
-      },
-      {
-         "Capability ID":"HCM.180.050.390",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Generate electronic funds transfer files in required formats (e.g. International Treasury Services (ITS),third party, etc.)."
-      },
-      {
-         "Capability ID":"HCM.180.050.400",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Generate payments for unpaid compensation to beneficiaries"
-      },
-      {
-         "Capability ID":"HCM.180.050.410",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide a means for accepting, reporting, and correcting accounting information, by multiple funding source(s), for expenses and benefits, per reporting period."
-      },
-      {
-         "Capability ID":"HCM.180.050.420",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Provide data to other functions to generate internal and external payroll reports not created directly in the Pay Processing function."
-      },
-      {
-         "Capability ID":"HCM.180.050.430",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Use posted time, scheduled tours, and partial-pay period computations for all accrual processing that meets federally mandated reporting requirements."
-      },
-      {
-         "Capability ID":"HCM.180.050.440",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Comply with regulatory mandated reporting requirements. "
-      },
-      {
-         "Capability ID":"HCM.180.050.450",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Track pay associated with job-related injury time (e.g. Continuation of Pay (COP), Office of Workers' Compensation Program (OWCP))."
-      },
-      {
-         "Capability ID":"HCM.180.050.460",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Report pay associated with job-related injury time (e.g. Continuation of Pay (COP), Office of Workers' Compensation Program (OWCP))."
-      },
-      {
-         "Capability ID":"HCM.180.050.470",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Capture properly authorized input from the Work Schedule and Leave Management Processing Function necessary to process leave."
-      },
-      {
-         "Capability ID":"HCM.180.050.480",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"For current and prior pay periods perform all activities associated with determination of proper leave balances for all types of leave, leave advances, accruals, usages, forfeitures, limitations, conversions, and transfers between agencies."
-      },
-      {
-         "Capability ID":"HCM.180.050.490",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Manage leave transfers and leave bank programs in accordance with applicable regulations. "
-      },
-      {
-         "Capability ID":"HCM.180.050.500",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Provide data to support audits to ensure that all reported leave balances have been processed accurately and that balances used in pay calculations are correct."
-      },
-      {
-         "Capability ID":"HCM.180.050.510",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Track results of leave processing adjustments and maintain audit trail. "
-      },
-      {
-         "Capability ID":"HCM.180.050.520",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Update employee leave balances"
-      },
-      {
-         "Capability ID":"HCM.180.050.530",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Accommodate requests for waiver of collections for leave advances."
-      },
-      {
-         "Capability ID":"HCM.180.050.540",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Allow for manual leave adjustments as appropriate. "
-      },
-      {
-         "Capability ID":"HCM.180.050.550",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Processing",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Automatically convert leave taken in excess of available balance, based upon an established leave priority policy. When appropriate, the solution must provide for management review/approval (e.g., to determine advance leave, leave without pay or absence without leave)."
-      },
-      {
-         "Capability ID":"HCM.180.060.010",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Data Capture, Transfer, and Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Interface with the Time and Attendance, Human Resources, and Financial Management systems, as necessary."
-      },
-      {
-         "Capability ID":"HCM.180.060.020",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Data Capture, Transfer, and Reporting",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Produce real-time customizable payroll and HR-related dashboards and workforce analytics."
-      },
-      {
-         "Capability ID":"HCM.180.060.030",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Data Capture, Transfer, and Reporting",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Capture employee-specific payroll record data as defined by the Payroll Data Standards."
-      },
-      {
-         "Capability ID":"HCM.180.060.040",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Data Capture, Transfer, and Reporting",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Record gross pay, net pay, and deductions (e.g., employee or government contributions) by funding source(s), generating information to update other functions and other systems, as appropriate, including the Standard General Ledger maintained in the core financial system"
-      },
-      {
-         "Capability ID":"HCM.180.060.050",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Data Capture, Transfer, and Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide real-time capability, where applicable, to accept, identify, and process transactions from other systems (e.g., Employee Self-Service, Entry on Duty, etc.)."
-      },
-      {
-         "Capability ID":"HCM.180.060.060",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll Data Capture, Transfer, and Reporting",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Provide real-time error response(s), where applicable, and/or error report(s) to the user. "
-      },
-      {
-         "Capability ID":"HCM.180.070.010",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Permit Government ownership of all data, and the data must be extractable in machine readable format at any time by government systems or personnel."
-      },
-      {
-         "Capability ID":"HCM.180.070.020",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Support the availability of government-wide payroll data to larger communities in order to support research and analysis, data-driven decision making, and accountability."
-      },
-      {
-         "Capability ID":"HCM.180.070.030",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Comply with all published Federal Data Standards."
-      },
-      {
-         "Capability ID":"HCM.180.070.040",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Allow all payroll providers access to an employee's full payroll history. "
-      },
-      {
-         "Capability ID":"HCM.180.070.050",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Allow employees to update personal payroll information in the current or future processing pay period, at the employee's discretion (e.g., tax withholding information, electronic funds transfer information, and allotments, etc.). "
-      },
-      {
-         "Capability ID":"HCM.180.070.060",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Update individual payroll information that has been modified by the employee"
-      },
-      {
-         "Capability ID":"HCM.180.070.070",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Maintain and store each pay record by the pay period in which it was calculated and by the pay period to which it applies (e.g., the effective pay period)."
-      },
-      {
-         "Capability ID":"HCM.180.070.080",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Provide standard data (e.g., Human Resources, Time & Attendance, and payroll data, accounting data, personal data, etc.) based on government-wide and agency-specific directives established and used for pay processing."
-      },
-      {
-         "Capability ID":"HCM.180.070.090",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Provide role-based capabilities for consistently applied internal and external control (e.g., security/segregation) over data entry, transaction processing, and reporting."
-      },
-      {
-         "Capability ID":"HCM.180.070.100",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Configure/standardize specific customer needs for data input, processing rules, and edit criteria."
-      },
-      {
-         "Capability ID":"HCM.180.070.110",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Prevent duplicate data entry, except where applicable exceptions apply (e.g., dual appointments, etc.), by automatically accessing positon and employee information already residing within the system."
-      },
-      {
-         "Capability ID":"HCM.180.070.120",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Design, develop, and publish a continuity of operations plan (COOP)."
-      },
-      {
-         "Capability ID":"HCM.180.070.130",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Draft and publish User Guides and FAQs to assist customers utilizing the payroll system. "
-      },
-      {
-         "Capability ID":"HCM.180.070.140",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Comply with National Archives and Records Administration (NARA) General Record Schedules (GRS) retention requirements. "
-      },
-      {
-         "Capability ID":"HCM.180.080.010",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Change Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide role-based and subscription-based alert and notification capability for any updates to policy, functional, or technical requirements."
-      },
-      {
-         "Capability ID":"HCM.180.080.020",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Change Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Track and validate functional requirements, technical requirements, and production implementation in the impacted Human Resources, Time & Attendance, and Payroll systems."
-      },
-      {
-         "Capability ID":"HCM.180.080.030",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Change Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Provide the ability to store and/or reference related documentation."
-      },
-      {
-         "Capability ID":"HCM.180.080.040",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Change Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Generate a comprehensive requirements traceability matrix and provide ad-hoc reporting."
-      },
-      {
-         "Capability ID":"HCM.180.080.050",
-         "Function":"Compensation Management",
-         "Activity Name":"Payroll System Change Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Maintain version control of all documentation."
-      },
-      {
-         "Capability ID":"HCM.190.010.010",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Work Schedule and Leave Policy Development and Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop a plan for sharing WSLM policies and Standard Operating Procedures to employees."
-      },
-      {
-         "Capability ID":"HCM.190.010.020",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Work Schedule and Leave Policy Development and Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Ability to engage appropriate stakeholders in the development of WSLM agency-specific policies and Standard Operating Procedures."
-      },
-      {
-         "Capability ID":"HCM.190.010.030",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Work Schedule and Leave Policy Development and Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Ability to develop, maintain, and enforce agency-specific policies and Standard Operating Procedures for WSLM."
-      },
-      {
-         "Capability ID":"HCM.190.010.040",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Work Schedule and Leave Policy Development and Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop a process to review and update agency-specific policies and Standard Operating Procedures as they relate to WSLM."
-      },
-      {
-         "Capability ID":"HCM.190.020.010",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Develop Work Schedule and Leave Management Standard Operating Procedures",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop a plan for sharing WSLM policies and Standard Operating Procedures to employees."
-      },
-      {
-         "Capability ID":"HCM.190.020.020",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Develop Work Schedule and Leave Management Standard Operating Procedures",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Ability to engage appropriate stakeholders in the development of WSLM agency-specific policies and Standard Operating Procedures."
-      },
-      {
-         "Capability ID":"HCM.190.020.030",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Develop Work Schedule and Leave Management Standard Operating Procedures",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Ability to develop, maintain, and enforce agency-specific policies and Standard Operating Procedures for WSLM."
-      },
-      {
-         "Capability ID":"HCM.190.020.040",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Develop Work Schedule and Leave Management Standard Operating Procedures",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Develop a process to review and update agency-specific policies and Standard Operating Procedures as they relate to WSLM."
-      },
-      {
-         "Capability ID":"HCM.190.030.010",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Work Schedule Development and Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to audit all transactions."
-      },
-      {
-         "Capability ID":"HCM.190.030.020",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Work Schedule Development and Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability for applying the telework agreement to the work schedule, which auto-populates the T&A record."
-      },
-      {
-         "Capability ID":"HCM.190.030.030",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Work Schedule Development and Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Establish appropriate controls to ensure that employees are provided with only the time and leave options allowed by their work schedule, wage classification, Title, or appointment. "
-      },
-      {
-         "Capability ID":"HCM.190.040.010",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to electronically record, capture types of, and certify telework hours."
-      },
-      {
-         "Capability ID":"HCM.190.040.020",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Must be able to review and certify direct employees timecard once validated or verified."
-      },
-      {
-         "Capability ID":"HCM.190.040.030",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Must be able to review and certify delegated employees timecard once validated or verified."
-      },
-      {
-         "Capability ID":"HCM.190.040.040",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Must have the ability to decertify/reject an employee timecard."
-      },
-      {
-         "Capability ID":"HCM.190.040.050",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Employees must not have the ability to approve their own timecards."
-      },
-      {
-         "Capability ID":"HCM.190.040.060",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Supervisors must be able to approve an unvalidated timecard."
-      },
-      {
-         "Capability ID":"HCM.190.040.070",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Ensure assigned duties are separated to the maximum extent possible relative to recording and approving T&A."
-      },
-      {
-         "Capability ID":"HCM.190.040.080",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Ensure employees/assigned timekeeper can report, review, correct and validate the accuracy of their time."
-      },
-      {
-         "Capability ID":"HCM.190.040.090",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Approving Officials must review and certify T&A data prior to the transmission to payroll for processing."
-      },
-      {
-         "Capability ID":"HCM.190.040.100",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Manage T&A adjustments for separated employees."
-      },
-      {
-         "Capability ID":"HCM.190.040.110",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to electronically validate, certify, and approve T&A. "
-      },
-      {
-         "Capability ID":"HCM.190.040.120",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to collect and report actual hours or days worked, leave taken, and other pay-related data (e.g. piecework, fee basis units/dollars, and differentials and premium pay data for each employee) according to established policy and federal regulations."
-      },
-      {
-         "Capability ID":"HCM.190.040.130",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to record and report continuation of pay (COP). "
-      },
-      {
-         "Capability ID":"HCM.190.040.140",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Update leave balance each time leave is accrued or used."
-      },
-      {
-         "Capability ID":"HCM.190.040.150",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Document electronic approval for premium pay and leave. "
-      },
-      {
-         "Capability ID":"HCM.190.040.160",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Support the correction of current and prior pay periods time and attendance records."
-      },
-      {
-         "Capability ID":"HCM.190.040.170",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Accommodate various leave carry-over ceilings for different leave programs."
-      },
-      {
-         "Capability ID":"HCM.190.040.180",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to submit a comment with your timesheet submission."
-      },
-      {
-         "Capability ID":"HCM.190.040.190",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to audit all transactions."
-      },
-      {
-         "Capability ID":"HCM.190.040.200",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide a mechanism to associate an accounting code (funding sources) to an employee."
-      },
-      {
-         "Capability ID":"HCM.190.040.210",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Provide a secure environment for all T&A data, including data entry, storage, reporting, and transmittal. "
-      },
-      {
-         "Capability ID":"HCM.190.040.220",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to capture time and/or leave in fractions of hours."
-      },
-      {
-         "Capability ID":"HCM.190.040.230",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability for applying the telework agreement to the work schedule, which auto-populates the T&A record."
-      },
-      {
-         "Capability ID":"HCM.190.040.240",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to capture and report all categories of reported leave. "
-      },
-      {
-         "Capability ID":"HCM.190.040.250",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Enable specific access levels to approved users to enter, modify, or approve time and attendance on behalf of another user. "
-      },
-      {
-         "Capability ID":"HCM.190.040.260",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to enforce user access levels to records."
-      },
-      {
-         "Capability ID":"HCM.190.040.270",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to electronically request and approve ad-hoc / situational telework"
-      },
-      {
-         "Capability ID":"HCM.190.040.280",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to electronically submit, edit, pre-approve, record, and certify all premium pay and leave actions. "
-      },
-      {
-         "Capability ID":"HCM.190.040.290",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to aggregate, track, and report all time and attendance data collected through the management of time cards ."
-      },
-      {
-         "Capability ID":"HCM.190.040.300",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Establish appropriate controls to ensure that employees are provided with only the time and leave options allowed by their work schedule, wage classification, Title, or appointment. "
-      },
-      {
-         "Capability ID":"HCM.190.040.310",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"Time Card Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to administer all aspects of the recording, approval, and reporting of paid and unpaid time off within employee tours of duty under the various work schedules authorized by law."
-      },
-      {
-         "Capability ID":"HCM.190.050.010",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Transmittal",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Provide a secure environment for all T&A data, including data entry, storage, reporting, and transmittal. "
-      },
-      {
-         "Capability ID":"HCM.190.050.020",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Transmittal",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to electronically transmit T&A data to the payroll provider. "
-      },
-      {
-         "Capability ID":"HCM.190.050.030",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Transmittal",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to evaluate the accuracy and timeliness of T&A data transmittal to the payroll provider."
-      },
-      {
-         "Capability ID":"HCM.190.060.010",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Retain and view T&A data and information in accordance to NARA regulations and policies."
-      },
-      {
-         "Capability ID":"HCM.190.060.020",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to produce T&A reports."
-      },
-      {
-         "Capability ID":"HCM.190.060.030",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Approving Officials must review and certify T&A data prior to the transmission to payroll for processing."
-      },
-      {
-         "Capability ID":"HCM.190.060.040",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Must be able to report T&A data on a daily, weekly, biweekly, pay period, semi-monthly, and/or monthly basis and be displayed on a pay period basis."
-      },
-      {
-         "Capability ID":"HCM.190.060.050",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to collect and report actual hours or days worked, leave taken, and other pay-related data (e.g. piecework, fee basis units/dollars, and differentials and premium pay data for each employee) according to established policy and federal regulations."
-      },
-      {
-         "Capability ID":"HCM.190.060.060",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to record and report continuation of pay (COP). "
-      },
-      {
-         "Capability ID":"HCM.190.060.070",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Update leave balance each time leave is accrued or used."
-      },
-      {
-         "Capability ID":"HCM.190.060.080",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Document electronic approval for premium pay and leave. "
-      },
-      {
-         "Capability ID":"HCM.190.060.090",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to audit all transactions."
-      },
-      {
-         "Capability ID":"HCM.190.060.100",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to access T&A data for analysis and reporting."
-      },
-      {
-         "Capability ID":"HCM.190.060.110",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to report on user access to records."
-      },
-      {
-         "Capability ID":"HCM.190.060.120",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Provide a secure environment for all T&A data, including data entry, storage, reporting, and transmittal. "
-      },
-      {
-         "Capability ID":"HCM.190.060.130",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide premium pay tracking and reporting capabilities."
-      },
-      {
-         "Capability ID":"HCM.190.060.140",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to capture and report all categories of reported leave. "
-      },
-      {
-         "Capability ID":"HCM.190.060.150",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to enforce user access levels to records."
-      },
-      {
-         "Capability ID":"HCM.190.060.160",
-         "Function":"Work Schedule and Leave Management",
-         "Activity Name":"T&A Reporting",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide the ability to aggregate, track, and report all time and attendance data collected through the management of time cards."
-      },
-      {
-         "Capability ID":"HCM.200.010.010",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Policy and Procedure Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop agency compensation, benefits, and/or work-life management strategy, as needed. "
-      },
-      {
-         "Capability ID":"HCM.200.010.020",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Policy and Procedure Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Conduct periodic reviews of compensation, benefits, and work-life programs to ensure compliance with policies, procedures, and internal controls."
-      },
-      {
-         "Capability ID":"HCM.200.010.030",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Policy and Procedure Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Communicate changes in compensation, benefits, and/or work-life program legislation, policies and protocols to stakeholders."
-      },
-      {
-         "Capability ID":"HCM.200.010.040",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Policy and Procedure Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop and/or deliver compensation, benefits, and/or work-life programs communication content and guidance as needed. "
-      },
-      {
-         "Capability ID":"HCM.200.010.050",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Policy and Procedure Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Define objectives for agency's compensation, benefits, and/or work-life programs."
-      },
-      {
-         "Capability ID":"HCM.200.010.060",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Policy and Procedure Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop compensation, benefits, and/or Work-Life programs, policies, and procedures to meet agency's strategic objectives."
-      },
-      {
-         "Capability ID":"HCM.200.010.070",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Policy and Procedure Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop and/or provide training to HR Practitioners/Specialists on compensation, benefits, and/or work-life programs, as needed."
-      },
-      {
-         "Capability ID":"HCM.200.010.080",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Policy and Procedure Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Evaluate progress toward compensation, benefits, and work-life programs strategic objectives"
-      },
-      {
-         "Capability ID":"HCM.200.010.090",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Policy and Procedure Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Adjust strategic goals and objectives based on program evaluation results "
-      },
-      {
-         "Capability ID":"HCM.200.010.100",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Policy and Procedure Management",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Establish communication plan"
-      },
-      {
-         "Capability ID":"HCM.200.010.110",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Policy and Procedure Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Support timely responses to Congressional inquiries and/or other mandates."
-      },
-      {
-         "Capability ID":"HCM.200.010.120",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Policy and Procedure Management",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Review legislation, regulation, policy, and/or guidelines and advise stakeholders on its impact on the agency's compensation, benefits, and/or Work-Life Program strategic objectives. "
-      },
-      {
-         "Capability ID":"HCM.200.020.010",
-         "Function":"Benefits Management",
-         "Activity Name":"Agency-level Benefits Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Conduct periodic reviews of compensation, benefits, and work-life programs to ensure compliance with policies, procedures, and internal controls."
-      },
-      {
-         "Capability ID":"HCM.200.020.020",
-         "Function":"Benefits Management",
-         "Activity Name":"Agency-level Benefits Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Perform corrective actions as necessary. "
-      },
-      {
-         "Capability ID":"HCM.200.020.030",
-         "Function":"Benefits Management",
-         "Activity Name":"Agency-level Benefits Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Implement compensation, benefits, and/or Work-Life programs in accordance with applicable laws, rules, regulations, and guidelines."
-      },
-      {
-         "Capability ID":"HCM.200.020.040",
-         "Function":"Benefits Management",
-         "Activity Name":"Agency-level Benefits Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Ensure compensation, benefits, and/or work-life program records are properly maintained in accordance with NARA's General Records Schedule."
-      },
-      {
-         "Capability ID":"HCM.200.020.050",
-         "Function":"Benefits Management",
-         "Activity Name":"Agency-level Benefits Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Facilitate employee benefit elections, enrollments, and/or beneficiary designations as applicable. "
-      },
-      {
-         "Capability ID":"HCM.200.020.060",
-         "Function":"Benefits Management",
-         "Activity Name":"Agency-level Benefits Administration ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Establish Standard Operating Procedures (SOPs) as needed"
-      },
-      {
-         "Capability ID":"HCM.200.020.070",
-         "Function":"Benefits Management",
-         "Activity Name":"Agency-level Benefits Administration ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Generate and provide compensation, benefits, and/or work-life data and reports to stakeholders."
-      },
-      {
-         "Capability ID":"HCM.200.020.080",
-         "Function":"Benefits Management",
-         "Activity Name":"Agency-level Benefits Administration ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Support timely responses to Congressional inquiries and/or other mandates."
-      },
-      {
-         "Capability ID":"HCM.200.030.010",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Counseling and Communication",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop and/or deliver compensation, benefits, and/or work-life programs communication content and guidance as needed. "
-      },
-      {
-         "Capability ID":"HCM.200.030.020",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Counseling and Communication",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Develop and/or provide training to HR Practitioners/Specialists on compensation, benefits, and/or work-life programs, as needed."
-      },
-      {
-         "Capability ID":"HCM.200.030.030",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Counseling and Communication",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Facilitate employee benefit elections, enrollments, and/or beneficiary designations as applicable. "
-      },
-      {
-         "Capability ID":"HCM.200.030.040",
-         "Function":"Benefits Management",
-         "Activity Name":"Benefits Counseling and Communication",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Provide benefits information and counseling to employees."
-      },
-      {
-         "Capability ID":"HCM.210.010.010",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop agency compensation, benefits, and/or work-life management strategy, as needed. "
-      },
-      {
-         "Capability ID":"HCM.210.010.020",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Conduct periodic reviews of compensation, benefits, and work-life programs to ensure compliance with policies, procedures, and internal controls."
-      },
-      {
-         "Capability ID":"HCM.210.010.030",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Communicate changes in compensation, benefits, and/or work-life program legislation, policies and protocols to stakeholders."
-      },
-      {
-         "Capability ID":"HCM.210.010.040",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Track public and private sector compensation, benefits and/or work-life program trends for best practices and agency's needs, in accordance with agency preferences"
-      },
-      {
-         "Capability ID":"HCM.210.010.050",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop and/or deliver compensation, benefits, and/or work-life programs communication content and guidance as needed. "
-      },
-      {
-         "Capability ID":"HCM.210.010.060",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Identify what type of Work-Life initiatives will meet agency needs."
-      },
-      {
-         "Capability ID":"HCM.210.010.070",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Evaluate whether Work-Life initiatives align with the agency strategic objectives and help improve workforce quality of life."
-      },
-      {
-         "Capability ID":"HCM.210.010.080",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Define objectives for agency's compensation, benefits, and/or work-life programs."
-      },
-      {
-         "Capability ID":"HCM.210.010.090",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"I",
-         "Business Capability Statement":"Develop compensation, benefits, and/or Work-Life programs, policies, and procedures to meet agency's strategic objectives."
-      },
-      {
-         "Capability ID":"HCM.210.010.100",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop and/or provide training to HR Practitioners/Specialists on compensation, benefits, and/or work-life programs, as needed."
-      },
-      {
-         "Capability ID":"HCM.210.010.110",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Evaluate progress toward compensation, benefits, and work-life programs strategic objectives"
-      },
-      {
-         "Capability ID":"HCM.210.010.120",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Adjust strategic goals and objectives based on program evaluation results "
-      },
-      {
-         "Capability ID":"HCM.210.010.130",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Ensure compensation, benefits, and/or work-life program records are properly maintained in accordance with NARA's General Records Schedule."
-      },
-      {
-         "Capability ID":"HCM.210.010.140",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Establish communication plan"
-      },
-      {
-         "Capability ID":"HCM.210.010.150",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Define and implement eligibility rules for each Work-life program in accordance with applicable laws, rules, regulations, and guidelines."
-      },
-      {
-         "Capability ID":"HCM.210.010.160",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Support timely responses to Congressional inquiries and/or other mandates."
-      },
-      {
-         "Capability ID":"HCM.210.010.170",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Strategy, Program, and Policy Development ",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Review legislation, regulation, policy, and/or guidelines and advise stakeholders on its impact on the agency's compensation, benefits, and/or Work-Life Program strategic objectives. "
-      },
-      {
-         "Capability ID":"HCM.210.020.010",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Programs Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Conduct periodic reviews of compensation, benefits, and work-life programs to ensure compliance with policies, procedures, and internal controls."
-      },
-      {
-         "Capability ID":"HCM.210.020.020",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Programs Administration",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Communicate changes in compensation, benefits, and/or work-life program legislation, policies and protocols to stakeholders."
-      },
-      {
-         "Capability ID":"HCM.210.020.030",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Programs Administration",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Develop and/or deliver compensation, benefits, and/or work-life programs communication content and guidance as needed. "
-      },
-      {
-         "Capability ID":"HCM.210.020.040",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Programs Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Implement compensation, benefits, and/or Work-Life programs in accordance with applicable laws, rules, regulations, and guidelines."
-      },
-      {
-         "Capability ID":"HCM.210.020.050",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Programs Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Ensure compensation, benefits, and/or work-life program records are properly maintained in accordance with NARA's General Records Schedule."
-      },
-      {
-         "Capability ID":"HCM.210.020.060",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Programs Administration",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Generate and provide compensation, benefits, and/or work-life data and reports to stakeholders."
-      },
-      {
-         "Capability ID":"HCM.210.020.070",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Programs Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Support timely responses to Congressional inquiries and/or other mandates."
-      },
-      {
-         "Capability ID":"HCM.210.020.080",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Programs Administration",
-         "Input/Output/Process":"P",
-         "Business Capability Statement":"Facilitate access to and enrollment in work-life programs as applicable. "
-      },
-      {
-         "Capability ID":"HCM.210.020.090",
-         "Function":"Work-Life Wellness / Employee Assistance Programming",
-         "Activity Name":"Work-life Programs Administration",
-         "Input/Output/Process":"O",
-         "Business Capability Statement":"Accurately collect applicable work-life program data "
-      }
-   ],
-   "Business_Use_Cases":"coming soon",
-   "Standard_Data_Elements":{
-      "Standard_Data_Elements":"/assets/files/downloads/hr/benefits/Standard Data Elements.xlsx"
-   },
-   "Service_Measures":"coming soon"
+  "Business-Standards": "HR",
+  "Sub-section": "Compensation and Benefits",
+  "Business_Lifecycle": [
+    {
+      "type": "hcm-a5-1",
+      "data": [
+        {
+          "Identifier": "HCM.A5-1.010",
+          "Activity": "Compensation Strategy Development",
+          "Description": "Setting the overarching goals and priorities at the organizational level. The service outcome(s) will include, but not limited to: <ul>\n\t<li>agency-specific compensation strategy to include, but not limited to:</li>\n\t<li>analysis and overview of the environment / climate impacting agency compensation management initiatives</li>\n\t<li>compensation program objectives</li>\n\t<li>documented plan for communicating strategic compensation management priorities</li>\n\t<li>documented plan for evaluating, enforcing, and reporting progress against compensation management strategic objectives</li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-1.020",
+          "Activity": "Compensation Policy and Procedure Management ",
+          "Description": "Designing, developing, implementing, and managing compensation policies, programs, and procedures to meet agency strategies. The service outcome(s) will include, but not limited to: <ul>\n\t<li>agency-specific pay systems, if applicable</li>\n\t<li>policies, programs, and procedures to support implementation of agency compensation strategy</li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-1.030",
+          "Activity": "Agency Compensation Administration ",
+          "Description": "Setting and calculating employee compensation properly in accordance with agency compensation strategy, policies, programs, and  procedures.  The service outcome(s) will include, but not limited to: <ul>\n\t<li>compensation is set accurately</li>\n\t<li>audit of employee compensation and supporting documentation to determine accuracy and compliance</li>\n\t<li>agency review to ensure automatic pay processing systems are aligned with agency compensation strategy, policies, programs, and procedures</li>\n\t<li>advisory services to stakeholders on pay setting and compensation flexibilities</li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-1.040",
+          "Activity": "Compensation Research and Advisement ",
+          "Description": "Researching and interpreting compensation laws and regulations in order to provide strategic advisory services to agency leadership and managers. The service outcome(s) will include, but not limited to:\n<ul><li>accurate advice and guidance</li></ul>"
+        },
+        {
+          "Identifier": "HCM.A5-1.050",
+          "Activity": "Payroll Processing",
+          "Description": "Define and maintain the processes, business rules, and calculations necessary to accurately and efficiently execute payroll for employees paid by the Federal Government. Outcomes include, but are not limited to:\n<ul><li>Processes and workflows for integrating with HR and Time and Attendance systems and other resources necessary to calculate and execute payroll (e.g., third party Interfaces, benefits systems, etc.) \n</li><li>Leave and earning statements for every employee\n</li><li>Calculated results for amounts payable to appropriate payees (e.g. employees, beneficiaries, taxing authorities, etc.)\n</li><li>Furnish appropriate compensation documents (e.g., W-2s, 1099s, etc.) to employees and other stakeholders (e.g., IRS, OPM, TSP, Treasury)\n</li><li>Leave accrual and balance maintenance\n</li><li>Integrated payroll workflow management capability </li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-1.060",
+          "Activity": "Payroll Data Capture, Transfer, and Reporting",
+          "Description": "Capture, analyze, and report compensation data. Outcomes include, but are not limited to:\n<ul><li>Standard payroll and compensation program reports\n</li><li>Error reporting \n</li><li>Ad-hoc reporting\n</li><li>Data transfers between agencies, certified providers, and vendors</li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-1.070",
+          "Activity": "Payroll System Administration",
+          "Description": "Provide and maintain administrative and logistical activities related to payroll systems and records management. Outcomes include, but are not limited to:\n<ul><li>Audit trails \n</li><li>Updated and maintained employee record \n</li><li>Historical payroll information for all employees\n</li><li>Continuity of operations plan</li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-1.080",
+          "Activity": "Payroll System Change Management",
+          "Description": "Provide and maintain change management activities related to payroll systems. Outcomes include, but are not limited to:\n<ul><li>Formalized process for tracing and documenting the translation of federal policy to functional, and then to technical requirements </li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "type": "hcm-a5-2",
+      "data": [
+        {
+          "Identifier": "HCM-A5-2.010",
+          "Activity": "Work Schedule and Leave Policy Development and Management",
+          "Description": "Establishing, maintaining, and enforcing agency work schedule and leave policy.  The service outcome(s) will include, but not limited to:\n<ul><li>agency WSLM needs assessment \n</li><li>objectives for the management and oversight of agency WSLM\n</li><li>agency WSLM policy, in accordance with all applicable federal rules and regulations \n</li><li>agency WSLM policy assessment and review as needed</li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-2.020",
+          "Activity": "Develop Work Schedule and Leave Management Standard Operating Procedures",
+          "Description": "Designing, maintaining, and updating prescribed methods to be followed routinely for the capture and administration of Time and Attendance and Leave Management. SOPs must be approved by designated agency officials. The service outcome(s) will include, but not limited to:\n<ul><li>documented, agency approved procedures detailing how employee timecard and leave management activities will be performed\n</li><li>communicate agency-approved Time and Attendance and Leave Management procedures to employees\n</li><li>updated agency-approved Time and Attendance and Leave Management procedures based on changing policy or other factors</li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-2.030",
+          "Activity": "Work Schedule Development and Management",
+          "Description": "Providing and maintaining employee's work schedule so that it corresponds with the employee's actual work requirements to accomplish the mission of the agency. The service outcome(s) will include, but not limited to:\n<ul><li>developed and approved employee work schedules\n</li><li>employee work schedule edits or changes </li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-2.040",
+          "Activity": "Time Card Management",
+          "Description": "Recording, validating, certifying, and amending/correcting Time & Attendance. The service outcome(s) will include, but not limited to:\n<ul><li>method and process for employee/timekeeper to record employee time worked\n</li><li>method and process for timekeeper/supervisor/employee to validate employee Time and Attendance \n</li><li>method and process for certifying official to approve finalized employee time cards\n</li><li>method and process for employees and approved personnel to amend/correct time cards\n</li><li>method and process for employees to request and record leave and premium pay, and for approving official to review request and take appropriate action</li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-2.050",
+          "Activity": "T&A Transmittal",
+          "Description": "Creating batch process for transmittal of Time & Attendance  data to Payroll Provider.  The service outcome(s) will include, but not limited to:\n<ul><li>T&A batch processing \n</li><li>T&A data transmittal to Payroll Provider\n</li><li>track and manage the T&A transmittal process to Payroll Provider\n</li><li>coordination with Payroll Provider to remediate transmittal and Time &Attendance issues</li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-2.060",
+          "Activity": "T&A Reporting",
+          "Description": "Extracting reports on the captured Time & Attendance data.  The service outcome(s) will include, but not limited to:\n<ul><li>captured, stored, exportable  time and attendance data\n</li><li>standard and ad hoc employee time and attendance reports </li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "type": "hcm-a5-3",
+      "data": [
+        {
+          "Identifier": "HCM.A5-3.010",
+          "Activity": "Benefits Policy and Procedure Management",
+          "Description": "Interpreting and advising on Federal and Agency benefit policies and designing agency benefits strategy, policies, and procedures.   The service outcome(s) will include, but not limited to:\n<ul><li>agency-specific benefits strategy as needed \n</li><li>agency-specific benefits policies and procedures as needed \n</li><li>accurate advice and guidance </li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-3.020",
+          "Activity": "Agency-level Benefits Administration ",
+          "Description": "Managing eligibility and enrollment for benefits programs.   The service outcome(s) will include, but not limited to:\n<ul><li>accurate determination of enrollment eligibility\n</li><li>accurate benefits processing\n</li><li>customer service (e.g., error remediation, system support, processing issues)\n</li><li>Audit of employee benefit documentation to determine accuracy and compliance\n</li><li>Standard Operating Procedures (SOPs), as needed\n</li><li>facilitate and manage the development of agency-specific benefit tools, as needed \n</li><li>coordination with stakeholders to support the administration of benefits programs\n</li><li>Benefits reports, as needed</li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-3.030",
+          "Activity": "Benefits Counseling and Communication",
+          "Description": "Implementing benefits communication strategy to educate and counsel employees. The service outcome(s) will include, but not limited to:\n<ul><li>benefits programs communication and education plan\n</li><li>marketing materials\n</li><li>benefits education seminars and briefings, etc. \n</li><li>benefits counseling \n</li><li>promote awareness of established benefits tools</li>\n</ul> "
+        }
+      ]
+    },
+    {
+      "type": "hcm-a5-4",
+      "data": [
+        {
+          "Identifier": "HCM.A5-4.010",
+          "Activity": "Work-life Strategy, Program, and Policy Development ",
+          "Description": "Developing Agency Work-Life strategies, programs, and, policies. The service outcome(s) will include, but not limited to:\n<ul><li>agency work-life strategy, which may include, but not limited to:\n     </li><li>analysis and overview of the environment / climate impacting  agency work-life initiatives\n      </li><li>work-life program objectives \n      </li><li>documented plan for communicating  strategic work-life priorities to stakeholders\n     </li><li>documented plan for evaluating, enforcing, and reporting progress  \n        against work-life strategic objectives \n</li><li>agency Work-life Programs policies, as needed</li>\n</ul>"
+        },
+        {
+          "Identifier": "HCM.A5-4.020",
+          "Activity": "Work-life Programs Administration",
+          "Description": "Administering Work-life Programs. The service outcome(s) will include, but not limited to:\n<ul><li>Work-life Programs marketing materials and communication plan\n</li><li>employee guidance on participation and access to Work-life Programs\n</li><li>determination of enrollment eligibility as required\n</li><li>Work-life Programs processing and customer service \n</li><li>Standard Operating Procedures (SOPs), as needed\n</li><li>Implementation of plan for evaluating, enforcing, and reporting progress against work-life strategic objectives</li>\n</ul> "
+        }
+      ]
+    }
+  ],
+  "Business_Capabilities": [
+    {
+      "Capability ID": "HCM.A5-1.010.010",
+      "Function": "Compensation Management",
+      "Activity Name": "Strategy Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Develop agency compensation, benefits, and/or work-life management strategy, as needed. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.010.020",
+      "Function": "Compensation Management",
+      "Activity Name": "Strategy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track public and private sector compensation, benefits and/or work-life program trends for best practices and agency's needs, in accordance with agency preferences"
+    },
+    {
+      "Capability ID": "HCM.A5-1.010.030",
+      "Function": "Compensation Management",
+      "Activity Name": "Strategy Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Provide support for market-based pay surveys. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.010.040",
+      "Function": "Compensation Management",
+      "Activity Name": "Strategy Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Define objectives for agency's compensation, benefits, and/or work-life programs."
+    },
+    {
+      "Capability ID": "HCM.A5-1.010.050",
+      "Function": "Compensation Management",
+      "Activity Name": "Strategy Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Define agency strategy on the use of pay flexibilities "
+    },
+    {
+      "Capability ID": "HCM.A5-1.010.060",
+      "Function": "Compensation Management",
+      "Activity Name": "Strategy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Evaluate progress toward compensation, benefits, and work-life programs strategic objectives"
+    },
+    {
+      "Capability ID": "HCM.A5-1.010.070",
+      "Function": "Compensation Management",
+      "Activity Name": "Strategy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Adjust strategic goals and objectives based on program evaluation results "
+    },
+    {
+      "Capability ID": "HCM.A5-1.010.080",
+      "Function": "Compensation Management",
+      "Activity Name": "Strategy Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Establish communication plan"
+    },
+    {
+      "Capability ID": "HCM.A5-1.010.090",
+      "Function": "Compensation Management",
+      "Activity Name": "Strategy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Review legislation, regulation, policy, and/or guidelines and advise stakeholders on its impact on the agency's compensation, benefits, and/or Work-Life Program strategic objectives. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.020.010",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Policy and Procedure Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Conduct periodic reviews of compensation, benefits, and work-life programs  to ensure compliance with policies, procedures, and internal controls."
+    },
+    {
+      "Capability ID": "HCM.A5-1.020.020",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Communicate changes in compensation, benefits, and/or work-life program legislation, policies and protocols to stakeholders."
+    },
+    {
+      "Capability ID": "HCM.A5-1.020.030",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop and/or deliver compensation, benefits, and/or work-life programs communication content and guidance as needed. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.020.040",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop alternative pay systems, as needed, to meet agency needs in accordance with applicable laws, rules, regulations, and guidelines."
+    },
+    {
+      "Capability ID": "HCM.A5-1.020.050",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop compensation, benefits, and/or Work-Life programs, policies, and procedures to meet agency's strategic objectives."
+    },
+    {
+      "Capability ID": "HCM.A5-1.020.060",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop and/or provide training to HR Practitioners/Specialists on compensation, benefits, and/or work-life programs, as needed."
+    },
+    {
+      "Capability ID": "HCM.A5-1.020.070",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Policy and Procedure Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Evaluate progress toward compensation, benefits, and work-life programs strategic objectives"
+    },
+    {
+      "Capability ID": "HCM.A5-1.020.080",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Support timely responses to Congressional inquiries and/or other mandates."
+    },
+    {
+      "Capability ID": "HCM.A5-1.020.090",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Policy and Procedure Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-1.030.010",
+      "Function": "Compensation Management",
+      "Activity Name": "Agency Compensation Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Conduct periodic reviews of compensation, benefits, and work-life programs  to ensure compliance with policies, procedures, and internal controls."
+    },
+    {
+      "Capability ID": "HCM.A5-1.030.020",
+      "Function": "Compensation Management",
+      "Activity Name": "Agency Compensation Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Communicate changes in compensation, benefits, and/or work-life program legislation, policies and protocols to stakeholders."
+    },
+    {
+      "Capability ID": "HCM.A5-1.030.030",
+      "Function": "Compensation Management",
+      "Activity Name": "Agency Compensation Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Conduct audit of employee compensation."
+    },
+    {
+      "Capability ID": "HCM.A5-1.030.040",
+      "Function": "Compensation Management",
+      "Activity Name": "Agency Compensation Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Accurately set employee compensation."
+    },
+    {
+      "Capability ID": "HCM.A5-1.030.050",
+      "Function": "Compensation Management",
+      "Activity Name": "Agency Compensation Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Implement agency strategy on the use of pay flexibilities "
+    },
+    {
+      "Capability ID": "HCM.A5-1.030.060",
+      "Function": "Compensation Management",
+      "Activity Name": "Agency Compensation Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Perform corrective actions as necessary. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.030.070",
+      "Function": "Compensation Management",
+      "Activity Name": "Agency Compensation Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Implement compensation, benefits, and/or Work-Life programs in accordance with applicable laws, rules, regulations, and guidelines."
+    },
+    {
+      "Capability ID": "HCM.A5-1.030.080",
+      "Function": "Compensation Management",
+      "Activity Name": "Agency Compensation Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop and/or provide training to HR Practitioners/Specialists on compensation, benefits, and/or work-life programs, as needed."
+    },
+    {
+      "Capability ID": "HCM.A5-1.030.090",
+      "Function": "Compensation Management",
+      "Activity Name": "Agency Compensation Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-1.030.100",
+      "Function": "Compensation Management",
+      "Activity Name": "Agency Compensation Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Generate and provide compensation, benefits, and/or work-life data and reports to stakeholders."
+    },
+    {
+      "Capability ID": "HCM.A5-1.030.110",
+      "Function": "Compensation Management",
+      "Activity Name": "Agency Compensation Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Support timely responses to Congressional inquiries and/or other mandates."
+    },
+    {
+      "Capability ID": "HCM.A5-1.040.010",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Research and Advisement",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Communicate changes in compensation, benefits, and/or work-life program legislation, policies and protocols to stakeholders."
+    },
+    {
+      "Capability ID": "HCM.A5-1.040.020",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Research and Advisement",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track public and private sector compensation, benefits and/or work-life program trends for best practices and agency's needs, in accordance with agency preferences"
+    },
+    {
+      "Capability ID": "HCM.A5-1.040.030",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Research and Advisement",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide support for market-based pay surveys. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.040.040",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Research and Advisement",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop and/or deliver compensation, benefits, and/or work-life programs communication content and guidance as needed. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.040.050",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Research and Advisement",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop and/or provide training to HR Practitioners/Specialists on compensation, benefits, and/or work-life programs, as needed."
+    },
+    {
+      "Capability ID": "HCM.A5-1.040.060",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Research and Advisement",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Generate and provide compensation, benefits, and/or work-life data and reports to stakeholders."
+    },
+    {
+      "Capability ID": "HCM.A5-1.040.070",
+      "Function": "Compensation Management",
+      "Activity Name": "Compensation Research and Advisement",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.010",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Capture Federal regulatory and Federal statutory authorities applicable to compensation management (Human Capital Management, Work Schedule and Leave Management, Payroll, Leave, and Finance). "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.020",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Capture agency-specific policy/guidance and labor agreements applicable to compensation management (Human Capital Management, Work Schedule and Leave Management, Payroll, Leave, and Finance). "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.030",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Interface with Human Resources, Time & Attendance, and Finance systems, and third party vendors."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.040",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O/P",
+      "Business Capability Statement": "Design and implement an integrated payroll workflow management capability that improves efficiencies, reduces errors, and increases automation throughout the payroll processes."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.050",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Capture federal data resources necessary to calculate gross pay (e.g., pay plans, pay tables, locality pay tables, COLAs, transaction codes, etc.). "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.060",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Capture properly authorized input from the Time and Attendance (T&A) Processing Function, employee personnel inputs, third party inputs, and personnel action processing data."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.070",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Calculate pay at the end of each pay period, (e.g., daily, bi-weekly, monthly) after properly authorized inputs have been received and after personnel action processing is completed."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.080",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Compute pay based on assigned pay plan.  "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.090",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Process prior-pay period, current-pay period, and future-pay period actions or adjustments based on effective dates."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.100",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Establish a debt in accordance with the appropriate debt management regulations if the current or retroactive pay processing results in money owed to the government (e.g., employing agency). "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.110",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Apply retroactive adjustments based on prior-pay period time and attendance and personnel adjustments, changes to regulatory requirements, mass table changes, and/or changes to an employee's entitlement or incentives."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.120",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Compute all types of pay entitlements with various payment frequencies (e.g., foreign and non-foreign allowances, differentials, awards, incentives, and premium pay)."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.130",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Compute earnings amounts or rates for partial-pay periods when entitlement effective dates do not coincide with pay period beginning and ending dates. Earning adjustments must be processed on a begin-date/end-date basis."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.140",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Calculate overtime based on Fair Labor Standards Act (FLSA), the appropriate pay plan, or any agencies’ policies or labor agreements, as appropriate."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.150",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Calculate differentials based on applicable hours certified by an approving official."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.160",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Capture information requirements to support off-cycle and supplemental pay actions, recertified payments, and re-issued payments."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.170",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Process and compute supplemental pay actions, recertified payments, and re-issued payments."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.180",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Calculate allowances, premiums, and differentials as defined by law, regulation, pay plan, agency policies, and labor agreements (these may be set dollar amounts or computed as a percentage of pay, applying caps, or other limitations when applicable)."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.190",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Process and compute pay and deductions for dual appointment positions under different appointment authorities. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.200",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Perform statutory limits and reasonable thresholds on gross pay (e.g., annual, aggregate, biweekly, and overtime limitations)."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.210",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Record gross pay."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.220",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Calculate the applicable earnings subject to wage categories, and adjust taxable gross pay by deducting pre-taxable items (e.g., Thrift Savings Plan, FEHB deductions, and retirement annuity offsets, etc.)."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.230",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Calculate mandatory (e.g., federal and state income taxes, court ordered child support payments, etc.), voluntary (e.g., flexible spending account, life insurance premiums, etc.), and involuntary deductions (e.g., tax levies, garnishments, etc.).  "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.240",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Apply calculated deductions in the order of precedence specified by OPM or other laws or regulations, agency policies, and labor agreements."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.250",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ensure net pay is not negative. The solution must follow and apply insufficient funds and process rules for taking deductions.  "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.260",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Record deductions and net pay."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.270",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Calculate retroactive adjustments based on prior-pay period time and attendance and personnel adjustments, changes to regulatory requirements, mass table changes, and/or changes to an employee's entitlement or incentives by comparing prior-pay period data and automatically compute differences."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.280",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and process payroll calculations and adjustments that cross fiscal years, calendar years, and/or other accounting period and provide appropriate data to the core financial and other information systems."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.290",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Record net pay after adjustments."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.300",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Calculate advances and indebtedness upon separation. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.310",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Calculate and pay a lump sum payment at separation as required by 5 USC 551 and 6306; 5 CFR part 50 sub part L."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.320",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Record pay adjustments."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.330",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Allow for a review and verification and a manual adjustment prior to an adjustment being applied. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.340",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Suspend payment if necessary (e.g., lapse in appropriation, calculated payment exceeds threshold, etc.)."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.350",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Support unemployment compensation for Federal employees processing and responding to ES-931 Request for Wage and Separation Information - Unemployment Compensation for Federal Employees (UCFE) requests."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.360",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Generate payments for separation entitlements/incentives. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.370",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Report on employee pay status after separation, termination, or retirement."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.380",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide real time pay simulation tool. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.390",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Generate electronic funds transfer files in required formats (e.g. International Treasury Services (ITS),third party, etc.)."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.400",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Generate payments for unpaid compensation to beneficiaries"
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.410",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide a means for accepting, reporting, and correcting accounting information, by multiple funding source(s), for expenses and benefits, per reporting period."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.420",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide data to other functions to generate internal and external payroll reports not created directly in the Pay Processing function."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.430",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Use posted time, scheduled tours, and partial-pay period computations for all accrual processing that meets federally mandated reporting requirements."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.440",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Comply with regulatory mandated reporting requirements. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.450",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track pay associated with job-related injury time (e.g. Continuation of Pay (COP), Office of Workers' Compensation Program (OWCP))."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.460",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Report pay associated with job-related injury time (e.g. Continuation of Pay (COP), Office of Workers' Compensation Program (OWCP))."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.470",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Capture properly authorized input from the Work Schedule and Leave Management Processing Function necessary to process leave."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.480",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "For current and prior pay periods perform all activities associated with determination of proper leave balances for all types of leave, leave advances, accruals, usages, forfeitures, limitations, conversions, and transfers between agencies."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.490",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Manage leave transfers and leave bank programs in accordance with applicable regulations. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.500",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide data to support audits to ensure that all reported leave balances have been processed accurately and that balances used in pay calculations are correct."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.510",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track results of leave processing adjustments and maintain audit trail. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.520",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Update employee leave balances"
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.530",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Accommodate requests for waiver of collections for leave advances."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.540",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Allow for manual leave adjustments as appropriate.  "
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.550",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Automatically convert leave taken in excess of available balance, based upon an established leave priority policy. When appropriate, the solution must provide for management review/approval (e.g., to determine advance leave, leave without pay or absence without leave)."
+    },
+    {
+      "Capability ID": "HCM.A5-1.050.560",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Processing",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-1.060.010",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Data Capture, Transfer, and Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Interface with the Time and Attendance, Human Resources, and Financial Management systems, as necessary."
+    },
+    {
+      "Capability ID": "HCM.A5-1.060.020",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Data Capture, Transfer, and Reporting",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce real-time customizable payroll and HR-related dashboards and workforce analytics."
+    },
+    {
+      "Capability ID": "HCM.A5-1.060.030",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Data Capture, Transfer, and Reporting",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Capture employee-specific payroll record data as defined by the Payroll Data Standards."
+    },
+    {
+      "Capability ID": "HCM.A5-1.060.040",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Data Capture, Transfer, and Reporting",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Record gross pay, net pay, and deductions (e.g., employee or government contributions) by funding source(s), generating information to update other functions and other systems, as appropriate, including the Standard General Ledger maintained in the core financial system"
+    },
+    {
+      "Capability ID": "HCM.A5-1.060.050",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Data Capture, Transfer, and Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide real-time capability, where applicable, to accept, identify, and process transactions from other systems (e.g., Employee Self-Service, Entry on Duty, etc.)."
+    },
+    {
+      "Capability ID": "HCM.A5-1.060.060",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Data Capture, Transfer, and Reporting",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide real-time error response(s), where applicable, and/or error report(s) to the user. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.060.070",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll Data Capture, Transfer, and Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.010",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Permit Government ownership of all data, and the data must be extractable in machine readable format at any time by government systems or personnel."
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.020",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Support the availability of government-wide payroll data to larger communities in order to support research and analysis, data-driven decision making, and accountability."
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.030",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Comply with all published Federal Data Standards."
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.040",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Allow all payroll providers access to an employee's full payroll history. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.050",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Allow employees to update personal payroll information in the current or future processing pay period, at the employee's discretion (e.g., tax withholding information, electronic funds transfer information, and allotments, etc.). "
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.060",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Update individual payroll information that has been modified by the employee"
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.070",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Maintain and store each pay record by the pay period in which it was calculated and by the pay period to which it applies (e.g., the effective pay period)."
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.080",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide standard data (e.g., Human Resources, Time & Attendance, and payroll data, accounting data, personal data, etc.) based on government-wide and agency-specific directives established and used for pay processing."
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.090",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide role-based capabilities for consistently applied internal and external control (e.g., security/segregation) over data entry, transaction processing, and reporting."
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.100",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Configure/standardize specific customer needs for data input, processing rules, and edit criteria."
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.110",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Prevent duplicate data entry, except where applicable exceptions apply (e.g., dual appointments, etc.), by automatically accessing positon and employee information already residing within the system."
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.120",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Design, develop, and publish a continuity of operations plan (COOP)."
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.130",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Draft and publish User Guides and FAQs to assist customers utilizing the payroll system. "
+    },
+    {
+      "Capability ID": "HCM.A5-1.070.140",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-1.080.010",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Change Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide role-based and subscription-based alert and notification capability for any updates to policy, functional, or technical requirements."
+    },
+    {
+      "Capability ID": "HCM.A5-1.080.020",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Change Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and validate functional requirements, technical requirements, and production implementation in the impacted Human Resources, Time & Attendance, and Payroll systems."
+    },
+    {
+      "Capability ID": "HCM.A5-1.080.030",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Change Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide the ability to store and/or reference related documentation."
+    },
+    {
+      "Capability ID": "HCM.A5-1.080.040",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Change Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Generate a comprehensive requirements traceability matrix and provide ad-hoc reporting."
+    },
+    {
+      "Capability ID": "HCM.A5-1.080.050",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Change Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Maintain version control of all documentation."
+    },
+    {
+      "Capability ID": "HCM.A5-1.080.060",
+      "Function": "Compensation Management",
+      "Activity Name": "Payroll System Change Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-2.010.010",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Work Schedule and Leave Policy Development and Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop a plan for sharing WSLM policies and Standard Operating Procedures  to employees."
+    },
+    {
+      "Capability ID": "HCM.A5-2.010.020",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Work Schedule and Leave Policy Development and Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ability to engage appropriate stakeholders in the development of WSLM agency-specific policies and Standard Operating Procedures."
+    },
+    {
+      "Capability ID": "HCM.A5-2.010.030",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Work Schedule and Leave Policy Development and Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ability to develop, maintain, and enforce agency-specific policies and Standard Operating Procedures for WSLM."
+    },
+    {
+      "Capability ID": "HCM.A5-2.010.040",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Work Schedule and Leave Policy Development and Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop a process to review and update agency-specific policies and Standard Operating Procedures as they relate to WSLM."
+    },
+    {
+      "Capability ID": "HCM.A5-2.010.050",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Work Schedule and Leave Policy Development and Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-2.020.010",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Develop Work Schedule and Leave Management Standard Operating Procedures",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop a plan for sharing WSLM policies and Standard Operating Procedures  to employees."
+    },
+    {
+      "Capability ID": "HCM.A5-2.020.020",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Develop Work Schedule and Leave Management Standard Operating Procedures",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ability to engage appropriate stakeholders in the development of WSLM agency-specific policies and Standard Operating Procedures."
+    },
+    {
+      "Capability ID": "HCM.A5-2.020.030",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Develop Work Schedule and Leave Management Standard Operating Procedures",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ability to develop, maintain, and enforce agency-specific policies and Standard Operating Procedures for WSLM."
+    },
+    {
+      "Capability ID": "HCM.A5-2.020.040",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Develop Work Schedule and Leave Management Standard Operating Procedures",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Develop a process to review and update agency-specific policies and Standard Operating Procedures as they relate to WSLM."
+    },
+    {
+      "Capability ID": "HCM.A5-2.020.050",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Develop Work Schedule and Leave Management Standard Operating Procedures",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-2.030.010",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Develop Work Schedule and Leave Management Standard Operating Procedures",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to audit all transactions."
+    },
+    {
+      "Capability ID": "HCM.A5-2.030.020",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Work Schedule Development and Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability for applying the telework agreement to the work schedule, which auto-populates the T&A record."
+    },
+    {
+      "Capability ID": "HCM.A5-2.030.030",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Work Schedule Development and Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Establish appropriate controls to ensure that employees are provided with only the time and leave options allowed by their work schedule, wage classification, Title, or appointment. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.030.040",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Work Schedule Development and Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.010",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to electronically record, capture types of, and certify  telework hours."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.020",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Must be able to review and certify direct employees timecard once validated or verified."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.030",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Must be able to review and certify delegated employees timecard once validated or verified."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.040",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Must have the ability to decertify/reject an employee timecard."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.050",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Employees must not have the ability to approve their own timecards."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.060",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Supervisors must be able to approve an unvalidated timecard."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.070",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ensure assigned duties are separated to the maximum extent possible relative to recording and approving  T&A."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.080",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ensure employees/assigned timekeeper can report, review, correct and validate the accuracy of their time."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.090",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Approving Officials must review and certify T&A data prior to the transmission to payroll for processing."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.100",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Manage T&A adjustments for separated employees."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.110",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to electronically validate, certify, and approve T&A. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.120",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to collect and report actual hours or days worked, leave taken, and other pay-related data (e.g.  piecework,  fee basis units/dollars,  and differentials and premium pay data for each employee) according to established policy and federal regulations."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.130",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to record and report continuation of pay (COP). "
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.140",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Update leave balance each time leave is accrued or used."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.150",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Document electronic approval for premium pay and leave. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.160",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Support the correction of current and prior pay periods time and attendance records."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.170",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Accommodate various leave carry-over ceilings for different leave programs."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.180",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to submit a comment with your timesheet submission."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.190",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to audit all transactions."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.200",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide a mechanism to associate an accounting code (funding sources) to an employee."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.210",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide a secure environment for all  T&A data, including data entry, storage, reporting, and transmittal. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.220",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to capture time and/or leave in fractions of hours."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.230",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability for applying the telework agreement to the work schedule, which auto-populates the T&A record."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.240",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to capture and report all categories of reported leave. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.250",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Enable specific access levels to approved users to enter, modify, or approve time and attendance on behalf of another user. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.260",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to enforce user access levels to records."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.270",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to electronically request and approve ad-hoc / situational telework"
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.280",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to electronically submit, edit, pre-approve, record, and certify all premium pay and leave actions. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.290",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to aggregate, track, and report all time and attendance data collected through the management of time cards ."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.300",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Establish appropriate controls to ensure that employees are provided with only the time and leave options allowed by their work schedule, wage classification, Title, or appointment. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.310",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to administer all aspects of the recording, approval, and reporting of paid and unpaid time off within employee tours of duty under the various work schedules authorized by law."
+    },
+    {
+      "Capability ID": "HCM.A5-2.040.320",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "Time Card Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-2.050.010",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Transmittal",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide a secure environment for all  T&A data, including data entry, storage, reporting, and transmittal. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.050.020",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Transmittal",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to electronically transmit T&A data to the payroll provider. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.050.030",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Transmittal",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to evaluate the accuracy and timeliness of T&A data transmittal to the payroll provider."
+    },
+    {
+      "Capability ID": "HCM.A5-2.050.040",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Transmittal",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.010",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.020",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to produce T&A reports."
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.030",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Approving Officials must review and certify T&A data prior to the transmission to payroll for processing."
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.040",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Must be able to report T&A data on a daily,  weekly,  biweekly, pay period,  semi-monthly, and/or monthly basis and be displayed on a pay period basis."
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.050",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to collect and report actual hours or days worked, leave taken, and other pay-related data (e.g.  piecework,  fee basis units/dollars,  and differentials and premium pay data for each employee) according to established policy and federal regulations."
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.060",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to record and report continuation of pay (COP). "
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.070",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Update leave balance each time leave is accrued or used."
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.080",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Document electronic approval for premium pay and leave. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.090",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to audit all transactions."
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.100",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to access T&A data for analysis and reporting."
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.110",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to report on user access to records."
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.120",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide a secure environment for all  T&A data, including data entry, storage, reporting, and transmittal. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.130",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide premium pay tracking and reporting capabilities."
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.140",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to capture and report all categories of reported leave. "
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.150",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to enforce user access levels to records."
+    },
+    {
+      "Capability ID": "HCM.A5-2.060.160",
+      "Function": "Work Schedule and Leave Management",
+      "Activity Name": "T&A Reporting",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide the ability to aggregate, track, and report all time and attendance data collected through the management of time cards."
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.010",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop agency compensation, benefits, and/or work-life management strategy, as needed. "
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.020",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Conduct periodic reviews of compensation, benefits, and work-life programs  to ensure compliance with policies, procedures, and internal controls."
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.030",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Communicate changes in compensation, benefits, and/or work-life program legislation, policies and protocols to stakeholders."
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.040",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop and/or deliver compensation, benefits, and/or work-life programs communication content and guidance as needed. "
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.050",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Define objectives for agency's compensation, benefits, and/or work-life programs."
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.060",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop compensation, benefits, and/or Work-Life programs, policies, and procedures to meet agency's strategic objectives."
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.070",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop and/or provide training to HR Practitioners/Specialists on compensation, benefits, and/or work-life programs, as needed."
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.080",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Evaluate progress toward compensation, benefits, and work-life programs strategic objectives"
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.090",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Adjust strategic goals and objectives based on program evaluation results "
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.100",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Establish communication plan"
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.110",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Support timely responses to Congressional inquiries and/or other mandates."
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.120",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Review legislation, regulation, policy, and/or guidelines and advise stakeholders on its impact on the agency's compensation, benefits, and/or Work-Life Program strategic objectives. "
+    },
+    {
+      "Capability ID": "HCM.A5-3.010.130",
+      "Function": "Benefits Management",
+      "Activity Name": "Policy and Procedure Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-3.020.010",
+      "Function": "Benefits Management",
+      "Activity Name": "Agency-level Benefits Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Conduct periodic reviews of compensation, benefits, and work-life programs  to ensure compliance with policies, procedures, and internal controls."
+    },
+    {
+      "Capability ID": "HCM.A5-3.020.020",
+      "Function": "Benefits Management",
+      "Activity Name": "Agency-level Benefits Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Perform corrective actions as necessary. "
+    },
+    {
+      "Capability ID": "HCM.A5-3.020.030",
+      "Function": "Benefits Management",
+      "Activity Name": "Agency-level Benefits Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Implement compensation, benefits, and/or Work-Life programs in accordance with applicable laws, rules, regulations, and guidelines."
+    },
+    {
+      "Capability ID": "HCM.A5-3.020.040",
+      "Function": "Benefits Management",
+      "Activity Name": "Agency-level Benefits Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-3.020.050",
+      "Function": "Benefits Management",
+      "Activity Name": "Agency-level Benefits Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Facilitate employee benefit elections, enrollments, and/or beneficiary designations as applicable. "
+    },
+    {
+      "Capability ID": "HCM.A5-3.020.060",
+      "Function": "Benefits Management",
+      "Activity Name": "Agency-level Benefits Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Establish Standard Operating Procedures (SOPs) as needed"
+    },
+    {
+      "Capability ID": "HCM.A5-3.020.070",
+      "Function": "Benefits Management",
+      "Activity Name": "Agency-level Benefits Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Generate and provide compensation, benefits, and/or work-life data and reports to stakeholders."
+    },
+    {
+      "Capability ID": "HCM.A5-3.020.080",
+      "Function": "Benefits Management",
+      "Activity Name": "Agency-level Benefits Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Support timely responses to Congressional inquiries and/or other mandates."
+    },
+    {
+      "Capability ID": "HCM.A5-3.030.010",
+      "Function": "Benefits Management",
+      "Activity Name": "Benefits Counseling and Communication",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop and/or deliver compensation, benefits, and/or work-life programs communication content and guidance as needed. "
+    },
+    {
+      "Capability ID": "HCM.A5-3.030.020",
+      "Function": "Benefits Management",
+      "Activity Name": "Benefits Counseling and Communication",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Develop and/or provide training to HR Practitioners/Specialists on compensation, benefits, and/or work-life programs, as needed."
+    },
+    {
+      "Capability ID": "HCM.A5-3.030.030",
+      "Function": "Benefits Management",
+      "Activity Name": "Benefits Counseling and Communication",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Facilitate employee benefit elections, enrollments, and/or beneficiary designations as applicable. "
+    },
+    {
+      "Capability ID": "HCM.A5-3.030.040",
+      "Function": "Benefits Management",
+      "Activity Name": "Benefits Counseling and Communication",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide benefits information and counseling to employees."
+    },
+    {
+      "Capability ID": "HCM.A5-3.030.050",
+      "Function": "Benefits Management",
+      "Activity Name": "Benefits Counseling and Communication",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.010",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop agency compensation, benefits, and/or work-life management strategy, as needed. "
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.020",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Conduct periodic reviews of compensation, benefits, and work-life programs  to ensure compliance with policies, procedures, and internal controls."
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.030",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Communicate changes in compensation, benefits, and/or work-life program legislation, policies and protocols to stakeholders."
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.040",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track public and private sector compensation, benefits and/or work-life program trends for best practices and agency's needs, in accordance with agency preferences"
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.050",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop and/or deliver compensation, benefits, and/or work-life programs communication content and guidance as needed. "
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.060",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Identify what type of Work-Life initiatives will meet agency needs."
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.070",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Evaluate whether Work-Life initiatives align with the agency strategic objectives and help improve workforce quality of life."
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.080",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Define objectives for agency's compensation, benefits, and/or work-life programs."
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.090",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Develop compensation, benefits, and/or Work-Life programs, policies, and procedures to meet agency's strategic objectives."
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.100",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop and/or provide training to HR Practitioners/Specialists on compensation, benefits, and/or work-life programs, as needed."
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.110",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Evaluate progress toward compensation, benefits, and work-life programs strategic objectives"
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.120",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Adjust strategic goals and objectives based on program evaluation results "
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.130",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.140",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Establish communication plan"
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.150",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Define and implement eligibility rules for each Work-life program in accordance with applicable laws, rules, regulations, and guidelines."
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.160",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Support timely responses to Congressional inquiries and/or other mandates."
+    },
+    {
+      "Capability ID": "HCM.A5-4.010.170",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Strategy, Program, and Policy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Review legislation, regulation, policy, and/or guidelines and advise stakeholders on its impact on the agency's compensation, benefits, and/or Work-Life Program strategic objectives. "
+    },
+    {
+      "Capability ID": "HCM.A5-4.020.010",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Work-life Programs Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Conduct periodic reviews of compensation, benefits, and work-life programs  to ensure compliance with policies, procedures, and internal controls."
+    },
+    {
+      "Capability ID": "HCM.A5-4.020.020",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Work-life Programs Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Communicate changes in compensation, benefits, and/or work-life program legislation, policies and protocols to stakeholders."
+    },
+    {
+      "Capability ID": "HCM.A5-4.020.030",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Work-life Programs Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop and/or deliver compensation, benefits, and/or work-life programs communication content and guidance as needed. "
+    },
+    {
+      "Capability ID": "HCM.A5-4.020.040",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Work-life Programs Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Implement compensation, benefits, and/or Work-Life programs in accordance with applicable laws, rules, regulations, and guidelines."
+    },
+    {
+      "Capability ID": "HCM.A5-4.020.050",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Work-life Programs Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+    },
+    {
+      "Capability ID": "HCM.A5-4.020.060",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Work-life Programs Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Generate and provide compensation, benefits, and/or work-life data and reports to stakeholders."
+    },
+    {
+      "Capability ID": "HCM.A5-4.020.070",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Work-life Programs Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Support timely responses to Congressional inquiries and/or other mandates."
+    },
+    {
+      "Capability ID": "HCM.A5-4.020.080",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Work-life Programs Administration",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Facilitate access to and enrollment in work-life programs as applicable. "
+    },
+    {
+      "Capability ID": "HCM.A5-4.020.090",
+      "Function": "Work-Life Wellness / Employee Assistance Programming",
+      "Activity Name": "Work-life Programs Administration",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Accurately collect applicable work-life program data "
+    }
+  ],
+  "Business_Use_Cases": "coming soon",
+  "Standard_Data_Elements": {
+    "Standard_Data_Elements": "/assets/files/downloads/hr/benefits/Standard Data Elements.xlsx"
+  },
+  "Service_Measures": "coming soon"
 }
