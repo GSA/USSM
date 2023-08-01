@@ -42,6 +42,14 @@ jQuery(document).ready(function () {
             hasSubsection: true
         },
         {
+            accordian: 'hr-td-lifecycle',
+            table: 'hr-td-capabilities',
+            ElementsList: 'hr-td-data-elements',
+            PerformanceMetricsList: 'hr-talent-development-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/td/'),
+            hasSubsection: true
+        },
+        {
             accordian: 'hr-acquisition-lifecycle',
             table: 'hr-acquisition-capabilities',
             PerformanceMetricsList: 'hr-acquisition-performance-metrics',
