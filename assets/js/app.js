@@ -44,6 +44,7 @@ jQuery(document).ready(function () {
         {
             accordian: 'hr-acquisition-lifecycle',
             table: 'hr-acquisition-capabilities',
+            ElementsList: 'hr-acquisition-data-elements',
             PerformanceMetricsList: 'hr-acquisition-performance-metrics',
             url:  prefixUrl.concat('/business-standards-api/hr/acquisition/'),
             hasSubsection: true

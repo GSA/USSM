@@ -4,1133 +4,1208 @@
     "Sub-section":"Talent Acquisition",
     "Business_Lifecycle":[
         {
-        "type":"hcm-060",
-        "data":[
-           {
-             "Identifier": "HCM.060.010",
-             "Activity": "Recruitment Strategy Development",
-             "Description": "Developing, approving, and evaluating the effectiveness of strategies to identify, attract, and hire qualified individuals in alignment with agency Human Capital Management strategy and subsequent plans (e.g., staffing plans, budget plans, diversity recruitment plans, outreach plans, FEORP, DVAAP, resourcing plans). The service outcome(s) will include, but not limited to:<ul><li>analysis and overview of the talent acquisition needs of the agency, to include overview of current state and analysis of barriers and gaps</li><li>prioritized objectives for the agency's recruiting program</li><li>strategic direction for recruiting</li><li>communication plan for strategic recruiting priorities</li><li>plan to evaluate and monitor progress against the identified plan and goals</li><li>strategies to engage all stakeholders including hiring managers</li><li>Talent Acquisition strategy for recruiting that includes diversity and inclusion strategies and goals</li></ul>"
-           },
-           {
-             "Identifier": "HCM.060.020",
-             "Activity": "Recruitment Plan Development",
-             "Description": "Aligning the recruitment strategy to mission and business needs (at the appropriate organizational levels) to determine viable sources of quality potential applicants and to identify methods for recruiting from these sources. The service outcome(s) will include, but not limited to:<ul><li>plan to facilitate HR and Selecting Official collaboration</li><li>recruitment plan with prioritized objectives outlined in the agency recruitment strategy including recruiting methods, sources/events, resource allocation, and timelines</li></ul>"
-           },
-           {
-             "Identifier": "HCM.060.030",
-             "Activity": "Position Classification",
-             "Description": "Classifying individual positions to an occupational group, series representing a specific occupation within a group, and an appropriate grade/band or prevailing wage, as provided by law.  The service outcome(s) will include, but not limited to:<ul><li>position descriptions that are classified appropriately in accordance with applicable laws, rules, regulations, classification standards, and the agency needs in alignment with sound position management principles</li><li>documentation of all required classification determinations as identified on the OF-8 or other accepted form/format</li></ul>"
-           },
-           {
-             "Identifier": "HCM.060.040",
-             "Activity": "Job Analysis",
-             "Description": "Identifying and documenting the competencies directly related to performance on the job, and demonstrating that there is a clear relationship between the tasks performed on the job and the competencies required to perform the tasks.  The service outcome(s) will include, but not limited to:<ul><li>documentation of the job analysis that includes: tasks performed, essential competencies (e.g., KSAs), competency tasks linkage, other essential job related requirements (e.g., physical and medical requirements),and the conditions of employment  (e.g., drug testing, CDL, etc.)</li></ul>"
-           },
-           {
-             "Identifier": "HCM.060.050",
-             "Activity": "Assessment Tools Development and Evaluation",
-             "Description": "Establishing assessment tools to measure the degree to which an applicant possesses the competencies necessary for successful job performance for a particular position, determining availability of existing selection instruments, or procuring / creating new instruments. Validating whether the selection assessments are predictive of, or significantly correlated with, important elements of job performance and representative of important aspects of performance on the job.  The service outcome(s) will include, but not limited to:<ul><li>approach for evaluating specific candidate criteria based on available objective evidence (job knowledge, integrity, situational judgement)</li><li>selection instruments / tools for evaluating specific candidate criteria</li><li>studies and results validating that selection instruments / tools predict candidate job performance</li><li>methods for combining selection instruments into multiple hurdle selection batteries that optimize prediction of candidate job performance</li><li>study methodology and plans for re-validating selection  instruments / tools with new candidate populations (e.g., new candidate types, new agencies)</li><li>delivery methods for administering selection instruments / tools to candidates</li><li>periodic evaluations of assessment tools for relevance / applicability to positions</li></ul>"
-           },
-           {
-             "Identifier": "HCM.060.060",
-             "Activity": "Talent Acquisition System Administration and Records Management",
-             "Description": "Identifying system protocols and administering the system and records.  The service outcome(s) will include, but not limited to:<ul><li>HC analytics (e.g., dashboards, data analysis, data validation)</li><li>administration protocols / permissions</li><li>user guide(s)</li></ul>"
-           },
-           {
-              "Identifier": "HCM.060.070",
-              "Activity": "Talent Acquisition Data Capture, Transfer and Reporting",
-              "Description": "Providing and managing all aspects of Talent Acquisition program tracking and reporting (e.g., user audit trails such as signature, date/time, or duration; metrics on all aspects of Talent Acquisition programs) in accordance with applicable laws, rules, regulations, policies and guidelines.  The service outcome(s) will include, but not limited to:<ul><li>talent acquisition program / hiring metrics reports</li><li>case file management and audit trails</li></ul>"
-            }
-          ]
-     },
-     {
-           "type":"hcm-070",
-           "data":[
-              {
-                "Identifier": "HCM.070.010",
-                "Activity": "Outreach and Recruitment",
-                "Description": "Performing recruiting and talent sourcing activities to identify and cultivate groups of qualified individuals for employment necessary to meet agency talent needs and support the agency mission.  The service outcome(s) will include, but not limited to:<ul><li>structured processes for identifying groups of qualified individuals for employment (e.g., sourcing, social media, job fairs)</li><li>access to a network of recruiting partners and vendors (e.g. universities, professional associations, and head hunters)</li><li>qualified and diverse applicant pool</li><li>a pipeline of qualified candidates available to fill open positions </li></ul>"
-              },
-              {
-                "Identifier": "HCM.070.020",
-                "Activity": "Job Announcement Management",
-                "Description": "Preparing, posting and updating job announcements on internal / external websites in accordance with all applicable laws, rules, regulations, policies and guidelines. The service outcome(s) will include, but not limited to:<ul><li>job announcement</li></ul>"
-              }
-             ]
-     },
-     {
-           "type":"hcm-080",
-           "data":[
-              {
-                "Identifier": "HCM.080.010",
-                "Activity": "Applicant Eligibility & Basic Qualification Review",
-                "Description": "Reviewing resumes to determine if applicants meet basic qualifications and basic eligibility requirements for positions.  The service outcome(s) will include, but not limited to:<ul><li>list of candidates who meet eligibility and basic qualification requirements for positions including those for special hiring authorities</li></ul>"
-              },
-              {
-                "Identifier": "HCM.080.020",
-                "Activity": "Candidate Assessment",
-                "Description": "Evaluating and ranking candidates based on the job analysis/occupational questionnaire, resume, and interviews and additional assessment tools and types, as required for specific occupations or positions in order to create Certificate of Eligibles or Referral List.   The service outcome(s) will include, but is not limited to:<ul><li>referral certificate containing a list of highly qualified candidates</li></ul>"
-              }
-             ]
-     },
-     {
-           "type":"hcm-090",
-           "data":[
-              {
-                "Identifier": "HCM.090.010",
-                "Activity": "Suitability and Security Clearance Support (HR)",
-                "Description": "HR support for the Suitability and Security Clearance activities necessary to onboard. The service outcome(s) will include, but not limited to:<ul><li>documented validation of classification requirement for position sensitivity necessary to initiate suitability and security clearance process</li><li>notification to agency security office of candidate requiring a suitability investigation and / or national security clearance as designated in the position description</li><li>completed OF-306, fingerprinting, and other required documentation</li><li>notification to employee and hiring manager of the results of request for suitability investigation and / or national security clearance eligibility.</li><li>final status of employment offer</li><li>updated Official Personnel Folder (OPF) and Electronic OPF with appropriate post-adjudication documentation</li></ul>"
-              }
-             ]
-     },
-     {
-           "type":"hcm-100",
-           "data":[
-              {
-                "Identifier": "HCM.100.010",
-                "Activity": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Description": "Reviewing the investigative results received from the Investigation Service Provider and making an adjudicative decision based upon position type, job duties, sensitivity designation, and the applicable adjudicative criteria. Reporting the adjudicative decision within timeframes required  for maintenance in the Central Verification System (CVS), or a successor system, for government-wide access.  The service outcome(s) will include, but not limited to:<ul><li>Determination of completeness and / or sufficiency of the background investigation to allow an adjudicative decision</li><li>Mandatory Quality Assessment reporting when applicable</li><li>Follow-up communication to Investigative Service Provider (ISP) if the background investigation is incomplete or insufficient to allow an adjudicative decision</li><li>Favorable or unfavorable adjudicative decision</li><li>Notification and coordination with the appropriate stakeholder (e.g., HR/Hiring Manager, Security Officer) to take action depending on the adjudicative decision (e.g., complete onboarding, rescind employment offer)</li><li>Required documentation for incorporation of determination into eOPF</li></ul>"
-              }
-             ]
-     },
-     {
-           "type":"hcm-110",
-           "data":[
-              {
-                "Identifier": "HCM.110.010",
-                "Activity": "Employment Offer",
-                "Description": "Documenting the agreement pertaining to the position, compensation, conditions of employment, entry on duty date, and other pertinent conditions of employment. The service outcome(s) will include, but not limited to:<ul><li>completed verification of resume references</li><li>tentative offer</li><li>superior qualification justification</li><li>credible service for annual leave accrual</li><li>recruitment incentive justification</li><li>relocation package</li><li>Permanent Change of Station (PCS) and or other discretionary incentives</li><li>final offer</li></ul>"
-              },
-              {
-                 "Identifier": "HCM.110.020",
-                 "Activity": "New Hire In-processing",
-                 "Description": "Completion of entry on duty forms / documents and / or actions.  The service outcome(s) will include, but not limited to:<ul><li>completed entry on duty documentation (e.g., SF-50, EOPF, SF-61, I-9)</li><li>completed documentation needed by new hire to begin work activities (e.g., Security, Payroll, benefits)</li><li>administrative and logistical support for in-processing of new hires (e.g., Security, IT)</li></ul>"
+            "type":"hcm-A2-1",
+            "data":[
+               {
+                  "Identifier":"HCM.A2-1.010",
+                  "Activity":"Recruitment Strategy Development",
+                  "Description":"Developing, approving, and evaluating the effectiveness of strategies to identify, attract, and hire qualified individuals in alignment with agency Human Capital Management strategy and subsequent plans (e.g., staffing plans, budget plans, diversity recruitment plans, outreach plans, FEORP, DVAAP, resourcing plans). The service outcome(s) will include, but not limited to:<ul><li>analysis and overview of the talent acquisition needs of the agency, to include overview of current state and analysis of barriers and gaps</li><li>prioritized objectives for the agency's recruiting program</li><li>strategic direction for recruiting</li><li>communication plan for strategic recruiting priorities</li><li>plan to evaluate and monitor progress against the identified plan and goals </li><li>strategies to engage all stakeholders including hiring managers </li><li>Talent Acquisition strategy for recruiting that includes diversity and inclusion strategies and goals</li></ul>"
                },
                {
-                 "Identifier": "HCM.110.030",
-                 "Activity": "Onboarding Program Design and Management",
-                 "Description": "Designing, executing, and evaluating an onboarding program. The service outcome(s) will include, but are not limited to:<ul><li>onboarding objectives for new hires</li><li>onboarding materials for new hires and hiring managers (e.g., handbooks, guides, organizational charts, contact lists)</li><li>onboarding schedules and activity guides (e.g., facility tours, benefits enrollment, security and ID process assistance)</li><li>program evaluation with Service Measures</li></ul>"
+                  "Identifier":"HCM.A2-1.020",
+                  "Activity":"Recruitment Plan Development",
+                  "Description":"Aligning the recruitment strategy to mission and business needs (at the appropriate organizational levels) to determine viable sources of quality potential applicants and to identify methods for recruiting from these sources. The service outcome(s) will include, but not limited to:<ul><li>plan to facilitate HR and Selecting Official collaboration</li> <li>recruitment plan with prioritized objectives outlined in the agency recruitment strategy including recruiting methods, sources/events, resource allocation, and timelines</li></ul>"
+               },
+               {
+                  "Identifier":"HCM.A2-1.030",
+                  "Activity":"Position Classification",
+                  "Description":"Classifying individual positions to an occupational group, series representing a specific occupation within a group, and an appropriate grade/band or prevailing wage, as provided by law.  The service outcome(s) will include, but not limited to:<ul><li>position descriptions that are classified appropriately in accordance with applicable laws, rules, regulations, classification standards, and the agency needs in alignment with sound position management principles</li><li>documentation of all required classification determinations as identified on the OF-8 or other accepted form/format</li></ul>"
+               },
+               {
+                  "Identifier":"HCM.A2-1.040",
+                  "Activity":"Job Analysis",
+                  "Description":"Identifying and documenting the competencies directly related to performance on the job, and demonstrating that there is a clear relationship between the tasks performed on the job and the competencies required to perform the tasks.  The service outcome(s) will include, but not limited to:<ul><li>documentation of the job analysis that includes: tasks performed, essential competencies (e.g., KSAs), competency tasks linkage, other essential job related requirements (e.g., physical and medical requirements),and the conditions of employment  (e.g., drug testing, CDL, etc.)</li></ul> "
+               },
+               {
+                  "Identifier":"HCM.A2-1.050",
+                  "Activity":"Assessment Tools Development and Evaluation",
+                  "Description":"Establishing assessment tools to measure the degree to which an applicant possesses the competencies necessary for successful job performance for a particular position, determining availability of existing selection instruments, or procuring / creating new instruments. Validating whether the selection assessments are predictive of, or significantly correlated with, important elements of job performance and representative of important aspects of performance on the job.  The service outcome(s) will include, but not limited to:<ul><li>approach for evaluating specific candidate criteria based on available objective evidence (job knowledge, integrity, situational judgement)</li><li>selection instruments / tools for evaluating specific candidate criteria</li><li>studies and results validating that selection instruments / tools predict candidate job performance</li><li>methods for combining selection instruments into multiple hurdle selection batteries that optimize prediction of candidate job performance</li><li>study methodology and plans for re-validating selection  instruments / tools with new candidate populations (e.g., new candidate types, new agencies)</li><li>delivery methods for administering selection instruments / tools to candidates</li><li>periodic evaluations of assessment tools for relevance / applicability to positions</li></ul>"
+               },
+               {
+                  "Identifier":"HCM.A2-1.060",
+                  "Activity":"Talent Acquisition System Administration and Records Management",
+                  "Description":"Identifying system protocols and administering the system and records.  The service outcome(s) will include, but not limited to:<ul><li>HC analytics (e.g., dashboards, data analysis, data validation)</li><li>administration protocols / permissions</li><li>user guide(s)</li></ul>"
+               },
+               {
+                  "Identifier":"HCM.A2-1.070",
+                  "Activity":"Talent Acquisition Data Capture, Transfer and Reporting",
+                  "Description":"Providing and managing all aspects of Talent Acquisition program tracking and reporting (e.g., user audit trails such as signature, date/time, or duration; metrics on all aspects of Talent Acquisition programs) in accordance with applicable laws, rules, regulations, policies and guidelines.  The service outcome(s) will include, but not limited to:<ul><li>talent acquisition program / hiring metrics reports</li><li>case file management and audit trails</ul></li>"
                }
-           ]
-    }        
+            ]
+        },
+        {
+            "type":"hcm-A2-2",
+            "data":[
+               {
+                  "Identifier":"HCM.A2-2.010",
+                  "Activity":"Outreach and Recruitment",
+                  "Description":"Performing recruiting and talent sourcing activities to identify and cultivate groups of qualified individuals for employment necessary to meet agency talent needs and support the agency mission.  The service outcome(s) will include, but not limited to:<ul><li>structured processes for identifying groups of qualified individuals for employment (e.g., sourcing, social media, job fairs)</li><li>access to a network of recruiting partners and vendors (e.g. universities, professional associations, and head hunters)</li><li>qualified and diverse applicant pool</li><li>a pipeline of qualified candidates available to fill open positions </li></ul>"
+               },
+               {
+                  "Identifier":"HCM.A2-2.020",
+                  "Activity":"Job Announcement Management",
+                  "Description":"Preparing, posting and updating job announcements on internal / external websites in accordance with all applicable laws, rules, regulations, policies and guidelines. The service outcome(s) will include, but not limited to:<ul><li>job announcement</ul></li>"
+               }
+            ]
+        },
+        {
+            "type":"hcm-a2-3",
+            "data":[
+               {
+                  "Identifier":"HCM.A2-3.010",
+                  "Activity":"Applicant Eligibility & Basic Qualification Review",
+                  "Description":"Reviewing applicant packages to determine if applicants meet basic qualifications and basic eligibility requirements for positions.  The service outcome(s) will include, but not limited to:<ul><li>list of candidates who meet eligibility and basic qualification requirements for positions including those for special hiring authorities</ul></li>"
+               },
+               {
+                  "Identifier":"HCM.A2-3.020",
+                  "Activity":"Candidate Assessment",
+                  "Description":"Evaluating and ranking candidates based on the job analysis/occupational questionnaire, resume, and interviews and additional assessment tools and types, as required for specific occupations or positions in order to create Certificate of Eligibles or Referral List.   The service outcome(s) will include, but is not limited to:<ul><li>referral certificate containing a list of highly qualified candidates</li></ul>"
+               }
+            ]
+        },
+        {
+            "type":"hcm-a2-4",
+            "data":[
+               {
+                  "Identifier":"HCM.A2-4.010",
+                  "Activity":"Applicant Screening & Investigation Needs Validation",
+                  "Description":"Compilation and screening of the application and/or vetting related information (e.g., fingerprinting, application materials, polygraph(s)), and determination/validation of need for investigation. The service outcome(s) will include, but not limited to:<ul><li>Evaluation of agency(s) need for an investigation request based on initial Applicant screening, including identifying if an Applicant previously has the appropriate adjudication determination (e.g., suitability/fitness, credentialing, security clearance)</li><li>Notification of initial screening results and eligibility to HR to begin onboarding as appropriate</li></ul> "
+               },
+               {
+                  "Identifier":"HCM.A2-4.020",
+                  "Activity":"Investigation Request & Continuous Vetting (CV) Enrollment",
+                  "Description":"Initiation and release of background investigation and any other required personnel vetting forms and requests for investigation/CV enrollment. The service outcome(s) will include, but not limited to:<ul><li>Submitted investigation request(s)</li><li>Automated capability for collecting adjudicatively-relevant, verifiable information on covered individuals</li><li>Completed candidate personnel vetting forms</li></ul>"
+               }
+            ]
+        },
+        {
+            "type":"hcm-a2-5",
+            "data":[
+               {
+                  "Identifier":"HCM.A2-5.010",
+                  "Activity":"Investigation Results/Continuous Vetting (CV) Alerts Review, Adjudication Decision(s), and Reporting",
+                  "Description":"Reviewing Investigation Service Provider (ISP) investigation results and evaluating CV alerts and making a decision based upon applicable adjudicative criteria (e.g., suitability/fitness, national security, and/or credentialing). Also includes reporting and updating adjudicative decisions to the appropriate centralized records system(s) for government-wide access. The service outcome(s) will include, but not limited to:<ul><li>Determination of completeness and/or sufficiency of the background investigation to allow an adjudicative decision</li><li>Follow-up communication to Investigative Service Provider (ISP) (e.g., Mandatory Quality Assessment Report) if the background investigation is incomplete or insufficient to allow an adjudicative decision</li><li>Favorable or unfavorable adjudicative decision</li><li>Adjudication decision reporting to the appropriate stakeholder(s) (e.g., agency security office, HR/hiring manager, centralized vetting system) to take action depending on the adjudicative decision (e.g., complete onboarding, rescind employment offer)</li><li>Uploaded required documentation into eOPF and/or security file (e.g., Certification of Investigation)</li><li>Notification of issue information to appropriate entities (e.g., agency security office, counterintelligence (CI), insider threat, or law enforcement officials) if the information is a security, CI, or law enforcement concern</li><li>Agency decision to conduct additional checks, beyond minimum required must be in accordance with the relevant policy (based upon agency-specific risk tolerance, position-specific risk, and existing agency controls and capabilities)</li></ul>"
+               }
+            ]
+        },
+        {
+            "type":"hcm-a2-6",
+            "data":[
+               {
+                  "Identifier":"HCM.A2-6.010",
+                  "Activity":"Employment Offer",
+                  "Description":"Documenting the agreement pertaining to the position, compensation, conditions of employment, entry on duty date, and other pertinent conditions of employment. The service outcome(s) will include, but not limited to:<ul><li>completed verification of resume references </li><li>tentative offer</li><li>superior qualification justification</li><li>credible service for annual leave accrual</li><li>recruitment incentive justification</li><li>relocation package</li><li>Permanent Change of Station (PCS) and or other discretionary incentives</li><li>final offer</li></ul>"
+               },
+               {
+                  "Identifier":"HCM.A2-6.020",
+                  "Activity":"New Hire In-processing",
+                  "Description":"Completion of entry on duty forms / documents and / or actions.  The service outcome(s) will include, but not limited to:<ul><li>completed entry on duty documentation (e.g., SF-50, EOPF, SF-61, I-9)</li><li>completed documentation needed by new hire to begin work activities (e.g., Security, Payroll, benefits, relocation package)</li><li>administrative and logistical support for in-processing of new hires (e.g., Security, IT)</li></ul>"
+               },
+               {
+                  "Identifier":"HCM.A2-6.030",
+                  "Activity":"Onboarding Program Design and Management",
+                  "Description":"Designing, executing, and evaluating an onboarding program. The service outcome(s) will include, but are not limited to:<ul><li>onboarding objectives for new hires</li><li>onboarding materials for new hires and hiring managers (e.g., handbooks, guides, organizational charts, contact lists)</li><li>onboarding schedules and activity guides (e.g., facility tours, benefits enrollment, security and ID process assistance)</li><li>program evaluation with performance metrics</li></ul"
+               }
+            ]
+        }
      ],
     "Business_Capabilities":
     [
-            {
-                "Capability ID": "HCM.060.010.010",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Strategy Development",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Perform comprehensive literature review of current and previous agency strategies, plans, and documentation and other relevant external reports."
-            },
-            {
-                "Capability ID": "HCM.060.010.020",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Strategy Development",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Analyze and document the talent acquisition needs of the agency."
-            },
-            {
-                "Capability ID": "HCM.060.010.030",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Strategy Development",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Document the current state, define the future state, and identify any barriers and gaps."
-            },
-            {
-                "Capability ID": "HCM.060.010.040",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Strategy Development",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Define and prioritize agency talent acquisition objectives."
-            },
-            {
-                "Capability ID": "HCM.060.010.050",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Strategy Development",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Identify alternative strategies to mitigate barriers and close gaps."
-            },
-            {
-                "Capability ID": "HCM.060.010.060",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Strategy Development",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Identify and prioritize mission critical positions."
-            },
-            {
-                "Capability ID": "HCM.060.010.070",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Strategy Development",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Identify key performance indicators / relevant measures and methodology for evaluating success."
-            },
-            {
-                "Capability ID": "HCM.060.010.080",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Strategy Development",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Establish tools to evaluate efficiency and efficacy of the recruitment strategy."
-            },
-            {
-                "Capability ID": "HCM.060.020.010",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Plan Development",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure the recruitment plan promotes fair and open competition without regard to political affiliation, race, color, religion, national origin, gender, sexual orientation, marital status, age, handicapping condition, or other nonmerit grounds in accordance with applicable laws, rules, regulations, policies and guidelines."
-            },
-            {
-                "Capability ID": "HCM.060.020.020",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Plan Development",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Identify sources that enable the agency to recruit qualified individuals to achieve a diverse and high quality workforce."
-            },
-            {
-                "Capability ID": "HCM.060.020.030",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Plan Development",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Establish a recruitment plan and sourcing activities that align with the recruitment strategy to attract and hire the best qualified candidates."
-            },
-            {
-                "Capability ID": "HCM.060.020.040",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Plan Development",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Establish a recruitment plan aligned with the recruitment strategy to attract and hire the best qualified candidates."
-            },
-            {
-                "Capability ID": "HCM.060.020.050",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Plan Development",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Offer options regarding recruitment methodology which address identified gaps in recruitment strategy."
-            },
-            {
-                "Capability ID": "HCM.060.020.060",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Plan Development",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Develop a project plan to implement recruitment activities."
-            },
-            {
-                "Capability ID": "HCM.060.020.070",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Plan Development",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Develop assessment methods  to measure recruitment activities' effectiveness in accomplishing Talent Acquisition strategic goals and objectives."
-            },
-            {
-                "Capability ID": "HCM.060.020.080",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Plan Development",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Identify employer marketing and branding strategies and products."
-            },
-            {
-                "Capability ID": "HCM.060.020.090",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Plan Development",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure recruitment plans identify opportunities for HR and Selecting Officials to collaborate."
-            },
-            {
-                "Capability ID": "HCM.060.020.100",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Recruitment Plan Development",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Review recruitment plan against Collective Bargaining Agreements (CBAs), Service Level Agreements (SLA), and other agency policies and plans, as appropriate."
-            },
-            {
-                "Capability ID": "HCM.060.030.010",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Position Classification",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Provide a comprehensive evaluation statement that includes the rationale for making the classification determination, citing appropriate classification standards."
-            },
-            {
-                "Capability ID": "HCM.060.030.020",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Position Classification",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Identify and record any applicable job or position information required by OPM, agency procedures, or systems of record to document the classification. "
-            },
-            {
-                "Capability ID": "HCM.060.030.030",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Position Classification",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide consultation to HR practitioners and selecting officials on classification matters."
-            },
-            {
-                "Capability ID": "HCM.060.030.040",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Position Classification",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Document classification, position determinations on the OF-8 or other acceptable form / format."
-            },
-            {
-                "Capability ID": "HCM.060.030.050",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Position Classification",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Final position classification must be approved by Agency HR Official. "
-            },
-            {
-                "Capability ID": "HCM.060.040.010",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Job Analysis",
-                "Input/Output/Process": "P/O",
-                "Business Capability Statement": "Conduct a job analysis that adheres to the Uniform Guidelines on Employee Selection Procedures, OPM regulations (e.g., 5 CFR § 300.103) and published guidance, and agency policies and procedures to identify the basic duties and responsibilities, KSAs required to perform the duties and responsibilities, and the factors that are important in evaluating candidates, based off of occupational literature and consultation between HC Practitioners, Selecting Officials, and/or subject matter experts (SMEs)."
-            },
-            {
-                "Capability ID": "HCM.060.040.020",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Job Analysis",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Document relevant weights of identified competencies and include competency source, (e.g., Subject Matter Expert, Bureau of Labor Statistics, Selecting Official)."
-            },
-            {
-                "Capability ID": "HCM.060.040.030",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Job Analysis",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Identify qualification to include specialized experience requirements."
-            },
-            {
-                "Capability ID": "HCM.060.040.040",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Job Analysis",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Develop crediting plan and weights for assessment items."
-            },
-            {
-                "Capability ID": "HCM.060.040.050",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Job Analysis",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Identify the appropriate assessment tool for evaluating candidates for the analyzed position in accordance with applicable laws, rules, regulations, policies and guidelines (e.g., Uniform Guidelines)."
-            },
-            {
-                "Capability ID": "HCM.060.040.060",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Job Analysis",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Document the results of the Job Analysis."
-            },
-            {
-                "Capability ID": "HCM.060.050.010",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Assessment Tools Development and Evaluation",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Provide validity and reliability evidence for all assessment tools (e.g., cognitive ability, situational judgement tests, structured interviews) in accordance with the definitions described in the Uniformed Guidelines for Employee Selection Procedures."
-            },
-            {
-                "Capability ID": "HCM.060.050.020",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Assessment Tools Development and Evaluation",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Adjust or re-validate assessment tools to meet government-wide and / or agency-specific positions based on the requirements outlined in the applicable job analysis."
-            },
-            {
-                "Capability ID": "HCM.060.050.030",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Assessment Tools Development and Evaluation",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Develop assessments according to criteria identified by the agency."
-            },
-            {
-                "Capability ID": "HCM.060.050.040",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Assessment Tools Development and Evaluation",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Apply government-wide or agency-specific qualification standards and other requirements into assessment tools"
-            },
-            {
-                "Capability ID": "HCM.060.050.050",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Assessment Tools Development and Evaluation",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Implement a crediting plan that includes weighted scoring in assessment tools."
-            },
-            {
-                "Capability ID": "HCM.060.050.060",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Assessment Tools Development and Evaluation",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Provide training, guidance, and standard operating procedures for the use of assessment tools, including the application of weights in scoring assessment results."
-            },
-            {
-                "Capability ID": "HCM.060.050.070",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Assessment Tools Development and Evaluation",
-                "Input/Output/Process": "P/O",
-                "Business Capability Statement": "Develop a methodology and produce documentation for the development of assessment tools, including validation and / or re-validation in accordance with the Uniform Guidelines for Employee Selection Procedures, 5 CFR 300.103 - Basic requirements, and OPM published guidance."
-            },
-            {
-                "Capability ID": "HCM.060.060.010",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition System Administration and Records Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Make Talent Acquisition records available only to appropriate parties, including those responsible for third party reviews, in accordance with applicable laws, rules, regulations, policies and guidelines."
-            },
-            {
-                "Capability ID": "HCM.060.060.020",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition System Administration and Records Management",
-                "Input/Output/Process": "I/P",
-                "Business Capability Statement": "Receive, maintain, and secure application documentation ( e.g.,DD214, RIF notice, CTAP/ICTAP letter, and/or Notification of Personnel Action from previous federal employment within the case)."
-            },
-            {
-                "Capability ID": "HCM.060.060.030",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition System Administration and Records Management",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Generate standard and ad hoc reports."
-            },
-            {
-                "Capability ID": "HCM.060.060.040",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition System Administration and Records Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Enable a selecting official to input, modify, and store interview information onto certificate for Talent Acquisition record."
-            },
-            {
-                "Capability ID": "HCM.060.060.050",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition System Administration and Records Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Manage and maintain the Talent Acquisition record in compliance applicable laws, rules, regulations, policies and guidelines."
-            },
-            {
-                "Capability ID": "HCM.060.060.060",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition System Administration and Records Management",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Provide user guide(s) for the management and maintenance of the system."
-            },
-            {
-                "Capability ID": "HCM.060.060.070",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition System Administration and Records Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide capability for third parties to audit case files from inception to closeout."
-            },
-            {
-                "Capability ID": "HCM.060.060.080",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition System Administration and Records Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the capability to communicate with applicants and candidates."
-            },
-            {
-                "Capability ID": "HCM.060.060.090",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition System Administration and Records Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure employee data remains private. "
-            },
-            {
-                "Capability ID": "HCM.060.060.100",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition System Administration and Records Management",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Ensure interoperable exchange of TA records between all required HRIT and non-HRIT systems. "
-            },
-            {
-                "Capability ID": "HCM.060.060.110",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition System Administration and Records Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure Talent Acquisition records are properly maintained in accordance with NARA's General Records Schedule."
-            },
-            {
-                "Capability ID": "HCM.060.070.010",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Make Talent Acquisition records available only to appropriate parties, including those responsible for third party reviews, in accordance with applicable laws, rules, regulations, policies and guidelines."
-            },
-            {
-                "Capability ID": "HCM.060.070.020",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "I/P",
-                "Business Capability Statement": "Receive, maintain, and secure application documentation ( e.g.,DD214, RIF notice, CTAP/ICTAP letter, and/or Notification of Personnel Action from previous federal employment within the case)."
-            },
-            {
-                "Capability ID": "HCM.060.070.030",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Generate standard and ad hoc reports."
-            },
-            {
-                "Capability ID": "HCM.060.070.040",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure employee data remains private. "
-            },
-            {
-                "Capability ID": "HCM.060.070.050",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure interoperable exchange of TA records between all required HRIT and non-HRIT systems. "
-            },
-            {
-                "Capability ID": "HCM.060.070.060",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Establish an electronic Talent Acquisition record for each new open position and each applicant."
-            },
-            {
-                "Capability ID": "HCM.060.070.070",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Collect and report on race and national origin, gender/disability, and other demographic information about the applicant pool."
-            },
-            {
-                "Capability ID": "HCM.060.070.080",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Track and report the hiring process status of any applicant and job announcement."
-            },
-            {
-                "Capability ID": "HCM.060.070.090",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Audit the certificate to determine if the selection meets regulatory requirements and document the audited certificates accordingly (e.g., audit trail)."
-            },
-            {
-                "Capability ID": "HCM.060.070.100",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Search and analyze all types of Talent Acquisition data (including meta data)."
-            },
-            {
-                "Capability ID": "HCM.060.070.110",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Establish the process to implement and track user audit trails (e.g., name, create time and date, and updates to time and date). "
-            },
-            {
-                "Capability ID": "HCM.060.070.120",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Audit vacancy cases file as appropriate in accordance with the Delegated Examining Operations Handbook and 5 CFR 335."
-            },
-            {
-                "Capability ID": "HCM.060.070.130",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Create and manage vacancy cases files. "
-            },
-            {
-                "Capability ID": "HCM.060.070.140",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Allow for applicants who are unable to apply online to complete an alternative application which can be imported to applicant tracking system and managed consistent with established protocols. "
-            },
-            {
-                "Capability ID": "HCM.060.070.150",
-                "Function": "Talent Acquisition Management",
-                "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure Talent Acquisition records are properly maintained in accordance with NARA's General Records Schedule."
-            },
-            {
-                "Capability ID": "HCM.070.010.010",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Outreach and Recruitment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Support the evaluation of recruitment activities including metrics.  "
-            },
-            {
-                "Capability ID": "HCM.070.010.020",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Outreach and Recruitment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Establish multiple means to improve recruitment outreach through the development of a marketing plan and materials."
-            },
-            {
-                "Capability ID": "HCM.070.010.030",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Outreach and Recruitment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Partner with external vendors (e.g. universities, professional associations, and head hunters) and participate in outreach activities.  "
-            },
-            {
-                "Capability ID": "HCM.070.010.040",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Outreach and Recruitment",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Identify sources of applicants who qualify for consideration for a position under special appointing authorities. "
-            },
-            {
-                "Capability ID": "HCM.070.010.050",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Outreach and Recruitment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Promote the development of a diverse recruitment pool that reflects the general population."
-            },
-            {
-                "Capability ID": "HCM.070.010.060",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Outreach and Recruitment",
-                "Input/Output/Process": "P/O",
-                "Business Capability Statement": "Notify the public of recruiting events."
-            },
-            {
-                "Capability ID": "HCM.070.010.070",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Outreach and Recruitment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Plan and execute recruiting events that promote fair and open competition."
-            },
-            {
-                "Capability ID": "HCM.070.010.080",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Outreach and Recruitment",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Create and/or execute employer branding / marketing campaign."
-            },
-            {
-                "Capability ID": "HCM.070.020.010",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Job Announcement Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the capability to communicate with applicants and candidates."
-            },
-            {
-                "Capability ID": "HCM.070.020.020",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Job Announcement Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Validate that job announcements accurately reflect the job specifications identified in position description, job analysis, and qualification standards. "
-            },
-            {
-                "Capability ID": "HCM.070.020.030",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Job Announcement Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure job announcement data fields align with OPM Guide to Data Standards and the USAJOBS Staffing Integration Framework.  "
-            },
-            {
-                "Capability ID": "HCM.070.020.040",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Job Announcement Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure Job Announcement content complies with all applicable laws, rules, regulations, policies and guidelines. "
-            },
-            {
-                "Capability ID": "HCM.070.020.050",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Job Announcement Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to build, modify, approve, and post all current and future types of job announcements available through USAJOBs"
-            },
-            {
-                "Capability ID": "HCM.070.020.060",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Job Announcement Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Clear Reemployment Priority List, Priority Placement Program (PPP), Career Transition Assistance Program, 10-point Veteran file, and other priority candidates in accordance with applicable laws, rules, regulations, policies and guidelines."
-            },
-            {
-                "Capability ID": "HCM.070.020.070",
-                "Function": "Candidate Sourcing and Recruitment",
-                "Activity Name": "Job Announcement Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Support multiple methods for documentation and application submission in accordance with applicable laws, rules, regulations, policies and guidelines."
-            },
-            {
-                "Capability ID": "HCM.080.010.010",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Applicant Eligibility & Basic Qualification Review",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the capability to communicate with applicants and candidates."
-            },
-            {
-                "Capability ID": "HCM.080.010.020",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Applicant Eligibility & Basic Qualification Review",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Enforce the prohibition of hiring relatives in accordance with 5 USC 3110."
-            },
-            {
-                "Capability ID": "HCM.080.010.030",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Applicant Eligibility & Basic Qualification Review",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Adhere to the Merit System Principles in 5 USC 2301. "
-            },
-            {
-                "Capability ID": "HCM.080.010.040",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Applicant Eligibility & Basic Qualification Review",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Determine eligibility for Competitive Service appointments consistent with all applicable laws, rules, regulations, policies and guidelines, and agency policy.  "
-            },
-            {
-                "Capability ID": "HCM.080.010.050",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Applicant Eligibility & Basic Qualification Review",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Determine eligibility for Senior Executive Service appointments consistent with all applicable laws, rules, regulations, policies and guidelines, and agency policy. "
-            },
-            {
-                "Capability ID": "HCM.080.010.060",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Applicant Eligibility & Basic Qualification Review",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Determine eligibility for Excepted Service appointments consistent with all applicable laws, rules, regulations, policies and guidelines, and agency policy. "
-            },
-            {
-                "Capability ID": "HCM.080.010.070",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Applicant Eligibility & Basic Qualification Review",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Apply federal rules on veteran's preference in accordance with 5 CFR 211, 5 CFR 303, 5 CFR 307, OPM Veterans Guide for HR Professionals, and 5 USC 2108."
-            },
-            {
-                "Capability ID": "HCM.080.010.080",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Applicant Eligibility & Basic Qualification Review",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Refer candidates who meet eligibility requirements into multiple referral lists based on hiring authorities and eligibilities."
-            },
-            {
-                "Capability ID": "HCM.080.010.090",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Applicant Eligibility & Basic Qualification Review",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Allow noncompetitive eligibles to be referred either unranked or ranked in accordance with agency policy and procedures at any time during the recruitment, evaluation, and selection process."
-            },
-            {
-                "Capability ID": "HCM.080.010.100",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Applicant Eligibility & Basic Qualification Review",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Apply OPM or agency-specific qualification standards for competitive and excepted positions."
-            },
-            {
-                "Capability ID": "HCM.080.010.110",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Applicant Eligibility & Basic Qualification Review",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Apply Standard Operating Procedures (SOPs) for reviewing resumes and determining applicant eligibility. "
-            },
-            {
-                "Capability ID": "HCM.080.020.010",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Candidate Assessment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the capability to communicate with applicants and candidates."
-            },
-            {
-                "Capability ID": "HCM.080.020.020",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Candidate Assessment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Adhere to the Merit System Principles in 5 USC 2301. "
-            },
-            {
-                "Capability ID": "HCM.080.020.030",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Candidate Assessment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Screen candidate's eligibility and qualifications through assessment questionnaire.  "
-            },
-            {
-                "Capability ID": "HCM.080.020.040",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Candidate Assessment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Support the uniform application of medical qualification standards in accordance with 5 CFR 339.  "
-            },
-            {
-                "Capability ID": "HCM.080.020.050",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Candidate Assessment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Apply agency's candidate assessment tools in accordance with applicable laws, rules, regulations, policies and guidelines.  "
-            },
-            {
-                "Capability ID": "HCM.080.020.060",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Candidate Assessment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Place candidates in the appropriate pre-defined categories after determining that a referral candidate meets minimum qualifications for competitive positions and / or agency merit promotion plans."
-            },
-            {
-                "Capability ID": "HCM.080.020.070",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Candidate Assessment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Allow results of applicant assessments to be adjusted based on information included in the application."
-            },
-            {
-                "Capability ID": "HCM.080.020.080",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Candidate Assessment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Review resumes and assess candidates in accordance with applicable laws, rules, regulations, policies and guidelines, and agency policy."
-            },
-            {
-                "Capability ID": "HCM.080.020.090",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Candidate Assessment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Audit the certificate of eligibles in accordance with the Delegated Examining Operations Handbook (DEOH).  "
-            },
-            {
-                "Capability ID": "HCM.080.020.100",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Candidate Assessment",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Establish a written procedure for processing applicant requests for reconsideration of a rating. "
-            },
-            {
-                "Capability ID": "HCM.080.020.110",
-                "Function": "Candidate Assessment and Selection",
-                "Activity Name": "Candidate Assessment",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Manage applicant requests for reconsideration of a rating. "
-            },
-            {
-                "Capability ID": "HCM.090.010.010",
-                "Function": "Applicant Screening, Reciprocity, and Investigation Request",
-                "Activity Name": "Suitability and Security Clearance Support (HR)",
-                "Input/Output/Process": "P/O",
-                "Business Capability Statement": "If unfavorable determination, coordinate with the selecting official, General Counsel, Labor Relations and Employee Relations to adjust or rescind offer in accordance with applicable laws, rules, regulations, policies and guidelines, and agency policy."
-            },
-            {
-                "Capability ID": "HCM.090.010.020",
-                "Function": "Applicant Screening, Reciprocity, and Investigation Request",
-                "Activity Name": "Suitability and Security Clearance Support (HR)",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Validate classification requirement for position sensitivity."
-            },
-            {
-                "Capability ID": "HCM.090.010.030",
-                "Function": "Applicant Screening, Reciprocity, and Investigation Request",
-                "Activity Name": "Suitability and Security Clearance Support (HR)",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Support the completion of SF-306."
-            },
-            {
-                "Capability ID": "HCM.090.010.040",
-                "Function": "Applicant Screening, Reciprocity, and Investigation Request",
-                "Activity Name": "Suitability and Security Clearance Support (HR)",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Support the completion of eQIP."
-            },
-            {
-                "Capability ID": "HCM.090.010.050",
-                "Function": "Applicant Screening, Reciprocity, and Investigation Request",
-                "Activity Name": "Suitability and Security Clearance Support (HR)",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Support the scheduling and completion of fingerprinting."
-            },
-            {
-                "Capability ID": "HCM.090.010.060",
-                "Function": "Applicant Screening, Reciprocity, and Investigation Request",
-                "Activity Name": "Suitability and Security Clearance Support (HR)",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Support ongoing communication and coordination between selectee and agency security officer. "
-            },
-            {
-                "Capability ID": "HCM.090.010.070",
-                "Function": "Applicant Screening, Reciprocity, and Investigation Request",
-                "Activity Name": "Suitability and Security Clearance Support (HR)",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Notification to hiring manager of results, options for hiring and documentation of hiring decision."
-            },
-            {
-                "Capability ID": "HCM.090.010.080",
-                "Function": "Applicant Screening, Reciprocity, and Investigation Request",
-                "Activity Name": "Suitability and Security Clearance Support (HR)",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Collaborate with Human Resources, Agency Security Office, and Legal Office regarding unfavorable determinations and debarments."
-            },
-            {
-                "Capability ID": "HCM.090.010.090",
-                "Function": "Applicant Screening, Reciprocity, and Investigation Request",
-                "Activity Name": "Suitability and Security Clearance Support (HR)",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "File Certificate of Investigation or other proof of acceptance under reciprocity in the Official Personnel Folder (OPF) and Electronic OPF."
-            },
-            {
-                "Capability ID": "HCM.090.010.100",
-                "Function": "Applicant Screening, Reciprocity, and Investigation Request",
-                "Activity Name": "Suitability and Security Clearance Support (HR)",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure Talent Acquisition records are properly maintained in accordance with NARA's General Records Schedule."
-            },
-            {
-                "Capability ID": "HCM.100.010.010",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to receive the background investigation results."
-            },
-            {
-                "Capability ID": "HCM.100.010.020",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to evaluate the subject's eligibility for a personal identity credential based on the results of the background investigation and application of the credentialing standards / guidelines. "
-            },
-            {
-                "Capability ID": "HCM.100.010.030",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to determine whether the subject requires a fitness or suitability determination based on the type of position."
-            },
-            {
-                "Capability ID": "HCM.100.010.040",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to evaluate the subject for fitness or suitability requirements based on the results of the background investigation and application of the applicable fitness or suitability standards / guidelines. "
-            },
-            {
-                "Capability ID": "HCM.100.010.050",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to evaluate the subject's eligibility to hold a sensitive position and / or have access to classified information based on the results of the background investigation and application of the national security adjudication standards / guidelines. "
-            },
-            {
-                "Capability ID": "HCM.100.010.060",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to perform quality assessment review on closed cases."
-            },
-            {
-                "Capability ID": "HCM.100.010.070",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to refer appropriate background investigations to OPM for suitability adjudication and action in accordance with 5 CFR 731 and OPM Supplemental Guidance."
-            },
-            {
-                "Capability ID": "HCM.100.010.080",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to determine if the applicable adjudicative determination(s) is favorable or unfavorable based on evaluation of information in the background investigation."
-            },
-            {
-                "Capability ID": "HCM.100.010.090",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to grant the subject's access to classified information with or without exceptions."
-            },
-            {
-                "Capability ID": "HCM.100.010.100",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to conduct inquiries as needed to address known issues in order to make an adjudication decision."
-            },
-            {
-                "Capability ID": "HCM.100.010.110",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to provide notice of a proposed action, denial, or revocation, to include the opportunity to respond and / or request materials relied upon as applicable."
-            },
-            {
-                "Capability ID": "HCM.100.010.120",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to prepare and release the materials relied upon."
-            },
-            {
-                "Capability ID": "HCM.100.010.130",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to determine if a response to a notice is sufficient to mitigate or resolve the issue."
-            },
-            {
-                "Capability ID": "HCM.100.010.140",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to issue a notice of final determination to a subject to include notification of appeals procedures, as applicable."
-            },
-            {
-                "Capability ID": "HCM.100.010.150",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to notify the appropriate agency contact or office of the final favorable or unfavorable decision."
-            },
-            {
-                "Capability ID": "HCM.100.010.160",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to report adjudicative and clearance determinations as required by Executive Order 13467, as amended, and in accordance with CVS or successor system owner reporting requirements."
-            },
-            {
-                "Capability ID": "HCM.100.010.170",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to integrate documentation  (e.g. Certificate of Investigation, Standard Form 50) submitted for inclusion in the employee's electronic official personnel folder (eOPF)."
-            },
-            {
-                "Capability ID": "HCM.100.010.180",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Provide the ability to integrate case data with the Office of Personnel Management's (OPM) Enterprise Human Resources Integration (EHRI) Data Warehouse, as required."
-            },
-            {
-                "Capability ID": "HCM.100.010.190",
-                "Function": "Vetting Adjudication",
-                "Activity Name": "Investigation Results Review,  Adjudication Decision(s), and Reporting",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure Talent Acquisition records are properly maintained in accordance with NARA's General Records Schedule."
-            },
-            {
-                "Capability ID": "HCM.110.010.010",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "Employment Offer",
-                "Input/Output/Process": "P/O",
-                "Business Capability Statement": "Extend a job offer to a selectee in accordance with statutes, regulations, policies, union contracts, and any other agreements or guidelines."
-            },
-            {
-                "Capability ID": "HCM.110.010.020",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "Employment Offer",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Facilitate the terms of the employment offer (e.g., salary, benefits, use of recruitment incentives). "
-            },
-            {
-                "Capability ID": "HCM.110.010.030",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "Employment Offer",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Initiate post tentative offer actions required by the position (e.g., drug testing, medical evaluation)."
-            },
-            {
-                "Capability ID": "HCM.110.010.040",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "Employment Offer",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "If unfavorable determination, coordinate with the selecting official, General Counsel, Labor Relations and Employee Relations to adjust or rescind offer in accordance with applicable laws, rules, regulations, policies and guidelines, and agency policy."
-            },
-            {
-                "Capability ID": "HCM.110.010.050",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "Employment Offer",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure Talent Acquisition records are properly maintained in accordance with NARA's General Records Schedule."
-            },
-            {
-                "Capability ID": "HCM.110.020.010",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "New Hire In-processing",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Process Personnel Action in accordance with the Office of Personnel Management Guide to Processing Personnel Actions. "
-            },
-            {
-                "Capability ID": "HCM.110.020.020",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "New Hire In-processing",
-                "Input/Output/Process": "I/P",
-                "Business Capability Statement": "Collect and verify all selection materials and include in case file (e.g., official transcripts, SF-50, medical evaluation, relocation, etc.)."
-            },
-            {
-                "Capability ID": "HCM.110.020.030",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "New Hire In-processing",
-                "Input/Output/Process": "I",
-                "Business Capability Statement": "Include temporary / permanent records in the Official Personnel Folder in accordance with the Guide to Personnel Record Keeping."
-            },
-            {
-                "Capability ID": "HCM.110.020.040",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "New Hire In-processing",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Create and maintain Entry on Duty listing."
-            },
-            {
-                "Capability ID": "HCM.110.020.050",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "New Hire In-processing",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Initiate new-hire paperwork, site, safety and administrative requirements, security access, and identification requests (e.g., badging, I-9 Verification, etc.)."
-            },
-            {
-                "Capability ID": "HCM.110.020.060",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "New Hire In-processing",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Audit the certificate to determine if the selection meets regulatory requirements. Document on the OA Certificate Audit Form."
-            },
-            {
-                "Capability ID": "HCM.110.020.070",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "New Hire In-processing",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Ensure Talent Acquisition records are properly maintained in accordance with NARA's General Records Schedule."
-            },
-            {
-                "Capability ID": "HCM.110.030.010",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "Onboarding Program Design and Management",
-                "Input/Output/Process": "P",
-                "Business Capability Statement": "Design and implement onboarding program evaluations (e.g., onboarding satisfaction surveys, evaluation for program outcomes, etc.)."
-            },
-            {
-                "Capability ID": "HCM.110.030.020",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "Onboarding Program Design and Management",
-                "Input/Output/Process": "O/P",
-                "Business Capability Statement": "Provide, maintain, and update onboarding guide(s), checklist(s), or SOPs."
-            },
-            {
-                "Capability ID": "HCM.110.030.030",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "Onboarding Program Design and Management",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Provide pre-onboarding training and other defined tasks (e.g., connect sponsor with employee, provide agency welcome packet)."
-            },
-            {
-                "Capability ID": "HCM.110.030.040",
-                "Function": "New Hire In-Processing and Onboarding ",
-                "Activity Name": "Onboarding Program Design and Management",
-                "Input/Output/Process": "O",
-                "Business Capability Statement": "Create and document agency onboarding objectives."
-            }
+        {
+            "Capability ID": "HCM.A2-1.010.010",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Strategy Development",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Perform comprehensive literature review of current and previous agency strategies, plans, and documentation and other relevant external reports."
+          },
+          {
+            "Capability ID": "HCM.A2-1.010.020",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Strategy Development",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Analyze and document the talent acquisition needs of the agency."
+          },
+          {
+            "Capability ID": "HCM.A2-1.010.030",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Strategy Development",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Document the current state, define the future state, and identify any barriers and gaps."
+          },
+          {
+            "Capability ID": "HCM.A2-1.010.040",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Strategy Development",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Define and prioritize agency talent acquisition objectives."
+          },
+          {
+            "Capability ID": "HCM.A2-1.010.050",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Strategy Development",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Identify alternative strategies to mitigate barriers and close gaps."
+          },
+          {
+            "Capability ID": "HCM.A2-1.010.060",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Strategy Development",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Identify and prioritize mission critical positions."
+          },
+          {
+            "Capability ID": "HCM.A2-1.010.070",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Strategy Development",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Identify key performance indicators / relevant measures and methodology for evaluating success."
+          },
+          {
+            "Capability ID": "HCM.A2-1.010.080",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Strategy Development",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Establish tools to evaluate efficiency and efficacy of the recruitment strategy."
+          },
+          {
+            "Capability ID": "HCM.A2-1.010.090",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Strategy Development",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-1.020.010",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Plan Development",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Ensure the recruitment plan promotes fair and open competition without regard to political affiliation, race, color, religion, national origin, gender, sexual orientation, marital status, age, handicapping condition, or other nonmerit grounds in accordance with applicable laws, rules, regulations, policies and guidelines."
+          },
+          {
+            "Capability ID": "HCM.A2-1.020.020",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Plan Development",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Identify sources that enable the agency to recruit qualified individuals to achieve a diverse and high quality workforce."
+          },
+          {
+            "Capability ID": "HCM.A2-1.020.030",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Plan Development",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Establish a recruitment plan and sourcing activities that align with the recruitment strategy to attract and hire the best qualified candidates."
+          },
+          {
+            "Capability ID": "HCM.A2-1.020.040",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Plan Development",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Establish a recruitment plan aligned with the recruitment strategy to attract and hire the best qualified candidates."
+          },
+          {
+            "Capability ID": "HCM.A2-1.020.050",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Plan Development",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Offer options regarding recruitment methodology which address identified gaps in recruitment strategy."
+          },
+          {
+            "Capability ID": "HCM.A2-1.020.060",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Plan Development",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Develop a project plan to implement recruitment activities."
+          },
+          {
+            "Capability ID": "HCM.A2-1.020.070",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Plan Development",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop assessment methods  to measure recruitment activities' effectiveness in accomplishing Talent Acquisition strategic goals and objectives."
+          },
+          {
+            "Capability ID": "HCM.A2-1.020.080",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Plan Development",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Identify employer marketing and branding strategies and products."
+          },
+          {
+            "Capability ID": "HCM.A2-1.020.090",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Plan Development",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Ensure recruitment plans identify opportunities for HR and Selecting Officials to collaborate."
+          },
+          {
+            "Capability ID": "HCM.A2-1.020.100",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Plan Development",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Review recruitment plan against Collective Bargaining Agreements (CBAs), Service Level Agreements (SLA), and other agency policies and plans, as appropriate."
+          },
+          {
+            "Capability ID": "HCM.A2-1.020.110",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Recruitment Plan Development",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-1.030.010",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Position Classification",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide a comprehensive evaluation statement that includes the rationale for making the classification determination, citing appropriate classification standards."
+          },
+          {
+            "Capability ID": "HCM.A2-1.030.020",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Position Classification",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Identify and record any applicable job or position information required by OPM, agency procedures, or systems of record to document the classification. "
+          },
+          {
+            "Capability ID": "HCM.A2-1.030.030",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Position Classification",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide consultation to HR practitioners and selecting officials on classification matters."
+          },
+          {
+            "Capability ID": "HCM.A2-1.030.040",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Position Classification",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Document classification, position determinations on the OF-8 or other acceptable form / format."
+          },
+          {
+            "Capability ID": "HCM.A2-1.030.050",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Position Classification",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Final position classification must be approved by Agency HR Official. "
+          },
+          {
+            "Capability ID": "HCM.A2-1.030.060",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Position Classification",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-1.040.010",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Job Analysis",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Conduct a job analysis that adheres to the Uniform Guidelines on Employee Selection Procedures, OPM regulations (e.g., 5 CFR § 300.103) and published guidance, and agency policies and procedures to identify the basic duties and responsibilities, KSAs required to perform the duties and responsibilities, and the factors that are important in evaluating candidates, based off of occupational literature and consultation between HC Practitioners, Selecting Officials, and/or subject matter experts (SMEs)."
+          },
+          {
+            "Capability ID": "HCM.A2-1.040.020",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Job Analysis",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Document relevant weights of identified competencies and include competency source, (e.g., Subject Matter Expert, Bureau of Labor Statistics, Selecting Official)."
+          },
+          {
+            "Capability ID": "HCM.A2-1.040.030",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Job Analysis",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Identify qualification to include specialized experience requirements."
+          },
+          {
+            "Capability ID": "HCM.A2-1.040.040",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Job Analysis",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Develop crediting plan and weights for assessment items."
+          },
+          {
+            "Capability ID": "HCM.A2-1.040.050",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Job Analysis",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Identify the appropriate assessment tool for evaluating candidates for the analyzed position in accordance with applicable laws, rules, regulations, policies and guidelines (e.g., Uniform Guidelines)."
+          },
+          {
+            "Capability ID": "HCM.A2-1.040.060",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Job Analysis",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Document the results of the Job Analysis."
+          },
+          {
+            "Capability ID": "HCM.A2-1.040.070",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Job Analysis",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-1.050.010",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Assessment Tools Development and Evaluation",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Provide validity and reliability evidence for all assessment tools (e.g., cognitive ability, situational judgement tests, structured interviews) in accordance with the definitions described in the Uniformed Guidelines for Employee Selection Procedures."
+          },
+          {
+            "Capability ID": "HCM.A2-1.050.020",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Assessment Tools Development and Evaluation",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Adjust or re-validate assessment tools to meet government-wide and / or agency-specific positions based on the requirements outlined in the applicable job analysis."
+          },
+          {
+            "Capability ID": "HCM.A2-1.050.030",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Assessment Tools Development and Evaluation",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Develop assessments according to criteria identified by the agency."
+          },
+          {
+            "Capability ID": "HCM.A2-1.050.040",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Assessment Tools Development and Evaluation",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Apply government-wide or agency-specific qualification standards and other requirements into assessment tools"
+          },
+          {
+            "Capability ID": "HCM.A2-1.050.050",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Assessment Tools Development and Evaluation",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Implement a crediting plan that includes weighted scoring in assessment tools."
+          },
+          {
+            "Capability ID": "HCM.A2-1.050.060",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Assessment Tools Development and Evaluation",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide training, guidance, and standard operating procedures for the use of assessment tools, including the application of weights in scoring assessment results."
+          },
+          {
+            "Capability ID": "HCM.A2-1.050.070",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Assessment Tools Development and Evaluation",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Develop a methodology and produce documentation for the development of assessment tools, including validation and / or re-validation in accordance with the Uniform Guidelines for Employee Selection Procedures, 5 CFR 300.103 - Basic requirements, and OPM published guidance."
+          },
+          {
+            "Capability ID": "HCM.A2-1.050.080",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Assessment Tools Development and Evaluation",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-1.060.010",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition System Administration and Records Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Make Talent Acquisition records available only to appropriate parties, including those responsible for third party reviews, in accordance with applicable laws, rules, regulations, policies and guidelines."
+          },
+          {
+            "Capability ID": "HCM.A2-1.060.020",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition System Administration and Records Management",
+            "Input/Output/Process": "I/P",
+            "Business Capability Statement": "Receive, maintain, and secure application documentation ( e.g.,DD214, RIF notice, CTAP/ICTAP letter, and/or Notification of Personnel Action from previous federal employment within the case)."
+          },
+          {
+            "Capability ID": "HCM.A2-1.060.030",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition System Administration and Records Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Generate standard and ad hoc reports."
+          },
+          {
+            "Capability ID": "HCM.A2-1.060.040",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition System Administration and Records Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Enable a selecting official to input, modify, and store interview information onto certificate for Talent Acquisition record."
+          },
+          {
+            "Capability ID": "HCM.A2-1.060.050",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition System Administration and Records Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Manage and maintain the Talent Acquisition record in compliance applicable laws, rules, regulations, policies and guidelines."
+          },
+          {
+            "Capability ID": "HCM.A2-1.060.060",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition System Administration and Records Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide user guide(s) for the management and maintenance of the system."
+          },
+          {
+            "Capability ID": "HCM.A2-1.060.070",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition System Administration and Records Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide capability for third parties to audit case files from inception to closeout."
+          },
+          {
+            "Capability ID": "HCM.A2-1.060.080",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition System Administration and Records Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the capability to communicate with applicants and candidates."
+          },
+          {
+            "Capability ID": "HCM.A2-1.060.090",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition System Administration and Records Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Ensure employee data remains private. "
+          },
+          {
+            "Capability ID": "HCM.A2-1.060.100",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition System Administration and Records Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Ensure interoperable exchange of TA records between all required HRIT and non-HRIT systems. "
+          },
+          {
+            "Capability ID": "HCM.A2-1.060.110",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition System Administration and Records Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.010",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Make Talent Acquisition records available only to appropriate parties, including those responsible for third party reviews, in accordance with applicable laws, rules, regulations, policies and guidelines."
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.020",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "I/P",
+            "Business Capability Statement": "Receive, maintain, and secure application documentation ( e.g.,DD214, RIF notice, CTAP/ICTAP letter, and/or Notification of Personnel Action from previous federal employment within the case)."
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.030",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Generate standard and ad hoc reports."
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.040",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Ensure employee data remains private. "
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.050",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Ensure interoperable exchange of TA records between all required HRIT and non-HRIT systems. "
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.060",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Establish an electronic Talent Acquisition record for each new open position and each applicant."
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.070",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Collect and report on race and national origin, gender/disability, and other demographic information about the applicant pool."
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.080",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and report the hiring process status of any applicant and job announcement."
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.090",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Audit the certificate to determine if the selection meets regulatory requirements and document the audited certificates accordingly (e.g., audit trail)."
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.100",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Search and analyze all types of Talent Acquisition data (including meta data)."
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.110",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Establish the process to implement and track user audit trails (e.g., name, create time and date, and updates to time and date). "
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.120",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Audit vacancy cases file as appropriate in accordance with the Delegated Examining Operations Handbook and 5 CFR 335."
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.130",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Create and manage vacancy cases files. "
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.140",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Allow for applicants who are unable to apply online to complete an alternative application which can be imported to applicant tracking system and managed consistent with established protocols. "
+          },
+          {
+            "Capability ID": "HCM.A2-1.070.150",
+            "Function": "Talent Acquisition Management",
+            "Activity Name": "Talent Acquisition Data Capture, Transfer and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-2.010.010",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Outreach and Recruitment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Support the evaluation of recruitment activities including metrics.  "
+          },
+          {
+            "Capability ID": "HCM.A2-2.010.020",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Outreach and Recruitment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Establish multiple means to improve recruitment outreach through the development of a marketing plan and materials."
+          },
+          {
+            "Capability ID": "HCM.A2-2.010.030",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Outreach and Recruitment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Partner with external vendors (e.g. universities, professional associations, and head hunters) and participate in outreach activities.  "
+          },
+          {
+            "Capability ID": "HCM.A2-2.010.040",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Outreach and Recruitment",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Identify sources of applicants who qualify for consideration for a position under special appointing authorities. "
+          },
+          {
+            "Capability ID": "HCM.A2-2.010.050",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Outreach and Recruitment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Promote the development of a diverse recruitment pool that reflects the general population."
+          },
+          {
+            "Capability ID": "HCM.A2-2.010.060",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Outreach and Recruitment",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Notify the public of recruiting events."
+          },
+          {
+            "Capability ID": "HCM.A2-2.010.070",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Outreach and Recruitment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Plan and execute recruiting events that promote fair and open competition."
+          },
+          {
+            "Capability ID": "HCM.A2-2.010.080",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Outreach and Recruitment",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Create and/or execute employer branding / marketing campaign."
+          },
+          {
+            "Capability ID": "HCM.A2-2.010.090",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Outreach and Recruitment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-2.020.010",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Job Announcement Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the capability to communicate with applicants and candidates."
+          },
+          {
+            "Capability ID": "HCM.A2-2.020.020",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Job Announcement Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Validate that job announcements accurately reflect the job specifications identified in position description, job analysis, and qualification standards. "
+          },
+          {
+            "Capability ID": "HCM.A2-2.020.030",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Job Announcement Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Ensure job announcement data fields align with OPM Guide to Data Standards and the USAJOBS Staffing Integration Framework.  "
+          },
+          {
+            "Capability ID": "HCM.A2-2.020.040",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Job Announcement Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Ensure Job Announcement content complies with all applicable laws, rules, regulations, policies and guidelines. "
+          },
+          {
+            "Capability ID": "HCM.A2-2.020.050",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Job Announcement Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to build, modify, approve, and post all current and future types of job announcements available through USAJOBs"
+          },
+          {
+            "Capability ID": "HCM.A2-2.020.060",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Job Announcement Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Clear Reemployment Priority List, Priority Placement Program (PPP), Career Transition Assistance Program, 10-point Veteran file, and other priority candidates in accordance with applicable laws, rules, regulations, policies and guidelines."
+          },
+          {
+            "Capability ID": "HCM.A2-2.020.070",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Job Announcement Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Support multiple methods for documentation and application submission in accordance with applicable laws, rules, regulations, policies and guidelines."
+          },
+          {
+            "Capability ID": "HCM.A2-2.020.080",
+            "Function": "Candidate Sourcing and Recruitment",
+            "Activity Name": "Job Announcement Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-3.010.010",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Applicant Eligibility & Basic Qualification Review",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the capability to communicate with applicants and candidates."
+          },
+          {
+            "Capability ID": "HCM.A2-3.010.020",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Applicant Eligibility & Basic Qualification Review",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Enforce the prohibition of hiring relatives in accordance with 5 USC 3110."
+          },
+          {
+            "Capability ID": "HCM.A2-3.010.030",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Applicant Eligibility & Basic Qualification Review",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Adhere to the Merit System Principles in 5 USC 2301. "
+          },
+          {
+            "Capability ID": "HCM.A2-3.010.040",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Applicant Eligibility & Basic Qualification Review",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine eligibility for Competitive Service appointments consistent with all applicable laws, rules, regulations, policies and guidelines, and agency policy.  "
+          },
+          {
+            "Capability ID": "HCM.A2-3.010.050",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Applicant Eligibility & Basic Qualification Review",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine eligibility for Senior Executive Service appointments consistent with all applicable laws, rules, regulations, policies and guidelines, and agency policy. "
+          },
+          {
+            "Capability ID": "HCM.A2-3.010.060",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Applicant Eligibility & Basic Qualification Review",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine eligibility for Excepted Service appointments consistent with all applicable laws, rules, regulations, policies and guidelines, and agency policy. "
+          },
+          {
+            "Capability ID": "HCM.A2-3.010.070",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Applicant Eligibility & Basic Qualification Review",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Apply federal rules on veteran's preference in accordance with 5 CFR 211, 5 CFR 303, 5 CFR 307, OPM Veterans Guide for HR Professionals, and 5 USC 2108."
+          },
+          {
+            "Capability ID": "HCM.A2-3.010.080",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Applicant Eligibility & Basic Qualification Review",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Refer candidates who meet eligibility requirements into multiple referral lists based on hiring authorities and eligibilities."
+          },
+          {
+            "Capability ID": "HCM.A2-3.010.090",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Applicant Eligibility & Basic Qualification Review",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Allow noncompetitive eligibles to be referred either unranked or ranked in accordance with agency policy and procedures at any time during the recruitment, evaluation, and selection process."
+          },
+          {
+            "Capability ID": "HCM.A2-3.010.100",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Applicant Eligibility & Basic Qualification Review",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Apply OPM or agency-specific qualification standards for competitive and excepted positions."
+          },
+          {
+            "Capability ID": "HCM.A2-3.010.110",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Applicant Eligibility & Basic Qualification Review",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Apply Standard Operating Procedures (SOPs) for reviewing resumes and determining applicant eligibility. "
+          },
+          {
+            "Capability ID": "HCM.A2-3.010.111",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Applicant Eligibility & Basic Qualification Review",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-3.020.010",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Candidate Assessment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the capability to communicate with applicants and candidates."
+          },
+          {
+            "Capability ID": "HCM.A2-3.020.020",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Candidate Assessment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Adhere to the Merit System Principles in 5 USC 2301. "
+          },
+          {
+            "Capability ID": "HCM.A2-3.020.030",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Candidate Assessment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Screen candidate's eligibility and qualifications through assessment questionnaire.  "
+          },
+          {
+            "Capability ID": "HCM.A2-3.020.040",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Candidate Assessment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Support the uniform application of medical qualification standards in accordance with 5 CFR 339.  "
+          },
+          {
+            "Capability ID": "HCM.A2-3.020.050",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Candidate Assessment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Apply agency's candidate assessment tools in accordance with applicable laws, rules, regulations, policies and guidelines.  "
+          },
+          {
+            "Capability ID": "HCM.A2-3.020.060",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Candidate Assessment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Place candidates in the appropriate pre-defined categories after determining that a referral candidate meets minimum qualifications for competitive positions and / or agency merit promotion plans."
+          },
+          {
+            "Capability ID": "HCM.A2-3.020.070",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Candidate Assessment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Allow results of applicant assessments to be adjusted based on information included in the application."
+          },
+          {
+            "Capability ID": "HCM.A2-3.020.080",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Candidate Assessment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Review resumes and assess candidates in accordance with applicable laws, rules, regulations, policies and guidelines, and agency policy."
+          },
+          {
+            "Capability ID": "HCM.A2-3.020.090",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Candidate Assessment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Audit the certificate of eligibles in accordance with the Delegated Examining Operations Handbook (DEOH).  "
+          },
+          {
+            "Capability ID": "HCM.A2-3.020.100",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Candidate Assessment",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Establish a written procedure for processing applicant requests for reconsideration of a rating. "
+          },
+          {
+            "Capability ID": "HCM.A2-3.020.110",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Candidate Assessment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Manage applicant requests for reconsideration of a rating. "
+          },
+          {
+            "Capability ID": "HCM.A2-3.020.111",
+            "Function": "Candidate Assessment and Selection",
+            "Activity Name": "Candidate Assessment",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-4.010.010",
+            "Function": "Applicant Screening, Reciprocity, and Investigation Request",
+            "Activity Name": "Suitability and Security Clearance Support (HR)",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "If unfavorable determination, coordinate with the selecting official, General Counsel, Labor Relations and Employee Relations to adjust or rescind offer in accordance with applicable laws, rules, regulations, policies and guidelines, and agency policy."
+          },
+          {
+            "Capability ID": "HCM.A2-4.010.020",
+            "Function": "Applicant Screening, Reciprocity, and Investigation Request",
+            "Activity Name": "Suitability and Security Clearance Support (HR)",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Validate classification requirement for position sensitivity."
+          },
+          {
+            "Capability ID": "HCM.A2-4.010.030",
+            "Function": "Applicant Screening, Reciprocity, and Investigation Request",
+            "Activity Name": "Suitability and Security Clearance Support (HR)",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Support the completion of SF-306."
+          },
+          {
+            "Capability ID": "HCM.A2-4.010.040",
+            "Function": "Applicant Screening, Reciprocity, and Investigation Request",
+            "Activity Name": "Suitability and Security Clearance Support (HR)",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Support the completion of eQIP."
+          },
+          {
+            "Capability ID": "HCM.A2-4.010.050",
+            "Function": "Applicant Screening, Reciprocity, and Investigation Request",
+            "Activity Name": "Suitability and Security Clearance Support (HR)",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Support the scheduling and completion of fingerprinting."
+          },
+          {
+            "Capability ID": "HCM.A2-4.010.060",
+            "Function": "Applicant Screening, Reciprocity, and Investigation Request",
+            "Activity Name": "Suitability and Security Clearance Support (HR)",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Support ongoing communication and coordination between selectee and agency security officer. "
+          },
+          {
+            "Capability ID": "HCM.A2-4.010.070",
+            "Function": "Applicant Screening, Reciprocity, and Investigation Request",
+            "Activity Name": "Suitability and Security Clearance Support (HR)",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Notification to hiring manager of results, options for hiring and documentation of hiring decision."
+          },
+          {
+            "Capability ID": "HCM.A2-4.010.080",
+            "Function": "Applicant Screening, Reciprocity, and Investigation Request",
+            "Activity Name": "Suitability and Security Clearance Support (HR)",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Collaborate with Human Resources, Agency Security Office, and Legal Office regarding unfavorable determinations and debarments."
+          },
+          {
+            "Capability ID": "HCM.A2-4.010.090",
+            "Function": "Applicant Screening, Reciprocity, and Investigation Request",
+            "Activity Name": "Suitability and Security Clearance Support (HR)",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "File Certificate of Investigation or other proof of acceptance under reciprocity in the Official Personnel Folder (OPF) and Electronic OPF."
+          },
+          {
+            "Capability ID": "HCM.A2-4.010.100",
+            "Function": "Applicant Screening, Reciprocity, and Investigation Request",
+            "Activity Name": "Suitability and Security Clearance Support (HR)",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.010",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to receive the background investigation results."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.020",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to evaluate the subject's eligibility for a personal identity credential based on the results of the background investigation and application of the credentialing standards / guidelines. "
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.030",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to determine whether the subject requires a fitness or suitability determination based on the type of position."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.040",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to evaluate the subject for fitness or suitability requirements based on the results of the background investigation and application of the applicable fitness or suitability standards / guidelines. "
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.050",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to evaluate the subject's eligibility to hold a sensitive position and / or have access to classified information based on the results of the background investigation and application of the national security adjudication standards / guidelines. "
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.060",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to perform quality assessment review on closed cases."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.070",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to refer appropriate background investigations to OPM for suitability adjudication and action in accordance with 5 CFR 731 and OPM Supplemental Guidance."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.080",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to determine if the applicable adjudicative determination(s) is favorable or unfavorable based on evaluation of information in the background investigation."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.090",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to grant the subject's access to classified information with or without exceptions."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.100",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to conduct inquiries as needed to address known issues in order to make an adjudication decision."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.110",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to provide notice of a proposed action, denial, or revocation, to include the opportunity to respond and / or request materials relied upon as applicable."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.120",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to prepare and release the materials relied upon."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.130",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to determine if a response to a notice is sufficient to mitigate or resolve the issue."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.140",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to issue a notice of final determination to a subject to include notification of appeals procedures, as applicable."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.150",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to notify the appropriate agency contact or office of the final favorable or unfavorable decision."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.160",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to report adjudicative and clearance determinations as required by Executive Order 13467, as amended, and in accordance with CVS or successor system owner reporting requirements."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.170",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to integrate documentation  (e.g. Certificate of Investigation, Standard Form 50) submitted for inclusion in the employee's electronic official personnel folder (eOPF)."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.180",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide the ability to integrate case data with the Office of Personnel Management's (OPM) Enterprise Human Resources Integration (EHRI) Data Warehouse, as required."
+          },
+          {
+            "Capability ID": "HCM.A2-5.010.190",
+            "Function": "Vetting Adjudication",
+            "Activity Name": "Investigation Results Review, Adjudication Decision(s), and Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-6.010.010",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "Employment Offer",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Extend a job offer to a selectee in accordance with statutes, regulations, policies, union contracts, and any other agreements or guidelines."
+          },
+          {
+            "Capability ID": "HCM.A2-6.010.020",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "Employment Offer",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Facilitate the terms of the employment offer (e.g., salary, benefits, use of recruitment incentives). "
+          },
+          {
+            "Capability ID": "HCM.A2-6.010.030",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "Employment Offer",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Initiate post tentative offer actions required by the position (e.g., drug testing, medical evaluation)."
+          },
+          {
+            "Capability ID": "HCM.A2-6.010.040",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "Employment Offer",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "If unfavorable determination, coordinate with the selecting official, General Counsel, Labor Relations and Employee Relations to adjust or rescind offer in accordance with applicable laws, rules, regulations, policies and guidelines, and agency policy."
+          },
+          {
+            "Capability ID": "HCM.A2-6.010.050",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "Employment Offer",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-6.020.010",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "New Hire In-processing",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Process Personnel Action in accordance with the Office of Personnel Management Guide to Processing Personnel Actions. "
+          },
+          {
+            "Capability ID": "HCM.A2-6.020.020",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "New Hire In-processing",
+            "Input/Output/Process": "I/P",
+            "Business Capability Statement": "Collect and verify all selection materials and include in case file (e.g., official transcripts, SF-50, medical evaluation, relocation, etc.)."
+          },
+          {
+            "Capability ID": "HCM.A2-6.020.030",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "New Hire In-processing",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Include temporary / permanent records in the Official Personnel Folder in accordance with the Guide to Personnel Record Keeping."
+          },
+          {
+            "Capability ID": "HCM.A2-6.020.040",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "New Hire In-processing",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Create and maintain Entry on Duty listing."
+          },
+          {
+            "Capability ID": "HCM.A2-6.020.050",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "New Hire In-processing",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Initiate new-hire paperwork, site, safety and administrative requirements, security access, and identification requests (e.g., badging, I-9 Verification, etc.)."
+          },
+          {
+            "Capability ID": "HCM.A2-6.020.060",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "New Hire In-processing",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Audit the certificate to determine if the selection meets regulatory requirements. Document on the OA Certificate Audit Form."
+          },
+          {
+            "Capability ID": "HCM.A2-6.020.070",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "New Hire In-processing",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          },
+          {
+            "Capability ID": "HCM.A2-6.030.010",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "Onboarding Program Design and Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Design and implement onboarding program evaluations (e.g., onboarding satisfaction surveys, evaluation for program outcomes, etc.)."
+          },
+          {
+            "Capability ID": "HCM.A2-6.030.020",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "Onboarding Program Design and Management",
+            "Input/Output/Process": "O/P",
+            "Business Capability Statement": "Provide, maintain, and update onboarding guide(s), checklist(s), or SOPs."
+          },
+          {
+            "Capability ID": "HCM.A2-6.030.030",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "Onboarding Program Design and Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide pre-onboarding training and other defined tasks (e.g., connect sponsor with employee, provide agency welcome packet)."
+          },
+          {
+            "Capability ID": "HCM.A2-6.030.040",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "Onboarding Program Design and Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Create and document agency onboarding objectives."
+          },
+          {
+            "Capability ID": "HCM.A2-6.030.050",
+            "Function": "New Hire In-Processing and Onboarding",
+            "Activity Name": "Onboarding Program Design and Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+          }
+        
     ],
     "Business_Use_Cases":"coming soon",
     "Standard_Data_Elements":{
-        "Standard Data Elements":"/assets/files/downloads/hr/benefits/Standard Data Elements.xlsx"
+        "Standard Data Elements":"/assets/files/downloads/hr/acquisition/HCM Data Standards_A2 (Talent Acquisition).xlsx"
     },
     "Service_Measures":{
-        "Service Measures":"/assets/files/downloads/hr/acquisition/PerformanceMetrics.xlsx"
+        "Service Measures":"/assets/files/downloads/hr/acquisition/HCM Service Measures_A2 (Talent Acquisition).xlsx"
     }
-
 }
