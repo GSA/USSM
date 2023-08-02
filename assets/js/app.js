@@ -58,6 +58,22 @@ jQuery(document).ready(function () {
             hasSubsection: true
         },
         {
+            accordian: 'hr-retirement-lifecycle',
+            table: 'hr-retirement-capabilities',
+            ElementsList: 'hr-retirement-data-elements',
+            PerformanceMetricsList: 'hr-retirement-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/retirement/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-epm-lifecycle',
+            table: 'hr-epm-capabilities',
+            ElementsList: 'hr-epm-data-elements',
+            PerformanceMetricsList: 'hr-epm-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/epm/'),
+            hasSubsection: true
+        },
+        {
             accordian: 'fm-lifecycle',
             table: 'fm-capabilities',
             ElementsList: 'fm-data-elements',
