@@ -1,8 +1,1402 @@
 {
     "Business-Standards":"HR",
     "Sub-section":"Employee Performance Management",
-    "Business_Lifecycle":"coming soon",
-    "Business_Capabilities":"coming soon",
+    "Business_Lifecycle":[
+        {
+           "type":"hcm-A4-1",
+           "data":[
+              {
+                 "Identifier":"HCM.A4-1.010",
+                 "Activity":"Employee Performance Management System Development",
+                 "Description":"Establishing a framework of policies and parameters by an agency for the administration of performance appraisal programs as defined at 5 U.S.C. 4302 and 5 CFR 430.204.  The service outcome(s) will include, but not limited to:<ul><li>agency specific guidelines and policies that govern employee performance management activities in compliance with U.S.C. 4302 and 5 CFR 430.204</li></ul>"
+              },
+              {
+                 "Identifier":"HCM.A4-1.020",
+                 "Activity":"Employee Performance Management Program Development",
+                 "Description":"Creating results-oriented, performance-based Performance Management Program(s) to ensure accountability, fairness, and alignment with the mission and goals of the agency.   The service outcome(s) will include, but not limited to:<ul><li>EPM program(s) objectives</li><li>procedures, methods, and requirements for planning, monitoring, and rating employee performance that are:<ul><li>developed in accordance with the agency's approved performance appraisal system(s)</li><li>aligned with the agency's overall employee performance strategy and objectives</li></ul> </li><li>administrative and logistical support for EPM programs</li></ul>"
+              },
+              {
+                 "Identifier":"HCM.A4-1.030",
+                 "Activity":"Employee Performance Management Program Evaluation",
+                 "Description":"Conducting evaluations to help agencies ensure that their Performance Management Programs are compliant with policy. The service outcome(s) will include, but not limited to:<ul><li>evaluation methodology to assess Performance Management Program's:<ul><li>policy compliance</li><li>extent to which the program is meeting agency performance management objectives</li></li>and goals</li></ul><li>program policy compliance evaluation </li><li>evaluation of extent to which the program is meeting agency performance management objectives and goals</li><li>verify remediation of non-compliance</li></ul>"
+              },
+              {
+                 "Identifier":"HCM.A4-1.040",
+                 "Activity":"Employee Performance Management Cycle Administration",
+                 "Description":"Developing, communicating, monitoring, appraising, and rewarding individual employee performance in accordance with policy. The service outcome(s) will include, but not limited to:<ul><li>employee work and performance expectations </li><li>monitor and rate employee performance </li><li>communicate employee performance ratings</li><li>initiate employee reward and/or remediation based on employee performance rating</li><li>manage and facilitate all logistical aspects (e.g. workflow management, furnishing of documents, tracking of process progress) associated with the performance management process</li></ul>"
+              },
+              {
+                 "Identifier":"HCM.A4-1.050",
+                 "Activity":"Employee Performance Management Data Capture, Transfer, and Reporting",
+                 "Description":"Maintaining employee performance management records in accordance with policy. Provides the ability to extract reports on captured data.   The service outcome(s) will include, but not limited to:<ul><li>method to capture and store employee performance records</li><li>transfer of employee performance data in accordance with policy</li><li>method for generating standard and ad hoc employee performance reports</li><li>ability to view and edit employee performance records to ensure records are accurate and current</li></ul>"
+              }
+           ]
+        },
+        {
+           "type":"hcm-A4-2",
+           "data":[
+              {
+                 "Identifier":"HCM.A4-2.010",
+                 "Activity":"Recognition Programs Development",
+                 "Description":"Creating awards programs.  The service outcome(s) will include, but not limited to:<ul><li>objectives for the employee rewards program</li><li>procedures, methods, and requirements to provide rewards to employees</li><li>administrative and logistical support for processing employee rewards</li></ul>"
+              },
+              {
+                 "Identifier":"HCM.A4-2.020",
+                 "Activity":"Recognition Programs Administration",
+                 "Description":"Implementing and maintaining awards programs in accordance with policy. The service outcome(s) will include, but not limited to:<ul><li>process and complete awards initiated by agency managers and employees</li><li>award certificates and other formal recognition</li><li>integration with payroll processes</li><li>administrative and logistical support for agency award ceremonies</li></ul>"
+              },
+              {
+                 "Identifier":"HCM.A4-2.030",
+                 "Activity":"Recognition Programs Evaluation",
+                 "Description":"Conducting evaluations to help agencies ensure that their awards programs are compliant with policy.  The service outcome(s) will include, but not limited to:<ul><li>evaluation methodology to assess Recognition Program's:<ul><li>policy compliance</li><li>extent to which the program is meeting agency performance recognition objectives and goals</li></ul><li>evaluate extent to which the program is meeting agency performance recognition objectives and goals</li><li>program policy compliance evaluation</li></ul>"
+              },
+              {
+                 "Identifier":"HCM.A4-2.040",
+                 "Activity":"Recognition Programs Data Capture, Transfer and Reporting",
+                 "Description":"Maintaining awards programs records in accordance with policy. Provides the ability to extract reports on captured data.  The service outcome(s) will include, but not limited to:<ul><li>structure and maintain award program records</li><li>updates and modifications to awards program records</li><li>standard and ad-hoc reports relating to award programs records</li><li>track and audit user access of award program records</li></ul>"
+              }
+           ]
+        },
+        {
+           "type":"hcm-A4-3",
+           "data":[
+              {
+                 "Identifier":"HCM.A4-3.010",
+                 "Activity":"SES and/or SL/ST PA System Review or Adoption",
+                 "Description":"Agency reviewing and designing (if necessary based on the review outcomes) an agency-specific PA system for SES and/or SL/ST positions in compliance with applicable statute and regulations (5 U.S.C. 43; 5 CFR part 430, subparts B and C, as applicable, and subpart D), or adopting the Basic SES and/or SL/ST PA system. The service outcome(s) will include, but not be limited to:<ul><li>A PA system(s) that seeks to make meaningful distinctions in relative performance.</li><li>A PA system(s) that is compliant with statutory and regulatory requirements for appraisal system approval and certification.</li></ul>"
+              },
+              {
+                 "Identifier":"HCM.A4-3.020",
+                 "Activity":"SES and/or SL/ST PA System Implementation and Application",
+                 "Description":"Demonstrating the agency's implementation and application of its PA system(s) meets the required OPM/OMB criteria outlined in 5 CFR 430 subpart D, as well as requirements outlined in statute (5 U.S.C. 53, as appropriate), including, but not limited to, 5 U.S.C. 43, 5 U.S.C. 45; and regulations, including, but not limited to, 5 CFR 430 subpart B or C (as appropriate), subpart D, 5 CFR 534 subparts D and E (as appropriate), and 5 CFR 451. The service outcome(s) will include, but not be limited to:<ul><li>A PA system(s) that when applied or implemented demonstrates meaningful distinctions in relative performance.</li><li>A PA system(s) that properly communicates senior employees expectations to provide the foundation for making meaningful distinctions in relative performance.</li><li>Performance ratings that are aligned with and based on individual and organizational performance.</li><li>Pay adjustments and awards, combined or separately, that reflect meaningful distinctions in performance in that those who receive the highest ratings (or ratings of record) receive the highest pay adjustments and/or performance awards.</li><li>A PA system(s) that results in pay adjustments and awards in compliance with statutory and regulatory requirements.</li><li>A PA system that demonstrates compliance with certification criteria found in 5 CFR 430 subpart D.</li></ul>"
+              },
+              {
+                 "Identifier":"HCM.A4-3.030",
+                 "Activity":"SES and/or SL/ST PA System Certification Process Management",
+                 "Description":"Managing the procedures and processes for seeking and/or maintaining OPM/OMB SES and/or SL/ST PA System Certification (if desired). The service outcome(s) will include, but not be limited to:<ul><li>Completed and submitted Certification Request.</li><li>Completed and submitted SES and/or SL/ST Pay Policy.</li><li>Submission of Annual Ratings, Pay and Awards Data for SES and/or SL/ST for the two most recently completed appraisal cycles.</li><li>OPM/OMB Agency Certification for SES and/or SL/ST PA System, if warranted.</li></ul>Agency-Designed PA System (Performance Appraisal Assessment Tool; PAAT) only:<ul><li>Completed and submitted PAAT for SES and/or SL/ST.</li><li>Submission of representative samples of SES and/or SL/ST Performance Plans.</li><li>Submission of evidence of appraisal system training for senior employees. </li><li>Submission of evidence of the communication of system application results (i.e., average rating, average pay adjustment by rating, and average award by rating).</li><li>Submission of evidence of the communication of organizational performance results and guidelines for using those results when assigning individual ratings.\r\n\r\nBasic SES and SL/ST (Certification 2.0) only:</li><li>Completed and submitted Oversight Verification Statement.</li><li>Completed and submitted Ratings Distribution Justification Template(s) for the two most recently completed appraisal cycles.</li><li>Completed and submitted Organizational Assessment and Guidelines document.</li></ul>"
+              }
+           ]
+        }
+    ],
+ 
+    "Business_Capabilities":[
+        {
+            "Capability ID":"HCM.A4-1.010.010",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"I",
+            "Business Capability Statement":"Define a timeline for establishing, approving, and signing performance plans."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.020",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"I",
+            "Business Capability Statement":"Establish a minimum Appraisal Period."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.030",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"I",
+            "Business Capability Statement":"Support the development of employee performance plans in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.040",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to create standardized or employee specific performance elements, standards and/or expectations."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.050",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to establish a minimum and maximum number of performance elements."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.060",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to include performance elements that are critical, noncritical, and/or additional elements in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.070",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide ability to establish performance elements and standards to be incorporated into the summary rating calculation (weighted and/or unweighted)."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.080",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to establish the methodology (consistent with applicable laws, rules, regulations, policies, and guidelines) that will be used to derive a rating of record."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.090",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Evaluate performance appraisal systems and programs in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.100",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to support the application for certification of the senior professional (SL/ST) appraisal system(s) in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.110",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish the mechanism to capture, document and communicate employee unacceptable (e.g., less than Fully Successful) performance in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.120",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to measure performance against identified elements, standards and/or expectations."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.130",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to use performance ratings to determine performance award and pay eligibility."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.140",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Support the submission of performance appraisal systems and programs documentation to OPM."
+        },
+        {
+            "Capability ID":"HCM.A4-1.010.150",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management System Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.010",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism to create, modify, or view performance plans at any time throughout the performance cycle."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.020",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Support the development of employee performance plans in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.030",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to create standardized or employee specific performance elements, standards and/or expectations."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.040",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to define strategic organizational goal alignment with individual elements and standards."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.050",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to establish a minimum and maximum number of performance elements."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.060",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to include performance elements that are critical, noncritical, and/or additional elements in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.070",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide ability to establish performance elements and standards to be incorporated into the summary rating calculation (weighted and/or unweighted)."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.080",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to establish the methodology (consistent with applicable laws, rules, regulations, policies, and guidelines) that will be used to derive a rating of record."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.090",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to enable multiple approval processes (Emp/Supv, Emp/Supv/2nd Level Supv, and Supv only) for the performance plan."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.100",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to change the rating official."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.110",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Evaluate performance appraisal systems and programs in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.120",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Ensure the Employee is provided with information about the Performance Plan review process."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.130",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to link position description to performance plan."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.140",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to access a library of established performance elements other than elements focused on specific results."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.150",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to align competencies with performance management."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.160",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to align individual development plans (IDP) with annual performance plans."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.170",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for rating official to assign and rate technical and non-technical competencies."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.180",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to support the application for certification of the senior professional (SL/ST) appraisal system(s) in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.190",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for the rating/reviewing official and HR Practitioner to view cycle progress by organization, office, and employee in accordance with applicable laws, rules, policies, and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.200",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to provide measurable, quantifiable and timely data elements to report progress on performance objectives."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.210",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish the mechanism to capture, document and communicate employee unacceptable (e.g., less than Fully Successful) performance in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.220",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for employee to request feedback any time during the performance appraisal period."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.230",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for managers and employees to provide, track and maintain feedback, and/or accomplishments during Progress Reviews."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.240",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to enable multiple approval processes (Emp/Supv, Emp/Supv/2nd Level Supv, and Supv only) for summary rating."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.250",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Ensure rating of record is based only on the evaluation of actual job performance against the established elements, standards and/or expectations, for the designated appraisal period."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.260",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to measure performance against identified elements, standards and/or expectations."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.270",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to not rate an element."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.280",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to support the administration of Centralized Review Panel for Senior-Level (SL) and Scientific or Professional (ST) in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.290",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish mechanism for Rating or Reviewing Official and/or designees to provide written narrative(s) to support individual element ratings and/or summary rating."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.300",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to capture employee and Rating and Reviewing Officials feedback on a performance appraisal."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.310",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for a rating official and/or designee to complete and submit a performance review, against the established elements, standards and/or expectations."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.320",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for the Rating Official to confirm that he/she conducted an appraisal discussion with the employee and issued a final rating of record."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.330",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a formal and informal process for reconsideration of the rating of record."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.340",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism to provide off-cycle progress reviews to support personnel decisions such as WGI approval/disapproval or adverse performance-based actions associated with unacceptable performance."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.350",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to use performance ratings to determine performance award and pay eligibility."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.360",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Support the submission of performance appraisal systems and programs documentation to OPM."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.370",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide data support for senior professional (SL/ST) performance management appraisal system(s) certification in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.020.380",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+        },
+        {
+            "Capability ID":"HCM.A4-1.030.010",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Evaluation",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Evaluate performance appraisal systems and programs in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.030.020",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Evaluation",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to measure performance against identified elements, standards and/or expectations."
+        },
+        {
+            "Capability ID":"HCM.A4-1.030.030",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Evaluation",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to report on awards (monetary and non-monetary) and ratings to make data driven decisions and to evaluate the efficiency and effectiveness of performance and award programs."
+        },
+        {
+            "Capability ID":"HCM.A4-1.030.040",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Evaluation",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish the mechanism to provide consistent and transparent government-wide reporting of EPM system performance data."
+        },
+        {
+            "Capability ID":"HCM.A4-1.030.050",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Evaluation",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish the mechanism to report performance management activities to EHRI."
+        },
+        {
+            "Capability ID":"HCM.A4-1.030.060",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Program Evaluation",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.010",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism to create, modify, or view performance plans at any time throughout the performance cycle."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.020",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Support the development of employee performance plans in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.030",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"Provide guidance and assistance to rating officials during the performance management process in accordance with applicable laws, regulations, and policies."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.040",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to create standardized or employee specific performance elements, standards and/or expectations."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.050",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to define strategic organizational goal alignment with individual elements and standards."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.060",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to update employee’s title, organization, series, grade, and goals on a Performance Plan."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.070",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for Rating Officials and employees to acknowledge issue and receipt of all performance documents when creating a new plan."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.080",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to enable multiple approval processes (Emp/Supv, Emp/Supv/2nd Level Supv, and Supv only) for the performance plan."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.090",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to change the rating official."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.100",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"Ensure the Employee is provided with information about the Performance Plan review process."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.110",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to link position description to performance plan."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.120",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to access a library of established performance elements other than elements focused on specific results."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.130",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to align competencies with performance management."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.140",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to align individual development plans (IDP) with annual performance plans."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.150",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for rating official to assign and rate technical and non-technical competencies."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.160",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for the rating/reviewing official and HR Practitioner to view cycle progress by organization, office, and employee in accordance with applicable laws, rules, policies, and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.170",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to provide measurable, quantifiable and timely data elements to report progress on performance objectives."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.180",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Ensure that changes to the performance plan are documented and communicated to the employee."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.190",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism for employee acknowledgement of changes or modifications to established performance plans."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.200",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for Rating Official to view Accomplishments submitted by the employee throughout the appraisal period."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.210",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish the mechanism to capture, document and communicate employee unacceptable (e.g., less than Fully Successful) performance in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.220",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for Rating Officials and employees to acknowledge issue and receipt of performance documents during progress reviews."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.230",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to support one or more progress reviews during an appraisal cycle in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.240",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"Provide supporting documents to justify withholding or denying, or granting afterwards, a Within Grade Increase, in accordance with applicable laws, rules, regulations, policies and guidelines. "
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.250",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for the Rating Official to view the submitted Self-Assessment throughout the appraisal period."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.260",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for employee to request feedback any time during the performance appraisal period."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.270",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to track supervisor's Coaching or Mentoring Tasks / Reminders / To Dos, to support engagement with staff and accountability for engaging employees."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.280",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for managers and employees to provide, track and maintain feedback, and/or accomplishments during Progress Reviews."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.290",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to enable multiple approval processes (Emp/Supv, Emp/Supv/2nd Level Supv, and Supv only) for summary rating."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.300",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Ensure rating of record is based only on the evaluation of actual job performance against the established elements, standards and/or expectations, for the designated appraisal period."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.310",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to measure performance against identified elements, standards and/or expectations."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.320",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to not rate an element."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.330",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to support the administration of Centralized Review Panel for Senior-Level (SL) and Scientific or Professional (ST) in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.340",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish mechanism for Rating or Reviewing Official and/or designees to provide written narrative(s) to support individual element ratings and/or summary rating."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.350",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to capture employee and Rating and Reviewing Officials feedback on a performance appraisal."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.360",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for a rating official and/or designee to complete and submit a performance review, against the established elements, standards and/or expectations."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.370",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for Rating Officials and employees to acknowledge issue and receipt of performance documents during performance appraisal."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.380",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for the Rating Official to confirm that he/she conducted an appraisal discussion with the employee and issued a final rating of record."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.390",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Ensure that the performance appraisal is documented, signed by the rating official, and communicated to the employee."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.400",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism to monitor the completion of performance plans, performance reviews, and performance appraisals."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.410",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a formal and informal process for reconsideration of the rating of record."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.420",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to remove performance appraisals for plans that are null and void."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.430",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism to provide off-cycle progress reviews to support personnel decisions such as WGI approval/disapproval or adverse performance-based actions associated with unacceptable performance."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.440",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide capability for managers to view employee comments while completing appraisal."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.450",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for the employee to submit a Self-Assessment for consideration during performance reviews."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.460",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism to capture previous rating official feedback."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.470",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to submit supporting documentation to recommend a Quality Step Increase, in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.480",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism to formally record the rating of record."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.490",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Identify and record employees who were not rated and why a rating was not given. "
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.500",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for managers and HR practitioners to select competencies from a competency library."
+        },
+        {
+            "Capability ID":"HCM.A4-1.040.510",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Cycle Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.010",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism to create, modify, or view performance plans at any time throughout the performance cycle."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.020",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to update employee’s title, organization, series, grade, and goals on a Performance Plan."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.030",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for Rating Officials and employees to acknowledge issue and receipt of all performance documents when creating a new plan."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.040",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to access a library of established performance elements other than elements focused on specific results."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.050",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for the rating/reviewing official and HR Practitioner to view cycle progress by organization, office, and employee in accordance with applicable laws, rules, policies, and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.060",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to provide measurable, quantifiable and timely data elements to report progress on performance objectives."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.070",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Ensure that changes to the performance plan are documented and communicated to the employee."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.080",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism for employee acknowledgement of changes or modifications to established performance plans."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.090",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for Rating Official to view Accomplishments submitted by the employee throughout the appraisal period."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.100",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish the mechanism to capture, document and communicate employee unacceptable (e.g., less than Fully Successful) performance in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.110",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for Rating Officials and employees to acknowledge issue and receipt of performance documents during progress reviews."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.120",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"Provide supporting documents to justify withholding or denying, or granting afterwards, a Within Grade Increase, in accordance with applicable laws, rules, regulations, policies and guidelines. "
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.130",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to submit documents supporting personnel actions informed by performance, excluding WGIs and QSIs."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.140",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for the Rating Official to view the submitted Self-Assessment throughout the appraisal period."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.150",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to track supervisor's Coaching or Mentoring Tasks / Reminders / To Dos, to support engagement with staff and accountability for engaging employees."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.160",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for managers and employees to provide, track and maintain feedback, and/or accomplishments during Progress Reviews."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.170",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to support the administration of Centralized Review Panel for Senior-Level (SL) and Scientific or Professional (ST) in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.180",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish mechanism for Rating or Reviewing Official and/or designees to provide written narrative(s) to support individual element ratings and/or summary rating."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.190",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to capture employee and Rating and Reviewing Officials feedback on a performance appraisal."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.200",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for a rating official and/or designee to complete and submit a performance review, against the established elements, standards and/or expectations."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.210",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for Rating Officials and employees to acknowledge issue and receipt of performance documents during performance appraisal."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.220",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for the Rating Official to confirm that he/she conducted an appraisal discussion with the employee and issued a final rating of record."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.230",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Ensure that the performance appraisal is documented, signed by the rating official, and communicated to the employee."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.240",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism to monitor the completion of performance plans, performance reviews, and performance appraisals."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.250",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to access, retain, and purge current and prior year(s) employee performance records in accordance with applicable laws, rules, regulations, policies and guidelines (e.g., ratings)."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.260",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to remove performance appraisals for plans that are null and void."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.270",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide capability for managers to view employee comments while completing appraisal."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.280",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for the employee to submit a Self-Assessment for consideration during performance reviews."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.290",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism to capture previous rating official feedback."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.300",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to report on awards (monetary and non-monetary) and ratings to make data driven decisions and to evaluate the efficiency and effectiveness of performance and award programs."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.310",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to submit supporting documentation to recommend a Quality Step Increase, in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.320",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to create, track, maintain, and access records related to performance management system(s) and program(s) in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.330",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism to formally record the rating of record."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.340",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Ensure rating and reviewing officials and HR practitioners are able to pull reports throughout the various rating cycle(s), including the rating of record."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.350",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish the mechanism to provide consistent and transparent government-wide reporting of EPM system performance data."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.360",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide data support for senior professional (SL/ST) performance management appraisal system(s) certification in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.370",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Identify and record employees who were not rated and why a rating was not given. "
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.380",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish the mechanism to report performance management activities to EHRI."
+        },
+        {
+            "Capability ID":"HCM.A4-1.050.390",
+            "Function":"Employee Performance Management",
+            "Activity Name":"Employee Performance Management Data Capture, Transfer, and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+        },
+        {
+            "Capability ID":"HCM.A4-2.010.010",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish criteria for performance awards."
+        },
+        {
+            "Capability ID":"HCM.A4-2.010.020",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Development",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to support the administration of monetary and non-monetary awards."
+        },
+        {
+            "Capability ID":"HCM.A4-2.020.010",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to use performance ratings to determine performance award and pay eligibility."
+        },
+        {
+            "Capability ID":"HCM.A4-2.020.020",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to support the administration of monetary and non-monetary awards."
+        },
+        {
+            "Capability ID":"HCM.A4-2.020.030",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to submit supporting documentation to recommend a Quality Step Increase, in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-2.020.040",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to monitor and report monetary awards given to employees to ensure compliance with OPM guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-2.020.050",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability for managers, HR practitioners, and/or designees to access employee's monetary and non-monetary award history."
+        },
+        {
+            "Capability ID":"HCM.A4-2.020.060",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Administration",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+        },
+        {
+            "Capability ID":"HCM.A4-2.030.010",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Evaluation",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to report on awards (monetary and non-monetary) and ratings to make data driven decisions and to evaluate the efficiency and effectiveness of performance and award programs."
+        },
+        {
+            "Capability ID":"HCM.A4-2.030.020",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Evaluation",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to monitor and report monetary awards given to employees to ensure compliance with OPM guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-2.030.030",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Evaluation",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+        },
+        {
+            "Capability ID":"HCM.A4-2.040.010",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Data Capture, Transfer and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to use performance ratings to determine performance award and pay eligibility."
+        },
+        {
+            "Capability ID":"HCM.A4-2.040.020",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Data Capture, Transfer and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to report on awards (monetary and non-monetary) and ratings to make data driven decisions and to evaluate the efficiency and effectiveness of performance and award programs."
+        },
+        {
+            "Capability ID":"HCM.A4-2.040.030",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Data Capture, Transfer and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide the ability to submit supporting documentation to recommend a Quality Step Increase, in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-2.040.040",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Data Capture, Transfer and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Establish a mechanism to formally record the rating of record."
+        },
+        {
+            "Capability ID":"HCM.A4-2.040.050",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Data Capture, Transfer and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Support the submission of performance appraisal systems and programs documentation to OPM."
+        },
+        {
+            "Capability ID":"HCM.A4-2.040.060",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Data Capture, Transfer and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Provide data support for senior professional (SL/ST) performance management appraisal system(s) certification in accordance with applicable laws, rules, regulations, policies and guidelines."
+        },
+        {
+            "Capability ID":"HCM.A4-2.040.070",
+            "Function":"Recognition Management",
+            "Activity Name":"Recognition Programs Data Capture, Transfer and Reporting",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+        },
+        {
+            "Capability ID":"HCM.A4-3.010.010",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Review or Adoption",
+            "Input/Output/Process":"I",
+            "Business Capability Statement":"Designate an Oversight Official and provide the Official's name and position title to OPM."
+        },
+        {
+            "Capability ID":"HCM.A4-3.010.020",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Review or Adoption",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"If Basic SES and SL/ST (Certification 2.0) process: adopt the Basic SES and/or SL/ST PA System that complies with existing applicable statute and regulations."
+        },
+        {
+            "Capability ID":"HCM.A4-3.010.030",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Review or Adoption",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"If Performance Appraisal Assessment Tool (PAAT) process: design an agency-specific SES and/or SL/ST PA system that complies with existing applicable statute and regulations.  "
+        },
+        {
+            "Capability ID":"HCM.A4-3.020.010",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Implementation and Application",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"If Basic SES and SL/ST (Certification 2.0) process: implement Basic SES and/or SL/ST PA System, showing meaningful distinctions in senior employee performance ratings and awards."
+        },
+        {
+            "Capability ID":"HCM.A4-3.020.020",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Implementation and Application",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"If Agency-designed system (Performance Appraisal Assessment Tool (PAAT) process): apply agency-specific SES and/or SL/ST performance appraisal system to show meaningful distinctions in performance ratings, pay adjustments, and awards."
+        },
+        {
+            "Capability ID":"HCM.A4-3.020.030",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Implementation and Application",
+            "Input/Output/Process":"I",
+            "Business Capability Statement":"Develop an agency-specific SES and/or SL/ST pay policy and submit with initial certification request."
+        },
+        {
+            "Capability ID":"HCM.A4-3.020.040",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Implementation and Application",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"Submit an updated agency-specific SES and/or SL/ST pay policy if/when the policy is amended."
+        },
+        {
+            "Capability ID":"HCM.A4-3.020.050",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Implementation and Application",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"Share results of organizational assessments with senior employees and appropriate rating and reviewing officials. "
+        },
+        {
+            "Capability ID":"HCM.A4-3.020.060",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Implementation and Application",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+        },
+        {
+            "Capability ID":"HCM.A4-3.030.010",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Certification Process Management",
+            "Input/Output/Process":"I",
+            "Business Capability Statement":"Develop an agency-specific SES and/or SL/ST pay policy and submit with initial certification request."
+        },
+        {
+            "Capability ID":"HCM.A4-3.030.020",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Certification Process Management",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"Submit an updated agency-specific SES and/or SL/ST pay policy if/when the policy is amended."
+        },
+        {
+            "Capability ID":"HCM.A4-3.030.030",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Certification Process Management",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"Share results of organizational assessments with senior employees and appropriate rating and reviewing officials. "
+        },
+        {
+            "Capability ID":"HCM.A4-3.030.040",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Certification Process Management",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"Respond to annual OPM Data Call with completed Data Call template providing ratings, pay, and awards data for senior employees. "
+        },
+        {
+            "Capability ID":"HCM.A4-3.030.050",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Certification Process Management",
+            "Input/Output/Process":"P/O",
+            "Business Capability Statement":"Complete and submit Ratings Distribution Justification Template(s)."
+        },
+        {
+            "Capability ID":"HCM.A4-3.030.060",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Certification Process Management",
+            "Input/Output/Process":"P/O",
+            "Business Capability Statement":"Submit an Organizational Assessment and Guidelines Document that includes organizational performance results and guidelines for using those results when assigning individual ratings."
+        },
+        {
+            "Capability ID":"HCM.A4-3.030.070",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Certification Process Management",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"Submit Certification Request Packages via the SES and SL/ST MAX Portal."
+        },
+        {
+            "Capability ID":"HCM.A4-3.030.080",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Certification Process Management",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"Submit letter from the Agency Head, Oversight Official, or designee to OPM requesting certification with appropriate agency self-verification and documentation (as needed)."
+        },
+        {
+            "Capability ID":"HCM.A4-3.030.090",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Certification Process Management",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"If Basic SES and SL/ST (Certification 2.0) process: submit documents required to meet certification criteria and provide a complete certification request to OPM for review three months prior to the certification expiration date to avoid a gap in certification."
+        },
+        {
+            "Capability ID":"HCM.A4-3.030.100",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Certification Process Management",
+            "Input/Output/Process":"O",
+            "Business Capability Statement":"If Performance Appraisal Assessment Tool (PAAT) process: submit documentation demonstrating the PA system complies with the required certification criteria, including a representative sample of SES and/or SL/ST Performance Plans, evidence of training, communication of system application results, and communication of guidelines for using organizational assessment results demonstrating compliance with existing applicable regulations."
+        },
+        {
+            "Capability ID":"HCM.A4-3.030.110",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Certification Process Management",
+            "Input/Output/Process":"P/O",
+            "Business Capability Statement":"If Performance Appraisal Assessment Tool (PAAT) process: complete the PAAT in accordance with existing regulations and provide a complete certification request to OPM six months before the end of the certification period. "
+        },
+        {
+            "Capability ID":"HCM.A4-3.030.120",
+            "Function":"Performance Appraisal System Certification for SES and SL/ST",
+            "Activity Name":"SES and/or SL/ST PA System Certification Process Management",
+            "Input/Output/Process":"P",
+            "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+        }
+    ],
     "Business_Use_Cases":"coming soon",
     "Standard_Data_Elements":{
         "Standard Data Elements":"/assets/files/downloads/hr/epm/HCM Data Standards_A4 (Employee Performance Management).xlsx"
