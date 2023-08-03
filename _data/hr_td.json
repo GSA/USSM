@@ -96,1564 +96,1787 @@
     "Business_Capabilities":[
         {
             "Capability ID": "HCM.A3-1.010.010",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Strategy",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.010 Talent Development Strategy",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide a mechanism to assess the actual total cost of ownership (TCO) for talent development products and services."
+            "Business Capability Statement": "Provide a mechanism to assess the actual total cost of ownership (TCO) for talent development products and services.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-1.010.020",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Strategy",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.010 Talent Development Strategy",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to identify, plan for and track business objectives and evaluate the effectiveness of learning interventions to address those objectives."
+            "Business Capability Statement": "Establish the mechanism to identify, plan for and track business objectives and evaluate the effectiveness of learning interventions to address those objectives.",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-1.010.030",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Strategy",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.010 Talent Development Strategy",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to align Talent Development to organizational goals."
+            "Business Capability Statement": "Provide the ability to align Talent Development to organizational goals.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-1.010.040",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Strategy",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.010 Talent Development Strategy",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure the cost of talent development interventions are consistent, fair, and transparent."
+            "Business Capability Statement": "Ensure the cost of talent development interventions are consistent, fair, and transparent.",
+            "Authoritative Reference": "5 CFR § 410.304"
         },
         {
             "Capability ID": "HCM.A3-1.010.050",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Strategy",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.010 Talent Development Strategy",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable logistics, controls, processes, and workflows to achieve an effective end-to-end talent development experience."
+            "Business Capability Statement": "Provide adaptable logistics, controls, processes, and workflows to achieve an effective end-to-end talent development experience.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.010.060",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Strategy",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.010 Talent Development Strategy",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the mechanism to adjust organizational talent development plans based on talent development evaluation data."
+            "Business Capability Statement": "Provide the mechanism to adjust organizational talent development plans based on talent development evaluation data.",
+            "Authoritative Reference": "5 U.S. Code § 4103; Executive Order 11348; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-1.010.070",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Strategy",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.010 Talent Development Strategy",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to evaluate talent development programs and functions on a periodic basis."
+            "Business Capability Statement": "Establish the mechanism to evaluate talent development programs and functions on a periodic basis.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.010.080",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Strategy",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.010 Talent Development Strategy",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide mechanism to enable high-performance “what-if” scenarios to analyze and plan workforce requirements, strategy, and changes (available for authorized users only)."
+            "Business Capability Statement": "Provide mechanism to enable high-performance “what-if” scenarios to analyze and plan workforce requirements, strategy, and changes (available for authorized users only).",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.010.090",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.010 Talent Development Strategy",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 29 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-1.020.010",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable talent development evaluation controls, processes, and workflows to ensure a valid business case exists."
+            "Business Capability Statement": "Provide adaptable talent development evaluation controls, processes, and workflows to ensure a valid business case exists.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.020.020",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to evaluate and acquire the best value talent development solutions."
+            "Business Capability Statement": "Establish the mechanism to evaluate and acquire the best value talent development solutions.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 250.204 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.020.030",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide a mechanism to assess the actual total cost of ownership (TCO) for talent development products and services."
+            "Business Capability Statement": "Provide a mechanism to assess the actual total cost of ownership (TCO) for talent development products and services.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-1.020.040",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable talent development evaluation controls, processes, and workflows to measure return on investment."
+            "Business Capability Statement": "Provide adaptable talent development evaluation controls, processes, and workflows to measure return on investment.",
+            "Authoritative Reference": "5 U.S. Code § 4103; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.020.050",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data."
+            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data.",
+            "Authoritative Reference": "5 U.S. Code § 4115; 5 CFR § 410.601 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.020.060",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to compare and evaluate cost and effectiveness of equivalent offerings."
+            "Business Capability Statement": "Establish the mechanism to compare and evaluate cost and effectiveness of equivalent offerings.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.020.070",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure the ability to address areas of increasing employee responsibility (e.g., managing interdisciplinary workforce, managing employees with non-traditional career patterns) in planning effective leadership talent development activities."
+            "Business Capability Statement": "Ensure the ability to address areas of increasing employee responsibility (e.g., managing interdisciplinary workforce, managing employees with non-traditional career patterns) in planning effective leadership talent development activities.",
+            "Authoritative Reference": "5 U.S. Code § 4121; 5 CFR § 412.202 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-1.020.080",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability for employee training histories to follow employees through the entire employee lifecycle and across federal agencies."
+            "Business Capability Statement": "Provide the ability for employee training histories to follow employees through the entire employee lifecycle and across federal agencies.",
+            "Authoritative Reference": "5 CFR § 293.302 ; 5 CFR § 293.303 "
         },
         {
             "Capability ID": "HCM.A3-1.020.090",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to identify, plan for and track business objectives and evaluate the effectiveness of learning interventions to address those objectives."
+            "Business Capability Statement": "Establish the mechanism to identify, plan for and track business objectives and evaluate the effectiveness of learning interventions to address those objectives.",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-1.020.100",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure training is aligned with agency approved, mission-related, measurable competencies."
+            "Business Capability Statement": "Ensure training is aligned with agency approved, mission-related, measurable competencies.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 250.204 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.020.110",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to conduct training needs assessments."
+            "Business Capability Statement": "Establish the mechanism to conduct training needs assessments.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 ; 5 U.S. Code § 4118 "
         },
         {
             "Capability ID": "HCM.A3-1.020.120",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to align Talent Development to organizational goals."
+            "Business Capability Statement": "Provide the ability to align Talent Development to organizational goals.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-1.020.130",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure that talent development activities are congruent with the evaluation plan, program learning objectives, expected work outputs, and business outcomes. "
+            "Business Capability Statement": "Ensure that talent development activities are congruent with the evaluation plan, program learning objectives, expected work outputs, and business outcomes. ",
+            "Authoritative Reference": "5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-1.020.140",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure that all Talent Development activities are accessible to all users."
+            "Business Capability Statement": "Ensure that all Talent Development activities are accessible to all users.",
+            "Authoritative Reference": "5 CFR § 250.204 ; Executive Order 11348; 5 CFR § 410.203 "
         },
         {
             "Capability ID": "HCM.A3-1.020.150",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to employ full range of delivery options to meet mission related organizational and talent development needs or requirements."
+            "Business Capability Statement": "Provide the ability to employ full range of delivery options to meet mission related organizational and talent development needs or requirements.",
+            "Authoritative Reference": "5 CFR § 410.203 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.020.160",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to deliver, manage and track formal, informal, non-traditional, traditional, and pilot talent development programs."
+            "Business Capability Statement": "Establish the mechanism to deliver, manage and track formal, informal, non-traditional, traditional, and pilot talent development programs.",
+            "Authoritative Reference": "5 CFR § 410.203 ; 5 U.S. Code § 4121 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.020.170",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Manage the resources required to support and deliver talent development."
+            "Business Capability Statement": "Manage the resources required to support and deliver talent development.",
+            "Authoritative Reference": "Executive Order 13111 ; Executive Order 11348; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-1.020.180",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable logistics, controls, processes, and workflows to achieve an effective end-to-end talent development experience."
+            "Business Capability Statement": "Provide adaptable logistics, controls, processes, and workflows to achieve an effective end-to-end talent development experience.",
+            "Authoritative Reference": "5 U.S. Code § 4103 ; 5 CFR § 410.202 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.020.190",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure talent development offerings meet user needs, goals, and quality standards."
+            "Business Capability Statement": "Ensure talent development offerings meet user needs, goals, and quality standards.",
+            "Authoritative Reference": "5 U.S. Code § 4103 ; 5 CFR § 410.201 ; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-1.020.200",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Operational Planning and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the mechanism to adjust organizational talent development plans based on talent development evaluation data."
+            "Business Capability Statement": "Provide the mechanism to adjust organizational talent development plans based on talent development evaluation data.",
+            "Authoritative Reference": "5 U.S. Code § 4103; Executive Order 11348; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-1.020.210",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Knowledge Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.020 Talent Development Operational Planning and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 30 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-1.030.010",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Knowledge Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.030 Talent Development Knowledge Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to easily search, identify, and evaluate existing content that could meet a requirement for deployment in a specific agency."
+            "Business Capability Statement": "Provide the ability to easily search, identify, and evaluate existing content that could meet a requirement for deployment in a specific agency.",
+            "Authoritative Reference": "Executive Order 13111 ; Executive Order 11348; 5 CFR § 410.305 "
         },
         {
             "Capability ID": "HCM.A3-1.030.020",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Knowledge Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.030 Talent Development Knowledge Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable talent development controls, processes, and workflows to manage learning content and materials."
+            "Business Capability Statement": "Provide adaptable talent development controls, processes, and workflows to manage learning content and materials.",
+            "Authoritative Reference": "5 U.S. Code § 4103 ; 5 CFR § 410.202 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.030.030",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Knowledge Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.030 Talent Development Knowledge Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure the ability for agencies to share talent development content, facilities and opportunities."
+            "Business Capability Statement": "Ensure the ability for agencies to share talent development content, facilities and opportunities.",
+            "Authoritative Reference": "5 U.S. Code § 4118; 5 CFR § 410.305 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-1.030.040",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Knowledge Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.030 Talent Development Knowledge Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure that all Talent Development activities are accessible to all users."
+            "Business Capability Statement": "Ensure that all Talent Development activities are accessible to all users.",
+            "Authoritative Reference": "5 CFR § 250.204 ; Executive Order 11348; 5 CFR § 410.203 "
         },
         {
             "Capability ID": "HCM.A3-1.030.050",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Knowledge Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.030 Talent Development Knowledge Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to share Talent Development resources across agencies and external entities."
+            "Business Capability Statement": "Provide the ability to share Talent Development resources across agencies and external entities.",
+            "Authoritative Reference": "5 U.S. Code § 4118; 5 CFR § 410.201 ; 5 CFR § 410.305 "
         },
         {
             "Capability ID": "HCM.A3-1.030.060",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Knowledge Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.030 Talent Development Knowledge Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to categorize Talent Development content (e.g. meta data)."
+            "Business Capability Statement": "Provide the ability to categorize Talent Development content (e.g. meta data).",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 U.S. Code § 4115 "
         },
         {
             "Capability ID": "HCM.A3-1.030.070",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Knowledge Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.030 Talent Development Knowledge Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to enable virtual collaboration and sharing of expertise."
+            "Business Capability Statement": "Establish the mechanism to enable virtual collaboration and sharing of expertise.",
+            "Authoritative Reference": "5 CFR § 410.305 ; Executive Order 13111 ; 5 CFR § 410.203 "
         },
         {
             "Capability ID": "HCM.A3-1.030.080",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Knowledge Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.030 Talent Development Knowledge Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide knowledge-sharing opportunities."
+            "Business Capability Statement": "Provide knowledge-sharing opportunities.",
+            "Authoritative Reference": "5 CFR § 410.305 ; Executive Order 13111 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.030.090",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Talent Development Knowledge Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.030 Talent Development Knowledge Management",
             "Input/Output/Process": "O",
-            "Business Capability Statement": "Develop a government-wide Talent Development knowledge management protocol."
+            "Business Capability Statement": "Develop a government-wide Talent Development knowledge management protocol.",
+            "Authoritative Reference": "5 CFR § 410.305 ; Executive Order 11348; 5 CFR § 250.203 "
         },
         {
             "Capability ID": "HCM.A3-1.030.100",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Skills, Competencies Assessment and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.030 Talent Development Knowledge Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 31 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-1.040.010",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Skills, Competencies Assessment and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.040 Skills, Competencies Assessment and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure the ability to address areas of increasing employee responsibility (e.g., managing interdisciplinary workforce, managing employees with non-traditional career patterns) in planning effective leadership talent development activities."
+            "Business Capability Statement": "Ensure the ability to address areas of increasing employee responsibility (e.g., managing interdisciplinary workforce, managing employees with non-traditional career patterns) in planning effective leadership talent development activities.",
+            "Authoritative Reference": "5 U.S. Code § 4121; 5 CFR § 412.202 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-1.040.020",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Skills, Competencies Assessment and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.040 Skills, Competencies Assessment and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to integrate succession and workforce planning goals into individual development plans."
+            "Business Capability Statement": "Establish the mechanism to integrate succession and workforce planning goals into individual development plans.",
+            "Authoritative Reference": "5 U.S. Code § 4121 ; 5 CFR § 412.202 ; 5 CFR § 412.201 "
         },
         {
             "Capability ID": "HCM.A3-1.040.030",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Skills, Competencies Assessment and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.040 Skills, Competencies Assessment and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to identify, plan for and track business objectives and evaluate the effectiveness of learning interventions to address those objectives."
+            "Business Capability Statement": "Establish the mechanism to identify, plan for and track business objectives and evaluate the effectiveness of learning interventions to address those objectives.",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-1.040.040",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Skills, Competencies Assessment and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.040 Skills, Competencies Assessment and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure training is aligned with agency approved, mission-related, measurable competencies."
+            "Business Capability Statement": "Ensure training is aligned with agency approved, mission-related, measurable competencies.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 250.204 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-1.040.050",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Skills, Competencies Assessment and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.040 Skills, Competencies Assessment and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to conduct training needs assessments."
+            "Business Capability Statement": "Establish the mechanism to conduct training needs assessments.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 ; 5 U.S. Code § 4118 "
         },
         {
             "Capability ID": "HCM.A3-1.040.060",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Skills, Competencies Assessment and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.040 Skills, Competencies Assessment and Management",
             "Input/Output/Process": "O",
-            "Business Capability Statement": "Develop competency benchmarks (i.e. Technical, Leadership)."
+            "Business Capability Statement": "Develop competency benchmarks (i.e. Technical, Leadership).",
+            "Authoritative Reference": "5 CFR § 412.102 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-1.040.070",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Skills, Competencies Assessment and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.040 Skills, Competencies Assessment and Management",
             "Input/Output/Process": "O",
-            "Business Capability Statement": "Provide the framework for competency models to be created for mission critical occupations."
+            "Business Capability Statement": "Provide the framework for competency models to be created for mission critical occupations.",
+            "Authoritative Reference": "5 CFR § 412.102 ; 5 CFR § 410.201 ; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-1.040.080",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Skills, Competencies Assessment and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.040 Skills, Competencies Assessment and Management",
             "Input/Output/Process": "O/P",
-            "Business Capability Statement": "Provide adaptable competency assessment controls, processes, and workflows to identify gaps, recommended learning, and confirm the gaps have been closed."
+            "Business Capability Statement": "Provide adaptable competency assessment controls, processes, and workflows to identify gaps, recommended learning, and confirm the gaps have been closed.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-1.040.090",
-            "Function": "Talent Development Planning",
-            "Activity Name": "Skills, Competencies Assessment and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.040 Skills, Competencies Assessment and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability for supervisors to review competency assessments."
+            "Business Capability Statement": "Provide the ability for supervisors to review competency assessments.",
+            "Authoritative Reference": "5 CFR § 412.102 ; 5 CFR § 412.201 "
         },
         {
             "Capability ID": "HCM.A3-1.040.100",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Coaching Program Design and Management",
+            "Function": "HCM.A3-1 Talent Development Planning",
+            "Activity Name": "HCM.A3-1.040 Skills, Competencies Assessment and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 32 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-2.010.010",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Coaching Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.010 Coaching Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to align leadership development activities to Executive Core Qualifications (ECQs)."
+            "Business Capability Statement": "Establish the mechanism to align leadership development activities to Executive Core Qualifications (ECQs).",
+            "Authoritative Reference": "5 CFR § 412.302 "
         },
         {
             "Capability ID": "HCM.A3-2.010.020",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Coaching Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.010 Coaching Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data."
+            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data.",
+            "Authoritative Reference": "5 U.S. Code § 4115; 5 CFR § 410.601 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.010.030",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Coaching Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.010 Coaching Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure the ability to address areas of increasing employee responsibility (e.g., managing interdisciplinary workforce, managing employees with non-traditional career patterns) in planning effective leadership talent development activities."
+            "Business Capability Statement": "Ensure the ability to address areas of increasing employee responsibility (e.g., managing interdisciplinary workforce, managing employees with non-traditional career patterns) in planning effective leadership talent development activities.",
+            "Authoritative Reference": "5 U.S. Code § 4121; 5 CFR § 412.202 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.010.040",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Coaching Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.010 Coaching Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect and analyze summative evaluation data (e.g. participant/instructor/content impressions and reactions; expected work outputs, business outcomes)."
+            "Business Capability Statement": "Establish the mechanism to collect and analyze summative evaluation data (e.g. participant/instructor/content impressions and reactions; expected work outputs, business outcomes).",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 U.S. Code § 4103 "
         },
         {
             "Capability ID": "HCM.A3-2.010.050",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.010 Coaching Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 33 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-2.020.010",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to align leadership development activities to Executive Core Qualifications (ECQs). "
+            "Business Capability Statement": "Establish the mechanism to align leadership development activities to Executive Core Qualifications (ECQs). ",
+            "Authoritative Reference": "5 CFR § 412.302 "
         },
         {
             "Capability ID": "HCM.A3-2.020.020",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable talent development controls, processes, and workflows to manage learning content and materials."
+            "Business Capability Statement": "Provide adaptable talent development controls, processes, and workflows to manage learning content and materials.",
+            "Authoritative Reference": "5 U.S. Code § 4103 ; 5 CFR § 410.202 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.020.030",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable content controls, processes, and workflows to add Agency-specific content to existing Governmentwide curriculum."
+            "Business Capability Statement": "Provide adaptable content controls, processes, and workflows to add Agency-specific content to existing Governmentwide curriculum.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.020.040",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to address government-specific training for issues of concern (e.g., procurement, integrity, ethical standards)."
+            "Business Capability Statement": "Establish the mechanism to address government-specific training for issues of concern (e.g., procurement, integrity, ethical standards).",
+            "Authoritative Reference": "5 CFR § 250.204 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.020.050",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data."
+            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data.",
+            "Authoritative Reference": "5 U.S. Code § 4115 ; 5 CFR § 410.601 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.020.060",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure the ability to address areas of increasing employee responsibility (e.g., managing interdisciplinary workforce, managing employees with non-traditional career patterns) in planning effective leadership talent development activities."
+            "Business Capability Statement": "Ensure the ability to address areas of increasing employee responsibility (e.g., managing interdisciplinary workforce, managing employees with non-traditional career patterns) in planning effective leadership talent development activities.",
+            "Authoritative Reference": "5 U.S. Code § 4121; 5 CFR § 412.202 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.020.070",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to conduct content reviews periodically to assess needed changes to learning content in order to maintain its currency and accuracy, and assess time sensitivity of content to prescribe the length between review intervals or conditions triggering them."
+            "Business Capability Statement": "Provide the ability to conduct content reviews periodically to assess needed changes to learning content in order to maintain its currency and accuracy, and assess time sensitivity of content to prescribe the length between review intervals or conditions triggering them.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-2.020.080",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to integrate succession and workforce planning goals into individual development plans."
+            "Business Capability Statement": "Establish the mechanism to integrate succession and workforce planning goals into individual development plans.",
+            "Authoritative Reference": "5 U.S. Code § 4121 ; 5 CFR § 412.202 ; 5 CFR § 412.201 "
         },
         {
             "Capability ID": "HCM.A3-2.020.090",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure the ability to support evaluation of TD outputs and outcomes."
+            "Business Capability Statement": "Ensure the ability to support evaluation of TD outputs and outcomes.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202"
         },
         {
             "Capability ID": "HCM.A3-2.020.100",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure training is aligned with agency approved, mission-related, measurable competencies."
+            "Business Capability Statement": "Ensure training is aligned with agency approved, mission-related, measurable competencies.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 250.204 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.020.110",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to conduct training needs assessments."
+            "Business Capability Statement": "Establish the mechanism to conduct training needs assessments.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 ; 5 U.S. Code § 4118 "
         },
         {
             "Capability ID": "HCM.A3-2.020.120",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure that talent development activities are congruent with the evaluation plan, program learning objectives, expected work outputs, and business outcomes. "
+            "Business Capability Statement": "Ensure that talent development activities are congruent with the evaluation plan, program learning objectives, expected work outputs, and business outcomes. ",
+            "Authoritative Reference": "5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.020.130",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to allow the timely revisions of Talent Development Program components and processes (e.g. courses and curricula, learning activities, duration, instructor, application process, evaluation process) based on formative evaluation data, without having to complete a full development cycle. "
+            "Business Capability Statement": "Establish the mechanism to allow the timely revisions of Talent Development Program components and processes (e.g. courses and curricula, learning activities, duration, instructor, application process, evaluation process) based on formative evaluation data, without having to complete a full development cycle. ",
+            "Authoritative Reference": "5 U.S. Code § 4103 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.020.140",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect and analyze summative evaluation data (e.g. participant/instructor/content impressions and reactions; expected work outputs, business outcomes)."
+            "Business Capability Statement": "Establish the mechanism to collect and analyze summative evaluation data (e.g. participant/instructor/content impressions and reactions; expected work outputs, business outcomes).",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 U.S. Code § 4103 "
         },
         {
             "Capability ID": "HCM.A3-2.020.150",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect, analyze, and document informal learning (e.g. books, volunteer work, self-directed learning)."
+            "Business Capability Statement": "Establish the mechanism to collect, analyze, and document informal learning (e.g. books, volunteer work, self-directed learning).",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.601 "
         },
         {
             "Capability ID": "HCM.A3-2.020.160",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to aggregate training program evaluation results and publish the results in the program course library."
+            "Business Capability Statement": "Establish the mechanism to aggregate training program evaluation results and publish the results in the program course library.",
+            "Authoritative Reference": "5 U.S. Code § 4115 ; 5 CFR § 410.601 "
         },
         {
             "Capability ID": "HCM.A3-2.020.170",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Leadership Development Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to validate that supervisors have completed training as required in 5 CFR 412."
+            "Business Capability Statement": "Establish the mechanism to validate that supervisors have completed training as required in 5 CFR 412.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 412.401 "
         },
         {
             "Capability ID": "HCM.A3-2.020.180",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Individual Development Planning Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.020 Leadership Development Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 34 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-2.030.010",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Individual Development Planning Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.030 Individual Development Planning Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to manage the full life-cycle for IDP creation, review, updates, deleting, re-routes, and close-out; accommodates professional certification requirements. "
+            "Business Capability Statement": "Provide the ability to manage the full life-cycle for IDP creation, review, updates, deleting, re-routes, and close-out; accommodates professional certification requirements. ",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.202 ; 5 CFR § 412.201 "
         },
         {
             "Capability ID": "HCM.A3-2.030.020",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Individual Development Planning Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.030 Individual Development Planning Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data."
+            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data.",
+            "Authoritative Reference": "5 U.S. Code § 4115; 5 CFR § 410.601 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.030.030",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Individual Development Planning Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.030 Individual Development Planning Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure the ability to address areas of increasing employee responsibility (e.g., managing interdisciplinary workforce, managing employees with non-traditional career patterns) in planning effective leadership talent development activities."
+            "Business Capability Statement": "Ensure the ability to address areas of increasing employee responsibility (e.g., managing interdisciplinary workforce, managing employees with non-traditional career patterns) in planning effective leadership talent development activities.",
+            "Authoritative Reference": "5 U.S. Code § 4121; 5 CFR § 410.202; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.030.040",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Individual Development Planning Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.030 Individual Development Planning Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to integrate succession and workforce planning goals into individual development plans."
+            "Business Capability Statement": "Establish the mechanism to integrate succession and workforce planning goals into individual development plans.",
+            "Authoritative Reference": "5 U.S. Code § 4121 ; 5 CFR § 412.202 ; 5 CFR § 412.201 "
         },
         {
             "Capability ID": "HCM.A3-2.030.050",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Individual Development Planning Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.030 Individual Development Planning Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to record, track, and report Talent Development activities."
+            "Business Capability Statement": "Provide the ability to record, track, and report Talent Development activities.",
+            "Authoritative Reference": "5 U.S. Code § 4115; 5 CFR § 410.601 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.030.060",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Individual Development Planning Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.030 Individual Development Planning Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability for supervisors to review competency assessments."
+            "Business Capability Statement": "Provide the ability for supervisors to review competency assessments.",
+            "Authoritative Reference": "5 CFR § 412.102 ; 5 CFR § 412.201 "
         },
         {
             "Capability ID": "HCM.A3-2.030.070",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Individual Development Planning Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.030 Individual Development Planning Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide for employee goal and achievement tracking."
+            "Business Capability Statement": "Provide for employee goal and achievement tracking.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.601 "
         },
         {
             "Capability ID": "HCM.A3-2.030.080",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Individual Development Planning Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.030 Individual Development Planning Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability for employees to view blind, aggregate data comparing competency assessments of the employee population across various positions, grades, and peer groups."
+            "Business Capability Statement": "Provide the ability for employees to view blind, aggregate data comparing competency assessments of the employee population across various positions, grades, and peer groups.",
+            "Authoritative Reference": "5 CFR § 250.203 "
         },
         {
             "Capability ID": "HCM.A3-2.030.090",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Mentoring",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.030 Individual Development Planning Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 35 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-2.040.010",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Mentoring",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.040 Mentoring",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide knowledge-sharing opportunities."
+            "Business Capability Statement": "Provide knowledge-sharing opportunities.",
+            "Authoritative Reference": "5 CFR § 410.305 ; Executive Order 13111 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.040.020",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Mentoring",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.040 Mentoring",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to employ full range of delivery options to meet mission related organizational and talent development needs or requirements."
+            "Business Capability Statement": "Provide the ability to employ full range of delivery options to meet mission related organizational and talent development needs or requirements.",
+            "Authoritative Reference": "5 CFR § 410.203 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.040.030",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Mentoring",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.040 Mentoring",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect and analyze summative evaluation data (e.g. participant/instructor/content impressions and reactions; expected work outputs, business outcomes)."
+            "Business Capability Statement": "Establish the mechanism to collect and analyze summative evaluation data (e.g. participant/instructor/content impressions and reactions; expected work outputs, business outcomes).",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 U.S. Code § 4103 "
         },
         {
             "Capability ID": "HCM.A3-2.040.040",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Mentoring",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.040 Mentoring",
             "Input/Output/Process": "O",
-            "Business Capability Statement": "Provide solution that will support mentoring activities with mentoring tools and online environments to facilitate mentoring."
+            "Business Capability Statement": "Provide solution that will support mentoring activities with mentoring tools and online environments to facilitate mentoring.",
+            "Authoritative Reference": "5 CFR § 412.202; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.040.050",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Mentoring",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.040 Mentoring",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to measure effectiveness and results of mentoring initiatives."
+            "Business Capability Statement": "Provide the ability to measure effectiveness and results of mentoring initiatives.",
+            "Authoritative Reference": "Executive Order 11348; 5 CFR § 412.201 "
         },
         {
             "Capability ID": "HCM.A3-2.040.060",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Mentoring",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.040 Mentoring",
             "Input/Output/Process": "O",
-            "Business Capability Statement": "Establish requirements that define qualifications or characteristics needed to become a mentor."
+            "Business Capability Statement": "Establish requirements that define qualifications or characteristics needed to become a mentor.",
+            "Authoritative Reference": "5 CFR § 412.202 ; 5 CFR § 412.201 "
         },
         {
             "Capability ID": "HCM.A3-2.040.070",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.040 Mentoring",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 36 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-2.050.010",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable talent development controls, processes, and workflows to manage learning content and materials."
+            "Business Capability Statement": "Provide adaptable talent development controls, processes, and workflows to manage learning content and materials.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.050.020",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable content controls, processes, and workflows to add Agency-specific content to existing government-wide curriculum."
+            "Business Capability Statement": "Provide adaptable content controls, processes, and workflows to add Agency-specific content to existing government-wide curriculum.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.050.030",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to address government-specific training for issues of concern (e.g., procurement, integrity, ethical standards)."
+            "Business Capability Statement": "Establish the mechanism to address government-specific training for issues of concern (e.g., procurement, integrity, ethical standards).",
+            "Authoritative Reference": "5 CFR § 250.204 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.050.040",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data."
+            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data.",
+            "Authoritative Reference": "5 U.S. Code § 4115 ; 5 CFR § 410.601 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.050.050",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the mechanism to design, develop, and deliver agency-specific training."
+            "Business Capability Statement": "Provide the mechanism to design, develop, and deliver agency-specific training.",
+            "Authoritative Reference": "5 U.S. Code § 4121 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.050.060",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure occupational curricula can be designed and assigned based on occupational positions."
+            "Business Capability Statement": "Ensure occupational curricula can be designed and assigned based on occupational positions.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.201 ; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-2.050.070",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to conduct content reviews periodically to assess needed changes to learning content in order to maintain its currency and accuracy, and assess time sensitivity of content to prescribe the length between review intervals or conditions triggering them."
+            "Business Capability Statement": "Provide the ability to conduct content reviews periodically to assess needed changes to learning content in order to maintain its currency and accuracy, and assess time sensitivity of content to prescribe the length between review intervals or conditions triggering them.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-2.050.080",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure the ability for agencies to share talent development content, facilities and opportunities."
+            "Business Capability Statement": "Ensure the ability for agencies to share talent development content, facilities and opportunities.",
+            "Authoritative Reference": "5 U.S. Code § 4118 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.050.090",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure the ability to support evaluation of TD outputs and outcomes."
+            "Business Capability Statement": "Ensure the ability to support evaluation of TD outputs and outcomes.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202"
         },
         {
             "Capability ID": "HCM.A3-2.050.100",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure training is aligned with agency approved, mission-related, measurable competencies."
+            "Business Capability Statement": "Ensure training is aligned with agency approved, mission-related, measurable competencies.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 250.204 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.050.110",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to conduct training needs assessments."
+            "Business Capability Statement": "Establish the mechanism to conduct training needs assessments.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 ; 5 U.S. Code § 4118 "
         },
         {
             "Capability ID": "HCM.A3-2.050.120",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure talent development activities are competency based."
+            "Business Capability Statement": "Ensure talent development activities are competency based.",
+            "Authoritative Reference": "5 U.S. Code § 4103 ; 5 CFR § 410.201 ; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-2.050.130",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to establish a specific strategy for remediating learners who did not achieve a successful learning experience."
+            "Business Capability Statement": "Provide the ability to establish a specific strategy for remediating learners who did not achieve a successful learning experience.",
+            "Authoritative Reference": "5 U.S. Code § 4103 ; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-2.050.140",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure that talent development activities are congruent with the evaluation plan, program learning objectives, expected work outputs, and business outcomes. "
+            "Business Capability Statement": "Ensure that talent development activities are congruent with the evaluation plan, program learning objectives, expected work outputs, and business outcomes. ",
+            "Authoritative Reference": "5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.050.150",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to allow the timely revisions of Talent Development Program components and processes (e.g. courses and curricula, learning activities, duration, instructor, application process, evaluation process) based on formative evaluation data, without having to complete a full development cycle. "
+            "Business Capability Statement": "Establish the mechanism to allow the timely revisions of Talent Development Program components and processes (e.g. courses and curricula, learning activities, duration, instructor, application process, evaluation process) based on formative evaluation data, without having to complete a full development cycle. ",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.050.160",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect and analyze summative evaluation data (e.g. participant/instructor/content impressions and reactions; expected work outputs, business outcomes)."
+            "Business Capability Statement": "Establish the mechanism to collect and analyze summative evaluation data (e.g. participant/instructor/content impressions and reactions; expected work outputs, business outcomes).",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 U.S. Code § 4103 "
         },
         {
             "Capability ID": "HCM.A3-2.050.170",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect, analyze, and document informal learning (e.g. books, volunteer work, self-directed learning)."
+            "Business Capability Statement": "Establish the mechanism to collect, analyze, and document informal learning (e.g. books, volunteer work, self-directed learning).",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.601 "
         },
         {
             "Capability ID": "HCM.A3-2.050.180",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to aggregate training program evaluation results and publish the results in the program course library."
+            "Business Capability Statement": "Establish the mechanism to aggregate training program evaluation results and publish the results in the program course library.",
+            "Authoritative Reference": "5 U.S. Code § 4115 ; 5 CFR § 410.601 "
         },
         {
             "Capability ID": "HCM.A3-2.050.190",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Course Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to test out of a course using indicators that are valid, reliable predictors of work performance."
+            "Business Capability Statement": "Provide the ability to test out of a course using indicators that are valid, reliable predictors of work performance.",
+            "Authoritative Reference": "Executive Order 11348 ; 5 U.S. Code § 4103 "
         },
         {
             "Capability ID": "HCM.A3-2.050.200",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.050 Course Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 37 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-2.060.010",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable talent development controls, processes, and workflows to manage learning content and materials."
+            "Business Capability Statement": "Provide adaptable talent development controls, processes, and workflows to manage learning content and materials.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.060.020",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable content controls, processes, and workflows to add Agency-specific content to existing government-wide curriculum."
+            "Business Capability Statement": "Provide adaptable content controls, processes, and workflows to add Agency-specific content to existing government-wide curriculum.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.060.030",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to address government-specific training for issues of concern (e.g., procurement, integrity, ethical standards)."
+            "Business Capability Statement": "Establish the mechanism to address government-specific training for issues of concern (e.g., procurement, integrity, ethical standards).",
+            "Authoritative Reference": "5 CFR § 250.204 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.060.040",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable controls, processes, and workflows to ensure that employees in jobs with re-training and/or continuing education requirements are tracked and receive appropriate training to maintain qualifications for certification, licensure, etc."
+            "Business Capability Statement": "Provide adaptable controls, processes, and workflows to ensure that employees in jobs with re-training and/or continuing education requirements are tracked and receive appropriate training to maintain qualifications for certification, licensure, etc.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-2.060.050",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data."
+            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data.",
+            "Authoritative Reference": "5 U.S. Code § 4115; 5 CFR § 410.601; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.060.060",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the mechanism to design, develop, and deliver agency-specific training."
+            "Business Capability Statement": "Provide the mechanism to design, develop, and deliver agency-specific training.",
+            "Authoritative Reference": "5 U.S. Code § 4121 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.060.070",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure occupational curricula can be designed and assigned based on occupational positions."
+            "Business Capability Statement": "Ensure occupational curricula can be designed and assigned based on occupational positions.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.201 ; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-2.060.080",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to conduct content reviews periodically to assess needed changes to learning content in order to maintain its currency and accuracy, and assess time sensitivity of content to prescribe the length between review intervals or conditions triggering them"
+            "Business Capability Statement": "Provide the ability to conduct content reviews periodically to assess needed changes to learning content in order to maintain its currency and accuracy, and assess time sensitivity of content to prescribe the length between review intervals or conditions triggering them",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-2.060.090",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure the ability to support evaluation of TD outputs and outcomes."
+            "Business Capability Statement": "Ensure the ability to support evaluation of TD outputs and outcomes.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-2.060.100",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure training is aligned with agency approved, mission-related, measurable competencies."
+            "Business Capability Statement": "Ensure training is aligned with agency approved, mission-related, measurable competencies.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 250.204 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-2.060.110",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to conduct training needs assessments."
+            "Business Capability Statement": "Establish the mechanism to conduct training needs assessments.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 ; 5 U.S. Code § 4118 "
         },
         {
             "Capability ID": "HCM.A3-2.060.120",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure talent development activities are competency based."
+            "Business Capability Statement": "Ensure talent development activities are competency based.",
+            "Authoritative Reference": "5 U.S. Code § 4103 ; 5 CFR § 410.201 ; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-2.060.130",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure that talent development activities are congruent with the evaluation plan, program learning objectives, expected work outputs, and business outcomes. "
+            "Business Capability Statement": "Ensure that talent development activities are congruent with the evaluation plan, program learning objectives, expected work outputs, and business outcomes. ",
+            "Authoritative Reference": "5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.060.140",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to allow the timely revisions of Talent Development Program components and processes (e.g. courses and curricula, learning activities, duration, instructor, application process, evaluation process) based on formative evaluation data, without having to complete a full development cycle. "
+            "Business Capability Statement": "Establish the mechanism to allow the timely revisions of Talent Development Program components and processes (e.g. courses and curricula, learning activities, duration, instructor, application process, evaluation process) based on formative evaluation data, without having to complete a full development cycle. ",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-2.060.150",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect and analyze summative evaluation data (e.g. participant/instructor/content impressions and reactions; expected work outputs, business outcomes)."
+            "Business Capability Statement": "Establish the mechanism to collect and analyze summative evaluation data (e.g. participant/instructor/content impressions and reactions; expected work outputs, business outcomes).",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 U.S. Code § 4103 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-2.060.160",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect, analyze, and document informal learning (e.g. books, volunteer work, self-directed learning)."
+            "Business Capability Statement": "Establish the mechanism to collect, analyze, and document informal learning (e.g. books, volunteer work, self-directed learning).",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.601 "
         },
         {
             "Capability ID": "HCM.A3-2.060.170",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to aggregate training program evaluation results and publish the results in the program course library."
+            "Business Capability Statement": "Establish the mechanism to aggregate training program evaluation results and publish the results in the program course library.",
+            "Authoritative Reference": "5 U.S. Code § 4115 ; 5 CFR § 410.601 "
         },
         {
             "Capability ID": "HCM.A3-2.060.180",
-            "Function": "Talent Development and Training",
-            "Activity Name": "Job Specific Qualification Program Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to track on the job training (OJT) progress against relevant individual work assignments."
+            "Business Capability Statement": "Establish the mechanism to track on the job training (OJT) progress against relevant individual work assignments.",
+            "Authoritative Reference": "5 CFR § 410.601 ; Executive Order 11348; 5 CFR § 410.307 "
         },
         {
             "Capability ID": "HCM.A3-2.060.190",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-2 Talent Development and Training",
+            "Activity Name": "HCM.A3-2.060 Job Specific Qualification Program Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 38 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-3.010.010",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to easily search, identify, and evaluate existing content that could meet a requirement for deployment in a specific agency."
+            "Business Capability Statement": "Provide the ability to easily search, identify, and evaluate existing content that could meet a requirement for deployment in a specific agency.",
+            "Authoritative Reference": "Executive Order 13111 ; Executive Order 11348; 5 CFR § 410.305 "
         },
         {
             "Capability ID": "HCM.A3-3.010.020",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable talent development controls, processes, and workflows to manage learning content and materials."
+            "Business Capability Statement": "Provide adaptable talent development controls, processes, and workflows to manage learning content and materials.",
+            "Authoritative Reference": "5 U.S. Code § 4103; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.010.030",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable content controls, processes, and workflows to add Agency-specific content to existing government-wide curriculum."
+            "Business Capability Statement": "Provide adaptable content controls, processes, and workflows to add Agency-specific content to existing government-wide curriculum.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.010.040",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to conduct content reviews periodically to assess needed changes to learning content in order to maintain its currency and accuracy, and assess time sensitivity of content to prescribe the length between review intervals or conditions triggering them."
+            "Business Capability Statement": "Provide the ability to conduct content reviews periodically to assess needed changes to learning content in order to maintain its currency and accuracy, and assess time sensitivity of content to prescribe the length between review intervals or conditions triggering them.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-3.010.050",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure the ability for agencies to share talent development content, facilities and opportunities."
+            "Business Capability Statement": "Ensure the ability for agencies to share talent development content, facilities and opportunities.",
+            "Authoritative Reference": "5 U.S. Code § 4118 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-3.010.060",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure that all Talent Development activities are accessible to all users."
+            "Business Capability Statement": "Ensure that all Talent Development activities are accessible to all users.",
+            "Authoritative Reference": "5 CFR § 250.204 ; Executive Order 11348; 5 CFR § 410.203 "
         },
         {
             "Capability ID": "HCM.A3-3.010.070",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to share Talent Development resources across agencies and external entities."
+            "Business Capability Statement": "Provide the ability to share Talent Development resources across agencies and external entities.",
+            "Authoritative Reference": "5 U.S. Code § 4118 ; 5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-3.010.080",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to categorize Talent Development content (e.g. meta data)."
+            "Business Capability Statement": "Provide the ability to categorize Talent Development content (e.g. meta data).",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 U.S. Code § 4115 "
         },
         {
             "Capability ID": "HCM.A3-3.010.090",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability for stakeholders to easily access and utilize Talent Development programs, resources, and systems."
+            "Business Capability Statement": "Provide the ability for stakeholders to easily access and utilize Talent Development programs, resources, and systems.",
+            "Authoritative Reference": "5 CFR § 410.305 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.010.100",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to aggregate training program evaluation results and publish the results in the program course library."
+            "Business Capability Statement": "Establish the mechanism to aggregate training program evaluation results and publish the results in the program course library.",
+            "Authoritative Reference": "5 U.S. Code § 4115 ; 5 CFR § 410.601 "
         },
         {
             "Capability ID": "HCM.A3-3.010.110",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to create, record, and store formal and informal (e.g., MOOC, website content and videos, private study, work-life experience, external learning activities and artifacts) talent development activities and track these activities as credit hours in a student transcript."
+            "Business Capability Statement": "Establish the mechanism to create, record, and store formal and informal (e.g., MOOC, website content and videos, private study, work-life experience, external learning activities and artifacts) talent development activities and track these activities as credit hours in a student transcript.",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 U.S. Code § 4115 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.010.120",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish mechanism to track formal and informal activities that integrate with other Talent Development services."
+            "Business Capability Statement": "Establish mechanism to track formal and informal activities that integrate with other Talent Development services.",
+            "Authoritative Reference": "5 CFR § 410.601; 5 U.S. Code § 4115 ; 5 U.S. Code § 4118 "
         },
         {
             "Capability ID": "HCM.A3-3.010.130",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Library Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure all Talent Development content is separated into sharable content objects (e.g. SCORM or other similar methodology)."
+            "Business Capability Statement": "Ensure all Talent Development content is separated into sharable content objects (e.g. SCORM or other similar methodology).",
+            "Authoritative Reference": "No authorative sources identified"
         },
         {
             "Capability ID": "HCM.A3-3.010.140",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.010 Course Library Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 39 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-3.020.010",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to allow agencies to pay for expenses associated with talent development."
+            "Business Capability Statement": "Establish the mechanism to allow agencies to pay for expenses associated with talent development.",
+            "Authoritative Reference": "5 CFR § 410.401 "
         },
         {
             "Capability ID": "HCM.A3-3.020.020",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to create, change, and view user information or profile."
+            "Business Capability Statement": "Provide the ability to create, change, and view user information or profile.",
+            "Authoritative Reference": "5 CFR § 293.103 ; 5 CFR § 293.106 "
         },
         {
             "Capability ID": "HCM.A3-3.020.030",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the mechanism to design, develop, and deliver agency-specific training."
+            "Business Capability Statement": "Provide the mechanism to design, develop, and deliver agency-specific training.",
+            "Authoritative Reference": "5 U.S. Code § 4121 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.020.040",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to identify, assign, and track employee compliance and completion of mandatory training based on specific criteria."
+            "Business Capability Statement": "Establish the mechanism to identify, assign, and track employee compliance and completion of mandatory training based on specific criteria.",
+            "Authoritative Reference": "5 CFR § 410.601; 5 U.S. Code § 4103 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-3.020.050",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Ensure occupational curricula can be designed and assigned based on occupational positions."
+            "Business Capability Statement": "Ensure occupational curricula can be designed and assigned based on occupational positions.",
+            "Authoritative Reference": "5 U.S. Code § 4103 ; 5 CFR § 410.201 ; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-3.020.060",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to provide a talent development request and approval process."
+            "Business Capability Statement": "Establish the mechanism to provide a talent development request and approval process.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.306 ; 5 U.S. Code § 4118 "
         },
         {
             "Capability ID": "HCM.A3-3.020.070",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to register for and/or withdraw from Talent Development activities."
+            "Business Capability Statement": "Provide the ability to register for and/or withdraw from Talent Development activities.",
+            "Authoritative Reference": "No authorative sources identified"
         },
         {
             "Capability ID": "HCM.A3-3.020.080",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to employ full range of delivery options to meet mission related organizational and talent development needs or requirements."
+            "Business Capability Statement": "Provide the ability to employ full range of delivery options to meet mission related organizational and talent development needs or requirements.",
+            "Authoritative Reference": "5 CFR § 410.203 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.020.090",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to communicate with and capture data from participants."
+            "Business Capability Statement": "Establish the mechanism to communicate with and capture data from participants.",
+            "Authoritative Reference": "5 CFR § 250.302 ; 5 U.S. Code § 4118 "
         },
         {
             "Capability ID": "HCM.A3-3.020.100",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to allow participants to communicate with one another in a structured environment with moderator."
+            "Business Capability Statement": "Establish the mechanism to allow participants to communicate with one another in a structured environment with moderator.",
+            "Authoritative Reference": "No authorative sources identified"
         },
         {
             "Capability ID": "HCM.A3-3.020.110",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to deliver, manage, and track synchronous virtual training."
+            "Business Capability Statement": "Establish the mechanism to deliver, manage, and track synchronous virtual training.",
+            "Authoritative Reference": "5 CFR § 410.203 ; 5 CFR § 410.601 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.020.120",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to deliver, manage, and track asynchronous virtual training."
+            "Business Capability Statement": "Establish the mechanism to deliver, manage, and track asynchronous virtual training.",
+            "Authoritative Reference": "5 CFR § 410.203 ; 5 CFR § 410.601 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.020.130",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to deliver, manage and track formal, informal, non-traditional, traditional, and pilot talent development programs."
+            "Business Capability Statement": "Establish the mechanism to deliver, manage and track formal, informal, non-traditional, traditional, and pilot talent development programs.",
+            "Authoritative Reference": "5 CFR § 410.203 ; 5 U.S. Code § 4121 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.020.140",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to record, track, and report Talent Development activities."
+            "Business Capability Statement": "Provide the ability to record, track, and report Talent Development activities.",
+            "Authoritative Reference": "5 U.S. Code § 4115; 5 CFR § 410.601 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.020.150",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide adaptable logistics, controls, processes, and workflows to achieve an effective end-to-end talent development experience."
+            "Business Capability Statement": "Provide adaptable logistics, controls, processes, and workflows to achieve an effective end-to-end talent development experience.",
+            "Authoritative Reference": "5 U.S. Code § 4103 ; 5 CFR § 410.202 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.020.160",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to track attendance, cancellations, and absences for learning activities."
+            "Business Capability Statement": "Provide the ability to track attendance, cancellations, and absences for learning activities.",
+            "Authoritative Reference": "5 CFR § 410.601; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-3.020.170",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability for stakeholders to easily access and utilize Talent Development programs, resources, and systems."
+            "Business Capability Statement": "Provide the ability for stakeholders to easily access and utilize Talent Development programs, resources, and systems.",
+            "Authoritative Reference": "5 CFR § 410.305 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.020.180",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability for employees to view their own training history."
+            "Business Capability Statement": "Provide the ability for employees to view their own training history.",
+            "Authoritative Reference": "5 CFR § 293.310 ; 5 CFR § 293.302 "
         },
         {
             "Capability ID": "HCM.A3-3.020.190",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to create, record, and store formal and informal (e.g., MOOC, website content and videos, private study, work-life experience, external learning activities and artifacts) talent development activities and track these activities as credit hours in a student transcript."
+            "Business Capability Statement": "Establish the mechanism to create, record, and store formal and informal (e.g., MOOC, website content and videos, private study, work-life experience, external learning activities and artifacts) talent development activities and track these activities as credit hours in a student transcript.",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 U.S. Code § 4115 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.020.200",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to gather context data surrounding a learning event (e.g., environment in which the training occurred, modality, location)."
+            "Business Capability Statement": "Establish the mechanism to gather context data surrounding a learning event (e.g., environment in which the training occurred, modality, location).",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 U.S. Code § 4103 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-3.020.210",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to test out of a course using indicators that are valid, reliable predictors of work performance."
+            "Business Capability Statement": "Provide the ability to test out of a course using indicators that are valid, reliable predictors of work performance.",
+            "Authoritative Reference": "Executive Order 11348 ; 5 U.S. Code § 4103 "
         },
         {
             "Capability ID": "HCM.A3-3.020.220",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect and analyze training hours/items required for qualifications and/or certifications."
+            "Business Capability Statement": "Establish the mechanism to collect and analyze training hours/items required for qualifications and/or certifications.",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.020.230",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide collection of all training data in accordance with federal SF-182 form."
+            "Business Capability Statement": "Provide collection of all training data in accordance with federal SF-182 form.",
+            "Authoritative Reference": "5 CFR § 410.601 "
         },
         {
             "Capability ID": "HCM.A3-3.020.240",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "O",
-            "Business Capability Statement": "Provide solution that sends automated status notifications to the learner and the supervisor(via the stated preferred method, as set in the employee profile) any time there are changes in the status of the course (e.g. a course is cancelled) or the employee’s enrollment status (e.g. from Requested to Enrolled)."
+            "Business Capability Statement": "Provide solution that sends automated status notifications to the learner and the supervisor(via the stated preferred method, as set in the employee profile) any time there are changes in the status of the course (e.g. a course is cancelled) or the employee’s enrollment status (e.g. from Requested to Enrolled).",
+            "Authoritative Reference": "No authorative sources identified"
         },
         {
             "Capability ID": "HCM.A3-3.020.250",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide mechanism to generate course notifications, which may contain customized text and a combination of employee and course attributes. Notifications should be sent electronically. Notifications such as registration acknowledgement, waitlist, enrollment and cancellation are just a few examples."
+            "Business Capability Statement": "Provide mechanism to generate course notifications, which may contain customized text and a combination of employee and course attributes. Notifications should be sent electronically. Notifications such as registration acknowledgement, waitlist, enrollment and cancellation are just a few examples.",
+            "Authoritative Reference": "No authorative sources identified"
         },
         {
             "Capability ID": "HCM.A3-3.020.260",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Registration and Delivery Design and Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide means for authorized administrators to view class rosters. Data to be included on roster should be configurable by admin staff. e.g. include or exclude any fields: org code, e-mail address, payment status, completion status, duration, or other)."
+            "Business Capability Statement": "Provide means for authorized administrators to view class rosters. Data to be included on roster should be configurable by admin staff. e.g. include or exclude any fields: org code, e-mail address, payment status, completion status, duration, or other).",
+            "Authoritative Reference": "5 CFR § 293.107 "
         },
         {
             "Capability ID": "HCM.A3-3.020.270",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Certification and Credit Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.020 Course Registration and Delivery Design and Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 40 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-3.030.010",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Certification and Credit Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.030 Course Certification and Credit Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to allow agencies to pay for expenses associated with talent development."
+            "Business Capability Statement": "Establish the mechanism to allow agencies to pay for expenses associated with talent development.",
+            "Authoritative Reference": "5 CFR § 410.401 "
         },
         {
             "Capability ID": "HCM.A3-3.030.020",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Certification and Credit Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.030 Course Certification and Credit Management",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable controls, processes, and workflows to ensure that employees in jobs with re-training and/or continuing education requirements are tracked and receive appropriate training to maintain qualifications for certification, licensure, etc."
+            "Business Capability Statement": "Provide adaptable controls, processes, and workflows to ensure that employees in jobs with re-training and/or continuing education requirements are tracked and receive appropriate training to maintain qualifications for certification, licensure, etc.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.030.030",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Certification and Credit Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.030 Course Certification and Credit Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to manage certification and licensing."
+            "Business Capability Statement": "Provide the ability to manage certification and licensing.",
+            "Authoritative Reference": "No authorative sources identified"
         },
         {
             "Capability ID": "HCM.A3-3.030.040",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Certification and Credit Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.030 Course Certification and Credit Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to support a multi-level employee certification program (i.e., COR certifications, FAC-C/FAC-P/PM)."
+            "Business Capability Statement": "Provide the ability to support a multi-level employee certification program (i.e., COR certifications, FAC-C/FAC-P/PM).",
+            "Authoritative Reference": "Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.030.050",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Certification and Credit Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.030 Course Certification and Credit Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to track individual certifications, completions, training events activities, and learning histories; regardless of federal agency"
+            "Business Capability Statement": "Establish the mechanism to track individual certifications, completions, training events activities, and learning histories; regardless of federal agency",
+            "Authoritative Reference": "5 CFR § 293.103 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.030.060",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Certification and Credit Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.030 Course Certification and Credit Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect and analyze training hours/items required for qualifications and/or certifications."
+            "Business Capability Statement": "Establish the mechanism to collect and analyze training hours/items required for qualifications and/or certifications.",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.030.070",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Certification and Credit Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.030 Course Certification and Credit Management",
             "Input/Output/Process": "O",
-            "Business Capability Statement": "Provide solution that can track and update training records when individual certification requirements are completed."
+            "Business Capability Statement": "Provide solution that can track and update training records when individual certification requirements are completed.",
+            "Authoritative Reference": "5 CFR § 410.601 "
         },
         {
             "Capability ID": "HCM.A3-3.030.080",
-            "Function": "Learning Administration",
-            "Activity Name": "Course Certification and Credit Management",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.030 Course Certification and Credit Management",
             "Input/Output/Process": "O",
-            "Business Capability Statement": "Provide solution that allows employees the ability to input their own external training information for courses taken elsewhere. Before training becomes part of the student’s record, the supervisor or training approver must approve it."
+            "Business Capability Statement": "Provide solution that allows employees the ability to input their own external training information for courses taken elsewhere. Before training becomes part of the student’s record, the supervisor or training approver must approve it.",
+            "Authoritative Reference": "No authorative sources identified"
         },
         {
             "Capability ID": "HCM.A3-3.030.090",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.030 Course Certification and Credit Management",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 41 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-3.040.010",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to create, change, and view user information or profile."
+            "Business Capability Statement": "Provide the ability to create, change, and view user information or profile.",
+            "Authoritative Reference": "5 CFR § 293.103 ; 5 CFR § 293.106 "
         },
         {
             "Capability ID": "HCM.A3-3.040.020",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide adaptable controls, processes, and workflows to ensure that employees in jobs with re-training and/or continuing education requirements are tracked and receive appropriate training to maintain qualifications for certification, licensure, etc."
+            "Business Capability Statement": "Provide adaptable controls, processes, and workflows to ensure that employees in jobs with re-training and/or continuing education requirements are tracked and receive appropriate training to maintain qualifications for certification, licensure, etc.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 250.204 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.040.030",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism for managing all employee related TD data."
+            "Business Capability Statement": "Establish the mechanism for managing all employee related TD data.",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 CFR § 293.106 "
         },
         {
             "Capability ID": "HCM.A3-3.040.040",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data."
+            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data.",
+            "Authoritative Reference": "5 U.S. Code § 4115; 5 CFR § 410.601; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.040.050",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to ensure employee data remains private."
+            "Business Capability Statement": "Establish the mechanism to ensure employee data remains private.",
+            "Authoritative Reference": "5 CFR § 293.106 ; 5 CFR § 293.108 ; 5 CFR Subpart A "
         },
         {
             "Capability ID": "HCM.A3-3.040.060",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to report talent development activities to EHRI."
+            "Business Capability Statement": "Establish the mechanism to report talent development activities to EHRI.",
+            "Authoritative Reference": "5 CFR § 293.303 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.040.070",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability for employee training histories to follow employees through the entire employee lifecycle and across federal agencies."
+            "Business Capability Statement": "Provide the ability for employee training histories to follow employees through the entire employee lifecycle and across federal agencies.",
+            "Authoritative Reference": "5 CFR § 293.302 ; 5 CFR § 293.303 "
         },
         {
             "Capability ID": "HCM.A3-3.040.080",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to share Talent Development resources across agencies and external entities."
+            "Business Capability Statement": "Provide the ability to share Talent Development resources across agencies and external entities.",
+            "Authoritative Reference": "5 U.S. Code § 4118; 5 CFR § 410.201 ; 5 CFR § 410.305 "
         },
         {
             "Capability ID": "HCM.A3-3.040.090",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to categorize Talent Development content (e.g. meta data)."
+            "Business Capability Statement": "Provide the ability to categorize Talent Development content (e.g. meta data).",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 U.S. Code § 4115 "
         },
         {
             "Capability ID": "HCM.A3-3.040.100",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provides the ability to audit and edit learning records."
+            "Business Capability Statement": "Provides the ability to audit and edit learning records.",
+            "Authoritative Reference": "5 CFR § 250.204 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.040.110",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to coordinate data migration and implementation."
+            "Business Capability Statement": "Provide the ability to coordinate data migration and implementation.",
+            "Authoritative Reference": "No authorative sources identified"
         },
         {
             "Capability ID": "HCM.A3-3.040.120",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provides the ability to exchange data between and among other business systems."
+            "Business Capability Statement": "Provides the ability to exchange data between and among other business systems.",
+            "Authoritative Reference": "5 U.S. Code § 4118; 44 U.S. Code § 3506 "
         },
         {
             "Capability ID": "HCM.A3-3.040.130",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to track individual certifications, completions, training activities, and learning histories; regardless of federal agency."
+            "Business Capability Statement": "Establish the mechanism to track individual certifications, completions, training activities, and learning histories; regardless of federal agency.",
+            "Authoritative Reference": "5 CFR § 293.303 ; 5 CFR § 410.601 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.040.140",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to report talent development data to other federal agencies as appropriate (e.g., OPM EHRI, GSA, OMB)."
+            "Business Capability Statement": "Establish the mechanism to report talent development data to other federal agencies as appropriate (e.g., OPM EHRI, GSA, OMB).",
+            "Authoritative Reference": "5 CFR § 293.303 ; 5 CFR § 410.601 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.040.150",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability for employees to view their own training history."
+            "Business Capability Statement": "Provide the ability for employees to view their own training history.",
+            "Authoritative Reference": "5 CFR § 293.310 ; 5 CFR § 293.302 "
         },
         {
             "Capability ID": "HCM.A3-3.040.160",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to create, record, and store formal and informal (e.g., MOOC, website content and videos, private study, work-life experience, external learning activities and artifacts) talent development activities and track these activities as credit hours in a student transcript."
+            "Business Capability Statement": "Establish the mechanism to create, record, and store formal and informal (e.g., MOOC, website content and videos, private study, work-life experience, external learning activities and artifacts) talent development activities and track these activities as credit hours in a student transcript.",
+            "Authoritative Reference": "5 CFR § 410.601; 5 U.S. Code § 4115 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.040.170",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism for user audit trails (e.g., name, create time and date, and updates to time and date)."
+            "Business Capability Statement": "Establish the mechanism for user audit trails (e.g., name, create time and date, and updates to time and date).",
+            "Authoritative Reference": "5 CFR § 410.601; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-3.040.180",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism for tracking a comprehensive range of data (including metadata) for all types of talent development activities."
+            "Business Capability Statement": "Establish the mechanism for tracking a comprehensive range of data (including metadata) for all types of talent development activities.",
+            "Authoritative Reference": "5 CFR § 410.601"
         },
         {
             "Capability ID": "HCM.A3-3.040.190",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to provide consistent and transparent government-wide reporting of talent development performance data."
+            "Business Capability Statement": "Establish the mechanism to provide consistent and transparent government-wide reporting of talent development performance data.",
+            "Authoritative Reference": "5 U.S. Code § 4118 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.040.200",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect and analyze training hours/items required for qualifications and/or certifications."
+            "Business Capability Statement": "Establish the mechanism to collect and analyze training hours/items required for qualifications and/or certifications.",
+            "Authoritative Reference": "5 CFR § 410.601 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.040.210",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "O",
-            "Business Capability Statement": "Provide solution that can track and update training records when individual certification requirements are completed."
+            "Business Capability Statement": "Provide solution that can track and update training records when individual certification requirements are completed.",
+            "Authoritative Reference": "5 CFR § 410.601"
         },
         {
             "Capability ID": "HCM.A3-3.040.220",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development System Administration",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "O",
-            "Business Capability Statement": "Provide solution that allows employees the ability to input their own external training information for courses taken elsewhere. Before training becomes part of the student’s record, the supervisor or training approver must approve it."
+            "Business Capability Statement": "Provide solution that allows employees the ability to input their own external training information for courses taken elsewhere. Before training becomes part of the student’s record, the supervisor or training approver must approve it.",
+            "Authoritative Reference": "No authorative sources identified"
         },
         {
             "Capability ID": "HCM.A3-3.040.230",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.040 Talent Development System Administration",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 41 CFR § 71.8 "
         },
         {
             "Capability ID": "HCM.A3-3.050.010",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "I",
-            "Business Capability Statement": "Provide adaptable talent development evaluation controls, processes, and workflows to ensure a valid business case exists."
+            "Business Capability Statement": "Provide adaptable talent development evaluation controls, processes, and workflows to ensure a valid business case exists.",
+            "Authoritative Reference": "5 U.S. Code § 4103; 5 CFR § 410.202; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.050.020",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to create, change, and view user information or profile."
+            "Business Capability Statement": "Provide the ability to create, change, and view user information or profile.",
+            "Authoritative Reference": "5 CFR § 293.103 ; 5 CFR § 293.106 "
         },
         {
             "Capability ID": "HCM.A3-3.050.030",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data."
+            "Business Capability Statement": "Provide the ability to collect, analyze, and report multiple types of employee and agency Talent Development data.",
+            "Authoritative Reference": "5 U.S. Code § 4115; 5 CFR § 410.601 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.050.040",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to compare and evaluate cost and effectiveness of equivalent offerings."
+            "Business Capability Statement": "Establish the mechanism to compare and evaluate cost and effectiveness of equivalent offerings.",
+            "Authoritative Reference": "5 U.S. Code § 4103 ; 5 CFR § 410.202 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.050.050",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to report talent development activities to EHRI."
+            "Business Capability Statement": "Establish the mechanism to report talent development activities to EHRI.",
+            "Authoritative Reference": "5 CFR § 293.303 ; 5 CFR § 410.601 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.050.060",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability for employee training histories to follow employees through the entire employee lifecycle and across federal agencies."
+            "Business Capability Statement": "Provide the ability for employee training histories to follow employees through the entire employee lifecycle and across federal agencies.",
+            "Authoritative Reference": "5 CFR § 293.302 ; 5 CFR § 293.303 "
         },
         {
             "Capability ID": "HCM.A3-3.050.070",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to track and report expenses associated with Talent Development opportunities."
+            "Business Capability Statement": "Provide the ability to track and report expenses associated with Talent Development opportunities.",
+            "Authoritative Reference": "5 CFR § 410.601; 5 CFR § 250.204 "
         },
         {
             "Capability ID": "HCM.A3-3.050.080",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to deliver, manage and track formal, informal, non-traditional, traditional, and pilot talent development programs."
+            "Business Capability Statement": "Establish the mechanism to deliver, manage and track formal, informal, non-traditional, traditional, and pilot talent development programs.",
+            "Authoritative Reference": "5 CFR § 410.203 ; 5 U.S. Code § 4121 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.050.090",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to record, track, and report Talent Development activities."
+            "Business Capability Statement": "Provide the ability to record, track, and report Talent Development activities.",
+            "Authoritative Reference": "5 U.S. Code § 4115 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.050.100",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect and analyze summative evaluation data (e.g. participant/instructor/content impressions and reactions; expected work outputs, business outcomes)."
+            "Business Capability Statement": "Establish the mechanism to collect and analyze summative evaluation data (e.g. participant/instructor/content impressions and reactions; expected work outputs, business outcomes).",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 U.S. Code § 4103 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-3.050.110",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to collect, analyze, and document informal learning (e.g. books, volunteer work, self-directed learning)."
+            "Business Capability Statement": "Establish the mechanism to collect, analyze, and document informal learning (e.g. books, volunteer work, self-directed learning).",
+            "Authoritative Reference": "5 CFR § 410.201 "
         },
         {
             "Capability ID": "HCM.A3-3.050.120",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to track individual certifications, completions, training activities, and learning histories; regardless of federal agency."
+            "Business Capability Statement": "Establish the mechanism to track individual certifications, completions, training activities, and learning histories; regardless of federal agency.",
+            "Authoritative Reference": "5 CFR § 293.303 "
         },
         {
             "Capability ID": "HCM.A3-3.050.130",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to report talent development data to other federal agencies as appropriate (e.g., OPM EHRI, GSA, OMB)."
+            "Business Capability Statement": "Establish the mechanism to report talent development data to other federal agencies as appropriate (e.g., OPM EHRI, GSA, OMB).",
+            "Authoritative Reference": "5 CFR § 293.303 "
         },
         {
             "Capability ID": "HCM.A3-3.050.140",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to aggregate training program evaluation results and publish the results in the program course library."
+            "Business Capability Statement": "Establish the mechanism to aggregate training program evaluation results and publish the results in the program course library.",
+            "Authoritative Reference": "5 U.S. Code § 4115 ; 5 CFR § 410.601 "
         },
         {
             "Capability ID": "HCM.A3-3.050.150",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to create, record, and store formal and informal (e.g., MOOC, website content and videos, private study, work-life experience, external learning activities and artifacts) talent development activities and track these activities as credit hours in a student transcript."
+            "Business Capability Statement": "Establish the mechanism to create, record, and store formal and informal (e.g., MOOC, website content and videos, private study, work-life experience, external learning activities and artifacts) talent development activities and track these activities as credit hours in a student transcript.",
+            "Authoritative Reference": "5 CFR § 410.601; 5 U.S. Code § 4115 ; 5 CFR § 293.403 "
         },
         {
             "Capability ID": "HCM.A3-3.050.160",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism for tracking a comprehensive range of data (including metadata) for all types of talent development activities."
+            "Business Capability Statement": "Establish the mechanism for tracking a comprehensive range of data (including metadata) for all types of talent development activities.",
+            "Authoritative Reference": "5 CFR § 410.601"
         },
         {
             "Capability ID": "HCM.A3-3.050.170",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Establish the mechanism to gather context data surrounding a learning event (e.g., environment in which the training occurred, modality, location)."
+            "Business Capability Statement": "Establish the mechanism to gather context data surrounding a learning event (e.g., environment in which the training occurred, modality, location).",
+            "Authoritative Reference": "5 CFR § 410.601; 5 U.S. Code § 4103 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-3.050.180",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to analyze and report training delivery data."
+            "Business Capability Statement": "Provide the ability to analyze and report training delivery data.",
+            "Authoritative Reference": "5 U.S. Code § 4115 ; Executive Order 11348"
         },
         {
             "Capability ID": "HCM.A3-3.050.190",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide a means to measure cost effectiveness and efficiency of employee development efforts."
+            "Business Capability Statement": "Provide a means to measure cost effectiveness and efficiency of employee development efforts.",
+            "Authoritative Reference": "5 CFR § 410.201 ; 5 CFR § 410.202 "
         },
         {
             "Capability ID": "HCM.A3-3.050.200",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "O",
-            "Business Capability Statement": "Provide solution that can provide variety of reports at the agency, bureau, organization, office and individual level based on user permissions, with a variety of grouping filtering and sorting capabilities. All data fields must be reportable."
+            "Business Capability Statement": "Provide solution that can provide variety of reports at the agency, bureau, organization, office and individual level based on user permissions, with a variety of grouping filtering and sorting capabilities. All data fields must be reportable.",
+            "Authoritative Reference": "5 U.S. Code § 4118; 5 U.S. Code § 4115 "
         },
         {
             "Capability ID": "HCM.A3-3.050.210",
-            "Function": "Learning Administration",
-            "Activity Name": "Talent Development Program Tracking and Reporting",
+            "Function": "HCM.A3-3 Learning Administration",
+            "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Provide the ability to generate ad-hoc reports."
+            "Business Capability Statement": "Provide the ability to generate ad-hoc reports.",
+            "Authoritative Reference": "5 U.S. Code § 4118; 5 CFR § 250.204 ; 5 CFR § 9.2 "
         },
         {
             "Capability ID": "HCM.A3-3.050.220",
             "Function": "HCM.A3-3 Learning Administration",
             "Activity Name": "HCM.A3-3.050 Talent Development Program Tracking and Reporting",
             "Input/Output/Process": "P",
-            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule"
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 552a ; 5 CFR § 293.106 ; 41 CFR § 71.8 "
         }
     ],
     "Business_Use_Cases":"coming soon",
