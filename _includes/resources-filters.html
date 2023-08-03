@@ -1,4 +1,11 @@
 <!--***********buttons for resources page*********************************************-->
+
+<!--Bring all data from the cards to configure filters-->
+{% assign resources = site.data.resource-data %}
+{% assign resource_filters = site.data.resource-filters %}
+{% assign filter_categories = 'Function-1,Function-2,Function-3' %}
+{% assign filter_categories_array = filter_categories | split: ',' %}
+
     <div class="usa-media-block tablet:grid-col-3 display-block">
         <div class="buttonsRow">
             <div class="button-wrapper">
@@ -7,17 +14,19 @@
         </div>
         <div class="buttonsRow">
             <nav id="filter" class="filters" aria-label="filter menu">
-                {% assign filters = site.data.resource-filter %}
-                {% for filterItem in filters %}
-                {% assign currentFilterItem = forloop.index %}
-                <h2 class="filter-title font-sans-sm">Filter by {{filterItem.name}}</h2>
-                <ul class="filter-list" data-filter-group="{{filterItem.code}}">
-                    {% for each_filterItem in filterItem.children %}
-                    {% assign filterTitle = "" %}
-                    {% if currentFilterItem == 1 %}
-                    {% assign filterTitle = each_filterItem.name %}
+                {% for filter_category in filter_categories_array %}
+                <h2 class="filter-title font-sans-sm">Filter by {{ filter_category }}</h2>
+                <ul class="filter-list" data-filter-group="{{ filter_category | downcase | replace: ' ', '-' }}">
+                    {% assign function_category_key = 'FunctionCategory0' | append: forloop.index %}
+                    {% assign category_filters = resources | map: function_category_key | uniq | join: "," | split: ',' | compact %}
+                    {% for each_filterItem in category_filters %}
+                        {% assign current_item = resource_filters[each_filterItem] %}
+                        {% if current_item == nil %}
+                            {% assign current_item = each_filterItem %}
+                        {% endif %}
+                    {% if current_item != '' %}
+                    <li><a aria-label="Filter by {{filter_category}}: {{current_item}}" role="checkbox" href="javascript:void(0)" data-filter=".{{each_filterItem | downcase | replace: " ", "-"}}" data-position="right" title="" tabindex="0">{{ current_item }}</a></li>
                     {% endif %}
-                    <li><a aria-label="Filter by {{filterItem.name}}: {{each_filterItem.name}}" role="checkbox" href="javascript:void(0)" data-filter=".{{each_filterItem.name | downcase | replace: " ", "-"}}" data-position="right" title="{{filterTitle}}" tabindex="0">{{each_filterItem.name}}</a></li>
                     {% endfor %}
                 </ul>
                 {% if forloop.last == false %}
