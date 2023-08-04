@@ -1,0 +1,20 @@
+---
+title: List of all posts
+permalink: /business-standards-api/hr/retirement/
+---
+[{
+"Business-Standards": "HR",
+"Sub-section":"Separation and Retirement",
+"Business Lifecycle": [{% raw %}{{% endraw %}
+{% for post in site.data.hr_retirement.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% endfor %} ,
+{% for post in site.data.hr_benefits.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},
+{% endunless %}{% endfor %}
+{% raw %}}{% endraw %}],
+
+"Business Capabilities": [{% include business-standards-api/hr/retirement/hr-capabilities.html %}],
+"Standard Data Elements": {% include business-standards-api/hr/retirement/hr-data-elements.html %},
+"Service Measures": {% include business-standards-api/hr/retirement/hr-performance-metrics.html %}
+}]

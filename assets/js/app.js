@@ -42,10 +42,35 @@ jQuery(document).ready(function () {
             hasSubsection: true
         },
         {
+            accordian: 'hr-td-lifecycle',
+            table: 'hr-td-capabilities',
+            ElementsList: 'hr-td-data-elements',
+            PerformanceMetricsList: 'hr-talent-development-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/td/'),
+            hasSubsection: true
+        },
+        {
             accordian: 'hr-acquisition-lifecycle',
             table: 'hr-acquisition-capabilities',
+            ElementsList: 'hr-acquisition-data-elements',
             PerformanceMetricsList: 'hr-acquisition-performance-metrics',
             url:  prefixUrl.concat('/business-standards-api/hr/acquisition/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-retirement-lifecycle',
+            table: 'hr-retirement-capabilities',
+            ElementsList: 'hr-retirement-data-elements',
+            PerformanceMetricsList: 'hr-retirement-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/retirement/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-epm-lifecycle',
+            table: 'hr-epm-capabilities',
+            ElementsList: 'hr-epm-data-elements',
+            PerformanceMetricsList: 'hr-epm-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/epm/'),
             hasSubsection: true
         },
         {
