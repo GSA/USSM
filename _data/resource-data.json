@@ -17,7 +17,8 @@
     "Description04": "",
     "FunctionCategory01": "FIBF-FM",
     "FunctionCategory02": "FIBF-GM",
-    "FunctionCategory03": "ESS-SMARTPAY"
+    "FunctionCategory03": "ESS-SMARTPAY",
+    "order": 0
   },
   {
     "PartnerID": "QSMO-GRM",
@@ -37,7 +38,8 @@
     "Description04": "",
     "FunctionCategory01": "FIBF-GM",
     "FunctionCategory02": "FIBF-FM",
-    "FunctionCategory03": ""
+    "FunctionCategory03": "",
+    "order": 1
   },
   {
     "PartnerID": "QSMO-CYB",
@@ -57,7 +59,8 @@
     "Description04": "",
     "FunctionCategory01": "FIBF-CYB",
     "FunctionCategory02": "FIBF-ITS",
-    "FunctionCategory03": ""
+    "FunctionCategory03": "",
+    "order": 2
   },
   {
     "PartnerID": "QSMO-HCM",
@@ -77,7 +80,8 @@
     "Description04": "",
     "FunctionCategory01": "FIBF-HR",
     "FunctionCategory02": "",
-    "FunctionCategory03": ""
+    "FunctionCategory03": "",
+    "order": 3
   },
   {
     "PartnerID": "ESS-SMARTPAY",
@@ -97,7 +101,8 @@
     "Description04": "",
     "FunctionCategory01": "FIBF-PC",
     "FunctionCategory02": "FIBF-FM",
-    "FunctionCategory03": ""
+    "FunctionCategory03": "",
+    "order": 4
   },
   {
     "PartnerID": "ESS-FLEET",
@@ -117,7 +122,8 @@
     "Description04": "",
     "FunctionCategory01": "FIBF-FLT",
     "FunctionCategory02": "",
-    "FunctionCategory03": ""
+    "FunctionCategory03": "",
+    "order": 5
   },
   {
     "PartnerID": "ESS-ERM",
@@ -137,7 +143,8 @@
     "Description04": "",
     "FunctionCategory01": "FIBF-ERM",
     "FunctionCategory02": "",
-    "FunctionCategory03": ""
+    "FunctionCategory03": "",
+    "order": 6
   },
   {
     "PartnerID": "ESS-EIS",
@@ -157,7 +164,8 @@
     "Description04": "",
     "FunctionCategory01": "FIBF-ITS",
     "FunctionCategory02": "FIBF-CYB",
-    "FunctionCategory03": ""
+    "FunctionCategory03": "",
+    "order": 7
   },
   {
     "PartnerID": "ESS-TRT",
@@ -177,6 +185,7 @@
     "Description04": "",
     "FunctionCategory01": "FIBF-TRT",
     "FunctionCategory02": "FIBF-FM",
-    "FunctionCategory03": ""
+    "FunctionCategory03": "",
+    "order": 8
   }
 ]

@@ -3,9 +3,10 @@
 <!--Bring all data from the cards to configure filters-->
 {% assign resources = site.data.resource-data %}
 {% assign resource_filters = site.data.resource-filters %}
-{% assign filter_categories = 'Function-1,Function-2,Function-3' %}
-{% assign filter_categories_array = filter_categories | split: ',' %}
-
+{% assign function_category_1 = resources | map: 'FunctionCategory01' %}
+{% assign function_category_2 = resources | map: 'FunctionCategory02' %}
+{% assign function_category_3 = resources | map: 'FunctionCategory03' %}
+{% assign category_filters = function_category_1 | concat: function_category_2 | concat: function_category_3 | uniq | join: "," | split: ',' | compact %}
     <div class="usa-media-block tablet:grid-col-3 display-block">
         <div class="buttonsRow">
             <div class="button-wrapper">
@@ -14,18 +15,15 @@
         </div>
         <div class="buttonsRow">
             <nav id="filter" class="filters" aria-label="filter menu">
-                {% for filter_category in filter_categories_array %}
-                <h2 class="filter-title font-sans-sm">Filter by {{ filter_category }}</h2>
-                <ul class="filter-list" data-filter-group="{{ filter_category | downcase | replace: ' ', '-' }}">
-                    {% assign function_category_key = 'FunctionCategory0' | append: forloop.index %}
-                    {% assign category_filters = resources | map: function_category_key | uniq | join: "," | split: ',' | compact %}
+                <h2 class="filter-title font-sans-sm">Filter by Functional Area</h2>
+                <ul class="filter-list" data-filter-group="function-category">
                     {% for each_filterItem in category_filters %}
                         {% assign current_item = resource_filters[each_filterItem] %}
                         {% if current_item == nil %}
                             {% assign current_item = each_filterItem %}
                         {% endif %}
                     {% if current_item != '' %}
-                    <li><a aria-label="Filter by {{filter_category}}: {{current_item}}" role="checkbox" href="javascript:void(0)" data-filter=".{{each_filterItem | downcase | replace: " ", "-"}}" data-position="right" title="" tabindex="0">{{ current_item }}</a></li>
+                    <li><a aria-label="Filter by function category: {{current_item}}" role="checkbox" href="javascript:void(0)" data-filter=".{{each_filterItem | downcase | replace: " ", "-"}}" data-position="right" title="" tabindex="0">{{ current_item }}</a></li>
                     {% endif %}
                     {% endfor %}
                 </ul>
@@ -33,7 +31,6 @@
                 <br>
                 <div class="ogp-divider-line-grey_lt"></div>
                 {% endif %}
-                {% endfor %}
             </nav>
         </div>
     </div>

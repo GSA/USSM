@@ -2,72 +2,108 @@
 // Uses URI hash as trigger allowing direct links etc
 jQuery(document).ready(function ($) {
     var link = window.location.href;
-    var filterCategories = [];
     if (link.indexOf("/marketplace1/") != -1) {
-        $.getJSON("../assets/js/filterCategories.json", function (json) {
-            filterCategories = json.filterTypes;
+
+        let $grid = $('#resources-1');
+        let $grid2 = $('#resources-2');
+        let $grid3 = $('#resources-3');
+        let isotopOptions = {
+            // options
+            itemSelector: ".policy",
+            layoutMode: "masonry",
+            getSortData: {
+                date: "p"
+            }
+        };
+        let filters = [];
+        let $filterCount = $('.filter-count');
+
+        // Filter isotope
+        $grid.isotope(isotopOptions);
+        $grid2.isotope(isotopOptions).hide();
+        $grid3.isotope(isotopOptions).hide();
+
+        let iso = $grid.data('isotope');
+        let iso2 = $grid2.data('isotope');
+        let iso3 = $grid3.data('isotope');
+
+        function updateFilterCount() {
+            let filterCount = 0;
+            if (iso !== undefined) {
+                filterCount += Number(iso.filteredItems.length);
+            }
+            if (iso2 !== undefined && $grid2.css('display') !== 'none') {
+                filterCount += Number(iso2.filteredItems.length);
+            }
+            if (iso3 !== undefined && $grid3.css('display') !== 'none') {
+                filterCount += Number(iso3.filteredItems.length);
+            }
+            let itemsText = filterCount == 1 ? ' item' : ' items';
+            $filterCount.text(filterCount + itemsText);
+            if(!iso.filteredItems.length) {
+                $grid.hide();
+            }
+            if(!iso2.filteredItems.length) {
+                $grid2.hide();
+            }
+            if(!iso3.filteredItems.length) {
+                $grid3.hide();
+            }
+        }
+
+        $("#btnClearAll").on("click", function () {
+            let count = filters.length;
+            for (let filter = 0; filter < count; filter++) {
+                removeFilter(filters[0]);
+            }
+            $grid.show().isotope({filter: filters.join(',')});
+            $grid2.hide();
+            $grid3.hide();
+            updateFilterCount();
+            $(".filter-list").find(".is-checked").removeClass("is-checked").attr("aria-checked", "false");
         });
-        var $grid = $('#resources');
-    }
 
-    // Filter isotope
-    $grid.isotope({
-        // options
-        itemSelector: ".policy",
-        layoutMode: "masonry",
-        getSortData: {
-            date: "p"
-        }
-    });
+        // change is-checked class on buttons
+        $('.filter-list').on('click', 'a', function (event) {
+            $grid.show();
+            $grid2.show();
+            $grid3.show();
 
-    let iso = $grid.data('isotope');
-    let $filterCount = $('.filter-count');
-    function updateFilterCount() {
-        if (iso != null) {
-            $filterCount.text(iso.filteredItems.length + ' items');
-        }
-    }
+            // Disable all checked
+            $('.is-checked').each(function () {
+                removeFilter($(this).attr('data-filter'));
+                $(this).removeClass('is-checked');
+            });
+            $(this).addClass('is-checked');
+            addFilter($(this).attr('data-filter'));
 
-    $("#btnClearAll").on("click", function () {
-        var count = filters.length;
-        for (let filter = 0; filter < count; filter++) {
-            removeFilter(filters[0]);
+            // filter isotope
+            // group filters together, inclusive
+            $grid.isotope({filter: filters.join(',')});
+            $grid2.isotope({filter: filters.join(',')});
+            $grid3.isotope({filter: filters.join(',')});
+            updateFilterCount();
+        });
+
+        function addFilter(filter) {
+            if (filters.indexOf(filter) == -1) {
+                filters.push(filter);
+            }
         }
-        $grid.isotope({ filter: filters.join(',') });
+
+        function removeFilter(filter) {
+            let index = filters.indexOf(filter);
+            if (index != -1) {
+                filters.splice(index, 1);
+            }
+        }
+
+        function scrollTop() {
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#filters-data").offset().top
+            }, 1000);
+        }
+
         updateFilterCount();
-        $(".filter-list").find(".is-checked").removeClass("is-checked").attr("aria-checked", "false");
-    });
-
-    var filters = [];
-    // change is-checked class on buttons
-    $('.filter-list').on('click', 'a', function (event) {
-        let $target = $(event.currentTarget);
-        $target.toggleClass('is-checked');
-        let isChecked = $target.hasClass('is-checked');
-        let filter = $target.attr('data-filter');
-        if (isChecked) {
-            addFilter(filter);
-        } else {
-            removeFilter(filter);
-        }
-        // filter isotope
-        // group filters together, inclusive
-        $grid.isotope({ filter: filters.join(',') });
-        updateFilterCount();
-    });
-
-    function addFilter(filter) {
-        if (filters.indexOf(filter) == -1) {
-            filters.push(filter);
-        }
     }
-
-    function removeFilter(filter) {
-        let index = filters.indexOf(filter);
-        if (index != -1) {
-            filters.splice(index, 1);
-        }
-    }
-
-    updateFilterCount();
 });
