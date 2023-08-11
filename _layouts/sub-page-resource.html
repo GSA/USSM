@@ -1,0 +1,108 @@
+---
+layout: base
+---
+<section>
+  <div class="usa-hero clearfix "
+       style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.png');background-repeat:no-repeat">
+    <div class="grid-container">
+      <div class="usa-width-whole hero-content text-center">
+        <h1 class="text-white">Cybersecurity Services</h1>
+        <p class="text-white">Quality Service Management Offices</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="grid-container padding-top-2 padding-bottom-2">
+    <div class="desktop:grid-col-12">
+      <a href="{{site.baseurl}}/">Home</a> > <a href="{{site.baseurl}}/marketplace1">Mission Support MarketPlace
+      Catalog</a> > Quality Service Management Offices Cybersecurity Services
+    </div>
+  </div>
+</section>
+{% assign service = page.Services %}
+<!--This section is for Images-->
+<section class="usa-graphic-list">
+  <div class="grid-container usa-graphic-list__row">
+    <div class="grid-row">
+      <div class="usa-media-block tablet:grid-col">
+        {% if page contains "LogoPath" %}
+        <img class="image" src="{{site.baseurl}}{{page.LogoPath}}" alt="{{page.AltText}}">
+        {% else %}
+        <img class="image" src="{{site.baseurl}}/assets/images/about/ussm-mark.png" alt="ussm-logo-mark">
+        {% endif %}
+        <div class="margin-top-205 margin-left-105">
+          <p> - </p>
+        </div>
+        <div class="usa-media-block__body margin-top-4 margin-left-105">
+          <h2>{{page.PartnerName}}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--This section is for Services-->
+{% if page contains "Services" %}
+<section class="usa-graphic-list">
+  <div class="grid-container usa-graphic-list__row">
+    <div class="grid-col-12 usa-media-block">
+      <p><b>Services</b>: {{service}}</p>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!--This section is for Description-->
+<section class="usa-graphic-list">
+  <div class="grid-container usa-graphic-list__row">
+    <div class="grid-col-12 usa-media-block">
+      <p>{{page.Description01}}</p>
+    </div>
+  </div>
+</section>
+<!--This section is for URL and Contact Info-->
+<section class="usa-graphic-list">
+  <div class="grid-container padding-top-2 padding-bottom-2">
+    <div class="grid-col-12 usa-media-block ogp-top-line">
+      {% if page contains "PartnerCatalogURL" %}
+      <div class="">
+        <b>VISIT: <a href="{{page.PartnerURL}}">{{page.PartnerURL}}</a> |
+          <a href="{{page.PartnerCatalogURL}}">{{page.PartnerCatalogURL}}</a> |
+          CONTACT: {% if page.PartnerContact contains '://' %}<a
+              href="{{page.PartnerContact}}">{{page.PartnerContact}}</a>
+          {% else %}
+          <a href="mailto:{{page.PartnerContact}}">{{page.PartnerContact}}</a>
+          {% endif %}</b>
+      </div>
+      {% else %}
+      <div class="">
+        <b>VISIT: {{page.PartnerURL}} | CONTACT: {{page.PartnerContact}}</b>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+<!--This section is for Description-->
+<section class="usa-graphic-list">
+  <div class="grid-container usa-graphic-list__row">
+    {% if page contains "DescriptionTitle02" %}
+    <div class="display-block">
+      <h3 class="text-primary margin-top-0 margin-bottom-0">{{page.DescriptionTitle02}}</h3>
+      <p>{{page.Description02}}</p>
+    </div>
+    {% endif %}
+    {% if page contains "DescriptionTitle03" %}
+    <div class="display-block">
+      <h3 class="text-primary margin-top-0 margin-bottom-0">{{page.DescriptionTitle03}}</h3>
+      <p>{{page.Description03}}</p>
+    </div>
+    {% endif %}
+    {% if page contains "DescriptionTitle04" %}
+    <div class="display-block">
+      <h3 class="text-primary margin-top-0 margin-bottom-0">{{page.DescriptionTitle04}}</h3>
+      <p>{{page.Description04}}</p>
+    </div>
+    {% endif %}
+  </div>
+</section>
+

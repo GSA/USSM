@@ -19,7 +19,7 @@
 @import "m3-keyTask";
 @import "m3-homepage";
 @import "business-standards";
-
+@import "./resources.scss";
 @import "marketplace";
 
 /* Example - Override the background image in the hero component using CSS:
@@ -32,6 +32,10 @@
 /*
   Add your SASS/CSS here
 */
+
+.ogp-top-line{
+  border-top: 1px solid #adadad;
+}
 /* default mode hide banner */
 .usa-banner__content {
   display: hidden;

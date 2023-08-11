@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Function-1",
+    "code": "function-1",
+    "children": [
+      {
+        "name": "FIBF-FM"
+      },
+      {
+        "name": "FIBF-GM"
+      },
+      {
+        "name": "FIBF-CYB"
+      },
+      {
+        "name": "FIBF-HR"
+      },
+      {
+        "name": "FIBF-PC"
+      },
+      {
+        "name": "FIBF-FLT"
+      },
+      {
+        "name": "FIBF-ERM"
+      }
+    ]
+  },
+  {
+    "name": "Function-2",
+    "code": "function-2",
+    "children": [
+      {
+        "name": "FIBF-GM"
+      },
+      {
+        "name": "FIBF-FM"
+      }
+    ]
+  },
+  {
+    "name": "Function-3",
+    "code": "function-3",
+    "children": [
+      {
+        "name": "FIBF-PC"
+      }
+    ]
+  }
+]
