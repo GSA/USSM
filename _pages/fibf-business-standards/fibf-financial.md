@@ -14,8 +14,10 @@ standard-data-elements-pdf: assets/files/downloads/fm/Financial-Management-Stand
 all-zip: assets/files/downloads/fm/Financial-Management-Download-All.zip
 lifecycle-source-document: assets/files/downloads/fm/Financial-Management-Federal-Business-Lifecycle.pdf
 lifecycle-content: fm/lifecycle.html
+lifecycle-json-api: https://ussm.gsa.gov/business-standards-api/fm/business-lifecycle/
 capabilities-content: fm/capabilities.html
 capabilities-source-document: assets/files/downloads/fm/Financial-Management-Business-Capabilities.pdf
+capabilities-json-api: https://ussm.gsa.gov/business-standards-api/fm/capabilities/
 use-cases-content: fm/use-cases.html
 data-elements-content: fm/data-elements.html
 capabilities-source-document-type: pdf
