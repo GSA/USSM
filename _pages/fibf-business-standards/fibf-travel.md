@@ -11,7 +11,7 @@ lifecycle-json-api: https://ussm.gsa.gov/business-standards-api/travel/business-
 capabilities-pdf: assets/files/downloads/travel/Travel-and-Expense-Management-Business-Capabilities.xlsx
 capabilities-json-api: https://ussm.gsa.gov/business-standards-api/travel/capabilities/
 use-cases-pdf: assets/files/downloads/travel/Travel-and-Expense-Management-Business-use-cases.zip
-standard-data-elements-pdf: assets/files/downloads/travel/travel-and-expense-management-standard-data-elements.xlsm
+standard-data-elements-pdf: assets/files/downloads/travel/TravelandExpense_FIBF_Standard_Data_Elements.xlsx
 all-zip: assets/files/downloads/travel/Travel-and-Expense-Management-Download-All.zip
 lifecycle-content: travel/lifecycle.html
 capabilities-content: travel/capabilities.html
