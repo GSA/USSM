@@ -429,7 +429,7 @@ page_gen:
     template: "sub-page-resource"
     dir: "/marketplace1/"
     name_expr: "record['PartnerID']"
-    title: "record['PartnerID']"
+    title: "PartnerName"
     index_files: true
 
 
