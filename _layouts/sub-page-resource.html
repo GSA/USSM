@@ -64,21 +64,17 @@ layout: base
 <section class="usa-graphic-list">
   <div class="grid-container padding-top-2 padding-bottom-2">
     <div class="grid-col-12 usa-media-block ogp-top-line">
-      {% if page contains "PartnerCatalogURL" %}
       <div class="">
-        <b>VISIT: <a href="{{page.PartnerURL}}">{{page.PartnerURL}}</a> |
-          <a href="{{page.PartnerCatalogURL}}">{{page.PartnerCatalogURL}}</a> |
+        <b>VISIT: <a href="{{page.PartnerURL}}">{{page.PartnerURLText}}</a> |
+          {% if page.PartnerCatalogURL != "" %}
+            <a href="{{page.PartnerCatalogURL}}">{{page.PartnerCatalogURLText}}</a> |
+          {% endif %}
           CONTACT: {% if page.PartnerContact contains '://' %}<a
               href="{{page.PartnerContact}}">{{page.PartnerContact}}</a>
           {% else %}
           <a href="mailto:{{page.PartnerContact}}">{{page.PartnerContact}}</a>
           {% endif %}</b>
       </div>
-      {% else %}
-      <div class="">
-        <b>VISIT: {{page.PartnerURL}} | CONTACT: {{page.PartnerContact}}</b>
-      </div>
-      {% endif %}
     </div>
   </div>
 </section>
