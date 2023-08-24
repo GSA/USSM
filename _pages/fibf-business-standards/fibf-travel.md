@@ -7,9 +7,9 @@ sec-title: Travel and Expense Management Standards Lead
 sec-name: GSA
 contact: TravelLOB@gsa.gov
 lifecycle-pdf: assets/files/downloads/travel/Travel and Expense Management Business Lifecycle.xlsx
-lifecycle-json-api: /business-standards-api/travel/business-lifecycle/
+# lifecycle-json-api: /business-standards-api/travel/business-lifecycle/
 capabilities-pdf: assets/files/downloads/travel/Travel and Expense Management Business Capabilities.xlsx
-capabilities-json-api: /business-standards-api/travel/capabilities/
+# capabilities-json-api: /business-standards-api/travel/capabilities/
 use-cases-pdf: assets/files/downloads/travel/Travel-and-Expense-Management-Business-use-cases.zip
 standard-data-elements-pdf: assets/files/downloads/travel/Travel and Expense Management Data Elements and Business Information Exchange.xlsx
 all-zip: assets/files/downloads/travel/Travel-and-Expense-Management-Download-All.zip
