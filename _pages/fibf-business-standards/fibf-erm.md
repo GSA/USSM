@@ -19,4 +19,5 @@ data-elements-content: erm/data-elements.html
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 capabilities-source-document: assets/files/downloads/erm/Electronic-Records-Management-Business-Capabilities.xlsx
+performance-metrics-pdf: assets/files/downloads/erm/ERM-FIBF-Performance-Measures-8-18-23.xlsx
 ---
