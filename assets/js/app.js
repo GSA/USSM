@@ -102,6 +102,7 @@ jQuery(document).ready(function () {
             table: 'travel-capabilities',
             UseCasesList: 'travel-use-cases',
             ElementsList: 'travel-data-elements',
+            PerformanceMetricsList:"travel-performance-metrics",
             url:  prefixUrl.concat('/business-standards-api/travel'),
             hasSubsection: false
         },

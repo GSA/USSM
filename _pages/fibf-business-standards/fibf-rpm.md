@@ -19,8 +19,8 @@ use-cases-content: rpm/use-cases.html
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 lifecycle-source-document: assets/files/downloads/rpm/Real-Property-Management-Federal-Business-Lifecycle.xlsx
-lifecycle-json-api: https://ussm.gsa.gov/business-standards-api/rpm/business-lifecycle
+lifecycle-json-api: /business-standards-api/rpm/business-lifecycle
 capabilities-source-document: assets/files/downloads/rpm/Real-Property-Management-Business-Capabilities.xlsx
-capabilities-json-api: https://ussm.gsa.gov/business-standards-api/rpm/capabilities
+capabilities-json-api: /business-standards-api/rpm/capabilities
 contact: rpmfibf@gsa.gov
 ---

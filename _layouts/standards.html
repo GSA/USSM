@@ -115,7 +115,7 @@ This template is for a single page that does not have a date associated with it.
           
             {% if page.lifecycle-json-api %}
             <li>
-              <a href="{{ page.lifecycle-json-api }}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
+              <a href="{{ site.baseurl }}{{ page.lifecycle-json-api }}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
             </li>
             {% endif %}
           </ul>
@@ -152,7 +152,7 @@ This template is for a single page that does not have a date associated with it.
             
               {% if page.capabilities-json-api %}
               <li>
-                <a href="{{ page.capabilities-json-api }}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
+                <a href="{{ site.baseurl }}{{ page.capabilities-json-api }}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
               </li>
               {% endif %}
             </ul>
