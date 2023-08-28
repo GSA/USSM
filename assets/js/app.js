@@ -86,6 +86,7 @@ jQuery(document).ready(function () {
             table: 'erm-capabilities',
             UseCasesList: 'erm-use-cases',
             ElementsList: 'erm-data-elements',
+            PerformanceMetricsList:"erm-performance-metrics",
             url:  prefixUrl.concat('/business-standards-api/erm'),
             hasSubsection: false
         },
