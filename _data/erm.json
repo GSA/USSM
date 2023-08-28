@@ -522,5 +522,7 @@
     "Standard_Data_Elements":{
        "Electronic Records Management Standard Data Elements":"/assets/files/downloads/erm/Electronic-Records-Management-Standard-Data-Elements.xlsx"
     },
-    "Service_Measures":"coming soon"
+    "Service_Measures":{
+       "Electronic Records Management Service Measures":"/assets/files/downloads/erm/ERM-FIBF-Performance-Measures-8-18-23.xlsx"
+    }
  }
