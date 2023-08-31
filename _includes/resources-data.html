@@ -14,7 +14,7 @@
     {% assign key = 'FunctionCategory0' | append: i %}
     {% for resource in resources %}
     <div class="tablet:grid-col-4 grid-spacing policy {{ resource[key] | downcase }}">
-        <div class="shadow-1 border-top-05 {{ resource.FunctionCategory01 | downcase }}-border">
+        <div class="shadow-1 border-top-05 {{ resource.FunctionCategory01 | downcase }}-border cards-hover">
             <a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}">
                 <div class="text-container">
                     <span class="card-tag">{{ resource.PartnerName }}</span>

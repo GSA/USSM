@@ -28,12 +28,12 @@ layout: base
     <div class="grid-row">
       <div class="usa-media-block tablet:grid-col">
         {% if page contains "LogoPath" %}
-        <img class="image" src="{{site.baseurl}}{{page.LogoPath}}" alt="{{page.AltText}}">
+        <img class="height-15" src="{{site.baseurl}}{{page.LogoPath}}" alt="{{page.AltText}}">
         {% else %}
-        <img class="image" src="{{site.baseurl}}/assets/images/about/ussm-mark.png" alt="ussm-logo-mark">
+        <img class="height-15" src="{{site.baseurl}}/assets/images/about/ussm-mark.png" alt="ussm-logo-mark">
         {% endif %}
         <div class="margin-top-205 margin-left-105">
-          <p> - </p>
+          <p> &mdash; </p>
         </div>
         <div class="usa-media-block__body margin-top-4 margin-left-105">
           <h2>{{page.PartnerName}}</h2>
@@ -54,17 +54,22 @@ layout: base
 {% endif %}
 <!--This section is for Description-->
 <section class="usa-graphic-list">
-  <div class="grid-container usa-graphic-list__row">
-    <div class="grid-col-12 usa-media-block">
-      <p>{{page.Description01}}</p>
+    <div class="grid-container usa-graphic-list__row">
+        <div class="grid-col-12">
+            <p>{{page.Description01}}</p>
+        </div>
+        <div class="grid-col-12">
+            <ul>
+                {{page.List}}
+            </ul>
+        </div>
     </div>
-  </div>
 </section>
 <!--This section is for URL and Contact Info-->
 <section class="usa-graphic-list">
   <div class="grid-container padding-top-2 padding-bottom-2">
     <div class="grid-col-12 usa-media-block ogp-top-line">
-      <div class="">
+      <div class="margin-top-05">
         <b>VISIT: <a href="{{page.PartnerURL}}">{{page.PartnerURLText}}</a> |
           {% if page.PartnerCatalogURL != "" %}
             <a href="{{page.PartnerCatalogURL}}">{{page.PartnerCatalogURLText}}</a> |

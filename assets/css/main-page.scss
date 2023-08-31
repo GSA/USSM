@@ -341,5 +341,10 @@ abbr{
     width: 100%;
   }
       
-  }    
+  }
+.cards-hover:hover {
+    -webkit-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+    -moz-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+    box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+}
 
