@@ -14,15 +14,15 @@
     {% assign key = 'FunctionCategory0' | append: i %}
     {% for resource in resources %}
     <div class="tablet:grid-col-4 grid-spacing policy {{ resource[key] | downcase }}">
-      <div class="shadow-1 border-top-05 {{ resource.FunctionCategory01 | downcase }}-border">
-        <div class="text-container">
-          <span class="card-tag"><a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}">{{ resource.PartnerName }}</a></span>
-          {% if resource.Services != '' %}
-          <p class="title-resources"><a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}"><label class="text-ink text-bold">Services:</label> {{
-            resource.Services }}</a></p>
-          {% endif %}
+        <div class="shadow-1 border-top-05 {{ resource.FunctionCategory01 | downcase }}-border">
+            <a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}">
+                <div class="text-container">
+                    <span class="card-tag">{{ resource.PartnerName }}</span>
+                    {% if resource.Services != '' %}<p class="title-resources"><label class="text-ink text-bold">Services:</label> {{resource.Services}}</p>
+                    {% endif %}
+                </div>
+            </a>
         </div>
-      </div>
     </div>
     {% endfor %}
   </div>
