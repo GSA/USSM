@@ -105,5 +105,17 @@ jQuery(document).ready(function ($) {
         }
 
         updateFilterCount();
+
+        // Add a focus event handler to the link
+        $('a.text-ink').focus(function () {
+            // Add the 'focus-within' class to the parent div when the link is focused
+            $(this).closest('.cards-hover').addClass('focus-within');
+        });
+
+        // Add a blur event handler to the link
+        $('a.text-ink').blur(function () {
+            // Remove the 'focus-within' class from the parent div when the link loses focus
+            $(this).closest('.cards-hover').removeClass('focus-within');
+        });
     }
 });

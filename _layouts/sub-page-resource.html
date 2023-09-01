@@ -92,19 +92,19 @@ layout: base
     <!--This section is for Description-->
     <section class="usa-graphic-list">
         <div class="grid-container usa-graphic-list__row">
-            {% if page contains "DescriptionTitle02" %}
+            {% if page.DescriptionTitle02 != ''%}
             <div class="display-block">
                 <h3 class="text-primary margin-top-0 margin-bottom-0">{{page.DescriptionTitle02}}</h3>
                 <p>{{page.Description02}}</p>
             </div>
             {% endif %}
-            {% if page contains "DescriptionTitle03" %}
+            {% if page.DescriptionTitle03 != '' %}
             <div class="display-block">
                 <h3 class="text-primary margin-top-0 margin-bottom-0">{{page.DescriptionTitle03}}</h3>
                 <p>{{page.Description03}}</p>
             </div>
             {% endif %}
-            {% if page contains "DescriptionTitle04" %}
+            {% if page.DescriptionTitle04 != '' %}
             <div class="display-block">
                 <h3 class="text-primary margin-top-0 margin-bottom-0">{{page.DescriptionTitle04}}</h3>
                 <p>{{page.Description04}}</p>
