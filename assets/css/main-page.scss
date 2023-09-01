@@ -364,7 +364,8 @@ abbr{
     position: relative;
     width: 100%;
     overflow: hidden;
-    padding-top: 66.66%; /* 3:2 Aspect Ratio */
+    padding-top: 66.66%;
+    margin-top: 20px;
 }
 
 .responsive-iframe {
