@@ -5,5 +5,8 @@
   "FIBF-HR": "Human Capital",
   "FIBF-PC": "Purchase Cards",
   "FIBF-FLT": "Fleet",
-  "FIBF-ERM": "Electronic Records Management"
+  "FIBF-ERM": "Electronic Records Management",
+  "FIBF-ITS": "Information Technology",
+  "FIBF-TRT": "Travel & Expense",
+  "ESS-SMARTPAY": "Purchase Cards"
 }
