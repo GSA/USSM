@@ -6,44 +6,25 @@
 {% assign gridClass = "tablet:grid-col-12" %}
 {% endif %}
 
-<div class="usa-media-block {{gridClass}} display-block">
+<div class="usa-media-block {{gridClass}} display-block" id="filters-data">
   <p class="filter-count itm-tag margin-top-0 text-gray-50 text-thin count"></p>
-  <div id="resources">
-    {% assign resources = site.data.resource-data | sort: 'year' | reverse %}
+  {% assign resources = site.data.resource-data | sort: 'Order'%}
+  {% for i in (1..3) %}
+  <div id="resources-{{ i }}" class="{% if i > 1 %}border-top-2px{% endif %} border-accent-cool-dark">
+    {% assign key = 'FunctionCategory0' | append: i %}
     {% for resource in resources %}
-      {% capture resource_filters %}{{ resource.FunctionCategory01 | downcase }} {{ resource.FunctionCategory02 | downcase
-      }} {{ resource.FunctionCategory03 | downcase }}{% endcapture %}
-      {% assign className = resource_filters | split: ' ' | first %}
-      {% assign resourceFilters = resource_filters | split: ' ' %}
-      {% assign showCard = "no" %}
-      {% if pageFilters.size > 0 %}
-        {% for pageFilter in pageFilters %}
-          {% for resourceFilter in resourceFilters %}
-            {% if pageFilter == resourceFilter %}
-              {% assign showCard="yes" %}
-              {% break %}
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
-      {% else %}
-        {% assign showCard = "yes" %}
-      {% endif %}
-
-      {% if showCard=="yes" %}
-        <div class="tablet:grid-col-4 grid-spacing policy {{resource_filters}}" data-function1="{{ resource.FunctionCategory01 }}"
-             data-function2="{{ resource.FunctionCategory02 }}"
-             data-function3="{{ resource.FunctionCategory03 }}">
-          <div class="shadow-1  {{ className }}-border">
-            <div class="text-container">
-              <span class="card-tag"><a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}">{{resource.PartnerID}}</a></span>
-              {% if resource contains "Services" %}
-              <p class="title-resources"><a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}">{{
-                resource.Services }}</a></p>
-              {% endif %}
-            </div>
-          </div>
+    <div class="tablet:grid-col-4 grid-spacing policy {{ resource[key] | downcase }}">
+        <div class="shadow-1 border-top-05 {{ resource.FunctionCategory01 | downcase }}-border cards-hover">
+            <a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}">
+                <div class="text-container">
+                    <span class="card-tag">{{ resource.PartnerName }}</span>
+                    {% if resource.Services != '' %}<p class="title-resources"><label class="text-ink text-bold">Services:</label> {{resource.Services}}</p>
+                    {% endif %}
+                </div>
+            </a>
         </div>
-      {% endif %}
+    </div>
     {% endfor %}
   </div>
+  {% endfor %}
 </div>
