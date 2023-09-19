@@ -22,12 +22,10 @@
 @import "./resources.scss";
 @import "marketplace";
 
-/* Example - Override the background image in the hero component using CSS:
-//.usa-hero {
-//  background-image: asset_url("your-image.png")
-//  background-position: 50%;
-//  background-size: cover;
-//}
+/* Example - Override the background image in the hero component using CSS: */
+.usa-hero {
+  background-color: #213066;
+}
 
 /*
   Add your SASS/CSS here
