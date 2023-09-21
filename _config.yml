@@ -73,11 +73,6 @@ ga:
 
 # Site Navigation
 primary_navigation:
-    - text: 'MarketPlace'
-      href: pages/team.md
-      permalink: /marketplace1/
-      show_in_menu: true
-      show_in_footer: false
     - text: 'Governance'
       href: pages/team.md
       permalink: /governance/
@@ -277,6 +272,11 @@ primary_navigation:
           tooltip: 'Resources, guidelines, and templates to help.'
           show_in_menu: false
           show_in_footer: false
+    - text: 'Catalog'
+      href: pages/resources.md
+      permalink: /marketplace/
+      show_in_menu: true
+      show_in_footer: false
     - text: About OSSPI
       href: /pages/about.md
       permalink: /about/
@@ -427,7 +427,7 @@ page_gen:
     title: "record['type']"
   - data: "resource-data"
     template: "sub-page-resource"
-    dir: "/marketplace1/"
+    dir: "/marketplace/"
     name_expr: "record['PartnerID']"
     title: "PartnerName"
     index_files: true

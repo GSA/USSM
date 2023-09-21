@@ -189,3 +189,10 @@
 .ogp-margin-top-neg-07{
   margin-top: -0.7rem;
 }
+
+iframe,
+video {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}

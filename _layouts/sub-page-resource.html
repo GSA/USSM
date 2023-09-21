@@ -1,14 +1,15 @@
 ---
 layout: base
 ---
+{% assign resource_filters = site.data.resource-filters %}
+{% assign service = resource_filters[page.FunctionCategory01] %}
 <div id="main-content" class="usa-layout-docs">
     <section>
         <div class="usa-hero clearfix "
              style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.png');background-repeat:no-repeat">
             <div class="grid-container">
                 <div class="usa-width-whole hero-content text-center">
-                    <h1 class="text-white">Cybersecurity Services</h1>
-                    <p class="text-white">Quality Service Management Offices</p>
+                    <h1 class="text-white">{{ service }}</h1>
                 </div>
             </div>
         </div>
@@ -17,10 +18,9 @@ layout: base
     <section>
         <div class="grid-container padding-top-2 padding-bottom-2">
             <div class="desktop:grid-col-12">
-                <a href="{{site.baseurl}}/">Home</a> > <a href="{{site.baseurl}}/marketplace1">
-                    Mission Support MarketPlace
-                    Catalog
-                </a> > Quality Service Management Offices Cybersecurity Services
+                <a href="{{site.baseurl}}/">Home</a> > <a href="{{site.baseurl}}/marketplace/">
+                Mission Support Services Catalog
+                </a> > {{ page.PartnerName}}
             </div>
         </div>
     </section>
