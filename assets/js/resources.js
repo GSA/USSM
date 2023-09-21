@@ -2,7 +2,7 @@
 // Uses URI hash as trigger allowing direct links etc
 jQuery(document).ready(function ($) {
     var link = window.location.href;
-    if (link.indexOf("/marketplace1/") != -1) {
+    if (link.indexOf("/marketplace/") != -1) {
 
         let $grid = $('#resources-1');
         let $grid2 = $('#resources-2');
@@ -61,6 +61,7 @@ jQuery(document).ready(function ($) {
             $grid3.hide();
             updateFilterCount();
             $(".filter-list").find(".is-checked").removeClass("is-checked").attr("aria-checked", "false");
+            $('.category-name').text('All Available');
         });
 
         // change is-checked class on buttons
@@ -68,7 +69,7 @@ jQuery(document).ready(function ($) {
             $grid.show();
             $grid2.show();
             $grid3.show();
-
+            $('.category-name').text($(this).text());
             // Disable all checked
             $('.is-checked').each(function () {
                 removeFilter($(this).attr('data-filter'));

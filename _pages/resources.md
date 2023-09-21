@@ -1,8 +1,8 @@
 ---
 layout: base
-permalink: /marketplace1/
-title: Mission Support MarketPlace Catalog
-description: Welcome to the Mission Support shared services catalog.  Agencies can use this catalog to learn about the most commonly needed services and technologies needed to deliver on their Mission Support responsibilities.  The catalog will provide contact information and direct agencies to partner agencies that are working to make these services available to the Federal community.
+permalink: /marketplace/
+title: Mission Support Services Catalog
+description: Welcome to the Mission Support Services Catalog.  Agencies can use this catalog to learn about services and technologies that will enhance their capacity to deliver on mission support responsibilities.  The catalog directs agencies to websites and contact information of servicing organizations and providers that are making these capabilities available to the Federal community.
 ---
 
 <div id="main-content" class="usa-layout-docs">
