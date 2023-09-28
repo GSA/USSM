@@ -61,7 +61,7 @@ layout: base
     <section class="usa-graphic-list">
         <div class="grid-container usa-graphic-list__row">
             <div class="grid-col-12">
-                <p>{{page.Description01}}</p>
+                <p>{{page.Description01 | newline_to_br}}</p>
             </div>
             <div class="grid-col-12">
                 <ul>
@@ -95,19 +95,19 @@ layout: base
             {% if page.DescriptionTitle02 != ''%}
             <div class="display-block">
                 <h3 class="text-primary margin-top-0 margin-bottom-0">{{page.DescriptionTitle02}}</h3>
-                <p>{{page.Description02}}</p>
+                <p>{{page.Description02 | newline_to_br}}</p>
             </div>
             {% endif %}
             {% if page.DescriptionTitle03 != '' %}
             <div class="display-block">
                 <h3 class="text-primary margin-top-0 margin-bottom-0">{{page.DescriptionTitle03}}</h3>
-                <p>{{page.Description03}}</p>
+                <p>{{page.Description03 | newline_to_br}}</p>
             </div>
             {% endif %}
             {% if page.DescriptionTitle04 != '' %}
             <div class="display-block">
                 <h3 class="text-primary margin-top-0 margin-bottom-0">{{page.DescriptionTitle04}}</h3>
-                <p>{{page.Description04}}</p>
+                <p>{{page.Description04 | newline_to_br}}</p>
             </div>
             {% endif %}
         </div>
