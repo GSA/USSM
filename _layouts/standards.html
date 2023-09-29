@@ -142,9 +142,11 @@ This template is for a single page that does not have a date associated with it.
                 <img src="{{ site.baseurl }}/assets/images/icon.{{page.capabilities-source-document-type}}.png" valign="middle" alt="{{page.capabilities-source-document-type}}">
                 <a href="{{ site.baseurl }}/{{page.capabilities-source-document}}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>    
               </li>
+              {% if page.capabilities-json-api %}
               <li>
                 <a href="{{ site.baseurl }}{{ page.capabilities-json-api }}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
               </li>
+              {% endif %}
             </ul>
             {% endif %}
           </div>
