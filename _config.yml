@@ -272,6 +272,11 @@ primary_navigation:
           tooltip: 'Resources, guidelines, and templates to help.'
           show_in_menu: false
           show_in_footer: false
+    - text: 'Catalog'
+      href: pages/resources.md
+      permalink: /marketplace/
+      show_in_menu: true
+      show_in_footer: false
     - text: About OSSPI
       href: /pages/about.md
       permalink: /about/
@@ -420,6 +425,12 @@ page_gen:
     index_files: true # true
     name_expr: "record['type']"
     title: "record['type']"
+  - data: "resource-data"
+    template: "sub-page-resource"
+    dir: "/marketplace/"
+    name_expr: "record['PartnerID']"
+    title: "PartnerName"
+    index_files: true
 
 
 
@@ -477,6 +488,7 @@ exclude:
   - node_modules
   - Gemfile
   - Gemfile.lock
+  - Performance
 
 assets:
   sources:
