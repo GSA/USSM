@@ -1,0 +1,116 @@
+---
+layout: base
+---
+{% assign resource_filters = site.data.resource-filters %}
+{% assign service = resource_filters[page.FunctionCategory01] %}
+<div id="main-content" class="usa-layout-docs">
+    <section>
+        <div class="usa-hero clearfix "
+             style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.png');background-repeat:no-repeat">
+            <div class="grid-container">
+                <div class="usa-width-whole hero-content text-center">
+                    <h1 class="text-white">{{ service }}</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="grid-container padding-top-2 padding-bottom-2">
+            <div class="desktop:grid-col-12">
+                <a href="{{site.baseurl}}/">Home</a> > <a href="{{site.baseurl}}/marketplace/">
+                Mission Support Services Catalog
+                </a> > {{ page.PartnerName}}
+            </div>
+        </div>
+    </section>
+    {% assign service = page.Services %}
+    <!--This section is for Images-->
+    <section class="usa-graphic-list">
+        <div class="grid-container usa-graphic-list__row">
+            <div class="grid-row">
+                <div class="usa-media-block">
+                    {% if page contains "LogoPath" %}
+                    <img class="height-15" src="{{site.baseurl}}{{page.LogoPath}}" alt="{{ page.LogoAlt }}">
+                    {% else %}
+                    <img class="height-15" src="{{site.baseurl}}/assets/images/about/ussm-mark.png" alt="ussm-logo-mark">
+                    {% endif %}
+                </div>
+                <div class="margin-top-205 margin-left-105 none">
+                    <p> &mdash; </p>
+                </div>
+                <div class="usa-media-block tablet:grid-col">
+                    <div class="usa-media-block__body margin-top-4 margin-left-105 h2-remove">
+                        <h2>{{page.PartnerName}}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--This section is for Services-->
+    {% if page contains "Services" %}
+    <section class="usa-graphic-list">
+        <div class="grid-container usa-graphic-list__row">
+            <div class="grid-col-12">
+                <p><b>Services</b>: {{service}}</p>
+            </div>
+        </div>
+    </section>
+    {% endif %}
+    <!--This section is for Description-->
+    <section class="usa-graphic-list">
+        <div class="grid-container usa-graphic-list__row">
+            <div class="grid-col-12">
+                <p>{{page.Description01 | newline_to_br}}</p>
+            </div>
+            <div class="grid-col-12">
+                <ul>
+                    {{page.List}}
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--This section is for URL and Contact Info-->
+    <section class="usa-graphic-list">
+        <div class="grid-container padding-top-2 padding-bottom-2">
+            <div class="grid-col-12 usa-media-block ogp-top-line">
+                <div class="margin-top-105">
+                    <b>
+                        VISIT: <a href="{{page.PartnerURL}}">{{page.PartnerURLText}}</a> |
+                        {% if page.PartnerCatalogURL != "" %}
+                        <a href="{{page.PartnerCatalogURL}}">{{page.PartnerCatalogURLText}}</a> |
+                        {% endif %}
+                        CONTACT: {% if page.PartnerContact contains '://' %}<a href="{{page.PartnerContact}}">{{page.PartnerContact}}</a>
+                        {% else %}
+                        <a href="mailto:{{page.PartnerContact}}">{{page.PartnerContact}}</a>
+                        {% endif %}
+                    </b>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--This section is for Description-->
+    <section class="usa-graphic-list">
+        <div class="grid-container usa-graphic-list__row">
+            {% if page.DescriptionTitle02 != ''%}
+            <div class="display-block">
+                <h3 class="text-primary margin-top-0 margin-bottom-0">{{page.DescriptionTitle02}}</h3>
+                <p>{{page.Description02 | newline_to_br}}</p>
+            </div>
+            {% endif %}
+            {% if page.DescriptionTitle03 != '' %}
+            <div class="display-block">
+                <h3 class="text-primary margin-top-0 margin-bottom-0">{{page.DescriptionTitle03}}</h3>
+                <p>{{page.Description03 | newline_to_br}}</p>
+            </div>
+            {% endif %}
+            {% if page.DescriptionTitle04 != '' %}
+            <div class="display-block">
+                <h3 class="text-primary margin-top-0 margin-bottom-0">{{page.DescriptionTitle04}}</h3>
+                <p>{{page.Description04 | newline_to_br}}</p>
+            </div>
+            {% endif %}
+        </div>
+    </section>
+
+</div>

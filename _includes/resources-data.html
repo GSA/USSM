@@ -1,0 +1,44 @@
+<!--********Generates resource catalog items. **************-->
+{% assign pageFilters= include.filters | split: ' ' %}
+{% assign gridClass = "tablet:grid-col-9" %}
+
+{% if pageFilters.size > 0 %}
+{% assign gridClass = "tablet:grid-col-12" %}
+{% endif %}
+
+<div class="usa-media-block {{gridClass}} display-block" id="filters-data">
+  <p class="filter-count itm-tag margin-top-0 text-gray-50 text-thin count"></p>
+  {% assign resources = site.data.resource-data | sort: 'Order'%}
+  {% for i in (1..3) %}
+  <div id="resources-{{ i }}" class="{% if i > 1 %}border-top-2px{% endif %} border-accent-cool-dark padding-top-5">
+    <div class="h3 section-label margin-top-neg-3 font-sans-sm">
+      {% if i == 1 %}
+      <span class="category-name">All Available</span> Services
+      {% else %}
+      Related services that may also be of interest
+      {% endif %}
+    </div>
+    {% assign key = 'FunctionCategory0' | append: i %}
+    {% for resource in resources %}
+    <div class="tablet:grid-col-4 grid-spacing policy {{ resource[key] | downcase }}">
+        <div class="shadow-1 border-top-05 {{ resource.FunctionCategory01 | downcase }}-border cards-hover">
+            <a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}">
+                <div class="text-container">
+                    <span class="card-tag">{{ resource.PartnerName }}</span>
+                    {% if resource.Services != '' %}<p class="title-resources"><label class="text-ink text-bold">Services:</label> {{resource.Services}}</p>
+                    {% endif %}
+                </div>
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+
+  <div class="contact-info margin-top-5">
+    <p>
+      Questions about the catalog should be directed to <a href="mailto:OSSPI.SharedServices@gsa.gov">OSSPI.SharedServices@gsa.gov</a>.
+      Questions about specific services should be directed to the contact email listed on each provider’s page.
+    </p>
+  </div>
+</div>
