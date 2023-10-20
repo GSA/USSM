@@ -93,7 +93,7 @@ primary_navigation:
           show_in_menu: true
           show_in_footer: false
         - text: 'Cybersecurity'
-          permalink: /fibf-cyb-soc/
+          permalink: /fibf-cyb-cvd/
           show_in_menu: true
           show_in_footer: false
         - text: 'Coordinated Vulnerability Disclosure'
