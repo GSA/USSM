@@ -1,0 +1,790 @@
+{
+    "Business-Standards":"HR",
+    "Sub-section":"Separation and Retirement",
+    "Business_Lifecycle":[
+        {
+            "type":"hcm-A6-1",
+            "data":[
+               {
+                  "Identifier":"HCM.A6-1.010",
+                  "Activity":"Separation Policy, Management, and Administration",
+                  "Description":"Interpreting Federal regulations, advising on Agency separation policies, and counseling on benefits entitlement.  The service outcome(s) will include, but not limited to:<ul><li>determination of benefit eligibility</li><li>separations processing</li><li>Quality control review of separations documentation to determine accuracy and compliance</li><li>facilitate and manage the development of agency-specific separation tools, as needed </li><li>coordination with stakeholders to support the administration of separation programs</li><li>Separations reports, as needed</li><li>guidance to stakeholders</li><li>agency-specific separations strategy as needed </li><li>agency-specific separations policies and procedures as needed</li></ul>"
+               }
+            ]
+        },
+        {
+            "type":"hcm-A6-2",
+            "data":[
+               {
+                  "Identifier":"HCM.A6-2.010 ",
+                  "Activity":"Retirement Policy Management",
+                  "Description":"Interpreting Federal regulations, developing Agency-specific strategy and policy/guidance, and advising stakeholders on Agency retirement policies. The service outcome(s) will include, but not limited to:<ul><li>agency-specific retirement strategy as needed </li><li>agency-specific retirement policies, as needed </li><li>guidance to stakeholders</li></ul>"
+               },
+               {
+                  "Identifier":"HCM.A6-2.020",
+                  "Activity":"Retirement Education and Preparedness",
+                  "Description":"Implementing retirement communication plan to educate and counsel employees. The service outcome(s) will include, but not limited to:<ul><li>retirement programs communication and education plan</li><li>marketing materials</li><li>retirement/financial literacy education seminars and briefings, etc. </li><li>retirement counseling to employee</li><li>promote awareness of retirement/financial literacy tools</li></ul>"
+               },
+               {
+                  "Identifier":"HCM.A6-2.030",
+                  "Activity":"Retirement Program Management & Administration",
+                  "Description":"Determining employee retirement eligibility and benefit entitlement, and developing and submitting the retirement package for eligible employees.  The service outcome(s) will include, but not limited to:<ul><li>retirement counseling to employee</li><li>retirement application processing </li><li>Quality control review of employee retirement package to determine accuracy and compliance</li><li>Standard Operating Procedures (SOPs), as needed</li><li>coordination with stakeholders to support the administration of retirement programs</li><li>Retirement reports, as needed</li></ul>"
+               }
+         
+            ]
+        }
+    ],
+    "Business_Capabilities":[
+        {
+            "Capability ID": "HCM.A6-1.010.010",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Develop agency separation and/or retirement strategy, as needed. ",
+            "Authoritative Reference": "5 U.S. Code § 306"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.020",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Conduct periodic reviews of separation and retirement programs and procedures to ensure compliance with policies, procedures, and internal controls.",
+            "Authoritative Reference": "5 U.S. Code Chapter 84"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.030",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Communicate the impact of separation and retirement legislation, regulations, policies, guidelines, and/or protocols to stakeholders.",
+            "Authoritative Reference": "5 U.S. Code § 8347; 5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.040",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Develop separation and retirement communication content and guidance. ",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.050",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Deliver separation and retirement communication content and guidance. ",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.060",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Define objectives for agency's separation and retirement programs.",
+            "Authoritative Reference": "5 U.S. Code § 306; 5 U.S. Code § 1402"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.070",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop separation and retirement policies and procedures to meet agency's strategic objectives.",
+            "Authoritative Reference": "5 U.S. Code § 1402"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.080",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Tracking data to enable evaluation of progress toward agency separation and retirement strategic objectives.",
+            "Authoritative Reference": "5 CFR § 9.2"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.090",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Adjust strategic goals and objectives based on program evaluation results.",
+            "Authoritative Reference": "5 U.S. Code § 306; 5 U.S. Code § 1402"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.100",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Develop and/or provide training and education to retirement and separation staff on separation and retirement counseling, processing, policies, and regulations, as needed.",
+            "Authoritative Reference": "5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.110",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Provide appropriate counseling and guidance to employees regarding separation and retirement processes and procedures, options, rights, and benefits.",
+            "Authoritative Reference": "5 CFR § 850.105; 5 CFR § 293.103"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.120",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Provide employee(s) with the necessary information for separation and retirement.",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.130",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Compile and provide separation packet upon confirmation of separation.",
+            "Authoritative Reference": "5 U.S. Code § 8347; 5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.140",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Process notification of separation and/or retirement (e.g. SF-52) in accordance with OPM's Guide to Processing Personnel Actions. ",
+            "Authoritative Reference": "5 CFR § 850.105; 5 CFR § 293.103"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.150",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track relevant employee separation and/or retirement activities until completed.",
+            "Authoritative Reference": "5 CFR § 850.105; 5 CFR § 293.103"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.160",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Communicate all separation and retirement personnel actions to employee. ",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.170",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Verify that an employee has provided the necessary separation/retirement documents.",
+            "Authoritative Reference": "5 CFR § 850.105; 5 CFR § 293.103"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.180",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Review separation/retirement documentation for accuracy and completeness.",
+            "Authoritative Reference": "5 CFR § 839.101"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.190",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine employee eligibility for Separation and/or Retirement Benefits.",
+            "Authoritative Reference": "5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.200",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Develop agency-specific checklists for separation or retirement activities/processes, as needed.",
+            "Authoritative Reference": "5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.210",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Prepare, validate, and certify the IRR (agency or designated provider).",
+            "Authoritative Reference": "5 CFR § 850.302"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.220",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Certify separation and/or retirement package forms.",
+            "Authoritative Reference": "5 U.S. Code § 8347; 5 CFR § 850.301 "
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.230",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide the employee/beneficiary with a copy of a completed retirement / death package.",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.240",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Transmit retirement / death package to Payroll / OPM.",
+            "Authoritative Reference": "5 CFR § 850.301"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.250",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide notification to employee with relevant separation information. (e.g., Governmentwide benefits, agency-specific benefits, contact information).",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.260",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Remediate separation / retirement processing and transmittal errors as needed.",
+            "Authoritative Reference": "No authoritative source identified"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.270",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Transmit Electronic Official Personnel Folder (eOPF) to appropriate location post separation (e.g., gaining agency, NARA) within timeframe as specified by policy.",
+            "Authoritative Reference": "5 CFR § 850.301"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.280",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide tool for employees to calculate/view estimated retirement and/or separation benefits. ",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.290",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Verify that a lump sum payment of unused annual leave is paid to the employee.",
+            "Authoritative Reference": "5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.300",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Collect and maintain individual separation and retirement documentation in case file management system.",
+            "Authoritative Reference": "5 U.S. Code § 8347; 5 CFR § 841.106"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.310",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Establish Standard Operating Procedures (SOPs) as needed.",
+            "Authoritative Reference": "36 CFR § 1220.30"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.320",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Generate and provide separation and retirement data and reports to stakeholders.",
+            "Authoritative Reference": "5 U.S. Code § 1402"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.330",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Support timely responses to Congressional inquiries and/or other mandates.",
+            "Authoritative Reference": "5 CFR § 841.106; 5 CFR § 293.103 "
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.340",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Maintain the Official Personnel Folder (OPF) and Electronic Official Personnel Folder (eOPF) according to OPM guidelines.",
+            "Authoritative Reference": "5 CFR § 9.2"
+        },
+        {
+            "Capability ID": "HCM.A6-1.010.350",
+            "Function": "HCM.A6-1 Separation Counseling",
+            "Activity Name": "HCM.A6-1.010 Separation Policy, Management, and Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 2953"
+        },
+        {
+            "Capability ID": "HCM.A6-2.010.010",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.010 Retirement Policy Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 306"
+        },
+        {
+            "Capability ID": "HCM.A6-2.010.020",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.010 Retirement Policy Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Transmit Electronic Official Personnel Folder (eOPF) to appropriate location post separation (e.g., gaining agency, NARA) within timeframe as specified by policy.",
+            "Authoritative Reference": "5 U.S. Code Chapter 84"
+        },
+        {
+            "Capability ID": "HCM.A6-2.010.030",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.010 Retirement Policy Management",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Ensure separation and retirement records are properly maintained in accordance with NARA's General Records Schedule.",
+            "Authoritative Reference": "5 U.S. Code § 8347; 5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-2.010.040",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.010 Retirement Policy Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Develop separation and retirement communication content and guidance. ",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.010.050",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.010 Retirement Policy Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Deliver separation and retirement communication content and guidance. ",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-2.010.060",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.010 Retirement Policy Management",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Define objectives for agency's separation and retirement programs.",
+            "Authoritative Reference": "5 U.S. Code § 306; 5 U.S. Code § 1402"
+        },
+        {
+            "Capability ID": "HCM.A6-2.010.070",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.010 Retirement Policy Management",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Develop separation and retirement policies and procedures to meet agency's strategic objectives.",
+            "Authoritative Reference": "5 U.S. Code § 1402"
+        },
+        {
+            "Capability ID": "HCM.A6-2.010.080",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.010 Retirement Policy Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Tracking data to enable evaluation of progress toward agency separation and retirement strategic objectives.",
+            "Authoritative Reference": "5 CFR § 9.2"
+        },
+        {
+            "Capability ID": "HCM.A6-2.010.090",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.010 Retirement Policy Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Adjust strategic goals and objectives based on program evaluation results.",
+            "Authoritative Reference": "5 U.S. Code § 306; 5 U.S. Code § 1402"
+        },
+        {
+            "Capability ID": "HCM.A6-2.010.100",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.010 Retirement Policy Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Create retirement package/case file upon receipt of application.",
+            "Authoritative Reference": "5 CFR § 831.104; 5 CFR § 850.201"
+        },
+        {
+            "Capability ID": "HCM.A6-2.010.110",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.010 Retirement Policy Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Support timely responses to Congressional inquiries and/or other mandates.",
+            "Authoritative Reference": "5 CFR § 841.106; 5 CFR § 293.103 "
+        },
+        {
+            "Capability ID": "HCM.A6-2.020.010",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.020 Retirement Education and Preparedness",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Conduct periodic reviews of separation and retirement programs and procedures to ensure compliance with policies, procedures, and internal controls.",
+            "Authoritative Reference": "5 U.S. Code Chapter 84"
+        },
+        {
+            "Capability ID": "HCM.A6-2.020.020",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.020 Retirement Education and Preparedness",
+            "Input/Output/Process": "P/O",
+            "Business Capability Statement": "Communicate the impact of separation and retirement legislation, regulations, policies, guidelines, and/or protocols to stakeholders.",
+            "Authoritative Reference": "5 U.S. Code § 8347; 5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-2.020.030",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.020 Retirement Education and Preparedness",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Develop separation and retirement communication content and guidance. ",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.020.040",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.020 Retirement Education and Preparedness",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Deliver separation and retirement communication content and guidance. ",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-2.020.050",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.020 Retirement Education and Preparedness",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Facilitate, or provide access to, retirement seminars and trainings to employees.",
+            "Authoritative Reference": "5 U.S. Code § 1402"
+        },
+        {
+            "Capability ID": "HCM.A6-2.020.060",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.020 Retirement Education and Preparedness",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Develop communication plan and update as necessary.",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.020.070",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.020 Retirement Education and Preparedness",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide appropriate counseling and guidance to employees regarding separation and retirement processes and procedures, options, rights, and benefits.",
+            "Authoritative Reference": "5 CFR § 293.103"
+        },
+        {
+            "Capability ID": "HCM.A6-2.020.080",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.020 Retirement Education and Preparedness",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide tool for employees to calculate/view estimated retirement and/or separation benefits. ",
+            "Authoritative Reference": "5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.020.090",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.020 Retirement Education and Preparedness",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Establish Standard Operating Procedures (SOPs) as needed.",
+            "Authoritative Reference": "36 CFR § 1220.30"
+        },
+        {
+            "Capability ID": "HCM.A6-2.020.100",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.020 Retirement Education and Preparedness",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Generate and provide separation and retirement data and reports to stakeholders.",
+            "Authoritative Reference": "5 U.S. Code § 8350"
+        },
+        {
+            "Capability ID": "HCM.A6-2.020.110",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.020 Retirement Education and Preparedness",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Support timely responses to Congressional inquiries and/or other mandates.",
+            "Authoritative Reference": "5 CFR § 841.106; 5 CFR § 293.103 "
+        },
+        {
+            "Capability ID": "HCM.A6-2.020.120",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.020 Retirement Education and Preparedness",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 U.S. Code § 2953"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.010",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Conduct periodic reviews of separation and retirement programs and procedures to ensure compliance with policies, procedures, and internal controls.",
+            "Authoritative Reference": "5 U.S. Code Chapter 84"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.020",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Communicate the impact of separation and retirement legislation, regulations, policies, guidelines, and/or protocols to stakeholders.",
+            "Authoritative Reference": "5 U.S. Code § 8347; 5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.030",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Develop separation and retirement communication content and guidance. ",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.040",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Deliver separation and retirement communication content and guidance. ",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.050",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Tracking data to enable evaluation of progress toward agency separation and retirement strategic objectives.",
+            "Authoritative Reference": "5 CFR § 850.301"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.060",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and/or provide training and education to retirement and separation staff on separation and retirement counseling, processing, policies, and regulations, as needed.",
+            "Authoritative Reference": "5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.070",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Facilitate, or provide access to, retirement seminars and trainings to employees.",
+            "Authoritative Reference": "5 U.S. Code § 1402"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.080",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Develop communication plan and update as necessary.",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.090",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Provide appropriate counseling and guidance to employees regarding separation and retirement processes and procedures, options, rights, and benefits.",
+            "Authoritative Reference": "5 CFR § 293.103"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.100",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide employee(s) with the necessary information for separation and retirement.",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.110",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Create retirement package/case file upon receipt of application.",
+            "Authoritative Reference": "5 CFR § 831.104; 5 CFR § 850.201"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.120",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Process notification of separation and/or retirement (e.g. SF-52) in accordance with OPM's Guide to Processing Personnel Actions. ",
+            "Authoritative Reference": "5 CFR § 850.105; 5 CFR § 293.103"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.130",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track relevant employee separation and/or retirement activities until completed.",
+            "Authoritative Reference": "5 CFR § 9.2"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.140",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Communicate all separation and retirement personnel actions to employee. ",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.106"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.150",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Verify that an employee has provided the necessary separation/retirement documents.",
+            "Authoritative Reference": "5 CFR § 850.301"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.160",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Review separation/retirement documentation for accuracy and completeness.",
+            "Authoritative Reference": "5 CFR § 839.101"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.170",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine employee eligibility for Separation and/or Retirement Benefits.",
+            "Authoritative Reference": "5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.180",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop agency-specific checklists for separation or retirement activities/processes, as needed.",
+            "Authoritative Reference": "5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.190",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Review eOPF and document any creditable service such as civilian, military, Peace Corps and Multinational Force and Observers (MFO) service.",
+            "Authoritative Reference": "No authoritative source identified"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.200",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Prepare Certified Summary of Federal Service and estimate of benefits.",
+            "Authoritative Reference": "5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.210",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Prepare, validate, and certify the IRR (agency or designated provider).",
+            "Authoritative Reference": "5 CFR § 850.302"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.220",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Certify separation and/or retirement package forms.",
+            "Authoritative Reference": "5 U.S. Code § 8347; 5 CFR § 850.301 "
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.230",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide the employee / beneficiary with a copy of a completed retirement / death package.",
+            "Authoritative Reference": "5 U.S. Code § 8350; 5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.240",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Transmit retirement / death package to Payroll / OPM.",
+            "Authoritative Reference": "5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.250",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Remediate separation / retirement processing and transmittal errors as needed.",
+            "Authoritative Reference": "No authoritative source identified"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.260",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "In the case of retirement application denial, assist/support employee with due process, if applicable.",
+            "Authoritative Reference": "5 CFR § 9.2"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.270",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Transmit Electronic Official Personnel Folder (eOPF) to appropriate location post separation (e.g., gaining agency, NARA) within timeframe as specified by policy.",
+            "Authoritative Reference": "5 CFR § 850.301"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.280",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide tool for employees to calculate/view estimated retirement and/or separation benefits. ",
+            "Authoritative Reference": "5 CFR § 850.105"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.290",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Verify that a lump sum payment of unused annual leave is paid to the employee.",
+            "Authoritative Reference": "5 CFR § 850.105; 5 CFR § 293.103"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.300",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Collect and maintain individual separation and retirement documentation in case file management system.",
+            "Authoritative Reference": "5 U.S. Code § 8347; 5 CFR § 841.106"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.310",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Establish Standard Operating Procedures (SOPs) as needed.",
+            "Authoritative Reference": "36 CFR § 1220.30"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.320",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Generate and provide separation and retirement data and reports to stakeholders.",
+            "Authoritative Reference": "5 U.S. Code § 8350"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.330",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Support timely responses to Congressional inquiries and/or other mandates.",
+            "Authoritative Reference": "5 U.S. Code § 2953"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.340",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Maintain the Official Personnel Folder (OPF) and Electronic Official Personnel Folder (eOPF) according to OPM guidelines.",
+            "Authoritative Reference": "5 CFR § 9.2"
+        },
+        {
+            "Capability ID": "HCM.A6-2.030.350",
+            "Function": "HCM.A6-2 Retirement Planning and Processing",
+            "Activity Name": "HCM.A6-2.030 Retirement Program Management & Administration",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+            "Authoritative Reference": "5 CFR § 850.105; 5 CFR § 293.103"
+        }
+    ],
+    "Business_Use_Cases":"coming soon",
+    "Standard_Data_Elements":{
+        "Standard Data Elements":"/assets/files/downloads/hr/retirement/HCM Data Standards_A6 (Separation and Retirement).xlsx"
+    },
+    "Service_Measures":{
+        "Service Measures": "/assets/files/downloads/hr/retirement/HCM Service Measures_A6 (Separation and Retirement).xlsx"
+    }
+}

@@ -42,10 +42,35 @@ jQuery(document).ready(function () {
             hasSubsection: true
         },
         {
+            accordian: 'hr-td-lifecycle',
+            table: 'hr-td-capabilities',
+            ElementsList: 'hr-td-data-elements',
+            PerformanceMetricsList: 'hr-talent-development-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/td/'),
+            hasSubsection: true
+        },
+        {
             accordian: 'hr-acquisition-lifecycle',
             table: 'hr-acquisition-capabilities',
+            ElementsList: 'hr-acquisition-data-elements',
             PerformanceMetricsList: 'hr-acquisition-performance-metrics',
             url:  prefixUrl.concat('/business-standards-api/hr/acquisition/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-retirement-lifecycle',
+            table: 'hr-retirement-capabilities',
+            ElementsList: 'hr-retirement-data-elements',
+            PerformanceMetricsList: 'hr-retirement-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/retirement/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-epm-lifecycle',
+            table: 'hr-epm-capabilities',
+            ElementsList: 'hr-epm-data-elements',
+            PerformanceMetricsList: 'hr-epm-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/epm/'),
             hasSubsection: true
         },
         {
@@ -61,6 +86,7 @@ jQuery(document).ready(function () {
             table: 'erm-capabilities',
             UseCasesList: 'erm-use-cases',
             ElementsList: 'erm-data-elements',
+            PerformanceMetricsList:"erm-performance-metrics",
             url:  prefixUrl.concat('/business-standards-api/erm'),
             hasSubsection: false
         },
@@ -77,6 +103,7 @@ jQuery(document).ready(function () {
             table: 'travel-capabilities',
             UseCasesList: 'travel-use-cases',
             ElementsList: 'travel-data-elements',
+            PerformanceMetricsList:"travel-performance-metrics",
             url:  prefixUrl.concat('/business-standards-api/travel'),
             hasSubsection: false
         },
@@ -91,6 +118,8 @@ jQuery(document).ready(function () {
             accordian: 'rpm-lifecycle',
             table: 'rpm-capabilities',
             UseCasesList: 'rpm-use-cases',
+            ElementsList: 'rpm-data-elements',
+            PerformanceMetricsList:"rpm-performance-metrics",
             url:  prefixUrl.concat('/business-standards-api/rpm'),
             hasSubsection: false
         },
@@ -118,12 +147,14 @@ function imageChecker(url){
     }
     return img
 }
+    //Looping through the page array defined above with objects
     jQuery.each(pages, function (index, page) {
         let table = jQuery("#" + page.table);
         let accordian = jQuery('#' + page.accordian);
         let UseCasesList = jQuery('#' + page.UseCasesList);
         let ElementsList = jQuery('#' + page.ElementsList);
         let PerformanceMetricsList = jQuery('#' + page.PerformanceMetricsList);
+        //Getting the json data from each url
         jQuery.get(page.url, function (result) {
                     var jObject = JSON.parse(result);
                     if (page.hasSubsection) {
@@ -183,10 +214,16 @@ function imageChecker(url){
                         else if (outerKey === "Standard Data Elements" && ElementsList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
                                 // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
-                                prefixUrl = value1.includes("https")?"":prefixUrl; 
-                                let image = imageChecker(value1);
-                                let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
-                                jQuery("#" + page.ElementsList ).append(li);
+                                if(key1 !== "jsonData"){
+                                    prefixUrl = value1.includes("https")?"":prefixUrl; 
+                                    let image = imageChecker(value1);
+                                    let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
+                                    jQuery("#" + page.ElementsList ).append(li);
+                                }else{ // For key equal to jsonData
+                                    prefixUrl = value1.url.includes("https")?"":prefixUrl; 
+                                    let li = '<li><a href="'+prefixUrl+value1.url+'">' + value1.name + '</a></li>';
+                                    jQuery("#" + page.ElementsList ).append(li);
+                                }
                             });
                         }
                         else if (outerKey==="Service Measures" && PerformanceMetricsList.length > 0){
