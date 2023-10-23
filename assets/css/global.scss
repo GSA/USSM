@@ -412,3 +412,16 @@ a.ogp-card__link--unset:hover {
 .usa-search [type="submit"] {
     background-image: none;
 }
+
+@media screen and (min-width: 700px){ 
+.search-icon {
+    transform: scale(1.5);
+}
+}
+
+@media screen and (max-width: 1314px){ 
+.fibf-wheel {
+    margin-left:0rem;
+    margin-right: -2rem;
+}
+}
