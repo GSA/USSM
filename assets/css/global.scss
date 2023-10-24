@@ -430,3 +430,11 @@ a.ogp-card__link--unset:hover {
 .usa-button--accent-cool { 
     background-color: #0081a1;
 }
+
+.esgms-table-wrapper thead tr th {
+    height: auto !important;
+}
+
+.esgms-table-wrapper thead tr th.populated {
+    vertical-align: bottom !important;
+}
