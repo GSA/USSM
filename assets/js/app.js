@@ -170,13 +170,23 @@ function imageChecker(url){
                                 tr += '</tr>';
                                 jQuery("#" + page.table + " > tbody").append(tr);
                             });
+                            let title = $('title').text();
                             table.DataTable({
                                 responsive: true,
                                 dom: 'Bfrtip',
                                 buttons: [
                                     'copyHtml5',
                                     'excelHtml5',
-                                    'csvHtml5',
+                                    {
+                                        extend: 'csv',
+                                        text: 'CSV',
+                                        charset: 'utf-8',
+                                        extension: '.csv',
+                                        fieldSeparator: ',',
+                                        fieldBoundary: '"',
+                                        filename: title,
+                                        bom: true
+                                    },
                                     'pdfHtml5',
                                     'print',
                                     'pageLength'
