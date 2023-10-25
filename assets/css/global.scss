@@ -431,10 +431,16 @@ a.ogp-card__link--unset:hover {
     background-color: #0081a1;
 }
 
-.esgms-table-wrapper thead tr th {
-    height: auto !important;
+.esgms-table-wrapper thead tr {
+    height: auto;
+}
+
+.esgms-table-wrapper thead tr th,
+.esgms-table-wrapper tbody tr td:first-child,
+.esgms-table-wrapper tbody tr td {
+    background-clip: padding-box;
 }
 
 .esgms-table-wrapper thead tr th.populated {
-    vertical-align: bottom !important;
+    vertical-align: bottom;
 }
