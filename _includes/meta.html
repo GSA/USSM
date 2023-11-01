@@ -79,6 +79,12 @@ site, this is the place to do it.
   <meta property="og:image" content="https://ussm.gsa.gov/assets/images/video-card/video-center-icons-large.png" />
   <meta property="og:description" content="Learn about the  work underway in Shared Services to improve service delivery and customer experience in Federal agencies."/>
   <meta property="og:url" content="https://ussm.gsa.gov/video-center/"/>
+  {% elsif page.url contains "video-center" and page.layout contains "default" %}
+  {% assign custom_title = true %}
+  <meta property="og:title" content="{{title}}"/>
+  <meta property="og:image" content="https://ussm.gsa.gov/assets/images/video-card/video-center-icons-large.png" />
+  <meta property="og:description" content="Learn about the  work underway in Shared Services to improve service delivery and customer experience in Federal agencies."/>
+  <meta property="og:url" content="https://ussm.gsa.gov/video-center/"/>
   {% elsif page.url contains "fibf" %}
   {% assign custom_title = true %}
   <meta property="og:title" content="Federal Agency Business Lifecycle | Government-wide Business & Data Standards" />
@@ -126,6 +132,10 @@ site, this is the place to do it.
   <meta name="twitter:description" content="Transitions are difficult but you can be successful with sufficient planning and follow-through"/>
   {% elsif page.url contains "video-center/" and page.layout contains "base" %}
   <meta name="twitter:title" content="Video Series : Learn About Shared Services" />
+  <meta name="twitter:image" content="https://ussm.gsa.gov/assets/images/video-card/video-center-icons-large.png" />
+  <meta name="twitter:description" content="Learn about the  work underway in Shared Services to improve service delivery and customer experience in Federal agencies." />
+  {% elsif page.url contains "video-center/" and page.layout contains "default" %}
+  <meta name="twitter:title" content="title" />
   <meta name="twitter:image" content="https://ussm.gsa.gov/assets/images/video-card/video-center-icons-large.png" />
   <meta name="twitter:description" content="Learn about the  work underway in Shared Services to improve service delivery and customer experience in Federal agencies." />
   {% elsif page.url contains "/grm" %}
