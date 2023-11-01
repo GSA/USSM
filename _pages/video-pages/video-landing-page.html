@@ -17,10 +17,10 @@ permalink: /video-center/
         </p>
       </div>
     </div>
-    <ul class="usa-card-group">
+    <div class="usa-card-group">
       {% for each_video in site.data.videos.videos %}
         {% include video-card/video-card.html video_data = each_video %}
       {% endfor %}
-    </ul>
+    </div>
   </div>
 </section>
