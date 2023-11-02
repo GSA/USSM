@@ -1,8 +1,8 @@
 
 {% if include.video_data %}
-    <a class="usa-card tablet:grid-col-4 hvr-sink" 
-       id="ogp-usa-card__container" 
+    <a class="usa-card tablet:grid-col-4 hvr-sink ogp-usa-card__container" 
        tabindex="0" 
+       aria-label="{{include.video_data.title}}"
        href="{{ site.baseurl }}{{include.video_data.directory}}{{include.video_data.page_name}}">
         <div class="usa-card__container">
             <div class="margin-top-05">

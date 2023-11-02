@@ -43,6 +43,58 @@
       ]
     },
     {
+      "image": "/assets/images/video-card/fibf-introduction.png",
+      "image_alt": "FIBF Introduction Image",
+      "title": "Introduction to the Federal Integrated Business Framework (FIBF): Functions, Activities, and Business Capabilities",
+      "tag": "Business Standards",
+      "tag_color": "green",
+      "page_name": "federal-integrated-business-framework-introduction",
+      "last_updated": "October 30th, 2023",
+      "directory": "/video-center/",
+      "video_link": "https://player.vimeo.com/video/838789561?h=e5f1301b49",
+      "description": "Enhance your agency's services by utilizing the Federal Integrated Business Framework. Learn about the Functions, Activities, and Business Capabilities components of the FIBF and how they help document agencies’ common business processes.",
+      "related_links": []
+    },
+    {
+      "image": "/assets/images/video-card/fibf-capabilities.png",
+      "image_alt": "FIBF Business Capabilities Image",
+      "title": "FIBF: How to Use the Functions, Activities, and Business Capabilities",
+      "tag": "Business Standards",
+      "tag_color": "green",
+      "page_name": "federal-integrated-business-framework-business-capabilities",
+      "last_updated": "October 30th, 2023",
+      "directory": "/video-center/",
+      "video_link": "https://player.vimeo.com/video/843257315?h=ecf65264a7",
+      "description": "Learn how to use the FIBF Functions, Activities, and Business Capabilities to help find a solution or service to fit your agency’s needs.",
+      "related_links": []
+    },
+    {
+      "image": "/assets/images/video-card/fibf-use-cases.png",
+      "image_alt": "FIBF Business Use Cases Image",
+      "title": "FIBF: Introduction to Business Use Cases",
+      "tag": "Business Standards",
+      "tag_color": "green",
+      "page_name": "federal-integrated-business-framework-business-use-cases",
+      "last_updated": "October 30th, 2023",
+      "directory": "/video-center/",
+      "video_link": "https://player.vimeo.com/video/843258844?h=0b834dab6c",
+      "description": "FIBF Business Use Cases are a set of agency “stories” that document the key activities, inputs, outputs, and other functional area intersections to describe how the Federal government operates. Learn how agencies, QSMOs, and service providers use the Business Use Cases to evaluate vendor solutions.",
+      "related_links": []
+    },
+    {
+      "image": "/assets/images/video-card/fibf-data-element.png",
+      "image_alt": "FIBF Business Stadard Data Element Image",
+      "title": "FIBF: Introduction to Standard Data Elements",
+      "tag": "Business Standards",
+      "tag_color": "green",
+      "page_name": "federal-integrated-business-framework-business-data-element",
+      "last_updated": "October 30th, 2023",
+      "directory": "/video-center/",
+      "video_link": "https://player.vimeo.com/video/848099702?h=98c76532d3",
+      "description": "FIBF Standard Data Elements identify and describe the business information essential to performing Federal Government services. Learn how QSMOs and service providers use the standard data elements to exchange information.",
+      "related_links": []
+    },
+    {
       "image": "/assets/images/video-card/framework-video.png",
       "image_alt": "M3 Framework - Move Your Agency Forward with M3 image",
       "title": "M3 Framework - Move Your Agency Forward with M3",
