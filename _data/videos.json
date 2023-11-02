@@ -2,6 +2,47 @@
   "title": "Landing Page Video Player",
   "videos": [
     {
+      "image": "/assets/images/video-card/what-are-shared-services.png",
+      "image_alt": "What Are Shared Services image",
+      "title": "What Are Shared Services",
+      "tag": "Shared Services",
+      "tag_color": "blue",
+      "page_name": "what-are-shared-services",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-center/",
+      "video_link": "https://player.vimeo.com/video/569954187?badge=0&autopause=0&player_id=0&app_id=58479",
+      "description": "Learn how Shared Services can help agencies solve the challenges of outdated technology, redundant process, and constrained resources such as money and time.",
+      "related_links": []
+    },
+    {
+      "image": "/assets/images/video-card/qsmos-and-the-trail-to-mission-success.png",
+      "image_alt": "QSMOs and the Trail to Mission Success image",
+      "title": "QSMOs and the Trail to Mission Success",
+      "tag": "QSMOs",
+      "tag_color": "orange",
+      "page_name": "qsmos-and-the-trail-to-mission-success",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-center/",
+      "video_link": "https://player.vimeo.com/video/569978556?badge=0&autopause=0&player_id=0&app_id=58479",
+      "description": "Learn about Quality Service Management Offices and how they advance agency decision making in selecting the right solutions and tools to support their mission.",
+      "related_links": []
+    },
+    {
+      "image": "/assets/images/video-card/enhancing-your-agencies-services.png",
+      "image_alt": "Enhancing Your Agencies Services by Utilizing FIBF image",
+      "title": "Enhancing Your Agencies Services by Utilizing FIBF",
+      "tag": "Business Standards",
+      "tag_color": "green",
+      "page_name": "enhancing-your-agencies-services",
+      "last_updated": "August 29th, 2022",
+      "directory": "/video-center/",
+      "video_link": "https://player.vimeo.com/video/698159819?h=f7c711fc66&badge=0&autopause=0&player_id=0&app_id=58479",
+      "description": "Enhance your agency's services by utilizing the Federal Integrated Business Framework. Learn how the FIBF facilitates procurement requirements, translates policy into practices and supports agency modernization planning.",
+      "related_links": [
+        "https://ussm.gsa.gov/fibf/"
+      ]
+    },
+    {
       "image": "/assets/images/video-card/fibf-introduction.png",
       "image_alt": "FIBF Introduction Image",
       "title": "Introduction to the Federal Integrated Business Framework (FIBF): Functions, Activities, and Business Capabilities",
@@ -52,47 +93,6 @@
       "video_link": "https://player.vimeo.com/video/848099702?h=98c76532d3",
       "description": "FIBF Standard Data Elements identify and describe the business information essential to performing Federal Government services. Learn how QSMOs and service providers use the standard data elements to exchange information.",
       "related_links": []
-    },
-    {
-      "image": "/assets/images/video-card/what-are-shared-services.png",
-      "image_alt": "What Are Shared Services image",
-      "title": "What Are Shared Services",
-      "tag": "Shared Services",
-      "tag_color": "blue",
-      "page_name": "what-are-shared-services",
-      "last_updated": "August 29th, 2022",
-      "directory": "/video-center/",
-      "video_link": "https://player.vimeo.com/video/569954187?badge=0&autopause=0&player_id=0&app_id=58479",
-      "description": "Learn how Shared Services can help agencies solve the challenges of outdated technology, redundant process, and constrained resources such as money and time.",
-      "related_links": []
-    },
-    {
-      "image": "/assets/images/video-card/qsmos-and-the-trail-to-mission-success.png",
-      "image_alt": "QSMOs and the Trail to Mission Success image",
-      "title": "QSMOs and the Trail to Mission Success",
-      "tag": "QSMOs",
-      "tag_color": "orange",
-      "page_name": "qsmos-and-the-trail-to-mission-success",
-      "last_updated": "August 29th, 2022",
-      "directory": "/video-center/",
-      "video_link": "https://player.vimeo.com/video/569978556?badge=0&autopause=0&player_id=0&app_id=58479",
-      "description": "Learn about Quality Service Management Offices and how they advance agency decision making in selecting the right solutions and tools to support their mission.",
-      "related_links": []
-    },
-    {
-      "image": "/assets/images/video-card/enhancing-your-agencies-services.png",
-      "image_alt": "Enhancing Your Agencies Services by Utilizing FIBF image",
-      "title": "Enhancing Your Agencies Services by Utilizing FIBF",
-      "tag": "Business Standards",
-      "tag_color": "green",
-      "page_name": "enhancing-your-agencies-services",
-      "last_updated": "August 29th, 2022",
-      "directory": "/video-center/",
-      "video_link": "https://player.vimeo.com/video/698159819?h=f7c711fc66&badge=0&autopause=0&player_id=0&app_id=58479",
-      "description": "Enhance your agency's services by utilizing the Federal Integrated Business Framework. Learn how the FIBF facilitates procurement requirements, translates policy into practices and supports agency modernization planning.",
-      "related_links": [
-        "https://ussm.gsa.gov/fibf/"
-      ]
     },
     {
       "image": "/assets/images/video-card/framework-video.png",
