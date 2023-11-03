@@ -17,17 +17,17 @@ This is an example showing how you can load date from the _data/ folder
         {% for single_video in site.data.videos.videos %}
           {% assign item_name = page.url | split:"/" | last %}
           {% if item_name == single_video.page_name %}
-            <div id="ogp-usa-card__container">
+            <div class="ogp-usa-card__container">
               <div class="usa-card__media">
                   <div class="usa-card__img">
-                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="{{ single_video.video_link }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="QSMOs and the Trail to Mission Success"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="{{ single_video.video_link }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="{{ single_video.title }}"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                   </div>
               </div>
               <div class="margin-top-05">
-                  <a  class="text-black ogp-card__link--unset" href="{{ site.baseurl }}{{single_video.directory}}{{single_video.page_name}}">
+                  <a  class="text-black ogp-card__link--unset" aria-label="{{single_video.title}}" href="{{ site.baseurl }}{{single_video.directory}}{{single_video.page_name}}">
                       <b>{{single_video.title}} </b>
                   </a>
-                  <button type="button" class="usa-button usa-button--outline float-right"  id="btnShare">Share</button>
+                  <button type="button" class="usa-button usa-button--outline float-right margin-top-1"  id="btnShare">Share</button>
                   <ul class="usa-button-group usa-button-group--segmented float-right display-none" id="shareLinkUl">
                     <li class="usa-button-group__item">
                       <button type="button" class="usa-button" title="Share on Facebook" 
