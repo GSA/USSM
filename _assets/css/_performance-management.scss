@@ -1,0 +1,213 @@
+.pm-page {
+    font-family: "Source Sans Pro Web", "Helvetica Neue";
+    .font-merriweather {
+        font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+    }
+    .left-50 {
+        left: 50%;
+    }
+    .right-50 {
+        right: 50%;
+    }
+    .rounded {
+        border-radius: 50%;
+        border: 1px solid transparent;
+    }
+    .pm-subtitle {
+        font-size: 1.2em;
+        color: $color-m3-primary;
+    }
+    .pdf-button {
+        color: #0069CA;
+        text-decoration: none;
+        font-size: 14px
+    }
+    .grey-bg {
+        background: #F3F8FB;
+    }
+    .pink-bg {
+        background: #D266D3;
+    }
+    .blue-bg {
+        background: #0069CA;
+    }
+    .dark-blue-bg {
+        background: #170083;
+    }
+    .green-bg {
+        background-color: #009A8B;
+    }
+    .purple-bg {
+        background: #582B99;
+    }
+    .pm-nav {
+        .usa-nav__primary {
+            margin: 0 auto!important;
+            a {
+                font-weight: bold;
+            }
+            .usa-nav__primary-item {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .pink {
+        color: #D266D3;
+    }
+    .bg-pink {
+        background-color: #D266D3;
+    }
+    .purple {
+        color: #582B99
+    }
+    .blue {
+        color: #0069CA;
+    }
+    .dark-blue {
+        color: #170083;
+    }
+    .light-blue {
+        color: #0092C2;
+    }
+    .green {
+        color: #009E8C;
+    }
+    .convert-white {
+        filter: brightness(0) invert(1);
+    }
+    .text-uppercase {
+        text-transform: uppercase;
+    }
+    .icon-heading {
+        font-size: 1em;
+    }
+    .circle-icons {
+        border: 1px solid transparent;
+        border-radius: 50%;
+    }
+    .object-contain {
+        object-fit: contain;
+    }
+    .circle-outer {
+        padding: 40px;
+        height: 370px;
+        width: 370px;
+        .dashed-circle-bg {
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+    .tiles {
+        a {
+            text-decoration: none;
+        }
+    }
+    .flip-container.active-card {
+        .flipper  {
+            transform: rotateY(180deg);
+        }
+        .back-tile {
+            z-index: 5;
+        }
+    }
+    .flipper {
+        transition: 0.8s;
+        transform-style: preserve-3d;
+        .front, .back-tile {
+            backface-visibility: hidden;
+        }
+        .front {
+            z-index: 2;
+            transform: rotateY(0deg);
+            min-height: 385px;
+        }
+        .back-tile {
+            transform: rotateY(180deg);
+            background-color: #fff;
+        }
+    }
+    .icon-button.pm-active {
+        &.strengths {
+            background: #170083;
+        }
+        &.success {
+            background: #582B99;
+        }
+        &.accountablilty {
+            background: #0069CA;
+        }
+        &.identification {
+            background: #009E8C;
+        }
+        background: $color-m3-primary;
+        img {
+            filter: brightness(0) invert(1);
+        }
+    }
+    .pm-hero {
+        background: linear-gradient(94deg, #13168e 0%, #1bb9b6 100%);
+        background-image: url(../assets/images/m3-pattern.svg), linear-gradient(94deg, #13168e 0%, #1bb9b6 100%);
+        color: #fff;
+        .pm-hero__heading {
+            font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+            font-weight: 500;
+            color: #fff;
+        }
+    }
+    .pm-callout {
+        background: $color-m3-primary;
+        p {
+            color: #fff;
+            margin: 0;
+        }
+    } 
+    .pm-heading {
+        font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+        font-weight: 500;
+    }
+    .pm-nav {
+        background: $color-m3-primary;
+        a {
+            color: #fff;
+            font-family: "Source Sans Pro Web", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+            font-weight: normal;
+            line-height: 0.9;
+            &:hover {
+                color: #fff;
+                &::after {
+                    background-color: #fff!important;
+                }
+            }
+        }
+    }
+    .usa-accordion {
+        .icon {
+            left: -25px;
+            top: -10px;
+            border: 2px solid #fff!important;
+        }
+        .border-right {
+            border-right: 1px solid #170083!important;
+        }
+    }
+    .usa-nav__inner {
+        max-width: 92rem;
+        padding: 0!important;
+    }
+    .usa-accordion__button {
+        background-size: 20px 20px;
+        background-image: url("/assets/images/performance-management/caret-close.svg");
+        background-repeat: no-repeat;
+        background-position: 97% 50%;
+        background-size: 20px 20px;
+        &[aria-expanded="false"] {
+            background-image: url("/assets/images/performance-management/caret.svg");
+        }
+    }
+    .usa-accordion__heading:hover {
+        color: #fff;
+        button {
+            color: #fff;
+        }
+    }
+}

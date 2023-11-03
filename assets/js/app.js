@@ -284,3 +284,18 @@ $("#btnShare").click(function(){
     $('#shareLinkUl').css('display','flex');
     $(this).hide();
 });
+
+// When user clicks an icon on performance management page, show content
+$('.icon-content').hide();
+$('#strengths').show();
+$( ".pm-page .icon-button" ).on( "click", function() {
+    $('.icon-content').hide();
+    $('.icon-button').removeClass('pm-active');
+    $($(this).attr('href')).show();
+    $(this).addClass('pm-active');
+});
+
+$( ".flip-container" ).on( "click", function() {
+    $(this).toggleClass('active-card');
+});
+
