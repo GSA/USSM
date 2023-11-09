@@ -12,9 +12,9 @@ description: The Playbook provides tools, templates, and best practices for fede
 <section class="pm-hero">
     <div class="grid-container">
        <div class="grid-row grid-gap">
-            <div class="grid-col-10 grid-offset-1 padding-top-4">
+            <div class="tablet:grid-col-10 tablet:grid-offset-1 padding-top-4">
                 <h1 class="pm-hero__heading maxw-mobile-lg margin-0 padding-bottom-6 padding-top-6">
-                    Performance Management for Shared Services
+                    Performance Management
                  </h1>
             </div>
         </div>
@@ -24,7 +24,7 @@ description: The Playbook provides tools, templates, and best practices for fede
 <section class="pm" id="about">
     <div class="grid-container">
         <div class="grid-row grid-gap">
-            <div class="grid-col-10 grid-offset-1 padding-top-4">
+            <div class="tablet:grid-col-10 tablet:grid-offset-1 padding-top-4">
                 <h2 class="pm-heading margin-bottom-0">Why is Performance Management Important?</h2>
                 <p>
                     Performance management is a crucial function of any government program – whether its big or small, 
@@ -36,7 +36,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             </div>
         </div>
         <div class="grid-row grid-gap margin-top-4">
-            <div class="grid-col-4 text-center border-right">
+            <div class="tablet:grid-col-4 text-center tablet:border-right">
                 <div class="maxw-card margin-left-auto margin-top-auto margin-right-auto text-center">
                     <img class="padding-2 maxh-15 maxw-15 width-full" src="/assets/images/performance-management/vision-icon.svg" alt="Vision Icon" />
                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading pink">Vision</h3>
@@ -45,7 +45,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                     </p>
                 </div>
             </div>
-            <div class="grid-col-4 text-center border-right">
+            <div class="tablet:grid-col-4 text-center tablet:border-right">
                 <div class="maxw-card margin-left-auto margin-top-auto margin-right-auto text-center">
                     <img class="padding-2 maxh-15 maxw-15 width-full" src="/assets/images/performance-management/success-icon.svg" alt="Success Icon" />
                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading purple">Success Stories</h3>
@@ -54,7 +54,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                     </p>
                 </div>
             </div>
-            <div class="grid-col-4 text-center">
+            <div class="tablet:grid-col-4 text-center">
                 <div class="maxw-card margin-left-auto margin-top-auto margin-right-auto text-center">
                     <img class="padding-2 maxh-15 maxw-15 width-full" src="/assets/images/performance-management/accountability-icon.svg" alt="Accountability Icon" />
                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading">Accountability</h3>
@@ -64,8 +64,8 @@ description: The Playbook provides tools, templates, and best practices for fede
                 </div>
             </div>
         </div>
-         <div class="grid-row grid-gap margin-top-4">
-            <div class="grid-offset-2 grid-col-4 border-right">
+         <div class="grid-row grid-gap tablet:margin-top-4">
+            <div class="tablet:grid-offset-2 tablet:grid-col-4 tablet:border-right">
                 <div class="maxw-card margin-left-auto margin-right-auto text-center">
                       <img class="padding-2 maxh-15 maxw-15 width-full" src="/assets/images/performance-management/identification-icon.svg" alt="Identification Icon" />
                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading light-blue">Gap Identification</h3>
@@ -74,7 +74,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                     </p>
                 </div>
             </div>
-            <div class="grid-col-4">
+            <div class="tablet:grid-col-4">
                 <div class="maxw-card margin-left-auto margin-right-auto text-center">
                      <img class="margin-top-2 padding-2 maxh-15 maxw-15 width-full" src="/assets/images/performance-management/Data-icon.svg" alt="Data Icon" />
                     <h3 class="margin-bottom-0 margin-top-1 text-uppercase icon-heading green">Data</h3>
@@ -85,9 +85,11 @@ description: The Playbook provides tools, templates, and best practices for fede
             </div>
         </div>
         <div class="grid-row grid-gap">
-            <div class="grid-col-10 grid-offset-1 padding-top-4">
-                <div class="display-flex flex-row flex-align-center pm-callout padding-2 radius-lg">
-                    <img src="/assets/images/performance-management/bar-chart-icon.svg" alt="Bar Chart Icon" class="margin-right-2"/>
+            <div class="tablet:grid-col-10 tablet:grid-offset-1 padding-top-4">
+                <div class="tablet:display-flex flex-row flex-align-center pm-callout padding-2 radius-lg">
+                    <div class="display-flex flex-justify-center padding-bottom-2 tablet:padding-bottom-0">
+                        <img src="/assets/images/performance-management/bar-chart-icon.svg" alt="Bar Chart Icon" class="tablet:margin-right-2"/>
+                    </div>
                     <p>
                     Performance Management should be used to identify what’s working and not working within a program. It should NOT be used as a report card to penalize those programs whose performance is below what was expected.
                     </p>
@@ -100,30 +102,31 @@ description: The Playbook provides tools, templates, and best practices for fede
 <section class="pm padding-top-3" id="benefits">
     <div class="grid-container">
         <div class="grid-row grid-gap">
-            <div class="grid-col-10 grid-offset-1">
+            <div class="tablet:grid-col-10 tablet:grid-offset-1">
                 <h2 class="pm-heading margin-bottom-0">Performance Management Benefits for Customer Agencies and the Shared Services Ecosystem</h2>
                 <p>
                     Establishing a formal Performance Management framework is a key tenant of ensuring that shared services solutions are delivering meaningful impacts across government. What doesn’t get measured doesn’t get managed. The long-term benefits of Performance Management tracking for shared services solutions are included below:
                 </p>
             </div>
         </div>
-        <div class="grid-row grid-gap padding-top-4 padding-bottom-4">
-            <div class="grid-offset-1 grid-col-5">
-                <div class="circle-outer padding-3 position-relative">
+        <div class="grid-row grid-gap padding-top-4 tablet:padding-bottom-4">
+            <div class="tablet:grid-offset-1 tablet:grid-col-5">
+                <div class="circle-outer tablet:padding-3 position-relative">
                     <img class="dashed-circle-bg z-bottom position-absolute top-0 right-0 bottom-0 left-0" src="/assets/images/performance-management/circle-dashed.svg" alt="Circle dashed background" />
-                    <a title="Read more on identifying strengths" href="#strengths" class="pm-active shadow-2 bg-white display-inline-block icon-button rounded position-absolute top-3 left-3 strengths">
-                        <img class="width-full maxw-7 maxh-7 icon-image padding-1" src="/assets/images/performance-management/strength-icon.svg" alt="Steps Icon"/>
+                    <a title="Read more on identifying strengths" href="#strengths" class="pm-active padding-1 shadow-2 bg-white display-inline-block icon-button rounded position-absolute strengths">
+                        <img class="height-5 width-5 object-contain icon-image" src="/assets/images/performance-management/strength-icon.svg" alt="Steps Icon"/>
                     </a>
-                    <a title="Read more on success stories" href="#stories" class="shadow-2 bg-white display-inline-block icon-button rounded position-absolute top-3 right-3 success">
-                        <img class="width-full maxw-7 maxh-6 icon-image padding-1" src="/assets/images/performance-management/success-icon.svg" alt="Steps Icon"/>
+                    <a title="Read more on success stories" href="#stories" class="padding-1 shadow-2 bg-white display-inline-block icon-button rounded position-absolute success">
+                        <div class="pm-tooltip">Click to read more</div>
+                        <img class="height-5 width-5 object-contain icon-image" src="/assets/images/performance-management/success-icon.svg" alt="Steps Icon"/>
                     </a>
-                    <a title="Read more on accountablilty" href="#accountablilty" class="shadow-2 bg-white display-inline-block icon-button rounded position-absolute bottom-3 left-3 accountablilty">
-                        <img class="width-full maxw-7 maxh-7 icon-image padding-1" src="/assets/images/performance-management/accountability-icon.svg" alt="Steps Icon"/>
+                    <a title="Read more on accountablilty" href="#accountablilty" class="padding-1 shadow-2 bg-white display-inline-block icon-button rounded position-absolute accountablilty">
+                        <img class="height-5 width-5 object-contain icon-image" src="/assets/images/performance-management/accountability-icon.svg" alt="Steps Icon"/>
                     </a>
-                    <a title="Read more on gap identification" href="#gap" class="shadow-2 bg-white display-inline-block icon-button rounded position-absolute bottom-3 right-3 identification">
-                        <img class="width-full maxw-7 maxh-7 icon-image padding-1" src="/assets/images/performance-management/identification-icon.svg" alt="Steps Icon"/>
+                    <a title="Read more on gap identification" href="#gap" class="padding-1 shadow-2 bg-white display-inline-block icon-button rounded position-absolute identification">
+                        <img class="height-5 width-5 object-contain icon-image" src="/assets/images/performance-management/identification-icon.svg" alt="Steps Icon"/>
                     </a>
-                    <div class="bg-pink text-center circle-icons rounded height-full width-full display-flex align-items-center flex-align-center padding-5">
+                    <div class="bg-pink text-center circle-icons rounded height-full width-full display-flex align-items-center flex-align-center padding-3 tablet:padding-5">
                         <div class="inner">
                             <img class="icon convert-white maxh-10 maxw-10 width-full height-full" src="/assets/images/performance-management/vision-icon.svg" alt="Vision Icon">
                             <h2 class="text-uppercase icon-heading text-white margin-0">Promote Continuous Improvement</h2>
@@ -134,16 +137,16 @@ description: The Playbook provides tools, templates, and best practices for fede
                     </div>
                 </div>
             </div>
-            <div id="strengths" class="icon-content grid-col-5">
+            <div id="strengths" class="tablet:grid-offset-1 tablet:grid-col-5 margin-top-3 tablet:margin-top-0 icon-content">
                 <div class="icon-wrapper rounded display-inline-block">
                     <img src="/assets/images/performance-management/strength-icon-filled.svg" alt="Strengths Icon" />
-                </div>
+                </div> 
                 <h2 class="text-uppercase icon-heading">Identify strengths and areas for improvement for solutions within the shared services ecosystem</h2>
                 <p>
                     Measure the progress of the shared services programs in order to identify where they are succeeding and where they need extra support
                 </p>
             </div>
-            <div id="stories" class="icon-content grid-col-5">
+            <div id="stories" class="tablet:grid-offset-1 tablet:grid-col-5 margin-top-3 tablet:margin-top-0 icon-content">
                 <div class="icon-wrapper display-inline-block">
                     <img src="/assets/images/performance-management/success-filled-icon.svg" alt="Success Icon" />
                 </div>
@@ -152,7 +155,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                     Understand the needs of the QSMO customers and provide ongoing feedback to the QSMOs
                 </p>
             </div>
-            <div id="accountablilty" class="icon-content grid-col-5">
+            <div id="accountablilty" class="tablet:grid-offset-1 tablet:grid-col-5 margin-top-3 tablet:margin-top-0 icon-content">
                 <div class="icon-wrapper display-inline-block">
                     <img src="/assets/images/performance-management/accountability-filled-icon.svg" alt="Accountability Icon" />
                 </div>
@@ -161,7 +164,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                     Enables benchmarking across QSMOs and the ability to share lessons learned across the marketplace
                 </p>
             </div>
-            <div id="gap" class="icon-content grid-col-5">
+            <div id="gap" class="tablet:grid-offset-1 tablet:grid-col-5 margin-top-3 tablet:margin-top-0 icon-content">
                 <div class="icon-wrapper display-inline-block">
                     <img src="/assets/images/performance-management/identification-filled-icon.svg" alt="Identification Icon" />
                 </div>
@@ -177,7 +180,7 @@ description: The Playbook provides tools, templates, and best practices for fede
 <section class="pm" id="framework">
     <div class="grid-container">
         <div class="grid-row grid-gap">
-            <div class="grid-col-10 grid-offset-1">
+            <div class="tablet:grid-col-10 tablet:grid-offset-1">
                 <h2 class="pm-heading">Tiered Shared Services Performance Management Framework – Enterprise View</h2>
                 <p class="pm-subtitle ">
                     Many of these measures have already been implemented by the QSMOs.
@@ -185,8 +188,18 @@ description: The Playbook provides tools, templates, and best practices for fede
                 <p>
                     The Tiered Shared Services Performance Management Framework – Enterprise View was designed to clearly illustrate the relationship between each major stakeholder group responsible for monitoring and improving performance across the shared services ecosystem. A key tenant of this framework is obtaining buy-in from each tier and maintaining on-going communication to ensure strategic and performance alignment, on-going performance reporting, and identification of performance improvement opportunities. As shown on the right side of the graphic below, the governance structure for tracking performance of the shared services ecosystem is designed to always keep the customer agency in mind.
                 </p>
-                <iframe style="overflow: hidden;pointer-events:none;" scrolling="no" class="width-full margin-top-3" src="/assets/files/government-wide-shared-services-strategy.pdf" width="300" height="364" 
- type="application/pdf"></iframe>
+                <h3 class="pm-heading">Customer Agency Performance</h3>
+                <p>The QSMO Performance Management Framework is designed to demonstrate the Financial Management QSMO Grants Management QSMO Human Resources QSMO positive impact and improved performance that customer agencies across government receive through adoption of a QSMO solution.</p>
+                <p>These benefits include but are not limited to:</p>
+                <ul>
+                    <li>Improved Service Delivery and Performance</li>
+                    <li>Increased Customer Satisfaction</li>
+                    <li>Ability to Focus on High Value Work</li>
+                    <li>Reduced Administrative Burden</li>
+                    <li>Alignment to Administration Priorities</li>
+                </ul>
+                <img src="/assets/images/performance-management/government-services-diagram.jpg" class="width-full" />
+                <p>Additional QSMOs will be included in future versions of this framework as they complete the formal QSMO designation process.</p>
                 <a href="/assets/files/government-wide-shared-services-strategy.pdf" title="Download Framework" class="padding-top-3 padding-bottom-3 text-uppercase display-flex pdf-button flex-align-center width-full flex-justify-center" target="_blank">
                     <b>Download Framework</b> <img class="margin-left-1" src="/assets/images/performance-management/download-pdf-icon.svg" alt="pdf icon" />
                 </a>
@@ -198,7 +211,7 @@ description: The Playbook provides tools, templates, and best practices for fede
 <section class="pm grey-bg padding-top-3 padding-bottom-3" id="scorecard">
     <div class="grid-container">
         <div class="grid-row grid-gap">
-            <div class="grid-col-10 grid-offset-1">
+            <div class="tablet:grid-col-10 tablet:grid-offset-1">
                 <h2 class="pm-heading">Balanced Scorecard Approach Summary</h2>
                 <p>
                     OSSPI and the QSMOs are following a phased balanced scorecard approach to shared services performance management. Using input provided by the QSMOs, OMB, and customer agencies, the OSSPI team has identified measures across the following five performance dimensions. Each dimension contains multiple measures, which will be operationalized in a phased manner. Using this balanced scorecard approach empowers our team to wholistically track the performance of the solutions in the shared services ecosystem, which enables success for shared services customers.
@@ -206,9 +219,9 @@ description: The Playbook provides tools, templates, and best practices for fede
             </div>
         </div>
         <div class="grid-row tiles">
-            <div class="grid-col-10 grid-offset-1">
+            <div class="tablet:grid-col-10 tablet:grid-offset-1">
                 <div class="grid-row grid-gap margin-top-4">
-                    <a href="#customer-dimension" title="Read More" class="flip-container grid-col-4">
+                    <a href="#customer-dimension" title="Read More" class="flip-container tablet:grid-col-4 margin-bottom-3 tablet:margin-bottom-0">
                         <div class="flipper position-relative">
                             <div class="front full-width pink-bg radius-lg text-center padding-4 display-flex flex-justify-center flex-align-center">
                                 <div>
@@ -233,12 +246,12 @@ description: The Playbook provides tools, templates, and best practices for fede
                                         <li>Customer Satisfaction (Phase 2)</li>
                                         <li>Solution Adoption (Phase 3)</li>
                                     </ul>
-                                    <p><u><i>View Back</i></u></p>
+                                    <p class="pink"><u><i>View Back</i></u></p>
                                 </div>
                             </div>
                         </div>
                     </a>
-                    <a href="#standards-adoption-dimension" title="Read More" class="flip-container grid-col-4">
+                    <a href="#standards-adoption-dimension" title="Read More" class="flip-container tablet:grid-col-4 margin-bottom-3 tablet:margin-bottom-0">
                         <div class="flipper position-relative">
                             <div class="front full-width blue-bg radius-lg text-center padding-4 display-flex flex-justify flex-align-center">
                                 <div>
@@ -263,12 +276,12 @@ description: The Playbook provides tools, templates, and best practices for fede
                                         <li>System Standardization (Phase 3)</li>
                                         <li>GSA Modernization and Migration (M3) Playbook Utilization (Phase 1)</li>
                                     </ul>
-                                    <p><u><i>View Back</i></u></p>
+                                    <p class="light-blue"><u><i>View Back</i></u></p>
                                 </div>
                             </div>
                         </div>
                     </a>
-                    <a href="#it-modernization" title="Read More" class="flip-container grid-col-4">
+                    <a href="#it-modernization" title="Read More" class="flip-container tablet:grid-col-4  margin-bottom-3 tablet:margin-bottom-0">
                         <div class="flipper position-relative">
                             <div class="front full-width dark-blue-bg radius-lg text-center padding-4 display-flex flex-justify-center flex-align-center">
                                 <div>
@@ -296,14 +309,14 @@ description: The Playbook provides tools, templates, and best practices for fede
                                         <li>Technology Management / Software Delivery (Phase 3)</li>
                                         <li>System Resiliency (Phase 3)</li>
                                     </ul>
-                                    <p><u><i>View Back</i></u></p>
+                                    <p class="dark-blue"><u><i>View Back</i></u></p>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="grid-row grid-gap margin-top-4 margin-bottom-4">
-                    <a href="#financial-dimension" title="Read More" class="flip-container grid-col-4 grid-offset-2">
+                <div class="grid-row grid-gap tablet:margin-top-4 margin-bottom-4">
+                    <a href="#financial-dimension" title="Read More" class="flip-container tablet:grid-col-4 tablet:grid-offset-2 margin-bottom-3 tablet:margin-bottom-0">
                         <div class="flipper position-relative">
                             <div class="front full-width green-bg radius-lg text-center padding-4 display-flex flex-justify-center flex-align-center">
                                 <div>
@@ -328,12 +341,12 @@ description: The Playbook provides tools, templates, and best practices for fede
                                         <li>Return on Investment (Phase 3)</li>
                                         <li>Price Transparency (Phase 2)</li>
                                     </ul>
-                                    <p><u><i>View Back</i></u></p>
+                                    <p class="green"><u><i>View Back</i></u></p>
                                 </div>
                             </div>
                         </div>
                     </a>
-                    <a href="#market-operation-dimension" title="Read More" class="flip-container grid-col-4">
+                    <a href="#market-operation-dimension" title="Read More" class="flip-container tablet:grid-col-4">
                         <div class="flipper position-relative">
                             <div class="front full-width purple-bg radius-lg text-center padding-4 display-flex flex-justify-center flex-align-center">
                                 <div>
@@ -357,7 +370,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                         <li>Service Quality and Timeliness (Phase 3)</li>
                                         <li>Technical Innovation (Phase 2)</li>
                                     </ul>
-                                    <p><u><i>View Back</i></u></p>
+                                    <p class="purple"><u><i>View Back</i></u></p>
                                 </div>
                             </div>
                         </div>
@@ -365,11 +378,11 @@ description: The Playbook provides tools, templates, and best practices for fede
                 </div>
                 <div class="grid-row margin-top-4 margin-bottom-4">
                     <div class="grid-offset-2 grid-col-8">
-                        <div class="grid-row grid-gap margin-top-4 margin-bottom-4">
-                            <div class="grid-col-4">
+                        <div class="grid-row grid-gap tablet:margin-top-4 tablet:margin-bottom-4">
+                            <div class="tablet:grid-col-4">
                                 <div class="position-relative">
-                                    <div class="position-absolute top-105 left-50 width-full border-top border-gray-30"></div>
-                                    <div class="width-3 height-3 bg-pink margin-left-auto margin-right-auto rounded border position-relative"></div>
+                                    <div class="display-none tablet:display-block position-absolute top-105 left-50 width-full border-top border-gray-30"></div>
+                                    <div class="margin-top-4 tablet:margin-top-0 width-3 height-3 bg-pink margin-left-auto margin-right-auto rounded border position-relative"></div>
                                 </div>
                                 <h3 class="text-uppercase text-center pink margin-bottom-0">Phase 1</h3>
                                 <p class="text-center margin-bottom-0 margin-top-0">
@@ -377,10 +390,10 @@ description: The Playbook provides tools, templates, and best practices for fede
                                 </p>
                                 <p class="pink text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY22</p>
                             </div>
-                            <div class="grid-col-4">
+                            <div class="tablet:grid-col-4">
                                 <div class="position-relative">
-                                    <div class="position-absolute top-105 width-full border-top border-gray-30"></div>
-                                    <div class="width-3 height-3 bg-blue margin-left-auto margin-right-auto rounded border position-relative"></div>
+                                    <div class="display-none tablet:display-block position-absolute top-105 width-full border-top border-gray-30"></div>
+                                    <div class="margin-top-4 tablet:margin-top-0 width-3 height-3 bg-blue margin-left-auto margin-right-auto rounded border position-relative"></div>
                                 </div>
                                 <h3 class="text-uppercase text-center blue margin-bottom-0">Phase 2</h3>
                                 <p class="text-center margin-bottom-0 margin-top-0">
@@ -388,10 +401,10 @@ description: The Playbook provides tools, templates, and best practices for fede
                                 </p>
                                 <p class="blue text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY23</p>
                             </div>
-                            <div class="grid-col-4">
+                            <div class="tablet:grid-col-4">
                                 <div class="position-relative">
-                                    <div class="position-absolute top-105 right-50 width-full border-top border-gray-30"></div>
-                                    <div class="width-3 height-3 purple-bg margin-left-auto margin-right-auto rounded border position-relative"></div>
+                                    <div class="display-none tablet:display-block position-absolute top-105 right-50 width-full border-top border-gray-30"></div>
+                                    <div class="margin-top-4 tablet:margin-top-0 width-3 height-3 purple-bg margin-left-auto margin-right-auto rounded border position-relative"></div>
                                 </div>
                                 <h3 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h3>
                                 <p class="text-center margin-bottom-0 margin-top-0">
@@ -410,16 +423,16 @@ description: The Playbook provides tools, templates, and best practices for fede
 <section class="pm margin-top-4 margin-bottom-4" id="performance">
     <div class="grid-container">
         <div class="grid-row grid-gap">
-            <div class="grid-col-10 grid-offset-1">
+            <div class="tablet:grid-col-10 tablet:grid-offset-1">
                 <h2 class="pm-heading">Shared Services Performance Measures</h2>
             </div>
         </div>
         <div class="grid-row grid-gap">
-            <div class="grid-col-10 grid-offset-1">
+            <div class="tablet:grid-col-10 tablet:grid-offset-1">
                 <div class="grid-row grid-gap">
                     <div class="grid-col-12">
                         <div class="usa-accordion padding-left-3 padding-right-3">
-                            <h3 class="usa-accordion__heading margin-bottom-4">
+                            <h3 class="usa-accordion__heading margin-bottom-2 tablet:margin-bottom-4">
                                 <button
                                 type="button"
                                 class="usa-accordion__button pink-bg text-white position-relative padding-top-1 padding-bottom-1 padding-left-5"
@@ -435,13 +448,13 @@ description: The Playbook provides tools, templates, and best practices for fede
                             <div id="a2" class="usa-accordion__content usa-prose">
                                 <div class="grid-container">
                                     <div class="grid-row grid-gap">
-                                        <div class="grid-col-10 grid-offset-1">
+                                        <div class="tablet:grid-col-10 tablet:grid-offset-1">
                                             <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">QSMO Customer Engagement</h4>
+                                                <div class="tablet:grid-col-9  tablet:border-right">
+                                                    <h4 class="margin-bottom-0 purple margin-top-0">QSMO Customer Engagement</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the QSMOs overall engagement with federal agencies – track customer agency participation in QSMO-sponsored events, including information sessions, workshops, or office hours etc.</p>
                                                 </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center pink margin-bottom-0">Phase 1</h4>
                                                         <p class="pink text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY22</p>
@@ -449,11 +462,11 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 </div>
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">QSMO Customer Satisfaction</h4>
+                                                <div class="tablet:grid-col-9  tablet:border-right">
+                                                    <h4 class="margin-bottom-0 purple margin-top-0">QSMO Customer Satisfaction</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker – including quality of support and access to quality data</p>
                                                 </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center blue margin-bottom-0">Phase 2</h4>
                                                         <p class="blue text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY23</p>
@@ -461,11 +474,11 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 </div>
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0">Solution Adoption</h4>
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 purple">Solution Adoption</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker – including quality of support and access to quality data</p>
                                                 </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
                                                         <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
@@ -476,7 +489,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     </div>
                                 </div>
                             </div>
-                            <h4 class="usa-accordion__heading margin-bottom-4">
+                            <h4 class="usa-accordion__heading margin-bottom-2 tablet:margin-bottom-4">
                                 <button
                                 type="button"
                                 class="usa-accordion__button green-bg text-white position-relative padding-top-1 padding-bottom-1 padding-left-5"
@@ -492,40 +505,40 @@ description: The Playbook provides tools, templates, and best practices for fede
                             <div id="a4" class="usa-accordion__content usa-prose">
                                 <div class="grid-container">
                                     <div class="grid-row grid-gap">
-                                        <div class="grid-col-10 grid-offset-1">
+                                        <div class="tablet:grid-col-10 tablet:grid-offset-1">
                                             <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">QSMO Customer Engagement</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the QSMOs overall engagement with federal agencies – track customer agency participation in QSMO-sponsored events, including information sessions, workshops, or office hours etc.</p>
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 margin-top-0 purple">Cost Avoidance</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Measure the estimated cost avoidance ($) achieved by customer agencies through the adoption of QSMO marketplace solutions</p>
                                                 </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
-                                                    <div class="text-center">
-                                                        <h4 class="text-uppercase text-center pink margin-bottom-0">Phase 1</h4>
-                                                        <p class="pink text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY22</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">QSMO Customer Satisfaction</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker – including quality of support and access to quality data</p>
-                                                </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
-                                                    <div class="text-center">
-                                                        <h4 class="text-uppercase text-center blue margin-bottom-0">Phase 2</h4>
-                                                        <p class="blue text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY23</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0">Solution Adoption</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker – including quality of support and access to quality data</p>
-                                                </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
                                                         <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-row grid-gap padding-bottom-2">
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 margin-top-0 purple">Return on Investment (ROI)</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Measure the estimated Return on Investment ($) achieved by customer agencies through adoption of QSMO marketplace solutions</p>
+                                                </div>
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                    <div class="text-center">
+                                                        <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-row grid-gap padding-bottom-2">
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 purple">Financial Transparency</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customers who report that they understand the pricing elements related to the total cost of ownership of a QSMO solution, as compared to the total cost of ownership of a solution on the open market</p>
+                                                </div>
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                    <div class="text-center">
+                                                        <h4 class="text-uppercase text-center blue margin-bottom-0">Phase 2</h4>
+                                                        <p class="blue text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY23</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -533,7 +546,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     </div>
                                 </div>
                             </div>
-                            <h4 class="usa-accordion__heading margin-bottom-4">
+                            <h4 class="usa-accordion__heading margin-bottom-2 tablet:margin-bottom-4">
                                 <button
                                 type="button"
                                 class="usa-accordion__button purple-bg text-white position-relative padding-top-1 padding-bottom-1 padding-left-5"
@@ -549,40 +562,28 @@ description: The Playbook provides tools, templates, and best practices for fede
                             <div id="a5" class="usa-accordion__content usa-prose">
                                 <div class="grid-container">
                                     <div class="grid-row grid-gap">
-                                        <div class="grid-col-10 grid-offset-1">
+                                        <div class="tablet:grid-col-10 tablet:grid-offset-1">
                                             <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">QSMO Customer Engagement</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the QSMOs overall engagement with federal agencies – track customer agency participation in QSMO-sponsored events, including information sessions, workshops, or office hours etc.</p>
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 margin-top-0 purple">Service Quality and Timeliness</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of QSMO vendors / marketplace solutions meeting Service Level Agreements (SLAs) or achieving satisfactory CPARS results</p>
                                                 </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
-                                                    <div class="text-center">
-                                                        <h4 class="text-uppercase text-center pink margin-bottom-0">Phase 1</h4>
-                                                        <p class="pink text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY22</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">QSMO Customer Satisfaction</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker – including quality of support and access to quality data</p>
-                                                </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
-                                                    <div class="text-center">
-                                                        <h4 class="text-uppercase text-center blue margin-bottom-0">Phase 2</h4>
-                                                        <p class="blue text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY23</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0">Solution Adoption</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker – including quality of support and access to quality data</p>
-                                                </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
                                                         <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-row grid-gap padding-bottom-2">
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 purple margin-top-0">Technical Innovation</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customers who feel that QSMO marketplace solutions are technically innovative and state-of-the art</p>
+                                                </div>
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                    <div class="text-center">
+                                                        <h4 class="text-uppercase text-center blue margin-bottom-0">Phase 2</h4>
+                                                        <p class="blue text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY23</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -590,7 +591,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     </div>
                                 </div>
                             </div>
-                            <h4 class="usa-accordion__heading margin-bottom-4">
+                            <h4 class="usa-accordion__heading margin-bottom-2 tablet:margin-bottom-4">
                                 <button
                                 type="button"
                                 class="usa-accordion__button blue-bg text-white position-relative padding-top-1 padding-bottom-1 padding-left-5"
@@ -606,40 +607,40 @@ description: The Playbook provides tools, templates, and best practices for fede
                             <div id="a6" class="usa-accordion__content usa-prose">
                                 <div class="grid-container">
                                     <div class="grid-row grid-gap">
-                                        <div class="grid-col-10 grid-offset-1">
+                                        <div class="tablet:grid-col-10 tablet:grid-offset-1">
                                             <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">QSMO Customer Engagement</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the QSMOs overall engagement with federal agencies – track customer agency participation in QSMO-sponsored events, including information sessions, workshops, or office hours etc.</p>
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 purple margin-top-0">Standards Incorporation</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of agency-issued solicitations for QSMO marketplace solutions which adhere to the FIBF business standards</p>
                                                 </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
-                                                    <div class="text-center">
-                                                        <h4 class="text-uppercase text-center pink margin-bottom-0">Phase 1</h4>
-                                                        <p class="pink text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY22</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">QSMO Customer Satisfaction</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker – including quality of support and access to quality data</p>
-                                                </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
-                                                    <div class="text-center">
-                                                        <h4 class="text-uppercase text-center blue margin-bottom-0">Phase 2</h4>
-                                                        <p class="blue text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY23</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0">Solution Adoption</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker – including quality of support and access to quality data</p>
-                                                </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
                                                         <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-row grid-gap padding-bottom-2">
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 margin-top-0">System Standardization</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the number of government-wide separate or outdated instances of systems in QSMO functional areas</p>
+                                                </div>
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                    <div class="text-center">
+                                                        <h4 class="text-uppercase text-center blue margin-bottom-0">Phase 3</h4>
+                                                        <p class="blue text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-row grid-gap padding-bottom-2">
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 purple">Modernization and Migration (M3) Playbook Utilization</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the number of customer agencies (or federal users) who have reported using the M3 playbook in some capacity</p>
+                                                </div>
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                    <div class="text-center">
+                                                        <h4 class="text-uppercase text-center pink margin-bottom-0">Phase 1</h4>
+                                                        <p class="pink text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY22</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -647,7 +648,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     </div>
                                 </div>
                             </div>
-                            <h4 class="usa-accordion__heading margin-bottom-4">
+                            <h4 class="usa-accordion__heading margin-bottom-2 tablet:margin-bottom-4">
                                 <button
                                 type="button"
                                 class="usa-accordion__button dark-blue-bg text-white position-relative padding-top-1 padding-bottom-1 padding-left-5"
@@ -663,25 +664,13 @@ description: The Playbook provides tools, templates, and best practices for fede
                             <div id="a7" class="usa-accordion__content usa-prose">
                                 <div class="grid-container">
                                     <div class="grid-row grid-gap">
-                                        <div class="grid-col-10 grid-offset-1">
+                                        <div class="tablet:grid-col-10 tablet:grid-offset-1">
                                             <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">QSMO Customer Engagement</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the QSMOs overall engagement with federal agencies – track customer agency participation in QSMO-sponsored events, including information sessions, workshops, or office hours etc.</p>
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 margin-top-0">Usability / Accessibility</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of QSMO marketplace solutions that are rated 508 compliant at the WCAG 2.0 Level AA Success Criteria</p>
                                                 </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
-                                                    <div class="text-center">
-                                                        <h4 class="text-uppercase text-center pink margin-bottom-0">Phase 1</h4>
-                                                        <p class="pink text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY22</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">QSMO Customer Satisfaction</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker – including quality of support and access to quality data</p>
-                                                </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center blue margin-bottom-0">Phase 2</h4>
                                                         <p class="blue text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY23</p>
@@ -689,11 +678,59 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 </div>
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
-                                                <div class="grid-col-9 border-right">
-                                                    <h4 class="margin-bottom-0">Solution Adoption</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker – including quality of support and access to quality data</p>
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 margin-top-0">Cybersecurity</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of QSMO marketplace cloud solutions that are FedRAMP authorized, FedRAMP in process, or FedRAMP ready/or have acquired Authorization to Operate (ATO) for federal solutions</p>
                                                 </div>
-                                                <div class="grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                    <div class="text-center">
+                                                        <h4 class="text-uppercase text-center blue margin-bottom-0">Phase 2</h4>
+                                                        <p class="blue text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY23</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-row grid-gap padding-bottom-2">
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 purple">Data Interfaces / Customization</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Track adoption of data standards through QSMO marketplace solution adherence to a common set of data definitions / interfaces</p>
+                                                </div>
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                    <div class="text-center">
+                                                        <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-row grid-gap padding-bottom-2">
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 purple">IT Contract Consolidation</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the total ($) spend consolidation from open market acquisitions to QSMO-offered contract vehicles / solicitations</p>
+                                                </div>
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                    <div class="text-center">
+                                                        <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-row grid-gap padding-bottom-2">
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 purple">Technology Management / Software Delivery</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Measure cost/labor hours associated with major IT enhancements and upgrades avoided by customer agencies through adoption of a QSMO solution</p>
+                                                </div>
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
+                                                    <div class="text-center">
+                                                        <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-row grid-gap padding-bottom-2">
+                                                <div class="tablet:grid-col-9 tablet:border-right">
+                                                    <h4 class="margin-bottom-0 purple">System Resiliency</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of time the QSMO marketplace solution is available, not including planned and authorized service interruptions</p>
+                                                </div>
+                                                <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
                                                         <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>

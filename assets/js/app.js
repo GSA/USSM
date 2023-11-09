@@ -286,16 +286,18 @@ $("#btnShare").click(function(){
 });
 
 // When user clicks an icon on performance management page, show content
-$('.icon-content').hide();
-$('#strengths').show();
+$('.pm-page .icon-content').hide();
+$('.pm-page #strengths').show();
 $( ".pm-page .icon-button" ).on( "click", function() {
     $('.icon-content').hide();
+    $('.pm-tooltip').hide();
     $('.icon-button').removeClass('pm-active');
     $($(this).attr('href')).show();
     $(this).addClass('pm-active');
 });
 
-$( ".flip-container" ).on( "click", function() {
+$( ".pm-page .flip-container" ).on( "click", function() {
     $(this).toggleClass('active-card');
 });
+$( ".pm-page .usa-tooltip__body").addClass("is-set is-visible usa-tooltip__body--top");
 
