@@ -5,7 +5,7 @@ title: Financial Management
 contact: FMSC@fiscal.treasury.gov
 sub-title: Financial Management
 sec-title: Financial Management Standards Lead
-sec-name: Treasury, Office of Financial Innovation and Transformation
+sec-name: Treasury, Bureau of the Fiscal Service
 sec-website: www.fiscal.treasury.gov/fmsc/financial-management-standards.html
 sec-website-href: https://www.fiscal.treasury.gov/fmsc/financial-management-standards.html
 lifecycle-pdf: assets/files/downloads/fm/FMCF-1_ FFM Functions and Activities_FY 2024 Release.pdf
