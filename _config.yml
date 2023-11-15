@@ -272,14 +272,14 @@ primary_navigation:
           tooltip: 'Resources, guidelines, and templates to help.'
           show_in_menu: false
           show_in_footer: false
+    - text: 'Performance'
+      href: pages/performance-management.md
+      permalink: /performance-management/
+      show_in_menu: true
+      show_in_footer: false
     - text: 'Catalog'
       href: pages/resources.md
       permalink: /marketplace/
-      show_in_menu: true
-      show_in_footer: false
-    - text: About OSSPI
-      href: /pages/about.md
-      permalink: /about/
       show_in_menu: true
       show_in_footer: false
 

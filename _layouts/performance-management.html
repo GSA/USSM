@@ -1,0 +1,34 @@
+---
+title: "Performance Management"
+layout: base
+---
+
+{% comment %}
+This template is for all M3 pages with the M3 menu.
+{% endcomment %}
+<div class="pm-content">
+  {% include pm/menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
+  <section  id="main-content">
+      {{ content }}
+  </section>
+  <div class="grid-container">
+    <div class="grid-row grid-gap space-between">
+      <div class="desktop:grid-col-12 margin-bottom-2">
+        <a href="#main-content">Return to top</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% comment %}
+The following script logs a link in the console to view the JSON data for the current page.
+{% endcomment %}
+<script>
+  {% if site.url == "http://localhost:4000" %}
+    console.log( "The content on this page can be accessed in JSON format here: {{ site.url }}/{{ site.baseurl }}static-api{{ page.url }}data.json" )
+  {% else %}
+    let baseURL = "{{ site.baseurl }}";
+    let url = "http://" + window.location.hostname + window.location.pathname.replace(baseURL, baseURL+"/static-api") + "data.json";
+    console.log( "The content on this page can be accessed in JSON format here: " + url );
+  {% endif %}
+</script>
