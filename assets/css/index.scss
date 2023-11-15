@@ -1,26 +1,32 @@
+---
+---
 /*
   Customize US Web Design System SASS
   See all at designsystem.digital.gov/documentation/settings
 */
-
 // Example - Override the background image in the hero component using SASS:
 // $theme-hero-image: asset_path("whatever-the-default-is.png");
+$theme-show-notifications: false;
+@import "scss/packages/required";
+@import "scss/packages/global";
 
+@import "scss/packages/uswds-components";
+@import "scss/packages/uswds-utilities";
 
-
-
-
-@import "uswds";
-
-@import "m3-variables";
-@import "m3";
-@import "m3-utilities";
-@import "m3-phase";
-@import "m3-keyTask";
-@import "m3-homepage";
-@import "business-standards";
-@import "./resources.scss";
-@import "marketplace";
+@import "../_sass/m3-variables.scss";
+@import "../_sass/m3.scss";
+@import "../_sass/m3-utilities.scss";
+@import "../_sass/m3-phase.scss";
+@import "../_sass/m3-keyTask.scss";
+@import "../_sass/m3-homepage.scss";
+@import "../_sass/business-standards.scss";
+@import "../_sass/resources.scss";
+@import "../_sass/marketplace.scss";
+@import "../_sass/governance.scss";
+@import "../_sass/qsmo.scss";
+@import "../_sass/filter.scss";
+@import "../_sass/global.scss";
+@import "../_sass/side-nav.scss";
 
 /* Example - Override the background image in the hero component using CSS: */
 .usa-hero {
