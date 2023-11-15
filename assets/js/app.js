@@ -77,6 +77,7 @@ jQuery(document).ready(function () {
             accordian: 'fm-lifecycle',
             table: 'fm-capabilities',
             ElementsList: 'fm-data-elements',
+            PerformanceMetricsList:"fm-performance-metrics",
             UseCasesList: 'fm-use-cases',
             url:  prefixUrl.concat('/business-standards-api/fm'),
             hasSubsection: false
