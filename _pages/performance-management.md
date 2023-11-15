@@ -38,7 +38,7 @@ description: The Playbook provides tools, templates, and best practices for fede
         <div class="grid-row grid-gap margin-top-4">
             <div class="tablet:grid-col-4 text-center tablet:border-right">
                 <div class="maxw-card margin-left-auto margin-top-auto margin-right-auto text-center">
-                    <img class="padding-2 maxh-15 maxw-15 width-full" src="/assets/images/performance-management/vision-icon.svg" alt="Vision Icon" />
+                    <img class="padding-2 maxh-15 maxw-15 width-full" src="{{site.baseurl}}/assets/images/performance-management/vision-icon.svg" alt="Vision Icon" />
                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading pink">Vision</h3>
                     <p class="margin-top-0">
                         Create a shared vision of what success looks like for a program
@@ -47,7 +47,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             </div>
             <div class="tablet:grid-col-4 text-center tablet:border-right">
                 <div class="maxw-card margin-left-auto margin-top-auto margin-right-auto text-center">
-                    <img class="padding-2 maxh-15 maxw-15 width-full" src="/assets/images/performance-management/success-icon.svg" alt="Success Icon" />
+                    <img class="padding-2 maxh-15 maxw-15 width-full" src="{{site.baseurl}}/assets/images/performance-management/success-icon.svg" alt="Success Icon" />
                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading purple">Success Stories</h3>
                     <p class="margin-top-0">
                         Quantify the success that a program achieves year over year
@@ -56,7 +56,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             </div>
             <div class="tablet:grid-col-4 text-center">
                 <div class="maxw-card margin-left-auto margin-top-auto margin-right-auto text-center">
-                    <img class="padding-2 maxh-15 maxw-15 width-full" src="/assets/images/performance-management/accountability-icon.svg" alt="Accountability Icon" />
+                    <img class="padding-2 maxh-15 maxw-15 width-full" src="{{site.baseurl}}/assets/images/performance-management/accountability-icon.svg" alt="Accountability Icon" />
                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading">Accountability</h3>
                     <p class="margin-top-0">
                         Keep people accountable and roles clear
@@ -67,7 +67,7 @@ description: The Playbook provides tools, templates, and best practices for fede
          <div class="grid-row grid-gap tablet:margin-top-4">
             <div class="tablet:grid-offset-2 tablet:grid-col-4 tablet:border-right">
                 <div class="maxw-card margin-left-auto margin-right-auto text-center">
-                      <img class="padding-2 maxh-15 maxw-15 width-full" src="/assets/images/performance-management/identification-icon.svg" alt="Identification Icon" />
+                      <img class="padding-2 maxh-15 maxw-15 width-full" src="{{site.baseurl}}/assets/images/performance-management/identification-icon.svg" alt="Identification Icon" />
                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading light-blue">Gap Identification</h3>
                     <p class="margin-top-0">
                         Identify areas of improvement for a program
@@ -76,7 +76,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             </div>
             <div class="tablet:grid-col-4">
                 <div class="maxw-card margin-left-auto margin-right-auto text-center">
-                     <img class="margin-top-2 padding-2 maxh-15 maxw-15 width-full" src="/assets/images/performance-management/Data-icon.svg" alt="Data Icon" />
+                     <img class="margin-top-2 padding-2 maxh-15 maxw-15 width-full" src="{{site.baseurl}}/assets/images/performance-management/Data-icon.svg" alt="Data Icon" />
                     <h3 class="margin-bottom-0 margin-top-1 text-uppercase icon-heading green">Data</h3>
                     <p class="margin-top-0">
                         Gives programs the ability to make effective decisions based on data
@@ -88,7 +88,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             <div class="tablet:grid-col-10 tablet:grid-offset-1 padding-top-4">
                 <div class="tablet:display-flex flex-row flex-align-center pm-callout padding-2 radius-lg">
                     <div class="display-flex flex-justify-center padding-bottom-2 tablet:padding-bottom-0">
-                        <img src="/assets/images/performance-management/bar-chart-icon.svg" alt="Bar Chart Icon" class="tablet:margin-right-2"/>
+                        <img src="{{site.baseurl}}/assets/images/performance-management/bar-chart-icon.svg" alt="Bar Chart Icon" class="tablet:margin-right-2"/>
                     </div>
                     <p>
                     Performance Management should be used to identify what’s working and not working within a program. It should NOT be used as a report card to penalize those programs whose performance is below what was expected.
@@ -112,23 +112,23 @@ description: The Playbook provides tools, templates, and best practices for fede
         <div class="grid-row grid-gap padding-top-4 tablet:padding-bottom-4">
             <div class="tablet:grid-offset-1 tablet:grid-col-5">
                 <div class="circle-outer tablet:padding-3 position-relative">
-                    <img class="dashed-circle-bg z-bottom position-absolute top-0 right-0 bottom-0 left-0" src="/assets/images/performance-management/circle-dashed.svg" alt="Circle dashed background" />
+                    <img class="dashed-circle-bg z-bottom position-absolute top-0 right-0 bottom-0 left-0" src="{{site.baseurl}}/assets/images/performance-management/circle-dashed.svg" alt="Circle dashed background" />
                     <a title="Read more on identifying strengths" href="#strengths" class="pm-active padding-1 shadow-2 bg-white display-inline-block icon-button rounded position-absolute strengths">
-                        <img class="height-5 width-5 object-contain icon-image" src="/assets/images/performance-management/strength-icon.svg" alt="Steps Icon"/>
+                        <img class="height-5 width-5 object-contain icon-image" src="{{site.baseurl}}/assets/images/performance-management/strength-icon.svg" alt="Steps Icon"/>
                     </a>
                     <a title="Read more on success stories" href="#stories" class="padding-1 shadow-2 bg-white display-inline-block icon-button rounded position-absolute success">
                         <div class="pm-tooltip">Click to read more</div>
-                        <img class="height-5 width-5 object-contain icon-image" src="/assets/images/performance-management/success-icon.svg" alt="Steps Icon"/>
+                        <img class="height-5 width-5 object-contain icon-image" src="{{site.baseurl}}/assets/images/performance-management/success-icon.svg" alt="Steps Icon"/>
                     </a>
                     <a title="Read more on accountablilty" href="#accountablilty" class="padding-1 shadow-2 bg-white display-inline-block icon-button rounded position-absolute accountablilty">
-                        <img class="height-5 width-5 object-contain icon-image" src="/assets/images/performance-management/accountability-icon.svg" alt="Steps Icon"/>
+                        <img class="height-5 width-5 object-contain icon-image" src="{{site.baseurl}}/assets/images/performance-management/accountability-icon.svg" alt="Steps Icon"/>
                     </a>
                     <a title="Read more on gap identification" href="#gap" class="padding-1 shadow-2 bg-white display-inline-block icon-button rounded position-absolute identification">
-                        <img class="height-5 width-5 object-contain icon-image" src="/assets/images/performance-management/identification-icon.svg" alt="Steps Icon"/>
+                        <img class="height-5 width-5 object-contain icon-image" src="{{site.baseurl}}/assets/images/performance-management/identification-icon.svg" alt="Steps Icon"/>
                     </a>
                     <div class="bg-pink text-center circle-icons rounded height-full width-full display-flex align-items-center flex-align-center padding-3 tablet:padding-5">
                         <div class="inner">
-                            <img class="icon convert-white maxh-10 maxw-10 width-full height-full" src="/assets/images/performance-management/vision-icon.svg" alt="Vision Icon">
+                            <img class="icon convert-white maxh-10 maxw-10 width-full height-full" src="{{site.baseurl}}/assets/images/performance-management/vision-icon.svg" alt="Vision Icon">
                             <h2 class="text-uppercase icon-heading text-white margin-0">Promote Continuous Improvement</h2>
                             <p class="margin-0 font-body-3xs text-white">
                                 Gives programs the ability to make effective decisions based on data
@@ -139,7 +139,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             </div>
             <div id="strengths" class="tablet:grid-offset-1 tablet:grid-col-5 margin-top-3 tablet:margin-top-0 icon-content">
                 <div class="icon-wrapper rounded display-inline-block">
-                    <img src="/assets/images/performance-management/strength-icon-filled.svg" alt="Strengths Icon" />
+                    <img src="{{site.baseurl}}/assets/images/performance-management/strength-icon-filled.svg" alt="Strengths Icon" />
                 </div> 
                 <h2 class="text-uppercase icon-heading">Identify strengths and areas for improvement for solutions within the shared services ecosystem</h2>
                 <p>
@@ -148,7 +148,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             </div>
             <div id="stories" class="tablet:grid-offset-1 tablet:grid-col-5 margin-top-3 tablet:margin-top-0 icon-content">
                 <div class="icon-wrapper display-inline-block">
-                    <img src="/assets/images/performance-management/success-filled-icon.svg" alt="Success Icon" />
+                    <img src="{{site.baseurl}}/assets/images/performance-management/success-filled-icon.svg" alt="Success Icon" />
                 </div>
                 <h2 class="text-uppercase icon-heading">Understanding the Voice of the Customer</h2>
                 <p>
@@ -157,7 +157,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             </div>
             <div id="accountablilty" class="tablet:grid-offset-1 tablet:grid-col-5 margin-top-3 tablet:margin-top-0 icon-content">
                 <div class="icon-wrapper display-inline-block">
-                    <img src="/assets/images/performance-management/accountability-filled-icon.svg" alt="Accountability Icon" />
+                    <img src="{{site.baseurl}}/assets/images/performance-management/accountability-filled-icon.svg" alt="Accountability Icon" />
                 </div>
                 <h2 class="text-uppercase icon-heading">Enable Benchmarking</h2>
                 <p>
@@ -166,7 +166,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             </div>
             <div id="gap" class="tablet:grid-offset-1 tablet:grid-col-5 margin-top-3 tablet:margin-top-0 icon-content">
                 <div class="icon-wrapper display-inline-block">
-                    <img src="/assets/images/performance-management/identification-filled-icon.svg" alt="Identification Icon" />
+                    <img src="{{site.baseurl}}/assets/images/performance-management/identification-filled-icon.svg" alt="Identification Icon" />
                 </div>
                 <h2 class="text-uppercase icon-heading">Develop Baselines</h2>
                 <p>
@@ -198,10 +198,9 @@ description: The Playbook provides tools, templates, and best practices for fede
                     <li>Reduced Administrative Burden</li>
                     <li>Alignment to Administration Priorities</li>
                 </ul>
-                <img src="/assets/images/performance-management/government-services-diagram.jpg" class="width-full" />
-                <p>Additional QSMOs will be included in future versions of this framework as they complete the formal QSMO designation process.</p>
-                <a href="/assets/files/government-wide-shared-services-strategy.pdf" title="Download Framework" class="padding-top-3 padding-bottom-3 text-uppercase display-flex pdf-button flex-align-center width-full flex-justify-center" target="_blank">
-                    <b>Download Framework</b> <img class="margin-left-1" src="/assets/images/performance-management/download-pdf-icon.svg" alt="pdf icon" />
+                <img src="{{site.baseurl}}/assets/images/performance-management/osspi-diagram.svg" class="width-full" />
+                <a href="{{site.baseurl}}/assets/files/shared-services-performance-management-framework-for-website-download.pdf" title="Download Framework" class="padding-top-3 padding-bottom-3 text-uppercase display-flex pdf-button flex-align-center width-full flex-justify-center" target="_blank">
+                    <b>Download Framework</b> <img class="margin-left-1" src="{{site.baseurl}}/assets/images/performance-management/download-pdf-icon.svg" alt="pdf icon" />
                 </a>
             </div>
         </div> 
@@ -229,13 +228,13 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     <p class="margin-top-0 text-white">
                                         <i>Click to View</i>
                                     </p>
-                                    <img class="object-contain height-5 width-5" src="/assets/images/performance-management/customer-dimension-icon.svg" alt="Customer Dimension Icon" />
+                                    <img class="object-contain height-5 width-5" src="{{site.baseurl}}/assets/images/performance-management/customer-dimension-icon.svg" alt="Customer Dimension Icon" />
                                 </div>
                             </div>
                             <div id="customer-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
                                 <div class="display-flex flex-justify">
                                     <h3 class="margin-bottom-1 margin-top-0 text-uppercase icon-heading pink line-height-sans-2">Customer<br> Dimension</h3>
-                                    <img class="object-contain height-4 width-4" src="/assets/images/performance-management/customer-dimension-pink-icon.svg" alt="Customer Dimension Icon" />
+                                    <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/customer-dimension-pink-icon.svg" alt="Customer Dimension Icon" />
                                 </div>
                                 <div class="font-body-3xs text-black">
                                     <p class="margin-bottom-0 margin-top-0 line-height-sans-3">
@@ -259,13 +258,13 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     <p class="margin-top-0 text-white">
                                         <i>Click to View</i>
                                     </p>
-                                    <img class="object-contain height-5 width-5" src="/assets/images/performance-management/standards-adoption-icon.svg" alt="Customer Dimension Icon" />
+                                    <img class="object-contain height-5 width-5" src="{{site.baseurl}}/assets/images/performance-management/standards-adoption-icon.svg" alt="Customer Dimension Icon" />
                                 </div>
                             </div>
                             <div id="standards-adoption-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
                                 <div class="display-flex justify-content-space-between">
                                     <h3 class="margin-bottom-1 margin-top-0 text-uppercase icon-heading light-blue line-height-sans-2">Standards Adoption Dimension</h3>
-                                    <img class="object-contain height-4 width-4" src="/assets/images/performance-management/standards-adoption-icon-blue.svg" alt="Customer Dimension Icon" />
+                                    <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/standards-adoption-icon-blue.svg" alt="Customer Dimension Icon" />
                                 </div>
                                 <div class="font-body-3xs text-black">
                                     <p class="margin-bottom-0 margin-top-0 line-height-sans-3">
@@ -289,13 +288,13 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     <p class="margin-top-0 text-white">
                                         <i>Click to View</i>
                                     </p>
-                                    <img class="object-contain height-4 width-4" src="/assets/images/performance-management/it-modernization-icon.svg" alt="IT Modernization Dimension" />
+                                    <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/it-modernization-icon.svg" alt="IT Modernization Dimension" />
                                 </div>
                             </div>
                             <div id="standards-adoption-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
                                 <div class="display-flex flex-justify">
                                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading dark-blue line-height-sans-2">IT Modernization<br> Dimension</h3>
-                                    <img class="object-contain height-4 width-4" src="/assets/images/performance-management/it-modernization-purple-icon.svg" alt="Customer Dimension Icon" />
+                                    <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/it-modernization-purple-icon.svg" alt="Customer Dimension Icon" />
                                 </div>
                                 <div class="font-body-3xs text-black">
                                     <p class="margin-bottom-0 margin-top-1 line-height-sans-3">
@@ -324,13 +323,13 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     <p class="margin-top-0 text-white">
                                         <i>Click to View</i>
                                     </p>
-                                    <img class="object-contain height-4 width-4" src="/assets/images/performance-management/financial-dimension-icon.svg" alt="Financial Dimension" />
+                                    <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/financial-dimension-icon.svg" alt="Financial Dimension" />
                                 </div>
                             </div>
                             <div id="financial-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
                                 <div class="display-flex flex-justify padding-bottom-1">
                                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading green line-height-sans-2">Financial<br> Dimension</h3>
-                                    <img class="object-contain height-4 width-4" src="/assets/images/performance-management/financial-dimension-green-icon.svg" alt="Customer Dimension Icon" />
+                                    <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/financial-dimension-green-icon.svg" alt="Customer Dimension Icon" />
                                 </div>
                                 <div class="font-body-3xs text-black">
                                     <p class="margin-bottom-0 margin-top-0 line-height-sans-3">
@@ -354,13 +353,13 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     <p class="margin-top-0 text-white">
                                         <i>Click to View</i>
                                     </p>
-                                    <img class="object-contain height-4 width-4" src="/assets/images/performance-management/marketplace-operation-icon.svg" alt="Financial Dimension" />
+                                    <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/marketplace-operation-icon.svg" alt="Financial Dimension" />
                                 </div>
                             </div>
                             <div id="marketplace-operation-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
                                 <div class="display-flex flex-justify padding-bottom-1">
                                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading purple line-height-sans-2">Marketplace Operation Dimension</h3>
-                                    <img class="object-contain height-4 width-4" src="/assets/images/performance-management/marketplace-operation-purple-icon.svg" alt="Customer Dimension Icon" />
+                                    <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/marketplace-operation-purple-icon.svg" alt="Customer Dimension Icon" />
                                 </div>
                                 <div class="font-body-3xs text-black">
                                     <p class="margin-bottom-0 margin-top-0 line-height-sans-3">
@@ -440,7 +439,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                 aria-controls="a2"
                                 >
                                     <div class="pink-bg rounded position-absolute shadow-2 icon padding-1">
-                                        <img class="object-contain height-4 width-4" src="/assets/images/performance-management/customer-dimension-icon.svg" alt="Customer Dimension Icon">
+                                        <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/customer-dimension-icon.svg" alt="Customer Dimension Icon">
                                     </div>
                                     <span class="text-uppercase">Customer Dimension</span>
                                 </button>
@@ -497,7 +496,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                 aria-controls="a4"
                                 >
                                     <div class="green-bg rounded position-absolute shadow-2 icon padding-1">
-                                        <img class="object-contain height-4 width-4" src="/assets/images/performance-management/financial-dimension-icon.svg" alt="Financial Dimension Icon">
+                                        <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/financial-dimension-icon.svg" alt="Financial Dimension Icon">
                                     </div>
                                     <span class="text-uppercase">Financial Dimension</span>
                                 </button>
@@ -554,7 +553,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                 aria-controls="a5"
                                 >
                                     <div class="purple-bg rounded position-absolute shadow-2 icon padding-1">
-                                        <img class="object-contain height-4 width-4" src="/assets/images/performance-management/marketplace-operation-icon.svg" alt="Financial Dimension Icon">
+                                        <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/marketplace-operation-icon.svg" alt="Financial Dimension Icon">
                                     </div>
                                     <span class="text-uppercase">Marketplace Operation Dimension</span>
                                 </button>
@@ -599,7 +598,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                 aria-controls="a6"
                                 >
                                     <div class="blue-bg rounded position-absolute shadow-2 icon padding-1">
-                                        <img class="object-contain height-4 width-4" src="/assets/images/performance-management/standards-adoption-icon.svg" alt="Financial Dimension Icon">
+                                        <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/standards-adoption-icon.svg" alt="Financial Dimension Icon">
                                     </div>
                                     <span class="text-uppercase">Standards Adoption Dimension</span>
                                 </button>
@@ -656,7 +655,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                 aria-controls="a7"
                                 >
                                     <div class="dark-blue-bg rounded position-absolute shadow-2 icon padding-1">
-                                        <img class="object-contain height-4 width-4" src="/assets/images/performance-management/it-modernization-icon.svg" alt="IT Modernization Dimension Icon">
+                                        <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/it-modernization-icon.svg" alt="IT Modernization Dimension Icon">
                                     </div>
                                     <span class="text-uppercase">IT Modernization Dimension</span>
                                 </button>
@@ -744,6 +743,18 @@ description: The Playbook provides tools, templates, and best practices for fede
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact-block" class="pm margin-top-4 margin-bottom-4">
+    <div class="grid-container">
+        <div class="grid-row grid-gap">
+            <div class="tablet:grid-col-10 tablet:grid-offset-1">
+                <p>
+                    The Performance Management Framework is a multi-phase effort to improve the application of performance driven principles in agency decision-making.  To engage with us in this effort and be kept up to date on the progress underway, contact us at <a href="mailto:OSSPI.SharedServices@gsa.gov">OSSPI.SharedServices@gsa.gov</a>.
+                </p>
             </div>
         </div>
     </div>
