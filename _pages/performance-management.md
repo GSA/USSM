@@ -76,7 +76,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             </div>
             <div class="tablet:grid-col-4">
                 <div class="maxw-card margin-left-auto margin-right-auto text-center">
-                     <img class="margin-top-2 padding-2 maxh-15 maxw-15 width-full" src="{{site.baseurl}}/assets/images/performance-management/Data-icon.svg" alt="Data Icon" />
+                     <img class="margin-top-2 padding-2 maxh-15 maxw-15 width-full" src="{{site.baseurl}}/assets/images/performance-management/data-icon.svg" alt="Data Icon" />
                     <h3 class="margin-bottom-0 margin-top-1 text-uppercase icon-heading green">Data</h3>
                     <p class="margin-top-0">
                         Gives programs the ability to make effective decisions based on data
