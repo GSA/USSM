@@ -25,12 +25,12 @@ description: The Playbook provides tools, templates, and best practices for fede
     <div class="grid-container">
         <div class="grid-row grid-gap">
             <div class="tablet:grid-col-10 tablet:grid-offset-1 padding-top-4">
-                <h2 class="pm-heading margin-bottom-0">Why is Performance Management Important?</h2>
+                <h2 class="pm-heading margin-bottom-0">Why Is Performance Management Important?</h2>
                 <p>
-                    Performance management is a crucial function of any government program – whether its big or small, 
+                    Performance management is a crucial function of any government program, whether its big or small,
                     public-facing or internal. In order for a program to continuously improve, its performance must be 
-                    tracked. Establishing performance management initiatives means setting agreed upon goals that 
-                    programs work towards. An effective performance management initiative provides the following 
+                    tracked. Establishing Performance Management initiatives means setting agreed upon goals that 
+                    programs work toward. An effective Performance Management initiative provides the following
                     benefits:
                 </p>
             </div>
@@ -50,7 +50,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                     <img class="padding-2 maxh-15 maxw-15 width-full" src="{{site.baseurl}}/assets/images/performance-management/success-icon.svg" alt="Success Icon" />
                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading purple">Success Stories</h3>
                     <p class="margin-top-0">
-                        Quantify the success that a program achieves year over year
+                        Quantify the success a program achieves year over year
                     </p>
                 </div>
             </div>
@@ -79,7 +79,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                      <img class="margin-top-2 padding-2 maxh-15 maxw-15 width-full" src="{{site.baseurl}}/assets/images/performance-management/data-icon.svg" alt="Data Icon" />
                     <h3 class="margin-bottom-0 margin-top-1 text-uppercase icon-heading green">Data</h3>
                     <p class="margin-top-0">
-                        Gives programs the ability to make effective decisions based on data
+                        Give programs the ability to make effective decisions based on data
                     </p>
                 </div>
             </div>
@@ -91,7 +91,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                         <img src="{{site.baseurl}}/assets/images/performance-management/bar-chart-icon.svg" alt="Bar Chart Icon" class="tablet:margin-right-2"/>
                     </div>
                     <p>
-                    Performance Management should be used to identify what’s working and not working within a program. It should NOT be used as a report card to penalize those programs whose performance is below what was expected.
+                    Performance Management should be used to identify what’s working and not working within a program. It should NOT be used as a report card to penalize those programs whose performance is below expected.
                     </p>
                 </div>
             </div>
@@ -105,7 +105,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             <div class="tablet:grid-col-10 tablet:grid-offset-1">
                 <h2 class="pm-heading margin-bottom-0">Performance Management Benefits for Customer Agencies and the Shared Services Ecosystem</h2>
                 <p>
-                    Establishing a formal Performance Management framework is a key tenant of ensuring that shared services solutions are delivering meaningful impacts across government. What doesn’t get measured doesn’t get managed. The long-term benefits of Performance Management tracking for shared services solutions are included below:
+                    Establishing a formal Performance Management framework is key to ensuring shared services solutions are delivering meaningful impacts across government. What doesn’t get measured doesn’t get managed. The long-term benefits of Performance Management tracking for shared services solutions are included below:
                 </p>
             </div>
         </div>
@@ -143,7 +143,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                 </div> 
                 <h2 class="text-uppercase icon-heading">Identify strengths and areas for improvement for solutions within the shared services ecosystem</h2>
                 <p>
-                    Measure the progress of the shared services programs in order to identify where they are succeeding and where they need extra support
+                    Measure the progress of the shared services programs to identify where they are succeeding and where they need extra support.
                 </p>
             </div>
             <div id="stories" class="tablet:grid-offset-1 tablet:grid-col-5 margin-top-3 tablet:margin-top-0 icon-content">
@@ -152,7 +152,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                 </div>
                 <h2 class="text-uppercase icon-heading">Understanding the Voice of the Customer</h2>
                 <p>
-                    Understand the needs of the QSMO customers and provide ongoing feedback to the QSMOs
+                    Understand the needs of the Quality Service Management Offices (QSMO) customers and provide ongoing feedback to the QSMOs.
                 </p>
             </div>
             <div id="accountablilty" class="tablet:grid-offset-1 tablet:grid-col-5 margin-top-3 tablet:margin-top-0 icon-content">
@@ -161,7 +161,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                 </div>
                 <h2 class="text-uppercase icon-heading">Enable Benchmarking</h2>
                 <p>
-                    Enables benchmarking across QSMOs and the ability to share lessons learned across the marketplace
+                    Enables benchmarking across Quality Service Management Offices (QSMOs) and the ability to share lessons learned across the marketplace.
                 </p>
             </div>
             <div id="gap" class="tablet:grid-offset-1 tablet:grid-col-5 margin-top-3 tablet:margin-top-0 icon-content">
@@ -170,7 +170,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                 </div>
                 <h2 class="text-uppercase icon-heading">Develop Baselines</h2>
                 <p>
-                    Baselines customers level of satisfaction with the QSMOs as the marketplace brokers
+                    Baselines customers level of satisfaction with the Quality Service Management Offices (QSMOs) as the marketplace brokers.
                 </p>
             </div>
         </div>
@@ -181,22 +181,22 @@ description: The Playbook provides tools, templates, and best practices for fede
     <div class="grid-container">
         <div class="grid-row grid-gap">
             <div class="tablet:grid-col-10 tablet:grid-offset-1">
-                <h2 class="pm-heading">Tiered Shared Services Performance Management Framework – Enterprise View</h2>
+                <h2 class="pm-heading">Tiered Shared Services Performance Management Framework: Enterprise View</h2>
                 <p class="pm-subtitle ">
-                    Many of these measures have already been implemented by the QSMOs.
+                    Many of these measures have already been implemented by the Quality Service Management Offices (QSMOs).
                 </p>
                 <p>
-                    The Tiered Shared Services Performance Management Framework – Enterprise View was designed to clearly illustrate the relationship between each major stakeholder group responsible for monitoring and improving performance across the shared services ecosystem. A key tenant of this framework is obtaining buy-in from each tier and maintaining on-going communication to ensure strategic and performance alignment, on-going performance reporting, and identification of performance improvement opportunities. As shown on the right side of the graphic below, the governance structure for tracking performance of the shared services ecosystem is designed to always keep the customer agency in mind.
+                    The Tiered Shared Services Performance Management Framework – Enterprise View was designed to illustrate the relationship between each major stakeholder group responsible for monitoring and improving performance across the shared services ecosystem. Key to this framework is obtaining buy-in from each tier and maintaining ongoing communication to ensure strategic and performance alignment, ongoing performance reporting, and identification of performance improvement opportunities. As shown on the right side of the graphic below, the governance structure for tracking performance of the shared services ecosystem is designed to always keep the customer agency in mind.
                 </p>
                 <h3 class="pm-heading">Customer Agency Performance</h3>
-                <p>The QSMO Performance Management Framework is designed to demonstrate the Financial Management QSMO Grants Management QSMO Human Resources QSMO positive impact and improved performance that customer agencies across government receive through adoption of a QSMO solution.</p>
+                <p>The Shared Services Performance Management Framework is designed to demonstrate the QSMOs' positive impact and improved performance that customer agencies across government receive through adoption of a QSMO solution.</p>
                 <p>These benefits include but are not limited to:</p>
                 <ul>
-                    <li>Improved Service Delivery and Performance</li>
-                    <li>Increased Customer Satisfaction</li>
-                    <li>Ability to Focus on High Value Work</li>
-                    <li>Reduced Administrative Burden</li>
-                    <li>Alignment to Administration Priorities</li>
+                    <li>Improved service delivery and performance</li>
+                    <li>Increased customer satisfaction</li>
+                    <li>Ability to focus on high value work</li>
+                    <li>Reduced administrative burden</li>
+                    <li>Alignment to Administration priorities</li>
                 </ul>
                 <img src="{{site.baseurl}}/assets/images/performance-management/osspi-diagram.svg" class="width-full" />
                 <a href="{{site.baseurl}}/assets/files/shared-services-performance-management-framework-for-website-download.pdf" title="Download Framework" class="padding-top-3 padding-bottom-3 text-uppercase display-flex pdf-button flex-align-center width-full flex-justify-center" target="_blank">
@@ -213,7 +213,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             <div class="tablet:grid-col-10 tablet:grid-offset-1">
                 <h2 class="pm-heading">Balanced Scorecard Approach Summary</h2>
                 <p>
-                    OSSPI and the QSMOs are following a phased balanced scorecard approach to shared services performance management. Using input provided by the QSMOs, OMB, and customer agencies, the OSSPI team has identified measures across the following five performance dimensions. Each dimension contains multiple measures, which will be operationalized in a phased manner. Using this balanced scorecard approach empowers our team to wholistically track the performance of the solutions in the shared services ecosystem, which enables success for shared services customers.
+                    The Office of Shared Solutions and Performance Improvement (OSSPI) and the QSMOs are following a phased-balanced scorecard approach to shared services Performance Management. Using input provided by the QSMOs, Office of Management and Budget (OMB), and customer agencies, the OSSPI team has identified measures across the following five performance dimensions. Each dimension contains multiple measures that will be operationalized in a phased manner. Using this balanced scorecard approach empowers our team to wholistically track the performance of the solutions in the shared services ecosystem, which enables success for shared services customers.
                 </p>
             </div>
         </div>
@@ -451,7 +451,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9  tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple margin-top-0">QSMO Customer Engagement</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the QSMOs overall engagement with federal agencies – track customer agency participation in QSMO-sponsored events, including information sessions, workshops, or office hours etc.</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the QSMOs overall engagement with federal agencies specifically track customer agency participation in QSMO-sponsored events, including information sessions, workshops, or office hours etc.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -463,7 +463,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9  tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple margin-top-0">QSMO Customer Satisfaction</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker – including quality of support and access to quality data</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker, including quality of support and access to quality data.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -475,7 +475,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple">Solution Adoption</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker – including quality of support and access to quality data</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with the strategic guidance provided by the QSMO as the marketplace broker, including quality of support and access to quality data.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -508,7 +508,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 margin-top-0 purple">Cost Avoidance</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Measure the estimated cost avoidance ($) achieved by customer agencies through the adoption of QSMO marketplace solutions</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Measure the estimated cost avoidance ($) achieved by customer agencies through the adoption of QSMO marketplace solutions.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -520,7 +520,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 margin-top-0 purple">Return on Investment (ROI)</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Measure the estimated Return on Investment ($) achieved by customer agencies through adoption of QSMO marketplace solutions</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Measure the estimated Return on Investment ($) achieved by customer agencies through adoption of QSMO marketplace solutions.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -532,7 +532,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple">Financial Transparency</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customers who report that they understand the pricing elements related to the total cost of ownership of a QSMO solution, as compared to the total cost of ownership of a solution on the open market</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customers who confirm they understand the pricing elements related to the total cost of ownership of a QSMO solution, as compared to the total cost of ownership of a solution on the open market.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -565,7 +565,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 margin-top-0 purple">Service Quality and Timeliness</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of QSMO vendors / marketplace solutions meeting Service Level Agreements (SLAs) or achieving satisfactory CPARS results</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of QSMO vendors and marketplace solutions meeting Service Level Agreements (SLAs) or achieving satisfactory Performance Assessment Reporting System (CPARS) results.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -577,7 +577,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple margin-top-0">Technical Innovation</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customers who feel that QSMO marketplace solutions are technically innovative and state-of-the art</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customers who feel that QSMO marketplace solutions are technically innovative and state-of-the art.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -610,7 +610,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple margin-top-0">Standards Incorporation</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of agency-issued solicitations for QSMO marketplace solutions which adhere to the FIBF business standards</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of agency-issued solicitations for QSMO marketplace solutions that adhere to the FIBF business standards.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -622,7 +622,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 margin-top-0">System Standardization</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the number of government-wide separate or outdated instances of systems in QSMO functional areas</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the number of government-wide separate or outdated instances of systems in QSMO functional areas.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -634,7 +634,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple">Modernization and Migration (M3) Playbook Utilization</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the number of customer agencies (or federal users) who have reported using the M3 playbook in some capacity</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the number of customer agencies (or federal users) who report using the M3 playbook in some capacity.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -667,7 +667,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 margin-top-0">Usability / Accessibility</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of QSMO marketplace solutions that are rated 508 compliant at the WCAG 2.0 Level AA Success Criteria</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of QSMO marketplace solutions rated 508 compliant at the WCAG 2.0 Level AA Success Criteria.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -679,7 +679,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 margin-top-0">Cybersecurity</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of QSMO marketplace cloud solutions that are FedRAMP authorized, FedRAMP in process, or FedRAMP ready/or have acquired Authorization to Operate (ATO) for federal solutions</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of QSMO marketplace cloud solutions that are FedRAMP authorized, FedRAMP in process, FedRAMP ready/or have acquired Authorization to Operate (ATO) for federal solutions.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -691,7 +691,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple">Data Interfaces / Customization</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track adoption of data standards through QSMO marketplace solution adherence to a common set of data definitions / interfaces</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track adoption of data standards through QSMO marketplace solution adherence to a common set of data definitions and interfaces.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -703,7 +703,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple">IT Contract Consolidation</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the total ($) spend consolidation from open market acquisitions to QSMO-offered contract vehicles / solicitations</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the total ($) spend consolidation from open market acquisitions to QSMO-offered contract vehicles and solicitations.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -715,7 +715,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple">Technology Management / Software Delivery</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Measure cost/labor hours associated with major IT enhancements and upgrades avoided by customer agencies through adoption of a QSMO solution</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Measure cost and labor hours associated with major IT enhancements and upgrades avoided by customer agencies through adoption of a QSMO solution.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -727,7 +727,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple">System Resiliency</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of time the QSMO marketplace solution is available, not including planned and authorized service interruptions</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of time the QSMO marketplace solution is available, not including planned and authorized service interruptions.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
