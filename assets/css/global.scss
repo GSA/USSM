@@ -408,3 +408,39 @@ a.ogp-card__link--unset:hover {
   color: #205493;
   font-weight: bold;
 }
+
+.usa-search [type="submit"] {
+    background-image: none;
+}
+
+@media screen and (min-width: 700px){ 
+.search-icon {
+    transform: scale(1.5);
+}
+}
+
+@media screen and (max-width: 1314px){ 
+.fibf-wheel {
+    margin-left:0rem;
+    margin-right: -2rem;
+}
+}
+
+/** Buttons on Bussiness Standard Sub-Pages **/
+.usa-button--accent-cool { 
+    background-color: #0081a1;
+}
+
+.esgms-table-wrapper thead tr {
+    height: auto;
+}
+
+.esgms-table-wrapper thead tr th,
+.esgms-table-wrapper tbody tr td:first-child,
+.esgms-table-wrapper tbody tr td {
+    background-clip: padding-box;
+}
+
+.esgms-table-wrapper thead tr th.populated {
+    vertical-align: bottom;
+}
