@@ -244,12 +244,12 @@
     }
     .usa-accordion__button {
         background-size: 20px 20px;
-        background-image: url("/assets/images/performance-management/caret-close.svg");
+        background-image: url("../assets/images/performance-management/caret-close.svg");
         background-repeat: no-repeat;
         background-position: 97% 50%;
         background-size: 20px 20px;
         &[aria-expanded="false"] {
-            background-image: url("/assets/images/performance-management/caret.svg");
+            background-image: url("../assets/images/performance-management/caret.svg");
         }
     }
     .usa-accordion__heading:hover {
@@ -286,6 +286,12 @@
             @include at-media(tablet) {
                 left: 50%;
             }
+        }
+    }
+    #scorecard .grid-row.grid-gap > * {
+        @include at-media(tablet) {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
         }
     }
 }
