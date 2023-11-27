@@ -27,11 +27,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             <div class="tablet:grid-col-10 tablet:grid-offset-1 padding-top-4">
                 <h2 class="pm-heading margin-bottom-0">Why Is Performance Management Important?</h2>
                 <p>
-                    Performance management is a crucial function of any government program, whether its big or small,
-                    public-facing or internal. In order for a program to continuously improve, its performance must be 
-                    tracked. Establishing Performance Management initiatives means setting agreed upon goals that 
-                    programs work toward. An effective Performance Management initiative provides the following
-                    benefits:
+                    Performance management is a crucial function of any government program, whether its big or small, public-facing or internal. For a program to continuously improve, its performance must be tracked. Establishing Performance Management initiatives means setting agreed upon goals that programs work toward.  Aligning performance management of the services agencies buy and use to the same ways that agencies themselves are measured is a core tenet of an effective framework and provides the following benefits:
                 </p>
             </div>
         </div>
@@ -41,7 +37,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                     <img class="padding-2 maxh-15 maxw-15 width-full" src="{{site.baseurl}}/assets/images/performance-management/vision-icon.svg" alt="Vision Icon" />
                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading pink">Vision</h3>
                     <p class="margin-top-0">
-                        Create a shared vision of what success looks like for a program
+                        Creates shared vision of what success looks like for program and customer
                     </p>
                 </div>
             </div>
