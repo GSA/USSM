@@ -248,7 +248,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                     </a>
                     <a href="#standards-adoption-dimension" title="Read More" class="flip-container tablet:grid-col-4 margin-bottom-3 tablet:margin-bottom-0">
                         <div class="flipper position-relative">
-                            <div class="front full-width blue-bg radius-lg text-center padding-4 display-flex flex-justify flex-align-center">
+                            <div class="front full-width blue-bg radius-lg text-center padding-4 display-flex flex-justify-center flex-align-center">
                                 <div>
                                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading text-white line-height-sans-2">Standards Adoption Dimension</h3>
                                     <p class="margin-top-0 text-white">
@@ -258,7 +258,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                 </div>
                             </div>
                             <div id="standards-adoption-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
-                                <div class="display-flex justify-content-space-between">
+                                <div class="display-flex flex-justify">
                                     <h3 class="margin-bottom-1 margin-top-0 text-uppercase icon-heading light-blue line-height-sans-2">Standards Adoption Dimension</h3>
                                     <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/standards-adoption-icon-blue.svg" alt="Customer Dimension Icon" />
                                 </div>
@@ -277,7 +277,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                             </div>
                         </div>
                     </a>
-                    <a href="#it-modernization" title="Read More" class="flip-container tablet:grid-col-4  margin-bottom-3 tablet:margin-bottom-0">
+                    <a href="#it-modernization" title="Read More" class="flip-container tablet:grid-col-4 margin-bottom-3 tablet:margin-bottom-0">
                         <div class="flipper position-relative">
                             <div class="front full-width dark-blue-bg radius-lg text-center padding-4 display-flex flex-justify-center flex-align-center">
                                 <div>
@@ -288,7 +288,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/it-modernization-icon.svg" alt="IT Modernization Dimension" />
                                 </div>
                             </div>
-                            <div id="standards-adoption-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
+                            <div id="it-modernization" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
                                 <div class="display-flex flex-justify">
                                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading dark-blue line-height-sans-2">IT Modernization<br> Dimension</h3>
                                     <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/it-modernization-purple-icon.svg" alt="Customer Dimension Icon" />
@@ -353,7 +353,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/marketplace-operation-icon.svg" alt="Financial Dimension" />
                                 </div>
                             </div>
-                            <div id="marketplace-operation-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
+                            <div id="market-operation-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
                                 <div class="display-flex flex-justify padding-bottom-1">
                                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading purple line-height-sans-2">Marketplace Operation Dimension</h3>
                                     <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/marketplace-operation-purple-icon.svg" alt="Customer Dimension Icon" />
