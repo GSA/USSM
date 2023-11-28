@@ -130,7 +130,16 @@
         .front {
             z-index: 2;
             transform: rotateY(0deg);
-            min-height: 385px;
+            min-height: 350px;
+            @include at-media(tablet) {
+                min-height: 640px;
+            }
+            @include at-media(tablet-lg) {
+                min-height: 500px;
+            }
+            @include at-media(desktop) {
+                min-height: 385px;
+            }
         }
         .back-tile {
             transform: rotateY(180deg);
