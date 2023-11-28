@@ -1,6 +1,6 @@
 ---
 layout: performance-management
-title: Introduction to Modernization and Migration Management (M3)
+title: Performance Management Framework
 permalink: /performance-management/
 description: The Playbook provides tools, templates, and best practices for federal agency modernizations.
 ---
