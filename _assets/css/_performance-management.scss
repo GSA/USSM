@@ -234,37 +234,39 @@
             }
         }
     }
-    #performance .usa-accordion { 
-        .icon {
-            left: -25px;
-            top: -10px;
-            border: 2px solid #fff!important;
-        }
-        .border-right {
-            border-right: 1px solid #170083!important;
-        }
-        .usa-accordion__content.usa-prose {
-            padding: 0!important;
-        }
-    }
     .usa-nav__inner {
         max-width: 92rem;
         padding: 0!important;
     }
-    .usa-accordion__button {
-        background-size: 20px 20px;
-        background-image: url("../assets/images/performance-management/caret-close.svg");
-        background-repeat: no-repeat;
-        background-position: 97% 50%;
-        background-size: 20px 20px;
-        &[aria-expanded="false"] {
-            background-image: url("../assets/images/performance-management/caret.svg");
+    #performance {
+        .usa-accordion {
+            .icon {
+                left: -25px;
+                top: -10px;
+                border: 2px solid #fff!important;
+            }
+            .border-right {
+                border-right: 1px solid #170083!important;
+            }
+            .usa-accordion__content.usa-prose {
+                padding: 0!important;
+            }
         }
-    }
-    .usa-accordion__heading:hover {
-        color: #fff;
-        button {
+        .usa-accordion__button {
+            background-size: 20px 20px;
+            background-image: url("../assets/images/performance-management/caret-close.svg");
+            background-repeat: no-repeat;
+            background-position: 97% 50%;
+            background-size: 20px 20px;
+            &[aria-expanded="false"] {
+                background-image: url("../assets/images/performance-management/caret.svg");
+            }
+        }
+        .usa-accordion__heading:hover {
             color: #fff;
+            button {
+                color: #fff;
+            }
         }
     }
     .pm-tooltip {
