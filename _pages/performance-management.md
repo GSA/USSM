@@ -1,6 +1,6 @@
 ---
 layout: performance-management
-title: Introduction to Modernization and Migration Management (M3)
+title: Performance Management Framework
 permalink: /performance-management/
 description: The Playbook provides tools, templates, and best practices for federal agency modernizations.
 ---
@@ -27,11 +27,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             <div class="tablet:grid-col-10 tablet:grid-offset-1 padding-top-4">
                 <h2 class="pm-heading margin-bottom-0">Why Is Performance Management Important?</h2>
                 <p>
-                    Performance management is a crucial function of any government program, whether its big or small,
-                    public-facing or internal. In order for a program to continuously improve, its performance must be 
-                    tracked. Establishing Performance Management initiatives means setting agreed upon goals that 
-                    programs work toward. An effective Performance Management initiative provides the following
-                    benefits:
+                    Performance management is a crucial function of any government program, whether its big or small, public-facing or internal. For a program to continuously improve, its performance must be tracked. Establishing Performance Management initiatives means setting agreed upon goals that programs work toward.  Aligning performance management of the services agencies buy and use to the same ways that agencies themselves are measured is a core tenet of an effective framework and provides the following benefits:
                 </p>
             </div>
         </div>
@@ -41,7 +37,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                     <img class="padding-2 maxh-15 maxw-15 width-full" src="{{site.baseurl}}/assets/images/performance-management/vision-icon.svg" alt="Vision Icon" />
                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading pink">Vision</h3>
                     <p class="margin-top-0">
-                        Create a shared vision of what success looks like for a program
+                        Creates shared vision of what success looks like for program and customer
                     </p>
                 </div>
             </div>
@@ -252,7 +248,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                     </a>
                     <a href="#standards-adoption-dimension" title="Read More" class="flip-container tablet:grid-col-4 margin-bottom-3 tablet:margin-bottom-0">
                         <div class="flipper position-relative">
-                            <div class="front full-width blue-bg radius-lg text-center padding-4 display-flex flex-justify flex-align-center">
+                            <div class="front full-width blue-bg radius-lg text-center padding-4 display-flex flex-justify-center flex-align-center">
                                 <div>
                                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading text-white line-height-sans-2">Standards Adoption Dimension</h3>
                                     <p class="margin-top-0 text-white">
@@ -262,7 +258,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                 </div>
                             </div>
                             <div id="standards-adoption-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
-                                <div class="display-flex justify-content-space-between">
+                                <div class="display-flex flex-justify">
                                     <h3 class="margin-bottom-1 margin-top-0 text-uppercase icon-heading light-blue line-height-sans-2">Standards Adoption Dimension</h3>
                                     <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/standards-adoption-icon-blue.svg" alt="Customer Dimension Icon" />
                                 </div>
@@ -281,7 +277,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                             </div>
                         </div>
                     </a>
-                    <a href="#it-modernization" title="Read More" class="flip-container tablet:grid-col-4  margin-bottom-3 tablet:margin-bottom-0">
+                    <a href="#it-modernization" title="Read More" class="flip-container tablet:grid-col-4 margin-bottom-3 tablet:margin-bottom-0">
                         <div class="flipper position-relative">
                             <div class="front full-width dark-blue-bg radius-lg text-center padding-4 display-flex flex-justify-center flex-align-center">
                                 <div>
@@ -292,7 +288,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/it-modernization-icon.svg" alt="IT Modernization Dimension" />
                                 </div>
                             </div>
-                            <div id="standards-adoption-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
+                            <div id="it-modernization" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
                                 <div class="display-flex flex-justify">
                                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading dark-blue line-height-sans-2">IT Modernization<br> Dimension</h3>
                                     <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/it-modernization-purple-icon.svg" alt="Customer Dimension Icon" />
@@ -357,7 +353,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/marketplace-operation-icon.svg" alt="Financial Dimension" />
                                 </div>
                             </div>
-                            <div id="marketplace-operation-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
+                            <div id="market-operation-dimension" class="back-tile radius-lg full-width height-full position-absolute top-0 left-0 padding-2">
                                 <div class="display-flex flex-justify padding-bottom-1">
                                     <h3 class="margin-bottom-0 margin-top-0 text-uppercase icon-heading purple line-height-sans-2">Marketplace Operation Dimension</h3>
                                     <img class="object-contain height-4 width-4" src="{{site.baseurl}}/assets/images/performance-management/marketplace-operation-purple-icon.svg" alt="Customer Dimension Icon" />

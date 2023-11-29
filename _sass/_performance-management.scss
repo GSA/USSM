@@ -130,7 +130,16 @@
         .front {
             z-index: 2;
             transform: rotateY(0deg);
-            min-height: 385px;
+            min-height: 350px;
+            @include at-media(tablet) {
+                min-height: 640px;
+            }
+            @include at-media(tablet-lg) {
+                min-height: 500px;
+            }
+            @include at-media(desktop) {
+                min-height: 385px;
+            }
         }
         .back-tile {
             transform: rotateY(180deg);
@@ -191,7 +200,7 @@
     }
     .pm-hero {
         background: linear-gradient(94deg, #13168e 0%, #1bb9b6 100%);
-        background-image: url(../assets/images/m3-pattern.svg), linear-gradient(94deg, #13168e 0%, #1bb9b6 100%);
+        background-image: url(../images/m3-pattern.svg), linear-gradient(94deg, #13168e 0%, #1bb9b6 100%);
         color: #fff;
         .pm-hero__heading {
             font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
@@ -244,12 +253,12 @@
     }
     .usa-accordion__button {
         background-size: 20px 20px;
-        background-image: url("../assets/images/performance-management/caret-close.svg");
+        background-image: url("../images/performance-management/caret-close.svg");
         background-repeat: no-repeat;
         background-position: 97% 50%;
         background-size: 20px 20px;
         &[aria-expanded="false"] {
-            background-image: url("../assets/images/performance-management/caret.svg");
+            background-image: url("../images/performance-management/caret.svg");
         }
     }
     .usa-accordion__heading:hover {
