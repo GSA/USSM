@@ -300,4 +300,3 @@ $( ".pm-page .icon-button" ).on( "click", function() {
 $( ".pm-page .flip-container" ).on( "click", function() {
     $(this).toggleClass('active-card');
 });
-
