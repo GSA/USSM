@@ -27,7 +27,7 @@ description: The Playbook provides tools, templates, and best practices for fede
             <div class="tablet:grid-col-10 tablet:grid-offset-1 padding-top-4">
                 <h2 class="pm-heading margin-bottom-0">Why Is Performance Management Important?</h2>
                 <p>
-                    Performance management is a crucial function of any government program, whether its big or small, public-facing or internal. For a program to continuously improve, its performance must be tracked. Establishing Performance Management initiatives means setting agreed upon goals that programs work toward.  Aligning performance management of the services agencies buy and use to the same ways that agencies themselves are measured is a core tenet of an effective framework and provides the following benefits:
+                    Performance management is a crucial function of any government program, whether its big or small, public-facing or internal. For a program to continuously improve, its performance must be tracked. Establishing outcome-based Performance Management initiatives means setting agreed upon goals that programs work toward.  Aligning performance management of the services agencies buy and use to the same ways that agencies themselves are measured is a core tenet of an effective framework and provides the following benefits:
                 </p>
             </div>
         </div>
