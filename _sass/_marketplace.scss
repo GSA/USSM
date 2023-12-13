@@ -59,7 +59,7 @@
   &:before {
     content: ' ';
     text-indent: -999em;
-    background-image: asset_url('check-icon.svg');
+    background-image: url('../images/check-icon.svg');
     background-size: cover;
     height: 19px;
     width: 19px;
@@ -88,7 +88,7 @@
 
 .check {
   // background-color: #ECFEEC;
-  background-image: asset_url('x-icon.png');
+  background-image: url('../images/x-icon.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 2em 2em;
