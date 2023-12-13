@@ -31,7 +31,7 @@ where we provide an easy way to manage your navigation system
     </div>
     <nav aria-label="Primary navigation" class="usa-nav">
       <div class="usa-nav__inner">
-        <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
+        <button class="usa-nav__close"><img alt="close" src="{{ site.baseurl }}/assets/img/close.svg" /></button>
         <ul class="usa-nav__primary usa-accordion"  >
           {% for nav in include.primary_navigation %}
           {% unless nav.children %}
@@ -53,7 +53,7 @@ where we provide an easy way to manage your navigation system
                 <a class="usa-tooltip" data-position="bottom" href="{% if subnav_item.external %}{{ subnav_item.permalink }}{% else %} {{ subnav_item.permalink | prepend: site.baseurl }} {% endif %}" title="{{ subnav_item.tooltip | escape }}">
                   {{ subnav_item.text | escape }}
                   {% if subnav_item.external %}
-                  {% asset external-link-alt.svg class="width-2 margin-left-05" alt="External Link" %}
+                    <img alt="External Link" class="width-2 margin-left-05" src="{{ site.baseurl }}/assets/img/external-link-alt.svg"/>
                   {% endif %}
                 </a>
                 {% elsif subnav_item.sub == true %}
