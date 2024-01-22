@@ -528,7 +528,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple">Financial Transparency</h4>
+                                                    <h4 class="margin-bottom-0 purple">Price Transparency</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customers who report that they understand the pricing elements related to the total cost of ownership.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -562,7 +562,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 margin-top-0 purple">Service Quality and Timeliness</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of vendors and marketplace solutions meeting Service Level Agreements (SLAs) or achieving satisfactory CPARS results.</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of providers and marketplace solutions meeting Service Level Agreements (SLAs) or achieving satisfactory CPARS results.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -574,7 +574,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple margin-top-0">Technical Innovation</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customers who feel that marketplace solutions are technically innovative and state-of-the art.</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customers who feel that marketplace solutions are technologically innovative and state-of-the art.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -631,7 +631,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple">Modernization and Migration (M3) Playbook Utilization</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the number of customer agencies (or federal users) who have reported using the M3 playbook in some capacity.</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the number of federal agencies who have reported using the M3 playbook in some capacity.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -664,7 +664,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 margin-top-0">Usability / Accessibility</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of marketplace solutions that are rated 508 compliant at the WCAG 2.0 Level AA Success Criteria.</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of marketplace solutions that are rated 508 compliant (at the WCAG 2.0 Level AA Success Criteria where applicable).</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -676,7 +676,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 margin-top-0">Cybersecurity</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of marketplace cloud solutions that are FedRAMP authorized, FedRAMP in process, or FedRAMP ready/or have acquired Authorization to Operate (ATO) for federal solutions.</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of marketplace cloud solutions that are FedRAMP authorized, FedRAMP in process, FedRAMP ready, or have acquired agency Authorization to Operate (ATO)</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
@@ -724,7 +724,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
                                                     <h4 class="margin-bottom-0 purple">System Resiliency</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of time marketplace solutions are available, not including planned and authorized service interruptions.</p>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of QSMO marketplace solutions that are meeting their system availability targets, not including planned and authorized service interruptions.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
