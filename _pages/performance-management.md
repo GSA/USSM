@@ -447,7 +447,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                         <div class="tablet:grid-col-10 tablet:grid-offset-1">
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9  tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple margin-top-0">Customer Engagement</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Customer Engagement</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track overall engagement with federal agencies – track customer agency participation in sponsored events, including information sessions, workshops, or office hours etc.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -459,7 +459,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9  tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple margin-top-0">Customer Satisfaction</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Customer Satisfaction</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track customer agency satisfaction with strategic guidance provided by both QSMO as the marketplace broker and service providers – including quality of support and access to quality data.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -573,7 +573,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple margin-top-0">Technological Innovation</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Technological Innovation</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customers who feel that marketplace solutions are technologically innovative and state-of-the art.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -606,7 +606,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                         <div class="tablet:grid-col-10 tablet:grid-offset-1">
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple margin-top-0">Standards Incorporation</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Standards Incorporation</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of agency-issued solicitations for marketplace solutions which adhere to the FIBF business standards.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -618,13 +618,13 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">System Standardization</h4>
-                                                    <p class="margin-top-0 margin-bottom-0">Track the number of government-wide separate or outdated instances of systems in designated functional areas.</p>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">System Standardization</h4>
+                                                    <p class="margin-top-0 margin-bottom-0">Track the number of government-wide separate or outdated instances of systems in designated functional areas.</p> 
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
-                                                        <h4 class="text-uppercase text-center blue margin-bottom-0">Phase 3</h4>
-                                                        <p class="blue text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                        <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -663,7 +663,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                         <div class="tablet:grid-col-10 tablet:grid-offset-1">
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">Usability / Accessibility</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Usability / Accessibility</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of marketplace solutions that are rated 508 compliant (at the WCAG 2.0 Level AA Success Criteria where applicable).</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -675,7 +675,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0">Cybersecurity</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Cybersecurity</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of marketplace cloud solutions that are FedRAMP authorized, FedRAMP in process, FedRAMP ready, or have acquired agency Authorization to Operate (ATO)</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
