@@ -270,7 +270,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     <ul class="padding-left-2 margin-top-1 margin-bottom-0">
                                         <li>Standards Incorporation (Phase 3)</li>
                                         <li>System Standardization (Phase 3)</li>
-                                        <li>Modernization and Migration (M3) Playbook Utilization (Phase 1)</li>
+                                        <li>Modernization and Migration Management (M3) Playbook Utilization (Phase 1)</li>
                                     </ul>
                                     <p class="light-blue"><u><i>View Back</i></u></p>
                                 </div>
@@ -364,7 +364,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                     </p>
                                     <ul class="padding-left-2 margin-top-1 margin-bottom-0">
                                         <li>Service Quality and Timeliness (Phase 3)</li>
-                                        <li>Technical Innovation (Phase 2)</li>
+                                        <li>Technological Innovation (Phase 2)</li>
                                     </ul>
                                     <p class="purple"><u><i>View Back</i></u></p>
                                 </div>
@@ -573,7 +573,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple margin-top-0">Technical Innovation</h4>
+                                                    <h4 class="margin-bottom-0 purple margin-top-0">Technological Innovation</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customers who feel that marketplace solutions are technologically innovative and state-of-the art.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -630,7 +630,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple">Modernization and Migration (M3) Playbook Utilization</h4>
+                                                    <h4 class="margin-bottom-0 purple">Modernization and Migration Management (M3) Playbook Utilization</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the number of federal agencies who have reported using the M3 playbook in some capacity.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
