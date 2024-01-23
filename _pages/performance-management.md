@@ -471,7 +471,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple">Solution Adoption</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Solution Adoption</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customer agencies whose needs are met through the successful adoption of a marketplace solution.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -504,7 +504,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                         <div class="tablet:grid-col-10 tablet:grid-offset-1">
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0 purple">Cost Avoidance</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Cost Avoidance</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Measure the estimated cost avoidance ($) achieved by customer agencies through the adoption of marketplace solutions.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -516,7 +516,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0 purple">Return on Investment (ROI)</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Return on Investment (ROI)</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Measure the estimated Return on Investment ($) achieved by customer agencies through adoption of marketplace solutions.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -528,7 +528,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple">Price Transparency</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Price Transparency</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of customers who report that they understand the pricing elements related to the total cost of ownership.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -561,7 +561,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                         <div class="tablet:grid-col-10 tablet:grid-offset-1">
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 margin-top-0 purple">Service Quality and Timeliness</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Service Quality and Timeliness</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of providers and marketplace solutions meeting Service Level Agreements (SLAs) or achieving satisfactory CPARS results.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -630,7 +630,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple">Modernization and Migration Management (M3) Playbook Utilization</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Modernization and Migration Management (M3) Playbook Utilization</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the number of federal agencies who have reported using the M3 playbook in some capacity.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -687,7 +687,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple">Data Interfaces / Customization</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Data Interfaces / Customization</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track adoption of data standards through marketplace solution adherence to a common set of data definitions and interfaces.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -699,7 +699,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple">IT Contract Consolidation</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">IT Contract Consolidation</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the total ($) spend consolidation from open market acquisitions to designated government-wide contract vehicles and solicitations.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -711,7 +711,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple">Technology Management / Software Delivery</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">Technology Management / Software Delivery</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Measure cost/labor hours associated with major IT enhancements and upgrades avoided by customer agencies through adoption of a marketplace solution.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
@@ -723,7 +723,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                             </div>
                                             <div class="grid-row grid-gap padding-bottom-2">
                                                 <div class="tablet:grid-col-9 tablet:border-right">
-                                                    <h4 class="margin-bottom-0 purple">System Resiliency</h4>
+                                                    <h4 class="margin-bottom-0 margin-top-0 sub-header">System Resiliency</h4>
                                                     <p class="margin-top-0 margin-bottom-0">Track the percentage (%) of QSMO marketplace solutions that are meeting their system availability targets, not including planned and authorized service interruptions.</p>
                                                 </div>
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
