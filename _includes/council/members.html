@@ -12,7 +12,7 @@ where we provide an easy way to manage your navigation system
             {% for group in members_sorted %} 
                 <div class="council tablet:grid-col-6 text-center margin-top-5">
                     {% assign logo = group.name | split: "| " %}
-                    <a href="{{ logo[1] }}" target="_blank" class="maxw-card tablet:width-15 tablet:height-15 margin-x-auto" style="display: flex; align-items: center;">
+                    <a href="{{ logo[1] }}" target="_blank" class="maxw-card width-15 height-15 margin-x-auto" style="display: flex; align-items: center;">
                         <img class="height-auto width-full" src="{{site.baseurl}}/assets/images/governance/logos/{{ logo[0] }}" alt="Logo">
                     </a>
                     <div class="grid-row flex-wrap flex-justify-center padding-top-3">
