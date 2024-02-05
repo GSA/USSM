@@ -1,0 +1,33 @@
+---
+title: "Shared Services Governance Board"
+layout: base
+---
+
+{% comment %}
+This template is for the main governance board page
+{% endcomment %}
+
+<div class="council-content">
+    <section class="title-banner">
+        <div class="grid-container">
+           <div class="grid-row grid-gap">
+                <div class="tablet:grid-col-10 padding-top-4 padding-bottom-4">
+                    <h1 class="pm-hero__heading margin-0 padding-bottom-6 padding-top-6 font-merriweather font-body-2xl text-light">
+                        Shared Services Governance Board
+                     </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="grid-container padding-top-6 padding-bottom-6">
+      {{ content }}
+      {% include council/co-chairs.html %}
+      {% include council/members.html %}
+    </div>
+  <div class="grid-container">
+    <div class="grid-row grid-gap space-between">
+      <div class="desktop:grid-col-12 margin-bottom-2">
+        <a href="#main-content">Return to top</a>
+      </div>
+    </div>
+  </div>
