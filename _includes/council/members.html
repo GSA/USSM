@@ -5,14 +5,16 @@ where we provide an easy way to manage your navigation system
 
 <div class="members">
     <h2 class="text-center font-merriweather font-body-xl text-light">Member Councils</h2>
-    {% assign grouped_members = site.pages | where_exp: "item" , "item.path contains 'members'" | group_by: 'logo'%}
+    {% assign grouped_members = site.pages | where_exp: "item" , "item.path contains 'members'" | group_by: 'logo' %}
+    {% assign members_sorted = grouped_members | sort: "name" %}
     <div class="grid-container">
         <div class="grid-row flex-wrap flex-justify-center">
-            {% for group in grouped_members %} 
+            {% for group in members_sorted %} 
                 <div class="council tablet:grid-col-6 text-center margin-top-5">
-                    <div class="maxw-card tablet:width-15 tablet:height-15 margin-x-auto" style="display: flex; align-items: center;">
-                        <img class="height-auto width-full" src="{{site.baseurl}}/assets/images/governance/logos/{{ group.name }}" alt="Logo">
-                    </div>
+                    {% assign logo = group.name | split: "| " %}
+                    <a href="{{ logo[1] }}" target="_blank" class="maxw-card tablet:width-15 tablet:height-15 margin-x-auto" style="display: flex; align-items: center;">
+                        <img class="height-auto width-full" src="{{site.baseurl}}/assets/images/governance/logos/{{ logo[0] }}" alt="Logo">
+                    </a>
                     <div class="grid-row flex-wrap flex-justify-center padding-top-3">
                         {% for item in group.items %}
                         <a class="tablet:grid-col-6 text-no-underline margin-top-5" href="{{ item.url }}" title="{{ item.title }}">

@@ -6,7 +6,7 @@ type: member
 title: Dale Bell
 position: Deputy Assistant Director for Office of Grants
 department: Department of Health and Human Services (HHS)
-logo: cfo.svg
+logo: cfo.svg | https://www.cfo.gov/about-the-council/ | CFOC
 company: CFOC
 ---
 

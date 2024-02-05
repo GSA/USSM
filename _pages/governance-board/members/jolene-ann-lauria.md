@@ -6,7 +6,7 @@ type: member
 title: Jolene Ann Lauria 
 position: Acting Assistant Attorney General for Administration
 department: Department of Justice (DOJ) 
-logo: pic-logo.png
+logo: pic-logo.png | https://www.performance.gov/pic/about/ | PIC
 company: PIC
 ---
 

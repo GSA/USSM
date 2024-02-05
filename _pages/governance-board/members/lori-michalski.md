@@ -6,7 +6,7 @@ type: member
 title: Lori Michalski
 position: Chief Human Capital Officer
 department: Housing and Urban Development (HUD)
-logo: chco-logo.png
+logo: chco-logo.png | https://beta.chcoc.gov/mission | CHCO Council
 company: CHCO Council
 ---
 
