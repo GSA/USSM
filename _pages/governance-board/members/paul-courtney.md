@@ -6,7 +6,7 @@ type: member
 title: Paul Courtney
 position: Chief Procurement Officer
 department: Department of Homeland Security (DHS)
-logo: caoc-logo.jpg
+logo: caoc-logo.jpg | https://www.acquisition.gov/caoc-charter | CAOC
 company: CAOC
 ---
 

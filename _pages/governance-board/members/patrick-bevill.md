@@ -1,12 +1,12 @@
 ---
 layout: council/representative
-permalink: /ssgb/dale-bell/
-portrait: dale-bell.jpg
+permalink: /ssgb/patrick-bevill/
+portrait: patrick-bevill.jpg
 type: member
-title: Dale Bell
+title: Patrick Bevill
 position: Chief Information Security Officer
 department: Federal Retirement Thrift Investment Board (FRTIB)
-logo: small-agency-logo.jpg
+logo: small-agency-logo.jpg | https://www.sac.gov/about/ | Small Agency Council
 company: Small Agency Council
 ---
 

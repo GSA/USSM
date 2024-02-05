@@ -6,7 +6,7 @@ type: member
 title: Olivia Bradley
 position: Senior Procurement Executive and Director of Acquisition Management
 department: Department of Commerce (DOC)
-logo: caoc-logo.jpg
+logo: caoc-logo.jpg | https://www.acquisition.gov/caoc-charter | CAOC
 company: CAOC 
 ---
 

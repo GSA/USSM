@@ -6,7 +6,7 @@ type: member
 title: Jason Gray
 position: Chief Information Officer 
 department: U.S. Agency for International Development (USAID)
-logo: cioc-logo.jpg
+logo: cioc-logo.jpg | https://www.cio.gov/about/vision/ | CIOC
 company: CIOC 
 ---
 

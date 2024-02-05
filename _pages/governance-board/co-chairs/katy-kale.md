@@ -6,7 +6,8 @@ type: member
 title: Katy Kale
 position: Deputy Administrator
 department: General Services Administration (GSA)
-logo: cfo.svg
+logo: cfo.svg | https://www.cfo.gov/about-the-council/
+logo-link: https://www.cfo.gov/about-the-council/
 ---
 
 Katy Kale is the Deputy Administrator of the General Services Administration under the Biden-Harris Administration.
