@@ -1,0 +1,22 @@
+{% comment %}
+To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
+where we provide an easy way to manage your navigation system
+{% endcomment %}
+
+<div class="members">
+    <h2 class="text-center font-merriweather font-body-xl text-light">Board Co-chairs</h2>
+    {% assign cochairs = site.pages | where_exp: "item" , "item.path contains 'co-chairs'"%}
+    <div class="grid-container">
+        <div class="grid-row flex-wrap flex-justify-center">
+            {% for item in cochairs %}
+            <a class="tablet:grid-col-4 text-center padding-2 text-no-underline" href="{{ item.url }}" title="{{ item.title }}">
+                <div class="inner shadow-3 padding-3 height-full">
+                    <img style="width: 181px; height: 181px; object-fit: cover; object-position: top center; border-radius: 50%; border: 10px solid #D5ECEE;" src="{{site.baseurl}}/assets/images/governance/council/{{item.portrait}}" alt="{{ item.title }} Portrait">
+                    <h3 class="text-center margin-0 padding-top-1">{{ item.title }}</h3>
+                    <p class="text-primary text-center margin-0">{{ item.department }}</p>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+---
+title: "Shared Services Governance Board"
+layout: base
+---
+
+{% comment %}
+This template is for the main governance board page
+{% endcomment %}
+
+<div class="representative">
+    {% include banner.html %}
+    <div class="grid-container">
+        <div class="grid-row grid-gap">
+            <div class="tablet:grid-col-12 padding-top-4">
+                <h1 class="pm-hero__heading margin-0 padding-bottom-2 font-merriweather font-body-2xl text-light">
+                    {{ page.position }}
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-row grid-gap">
+            <div style="border-color: #0092C2;" class="tablet:grid-col-4 padding-bottom-4 text-center border-right-md">
+                {% if page.portrait %}<img class="radius-0" style="height: 200px; width: 200px; object-fit: cover; object-position: top center; border-radius:  50%;" src="{{site.baseurl}}/assets/images/governance/council/{{page.portrait}}" alt="Portrait of {{ page.title }}">{% endif %}
+                <h2 class="text-center font-merriweather text-light margin-0 padding-top-3"> {{ page.title }}</h2>
+                {% if page.department %}<p class="text-center font-merriweather text-light margin-top-0">{{ page.department }}</p>{% endif %}
+                {% if page.logo %}<img class="width-full maxw-card" src="{{site.baseurl}}/assets/images/governance/logos/{{page.logo}}" alt="{{ page.company }} Logo">{% endif %}
+            </div>
+            <div class="tablet:grid-col-8 padding-bottom-4">
+                <div class="contents tablet:padding-left-4 font-merriweather text-light">
+                    {{ content }}
+                    {% assign pageurl_array = page.url | split: "/" %}
+                    {% assign parent = pageurl_array[0] %}
+                    <a href="{{site.baseurl}}/ssgb/" class="text-uppercase grid-row flex-row flex-align-center text-semibold" title="Members"><svg style="transform: rotate(-90deg) scale(2);" class="usa-icon margin-right-1" aria-hidden="true" focusable="false" role="img"><use xlink:href="/assets/img/sprite.svg#arrow_drop_up"></use></svg> Back to members</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div class="grid-container">
+    <div class="grid-row grid-gap space-between">
+      <div class="desktop:grid-col-12 margin-bottom-2">
+        <a href="#main-content">Return to top</a>
+      </div>
+    </div>
+  </div>
