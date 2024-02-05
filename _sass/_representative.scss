@@ -1,0 +1,37 @@
+.representative {
+    .border-right-md {
+        @include at-media(tablet) {
+            border-right: 1px solid #0092C2;    
+        } 
+    }
+    .contents {
+        h2 {
+            margin-bottom: 0;
+            color: #000;
+            font-size: 1em;
+        }
+        p {
+            margin-top: 0;
+        }
+    }
+}
+.members {
+    a:hover {
+        .inner {
+            background: rgba(197, 220, 223, 0.2);
+        }
+    }
+    .council {
+        &:nth-child(odd) {
+            @include at-media(tablet) {
+                border-right: 1px solid #0092C2;
+                padding-right: 2em;
+            }
+        }
+        &:nth-child(even) {
+            @include at-media(tablet) {
+                padding-left: 2em;
+            }
+        }
+    }
+}
