@@ -1,5 +1,4 @@
 ---
-# title: "Phase 0: Assessment"
 layout: council/representative
 permalink: /ssgb/roland-edwards/
 portrait: roland-edwards.jpg

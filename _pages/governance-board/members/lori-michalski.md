@@ -1,5 +1,4 @@
 ---
-# title: "Phase 0: Assessment"
 layout: council/representative
 permalink: /ssgb/lori-michalski/
 portrait: lori-michalski.jpg
