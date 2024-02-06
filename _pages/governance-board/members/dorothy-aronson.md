@@ -6,7 +6,7 @@ type: member
 title: Dorothy Aronson
 position: Chief Information Officer 
 department: National Science Foundation (NSF)
-logo: cioc-logo.jpg | https://www.cio.gov/about/vision/ | CIOC
+logo: cioc-logo.png | https://www.cio.gov/about/vision/ | CIOC
 company: CIOC
 ---
 
