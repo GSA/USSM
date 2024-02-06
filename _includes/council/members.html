@@ -12,14 +12,14 @@ where we provide an easy way to manage your navigation system
             {% for group in members_sorted %} 
                 <div class="council tablet:grid-col-6 text-center margin-top-5">
                     {% assign logo = group.name | split: "| " %}
-                    <a href="{{ logo[1] }}" target="_blank" class="maxw-card width-15 height-15 margin-x-auto" style="display: flex; align-items: center;">
+                    <a href="{{site.baseurl}}{{ logo[1] }}" target="_blank" class="maxw-card width-15 height-15 margin-x-auto" style="display: flex; align-items: center;">
                         <img class="height-auto width-full" src="{{site.baseurl}}/assets/images/governance/logos/{{ logo[0] }}" alt="Logo">
                     </a>
                     <div class="grid-row flex-wrap flex-justify-center padding-top-3">
                         {% for item in group.items %}
                         <a class="tablet:grid-col-6 text-no-underline margin-top-5" href="{{ item.url }}" title="{{ item.title }}">
                             <div class="inner height-full">
-                                <img style="width: 181px; height: 181px; object-fit: cover; border-radius: 50%; border: 10px solid #D5ECEE;" src="{{site.baseurl}}/assets/images/governance/council/{{item.portrait}}" alt="{{ item.title }} Portrait">
+                                <img style="width: 181px; height: 181px; object-fit: cover; border-radius: 50%; border: 7px solid #D5ECEE;" src="{{site.baseurl}}/assets/images/governance/council/{{item.portrait}}" alt="{{ item.title }} Portrait">
                                 <h3 class="text-center margin-0 padding-top-1">{{ item.title }}</h3>
                                 <p class="text-primary text-center margin-0">{{ item.department }}</p>
                             </div>
