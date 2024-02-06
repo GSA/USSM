@@ -5,7 +5,7 @@ where we provide an easy way to manage your navigation system
 
 <div class="members">
     <h2 class="text-center font-merriweather font-body-xl text-light">Board Co-chairs</h2>
-    {% assign cochairs = site.pages | where_exp: "item" , "item.path contains 'co-chairs'"%}
+    {% assign cochairs = site.pages | where_exp: "item" , "item.path contains 'co-chairs'" | sort: "name" | reverse %}
     <div class="grid-container">
         <div class="grid-row flex-wrap flex-justify-center">
             {% for item in cochairs %}
