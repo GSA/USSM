@@ -6,7 +6,7 @@ type: member
 title: Patrick Bevill
 position: Chief Information Security Officer
 department: Federal Retirement Thrift Investment Board (FRTIB)
-logo: small-agency-logo.jpg | https://www.sac.gov/about/ | Small Agency Council
+logo: small-agency-council.png | https://www.sac.gov/about/ | Small Agency Council
 company: Small Agency Council
 ---
 
