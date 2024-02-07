@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/jolene-ann-lauria/
 portrait: jolene-ann-lauria.jpg
-type: member
+type: Member Councils
 title: Jolene Ann Lauria 
 position: Acting Assistant Attorney General for Administration
 department: Department of Justice (DOJ) 

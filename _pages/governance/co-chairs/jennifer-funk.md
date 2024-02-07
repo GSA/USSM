@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/jennifer-funk/
 portrait: jennifer-funk.jpg
-type: board-chair
+type: Board Chair
 title: Jennifer Funk
 position: Board Chair
 department: Department of <br>Transportation (DOT)

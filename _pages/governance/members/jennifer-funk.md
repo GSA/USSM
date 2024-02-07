@@ -2,9 +2,9 @@
 layout: governance/representative
 permalink: /ssgb/jennifer-funk/
 portrait: jennifer-funk.jpg
-type: board-chair
+type: Board Chair
 title: Jennifer Funk
-position: Board Chair
+position: Deputy Chief Financial Officer
 department: Department of Transportation (DOT)
 logo: 1-cfo.svg | https://www.cfo.gov/about-the-council/ | CFOC
 company: Chief Financial Officers

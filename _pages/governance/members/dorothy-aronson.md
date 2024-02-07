@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/dorothy-aronson/
 portrait: dorothy-aronson.jpg
-type: member
+type: Member Councils
 title: Dorothy Aronson
 position: Chief Information Officer 
 department: National Science Foundation (NSF)

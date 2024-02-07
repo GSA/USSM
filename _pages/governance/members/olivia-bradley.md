@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/olivia-bradley/
 portrait: olivia-bradley.jpg
-type: member
+type: Member Councils
 title: Olivia Bradley
 position: Senior Procurement Executive and Director of Acquisition Management
 department: Department of Commerce (DOC)
