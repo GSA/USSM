@@ -8,13 +8,11 @@
                     </div>
                     <div class="padding-x-5">
                         {% if each_agency.agency_url %}<a href="{{ each_agency.agency_url }}" title="Read more about {{ each_agency.sapoc }}" class="display-flex flex-align-center flex-justify-center text-no-underline" target="_blank">{% endif %}
-                        <h2 class="margin-0 text-primary-vivid margin-0 font-body-sm text-bold">
+                        <h2 style="color: #0168CA;" class="margin-0 padding-right-1 font-body-sm text-bold">
                             {{ each_agency.sapoc }}
                         </h2>
                         {% if each_agency.agency_url %}
-                        <svg class="usa-icon text-primary-vivid" aria-hidden="true" focusable="false" role="img">
-                            <use xlink:href="/assets/img/sprite.svg#contact_page"></use>
-                        </svg>
+                        <img src="{{site.baseurl}}/assets/images/governance/profile-icon.svg" alt="">
                         {% endif %}
                         {% if each_agency.agency_url %}</a>{% endif %}
                         <p class="text-base-dark font-body-xs margin-0 grey-50">{{ each_agency.agency }}</p>
