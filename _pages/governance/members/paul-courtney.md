@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/paul-courtney/
 portrait: paul-courtney.jpg
-type: member
+type: Member Councils
 title: Paul Courtney
 position: Chief Procurement Officer
 department: Department of Homeland Security (DHS)

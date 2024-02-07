@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/jason-gray/
 portrait: jason-gray.jpg
-type: member
+type: Member Councils
 title: Jason Gray
 position: Chief Information Officer 
 department: U.S. Agency for International Development (USAID)

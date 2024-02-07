@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/dale-bell/
 portrait: dale-bell.jpg
-type: member
+type: Member Councils
 title: Dale Bell
 position: Deputy Assistant Director for Office of Grants
 department: Department of Health and Human Services (HHS)

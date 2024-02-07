@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/patrick-bevill/
 portrait: patrick-bevill.jpg
-type: member
+type: Member Councils
 title: Patrick Bevill
 position: Chief Information Security Officer
 department: Federal Retirement Thrift Investment Board (FRTIB)

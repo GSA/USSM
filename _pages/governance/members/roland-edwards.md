@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/roland-edwards/
 portrait: roland-edwards.jpg
-type: member
+type: Member Councils
 title: Roland Edwards
 position: Chief Human Capital Officer 
 department: Department of Homeland Security (DHS) 

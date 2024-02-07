@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/vacant/
 portrait: vacant.jpg
-type: member
+type: Member Councils
 title: Vacant
 position: 
 department: 

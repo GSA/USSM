@@ -13,7 +13,7 @@ This template is for the main governance board page
         <div class="grid-row grid-gap">
             <div class="tablet:grid-col-12 padding-top-4">
                 <h1 class="pm-hero__heading margin-0 padding-bottom-2 font-merriweather font-body-2xl text-light">
-                    {{ page.position }}
+                    {{ page.type }}
                 </h1>
             </div>
         </div>
@@ -31,6 +31,7 @@ This template is for the main governance board page
             <div class="tablet:grid-col-8 padding-bottom-4">
                 <div class="contents tablet:padding-left-4 font-merriweather text-light">
                     <h2 class="text-primary text-bold font-merriweather text-light margin-0 padding-top-3">{{ page.title }}</h2>
+                    {% if page.position %}<p class="text-primary text-medium font-merriweather text-light margin-top-0 margin-bottom-0">{{ page.position }}</p>{% endif %}
                     {% if page.department %}<p class="text-primary text-medium font-merriweather text-light margin-top-0">{{ page.department }}</p>{% endif %}
                     {{ content }}
                     {% assign pageurl_array = page.url | split: "/" %}

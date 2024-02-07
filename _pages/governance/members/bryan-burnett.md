@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/bryan-burnett/
 portrait: bryan-burnett.jpg
-type: member
+type: Member Councils
 title: Bryan Burnett
 position: Chief Information and Data Officer
 department: Equal Employment Opportunity Commission (EEOC)

@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/harry-knight/
 portrait: harry-knight.jpg
-type: member
+type: Member Councils
 title: Harry Knight
 position: Director, Office of Performance Excellence
 department: Department of Commerce (DOC)

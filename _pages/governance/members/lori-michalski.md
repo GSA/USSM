@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/lori-michalski/
 portrait: lori-michalski.jpg
-type: member
+type: Member Councils
 title: Lori Michalski
 position: Chief Human Capital Officer
 department: Housing and Urban Development (HUD)

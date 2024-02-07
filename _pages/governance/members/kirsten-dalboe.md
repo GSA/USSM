@@ -2,7 +2,7 @@
 layout: governance/representative
 permalink: /ssgb/kirsten-dalboe/
 portrait: kirsten-dalboe.jpg
-type: member
+type: Member Councils
 title: Kirsten Dalboe
 position: Chief Data Officer
 department: Federal Energy Regulatory Commision (FERC) 
