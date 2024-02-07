@@ -6,7 +6,7 @@ type: member
 title: Kirsten Dalboe
 position: Chief Data Officer
 department: Federal Energy Regulatory Commision (FERC) 
-logo: cdo-logo.jpg | https://www.cdo.gov/about-us/ | CDOC
+logo: 6-cdo-logo.jpg | https://www.cdo.gov/about-us/ | CDOC
 company: CDOC
 ---
 

@@ -6,7 +6,7 @@ type: member
 title: Harry Knight
 position: Director, Office of Performance Excellence
 department: Department of Commerce (DOC)
-logo: pic-logo.png | https://www.performance.gov/pic/about/ | PIC
+logo: 5-pic-logo.png | https://www.performance.gov/pic/about/ | PIC
 company: PIC
 ---
 

@@ -6,7 +6,7 @@ type: member
 title: Roland Edwards
 position: Chief Human Capital Officer 
 department: Department of Homeland Security (DHS) 
-logo: chco-logo.png | https://beta.chcoc.gov/mission | CHCO Council 
+logo: 2-chco-logo.png | https://beta.chcoc.gov/mission | CHCO Council 
 company: CHCO Council 
 ---
 
