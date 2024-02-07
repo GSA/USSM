@@ -1,5 +1,5 @@
 ---
-title: "Senior Accountable Point of Contact for Shared Services"
+title: "Agency Senior Accountable Point of Contact "
 layout: governance/sapoc
 permalink: /sapoc/
 ---
