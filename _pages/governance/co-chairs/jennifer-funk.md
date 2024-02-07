@@ -6,7 +6,7 @@ type: Board Chair
 title: Jennifer Funk
 position: Board Chair
 department: Department of <br>Transportation (DOT)
-logo: cfo.svg | https://www.cfo.gov/about-the-council/ | CFOC
+logo: 1-cfo.svg | https://www.cfo.gov/about-the-council/ | CFOC
 company: CFOC
 ---
 
