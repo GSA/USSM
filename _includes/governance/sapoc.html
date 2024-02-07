@@ -1,0 +1,27 @@
+<div class="sapoc-listing">
+    <div class="grid-container">
+        <div class="grid-row flex-wrap flex-justify-center">
+            {% for each_agency in site.data.sapoc.agencies %}
+                <div class="agency tablet:grid-col-4 text-center margin-top-5">
+                    <div class="logo">
+                        <img width="150" height="150" loading="lazy" src="{{site.baseurl}}/assets/images/governance/sopac-logos/{{ each_agency.logo }}" alt="{{ each_agency.title }} Logo">
+                    </div>
+                    <div class="padding-x-5">
+                        {% if each_agency.agency_url %}<a href="{{ each_agency.agency_url }}" title="Read more about {{ each_agency.sapoc }}" class="display-flex flex-align-center flex-justify-center text-no-underline" target="_blank">{% endif %}
+                        <h2 class="margin-0 text-primary-vivid margin-0 font-body-sm text-bold">
+                            {{ each_agency.sapoc }}
+                        </h2>
+                        {% if each_agency.agency_url %}
+                        <svg class="usa-icon text-primary-vivid" aria-hidden="true" focusable="false" role="img">
+                            <use xlink:href="/assets/img/sprite.svg#contact_page"></use>
+                        </svg>
+                        {% endif %}
+                        {% if each_agency.agency_url %}</a>{% endif %}
+                        <p class="text-base-dark font-body-xs margin-0 grey-50">{{ each_agency.agency }}</p>
+                        <p class="text-base font-body-sm margin-0 grey-30"><i>{{ each_agency.title }}</i></p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
