@@ -9,17 +9,8 @@ description: The Playbook provides tools, templates, and best practices for fede
         scroll-behavior: smooth;
     }
 </style>
-<section class="pm-hero">
-    <div class="grid-container">
-       <div class="grid-row grid-gap">
-            <div class="tablet:grid-col-10 tablet:grid-offset-1 padding-top-4">
-                <h1 class="pm-hero__heading maxw-mobile-lg margin-0 padding-bottom-6 padding-top-6">
-                    Performance Management
-                 </h1>
-            </div>
-        </div>
-    </div>
-</section>
+
+{% include banner.html width="grid-col-10" offset="grid-offset-1" %}
 
 <section class="pm" id="about">
     <div class="grid-container">
