@@ -4,9 +4,10 @@ permalink: /ssgb/vacant/
 portrait: vacant.jpg
 title: Shared Services Governance Board
 name: Member Councils
-title: Vacant
+title: Shared Services Governance Board
+name: Vacant
 position: 
-department: 
+department: TBD
 logo: 6-cdo-logo.jpg | https://www.cdo.gov/about-us/ | CDOC
 company: CDOC
 ---
