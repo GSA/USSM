@@ -19,8 +19,8 @@ where we provide an easy way to manage your navigation system
                         {% for item in group.items %}
                         <a class="tablet:grid-col-6 text-no-underline margin-top-2" href="{{site.baseurl}}{{ item.url }}" title="{{ item.title }}">
                             <div class="inner height-full">
-                                <img style="width: 181px; height: 181px; object-fit: cover; border-radius: 50%; border: 7px solid #D5ECEE;" src="{{site.baseurl}}/assets/images/governance/council/{{item.portrait}}" alt="{{ item.title }} Portrait">
-                                <h3 class="text-center margin-0 padding-top-1">{{ item.title }}</h3>
+                                <img style="width: 181px; height: 181px; object-fit: cover; border-radius: 50%; border: 7px solid #D5ECEE;" src="{{site.baseurl}}/assets/images/governance/council/{{item.portrait}}" alt="{{ item.name }} Portrait">
+                                <h3 class="text-center margin-0 padding-top-1">{{ item.name }}</h3>
                                 <p class="text-primary text-center margin-0">{{ item.department }}</p>
                             </div>
                         </a>
