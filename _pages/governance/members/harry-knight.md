@@ -3,7 +3,8 @@ layout: governance/representative
 permalink: /ssgb/harry-knight/
 portrait: harry-knight.jpg
 type: Member Councils
-title: Harry Knight
+title: Shared Services Governance Board
+name: Harry Knight
 position: Director, Office of Performance Excellence
 department: Department of Commerce (DOC)
 logo: 5-pic-logo.png | https://www.performance.gov/pic/about/ | PIC

@@ -2,7 +2,8 @@
 layout: governance/representative
 permalink: /ssgb/vacant/
 portrait: vacant.jpg
-type: Member Councils
+title: Shared Services Governance Board
+name: Member Councils
 title: Vacant
 position: 
 department: 

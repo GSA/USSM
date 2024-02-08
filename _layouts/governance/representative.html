@@ -9,16 +9,7 @@ This template is for the main governance board page
 
 <div class="representative">
     {% include banner.html %}
-    <div class="grid-container">
-        <div class="grid-row grid-gap">
-            <div class="tablet:grid-col-12 padding-top-4">
-                <h1 class="pm-hero__heading margin-0 padding-bottom-2 font-merriweather font-body-2xl text-light">
-                    {{ page.type }}
-                </h1>
-            </div>
-        </div>
-    </div>
-    <div class="grid-container">
+    <div class="grid-container padding-top-10 padding-bottom-10">
         <div class="grid-row grid-gap">
             <div style="border-color: #0092C2;" class="tablet:grid-col-4 padding-bottom-4 text-center border-right-md">
                 {% if page.portrait %}<img class="radius-0 margin-bottom-2" style="height: 200px; width: 200px; object-fit: cover; object-position: top center; border-radius:  50%;" src="{{site.baseurl}}/assets/images/governance/council/{{page.portrait}}" alt="Portrait of {{ page.title }}">{% endif %}
@@ -30,13 +21,13 @@ This template is for the main governance board page
             </div>
             <div class="tablet:grid-col-8 padding-bottom-4">
                 <div class="contents tablet:padding-left-4 font-merriweather text-light">
-                    <h2 class="text-primary text-bold font-merriweather text-light margin-0 padding-top-3">{{ page.title }}</h2>
+                    <h2 class="text-primary text-bold font-merriweather text-light margin-0 padding-top-3">{{ page.name }}</h2>
                     {% if page.position %}<p class="text-primary text-medium font-merriweather text-light margin-top-0 margin-bottom-0">{{ page.position }}</p>{% endif %}
                     {% if page.department %}<p class="text-primary text-medium font-merriweather text-light margin-top-0">{{ page.department }}</p>{% endif %}
                     {{ content }}
                     {% assign pageurl_array = page.url | split: "/" %}
                     {% assign parent = pageurl_array[0] %}
-                    <a href="{{site.baseurl}}/ssgb/" class="text-uppercase grid-row flex-row flex-align-center text-semibold" title="Members">&#9664; Back to members</a>
+                    <a href="{{site.baseurl}}/ssgb/" class="text-uppercase grid-row flex-row flex-align-center text-semibold text-no-underline" title="Members">&#9664; <u>Back to members</u></a>
                 </div>
             </div>
         </div>

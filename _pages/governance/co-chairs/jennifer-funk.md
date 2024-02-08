@@ -3,7 +3,8 @@ layout: governance/representative
 permalink: /ssgb/jennifer-funk/
 portrait: jennifer-funk.jpg
 type: Board Chair
-title: Jennifer Funk
+title: Shared Services Governance Board
+name: Jennifer Funk
 position: Board Chair
 department: Department of <br>Transportation (DOT)
 logo: 1-cfo.svg | https://www.cfo.gov/about-the-council/ | CFOC

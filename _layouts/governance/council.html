@@ -10,7 +10,9 @@ This template is for the main governance board page
 <div class="council-content">
     {% include banner.html %}
     <div class="grid-container padding-top-6 padding-bottom-6">
-      {{ content }}
+      <div class="font-merriweather text-light">
+        {{ content }}
+      </div>
       {% include governance/co-chairs.html %}
       {% include governance/members.html %}
       <a href="{{site.baseurl}}/governance/" class="text-uppercase grid-row flex-row flex-align-center text-semibold padding-top-4" title="Members">&#9664; Back to Governance</a>
