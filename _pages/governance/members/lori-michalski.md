@@ -3,7 +3,8 @@ layout: governance/representative
 permalink: /ssgb/lori-michalski/
 portrait: lori-michalski.jpg
 type: Member Councils
-title: Lori Michalski
+title: Shared Services Governance Board
+name: Lori Michalski
 position: Chief Human Capital Officer
 department: Housing and Urban Development (HUD)
 logo: 2-chco-logo.png | https://beta.chcoc.gov/mission | CHCO Council

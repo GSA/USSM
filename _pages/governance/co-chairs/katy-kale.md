@@ -3,7 +3,8 @@ layout: governance/representative
 permalink: /ssgb/katy-kale/
 portrait: katy-kale.jpg
 type: Board Chair
-title: Katy Kale
+title: Shared Services Governance Board
+name: Katy Kale
 position: Deputy Administrator
 department: General Services Administration (GSA)
 logo: 1-cfo.svg | https://www.cfo.gov/about-the-council/

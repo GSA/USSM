@@ -3,7 +3,8 @@ layout: governance/representative
 permalink: /ssgb/dale-bell/
 portrait: dale-bell.jpg
 type: Member Councils
-title: Dale Bell
+title: Shared Services Governance Board
+name: Dale Bell
 position: Deputy Assistant Director for Office of Grants
 department: Department of Health and Human Services (HHS)
 logo: 1-cfo.svg | https://www.cfo.gov/about-the-council/ | CFOC

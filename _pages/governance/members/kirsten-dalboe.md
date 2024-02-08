@@ -3,7 +3,8 @@ layout: governance/representative
 permalink: /ssgb/kirsten-dalboe/
 portrait: kirsten-dalboe.jpg
 type: Member Councils
-title: Kirsten Dalboe
+title: Shared Services Governance Board
+name: Kirsten Dalboe
 position: Chief Data Officer
 department: Federal Energy Regulatory Commision (FERC) 
 logo: 6-cdo-logo.jpg | https://www.cdo.gov/about-us/ | CDOC

@@ -3,7 +3,8 @@ layout: governance/representative
 permalink: /ssgb/dorothy-aronson/
 portrait: dorothy-aronson.jpg
 type: Member Councils
-title: Dorothy Aronson
+title: Shared Services Governance Board
+name: Dorothy Aronson
 position: Chief Information Officer 
 department: National Science Foundation (NSF)
 logo: 3-cioc-logo.png | https://www.cio.gov/about/vision/ | CIOC

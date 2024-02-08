@@ -3,7 +3,8 @@ layout: governance/representative
 permalink: /ssgb/roland-edwards/
 portrait: roland-edwards.jpg
 type: Member Councils
-title: Roland Edwards
+title: Shared Services Governance Board
+name: Roland Edwards
 position: Chief Human Capital Officer 
 department: Department of Homeland Security (DHS) 
 logo: 2-chco-logo.png | https://beta.chcoc.gov/mission | CHCO Council 
