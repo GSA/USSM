@@ -10,7 +10,9 @@ This template is for the main Senior Accountable Point of Contact for Shared Ser
 <div class="council-content">
     {% include banner.html %}
     <div class="grid-container padding-top-6 padding-bottom-6 font-merriweather">
-      {{ content }}
+      <div class="text-light">
+        {{ content }}
+      </div>
       {% include governance/sapoc.html %}
       <a href="{{site.baseurl}}/governance/" class="text-uppercase grid-row flex-row flex-align-center text-semibold padding-top-4" title="Members">&#9664; Back to Governance</a>
     </div>
