@@ -38,8 +38,7 @@
             "agency": "Department of Health and Human Services",
             "sapoc": "Christine Jones (Interim)",
             "title": "DAS-Operations in ASFR’s Immediate Office",
-            "logo": "department-of-health-and-human-services.svg",
-            "agency_url":"https://www.aferm.org/speakers/christine-jones/"
+            "logo": "department-of-health-and-human-services.svg"
           },
           {
             "agency": "Department of Homeland Security",
@@ -91,7 +90,7 @@
           {
             "agency": "Department of the Treasury",
             "sapoc": "Anna Canfield Roth",
-            "title": "Acting Assistant Secretary for Management",
+            "title": "Assistant Secretary for Management",
             "logo": "department-of-commerce 2.svg",
             "agency_url":"https://home.treasury.gov/about/general-information/officials/anna-canfield-roth"
           },
@@ -138,7 +137,7 @@
             "agency": "Nuclear Regulatory Commission",
             "sapoc": "Jonathon Feibus",
             "title": "Director for the Governance & Enterprise Management Services Division",
-            "logo": "nuclear-regulatory-commission.svg"
+            "logo": "nuclear-regulatory-commission.png"
           },
           {
             "agency": "Office of Personnel Management",
