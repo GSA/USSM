@@ -9,7 +9,6 @@ position: Board Chair
 department: Department of <br>Transportation (DOT)
 logo: 1-cfo.svg | https://www.cfo.gov/about-the-council/ | CFOC
 company: CFOC
-pending: true
 ---
 
 Jennifer Funk is the Department of Transportation’s (DOT) Deputy Chief Financial Officer, where she is the principal advisor to the Assistant Secretary for Budget and Programs/Chief Financial Officer (CFO), as well as to DOT senior leaders, on issues involving the amended CFO Act of 1990 and related financial management reforms. Jen oversees the Annual Financial Statement Audit, Enterprise Risk Management and Internal Control Program and manages the financial systems and reporting for the Department. She provides responsible stewardship of the financial resources entrusted to DOT by conducting rigorous and continual oversight of the Department's financial management activities and providing policy and procedural direction to DOT Operating Administrations on financial management matters.
