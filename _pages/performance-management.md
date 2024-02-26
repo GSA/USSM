@@ -185,7 +185,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                     <li>Reduced administrative burden</li>
                     <li>Alignment to Administration priorities</li>
                 </ul>
-                <img src="{{site.baseurl}}/assets/images/performance-management/osspi-diagram.svg" class="width-full" />
+                <img alt="Government-Wide Shared Services diagram explaining the performance management framework" src="{{site.baseurl}}/assets/images/performance-management/osspi-diagram.svg" class="width-full" />
                 <a href="{{site.baseurl}}/assets/files/shared-services-performance-management-framework-for-website-download.pdf" title="Download Framework" class="padding-top-3 padding-bottom-3 text-uppercase display-flex pdf-button flex-align-center width-full flex-justify-center" target="_blank">
                     <b>Download Framework</b> <img class="margin-left-1" src="{{site.baseurl}}/assets/images/performance-management/download-pdf-icon.svg" alt="pdf icon" />
                 </a>
