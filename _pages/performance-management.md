@@ -10,7 +10,7 @@ description: The Playbook provides tools, templates, and best practices for fede
     }
 </style>
 
-{% include banner.html width="grid-col-10" offset="grid-offset-1" %}
+{% include banner.html width="grid-col-11" offset="grid-offset-1" %}
 
 <section class="pm" id="about">
     <div class="grid-container">
