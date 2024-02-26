@@ -189,7 +189,7 @@ primary_navigation:
           permalink: /fibf-travel/
           show_in_menu: true
           show_in_footer: false
-    - text: 'M3 Framework'
+    - text: 'M3 Playbook'
       href: /pages/team.md
       permalink: /m3/
       show_in_menu: true
