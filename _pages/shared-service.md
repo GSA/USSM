@@ -1,6 +1,0 @@
----
-layout: council
-permalink: /ssgb/
-
----
-

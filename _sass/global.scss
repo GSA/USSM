@@ -408,3 +408,15 @@ a.ogp-card__link--unset:hover {
   color: #205493;
   font-weight: bold;
 }
+
+.title-banner {
+  background: linear-gradient(94deg, #13168e 0%, #1bb9b6 100%);
+  background-image: url(../images/m3-pattern.svg),linear-gradient(94deg, #13168e 0%, #1bb9b6 100%);
+  h1 {
+    color: #fff;
+  }
+}
+
+.font-merriweather {
+  font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+}

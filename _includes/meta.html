@@ -30,7 +30,7 @@ site, this is the place to do it.
   {% assign ogtitle = "What are Shared Services? - Learn about the Federal Government's Shared Services efforts" %}
   {% assign description = "A 3-part approach to delivering on the Federal government's vision for shared services." %}
   {% assign ogimage = "https://ussm.gsa.gov/assets/images/fibf/SM-WhatAreSharedServices600x300.png" %}
-{% elsif page.url contains "fibf" %}
+  {% elsif page.url contains "fibf" %}
   {% assign ogimage = "https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png" %}
 {% endif %}
 
@@ -91,6 +91,12 @@ site, this is the place to do it.
     <meta property="og:image" content="https://ussm.gsa.gov/assets/images/fibf/business-standards-website-icons-large.png">
     <meta property="og:description" content="{{site.description}}" />
     <meta property="og:url" content="https://ussm.gsa.gov/fibf/" />
+    {% elsif page.url contains "ssgb" %}
+    {% assign custom_title = true %}
+    <meta property="og:title" content="Shared Services Governance Board" />
+    <meta property="og:image" content="https://ussm.gsa.gov/assets/images/governance/og-social-governance.webp">
+    <meta property="og:description" content="The Shared Services Governance Board (SSGB) is a cross-council Board of agency executives from each of the Federal Executive Councils." />
+    <meta property="og:url" content="https://ussm.gsa.gov/ssgb/" />
     {% elsif page.url == "/more-about-shared-services/" %}
     {% assign custom_title = true %}
     <meta property="og:title" content="What are Shared Services? - Learn about the Federal Government's Shared Services efforts" />
