@@ -7,7 +7,7 @@ title: Shared Services Governance Board
 name: Katy Kale
 position: Deputy Administrator
 department: General Services Administration (GSA)
-logo: 1-cfo.svg | https://www.cfo.gov/about-the-council/
+logo: general-services-administration-logo.svg | https://www.cfo.gov/about-the-council/
 logo-link: https://www.cfo.gov/about-the-council/
 ---
 
