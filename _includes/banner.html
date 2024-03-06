@@ -1,0 +1,13 @@
+
+<section class="title-banner">
+    <div class="grid-container">
+       <div class="grid-row grid-gap">
+            <div class="{% if include.width %}{{ include.width}} {% else %}grid-col-12 {% endif %}{% if include.offset %}{{ include.offset}}{% endif %} padding-top-4 padding-bottom-4">
+                <h1 class="pm-hero__heading margin-0 padding-bottom-6 padding-top-6 font-merriweather font-body-2xl text-light">
+                    {{page.title}}
+                 </h1>
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -78,3 +78,16 @@
   }
 }
 
+/* SAPOC */
+.sapoc-listing {
+  .agency {
+    .logo {
+      @include at-media(tablet) {
+        border-right: 1px solid #AAAAAB;
+      }
+    }
+    &:nth-child(3n) .logo {
+      border-right: 0;
+    }
+  }
+}
