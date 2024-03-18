@@ -1,8 +1,8 @@
 ---
 layout: base
 permalink: /marketplace/
-title: Mission Support Services Catalog
-description: Welcome to the Mission Support Services Catalog. Agencies can use this catalog to learn about services and technologies that will enhance their capacity to deliver on their mission support responsibilities. The catalog directs agencies to the websites and contact information of servicing organizations and providers that are making these capabilities available to the Federal community.
+title: Services and Technologies Catalog
+description: Empower your agency to thrive in today's dynamic landscape.  Welcome to the governmentwide catalog where agencies can learn about technologies and solutions to accelerate operations, deliver on top management priorities, and drive mission success on behalf of the American public.  The catalog directs agencies to servicing organizations making these capabilities available to the Federal community.
 ---
 
 <div id="main-content" class="usa-layout-docs">
