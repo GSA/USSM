@@ -10,7 +10,7 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
 
 <div class="usa-accordion usa-accordion--bordered">
   <h3 class="usa-accordion__heading">
-    <button type="button" class="usa-accordion__button top-level" aria-expanded="true" aria-controls="general-questions">
+    <button type="button" class="usa-accordion__button top-level" aria-expanded="false" aria-controls="general-questions">
       <a name="general-questions"></a>General Questions
     </button>
   </h3>
@@ -71,7 +71,7 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
     </div>
   </div>
   <h3 class="usa-accordion__heading">
-    <button type="button" class="usa-accordion__button top-level" aria-expanded="false" aria-controls="agency">
+    <button type="button" class="usa-accordion__button top-level" aria-expanded="true" aria-controls="agency">
       <a name="agency"></a>Agency Procurement of Marketplace Solutions
     </button>
   </h3>
