@@ -2,7 +2,7 @@
 layout: base
 permalink: /marketplace/
 title: Services and Technologies Catalog
-description: Empower your agency to thrive in today's dynamic landscape.  Welcome to the governmentwide catalog where agencies can learn about technologies and solutions to accelerate operations, deliver on top management priorities, and drive mission success on behalf of the American public.  The catalog directs agencies to servicing organizations making these capabilities available to the Federal community.
+description: "Empower Your Agency: Accelerate delivery of your agency's top management priorities by connecting with trusted service providers to the Federal community available through this government-wide catalog."
 ---
 
 <div id="main-content" class="usa-layout-docs">
