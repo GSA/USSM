@@ -8,7 +8,7 @@ sec-name: GSA
 lifecycle-pdf: assets/files/downloads/rpm/Real-Property-Management-Federal-Business-Lifecycle.xlsx
 capabilities-pdf: assets/files/downloads/rpm/Real-Property-Management-Business-Capabilities.xlsx
 use-cases-pdf: assets/files/downloads/rpm/Real-Property-Management-Business-Use-Cases.zip
-standard-data-elements-pdf: assets/files/downloads/rpm/RPM-Business-Data-Elements-V1.3.xlsx
+standard-data-elements-pdf: assets/files/downloads/rpm/RPM Business Data Elements_Sept 2023.xlsx
 performance-metrics-pdf: assets/files/downloads/rpm/RPM-Service-Measures-V1.3.xlsx
 all-zip: assets/files/downloads/rpm/Real-Property-Management-Download-All.zip
 lifecycle-content: rpm/lifecycle.html
@@ -23,4 +23,5 @@ lifecycle-json-api: /business-standards-api/rpm/business-lifecycle
 capabilities-source-document: assets/files/downloads/rpm/Real-Property-Management-Business-Capabilities.xlsx
 capabilities-json-api: /business-standards-api/rpm/capabilities
 contact: rpmfibf@gsa.gov
+intro-extra: rpm/intro-extra.html
 ---
