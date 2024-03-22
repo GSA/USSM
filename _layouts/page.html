@@ -15,6 +15,9 @@ This template is for a single page that does not have a date associated with it.
   </div>
 </section>
 {% endif %}
+{% if page.banner %}
+  {% include banner.html %}
+{% endif %}
 <section  id="main-content" class="usa-section padding-top-2" >
   <div class="usa-grid">
     <div class="grid-container font-sans-sm">
