@@ -86,6 +86,10 @@
   .fibf-erm-border {
     border-top: solid 4px #6B6B6B;
   }
+
+  .portfolio-border {
+    border-top: solid 4px gold;
+  }
   
   .title-resources {
     font-size: 13px;
@@ -180,3 +184,42 @@
    height:100px;
    border-radius:50%;
 }
+
+.legend-container {
+  margin: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.legend-color-box {
+  width: 100px; 
+  height: 10px; 
+  margin-right: 20px;
+  flex-shrink: 0; 
+}
+
+.gold {
+  background-color: gold;
+}
+
+.black {
+  background-color: black;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .legend-item {
+    flex-wrap: wrap;
+  }
+
+  .legend-color-box {
+    width: 100%; 
+    margin-bottom: 5px; 
+  }
+
+}
+

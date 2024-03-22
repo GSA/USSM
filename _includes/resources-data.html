@@ -21,7 +21,7 @@
     {% assign key = 'FunctionCategory0' | append: i %}
     {% for resource in resources %}
     <div class="tablet:grid-col-4 grid-spacing policy {{ resource[key] | downcase }}">
-        <div class="shadow-1 border-top-05 {{ resource.FunctionCategory01 | downcase }}-border cards-hover">
+        <div class="shadow-1 border-top-05 {% if resource.portfolioService %}portfolio-border{% endif %} cards-hover">
             <a class="text-ink text-no-underline" href="{{site.baseurl}}{{resource.Link}}">
                 <div class="text-container">
                     <span class="card-tag">{{ resource.PartnerName }}</span>
@@ -36,6 +36,18 @@
   {% endfor %}
 
   <div class="contact-info margin-top-5">
+    <p><strong>Legend:</strong></p>
+    <div class="legend-container">
+      <div class="legend-item">
+        <div class="legend-color-box gold"></div>
+        <span>Gold bar connotes Portfolio Services which agencies are engaged to declare progress in on an annual basis through the Agency Annual Plan.</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color-box black"></div>
+        <span>Black bar indicates additional services that agency's may want to consider in developing a mature and responsive management portfolio.</span>
+      </div>
+    </div>    
+    
     <p>
       Questions about the catalog should be directed to <a href="mailto:OSSPI.SharedServices@gsa.gov">OSSPI.SharedServices@gsa.gov</a>.
       Questions about specific services should be directed to the contact email listed on each provider’s page.
