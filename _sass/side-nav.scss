@@ -443,3 +443,11 @@ border-top: none;
   width:35px;
   margin-right:12px;
 }
+
+.usa-sidenav {
+  .usa-nav__link:hover,.usa-current-1 {
+    .sidebar-logo {
+      filter: invert(100%);
+    }
+  }
+}
