@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 318.8 253.94">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.26 74.26">
   <defs>
     <style>
-      .cls-1 {
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-4 {
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-6, .cls-4 {
         fill: #fff;
-        font-family: SourceSansRoman-Regular, 'Source Sans Variable';
-        font-size: 120px;
-        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-5 {
+        fill: #231f20;
+        font-family: Arial-BoldMT, Arial;
+        font-size: 5px;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        stroke-width: 4px;
       }
     </style>
   </defs>
-  <g id="Layer_1-2" data-name="Layer 1">
-    <text class="cls-1" transform="translate(0 99.6)"><tspan x="0" y="0">FIBF</tspan></text>
+  <path class="cls-6" d="m48.12,37.13c0,6.07-4.92,11-11,11s-11-4.92-11-11,4.92-11,11-11,11,4.92,11,11Z"/>
+  <circle class="cls-3" cx="37.13" cy="37.13" r="35.13"/>
+  <line class="cls-4" x1="38.43" y1="36.43" x2="12.38" y2="10.38"/>
+  <line class="cls-1" x1="34.91" y1="36.23" x2="61.34" y2="10.58"/>
+  <line class="cls-1" x1="37.13" y1="43.76" x2="37.13" y2="72.25"/>
+  <line class="cls-1" x1="45.82" y1="39.18" x2="70.5" y2="53.42"/>
+  <line class="cls-1" x1="29.45" y1="37.98" x2="4.78" y2="52.22"/>
+  <g class="cls-2">
+    <text class="cls-5" transform="translate(32.74 38.32)"><tspan x="0" y="0">FIBF</tspan></text>
   </g>
 </svg>
