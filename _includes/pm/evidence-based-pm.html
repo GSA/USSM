@@ -10,32 +10,34 @@ This banner will be displayed on the homepage. Summary of performance management
             <div class="tablet:grid-col-6">
                 <h2 class=" margin-top-0 tablet:margin-bottom-0 text-primary-darker " style="color:white">Evidence-based Performance Management</h2>
                 <p class="font-sans-sm text-ink padding-bottom-3">An evidence-based approach to managing the agency services ecosystem ensures alignment of services delivered to outcome-based management goals. A performance-driven services ecosystem serves as a key enabler that improves the capacity of agencies to better serve the American public.</p>
-
+                <p class="font-sans-sm text-ink padding-bottom-3"><a href="{{ site.baseurl }}/fibf/" title="Learn more about Evidence-based Performance Management">Learn more</a> | <a title="Watch Evidence-based Performance Management video" href="#performance-management-modal"  aria-controls="performance-management-modal" data-open-modal>Watch Video</a> | <a href="#">Download Graphic</a></p>
             </div>
 
             <div class="tablet:grid-col-6">
-                <a href="#example-modal-1" class="display-block" aria-controls="performance-management-modal" data-open-modal>
+                <button class="usa-button border-0 padding-0" aria-controls="performance-management-modal" data-open-modal>
                     <img loading="lazy" class="width-full" src="{{ site.baseurl }}/assets/images/performance-management/performance-diagram.png" alt="Evidence-based Performance Management Diagram" />
-                </a>
-                <div class="usa-modal" id="performance-management-modal" aria-labelledby="modal-1-heading" aria-describedby="modal-1-description">
+                </button>
+                <div class="usa-modal" style="max-width: 850px;" id="performance-management-modal" aria-describedby="performance-management-modal-description">
                     <div class="usa-modal__content">
-                        <div class="usa-modal__main">
-                            <div class="usa-prose">
-                            <p id="modal-1-description">
-                                Video to go here
-                            </p>
+                        <div class="usa-modal__main" style="width: 100%;">
+                            <div id="performance-management-modal-description" class="padding-5">
+                                <div class="video-responsive">
+                                    <iframe class="width-full" src="https://player.vimeo.com/video/933011956?h=bb24586e69&amp;autoplay=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Evidence-based Performance Management"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+                                </div>
                             </div>
                         </div>
-                        <button
-                            type="button"
-                            class="padding-top-2 usa-button usa-modal__close"
-                            aria-label="Close this window"
-                            data-close-modal
-                        >
+                        <button id="close-performance-management-modal" onclick="stopVimeo()" type="button" class="padding-top-2 usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
                             <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
                             <use xlink:href="/assets/img/sprite.svg#close"></use>
                             </svg>
                         </button>
+                        <script>
+                            function stopVimeo() {
+                                var iframe = document.querySelector('iframe');
+                                var player = new Vimeo.Player(iframe);
+                                player.pause();
+                            }
+                        </script>
                     </div>
                 </div>
                 
