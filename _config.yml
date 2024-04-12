@@ -130,8 +130,8 @@ primary_navigation:
           permalink: /fibf-gm/
           show_in_menu: true
           show_in_footer: false
-        - text: 'HR Management Services'
-          permalink: /fibf-hr-ac/
+        - text: 'Human Capital Management'
+          permalink: /fibf-hr-hcm/
           show_in_menu: true
           show_in_footer: false
         - text: 'Compensation and Benefits'

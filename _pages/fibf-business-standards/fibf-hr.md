@@ -1,7 +1,7 @@
 ---
 layout: standards
 permalink: /fibf-hr-ac/
-title: HR Management Services - Talent Acquisition
+title: Human Capital Management - Talent Acquisition
 sub-title: Talent Acquisition
 sec-title: HR Management Services Standards Lead
 sec-name: OPM, Human Resources Line of Business

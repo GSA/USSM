@@ -1,7 +1,7 @@
 ---
 layout: standards
 permalink: /fibf-hr-cb/
-title: HR Management Services - Compensation and Benefits
+title: Human Capital Management - Compensation and Benefits
 sub-title: Compensation and Benefits
 sec-title: HR Management Services Standards Lead
 sec-name: OPM, Human Resources Line of Business

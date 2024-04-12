@@ -1,7 +1,7 @@
 ---
 layout: standards
 permalink: /fibf-hr-epm/
-title: HR Management Services - Employee Performance Management
+title: Human Capital Management - Employee Performance Management
 sub-title: Employee Performance Management
 sec-title: HR Management Services Standards Lead
 sec-name: OPM, Human Resources Line of Business

@@ -1,7 +1,7 @@
 ---
 layout: standards
 permalink: /fibf-hr-td/
-title: HR Management Services - Talent Development
+title: Human Capital Management - Talent Development
 sub-title: Talent Development
 sec-title: HR Management Services Standards Lead
 sec-name: OPM, Human Resources Line of Business

@@ -1,7 +1,7 @@
 ---
 layout: standards
 permalink: /fibf-hr-sep-ret/
-title: HR Management Services - Separation and Retirement
+title: Human Capital Management - Separation and Retirement
 sub-title: Separation and Retirement
 sec-title: HR Management Services Standards Lead
 sec-name: OPM, Human Resources Line of Business
