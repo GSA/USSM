@@ -28,21 +28,72 @@ all-zip: assets/files/downloads/hr/acquisition/acquisition.zip -->
   <div class="usa-grid">
     <div class="grid-container">
       <div class="priority-tag-line"><h1 class="margin-y-105 font-ui-l">{{ page.title }}</h1></div>
-      <p>The Office of Personnel Management (OPM), Human Resources Line of Business (HRLOB) serves an integral role in supporting strategic Human Capital Management (HCM) across the Federal Government. In partnership with agencies from the Multi-Agency Executive Strategy Committee (MAESC), HRLOB created three products to standardize Governmentwide HCM:</p>
-      <div id="rcorners2">
-       <p><strong>HR Management Services Standards Lead</strong></p>
-        <p style="word-wrap: break-word;">
-          <strong>Name:</strong>&nbsp;OPM, Human Resources Line of Business (HRLOB)<br/>
-          <strong>Contact:</strong>&nbsp;<a href="mailto:HRLoB@opm.gov">HRLoB@opm.gov</a>
-        </p>
+      <p style="font-size: larger;">The Office of Personnel Management (OPM), Human Resources Line of Business (HRLOB) serves an integral role in supporting strategic Human Capital Management (HCM) across the Federal Government. In partnership with agencies from the Multi-Agency Executive Strategy Committee (MAESC), HRLOB created three products to standardize Governmentwide HCM:</p>
+      <div class="grid-row">
+        <div class="grid-col-7">
+          <ul class="arrow-list">
+            <li><a href="#hc-fibf">Human Capital Federal Integrated Business Framework (HC-FIBF)</a></li>
+            <li><a href="#hcbrm">Human Capital Business Reference Model (HCBRM)</a></li>
+            <li><a href="#hcim">Human Capital Information Model (HCIM)</a></li>
+          </ul>
+        </div>
+        <div class="grid-col-5" style="line-height: normal;font-size: small;">
+          <div id="rcorners2">
+            <p>
+              <strong>HR Management Services Standards Lead</strong>
+            </p>
+            <p style="word-wrap: break-word;">
+              <strong>Name:</strong>&nbsp;OPM, Human Resources Line of Business (HRLOB)<br>
+              <strong>Contact:</strong>&nbsp;<a href="mailto:HRLoB@opm.gov">HRLoB@opm.gov</a>
+            </p>
+          </div>
+        </div>
       </div>
+      <h2 id="hc-fibf" class="text-primary">HUMAN CAPITAL FEDERAL INTEGRATED BUSINESS FRAMEWORK (HC-FIBF)</h2>
       <div class="grid-row fibf-wheel" >
       {% include fibf-circle.html %}
       <div class="desktop:grid-col-7 mobile:grid-col-12 fibf-wheel-media2">
-        <h2 class="text-italic text-primary font-body-md">HUMAN CAPITAL FEDERAL INTEGRATED BUSINESS FRAMEWORK (HC-FIBF)</h2>
         <p>The HC-FIBF is the service model that enables the Federal government to better coordinate and document common human capital business needs across agencies and focus on outcomes, data, processes, and performance. Each Agency Subfunction of the HCBRM has its own HC-FIBF, which establishes service delivery and data standards to help agencies meet and advance their organization’s strategic human capital objectives.</p>
         {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{% endif %}
       </div>
+
+      <table>
+        <thead>
+          <th>Enalbing</th>
+          <th>Employee</th>
+          <th>Supporting</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HCM A1: Human Capital Strategy, Policies, & Operation Plan</td>
+            <td>HCM A2: Talent Acquisition</td>
+            <td>HCM A7: Employee Accountability</td>
+          </tr>
+          <tr>
+            <td>HCM A10: Human Capital Evaluation</td>
+            <td>HCM A3: Talent Development</td>
+            <td>HCM A8: Labor Relations</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>HCM A4: Employee Performance</td>
+            <td>HCM A9: Human Capital Analytics & Employee Records</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>HCM A5: Compensation and Benefits</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>HCM A5: Separation and Retirement</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td colspan="3">HCM X1: Personnel Action Request (PAR) Processing</td>
+          </tr>
+        </tbody>
+      </table>
       </div>
       <div id="hcbrm" class="metrics border-top-1px" style="margin-bottom: 10px;">
         <h2>Human Capital Business Reference Model (HCBRM)</h2>

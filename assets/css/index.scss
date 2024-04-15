@@ -203,3 +203,32 @@ video {
   max-width: 100%;
   display: block;
 }
+
+ul.arrow-list {
+  list-style:none;
+  // padding-left: 0px;
+  // font-weight: bold;
+}
+ul.arrow-list li:before {
+    content: "\27A2";
+}
+
+ul.cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0em, max-content));
+  grid-template-rows: repeat(5, 1fr);/* 5 rows */
+  grid-auto-flow: column;
+  list-style: none;
+  padding: 0;
+  margin: 1em;
+  gap: 5px
+}
+// li.cols {
+//   background: silver;
+//   padding: 0.15em;
+//   margin: 0;
+// }
+
+// li::first-letter {
+//   color: blue;
+// }
