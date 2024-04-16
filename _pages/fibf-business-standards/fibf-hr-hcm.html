@@ -56,7 +56,11 @@ all-zip: assets/files/downloads/hr/acquisition/acquisition.zip -->
         <p>The HC-FIBF is the service model that enables the Federal government to better coordinate and document common human capital business needs across agencies and focus on outcomes, data, processes, and performance. Each Agency Subfunction of the HCBRM has its own HC-FIBF, which establishes service delivery and data standards to help agencies meet and advance their organization’s strategic human capital objectives.</p>
         {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{% endif %}
       </div>
-
+      <div class="desktop:grid-col-12 mobile:grid-col-12 ">
+        <p style="text-align: center; color: teal;">
+          <i>Click the HCBRM Function to access the HC-FIBF Standards</i>
+        </p>
+      </div>
       <table style="border-spacing: 10px;">
         <thead>
           <th class="hcm-button-head"><p>Enabling</p></th>
@@ -258,7 +262,7 @@ all-zip: assets/files/downloads/hr/acquisition/acquisition.zip -->
             <img src="{{ site.baseurl }}/assets/images/fibf/03.business.use.cases.sm.png" alt="" class="fibf-wheel-image">
           </div>
           <div class="desktop:grid-col-9">
-            <p><i>A set of agency “stories” that document the key activities, inputs, outputs, and other LOB intersections to describe how the Federal government operates.</i>
+            <p><i>Under Development</i>
             </p>
             {% if page.use-cases-content %}
             {% include {{ page.use-cases-content }} %}
@@ -276,7 +280,9 @@ all-zip: assets/files/downloads/hr/acquisition/acquisition.zip -->
             <img src="{{ site.baseurl }}/assets/images/fibf/04.standard.data.elements.sm.png" alt="" class="fibf-wheel-image">
           </div>
           <div class="desktop:grid-col-9">
-            <p><i>Identify the minimum data fields required to support the inputs and outputs noted in the use cases and capabilities.</i>
+            <p><i><b>Standard Data Elements</b> identify the minimum data fields required to support the inputs and outputs noted in the use cases and capabilities.</i>
+            </p>
+            <p><i><b>The HC FIBF Standard Data elements are a subset of the Human Capital Information Model (HCIM).</b>. Comprised of metadata and information packages, the HCIM  is the "Rosetta Stone" to achieving interoperable human capital systems that enable paperless data sharing across the Federal human capital community.</i>
             </p>
             {% if page.data-elements-content %}
             {% include {{ page.data-elements-content }} %}
@@ -293,7 +299,7 @@ all-zip: assets/files/downloads/hr/acquisition/acquisition.zip -->
             <img src="{{ site.baseurl }}/assets/images/fibf/05.service.measures.sm.png" alt="" class="fibf-wheel-image">
           </div>
           <div class="desktop:grid-col-9">
-            <p><i>Define how the government measures successful delivery of outcomes based on timeliness, efficiency, and accuracy targets.</i>
+            <p><i><b>Success Measures</b> define how the government measures successful delivery of outcomes based on timeliness, efficiency, and accuracy targets.</i>
             </p>
             {% if page.metrics-content %}
             {% include {{ page.metrics-content }} %}
