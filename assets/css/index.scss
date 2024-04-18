@@ -225,52 +225,14 @@ ul.cols {
 }
 
 .hcm-button {
-  background-color: #005ea2e3;
+  display: block;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: blue;
   font-weight: 700;
-  height: 50px;
-  font-size: 13px;
-  border-radius: 0.5rem;
-  // box-shadow: inset 0 0 0 3px #0b0083;
-  // padding: .75rem 1.25rem;
-  // width: 350px;
-  // align-self: center;
-  // justify-self: baseline;
 }
 
-.hcm-button-head {
-  background-color: #005ea2;
-  width: 350px;
-  height: 45px;
-  font-size: 13px;
-  color: white;
-  border-radius: 0.5rem;
-  // box-shadow: inset 0 0 0 3px #0b0083;
-  // padding: .75rem 1.25rem;
-  // align-self: center;
-  // justify-self: baseline;
-}
-
-.hcm-button a {
-  display: block;
-  text-decoration: none;
-  padding: .5rem 1rem;
-  text-align: center;
-  color: black;
-}
-
-.hcm-button-head p {
-  display: block;
-  text-decoration: none;
-  padding: .5rem 1rem;
-  text-align: center;
-  color: white;
-}
-// li.cols {
-//   background: silver;
-//   padding: 0.15em;
-//   margin: 0;
-// }
-
-// li::first-letter {
-//   color: blue;
-// }
+#hcbrm_img{max-width: 70% !important;}
+#hcim_img{max-width: 70% !important;}

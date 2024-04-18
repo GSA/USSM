@@ -24,296 +24,117 @@ all-zip: assets/files/downloads/hr/acquisition/acquisition.zip -->
 <div class="page-wrapper chiller-theme toggled">
   {% include side-nav.html %}
   <div id="main-content" class="page-content ">
-<section class="usa-section about margin-bottom-3 padding-y-105">
-  <div class="usa-grid">
-    <div class="grid-container">
-      <div class="priority-tag-line"><h1 class="margin-y-105 font-ui-l">{{ page.title }}</h1></div>
-      <p style="font-size: larger;">The Office of Personnel Management (OPM), Human Resources Line of Business (HRLOB) serves an integral role in supporting strategic Human Capital Management (HCM) across the Federal Government. In partnership with agencies from the Multi-Agency Executive Strategy Committee (MAESC), HRLOB created three products to standardize Governmentwide HCM:</p>
-      <div class="grid-row">
-        <div class="grid-col-7">
-          <ul class="arrow-list">
-            <li><a href="#hc-fibf">Human Capital Federal Integrated Business Framework (HC-FIBF)</a></li>
-            <li><a href="#hcbrm">Human Capital Business Reference Model (HCBRM)</a></li>
-            <li><a href="#hcim">Human Capital Information Model (HCIM)</a></li>
-          </ul>
-        </div>
-        <div class="grid-col-5" style="line-height: normal;font-size: small;">
-          <div id="rcorners2">
-            <p>
-              <strong>HR Management Services Standards Lead</strong>
-            </p>
-            <p style="word-wrap: break-word;">
-              <strong>Name:</strong>&nbsp;OPM, Human Resources Line of Business (HRLOB)<br>
-              <strong>Contact:</strong>&nbsp;<a href="mailto:HRLoB@opm.gov">HRLoB@opm.gov</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <h2 id="hc-fibf" class="text-primary">HUMAN CAPITAL FEDERAL INTEGRATED BUSINESS FRAMEWORK (HC-FIBF)</h2>
-      <div class="grid-row fibf-wheel" >
-      {% include fibf-circle.html %}
-      <div class="desktop:grid-col-7 mobile:grid-col-12 fibf-wheel-media2">
-        <p>The HC-FIBF is the service model that enables the Federal government to better coordinate and document common human capital business needs across agencies and focus on outcomes, data, processes, and performance. Each Agency Subfunction of the HCBRM has its own HC-FIBF, which establishes service delivery and data standards to help agencies meet and advance their organization’s strategic human capital objectives.</p>
-        {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{% endif %}
-      </div>
-      <div class="desktop:grid-col-12 mobile:grid-col-12 ">
-        <p style="text-align: center; color: teal;">
-          <i>Click the HCBRM Function to access the HC-FIBF Standards</i>
-        </p>
-      </div>
-      <table style="border-spacing: 10px;">
-        <thead>
-          <th class="hcm-button-head"><p>Enabling</p></th>
-          <th class="hcm-button-head"><p>Employee</p></th>
-          <th class="hcm-button-head"><p>Supporting</p></th>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="hcm-button"><a href="{{site.baseurl}}/fibf-hr-ac/">HCM A1: Human Capital Strategy, Policies, & Operation Plan</a></td>
-            <td class="hcm-button"><a href="{{site.baseurl}}/fibf-hr-ac/">HCM A2: Talent Acquisition</a></td>
-            <td class="hcm-button"><a href="{{site.baseurl}}/fibf-hr-ac/">HCM A7: Employee Accountability</a></td>
-          </tr>
-          <tr>
-            <td class="hcm-button"><a href="{{site.baseurl}}/fibf-hr-ac/">HCM A10: Human Capital Evaluation</a></td>
-            <td class="hcm-button"><a href="{{site.baseurl}}/fibf-hr-td/">HCM A3: Talent Development</a></td>
-            <td class="hcm-button"><a href="{{site.baseurl}}/fibf-hr-lr/">HCM A8: Labor Relations</a></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td class="hcm-button"><a href="{{site.baseurl}}/fibf-hr-epm/">HCM A4: Employee Performance</a></td>
-            <td class="hcm-button"><a href="{{site.baseurl}}/fibf-hr/">HCM A9: Human Capital Analytics & Employee Records</a></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td class="hcm-button"><a href="{{site.baseurl}}/fibf-hr-cb/">HCM A5: Compensation and Benefits</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td class="hcm-button"><a href="{{site.baseurl}}/fibf-hr-sep-ret/">HCM A5: Separation and Retirement</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="hcm-button" colspan="3"><a href="{{site.baseurl}}/fibf-hr-sep-ret/">HCM X1: Personnel Action Request (PAR) Processing</a></td>
-          </tr>
-        </tbody>
-      </table>
-
-      </div>
-      <div id="hcbrm" class="metrics border-top-1px" style="margin-bottom: 10px;">
-        <h2>Human Capital Business Reference Model (HCBRM)</h2>
-        <div class="grid-row">
-          <div class="desktop:grid-col-5">
-            <img src="{{site.baseurl}}/assets/images/fibf/HCBRM_4.0_Map_as_image_for_BSC_webpage_Jan_2024.png" style="width:400px;padding-right:20px;" alt="HCBRM 4.0 Map_as image for BSC webpage_Jan 2024">
-            <a href="#hcbrm_img" title="" class="image-link usa-button usa-button--secondary margin-top-5" style="position: relative;left: 40%;">Enlarge</a>
-            <div id="hcbrm_img" class="white-popup mfp-hide">
-                <img  alt="HCBRM 4.0 Map_as image for BSC webpage_Jan 2024" src="{{site.baseurl}}/assets/images/fibf/HCBRM_4.0_Map_as_image_for_BSC_webpage_Jan_2024.png">
+    <section class="usa-section about margin-bottom-3 padding-y-105">
+      <div class="usa-grid">
+        <div class="grid-container">
+          <div class="priority-tag-line"><h1 class="margin-y-105 font-ui-l">{{ page.title }}</h1></div>
+          <p style="font-size: larger;">The Office of Personnel Management (OPM), Human Resources Line of Business (HRLOB) serves an integral role in supporting strategic Human Capital Management (HCM) across the Federal Government. In partnership with agencies from the Multi-Agency Executive Strategy Committee (MAESC), HRLOB created three products to standardize Governmentwide HCM:</p>
+          <div class="grid-row">
+            <div class="grid-col-7">
+              <ul class="arrow-list">
+                <li><a href="#hc-fibf">Human Capital Federal Integrated Business Framework (HC-FIBF)</a></li>
+                <li><a href="#hcbrm">Human Capital Business Reference Model (HCBRM)</a></li>
+                <li><a href="#hcim">Human Capital Information Model (HCIM)</a></li>
+              </ul>
             </div>
-          </div>
-          <div class="desktop:grid-col-7">
-            <p>
-            <i>The HCBRM is the human capital functional framework and structure for all agencies supporting the CHCO Council’s vision of a government-wide common employee experience. It provides a taxonomy for Human Capital Management - at the highest level, it divides Federal human capital functions by who is responsible for delivering them. Federal Functions (designated as “F” functions) are those for which OPM is responsible for writing the policy and providing the services.  Agency Functions (designated as “A” functions) are those that OPM writes the policy and Agencies are responsible for providing the services, either internally or via a service provider.
-            </i>
-            </p>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.opm.gov/services-for-agencies/hr-line-of-business/hc-business-reference-model" class="usa-button usa-button text-white">HCBRM Website</a>
-          </div>
-        </div>
-
-      </div>
-
-      <div id="hcim" class="metrics border-top-1px" style="margin-bottom: 10px;">
-        <h2>Human Capital Information Model (HCIM)</h2>
-        <div class="grid-row">
-          <div class="desktop:grid-col-5">
-            <img src="{{site.baseurl}}/assets/images/fibf/HCIM_BSC_webpage_Jan_2024.png" style="width:400px;padding-right:20px;" alt="HCBRM 4.0 Map_as image for BSC webpage_Jan 2024">
-            <a href="#hcim_img" title="" class="image-link usa-button usa-button--secondary margin-top-5" style="position: relative;left: 40%;">Enlarge</a>
-            <div id="hcim_img" class="white-popup mfp-hide">
-                <img  alt="HCBRM 4.0 Map_as image for BSC webpage_Jan 2024" src="{{site.baseurl}}/assets/images/fibf/HCIM_BSC_webpage_Jan_2024.png">
-            </div>
-          </div>
-          <div class="desktop:grid-col-7">
-            <p>
-            <i>The HCIM is the foundational service model to achieving a standardized Federal human capital information ecosystem. Comprised of metadata and information packages, the HCIM enables the exchange of human capital data between federal agencies, shared services providers, policy-makers, regulators, academia, industry and the public. It is the “Rosetta Stone” to achieving interoperable human capital systems that enable paperless data sharing across the Federal human capital community.
-            </i>
-            </p>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.opm.gov/services-for-agencies/hr-line-of-business/human-capital-information-model-hcim/" class="usa-button usa-button text-white">Access the HCIM</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-    <div class="usa-grid">
-      <div class="grid-container">
-        {% if page.lifecycle-pdf or page.use-cases-pdf or page.capabilities-pdf or page.standard-data-elements-pdf or page.performance-metrics-pdf  %}
-          <h2 class="text-center text-primary border-top-1px">Download {{page.sub-title}} Business Standards Components</h2>
-        {% endif %}
-        <ul class="usa-button-group">
-          {% if page.lifecycle-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.lifecycle-pdf}}" class="usa-button usa-button--accent-cool text-white">Federal
-            Business Lifecycle</a></li>
-          {% endif %}
-          {% if page.capabilities-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.capabilities-pdf}}" class="usa-button usa-button--accent-cool text-white">Business
-            Capabilities</a></li>
-          {% endif %}
-          {% if page.use-cases-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.use-cases-pdf}}" class="usa-button usa-button--accent-cool text-white">Business Use
-            Cases</a></li>
-          {% endif %}
-          {% if page.standard-data-elements-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.standard-data-elements-pdf}}" class="usa-button usa-button--accent-cool text-white">Standard
-            Data Elements</a></li>
-          {% endif %}
-          {% if page.performance-metrics-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white">Service Measures</a></li>
-          {% endif %}
-          {% if page.all-zip %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.all-zip}}" class="usa-button text-white">Download
-            All</a></li>
-          {% endif %}
-        </ul>
-      </div>
-    </div>
-<section  id="main-content-standards" class="usa-section padding-top-2" >
-  <div class="usa-grid">
-    <div class="grid-container font-sans-sm">
-      <div id="business_lifecycle" class="lifecycle border-top-1px">
-      <h2>Federal Business Lifecycle</h2>
-      <div class="grid-row">
-        <div class="desktop:grid-col-3">
-          <img src="{{ site.baseurl }}/assets/images/fibf/01.federal.business.lifecycle.sm.png" alt="" class="fibf-wheel-image">
-        </div>
-        <div class="desktop:grid-col-9">
-
-          <p><i><b>Federal Business Lifecycles, functional areas, functions, and activities</b> serve as the basis for a common understanding of what services agencies need and solutions should offer.</i></p>
-          <p><i><b>Functions</b>: Breakdown of a functional area into categories of services provided to customers.</i></p>
-          <p><i><b>Activities</b>: Within a function, processes that provide identifiable outputs/outcomes to customers are defined as activities.</i></p>
-          <ul>
-          {% if page.lifecycle-source-document %}
-              <li>
-                <img src="{{ site.baseurl }}/assets/images/icon.{{page.lifecycle-source-document-type}}.png" valign="middle" alt="{{page.lifecycle-source-document-type}}">
-                <a href="{{ site.baseurl }}/{{page.lifecycle-source-document}}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
-            </li>
-            {% endif %}
-
-            {% if page.lifecycle-json-api %}
-            <li>
-              <a href="{{ site.baseurl }}{{ page.lifecycle-json-api }}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
-            </li>
-            {% endif %}
-          </ul>
-        </div>
-        {% if page.lifecycle-content %}
-        <div class="desktop:grid-col-12">{% include {{ page.lifecycle-content }} %}</div>
-        {% endif %}
-      </div>
-
-        <p><a class="text-primary" style="display:flex; justify-content:flex-end;"  href="#top">Back to top</a></p>
-      </div>
-
-
-      <div id="business_capabilities" class ="capabilities border-top-1px">
-        <h2>Business Capabilities</h2>
-        <div class="grid-row">
-          <div class="desktop:grid-col-3">
-            <img src="{{ site.baseurl }}/assets/images/fibf/02.business.capabilities.sm.png" alt="" class="fibf-wheel-image">
-          </div>
-          <div class="desktop:grid-col-9">
-            <p><i><b>Business Capabilities</b> are the outcome-based business needs mapped to Federal government authoritative references, forms, and data standards.</i>
-            </p>
-
-            {% if page.capabilities-source-document %}
-            <ul>
-              <li>
-                <img src="{{ site.baseurl }}/assets/images/icon.{{page.capabilities-source-document-type}}.png" valign="middle" alt="{{page.capabilities-source-document-type}}">
-                <a href="{{ site.baseurl }}/{{page.capabilities-source-document}}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
-              </li>
-              {% if page.capabilities-json-api %}
-              <li>
-                <a href="{{ site.baseurl }}{{ page.capabilities-json-api }}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
-              </li>
-              {% endif %}
-            </ul>
-            {% endif %}
-          </div>
-        </div>
-        {% if page.capabilities-content %}
-          <div class="desktop:grid-col-12">
-            <div class="usa-accordion usa-accordion--bordered margin-y-5">
-              <div><button class="usa-accordion__button" aria-expanded="true" aria-controls="capabilities"><img src="{{site.baseurl}}/assets/images/compass-regular.png" alt="Business Capabilities Navigation" style="width:32px;vertical-align: middle;margin-right: 10px;margin-top: -3px;">Business Capabilities Explorer</button>
-                <div id="capabilities" class="usa-accordion__content usa-prose">
-                  {% include {{ page.capabilities-content }} %}
-                </div>
+            <div class="grid-col-5" style="line-height: normal;font-size: small;">
+              <div id="rcorners2">
+                <p>
+                  <strong>HR Management Services Standards Lead</strong>
+                </p>
+                <p style="word-wrap: break-word;">
+                  <strong>Name:</strong>&nbsp;OPM, Human Resources Line of Business (HRLOB)<br>
+                  <strong>Contact:</strong>&nbsp;<a href="mailto:HRLoB@opm.gov">HRLoB@opm.gov</a>
+                </p>
               </div>
             </div>
           </div>
-        {% endif %}
+          <h2 id="hc-fibf" class="text-primary">HUMAN CAPITAL FEDERAL INTEGRATED BUSINESS FRAMEWORK (HC-FIBF)</h2>
+          <div class="grid-row fibf-wheel" >
+            {% include fibf-circle.html %}
+            <div class="desktop:grid-col-7 mobile:grid-col-12 fibf-wheel-media2">
+              <p>The HC-FIBF is the service model that enables the Federal government to better coordinate and document common human capital business needs across agencies and focus on outcomes, data, processes, and performance. Each Agency Subfunction of the HCBRM has its own HC-FIBF, which establishes service delivery and data standards to help agencies meet and advance their organization’s strategic human capital objectives.</p>
+              {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{% endif %}
+            </div>
+            <div class="desktop:grid-col-12 mobile:grid-col-12 ">
+              <p style="text-align: center; color: teal;">
+                <i>Click the HCBRM Function to access the HC-FIBF Standards</i>
+              </p>
+            </div>
 
-        <p><a class="text-primary" style="display:flex; justify-content:flex-end;"  href="#top">Back to top</a></p>
-        </div>
+<!-- white text, dark blue background. black border, white / transparent background, blue text -->
+            <div class="grid-container font-sans-sm padding-bottom-3">
+              <div class="grid-row grid-gap-2">
+                <div class="desktop:grid-col-4">
+                  <section>
+                    <div class="margin-2 bg-primary padding-1 text-white text-center radius-md">Enabling</div>
+                    <div class="margin-105 bg-white outline-05 padding-1 radius-lg"><a class="hcm-button" href="{{site.baseurl}}/fibf-hr/">HCM A1: Human Capital Strategy, Policies, &amp; Operation Plan</a></div>
+                    <div class="margin-105 bg-white outline-05 padding-1 radius-lg"><a class="hcm-button" href="{{site.baseurl}}/fibf-hr/">HCM A10: Human Capital Evaluation</a></div>
+                  </section>
+                </div>
+                <div class="desktop:grid-col-4">
+                  <div class="margin-2 bg-primary padding-1 text-white text-center radius-md">Employee</div>
+                  <div class="margin-105 bg-white outline-05 padding-1 radius-lg"><a class="hcm-button" href="{{site.baseurl}}/fibf-hr-ac/">HCM A2: Talent Acquisition</a></div>
+                  <div class="margin-105 bg-white outline-05 padding-1 radius-lg"><a class="hcm-button" href="{{site.baseurl}}/fibf-hr-td/">HCM A3: Talent Development</a></div>
+                  <div class="margin-105 bg-white outline-05 padding-1 radius-lg"><a class="hcm-button" href="{{site.baseurl}}/fibf-hr-epm/">HCM A4: Employee Performance</a></div>
+                  <div class="margin-105 bg-white outline-05 padding-1 radius-lg"><a class="hcm-button" href="{{site.baseurl}}/fibf-hr-cb/">HCM A5: Compensation and Benefits</a></div>
+                  <div class="margin-105 bg-white outline-05 padding-1 radius-lg"><a class="hcm-button" href="{{site.baseurl}}/fibf-hr-sep-ret/">HCM 6: Separation and Retirement</a></div>
+                </div>
+                <div class="desktop:grid-col-4">
+                  <div class="margin-2 bg-primary padding-1 text-white text-center radius-md">Supporting</div>
+                  <div class="margin-105 bg-white outline-05 padding-1 radius-lg"><a class="hcm-button" href="{{site.baseurl}}/fibf-hr/">HCM A7: Employee Accountability</a></div>
+                  <div class="margin-105 bg-white outline-05 padding-1 radius-lg"><a class="hcm-button" href="{{site.baseurl}}/fibf-hr/">HCM A8: Labor Relations</a></div>
+                  <div class="margin-105 bg-white outline-05 padding-1 radius-lg"><a class="hcm-button" href="{{site.baseurl}}/fibf-hr/">HCM A9: Human Capital Analytics &amp; Employee Records</a></div>
+                </div>
+                <div class="desktop:grid-col">
+                  <div class="margin-105 bg-white outline-05 padding-1 radius-lg"><a class="hcm-button" href="#">HCM X1: Personnel Action Request (PAR) Processing</a></div>
+                </div>
+              </div>
+            </div>
 
 
-      <div id="business_use_cases" class ="use_cases border-top-1px">
-        <h2>Business Use Cases</h2>
-        <div class="grid-row">
-          <div class="desktop:grid-col-3">
-            <img src="{{ site.baseurl }}/assets/images/fibf/03.business.use.cases.sm.png" alt="" class="fibf-wheel-image">
           </div>
-          <div class="desktop:grid-col-9">
-            <p><i>Under Development</i>
-            </p>
-            {% if page.use-cases-content %}
-            {% include {{ page.use-cases-content }} %}
-            {% endif %}
-            <p><a class="text-primary" style="display:flex; justify-content:flex-end; margin-top: 95px;"  href="#top">Back to top</a></p>
+
+          <div class="grid-row border-top-1px" id="hcbrm">
+            <h2>Human Capital Business Reference Model (HCBRM)</h2>
           </div>
+          <div class="grid-row padding-bottom-4">
+            <div class="desktop:grid-col margin-right-5">
+              <img src="/assets/images/fibf/HCBRM_4.0_Map_as_image_for_BSC_webpage_Jan_2024.png" alt="The Human Capital Business Reference Model (HCBRM 4.0) functional framework defines Federal Human Capital Management with 16 Functions and 50 Sub-functions in the HC lifecycle.">
+              <a href="#hcbrm_img" title="" class="image-link">Click here to enlarge image</a>
+              <div id="hcbrm_img" class="white-popup mfp-hide">
+                <img src="/assets/images/fibf/HCBRM_4.0_Map_as_image_for_BSC_webpage_Jan_2024.png" alt="The Human Capital Business Reference Model (HCBRM 4.0) functional framework defines Federal Human Capital Management with 16 Functions and 50 Sub-functions in the HC lifecycle.">
+              </div>
+            </div>
+            <div class="desktop:grid-col">
+              <p>
+                The HCBRM is the human capital functional framework and structure for all agencies supporting the CHCO Council’s vision of a government-wide common employee experience. It provides a taxonomy for Human Capital Management - at the highest level, it divides Federal human capital functions by who is responsible for delivering them. Federal Functions (designated as “F” functions) are those for which OPM is responsible for writing the policy and providing the services.  Agency Functions (designated as “A” functions) are those that OPM writes the&nbsp;policy and Agencies are responsible for providing the&nbsp;services, either internally or&nbsp;via a service provider.
+                <a target="_blank" rel="noopener noreferrer" href="https://www.opm.gov/services-for-agencies/hr-line-of-business/hc-business-reference-model">Click here to access the HCBRM</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-row border-top-1px" id="hcim">
+            <h2>Human Capital Information Model (HCIM)</h2>
+          </div>
+          <div class="grid-row">
+            <div class="desktop:grid-col margin-right-5"">
+              <img src="/assets/images/fibf/HCIM_BSC_webpage_Jan_2024.png" alt="The HCIM includes the Data Registry, a comprehensive catalog of data elements relating to the Federal Human Capital landscape; Domain Values, lists of possible values for particular Registry data elements; Systems and Forms Mapping, map of all systems and forms which include Registry data elements; and Ecosystem Schema, logical groupings of Registry data elements for a particular message or transaction.">
+              <a href="#hcim_img" title="" class="image-link">Click here to enlarge image</a>
+              <div id="hcim_img" class="white-popup mfp-hide">
+                <img src="/assets/images/fibf/HCIM_BSC_webpage_Jan_2024.png" alt="The HCIM includes the Data Registry, a comprehensive catalog of data elements relating to the Federal Human Capital landscape; Domain Values, lists of possible values for particular Registry data elements; Systems and Forms Mapping, map of all systems and forms which include Registry data elements; and Ecosystem Schema, logical groupings of Registry data elements for a particular message or transaction.">
+              </div>
+            </div>
+            <div class="desktop:grid-col">
+              <p>
+                The HCIM is the foundational service model to achieving a standardized Federal human capital information ecosystem. Comprised of metadata and information packages, the HCIM enables the exchange of human capital data between federal agencies, shared services providers, policy-makers, regulators, academia, industry and the public. It is the “Rosetta Stone” to achieving interoperable human capital systems that enable paperless data sharing across the Federal human capital community.
+                <a target="_blank" rel="noopener noreferrer" href="https://www.opm.gov/services-for-agencies/hr-line-of-business/human-capital-information-model-hcim/">Click here to access the HCIM</a>
+              </p>
+            </div>
+          </div>
+
         </div>
-
-
       </div>
-      <div id="standard_data_elements" class ="data_elements border-top-1px">
-        <h2>Standard Data Elements</h2>
-        <div class="grid-row">
-          <div class="desktop:grid-col-3">
-            <img src="{{ site.baseurl }}/assets/images/fibf/04.standard.data.elements.sm.png" alt="" class="fibf-wheel-image">
-          </div>
-          <div class="desktop:grid-col-9">
-            <p><i><b>Standard Data Elements</b> identify the minimum data fields required to support the inputs and outputs noted in the use cases and capabilities.</i>
-            </p>
-            <p><i><b>The HC FIBF Standard Data elements are a subset of the Human Capital Information Model (HCIM).</b>. Comprised of metadata and information packages, the HCIM  is the "Rosetta Stone" to achieving interoperable human capital systems that enable paperless data sharing across the Federal human capital community.</i>
-            </p>
-            {% if page.data-elements-content %}
-            {% include {{ page.data-elements-content }} %}
-            {% endif %}
-            <p><a class="text-primary" style="display:flex; justify-content:flex-end; margin-top: 75px;"  href="#top">Back to top</a></p>
-          </div>
-        </div>
-
-      </div>
-      <div id="performance_metrics" class ="metrics border-top-1px">
-        <h2>Service Measures</h2>
-        <div class="grid-row">
-          <div class="desktop:grid-col-3">
-            <img src="{{ site.baseurl }}/assets/images/fibf/05.service.measures.sm.png" alt="" class="fibf-wheel-image">
-          </div>
-          <div class="desktop:grid-col-9">
-            <p><i><b>Success Measures</b> define how the government measures successful delivery of outcomes based on timeliness, efficiency, and accuracy targets.</i>
-            </p>
-            {% if page.metrics-content %}
-            {% include {{ page.metrics-content }} %}
-            {% endif %}
-            <p><a class="text-primary" style="display:flex; justify-content:flex-end; margin-top: 75px;"  href="#top">Back to top</a></p>
-          </div>
-        </div>
-
-      </div>
-
-
-    </div>
-  </div>
-</section>
-
+    </section>
   </div>
 </div>
