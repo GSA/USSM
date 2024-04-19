@@ -134,20 +134,18 @@ primary_navigation:
           permalink: /fibf-hr-hcm/
           show_in_menu: true
           show_in_footer: false
-        - text: 'Compensation and Benefits'
-          permalink: /fibf-hr-cb/
+        - text: 'Human Capital Strategy, Policies, & Operations'
+          permalink: /fibf-hr-hcs/
           show_in_menu: true
           show_in_footer: false
           link: true
           external: false
-          sub: true
-        - text: 'Employee Performance Management'
-          permalink: /fibf-hr-epm/
+        - text: 'Human Capital Evaluations'
+          permalink: /fibf-hr-hce/
           show_in_menu: true
           show_in_footer: false
           link: true
           external: false
-          sub: true
         - text: 'Talent Acquisition'
           permalink: /fibf-hr-ac/
           show_in_menu: true
@@ -162,8 +160,43 @@ primary_navigation:
           link: true
           external: false
           sub: true
+        - text: 'Employee Performance Management'
+          permalink: /fibf-hr-epm/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Compensation and Benefits'
+          permalink: /fibf-hr-cb/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
         - text: 'Separation and Retirement'
           permalink: /fibf-hr-sep-ret/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Employee Accountability'
+          permalink: /fibf-hr-ea/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Labor Relation'
+          permalink: /fibf-hr-lr/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Human Capital Analytics & Employee Records'
+          permalink: /fibf-hr-hca/
           show_in_menu: true
           show_in_footer: false
           link: true
