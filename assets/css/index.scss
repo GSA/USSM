@@ -242,5 +242,14 @@ ul.cols {
   text-decoration: none;
 }
 
-#hcbrm_img{max-width: 70% !important;}
-#hcim_img{max-width: 70% !important;}
+#hcbrm_img{
+  max-width: 70% !important;
+}
+
+#hcim_img{
+  max-width: 70% !important;
+}
+
+.hcm-wheel {
+  max-block-size: 300px;
+}
