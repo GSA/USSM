@@ -169,24 +169,34 @@ where we provide an easy way to manage your navigation system
                             </a>
                         </li>
 
-
+                      <div class="grid-container" style="padding-left: inherit; padding-right: inherit;">
                         <li class="sidebar-dropdown usa-sidenav__item bs{% if page.title contains 'Human Capital Management' %} active1{% endif %}"
                             style="margin-bottom: 5px;">
-                            <a href="{{site.baseurl}}/fibf-hr-hcm/" style="outline:none"
+                            <a href="#" style="outline:none"
                                class="usa-nav__link{% if page.title contains 'Human Capital Management' %} usa-current-1{% endif %}">
                                 <div class="image-txt-container">
                                     <img src="../assets/images/hrm-icon.png" class="sidebar-logo"
                                          alt="">
                                     <img src="../assets/images/icon.hr 2.png"
                                          class="img-top sidebar-logo" alt="">
-                                    <span>Human Capital Management
-                            </span>
+                                    <span>Human Capital Management</span>
                                 </div>
 
                             </a>
                             <div class="sidebar-submenu{% if page.title contains 'Human Capital Management' %} active1{% endif %}"
                                  style="background-color:#1b355c;">
                                 <ul class="dropdown-menu usa-sidenav__sublist">
+                                    <li>
+                                        <a class="usa-nav__link{% if page.permalink contains 'fibf-hr-hcm' %} usa-current-1{% endif %}"
+                                           href="{{site.baseurl}}/fibf-hr-hcm/" style="outline:none">
+                                            <div class="image-txt-container">
+                                                <img src="../assets/images/icon.hr 2.png"
+                                                     class="sidebar-logo" alt="">
+                                              <span>Human Capital Management</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
                                     <li>
                                         <a class="usa-nav__link{% if page.permalink contains 'fibf-hr-ac' %} usa-current-1{% endif %}"
                                            href="{{site.baseurl}}/fibf-hr-ac/" style="outline:none">
@@ -252,6 +262,7 @@ where we provide an easy way to manage your navigation system
 
 
                         </li>
+                      </div>
 
                         <li class="usa-sidenav__item bs" style="margin-bottom: 5px;">
                             <a style="outline:none"
