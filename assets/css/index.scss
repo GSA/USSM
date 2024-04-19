@@ -206,11 +206,11 @@ video {
 
 ul.arrow-list {
   list-style:none;
-  // padding-left: 0px;
-  // font-weight: bold;
+  padding-left: 0px;
 }
 ul.arrow-list li:before {
     content: "\27A2";
+    padding-right: 10px;
 }
 
 ul.cols {

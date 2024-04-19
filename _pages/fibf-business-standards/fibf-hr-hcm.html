@@ -28,7 +28,7 @@ all-zip: assets/files/downloads/hr/acquisition/acquisition.zip -->
       <div class="usa-grid">
         <div class="grid-container">
           <div class="priority-tag-line"><h1 class="margin-y-105 font-ui-l">{{ page.title }}</h1></div>
-          <p style="font-size: larger;">The Office of Personnel Management (OPM), Human Resources Line of Business (HRLOB) serves an integral role in supporting strategic Human Capital Management (HCM) across the Federal Government. In partnership with agencies from the Multi-Agency Executive Strategy Committee (MAESC), HRLOB created three products to standardize Governmentwide HCM:</p>
+          <p class="font-sans-sm">The Office of Personnel Management (OPM), Human Resources Line of Business (HRLOB) serves an integral role in supporting strategic Human Capital Management (HCM) across the Federal Government. In partnership with agencies from the Multi-Agency Executive Strategy Committee (MAESC), HRLOB created three products to standardize Governmentwide HCM:</p>
           <div class="grid-row">
             <div class="grid-col-7">
               <ul class="arrow-list">
@@ -51,18 +51,19 @@ all-zip: assets/files/downloads/hr/acquisition/acquisition.zip -->
           </div>
           <h2 id="hc-fibf" class="text-primary">HUMAN CAPITAL FEDERAL INTEGRATED BUSINESS FRAMEWORK (HC-FIBF)</h2>
           <div class="grid-row fibf-wheel" >
-            {% include fibf-circle.html %}
+            <div class="desktop:grid-col-5 mobile:grid-col-12 fibf-wheel-media">
+              <img src="/assets/images/fibf/fibf.plain.transparent.png" class="fibf-wheel" alt="fibf wheel">
+            </div>
             <div class="desktop:grid-col-7 mobile:grid-col-12 fibf-wheel-media2">
               <p>The HC-FIBF is the service model that enables the Federal government to better coordinate and document common human capital business needs across agencies and focus on outcomes, data, processes, and performance. Each Agency Subfunction of the HCBRM has its own HC-FIBF, which establishes service delivery and data standards to help agencies meet and advance their organization’s strategic human capital objectives.</p>
               {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{% endif %}
             </div>
             <div class="desktop:grid-col-12 mobile:grid-col-12 ">
-              <p style="text-align: center; color: teal;">
+              <p class="text-center text-black">
                 <i>Click the HCBRM Function to access the HC-FIBF Standards</i>
               </p>
             </div>
 
-<!-- white text, dark blue background. black border, white / transparent background, blue text -->
             <div class="grid-container font-sans-sm padding-bottom-3">
               <div class="grid-row grid-gap-2">
                 <div class="desktop:grid-col-4">
@@ -91,14 +92,18 @@ all-zip: assets/files/downloads/hr/acquisition/acquisition.zip -->
                 </div>
               </div>
             </div>
-
+            <div class="grid-col">
+              <p>
+                <a class="text-primary" style="display:flex; justify-content:flex-end;" href="#top">Back to top</a>
+              </p>
+            </div>
 
           </div>
 
           <div class="grid-row border-top-1px" id="hcbrm">
             <h2>Human Capital Business Reference Model (HCBRM)</h2>
           </div>
-          <div class="grid-row padding-bottom-4">
+          <div class="grid-row">
             <div class="desktop:grid-col margin-right-5">
               <img src="{{ site.baseurl }}/assets/images/fibf/HCBRM_4.0_Map_as_image_for_BSC_webpage_Jan_2024.png" alt="The Human Capital Business Reference Model (HCBRM 4.0) functional framework defines Federal Human Capital Management with 16 Functions and 50 Sub-functions in the HC lifecycle.">
               <a href="#hcbrm_img" title="" class="image-link">Click here to enlarge image</a>
@@ -110,6 +115,13 @@ all-zip: assets/files/downloads/hr/acquisition/acquisition.zip -->
               <p>
                 The HCBRM is the human capital functional framework and structure for all agencies supporting the CHCO Council’s vision of a government-wide common employee experience. It provides a taxonomy for Human Capital Management - at the highest level, it divides Federal human capital functions by who is responsible for delivering them. Federal Functions (designated as “F” functions) are those for which OPM is responsible for writing the policy and providing the services.  Agency Functions (designated as “A” functions) are those that OPM writes the&nbsp;policy and Agencies are responsible for providing the&nbsp;services, either internally or&nbsp;via a service provider.
                 <a target="_blank" rel="noopener noreferrer" href="https://www.opm.gov/services-for-agencies/hr-line-of-business/hc-business-reference-model">Click here to access the HCBRM</a>
+              </p>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-col">
+              <p>
+                <a class="text-primary" style="display:flex; justify-content:flex-end;" href="#top">Back to top</a>
               </p>
             </div>
           </div>
@@ -129,6 +141,13 @@ all-zip: assets/files/downloads/hr/acquisition/acquisition.zip -->
               <p>
                 The HCIM is the foundational service model to achieving a standardized Federal human capital information ecosystem. Comprised of metadata and information packages, the HCIM enables the exchange of human capital data between federal agencies, shared services providers, policy-makers, regulators, academia, industry and the public. It is the “Rosetta Stone” to achieving interoperable human capital systems that enable paperless data sharing across the Federal human capital community.
                 <a target="_blank" rel="noopener noreferrer" href="https://www.opm.gov/services-for-agencies/hr-line-of-business/human-capital-information-model-hcim/">Click here to access the HCIM</a>
+              </p>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-col">
+              <p>
+                <a class="text-primary" style="display:flex; justify-content:flex-end;" href="#top">Back to top</a>
               </p>
             </div>
           </div>
