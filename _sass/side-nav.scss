@@ -438,8 +438,21 @@ border-top: none;
 
 /*Card styling*/
 }
-
-.sidebar-logo {
-  width:35px;
-  margin-right:12px;
+.usa-sidenav {
+  .img-wrap {
+    width: 100%;
+    max-width: 60px;
+  }
+  .sidebar-logo {
+    width: 35px;
+    height: 30px;
+    object-fit: contain;
+    margin-right:12px;
+    
+  }
+  .usa-nav__link:hover,.usa-current-1 {
+    .sidebar-logo {
+      filter: invert(100%);
+    }
+  }
 }
