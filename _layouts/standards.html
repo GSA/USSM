@@ -118,7 +118,7 @@ This template is for a single page that does not have a date associated with it.
                 <a href="{{ site.baseurl }}/{{page.lifecycle-source-document}}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
             </li>
             {% endif %}
-          
+
             {% if page.lifecycle-json-api %}
             <li>
               <a href="{{ site.baseurl }}{{ page.lifecycle-json-api }}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
@@ -133,7 +133,7 @@ This template is for a single page that does not have a date associated with it.
 
         <p><a class="text-primary" style="display:flex; justify-content:flex-end;"  href="#top">Back to top</a></p>
       </div>
-      
+
 
       <div id="business_capabilities" class ="capabilities border-top-1px">
         <h2>Business Capabilities - {{ page.sub-title }}</h2>
@@ -149,7 +149,7 @@ This template is for a single page that does not have a date associated with it.
             <ul>
               <li>
                 <img src="{{ site.baseurl }}/assets/images/icon.{{page.capabilities-source-document-type}}.png" valign="middle" alt="{{page.capabilities-source-document-type}}">
-                <a href="{{ site.baseurl }}/{{page.capabilities-source-document}}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>    
+                <a href="{{ site.baseurl }}/{{page.capabilities-source-document}}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
               </li>
               {% if page.capabilities-json-api %}
               <li>
@@ -174,7 +174,7 @@ This template is for a single page that does not have a date associated with it.
 
         <p><a class="text-primary" style="display:flex; justify-content:flex-end;"  href="#top">Back to top</a></p>
         </div>
-      
+
 
       <div id="business_use_cases" class ="use_cases border-top-1px">
         <h2>Business Use Cases - {{ page.sub-title }}</h2>
@@ -191,7 +191,7 @@ This template is for a single page that does not have a date associated with it.
             <p><a class="text-primary" style="display:flex; justify-content:flex-end; margin-top: 95px;"  href="#top">Back to top</a></p>
           </div>
         </div>
-        
+
 
       </div>
       <div id="standard_data_elements" class ="data_elements border-top-1px">
@@ -202,6 +202,9 @@ This template is for a single page that does not have a date associated with it.
           </div>
           <div class="desktop:grid-col-9">
             <p><i>Identify the minimum data fields required to support the inputs and outputs noted in the use cases and capabilities.</i>
+            </p>
+            <p>
+              <i>The HC FIBF Standard Data elements are a subset of the Human Capital Information Model (HCIM).</i> Comprised of metadata and information packages, the HCIM is the “Rosetta Stone” to achieving interoperable human capital systems that enable paperless data sharing across the Federal human capital community.  Click the link below to access the Standard Data Elements for <i>{{page.function-title}}.</i>
             </p>
             {% if page.data-elements-content %}
             {% include {{ page.data-elements-content }} %}
