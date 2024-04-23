@@ -3,6 +3,7 @@ layout: standards
 permalink: /fibf-hr-sep-ret/
 title: Human Capital Management - Separation and Retirement
 sub-title: Separation and Retirement
+function-title: "HCM A6: Separation and Retirement"
 sec-title: HR Management Services Standards Lead
 sec-name: OPM, Human Resources Line of Business
 contact: HRLoB@opm.gov

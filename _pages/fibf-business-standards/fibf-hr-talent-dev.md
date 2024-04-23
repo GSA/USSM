@@ -3,6 +3,7 @@ layout: standards
 permalink: /fibf-hr-td/
 title: Human Capital Management - Talent Development
 sub-title: Talent Development
+function-title: "HCM A3: Talent Development"
 sec-title: HR Management Services Standards Lead
 sec-name: OPM, Human Resources Line of Business
 contact: HRLoB@opm.gov

@@ -3,6 +3,7 @@ layout: standards
 permalink: /fibf-hr-cb/
 title: Human Capital Management - Compensation and Benefits
 sub-title: Compensation and Benefits
+function-title: "HCM A5: Compensation and Benefits"
 sec-title: HR Management Services Standards Lead
 sec-name: OPM, Human Resources Line of Business
 contact: HRLoB@opm.gov

@@ -3,6 +3,7 @@ layout: standards
 permalink: /fibf-hr-ac/
 title: Human Capital Management - Talent Acquisition
 sub-title: Talent Acquisition
+function-title: "HCM A2: Talent Acquisition"
 sec-title: HR Management Services Standards Lead
 sec-name: OPM, Human Resources Line of Business
 contact: HRLoB@opm.gov

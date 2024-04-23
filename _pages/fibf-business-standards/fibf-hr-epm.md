@@ -3,6 +3,7 @@ layout: standards
 permalink: /fibf-hr-epm/
 title: Human Capital Management - Employee Performance Management
 sub-title: Employee Performance Management
+function-title: "HCM A4: Employee Performance"
 sec-title: HR Management Services Standards Lead
 sec-name: OPM, Human Resources Line of Business
 contact: HRLoB@opm.gov
