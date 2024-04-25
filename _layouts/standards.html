@@ -11,7 +11,7 @@ This template is for a single page that does not have a date associated with it.
 <div class="page-wrapper chiller-theme toggled">
   {% include side-nav.html %}
   <div id="main-content" class="page-content ">
-<section class="usa-section about margin-bottom-3 padding-y-105">
+<section class="usa-section about margin-bottom-1 padding-y-105">
   <div class="usa-grid">
     <div class="grid-container">
       {% if page.permalink contains 'fibf-cyb' %}
@@ -62,41 +62,43 @@ This template is for a single page that does not have a date associated with it.
         {% endif %}
       </div>
       </div>
+      <div class="grid-row">
+        <div class="grid-col-12">
+          {% if page.lifecycle-pdf or page.use-cases-pdf or page.capabilities-pdf or page.standard-data-elements-pdf or page.performance-metrics-pdf  %}
+            <h2 class="text-center text-primary">Download {{page.sub-title}} Business Standards Components</h2>
+          {% endif %}
+        </div>
+        <div class="grid-col">
+          <ul class="usa-button-group">
+            {% if page.lifecycle-pdf %}
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.lifecycle-pdf}}" class="usa-button usa-button--accent-cool text-white">Federal
+              Business Lifecycle</a></li>
+            {% endif %}
+            {% if page.capabilities-pdf %}
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.capabilities-pdf}}" class="usa-button usa-button--accent-cool text-white">Business
+              Capabilities</a></li>
+            {% endif %}
+            {% if page.use-cases-pdf %}
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.use-cases-pdf}}" class="usa-button usa-button--accent-cool text-white">Business Use
+              Cases</a></li>
+            {% endif %}
+            {% if page.standard-data-elements-pdf %}
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.standard-data-elements-pdf}}" class="usa-button usa-button--accent-cool text-white">Standard
+              Data Elements</a></li>
+            {% endif %}
+            {% if page.performance-metrics-pdf %}
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white">Service Measures</a></li>
+            {% endif %}
+            {% if page.all-zip %}
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.all-zip}}" class="usa-button text-white">Download
+              All</a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-    <div class="usa-grid">
-      <div class="grid-container">
-        {% if page.lifecycle-pdf or page.use-cases-pdf or page.capabilities-pdf or page.standard-data-elements-pdf or page.performance-metrics-pdf  %}
-          <h2 class="text-center text-primary">Download {{page.sub-title}} Business Standards Components</h2>
-        {% endif %}
-        <ul class="usa-button-group">
-          {% if page.lifecycle-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.lifecycle-pdf}}" class="usa-button usa-button--accent-cool text-white">Federal
-            Business Lifecycle</a></li>
-          {% endif %}
-          {% if page.capabilities-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.capabilities-pdf}}" class="usa-button usa-button--accent-cool text-white">Business
-            Capabilities</a></li>
-          {% endif %}
-          {% if page.use-cases-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.use-cases-pdf}}" class="usa-button usa-button--accent-cool text-white">Business Use
-            Cases</a></li>
-          {% endif %}
-          {% if page.standard-data-elements-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.standard-data-elements-pdf}}" class="usa-button usa-button--accent-cool text-white">Standard
-            Data Elements</a></li>
-          {% endif %}
-          {% if page.performance-metrics-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white">Service Measures</a></li>
-          {% endif %}
-          {% if page.all-zip %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.all-zip}}" class="usa-button text-white">Download
-            All</a></li>
-          {% endif %}
-        </ul>
-      </div>
-    </div>
 <section  id="main-content-standards" class="usa-section padding-top-2" >
   <div class="usa-grid">
     <div class="grid-container font-sans-sm">
