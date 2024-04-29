@@ -80,6 +80,36 @@ jQuery(document).ready(function () {
             hasSubsection: true
         },
         {
+            accordian: 'hr-employee-lifecycle',
+            table: 'hr-employee-capabilities',
+            url:  prefixUrl.concat('/business-standards-api/hr/employee/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-hca-lifecycle',
+            table: 'hr-hca-capabilities',
+            url:  prefixUrl.concat('/business-standards-api/hr/hca/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-hce-lifecycle',
+            table: 'hr-hce-capabilities',
+            url:  prefixUrl.concat('/business-standards-api/hr/hce/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-labor-lifecycle',
+            table: 'hr-labor-capabilities',
+            url:  prefixUrl.concat('/business-standards-api/hr/labor/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-par-lifecycle',
+            table: 'hr-par-capabilities',
+            url:  prefixUrl.concat('/business-standards-api/hr/par/'),
+            hasSubsection: true
+        },
+        {
             accordian: 'fm-lifecycle',
             table: 'fm-capabilities',
             ElementsList: 'fm-data-elements',
