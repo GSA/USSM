@@ -74,6 +74,12 @@ jQuery(document).ready(function () {
             hasSubsection: true
         },
         {
+            accordian: 'hr-hcs-lifecycle',
+            table: 'hr-hcs-capabilities',
+            url:  prefixUrl.concat('/business-standards-api/hr/hcs/'),
+            hasSubsection: true
+        },
+        {
             accordian: 'fm-lifecycle',
             table: 'fm-capabilities',
             ElementsList: 'fm-data-elements',
