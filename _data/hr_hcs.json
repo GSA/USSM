@@ -1,10 +1,9 @@
-
 {
   "Business-Standards": "HR",
   "Sub-section": "Human Capital Strategy, Policies, & Operation Plan",
   "Business_Lifecycle": [
     {
-      "type":"hcm-a1-1",
+      "type":"hcm-A1-1",
       "data":[
         {
           "Identifier":"HCM.A1-1.010",
@@ -29,7 +28,7 @@
       ]
     },
     {
-      "type":"hcm-a1-2",
+      "type":"hcm-A1-2",
       "data":[
         {
           "Identifier":"HCM.A1-2.010",
@@ -54,7 +53,7 @@
       ]
     },
     {
-      "type":"hcm-a1-3",
+      "type":"hcm-A1-3",
       "data":[
         {
           "Identifier":"HCM.A1-3.010",
@@ -84,7 +83,7 @@
       ]
     },
     {
-      "type":"hcm-a1-4",
+      "type":"hcm-A1-4",
       "data":[
         {
           "Identifier":"HCM.A1-4.010",
