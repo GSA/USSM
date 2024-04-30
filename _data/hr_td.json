@@ -3,92 +3,92 @@
   "Sub-section":"Talent Development",
   "Business_Lifecycle":[
     {
-      "type":"hcm-a3-1",
+      "type":"hcm-A3-1",
       "data":[
         {
-          "Identifier": "HCM.A3-1.010",
-          "Activity": "Talent Development Strategy",
-          "Description": "Setting the overarching goals and priorities at the organizational level. The service outcome(s) will include, but not limited to:\n<ul><li>analysis and overview of the environment / climate impacting agency talent development initiatives\n</li><li>prioritized objectives for the agency's talent development program\n</li><li>strategic direction for talent development, based on the agency HCM strategy\n</li><li>communicate strategic talent development priorities to stakeholders\n</li><li>evaluate, report, and enforce progress against talent development strategic objectives</ul>"
+          "Identifier":"HCM.A3-1.010",
+          "Activity":"Talent Development Strategy",
+          "Description":"Setting the overarching goals and priorities at the organizational level. The service outcome(s) will include, but not limited to\n<ul><li>analysis and overview of the environment / climate impacting agency talent development initiatives\n</li><li>prioritized objectives for the agency's talent development program\n</li><li>strategic direction for talent development, based on the agency HCM strategy\n</li><li>communicate strategic talent development priorities to stakeholders\n</li><li>evaluate, report, and enforce progress against talent development strategic objectives"
         },
         {
-          "Identifier": "HCM.A3-1.020",
-          "Activity": "Talent Development Operational Planning and Management",
-          "Description": "Implementing the TD strategy and tracking the progress towards goals. The service outcome(s) will include, but not limited to:\n<ul><li>implement the prioritized objectives outlined in the agency TD strategy \n</li><li>assess and manage resources necessary to perform the activities outlined in detailed implementation plans\n</li><li>ability to adapt to changing talent development needs or circumstances\n</li><li>periodic evaluations to monitor, report, and enforce progress against talent development milestones\n</li><li>assess the overall health and effectiveness of the agency TD through data analysis</ul>"
+          "Identifier":"HCM.A3-1.020",
+          "Activity":"Talent Development Operational Planning and Management",
+          "Description":"Implementing the TD strategy and tracking the progress towards goals. The service outcome(s) will include, but not limited to\n<ul><li>implement the prioritized objectives outlined in the agency TD strategy \n</li><li>assess and manage resources necessary to perform the activities outlined in detailed implementation plans\n</li><li>ability to adapt to changing talent development needs or circumstances\n</li><li>periodic evaluations to monitor, report, and enforce progress against talent development milestones\n</li><li>assess the overall health and effectiveness of the agency TD through data analysis"
         },
         {
-          "Identifier": "HCM.A3-1.030",
-          "Activity": "Talent Development Knowledge Management",
-          "Description": "Capturing, developing, sharing, and effectively using organizational knowledge. The service outcome(s) will include, but not limited to:\n<ul><li>identify, document, and provide easy access to organizational knowledge at all levels (e.g. workforce, business unit, individual)\n</li><li>organizational awareness of the knowledge management capability, its uses, and benefits\n</li><li>document and communicate expectations for business unit and employee use of the knowledge management capability</ul>"
+          "Identifier":"HCM.A3-1.030",
+          "Activity":"Talent Development Knowledge Management",
+          "Description":"Capturing, developing, sharing, and effectively using organizational knowledge. The service outcome(s) will include, but not limited to\n<ul><li>identify, document, and provide easy access to organizational knowledge at all levels (e.g. workforce, business unit, individual)\n</li><li>organizational awareness of the knowledge management capability, its uses, and benefits\n</li><li>document and communicate expectations for business unit and employee use of the knowledge management capability"
         },
         {
-          "Identifier": "HCM.A3-1.040",
-          "Activity": "Skills, Competencies Assessment and Management",
-          "Description": "Assessing skills and competencies needed to support workforce and succession planning and individual development and identifying gaps. The service outcome(s) will include, but not limited to:\n<ul><li>identify the skill and competency proficiency levels needed to perform current and future agency work requirements  \n</li><li>assess the current levels of identified skills and competencies in the work force \n</li><li>gap analysis of current and needed skills and competencies \n</li><li>plan to close identified skills and competency gaps (e.g. acquire or develop)</ul>"
+          "Identifier":"HCM.A3-1.040",
+          "Activity":"Skills, Competencies Assessment and Management",
+          "Description":"Assessing skills and competencies needed to support workforce and succession planning and individual development and identifying gaps. The service outcome(s) will include, but not limited to\n<ul><li>identify the skill and competency proficiency levels needed to perform current and future agency work requirements  \n</li><li>assess the current levels of identified skills and competencies in the work force \n</li><li>gap analysis of current and needed skills and competencies \n</li><li>plan to close identified skills and competency gaps (e.g. acquire or develop)"
         }
       ]
     },
     {
-      "type":"hcm-a3-2",
+      "type":"hcm-A3-2",
       "data":[
         {
-          "Identifier": "HCM.A3-2.010",
-          "Activity": "Coaching Program Design and Management",
-          "Description": "Improving effectiveness within the organization by maintaining trained and certified coaches. The program will establish and implement coaching agreements, provide a results assessment, and recommend next steps for the employee. The service outcome(s) will include, but not limited to:\n<ul><li>objectives for improving agency and employee effectiveness via coaching\n</li><li>identify and evaluate critical growth areas within the employee population that uses coaching \n</li><li>maintain and verify trained, qualified, and certified coaches in accordance with agency policy and procedures \n</li><li>match employees with appropriate coaches to cultivate identified growth areas\n</li><li>establish, maintain, and track coaching agreements\n</li><li>provide consistent and effective coaching to employees by trained, qualified, and certified coaches\n</li><li>assess the professional and personal development impact of coaching on employees and document next steps for the continued improvement of employee effectiveness and performance</ul>"
+          "Identifier":"HCM.A3-2.010",
+          "Activity":"Coaching Program Design and Management",
+          "Description":"Improving effectiveness within the organization by maintaining trained and certified coaches. The program will establish and implement coaching agreements, provide a results assessment, and recommend next steps for the employee. The service outcome(s) will include, but not limited to\n<ul><li>objectives for improving agency and employee effectiveness via coaching\n</li><li>identify and evaluate critical growth areas within the employee population that uses coaching \n</li><li>maintain and verify trained, qualified, and certified coaches in accordance with agency policy and procedures \n</li><li>match employees with appropriate coaches to cultivate identified growth areas\n</li><li>establish, maintain, and track coaching agreements\n</li><li>provide consistent and effective coaching to employees by trained, qualified, and certified coaches\n</li><li>assess the professional and personal development impact of coaching on employees and document next steps for the continued improvement of employee effectiveness and performance"
         },
         {
-          "Identifier": "HCM.A3-2.020",
-          "Activity": "Leadership Development Program Design and Management",
-          "Description": "Identifying objectives for developing leaders and developing interventions to support  those leaders. Also includes the provisioning of those interventions, evaluating the extent of which those interventions supported the leader, monitoring effectiveness, and ensuring the involvement of cross-functional managers outside of the HC organization. Programs should be tailored to agency-specific needs. The service outcome(s) will include, but not limited to:\n<ul><li>objectives for developing agency leaders to support agency-specific strategic goals and the agency mission\n</li><li>learning interventions designed to support agency and federal leadership development objectives\n</li><li>monitor, report, and evaluate the extent to which the program meets objectives and supports leadership development\n</li><li>integrate with agency succession planning initiatives</ul>"
+          "Identifier":"HCM.A3-2.020",
+          "Activity":"Leadership Development Program Design and Management",
+          "Description":"Identifying objectives for developing leaders and developing interventions to support  those leaders. Also includes the provisioning of those interventions, evaluating the extent of which those interventions supported the leader, monitoring effectiveness, and ensuring the involvement of cross-functional managers outside of the HC organization. Programs should be tailored to agency-specific needs. The service outcome(s) will include, but not limited to\n<ul><li>objectives for developing agency leaders to support agency-specific strategic goals and the agency mission\n</li><li>learning interventions designed to support agency and federal leadership development objectives\n</li><li>monitor, report, and evaluate the extent to which the program meets objectives and supports leadership development\n</li><li>integrate with agency succession planning initiatives"
         },
         {
-          "Identifier": "HCM.A3-2.030",
-          "Activity": "Individual Development Planning Design and Management",
-          "Description": "Identifying objectives for employee learning development plans and developing learning interventions to support desired technical competencies and proficiency levels. Also includes the provisioning of those interventions, evaluating to the extent of which those interventions supported performance and career development, and monitoring effectiveness. The service outcome(s) will include, but not limited to:\n<ul><li>IDP program objectives\n</li><li> support the identification and documentation of individual employee's desired competency and proficiency development in collaboration with supervisors\n</li><li> document and track progress against the pursuit of employees' established learning and career goals, and remediate as necessary\n</li><li> periodically assess IDP program's effectiveness in supporting the development of desired competencies and proficiency levels within the employee population</ul>"
+          "Identifier":"HCM.A3-2.030",
+          "Activity":"Individual Development Planning Design and Management",
+          "Description":"Identifying objectives for employee learning development plans and developing learning interventions to support desired technical competencies and proficiency levels. Also includes the provisioning of those interventions, evaluating to the extent of which those interventions supported performance and career development, and monitoring effectiveness. The service outcome(s) will include, but not limited to\n<ul><li>IDP program objectives\n</li><li> support the identification and documentation of individual employee's desired competency and proficiency development in collaboration with supervisors\n</li><li> document and track progress against the pursuit of employees' established learning and career goals, and remediate as necessary\n</li><li> periodically assess IDP program's effectiveness in supporting the development of desired competencies and proficiency levels within the employee population"
         },
         {
-          "Identifier": "HCM.A3-2.040",
-          "Activity": "Mentoring",
-          "Description": "Matching mentors with mentees, establishing an application process and training for the mentors, evaluating and monitoring effectiveness of the program, and raising awareness and communicating benefits of the program.  The service outcome(s) will include, but not limited to:\n<ul><li>design, provide, and manage a variety of mentoring programs to suit agency needs\n</li><li>organizational awareness of mentoring opportunities and  benefits \n</li><li>match and connect mentees with appropriate mentors\n</li><li>manage, track, and evaluate the effectiveness of mentorship programing</ul>"
+          "Identifier":"HCM.A3-2.040",
+          "Activity":"Mentoring",
+          "Description":"Matching mentors with mentees, establishing an application process and training for the mentors, evaluating and monitoring effectiveness of the program, and raising awareness and communicating benefits of the program.  The service outcome(s) will include, but not limited to\n<ul><li>design, provide, and manage a variety of mentoring programs to suit agency needs\n</li><li>organizational awareness of mentoring opportunities and  benefits \n</li><li>match and connect mentees with appropriate mentors\n</li><li>manage, track, and evaluate the effectiveness of mentorship programing"
         },
         {
-          "Identifier": "HCM.A3-2.050",
-          "Activity": "Course Design and Management",
-          "Description": "Identifying objectives for curriculum and course design and developing learning interventions to support desired course objectives and goals. Also includes the provisioning of those interventions, evaluating the extent of which those interventions supported outcomes, monitoring effectiveness, and ensuring the involvement of cross-functional managers outside of the HC organization.  The service outcome(s) will include, but not limited to:\n<ul><li>training needs analysis\n</li><li>agency specific talent development curriculum, courses, and training aids \n</li><li>analyze and evaluate the effectiveness of TD curriculum, courses, and training aids\n</li><li>periodically amend and update TD curriculum, courses, and training aids based on current agency needs and results from evaluation</ul>"
+          "Identifier":"HCM.A3-2.050",
+          "Activity":"Course Design and Management",
+          "Description":"Identifying objectives for curriculum and course design and developing learning interventions to support desired course objectives and goals. Also includes the provisioning of those interventions, evaluating the extent of which those interventions supported outcomes, monitoring effectiveness, and ensuring the involvement of cross-functional managers outside of the HC organization.  The service outcome(s) will include, but not limited to\n<ul><li>training needs analysis\n</li><li>agency specific talent development curriculum, courses, and training aids \n</li><li>analyze and evaluate the effectiveness of TD curriculum, courses, and training aids\n</li><li>periodically amend and update TD curriculum, courses, and training aids based on current agency needs and results from evaluation"
         },
         {
-          "Identifier": "HCM.A3-2.060",
-          "Activity": "Job Specific Qualification Program Design and Management",
-          "Description": "Identifying objectives for job specific programs and developing learning interventions to support desired competencies and proficiency levels. Also includes the provisioning of those interventions, evaluation to the extent of which those interventions supported performance, monitoring effectiveness, and ensuring the involvement of cross-functional managers outside of the HC organization. The service outcome(s) will include, but not limited to:\n<ul><li>training needs analysis\n</li><li>job specific talent development curriculum, courses, and training aids\n</li><li>analyze and evaluate the effectiveness of Job specific curriculum, courses, and training aids.\n</li><li>periodically amend and update Job Specific curriculum, courses, and training aids based on current agency needs and results from evaluation</ul>"
+          "Identifier":"HCM.A3-2.060",
+          "Activity":"Job Specific Qualification Program Design and Management",
+          "Description":"Identifying objectives for job specific programs and developing learning interventions to support desired competencies and proficiency levels. Also includes the provisioning of those interventions, evaluation to the extent of which those interventions supported performance, monitoring effectiveness, and ensuring the involvement of cross-functional managers outside of the HC organization. The service outcome(s) will include, but not limited to\n<ul><li>training needs analysis\n</li><li>job specific talent development curriculum, courses, and training aids\n</li><li>analyze and evaluate the effectiveness of Job specific curriculum, courses, and training aids.\n</li><li>periodically amend and update Job Specific curriculum, courses, and training aids based on current agency needs and results from evaluation"
         }
       ]
     },
     {
-      "type":"hcm-a3-3",
+      "type":"hcm-A3-3",
       "data":[
         {
-          "Identifier": "HCM.A3-3.010",
-          "Activity": "Course Library Design and Management",
-          "Description": "Providing and maintaining a detailed catalog of Talent Development interventions, resources, and tools.  The service outcome(s) will include, but not limited to:\n<ul><li>a structured system for housing learning interventions, resources, and tools\n</li><li>easy access to and use of TD programming and content\n</li><li>track course and content usage\n</li><li>produce standard and ad hoc reports\n</li><li>add, modify, and remove content and offerings as necessary</ul>"
+          "Identifier":"HCM.A3-3.010",
+          "Activity":"Course Library Design and Management",
+          "Description":"Providing and maintaining a detailed catalog of Talent Development interventions, resources, and tools.  The service outcome(s) will include, but not limited to\n<ul><li>a structured system for housing learning interventions, resources, and tools\n</li><li>easy access to and use of TD programming and content\n</li><li>track course and content usage\n</li><li>produce standard and ad hoc reports\n</li><li>add, modify, and remove content and offerings as necessary"
         },
         {
-          "Identifier": "HCM.A3-3.020",
-          "Activity": "Course Registration and Delivery Design and Management",
-          "Description": "Coordinating and maintaining the administrative and the logistical aspects of registration and delivery of courses and related talent development activities (e.g., registrations, tracking participation or attendance,  cancellations,  scheduling and setting up facilities).  The service outcome(s) will include, but not limited to:\n<ul><li>processes and supporting capabilities to register participants for, and administer courses and related talent development activities \n</li><li>record and track information related to course and talent development activity registration and administration\n</li><li>manage the various mediums through which a courses and talent development activities may be offered</ul>"
+          "Identifier":"HCM.A3-3.020",
+          "Activity":"Course Registration and Delivery Design and Management",
+          "Description":"Coordinating and maintaining the administrative and the logistical aspects of registration and delivery of courses and related talent development activities (e.g., registrations, tracking participation or attendance,  cancellations,  scheduling and setting up facilities).  The service outcome(s) will include, but not limited to\n<ul><li>processes and supporting capabilities to register participants for, and administer courses and related talent development activities \n</li><li>record and track information related to course and talent development activity registration and administration\n</li><li>manage the various mediums through which a courses and talent development activities may be offered"
         },
         {
-          "Identifier": "HCM.A3-3.030",
-          "Activity": "Course Certification and Credit Management",
-          "Description": "Providing and maintaining the administrative and the logistical aspects of course certification and credit management.  The service outcome(s) will include, but not limited to:\n<ul><li>manage and track all applicable certifications and credits throughout the employee job history\n</li><li>provide ongoing monitoring and updating of certifications\n</li><li>maintain and update the employee training and certification history regardless of agency</ul>"
+          "Identifier":"HCM.A3-3.030",
+          "Activity":"Course Certification and Credit Management",
+          "Description":"Providing and maintaining the administrative and the logistical aspects of course certification and credit management.  The service outcome(s) will include, but not limited to\n<ul><li>manage and track all applicable certifications and credits throughout the employee job history\n</li><li>provide ongoing monitoring and updating of certifications\n</li><li>maintain and update the employee training and certification history regardless of agency"
         },
         {
-          "Identifier": "HCM.A3-3.040",
-          "Activity": "Talent Development System Administration",
-          "Description": "Providing and maintaining TD data (e.g., qualifications, skills, competencies, certification and licensing, training events, learning histories) regardless of federal agency.  The service outcome(s) will include, but not limited to:\n<ul><li>record individual employee and workforce data with respect to talent development activities (e.g., qualifications, skills, competencies, certification and licensing, training events, learning histories)\n</li><li>maintain the accuracy and integrity of individual employee and workforce talent development data\n</li><li>easy access to individual employee and workforce talent development data, within and outside the agency\n</li><li>privacy of all individual employee and workforce talent development data\n</li><li>view, add, and modify talent development data in accordance with agency and federal rules and regulations</ul>"
+          "Identifier":"HCM.A3-3.040",
+          "Activity":"Talent Development System Administration",
+          "Description":"Providing and maintaining TD data (e.g., qualifications, skills, competencies, certification and licensing, training events, learning histories) regardless of federal agency.  The service outcome(s) will include, but not limited to\n<ul><li>record individual employee and workforce data with respect to talent development activities (e.g., qualifications, skills, competencies, certification and licensing, training events, learning histories)\n</li><li>maintain the accuracy and integrity of individual employee and workforce talent development data\n</li><li>easy access to individual employee and workforce talent development data, within and outside the agency\n</li><li>privacy of all individual employee and workforce talent development data\n</li><li>view, add, and modify talent development data in accordance with agency and federal rules and regulations"
         },
         {
-          "Identifier": "HCM.A3-3.050",
-          "Activity": "Talent Development Program Tracking and Reporting",
-          "Description": "Providing and maintaining all aspects of talent development program tracking and reporting (e.g., user audit trails such as signature, date/time, or duration; training history; measures on all aspects of TD programs participation such as registration, participation, cancellations, completions, etc.). The service outcome(s) will include, but not limited to:\n<ul><li>collect, view, and edit information related to all aspects of talent development programs, including program planning, design, and administration\n</li><li>monitor, evaluate, and report information on all formal and informal talent development program activities (e.g., courses, certifications, completions, mentoring, coaching, other non-traditional development opportunities) and their support activities</ul>"
+          "Identifier":"HCM.A3-3.050",
+          "Activity":"Talent Development Program Tracking and Reporting",
+          "Description":"Providing and maintaining all aspects of talent development program tracking and reporting (e.g., user audit trails such as signature, date/time, or duration; training history; measures on all aspects of TD programs participation such as registration, participation, cancellations, completions, etc.). The service outcome(s) will include, but not limited to\n<ul><li>collect, view, and edit information related to all aspects of talent development programs, including program planning, design, and administration\n</li><li>monitor, evaluate, and report information on all formal and informal talent development program activities (e.g., courses, certifications, completions, mentoring, coaching, other non-traditional development opportunities) and their support activities"
         }
       ]
     }
