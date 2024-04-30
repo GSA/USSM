@@ -12,19 +12,19 @@ sec-website-href: https://www.opm.gov/services-for-agencies/hr-line-of-business/
 sec-references: Human Capital Business Reference Model
 sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-business/hc-business-reference-model/
 
-metrics-content: hr/hcs/performance-metrics.html
-capabilities-content: hr/hcs/capabilities.html
-lifecycle-content: hr/hcs/lifecycle.html
-lifecycle-pdf: assets/files/downloads/hr/hcs/HCM Business Lifecycle and Capabilities_A9 (Human Capital Analytics).xlsx
-lifecycle-source-document: assets/files/downloads/hr/hcs/HCM Business Lifecycle and Capabilities_A9 (Human Capital Analytics).xlsx
+metrics-content: hr/hca/performance-metrics.html
+capabilities-content: hr/hca/capabilities.html
+lifecycle-content: hr/hca/lifecycle.html
+lifecycle-pdf: assets/files/downloads/hr/hca/HCM Business Lifecycle and Capabilities_A9 (Human Capital Analytics).xlsx
+lifecycle-source-document: assets/files/downloads/hr/hca/HCM Business Lifecycle and Capabilities_A9 (Human Capital Analytics).xlsx
 
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 
-capabilities-source-document: assets/files/downloads/hr/hcs/HCM Business Lifecycle and Capabilities_A9 (Human Capital Analytics).xlsx
-capabilities-pdf: assets/files/downloads/hr/hcs/HCM Business Lifecycle and Capabilities_A9 (Human Capital Analytics).xlsx
-performance-metrics-pdf: assets/files/downloads/hr/hcs/HCM Service Measures_A9 (Human Capital Analytics).xlsx
-data-elements-content: hr/hcs/data-elements.html
-standard-data-elements-pdf: assets/files/downloads/hr/hcs/HCM Data Standards_A9 (Human Capital Analytics).xlsx
-all-zip: assets/files/downloads/hr/hcs/hcs.zip
+capabilities-source-document: assets/files/downloads/hr/hca/HCM Business Lifecycle and Capabilities_A9 (Human Capital Analytics).xlsx
+capabilities-pdf: assets/files/downloads/hr/hca/HCM Business Lifecycle and Capabilities_A9 (Human Capital Analytics).xlsx
+performance-metrics-pdf: assets/files/downloads/hr/hca/HCM Service Measures_A9 (Human Capital Analytics).xlsx
+data-elements-content: hr/hca/data-elements.html
+standard-data-elements-pdf: assets/files/downloads/hr/hca/HCM Data Standards_A9 (Human Capital Analytics).xlsx
+all-zip: assets/files/downloads/hr/hca/hca.zip
 ---
