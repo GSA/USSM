@@ -58,7 +58,7 @@
             {
                "Identifier":"HCM.A9-3.030",
                "Activity":"Data Management",
-               "Description":"Managing data to ensure accuracy, compliance, and retention. The service outcome(s) will include, but not be limited to\n<ul><li>Systems, channels, and protocols for collecting, storing, and organizing data\n</li><li>Data preparation protocols, to include:\n</li><ul><li>Established standard naming convention\n</li><li>Established data standards\n</li><li>Formats and templates\n</li><li>PII protection\n</li><li>Identifiers variable development\n</li><li>Coding/Recoding practices\n</li></ul><li>Dataset(s) for analysis\n</li><li>Data archive</li><ul><li>Data dictionary</li><li>Dataset(s)</li></ul></ul>"
+               "Description":"Managing data to ensure accuracy, compliance, and retention. The service outcome(s) will include, but not be limited to\n<ul><li>Systems, channels, and protocols for collecting, storing, and organizing data\n</li><li>Data preparation protocols, to include:\n<ul><li>Established standard naming convention\n</li><li>Established data standards\n</li><li>Formats and templates\n</li><li>PII protection\n</li><li>Identifiers variable development\n</li><li>Coding/Recoding practices\n</li></ul></li><li>Dataset(s) for analysis\n</li><li>Data archive<ul><li>Data dictionary</li><li>Dataset(s)</li></ul></li></ul>"
         },
             {
                "Identifier":"HCM.A9-3.040",
