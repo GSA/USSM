@@ -214,9 +214,9 @@ This template is for a single page that does not have a date associated with it.
             {% if page.data-elements-content %}
             {% include {{ page.data-elements-content }} %}
             {% endif %}
-            <p><a class="text-primary" style="display:flex; justify-content:flex-end; margin-top: 75px;"  href="#top">Back to top</a></p>
           </div>
         </div>
+        <p><a class="text-primary" href="#top" style="display:flex; justify-content:flex-end;">Back to top</a></p>
 
       </div>
       <div id="performance_metrics" class ="metrics border-top-1px">
@@ -231,9 +231,9 @@ This template is for a single page that does not have a date associated with it.
             {% if page.metrics-content %}
             {% include {{ page.metrics-content }} %}
             {% endif %}
-            <p><a class="text-primary" style="display:flex; justify-content:flex-end; margin-top: 75px;"  href="#top">Back to top</a></p>
           </div>
         </div>
+        <p><a class="text-primary" href="#top" style="display:flex; justify-content:flex-end;">Back to top</a></p>
 
       </div>
       {{ content }}
