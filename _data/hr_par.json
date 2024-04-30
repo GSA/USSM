@@ -1,0 +1,108 @@
+{
+  "Business-Standards": "HR",
+  "Sub-section": "Personnel Action Request (PAR) Processing",
+  "Business_Lifecycle": [
+    {
+      "type":"hcm-X1-1",
+      "data":[
+        {
+          "Identifier":"HCM.X1.010",
+          "Activity":"HCM.X1.010 Personnel Action Request (SF52) ",
+          "Description":"Initiating of any personnel action by the Requesting Office (RO) that is intended to create or modify an employee's record. The Personnel Action Request includes initiating, routing and approving through the agency's designated route controls and approval prior to processing the action (e.g. budget, classification, etc.).\n\nService Outcomes include but are not limited to:\n* Providing a streamlined PAR workflow\n* Personnel Action SF50 is generated to the eOPF/OPF\n* Outcomes will be action applied based on processing system (e.g., match, mismatch or suspense inquiry system (SINQ) errors, etc.)\n* Fully executed and legally sufficient SF52 Request for Personnel Action"
+        },
+        {
+          "Identifier":"HCM.X1.020",
+          "Activity":"HCM.X1.020 Personnel Action processing ",
+          "Description":"Coding, adjudicating (quality review), and approval from the Servicing Personnel Office (SPO) to include inputting of request and supporting documentation into an HR system, that are intended to create or modify an employee's record.\n\nService Outcomes include but are not limited to:\n* Gives final approval of action to create the SF50\n* Fully approved, executed and legally  compliant SF50\n* Accurate and timely compensation (or employee records) based on the SF50"
+        },
+        {
+          "Identifier":"HCM.X1.030",
+          "Activity":"HCM.X1.030 Personnel Action Administration",
+          "Description":"Maintaining and managing personnel action request records and supporting documentation.  Updating Official Personnel Folder with fully executed, legally sufficient, and approved SF50s, in accordance with the Guide to Personnel Recordkeeping (GPR).   Generating and/or requesting  managerial and organizational status reports and notifications.\n\nService Outcomes Include but are not limited to:\n* Creating the employees official federal service of record.\n* Timely and accurate documentation and reporting of PAR Processing Activity. \n* SF50s are automatically generated upon the successful processing of an action."
+        }
+      ]
+    }
+  ],
+  "Business_Capabilities":[
+    {
+      "Capability ID":"HCM.X1.010.010",
+      "Function":"HCM.X1 Personnel Action Request (PAR) Processing",
+      "Activity Name":"HCM.X1.010 Personnel Action Request (SF52) ",
+      "Input/Output/Process":"I",
+      "Business Capability Statement":"Requestor/Requesting office completes required fields of the SF52 (or equivalent) to initiate a personnel action.",
+      "Authoritative Reference":"Guide to Processing Personnel Actions, Chapters 1, 3, 4, as well as Title 5 U.S. Code, and Title 5, Code of Federal Regulations which are referenced within chapters"
+    },
+    {
+      "Capability ID":"HCM.X1.010.020",
+      "Function":"HCM.X1 Personnel Action Request (PAR) Processing",
+      "Activity Name":"HCM.X1.010 Personnel Action Request (SF52) ",
+      "Input/Output/Process":"I",
+      "Business Capability Statement":"Authorization is obtained in order to execute the action (e.g. budget, line item supervisor)",
+      "Authoritative Reference":"Guide to Processing Personnel Actions, Chapters 1, 3, 4, as well as Title 5 U.S. Code and Title 5, Code of Federal Regulations which are referenced within chapters"
+    },
+    {
+      "Capability ID":"HCM.X1.010.030",
+      "Function":"HCM.X1 Personnel Action Request (PAR) Processing",
+      "Activity Name":"HCM.X1.010 Personnel Action Request (SF52) ",
+      "Input/Output/Process":"I",
+      "Business Capability Statement":"HR Staff completes required fields of the SF52",
+      "Authoritative Reference":"Guide to Processing Personnel Actions, Chapter 4, as well as Title 5 U.S. Code, and Title 5, Code of Federal Regulations which is referenced within the chapter"
+    },
+    {
+      "Capability ID":"HCM.X1.020.010",
+      "Function":"HCM.X1 Personnel Action Request (PAR) Processing",
+      "Activity Name":"HCM.X1.020 Personnel Action Processing ",
+      "Input/Output/Process":"I",
+      "Business Capability Statement":"HR Staff codes remaining fields of the SF52",
+      "Authoritative Reference":"Guide to Processing Personnel Actions, Chapters 1, 3, 4, as well as Title 5 U.S. Code and Title 5, Code of Federal Regulations which are referenced within chapters"
+    },
+    {
+      "Capability ID":"HCM.X1.020.020",
+      "Function":"HCM.X1 Personnel Action Request (PAR) Processing",
+      "Activity Name":"HCM.X1.020 Personnel Action Processing ",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"References to the GPPA and/or governing regulations are documented",
+      "Authoritative Reference":"Guide to Processing Personnel Actions, Chapter 34 (topic index); then see applicable chapter for governing regulations"
+    },
+    {
+      "Capability ID":"HCM.X1.020.030",
+      "Function":"HCM.X1 Personnel Action Request (PAR) Processing",
+      "Activity Name":"HCM.X1.020 Personnel Action Processing ",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Appropriate approvals are obtained and verified",
+      "Authoritative Reference":"Guide to Processing Personnel Actions, Chapters 1, 3, 4, as well as Title 5 U.S. Code, and Title 5, Code of Federal Regulations which are referenced within chapters"
+    },
+    {
+      "Capability ID":"HCM.X1.020.040",
+      "Function":"HCM.X1 Personnel Action Request (PAR) Processing",
+      "Activity Name":"HCM.X1.020 Personnel Action Processing ",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Quality review is conducted",
+      "Authoritative Reference":"Guide to Processing Personnel Actions, Chapter 3 and 4 as well as Title 5 U.S. Code and Title 5 Code of Federal Regulations which are referenced within the chapters"
+    },
+    {
+      "Capability ID":"HCM.X1.030.010",
+      "Function":"HCM.X1 Personnel Action Request (PAR) Processing",
+      "Activity Name":"HCM.X1.030 Personnel Action Administration",
+      "Input/Output/Process":"O",
+      "Business Capability Statement":"Completed SF50 passes internal and external audits ",
+      "Authoritative Reference":"Delegated Examining/Internal Audit"
+    },
+    {
+      "Capability ID":"HCM.X1.030.020",
+      "Function":"HCM.X1 Personnel Action Request (PAR) Processing",
+      "Activity Name":"HCM.X1.030 Personnel Action Administration",
+      "Input/Output/Process":"O",
+      "Business Capability Statement":"The completed SF50 is filed in eOPF",
+      "Authoritative Reference":"Guide to Personnel Recordkeeping"
+    },
+    {
+      "Capability ID":"HCM.X1.030.030",
+      "Function":"HCM.X1 Personnel Action Request (PAR) Processing",
+      "Activity Name":"HCM.X1.030 Personnel Action Administration",
+      "Input/Output/Process":"O",
+      "Business Capability Statement":"Complete distribution of the documentation per the Guide to Personnel Recordkeeping (GPR)",
+      "Authoritative Reference":"Guide to Personnel Recordkeeping"
+    }
+  ]
+}

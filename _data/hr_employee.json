@@ -1,0 +1,315 @@
+{
+  "Business-Standards": "HR",
+  "Sub-section": "Employee Accountability",
+  "Business_Lifecycle": [
+    {
+      "type":"hcm-A7-1",
+      "data":[
+        {
+          "Identifier":"HCM.A7-1.010",
+          "Activity":"Employee Conduct and Discipline Policy Administration",
+          "Description":"Developing and administering employee conduct standards and disciplinary policy, procedures, and guidance in accordance with applicable Federal standards/regulations (i.e., Employee Responsibilities and Conduct [5 CFR 735] and Adverse Actions [5 CFR 752]).  \n\nThe service outcome(s) may include, but not be limited to:\n• Agency employee conduct policy/procedure training materials\n• Employee relations guidance/training materials on conduct policy/procedures\n• Agency employee responsibilities and conduct policies/procedures\n• Agency disciplinary and adverse actions policies/procedures\n• Agency standard procedures for monitoring/evaluating conduct correction system/policies/procedures\n• Updated agency disciplinary and adverse actions policies/procedures"
+        },
+        {
+          "Identifier":"HCM.A7-1.020",
+          "Activity":"Performance-based Action Policy and Administration",
+          "Description":"Developing performance-based action policy, procedures, and guidance in accordance with Performance Based Reduction in Grade and Removal Actions [5 CFR 432]). This activity may also include measuring, monitoring, and evaluating the administration of performance based actions throughout the agency to update performance-based action policy, procedures, and guidance as needed.\n\nThe service outcome(s) may include, but not be limited to:\n• Agency employee performance improvement system/policies/procedures that provide employees a reasonable opportunity to demonstrate acceptable performance\n• Agency standard procedures for monitoring/evaluating performance improvement system/policies/procedures\n• Updated agency employee performance improvement system/policies/procedures"
+        },
+        {
+          "Identifier":"HCM.A7-1.030",
+          "Activity":"Manager/Supervisor Employee Accountability Support",
+          "Description":"Developing and delivering organizational employee accountability advisory services. This may include advising and preparing actions for managers and supervisors based on the appropriate employee accountability procedures and resources (e.g., counseling, progressive discipline [for misconduct], and notice of proposed action, opportunity to reply, and notice of decision [for conduct and unacceptable performance actions]) and developing and managing agency-level employee accountability training materials.  \n\nThe service outcome(s) may include, but not limited to:\n• Process for providing regular employee accountability advice/guidance to agency managers/supervisors\n• Process for providing support to employee/labor relations and OGC staff on routine, sensitive, and/or complicated cases, as applicable\n• Agency manager/supervisor advisory support system/capability\n• Employee performance-based action and disciplinary action documents, guidance, and related materials\n• Agency manager/supervisor employee accountability training materials\n• Agency employee accountability action (e.g., adverse action and unacceptable performance action) records"
+        }
+      ]
+    },
+    {
+      "type":"hcm-A7-2",
+      "data":[
+        {
+          "Identifier":"HCM.A7-2.010",
+          "Activity":"Administrative Grievance Management",
+          "Description":"Developing an administrative grievance program, in accordance with agency and federal regulations (i.e., 5 CFR 771), to file, review, and resolve formal and informal employee workplace grievances in a fair, equitable, and timely manner. Examples of employee workplace grievances include: unfair treatment by manager/supervisor, harassment, discrimination, disciplinary actions, compensation issues, challenges to performance ratings, denials of training requests, etc. The administrative grievance system may involve assisting parties (e.g., employee, manager/supervisor) in problem definition, evaluating grievance evidence, using conflict management tools/methods, and identifying alternative dispute resolution (ADR) approaches to resolving grievances (e.g., mediation, ombudsman meeting, dispute panels, and facilitated discussion).\n\nThe service outcome(s) may include, but not be limited to:\n• Established administrative grievance-related programs\n• Management/resolution for administrative grievance-related complaints\n• Published agency Administrative Grievance Procedures (AGP) document\n• Established agency administrative grievance management program\n• Agency administrative grievance files/records\n• Agency conflict management/dispute resolution tools/materials"
+        },
+        {
+          "Identifier":"HCM.A7-2.020",
+          "Activity":"Third-Party Proceedings Management",
+          "Description":"Representing the agency before third-parties (e.g., the Merit Systems Protection Board [MSPB], the Equal Employment Opportunity Commission [EEOC], the Office of Special Counsel [OSC], and arbitrators) to resolve complaints.\n\nThe service outcome(s) may include, but not be limited to:\n• Agency representation in third-party proceedings (e.g., MSPB, EEOC, and OSC)\n• Established agency negotiated grievance process\n• Agency third-party proceedings files/records (e.g., MSPB, EEOC, OSC, arbitration)"
+        }
+      ]
+    }
+  ],
+  "Business_Capabilities": [
+    {
+      "Capability ID":"HCM.A7-1.010.010",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.010 Employee Conduct and Discipline Policy Administration",
+      "Input/Output/Process":"I/P",
+      "Business Capability Statement":"Address employee misconduct instances through traditional discipline approaches.",
+      "Authoritative Source":"5 CFR § 2635.105-6"
+    },
+    {
+      "Capability ID":"HCM.A7-1.010.020",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.010 Employee Conduct and Discipline Policy Administration",
+      "Input/Output/Process":"I/P",
+      "Business Capability Statement":"Consult with legal counsel when drafting and implementing agreements (e.g., last chance agreements, settlement agreements) that require employee consent, as appropriate.",
+      "Authoritative Source":"Disciplinary Best Practices & Advisory Guideline Under the No Fear Act"
+    },
+    {
+      "Capability ID":"HCM.A7-1.010.030",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.010 Employee Conduct and Discipline Policy Administration",
+      "Input/Output/Process":"I/P",
+      "Business Capability Statement":"Ensure agency conduct policies set clear formal expectations for employee behavior from the start of the employee’s Federal government appointment and reinforce these conduct expectations throughout the employee's career.",
+      "Authoritative Source":"5 CFR § 432.103(a)"
+    },
+    {
+      "Capability ID":"HCM.A7-1.010.040",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.010 Employee Conduct and Discipline Policy Administration",
+      "Input/Output/Process":"I/P/O",
+      "Business Capability Statement":"If Agency Decides to Use A Table of Penalties: Develop table of penalties (i.e., a list of recommended disciplinary actions for various types of employee misconduct) and guidance to help ensure the appropriateness and consistency of a penalty in relation to an employee infraction.",
+      "Authoritative Source":"US Merit Systems Protection Board; Determining the Penalty"
+    },
+    {
+      "Capability ID":"HCM.A7-1.010.050",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.010 Employee Conduct and Discipline Policy Administration",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Where possible, ensure employee accountability program data collection process includes direct as well as indirect (e.g., effects on employee morale, turnover, employee perceptions of diversity/inclusion, instances of retaliation/retribution) cost measures.",
+      "Authoritative Source":"no source identified"
+    },
+    {
+      "Capability ID":"HCM.A7-1.010.060",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.010 Employee Conduct and Discipline Policy Administration",
+      "Input/Output/Process":"I/O",
+      "Business Capability Statement":"Enter adverse action data into the OPM Enterprise Human Resources Integration (EHRI) database (and any agency-specific databases) to improve agency misconduct policy/procedure evaluation.",
+      "Authoritative Source":"5 CFR 4304"
+    },
+    {
+      "Capability ID":"HCM.A7-1.010.070",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.010 Employee Conduct and Discipline Policy Administration",
+      "Input/Output/Process":"I/O",
+      "Business Capability Statement":"Ensure adverse action policies provide employees with a process for furnishing medical documentation for any medical condition that may have contributed to their conduct or performance problem.",
+      "Authoritative Source":"OPM Employee Relations Glossary: https://www.opm.gov/policy-data-oversight/employee-relations/reference-materials/"
+    },
+    {
+      "Capability ID":"HCM.A7-1.010.080",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.010 Employee Conduct and Discipline Policy Administration",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule.",
+      "Authoritative Source":"5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID":"HCM.A7-1.020.010",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.020 Performance-based Action Policy and Administration",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Ensure performance-based action policies provide employees with an opportunity period to demonstrate acceptable performance, in accordance with federal regulations.",
+      "Authoritative Source":"OPM Employee Relations Practitioners Performance Issues Facts"
+    },
+    {
+      "Capability ID":"HCM.A7-1.020.020",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.020 Performance-based Action Policy and Administration",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Ensure performance-based action policies provide employees with a process for furnishing medical documentation for any medical condition that may have contributed to their unacceptable performance.",
+      "Authoritative Source":"OPM Employee Relations Practitioners Performance Issues Facts"
+    },
+    {
+      "Capability ID":"HCM.A7-1.020.030",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.020 Performance-based Action Policy and Administration",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Ensure performance-based action procedures inform employees of specific instances of unacceptable performance and any applicable appeal and/or grievance rights within the required regulatory timeframe.",
+      "Authoritative Source":"OPM Employee Relations Practitioners Performance Issues Facts"
+    },
+    {
+      "Capability ID":"HCM.A7-1.020.040",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.020 Performance-based Action Policy and Administration",
+      "Input/Output/Process":"O",
+      "Business Capability Statement":"Preserve all relevant reduction-in-grade and/or removal documentation and make it available for review by the affected employee or his or her representative. ",
+      "Authoritative Source":"OPM Employee Relations Practitioners Performance Issues Facts"
+    },
+    {
+      "Capability ID":"HCM.A7-1.020.050",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.020 Performance-based Action Policy and Administration",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Where possible, ensure employee accountability program data collection process includes direct as well as indirect (e.g., effects on employee morale, turnover, employee perceptions of diversity/inclusion, instances of retaliation/retribution) cost measures.",
+      "Authoritative Source":"OPM Employee Relations Practitioners Performance Issues Facts"
+    },
+    {
+      "Capability ID":"HCM.A7-1.020.060",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.020 Performance-based Action Policy and Administration",
+      "Input/Output/Process":"I/P/O",
+      "Business Capability Statement":"Retain the following documents when a performance-based action is taken: a copy of the notice of the proposed action; the employee’s answer; the final written decision; and any supporting material in accordance with 5 CFR 432.",
+      "Authoritative Source":"5 CFR Part 432"
+    },
+    {
+      "Capability ID":"HCM.A7-1.020.070",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.020 Performance-based Action Policy and Administration",
+      "Input/Output/Process":"I/O",
+      "Business Capability Statement":"Enter all performance data for performance-based actions taken using 5 CFR 432 into the OPM Enterprise Human Resources Integration (EHRI) database (and any agency-specific databases) to improve evaluation of agency performance-based action policies/procedure.",
+      "Authoritative Source":"5 CFR Part 432"
+    },
+    {
+      "Capability ID":"HCM.A7-1.020.080",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.020 Performance-based Action Policy and Administration",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule.",
+      "Authoritative Source":"5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID":"HCM.A7-1.030.010",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.030 Manager/Supervisor Employee Accountability Support",
+      "Input/Output/Process":"I/P",
+      "Business Capability Statement":"Guide managers/supervisors on the specific regulatory requirements of the employee accountability process as soon as conduct problems occur or as soon as performance declines.",
+      "Authoritative Source":"OPM Managing Federal Employee' Performance Issues or Misconduct"
+    },
+    {
+      "Capability ID":"HCM.A7-1.030.020",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.030 Manager/Supervisor Employee Accountability Support",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Help supervisors/managers appropriately prepare documents to take actions based on misconduct under 5 CFR 752 or performance under 5 CFR 432 (e.g., notice of proposed removal and final written decision).",
+      "Authoritative Source":"5 CFR Part 752"
+    },
+    {
+      "Capability ID":"HCM.A7-1.030.030",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.030 Manager/Supervisor Employee Accountability Support",
+      "Input/Output/Process":"I/P/O",
+      "Business Capability Statement":"Develop and deliver ongoing training for managers/supervisors and hold them accountable for addressing misconduct in a timely manner when it occurs.",
+      "Authoritative Source":"5 CFR 412.202b"
+    },
+    {
+      "Capability ID":"HCM.A7-1.030.040",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.030 Manager/Supervisor Employee Accountability Support",
+      "Input/Output/Process":"I/P/O",
+      "Business Capability Statement":"Develop and deliver ongoing training for managers/supervisors and hold them accountable for addressing unacceptable performance appropriately.",
+      "Authoritative Source":"5 CFR 412.202b"
+    },
+    {
+      "Capability ID":"HCM.A7-1.030.050",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.030 Manager/Supervisor Employee Accountability Support",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Maintain effective lines of communication and collaboration with the human resources office staff, line-level management, and agencies’ legal counsel.",
+      "Authoritative Source":"OPM Addressing & Resolving Poor Performance"
+    },
+    {
+      "Capability ID":"HCM.A7-1.030.060",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.030 Manager/Supervisor Employee Accountability Support",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Develop procedures to build trust and rapport with agency managers/supervisors proactively through regular trainings, briefings, updates, etc.",
+      "Authoritative Source":"OPM Addressing & Resolving Poor Performance:  A Guide for Supervisors"
+    },
+    {
+      "Capability ID":"HCM.A7-1.030.070",
+      "Function":"HCM.A7-1 Employee Accountability for Conduct and Performance",
+      "Activity Name":"HCM.A7-1.030 Manager/Supervisor Employee Accountability Support",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule.",
+      "Authoritative Source":"5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID":"HCM.A7-2.010.010",
+      "Function":"HCM.A7-2 Administrative Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A7-2.010 Administrative Grievance Management",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Produce and publish an agency administrative grievance procedure instruction manual, in compliance with 5 CFR Part 771 (Agency Administrative Grievance System) regulation. ",
+      "Authoritative Source":"5 CFR Part 771"
+    },
+    {
+      "Capability ID":"HCM.A7-2.010.020",
+      "Function":"HCM.A7-2 Administrative Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A7-2.010 Administrative Grievance Management",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Develop effective negotiation procedures and techniques, advocacy, mediation, interest-based bargaining, and other non-adversarial problem solving approaches sufficient to resolve problems and advise management.",
+      "Authoritative Source":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A7-2.010.030",
+      "Function":"HCM.A7-2 Administrative Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A7-2.010 Administrative Grievance Management",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Develop effective conflict resolution techniques sufficient to interact in occasional highly charged emotional situations because of delicate or highly contested case matters and determinations.",
+      "Authoritative Source":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A7-2.010.040",
+      "Function":"HCM.A7-2 Administrative Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A7-2.010 Administrative Grievance Management",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Whenever possible, address and resolve administrative grievances at the lowest level of administrative authority within established timeframes.",
+      "Authoritative Source":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A7-2.010.050",
+      "Function":"HCM.A7-2 Administrative Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A7-2.010 Administrative Grievance Management",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Develop clear agency administrative grievance procedures for employees who wish to challenge nonappealable adverse actions.",
+      "Authoritative Source":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A7-2.010.060",
+      "Function":"HCM.A7-2 Administrative Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A7-2.010 Administrative Grievance Management",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule.",
+      "Authoritative Source":"5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID":"HCM.A7-2.020.010",
+      "Function":"HCM.A7-2 Administrative Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A7-2.020 Third-Party Proceedings Management",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Coordinate consultations with medical and vocational rehabilitation specialists and other experts on topics such as reasonable accommodation, when necessary.",
+      "Authoritative Source":"OPM Addressing & Resolving Poor Performance"
+    },
+    {
+      "Capability ID":"HCM.A7-2.020.020",
+      "Function":"HCM.A7-2 Administrative Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A7-2.020 Third-Party Proceedings Management",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Ensure agency third-party proceedings procedures comply with 5 CFR § 772.102 (Interim Personnel Actions) regulations.",
+      "Authoritative Source":"5 CFR 772.102"
+    },
+    {
+      "Capability ID":"HCM.A7-2.020.030",
+      "Function":"HCM.A7-2 Administrative Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A7-2.020 Third-Party Proceedings Management",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Develop procedures to coordinate with the Equal Employment Opportunity Commission (EEOC) or other third-parties (e.g., Merit Systems Protection Board [MSPB]; Office of Special Counsel [OSC]) for employee discrimination/retaliation complaints. ",
+      "Authoritative Source":"The Merit System Principles Guiding the Fair and Effective Management of the Federal Workforce"
+    },
+    {
+      "Capability ID":"HCM.A7-2.020.040",
+      "Function":"HCM.A7-2 Administrative Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A7-2.020 Third-Party Proceedings Management",
+      "Input/Output/Process":"I/P/O",
+      "Business Capability Statement":"If applicable, support agency case strategy, and prepare, present, and defend the agency’s technical position before third parties.",
+      "Authoritative Source":"no source identified"
+    },
+    {
+      "Capability ID":"HCM.A7-2.020.050",
+      "Function":"HCM.A7-2 Administrative Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A7-2.020 Third-Party Proceedings Management",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule.",
+      "Authoritative Source":"5 U.S. Code § 552a "
+    }
+  ]
+}
