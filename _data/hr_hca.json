@@ -8,13 +8,13 @@
             {
                "Identifier":"HCM.A9-1.010",
                "Activity":"Employee Inquiry Management",
-               "Description":"Establishing and maintaining channels, systems, and capabilities for the purpose of receiving, responding to, processing, and resolving individual employee questions, concerns, complaints, or suggestions. The service outcome(s) will include, but not be limited to:\n•  A complete inquiry case and resolution\n•  Inquiry status notification\n•  Inquiry status tracker\n•  Employee inquiry self-service capability\n•  Inquiry auditing and knowledge management capability\n•  Standardized and configurable inquiry intake, processing, and resolution workflows"
-            },
+               "Description":"Establishing and maintaining channels, systems, and capabilities for the purpose of receiving, responding to, processing, and resolving individual employee questions, concerns, complaints, or suggestions. The service outcome(s) will include, but not be limited to\n<ul><li> A complete inquiry case and resolution\n</li><li> Inquiry status notification\n</li><li> Inquiry status tracker\n</li><li> Employee inquiry self-service capability\n</li><li> Inquiry auditing and knowledge management capability\n</li><li> Standardized and configurable inquiry intake, processing, and resolution workflows</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-1.020",
                "Activity":"Employee Inquiry Administration, Compliance, and Performance",
-               "Description":"Managing aggregate employee inquiry data and the employee inquiry caseload, complying with all relevant authorities, and evaluating the overall performance of employee inquiry case management and resolution. The service outcome(s) will include, but not be limited to:\n•  Employee inquiry cases that are accurate, complete, consistent, credible, and current\n•  Inquiry auditing and knowledge management capability\n•  Employee inquiry and caseload reports and dashboards\n•  Employee inquiry record\n•  Employee inquiry record repository \n•  Applicable records schedule\n•  Employee inquiry caseload monitor, management, and tracker capability\n•  Enterprise inquiry case workflow designer and manager self-service capability"
-            }
+               "Description":"Managing aggregate employee inquiry data and the employee inquiry caseload, complying with all relevant authorities, and evaluating the overall performance of employee inquiry case management and resolution. The service outcome(s) will include, but not be limited to\n<ul><li> Employee inquiry cases that are accurate, complete, consistent, credible, and current\n</li><li> Inquiry auditing and knowledge management capability\n</li><li> Employee inquiry and caseload reports and dashboards\n</li><li> Employee inquiry record\n</li><li> Employee inquiry record repository \n</li><li> Applicable records schedule\n</li><li> Employee inquiry caseload monitor, management, and tracker capability\n</li><li> Enterprise inquiry case workflow designer and manager self-service capability</li></ul>"
+        }
          ]
       },
       {
@@ -23,13 +23,13 @@
             {
                "Identifier":"HCM.A9-2.010",
                "Activity":"Workforce Research Planning & Design",
-               "Description":"Designing research initiative methods/procedures/frameworks to study the workforce. The service outcome(s) will include, but not be limited to:\n• Documented agency-wide approach for workforce research, based on internal and external best practices, that address human capital goals and objectives\n• Documented methods for investigating a variety of human capital problems and research questions\n•  Documented research design (e.g., research and statistical methodology, stakeholder communications plan)\n•  Research design, planning, and implementation artifacts and data models\n•  Designed or selected research instrument(s)\n•  Research instrument validity and reliability documentation"
-            },
+               "Description":"Designing research initiative methods/procedures/frameworks to study the workforce. The service outcome(s) will include, but not be limited to\n<ul><li>Documented agency-wide approach for workforce research, based on internal and external best practices, that address human capital goals and objectives\n</li><li>Documented methods for investigating a variety of human capital problems and research questions\n</li><li> Documented research design (e.g., research and statistical methodology, stakeholder communications plan)\n</li><li> Research design, planning, and implementation artifacts and data models\n</li><li> Designed or selected research instrument(s)\n</li><li> Research instrument validity and reliability documentation</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-2.020",
                "Activity":"Workforce Research Data Collection",
-               "Description":"Using research instruments to gather data and manage data collection. The service outcome(s) will include, but not be limited to:\n•  Datasets/repositories for analysis"
-            }
+               "Description":"Using research instruments to gather data and manage data collection. The service outcome(s) will include, but not be limited to\n<ul><li> Datasets/repositories for analysis</li></ul>"
+        }
          ]
       },
       {
@@ -38,53 +38,53 @@
             {
                "Identifier":"HCM.A9-2.030",
                "Activity":"Workforce Research Analysis",
-               "Description":"Preparing the research data, conducting data analysis, and interpreting results. The service outcome(s) will include, but not be limited to:\n•  Cleaned/normalized and/or coded datasets\n•  Results of research"
-            },
+               "Description":"Preparing the research data, conducting data analysis, and interpreting results. The service outcome(s) will include, but not be limited to\n<ul><li> Cleaned/normalized and/or coded datasets\n</li><li> Results of research</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-2.040",
                "Activity":"Workforce Research Report Development, Distribution, and Archive",
-               "Description":"Aggregating the results, summarizing findings, distributing research reports, and including reports into a research library to inform decision-makers and other stakeholders. The service outcome(s) will include, but not be limited to:\n•  Reports or documents that summarize, interpret, and/or provide recommendations based on the research results\n•  Documented research (e.g., technical report)\n•  Communications capability\n•  Research report library"
-            },
+               "Description":"Aggregating the results, summarizing findings, distributing research reports, and including reports into a research library to inform decision-makers and other stakeholders. The service outcome(s) will include, but not be limited to\n<ul><li> Reports or documents that summarize, interpret, and/or provide recommendations based on the research results\n</li><li> Documented research (e.g., technical report)\n</li><li> Communications capability\n</li><li> Research report library</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-3.010",
                "Activity":"Analytics Needs Assessment",
-               "Description":"Defining workforce issue or need that requires quantified evidence or assessment. The service outcome(s) will include, but not be limited to:\n• Defined scope of analytical request/need\n• Problem statement tied to business need"
-            },
+               "Description":"Defining workforce issue or need that requires quantified evidence or assessment. The service outcome(s) will include, but not be limited to\n<ul><li>Defined scope of analytical request/need\n</li><li>Problem statement tied to business need</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-3.020",
                "Activity":"Analytics Planning",
-               "Description":"Developing a human capital analytics approach, requirements, and strategy. The service outcome(s) will include, but not be limited to:\n• Data dictionary (including data elements, definitions, timestamps, formulas, sources, and other applicable attributes)\n• List of defined metrics and outcomes\n• Format of analytical output\n• Timeline\n• Resource allotment (human and financial)\n• Identified stakeholders and audience\n• Data archiving strategy\n• Determination if analysis is re-occurring"
-            },
+               "Description":"Developing a human capital analytics approach, requirements, and strategy. The service outcome(s) will include, but not be limited to\n<ul><li>Data dictionary (including data elements, definitions, timestamps, formulas, sources, and other applicable attributes)\n</li><li>List of defined metrics and outcomes\n</li><li>Format of analytical output\n</li><li>Timeline\n</li><li>Resource allotment (human and financial)\n</li><li>Identified stakeholders and audience\n</li><li>Data archiving strategy\n</li><li>Determination if analysis is re-occurring</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-3.030",
                "Activity":"Data Management",
-               "Description":"Managing data to ensure accuracy, compliance, and retention. The service outcome(s) will include, but not be limited to:\n• Systems, channels, and protocols for collecting, storing, and organizing data\n• Data preparation protocols, to include:\n      • Established standard naming convention\n      • Established data standards\n      • Formats and templates\n      • PII protection\n      • Identifiers variable development\n      • Coding/Recoding practices\n• Dataset(s) for analysis\n• Data archive\n     • Data dictionary\n     • Dataset(s)"
-            },
+               "Description":"Managing data to ensure accuracy, compliance, and retention. The service outcome(s) will include, but not be limited to\n<ul><li>Systems, channels, and protocols for collecting, storing, and organizing data\n</li><li>Data preparation protocols, to include:\n</li><ul><li>Established standard naming convention\n</li><li>Established data standards\n</li><li>Formats and templates\n</li><li>PII protection\n</li><li>Identifiers variable development\n</li><li>Coding/Recoding practices\n</li></ul><li>Dataset(s) for analysis\n</li><li>Data archive</li><ul><li>Data dictionary</li><li>Dataset(s)</li></ul></ul>"
+        },
             {
                "Identifier":"HCM.A9-3.040",
                "Activity":"Data Analysis",
-               "Description":"Applying analytical methods (i.e., descriptive, diagnostic, predictive, prescriptive, automated analytics) to data in order to generate insights that can be used for decision-making, evaluating results for accuracy, and interpreting results for organizational decisions. The service outcome(s) will include, but not be limited to:\n• Documented analytical methodology\n• Analysis results\n• Analysis quality assessment\n• Model evaluation, if applicable\n• Interpretation of analytical results, if applicable\n• Documented analytical methodology"
-            },
+               "Description":"Applying analytical methods (i.e., descriptive, diagnostic, predictive, prescriptive, automated analytics) to data in order to generate insights that can be used for decision-making, evaluating results for accuracy, and interpreting results for organizational decisions. The service outcome(s) will include, but not be limited to\n<ul><li>Documented analytical methodology\n</li><li>Analysis results\n</li><li>Analysis quality assessment\n</li><li>Model evaluation, if applicable\n</li><li>Interpretation of analytical results, if applicable\n</li><li>Documented analytical methodology</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-3.050",
                "Activity":"Assessment",
-               "Description":"Determining whether analysis results satisfy original request or business need. The service outcome(s) will include, but not be limited to:\n• Assessment of the analytical results relative to the original request/need\n•  Lessons learned from previous HC analytics efforts"
-            },
+               "Description":"Determining whether analysis results satisfy original request or business need. The service outcome(s) will include, but not be limited to\n<ul><li>Assessment of the analytical results relative to the original request/need\n</li><li> Lessons learned from previous HC analytics efforts</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-3.060",
                "Activity":"Distribution Preparation",
-               "Description":"Preparing analysis for distribution. The service outcome(s) will include, but not be limited to:\n• Prepared interpretation of analysis ready for distribution"
-            },
+               "Description":"Preparing analysis for distribution. The service outcome(s) will include, but not be limited to\n<ul><li>Prepared interpretation of analysis ready for distribution</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-4.010",
                "Activity":"Reporting Strategy and Planning",
-               "Description":"Defining the reporting needs/requirements and developing a reporting strategy and plan. The service outcome(s) will include, but not be limited to:\n• Documented stakeholder reporting needs/requirements (e.g., intended audience, security constraints)\n• List of relevant data and analytic output\n• Reporting design and development plans"
-            },
+               "Description":"Defining the reporting needs/requirements and developing a reporting strategy and plan. The service outcome(s) will include, but not be limited to\n<ul><li>Documented stakeholder reporting needs/requirements (e.g., intended audience, security constraints)\n</li><li>List of relevant data and analytic output\n</li><li>Reporting design and development plans</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-4.020",
                "Activity":"Reporting Development",
-               "Description":"Producing reporting that transforms human capital data into contextualized information to meet reporting needs and requirements. The service outcome(s) will include, but not be limited to:\n• Reporting of the required data in the agreed upon format"
-            }
+               "Description":"Producing reporting that transforms human capital data into contextualized information to meet reporting needs and requirements. The service outcome(s) will include, but not be limited to\n<ul><li>Reporting of the required data in the agreed upon format</li></ul>"
+        }
          ]
       },
       {
@@ -93,18 +93,18 @@
             {
                "Identifier":"HCM.A9-4.030",
                "Activity":"Reporting Distribution",
-               "Description":"Publishing and/or distributing reporting to appropriate locations, channels, and stakeholders. The service outcome(s) will include, but not be limited to:\n• Delivery of reporting that meets requirements"
-            },
+               "Description":"Publishing and/or distributing reporting to appropriate locations, channels, and stakeholders. The service outcome(s) will include, but not be limited to\n<ul><li>Delivery of reporting that meets requirements</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-4.040",
                "Activity":"Reporting Repository & Archive Management",
-               "Description":"Cataloging, updating, retaining, and archiving reporting, while ensuring compliance with all legal requirements. The service outcome(s) will include, but not be limited to:\n• Human capital reporting catalog \n• Human capital reporting archive"
-            },
+               "Description":"Cataloging, updating, retaining, and archiving reporting, while ensuring compliance with all legal requirements. The service outcome(s) will include, but not be limited to\n<ul><li>Human capital reporting catalog \n</li><li>Human capital reporting archive</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-4.050",
                "Activity":"Reporting User Support",
-               "Description":"Providing user support and advisory services. The service outcome(s) will include, but not be limited to:\n• User self-service materials and knowledge base, if applicable\n• Help desk and user training capability, if applicable\n• Reporting enhancement processes (i.e., processes for collecting and implementing user feedback)"
-            }
+               "Description":"Providing user support and advisory services. The service outcome(s) will include, but not be limited to\n<ul><li>User self-service materials and knowledge base, if applicable\n</li><li>Help desk and user training capability, if applicable\n</li><li>Reporting enhancement processes (i.e., processes for collecting and implementing user feedback)</li></ul>"
+        }
          ]
       },
       {
@@ -113,18 +113,18 @@
             {
                "Identifier":"HCM.A9-5.010",
                "Activity":"Employee Records Capture",
-               "Description":"Creating, validating, and assigning retention periods for employee records. Employee Records Capture includes documenting data, information, and events that pertain to an employee or are relevant for personnel management and/or personnel policy setting processes (records creation); verifying that employee records meet standards for accuracy, relevance, necessity, timeliness, and completeness (records validation); and determining the active phase of a group of employee records, for each employee record type, based on the business value of these records  (records retention). The service outcome(s) may include but are not limited to:\n\n• A list of employee recordkeeping obligations created by law, regulation, and other authorities as well as business needs\n• Identification and creation of artifacts that fulfill employee recordkeeping obligations \n• Standard operating procedures for generating employee records specified in General Records Schedule (GRS) 2.0 (Human Resources)\n• Employee records systems\n• Guidance documents that specify standards and methods for ensuring accuracy, relevance, necessity, timeliness, and completeness for GRS 2.0 record types.\n• Validated employee records\n• Employee record retention schedules\n"
-            },
+               "Description":"Creating, validating, and assigning retention periods for employee records. Employee Records Capture includes documenting data, information, and events that pertain to an employee or are relevant for personnel management and/or personnel policy setting processes (records creation); verifying that employee records meet standards for accuracy, relevance, necessity, timeliness, and completeness (records validation); and determining the active phase of a group of employee records, for each employee record type, based on the business value of these records  (records retention). The service outcome(s) may include but are not limited to:\n<ul><li>A list of employee recordkeeping obligations created by law, regulation, and other authorities as well as business needs\n</li><li>Identification and creation of artifacts that fulfill employee recordkeeping obligations \n</li><li>Standard operating procedures for generating employee records specified in General Records Schedule (GRS) 2.0 (Human Resources)\n</li><li>Employee records systems\n</li><li>Guidance documents that specify standards and methods for ensuring accuracy, relevance, necessity, timeliness, and completeness for GRS 2.0 record types.\n</li><li>Validated employee records\n</li><li>Employee record retention schedules\n</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-5.020",
                "Activity":"Employee Records Maintenance and Use",
-               "Description":"Managing employee records through the active phase of their lifecycle. Employee Records Maintenance and Use includes determining access levels to employee records (access level management); establishing and applying storage, retrieval, and handling policies and procedures to employee records that enable transparency, data insights, and organizational performance while protecting privacy (records maintenance); identifying groups of records that are potentially relevant to litigation or investigations and locking them down to ensure that they are not destroyed and no changes can be made (litigation hold); processing information requests and accounting for disclosure (information request); and developing and implementing policies, processes, and procedures for employee records migration in the event that the retention period of a group of employee records is longer than the life of the records system or the format of the employee records is approaching technological obsolescence (records migration). The service outcome(s) may include but are not limited to:\n\n• Guidance documents and/or logic models that specify access levels to an employee record\n• Policies and procedures for storing, retrieving, and handling employee records that support business needs and are compliant with the Privacy Act, relevant Privacy Act systems of records notices, and government-wide privacy guidance, policy, and regulations\n• Processes and procedures to facilitate and manage litigation holds\n• A list of authorities and business needs that apply to/inform information requests\n• A system and standard operating procedures for handling different types of information requests\n• Records of disclosure as required by the Privacy Act and government-wide policy and regulation\n• Policies, processes, and procedures for migrating employee records"
-            },
+               "Description":"Managing employee records through the active phase of their lifecycle. Employee Records Maintenance and Use includes determining access levels to employee records (access level management); establishing and applying storage, retrieval, and handling policies and procedures to employee records that enable transparency, data insights, and organizational performance while protecting privacy (records maintenance); identifying groups of records that are potentially relevant to litigation or investigations and locking them down to ensure that they are not destroyed and no changes can be made (litigation hold); processing information requests and accounting for disclosure (information request); and developing and implementing policies, processes, and procedures for employee records migration in the event that the retention period of a group of employee records is longer than the life of the records system or the format of the employee records is approaching technological obsolescence (records migration). The service outcome(s) may include but are not limited to:\n<ul><li>Guidance documents and/or logic models that specify access levels to an employee record\n</li><li>Policies and procedures for storing, retrieving, and handling employee records that support business needs and are compliant with the Privacy Act, relevant Privacy Act systems of records notices, and government-wide privacy guidance, policy, and regulations\n</li><li>Processes and procedures to facilitate and manage litigation holds\n</li><li>A list of authorities and business needs that apply to/inform information requests\n</li><li>A system and standard operating procedures for handling different types of information requests\n</li><li>Records of disclosure as required by the Privacy Act and government-wide policy and regulation\n</li><li>Policies, processes, and procedures for migrating employee records</li></ul>"
+        },
             {
                "Identifier":"HCM.A9-5.030",
                "Activity":"Employee Records Transfer Preparation",
-               "Description":"Identifying employee records that are eligible for transfer, either to another agency or to NARA for permanent storage, and ensuring that these are in the correct file format. The service outcome(s) may include but are not limited to:\n\n• A list of all employee records eligible for transfer \n• Guidance documents and processes for transferring employee records \n• Standard operating procedures for converting employee records to the appropriate transfer file format\n• Employee records that are prepared in the correct format for transfer "
-            }
+               "Description":"Identifying employee records that are eligible for transfer, either to another agency or to NARA for permanent storage, and ensuring that these are in the correct file format. The service outcome(s) may include but are not limited to:\n<ul><li>A list of all employee records eligible for transfer \n</li><li>Guidance documents and processes for transferring employee records \n</li><li>Standard operating procedures for converting employee records to the appropriate transfer file format\n</li><li>Employee records that are prepared in the correct format for transfer </li></ul>"
+        }
          ]
       }
    ],
