@@ -1,119 +1,124 @@
 {
   "Business-Standards": "HR",
   "Sub-section": "Compensation and Benefits",
-  "Business_Lifecycle": [
+  "Business_Lifecycle":[
     {
-      "type": "hcm-a5-1",
-      "data": [
+      "type":"hcm-A5-1",
+      "data":[
         {
-          "Identifier": "HCM.A5-1.010",
-          "Activity": "Compensation Strategy Development",
-          "Description": "Setting the overarching goals and priorities at the organizational level. The service outcome(s) will include, but not limited to: <ul>\n\t<li>agency-specific compensation strategy to include, but not limited to:</li>\n\t<li>analysis and overview of the environment / climate impacting agency compensation management initiatives</li>\n\t<li>compensation program objectives</li>\n\t<li>documented plan for communicating strategic compensation management priorities</li>\n\t<li>documented plan for evaluating, enforcing, and reporting progress against compensation management strategic objectives</li>\n</ul>"
+          "Identifier":"HCM.A5-1.010 ",
+          "Activity":"Compensation Strategy Development",
+          "Description":"Setting the overarching goals and priorities at the organizational level. The service outcome(s) will include, but not limited to:\n<ul><li>agency-specific compensation strategy to include, but not limited to:\n<li>analysis and overview of the environment / climate \n        impacting agency compensation management initiatives\n</li><li>compensation program objectives \n</li><li>documented plan for communicating  strategic compensation \n        management priorities\n</li><li>documented plan for evaluating, enforcing, and reporting progress  \n        against compensation management strategic objectives</li></ul>"
         },
         {
-          "Identifier": "HCM.A5-1.020",
-          "Activity": "Compensation Policy and Procedure Management ",
-          "Description": "Designing, developing, implementing, and managing compensation policies, programs, and procedures to meet agency strategies. The service outcome(s) will include, but not limited to: <ul>\n\t<li>agency-specific pay systems, if applicable</li>\n\t<li>policies, programs, and procedures to support implementation of agency compensation strategy</li>\n</ul>"
+          "Identifier":"HCM.A5-1.020",
+          "Activity":"Compensation Policy and Procedure Management ",
+          "Description":"Designing, developing, implementing, and managing compensation policies, programs, and procedures to meet agency strategies. The service outcome(s) will include, but not limited to\n<ul><li>agency-specific pay systems, if applicable  \n</li><li>policies, programs, and procedures to support implementation of agency compensation strategy </li></ul>"
         },
         {
-          "Identifier": "HCM.A5-1.030",
-          "Activity": "Agency Compensation Administration ",
-          "Description": "Setting and calculating employee compensation properly in accordance with agency compensation strategy, policies, programs, and  procedures.  The service outcome(s) will include, but not limited to: <ul>\n\t<li>compensation is set accurately</li>\n\t<li>audit of employee compensation and supporting documentation to determine accuracy and compliance</li>\n\t<li>agency review to ensure automatic pay processing systems are aligned with agency compensation strategy, policies, programs, and procedures</li>\n\t<li>advisory services to stakeholders on pay setting and compensation flexibilities</li>\n</ul>"
+          "Identifier":"HCM.A5-1.030",
+          "Activity":"Agency Compensation Administration ",
+          "Description":"Setting and calculating employee compensation properly in accordance with agency compensation strategy, policies, programs, and  procedures.  The service outcome(s) will include, but not limited to\n<ul><li>compensation is set accurately \n</li><li>audit of employee compensation and supporting documentation to determine accuracy and compliance\n</li><li>agency review to ensure automatic pay processing systems are aligned with agency compensation strategy, policies, programs, and procedures\n</li><li>advisory services to stakeholders on pay setting and compensation flexibilities </li></ul>"
         },
         {
-          "Identifier": "HCM.A5-1.040",
-          "Activity": "Compensation Research and Advisement ",
-          "Description": "Researching and interpreting compensation laws and regulations in order to provide strategic advisory services to agency leadership and managers. The service outcome(s) will include, but not limited to:\n<ul><li>accurate advice and guidance</li></ul>"
+          "Identifier":"HCM.A5-1.040",
+          "Activity":"Compensation Research and Advisement ",
+          "Description":"Researching and interpreting compensation laws and regulations in order to provide strategic advisory services to agency leadership and managers. The service outcome(s) will include, but not limited to\n<ul><li>accurate advice and guidance </li></ul>"
         },
         {
-          "Identifier": "HCM.A5-1.050",
-          "Activity": "Payroll Processing",
-          "Description": "Define and maintain the processes, business rules, and calculations necessary to accurately and efficiently execute payroll for employees paid by the Federal Government. Outcomes include, but are not limited to:\n<ul><li>Processes and workflows for integrating with HR and Time and Attendance systems and other resources necessary to calculate and execute payroll (e.g., third party Interfaces, benefits systems, etc.) \n</li><li>Leave and earning statements for every employee\n</li><li>Calculated results for amounts payable to appropriate payees (e.g. employees, beneficiaries, taxing authorities, etc.)\n</li><li>Furnish appropriate compensation documents (e.g., W-2s, 1099s, etc.) to employees and other stakeholders (e.g., IRS, OPM, TSP, Treasury)\n</li><li>Leave accrual and balance maintenance\n</li><li>Integrated payroll workflow management capability </li>\n</ul>"
+          "Identifier":"HCM.A5-1.050",
+          "Activity":"Payroll Processing",
+          "Description":"Define and maintain the processes, business rules, and calculations necessary to accurately and efficiently execute payroll for employees paid by the Federal Government. Outcomes include, but are not limited to\n<ul><li>Processes and workflows for integrating with HR and Time and Attendance systems and other resources necessary to calculate and execute payroll (e.g., third party Interfaces, benefits systems, etc.) \n</li><li>Leave and earning statements for every employee\n</li><li>Calculated results for amounts payable to appropriate payees (e.g. employees, beneficiaries, taxing authorities, etc.)\n</li><li>Furnish appropriate compensation documents (e.g., W-2s, 1099s, etc.) to employees and other stakeholders (e.g., IRS, OPM, TSP, Treasury)\n</li><li>Leave accrual and balance maintenance\n</li><li>Integrated payroll workflow management capability </li></ul>"
         },
         {
-          "Identifier": "HCM.A5-1.060",
-          "Activity": "Payroll Data Capture, Transfer, and Reporting",
-          "Description": "Capture, analyze, and report compensation data. Outcomes include, but are not limited to:\n<ul><li>Standard payroll and compensation program reports\n</li><li>Error reporting \n</li><li>Ad-hoc reporting\n</li><li>Data transfers between agencies, certified providers, and vendors</li>\n</ul>"
+          "Identifier":"HCM.A5-1.060",
+          "Activity":"Payroll Data Capture, Transfer, and Reporting",
+          "Description":"Capture, analyze, and report compensation data. Outcomes include, but are not limited to\n<ul><li>Standard payroll and compensation program reports\n</li><li>Error reporting \n</li><li>Ad-hoc reporting\n</li><li>Data transfers between agencies, certified providers, and vendors</li></ul>"
         },
         {
-          "Identifier": "HCM.A5-1.070",
-          "Activity": "Payroll System Administration",
-          "Description": "Provide and maintain administrative and logistical activities related to payroll systems and records management. Outcomes include, but are not limited to:\n<ul><li>Audit trails \n</li><li>Updated and maintained employee record \n</li><li>Historical payroll information for all employees\n</li><li>Continuity of operations plan</li>\n</ul>"
+          "Identifier":"HCM.A5-1.070",
+          "Activity":"Payroll System Administration",
+          "Description":"Provide and maintain administrative and logistical activities related to payroll systems and records management. Outcomes include, but are not limited to\n<ul><li>Audit trails \n</li><li>Updated and maintained employee record \n</li><li>Historical payroll information for all employees\n</li><li>Continuity of operations plan</li></ul>"
         },
         {
-          "Identifier": "HCM.A5-1.080",
-          "Activity": "Payroll System Change Management",
-          "Description": "Provide and maintain change management activities related to payroll systems. Outcomes include, but are not limited to:\n<ul><li>Formalized process for tracing and documenting the translation of federal policy to functional, and then to technical requirements </li>\n</ul>"
+          "Identifier":"HCM.A5-1.080",
+          "Activity":"Payroll System Change Management",
+          "Description":"Provide and maintain change management activities related to payroll systems. Outcomes include, but are not limited to\n<ul><li>Formalized process for tracing and documenting the translation of federal policy to functional, and then to technical requirements </li></ul>"
         }
       ]
     },
     {
-      "type": "hcm-a5-2",
-      "data": [
+      "type":"hcm-A5-2",
+      "data":[
         {
-          "Identifier": "HCM-A5-2.010",
-          "Activity": "Work Schedule and Leave Policy Development and Management",
-          "Description": "Establishing, maintaining, and enforcing agency work schedule and leave policy.  The service outcome(s) will include, but not limited to:\n<ul><li>agency WSLM needs assessment \n</li><li>objectives for the management and oversight of agency WSLM\n</li><li>agency WSLM policy, in accordance with all applicable federal rules and regulations \n</li><li>agency WSLM policy assessment and review as needed</li>\n</ul>"
+          "Identifier":"HCM-A5-2.010",
+          "Activity":"Work Schedule and Leave Policy Development and Management",
+          "Description":"Establishing, maintaining, and enforcing agency work schedule and leave policy.  The service outcome(s) will include, but not limited to\n<ul><li>agency WSLM needs assessment \n</li><li>objectives for the management and oversight of agency WSLM\n</li><li>agency WSLM policy, in accordance with all applicable federal rules and regulations \n</li><li>agency WSLM policy assessment and review as needed</li></ul>"
         },
         {
-          "Identifier": "HCM.A5-2.020",
-          "Activity": "Develop Work Schedule and Leave Management Standard Operating Procedures",
-          "Description": "Designing, maintaining, and updating prescribed methods to be followed routinely for the capture and administration of Time and Attendance and Leave Management. SOPs must be approved by designated agency officials. The service outcome(s) will include, but not limited to:\n<ul><li>documented, agency approved procedures detailing how employee timecard and leave management activities will be performed\n</li><li>communicate agency-approved Time and Attendance and Leave Management procedures to employees\n</li><li>updated agency-approved Time and Attendance and Leave Management procedures based on changing policy or other factors</li>\n</ul>"
+          "Identifier":"HCM.A5-2.020",
+          "Activity":"Develop Work Schedule and Leave Management Standard Operating Procedures",
+          "Description":"Designing, maintaining, and updating prescribed methods to be followed routinely for the capture and administration of Time and Attendance and Leave Management. SOPs must be approved by designated agency officials. The service outcome(s) will include, but not limited to\n<ul><li>documented, agency approved procedures detailing how employee timecard and leave management activities will be performed\n</li><li>communicate agency-approved Time and Attendance and Leave Management procedures to employees\n</li><li>updated agency-approved Time and Attendance and Leave Management procedures based on changing policy or other factors</li></ul>"
         },
         {
-          "Identifier": "HCM.A5-2.030",
-          "Activity": "Work Schedule Development and Management",
-          "Description": "Providing and maintaining employee's work schedule so that it corresponds with the employee's actual work requirements to accomplish the mission of the agency. The service outcome(s) will include, but not limited to:\n<ul><li>developed and approved employee work schedules\n</li><li>employee work schedule edits or changes </li>\n</ul>"
+          "Identifier":"HCM.A5-2.030",
+          "Activity":"Work Schedule Development and Management",
+          "Description":"Providing and maintaining employee's work schedule so that it corresponds with the employee's actual work requirements to accomplish the mission of the agency. The service outcome(s) will include, but not limited to\n<ul><li>developed and approved employee work schedules\n</li><li>employee work schedule edits or changes </li></ul>"
         },
         {
-          "Identifier": "HCM.A5-2.040",
-          "Activity": "Time Card Management",
-          "Description": "Recording, validating, certifying, and amending/correcting Time & Attendance. The service outcome(s) will include, but not limited to:\n<ul><li>method and process for employee/timekeeper to record employee time worked\n</li><li>method and process for timekeeper/supervisor/employee to validate employee Time and Attendance \n</li><li>method and process for certifying official to approve finalized employee time cards\n</li><li>method and process for employees and approved personnel to amend/correct time cards\n</li><li>method and process for employees to request and record leave and premium pay, and for approving official to review request and take appropriate action</li>\n</ul>"
+          "Identifier":"HCM.A5-2.040",
+          "Activity":"Time Card Management",
+          "Description":"Recording, validating, certifying, and amending/correcting Time & Attendance. The service outcome(s) will include, but not limited to\n<ul><li>method and process for employee/timekeeper to record employee time worked\n</li><li>method and process for timekeeper/supervisor/employee to validate employee Time and Attendance \n</li><li>method and process for certifying official to approve finalized employee time cards\n</li><li>method and process for employees and approved personnel to amend/correct time cards\n</li><li>method and process for employees to request and record leave and premium pay, and for approving official to review request and take appropriate action</li></ul>"
         },
         {
-          "Identifier": "HCM.A5-2.050",
-          "Activity": "T&A Transmittal",
-          "Description": "Creating batch process for transmittal of Time & Attendance  data to Payroll Provider.  The service outcome(s) will include, but not limited to:\n<ul><li>T&A batch processing \n</li><li>T&A data transmittal to Payroll Provider\n</li><li>track and manage the T&A transmittal process to Payroll Provider\n</li><li>coordination with Payroll Provider to remediate transmittal and Time &Attendance issues</li>\n</ul>"
+          "Identifier":"HCM.A5-2.050",
+          "Activity":"T&A Transmittal",
+          "Description":"Creating batch process for transmittal of Time & Attendance  data to Payroll Provider.  The service outcome(s) will include, but not limited to\n<ul><li>T&A batch processing \n</li><li>T&A data transmittal to Payroll Provider\n</li><li>track and manage the T&A transmittal process to Payroll Provider\n</li><li>coordination with Payroll Provider to remediate transmittal and Time &Attendance issues</li></ul>"
         },
         {
-          "Identifier": "HCM.A5-2.060",
-          "Activity": "T&A Reporting",
-          "Description": "Extracting reports on the captured Time & Attendance data.  The service outcome(s) will include, but not limited to:\n<ul><li>captured, stored, exportable  time and attendance data\n</li><li>standard and ad hoc employee time and attendance reports </li>\n</ul>"
+          "Identifier":"HCM.A5-2.060",
+          "Activity":"T&A Reporting",
+          "Description":"Extracting reports on the captured Time & Attendance data.  The service outcome(s) will include, but not limited to\n<ul><li>captured, stored, exportable  time and attendance data\n</li><li>standard and ad hoc employee time and attendance reports </li></ul>"
         }
       ]
     },
     {
-      "type": "hcm-a5-3",
-      "data": [
+      "type":"hcm-A5-3",
+      "data":[
         {
-          "Identifier": "HCM.A5-3.010",
-          "Activity": "Benefits Policy and Procedure Management",
-          "Description": "Interpreting and advising on Federal and Agency benefit policies and designing agency benefits strategy, policies, and procedures.   The service outcome(s) will include, but not limited to:\n<ul><li>agency-specific benefits strategy as needed \n</li><li>agency-specific benefits policies and procedures as needed \n</li><li>accurate advice and guidance </li>\n</ul>"
+          "Identifier":"HCM.A5-3.010",
+          "Activity":"Benefits Policy and Procedure Management",
+          "Description":"Interpreting and advising on Federal and Agency benefit policies and designing agency benefits strategy, policies, and procedures.   The service outcome(s) will include, but not limited to\n<ul><li>agency-specific benefits strategy as needed \n</li><li>agency-specific benefits policies and procedures as needed \n</li><li>accurate advice and guidance </li></ul>"
         },
         {
-          "Identifier": "HCM.A5-3.020",
-          "Activity": "Agency-level Benefits Administration ",
-          "Description": "Managing eligibility and enrollment for benefits programs.   The service outcome(s) will include, but not limited to:\n<ul><li>accurate determination of enrollment eligibility\n</li><li>accurate benefits processing\n</li><li>customer service (e.g., error remediation, system support, processing issues)\n</li><li>Audit of employee benefit documentation to determine accuracy and compliance\n</li><li>Standard Operating Procedures (SOPs), as needed\n</li><li>facilitate and manage the development of agency-specific benefit tools, as needed \n</li><li>coordination with stakeholders to support the administration of benefits programs\n</li><li>Benefits reports, as needed</li>\n</ul>"
+          "Identifier":"HCM.A5-3.020",
+          "Activity":"Agency-level Benefits Administration ",
+          "Description":"Managing eligibility and enrollment for benefits programs.   The service outcome(s) will include, but not limited to\n<ul><li>accurate determination of enrollment eligibility\n</li><li>accurate benefits processing\n</li><li>customer service (e.g., error remediation, system support, processing issues)\n</li><li>Audit of employee benefit documentation to determine accuracy and compliance\n</li><li>Standard Operating Procedures (SOPs), as needed\n</li><li>facilitate and manage the development of agency-specific benefit tools, as needed \n</li><li>coordination with stakeholders to support the administration of benefits programs\n</li><li>Benefits reports, as needed</li></ul>"
         },
         {
-          "Identifier": "HCM.A5-3.030",
-          "Activity": "Benefits Counseling and Communication",
-          "Description": "Implementing benefits communication strategy to educate and counsel employees. The service outcome(s) will include, but not limited to:\n<ul><li>benefits programs communication and education plan\n</li><li>marketing materials\n</li><li>benefits education seminars and briefings, etc. \n</li><li>benefits counseling \n</li><li>promote awareness of established benefits tools</li>\n</ul> "
+          "Identifier":"HCM.A5-3.030",
+          "Activity":"Benefits Counseling and Communication",
+          "Description":"Implementing benefits communication strategy to educate and counsel employees. The service outcome(s) will include, but not limited to\n<ul><li>benefits programs communication and education plan\n</li><li>marketing materials\n</li><li>benefits education seminars and briefings, etc. \n</li><li>benefits counseling \n</li><li>promote awareness of established benefits tools </li></ul>"
         }
       ]
     },
     {
-      "type": "hcm-a5-4",
-      "data": [
+      "type":"hcm-A5-4",
+      "data":[
         {
-          "Identifier": "HCM.A5-4.010",
-          "Activity": "Work-life Strategy, Program, and Policy Development ",
-          "Description": "Developing Agency Work-Life strategies, programs, and, policies. The service outcome(s) will include, but not limited to:\n<ul><li>agency work-life strategy, which may include, but not limited to:\n     </li><li>analysis and overview of the environment / climate impacting  agency work-life initiatives\n      </li><li>work-life program objectives \n      </li><li>documented plan for communicating  strategic work-life priorities to stakeholders\n     </li><li>documented plan for evaluating, enforcing, and reporting progress  \n        against work-life strategic objectives \n</li><li>agency Work-life Programs policies, as needed</li>\n</ul>"
-        },
+          "Identifier":"HCM.A5-4.010 ",
+          "Activity":"Work-life Strategy, Program, and Policy Development ",
+          "Description":"Developing Agency Work-Life strategies, programs, and, policies. The service outcome(s) will include, but not limited to\n<ul><li>agency work-life strategy, which may include, but not limited to:\n<ul><li>analysis and overview of the environment / climate impacting  agency work-life initiatives\n</li><li>work-life program objectives \n</li><li>documented plan for communicating  strategic work-life priorities to stakeholders\n</li><li>documented plan for evaluating, enforcing, and reporting progress  \n        against work-life strategic objectives \n</li><li>agency Work-life Programs policies, as needed</li></ul>"
+        }
+      ]
+    },
+    {
+      "type":"hcm-A5-5",
+      "data":[
         {
-          "Identifier": "HCM.A5-4.020",
-          "Activity": "Work-life Programs Administration",
-          "Description": "Administering Work-life Programs. The service outcome(s) will include, but not limited to:\n<ul><li>Work-life Programs marketing materials and communication plan\n</li><li>employee guidance on participation and access to Work-life Programs\n</li><li>determination of enrollment eligibility as required\n</li><li>Work-life Programs processing and customer service \n</li><li>Standard Operating Procedures (SOPs), as needed\n</li><li>Implementation of plan for evaluating, enforcing, and reporting progress against work-life strategic objectives</li>\n</ul> "
+          "Identifier":"HCM.A5-4.020",
+          "Activity":"Work-life Programs Administration",
+          "Description":"Administering Work-life Programs. The service outcome(s) will include, but not limited to\n<ul><li>Work-life Programs marketing materials and communication plan\n</li><li>employee guidance on participation and access to Work-life Programs\n</li><li>determination of enrollment eligibility as required\n</li><li>Work-life Programs processing and customer service \n</li><li>Standard Operating Procedures (SOPs), as needed\n</li><li>Implementation of plan for evaluating, enforcing, and reporting progress against work-life strategic objectives </li></ul>"
         }
       ]
     }
