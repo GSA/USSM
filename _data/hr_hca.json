@@ -8,12 +8,12 @@
             {
                "Identifier":"HCM.A9-1.010",
                "Activity":"Employee Inquiry Management",
-               "Description":"Establishing and maintaining channels, systems, and capabilities for the purpose of receiving, responding to, processing, and resolving individual employee questions, concerns, complaints, or suggestions. The service outcome(s) will include, but not be limited to\n<ul><li> A complete inquiry case and resolution\n</li><li> Inquiry status notification\n</li><li> Inquiry status tracker\n</li><li> Employee inquiry self-service capability\n</li><li> Inquiry auditing and knowledge management capability\n</li><li> Standardized and configurable inquiry intake, processing, and resolution workflows</li></ul>"
+               "Description":"Establishing and maintaining channels, systems, and capabilities for the purpose of receiving, responding to, processing, and resolving individual employee questions, concerns, complaints, or suggestions. The service outcome(s) will include, but not be limited to:\n<ul><li> A complete inquiry case and resolution\n</li><li> Inquiry status notification\n</li><li> Inquiry status tracker\n</li><li> Employee inquiry self-service capability\n</li><li> Inquiry auditing and knowledge management capability\n</li><li> Standardized and configurable inquiry intake, processing, and resolution workflows</li></ul>"
         },
             {
                "Identifier":"HCM.A9-1.020",
                "Activity":"Employee Inquiry Administration, Compliance, and Performance",
-               "Description":"Managing aggregate employee inquiry data and the employee inquiry caseload, complying with all relevant authorities, and evaluating the overall performance of employee inquiry case management and resolution. The service outcome(s) will include, but not be limited to\n<ul><li> Employee inquiry cases that are accurate, complete, consistent, credible, and current\n</li><li> Inquiry auditing and knowledge management capability\n</li><li> Employee inquiry and caseload reports and dashboards\n</li><li> Employee inquiry record\n</li><li> Employee inquiry record repository \n</li><li> Applicable records schedule\n</li><li> Employee inquiry caseload monitor, management, and tracker capability\n</li><li> Enterprise inquiry case workflow designer and manager self-service capability</li></ul>"
+               "Description":"Managing aggregate employee inquiry data and the employee inquiry caseload, complying with all relevant authorities, and evaluating the overall performance of employee inquiry case management and resolution. The service outcome(s) will include, but not be limited to:\n<ul><li> Employee inquiry cases that are accurate, complete, consistent, credible, and current\n</li><li> Inquiry auditing and knowledge management capability\n</li><li> Employee inquiry and caseload reports and dashboards\n</li><li> Employee inquiry record\n</li><li> Employee inquiry record repository \n</li><li> Applicable records schedule\n</li><li> Employee inquiry caseload monitor, management, and tracker capability\n</li><li> Enterprise inquiry case workflow designer and manager self-service capability</li></ul>"
         }
          ]
       },
@@ -23,12 +23,12 @@
             {
                "Identifier":"HCM.A9-2.010",
                "Activity":"Workforce Research Planning & Design",
-               "Description":"Designing research initiative methods/procedures/frameworks to study the workforce. The service outcome(s) will include, but not be limited to\n<ul><li>Documented agency-wide approach for workforce research, based on internal and external best practices, that address human capital goals and objectives\n</li><li>Documented methods for investigating a variety of human capital problems and research questions\n</li><li> Documented research design (e.g., research and statistical methodology, stakeholder communications plan)\n</li><li> Research design, planning, and implementation artifacts and data models\n</li><li> Designed or selected research instrument(s)\n</li><li> Research instrument validity and reliability documentation</li></ul>"
+               "Description":"Designing research initiative methods/procedures/frameworks to study the workforce. The service outcome(s) will include, but not be limited to:\n<ul><li>Documented agency-wide approach for workforce research, based on internal and external best practices, that address human capital goals and objectives\n</li><li>Documented methods for investigating a variety of human capital problems and research questions\n</li><li> Documented research design (e.g., research and statistical methodology, stakeholder communications plan)\n</li><li> Research design, planning, and implementation artifacts and data models\n</li><li> Designed or selected research instrument(s)\n</li><li> Research instrument validity and reliability documentation</li></ul>"
         },
             {
                "Identifier":"HCM.A9-2.020",
                "Activity":"Workforce Research Data Collection",
-               "Description":"Using research instruments to gather data and manage data collection. The service outcome(s) will include, but not be limited to\n<ul><li> Datasets/repositories for analysis</li></ul>"
+               "Description":"Using research instruments to gather data and manage data collection. The service outcome(s) will include, but not be limited to:\n<ul><li> Datasets/repositories for analysis</li></ul>"
         }
          ]
       },
@@ -38,52 +38,52 @@
             {
                "Identifier":"HCM.A9-2.030",
                "Activity":"Workforce Research Analysis",
-               "Description":"Preparing the research data, conducting data analysis, and interpreting results. The service outcome(s) will include, but not be limited to\n<ul><li> Cleaned/normalized and/or coded datasets\n</li><li> Results of research</li></ul>"
+               "Description":"Preparing the research data, conducting data analysis, and interpreting results. The service outcome(s) will include, but not be limited to:\n<ul><li> Cleaned/normalized and/or coded datasets\n</li><li> Results of research</li></ul>"
         },
             {
                "Identifier":"HCM.A9-2.040",
                "Activity":"Workforce Research Report Development, Distribution, and Archive",
-               "Description":"Aggregating the results, summarizing findings, distributing research reports, and including reports into a research library to inform decision-makers and other stakeholders. The service outcome(s) will include, but not be limited to\n<ul><li> Reports or documents that summarize, interpret, and/or provide recommendations based on the research results\n</li><li> Documented research (e.g., technical report)\n</li><li> Communications capability\n</li><li> Research report library</li></ul>"
+               "Description":"Aggregating the results, summarizing findings, distributing research reports, and including reports into a research library to inform decision-makers and other stakeholders. The service outcome(s) will include, but not be limited to:\n<ul><li> Reports or documents that summarize, interpret, and/or provide recommendations based on the research results\n</li><li> Documented research (e.g., technical report)\n</li><li> Communications capability\n</li><li> Research report library</li></ul>"
         },
             {
                "Identifier":"HCM.A9-3.010",
                "Activity":"Analytics Needs Assessment",
-               "Description":"Defining workforce issue or need that requires quantified evidence or assessment. The service outcome(s) will include, but not be limited to\n<ul><li>Defined scope of analytical request/need\n</li><li>Problem statement tied to business need</li></ul>"
+               "Description":"Defining workforce issue or need that requires quantified evidence or assessment. The service outcome(s) will include, but not be limited to:\n<ul><li>Defined scope of analytical request/need\n</li><li>Problem statement tied to business need</li></ul>"
         },
             {
                "Identifier":"HCM.A9-3.020",
                "Activity":"Analytics Planning",
-               "Description":"Developing a human capital analytics approach, requirements, and strategy. The service outcome(s) will include, but not be limited to\n<ul><li>Data dictionary (including data elements, definitions, timestamps, formulas, sources, and other applicable attributes)\n</li><li>List of defined metrics and outcomes\n</li><li>Format of analytical output\n</li><li>Timeline\n</li><li>Resource allotment (human and financial)\n</li><li>Identified stakeholders and audience\n</li><li>Data archiving strategy\n</li><li>Determination if analysis is re-occurring</li></ul>"
+               "Description":"Developing a human capital analytics approach, requirements, and strategy. The service outcome(s) will include, but not be limited to:\n<ul><li>Data dictionary (including data elements, definitions, timestamps, formulas, sources, and other applicable attributes)\n</li><li>List of defined metrics and outcomes\n</li><li>Format of analytical output\n</li><li>Timeline\n</li><li>Resource allotment (human and financial)\n</li><li>Identified stakeholders and audience\n</li><li>Data archiving strategy\n</li><li>Determination if analysis is re-occurring</li></ul>"
         },
             {
                "Identifier":"HCM.A9-3.030",
                "Activity":"Data Management",
-               "Description":"Managing data to ensure accuracy, compliance, and retention. The service outcome(s) will include, but not be limited to\n<ul><li>Systems, channels, and protocols for collecting, storing, and organizing data\n</li><li>Data preparation protocols, to include:\n<ul><li>Established standard naming convention\n</li><li>Established data standards\n</li><li>Formats and templates\n</li><li>PII protection\n</li><li>Identifiers variable development\n</li><li>Coding/Recoding practices\n</li></ul></li><li>Dataset(s) for analysis\n</li><li>Data archive<ul><li>Data dictionary</li><li>Dataset(s)</li></ul></li></ul>"
+               "Description":"Managing data to ensure accuracy, compliance, and retention. The service outcome(s) will include, but not be limited to:\n<ul><li>Systems, channels, and protocols for collecting, storing, and organizing data\n</li><li>Data preparation protocols, to include:\n<ul><li>Established standard naming convention\n</li><li>Established data standards\n</li><li>Formats and templates\n</li><li>PII protection\n</li><li>Identifiers variable development\n</li><li>Coding/Recoding practices\n</li></ul></li><li>Dataset(s) for analysis\n</li><li>Data archive<ul><li>Data dictionary</li><li>Dataset(s)</li></ul></li></ul>"
         },
             {
                "Identifier":"HCM.A9-3.040",
                "Activity":"Data Analysis",
-               "Description":"Applying analytical methods (i.e., descriptive, diagnostic, predictive, prescriptive, automated analytics) to data in order to generate insights that can be used for decision-making, evaluating results for accuracy, and interpreting results for organizational decisions. The service outcome(s) will include, but not be limited to\n<ul><li>Documented analytical methodology\n</li><li>Analysis results\n</li><li>Analysis quality assessment\n</li><li>Model evaluation, if applicable\n</li><li>Interpretation of analytical results, if applicable\n</li><li>Documented analytical methodology</li></ul>"
+               "Description":"Applying analytical methods (i.e., descriptive, diagnostic, predictive, prescriptive, automated analytics) to data in order to generate insights that can be used for decision-making, evaluating results for accuracy, and interpreting results for organizational decisions. The service outcome(s) will include, but not be limited to:\n<ul><li>Documented analytical methodology\n</li><li>Analysis results\n</li><li>Analysis quality assessment\n</li><li>Model evaluation, if applicable\n</li><li>Interpretation of analytical results, if applicable\n</li><li>Documented analytical methodology</li></ul>"
         },
             {
                "Identifier":"HCM.A9-3.050",
                "Activity":"Assessment",
-               "Description":"Determining whether analysis results satisfy original request or business need. The service outcome(s) will include, but not be limited to\n<ul><li>Assessment of the analytical results relative to the original request/need\n</li><li> Lessons learned from previous HC analytics efforts</li></ul>"
+               "Description":"Determining whether analysis results satisfy original request or business need. The service outcome(s) will include, but not be limited to:\n<ul><li>Assessment of the analytical results relative to the original request/need\n</li><li> Lessons learned from previous HC analytics efforts</li></ul>"
         },
             {
                "Identifier":"HCM.A9-3.060",
                "Activity":"Distribution Preparation",
-               "Description":"Preparing analysis for distribution. The service outcome(s) will include, but not be limited to\n<ul><li>Prepared interpretation of analysis ready for distribution</li></ul>"
+               "Description":"Preparing analysis for distribution. The service outcome(s) will include, but not be limited to:\n<ul><li>Prepared interpretation of analysis ready for distribution</li></ul>"
         },
             {
                "Identifier":"HCM.A9-4.010",
                "Activity":"Reporting Strategy and Planning",
-               "Description":"Defining the reporting needs/requirements and developing a reporting strategy and plan. The service outcome(s) will include, but not be limited to\n<ul><li>Documented stakeholder reporting needs/requirements (e.g., intended audience, security constraints)\n</li><li>List of relevant data and analytic output\n</li><li>Reporting design and development plans</li></ul>"
+               "Description":"Defining the reporting needs/requirements and developing a reporting strategy and plan. The service outcome(s) will include, but not be limited to:\n<ul><li>Documented stakeholder reporting needs/requirements (e.g., intended audience, security constraints)\n</li><li>List of relevant data and analytic output\n</li><li>Reporting design and development plans</li></ul>"
         },
             {
                "Identifier":"HCM.A9-4.020",
                "Activity":"Reporting Development",
-               "Description":"Producing reporting that transforms human capital data into contextualized information to meet reporting needs and requirements. The service outcome(s) will include, but not be limited to\n<ul><li>Reporting of the required data in the agreed upon format</li></ul>"
+               "Description":"Producing reporting that transforms human capital data into contextualized information to meet reporting needs and requirements. The service outcome(s) will include, but not be limited to:\n<ul><li>Reporting of the required data in the agreed upon format</li></ul>"
         }
          ]
       },
@@ -93,17 +93,17 @@
             {
                "Identifier":"HCM.A9-4.030",
                "Activity":"Reporting Distribution",
-               "Description":"Publishing and/or distributing reporting to appropriate locations, channels, and stakeholders. The service outcome(s) will include, but not be limited to\n<ul><li>Delivery of reporting that meets requirements</li></ul>"
+               "Description":"Publishing and/or distributing reporting to appropriate locations, channels, and stakeholders. The service outcome(s) will include, but not be limited to:\n<ul><li>Delivery of reporting that meets requirements</li></ul>"
         },
             {
                "Identifier":"HCM.A9-4.040",
                "Activity":"Reporting Repository & Archive Management",
-               "Description":"Cataloging, updating, retaining, and archiving reporting, while ensuring compliance with all legal requirements. The service outcome(s) will include, but not be limited to\n<ul><li>Human capital reporting catalog \n</li><li>Human capital reporting archive</li></ul>"
+               "Description":"Cataloging, updating, retaining, and archiving reporting, while ensuring compliance with all legal requirements. The service outcome(s) will include, but not be limited to:\n<ul><li>Human capital reporting catalog \n</li><li>Human capital reporting archive</li></ul>"
         },
             {
                "Identifier":"HCM.A9-4.050",
                "Activity":"Reporting User Support",
-               "Description":"Providing user support and advisory services. The service outcome(s) will include, but not be limited to\n<ul><li>User self-service materials and knowledge base, if applicable\n</li><li>Help desk and user training capability, if applicable\n</li><li>Reporting enhancement processes (i.e., processes for collecting and implementing user feedback)</li></ul>"
+               "Description":"Providing user support and advisory services. The service outcome(s) will include, but not be limited to:\n<ul><li>User self-service materials and knowledge base, if applicable\n</li><li>Help desk and user training capability, if applicable\n</li><li>Reporting enhancement processes (i.e., processes for collecting and implementing user feedback)</li></ul>"
         }
          ]
       },

@@ -8,7 +8,7 @@
         {
           "Identifier":"HCM.A4-1.010",
           "Activity":"Employee Performance Management System Development",
-          "Description":"Establishing a framework of policies and parameters by an agency for the administration of performance appraisal programs as defined at 5 U.S.C. 4302 and 5 CFR 430.204.  The service outcome(s) will include, but not limited to\n<ul><li>agency specific guidelines and policies that govern employee performance management activities in compliance with U.S.C. 4302 and 5 CFR 430.204</li></ul>"
+          "Description":"Establishing a framework of policies and parameters by an agency for the administration of performance appraisal programs as defined at 5 U.S.C. 4302 and 5 CFR 430.204.  The service outcome(s) will include, but not limited to:\n<ul><li>agency specific guidelines and policies that govern employee performance management activities in compliance with U.S.C. 4302 and 5 CFR 430.204</li></ul>"
         },
         {
           "Identifier":"HCM.A4-1.020",
@@ -23,12 +23,12 @@
         {
           "Identifier":"HCM.A4-1.040",
           "Activity":"Employee Performance Management Cycle Administration",
-          "Description":"Developing, communicating, monitoring, appraising, and rewarding individual employee performance in accordance with policy. The service outcome(s) will include, but not limited to\n<ul><li>employee work and performance expectations \n</li><li>monitor and rate employee performance \n</li><li>communicate employee performance ratings\n</li><li>initiate employee reward and/or remediation based on employee performance rating\n</li><li>manage and facilitate all logistical aspects (e.g. workflow management, furnishing of documents, tracking of process progress) associated with the performance management process\n</li></ul>"
+          "Description":"Developing, communicating, monitoring, appraising, and rewarding individual employee performance in accordance with policy. The service outcome(s) will include, but not limited to:\n<ul><li>employee work and performance expectations \n</li><li>monitor and rate employee performance \n</li><li>communicate employee performance ratings\n</li><li>initiate employee reward and/or remediation based on employee performance rating\n</li><li>manage and facilitate all logistical aspects (e.g. workflow management, furnishing of documents, tracking of process progress) associated with the performance management process\n</li></ul>"
         },
         {
           "Identifier":"HCM.A4-1.050",
           "Activity":"Employee Performance Management Data Capture, Transfer, and Reporting",
-          "Description":"Maintaining employee performance management records in accordance with policy. Provides the ability to extract reports on captured data.   The service outcome(s) will include, but not limited to\n<ul><li>method to capture and store employee performance records\n</li><li>transfer of employee performance data in accordance with policy\n</li><li>method for generating standard and ad hoc employee performance reports\n</li><li>ability to view and edit employee performance records to ensure records are accurate and current</li></ul>"
+          "Description":"Maintaining employee performance management records in accordance with policy. Provides the ability to extract reports on captured data.   The service outcome(s) will include, but not limited to:\n<ul><li>method to capture and store employee performance records\n</li><li>transfer of employee performance data in accordance with policy\n</li><li>method for generating standard and ad hoc employee performance reports\n</li><li>ability to view and edit employee performance records to ensure records are accurate and current</li></ul>"
         }
       ]
     },
@@ -38,12 +38,12 @@
         {
           "Identifier":"HCM.A4-2.010",
           "Activity":"Recognition Programs Development",
-          "Description":"Creating awards programs.  The service outcome(s) will include, but not limited to\n<ul><li>objectives for the employee rewards program\n</li><li>procedures, methods, and requirements to provide rewards to employees\n</li><li>administrative and logistical support for processing employee rewards </li></ul>"
+          "Description":"Creating awards programs.  The service outcome(s) will include, but not limited to:\n<ul><li>objectives for the employee rewards program\n</li><li>procedures, methods, and requirements to provide rewards to employees\n</li><li>administrative and logistical support for processing employee rewards </li></ul>"
         },
         {
           "Identifier":"HCM.A4-2.020",
           "Activity":"Recognition Programs Administration",
-          "Description":"Implementing and maintaining awards programs in accordance with policy. The service outcome(s) will include, but not limited to\n<ul><li>process and complete awards initiated by agency managers and employees\n</li><li>award certificates and other formal recognition\n</li><li>integration with payroll processes\n</li><li>administrative and logistical support for agency award ceremonies </li></ul>"
+          "Description":"Implementing and maintaining awards programs in accordance with policy. The service outcome(s) will include, but not limited to:\n<ul><li>process and complete awards initiated by agency managers and employees\n</li><li>award certificates and other formal recognition\n</li><li>integration with payroll processes\n</li><li>administrative and logistical support for agency award ceremonies </li></ul>"
         },
         {
           "Identifier":"HCM.A4-2.030",
@@ -53,7 +53,7 @@
         {
           "Identifier":"HCM.A4-2.040",
           "Activity":"Recognition Programs Data Capture, Transfer and Reporting",
-          "Description":"Maintaining awards programs records in accordance with policy. Provides the ability to extract reports on captured data.  The service outcome(s) will include, but not limited to\n<ul><li>structure and maintain award program records\n</li><li>updates and modifications to awards program records\n</li><li>standard and ad-hoc reports relating to award programs records\n</li><li>track and audit user access of award program records</li></ul>"
+          "Description":"Maintaining awards programs records in accordance with policy. Provides the ability to extract reports on captured data.  The service outcome(s) will include, but not limited to:\n<ul><li>structure and maintain award program records\n</li><li>updates and modifications to awards program records\n</li><li>standard and ad-hoc reports relating to award programs records\n</li><li>track and audit user access of award program records</li></ul>"
         }
       ]
     },
@@ -63,12 +63,12 @@
         {
           "Identifier":"HCM.A4-3.010",
           "Activity":"SES and/or SL/ST PA System Review or Adoption",
-          "Description":"Agency reviewing and designing (if necessary based on the review outcomes) an agency-specific PA system for SES and/or SL/ST positions in compliance with applicable statute and regulations (5 U.S.C. 43; 5 CFR part 430, subparts B and C, as applicable, and subpart D), or adopting the Basic SES and/or SL/ST PA system. The service outcome(s) will include, but not be limited to\n<ul><li>A PA system(s) that seeks to make meaningful distinctions in relative performance.\n</li><li>A PA system(s) that is compliant with statutory and regulatory requirements for appraisal system approval and certification.</li></ul>"
+          "Description":"Agency reviewing and designing (if necessary based on the review outcomes) an agency-specific PA system for SES and/or SL/ST positions in compliance with applicable statute and regulations (5 U.S.C. 43; 5 CFR part 430, subparts B and C, as applicable, and subpart D), or adopting the Basic SES and/or SL/ST PA system. The service outcome(s) will include, but not be limited to:\n<ul><li>A PA system(s) that seeks to make meaningful distinctions in relative performance.\n</li><li>A PA system(s) that is compliant with statutory and regulatory requirements for appraisal system approval and certification.</li></ul>"
         },
         {
           "Identifier":"HCM.A4-3.020",
           "Activity":"SES and/or SL/ST PA System Implementation and Application",
-          "Description":"Demonstrating the agency's implementation and application of its PA system(s) meets the required OPM/OMB criteria outlined in 5 CFR 430 subpart D, as well as requirements outlined in statute (5 U.S.C. 53, as appropriate), including, but not limited to, 5 U.S.C. 43, 5 U.S.C. 45; and regulations, including, but not limited to, 5 CFR 430 subpart B or C (as appropriate), subpart D, 5 CFR 534 subparts D and E (as appropriate), and 5 CFR 451. The service outcome(s) will include, but not be limited to\n<ul><li>A PA system(s) that when applied or implemented demonstrates meaningful distinctions in relative performance.\n</li><li>A PA system(s) that properly communicates senior employees expectations to provide the foundation for making meaningful distinctions in relative performance.\n</li><li>Performance ratings that are aligned with and based on individual and organizational performance.\n</li><li>Pay adjustments and awards, combined or separately, that reflect meaningful distinctions in performance in that those who receive the highest ratings (or ratings of record) receive the highest pay adjustments and/or performance awards.\n</li><li>A PA system(s) that results in pay adjustments and awards in compliance with statutory and regulatory requirements.\n</li><li>A PA system that demonstrates compliance with certification criteria found in 5 CFR 430 subpart D.</li></ul>"
+          "Description":"Demonstrating the agency's implementation and application of its PA system(s) meets the required OPM/OMB criteria outlined in 5 CFR 430 subpart D, as well as requirements outlined in statute (5 U.S.C. 53, as appropriate), including, but not limited to, 5 U.S.C. 43, 5 U.S.C. 45; and regulations, including, but not limited to, 5 CFR 430 subpart B or C (as appropriate), subpart D, 5 CFR 534 subparts D and E (as appropriate), and 5 CFR 451. The service outcome(s) will include, but not be limited to:\n<ul><li>A PA system(s) that when applied or implemented demonstrates meaningful distinctions in relative performance.\n</li><li>A PA system(s) that properly communicates senior employees expectations to provide the foundation for making meaningful distinctions in relative performance.\n</li><li>Performance ratings that are aligned with and based on individual and organizational performance.\n</li><li>Pay adjustments and awards, combined or separately, that reflect meaningful distinctions in performance in that those who receive the highest ratings (or ratings of record) receive the highest pay adjustments and/or performance awards.\n</li><li>A PA system(s) that results in pay adjustments and awards in compliance with statutory and regulatory requirements.\n</li><li>A PA system that demonstrates compliance with certification criteria found in 5 CFR 430 subpart D.</li></ul>"
         },
         {
           "Identifier":"HCM.A4-3.030",
