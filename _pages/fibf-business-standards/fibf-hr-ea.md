@@ -15,16 +15,16 @@ sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-busine
 metrics-content: hr/employee-accountability/performance-metrics.html
 capabilities-content: hr/employee-accountability/capabilities.html
 lifecycle-content: hr/employee-accountability/lifecycle.html
-lifecycle-pdf: assets/files/downloads/hr/employee-accountability/HCM Business Lifecycle and Capabilities_A7 (Employee Accountability).xlsx
-lifecycle-source-document: assets/files/downloads/hr/employee-accountability/HCM Business Lifecycle and Capabilities_A7 (Employee Accountability).xlsx
+lifecycle-pdf: assets/files/downloads/hr/employee-accountability/HCM Service Measures_A7 (Employee Relations & Continuous Vetting).xlsx
+lifecycle-source-document: assets/files/downloads/hr/employee-accountability/HCM Service Measures_A7 (Employee Relations & Continuous Vetting).xlsx
 
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 
-capabilities-source-document: assets/files/downloads/hr/employee-accountability/HCM Business Lifecycle and Capabilities_A7 (Employee Accountability).xlsx
-capabilities-pdf: assets/files/downloads/hr/employee-accountability/HCM Business Lifecycle and Capabilities_A7 (Employee Accountability).xlsx
-performance-metrics-pdf: assets/files/downloads/hr/employee-accountability/HCM Service Measures_A7 (Employee Accountability).xlsx
+capabilities-source-document: assets/files/downloads/hr/employee-accountability/HCM Business Capabilities_A7 (Employee Relations & Continuous Vetting).xlsx
+capabilities-pdf: assets/files/downloads/hr/employee-accountability/HCM Business Capabilities_A7 (Employee Relations & Continuous Vetting).xlsx
+performance-metrics-pdf: assets/files/downloads/hr/employee-accountability/HCM Service Measures_A7 (Employee Relations & Continuous Vetting).xlsx
 data-elements-content: hr/employee-accountability/data-elements.html
-standard-data-elements-pdf: assets/files/downloads/hr/employee-accountability/HCM Data Standards_A7 (Employee Accountability).xlsx
+standard-data-elements-pdf: assets/files/downloads/hr/employee-accountability/HCM Data Elements_A7 (Employee Relations & Continuous Vetting).xlsx
 all-zip: assets/files/downloads/hr/employee-accountability/employee-accountability.zip
 ---

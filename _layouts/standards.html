@@ -205,12 +205,16 @@ This template is for a single page that does not have a date associated with it.
             <img src="{{ site.baseurl }}/assets/images/fibf/04.standard.data.elements.sm.png" alt="" class="fibf-wheel-image">
           </div>
           <div class="desktop:grid-col-9">
+            {% if page.permalink contains 'fibf-hr' %}
             <p>
               <i><b>Standard Data Elements</b> identify the minimum data fields required to support the inputs and outputs noted in the use cases and capabilities.</i>
             </p>
             <p>
               <i><b>The HC FIBF Standard Data elements are a subset of the Human Capital Information Model (HCIM).</b> Comprised of metadata and information packages, the HCIM is the “Rosetta Stone” to achieving interoperable human capital systems that enable paperless data sharing across the Federal human capital community.  Click the link below to access the Standard Data Elements for <b>{{page.function-title}}.</b></i>
             </p>
+            {% else %}
+            <p><i>Identify the minimum data fields required to support the inputs and outputs noted in the use cases and capabilities.</i>
+            {% endif %}
             {% if page.data-elements-content %}
             {% include {{ page.data-elements-content }} %}
             {% endif %}

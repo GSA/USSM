@@ -14,14 +14,14 @@ sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-busine
 metrics-content: hr/labor-relations/performance-metrics.html
 capabilities-content: hr/labor-relations/capabilities.html
 lifecycle-content: hr/labor-relations/lifecycle.html
-lifecycle-pdf: assets/files/downloads/hr/labor-relations/HCM Business Lifecycle and Capabilities_A8 (Labor Relations).xlsx
-lifecycle-source-document: assets/files/downloads/hr/labor-relations/HCM Business Lifecycle and Capabilities_A8 (Labor Relations).xlsx
+lifecycle-pdf: assets/files/downloads/hr/labor-relations/HCM Functions and Activities_A8 (Labor Relations).xlsx
+lifecycle-source-document: assets/files/downloads/hr/labor-relations/HCM Functions and Activities_A8 (Labor Relations).xlsx
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
-capabilities-source-document: assets/files/downloads/hr/labor-relations/HCM Business Lifecycle and Capabilities_A8 (Labor Relations).xlsx
-capabilities-pdf: assets/files/downloads/hr/labor-relations/HCM Business Lifecycle and Capabilities_A8 (Labor Relations).xlsx
-<!-- performance-metrics-pdf: assets/files/downloads/hr/labor-relations/HCM Service Measures_A8 (Labor Relations).xlsx -->
-<!-- data-elements-content: hr/labor-relations/data-elements.html -->
-<!-- standard-data-elements-pdf: assets/files/downloads/hr/labor-relations/HCM Data Standards_A8 (Labor Relations).xlsx -->
+capabilities-source-document: assets/files/downloads/hr/labor-relations/HCM Business Capabilities_A8 (Labor Relations).xlsx
+capabilities-pdf: assets/files/downloads/hr/labor-relations/HCM Business Capabilities_A8 (Labor Relations).xlsx
+performance-metrics-pdf: assets/files/downloads/hr/labor-relations/HCM Service Measures_A8 (Labor Relations).xlsx
+data-elements-content: hr/labor-relations/data-elements.html
+standard-data-elements-pdf: assets/files/downloads/hr/labor-relations/HCM Data Elements_A8 (Labor Relations).xlsx
 all-zip: assets/files/downloads/hr/labor-relations/labor-relations.zip
 ---
