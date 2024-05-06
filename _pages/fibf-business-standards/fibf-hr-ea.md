@@ -15,8 +15,8 @@ sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-busine
 metrics-content: hr/employee-accountability/performance-metrics.html
 capabilities-content: hr/employee-accountability/capabilities.html
 lifecycle-content: hr/employee-accountability/lifecycle.html
-lifecycle-pdf: assets/files/downloads/hr/employee-accountability/HCM Service Measures_A7 (Employee Relations & Continuous Vetting).xlsx
-lifecycle-source-document: assets/files/downloads/hr/employee-accountability/HCM Service Measures_A7 (Employee Relations & Continuous Vetting).xlsx
+lifecycle-pdf: assets/files/downloads/hr/employee-accountability/HCM Functions and Activities_A7 (Employee Relations & Continuous Vetting).xlsx
+lifecycle-source-document: assets/files/downloads/hr/employee-accountability/HCM Functions and Activities_A7 (Employee Relations & Continuous Vetting).xlsx
 
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
