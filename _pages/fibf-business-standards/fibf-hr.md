@@ -24,4 +24,6 @@ capabilities-source-document: assets/files/downloads/hr/acquisition/HCM Business
 capabilities-pdf: assets/files/downloads/hr/acquisition/HCM Business Capabilities_A2 (Talent Acquisition).xlsx
 <!-- performance-metrics-pdf: assets/files/downloads/hr/acquisition/HCM Service Measures_A2 (Talent Acquisition).xlsx -->
 all-zip: assets/files/downloads/hr/acquisition/acquisition.zip
+lifecycle-json-api: /business-standards-api/hr/acquisition/
+capabilities-json-api: /business-standards-api/hr/acquisition/capabilities
 ---

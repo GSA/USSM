@@ -22,4 +22,6 @@ standard-data-elements-pdf: assets/files/downloads/hr/benefits/HCM Data Elements
 lifecycle-pdf: assets/files/downloads/hr/benefits/HCM Functions and Activities_A5 (Compensation and Benefits).xlsx
 lifecycle-source-document: assets/files/downloads/hr/benefits/HCM Functions and Activities_A5 (Compensation and Benefits).xlsx
 all-zip: assets/files/downloads/hr/benefits/benefit.zip
+lifecycle-json-api: /business-standards-api/hr/benefits/
+capabilities-json-api: /business-standards-api/hr/benefits/capabilities
 ---

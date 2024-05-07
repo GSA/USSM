@@ -27,4 +27,6 @@ performance-metrics-pdf: assets/files/downloads/hr/employee-accountability/HCM S
 data-elements-content: hr/employee-accountability/data-elements.html
 standard-data-elements-pdf: assets/files/downloads/hr/employee-accountability/HCM Data Elements_A7 (Employee Relations & Continuous Vetting).xlsx
 all-zip: assets/files/downloads/hr/employee-accountability/employee-accountability.zip
+lifecycle-json-api: /business-standards-api/hr/employee/
+capabilities-json-api: /business-standards-api/hr/employee/capabilities
 ---

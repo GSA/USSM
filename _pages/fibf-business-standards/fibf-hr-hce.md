@@ -24,4 +24,6 @@ performance-metrics-pdf: assets/files/downloads/hr/hce/HCM Service Measures_A10 
 data-elements-content: hr/hce/data-elements.html
 standard-data-elements-pdf: assets/files/downloads/hr/hce/HCM Data Elements_A10 (Agency Human Capital Evaluation).xlsx
 all-zip: assets/files/downloads/hr/hce/hce.zip
+lifecycle-json-api: /business-standards-api/hr/hce/
+capabilities-json-api: /business-standards-api/hr/hce/capabilities
 ---

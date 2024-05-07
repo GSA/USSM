@@ -24,4 +24,6 @@ performance-metrics-pdf: assets/files/downloads/hr/hca/HCM Service Measures_A9 (
 data-elements-content: hr/hca/data-elements.html
 standard-data-elements-pdf: assets/files/downloads/hr/hca/HCM Data Elements_A9 (Workforce Analytics & Employee Records).xlsx
 all-zip: assets/files/downloads/hr/hca/hca.zip
+lifecycle-json-api: /business-standards-api/hr/hca/
+capabilities-json-api: /business-standards-api/hr/hca/capabilities
 ---

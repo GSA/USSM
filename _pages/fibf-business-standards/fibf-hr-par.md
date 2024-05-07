@@ -24,4 +24,6 @@ performance-metrics-pdf: assets/files/downloads/hr/par-processing/HCM Service Me
 data-elements-content: hr/par-processing/data-elements.html
 standard-data-elements-pdf: assets/files/downloads/hr/par-processing/HCM Data Elements_X1 (PAR Processing).xlsx
 all-zip: assets/files/downloads/hr/par-processing/par-processing.zip
+lifecycle-json-api: /business-standards-api/hr/par/
+capabilities-json-api: /business-standards-api/hr/par/capabilities
 ---
