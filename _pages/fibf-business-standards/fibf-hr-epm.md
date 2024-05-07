@@ -22,11 +22,8 @@ lifecycle-source-document-type: xls
 data-elements-content: hr/epm/data-elements.html
 capabilities-source-document: assets/files/downloads/hr/epm/HCM Business Capabilities_A4 (Employee Performance Management).xlsx
 capabilities-pdf: assets/files/downloads/hr/epm/HCM Business Capabilities_A4 (Employee Performance Management).xlsx
-performance-metrics-pdf: assets/files/downloads/hr/epm/old/HCM Service Measures_A4 (Employee Performance Management).xlsx
+performance-metrics-pdf: assets/files/downloads/hr/epm/HCM Service Measures_A4 (Employee Performance Management).xlsx
 all-zip: assets/files/downloads/hr/epm/epm.zip
 lifecycle-json-api: /business-standards-api/hr/epm/
 capabilities-json-api: /business-standards-api/hr/epm/capabilities
 ---
-
-metrics-content
-data-elements-content
