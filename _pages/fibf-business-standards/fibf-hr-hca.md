@@ -15,7 +15,7 @@ metrics-content: hr/hca/performance-metrics.html
 capabilities-content: hr/hca/capabilities.html
 lifecycle-content: hr/hca/lifecycle.html
 lifecycle-pdf: assets/files/downloads/hr/hca/HCM Functions and Activities_A9 (Workforce Analytics & Employee Records).xlsx
-lifecycle-source-document: assets/files/downloads/hr/hca/HCM Functions and Activities_A9 (Workforce Analytics & Employee Records).xlsx Records).xlsx
+lifecycle-source-document: assets/files/downloads/hr/hca/HCM Functions and Activities_A9 (Workforce Analytics & Employee Records).xlsx
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 capabilities-source-document: assets/files/downloads/hr/hca/HCM Business Capabilities_A9 (Workforce Analytics & Employee Records).xlsx
