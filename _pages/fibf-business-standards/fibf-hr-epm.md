@@ -15,7 +15,7 @@ metrics-content: hr/epm/performance-metrics.html
 capabilities-content: hr/epm/capabilities.html
 lifecycle-content: hr/epm/lifecycle.html
 lifecycle-pdf: assets/files/downloads/hr/epm/HCM Functions and Activities_A4 (Employee Performance Management).xlsx
-lifecycle-source-document: assets/files/downloads/hr/epm/HCM Functions and Activities_A4 (Employee Performance Management).xlsx Management).xlsx
+lifecycle-source-document: assets/files/downloads/hr/epm/HCM Functions and Activities_A4 (Employee Performance Management).xlsx
 standard-data-elements-pdf: assets/files/downloads/hr/epm/HCM Data Elements_A4 (Employee Performance Management).xlsx
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
