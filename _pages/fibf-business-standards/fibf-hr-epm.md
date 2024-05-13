@@ -24,6 +24,6 @@ capabilities-source-document: assets/files/downloads/hr/epm/HCM Business Capabil
 capabilities-pdf: assets/files/downloads/hr/epm/HCM Business Capabilities_A4 (Employee Performance Management).xlsx
 performance-metrics-pdf: assets/files/downloads/hr/epm/HCM Service Measures_A4 (Employee Performance Management).xlsx
 all-zip: assets/files/downloads/hr/epm/epm.zip
-lifecycle-json-api: /business-standards-api/hr/epm/
+lifecycle-json-api: /business-standards-api/hr/epm/business-lifecycle
 capabilities-json-api: /business-standards-api/hr/epm/capabilities
 ---

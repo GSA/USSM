@@ -24,6 +24,6 @@ performance-metrics-pdf: assets/files/downloads/hr/hcs/HCM Service Measures_A1 (
 data-elements-content: hr/hcs/data-elements.html
 standard-data-elements-pdf: assets/files/downloads/hr/hcs/HCM Data Elements_A1 (Agency Human Capital Strategy, Policies, and Operation Plan).xlsx
 all-zip: assets/files/downloads/hr/hcs/hcs.zip
-lifecycle-json-api: /business-standards-api/hr/hcs/
+lifecycle-json-api: /business-standards-api/hr/hcs/business-lifecycle
 capabilities-json-api: /business-standards-api/hr/hcs/capabilities
 ---

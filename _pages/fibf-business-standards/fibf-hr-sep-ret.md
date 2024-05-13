@@ -24,6 +24,6 @@ capabilities-source-document: assets/files/downloads/hr/retirement/HCM Business 
 capabilities-pdf: assets/files/downloads/hr/retirement/HCM Business Capabilities Standards_A6 (Separation and Retirement).xlsx
 <!-- performance-metrics-pdf: assets/files/downloads/hr/retirement/HCM Service Measures_A6 (Separation and Retirement).xlsx -->
 all-zip: assets/files/downloads/hr/retirement/retirement.zip
-lifecycle-json-api: /business-standards-api/hr/retirement/
+lifecycle-json-api: /business-standards-api/hr/retirement/business-lifecycle
 capabilities-json-api: /business-standards-api/hr/retirement/capabilities
 ---

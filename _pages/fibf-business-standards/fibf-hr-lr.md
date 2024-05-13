@@ -24,6 +24,6 @@ performance-metrics-pdf: assets/files/downloads/hr/labor-relations/HCM Service M
 data-elements-content: hr/labor-relations/data-elements.html
 standard-data-elements-pdf: assets/files/downloads/hr/labor-relations/HCM Data Elements_A8 (Labor Relations).xlsx
 all-zip: assets/files/downloads/hr/labor-relations/labor-relations.zip
-lifecycle-json-api: /business-standards-api/hr/labor/
+lifecycle-json-api: /business-standards-api/hr/labor/business-lifecycle
 capabilities-json-api: /business-standards-api/hr/labor/capabilities
 ---

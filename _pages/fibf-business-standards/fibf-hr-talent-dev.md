@@ -24,6 +24,6 @@ capabilities-pdf: assets/files/downloads/hr/talent-development/HCM Business Capa
 data-elements-content: hr/talent-development/data-elements.html
 standard-data-elements-pdf: assets/files/downloads/hr/talent-development/HCM Data Elements_A3 (Talent Development).xlsx
 all-zip: assets/files/downloads/hr/talent-development/talent-development.zip
-lifecycle-json-api: /business-standards-api/hr/td/
+lifecycle-json-api: /business-standards-api/hr/td/business-lifecycle
 capabilities-json-api: /business-standards-api/hr/td/capabilities
 ---
