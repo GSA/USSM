@@ -530,5 +530,9 @@
       "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
       "Authoritative Reference":"5 U.S. Code § 552a "
     }
-  ]
+  ],
+  "Business_Use_Cases":"coming soon",
+  "Standard_Data_Elements":{
+    "Standard Data Elements":"/assets/files/downloads/hr/hce/HCM Data Elements_A10 (Agency Human Capital Evaluation).xlsx"
+  }
 }
