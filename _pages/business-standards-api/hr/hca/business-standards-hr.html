@@ -4,7 +4,7 @@ permalink: /business-standards-api/hr/hca/
 ---
 [{
 "Business-Standards": "HR",
-"Sub-section":"Human Capital Strategy, Policies, & Operation Plan",
+"Sub-section":"Human Capital Analytics & Employee Records",
 "Business Lifecycle": [{% raw %}{{% endraw %}
 {% for post in site.data.hr_hca.Business_Lifecycle %}
 "{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}

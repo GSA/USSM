@@ -4,7 +4,7 @@ permalink: /business-standards-api/hr/par/
 ---
 [{
 "Business-Standards": "HR",
-"Sub-section":"Human Capital Strategy, Policies, & Operation Plan",
+"Sub-section":"Personnel Action Request (PAR) Processing",
 "Business Lifecycle": [{% raw %}{{% endraw %}
 {% for post in site.data.hr_par.Business_Lifecycle %}
 "{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
