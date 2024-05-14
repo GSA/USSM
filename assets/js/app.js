@@ -263,8 +263,6 @@ function imageChecker(url){
                         else if (outerKey === "Standard Data Elements" && ElementsList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
                                 // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
-                                console.log(key1);
-                                console.log(value1);
                                 if(key1 !== "jsonData"){
                                     prefixUrl = value1.includes("https")?"":prefixUrl;
                                     let image = imageChecker(value1);
@@ -279,11 +277,17 @@ function imageChecker(url){
                         }
                         else if (outerKey==="Service Measures" && PerformanceMetricsList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
-                                // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
-                                prefixUrl = value1.includes("https")?"":prefixUrl;
-                                let image = imageChecker(value1);
-                                let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
-                                jQuery("#" + page.PerformanceMetricsList ).append(li);
+                                // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full ur
+                                if(key1 !== "jsonData"){
+                                  prefixUrl = value1.includes("https")?"":prefixUrl;
+                                  let image = imageChecker(value1);
+                                  let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
+                                  jQuery("#" + page.PerformanceMetricsList ).append(li);
+                                }else{ // For key equal to jsonData
+                                    prefixUrl = value1.url.includes("https")?"":prefixUrl;
+                                    let li = '<li><a href="'+prefixUrl+value1.url+'">' + value1.name + '</a></li>';
+                                    jQuery("#" + page.PerformanceMetricsList ).append(li);
+                                }
                             });
                         }
                     });
