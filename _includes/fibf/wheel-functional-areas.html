@@ -1,0 +1,52 @@
+<section id="interactive-wheel" class="usa-section" style="background-color: #f1f1f1; padding-top:30px;padding-bottom:15px">
+    <div class="grid-container text-center highlight">
+        <div class="grid-row">
+            {% for area in site.data.functional-areas.areas %}
+            <div class="icon padding-1 {{ area.class }}">
+                <img class="w-100" style="max-width: 200px;" loading="lazy" src="{{site.baseurl}}/assets/images/fibf/wheel-functional-areas/{{ area.logo }}" alt="{{ area.title }} Logo">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="grid-container text-center">
+        <div class="grid-row">
+            {% for area in site.data.functional-areas.areas %}
+                <a href="#{{ area.class }}" style="text-decoration: none; color: #000;" data-icons="{{ area.inactive | join: ', ' }}" class="text-bold font-body-3xs text-center padding-1 grid-col-1 wheel-area" title="{{ area.title }}">
+                    <img class="w-100" loading="lazy" src="{{site.baseurl}}/assets/images/fibf/wheel-functional-areas/{{ area.logo }}" alt="{{ area.title }} Logo">
+                    <p class="margin-0" style="margin-top: 0!important;">{{ area.title }}</p>
+                </a>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<style>
+    .grey-scale {
+        filter: grayscale(100%);
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Add grey-scale class to icons when wheel area is clicked
+        var wheelAreas = document.getElementsByClassName('wheel-area');
+        for (var i = 0; i < wheelAreas.length; i++) {
+            wheelAreas[i].addEventListener('click', function() {
+                // Remove grey-scale class from all icons
+                var icons = document.getElementsByClassName('icon');
+                for (var i = 0; i < icons.length; i++) {
+                    icons[i].classList.remove('grey-scale');
+                }
+
+                // Add grey-scale class to icons
+                var dataIcons = this.getAttribute('data-icons');
+                var icons = dataIcons.split(', ');
+                for (var j = 0; j < icons.length; j++) {
+                    var elements = document.getElementsByClassName(icons[j]);
+                    for (var k = 0; k < elements.length; k++) {
+                        elements[k].classList.add('grey-scale');
+                    }
+                }
+            });
+        }
+    });
+</script>
