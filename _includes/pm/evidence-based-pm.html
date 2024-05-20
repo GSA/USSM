@@ -13,16 +13,17 @@ This banner will be displayed on the homepage. Summary of performance management
                 <p class="font-sans-sm text-ink padding-bottom-3"><a href="{{ site.baseurl }}/performance-management/" title="Learn more about Evidence-based Performance Management">Learn more</a> | <a title="Watch Evidence-based Performance Management video" href="#performance-management-modal"  aria-controls="performance-management-modal" data-open-modal>Watch Video</a> | <a href="{{ site.baseurl }}/assets/files/performance-management.pdf" target="_blank" title="Download Performance Management PDF">Download Graphic</a></p>
             </div>
 
-            <div class="tablet:grid-col-6">
-                <button class="usa-button border-0 padding-0" aria-controls="performance-management-modal" data-open-modal>
+            <div id="performancevideo" class="tablet:grid-col-6">
+                <button class="modal-video usa-button border-0 padding-0" aria-controls="performance-management-modal" data-open-modal>
                     <img loading="lazy" class="width-full" src="{{ site.baseurl }}/assets/images/performance-management/performance-diagram.png" alt="Evidence-based Performance Management Diagram" />
                 </button>
                 <div class="usa-modal" style="max-width: 850px;" id="performance-management-modal" aria-describedby="performance-management-modal-description">
                     <div class="usa-modal__content">
                         <div class="usa-modal__main" style="width: 100%;">
                             <div id="performance-management-modal-description" class="padding-5">
+                                <p class="text-center font-sans-sm text-ink">Press <img src="{{ site.baseurl }}/assets/img/favicons/fullscreen.png" /> to view in full screen</p>
                                 <div class="video-responsive">
-                                    <iframe class="width-full" src="https://player.vimeo.com/video/933011956?h=bb24586e69&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture; clipboard-write" title="Evidence-based Performance Management"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+                                    <iframe id="vimeo" class="width-full" src="https://player.vimeo.com/video/933011956?h=bb24586e69&amp;autoplay=1&amp;muted=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allowfullscreen allow="autoplay" frameborder="0" allow="autoplay; picture-in-picture; clipboard-write" title="Evidence-based Performance Management"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
                                 </div>
                             </div>
                         </div>
@@ -32,6 +33,16 @@ This banner will be displayed on the homepage. Summary of performance management
                             </svg>
                         </button>
                         <script>
+                            window.addEventListener('load', function() {
+                                v
+                                if (window.location.href.includes('#performancevideo')) {
+                                    var iframe = document.querySelector('iframe');
+                                    var player = new Vimeo.Player(iframe);
+                                    var modalVideoButton = document.querySelector('.modal-video');
+                                    modalVideoButton.click();
+                                    player.play();
+                                }
+                            });
                             function stopVimeo() {
                                 var iframe = document.querySelector('iframe');
                                 var player = new Vimeo.Player(iframe);
