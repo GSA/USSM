@@ -1,4 +1,5 @@
- /* Style the Image Used to Trigger the Modal */
+@use '../node_modules/@uswds/uswds/packages/uswds-core/src/styles/mixins/helpers/at-media' as *;
+/* Style the Image Used to Trigger the Modal */
 #myImg {
   border-radius: 5px;
   cursor: pointer;
