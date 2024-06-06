@@ -14,7 +14,7 @@ Foundational policy memo outlining the next steps in a continuously evolving vis
 [Advancing the PMA through Shared Services](https://ussm.gsa.gov/assets/files/PMA%20Placemat.pdf)<br>
 A one-page placemat to help agencies, policymakers, and industry stakeholders better understand the role that shared services can play as a lever for advancing the priorities of the President's Management Agenda.
 
-[Mission Support Concept of Operations](/conops/)<br>
+[Mission Support Concept of Operations]({{site.baseurl}}/conops/)<br>
 The Federal government supports the stability, welfare, and prosperity of our nation through agency missions and services delivered to the American people. These services encompass important missions, such as the safety of our national food supply, stabilization of capital and consumer markets, support for scientific and medical research, and the integrity of our national infrastructure, law enforcement, and national defense.
 
 [Video Center - Learn About Shared Services](https://ussm.gsa.gov/video-center/)<br>
