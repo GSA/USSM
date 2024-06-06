@@ -114,8 +114,8 @@ Through a fee-for-service approach, providers will maintain solvent operations a
 <p class="margin-top-0">A governance model that balances inclusiveness, cooperation and the ability to make decisions that impact the entire Federal enterprise is essential to creating the constructive tensions that will develop the productive operation of a high-performing marketplace. The enterprise-wide governance model for the oversight of mission­ support services is comprised of a network of managing partners within each line of business, Federal and commercial providers, and customer agencies. This model includes integration and oversight bodies such as the [Shared Services Governance Board (SSGB)](/ssgb) and Unified Shared Services Management (USSM) leading the cross-disciplinary, government-wide coordination needed to effectively implement the vision.</p>
 </td>
 <td class="width-mobile padding-0">
-  <a style="display: block;" href="/assets/files/508-final-governance.pdf" title="Governance PDF" target="_blank">
-    <img class="full-width maxw-mobile" src="/assets/images/508-final-governance.png"/>
+  <a style="display: block;" href="{{site.baseurl}}/assets/files/508-final-governance.pdf" title="Governance PDF" target="_blank">
+    <img class="full-width maxw-mobile" src="{{site.baseurl}}/assets/images/508-final-governance.png"/>
     <p style="text-align: center; margin-top: 0;">View PDF</p>
   </a>
 </td>
@@ -136,8 +136,8 @@ The effort to deliver a marketplace of mission-support services for the Federal 
     </p>
   </div>
   <div class="grid-col flex-4">
-    <a style="display: block;" href="/assets/files/508-final-version-mission-support.pdf" title="Governance PDF" target="_blank">
-      <img class="full-width maxw-mobile" src="/assets/images/508-final-version-mission-support.png"/>
+    <a style="display: block;" href="{{site.baseurl}}/assets/files/508-final-version-mission-support.pdf" title="Governance PDF" target="_blank">
+      <img class="full-width maxw-mobile" src="{{site.baseurl}}/assets/images/508-final-version-mission-support.png"/>
       <p style="text-align: center; margin-top: 0;">View PDF</p>
     </a>
   </div>
