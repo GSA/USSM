@@ -27,10 +27,10 @@ banner: true
               <p><b><a href="#benefits-to-customer-agencies">Benefits to Customer Agencies</a></b></p>
               <ul>
             <li><a href="#customer-centricity">Customer Centricity</a></li>
-            <li><a href="#customer-experience">Customer Experience</a></li>
-            <li><a href="#provider-performance">Provider Performance</a></li>
+            <li><a href="#customer-centricity">Customer Experience</a></li>
+            <li><a href="#customer-centricity">Provider Performance</a></li>
             <li>
-              <b><a href="#key-benefits">Key Benefits:</a></b>
+              <b><a href="#mission-enablement">Key Benefits:</a></b>
               <ul>
                 <li><a href="#mission-enablement">Mission Enablement</a></li>
                 <li><a href="#data-for-strategic-decision-making">Data for Strategic Decision-Making</a></li>
