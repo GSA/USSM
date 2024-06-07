@@ -42,7 +42,7 @@ banner: true
               </ul>
               <p><b><a href="#getting-there">Getting There</a></b></p>
               <ul>
-            <li><a href="#enterprise-wide-governance">Modernization Best Practices</a></li>
+            <li><a href="#getting-there">Modernization Best Practices</a></li>
               </ul>
               <p><b><a href="#financial-maturity">Financial Maturity</a></b></p>
               <ul>
