@@ -7,73 +7,87 @@ banner: true
 
 <i>As promulgated to Federal Executive Councils on January 3, 2017 and described in [FederalNewsRadio](https://federalnewsnetwork.com/reporters-notebook-jason-miller/2017/01/stymied-risk-costs-shared-services-office-crafts-four-service-approaches/){:target="_blank"} on January 17, 2017.</i>
 
-<table class="usa-table">
-  <tbody>
-    <tr>
-      <td>
-          <p><b><a href="#benefits-to-customer-agencies">Benefits to Customer Agencies</a></b></p>
-          <ul>
-        <li><a href="#customer-centricity">Customer Centricity</a></li>
-        <li><a href="#customer-experience">Customer Experience</a></li>
-        <li><a href="#provider-performance">Provider Performance</a></li>
-        <li>
-          <b><a href="#key-benefits">Key Benefits:</a></b>
-          <ul>
-            <li><a href="#mission-enablement">Mission Enablement</a></li>
-            <li><a href="#data-for-strategic-decision-making">Data for Strategic Decision-Making</a></li>
-            <li><a href="#improved-cybersecurity">Improved Cybersecurity</a></li>
-            <li><a href="#economies-of-scale-and-buying-power">Economies of Scale and Buying-Power</a></li>
-            <li><a href="#cost-efficiencies">Cost Efficiencies</a></li>
+<div class="usa-accordion padding-bottom-2 padding-top-2">
+  <h2 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="table-of-contents"
+    >
+      Table of Contents
+    </button>
+  </h2>
+  <div id="table-of-contents" class="usa-accordion__content usa-prose">
+    <table class="usa-table usa-table--stacked">
+      <tbody>
+        <tr>
+          <td>
+              <p><b><a href="#benefits-to-customer-agencies">Benefits to Customer Agencies</a></b></p>
+              <ul>
+            <li><a href="#customer-centricity">Customer Centricity</a></li>
+            <li><a href="#customer-experience">Customer Experience</a></li>
+            <li><a href="#provider-performance">Provider Performance</a></li>
+            <li>
+              <b><a href="#key-benefits">Key Benefits:</a></b>
+              <ul>
+                <li><a href="#mission-enablement">Mission Enablement</a></li>
+                <li><a href="#data-for-strategic-decision-making">Data for Strategic Decision-Making</a></li>
+                <li><a href="#improved-cybersecurity">Improved Cybersecurity</a></li>
+                <li><a href="#economies-of-scale-and-buying-power">Economies of Scale and Buying-Power</a></li>
+                <li><a href="#cost-efficiencies">Cost Efficiencies</a></li>
+                </ul>
+                </li>
+              </ul>
+              <p><b><a href="#getting-there">Getting There</a></b></p>
+              <ul>
+            <li><a href="#enterprise-wide-governance">Modernization Best Practices</a></li>
+              </ul>
+              <p><b><a href="#financial-maturity">Financial Maturity</a></b></p>
+              <ul>
+            <li><a href="#financial-maturity">Pricing Strategies</a></li>
+            <li><a href="#financial-maturity">Revolving Funds</a></li>
+            <li><a href="#financial-maturity">Financial Transparency</a></li>
+              </ul>
+              <p><b><a href="#enterprise-wide-governance">Enterprise-wide Governance</a></b></p>
+              <ul>
+            <li><a href="#enterprise-wide-governance">Inclusiveness and Cooperation</a></li>
+              </ul>
+              <p><b><a href="#industry-and-government-cooperation">Industry and Government Cooperation</a></b></p>
+              <ul>
+            <li><a href="#industry-and-government-cooperation">Economies of Skill and Scale</a></li>
+              </ul>
+          </td>
+          <td valign="top">
+            <p><b><a href="#integration-and-interoperability-operating-as-one-government">Integration and Interoperability-Operating as One Government</a></b></p>
+            <ul>
+              <li><a href="#integration-and-interoperability-operating-as-one-government">Mission-Support Marketplace</a></li>
+              <li><a href="#integration-and-interoperability-operating-as-one-government">Standardization of Common Processes</a></li>
+              <li><a href="#integration-and-interoperability-operating-as-one-government">Federal Integrated Business Framework</a></li>
+              <li><a href="#integration-and-interoperability-operating-as-one-government">Service Catalog</a></li>
+              <li><a href="#integration-and-interoperability-operating-as-one-government">Software vs Service Delivery</a></li>
             </ul>
-            </li>
-          </ul>
-          <p><b><a href="#getting-there">Getting There</a></b></p>
-          <ul>
-        <li><a href="#enterprise-wide-governance">Modernization Best Practices</a></li>
-          </ul>
-          <p><b><a href="#financial-maturity">Financial Maturity</a></b></p>
-          <ul>
-        <li><a href="#financial-maturity">Pricing Strategies</a></li>
-        <li><a href="#financial-maturity">Revolving Funds</a></li>
-        <li><a href="#financial-maturity">Financial Transparency</a></li>
-          </ul>
-          <p><b><a href="#enterprise-wide-governance">Enterprise-wide Governance</a></b></p>
-          <ul>
-        <li><a href="#enterprise-wide-governance">Inclusiveness and Cooperation</a></li>
-          </ul>
-          <p><b><a href="#industry-and-government-cooperation">Industry and Government Cooperation</a></b></p>
-          <ul>
-        <li><a href="#industry-and-government-cooperation">Economies of Skill and Scale</a></li>
-          </ul>
-      </td>
-      <td valign="top">
-        <p><b><a href="#integration-and-interoperability-operating-as-one-government">Integration and Interoperability-Operating as One Government</a></b></p>
-        <ul>
-          <li><a href="#integration-and-interoperability-operating-as-one-government">Mission-Support Marketplace</a></li>
-          <li><a href="#integration-and-interoperability-operating-as-one-government">Standardization of Common Processes</a></li>
-          <li><a href="#integration-and-interoperability-operating-as-one-government">Federal Integrated Business Framework</a></li>
-          <li><a href="#integration-and-interoperability-operating-as-one-government">Service Catalog</a></li>
-          <li><a href="#integration-and-interoperability-operating-as-one-government">Software vs Service Delivery</a></li>
-        </ul>
-        <p><b><a href="#transparency-in-performance-and-pricing">Transparency in Performance and Pricing</a></b></p>
-        <ul>
-          <li><a href="#transparency-in-performance-and-pricing">Provider Performance Monitoring</a></li>
-        </ul>
-        <p><b><a href="#geographic-diversity">Geographic Diversity</a></b></p>
-        <ul>
-          <li><a href="#geographic-diversity">Skills, Experience, Education</a></li>
-          <li><a href="#geographic-diversity">Economic support beyond Washington, DC</a></li>
-          <li><a href="#geographic-diversity">More Resilient Government that Delivers</a></li>
-        </ul>
-        <p><b><a href="#a-new-era-for-delivery-of-mission-support">A New Era for Delivery of Mission-Support</a></b></p>
-        <ul>
-          <li><a href="#a-new-era-for-delivery-of-mission-support">Return to Mission-Focus</a></li>
-          <li><a href="#a-new-era-for-delivery-of-mission-support">Serving the American Public</a></li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+            <p><b><a href="#transparency-in-performance-and-pricing">Transparency in Performance and Pricing</a></b></p>
+            <ul>
+              <li><a href="#transparency-in-performance-and-pricing">Provider Performance Monitoring</a></li>
+            </ul>
+            <p><b><a href="#geographic-diversity">Geographic Diversity</a></b></p>
+            <ul>
+              <li><a href="#geographic-diversity">Skills, Experience, Education</a></li>
+              <li><a href="#geographic-diversity">Economic support beyond Washington, DC</a></li>
+              <li><a href="#geographic-diversity">More Resilient Government that Delivers</a></li>
+            </ul>
+            <p><b><a href="#a-new-era-for-delivery-of-mission-support">A New Era for Delivery of Mission-Support</a></b></p>
+            <ul>
+              <li><a href="#a-new-era-for-delivery-of-mission-support">Return to Mission-Focus</a></li>
+              <li><a href="#a-new-era-for-delivery-of-mission-support">Serving the American Public</a></li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
 The Federal government supports the stability, welfare, and prosperity of our nation through agency missions and services delivered to the American people. These services encompass important missions, such as the safety of our national food supply, stabilization of capital and consumer markets, support for scientific and medical research, and the integrity of our national infrastructure, law enforcement, and national defense. As varied as they are, each of these missions relies on similar support processes enabling orderly distribution and accounting of funds, recruitment and training of skilled personnel, payroll processing, and access to the data that informs strategic decision making. 
 
