@@ -5,7 +5,7 @@ permalink: /conops/
 banner: true
 ---
 
-<h2 class="margin-bottom-1"><i>Mission support Concept of Operations | Roles and Responsibilities</i></h2>
+<h2 class="margin-bottom-1"><i>Mission Support Concept of Operations | Roles and Responsibilities</i></h2>
 <i>As promulgated to Federal Executive Councils on January 3, 2017 and described in [FederalNewsRadio](https://federalnewsnetwork.com/reporters-notebook-jason-miller/2017/01/stymied-risk-costs-shared-services-office-crafts-four-service-approaches/){:target="_blank"} on January 17, 2017.</i>
 
 <div class="usa-accordion padding-bottom-2 padding-top-2">
