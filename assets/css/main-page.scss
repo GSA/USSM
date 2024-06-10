@@ -381,3 +381,25 @@ abbr{
     max-height:80%;
 }
 
+/* Specific override for m3-nav */
+@media (min-width: 64em) {
+  @supports (mask: url("")) {
+      .m3-nav .usa-nav__primary button[aria-expanded=false] span::after {
+          background: none;
+          background-color: transparent; 
+          mask-image: none;
+          mask-position: unset;
+          mask-repeat: unset;
+          mask-size: unset;
+      }
+
+      .m3-nav .usa-nav__primary button[aria-expanded=true] span::after {
+        background: none;
+        background-color: transparent; 
+        mask-image: none;
+        mask-position: unset;
+        mask-repeat: unset;
+        mask-size: unset;
+    }
+  }
+}

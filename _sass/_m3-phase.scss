@@ -11,11 +11,14 @@
   .usa-nav__primary button[aria-expanded="true"] {
     background-color: #0b0083;
     background-image: url(../img/usa-icons-bg/remove--white.svg), linear-gradient(transparent, transparent);
+    background-size: 13px 15px;
+    background-position: right 17px top 54%;
   }
   .usa-nav__primary button[aria-expanded="false"] {
     background-image: url(../img/usa-icons-bg/expand_more--white.svg), linear-gradient(transparent, transparent);
     padding-right: 0;
     background-position: right 0 top 53%;
+    background-size: 15px 15px;
   }
   .usa-nav__submenu {
     background-color: #0b0083;
