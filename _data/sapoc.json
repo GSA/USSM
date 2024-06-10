@@ -23,8 +23,8 @@
           },
           {
             "agency": "Department of Education",
-            "sapoc": "Kerry Neal",
-            "title": "Deputy Assistant Secretary for Management and Planning",
+            "sapoc": "TBD",
+            "title": "TBD",
             "logo": "department-of-education.svg"
           },
           {
@@ -49,8 +49,8 @@
           },
           {
             "agency": "Department of Housing and Urban Development",
-            "sapoc": "Kate Darling",
-            "title": "Assistant Chief Financial Officer for Systems",
+            "sapoc": "Patrice Clement",
+            "title": "Senior Technology Advisor",
             "logo": "department-of-housing-and-urban-development.svg"
           },
           {
@@ -108,10 +108,9 @@
           },
           {
             "agency": "National Aeronautics and Space Administration",
-            "sapoc": "Ken Newton",
-            "title": "Director, Service Delivery for the NASA Shared Services Center",
+            "sapoc": "Anita Harrell",
+            "title": "NSSC Executive Director",
             "logo": "national-aeronautics-and-space-administration.svg",
-            "agency_url":"https://www.nasa.gov/people/ken-newton/"
           },
           {
             "agency": "Agency for International Development",
@@ -142,7 +141,7 @@
           {
             "agency": "Office of Personnel Management",
             "sapoc": "Erica Roach",
-            "title": "Acting Chief Financial Officer",
+            "title": "Chief Financial Officer",
             "logo": "office-of-personnel-management.svg",
             "agency_url":"https://www.opm.gov/about-us/our-people-organization/senior-staff-bios/erica-roach/"
           },
