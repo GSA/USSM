@@ -431,6 +431,11 @@ border-top: none;
 
 }
 
+@media screen and (max-width: 425px) {
+  .fibf-media3 {
+    margin-left: -1.5rem;
+  }
+}
 
 
 .active1 {
@@ -448,7 +453,7 @@ border-top: none;
     height: 30px;
     object-fit: contain;
     margin-right:12px;
-    
+
   }
   .usa-nav__link:hover,.usa-current-1 {
     .sidebar-logo {
