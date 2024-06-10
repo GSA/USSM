@@ -1,0 +1,71 @@
+{
+    "title": "Functional Areas",
+    "areas": [
+          {
+            "logo": "acquisitions.png",
+            "title": "Acquisitions",
+            "class": "acquisitions",
+            "group": 1,
+            "inactive": ["travel", "human-capital"]
+          },
+          {
+            "logo": "cyber.png",
+            "title": "Cyber",
+            "class": "cyber",
+            "group": 1
+          },
+          {
+            "logo": "deia.png",
+            "title": "DEIA",
+            "class": "deia",
+            "group": 1
+          },
+          {
+            "logo": "electronic-records.png",
+            "title": "Electronic Records",
+            "class": "electronic-records",
+            "group": 1
+          },
+          {
+            "logo": "financial.png",
+            "title": "Financial",
+            "class": "financial",
+            "group": 1
+          },
+          {
+            "logo": "foia.png",
+            "title": "FOIA",
+            "class": "foia",
+            "group": 1,
+            "inactive": ["financial", "travel", "human-capital", "real-property", "deia", "cyber", "foia", "grants", "acquisitions"]
+          },
+          {
+            "logo": "grants-mag.png",
+            "title": "Grants",
+            "class": "grants",
+            "group": 1,
+            "inactive": ["travel", "real-property"]
+          },
+          {
+            "logo": "human-capital.png",
+            "title": "Human Capital",
+            "class": "human-capital",
+            "group": 1,
+            "inactive": ["acquisition", "real-property"]
+          },
+          {
+            "logo": "real-property-mag.png",
+            "title": "Real Property",
+            "class": "real-property",
+            "group": 1,
+            "inactive": ["travel", "grants", "human-capital"]
+          },
+          {
+            "logo": "travel.png",
+            "title": "Travel",
+            "class": "travel",
+            "group": 1,
+            "inactive": ["grants", "real-property", "acquisition"]
+          }
+    ]
+  }
