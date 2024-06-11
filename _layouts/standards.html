@@ -185,17 +185,23 @@ This template is for a single page that does not have a date associated with it.
             <img src="{{ site.baseurl }}/assets/images/fibf/03.business.use.cases.sm.png" alt="" class="fibf-wheel-image">
           </div>
           <div class="desktop:grid-col-9">
-            {% if page.use-cases-content %}
-              {% include {{ page.use-cases-content }} %}
-            {% else %}
-              {% if page.permalink contains 'fibf-hr' %}
-                <p>
-                  <b>Under Construction</b>
-                </p>
-              {% else %}
+            {% if page.permalink contains 'fibf-hr' %}
+              {% if page.use-cases-content %}
                 <p>
                   <i>A set of agency “stories” that document the key activities, inputs, outputs, and other LOB intersections to describe how the Federal government operates.</i>
                 </p>
+                {% include {{ page.use-cases-content }} %}
+              {% else %}
+                <p>
+                  <b>Under Construction</b>
+                </p>
+              {% endif %}
+            {% else %}
+              <p>
+                <i>A set of agency “stories” that document the key activities, inputs, outputs, and other LOB intersections to describe how the Federal government operates.</i>
+              </p>
+              {% if page.use-cases-content %}
+                {% include {{ page.use-cases-content }} %}
               {% endif %}
             {% endif %}
           </div>
