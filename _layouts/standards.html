@@ -186,11 +186,17 @@ This template is for a single page that does not have a date associated with it.
           </div>
           <div class="desktop:grid-col-9">
             {% if page.use-cases-content %}
-            {% include {{ page.use-cases-content }} %}
+              {% include {{ page.use-cases-content }} %}
             {% else %}
-            <p class="text-center">
-              <b>Under Construction</b>
-            </p>
+              {% if page.permalink contains 'fibf-hr' %}
+                <p class="text-center">
+                  <b>Under Construction</b>
+                </p>
+              {% else %}
+                <p>
+                  <i>A set of agency “stories” that document the key activities, inputs, outputs, and other LOB intersections to describe how the Federal government operates.</i>
+                </p>
+              {% endif %}
             {% endif %}
           </div>
         </div>
