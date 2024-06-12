@@ -1,0 +1,652 @@
+{
+  "Business-Standards": "HR",
+  "Sub-section": "Labor Relations",
+  "Business_Lifecycle":[
+    {
+      "type":"hcm-A8-1",
+      "data":[
+        {
+          "Identifier":"HCM.A8-1.010",
+          "Activity":"Labor Management Relations Program Management",
+          "Description":"Encompasses activities and processes needed to establish and maintain a Labor Management Program. This includes resources management, documentation of relevant authorities, planning documents, partnerships, and a program evaluation capability. \n\nThe service outcome(s) may include, but not be limited to:\n<ul><li>Program management plan (including program governance, scope, goals, priorities, and performance measures)\n</li><li>Resource management plan\n</li><li>Stakeholder alignment matrix\n</li><li>Documentation of labor management relations authorities\n</li><li>List of labor management relations data sources\n</li><li>Documentation of data collection and analysis methods\n</li><li>Communications plan\n</li><li>Program management Standard Operating Procedures (SOPs) that reflect promising practices \n</li><li>Program management document templates</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A8-1.020",
+          "Activity":"Labor Management Relations Program Operations",
+          "Description":"Encompasses routine labor management relations processes and activities, including managing bargaining unit recognition requests, granting national consultative rights, and managing representation rights. Labor Management Relations also includes interpreting applicable law, executive orders, Federal Labor Relations Authority (FLRA) case law, and agency-specific policies, practices, and procedures, as well as providing guidance and recommendations to program and agency leadership.\n\nThe service outcome(s) may include, but not be limited to:\n<ul><li>Program operational plan (including initiatives, deliverables, milestones, and schedule)\n</li><li>List of agency and labor representatives\n</li><li>List of bargaining units\n</li><li>System for managing bargaining unit recognition requests\n</li><li>System for monitoring, documenting, and analyzing official time\n</li><li>System for collecting and managing union dues\n</li><li>Internal and external reporting\n</li><li>Library/repository of labor-management relations reference materials (e.g., 5 U.S.C. Chapter 71, FLRA case law, executive orders, etc.)\n</li><li>Labor Management Relations staff training\n</li><li>Program operations Standard Operating Procedures (SOPs) and task checklists that reflect promising practices\n</li><li>Templates for providing guidance and recommendations to program and agency leadership</li></ul>"
+        }
+      ]
+    },
+    {
+      "type":"hcm-A8-2",
+      "data":[
+        {
+          "Identifier":"HCM.A8-2.010",
+          "Activity":"Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+          "Description":"Developing and implementing an internal SOP (handled IAW an agency(s) Collective Bargaining Agreement (CBA)) for negotiated grievance procedures in accordance with Federal Labor Relations Authority (FLRA) regulations and case law that includes fair, simple, and expeditious processing to resolve disputes (e.g., Alternative Dispute Resolution (ADR), direct negotiations, mediation, factfinding, arbitration and/or litigation) between employees/union and an agency.\n\nThe service outcome(s) may include, but not be limited to:\n<ul><li>Collaboration between all parties involved to find a resolution to a grievance \n</li><li>Internal SOP for addressing grievances \n</li><li>Timely, effective, and consistent responses to employee(s) and union(s) regarding negotiated grievances\n</li><li>Established mechanisms and safeguards that can be used to bring a final resolution to a dispute to omit the need for ADR and third-party proceedings\n</li><li>Labor Management Relations staff training\n</li><li>SOP and best practices for responding to employee/union \n</li><li>Internal documentation for references, consistency and efficiency for addressing grievances (e.g., checklists, response templates, resource files)\n</li></ul>"
+        }
+      ]
+    },
+    {
+      "type":"hcm-A8-3",
+      "data":[
+        {
+          "Identifier":"HCM.A8-3.010",
+          "Activity":"Collective Bargaining Administration (CBA)",
+          "Description":"Planning, developing, and managing agency negotiation practices and responses to proposed key demands between an agency and the exclusive representative that include their terms of employment.\n\nThe service outcome(s) may include, but not be limited to:\n<ul><li> Timely responses to key demands during the construction of a Collective Bargaining Agreement (CBA)\n</li><li>Documentation of agreed upon employment conditions\n</li><li>CBA between federal employers and a group of employees through their unions\n</li><li>Decision on best CBA type needed to address each individual bargaining instance \n</li><li>Effectively address concerns from the employers and the union that affect the workplace using negotiation best practices (e.g., compensation, working conditions and environment, benefits, policies, and procedures)\n</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A8-3.020",
+          "Activity":"Collective Bargaining Agreement (CBA) Operations",
+          "Description":"Managing agency collective bargaining outcome(s) and operations as a continuous process, based on the type of collective bargaining  agreement (CBA).\n\nThe service outcome(s) may include, but not be limited to:\n<ul><li>SOP to manage various Collective Bargaining Agreements (CBAs)\n</li><li>Continual compliance with the CBA\n</li><li>CBA that meets federal guidelines, statutes, and Executive orders to provide a flexible and dynamic process for Federal negotiations (e.g., Federal Service Labor-Management Relations Statute(s) (FSLMR), Title 5 Civil Service Reform Act of 1978)\n</li><li>Methods on how to analyze the union's Demand to Bargain and determine if bargaining obligations exist.\n</li><li>Methods to notify unions of bargaining assessment results\n</li><li>SOP on how to engage in bargaining on matters that are outside the scope of negotiations  </li></ul>"
+        }
+      ]
+    }
+  ],
+  "Business_Capabilities":[
+    {
+      "Capability ID":"HCM.A8-1.010.010",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.010 Labor Management Relations Program Management",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Develop a vision and/or mission for the labor-management relations program that includes the advancement of nontraditional collaborative approaches to labor-management relations. ",
+      "Authoritative Reference":"5 USC Chapter 71"
+    },
+    {
+      "Capability ID":"HCM.A8-1.010.020",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.010 Labor Management Relations Program Management",
+      "Input/Output/Process":"I/P/O",
+      "Business Capability Statement":"Establish and maintain a labor-management relations strategic plan that contains at a minimum: an assessment of the labor-management relationship, goals for the labor-management relations program, and the operating strategy to be used.",
+      "Authoritative Reference":"FLRA GC Guidance on Developing a Labor Relations Strategic Plan -- FLRAgc"
+    },
+    {
+      "Capability ID":"HCM.A8-1.010.030",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.010 Labor Management Relations Program Management",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Ensure that adequate resources (for example, funding for arbitrations and training) are made available to meet program requirements and meet the goals established in the agency's strategic labor-management relations plan. ",
+      "Authoritative Reference":"FLRA GC Guidance on Developing a Labor Relations Strategic Plan -- FLRAgc"
+    },
+    {
+      "Capability ID":"HCM.A8-1.010.040",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.010 Labor Management Relations Program Management",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Define roles and responsibilities for appropriate officials and labor relations practitioners within the agency's labor-management relations program.",
+      "Authoritative Reference":"Dept of Commerce - Labor Management"
+    },
+    {
+      "Capability ID":"HCM.A8-1.010.050",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.010 Labor Management Relations Program Management",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Designate management representatives who will represent the agency before the Federal Labor Relations Authority (FLRA), OPM, and other Federal and non-Federal agencies and organizations in labor-management relations matters.",
+      "Authoritative Reference":"Dept of Commerce - Labor Management"
+    },
+    {
+      "Capability ID":"HCM.A8-1.010.060",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.010 Labor Management Relations Program Management",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Establish and maintain effective relationships with labor organizations that represent Federal employees.",
+      "Authoritative Reference":"5 USC 7101"
+    },
+    {
+      "Capability ID":"HCM.A8-1.010.070",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.010 Labor Management Relations Program Management",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Develop agency-wide methods of measurement that provide a valid assessment of the success of the labor-management relations program.",
+      "Authoritative Reference":"FLRA GC Guidance on Developing a Labor Relations Strategic Plan -- FLRAgc"
+    },
+    {
+      "Capability ID":"HCM.A8-1.010.080",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.010 Labor Management Relations Program Management",
+      "Input/Output/Process":"I/P/O",
+      "Business Capability Statement":"Evaluate the labor-management relations program and use results to identify and implement corrective actions and appropriate changes in agency policies and procedures.",
+      "Authoritative Reference":"FLRA GC Guidance on Developing a Labor Relations Strategic Plan -- FLRAgc"
+    },
+    {
+      "Capability ID":"HCM.A8-1.010.090",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.010 Labor Management Relations Program Management",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule.",
+      "Authoritative Reference":"5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.010",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Develop and issue agency labor-management relations policy.",
+      "Authoritative Reference":"Dept of Commerce - Labor Management"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.020",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Develop regulations or guidelines for labor-management relations program operations.",
+      "Authoritative Reference":"Labor-Management Relations (opm.gov)"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.030",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Provide labor-management relations policy guidance to agency operating units, as needed.",
+      "Authoritative Reference":"FLRA GC Guidance on Developing a Labor Relations Strategic Plan -- FLRAgc"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.040",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Ensure coordination across the organization, components, and/or business units if local labor management units request assistance with local labor issues.  ",
+      "Authoritative Reference":"Dept of Commerce - Labor Management"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.050",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Accord exclusive recognition to a labor organization if the organization has been selected as the representative, in a secret ballot election, by a majority of the employees in an appropriate unit who cast valid ballots in the election and the Federal Labor Relations Authority has issued a  Certification of Unit",
+      "Authoritative Reference":"EO 11491"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.060",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Grant national consultation rights to labor organizations that are accorded exclusive recognition or that are the exclusive representatives of a substantial number of the employees of the agency.",
+      "Authoritative Reference":"EO 11491"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.070",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Inform any labor organization with national consultation rights of any substantive change in conditions of employment proposed by the agency and permit the labor organization reasonable time to present its views and recommendations regarding the changes.",
+      "Authoritative Reference":"EO 11491"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.080",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"I/P",
+      "Business Capability Statement":"Consider any views or recommendations of the labor organization before taking final action on any matter with respect to which the views or recommendations are presented.",
+      "Authoritative Reference":"5 USC 7117"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.090",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Provide the labor organization a written statement of the reasons for taking the final action.",
+      "Authoritative Reference":"5 USC 7113"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.100",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Grant representation rights to labor organizations that are accorded exclusive recognition.",
+      "Authoritative Reference":"5 USC 7114"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.110",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Annually inform employees of their rights under paragraph (2)(B) of 5 U.S.C. 7114. ",
+      "Authoritative Reference":"5 USC 7114"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.120",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Deduct from the pay of the employee amounts for the payment of regular and periodic dues of the exclusive representative of the unit upon receiving  a written assignment from the employee authorizing this allotment.",
+      "Authoritative Reference":"EO 11491"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.130",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Develop and implement a system to monitor the use of official time to ensure that it is used only for authorized purposes.",
+      "Authoritative Reference":"5 USC 7131"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.140",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Grant official time to an employee representing an exclusive representative in the negotiation of a collective bargaining agreement.",
+      "Authoritative Reference":"5 USC 7131"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.150",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Interpret contractual agreements for management engaged in collective bargaining or other labor-management relations processes.",
+      "Authoritative Reference":"5 USC Chapter 71"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.160",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Assess the impact of labor union proposals on agency operations.",
+      "Authoritative Reference":"FLRA GC Guidance on Developing a Labor Relations Strategic Plan -- FLRAgc"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.170",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Advise management on matters related to the administration of contracts or employee discipline or grievance procedures as outlined in collective bargaining agreements.",
+      "Authoritative Reference":"FLRA GC Guidance on Developing a Labor Relations Strategic Plan -- FLRAgc"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.180",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Promote a constructive climate for labor-management relations, taking care to remain impartial and objective toward all subordinates and to maintain the neutrality necessary to ensure that management does not violate any of the rights granted to employees and labor organizations.",
+      "Authoritative Reference":"5 USC 7101"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.190",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Develop and publish minimum labor-management relations training standards and adjust as needed.",
+      "Authoritative Reference":"FLRA GC Guidance on Developing a Labor Relations Strategic Plan -- FLRAgc"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.200",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Train managers and supervisors on topics related to labor-management relations. ",
+      "Authoritative Reference":"FLRA GC Guidance on Developing a Labor Relations Strategic Plan -- FLRAgc"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.210",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Ensure the competence of managers, supervisors, and individuals designated to represent the agency or any of its operating units in the recognition and fulfillment of their labor-management relations responsibilities.",
+      "Authoritative Reference":"FLRA GC Guidance on Developing a Labor Relations Strategic Plan -- FLRAgc"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.220",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Ensure compliance with any applicable law, regulation, or collective bargaining agreement regarding labor-management relations.",
+      "Authoritative Reference":"5 USC Chapter 71"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.230",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Review agency practices or agency data to ensure compliance with contracts.",
+      "Authoritative Reference":"FLRA GC Guidance on Developing a Labor Relations Strategic Plan -- FLRAgc"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.240",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"I/P",
+      "Business Capability Statement":"Maintain labor-management relations records (e.g. FLRA certification and representation decisions, master collective-bargaining agreements, strategic labor-management relations plans, etc.)",
+      "Authoritative Reference":"5 USC 7111"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.250",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Prepare and submit required governmental reports or forms related to labor-management relations matters, such as requests for official time data, processing of union dues allotments, and other labor relations matters.  ",
+      "Authoritative Reference":"5 USC 7131"
+    },
+    {
+      "Capability ID":"HCM.A8-1.020.260",
+      "Function":"HCM.A8-1 Labor Management Relations Administration",
+      "Activity Name":"HCM.A8-1.020 Labor Management Relations Program Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule.",
+      "Authoritative Reference":"5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.010",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"I/P/0",
+      "Business Capability Statement":"Create internal documentation (e.g., an internal SOP checklist, response templates, resource file repositories) on how to progress through negotiated grievances and alternative dispute resolutions for Labor Relation (LR) staff to establish consistency. ",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.020",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Ensure that any negotiated grievance procedure is consistent and simple, provides expeditious processing and consists of exclusive administrative procedures for resolving grievances. ",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.030",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Ensure the negotiated grievance procedure(s) allows an exclusive representative/ employee the opportunity to exercise their right to present a grievance on their own behalf and the exclusive representative be present during the grievance procedures.",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.040",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"O",
+      "Business Capability Statement":"Coordinate and respond to employee(s)/union(s) that initiated grievances in a timely manner.",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.050",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"I/O",
+      "Business Capability Statement":"Address negotiated grievance procedures with alternative dispute resolution methods as needed (e.g., litigation, conciliation, cooperative problem-solving, dispute panels, facilitation, fact finding, interest-based problem solving and bargaining)",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.060",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Verify certain matters are not included in the negotiated grievance procedure where such matters are statutorily excluded from the negotiated grievance procedure (i.e., actions taken for violations of the Hatch Act (political party activity), retirement, life insurance or health insurance, suspension or removal taken in the interest of national security, any examination, certification, or appointment, classification of any position which does not result in the reduction in grade or pay of an employee).",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.070",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"I/P/O",
+      "Business Capability Statement":"Apply Information Security Safeguards to ensure protection of relevant privacy, civil liberties, and personally identifiable information (PII) in regard to employee(s)/union(s).",
+      "Authoritative Reference":"5 USC 552a"
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.080",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"I/O",
+      "Business Capability Statement":"Apply appropriate records management processes and procedures around information gathered from representatives/employees IAW all Federal rules and regulations during the negotiated grievance procedure(s).",
+      "Authoritative Reference":"5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.090",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"If any grievance is not satisfactorily resolved under the negotiated grievance procedure (NGP) IAW applicable federal statutes (e.g. 5 U.S.C. 7121) and the parties have included Alternative Dispute Resolution (ADR) as part of the NGP, an SOP needs to be established regarding use of ADR (e.g., mediation, arbitration,  litigation, conciliation, cooperative problem-solving, dispute panels, facilitation, fact finding, interest-based problem solving and bargaining, settlement conferences, ombudsing (ombudsmen), peer review, and alternative discipline).",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.100",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Establish an SOP that involves third-party binding arbitration proceedings if a grievance is not satisfactorily resolved through the NGP process.",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.110",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"If a grievance from an exclusive representative/employee or union is settled through the negotiated grievance procedure, cease further grievance activities with an individual(s)/union(s)when no longer required. ",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.120",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Ensure arbitration awards issued by arbitrators are implemented (when not challenged to the FLRA) to prevent a potential unfair labor practice (ULP).",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-2.010.130",
+      "Function":"HCM.A8-2 Negotiated Grievances and Third-Party Proceedings",
+      "Activity Name":"HCM.A8-2.010 Labor-Management Dispute Resolution through Negotiated Grievance Procedures and Third-Party Proceedings",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference":"5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.010",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"I/P/O",
+      "Business Capability Statement":"Establish an agency SOP for negotiation best practices and responses to proposed key demands from a union to support Labor Relations (LR) staff for consistency.",
+      "Authoritative Reference":"https://www.linkedin.com/pulse/preparing-union-contract-negotiations-walter-orechwa?trk=articles_directory"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.020",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Bargain in good-faith and in a timely manner when reviewing key demands during the construction of a bargaining agreement.",
+      "Authoritative Reference":"5 USC 7103"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.030",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Determine the best type of bargaining style/method needed for Term or Mid-Term Bargaining (position-based bargaining or interest-based bargaining) in order to reach an agreement.",
+      "Authoritative Reference":"https://www.fmcs.gov/resources/documents-and-data/"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.040",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Ensure a Collective Bargaining Agreement (CBA) includes procedures for the settlement of grievances IAW Federal Statutes and regulations (e.g., 5 U.S.C. 7121(a)(1)).",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.050",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Ensure a Collective Bargaining Agreement (CBA) adheres to all relevant and applicable federal guidelines (e.g., 5 U.S.C 7121, 5 U.S.C 7114, EO 14003, EO 14025) to promote fairness, consistency and transparency from negotiations.",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.060",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"I/P/O",
+      "Business Capability Statement":"Consider working with the union as an agency to establish ground rules for negotiations.",
+      "Authoritative Reference":"EO 13522"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.070",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Consider whether to request assistance from FMCS (Federal Mediation Conciliation Service) and FSIP (Federal Services Impasses Panel) if the negotiations reach an impasse.",
+      "Authoritative Reference":"EO 11491"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.080",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"I/P",
+      "Business Capability Statement":"Ensure a CBA between an agency and an exclusive representative adheres to agency head review (AHR) requirements and is approved by the head of an agency IAW Federal Statutes (i.e., 5 U.S.C 7114 (c)(1)).",
+      "Authoritative Reference":"5 USC 7114"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.090",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"I/O",
+      "Business Capability Statement":"Verify that the appropriate types of CBA are filtered through an agency AHR procedure (e.g., CBA's that include Term and Mid-Term Agreements, automatic rollover provisions following the expiration of the time request to renegotiate, before automatic rollovers, memoranda of agreement, ground rules for negotiation agreements, local agreements that are not subject to review procedures at a higher organizational level, pursuant to a national, other controlling agreements, decisions and orders imposed by the Federal Service Impasses Panel)",
+      "Authoritative Reference":"EO 11491"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.100",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Verify all Agency Head Reviews are processed (approved or disapproved) within 30 calendar days from the date the agreement is fully executed and dated IAW Federal Statutes (i.e., 5 U.S.C 7114 (c)(2))",
+      "Authoritative Reference":"5 USC 7114"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.110",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Establish an internal SOP for handling impasses when parties are engaging in collective bargaining that is IAW Federal procedures and statutory requirements to include mediation or impasse panels. (e.g., 5.U.S.C 7119, Part 2470 of Title 5, CFR)",
+      "Authoritative Reference":"5 USC 7119"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.120",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"O",
+      "Business Capability Statement":"Forward a copy of the agency's collective bargaining  agreement (CBA) and its effective date to OPM. ",
+      "Authoritative Reference":"Collective Bargaining Agreements (opm.gov)"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.130",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Submit new terms and  labor agreements and their expiration dates to OPM within 30 days of its effective date.",
+      "Authoritative Reference":"Collective Bargaining Agreements (opm.gov)"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.140",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Submit new arbitration awards to OPM within 10 business days of receipt.                                ",
+      "Authoritative Reference":"Collective Bargaining Agreements (opm.gov)"
+    },
+    {
+      "Capability ID":"HCM.A8-3.010.150",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.010 Collective Bargaining (CB) Administration",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference":"5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID":"HCM.A8-3.020.010",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.020 Collective Bargaining (CB) Agreement Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Bargain in good-faith and in a timely manner when reviewing key demands during the construction of a bargaining agreement.",
+      "Authoritative Reference":"5 USC 7103"
+    },
+    {
+      "Capability ID":"HCM.A8-3.020.020",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.020 Collective Bargaining (CB) Agreement Operations",
+      "Input/Output/Process":"I/P/O",
+      "Business Capability Statement":"Develop an internal SOP for managing different bargaining styles/methods (e.g., position based bargaining, interest based bargaining) to reach  various types of Collective Bargaining Agreement.",
+      "Authoritative Reference":"Forms & Checklists | FLRA"
+    },
+    {
+      "Capability ID":"HCM.A8-3.020.030",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.020 Collective Bargaining (CB) Agreement Operations",
+      "Input/Output/Process":"O",
+      "Business Capability Statement":"Ensure compliance with the Collective Bargaining Agreement (CBA) and verify through internal processes that the agreed contract is not breached.",
+      "Authoritative Reference":"5 USC 7103"
+    },
+    {
+      "Capability ID":"HCM.A8-3.020.040",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.020 Collective Bargaining (CB) Agreement Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Ensure a Collective Bargaining Agreement (CBA) adheres to all relevant and applicable federal guidelines (e.g., 5 U.S.C 7121, 5 U.S.C 7114) to promote fairness, consistency and transparency from negotiations.",
+      "Authoritative Reference":"5 USC 7121"
+    },
+    {
+      "Capability ID":"HCM.A8-3.020.050",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.020 Collective Bargaining (CB) Agreement Operations",
+      "Input/Output/Process":"I/O",
+      "Business Capability Statement":"Analyze key Demands to Bargain from the union or exclusive representative to make a determination if bargaining obligations exist.",
+      "Authoritative Reference":"5 USC 7114"
+    },
+    {
+      "Capability ID":"HCM.A8-3.020.060",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.020 Collective Bargaining (CB) Agreement Operations",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"If insufficient information is present in the initial analysis of key demands to bargain, request additional information from the union or exclusive representative.",
+      "Authoritative Reference":"EO 11491"
+    },
+    {
+      "Capability ID":"HCM.A8-3.020.070",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.020 Collective Bargaining (CB) Agreement Operations",
+      "Input/Output/Process":"O",
+      "Business Capability Statement":"Notify the union or exclusive representative of the results of the bargaining assessment upon completion of the analysis for demands to bargain.",
+      "Authoritative Reference":"5 USC 7114"
+    },
+    {
+      "Capability ID":"HCM.A8-3.020.080",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.020 Collective Bargaining (CB) Agreement Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Engage in bargaining on negotiable matters under the Federal Service Labor-Management Relations Statute (e.g., 5.U.S.C 7106).",
+      "Authoritative Reference":"5 USC 7106"
+    },
+    {
+      "Capability ID":"HCM.A8-3.020.090",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.020 Collective Bargaining (CB) Agreement Operations",
+      "Input/Output/Process":"I/O",
+      "Business Capability Statement":"Verify that the appropriate types of CBAs are filtered through an agency  Agency Head Review (AHR) procedure. (e.g., CBA's that include Term and Mid-Term Agreements, automatic rollover provisions following the expiration of the time request to renegotiate, before automatic rollovers, memoranda of agreement, ground rules for negotiation agreements, local agreements that are not subject to review procedures at a higher organizational level, pursuant to a national, other controlling agreements, decisions and orders imposed by the Federal Service Impasses Panel).",
+      "Authoritative Reference":"EO 11491"
+    },
+    {
+      "Capability ID":"HCM.A8-3.020.100",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.020 Collective Bargaining (CB) Agreement Operations",
+      "Input/Output/Process":"P/O",
+      "Business Capability Statement":"Ensure that a CBA between an agency and an exclusive representative adheres to agency head review (AHR) requirements and is approved by the head of an agency IAW Federal Statutes (i.e., 5 U.S.C 7114 (c)(1)).",
+      "Authoritative Reference":"5 USC 7114"
+    },
+    {
+      "Capability ID":"HCM.A8-3.020.110",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.020 Collective Bargaining (CB) Agreement Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Maintain record keeping for arbitration awards based on NARA record keeping standards and ensure that each award is properly stored.",
+      "Authoritative Reference":"5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID":"HCM.A8-3.020.120",
+      "Function":"HCM.A8-3 Collective Bargaining",
+      "Activity Name":"HCM.A8-3.020 Collective Bargaining (CB) Agreement Operations",
+      "Input/Output/Process":"P",
+      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference":"5 U.S. Code § 552a "
+    }
+  ],
+  "Business_Use_Cases":"coming soon",
+  "Standard_Data_Elements":{
+    "Standard Data Elements":"/assets/files/downloads/hr/labor-relations/HCM Data Elements_A8 (Labor Relations).xlsx"
+  }
+}
