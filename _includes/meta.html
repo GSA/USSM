@@ -6,7 +6,7 @@ site, this is the place to do it.
 {% assign title = site.title %}
 
 {% if page.title %}
-  {% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}
+  {% capture title %}{{ page.title }}{% if page.url != "/" %} | {{ site.title }}{% endif %}{% endcapture %}
 {% endif %}
 
 {% if page.layout == "m3/phase" %}
