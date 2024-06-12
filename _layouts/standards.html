@@ -33,7 +33,7 @@ This template is for a single page that does not have a date associated with it.
       </div>
       {% endif %}
       <div class="priority-tag-line"><h1 class="margin-y-105 font-ui-l">{{ page.title }}</h1></div>
-      <div class="grid-row">
+      <div id ="fibf-wheel-and-text" class="grid-row">
       {% include fibf-circle.html %}
       <div class="desktop:grid-col-7 mobile:grid-col-12 fibf-wheel-media2">
         <p class="text-italic text-primary font-body-md">Federal Integrated Business Framework (FIBF)</p>
@@ -185,12 +185,24 @@ This template is for a single page that does not have a date associated with it.
             <img src="{{ site.baseurl }}/assets/images/fibf/03.business.use.cases.sm.png" alt="" class="fibf-wheel-image">
           </div>
           <div class="desktop:grid-col-9">
-            {% if page.use-cases-content %}
-            {% include {{ page.use-cases-content }} %}
+            {% if page.permalink contains 'fibf-hr' %}
+              {% if page.use-cases-content %}
+                <p>
+                  <i>A set of agency “stories” that document the key activities, inputs, outputs, and other LOB intersections to describe how the Federal government operates.</i>
+                </p>
+                {% include {{ page.use-cases-content }} %}
+              {% else %}
+                <p>
+                  <b>Under Construction</b>
+                </p>
+              {% endif %}
             {% else %}
-            <p class="text-center">
-              <b>Under Construction</b>
-            </p>
+              <p>
+                <i>A set of agency “stories” that document the key activities, inputs, outputs, and other LOB intersections to describe how the Federal government operates.</i>
+              </p>
+              {% if page.use-cases-content %}
+                {% include {{ page.use-cases-content }} %}
+              {% endif %}
             {% endif %}
           </div>
         </div>
