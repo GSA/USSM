@@ -354,3 +354,25 @@ $( ".pm-page .icon-button" ).on( "click", function() {
 $( ".pm-page .flip-container" ).on( "click", function() {
     $(this).toggleClass('active-card');
 });
+
+function checkWidth() {
+    const parentElement = document.getElementById('fibf-wheel-and-text');
+    const firstChild = parentElement.children[0];
+    const secondChild = parentElement.children[1];
+
+    if (window.innerWidth >= 1225 && window.innerWidth <= 1400) {
+      firstChild.classList.remove('desktop:grid-col-5');
+      secondChild.classList.remove('desktop:grid-col-7');
+      firstChild.classList.add('desktop:grid-col-6');
+      secondChild.classList.add('desktop:grid-col-6');
+    } else {
+      firstChild.classList.remove('desktop:grid-col-6');
+      firstChild.classList.add('desktop:grid-col-5');
+      secondChild.classList.remove('desktop:grid-col-6');
+      secondChild.classList.add('desktop:grid-col-7');
+    }
+}
+
+checkWidth();
+
+window.addEventListener('resize', checkWidth);
