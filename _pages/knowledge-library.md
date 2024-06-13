@@ -8,10 +8,6 @@ title: Federal Shared Services - Knowledge Library
 
 This Knowledge Library serves as a compendium of resources, guidance, and lessons learned to improve stakeholder understanding of the recommended practices and methods to drive successful agency use of shared services across common functions.
 
-[June 2024 Update on Shared Services]({{site.baseurl}}/assets/files/shared-services-update-june-2024.pdf){:target="_blank"}
-<br>
-An update on progress underway by the Office of Shared Solutions and Performance Improvement and service delivery partners to advance the availability and adoption of commercial and Federal shared services.
-
 [OMB Memo M-19-16](https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf){:target="_blank"}<br>
 Foundational policy memo outlining the next steps in a continuously evolving vision for enabling agencies to fully leverage and benefit of shared and centralized services in delivering on their mission-support responsibilities.
 
@@ -38,3 +34,7 @@ Key guidance defining the process, roles, and responsibilities related to review
 
 [Marketplace Capabilities Framework](https://ussm.gsa.gov/assets/files/Marketplace%20Capabilities%20Framework_Deliverable.pdf)<br>
 The Marketplace Capabilities Framework provides a consistent starting point for establishing a marketplace that provides the essential elements needed by agencies to search and discover services that will meet their mission-support needs.
+
+[June 2024 Update on Shared Services]({{site.baseurl}}/assets/files/shared-services-update-june-2024.pdf){:target="_blank"}
+<br>
+An update on progress underway by the Office of Shared Solutions and Performance Improvement and service delivery partners to advance the availability and adoption of commercial and Federal shared services.
