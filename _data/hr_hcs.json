@@ -1,0 +1,2130 @@
+{
+  "Business-Standards": "HR",
+  "Sub-section": "Human Capital Strategy, Policies, & Operation Plan",
+  "Business_Lifecycle": [
+    {
+      "type":"hcm-A1-1",
+      "data":[
+        {
+          "Identifier":"HCM.A1-1.010",
+          "Activity":"Human Capital Strategy Development",
+          "Description":"Conducting environmental scan (e.g., strengths, weaknesses, opportunities, threats [SWOT] analysis, metrics results), strategic document assessment activities (e.g., review of: Agency Strategic Plan, Agency Performance Plan, President's Management Agenda), and workforce data analysis (e.g., of retirement, diversity, turnover, grade distribution data) to develop long-term human capital (HC) strategic goals and objectives, short-term HC initiatives and milestones that align to those goals and strategies, and a HC strategy implementation plan (typically the Human Capital Operating Plan (HCOP)). Includes updating the previous HC strategies, updating results related to each goal, updating and/or rewriting existing goals, developing new goals, and developing gap remediation strategies for each portion of the HC lifecycle. The service outcome(s) will include, but not be limited to:\n<ul><li>Updated HC strategy-related document\n</li><li>Documented modifications to existing HC strategic goals/objectives\n</li><li>Documentation of new HC strategic initiatives/milestones\n</li><li>Documentation of gap remediation strategies</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-1.020",
+          "Activity":"Human Capital Strategy\nImplementation and Monitoring",
+          "Description":"Implementing agency HC strategy implementation plan (typically the Human Capital Operating Plan (HCOP)) and monitoring the results (e.g., reviewing goal metrics/measures; typically through OPM's HRStat program) to ensure strategy implementation is proceeding as planned. The service outcome(s) will include, but not be limited to:\n<ul><li>HC strategy implementation updates and presentations\n</li><li>Functional budget revisions</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-1.030",
+          "Activity":"Human Capital Strategy Data\nAnalysis and Evaluation",
+          "Description":"Gathering and analyzing data (HC and otherwise) to conduct regular (e.g., monthly, quarterly, annually) reviews (typically HRStat, Independent Audit Program (IAP), and/or Human Capital Review (HCR) programs) aimed at informing progress of execution of the HC strategy. This evaluation can include reviewing and analyzing HC strategy metrics, government-wide datasets (e.g., Federal Employee Viewpoint Survey (FEVS)), or other agency or government measurement sources). The service outcome(s) will include, but not be limited to:\n<ul><li>Datasets for use in HC analysis\n</li><li>Formal results documentation of HC strategic goals/objectives and/or initiatives/milestones\n</li><li>Detailed write up of statistical analysis methodologies used\n</li><li>Updates to stakeholders on a regular (i.e., as planned) basis</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-1.040",
+          "Activity":"Human Capital Strategy\nRevision & Stakeholder\nCommunication",
+          "Description":"Developing remediation strategies to resolve gaps found in analysis (e.g., targeted hiring for a specific occupation, training course) from the evolving agency priorities, industry benchmarking, and best practices in similar agencies and organizations. Also, includes updating HC strategy for future planning cycles and presenting final outcomes to stakeholders. The service outcome(s) will include, but not be limited to:\n<ul><li>Documentation of identified gaps\n</li><li>Development of HC strategy results presentation for stakeholders\n</li><li>Documentation of revised HC strategic goals/objectives and/or initiatives/milestones</li></ul>"
+        }
+      ]
+    },
+    {
+      "type":"hcm-A1-2",
+      "data":[
+        {
+          "Identifier":"HCM.A1-2.010",
+          "Activity":"Strategic Workforce Direction",
+          "Description":"Reviewing internal and external factors (i.e., conducting environmental scan) that influence an agency's workforce, and interactively and continuously developing strategies to align the agency's current and future workforce with its business/agency direction. Internal factors can include overall agency and human capital (HC) strategy and/or operating model(s)(typically the Human Capital Operating Plan (HCOP), current metric results, succession planning documents, and budget resources for workforce planning efforts. External factors can include economic conditions, labor force trends, and legal and regulatory changes. The service outcome(s) will include, but not be limited to:\n<ul><li>Workforce planning business case & strategic drivers\n</li><li>Environmental scan (e.g., Strengths, Weaknesses, Opportunities, Threats (SWOT)), or other internal/external research, results (e.g., Political, Economic, Sociological, Technological, Legal, Environmental (PESTLE) analysis)\n</li><li>Workforce planning project plan\n</li><li>Workforce planning report outline</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-2.020",
+          "Activity":"Workforce Analysis",
+          "Description":"Examining the size and/or composition of an agency’s workforce and analyzing the agency's current and future workforce needs and priorities. Includes developing projections or forecasts of future workforce requirements, and identifying potential gaps to inform a workforce action plan to eliminate gaps. Additional analyses may include competency and skill gap analysis, as well as other critical HC analyses (e.g., retention analysis, engagement analysis). The service outcome(s) will include, but not be limited to:\n<ul><li>Results from supply analysis that calculate current workforce and forecast expected future workforce\n</li><li>Results from demand analysis that outline current workforce needs and forecast expected future workforce requirements\n</li><li>Results from analysis observing differences between current and future workforce supply and demand (i.e., gap analysis)\n</li><li>Anticipated legal and regulatory change report\n</li><li>Turnover and retirement projection report\n</li><li>Competency inventory report, as applicable\n</li><li>Organizational health/culture assessment report, as applicable\n</li><li>Business process/workflow analysis report, as applicable\n</li><li>Return on investment (ROI) projection, as applicable</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-2.030",
+          "Activity":"Workforce Action Plan Development",
+          "Description":"Developing an action plan to address critical gaps between an agency's current and anticipated future workforce and workforce needs. The workforce action plan must include specific actions to take to address workforce gaps or surpluses, including details on who, when, where, and how actions will be taken. The workforce action plan can include services across HC functions. The service outcome(s) will include, but not be limited to:\n<ul><li>Strategic and operational workforce action plan to address workforce gaps/surpluses, including:\n</li><li>Workforce models\n</li><li>Risk forecast and mitigation plan\n</li><li>Change management plan\n</li><li>Communications plan\n</li><li>Resource/budget plan\n</li><li>Recruiting/hiring/staffing plan, as applicable\n</li><li>Retention plan, as applicable\n</li><li>Talent/performance management plan, as applicable\n</li><li>Talent development/training plan, as applicable\n</li><li>Succession plan for leadership positions, as applicable\n</li><li>Process or workflow redesign plan, as applicable\n</li><li>Scenario/contingency plan, as applicable\n</li><li>Workforce action plan outcome performance/evaluation measures</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-2.040",
+          "Activity":"Workforce Action Plan Implementation and Evaluation",
+          "Description":"Initiating and monitoring the workforce action plan and assessing the effectiveness of the workforce planning effort(s). Often includes communicating and coordinating with leaders across HC functions, engaging in regular change management and communications activities, and revising/updating the workforce action plan, as needed. Additionally, presentation of the entire plan, or portions of the plan, may be required within this service. The service outcome(s) will include, but not be limited to:\n<ul><li>Implementation of workforce action plan\n</li><li>Workforce planning evaluation report, including:\n</li><li>Workforce planning effort performance assessment\n</li><li>Revised workforce action plan, as applicable\n</li><li>Workforce action plan actual return on investment (ROI), as applicable</li></ul>"
+        }
+      ]
+    },
+    {
+      "type":"hcm-A1-3",
+      "data":[
+        {
+          "Identifier":"HCM.A1-3.010",
+          "Activity":"Position Classification or\nPosition Management Consultation",
+          "Description":"Defining a customer mission-oriented need and determining response time and specific plan to support the customer based on their request. The service outcome(s) will include, but not be limited to:\n<ul><li>A project plan for position classification or position management effort, if required for complex actions\n</li><li>Previously completed position classification or position management deliverables as defined\n</li><li>Expert position classification and/or position management advice\n</li><li>Initial starting point for subject matter experts who participate in later parts of the position classification and/or position management process</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-3.020",
+          "Activity":"Existing Position\nReclassification or Recertification",
+          "Description":"Assessing a currently existing position, including reviewing subject matter expert defined position requirements and position classification standards to update existing position description(s) or other position classification or position management-related documentation due to changes in the customer agency organization (e.g., policy change, mission changes, change to position duties). The service outcome(s) will include, but not be limited to:\n<ul><li>An updated position description, if requested and applicable\n</li><li>Documented position classification analysis results, if requested and applicable\n</li><li>Related position description documentation (e.g., cover sheet, position designations), if requested and applicable\n</li><li>Completed official evaluation statement, if requested and applicable\n</li><li>Results of a requested desk audit, if requested and applicable\n</li><li>Standardized/generic position descriptions, if requested and applicable\n</li><li>The creation of career ladders (adding to clarity of career development), if requested and applicable</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-3.030",
+          "Activity":"New Position Classification\nand Certification",
+          "Description":"Conducting an assessment of classification for a new position or job. This incudes reviewing previously conducted job analysis, if available, and other materials (e.g., reviewing organizational structure to validate position meets organizational requirements, hiring manager documentation of hiring needs). The service outcome(s) will include, but not be limited to:\n<ul><li>A new position description and related documentation (e.g., cover sheet, position designations)\n</li><li>Completed official evaluation statement\n</li><li>Documented position classification analysis results\n</li><li>Standardized/generic position descriptions, if requested and applicable\n</li><li>The creation of career ladders (adding to clarity of career development), if requested and applicable</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-3.040",
+          "Activity":"Position Structure\nDevelopment (for New and Existing\nOrganizations)",
+          "Description":"Developing a new position structure for an organization, including making recommendations for position requirements, skill requirements, knowledge requirements and grade structure, among other components of the recommendations. The service outcome(s) will include, but not be limited to:\n<ul><li>Organizational and/or grade structure for organization, if requested and applicable\n</li><li>Resourcing options for each position defined, if requested and applicable\n</li><li>Updated organizational chart defining new/changed functions, if requested and applicable\n</li><li>Updated/new/abolished positions and offices, if requested and applicable</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-3.050",
+          "Activity":"Position Classification or\nPosition Management Program\nEvaluation",
+          "Description":"Conducting a program evaluation/review focused on current classification and/or position management outputs and practices to identify noncompliance issues, lack of sufficient detail, and opportunities to streamline operations. The service outcome(s) will include, but not be limited to:\n<ul><li>Program evaluation report focused on position classification results including, but not limited to, identified gaps, gap closure strategies and relevant rules and regulations to be followed\n</li><li>Inputs and/or results provided to centralized position repository, if requested and applicable\n</li><li>Recommended changes to position classification processes and/or documentation (if applicable) or position management (organizational structure, supervisory staffing levels), if requested and applicable</li></ul>"
+        }
+      ]
+    },
+    {
+      "type":"hcm-A1-4",
+      "data":[
+        {
+          "Identifier":"HCM.A1-4.010",
+          "Activity":"Employee Engagement Program Planning",
+          "Description":"Producing employee engagement program strategic direction (e.g., mission, vision, goals, guiding principles, and objectives); and developing related program planning documentation. This service may include defining specific employee engagement initiatives and related monitoring and assessment plans and methodologies; producing employee engagement program operating and/or management plans; identifying strategic organizational partnerships and continuous improvement opportunities; and conducting data-driven evaluations of employee engagement-related organizational strengths and areas for improvement. The service outcome(s) may include, but not be limited to:\n<ul><li>Participant/target audience inclusion criteria and planning for employee engagement initiative efforts (e.g., planned initiatives across employee types, such as full-time employees, contractors, etc.)\n</li><li>Organizational stakeholder program planning input (stakeholders may include functional managers, supervisors, collective bargaining units, labor relations officials, employees, employee affinity/resource groups, etc.) \n</li><li>Defined employee engagement program strategic direction (e.g., mission, vision, goals, guiding principles, and objectives)\n</li><li>Internal and/or external employee engagement baseline data and benchmarking resources\n</li><li>Employee engagement program operating plan (Note: planning is required in all of these areas, but only in some cases will the planning result in a formal plan):\n<ul><li>Employee engagement initiatives (in-person communication, engagement workshops, training and development, morale exchange councils, etc.), aligned with agency and/or human capital strategy\n</li><li>Employee engagement communications plan\n</li><li>Employee engagement change management plan\n</li><li>Employee engagement organizational stakeholder management plan \n</li><li>Employee engagement scope, schedule, and/or budget management plans\n</li><li>Employee engagement resource management plan (including technology/system, human resources, and contracting/employee management plans)</li></ul></li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-4.020",
+          "Activity":"Employee Engagement Data Collection",
+          "Description":"Planning, developing, administering or collecting employee engagement data throughout the employee engagement program lifecycle, and distributing employee engagement analysis results to organizational stakeholders. The aim of this service is the collection and measurement of important employee engagement-related data from employees, though a potential variety of means (the Federal Employee Viewpoint Survey (FEVS), agency-developed engagement surveys, pulse surveys, interviews/focus groups, etc.). The service outcome(s) may include, but not be limited to:\n<ul><li>Organization-wide employee engagement data collection plan\n</li><li>Documented decision to develop organization-specific or shared service provider employee engagement data collection solution (Note: the OPM administered Federal Employee Viewpoint Survey is often selected)\n</li><li>Supplemental employee engagement feedback gathering tools (e.g., pulse surveys, supervisor check-ins, focus group protocol)\n</li><li>Final employee engagement analysis results communication plan to disseminate results across organizational levels and audiences (department, agency, bureau, office, division, units, etc.)\n</li><li>Documented employee engagement data collection technical report (including employee participation rates across employee type, organizational categories, and/or organizational levels), as needed according to audience\n</li><li>Ad-hoc custom reporting capability for stakeholder requests/inquiries (from functional managers, supervisors, collective bargaining units, labor relations officials, employees, employee affinity/resource groups, etc.)</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-4.030",
+          "Activity":"Employee Engagement Analysis and Evaluation",
+          "Description":"Analyzing employee engagement initiative and overall program data. This service may include computing defined employee engagement-related metrics; analyzing employee engagement initiative results relative to program planning documents; and determining solutions for identified employee engagement challenges (if any). The service outcome(s) may include, but not be limited to:\n<ul><li>Organization-wide employee engagement data analysis plan, to include:\n<ul><li>Plan for identifying, acquiring, and organizing disparate employee engagement data into centralized location/dataset\n</li><li>Plan for cleaning or otherwise preparing raw employee engagement data for analysis\n</li><li>Data analysis plan, including selecting the appropriate analyses to conduct (e.g., correlation analysis, index computation) \n</li><li>Analysis and evaluation plan\n</li></ul></li><li>Computed employee engagement metrics (e.g., Employee Engagement Index (EEI), Global Satisfaction Index (GSI), or agency-specific employee engagement metrics)\n</li><li>Employee engagement initiative and overall program evaluation results\n</li><li>Findings of gap analysis between employee engagement program goals/objectives and final results\n</li><li>Analysis of relationship between employee engagement initiative results and organizational outcomes of interest (voluntary turnover, employee performance, return on investment, mission accomplishment, etc.), if possible\n</li><li>Employee engagement initiative evaluation status reports (e.g., HRStat reviews)</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-4.040",
+          "Activity":"Employee Engagement Action Planning",
+          "Description":"Producing data-driven action plans to address specific organizational employee engagement challenges (improving engagement scores for particular engagement measure, functional unit, etc.) . This service may include reviewing employee engagement program analysis and evaluation results and key findings; identifying particular actions to improve employee engagement efforts; developing policies or organizational actions to remove workplace constraints/barriers and improve factors/conditions related to employee engagement; and following-up on action plans with organizational stakeholders, as needed. The service outcome(s) may include, but not be limited to:\n<ul><li>Action plans for specific employee engagement initiatives, scores on engagement measures/variables, functional units, and/or focus areas\n</li><li>Action plan evaluation criteria (e.g., action plan milestones/deadlines, Service Measures)\n</li><li>Collaborative stakeholder employee engagement guidance, coaching, and support\n</li><li>Organizational stakeholder action planning input (from functional managers, supervisors, collective bargaining units, labor relations officials, employees, employee affinity/resource groups, etc.)\n</li><li>Employee engagement initiative guidance, tools, and/or resources for organizational stakeholders (employee engagement data report/dashboard generation tool, employee engagement communications package/template, employee engagement leading practices toolkit, employee engagement shared webpage, action planning guidance documents, employee engagement data collection cheat sheet, employee performance management plans, employee individual development plans (IDPs), employee engagement index heat map, etc.)</li></ul>"
+        },
+        {
+          "Identifier":"HCM.A1-4.050",
+          "Activity":"Employee Engagement Program Management",
+          "Description":"Implementing and monitoring employee engagement initiatives, according to program planning documents and strategic direction. This service may include commencing planned employee engagement initiatives; reviewing employee engagement initiative progress across organizational factors (e.g., employee type, organizational categories and/or levels); continuously collecting employee engagement initiative information (e.g., stakeholder feedback, data collection results); supporting organizational stakeholders (functional managers, supervisors, collective bargaining units, employees, etc.); revising employee engagement program planning documents, as necessary; and preparing employee engagement key findings reports to inform employee engagement action planning activities. The service outcome(s) may include, but not be limited to:\n<ul><li>Organizational point of contact for employee engagement efforts\n</li><li>Coordination of organizational employee engagement activities\n</li><li>Employee engagement interpretation guidance for employees (i.e., helping employees understand their results)\n</li><li>Employee engagement program planning document (e.g., employee engagement program operating plan and/or related component plans) change requests\n</li><li>Program implementation reports, as needed (e.g., status reports, deliverables, milestones)\n</li><li>Advisory/consultative support for organizational stakeholders (functional managers, supervisors, collective bargaining units, labor relations officials, employees, employee affinity/resource groups, etc.)\n</li><li>Overall employee engagement program key findings report (across employee engagement initiatives)</li></ul>"
+        }
+      ]
+    }
+  ],
+  "Business_Capabilities": [
+    {
+      "Capability ID": "HCM.A1-1.010.010",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.010 Human Capital Strategy Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Engage relevant cross-functional leadership stakeholders to establish strategic direction.",
+      "Authoritative Reference": "Human Capital Operating Plan"
+    },
+    {
+      "Capability ID": "HCM.A1-1.010.020",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.010 Human Capital Strategy Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Ensure HC strategy covers all four Human Capital Framework (HCF) systems (i.e., Strategic Planning and Alignment, Talent Management, Performance Culture, and Evaluation).",
+      "Authoritative Reference": "5 CFR 250.203"
+    },
+    {
+      "Capability ID": "HCM.A1-1.010.030",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.010 Human Capital Strategy Development",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Use agency data to assess the current state of agency HC management (e.g., policies, processes, and stakeholder input on programs and organizational challenges, strengths, and priorities).",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-1.010.040",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.010 Human Capital Strategy Development",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "When possible, compare HC strategies against baselines and/or benchmarks.",
+      "Authoritative Reference": "5 CFR 250.202 (standard)"
+    },
+    {
+      "Capability ID": "HCM.A1-1.010.050",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.010 Human Capital Strategy Development",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Develop agency HC strategy in alignment with broader internal factors (e.g., Agency Strategic Plan, Agency Performance Plan, workforce plan, and external factors (e.g., Federal Workforce Priority Report, President's Management Agenda, labor market conditions)).",
+      "Authoritative Reference": "5 CFR 250.205"
+    },
+    {
+      "Capability ID": "HCM.A1-1.010.060",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.010 Human Capital Strategy Development",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "When appropriate, develop short-term HC (i.e., within one fiscal year) milestones/initiatives, as well as long-term (i.e., one or more fiscal years) HC strategic goals/objectives.",
+      "Authoritative Reference": "Human Capital Operating Plan"
+    },
+    {
+      "Capability ID": "HCM.A1-1.010.070",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.010 Human Capital Strategy Development",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Specify purpose and scope (e.g., time period, data sources and analysis methodologies) for each HC strategic goal/objective.",
+      "Authoritative Reference": "5 CFR 250.201"
+    },
+    {
+      "Capability ID": "HCM.A1-1.010.080",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.010 Human Capital Strategy Development",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce specific action plans (e.g., timeframes for completion, responsible parties, milestones) for achieving short-term HC initiatives/milestones, and long-term HC strategic goals/objectives, including anticipated current and future risks and challenges, and strategies to mitigate those risks and challenges.",
+      "Authoritative Reference": "5 CFR 250.204 d (5ii)"
+    },
+    {
+      "Capability ID": "HCM.A1-1.010.090",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.010 Human Capital Strategy Development",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Develop HC strategic goal/objective evaluation analysis plans (e.g., success indicators tied to HC metrics/targets; typically OPM's HRStat program) that allow data-driven conclusions to be drawn.",
+      "Authoritative Reference": "5 CFR 250.203"
+    },
+    {
+      "Capability ID": "HCM.A1-1.010.100",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.010 Human Capital Strategy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Coordinate HC strategic goals/objectives with relevant agency programs/offices (e.g., budgeting office). ",
+      "Authoritative Reference": "5 CFR 250.203"
+    },
+    {
+      "Capability ID": "HCM.A1-1.010.110",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.010 Human Capital Strategy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Incorporate an independent audit mechanism (internal or external to the agency; typically through OPM's Independent Audit Program (IAP)) to review the HC strategic goal/objective design and implementation and ensure plan effectiveness, efficiency, and legal and regulatory compliance.",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-1.010.120",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.010 Human Capital Strategy Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-1.020.100",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.020 Human Capital Strategy Implementation and Monitoring",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Coordinate HC strategic goals/objectives with relevant agency programs/offices (e.g., budgeting office). ",
+      "Authoritative Reference": "5 CFR 250.203"
+    },
+    {
+      "Capability ID": "HCM.A1-1.020.020",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.020 Human Capital Strategy Implementation and Monitoring",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Incorporate an independent audit mechanism (internal or external to the agency; typically through OPM's Independent Audit Program (IAP)) to review the HC strategic goal/objective design and implementation and ensure plan effectiveness, efficiency, and legal and regulatory compliance.",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-1.020.030",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.020 Human Capital Strategy Implementation and Monitoring",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Follow data cleaning best practices to ensure HC evaluation data is accurate, valid, and reliable.",
+      "Authoritative Reference": "36 CFR 1236.10"
+    },
+    {
+      "Capability ID": "HCM.A1-1.020.040",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.020 Human Capital Strategy Implementation and Monitoring",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Implement collaborative information-sharing capability for stakeholders involved across implementation and evaluation phases (e.g., shared file folders).",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-1.020.050",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.020 Human Capital Strategy Implementation and Monitoring",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-1.030.010",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.030 Human Capital Strategy Data Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Incorporate an independent audit mechanism (internal or external to the agency; typically through OPM's Independent Audit Program (IAP)) to review the HC strategic goal/objective design and implementation and ensure plan effectiveness, efficiency, and legal and regulatory compliance.",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-1.030.020",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.030 Human Capital Strategy Data Analysis and Evaluation",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Follow data cleaning best practices to ensure HC evaluation data is accurate, valid, and reliable.",
+      "Authoritative Reference": "36 CFR 1236.10"
+    },
+    {
+      "Capability ID": "HCM.A1-1.030.030",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.030 Human Capital Strategy Data Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Implement collaborative information-sharing capability for stakeholders involved across implementation and evaluation phases (e.g., shared file folders).",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-1.030.040",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.030 Human Capital Strategy Data Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Review performance data (e.g., metrics/measures, key milestones; typically through OPM's HRStat program) to determine success in implementing the HC strategic goals/objectives.",
+      "Authoritative Reference": "Human Capital Operating Plan"
+    },
+    {
+      "Capability ID": "HCM.A1-1.030.050",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.030 Human Capital Strategy Data Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Conduct regular (i.e., at least twice yearly) evaluations of HC strategic goals/objectives to assess progress (typically through OPM's Human Capital Review (HCR) program).",
+      "Authoritative Reference": "5 CFR 250.206"
+    },
+    {
+      "Capability ID": "HCM.A1-1.030.060",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.030 Human Capital Strategy Data Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-1.040.010",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.040 Human Capital Strategy Revision & Stakeholder\nCommunication",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Revise HC strategic goals/objectives (to include associated action plans and performance measures) as needed, based on data-driven review results.",
+      "Authoritative Reference": "Human Capital Operating Plan"
+    },
+    {
+      "Capability ID": "HCM.A1-1.040.020",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.040 Human Capital Strategy Revision & Stakeholder\nCommunication",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Present HC strategic goal/objective performance data and/or lessons learned to relevant stakeholders.",
+      "Authoritative Reference": "5 CFR 250.205"
+    },
+    {
+      "Capability ID": "HCM.A1-1.040.030",
+      "Function": "HCM.A1-1 Human Capital Strategy",
+      "Activity Name": "HCM.A1-1.040 Human Capital Strategy Revision & Stakeholder\nCommunication",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-2.010.010",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.010 Strategic Workforce Direction",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Review key workforce planning inputs (e.g., human capital (HC) strategy/operating plan (HCOP), agency strategic plan, budget resources, performance reporting) to analyze the current and future workforce state and scope the workforce planning effort.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.010.020",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.010 Strategic Workforce Direction",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Communicate business case for the workforce planning effort.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.010.030",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.010 Strategic Workforce Direction",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Produce and update a workforce planning dictionary/terminology guide to standardize terms, data/metrics, and processes.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.010.040",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.010 Strategic Workforce Direction",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Assemble a cross-functional workforce planning team to improve the diversity of team knowledge, skills, and abilities and enhance effort communications and buy-in. ",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.010.050",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.010 Strategic Workforce Direction",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Establish a communication strategy to create shared expectations, promote transparency, and report progress to stakeholders.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.010.060",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.010 Strategic Workforce Direction",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Establish a workforce analysis plan, to include data sources, data collection timeline, data security/integrity guidance, and standardized data analysis methodologies.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.010.070",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.010 Strategic Workforce Direction",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Collect information from representative subject matter experts (e.g., survey, hold interviews/focus groups) to inform development of measurable draft workforce drivers.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.010.080",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.010 Strategic Workforce Direction",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Translate the key workforce planning inputs (e.g., HC strategy/operating plan (HCOP), agency strategic plan, budget resources, performance reporting) into measurable draft workforce drivers.",
+      "Authoritative Reference": "HRStat"
+    },
+    {
+      "Capability ID": "HCM.A1-2.010.090",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.010 Strategic Workforce Direction",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-2.020.010",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.020 Workforce Analysis",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Translate the key workforce planning inputs (e.g., HC strategy/operating plan (HCOP), agency strategic plan, budget resources, performance reporting) into measurable draft workforce drivers.",
+      "Authoritative Reference": "HRStat"
+    },
+    {
+      "Capability ID": "HCM.A1-2.020.020",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.020 Workforce Analysis",
+      "Input/Output/Process": "I ",
+      "Business Capability Statement": "Use workload drivers identified in strategic direction to operationalize workforce analysis.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.020.030",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.020 Workforce Analysis",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Collect relevant qualitative and quantitative workforce data from several sources, including data on workforce demographics, headcount, and skills/competencies.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.020.040",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.020 Workforce Analysis",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Conduct workforce gap analysis, including staffing and, when possible, skills/competencies gaps/surpluses.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.020.050",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.020 Workforce Analysis",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "When possible, incorporate scenario-based workforce planning techniques to inform supply and demand model scenarios (e.g., increase/decrease in funding levels, opening/closing of missions, internal/external workforce factors).",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.020.060",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.020 Workforce Analysis",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "When possible, conduct root cause analysis to develop a deeper understanding of underlying causes of workforce gaps/surpluses.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.020.070",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.020 Workforce Analysis",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "When possible, produce a workforce planning tool that enables real-time workforce tracking/updating capabilities.",
+      "Authoritative Reference": "HRStat"
+    },
+    {
+      "Capability ID": "HCM.A1-2.020.080",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.020 Workforce Analysis",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Include workforce action plan performance metrics that align with agency and/or federal goals/objectives (e.g., employee productivity, turnover rate, training return on investment). ",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.020.090",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.020 Workforce Analysis",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Present workforce data in meaningful, easy to understand ways (e.g., use data visualizations, charts, tables, narrative descriptions).",
+      "Authoritative Reference": "HRStat"
+    },
+    {
+      "Capability ID": "HCM.A1-2.020.100",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.020 Workforce Analysis",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.010",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Translate the key workforce planning inputs (e.g., HC strategy/operating plan (HCOP), agency strategic plan, budget resources, performance reporting) into measurable draft workforce drivers.",
+      "Authoritative Reference": "HRStat"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.020",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "When possible, produce a workforce planning tool that enables real-time workforce tracking/updating capabilities.",
+      "Authoritative Reference": "HRStat"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.030",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Include workforce action plan performance metrics that align with agency and/or federal goals/objectives (e.g., employee productivity, turnover rate, training return on investment). ",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.040",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Present workforce data in meaningful, easy to understand ways (e.g., use data visualizations, charts, tables, narrative descriptions).",
+      "Authoritative Reference": "HRStat"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.050",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Ensure workforce action plan outlines clear action owners.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.060",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "When possible, use a data-driven approach to prioritizing gap/surplus closure actions.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.070",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Identify workforce planning strategies to address workforce gap/surplus root causes.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.080",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Include implementation methodology and timeframe in the workforce action plan (e.g., phased roll-out versus full roll-out).",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.090",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "When appropriate, include succession and career planning initiatives as part of the workforce action plan.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.100",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Weigh the costs, benefits, and risks of addressing workforce gaps/surpluses through different HC functions to select the most appropriate workforce action plan(s).",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.110",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Include milestones to assess/monitor workforce action plan performance.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.120",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "When possible, ensure workforce action plan addresses skill/competency gaps. ",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.130",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Coordinate workforce planning solutions with budgeting/funding office to ensure/justify funding for planned solutions.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.140",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Communicate anticipated new processes, programs, and/or IT systems associated with the workforce action plan to relevant stakeholders.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.150",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Involve relevant cross-functional stakeholders in developing and implementing workforce action plans.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.030.160",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.030 Workforce Action Plan Development",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-2.040.010",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.040 Workforce Action Plan Implementation and Evaluation",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Present workforce data in meaningful, easy to understand ways (e.g., use data visualizations, charts, tables, narrative descriptions).",
+      "Authoritative Reference": "HRStat"
+    },
+    {
+      "Capability ID": "HCM.A1-2.040.020",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.040 Workforce Action Plan Implementation and Evaluation",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Involve relevant cross-functional stakeholders in developing and implementing workforce action plans.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.040.030",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.040 Workforce Action Plan Implementation and Evaluation",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Regularly assess/evaluate workforce action plan performance and changes in the internal and external environment to identify necessity of action plan changes.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.040.040",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.040 Workforce Action Plan Implementation and Evaluation",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Revise workforce plans in response to relevant agency mission/operating environment changes (e.g., new regulatory requirements). ",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.040.050",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.040 Workforce Action Plan Implementation and Evaluation",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Collect stakeholder feedback and/or satisfaction/experience data throughout workforce planning effort.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.040.060",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.040 Workforce Action Plan Implementation and Evaluation",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Establish workforce planning information resources (e.g., frequently asked questions). ",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-2.040.070",
+      "Function": "HCM.A1-2 Workforce Planning",
+      "Activity Name": "HCM.A1-2.040 Workforce Action Plan Implementation and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.010",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Update or create the position description documentation (e.g., cover sheet, position designations) and route or upload to appropriate position description repository and/or other management systems.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.020",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Receive and process position classification and/or position management requests that identify required information or analysis that must be completed (e.g., fragmentation, layering, job dilution, unnecessary positions, missing career ladders, PD inconsistency, narrow supervisory ratios).",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.030",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Review request received from agency customer to ensure action is within position classification and/or position management scope and if request needs to be referred to a different Federal human capital (HC) function.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.040",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Identify position, job, roles, or organization of focus for particular request.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.050",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Review relevant existing templates, standards, organizational charts, analysis results, and/or position documentation for this particular area (e.g., position, role, organization).",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.060",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Communicate and collaborate with subject matter experts and/or hiring manager related to a specific job, position, role, or organization.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.070",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Confer with other knowledgeable position classification and/or position management staff on policy issues, or specific issues related to the request.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.080",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Review provided position and/or organization-related descriptions and/or content.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.090",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Locate and send specific required documentation that may already exist and needs no alterations.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.100",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "I ",
+      "Business Capability Statement": "Communicate and collaborate with stakeholders related to policy, process, or procedure changes that may impact organizational position classification and/or position management activities.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.110",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Conduct position classification evaluation based on relevant position classification standard(s) to document classification analysis.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.120",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide official position classification or position management results and associated documentation to requesting customer.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.130",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Create structure documentation for the new organization and provide to the appropriate document management system, or related official publication process.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.010.140",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.010 Position Classification or Position Management Consultation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.010",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Update or create the position description documentation (e.g., cover sheet, position designations) and route or upload to appropriate position description repository and/or other management systems.",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.020",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Receive and process position classification and/or position management requests that identify required information or analysis that must be completed (e.g., fragmentation, layering, job dilution, unnecessary positions, missing career ladders, PD inconsistency, narrow supervisory ratios).",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.030",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Review request received from agency customer to ensure action is within position classification and/or position management scope and if request needs to be referred to a different Federal human capital (HC) function.",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.040",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide deliverable according to agreed-upon timeframe or metrics for executing position classification and/or position management actions.",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.050",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Identify position, job, roles, or organization of focus for particular request.",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.060",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Review relevant existing templates, standards, organizational charts, analysis results, and/or position documentation for this particular area (e.g., position, role, organization).",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.070",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Communicate and collaborate with subject matter experts and/or hiring manager related to a specific job, position, role, or organization.",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.080",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Confer with other knowledgeable position classification and/or position management staff on policy issues, or specific issues related to the request.",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.090",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Review provided position and/or organization-related descriptions and/or content.",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.100",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Locate and send specific required documentation that may already exist and needs no alterations.",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.110",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Communicate and collaborate with stakeholders related to policy, process, or procedure changes that may impact organizational position classification and/or position management activities.",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.120",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Conduct position classification evaluation based on relevant position classification standard(s) to document classification analysis.",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.130",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide official position classification or position management results and associated documentation to requesting customer.",
+      "Authoritative Reference": "5 USC 5110"
+    },
+    {
+      "Capability ID": "HCM.A1-3.020.140",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.020 Existing Position Reclassification or Recertification",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.010",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Update or create the position description documentation (e.g., cover sheet, position designations) and route or upload to appropriate position description repository and/or other management systems.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.020",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Receive and process position classification and/or position management requests that identify required information or analysis that must be completed (e.g., fragmentation, layering, job dilution, unnecessary positions, missing career ladders, PD inconsistency, narrow supervisory ratios). ",
+      "Authoritative Reference": "5 USC 511.701 "
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.030",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Review request received from agency customer to ensure action is within position classification and/or position management scope and if request needs to be referred to a different Federal human capital (HC) function.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.040",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Provide deliverable according to agreed-upon timeframe or metrics for executing position classification and/or position management actions.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.050",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Identify position, job, roles, or organization of focus for particular request.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.060",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Review relevant existing templates, standards, organizational charts, analysis results, and/or position documentation for this particular area (e.g., position, role, organization).",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.070",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Communicate and collaborate with subject matter experts and/or hiring manager related to a specific job, position, role, or organization.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.080",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Confer with other knowledgeable position classification and/or position management staff on policy issues, or specific issues related to the request.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.090",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Review provided position and/or organization-related descriptions and/or content.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.100",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Locate and send specific required documentation that may already exist and needs no alterations.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.110",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Communicate and collaborate with stakeholders related to policy, process, or procedure changes that may impact organizational position classification and/or position management activities.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.120",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Conduct position classification evaluation based on relevant position classification standard(s) to document classification analysis.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.130",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide official position classification or position management results and associated documentation to requesting customer.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.030.140",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.030 New Position Classification and Certification",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.010",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "I/O",
+      "Business Capability Statement": "Receive and process position classification and/or position management requests that identify required information or analysis that must be completed (e.g., fragmentation, layering, job dilution, unnecessary positions, missing career ladders, PD inconsistency, narrow supervisory ratios). ",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.020",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Review request received from agency customer to ensure action is within position classification and/or position management scope and if request needs to be referred to a different Federal human capital (HC) function.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.030",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide deliverable according to agreed-upon timeframe or metrics for executing position classification and/or position management actions.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.040",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Identify position, job, roles, or organization of focus for particular request.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.050",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Review relevant existing templates, standards, organizational charts, analysis results, and/or position documentation for this particular area (e.g., position, role, organization).",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.060",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Communicate and collaborate with subject matter experts and/or hiring manager related to a specific job, position, role, or organization.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.070",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Confer with other knowledgeable position classification and/or position management staff on policy issues, or specific issues related to the request.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.080",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Review provided position and/or organization-related descriptions and/or content.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.090",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Locate and send specific required documentation that may already exist and needs no alterations.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.100",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Communicate and collaborate with stakeholders related to policy, process, or procedure changes that may impact organizational position classification and/or position management activities.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.110",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Provide official position classification or position management results and associated documentation to requesting customer.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.120",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Create structure documentation for the new organization and provide to the appropriate document management system, or related official publication process.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.040.130",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.040 Position Structure Development (for New and Existing Organizations)",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.010",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Receive and process position classification and/or position management requests that identify required information or analysis that must be completed (e.g., fragmentation, layering, job dilution, unnecessary positions, missing career ladders, PD inconsistency, narrow supervisory ratios). ",
+      "Authoritative Reference": "OPM HRS Classification: Program Evaluation Service Description https://www.opm.gov/services-for-agencies/classification-job-design/classification-program-evaluation/"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.020",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Review request received from agency customer to ensure action is within position classification and/or position management scope and if request needs to be referred to a different Federal human capital (HC) function.",
+      "Authoritative Reference": "OPM HRS Classification: Program Evaluation Service Description https://www.opm.gov/services-for-agencies/classification-job-design/classification-program-evaluation/"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.030",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Provide deliverable according to agreed-upon timeframe or metrics for executing position classification and/or position management actions.",
+      "Authoritative Reference": "OPM HRS Classification: Program Evaluation Service Description https://www.opm.gov/services-for-agencies/classification-job-design/classification-program-evaluation/"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.040",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Identify position, job, roles, or organization of focus for particular request.",
+      "Authoritative Reference": "OPM HRS Classification: Program Evaluation Service Description https://www.opm.gov/services-for-agencies/classification-job-design/classification-program-evaluation/"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.050",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Review relevant existing templates, standards, organizational charts, analysis results, and/or position documentation for this particular area (e.g., position, role, organization).",
+      "Authoritative Reference": "OPM HRS Classification: Program Evaluation Service Description https://www.opm.gov/services-for-agencies/classification-job-design/classification-program-evaluation/"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.060",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Communicate and collaborate with subject matter experts and/or hiring manager related to a specific job, position, role, or organization.",
+      "Authoritative Reference": "OPM HRS Classification: Program Evaluation Service Description https://www.opm.gov/services-for-agencies/classification-job-design/classification-program-evaluation/"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.070",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Confer with other knowledgeable position classification and/or position management staff on policy issues, or specific issues related to the request.",
+      "Authoritative Reference": "OPM HRS Classification: Program Evaluation Service Description https://www.opm.gov/services-for-agencies/classification-job-design/classification-program-evaluation/"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.080",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Review provided position and/or organization-related descriptions and/or content.",
+      "Authoritative Reference": "OPM HRS Classification: Program Evaluation Service Description https://www.opm.gov/services-for-agencies/classification-job-design/classification-program-evaluation/"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.090",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Locate and send specific required documentation that may already exist and needs no alterations.",
+      "Authoritative Reference": "OPM HRS Classification: Program Evaluation Service Description https://www.opm.gov/services-for-agencies/classification-job-design/classification-program-evaluation/"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.100",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Communicate and collaborate with stakeholders related to policy, process, or procedure changes that may impact organizational position classification and/or position management activities.",
+      "Authoritative Reference": "5 USC 5104-7"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.110",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "If conducting a position classification or position management program evaluation, provide required remediation tasks based on program evaluation results to improve position classification and/or position management actions in the future.",
+      "Authoritative Reference": "OPM HRS Classification: Program Evaluation Service Description https://www.opm.gov/services-for-agencies/classification-job-design/classification-program-evaluation/"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.120",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "If conducting a position classification and/or position management program evaluation, define the specific objectives of the program evaluation.",
+      "Authoritative Reference": "OPM HRS Classification: Program Evaluation Service Description https://www.opm.gov/services-for-agencies/classification-job-design/classification-program-evaluation/"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.130",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "P/O",
+      "Business Capability Statement": "Modify position classification and/or position management policies, processes, and/or procedures (as needed) based on changes to government-wide standards, issues raised during program evaluation, or request-related changes.",
+      "Authoritative Reference": "OPM HRS Classification: Program Evaluation Service Description https://www.opm.gov/services-for-agencies/classification-job-design/classification-program-evaluation/"
+    },
+    {
+      "Capability ID": "HCM.A1-3.050.140",
+      "Function": "HCM.A1-3 Position Classification and Position Management",
+      "Activity Name": "HCM.A1-3.050 Position Classification or\nPosition Management Program Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.010",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce employee engagement initiatives that are based on applicable leading practices.",
+      "Authoritative Reference": "6 USC 344"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.020",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Identify and track organizational point of contacts (e.g., Senior Accountable Officials (SAO), Federal Employee Viewpoint Survey (FEVS) Program Managers) across organizational categories (e.g., field versus headquarters, remote versus on-site) and organizational levels (department, agency, bureau, office, division, unit, etc.) to aid in managing data collection and engagement efforts.",
+      "Authoritative Reference": "title5/pdf/USCODE-2011-title5-partIII-subpartF"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.030",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Develop and deploy continuous employee opinions/perception-gathering tools (pulse surveys, focus groups, open forums, supervisor check-ins, etc.) to gather important employee experience data outside the formal data collection period, when applicable and possible.",
+      "Authoritative Reference": "title5/pdf/USCODE-2011-title5-partIII-subpartF"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.040",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Involve organizational stakeholders (functional managers, executive, leadership, supervisors, collective bargaining units, labor relations officials, employees, employee affinity/resource groups, etc.) in the employee engagement program planning process (or otherwise include their perspectives and/or feedback as planning inputs), when applicable and possible.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.050",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Ensure the employee engagement data collection tool(s) measures employee opinions and perceptions of key dimensions of employee engagement (the 5 OPM-identified key engagement drivers: Performance Feedback, Collaborative Management, Merit System Principles, Training and Development, and Work/Life Balance; the Employee Engagement Index (EEI), etc.).",
+      "Authoritative Reference": "title5/pdf/USCODE-2011-title5-partIII-subpartF"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.060",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "O/P",
+      "Business Capability Statement": "Produce and distribute interactive tools and/or processes to support organizational stakeholders (employee engagement data report/dashboard generation tool, employee engagement communications package/template, employee engagement leading practices toolkit, employee engagement SharePoint webpage, etc.).",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.070",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Plan strategies for increasing/boosting employee participation rates (e.g., promote data collection effort awareness and impact, track participation rates), when applicable and possible.",
+      "Authoritative Reference": "Human Capital Operating Plan"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.080",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Analyze the relationship between employee engagement and organizational mission outcomes (e.g., organizational performance, mission accomplishment, return on investment), when possible. ",
+      "Authoritative Reference": "Human Capital Operating Plan"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.090",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Analyze (e.g., use HRStat reviews) the relationship between overall organizational employee engagement and important organizational outcomes of interest (voluntary turnover, amount of sick leave used, number of employee grievances filed, etc.) to strengthen the business case for employee engagement initiatives, when applicable and possible.",
+      "Authoritative Reference": "OPM HRStat Guidance"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.100",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop employee engagement action plans that include clear critical success factors/focus areas, as well as potential program challenges, when applicable and possible. ",
+      "Authoritative Reference": "Human Capital Operating Plan"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.110",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Include adoption and promotion of employee engagement initiatives as part of organizational leadership performance management (for example through organizational performance incentives or performance awards/recognition).",
+      "Authoritative Reference": "5 CFR 250.203-4"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.120",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Work with organizational leadership to develop policies aimed at eliminating barriers to collecting employee feedback (e.g., provide official time to complete employee engagement data collection tools), when possible.",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.130",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Establish relevant employee engagement baselines and/or benchmarks.",
+      "Authoritative Reference": "6 USC 351"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.140",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Employ a data-driven approach to identify specific policies and practices to focus improvement efforts on (e.g., review employee engagement evaluation results to understand employee engagement pain points), when possible.",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.150",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Encourage the development of data-driven initiatives that connect employee work to mission performance/success (e.g., involve employee in the performance planning process, develop employee performance recognition/reward policies and practices).",
+      "Authoritative Reference": "5 CFR 250.203-4"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.160",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Encourage the development of data-driven initiatives that foster an embracing/open work environment (e.g., create policies that enable mutual trust between (and among) employees and organizational leadership, produce organizational leadership communications on the importance of workplace openness and civility).",
+      "Authoritative Reference": "5 CFR 250.203-4"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.170",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Define leader/manager/supervisor competencies for change management, building trust, and effective communication, when applicable and possible.",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.180",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Develop leader/manager/supervisor change management, trust building, and effective communication competencies and/or competency models across the employee lifecycle (e.g., through hiring, training, performance management, etc.). ",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.190",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Encourage the development of data-driven initiatives that empower employees in their work (e.g., eliminate overly prescriptive policies, provide job rotation opportunities, allow employees the opportunity to discuss/provide input during performance appraisals).",
+      "Authoritative Reference": "5 CFR 250.203-4"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.200",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Encourage the development of data-driven initiatives that empower employees in their career development (e.g., develop career mapping tools, support employee individual develop plan (IDP) processes, invest in organizational succession planning activities).",
+      "Authoritative Reference": "5 CFR 250.203-4"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.210",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Encourage the development of develop data-driven initiatives that support employee work-life balance (e.g., develop Employee Assistance Programs (EAPs), provide telework and/or alternate work schedule (AWS) opportunities).",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.220",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Work with organizational leadership to include employee engagement program goals and/or objectives in organizational strategic and human capital planning (Agency Strategic Plan, Agency Performance Plan, Human Capital Operating Plan (HCOP), etc.), when applicable and possible.",
+      "Authoritative Reference": "5 CFR 250.203-4"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.230",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce employee engagement program and change management plans that specify important operations-related planning, when applicable and possible.",
+      "Authoritative Reference": "5 CFR 250.203-4"
+    },
+    {
+      "Capability ID": "HCM.A1-4.010.240",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.010 Employee Engagement Program Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.010",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce employee engagement initiatives that are based on applicable leading practices.",
+      "Authoritative Reference": "6 USC 344"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.020",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Identify and track organizational point of contacts (e.g., Senior Accountable Officials (SAO), Federal Employee Viewpoint Survey (FEVS) Program Managers) across organizational categories (e.g., field versus headquarters, remote versus on-site) and organizational levels (department, agency, bureau, office, division, unit, etc.) to aid in managing data collection and engagement efforts.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.030",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Develop and deploy continuous employee opinions/perception-gathering tools (pulse surveys, focus groups, open forums, supervisor check-ins, etc.) to gather important employee experience data outside the formal data collection period, when applicable and possible.",
+      "Authoritative Reference": "5 CFR 250.302"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.040",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Involve organizational stakeholders (functional managers, executive, leadership, supervisors, collective bargaining units, labor relations officials, employees, employee affinity/resource groups, etc.) in the employee engagement program planning process (or otherwise include their perspectives and/or feedback as planning inputs), when applicable and possible.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.050",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ensure the employee engagement data collection tool(s) measures employee opinions and perceptions of key dimensions of employee engagement (the 5 OPM-identified key engagement drivers: Performance Feedback, Collaborative Management, Merit System Principles, Training and Development, and Work/Life Balance; the Employee Engagement Index (EEI), etc.).",
+      "Authoritative Reference": "5 CFR 250.203 (a)"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.060",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide custom employee engagement leading/successful practice guidance to leadership across organizational categories (field office, headquarters, remote, on-site, etc.), and levels (department, agency, bureau, office, division, unit, etc.) to address organizational employee engagement impediments (poor policies, ineffective processes, etc.), when applicable and possible. ",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.070",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ensure employee engagement action plans include: a determination of focus areas; evidence-based strategies for improving employee engagement; policies and practices for disseminating the data throughout the organization, including breakouts for individual units; a communications management plan; and specific milestones, deadlines, and stakeholder responsibilities, when possible.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.080",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "O/P",
+      "Business Capability Statement": "Produce and disseminate custom employee engagement analysis result reports (at a level that ensures participant anonymity), when applicable and possible.",
+      "Authoritative Reference": "PL 111-352 (c) Transparency"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.090",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Develop or acquire an employee engagement data collection process(es) (e.g., Federal Employee Viewpoint Survey or comparable compliant shared service) that measures employee opinions and perceptions of workplace conditions (i.e., organizational procedures, practices, and policies).",
+      "Authoritative Reference": "5 CFR 250.302"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.100",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "If developing organization-specific data collection process(es), identify and ensure compliance with relevant employee engagement statutory requirements.",
+      "Authoritative Reference": "5 USC 7101"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.110",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ensure data collection process(es) are anonymous or confidential, when applicable.",
+      "Authoritative Reference": "OMB Circular A-130"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.120",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Develop supplemental employee engagement data collection tools to collect employee opinion and perception data on recent/unexpected events (government shutdown, national emergency, etc.), when necessary.",
+      "Authoritative Reference": "5 USC 7101"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.130",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Collect qualitative employee engagement data that provides context and detail to quantitative employee engagement analysis results, when necessary.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.140",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Develop employee engagement measures and/or metrics that facilitate tracking/comparison on conditions that support employee engagement over time, when applicable and possible.",
+      "Authoritative Reference": "5 USC 7101"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.150",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce an employee engagement data collection process guide, when applicable and possible.",
+      "Authoritative Reference": "5 USC 250.303"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.160",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Disseminate employee engagement data analysis results to relevant organizational stakeholders (functional managers, executive leadership, supervisors, collective bargaining units, labor relations officials, employees, employee affinity/resource groups, etc.) across the organization.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.170",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Develop a process or mechanism (e.g., help desk, email inbox) to address employee engagement-related stakeholder inquiries and make information available, where applicable and possible.",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.180",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce employee engagement communications that provide updates on results of employee participation in employee engagement initiatives.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-4.020.190",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.020 Employee Engagement Data Collection",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.010",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce employee engagement initiatives that are based on applicable leading practices.",
+      "Authoritative Reference": "6 USC 344"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.020",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "O/P",
+      "Business Capability Statement": "Produce and distribute interactive tools and/or processes to support organizational stakeholders (employee engagement data report/dashboard generation tool, employee engagement communications package/template, employee engagement leading practices toolkit, employee engagement SharePoint webpage, etc.).",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.030",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Plan strategies for increasing/boosting employee participation rates (e.g., promote data collection effort awareness and impact, track participation rates), when applicable and possible.",
+      "Authoritative Reference": "Human Capital Operating Plan"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.040",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Analyze the relationship between employee engagement and organizational mission outcomes (e.g., organizational performance, mission accomplishment, return on investment), when possible. ",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.050",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Analyze (e.g., use HRStat reviews) the relationship between overall organizational employee engagement and important organizational outcomes of interest (voluntary turnover, amount of sick leave used, number of employee grievances filed, etc.) to strengthen the business case for employee engagement initiatives, when applicable and possible.",
+      "Authoritative Reference": "5 CFR 250.207"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.060",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop employee engagement action plans that include clear critical success factors/focus areas, as well as potential program challenges, when applicable and possible. ",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.070",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide custom employee engagement leading/successful practice guidance to leadership across organizational categories (field office, headquarters, remote, on-site, etc.), and levels (department, agency, bureau, office, division, unit, etc.) to address organizational employee engagement impediments (poor policies, ineffective processes, etc.), when applicable and possible. ",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.080",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ensure employee engagement action plans include: a determination of focus areas; evidence-based strategies for improving employee engagement; policies and practices for disseminating the data throughout the organization, including breakouts for individual units; a communications management plan; and specific milestones, deadlines, and stakeholder responsibilities, when possible.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.090",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "O/P",
+      "Business Capability Statement": "Produce and disseminate custom employee engagement analysis result reports (at a level that ensures participant anonymity), when applicable and possible.",
+      "Authoritative Reference": "PL 111-352 (c) Transparency"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.100",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Develop or acquire an employee engagement data collection process(es) (e.g., Federal Employee Viewpoint Survey or comparable compliant shared service) that measures employee opinions and perceptions of workplace conditions (i.e., organizational procedures, practices, and policies).",
+      "Authoritative Reference": "5 CFR 250.302"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.110",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "If developing organization-specific data collection process(es), identify and ensure compliance with relevant employee engagement statutory requirements.",
+      "Authoritative Reference": "5 CFR 250.302"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.120",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ensure data collection process(es) are anonymous or confidential, when applicable.",
+      "Authoritative Reference": "OMB Circular A-130"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.130",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Develop supplemental employee engagement data collection tools to collect employee opinion and perception data on recent/unexpected events (government shutdown, national emergency, etc.), when necessary.",
+      "Authoritative Reference": "no source identified"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.140",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Collect qualitative employee engagement data that provides context and detail to quantitative employee engagement analysis results, when necessary.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.150",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Develop employee engagement measures and/or metrics that facilitate tracking/comparison on conditions that support employee engagement over time, when applicable and possible.",
+      "Authoritative Reference": "5 USC 7101"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.160",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide advisory and/or support services to organizational stakeholders (assist with employee engagement data analysis and/or communications, provide employee engagement leading practices toolkit, etc.), when necessary.",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.170",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce employee engagement program evaluation results that include organizational successful/leading practices and areas in need of attention.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.030.180",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.030 Employee Engagement Analysis and Evaluation",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.010",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce employee engagement initiatives that are based on applicable leading practices.",
+      "Authoritative Reference": "6 USC 344"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.020",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Identify and track organizational point of contacts (e.g., Senior Accountable Officials (SAO), Federal Employee Viewpoint Survey (FEVS) Program Managers) across organizational categories (e.g., field versus headquarters, remote versus on-site) and organizational levels (department, agency, bureau, office, division, unit, etc.) to aid in managing data collection and engagement efforts.",
+      "Authoritative Reference": "5 CFR 250.303"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.030",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Develop and deploy continuous employee opinions/perception-gathering tools (pulse surveys, focus groups, open forums, supervisor check-ins, etc.) to gather important employee experience data outside the formal data collection period, when applicable and possible.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.040",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Involve organizational stakeholders (functional managers, executive, leadership, supervisors, collective bargaining units, labor relations officials, employees, employee affinity/resource groups, etc.) in the employee engagement program planning process (or otherwise include their perspectives and/or feedback as planning inputs), when applicable and possible.",
+      "Authoritative Reference": "OPM Workforce Planning Guide"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.050",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "O/P",
+      "Business Capability Statement": "Produce and distribute interactive tools and/or processes to support organizational stakeholders (employee engagement data report/dashboard generation tool, employee engagement communications package/template, employee engagement leading practices toolkit, employee engagement SharePoint webpage, etc.).",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.060",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Plan strategies for increasing/boosting employee participation rates (e.g., promote data collection effort awareness and impact, track participation rates), when applicable and possible.",
+      "Authoritative Reference": "Human Capital Operating Plan"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.070",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Analyze the relationship between employee engagement and organizational mission outcomes (e.g., organizational performance, mission accomplishment, return on investment), when possible. ",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.080",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Analyze (e.g., use HRStat reviews) the relationship between overall organizational employee engagement and important organizational outcomes of interest (voluntary turnover, amount of sick leave used, number of employee grievances filed, etc.) to strengthen the business case for employee engagement initiatives, when applicable and possible.",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.090",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Include adoption and promotion of employee engagement initiatives as part of organizational leadership performance management (for example through organizational performance incentives or performance awards/recognition).",
+      "Authoritative Reference": "5 CFR 250.203-4"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.100",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Work with organizational leadership to develop policies aimed at eliminating barriers to collecting employee feedback (e.g., provide official time to complete employee engagement data collection tools), when possible.",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.110",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Establish relevant employee engagement baselines and/or benchmarks.",
+      "Authoritative Reference": "6 USC 351"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.120",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Employ a data-driven approach to identify specific policies and practices to focus improvement efforts on (e.g., review employee engagement evaluation results to understand employee engagement pain points), when possible.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.130",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Encourage the development of data-driven initiatives that connect employee work to mission performance/success (e.g., involve employee in the performance planning process, develop employee performance recognition/reward policies and practices).",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.140",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Encourage the development of data-driven initiatives that foster an embracing/open work environment (e.g., create policies that enable mutual trust between (and among) employees and organizational leadership, produce organizational leadership communications on the importance of workplace openness and civility).",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.150",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Define leader/manager/supervisor competencies for change management, building trust, and effective communication, when applicable and possible.",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.160",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Develop leader/manager/supervisor change management, trust building, and effective communication competencies and/or competency models across the employee lifecycle (e.g., through hiring, training, performance management, etc.). ",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.170",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Encourage the development of data-driven initiatives that empower employees in their work (e.g., eliminate overly prescriptive policies, provide job rotation opportunities, allow employees the opportunity to discuss/provide input during performance appraisals).",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.180",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Encourage the development of data-driven initiatives that empower employees in their career development (e.g., develop career mapping tools, support employee individual develop plan (IDP) processes, invest in organizational succession planning activities).",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.190",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Encourage the development of develop data-driven initiatives that support employee work-life balance (e.g., develop Employee Assistance Programs (EAPs), provide telework and/or alternate work schedule (AWS) opportunities).",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.200",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide custom employee engagement leading/successful practice guidance to leadership across organizational categories (field office, headquarters, remote, on-site, etc.), and levels (department, agency, bureau, office, division, unit, etc.) to address organizational employee engagement impediments (poor policies, ineffective processes, etc.), when applicable and possible. ",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.210",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ensure employee engagement action plans include: a determination of focus areas; evidence-based strategies for improving employee engagement; policies and practices for disseminating the data throughout the organization, including breakouts for individual units; a communications management plan; and specific milestones, deadlines, and stakeholder responsibilities, when possible.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.220",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce an employee engagement data collection process guide, when applicable and possible.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.230",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Disseminate employee engagement data analysis results to relevant organizational stakeholders (functional managers, executive leadership, supervisors, collective bargaining units, labor relations officials, employees, employee affinity/resource groups, etc.) across the organization.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.240",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide advisory and/or support services to organizational stakeholders (assist with employee engagement data analysis and/or communications, provide employee engagement leading practices toolkit, etc.), when necessary.",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.250",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce employee engagement program evaluation results that include organizational successful/leading practices and areas in need of attention.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.260",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Encourage the development of data-driven initiatives that enhance two-way organizational communication (e.g., hold engagement-related town hall meetings and/or open microphone forums, conduct \"listening sessions\" and/or leadership road shows, produce organizational leadership communications on the importance of employee work, organize leadership \"site/work unit visits\").",
+      "Authoritative Reference": "5 CFR 250.204"
+    },
+    {
+      "Capability ID": "HCM.A1-4.040.270",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.040 Employee Engagement Action Planning",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.010",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce employee engagement initiatives that are based on applicable leading practices.",
+      "Authoritative Reference": "6 USC 344"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.020",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Identify and track organizational point of contacts (e.g., Senior Accountable Officials (SAO), Federal Employee Viewpoint Survey (FEVS) Program Managers) across organizational categories (e.g., field versus headquarters, remote versus on-site) and organizational levels (department, agency, bureau, office, division, unit, etc.) to aid in managing data collection and engagement efforts.",
+      "Authoritative Reference": "5 CFR 250.303"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.030",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Develop and deploy continuous employee opinions/perception-gathering tools (pulse surveys, focus groups, open forums, supervisor check-ins, etc.) to gather important employee experience data outside the formal data collection period, when applicable and possible.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.040",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "O/P",
+      "Business Capability Statement": "Produce and distribute interactive tools and/or processes to support organizational stakeholders (employee engagement data report/dashboard generation tool, employee engagement communications package/template, employee engagement leading practices toolkit, employee engagement SharePoint webpage, etc.).",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.050",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Plan strategies for increasing/boosting employee participation rates (e.g., promote data collection effort awareness and impact, track participation rates), when applicable and possible.",
+      "Authoritative Reference": "Human Capital Operating Plan"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.060",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Analyze the relationship between employee engagement and organizational mission outcomes (e.g., organizational performance, mission accomplishment, return on investment), when possible. ",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.070",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Analyze (e.g., use HRStat reviews) the relationship between overall organizational employee engagement and important organizational outcomes of interest (voluntary turnover, amount of sick leave used, number of employee grievances filed, etc.) to strengthen the business case for employee engagement initiatives, when applicable and possible.",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.080",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Develop employee engagement action plans that include clear critical success factors/focus areas, as well as potential program challenges, when applicable and possible. ",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.090",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Include adoption and promotion of employee engagement initiatives as part of organizational leadership performance management (for example through organizational performance incentives or performance awards/recognition).",
+      "Authoritative Reference": "5 CFR 250.203-4"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.100",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Work with organizational leadership to develop policies aimed at eliminating barriers to collecting employee feedback (e.g., provide official time to complete employee engagement data collection tools), when possible.",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.110",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Establish relevant employee engagement baselines and/or benchmarks.",
+      "Authoritative Reference": "6 USC 351"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.120",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Employ a data-driven approach to identify specific policies and practices to focus improvement efforts on (e.g., review employee engagement evaluation results to understand employee engagement pain points), when possible.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.130",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Encourage the development of data-driven initiatives that connect employee work to mission performance/success (e.g., involve employee in the performance planning process, develop employee performance recognition/reward policies and practices).",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.140",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Encourage the development of data-driven initiatives that foster an embracing/open work environment (e.g., create policies that enable mutual trust between (and among) employees and organizational leadership, produce organizational leadership communications on the importance of workplace openness and civility).",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.150",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "I/P",
+      "Business Capability Statement": "Work with organizational leadership to include employee engagement program goals and/or objectives in organizational strategic and human capital planning (Agency Strategic Plan, Agency Performance Plan, Human Capital Operating Plan (HCOP), etc.), when applicable and possible.",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.160",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide custom employee engagement leading/successful practice guidance to leadership across organizational categories (field office, headquarters, remote, on-site, etc.), and levels (department, agency, bureau, office, division, unit, etc.) to address organizational employee engagement impediments (poor policies, ineffective processes, etc.), when applicable and possible. ",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.170",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Ensure employee engagement action plans include: a determination of focus areas; evidence-based strategies for improving employee engagement; policies and practices for disseminating the data throughout the organization, including breakouts for individual units; a communications management plan; and specific milestones, deadlines, and stakeholder responsibilities, when possible.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.180",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "O/P",
+      "Business Capability Statement": "Produce and disseminate custom employee engagement analysis result reports (at a level that ensures participant anonymity), when applicable and possible.",
+      "Authoritative Reference": "PL 111-352 (c) Transparency"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.190",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce an employee engagement data collection process guide, when applicable and possible.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.200",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Disseminate employee engagement data analysis results to relevant organizational stakeholders (functional managers, executive leadership, supervisors, collective bargaining units, labor relations officials, employees, employee affinity/resource groups, etc.) across the organization.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.210",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "I",
+      "Business Capability Statement": "Develop a process or mechanism (e.g., help desk, email inbox) to address employee engagement-related stakeholder inquiries and make information available, where applicable and possible.",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.220",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Provide advisory and/or support services to organizational stakeholders (assist with employee engagement data analysis and/or communications, provide employee engagement leading practices toolkit, etc.), when necessary.",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.230",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "O",
+      "Business Capability Statement": "Produce employee engagement program evaluation results that include organizational successful/leading practices and areas in need of attention.",
+      "Authoritative Reference": "HHS Supervisor's Guide to Employee Engagement"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.240",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Conduct frequent (i.e., more than once a year) employee engagement initiative progress reviews with relevant organizational leaders (e.g., HR and agency leadership), when possible. ",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.250",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Collaborate with organizational stakeholders across organizational categories and/or levels to facilitate employee engagement initiatives, when applicable and possible.",
+      "Authoritative Reference": "Employee Engagement Toolkit, Dept of Commerce"
+    },
+    {
+      "Capability ID": "HCM.A1-4.050.260",
+      "Function": "HCM.A1-4 Employee Engagement",
+      "Activity Name": "HCM.A1-4.050 Employee Engagement Program Management",
+      "Input/Output/Process": "P",
+      "Business Capability Statement": "Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+      "Authoritative Reference": "5 U.S. Code § 552a "
+    }
+  ],
+  "Business_Use_Cases":"coming soon",
+  "Standard_Data_Elements":{
+    "Standard Data Elements":"/assets/files/downloads/hr/hcs/HCM Data Elements_A1 (Agency Human Capital Strategy, Policies, and Operation Plan).xlsx"
+  }
+}

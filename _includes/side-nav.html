@@ -153,11 +153,10 @@ where we provide an easy way to manage your navigation system
                             </a>
                         </li>
 
-
-                        <li class="sidebar-dropdown usa-sidenav__item bs{% if page.title contains 'HR Management Services' %} active1{% endif %}"
+                        <li class="sidebar-dropdown usa-sidenav__item bs{% if page.title contains 'Human Capital Management' %} active1{% endif %}"
                             style="margin-bottom: 5px;">
-                            <a href="#" style="outline:none"
-                               class="usa-nav__link{% if page.title contains 'HR Management Services' %} usa-current-1{% endif %}">
+                            <a href="#" style="outline:none" aria-label="Human Capital Management Dropdown"
+                               class="usa-nav__link{% if page.title contains 'Human Capital Management' %} usa-current-1{% endif %}">
                                 <div class="image-txt-container">
                                     <div class="img-wrap"><img src="../assets/images/fibf/icons/hr.svg" class="sidebar-logo"
                                          alt="HR Management Services Icon"></div>
@@ -166,9 +165,42 @@ where we provide an easy way to manage your navigation system
                                 </div>
 
                             </a>
-                            <div class="sidebar-submenu{% if page.title contains 'HR Management Services' %} active1{% endif %}"
+                            <div class="sidebar-submenu{% if page.title contains 'Human Capital Management' %} active1{% endif %}"
                                  style="background-color:#1b355c;">
                                 <ul class="dropdown-menu usa-sidenav__sublist">
+                                    <li>
+                                        <a class="usa-nav__link{% if page.permalink contains 'fibf-hr-hcm' %} usa-current-1{% endif %}"
+                                           href="{{site.baseurl}}/fibf-hr-hcm/" style="outline:none"  aria-label="Human Capital Management Landing Page">
+                                            <div class="image-txt-container">
+                                                <div class="img-wrap"><img src="../assets/images/hrm-icon.png"
+                                                     class="sidebar-logo" alt="Human Capital Management Icon"></div>
+                                              <span>Human Capital Management</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a class="usa-nav__link{% if page.permalink contains 'fibf-hr-hcs' %} usa-current-1{% endif %}"
+                                           href="{{site.baseurl}}/fibf-hr-hcs/" style="outline:none">
+                                            <div class="image-txt-container">
+                                                <div class="img-wrap"><img src="../assets/images/chess.png" class="sidebar-logo"
+                                                     alt="Human Capital Strategy, Policies, & Operation Plan Icon"></div>
+                                                <span>Human Capital Strategy, Policies, & Operation Plan</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a class="usa-nav__link{% if page.permalink contains 'fibf-hr-hce' %} usa-current-1{% endif %}"
+                                           href="{{site.baseurl}}/fibf-hr-hce/" style="outline:none">
+                                            <div class="image-txt-container">
+                                                <div class="img-wrap"><img src="../assets/images/magnifying-glass-chart.png" class="sidebar-logo"
+                                                     alt="Human Capital Evaluations Icon"></div>
+                                                <span>Human Capital Evaluations</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
                                     <li>
                                         <a class="usa-nav__link{% if page.permalink contains 'fibf-hr-ac' %} usa-current-1{% endif %}"
                                            href="{{site.baseurl}}/fibf-hr-ac/" style="outline:none">
@@ -227,8 +259,51 @@ where we provide an easy way to manage your navigation system
                                                 <span>Separation and Retirement</span>
                                             </div>
                                         </a>
-                                    </li>                                    
+                                    </li>
 
+                                    <li>
+                                        <a class="usa-nav__link{% if page.permalink contains 'fibf-hr-ea' %} usa-current-1{% endif %}"
+                                           href="{{site.baseurl}}/fibf-hr-ea/" style="outline:none">
+                                            <div class="image-txt-container">
+                                                <div class="img-wrap"><img src="../assets/images/accountability.png" class="sidebar-logo"
+                                                     alt="Employee Accountability Icon"></div>
+                                                <span>Employee Accountability</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a class="usa-nav__link{% if page.permalink contains 'fibf-hr-lr' %} usa-current-1{% endif %}"
+                                           href="{{site.baseurl}}/fibf-hr-lr/" style="outline:none">
+                                            <div class="image-txt-container">
+                                                <div class="img-wrap"><img src="../assets/images/handshake.png" class="sidebar-logo"
+                                                     alt="Labor Relations Icon"></div>
+                                                <span>Labor Relations</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a class="usa-nav__link{% if page.permalink contains 'fibf-hr-hca' %} usa-current-1{% endif %}"
+                                           href="{{site.baseurl}}/fibf-hr-hca/" style="outline:none">
+                                            <div class="image-txt-container">
+                                                <div class="img-wrap"><img src="../assets/images/clipboard-user.png" class="sidebar-logo"
+                                                     alt="Human Capital Analytics & Employee Records Icon"></div>
+                                                <span>Human Capital Analytics & Employee Records</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a class="usa-nav__link{% if page.permalink contains 'fibf-hr-par' %} usa-current-1{% endif %}"
+                                           href="{{site.baseurl}}/fibf-hr-par/" style="outline:none">
+                                            <div class="image-txt-container">
+                                                <div class="img-wrap"><img src="../assets/images/chalkboard-user.png" class="sidebar-logo"
+                                                     alt="Personnel Action Request (PAR) Processing Icon"></div>
+                                                <span>Personnel Action Request (PAR) Processing</span>
+                                            </div>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
 
@@ -303,5 +378,3 @@ where we provide an easy way to manage your navigation system
 
 
 </div>
-
-
