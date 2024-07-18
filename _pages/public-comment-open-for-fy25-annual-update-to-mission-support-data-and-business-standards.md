@@ -14,11 +14,11 @@ description: Welcome to the Mission Support Services Catalog. Agencies can use t
         <p>The Office of Shared Services and Performance Improvement is pleased to announce the release, for public comment, of the upcoming FY25 update to Mission Support Data and Business Standards. These updates integrate feedback from agencies, new legislation, and authoritative references to ensure agency management teams have the latest information needed to streamline procurements and sustain modern, standards-based operation of their mission support capabilities.</p>
         <p>Included for public comment in this release on regulations.gov are draft data and business standards for:</p>
         <ul>
-            <li><a href="https://www.regulations.gov/docket/BSC-FFM-2024-0003" title="Federal Financial Management" target="_blank">Federal Financial Management</a> (Docket ID: BSC-FFM-2024-0003)</li>
-            <li><a href="https://www.regulations.gov/docket/BSC-RPM-2024-0005" title="Real Property Management" target="_blank">Real Property Management</a> (Docket ID: BSC-RPM-2024-0005)</li>
-            <li><a href="https://www.regulations.gov/docket/BSC-TRT-2024-0006" title="Travel" target="_blank">Travel</a> (Docket ID: BSC-TRT-2024-0006)</li>
-            <li><a href="https://www.regulations.gov/docket/BSC-HCM-2024-0004" title="" target="_blank">Human Capital</a> (Docket ID: BSC-HCM-2024-0004)</li>
-            <li><a href="https://www.regulations.gov/docket/BSC-ERM-2024-0007" title="Electronic Records Management" target="_blank">Electronic Records Management</a> (Docket ID: BSC-ERM-2024-0007)</li>
+            <li><a href="https://www.regulations.gov/docket/BSC-FFM-2024-0003" title="Federal Financial Management" target="_blank">Federal Financial Management</a> (Treasury, Docket ID: BSC-FFM-2024-0003)</li>
+            <li><a href="https://www.regulations.gov/docket/BSC-RPM-2024-0005" title="Real Property Management" target="_blank">Real Property Management</a> (GSA,Docket ID: BSC-RPM-2024-0005)</li>
+            <li><a href="https://www.regulations.gov/docket/BSC-TRT-2024-0006" title="Travel" target="_blank">Travel</a> (GSA, Docket ID: BSC-TRT-2024-0006)</li>
+            <li><a href="https://www.regulations.gov/docket/BSC-HCM-2024-0004" title="" target="_blank">Human Capital</a> (OPM, Docket ID: BSC-HCM-2024-0004)</li>
+            <li><a href="https://www.regulations.gov/docket/BSC-ERM-2024-0007" title="Electronic Records Management" target="_blank">Electronic Records Management</a> (NARA, Docket ID: BSC-ERM-2024-0007)</li>
         </ul>
         <p><b>Important:</b> Please use the draft FY25  business and data standards attached to the above dockets for public review to provide your feedback.</p>
         <h2>Background Information</h2>
