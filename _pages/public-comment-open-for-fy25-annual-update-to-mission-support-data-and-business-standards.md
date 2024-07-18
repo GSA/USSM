@@ -15,7 +15,7 @@ description: Welcome to the Mission Support Services Catalog. Agencies can use t
         <p>Included for public comment in this release on regulations.gov are draft data and business standards for:</p>
         <ul>
             <li><a href="https://www.regulations.gov/docket/BSC-FFM-2024-0003" title="Federal Financial Management" target="_blank">Federal Financial Management</a> (Treasury, Docket ID: BSC-FFM-2024-0003)</li>
-            <li><a href="https://www.regulations.gov/docket/BSC-RPM-2024-0005" title="Real Property Management" target="_blank">Real Property Management</a> (GSA,Docket ID: BSC-RPM-2024-0005)</li>
+            <li><a href="https://www.regulations.gov/docket/BSC-RPM-2024-0005" title="Real Property Management" target="_blank">Real Property Management</a> (GSA, Docket ID: BSC-RPM-2024-0005)</li>
             <li><a href="https://www.regulations.gov/docket/BSC-TRT-2024-0006" title="Travel" target="_blank">Travel</a> (GSA, Docket ID: BSC-TRT-2024-0006)</li>
             <li><a href="https://www.regulations.gov/docket/BSC-HCM-2024-0004" title="" target="_blank">Human Capital</a> (OPM, Docket ID: BSC-HCM-2024-0004)</li>
             <li><a href="https://www.regulations.gov/docket/BSC-ERM-2024-0007" title="Electronic Records Management" target="_blank">Electronic Records Management</a> (NARA, Docket ID: BSC-ERM-2024-0007)</li>
