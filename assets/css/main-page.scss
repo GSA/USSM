@@ -403,3 +403,18 @@ abbr{
     }
   }
 }
+
+/* uswds upgrade css changes */
+@media (min-width: 64em) {
+  .usa-nav__submenu .usa-nav__submenu-item a {
+      line-height: unset;
+  }
+}
+
+.usa-button--unstyled {
+  text-decoration: none;
+}
+
+.usa-footer__primary-link {
+  text-decoration: none;
+}
