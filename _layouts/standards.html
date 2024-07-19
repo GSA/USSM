@@ -11,7 +11,7 @@ This template is for a single page that does not have a date associated with it.
 <div class="page-wrapper chiller-theme toggled">
   {% include side-nav.html %}
   <div id="main-content" class="page-content ">
-<section class="usa-section about margin-bottom-3 padding-y-105">
+<section class="usa-section about margin-bottom-1 padding-y-105">
   <div class="usa-grid">
     <div class="grid-container">
       {% if page.permalink contains 'fibf-cyb' %}
@@ -33,10 +33,10 @@ This template is for a single page that does not have a date associated with it.
       </div>
       {% endif %}
       <div class="priority-tag-line"><h1 class="margin-y-105 font-ui-l">{{ page.title }}</h1></div>
-      <div class="grid-row fibf-wheel" >
+      <div id ="fibf-wheel-and-text" class="grid-row">
       {% include fibf-circle.html %}
       <div class="desktop:grid-col-7 mobile:grid-col-12 fibf-wheel-media2">
-        <p class="text-italic text-primary font-body-md">Federal Integrated Business Framework (FIBF)</h2>
+        <p class="text-italic text-primary font-body-md">Federal Integrated Business Framework (FIBF)</p>
         <p>The FIBF is a model that enables the Federal government to better coordinate and document common business needs across agencies and focus on outcomes, data, processes and performance. It is the essential first step towards standards that will drive economies of scale and leverage the government’s buying power.</p>
         {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{% endif %}
         {% if page.sec-title %}
@@ -62,41 +62,43 @@ This template is for a single page that does not have a date associated with it.
         {% endif %}
       </div>
       </div>
+      <div class="grid-row">
+        <div class="grid-col-12">
+          {% if page.lifecycle-pdf or page.use-cases-pdf or page.capabilities-pdf or page.standard-data-elements-pdf or page.performance-metrics-pdf  %}
+            <h2 class="text-center text-primary">Download {{page.sub-title}} Business Standards Components</h2>
+          {% endif %}
+        </div>
+        <div class="grid-col">
+          <ul class="usa-button-group">
+            {% if page.lifecycle-pdf %}
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.lifecycle-pdf}}" class="usa-button usa-button--accent-cool text-white">Federal
+              Business Lifecycle</a></li>
+            {% endif %}
+            {% if page.capabilities-pdf %}
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.capabilities-pdf}}" class="usa-button usa-button--accent-cool text-white">Business
+              Capabilities</a></li>
+            {% endif %}
+            {% if page.use-cases-pdf %}
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.use-cases-pdf}}" class="usa-button usa-button--accent-cool text-white">Business Use
+              Cases</a></li>
+            {% endif %}
+            {% if page.standard-data-elements-pdf %}
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.standard-data-elements-pdf}}" class="usa-button usa-button--accent-cool text-white">Standard
+              Data Elements</a></li>
+            {% endif %}
+            {% if page.performance-metrics-pdf %}
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white">Service Measures</a></li>
+            {% endif %}
+            {% if page.all-zip %}
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.all-zip}}" class="usa-button text-white">Download
+              All</a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-    <div class="usa-grid">
-      <div class="grid-container">
-        {% if page.lifecycle-pdf or page.use-cases-pdf or page.capabilities-pdf or page.standard-data-elements-pdf or page.performance-metrics-pdf  %}
-          <h2 class="text-center text-primary">Download {{page.sub-title}} Business Standards Components</h2>
-        {% endif %}
-        <ul class="usa-button-group">
-          {% if page.lifecycle-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.lifecycle-pdf}}" class="usa-button usa-button--accent-cool text-white">Federal
-            Business Lifecycle</a></li>
-          {% endif %}
-          {% if page.capabilities-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.capabilities-pdf}}" class="usa-button usa-button--accent-cool text-white">Business
-            Capabilities</a></li>
-          {% endif %}
-          {% if page.use-cases-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.use-cases-pdf}}" class="usa-button usa-button--accent-cool text-white">Business Use
-            Cases</a></li>
-          {% endif %}
-          {% if page.standard-data-elements-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.standard-data-elements-pdf}}" class="usa-button usa-button--accent-cool text-white">Standard
-            Data Elements</a></li>
-          {% endif %}
-          {% if page.performance-metrics-pdf %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white">Service Measures</a></li>
-          {% endif %}
-          {% if page.all-zip %}
-          <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.all-zip}}" class="usa-button text-white">Download
-            All</a></li>
-          {% endif %}
-        </ul>
-      </div>
-    </div>
 <section  id="main-content-standards" class="usa-section padding-top-2" >
   <div class="usa-grid">
     <div class="grid-container font-sans-sm">
@@ -118,7 +120,7 @@ This template is for a single page that does not have a date associated with it.
                 <a href="{{ site.baseurl }}/{{page.lifecycle-source-document}}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
             </li>
             {% endif %}
-          
+
             {% if page.lifecycle-json-api %}
             <li>
               <a href="{{ site.baseurl }}{{ page.lifecycle-json-api }}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
@@ -133,7 +135,7 @@ This template is for a single page that does not have a date associated with it.
 
         <p><a class="text-primary" style="display:flex; justify-content:flex-end;"  href="#top">Back to top</a></p>
       </div>
-      
+
 
       <div id="business_capabilities" class ="capabilities border-top-1px">
         <h2>Business Capabilities - {{ page.sub-title }}</h2>
@@ -149,7 +151,7 @@ This template is for a single page that does not have a date associated with it.
             <ul>
               <li>
                 <img src="{{ site.baseurl }}/assets/images/icon.{{page.capabilities-source-document-type}}.png" valign="middle" alt="{{page.capabilities-source-document-type}}">
-                <a href="{{ site.baseurl }}/{{page.capabilities-source-document}}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>    
+                <a href="{{ site.baseurl }}/{{page.capabilities-source-document}}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
               </li>
               {% if page.capabilities-json-api %}
               <li>
@@ -174,7 +176,7 @@ This template is for a single page that does not have a date associated with it.
 
         <p><a class="text-primary" style="display:flex; justify-content:flex-end;"  href="#top">Back to top</a></p>
         </div>
-      
+
 
       <div id="business_use_cases" class ="use_cases border-top-1px">
         <h2>Business Use Cases - {{ page.sub-title }}</h2>
@@ -183,15 +185,22 @@ This template is for a single page that does not have a date associated with it.
             <img src="{{ site.baseurl }}/assets/images/fibf/03.business.use.cases.sm.png" alt="" class="fibf-wheel-image">
           </div>
           <div class="desktop:grid-col-9">
-            <p><i>A set of agency “stories” that document the key activities, inputs, outputs, and other LOB intersections to describe how the Federal government operates.</i>
+            <p>
+              <i>A set of agency “stories” that document the key activities, inputs, outputs, and other LOB intersections to describe how the Federal government operates.</i>
             </p>
             {% if page.use-cases-content %}
-            {% include {{ page.use-cases-content }} %}
+              {% include {{ page.use-cases-content }} %}
+            {% else %}
+              {% if page.permalink contains 'fibf-hr' %}
+                <p class="text-center">
+                  <b>Under Construction</b>
+                </p>
+              {% endif %}
             {% endif %}
-            <p><a class="text-primary" style="display:flex; justify-content:flex-end; margin-top: 95px;"  href="#top">Back to top</a></p>
           </div>
         </div>
-        
+        <p><a class="text-primary" style="display:flex; justify-content:flex-end;"  href="#top">Back to top</a></p>
+
 
       </div>
       <div id="standard_data_elements" class ="data_elements border-top-1px">
@@ -201,14 +210,22 @@ This template is for a single page that does not have a date associated with it.
             <img src="{{ site.baseurl }}/assets/images/fibf/04.standard.data.elements.sm.png" alt="" class="fibf-wheel-image">
           </div>
           <div class="desktop:grid-col-9">
-            <p><i>Identify the minimum data fields required to support the inputs and outputs noted in the use cases and capabilities.</i>
+            {% if page.permalink contains 'fibf-hr' %}
+            <p>
+              <i><b>Standard Data Elements</b> identify the minimum data fields required to support the inputs and outputs noted in the use cases and capabilities.</i>
             </p>
+            <p>
+              <i><b>The HC FIBF Standard Data elements are a subset of the Human Capital Information Model (HCIM).</b> Comprised of metadata and information packages, the HCIM is the “Rosetta Stone” to achieving interoperable human capital systems that enable paperless data sharing across the Federal human capital community.  Click the link below to access the Standard Data Elements for <b>{{page.function-title}}.</b></i>
+            </p>
+            {% else %}
+            <p><i>Identify the minimum data fields required to support the inputs and outputs noted in the use cases and capabilities.</i>
+            {% endif %}
             {% if page.data-elements-content %}
             {% include {{ page.data-elements-content }} %}
             {% endif %}
-            <p><a class="text-primary" style="display:flex; justify-content:flex-end; margin-top: 75px;"  href="#top">Back to top</a></p>
           </div>
         </div>
+        <p><a class="text-primary" href="#top" style="display:flex; justify-content:flex-end;">Back to top</a></p>
 
       </div>
       <div id="performance_metrics" class ="metrics border-top-1px">
@@ -223,9 +240,9 @@ This template is for a single page that does not have a date associated with it.
             {% if page.metrics-content %}
             {% include {{ page.metrics-content }} %}
             {% endif %}
-            <p><a class="text-primary" style="display:flex; justify-content:flex-end; margin-top: 75px;"  href="#top">Back to top</a></p>
           </div>
         </div>
+        <p><a class="text-primary" href="#top" style="display:flex; justify-content:flex-end;">Back to top</a></p>
 
       </div>
       {{ content }}

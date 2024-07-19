@@ -74,6 +74,54 @@ jQuery(document).ready(function () {
             hasSubsection: true
         },
         {
+            accordian: 'hr-hcs-lifecycle',
+            table: 'hr-hcs-capabilities',
+            ElementsList: 'hr-hcs-data-elements',
+            PerformanceMetricsList: 'hr-hcs-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/hcs/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-employee-lifecycle',
+            table: 'hr-employee-capabilities',
+            ElementsList: 'hr-employee-accountability-data-elements',
+            PerformanceMetricsList: 'hr-employee-accountability-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/employee/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-hca-lifecycle',
+            table: 'hr-hca-capabilities',
+            ElementsList: 'hr-hca-data-elements',
+            PerformanceMetricsList: 'hr-hca-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/hca/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-hce-lifecycle',
+            table: 'hr-hce-capabilities',
+            ElementsList: 'hr-hce-data-elements',
+            PerformanceMetricsList: 'hr-hce-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/hce/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-labor-lifecycle',
+            table: 'hr-labor-capabilities',
+            ElementsList: 'hr-labor-relations-data-elements',
+            PerformanceMetricsList: 'hr-labor-relations-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/labor/'),
+            hasSubsection: true
+        },
+        {
+            accordian: 'hr-par-lifecycle',
+            table: 'hr-par-capabilities',
+            ElementsList: 'hr-par-processing-data-elements',
+            PerformanceMetricsList: 'hr-par-processing-performance-metrics',
+            url:  prefixUrl.concat('/business-standards-api/hr/par/'),
+            hasSubsection: true
+        },
+        {
             accordian: 'fm-lifecycle',
             table: 'fm-capabilities',
             ElementsList: 'fm-data-elements',
@@ -206,7 +254,7 @@ function imageChecker(url){
                         else if (outerKey === "Business Use Cases" && UseCasesList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
                                 // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
-                                prefixUrl = value1.includes("https")?"":prefixUrl; 
+                                prefixUrl = value1.includes("https")?"":prefixUrl;
                                 let image = imageChecker(value1);
                                 let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
                                 jQuery("#" + page.UseCasesList ).append(li);
@@ -216,12 +264,12 @@ function imageChecker(url){
                             jQuery.each(outerValue, function (key1, value1) {
                                 // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
                                 if(key1 !== "jsonData"){
-                                    prefixUrl = value1.includes("https")?"":prefixUrl; 
+                                    prefixUrl = value1.includes("https")?"":prefixUrl;
                                     let image = imageChecker(value1);
                                     let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
                                     jQuery("#" + page.ElementsList ).append(li);
                                 }else{ // For key equal to jsonData
-                                    prefixUrl = value1.url.includes("https")?"":prefixUrl; 
+                                    prefixUrl = value1.url.includes("https")?"":prefixUrl;
                                     let li = '<li><a href="'+prefixUrl+value1.url+'">' + value1.name + '</a></li>';
                                     jQuery("#" + page.ElementsList ).append(li);
                                 }
@@ -229,11 +277,17 @@ function imageChecker(url){
                         }
                         else if (outerKey==="Service Measures" && PerformanceMetricsList.length > 0){
                             jQuery.each(outerValue, function (key1, value1) {
-                                // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full url
-                                prefixUrl = value1.includes("https")?"":prefixUrl; 
-                                let image = imageChecker(value1);
-                                let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
-                                jQuery("#" + page.PerformanceMetricsList ).append(li);
+                                // front urls have issues having many usrl paths, we are adding .. if it is a cloud ulr and using / if value1 has a full ur
+                                if(key1 !== "jsonData"){
+                                  prefixUrl = value1.includes("https")?"":prefixUrl;
+                                  let image = imageChecker(value1);
+                                  let li = '<li><a href="'+prefixUrl+value1+'">' + image + key1 + '</a></li>';
+                                  jQuery("#" + page.PerformanceMetricsList ).append(li);
+                                }else{ // For key equal to jsonData
+                                    prefixUrl = value1.url.includes("https")?"":prefixUrl;
+                                    let li = '<li><a href="'+prefixUrl+value1.url+'">' + value1.name + '</a></li>';
+                                    jQuery("#" + page.PerformanceMetricsList ).append(li);
+                                }
                             });
                         }
                     });
@@ -300,3 +354,25 @@ $( ".pm-page .icon-button" ).on( "click", function() {
 $( ".pm-page .flip-container" ).on( "click", function() {
     $(this).toggleClass('active-card');
 });
+
+function checkWidth() {
+    const parentElement = document.getElementById('fibf-wheel-and-text');
+    const firstChild = parentElement.children[0];
+    const secondChild = parentElement.children[1];
+
+    if (window.innerWidth >= 1225 && window.innerWidth <= 1400) {
+      firstChild.classList.remove('desktop:grid-col-5');
+      secondChild.classList.remove('desktop:grid-col-7');
+      firstChild.classList.add('desktop:grid-col-6');
+      secondChild.classList.add('desktop:grid-col-6');
+    } else {
+      firstChild.classList.remove('desktop:grid-col-6');
+      firstChild.classList.add('desktop:grid-col-5');
+      secondChild.classList.remove('desktop:grid-col-6');
+      secondChild.classList.add('desktop:grid-col-7');
+    }
+}
+
+checkWidth();
+
+window.addEventListener('resize', checkWidth);
