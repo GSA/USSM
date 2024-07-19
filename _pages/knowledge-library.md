@@ -14,6 +14,9 @@ Foundational policy memo outlining the next steps in a continuously evolving vis
 [Advancing the PMA through Shared Services](https://ussm.gsa.gov/assets/files/PMA%20Placemat.pdf)<br>
 A one-page placemat to help agencies, policymakers, and industry stakeholders better understand the role that shared services can play as a lever for advancing the priorities of the President's Management Agenda.
 
+[Concept of Operations]({{site.baseurl}}/conops/)<br>
+The Federal government supports the stability, welfare, and prosperity of our nation through agency missions and services delivered to the American people. These services encompass important missions, such as the safety of our national food supply, stabilization of capital and consumer markets, support for scientific and medical research, and the integrity of our national infrastructure, law enforcement, and national defense.
+
 [Video Center - Learn About Shared Services](https://ussm.gsa.gov/video-center/)<br>
 Short, 2-minute videos that summarize what shared services are and how the Federal government is organizing around them.
 
@@ -31,3 +34,7 @@ Key guidance defining the process, roles, and responsibilities related to review
 
 [Marketplace Capabilities Framework](https://ussm.gsa.gov/assets/files/Marketplace%20Capabilities%20Framework_Deliverable.pdf)<br>
 The Marketplace Capabilities Framework provides a consistent starting point for establishing a marketplace that provides the essential elements needed by agencies to search and discover services that will meet their mission-support needs.
+
+[June 2024 Update on Shared Services]({{site.baseurl}}/assets/files/shared-services-update-june-2024.pdf){:target="_blank"}
+<br>
+An update on progress underway by the Office of Shared Solutions and Performance Improvement and service delivery partners to advance the availability and adoption of commercial and Federal shared services.

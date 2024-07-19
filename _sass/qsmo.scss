@@ -1,0 +1,477 @@
+.grid-cap {
+ position: relative;
+ display: grid;
+ grid-gap: 0px;
+ grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+ margin-right: 0rem;
+ margin-left: 0rem;
+ padding: 2% 0;
+ width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+ .grid-cap {
+   width: 100%;
+   margin-left: auto ;
+   margin-right: auto ;
+   padding: 0 0;
+ }
+}
+
+.border {
+  border-right: 1px solid #aeb0b5;
+  text-align: center;
+  padding-right: 19px;
+}
+
+@media only screen and (max-width: 600px) {
+  .border {
+      border-bottom: 1px solid #aeb0b5;
+      border-right: 0px;
+
+  }
+}
+
+
+
+.border-left-white {
+  border-left: 1px solid #112e51;
+  text-align: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .border-left-white {
+      border-left: none;
+
+  }
+}
+
+.border-left-black {
+  border-left: 1px solid #112e51;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .border-left-black {
+      border-left: none;
+
+  }
+}
+
+.border-padding {
+  margin-left: 30px;
+    height:100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .border-padding {
+      height: auto;
+
+  }
+}
+
+.border-padding p {
+  line-height: 1;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
+.border-padding-I {
+  margin-left: 30px;
+    height:100px;
+    margin-bottom: 46px;
+}
+
+@media only screen and (max-width: 600px) {
+  .border-padding-I {
+      height: auto;
+      margin-bottom: 46px;
+  }
+}
+
+.border-padding-I p {
+  line-height: 1;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
+
+.border-last {
+  text-align: center;
+}
+
+.arrow {
+  margin:0 auto;
+  margin-top: 41px;
+  width: 30px;
+  height: 30px;
+  background-image: url("https://www.usssm.gov/assets/images/project-icons/arrow-down.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.customers {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+}
+
+.customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 1.15rem;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #205493;
+  color: white;
+}
+/*table for QSMO section*/
+#QSMO {
+  width:auto;
+}
+#QSMO td, #QSMO th {
+  border: none;
+  text-align: center;
+  background-color: #dce4ef;
+  padding: 8px;
+}
+
+#assessment {
+  width:auto;
+  border: none;
+}
+#assessment td, #assessment th {
+  border: none;
+  text-align: center;
+  background-color: #BBCADE;
+  padding: 8px;
+}
+
+
+
+/* Sink */
+.hvr-sink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+
+.rotate {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  font-size:50px;
+  color: white;
+  content: '\00AB'
+
+}
+
+
+/*grid for themes*/
+/* old grid
+.grid {
+ position: relative;
+ display: grid;
+ grid-gap: 10px;
+ grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+ margin-right: 7rem;
+ margin-left: 7rem;
+ padding: 2% 0;
+}*/
+
+.grid {
+ position: relative;
+ display: grid;
+ grid-gap: 10px;
+ grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+ margin-right: 7rem;
+ margin-left: 7rem;
+ padding: 2% 0;
+}
+
+@media screen and (min-width: 800px) {
+ .grid {
+   width: 1200px;
+   margin-left: auto ;
+   margin-right: auto ;
+   padding: 0 0;
+ }
+}
+
+.flex-center {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 90px;
+ resize: vertical;
+
+}
+
+
+#transparent-grid {
+ background: none;
+ color: #ffffff;
+ font-size: 1.5rem;
+ text-align: center;
+ margin: 10px;
+ height: 125px;
+ padding: 3.5px;
+}
+
+#transparent-grid:hover {
+ color: #02bfe7;
+ transition-duration: 1s;
+
+}
+
+#transparent-grid:hover a {
+ color: #02bfe7;
+ transition-duration: 1s;
+}
+
+
+#transparent-grid a {
+ color: #ffffff;
+ text-decoration: none;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #205493;
+	border-radius: .4em;
+  z-index: 9999;
+  width:390px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #205493;
+	border-top: 0;
+	border-right: 0;
+	margin-left: -18px;
+	margin-top: -19px;
+
+}
+
+#designated {
+  color:black;
+  font-size:14px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 6px;
+  width: 200px;
+  color:#323a45;
+  margin:7px 0px 20px 0px;
+
+}
+
+@media screen and (min-width: 800px) {
+#designated {
+  margin-left: 0px;
+
+}
+}
+
+
+#qsmo {
+  color:#323a45;
+  margin:5px 0px 0px 0px;
+}
+
+.align {
+      margin-left: 30px;
+      margin-right: 5px;
+
+}
+
+/*TOOLTIP*/
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  cursor: pointer;
+}
+
+.tooltip-2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: inherit;
+  background-color: rgba(0,0,0,0.9);
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+
+}
+
+#dark-blue-icon {
+  width:42px;
+  background-color:#112e51;
+  border-radius:25px;
+  padding:4px;
+}
+
+.travel p {
+    margin-top: 30px;
+}
+
+/*media query for travel qsmo*/
+@media only screen and (max-width: 500px) {
+  .travel p {
+      margin-top: 0px;
+  }
+}
+
+#marginB {
+  margin-bottom: 45px;
+}
+
+/*media query for spacing*/
+@media only screen and (max-width: 500px) {
+  #marginB {
+    margin-bottom: 15px;
+  }
+}
+
+/*MOBILE RESPONSIVE FOR QSMO; SCREENS 600PX TO 1201PX*/
+@media only screen and (max-width: 1201px) and (min-width: 599px) {
+   #qsmo-large {
+     display:none;
+   }
+}
+
+@media only screen and (min-width: 1202px) {
+   #qsmo-mobile {
+     display:none;
+   }
+}
+
+@media only screen and (max-width: 598px) {
+   #qsmo-mobile {
+     display:none;
+   }
+}
+/* END***** MOBILE RESPONSIVE FOR QSMO; SCREENS 600PX TO 1201PX*/
+
+/*
+
+table {
+  width: 100%;
+  }
+/* Zebra striping */
+/*tr:nth-of-type(odd) {
+  background: #eee;
+}*/
+/*th {
+  background: #BBCADE;
+  color: white;
+  font-weight: bold;
+}
+td, th {
+  padding: 6px;
+  border: none;
+  text-align: left;
+}
+
+/*
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+/*@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+/*	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+/*	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	tr { border: none; }
+
+	td {
+		/* Behave  like a "row" */
+/*		border: none;
+		border-bottom: none;
+		position: relative;
+		padding-left: 50%;
+    margin-bottom: 20px;
+	}
+
+	td:before {
+		/* Now like a table header */
+/*		position: absolute;
+		/* Top/left values mimic padding */
+/*		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+}*/
+
+.qsmo-tag {
+  color: #5b616b;
+  font-size: 1.2rem;
+  margin-top: 1.5em;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #323a45;
+}

@@ -18,7 +18,7 @@
 # Be sure to edit the values below
 ##########################################################################################
 
-title: Federal Shared Services
+title: Enterprise Shared Services
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Business standards enable the Federal Government to better coordinate and document common business needs.
@@ -130,19 +130,19 @@ primary_navigation:
           permalink: /fibf-gm/
           show_in_menu: true
           show_in_footer: false
-        - text: 'HR Management Services'
-          permalink: /fibf-hr-ac/
+        - text: 'Human Capital Management'
+          permalink: /fibf-hr-hcm/
           show_in_menu: true
           show_in_footer: false
-        - text: 'Compensation and Benefits'
-          permalink: /fibf-hr-cb/
+        - text: 'Human Capital Strategy, Policies, & Operations'
+          permalink: /fibf-hr-hcs/
           show_in_menu: true
           show_in_footer: false
           link: true
           external: false
           sub: true
-        - text: 'Employee Performance Management'
-          permalink: /fibf-hr-epm/
+        - text: 'Human Capital Evaluations'
+          permalink: /fibf-hr-hce/
           show_in_menu: true
           show_in_footer: false
           link: true
@@ -162,8 +162,50 @@ primary_navigation:
           link: true
           external: false
           sub: true
+        - text: 'Employee Performance Management'
+          permalink: /fibf-hr-epm/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Compensation and Benefits'
+          permalink: /fibf-hr-cb/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
         - text: 'Separation and Retirement'
           permalink: /fibf-hr-sep-ret/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Employee Accountability'
+          permalink: /fibf-hr-ea/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Labor Relation'
+          permalink: /fibf-hr-lr/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Human Capital Analytics & Employee Records'
+          permalink: /fibf-hr-hca/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+          sub: true
+        - text: 'Personnel Action Request (PAR) Processing'
+          permalink: /fibf-hr-par/
           show_in_menu: true
           show_in_footer: false
           link: true
@@ -189,45 +231,7 @@ primary_navigation:
           permalink: /fibf-travel/
           show_in_menu: true
           show_in_footer: false
-    - text: 'QSMO'
-      href: /pages/qsmo.md
-      permalink: /qsmo/
-      show_in_menu: true
-      show_in_footer: false
-      children:
-        - text: 'QSMO'
-          permalink: /qsmo/
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: false
-        - text: 'External QSMO Websites'
-          show_in_menu: true
-          show_in_footer: false
-          link: false
-          external: false
-        - text: 'Cybersecurity Services'
-          permalink: 'https://www.cisa.gov/cyber-qsmo/'
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: true
-          tooltip: 'Cybersecurity Services external link.'
-        - text: 'Core Financial Management'
-          permalink: 'https://www.fiscal.treasury.gov/fmqsmo/'
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: true
-          tooltip: 'Core Financial Management external link.'
-        - text: 'Grants Management'
-          permalink: 'https://www.hhs.gov/grants/qsmo'
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: true
-          tooltip: 'Grants Management external link.'
-    - text: 'M3 Framework'
+    - text: 'M3 Playbook'
       href: /pages/team.md
       permalink: /m3/
       show_in_menu: true
@@ -272,14 +276,52 @@ primary_navigation:
           tooltip: 'Resources, guidelines, and templates to help.'
           show_in_menu: false
           show_in_footer: false
+    - text: 'QSMO'
+      href: /pages/qsmo.md
+      permalink: /qsmo/
+      show_in_menu: true
+      show_in_footer: false
+      children:
+        - text: 'QSMO'
+          permalink: /qsmo/
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: false
+        - text: 'External QSMO Websites'
+          show_in_menu: true
+          show_in_footer: false
+          link: false
+          external: false
+        - text: 'Cybersecurity Services'
+          permalink: 'https://www.cisa.gov/cyber-qsmo/'
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: true
+          tooltip: 'Cybersecurity Services external link.'
+        - text: 'Core Financial Management'
+          permalink: 'https://www.fiscal.treasury.gov/fmqsmo/'
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: true
+          tooltip: 'Core Financial Management external link.'
+        - text: 'Grants Management'
+          permalink: 'https://www.hhs.gov/grants/qsmo'
+          show_in_menu: true
+          show_in_footer: false
+          link: true
+          external: true
+          tooltip: 'Grants Management external link.'
     - text: 'Catalog'
       href: pages/resources.md
       permalink: /marketplace/
       show_in_menu: true
       show_in_footer: false
-    - text: About OSSPI
-      href: /pages/about.md
-      permalink: /about/
+    - text: 'Performance'
+      href: pages/performance-management.md
+      permalink: /performance-management/
       show_in_menu: true
       show_in_footer: false
 
@@ -490,9 +532,18 @@ exclude:
   - Gemfile.lock
   - Performance
 
-assets:
-  sources:
-    - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
-    - node_modules/netlify-cms/dist
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - "last 2 versions"
+    - "IE 11"
+    - "not dead"
+
+sass:
+  sass_dir: _sass
+  load_paths:
+    - node_modules/uswds/dist/
+  sourcemap: development
+  quiet_deps: true
+  style: compressed
+  verbose: true

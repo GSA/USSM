@@ -1,0 +1,47 @@
+{% comment %}
+To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
+where we provide an easy way to manage your navigation system
+{% endcomment %}
+{% assign phases = site.pages | where: 'layout', 'm3/phase' %}
+
+{% assign workstreams = "programManagement:Program Management|workforce:Workforce, Organization, and Stakeholders|technology:Technology|process:Process and Service Delivery" | split: "|" %}
+<div class="usa-header usa-header--extended">
+    <nav role="navigation" class="usa-nav pm-nav">
+      <div class="grid-container">
+        <div class="grid-row">
+            <div class="grid-col-10 grid-offset-1">
+              <div class="usa-nav__inner">
+                <button class="usa-nav__close"><img alt="close" src="{{ site.baseurl }}/assets/img/close.svg" /></button>
+                <ul class="usa-nav__primary usa-accordion flex-justify">
+                  <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link{{current}} text-uppercase" href="#about"><span>
+                      About
+                    </span></a> 
+                  </li>
+                  <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link{{current}} text-uppercase" href="#benefits"><span>
+                      Benefits
+                    </span></a> 
+                  </li>
+                  <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link{{current}} text-uppercase" href="#framework"><span>
+                      Framework
+                    </span></a> 
+                  </li>
+                  <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link{{current}} text-uppercase" href="#scorecard"><span>
+                      Scorecard
+                    </span></a> 
+                  </li>
+                  <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link{{current}} text-uppercase" href="#performance"><span>
+                      Performance
+                    </span></a> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+  </div>

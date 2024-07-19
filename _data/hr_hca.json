@@ -1,0 +1,1892 @@
+{
+   "Business-Standards":"HR",
+   "Sub-section":"Human Capital Analytics & Employee Records",
+   "Business_Lifecycle":[
+      {
+         "type":"hcm-A9-1",
+         "data":[
+            {
+               "Identifier":"HCM.A9-1.010",
+               "Activity":"Employee Inquiry Management",
+               "Description":"Establishing and maintaining channels, systems, and capabilities for the purpose of receiving, responding to, processing, and resolving individual employee questions, concerns, complaints, or suggestions. The service outcome(s) will include, but not be limited to:\n<ul><li> A complete inquiry case and resolution\n</li><li> Inquiry status notification\n</li><li> Inquiry status tracker\n</li><li> Employee inquiry self-service capability\n</li><li> Inquiry auditing and knowledge management capability\n</li><li> Standardized and configurable inquiry intake, processing, and resolution workflows</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-1.020",
+               "Activity":"Employee Inquiry Administration, Compliance, and Performance",
+               "Description":"Managing aggregate employee inquiry data and the employee inquiry caseload, complying with all relevant authorities, and evaluating the overall performance of employee inquiry case management and resolution. The service outcome(s) will include, but not be limited to:\n<ul><li> Employee inquiry cases that are accurate, complete, consistent, credible, and current\n</li><li> Inquiry auditing and knowledge management capability\n</li><li> Employee inquiry and caseload reports and dashboards\n</li><li> Employee inquiry record\n</li><li> Employee inquiry record repository \n</li><li> Applicable records schedule\n</li><li> Employee inquiry caseload monitor, management, and tracker capability\n</li><li> Enterprise inquiry case workflow designer and manager self-service capability</li></ul>"
+        }
+         ]
+      },
+      {
+         "type":"hcm-A9-2",
+         "data":[
+            {
+               "Identifier":"HCM.A9-2.010",
+               "Activity":"Workforce Research Planning & Design",
+               "Description":"Designing research initiative methods/procedures/frameworks to study the workforce. The service outcome(s) will include, but not be limited to:\n<ul><li>Documented agency-wide approach for workforce research, based on internal and external best practices, that address human capital goals and objectives\n</li><li>Documented methods for investigating a variety of human capital problems and research questions\n</li><li> Documented research design (e.g., research and statistical methodology, stakeholder communications plan)\n</li><li> Research design, planning, and implementation artifacts and data models\n</li><li> Designed or selected research instrument(s)\n</li><li> Research instrument validity and reliability documentation</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-2.020",
+               "Activity":"Workforce Research Data Collection",
+               "Description":"Using research instruments to gather data and manage data collection. The service outcome(s) will include, but not be limited to:\n<ul><li> Datasets/repositories for analysis</li></ul>"
+        }
+         ]
+      },
+      {
+         "type":"hcm-A9-3",
+         "data":[
+            {
+               "Identifier":"HCM.A9-2.030",
+               "Activity":"Workforce Research Analysis",
+               "Description":"Preparing the research data, conducting data analysis, and interpreting results. The service outcome(s) will include, but not be limited to:\n<ul><li> Cleaned/normalized and/or coded datasets\n</li><li> Results of research</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-2.040",
+               "Activity":"Workforce Research Report Development, Distribution, and Archive",
+               "Description":"Aggregating the results, summarizing findings, distributing research reports, and including reports into a research library to inform decision-makers and other stakeholders. The service outcome(s) will include, but not be limited to:\n<ul><li> Reports or documents that summarize, interpret, and/or provide recommendations based on the research results\n</li><li> Documented research (e.g., technical report)\n</li><li> Communications capability\n</li><li> Research report library</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-3.010",
+               "Activity":"Analytics Needs Assessment",
+               "Description":"Defining workforce issue or need that requires quantified evidence or assessment. The service outcome(s) will include, but not be limited to:\n<ul><li>Defined scope of analytical request/need\n</li><li>Problem statement tied to business need</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-3.020",
+               "Activity":"Analytics Planning",
+               "Description":"Developing a human capital analytics approach, requirements, and strategy. The service outcome(s) will include, but not be limited to:\n<ul><li>Data dictionary (including data elements, definitions, timestamps, formulas, sources, and other applicable attributes)\n</li><li>List of defined metrics and outcomes\n</li><li>Format of analytical output\n</li><li>Timeline\n</li><li>Resource allotment (human and financial)\n</li><li>Identified stakeholders and audience\n</li><li>Data archiving strategy\n</li><li>Determination if analysis is re-occurring</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-3.030",
+               "Activity":"Data Management",
+               "Description":"Managing data to ensure accuracy, compliance, and retention. The service outcome(s) will include, but not be limited to:\n<ul><li>Systems, channels, and protocols for collecting, storing, and organizing data\n</li><li>Data preparation protocols, to include:\n<ul><li>Established standard naming convention\n</li><li>Established data standards\n</li><li>Formats and templates\n</li><li>PII protection\n</li><li>Identifiers variable development\n</li><li>Coding/Recoding practices\n</li></ul></li><li>Dataset(s) for analysis\n</li><li>Data archive<ul><li>Data dictionary</li><li>Dataset(s)</li></ul></li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-3.040",
+               "Activity":"Data Analysis",
+               "Description":"Applying analytical methods (i.e., descriptive, diagnostic, predictive, prescriptive, automated analytics) to data in order to generate insights that can be used for decision-making, evaluating results for accuracy, and interpreting results for organizational decisions. The service outcome(s) will include, but not be limited to:\n<ul><li>Documented analytical methodology\n</li><li>Analysis results\n</li><li>Analysis quality assessment\n</li><li>Model evaluation, if applicable\n</li><li>Interpretation of analytical results, if applicable\n</li><li>Documented analytical methodology</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-3.050",
+               "Activity":"Assessment",
+               "Description":"Determining whether analysis results satisfy original request or business need. The service outcome(s) will include, but not be limited to:\n<ul><li>Assessment of the analytical results relative to the original request/need\n</li><li> Lessons learned from previous HC analytics efforts</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-3.060",
+               "Activity":"Distribution Preparation",
+               "Description":"Preparing analysis for distribution. The service outcome(s) will include, but not be limited to:\n<ul><li>Prepared interpretation of analysis ready for distribution</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-4.010",
+               "Activity":"Reporting Strategy and Planning",
+               "Description":"Defining the reporting needs/requirements and developing a reporting strategy and plan. The service outcome(s) will include, but not be limited to:\n<ul><li>Documented stakeholder reporting needs/requirements (e.g., intended audience, security constraints)\n</li><li>List of relevant data and analytic output\n</li><li>Reporting design and development plans</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-4.020",
+               "Activity":"Reporting Development",
+               "Description":"Producing reporting that transforms human capital data into contextualized information to meet reporting needs and requirements. The service outcome(s) will include, but not be limited to:\n<ul><li>Reporting of the required data in the agreed upon format</li></ul>"
+        }
+         ]
+      },
+      {
+         "type":"hcm-A9-4",
+         "data":[
+            {
+               "Identifier":"HCM.A9-4.030",
+               "Activity":"Reporting Distribution",
+               "Description":"Publishing and/or distributing reporting to appropriate locations, channels, and stakeholders. The service outcome(s) will include, but not be limited to:\n<ul><li>Delivery of reporting that meets requirements</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-4.040",
+               "Activity":"Reporting Repository & Archive Management",
+               "Description":"Cataloging, updating, retaining, and archiving reporting, while ensuring compliance with all legal requirements. The service outcome(s) will include, but not be limited to:\n<ul><li>Human capital reporting catalog \n</li><li>Human capital reporting archive</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-4.050",
+               "Activity":"Reporting User Support",
+               "Description":"Providing user support and advisory services. The service outcome(s) will include, but not be limited to:\n<ul><li>User self-service materials and knowledge base, if applicable\n</li><li>Help desk and user training capability, if applicable\n</li><li>Reporting enhancement processes (i.e., processes for collecting and implementing user feedback)</li></ul>"
+        }
+         ]
+      },
+      {
+         "type":"hcm-A9-5",
+         "data":[
+            {
+               "Identifier":"HCM.A9-5.010",
+               "Activity":"Employee Records Capture",
+               "Description":"Creating, validating, and assigning retention periods for employee records. Employee Records Capture includes documenting data, information, and events that pertain to an employee or are relevant for personnel management and/or personnel policy setting processes (records creation); verifying that employee records meet standards for accuracy, relevance, necessity, timeliness, and completeness (records validation); and determining the active phase of a group of employee records, for each employee record type, based on the business value of these records  (records retention). The service outcome(s) may include but are not limited to:\n<ul><li>A list of employee recordkeeping obligations created by law, regulation, and other authorities as well as business needs\n</li><li>Identification and creation of artifacts that fulfill employee recordkeeping obligations \n</li><li>Standard operating procedures for generating employee records specified in General Records Schedule (GRS) 2.0 (Human Resources)\n</li><li>Employee records systems\n</li><li>Guidance documents that specify standards and methods for ensuring accuracy, relevance, necessity, timeliness, and completeness for GRS 2.0 record types.\n</li><li>Validated employee records\n</li><li>Employee record retention schedules\n</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-5.020",
+               "Activity":"Employee Records Maintenance and Use",
+               "Description":"Managing employee records through the active phase of their lifecycle. Employee Records Maintenance and Use includes determining access levels to employee records (access level management); establishing and applying storage, retrieval, and handling policies and procedures to employee records that enable transparency, data insights, and organizational performance while protecting privacy (records maintenance); identifying groups of records that are potentially relevant to litigation or investigations and locking them down to ensure that they are not destroyed and no changes can be made (litigation hold); processing information requests and accounting for disclosure (information request); and developing and implementing policies, processes, and procedures for employee records migration in the event that the retention period of a group of employee records is longer than the life of the records system or the format of the employee records is approaching technological obsolescence (records migration). The service outcome(s) may include but are not limited to:\n<ul><li>Guidance documents and/or logic models that specify access levels to an employee record\n</li><li>Policies and procedures for storing, retrieving, and handling employee records that support business needs and are compliant with the Privacy Act, relevant Privacy Act systems of records notices, and government-wide privacy guidance, policy, and regulations\n</li><li>Processes and procedures to facilitate and manage litigation holds\n</li><li>A list of authorities and business needs that apply to/inform information requests\n</li><li>A system and standard operating procedures for handling different types of information requests\n</li><li>Records of disclosure as required by the Privacy Act and government-wide policy and regulation\n</li><li>Policies, processes, and procedures for migrating employee records</li></ul>"
+        },
+            {
+               "Identifier":"HCM.A9-5.030",
+               "Activity":"Employee Records Transfer Preparation",
+               "Description":"Identifying employee records that are eligible for transfer, either to another agency or to NARA for permanent storage, and ensuring that these are in the correct file format. The service outcome(s) may include but are not limited to:\n<ul><li>A list of all employee records eligible for transfer \n</li><li>Guidance documents and processes for transferring employee records \n</li><li>Standard operating procedures for converting employee records to the appropriate transfer file format\n</li><li>Employee records that are prepared in the correct format for transfer </li></ul>"
+        }
+         ]
+      }
+   ],
+   "Business_Capabilities":[
+      {
+         "Capability ID":"HCM.A9-1.010.010",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Align inquiry channels to/integrate capabilities into workstreams according to the employee lifecycle, organizational structure, and agency operations.",
+         "Authoritative Reference":"CIPD - Service Delivery and Information"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.020",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Determine necessary data fields/information required for creation of inquiry ticket.",
+         "Authoritative Reference":"Service Now - Submit a case from the HR catalog"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.030",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Ensure the inquiry solution is configurable to enable unique data fields. ",
+         "Authoritative Reference":"ISO 15489-1:2016, Section 9.2 Creating records"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.040",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Develop criteria for assessing the complexity and potential business impact of an inquiry.",
+         "Authoritative Reference":"CIPD - Service Delivery and Information"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.050",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"I/P",
+         "Business Capability Statement":"Assign complexity to inquiry. ",
+         "Authoritative Reference":"CIPD - Service Delivery and Information"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.060",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Develop process logic for processing, routing, and escalating inquiries by inquiry type/category/HR service area.",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.070",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Develop system for classifying inquiries by type/category/HR service area.",
+         "Authoritative Reference":"General Records Schedule; GRS Transmittal 28"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.080",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"O",
+         "Business Capability Statement":"Enable employees to check the status of an inquiry.",
+         "Authoritative Reference":"Service Now - View Open Cases"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.090",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Enable submission of inquiries using multiple communication methods (e.g. email, voice, document/file upload, etc.).",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.100",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure that inquiry channels are accessible to all employees, regardless of physical ability or location per Section 508.",
+         "Authoritative Reference":"Section 508 of the Rehabilitation Act of 1973"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.110",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Establish an electronic ticket for each new inquiry type/category/HR service area. ",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.120",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Establish service delivery model tiers.",
+         "Authoritative Reference":"Service Now - Workflow-based HR process design"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.130",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Provide the ability to identify, track, and link common employee inquiries.",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.140",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Provide the ability to accommodate multi-faceted inquiries and simultaneously route to multiple respondents. ",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.150",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Provide ability to redirect an inquiry.",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.160",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Provide interactive context-sensitive assistance. ",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.170",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Prepare and maintain self-service materials / guidance in plain language; periodically review with stakeholders to ensure the materials are user-friendly.",
+         "Authoritative Reference":"no source identified"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.180",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Provide the ability to accommodate external inquiries (for example, inquiries to verify employment or to request employee Entrance on Duty (EOD) data and \"Request for Preliminary Employment Data\" data for an employee transferring to another Federal agency).",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.010.190",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.010 Employee Inquiry Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.010",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Align inquiry channels to/integrate capabilities into workstreams according to the employee lifecycle, organizational structure, and agency operations.",
+         "Authoritative Reference":"CIPD - Service Delivery and Information"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.020",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Determine necessary data fields/information required for creation of inquiry ticket.",
+         "Authoritative Reference":"Service Now - Submit a case from the HR catalog"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.030",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Ensure the inquiry solution is configurable to enable unique data fields. ",
+         "Authoritative Reference":"ISO 15489-1:2016, Section 9.2 Creating records"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.040",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Develop criteria for assessing the complexity and potential business impact of an inquiry.",
+         "Authoritative Reference":"CIPD - Service Delivery and Information"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.050",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"I/P",
+         "Business Capability Statement":"Assign complexity to inquiry. ",
+         "Authoritative Reference":"CIPD - Service Delivery and Information"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.060",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Develop system for classifying inquiries by type/category/HR service area.",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.070",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"O",
+         "Business Capability Statement":"Enable employees to check the status of an inquiry.",
+         "Authoritative Reference":"Service Now - View Open Cases"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.080",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Establish service delivery model tiers.",
+         "Authoritative Reference":"Service Now - Workflow-based HR process design"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.090",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Define service standards (e.g. response time targets, first contact targets, resolution targets, etc.) based upon inquiry type/category/HR service area.",
+         "Authoritative Reference":"HR Customer Service Standards | Human Resources | Case Western Reserve University"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.100",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Define case volume targets and develop adaptive processes for managing caseloads.",
+         "Authoritative Reference":"CIPD - Service Delivery and Information"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.110",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Develop protocols for correcting/amending employee inquiry records.",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.120",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Ensure inquiry cases map to a specific records schedule. ",
+         "Authoritative Reference":"Oracle - HR Service Center Dashboard"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.130",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Establish a visualization of inquiry volumes, categories, assigned/responsible parties, and other metrics as needed.",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.140",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Support data forecasting, simulation, and modeling based on inquiry metrics. ",
+         "Authoritative Reference":"no source identified"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.150",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Maintain ability to search and sort employee inquiry records by employee, date, issue, assigned inquiry processor, or other criterion linked to a business need.",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.160",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Provide capability to track employee satisfaction with inquiry resolution.",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.170",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Provide caseload management. ",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.180",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Centralize the management of inquiries by establishing a customer contact center.",
+         "Authoritative Reference":"HR Case Management: Benefits and Best Practices - AIHR"
+      },
+      {
+         "Capability ID":"HCM.A9-1.020.190",
+         "Function":"HCM.A9-1 Employee Inquiry Processing",
+         "Activity Name":"HCM.A9-1.020 Employee Inquiry Administration, Compliance, and Performance",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.010",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Identify an organizational question where workforce data can inform decision-making.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.020",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Determine if research questions are descriptive, explanatory, or both (i.e., intended to study what or why something is happening). ",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.030",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Conduct a workforce research needs assessment.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.040",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Determine the scope of the research initiative (e.g., context of research, time limits for research, stakeholders involved).",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.050",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Draft research goals and objectives.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.060",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Determine the feasibility of the research initiative (i.e., whether the resources required for research are justified). ",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.070",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Identify the research audience/client and how results will be used.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.080",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Identify whether the research involves duplication of effort.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.090",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Determine how research initiative results will be communicated (e.g., determine the audience, format, timeline). ",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.100",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Prioritize research initiatives.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.110",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Assess workforce research capability gaps.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.120",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Determine plan to close any identified workforce research capability gaps.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.130",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Determine what workforce data are needed to enable data-driven decision-making (e.g., amount of unscheduled leave taken).",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.140",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Conduct literature review to determine constructs/variables to measure, previous research conducted, and related research methods. ",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.150",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Create hypotheses or propositions to address the research question(s).",
+         "Authoritative Reference":"5 CFR 250.207"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.160",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I/P",
+         "Business Capability Statement":"Select research design methodology to measure intended constructs/variables (e.g., interviews, case studies, focus groups, surveys).",
+         "Authoritative Reference":"HHS Document - Methods, Challenges and Best Practices for Conducting Subgroup Analysis"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.170",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I/P",
+         "Business Capability Statement":"Determine the need for mixed method research design to enable data triangulation.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.180",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I/P",
+         "Business Capability Statement":"Determine the appropriate data collection methods for each research item (e.g. qualitative or quantitative data).",
+         "Authoritative Reference":"OPM Workforce Planning Guide"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.190",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Select or develop items (i.e., questions) to measure research constructs/variables and test research hypotheses. ",
+         "Authoritative Reference":"OPM Workforce Planning Guide"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.200",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Select appropriate analysis plan based on research design and data format.",
+         "Authoritative Reference":"OPM Workforce Planning Guide"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.210",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Define research population of interest.",
+         "Authoritative Reference":"no source identified"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.220",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Determine research administration modality (e.g., in-person, remotely through telephone or online, existing data).",
+         "Authoritative Reference":"OPM Workforce Planning Guide"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.230",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Create relevant communications and send to research participants (e.g., instructions, pre-notification letter).",
+         "Authoritative Reference":"5 CFR 250.203"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.240",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I/P",
+         "Business Capability Statement":"Ensure proper reliability and validity of research instruments (e.g., conduct pre- or pilot test), where applicable.",
+         "Authoritative Reference":"no source identified"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.250",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Ensure research design adheres to ethics and standards for research involving human participants.",
+         "Authoritative Reference":"5 USC 312"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.260",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Select or develop research instruments that are compliant with appropriate privacy best practice and standards.",
+         "Authoritative Reference":"5 CFR 250.203"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.270",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Select reporting plan based on applicable standards.",
+         "Authoritative Reference":"OMB Circular A-130"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.280",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"I/P",
+         "Business Capability Statement":"Submit research protocol to appropriate approval authority (e.g., Institutional Review Board [IRB], Paperwork Reduction Act), if needed. ",
+         "Authoritative Reference":"Institutional Review Board (IRB)"
+      },
+      {
+         "Capability ID":"HCM.A9-2.010.290",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.010 Workforce Research Planning & Design",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-2.020.010",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.020 Workforce Research Data Collection",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Ensure research design adheres to ethics and standards for research involving human participants.",
+         "Authoritative Reference":"Fair Information Practice Principles"
+      },
+      {
+         "Capability ID":"HCM.A9-2.020.020",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.020 Workforce Research Data Collection",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Collect data as guided by research plan.",
+         "Authoritative Reference":"OPM Workforce Planning Guide"
+      },
+      {
+         "Capability ID":"HCM.A9-2.020.030",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.020 Workforce Research Data Collection",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Implement safeguards to maintain security/integrity of research data.",
+         "Authoritative Reference":"5 USC 552a"
+      },
+      {
+         "Capability ID":"HCM.A9-2.020.040",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.020 Workforce Research Data Collection",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-2.030.010",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.030 Workforce Research Analysis",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Ensure research design adheres to ethics and standards for research involving human participants.",
+         "Authoritative Reference":"Fair Information Practice Principles"
+      },
+      {
+         "Capability ID":"HCM.A9-2.030.020",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.030 Workforce Research Analysis",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Implement safeguards to maintain security/integrity of research data.",
+         "Authoritative Reference":"5 USC 552a"
+      },
+      {
+         "Capability ID":"HCM.A9-2.030.030",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.030 Workforce Research Analysis",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Conduct appropriate analyses of data as guided by research plan.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.030.040",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.030 Workforce Research Analysis",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Clean or edit raw data prior to analysis.",
+         "Authoritative Reference":"no source identified"
+      },
+      {
+         "Capability ID":"HCM.A9-2.030.050",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.030 Workforce Research Analysis",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Determine whether research question was answered with planned analyses and conduct ad-hoc analyses, as needed.",
+         "Authoritative Reference":"OPM Workforce Planning Guide"
+      },
+      {
+         "Capability ID":"HCM.A9-2.030.060",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.030 Workforce Research Analysis",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Implement safeguards to minimize analysis errors.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.030.070",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.030 Workforce Research Analysis",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-2.040.010",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.040 Workforce Research Report Development, Distribution, and Archive",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Ensure research design adheres to ethics and standards for research involving human participants.",
+         "Authoritative Reference":"Fair Information Practice Principles"
+      },
+      {
+         "Capability ID":"HCM.A9-2.040.020",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.040 Workforce Research Report Development, Distribution, and Archive",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Implement safeguards to maintain security/integrity of research data.",
+         "Authoritative Reference":"5 USC 552a"
+      },
+      {
+         "Capability ID":"HCM.A9-2.040.030",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.040 Workforce Research Report Development, Distribution, and Archive",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Communicate research results as guided by research plan.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.040.040",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.040 Workforce Research Report Development, Distribution, and Archive",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Develop reporting that is informed by appropriate standards.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.040.050",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.040 Workforce Research Report Development, Distribution, and Archive",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Ensure ownership of next steps is clear.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-2.040.060",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.040 Workforce Research Report Development, Distribution, and Archive",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Archive, retain, or dispose of research results and documentation, as required by records retention guidance (e.g., NARA Standards).",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-2.040.070",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.040 Workforce Research Report Development, Distribution, and Archive",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Include self-service, keyword search, user notification, and upload/download capabilities in research report library.",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-2.040.080",
+         "Function":"HCM.A9-2 Employee Research",
+         "Activity Name":"HCM.A9-2.040 Workforce Research Report Development, Distribution, and Archive",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-3.010.010",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.010 Analytics Needs Assessment",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Process analysis request or identify an organizational question that requires analysis.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.010.020",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.010 Analytics Needs Assessment",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Reframe the original organizational problem or request into an (or a set of) analytical problem(s) and define scope.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.010.030",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.010 Analytics Needs Assessment",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-3.020.010",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.020 Analytics Planning",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Reframe the original organizational problem or request into an (or a set of) analytical problem(s) and define scope.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.020.020",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.020 Analytics Planning",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Assess organization's analysis capabilities (e.g., analytic resources available, risk assessment) and determine analysis feasibility and value. ",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.020.030",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.020 Analytics Planning",
+         "Input/Output/Process":"I/P",
+         "Business Capability Statement":"Involve relevant stakeholders (e.g.., data owners) and collect voice of the customer feedback to determine and interpret analytics goals and objectives.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.020.040",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.020 Analytics Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Select proposed methods/design to address the analytics request.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.020.050",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.020 Analytics Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Generate a test design for analytical models, if applicable. ",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.020.060",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.020 Analytics Planning",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Determine and interpret the critical outcomes of analysis.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.020.070",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.020 Analytics Planning",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Develop data dictionaries to comprehensively document all metric characteristics (including data elements, definitions, timestamps, formulas, sources, and other applicable attributes) used in the analysis.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.020.080",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.020 Analytics Planning",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Develop method and platform for data archiving.",
+         "Authoritative Reference":"General Records Schedule 2.0"
+      },
+      {
+         "Capability ID":"HCM.A9-3.020.090",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.020 Analytics Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Adhere to relevant policies and regulations concerning data collection, analysis, security, and publication.",
+         "Authoritative Reference":"36 CFR 1236.12"
+      },
+      {
+         "Capability ID":"HCM.A9-3.020.100",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.020 Analytics Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-3.030.010",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.030 Data Management",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Determine and interpret the critical outcomes of analysis.",
+         "Authoritative Reference":"7 CFR 275.15"
+      },
+      {
+         "Capability ID":"HCM.A9-3.030.020",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.030 Data Management",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Develop data dictionaries to comprehensively document all metric characteristics (including data elements, definitions, timestamps, formulas, sources, and other applicable attributes) used in the analysis.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.030.030",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.030 Data Management",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Develop method and platform for data archiving.",
+         "Authoritative Reference":"General Records Schedule 2.0"
+      },
+      {
+         "Capability ID":"HCM.A9-3.030.040",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.030 Data Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Adhere to relevant policies and regulations concerning data collection, analysis, security, and publication.",
+         "Authoritative Reference":"36 CFR 1236.12"
+      },
+      {
+         "Capability ID":"HCM.A9-3.030.050",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.030 Data Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Structure data into formats or formulas that enable intended analyses (e.g., quantify categorical variables for correlation analysis). ",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.030.060",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.030 Data Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-3.040.010",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.040 Data Analysis",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Develop data dictionaries to comprehensively document all metric characteristics (including data elements, definitions, timestamps, formulas, sources, and other applicable attributes) used in the analysis.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.040.020",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.040 Data Analysis",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Develop method and platform for data archiving.",
+         "Authoritative Reference":"General Records Schedule 2.0"
+      },
+      {
+         "Capability ID":"HCM.A9-3.040.030",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.040 Data Analysis",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Adhere to relevant policies and regulations concerning data collection, analysis, security, and publication.",
+         "Authoritative Reference":"36 CFR 1236.12"
+      },
+      {
+         "Capability ID":"HCM.A9-3.040.040",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.040 Data Analysis",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Tailor formula or analytical model, method or process according to the data and objectives.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.040.050",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.040 Data Analysis",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Deploy and document analytical model, method, or process.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.040.060",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.040 Data Analysis",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Assess analytical model by comparing the predictions to reality (i.e., triangulate the model).",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.040.070",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.040 Data Analysis",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-3.050.010",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.050 Assessment",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Adhere to relevant policies and regulations concerning data collection, analysis, security, and publication.",
+         "Authoritative Reference":"36 CFR 1236.12"
+      },
+      {
+         "Capability ID":"HCM.A9-3.050.020",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.050 Assessment",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Assess analytical model by comparing the predictions to reality (i.e., triangulate the model).",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.050.030",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.050 Assessment",
+         "Input/Output/Process":"O",
+         "Business Capability Statement":"Determine if original analytical request or need was answered.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.050.040",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.050 Assessment",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Make analytical outputs and interpretation available for distribution.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.050.050",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.050 Assessment",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-3.060.010",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.060 Distribution Preparation",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Adhere to relevant policies and regulations concerning data collection, analysis, security, and publication.",
+         "Authoritative Reference":"36 CFR 1236.12"
+      },
+      {
+         "Capability ID":"HCM.A9-3.060.020",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.060 Distribution Preparation",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Make analytical outputs and interpretation available for distribution.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-3.060.030",
+         "Function":"HCM.A9-3 Human Capital Analytics",
+         "Activity Name":"HCM.A9-3.060 Distribution Preparation",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.010",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Align reporting with overall program and/or agency strategy.",
+         "Authoritative Reference":"5 CFR 250.204"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.020",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Establish reporting executive sponsorship.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.030",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Identify and document the reporting and organizational needs of relevant stakeholders. ",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.040",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Gather relevant reporting data, metrics, and analytic output.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.050",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"When appropriate, collaborate cross-functionally to ensure comprehensive data sources and alignment across enterprise analytics IT architecture.",
+         "Authoritative Reference":"5 USC 552a"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.060",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"When appropriate, collect reporting data from structured information systems.",
+         "Authoritative Reference":"5 USC 552a"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.070",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Consider multiple factors, including data size, type, velocity, format, fidelity, information security and accessibility, data integration method, and reporting \"story\" (i.e., business context) when determining which type of reporting tool to use or develop.",
+         "Authoritative Reference":"36 CFR 1236.14"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.080",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Include user support (e.g., number of support staff, budget, processes) in reporting planning phase. ",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.090",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Improve reporting efficiency, accessibility, transparency, and user engagement through effective report design, such as data visualization elements and techniques.",
+         "Authoritative Reference":"31 USC 1115"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.100",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Design reporting views, functionality, format, and delivery characteristics in accordance with the intended audience and purpose.",
+         "Authoritative Reference":"31 USC 1115"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.110",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"When appropriate, include interactive design elements (e.g., drill-up, drill-down, slice-and-dice, and data comparison) in reporting tools.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.120",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Involve stakeholders, as appropriate, in the reporting design and development process.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.130",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Consider stakeholder satisfaction and/or the stakeholder experience during reporting planning and development.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.140",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Develop a structured reporting improvement process.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.150",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"When appropriate, incorporate reporting export, print, and push notification capabilities.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.160",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"When appropriate, include regular automated data refreshing to ensure consistent reporting accuracy.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.170",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"When appropriate, design reporting user self-service capabilities in alignment with best practices and stakeholder needs (e.g., make self-service easy to find, include search engine optimization).",
+         "Authoritative Reference":"OPM Guide to Personnel Recordkeeping"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.180",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure proper reporting information security and privacy, as informed by the appropriate standards and regulations.",
+         "Authoritative Reference":"5 USC 552a"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.190",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure reporting compliance with accessibility standards and guidance (e.g., Section 508 of the Rehabilitation Act of 1973).",
+         "Authoritative Reference":"Section 508 of the Rehabilitation Act of 1973"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.200",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"When appropriate, automate reporting delivery.",
+         "Authoritative Reference":"31 USC 1115"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.210",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Regularly evaluate reporting technology and processes (every 1-5 years).",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.220",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Respond to reporting support inquiries in a timely manner (i.e., consistent with agency standards/requirements).",
+         "Authoritative Reference":"no source identified"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.230",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"When appropriate, provide user training according to best practices.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.010.240",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.010 Reporting Strategy and Planning",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.010",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Improve reporting efficiency, accessibility, transparency, and user engagement through effective report design, such as data visualization elements and techniques.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.020",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Design reporting views, functionality, format, and delivery characteristics in accordance with the intended audience and purpose.",
+         "Authoritative Reference":"31 USC 1115"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.030",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"When appropriate, include interactive design elements (e.g., drill-up, drill-down, slice-and-dice, and data comparison) in reporting tools.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.040",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Involve stakeholders, as appropriate, in the reporting design and development process.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.050",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Consider stakeholder satisfaction and/or the stakeholder experience during reporting planning and development.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.060",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Develop a structured reporting improvement process.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.070",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"When appropriate, incorporate reporting export, print, and push notification capabilities.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.080",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"When appropriate, include regular automated data refreshing to ensure consistent reporting accuracy.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.090",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"When appropriate, design reporting user self-service capabilities in alignment with best practices and stakeholder needs (e.g., make self-service easy to find, include search engine optimization).",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.100",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure proper reporting information security and privacy, as informed by the appropriate standards and regulations.",
+         "Authoritative Reference":"5 USC 552a"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.110",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure reporting compliance with accessibility standards and guidance (e.g., Section 508 of the Rehabilitation Act of 1973).",
+         "Authoritative Reference":"Section 508 of the Rehabilitation Act of 1973"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.120",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Evaluate reporting for accuracy prior to publication or distribution.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.130",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Generate reporting based on strategy and plan.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-4.020.140",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.020 Reporting Development",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-4.030.010",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.030 Reporting Distribution",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"When appropriate, incorporate reporting export, print, and push notification capabilities.",
+         "Authoritative Reference":"OPM How to Identify and Use Human Capital Analytics"
+      },
+      {
+         "Capability ID":"HCM.A9-4.030.020",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.030 Reporting Distribution",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"When appropriate, include regular automated data refreshing to ensure consistent reporting accuracy.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.030.030",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.030 Reporting Distribution",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"When appropriate, design reporting user self-service capabilities in alignment with best practices and stakeholder needs (e.g., make self-service easy to find, include search engine optimization).",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.030.040",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.030 Reporting Distribution",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure proper reporting information security and privacy, as informed by the appropriate standards and regulations.",
+         "Authoritative Reference":"5 USC 552a"
+      },
+      {
+         "Capability ID":"HCM.A9-4.030.050",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.030 Reporting Distribution",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure reporting compliance with accessibility standards and guidance (e.g., Section 508 of the Rehabilitation Act of 1973).",
+         "Authoritative Reference":"Section 508 of the Rehabilitation Act of 1973"
+      },
+      {
+         "Capability ID":"HCM.A9-4.030.060",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.030 Reporting Distribution",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"When appropriate, automate reporting delivery.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.030.070",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.030 Reporting Distribution",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure timely submission of reporting data in response to incoming inquiries, requests, or mandates.",
+         "Authoritative Reference":"no source identified"
+      },
+      {
+         "Capability ID":"HCM.A9-4.030.080",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.030 Reporting Distribution",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-4.040.010",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.040 Reporting Repository & Archive Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure proper reporting information security and privacy, as informed by the appropriate standards and regulations.",
+         "Authoritative Reference":"5 USC 552a"
+      },
+      {
+         "Capability ID":"HCM.A9-4.040.020",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.040 Reporting Repository & Archive Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure reporting compliance with accessibility standards and guidance (e.g., Section 508 of the Rehabilitation Act of 1973).",
+         "Authoritative Reference":"Section 508 of the Rehabilitation Act of 1973"
+      },
+      {
+         "Capability ID":"HCM.A9-4.040.030",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.040 Reporting Repository & Archive Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Regularly evaluate reporting technology and processes (every 1-5 years).",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.040.040",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.040 Reporting Repository & Archive Management",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-4.050.010",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.050 Reporting User Support",
+         "Input/Output/Process":"I",
+         "Business Capability Statement":"Consider stakeholder satisfaction and/or the stakeholder experience during reporting planning and development.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.050.020",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.050 Reporting User Support",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Develop a structured reporting improvement process.",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.050.030",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.050 Reporting User Support",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"When appropriate, design reporting user self-service capabilities in alignment with best practices and stakeholder needs (e.g., make self-service easy to find, include search engine optimization).",
+         "Authoritative Reference":"OPM HRStat Guidance"
+      },
+      {
+         "Capability ID":"HCM.A9-4.050.040",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.050 Reporting User Support",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure proper reporting information security and privacy, as informed by the appropriate standards and regulations.",
+         "Authoritative Reference":"5 USC 552a"
+      },
+      {
+         "Capability ID":"HCM.A9-4.050.050",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.050 Reporting User Support",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure reporting compliance with accessibility standards and guidance (e.g., Section 508 of the Rehabilitation Act of 1973).",
+         "Authoritative Reference":"Section 508 of the Rehabilitation Act of 1973"
+      },
+      {
+         "Capability ID":"HCM.A9-4.050.060",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.050 Reporting User Support",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Respond to reporting support inquiries in a timely manner (i.e., consistent with agency standards/requirements).",
+         "Authoritative Reference":"no source identified"
+      },
+      {
+         "Capability ID":"HCM.A9-4.050.070",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.050 Reporting User Support",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"When appropriate, provide user training according to best practices.",
+         "Authoritative Reference":"no source identified"
+      },
+      {
+         "Capability ID":"HCM.A9-4.050.080",
+         "Function":"HCM.A9-4 Human Capital Reporting",
+         "Activity Name":"HCM.A9-4.050 Reporting User Support",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-5.010.010",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.010 Employee Records Capture",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Establish and maintain an Official Personnel Folder (OPF) for each employee occupying a position subject to 5 CFR 293.302. ",
+         "Authoritative Reference":"5 CFR 293.302"
+      },
+      {
+         "Capability ID":"HCM.A9-5.010.020",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.010 Employee Records Capture",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Request the transfer of the OPF pertaining to the person's employment when an agency hires a person who has served on or after April 1, 1947, in a position subject to this part. ",
+         "Authoritative Reference":"5 CFR 293.306"
+      },
+      {
+         "Capability ID":"HCM.A9-5.010.030",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.010 Employee Records Capture",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Request any files or records that may be located in the Federal records storage center in the event that the prior service occurred before April 1, 1947, noting there will likely be no OPF because of the dates of service.",
+         "Authoritative Reference":"5 CFR 293.306"
+      },
+      {
+         "Capability ID":"HCM.A9-5.010.040",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.010 Employee Records Capture",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Establish an Employee Medical Folder (EMF) when the employee leaves the employing agency and occupational medical records for that employee exist. Agencies may also establish an EMF (if none presently exists) for active employees if the agency chooses. ",
+         "Authoritative Reference":"5 CFR 293.505"
+      },
+      {
+         "Capability ID":"HCM.A9-5.010.050",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.010 Employee Records Capture",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Prepare written guidance to describe what constitutes the agency's official performance-related forms and documents.",
+         "Authoritative Reference":"5 CFR 293.402"
+      },
+      {
+         "Capability ID":"HCM.A9-5.010.060",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.010 Employee Records Capture",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Establish management controls to ensure personnel records: adequately document human resource management operations; are accurate and timely; are protected against loss or unauthorized alteration; document the employment history of individuals employed by the Federal Government; can be located when necessary; are retained and disposed of as required by General Records Schedule 2.0; and secured against unauthorized access.",
+         "Authoritative Reference":"5 CFR 293.106"
+      },
+      {
+         "Capability ID":"HCM.A9-5.010.070",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.010 Employee Records Capture",
+         "Input/Output/Process":"I/P",
+         "Business Capability Statement":"Include only information concerning an individual that is relevant and necessary to accomplish the Federal personnel management purposes required by statute, Executive order, or Office regulation in a personnel record.",
+         "Authoritative Reference":"5 CFR 293.103"
+      },
+      {
+         "Capability ID":"HCM.A9-5.010.080",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.010 Employee Records Capture",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Collect information directly from the individual concerned, to the greatest extent practicable, if it may be used to make a determination about an individual's rights, benefits, or privileges under Federal personnel programs.",
+         "Authoritative Reference":"5 CFR 293.104"
+      },
+      {
+         "Capability ID":"HCM.A9-5.010.090",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.010 Employee Records Capture",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.010",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"I/P",
+         "Business Capability Statement":"Ensure that persons having access to or involved in the creation, development, processing, use, or maintenance of personnel records are informed of pertinent OPM and agency recordkeeping regulations and requirements.",
+         "Authoritative Reference":"5 CFR 293.103"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.020",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Provide employees access to their own EMFS (Employee Medical Folder System) records consistent with OPM regulations. ",
+         "Authoritative Reference":"5 CFR 293.504(b)"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.030",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Provide access to any representative specifically designated in writing by the employee to receive the record. ",
+         "Authoritative Reference":"5 CFR 293.504(b)"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.040",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Establish safeguards against the disclosure of personally identifying information (PII) belonging to someone other than the subject of the personnel file that may occur when an individual requests access to his/her personnel files. ",
+         "Authoritative Reference":"5 CFR 293.505"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.050",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Limit access to personnel records to employees whose official duties require access--except for access by the data subject.",
+         "Authoritative Reference":"5 CFR 293.106"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.060",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Establish administrative, technical, and physical controls to protect information in personnel records from unauthorized access, use, modification, destruction, or disclosure. ",
+         "Authoritative Reference":"5 CFR 293.106"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.070",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"I/P",
+         "Business Capability Statement":"Safeguard EMF records using procedures ensuring equal or greater levels of protection as those in 5 CFR 293.106. ",
+         "Authoritative Reference":"5 CFR 293.106"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.080",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Dispose of identifiable personal data in automated files in such a manner as to make the data unobtainable to unauthorized personnel; unneeded personal data stored on reusable media such as magnetic tapes and disks must be erased prior to release of the media for reuse.",
+         "Authoritative Reference":"5 USC 552a"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.090",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Process Privacy Act requests for amendment of records maintained in this system IAW agency procedures consistent with OPM regulations regarding amendment of records contained in part 297 of this chapter.",
+         "Authoritative Reference":"5 CFR/Subchapter B/Part 297"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.100",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Process requests for performance documents (e.g., Freedom of Information Act requests or requests made under the “routine use” provisions of the Privacy Act) in accordance with agency procedures consistent with OPM regulations regarding disclosures of such records contained in parts 293 and 297 of this chapter.",
+         "Authoritative Reference":"5 CFR/Subchapter B/Part 293 & 297"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.110",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Limit disclosure of information from personnel records to that which is permitted by the Privacy Act (5 U.S.C. 552a(b)), including those disclosures permitted by a routine use published in the applicable OPM government-wide system of records notice covering these records, as well as data identified as being available to the public in 5 CFR 293.311.  ",
+         "Authoritative Reference":"5 CFR 293.311"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.120",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Limit disclosure of information from EMF records only to those authorized to receive them as described in 5 CFR 293.504 (b), the OPM GOVT-10 System of Records Notice, and subsection (b) of the Privacy Act. ",
+         "Authoritative Reference":"5 CFR 293.504"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.130",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"O",
+         "Business Capability Statement":"Maintain a record of disclosure in cases where records about the individual are disclosed from an OPM system of records except when it is to the employee who is the subject of the folder (the data subject); someone who has the employee’s prior written consent to receive the information; agency employees and officials using the records to perform their duties; or the public as required by the Freedom of Information Act. ",
+         "Authoritative Reference":"5 CFR 293.503"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.140",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"I/P",
+         "Business Capability Statement":"Include the following information in an accounting of disclosure: a brief description of the record disclosed; date, nature, and purpose of each disclosure; and name and address of the person, agency or other entity to whom the disclosure is made. ",
+         "Authoritative Reference":"5 CFR 293.503"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.150",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Make specific information from both the OPF and Employee Performance File system folders, their automated equivalent records, and from other personnel record files that constitute an agency record within the meaning of the FOIA and which are under the control of the Office, about most present and former Federal employees, available to the public in accordance with 5 CFR 293.311 and as noted therein pursuant to and consistent with the Freedom of Information Act and the Privacy Act.",
+         "Authoritative Reference":"5 CFR 293.311"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.160",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"List OPM officials as a routine user for personnel records to assist OPM in its oversight responsibilities.",
+         "Authoritative Reference":"5 CFR 293.203"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.170",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Reconstruct the essential portions of the OPF, as specified in the Guide to Personnel Recordkeeping or other OPM instructions, in the event of a lost or destroyed OPF.",
+         "Authoritative Reference":"OPM Guide to Personnel Recordkeeping"
+      },
+      {
+         "Capability ID":"HCM.A9-5.010.180",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.010 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Include long-term records affecting the employee's status and service in the OPF as required by OPM's instructions and as designated in the Guide to Personnel Recordkeeping.",
+         "Authoritative Reference":"5 CFR 293.302"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.190",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Place copies of employees' performance ratings of record, including the performance plans on which the ratings are based, in either the employee's Official Personnel Folder (OPF) or in the Employee Performance File (EPF). ",
+         "Authoritative Reference":"5 CFR Chapter 1/subchapter B /Part 293/Subpart D "
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.200",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Except for performance records maintained in the OPF consistent with paragraph (a) of this section, each agency having employees occupying a position described in 293.401 shall provide for maintenance of performance-related records for such employees in the EPF system. ",
+         "Authoritative Reference":"5 CFR 293.401"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.210",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P/O",
+         "Business Capability Statement":"Prepare written internal instructions describing how the EMFS is to be implemented following the guidance provided in 5 CFR 293.503.",
+         "Authoritative Reference":"5 CFR 293.503"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.220",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Maintain EMFS records in accordance with OPM's Privacy Act regulations in part 297 of this chapter, with the agency's instructions implementing those regulations, and with the retention schedule for employee medical records stipulated in 5 CFR 293.511. ",
+         "Authoritative Reference":"5 CFR 293.511"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.230",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure that agency guidance enables employees to determine the location of their medical records.",
+         "Authoritative Reference":"5 CFR 293.505"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.240",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Place the EMF under the control of a specifically designated medical, health, safety, or personnel officer as prescribed in the agency's implementing internal procedures.",
+         "Authoritative Reference":"5 CFR 293.503"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.250",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure that Electronic Official Personnel Folders meet the National Archives and Records Administration’s standards for electronic records in CFR 36.1234.",
+         "Authoritative Reference":"5 CFR 36.1234"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.260",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Ensure all documents pertaining to an employee's rights and benefits are available in the personnel folder when needed.",
+         "Authoritative Reference":"5 CFR 293.311"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.270",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Maintain temporary records in accordance with General Records Schedule 2.0.",
+         "Authoritative Reference":"General Records Schedule 2.0"
+      },
+      {
+         "Capability ID":"HCM.A9-5.020.280",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.020 Employee Records Maintenance and Use",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+      },
+      {
+         "Capability ID":"HCM.A9-5.030.010",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.030 Employee Records Transfer Preparation",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Before transferring the OPF, the losing agency shall: (1) Remove those records of a temporary nature, except for PMRS employees' performance ratings of record including the performance plan on which the most recent rating was based; (2) Transfer performance ratings of record and the performance plan on which the most recent rating was based from the Employee Performance File of PMRS employees to their Official Personnel Folder, if the ratings and plans are not maintained by the agency in the Official Personnel Folder; and (3) Ensure that all permanent documents of the folder are complete, correct, and present in the folder in accordance with the Guide to Personnel Recordkeeping.",
+         "Authoritative Reference":"5 CFR 293.306"
+      },
+      {
+         "Capability ID":"HCM.A9-5.030.020",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.030 Employee Records Transfer Preparation",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"The requirements of 5 CFR 293.306, regarding the use of existing OPFs, apply to the use of existing EMFs upon the employee's transfer to or reemployment in a new employing agency.",
+         "Authoritative Reference":"5 CFR 293.306"
+      },
+      {
+         "Capability ID":"HCM.A9-5.030.030",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.030 Employee Records Transfer Preparation",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Remove or conceal all Social Security Numbers (SSNs) and other personally identifying information belonging to someone other than the subject that are displayed on records in the Personnel Folder (i.e., lists covering more than one employee in a personnel action) prior to transferring a Personnel Folder to an agency under OPM's recordkeeping authority.",
+         "Authoritative Reference":"5 CFR 293.306"
+      },
+      {
+         "Capability ID":"HCM.A9-5.030.040",
+         "Function":"HCM.A9-5 Employee Records Recordkeeping",
+         "Activity Name":"HCM.A9-5.030 Employee Records Transfer Preparation",
+         "Input/Output/Process":"P",
+         "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
+         "Authoritative Reference":"5 U.S. Code § 552a "
+       }
+     ],
+     "Business_Use_Cases":"coming soon",
+     "Standard_Data_Elements":{
+       "Standard Data Elements":"/assets/files/downloads/hr/hca/HCM Data Elements_A9 (Workforce Analytics & Employee Records).xlsx"
+     },
+     "Service_Measures":{
+       "Service Measures":"/assets/files/downloads/hr/acquisition/HCM Service Measures_A2 (Talent Acquisition).xlsx"
+     }
+   }
