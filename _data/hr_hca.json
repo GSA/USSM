@@ -74,22 +74,22 @@
                "Identifier":"HCM.A9-3.060",
                "Activity":"Distribution Preparation",
                "Description":"Preparing analysis for distribution. The service outcome(s) will include, but not be limited to:\n<ul><li>Prepared interpretation of analysis ready for distribution</li></ul>"
-        },
-            {
-               "Identifier":"HCM.A9-4.010",
-               "Activity":"Reporting Strategy and Planning",
-               "Description":"Defining the reporting needs/requirements and developing a reporting strategy and plan. The service outcome(s) will include, but not be limited to:\n<ul><li>Documented stakeholder reporting needs/requirements (e.g., intended audience, security constraints)\n</li><li>List of relevant data and analytic output\n</li><li>Reporting design and development plans</li></ul>"
-        },
-            {
-               "Identifier":"HCM.A9-4.020",
-               "Activity":"Reporting Development",
-               "Description":"Producing reporting that transforms human capital data into contextualized information to meet reporting needs and requirements. The service outcome(s) will include, but not be limited to:\n<ul><li>Reporting of the required data in the agreed upon format</li></ul>"
         }
          ]
       },
       {
          "type":"hcm-A9-4",
          "data":[
+            {
+               "Identifier":"HCM.A9-4.010",
+               "Activity":"Reporting Strategy and Planning",
+               "Description":"Defining the reporting needs/requirements and developing a reporting strategy and plan. The service outcome(s) will include, but not be limited to:\n<ul><li>Documented stakeholder reporting needs/requirements (e.g., intended audience, security constraints)\n</li><li>List of relevant data and analytic output\n</li><li>Reporting design and development plans</li></ul>"
+               },
+            {
+               "Identifier":"HCM.A9-4.020",
+               "Activity":"Reporting Development",
+               "Description":"Producing reporting that transforms human capital data into contextualized information to meet reporting needs and requirements. The service outcome(s) will include, but not be limited to:\n<ul><li>Reporting of the required data in the agreed upon format</li></ul>"
+            },
             {
                "Identifier":"HCM.A9-4.030",
                "Activity":"Reporting Distribution",
