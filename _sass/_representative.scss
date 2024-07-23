@@ -1,3 +1,5 @@
+@use '../node_modules/@uswds/uswds/packages/uswds-core/src/styles/mixins/helpers/at-media' as *;
+
 .representative {
     .border-right-md {
         @include at-media(tablet) {

@@ -16,7 +16,7 @@ capabilities-content: hr/retirement/capabilities.html
 lifecycle-content: hr/retirement/lifecycle.html
 lifecycle-pdf: assets/files/downloads/hr/retirement/HCM Functions and Activities_A6 (Separation and Retirement).xlsx
 lifecycle-source-document: assets/files/downloads/hr/retirement/HCM Functions and Activities_A6 (Separation and Retirement).xlsx
-standard-data-elements-pdf: assets/files/downloads/hr/retirement/HCM Data Standards_A6 (Separation and Retirement).xlsx
+standard-data-elements-pdf: assets/files/downloads/hr/retirement/HCM Data Elements_A6 (Separation and Retirement).xlsx
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 data-elements-content: hr/retirement/data-elements.html
