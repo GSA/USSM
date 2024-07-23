@@ -380,3 +380,49 @@ abbr{
     border: none;
     max-height:80%;
 }
+
+/* Specific override for m3-nav */
+@media (min-width: 64em) {
+  @supports (mask: url("")) {
+      .m3-nav .usa-nav__primary button[aria-expanded=false] span::after {
+          background: none;
+          background-color: transparent; 
+          mask-image: none;
+          mask-position: unset;
+          mask-repeat: unset;
+          mask-size: unset;
+      }
+
+      .m3-nav .usa-nav__primary button[aria-expanded=true] span::after {
+        background: none;
+        background-color: transparent; 
+        mask-image: none;
+        mask-position: unset;
+        mask-repeat: unset;
+        mask-size: unset;
+    }
+  }
+}
+
+/* uswds upgrade css changes */
+@media (min-width: 64em) {
+  .usa-nav__submenu .usa-nav__submenu-item a {
+      line-height: unset;
+  }
+}
+
+.usa-button--unstyled {
+  text-decoration: none;
+}
+
+.usa-button--unstyled:hover {
+  text-decoration: none;
+}
+
+.usa-footer__primary-link {
+  text-decoration: none;
+}
+
+.usa-footer__primary-link:hover{
+  text-decoration: underline;
+}

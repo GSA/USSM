@@ -29,22 +29,22 @@
                "Identifier":"HCM.A9-2.020",
                "Activity":"Workforce Research Data Collection",
                "Description":"Using research instruments to gather data and manage data collection. The service outcome(s) will include, but not be limited to:\n<ul><li> Datasets/repositories for analysis</li></ul>"
-        }
+        },
+        {
+         "Identifier":"HCM.A9-2.030",
+         "Activity":"Workforce Research Analysis",
+         "Description":"Preparing the research data, conducting data analysis, and interpreting results. The service outcome(s) will include, but not be limited to:\n<ul><li> Cleaned/normalized and/or coded datasets\n</li><li> Results of research</li></ul>"
+         },
+         {
+            "Identifier":"HCM.A9-2.040",
+            "Activity":"Workforce Research Report Development, Distribution, and Archive",
+            "Description":"Aggregating the results, summarizing findings, distributing research reports, and including reports into a research library to inform decision-makers and other stakeholders. The service outcome(s) will include, but not be limited to:\n<ul><li> Reports or documents that summarize, interpret, and/or provide recommendations based on the research results\n</li><li> Documented research (e.g., technical report)\n</li><li> Communications capability\n</li><li> Research report library</li></ul>"
+         }
          ]
       },
       {
          "type":"hcm-A9-3",
          "data":[
-            {
-               "Identifier":"HCM.A9-2.030",
-               "Activity":"Workforce Research Analysis",
-               "Description":"Preparing the research data, conducting data analysis, and interpreting results. The service outcome(s) will include, but not be limited to:\n<ul><li> Cleaned/normalized and/or coded datasets\n</li><li> Results of research</li></ul>"
-        },
-            {
-               "Identifier":"HCM.A9-2.040",
-               "Activity":"Workforce Research Report Development, Distribution, and Archive",
-               "Description":"Aggregating the results, summarizing findings, distributing research reports, and including reports into a research library to inform decision-makers and other stakeholders. The service outcome(s) will include, but not be limited to:\n<ul><li> Reports or documents that summarize, interpret, and/or provide recommendations based on the research results\n</li><li> Documented research (e.g., technical report)\n</li><li> Communications capability\n</li><li> Research report library</li></ul>"
-        },
             {
                "Identifier":"HCM.A9-3.010",
                "Activity":"Analytics Needs Assessment",
@@ -74,22 +74,22 @@
                "Identifier":"HCM.A9-3.060",
                "Activity":"Distribution Preparation",
                "Description":"Preparing analysis for distribution. The service outcome(s) will include, but not be limited to:\n<ul><li>Prepared interpretation of analysis ready for distribution</li></ul>"
-        },
-            {
-               "Identifier":"HCM.A9-4.010",
-               "Activity":"Reporting Strategy and Planning",
-               "Description":"Defining the reporting needs/requirements and developing a reporting strategy and plan. The service outcome(s) will include, but not be limited to:\n<ul><li>Documented stakeholder reporting needs/requirements (e.g., intended audience, security constraints)\n</li><li>List of relevant data and analytic output\n</li><li>Reporting design and development plans</li></ul>"
-        },
-            {
-               "Identifier":"HCM.A9-4.020",
-               "Activity":"Reporting Development",
-               "Description":"Producing reporting that transforms human capital data into contextualized information to meet reporting needs and requirements. The service outcome(s) will include, but not be limited to:\n<ul><li>Reporting of the required data in the agreed upon format</li></ul>"
         }
          ]
       },
       {
          "type":"hcm-A9-4",
          "data":[
+            {
+               "Identifier":"HCM.A9-4.010",
+               "Activity":"Reporting Strategy and Planning",
+               "Description":"Defining the reporting needs/requirements and developing a reporting strategy and plan. The service outcome(s) will include, but not be limited to:\n<ul><li>Documented stakeholder reporting needs/requirements (e.g., intended audience, security constraints)\n</li><li>List of relevant data and analytic output\n</li><li>Reporting design and development plans</li></ul>"
+               },
+            {
+               "Identifier":"HCM.A9-4.020",
+               "Activity":"Reporting Development",
+               "Description":"Producing reporting that transforms human capital data into contextualized information to meet reporting needs and requirements. The service outcome(s) will include, but not be limited to:\n<ul><li>Reporting of the required data in the agreed upon format</li></ul>"
+            },
             {
                "Identifier":"HCM.A9-4.030",
                "Activity":"Reporting Distribution",

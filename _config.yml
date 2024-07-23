@@ -162,7 +162,7 @@ primary_navigation:
           link: true
           external: false
           sub: true
-        - text: 'Employee Performance Management'
+        - text: 'Employee Performance'
           permalink: /fibf-hr-epm/
           show_in_menu: true
           show_in_footer: false
@@ -542,7 +542,7 @@ autoprefixer:
 sass:
   sass_dir: _sass
   load_paths:
-    - node_modules/uswds/dist/
+    - node_modules/@uswds/uswds/packages
   sourcemap: development
   quiet_deps: true
   style: compressed
