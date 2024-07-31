@@ -2,7 +2,7 @@
     <ul style="list-style-type: none; padding-left: 0;">
         {% for news_item in site.data.news.items %}
         {% if news_item.Title %}
-            <li class="margin-bottom-4"><img src="/assets/images/project-icons/news.png" class="news" alt="news icon">
+            <li class="margin-bottom-4"><img src="{{ site.baseurl }}/assets/images/project-icons/news.png" class="news" alt="news icon">
                 <span class="date">
                     <b>{{ news_item.Source }}</b><br>
                 </span>
