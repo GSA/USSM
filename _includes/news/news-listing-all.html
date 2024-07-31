@@ -1,0 +1,20 @@
+{% if site.data.news.items %}
+    <ul style="list-style-type: none; padding-left: 0;">
+        {% for news_item in site.data.news.items %}
+        {% if news_item.Title %}
+            <li class="margin-bottom-4"><img src="{{ site.baseurl }}/assets/images/project-icons/news.png" class="news" alt="news icon">
+                <span class="date">
+                    <b>{{ news_item.Source }}</b><br>
+                </span>
+                <a class="article" title="{{ news_item.Title }}" href="{{ news_item.Hyperlink }}" target="_blank">{{ news_item.Title }}</a><br>
+                    <span class="date">
+                        <i>{{ news_item.Date }}</i>
+                    </span>
+                </a>
+            </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No news items available.</p>
+{% endif %}
