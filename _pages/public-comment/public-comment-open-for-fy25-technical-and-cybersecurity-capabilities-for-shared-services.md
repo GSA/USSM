@@ -12,7 +12,7 @@ description: The latest Draft of Key Technical and Cybersecurity Capabilities fo
             Public Comment Open : FY25 Key Technical and Cybersecurity Capabilities for use in Shared and Centralized Services
         </h1>
         <p><b>August 1, 2024</b></p>
-        <p>The latest Draft of Key Technical and Cybersecurity Capabilities for Use in Shared and Centralized Services is available for agency and public comment on regulations.gov.  The technical and cybersecurity capabilities will be used to establish evaluation criteria in the marketplace that agencies use to procure and implement commercial and Federal shared and centralized services, including cloud and Software as a Service offerings, used to service agency management functions in areas such as, but not limited to, Financial Management, Grants Management, and Human Resources.  </p>
+        <p>The latest Draft of Key Technical and Cybersecurity Capabilities for Use in Shared and Centralized Services is available for agency and public comment on regulations.gov.  The technical and cybersecurity capabilities can be used to establish evaluation criteria in the marketplace that agencies use to procure and implement commercial and Federal shared and centralized services, including cloud and Software as a Service offerings, used to service agency management functions in areas such as, but not limited to, Financial Management, Grants Management, and Human Resources.  </p>
         <p>Your feedback is seen as helpful to ensuring this capability baseline is responsive to the needs of agencies.  It will be updated annually.</p>
         <p>
         Included for public comment in this release on regulations.gov is a draft capabilities baseline for:
