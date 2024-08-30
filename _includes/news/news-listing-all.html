@@ -8,7 +8,7 @@
                 </span>
                 <a class="article" title="{{ news_item.Title }}" href="{{ news_item.Hyperlink }}" target="_blank">{{ news_item.Title }}</a><br>
                     <span class="date">
-                        <i>{{ news_item.Date }}</i>
+                        <i>{{ news_item.Date | date: "%B %d, %Y" }}</i>
                     </span>
                 </a>
             </li>
