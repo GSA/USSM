@@ -1,140 +1,131 @@
 {
    "title": "News",
    "items": [
-      {
-          "NewsID": "17",
-          "Homepage": "1",
-          "Category": "FIBF-ERM",
-          "Title": "NARA eyes ‘zero click’ future for records management",
-          "Date": "7/29/2024",
-          "Source": "Federal News Network",
-          "Hyperlink": "https://federalnewsnetwork.com/it-modernization/2024/07/nara-eyes-zero-click-future-for-records-management/"
-      },
-      {
-          "NewsID": "16",
-          "Homepage": "1",
-          "Category": "FIBF-HR",
-          "Title": "RFI: USDA is Looking for Market Research Responses to Implement Modern Enterprise Solutions for the National Finance Center",
-          "Date": "7/24/2024",
-          "Source": "USDA National Finance Center – NFC Forward Program",
-          "Hyperlink": "https://sam.gov/opp/df7fc65622c54ea08a2c239f3a99e6a3/view"
-      },
-      {
-          "NewsID": "15",
-          "Homepage": "1",
-          "Category": "FIBF-HR",
-          "Title": "Public Comment Open for FY25 Annual Update to Mission Support Data and Business Standards",
-          "Date": "7/9/2024",
-          "Source": "Business Standards Council",
-          "Hyperlink": "https://ussm.gsa.gov/public-comment-open-for-fy25-annual-update-to-mission-support-data-and-business-standards/"
-      },
-      {
-          "NewsID": "14",
-          "Homepage": "1",
-          "Category": "FIBF-FFM",
-          "Title": "Treasury Announces USPTO as First Agency to Use Financial Management Marketplace for Core Financial System Needs",
-          "Date": "7/12/2024",
-          "Source": "Department of Treasury Press Release",
-          "Hyperlink": "https://www.fiscal.treasury.gov/news/patent-and-trademark-office.html"
-      },
-      {
-          "NewsID": "13",
-          "Homepage": "1",
-          "Category": "FIBF-HR",
-          "Title": "Technology Modernization Fund Announces Investment to Modernize Department of Energy HR System with Commercial Software as a Service (SaaS)",
-          "Date": "6/18/2024",
-          "Source": "General Services Administration Press Release",
-          "Hyperlink": "https://www.gsa.gov/about-us/newsroom/news-releases/technology-modernization-fund-announces-investment-06182024"
-      },
-      {
-          "NewsID": "12",
-          "Homepage": "1",
-          "Category": "FSSP",
-          "Title": "Interior Business Center Announces New Director",
-          "Date": "6/3/2024",
-          "Source": "Interior Business Center",
-          "Hyperlink": "https://www.doi.gov/ibc/interior-business-center-announces-new-director"
-      },
-      {
-          "NewsID": "11",
-          "Homepage": "0",
-          "Category": "FIBF-GRM",
-          "Title": "OMB’s New Guidance, RFI Boost Grant Modernization Efforts",
-          "Date": "4/5/2024",
-          "Source": "Federal News Network",
-          "Hyperlink": "https://federalnewsnetwork.com/management/2024/04/ombs-new-guidance-rfi-boost-grant-modernization-efforts/"
-      },
-      {
-          "NewsID": "10",
-          "Homepage": null,
-          "Category": null,
-          "Title": null,
-          "Date": null,
-          "Source": null,
-          "Hyperlink": null
-      },
-      {
-          "NewsID": "9",
-          "Homepage": "0",
-          "Category": "FIBF-GRM",
-          "Title": "Enhancing Grants Management Efficiency via Shared Services at HHS",
-          "Date": "4/3/2024",
-          "Source": "FedGov Today",
-          "Hyperlink": "https://fedgovtoday.com/podcast/enhancing-grants-management-microelectronics-innovation-tsp-biometrics-integration"
-      },
-      {
-          "NewsID": "7",
-          "Homepage": "0",
-          "Category": "FIBF-FOIA",
-          "Title": "FOIA Lifecycle Standards Available for Public Comment (Due by 5/17/2023)",
-          "Date": "3/18/2024",
-          "Source": "Regulations,gov",
-          "Hyperlink": "https://www.regulations.gov/docket/BSC-FOI-2024-0001/document"
-      },
-      {
-          "NewsID": "5",
-          "Homepage": "0",
-          "Category": "FIBF-CYB",
-          "Title": "VDP Platform 2022 Annual Report Showcases Platform’s Success",
-          "Date": "8/25/2023",
-          "Source": "Cybersecurity and Infrastructure Services Agency",
-          "Hyperlink": "https://www.cisa.gov/news-events/news/vdp-platform-2022-annual-report-showcases-platforms-success"
-      },
-      {
-          "NewsID": null,
-          "Homepage": null,
-          "Category": null,
-          "Title": null,
-          "Date": null,
-          "Source": null,
-          "Hyperlink": null
-      },
-      {
-          "NewsID": "3",
-          "Homepage": "0",
-          "Category": "FIBF-FM",
-          "Title": "Treasury’s Fiscal Service Setting Pace for Federal Financial Management Transformation",
-          "Date": "3/6/2023",
-          "Source": "Federal News Network",
-          "Hyperlink": "https://federalnewsnetwork.com/agency-oversight/2023/03/treasurys-fiscal-service-setting-pace-for-federal-financial-management-transformation/"
-      },
-      {
-          "NewsID": "2",
-          "Homepage": "0",
-          "Category": "FIBF-FM",
-          "Title": "Treasury Selects Commercial Vendor for Financial Shared Services Market",
-          "Date": "11/29/2022",
-          "Source": "NextGov",
-          "Hyperlink": "https://www.nextgov.com/modernization/2022/11/treasury-selects-commercial-vendor-financial-shared-services-market/380239/"
-      },
-      {
-          "NewsID": "1",
-          "Homepage": "0",
-          "Category": "FIBF-FM",
-          "Title": null,
-          "Date": null,
-          "Source": null,
-          "Hyperlink": null
-      }
+    {
+      "NewsID": "19",
+      "Homepage": "1",
+      "Category": "FSSP",
+      "Title": "Public Comment: Enhancing Practices to Optimize Cost Recovery (Final Draft)",
+      "Date": "2024-08-21",
+      "Source": "GSA OSSPI",
+      "Hyperlink": "https://docs.google.com/document/d/18ippmBJFcphwJmQgc29PAgkyErfYjw_43LsHnusnAHk/edit\r"
+    },
+    {
+      "NewsID": "18",
+      "Homepage": "1",
+      "Category": "FIBF-ITS",
+      "Title": "Public Comment: FY25 Key Technical and Cybersecurity Capabilities for use in Shared and Centralized Services",
+      "Date": "2024-08-01",
+      "Source": "Business Standards Council",
+      "Hyperlink": "https://ussm.gsa.gov/public-comment-open-for-fy25-technical-and-cybersecurity-capabilities-for-shared-services/\r"
+    },
+    {
+      "NewsID": "17",
+      "Homepage": "0",
+      "Category": "FIBF-ERM",
+      "Title": "NARA eyes ‘zero click’ future for records management",
+      "Date": "2024-07-29",
+      "Source": "Federal News Network",
+      "Hyperlink": "https://federalnewsnetwork.com/it-modernization/2024/07/nara-eyes-zero-click-future-for-records-management/\r"
+    },
+    {
+      "NewsID": "16",
+      "Homepage": "1",
+      "Category": "FIBF-HR",
+      "Title": "RFI: USDA is Looking for Market Research Responses to Implement Modern Enterprise Solutions for the National Finance Center",
+      "Date": "2024-07-24",
+      "Source": "USDA National Finance Center – NFC Forward Program",
+      "Hyperlink": "https://sam.gov/opp/df7fc65622c54ea08a2c239f3a99e6a3/view\r"
+    },
+    {
+      "NewsID": "15",
+      "Homepage": "0",
+      "Category": "FIBF-HR",
+      "Title": "Public Comment Open for FY25 Annual Update to Mission Support Data and Business Standards",
+      "Date": "2024-07-09",
+      "Source": "Business Standards Council",
+      "Hyperlink": "https://ussm.gsa.gov/public-comment-open-for-fy25-annual-update-to-mission-support-data-and-business-standards/\r"
+    },
+    {
+      "NewsID": "14",
+      "Homepage": "1",
+      "Category": "FIBF-FFM",
+      "Title": "Treasury Announces USPTO as First Agency to Use Financial Management Marketplace for Core Financial System Needs",
+      "Date": "2024-07-12",
+      "Source": "Department of Treasury Press Release",
+      "Hyperlink": "https://www.fiscal.treasury.gov/news/patent-and-trademark-office.html\r"
+    },
+    {
+      "NewsID": "13",
+      "Homepage": "1",
+      "Category": "FIBF-HR",
+      "Title": "Technology Modernization Fund Announces Investment to Modernize Department of Energy HR System with Commercial Software as a Service (SaaS)",
+      "Date": "2024-06-18",
+      "Source": "General Services Administration Press Release",
+      "Hyperlink": "https://www.gsa.gov/about-us/newsroom/news-releases/technology-modernization-fund-announces-investment-06182024\r"
+    },
+    {
+      "NewsID": "12",
+      "Homepage": "0",
+      "Category": "FSSP",
+      "Title": "Interior Business Center Announces New Director",
+      "Date": "2024-06-03",
+      "Source": "Interior Business Center",
+      "Hyperlink": "https://www.doi.gov/ibc/interior-business-center-announces-new-director\r"
+    },
+    {
+      "NewsID": "11",
+      "Homepage": "0",
+      "Category": "FIBF-GRM",
+      "Title": "\"OMB’s New Guidance",
+      "Date": " RFI Boost Grant Modernization Efforts\"",
+      "Source": "2024-04-05",
+      "Hyperlink": "Federal News Network"
+    },
+    {
+      "NewsID": "9",
+      "Homepage": "0",
+      "Category": "FIBF-GRM",
+      "Title": "Enhancing Grants Management Efficiency via Shared Services at HHS",
+      "Date": "2024-04-03",
+      "Source": "FedGov Today",
+      "Hyperlink": "https://fedgovtoday.com/podcast/enhancing-grants-management-microelectronics-innovation-tsp-biometrics-integration\r"
+    },
+    {
+      "NewsID": "7",
+      "Homepage": "0",
+      "Category": "FIBF-FOIA",
+      "Title": "FOIA Lifecycle Standards Available for Public Comment (Due by 5/17/2023)",
+      "Date": "2024-03-18",
+      "Source": "\"Regulations",
+      "Hyperlink": "gov\""
+    },
+    {
+      "NewsID": "5",
+      "Homepage": "0",
+      "Category": "FIBF-CYB",
+      "Title": "VDP Platform 2022 Annual Report Showcases Platform’s Success",
+      "Date": "2023-08-25",
+      "Source": "Cybersecurity and Infrastructure Services Agency",
+      "Hyperlink": "https://www.cisa.gov/news-events/news/vdp-platform-2022-annual-report-showcases-platforms-success\r"
+    },
+    {
+      "NewsID": "3",
+      "Homepage": "0",
+      "Category": "FIBF-FM",
+      "Title": "Treasury’s Fiscal Service Setting Pace for Federal Financial Management Transformation",
+      "Date": "2023-03-06",
+      "Source": "Federal News Network",
+      "Hyperlink": "https://federalnewsnetwork.com/agency-oversight/2023/03/treasurys-fiscal-service-setting-pace-for-federal-financial-management-transformation/\r"
+    },
+    {
+      "NewsID": "2",
+      "Homepage": "0",
+      "Category": "FIBF-FM",
+      "Title": "Treasury Selects Commercial Vendor for Financial Shared Services Market",
+      "Date": "2022-11-29",
+      "Source": "NextGov",
+      "Hyperlink": "https://www.nextgov.com/modernization/2022/11/treasury-selects-commercial-vendor-financial-shared-services-market/380239/\r"
+    }
   ]
  }

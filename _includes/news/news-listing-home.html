@@ -8,7 +8,8 @@
                 </span>
                 <a class="article" title="{{ news_item.Title }}" href="{{ news_item.Hyperlink }}" target="_blank">{{ news_item.Title }}</a><br>
                     <span class="date">
-                        <i>{{ news_item.Date }}</i>
+                        <i>{{ news_item.Date | date: "%B %d, %Y" }}</i>
+                    </span>
                     </span>
                 </a>
             </li>
@@ -18,3 +19,6 @@
 {% else %}
     <p>No news items available.</p>
 {% endif %}
+<p><a title="Read more" href="{{ site.baseurl }}/news" class="display-flex flex-align-center"><span class="display-block">Read More</span> <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+    <use xlink:href="/assets/img/sprite.svg#arrow_forward"></use>
+  </svg></a></p>
