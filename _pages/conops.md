@@ -130,7 +130,7 @@ Through a fee-for-service approach, providers will maintain solvent operations a
 </td>
 <td class="width-mobile padding-0">
   <a style="display: block;" href="{{site.baseurl}}/assets/files/508-final-governance.pdf" title="Governance PDF" target="_blank">
-    <img class="full-width maxw-mobile" src="{{site.baseurl}}/assets/images/508-final-governance.png"/>
+    <img class="full-width maxw-mobile" src="{{site.baseurl}}/assets/images/508-final-governance.webp"/> 
     <p style="text-align: center; margin-top: 0;">View PDF</p>
   </a>
 </td>
@@ -152,7 +152,7 @@ The effort to deliver a marketplace of mission-support services for the Federal 
   </div>
   <div class="grid-col flex-4">
     <a style="display: block;" href="{{site.baseurl}}/assets/files/508-final-version-mission-support.pdf" title="Governance PDF" target="_blank">
-      <img class="full-width maxw-mobile" src="{{site.baseurl}}/assets/images/508-final-version-mission-support.png"/>
+      <img class="full-width maxw-mobile" src="{{site.baseurl}}/assets/images/508-final-version-mission-support.webp"/>
       <p style="text-align: center; margin-top: 0;">View PDF</p>
     </a>
   </div>

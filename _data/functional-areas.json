@@ -2,66 +2,66 @@
     "title": "Functional Areas",
     "areas": [
           {
-            "logo": "acquisitions.png",
+            "logo": "acquisitions.webp",
             "title": "Acquisitions",
             "class": "acquisitions",
             "group": 1,
             "inactive": ["travel", "human-capital"]
           },
           {
-            "logo": "cyber.png",
+            "logo": "cyber.webp",
             "title": "Cyber",
             "class": "cyber",
             "group": 1
           },
           {
-            "logo": "deia.png",
+            "logo": "deia.webp",
             "title": "DEIA",
             "class": "deia",
             "group": 1
           },
           {
-            "logo": "electronic-records.png",
+            "logo": "electronic-records.webp",
             "title": "Electronic Records",
             "class": "electronic-records",
             "group": 1
           },
           {
-            "logo": "financial.png",
+            "logo": "financial.webp",
             "title": "Financial",
             "class": "financial",
             "group": 1
           },
           {
-            "logo": "foia.png",
+            "logo": "foia.webp",
             "title": "FOIA",
             "class": "foia",
             "group": 1,
             "inactive": ["financial", "travel", "human-capital", "real-property", "deia", "cyber", "foia", "grants", "acquisitions"]
           },
           {
-            "logo": "grants-mag.png",
+            "logo": "grants-mag.webp",
             "title": "Grants",
             "class": "grants",
             "group": 1,
             "inactive": ["travel", "real-property"]
           },
           {
-            "logo": "human-capital.png",
+            "logo": "human-capital.webp",
             "title": "Human Capital",
             "class": "human-capital",
             "group": 1,
             "inactive": ["acquisition", "real-property"]
           },
           {
-            "logo": "real-property-mag.png",
+            "logo": "real-property-mag.webp",
             "title": "Real Property",
             "class": "real-property",
             "group": 1,
             "inactive": ["travel", "grants", "human-capital"]
           },
           {
-            "logo": "travel.png",
+            "logo": "travel.webp",
             "title": "Travel",
             "class": "travel",
             "group": 1,

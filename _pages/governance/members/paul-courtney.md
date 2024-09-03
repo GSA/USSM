@@ -1,13 +1,13 @@
 ---
 layout: governance/representative
 permalink: /ssgb/paul-courtney/
-portrait: paul-courtney.jpg
+portrait: paul-courtney.webp
 type: Member Councils
 title: Shared Services Governance Board
 name: Paul Courtney
 position: Chief Procurement Officer
 department: Department of Homeland Security (DHS)
-logo: 4-caoc-logo.jpg | https://www.acquisition.gov/caoc-charter | CAOC
+logo: 4-caoc-logo.webp | https://www.acquisition.gov/caoc-charter | CAOC
 company: CAOC
 ---
 

@@ -2,7 +2,7 @@
 layout: governance
 permalink: /governance/
 title: Governance Ecosystem
-img: /assets/images/governance/governance-diagram-1.png
+img: /assets/images/governance/governance-diagram-1.webp
 ---
                     
                     
