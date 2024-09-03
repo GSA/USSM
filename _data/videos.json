@@ -2,7 +2,7 @@
   "title": "Landing Page Video Player",
   "videos": [
     {
-      "image": "/assets/images/video-card/what-are-shared-services.png",
+      "image": "/assets/images/video-card/what-are-shared-services.webp",
       "image_alt": "What Are Shared Services image",
       "title": "What Are Shared Services",
       "tag": "Shared Services",
@@ -15,7 +15,7 @@
       "related_links": []
     },
     {
-      "image": "/assets/images/video-card/qsmos-and-the-trail-to-mission-success.png",
+      "image": "/assets/images/video-card/qsmos-and-the-trail-to-mission-success.webp",
       "image_alt": "QSMOs and the Trail to Mission Success image",
       "title": "QSMOs and the Trail to Mission Success",
       "tag": "QSMOs",
@@ -28,7 +28,7 @@
       "related_links": []
     },
     {
-      "image": "/assets/images/video-card/enhancing-your-agencies-services.png",
+      "image": "/assets/images/video-card/enhancing-your-agencies-services.webp",
       "image_alt": "Enhancing Your Agencies Services by Utilizing FIBF image",
       "title": "Enhancing Your Agencies Services by Utilizing FIBF",
       "tag": "Business Standards",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "image": "/assets/images/video-card/fibf-introduction.png",
+      "image": "/assets/images/video-card/fibf-introduction.webp",
       "image_alt": "FIBF Introduction Image",
       "title": "Introduction to the Federal Integrated Business Framework (FIBF): Functions, Activities, and Business Capabilities",
       "tag": "Business Standards",
@@ -56,7 +56,7 @@
       "related_links": []
     },
     {
-      "image": "/assets/images/video-card/fibf-capabilities.png",
+      "image": "/assets/images/video-card/fibf-capabilities.webp",
       "image_alt": "FIBF Business Capabilities Image",
       "title": "FIBF: How to Use the Functions, Activities, and Business Capabilities",
       "tag": "Business Standards",
@@ -69,7 +69,7 @@
       "related_links": []
     },
     {
-      "image": "/assets/images/video-card/fibf-use-cases.png",
+      "image": "/assets/images/video-card/fibf-use-cases.webp",
       "image_alt": "FIBF Business Use Cases Image",
       "title": "FIBF: Introduction to Business Use Cases",
       "tag": "Business Standards",
@@ -82,7 +82,7 @@
       "related_links": []
     },
     {
-      "image": "/assets/images/video-card/fibf-data-element.png",
+      "image": "/assets/images/video-card/fibf-data-element.webp",
       "image_alt": "FIBF Business Stadard Data Element Image",
       "title": "FIBF: Introduction to Standard Data Elements",
       "tag": "Business Standards",
@@ -95,7 +95,7 @@
       "related_links": []
     },
     {
-      "image": "/assets/images/video-card/framework-video.png",
+      "image": "/assets/images/video-card/framework-video.webp",
       "image_alt": "M3 Framework - Move Your Agency Forward with M3 image",
       "title": "M3 Framework - Move Your Agency Forward with M3",
       "tag": "M3",
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "image": "/assets/images/video-card/playbook-video.png",
+      "image": "/assets/images/video-card/playbook-video.webp",
       "image_alt": "M3 Playbook - Move Your Agency Forward with M3 image",
       "title": "M3 Playbook - Move Your Agency Forward with M3",
       "tag": "M3",
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "image": "/assets/images/video-card/phases-video.png",
+      "image": "/assets/images/video-card/phases-video.webp",
       "image_alt": "Modernization Phases - Move Your Agency Forward with M3 image",
       "title": "Modernization Phases - Move Your Agency Forward with M3",
       "tag": "M3",

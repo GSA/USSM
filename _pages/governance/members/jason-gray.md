@@ -1,13 +1,13 @@
 ---
 layout: governance/representative
 permalink: /ssgb/jason-gray/
-portrait: jason-gray.jpg
+portrait: jason-gray.webp
 type: Member Councils
 title: Shared Services Governance Board
 name: Jason Gray
 position: Chief Information Officer 
 department: U.S. Agency for International Development (USAID)
-logo: 3-cioc-logo.png | https://www.cio.gov/about/vision/ | CIOC
+logo: 3-cioc-logo.webp | https://www.cio.gov/about/vision/ | CIOC
 company: CIOC 
 ---
 
