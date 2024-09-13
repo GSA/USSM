@@ -447,3 +447,30 @@ a.ogp-card__link--unset:hover {
   width:100%;
   position:absolute;
 }
+@include at-media(desktop) {
+  header ul.usa-nav__primary > li:nth-last-of-type(-n+2) {
+    a {
+      background: #102A4A;
+      margin-right: 10px;
+      color: #fff;
+      &:hover {
+        background: lighten(#114068, 10%);
+        color: #fff;
+        &::after {
+          display: none;
+        }
+      }
+      &.usa-current {
+        background: lighten(#114068, 10%);
+        color: #fff;
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .usa-nav__secondary {
+      right: 0.7em;
+  }
+}

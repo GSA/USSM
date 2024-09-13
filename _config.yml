@@ -78,7 +78,7 @@ primary_navigation:
       permalink: /governance/
       show_in_menu: true
       show_in_footer: false
-    - text: 'Business Standards'
+    - text: 'Data & Business Standards'
       href: /pages/team.md
       permalink: /fibf/
       show_in_menu: true
@@ -231,7 +231,7 @@ primary_navigation:
           permalink: /fibf-travel/
           show_in_menu: true
           show_in_footer: false
-    - text: 'M3 Playbook'
+    - text: 'Modernization'
       href: /pages/team.md
       permalink: /m3/
       show_in_menu: true
@@ -282,7 +282,7 @@ primary_navigation:
       show_in_menu: true
       show_in_footer: false
       children:
-        - text: 'QSMO'
+        - text: 'Marketplace'
           permalink: /qsmo/
           show_in_menu: true
           show_in_footer: false
@@ -314,7 +314,7 @@ primary_navigation:
           link: true
           external: true
           tooltip: 'Grants Management external link.'
-    - text: 'Catalog'
+    - text: 'Developer Hub'
       href: pages/resources.md
       permalink: /marketplace/
       show_in_menu: true
