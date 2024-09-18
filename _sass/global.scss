@@ -457,7 +457,7 @@ a.ogp-card__link--unset:hover {
       > .usa-accordion__button, > a {
         font-size: .78rem;
       }
-      &:nth-last-of-type(-n+2) {
+      &.btn {
         margin-left: 10px;
         > .usa-accordion__button {
           background: #102A4A;
