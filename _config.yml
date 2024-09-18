@@ -282,13 +282,14 @@ primary_navigation:
       show_in_menu: true
       show_in_footer: false
     - text: 'Marketplace'
-      href: /pages/qsmo.md
-      permalink: /qsmo/
+      href: pages/resources.md
+      permalink: /marketplace/
       show_in_menu: true
       show_in_footer: false
+      show_button_style: true
       children:
         - text: 'Marketplace'
-          permalink: /qsmo/
+          permalink: /marketplace/
           show_in_menu: true
           show_in_footer: false
           link: true
@@ -319,11 +320,11 @@ primary_navigation:
           link: true
           external: true
           tooltip: 'Grants Management external link.'
-    - text: 'Developer Hub'
-      href: pages/resources.md
-      permalink: /marketplace/
-      show_in_menu: true
-      show_in_footer: false
+    # - text: 'Developer Hub'
+    #   href: pages/resources.md
+    #   permalink: /marketplace/
+    #   show_in_menu: true
+    #   show_in_footer: false
 
 #secondary_navigation:
 #  - name: Secondary link
