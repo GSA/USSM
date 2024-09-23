@@ -287,39 +287,45 @@ primary_navigation:
       show_in_menu: true
       show_in_footer: false
       show_button_style: true
-      children:
-        - text: 'Marketplace'
-          permalink: /marketplace/
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: false
-        - text: 'External QSMO Websites'
-          show_in_menu: true
-          show_in_footer: false
-          link: false
-          external: false
-        - text: 'Cybersecurity Services'
-          permalink: 'https://www.cisa.gov/cyber-qsmo/'
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: true
-          tooltip: 'Cybersecurity Services external link.'
-        - text: 'Core Financial Management'
-          permalink: 'https://www.fiscal.treasury.gov/fmqsmo/'
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: true
-          tooltip: 'Core Financial Management external link.'
-        - text: 'Grants Management'
-          permalink: 'https://www.hhs.gov/grants/qsmo'
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: true
-          tooltip: 'Grants Management external link.'
+    # - text: 'Marketplace'
+    #   href: pages/resources.md
+    #   permalink: /marketplace/
+    #   show_in_menu: true
+    #   show_in_footer: false
+    #   show_button_style: true
+    #   children:
+    #     - text: 'Marketplace'
+    #       permalink: /marketplace/
+    #       show_in_menu: true
+    #       show_in_footer: false
+    #       link: true
+    #       external: false
+    #     - text: 'External QSMO Websites'
+    #       show_in_menu: true
+    #       show_in_footer: false
+    #       link: false
+    #       external: false
+    #     - text: 'Cybersecurity Services'
+    #       permalink: 'https://www.cisa.gov/cyber-qsmo/'
+    #       show_in_menu: true
+    #       show_in_footer: false
+    #       link: true
+    #       external: true
+    #       tooltip: 'Cybersecurity Services external link.'
+    #     - text: 'Core Financial Management'
+    #       permalink: 'https://www.fiscal.treasury.gov/fmqsmo/'
+    #       show_in_menu: true
+    #       show_in_footer: false
+    #       link: true
+    #       external: true
+    #       tooltip: 'Core Financial Management external link.'
+    #     - text: 'Grants Management'
+    #       permalink: 'https://www.hhs.gov/grants/qsmo'
+    #       show_in_menu: true
+    #       show_in_footer: false
+    #       link: true
+    #       external: true
+    #       tooltip: 'Grants Management external link.'
     # - text: 'Developer Hub'
     #   href: pages/resources.md
     #   permalink: /marketplace/
