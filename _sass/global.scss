@@ -1,3 +1,4 @@
+@use '../node_modules/@uswds/uswds/packages/uswds-core/src/styles/mixins/helpers/at-media' as *;
 .ogp-usa-card__container {
   text-decoration: unset;
 
@@ -446,4 +447,65 @@ a.ogp-card__link--unset:hover {
   height:100%;
   width:100%;
   position:absolute;
+}
+
+@include at-media(desktop) {
+  header ul.usa-nav__primary {
+    .navheader {
+      margin-left: 0;
+    }
+    > li {
+      > .usa-accordion__button, > a {
+        // font-size: .78rem;
+      }
+      &.btn {
+        margin-left: 10px;
+        > .usa-accordion__button {
+          background: #102A4A;
+          color: #fff;
+          &:hover {
+            background: lighten(#114068, 10%);
+            color: #fff;
+            &::after {
+              display: none;
+            }
+          }
+          &[aria-expanded="false"]{
+            background-image: url(../img/usa-icons/expand_more_white.svg), linear-gradient(transparent, transparent);
+            background-repeat: no-repeat;
+            background-size: 1rem;
+            background-position: right .75rem top 53%;         
+          }
+          &[aria-expanded="true"]{
+            background-image: url(../img/usa-icons-bg/expand_less--white.svg), linear-gradient(transparent, transparent);
+            background-repeat: no-repeat;
+            background-size: 1rem;
+            background-position: right .75rem top 53%;         
+          }
+        }
+        > a {
+          background: #102A4A;
+          margin-right: 10px;
+          color: #fff;
+          &:hover {
+            background: lighten(#114068, 10%);
+            color: #fff;
+            &::after {
+              display: none;
+            }
+          }
+          &.usa-current {
+            background: lighten(#114068, 10%);
+            color: #fff;
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+    } 
+  }
+  .usa-nav__secondary {
+      right: 0.7em;
+  }
 }

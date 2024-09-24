@@ -1,13 +1,13 @@
 ---
 layout: governance/representative
 permalink: /ssgb/patrick-bevill/
-portrait: patrick-bevill.jpg
+portrait: patrick-bevill.webp
 type: Member Councils
 title: Shared Services Governance Board
 name: Patrick Bevill
 position: Chief Information Security Officer
 department: Federal Retirement Thrift Investment Board (FRTIB)
-logo: 7-small-agency-council.png | https://www.sac.gov/about/ | Small Agency Council
+logo: 7-small-agency-council.webp | https://www.sac.gov/about/ | Small Agency Council
 company: Small Agency Council
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: governance/representative
 permalink: /ssgb/katy-kale/
-portrait: katy-kale.jpg
+portrait: katy-kale.webp
 type: Board Chair
 title: Shared Services Governance Board
 name: Katy Kale

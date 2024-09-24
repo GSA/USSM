@@ -1,7 +1,7 @@
 ---
 layout: governance/representative
 permalink: /ssgb/jennifer-funk/
-portrait: jennifer-funk.jpg
+portrait: jennifer-funk.webp
 type: Board Chair
 title: Shared Services Governance Board
 name: Jennifer Funk

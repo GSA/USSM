@@ -78,7 +78,7 @@ primary_navigation:
       permalink: /governance/
       show_in_menu: true
       show_in_footer: false
-    - text: 'Business Standards'
+    - text: 'Data & Business Standards'
       href: /pages/team.md
       permalink: /fibf/
       show_in_menu: true
@@ -231,7 +231,7 @@ primary_navigation:
           permalink: /fibf-travel/
           show_in_menu: true
           show_in_footer: false
-    - text: 'M3 Playbook'
+    - text: 'Modernization'
       href: /pages/team.md
       permalink: /m3/
       show_in_menu: true
@@ -276,54 +276,61 @@ primary_navigation:
           tooltip: 'Resources, guidelines, and templates to help.'
           show_in_menu: false
           show_in_footer: false
-    - text: 'QSMO'
-      href: /pages/qsmo.md
-      permalink: /qsmo/
-      show_in_menu: true
-      show_in_footer: false
-      children:
-        - text: 'QSMO'
-          permalink: /qsmo/
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: false
-        - text: 'External QSMO Websites'
-          show_in_menu: true
-          show_in_footer: false
-          link: false
-          external: false
-        - text: 'Cybersecurity Services'
-          permalink: 'https://www.cisa.gov/cyber-qsmo/'
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: true
-          tooltip: 'Cybersecurity Services external link.'
-        - text: 'Core Financial Management'
-          permalink: 'https://www.fiscal.treasury.gov/fmqsmo/'
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: true
-          tooltip: 'Core Financial Management external link.'
-        - text: 'Grants Management'
-          permalink: 'https://www.hhs.gov/grants/qsmo'
-          show_in_menu: true
-          show_in_footer: false
-          link: true
-          external: true
-          tooltip: 'Grants Management external link.'
-    - text: 'Catalog'
-      href: pages/resources.md
-      permalink: /marketplace/
-      show_in_menu: true
-      show_in_footer: false
     - text: 'Performance'
       href: pages/performance-management.md
       permalink: /performance-management/
       show_in_menu: true
       show_in_footer: false
+    - text: 'Marketplace'
+      href: pages/resources.md
+      permalink: /marketplace/
+      show_in_menu: true
+      show_in_footer: false
+      show_button_style: true
+    # - text: 'Marketplace'
+    #   href: pages/resources.md
+    #   permalink: /marketplace/
+    #   show_in_menu: true
+    #   show_in_footer: false
+    #   show_button_style: true
+    #   children:
+    #     - text: 'Marketplace'
+    #       permalink: /marketplace/
+    #       show_in_menu: true
+    #       show_in_footer: false
+    #       link: true
+    #       external: false
+    #     - text: 'External QSMO Websites'
+    #       show_in_menu: true
+    #       show_in_footer: false
+    #       link: false
+    #       external: false
+    #     - text: 'Cybersecurity Services'
+    #       permalink: 'https://www.cisa.gov/cyber-qsmo/'
+    #       show_in_menu: true
+    #       show_in_footer: false
+    #       link: true
+    #       external: true
+    #       tooltip: 'Cybersecurity Services external link.'
+    #     - text: 'Core Financial Management'
+    #       permalink: 'https://www.fiscal.treasury.gov/fmqsmo/'
+    #       show_in_menu: true
+    #       show_in_footer: false
+    #       link: true
+    #       external: true
+    #       tooltip: 'Core Financial Management external link.'
+    #     - text: 'Grants Management'
+    #       permalink: 'https://www.hhs.gov/grants/qsmo'
+    #       show_in_menu: true
+    #       show_in_footer: false
+    #       link: true
+    #       external: true
+    #       tooltip: 'Grants Management external link.'
+    # - text: 'Developer Hub'
+    #   href: pages/resources.md
+    #   permalink: /marketplace/
+    #   show_in_menu: true
+    #   show_in_footer: false
 
 #secondary_navigation:
 #  - name: Secondary link

@@ -1,7 +1,7 @@
 ---
 layout: governance/representative
 permalink: /ssgb/dale-bell/
-portrait: dale-bell.jpg
+portrait: dale-bell.webp
 type: Member Councils
 title: Shared Services Governance Board
 name: Dale Bell

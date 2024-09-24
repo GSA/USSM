@@ -1,13 +1,13 @@
 ---
 layout: governance/representative
 permalink: /ssgb/jolene-ann-lauria/
-portrait: jolene-ann-lauria.jpg
+portrait: jolene-ann-lauria.webp
 type: Member Councils
 title: Shared Services Governance Board
 name: Jolene Ann Lauria 
 position: Acting Assistant Attorney General for Administration
 department: Department of Justice (DOJ) 
-logo: 5-pic-logo.png | https://www.performance.gov/pic/about/ | PIC
+logo: 5-pic-logo.webp | https://www.performance.gov/pic/about/ | PIC
 company: PIC
 ---
 

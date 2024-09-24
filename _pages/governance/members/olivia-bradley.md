@@ -1,13 +1,13 @@
 ---
 layout: governance/representative
 permalink: /ssgb/olivia-bradley/
-portrait: olivia-bradley.jpg
+portrait: olivia-bradley.webp
 type: Member Councils
 title: Shared Services Governance Board
 name: Olivia Bradley
 position: Senior Procurement Executive and Director of Acquisition Management
 department: Department of Commerce (DOC)
-logo: 4-caoc-logo.jpg | https://www.acquisition.gov/caoc-charter | CAOC
+logo: 4-caoc-logo.webp | https://www.acquisition.gov/caoc-charter | CAOC
 company: CAOC 
 ---
 
