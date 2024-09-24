@@ -2,7 +2,7 @@ ruby '>= 3.1.3'
 
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2.2"
+gem "jekyll", "~> 4.3.3"
 gem "webrick"
 
 # See https://github.com/envygeeks/jekyll-assets/issues/622
@@ -25,3 +25,5 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "html-proofer", "~> 3.15"
 
 gem 'jekyll-datapage-generator'
+
+gem 'jekyll-sass-converter', '~> 3.0'
