@@ -1,6 +1,6 @@
 ---
 layout: governance/representative
-permalink: /ssgb/vacant/
+permalink: /ssgb/vacant-2/
 portrait: vacant.webp
 title: Shared Services Governance Board
 name: Member Councils
