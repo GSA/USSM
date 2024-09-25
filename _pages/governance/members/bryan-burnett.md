@@ -7,7 +7,7 @@ title: Shared Services Governance Board
 name: Bryan Burnett
 position: Chief Information and Data Officer 
 department: Consumer Product Safety Commission (CPSC) 
-logo: 7-small-agency-council.webp | https://www.sac.gov/about/ | Small Agency Council
+logo: 6-small-agency-council.webp | https://www.sac.gov/about/ | Small Agency Council
 company: Small Agency Council 
 ---
 

@@ -13,7 +13,7 @@ where we provide an easy way to manage your navigation system
                 <div class="council tablet:grid-col-6 text-center margin-top-5">
                     {% assign logo = group.name | split: "| " %}
                     <a href="{{ logo[1] }}" title="{{ logo[2] }} Website" target="_blank" class="display-flex flex-column flex-justify flex-align-center">
-                        <img loading="lazy" class="width-card height-15" style="object-fit: contain;" src="{{site.baseurl}}/assets/images/governance/logos/{{ logo[0] }}" alt="{{ logo[2] }} Logo">
+                        <img loading="lazy" class="width-card height-15" style="object-fit: contain;{% if group.items[0].logo-width %}width: {{ group.items[0].logo-width }}px;{% endif %}" src="{{site.baseurl}}/assets/images/governance/logos/{{ logo[0] }}" alt="{{ logo[2] }} Logo">
                     </a>
                     <div class="grid-row flex-wrap flex-justify-center">
                         {% for item in group.items %}                        
