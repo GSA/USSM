@@ -81,7 +81,14 @@ where we provide an easy way to manage your navigation system
             </li>
             {% endfor %}
           </ul>
-          {% include searchgov/form.html searchgov=site.searchgov %}
+          <div class="grid-row flex-align-center tablet:width-mobile">
+            <div class="tablet:grid-col flex-1">
+              {% include notifications.html %}
+            </div>
+            <div class="tablet:grid-col flex-8">
+              {% include searchgov/form.html searchgov=site.searchgov %}
+            </div>
+          </div>
         </div>
       </div>
     </nav>
