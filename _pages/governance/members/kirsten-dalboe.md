@@ -7,7 +7,7 @@ title: Shared Services Governance Board
 name: Kirsten Dalboe
 position: Chief Data Officer
 department: Federal Energy Regulatory Commision (FERC) 
-logo: 6-cdo-logo.webp | https://www.cdo.gov/about-us/ | CDOC
+logo: 7-cdo-logo.webp | https://www.cdo.gov/about-us/ | CDOC
 company: CDOC
 ---
 

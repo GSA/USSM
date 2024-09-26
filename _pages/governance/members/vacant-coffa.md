@@ -1,0 +1,16 @@
+---
+layout: governance/representative
+permalink: /ssgb/vacant-coffa/
+portrait: vacant.webp
+title: Shared Services Governance Board
+name: Member Councils
+title: Shared Services Governance Board
+name: Vacant
+position: 
+department: TBD
+logo: 6-coffa-logo.webp | https://www.cfo.gov/coffa/ | COFFA
+logo-width: 200
+company: COFFA
+---
+
+Coming soon.
