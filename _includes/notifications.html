@@ -1,0 +1,58 @@
+<div class="notifications">
+    <a href="#latest-notifications" class="text-base-dark display-block margin-top-1 tablet:" id="notification-button" aria-controls="latest-notifications" data-open-modal title="View latest Shared Services Notifications">
+        <svg class="usa-icon usa-icon--size-3" aria-hidden="true" focusable="false" role="img">
+            <use xlink:href="/assets/img/sprite.svg#notifications"></use>
+        </svg>
+    </a>
+    <div class="usa-modal" id="latest-notifications" aria-labelledby="modal-1-heading" aria-describedby="modal-1-description">
+        <div class="usa-modal__content">
+            <div class="usa-modal__main">
+                <h2 class="usa-modal__heading padding-x-4" id="modal-1-heading">
+                    Latest Notifications
+                </h2>
+                <div class="usa-prose">
+                    <p id="modal-1-description">
+                        
+                    </p>
+                </div>
+            </div>
+            <button type="button" class="usa-button usa-modal__close margin-top-neg-2" aria-label="Close this window" data-close-modal>
+                <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="/assets/img/sprite.svg#close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+<script>
+    window.addEventListener('load', function() {
+        let output = '';
+        fetch('/news-api/')
+            .then(response => response.json())
+            .then(data => {
+                let year = new Date().getFullYear();
+                let pastmonth = (new Date().getMonth()).toString().padStart(2, '0');
+                let currentmonth = (new Date().getMonth() + 1).toString().padStart(2, '0');
+                let filteredData = data.filter(function(item) {
+                    return item.Date.includes(year + '-' + pastmonth);
+                });
+
+                for (const item of filteredData) {
+                    output += '<a href="' + item.Hyperlink + '" title="' + item.Title +  '" class="display-block margin-bottom-2">' + item.Title + '</a>';
+                }
+
+                if (filteredData.length === 0) {
+                    output = 'No new notifications';
+                } else {
+                    document.getElementById('notification-button').classList.remove('text-base-dark');
+                    document.getElementById('notification-button').classList.add('text-secondary-dark');
+                }
+
+                document.getElementById('modal-1-description').innerHTML = output;
+            
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            }); 
+    });
+</script>
