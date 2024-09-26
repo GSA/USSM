@@ -1,7 +1,7 @@
 <div class="notifications">
     <a href="#latest-notifications" class="text-base-dark display-block margin-top-1 tablet:" id="notification-button" aria-controls="latest-notifications" data-open-modal title="View latest Shared Services Notifications">
         <svg class="usa-icon usa-icon--size-3" aria-hidden="true" focusable="false" role="img">
-            <use xlink:href="/assets/img/sprite.svg#notifications"></use>
+            <use xlink:href="{{ site.url }}/assets/img/sprite.svg#notifications"></use>
         </svg>
     </a>
     <div class="usa-modal" id="latest-notifications" aria-labelledby="modal-1-heading" aria-describedby="modal-1-description">
@@ -18,7 +18,7 @@
             </div>
             <button type="button" class="usa-button usa-modal__close margin-top-neg-2" aria-label="Close this window" data-close-modal>
                 <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                    <use xlink:href="/assets/img/sprite.svg#close"></use>
+                    <use xlink:href="{{ site.url }}/assets/img/sprite.svg#close"></use>
                 </svg>
             </button>
         </div>
@@ -27,7 +27,7 @@
 <script>
     window.addEventListener('load', function() {
         let output = '';
-        fetch('{{ site.url }}/news-api/')
+        fetch('https://federalist-4be496a3-cca3-4187-b4d4-c3d573ae3139.sites.pages.cloud.gov/preview/gsa/ussm/pre-staging/news-api/')
             .then(response => response.json())
             .then(data => {
                 let year = new Date().getFullYear();
