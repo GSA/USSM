@@ -32,9 +32,23 @@
                 let year = new Date().getFullYear();
                 let pastmonth = (new Date().getMonth()).toString().padStart(2, '0');
                 let currentmonth = (new Date().getMonth() + 1).toString().padStart(2, '0');
+
+                // Build dates array from last 3 weeks
+                let datesArray = [];
+                for (let i = 0; i < 21; i++) {
+                    let date = new Date(new Date().setDate(new Date().getDate() - i)).toISOString().split('T')[0];
+                    datesArray.push(date);
+                }
+
+                // let filteredData = data.filter(function(item) {
+                //     return item.Date.includes(year + '-' + currentmonth); 
+                // });
+
+                // Filter data by dates array
                 let filteredData = data.filter(function(item) {
-                    return item.Date.includes(year + '-' + currentmonth); 
+                    return datesArray.includes(item.Date.split('T')[0]);
                 });
+
                 if (filteredData.length === 0) {
                     output = 'No new notifications';
                 } else {
