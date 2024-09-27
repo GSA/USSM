@@ -7,7 +7,7 @@ news-category: FIBF-FM
 ---
 
 
-{% include banner.html width="grid-col-11" offset="grid-offset-1" %}
+{% include banner.html title-override="Marketplace" width="grid-col-11" offset="grid-offset-1" %}
 
 <div class="grid-container">
     <div class="grid-row grid-gap">
@@ -21,6 +21,9 @@ news-category: FIBF-FM
     <div class="grid-container">
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
+                <h2 class="margin-bottom-0 margin-top-0">
+                    Financial Management
+                </h2>
                 <p>
                     Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Federal agencies currently manage over $6 trillion in annual spending.  Common goals and objectives include:
                 </p>
@@ -35,7 +38,12 @@ news-category: FIBF-FM
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 padding-top-4 display-flex flex-column">
-                <h2 class="margin-bottom-0">Goal, Priority, and Policy Alignment</h2>
+                <div class="display-flex flex-align-center">
+                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
+                    <h2 class="margin-bottom-0 margin-top-0">
+                        Goal, Priority, and Policy Alignment
+                    </h2>
+                </div>
                 <p><b>President's Management Agenda</b></p>
                 <ul class="margin-top-0 margin-bottom-0">
                     <li>Priority 3: <a href="https://www.performance.gov/pma/businessofgov/#overview" title="performance.gov" target="_blank">Managing the Business of Government</a>, Strategy 2 <a href="https://www.performance.gov/pma/businessofgov/strategy/2/" target="_blank" title="Strengthen Federal Financial Management">Strengthen Federal Financial Management.</a></li>
@@ -54,7 +62,12 @@ news-category: FIBF-FM
         </div>
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
-                <h2 class="margin-bottom-0">Services and Solutions</h2>
+                <div class="display-flex flex-align-center">
+                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
+                    <h2 class="margin-bottom-0 margin-top-0">
+                        Services and Solutions
+                    </h2>
+                </div>
                 <p>
                     The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the <a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">FM Marketplace Catalog</a> as a resource for agencies to identify and research from over 70 services and solutions that can support their financial management needs to accomplish both agency and shared government-wide goals.
                 </p>
@@ -66,7 +79,12 @@ news-category: FIBF-FM
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 display-flex flex-column">
-                <h2 class="margin-bottom-0">Data and Business Standards</h2>
+                <div class="display-flex flex-align-center">
+                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#verified_user"></use></svg> -->
+                    <h2 class="margin-bottom-0 margin-top-0">
+                        Data and Business Standards
+                    </h2>
+                </div>
                 <ul class="margin-top-2">
                     <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Budget Execution" target="_blank">Budget Execution</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Financial Asset and Information Management">Financial Asset and Information Management</a></li>
