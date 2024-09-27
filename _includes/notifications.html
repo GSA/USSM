@@ -33,7 +33,7 @@
                 let pastmonth = (new Date().getMonth()).toString().padStart(2, '0');
                 let currentmonth = (new Date().getMonth() + 1).toString().padStart(2, '0');
                 let filteredData = data.filter(function(item) {
-                    return item.Date.includes(year + '-' + pastmonth);
+                    return item.Date.includes(year + '-' + currentmonth); 
                 });
                 if (filteredData.length === 0) {
                     output = 'No new notifications';
@@ -43,10 +43,10 @@
                     output += '<h1 class="font-body-lg">Latest Notifications</h1>';
                     for (const item of filteredData) {
                         output += '<p><a href="' + item.Hyperlink + '" title="' + item.Title +  '" class="display-block font-body-xs">' + item.Title + '</a>';
-                        output += '<time datetime=' + new Date(item.Date).toISOString().split('T')[0] + ' class="notification-date display-block font-body-xs"><i>' + new Date(item.Date).toLocaleDateString('en-US') + '</i></time></p>';
+                        output += '<time datetime="' + new Date(item.Date).toISOString().split('T')[0] + '" class="notification-date display-block font-body-xs"><i>' + new Date(item.Date).toLocaleDateString('en-US', {timeZone: 'UTC'}) + '</i></time></p>';
                     }
                 }
-                output += '<p><a href="{{ site.baseurl }}/news/" class="display-inline-block font-body-xs usa-button">View all notifications</a></p>';
+                output += '<p><a href="{{ site.baseurl }}/#news" class="display-inline-block font-body-xs usa-button" data-close-modal>View all notifications</a></p>';
                 document.getElementById('news-content').innerHTML = output;
             
             })
