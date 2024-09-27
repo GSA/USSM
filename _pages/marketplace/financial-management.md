@@ -50,7 +50,7 @@ news-category: FIBF-FM
                 <p><b>Related Priorities</b></p>
                 <ul class="margin-top-0 margin-bottom-3">
                     <li><a href="https://www.cfo.gov/federal-financial-reporting/" title="Federal Financial Reporting" target="_blank">Federal Financial Reporting</a> (CFO.gov)</li>
-                    <li><a href="https://www.paymentaccuracy.gov/" title="Payment Integrity" target="_blank">Payment Integrity</a></li>
+                    <!-- <li><a href="https://www.paymentaccuracy.gov/" title="Payment Integrity" target="_blank">Payment Integrity</a></li> -->
                 </ul>
                 <hr class="margin-top-auto width-full">
             </div>
@@ -91,10 +91,22 @@ news-category: FIBF-FM
         </div>
         <div class="grid-row padding-bottom-5">
             <div class="tablet:grid-col-10 grid-offset-1">
-            <h2>Other References</h2>
-            <ul class="margin-top-0 margin-bottom-3">
+                <h2>Other References</h2>
+                <ul class="margin-top-0 margin-bottom-3">
                     <li>
-                    <a href="https://fmvision.fiscal.treasury.gov/files/Future-of-Financial-Management.pdf" title="Dept of Treasury’s 10-Year Vision for Financial Management" target="_blank">Dept of Treasury’s 10-Year Vision for Financial Management</a>
+                        <a href="https://fmvision.fiscal.treasury.gov/files/Future-of-Financial-Management.pdf" title="Dept of Treasury’s 10-Year Vision for Financial Management" target="_blank">
+                            Dept of Treasury’s 10-Year Vision for Financial Management
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tfx.treasury.gov/fmqsmo/fmcf" title="Financial Management Capability Framework" target="_blank">
+                            Financial Management Capability Framework
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tfx.treasury.gov/fmqsmo/updates" title="FM QSMO’s Latest Updates" target="_blank">
+                            FM QSMO’s Latest Updates
+                        </a>
                     </li>
                 </ul>
             </div>
