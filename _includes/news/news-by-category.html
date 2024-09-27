@@ -1,7 +1,12 @@
 
 {% if site.data.news.items && include.category %}
 <div class="news-by-category">
-    <h2>News</h2>
+    <div class="display-flex flex-align-center">
+        <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#info"></use></svg> -->
+        <h2 class="margin-bottom-0 margin-top-0">
+            News
+        </h2>
+    </div>
     <ul style="list-style-type: none; padding-left: 0;">
         {% for news_item in site.data.news.items %}
         {% if news_item.Title and news_item.Category == include.category %}
