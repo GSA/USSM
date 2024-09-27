@@ -1,6 +1,6 @@
 ---
 layout: base
-permalink: /marketplace/qsmo-ffm
+permalink: /marketplace/qsmo-ffm/
 title: Financial Management
 description: "Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer. Federal agencies currently manage over $6 trillion in annual spending."
 news-category: FIBF-FM 
