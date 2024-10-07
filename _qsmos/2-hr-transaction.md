@@ -1,5 +1,5 @@
 ---
-name: Civilian HR Transaction Services
+name: Human Resources
 border: 162e51
 phase: Pre-designated
 agency: OPM
