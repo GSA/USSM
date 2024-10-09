@@ -2,7 +2,7 @@
 layout: base
 permalink: /public-comment-open-for-fy25-technical-and-cybersecurity-capabilities-for-shared-services/
 title: Public Comment Open
-description: The latest Draft of Key Technical and Cybersecurity Capabilities for Use in Shared and Centralized Services is available for agency and public comment on regulations.gov.
+description: Draft Technical and Cybersecurity Capabilities for Use in Shared and Centralized Services available for agency and public comment on regulations.gov.
 
 ---
 
