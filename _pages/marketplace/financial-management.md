@@ -22,19 +22,22 @@ news-category: FIBF-FM
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                    Financial Management
+                    Financial Management Service and Solutions
                 </h2>
+
+                
                 <p>
-                    Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Federal agencies currently manage over $6 trillion in annual spending.  Common goals and objectives include:
+                    The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the <a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">FM Marketplace Catalog</a> as a resource for agencies to identify and research from over 70 services and solutions that can support their financial management needs to accomplish both agency and shared government-wide goals.
                 </p>
-                <ul class="margin-top-0">
-                    <li>Improving Financial Transparency</li>
-                    <li>Enhancing Internal Controls to Reduce Risk</li>
-                    <li>Integrating Performance and Budgeting</li>
-                    <li>Strengthening Payment Integrity</li>
-                    <li>Automating Financial Processes</li>
-                    <li>Using Data to Maximize Resource Allocation</li>
+                <ul class="margin-top-0 margin-bottom-3">
+                    <li><a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">Explore FM Marketplace Catalog</a></li>
+                    <li><a href="https://tfx.treasury.gov/fmqsmo/faqs" title="FAQ About the FM QSMO" target="_blank">FAQ About the FM QSMO</a></li>
+                    <li>Contact the FM QSMO: <a href="mailto: FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a></li>
                 </ul>
+
+
+
+              
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 padding-top-4 display-flex flex-column">
@@ -65,17 +68,23 @@ news-category: FIBF-FM
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
-                        Services and Solutions
+                        Why does it matter?
                     </h2>
                 </div>
-                <p>
-                    The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the <a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">FM Marketplace Catalog</a> as a resource for agencies to identify and research from over 70 services and solutions that can support their financial management needs to accomplish both agency and shared government-wide goals.
+             
+                  <p>
+                    Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Federal agencies currently manage over $6 trillion in annual spending.  Common goals and objectives include:
                 </p>
-                <ul class="margin-top-0 margin-bottom-3">
-                    <li><a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">Explore FM Marketplace Catalog</a></li>
-                    <li><a href="https://tfx.treasury.gov/fmqsmo/faqs" title="FAQ About the FM QSMO" target="_blank">FAQ About the FM QSMO</a></li>
-                    <li>Contact the FM QSMO: <a href="mailto: FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a></li>
+                <ul class="margin-top-0">
+                    <li>Improving Financial Transparency</li>
+                    <li>Enhancing Internal Controls to Reduce Risk</li>
+                    <li>Integrating Performance and Budgeting</li>
+                    <li>Strengthening Payment Integrity</li>
+                    <li>Automating Financial Processes</li>
+                    <li>Using Data to Maximize Resource Allocation</li>
                 </ul>
+                
+
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 display-flex flex-column">
