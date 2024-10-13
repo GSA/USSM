@@ -22,7 +22,7 @@ news-category: FIBF-FM
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                    Financial Management Service and Solutions
+                    Financial Management Solutions
                 </h2>
 
                 
