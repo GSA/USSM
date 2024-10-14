@@ -79,7 +79,7 @@ news-category: FIBF-FM
 
                 
 <div class="video-container" style="display: flex; justify-content: center; align-items: center; height: 100%;">
-  <video id="myVideo" preload="metadata" width="213px;" height="160px;" poster="/assets/images/marketplace/image.png" aria-label="What is Quality Service Management Office video">
+  <video id="myVideo" preload="metadata" width="230px;" height="173px;" poster="/assets/images/marketplace/image.png" aria-label="What is Quality Service Management Office video">
     <source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -146,7 +146,7 @@ news-category: FIBF-FM
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                     <li style="margin-left: 0px;">Priority 3: <a href="https://www.performance.gov/pma/businessofgov/#overview" title="performance.gov" target="_blank">Managing the Business of Government</a>, Strategy 2 <a href="https://www.performance.gov/pma/businessofgov/strategy/2/" target="_blank" title="Strengthen Federal Financial Management">Strengthen Federal Financial Management.</a></li>
                 </ul>
-                  <p><b>Statute, Policy, and Strategy</b></p>
+                  <p><b>Policy and Statute</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                     <li style="margin-left: 0px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
                     <li style="margin-left: 0px;"><a href="https://fmvision.fiscal.treasury.gov/" title="Treasury 10-Year Vision for Financial Management" target="_blank">Treasury 10-Year Vision for Financial Management</A></li>
@@ -156,6 +156,14 @@ news-category: FIBF-FM
                     <li style="margin-left: 0px;"><a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf" title="OMB Circular A-123" target="_blank">OMB Circular A-123</a> (Appendix <a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/M-18-16.pdf" target="_blank" title="Appendix A">A</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2019/08/Issuance-of-Revised-Appendix-B-to-OMB-Circular-A-123.pdf" target="_blank" title="Appendix B">B</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2021/03/M-21-19.pdf" target="_blank" title="Appendix C">C</a>, and <a href="https://www.whitehouse.gov/wp-content/uploads/2023/01/M_23-06-Appendix-D_final.pdf" target="_blank" title="Appendix D">D</a>)</li>
                     <li style="margin-left: 0px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/a11.pdf" title="OMB Circular A-11" target="_blank">OMB Circular A-11</a></li>
                 </ul>
+
+
+    <p><b>Governance and Strategy</b></p>
+                <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+                    <li style="margin-left: 0px;"><a href="https://www.cfoc.gov" title="Federal CFO Council" target="_blank">Federal CFO Council</a></li>
+                    <li style="margin-left: 0px;"><a href="https://www.fiscal.treasury.gov/fmsc/" title="Federal Financial Management Steering Committee" target="_blank">Federal Financial Management Steering Committee</a></li>
+                    <li style="margin-left: 0px;"><a href="https://www.cfoc.gov" title="Small Agency Finance Committee" target="_blank">Small Agency Finance Commmittee</a></li>
+                
                 <hr class="margin-top-auto width-full">
             </div>
         </div>
@@ -221,7 +229,7 @@ news-category: FIBF-FM
                 <ul class="margin-top-0 margin-bottom-3">
                     <li>
                         <a href="https://fmvision.fiscal.treasury.gov/files/Future-of-Financial-Management.pdf" title="Dept of Treasury’s 10-Year Vision for Financial Management" target="_blank">
-                            Departmentt of Treasury’s 10-Year Vision for Financial Management (PDF)
+                            Department of Treasury’s 10-Year Vision for Financial Management (PDF)
                         </a>
                     </li>
                     <li>
