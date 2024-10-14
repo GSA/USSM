@@ -32,9 +32,10 @@ news-category: FIBF-FM
                     <li><a href="https://tfx.treasury.gov/fmqsmo/faqs" title="FAQ About the FM QSMO" target="_blank">FAQ About the FM QSMO</a></li>
                     <li>Contact the FM QSMO: <a href="mailto: FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a></li>
                 </ul>
-
+                
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
 <video controls width="213px;" height="160px;" aria-label="What is Quality Service Management Office video"><source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4" type="video/mp4"></video>
-<BR><BR>
+</div>
 
               
                 <hr class="margin-top-auto width-full">
@@ -44,20 +45,21 @@ news-category: FIBF-FM
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
                   <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, & Policy Alignment" height="auto" style="vertical-align:middle;">
-                        Goal, Priority, and Policy Alignment
+                        Goal, Priority, & Policy Alignment
                     </h2>
                 </div>
                 <p><b>President's Management Agenda</b></p>
                 <ul class="margin-top-0 margin-bottom-0">
                     <li>Priority 3: <a href="https://www.performance.gov/pma/businessofgov/#overview" title="performance.gov" target="_blank">Managing the Business of Government</a>, Strategy 2 <a href="https://www.performance.gov/pma/businessofgov/strategy/2/" target="_blank" title="Strengthen Federal Financial Management">Strengthen Federal Financial Management.</a></li>
                 </ul>
-                  <p><b>Statute and Policy</b></p>
+                  <p><b>Statute, Policy, and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3">
                     <li><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
+                    <li><a href="https://fmvision.fiscal.treasury.gov/" title="Treasury 10-Year Vision for Financial Management" target="_blank">Treasury 10-Year Vision for Financial Management"</A></li>
                     <li><a href="https://www.congress.gov/113/plaws/publ101/PLAW-113publ101.pdf" title="DATA Act of 2014" target="_blank">DATA Act of 2014</a></li>
                     <li><a href="https://www.congress.gov/bill/104th-congress/house-bill/4319" title="Federal Financial Management Improvement Act" target="_blank">Federal Financial Management Improvement Act</a></li>
                     <li><a href="https://www.govinfo.gov/app/details/STATUTE-104/STATUTE-104-Pg2838/context" title="CFO Act of 1990" target="_blank">CFO Act of 1990</a></li>
-                    <li><a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf" title="OMB Circular A-123" target="_blank">OMB Circular A-123</a> (Appendix <a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/M-18-16.pdf" target="_blank" title="Apendix A">A</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2019/08/Issuance-of-Revised-Appendix-B-to-OMB-Circular-A-123.pdf" target="_blank" title="Apendix B">B</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2021/03/M-21-19.pdf" target="_blank" title="Apendix C">C</a>, and <a href="https://www.whitehouse.gov/wp-content/uploads/2023/01/M_23-06-Appendix-D_final.pdf" target="_blank" title="Apendix D">D</a>)</li>
+                    <li><a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf" title="OMB Circular A-123" target="_blank">OMB Circular A-123</a> (Appendix <a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/M-18-16.pdf" target="_blank" title="Apendix A">A</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2019/08/Issuance-of-Revised-Appendix-B-to-OMB-Circular-A-123.pdf" target="_blank" title="Appendix B">B</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2021/03/M-21-19.pdf" target="_blank" title="Apendix C">C</a>, and <a href="https://www.whitehouse.gov/wp-content/uploads/2023/01/M_23-06-Appendix-D_final.pdf" target="_blank" title="Apendix D">D</a>)</li>
                     <li><a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/a11.pdf" title="OMB Circular A-11" target="_blank">OMB Circular A-11</a></li>
                 </ul>
                 <hr class="margin-top-auto width-full">
@@ -68,6 +70,7 @@ news-category: FIBF-FM
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
+                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
                         Why does it matter?
                     </h2>
                 </div>
@@ -91,6 +94,7 @@ news-category: FIBF-FM
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#verified_user"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
+                      <img src="/assets/images/marketplace/icon_standards.png" alt="Data and Business Standards" height="auto" style="vertical-align:middle;">
                         Data and Business Standards
                     </h2>
                 </div>
@@ -117,11 +121,13 @@ news-category: FIBF-FM
         </div>
         <div class="grid-row padding-bottom-5">
             <div class="tablet:grid-col-10 grid-offset-1">
-                <h2>Other References</h2>
+                <h2>
+                  <img src="/assets/images/marketplace/icon_references.png" alt="Other References" height="auto" style="vertical-align:middle;">
+                Other References</h2>
                 <ul class="margin-top-0 margin-bottom-3">
                     <li>
                         <a href="https://fmvision.fiscal.treasury.gov/files/Future-of-Financial-Management.pdf" title="Dept of Treasury’s 10-Year Vision for Financial Management" target="_blank">
-                            Dept of Treasury’s 10-Year Vision for Financial Management
+                            Departmentt of Treasury’s 10-Year Vision for Financial Management (PDF)
                         </a>
                     </li>
                     <li>
