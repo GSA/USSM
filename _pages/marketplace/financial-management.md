@@ -79,7 +79,7 @@ news-category: FIBF-FM
 
                 
 <div class="video-container" style="display: flex; justify-content: center; align-items: center; height: 100%;">
-  <video id="myVideo" preload="metadata" width="230px;" height="173px;" poster="/assets/images/marketplace/thumbnail_FMQSMO_video.png" aria-label="What is Quality Service Management Office video">
+  <video id="myVideo" preload="metadata" width="256px;" height="192px;" poster="/assets/images/marketplace/thumbnail_FMQSMO_video.png" aria-label="What is Quality Service Management Office video">
     <source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
