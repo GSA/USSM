@@ -161,7 +161,7 @@ news-category: FIBF-FM
 
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                    <li style="margin-left: 0px;"><a href="https://www.cfoc.gov" title="Federal CFO Council" target="_blank">Federal CFO Council</a></li>
+                    <li style="margin-left: 0px;"><a href="https://www.cfo.gov" title="Federal CFO Council" target="_blank">Federal CFO Council</a></li>
                     <li style="margin-left: 0px;"><a href="https://www.fiscal.treasury.gov/fmsc/" title="Federal Financial Management Steering Committee" target="_blank">Federal Financial Management Steering Committee</a></li>
                     <li style="margin-left: 0px;"><a href="https://www.sac.gov/committees/finance/index.htm" title="Small Agency Finance Committee" target="_blank">Small Agency Finance Commmittee</a></li>
 
