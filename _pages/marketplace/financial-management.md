@@ -29,7 +29,7 @@ news-category: FIBF-FM
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the FM Marketplace Catalog" height="auto" style="vertical-align:middle;"><a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">Explore FM Marketplace Catalog</a><BR>
-                 <img src="/assets/images/marketplace/icon_why.png" alt="Contact the FM QSMO" height="auto" style="vertical-align:middle;">Contact the FM QSMO: <a href="mailto: FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a><BR>
+                 <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the FM QSMO" height="auto" style="vertical-align:middle;">Contact the FM QSMO: <a href="mailto: FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a><BR>
                 </ul>
                 
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
