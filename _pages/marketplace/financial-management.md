@@ -33,7 +33,7 @@ news-category: FIBF-FM
                     <li>Contact the FM QSMO: <a href="mailto: FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a></li>
                 </ul>
 
-<video controls  aria-label="What is Quality Service Management Office video"><source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4" type="video/mp4"></video>
+<video controls width="213px;" height="160px;" aria-label="What is Quality Service Management Office video"><source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4" type="video/mp4"></video>
 <BR><BR>
 
               
