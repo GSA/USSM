@@ -95,7 +95,14 @@ news-category: FIBF-FM
 <script>
   // JavaScript to handle play/pause, stop, and fullscreen actions
   var video = document.getElementById("myVideo");
+  
+    
+    // Toggle play/pause when clicking the video itself
+  video.addEventListener('click', function() {
+    playPause();
+  });
 
+    
   function playPause() {
     if (video.paused) {
       video.play();
