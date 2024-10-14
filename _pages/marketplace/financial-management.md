@@ -34,7 +34,7 @@ news-category: FIBF-FM
                 </ul>
 
 
-<video width="200" controls style="height: auto;"> <source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4” type="video/mp4"> Your browser does not support the video tag. </video>
+<video width="200" controls> <source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4” type="video/mp4"> Your browser does not support the video tag. </video>
 
 
               
