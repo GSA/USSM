@@ -31,9 +31,101 @@ news-category: FIBF-FM
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the FM Marketplace Catalog" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">Explore FM Marketplace Catalog</a><BR>
                  <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the FM QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a><BR>
                 </ul>
+
+
+<style>
+    /* Basic styling */
+    video {
+      width: 400px; /* Set video width */
+      height: auto; /* Height will auto adjust to the aspect ratio */
+    }
+
+    /* Hide native controls by default */
+    video::-internal-media-controls {
+      display: none;
+    }
+
+    video::-webkit-media-controls {
+      display: none;
+    }
+
+    /* Show custom controls only when hovering over the video */
+    .custom-controls {
+      display: none;
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .video-container:hover .custom-controls {
+      display: block; /* Show controls on hover */
+    }
+
+    .video-container {
+      position: relative; /* So we can position controls over the video */
+    }
+
+    /* Style the control buttons */
+    .custom-controls button {
+      margin: 5px;
+      padding: 5px 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+
                 
-<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+
 <video controls width="213px;" height="160px;" aria-label="What is Quality Service Management Office video"><source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4" type="video/mp4"></video>
+
+<div class="video-container" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video id="myVideo" preload="metadata" width="213px;" height="160px;" aria-label="What is Quality Service Management Office video">
+    <source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="custom-controls">
+    <button onclick="playPause()">Play/Pause</button>
+    <button onclick="stopVideo()">Stop</button>
+    <button onclick="toggleFullscreen()">Fullscreen</button>
+  </div>
+</div>
+
+
+
+<script>
+  // JavaScript to handle play/pause, stop, and fullscreen actions
+  var video = document.getElementById("myVideo");
+
+  function playPause() {
+    if (video.paused) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  }
+
+  function stopVideo() {
+    video.pause();
+    video.currentTime = 0;
+  }
+
+  function toggleFullscreen() {
+    if (video.requestFullscreen) {
+      video.requestFullscreen();
+    } else if (video.mozRequestFullScreen) { /* Firefox */
+      video.mozRequestFullScreen();
+    } else if (video.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+      video.webkitRequestFullscreen();
+    } else if (video.msRequestFullscreen) { /* IE/Edge */
+      video.msRequestFullscreen();
+    }
+  }
+</script>
+
+
 
 </div>
 
