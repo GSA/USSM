@@ -7,7 +7,7 @@ news-category: FIBF-FM
 ---
 
 
-{% include banner.html title-override="Marketplace" width="grid-col-11" offset="grid-offset-1" %}
+{% include banner.html title-override="GovOps Marketplace - Financial Management" width="grid-col-11" offset="grid-offset-1" %}
 
 <div class="grid-container">
     <div class="grid-row grid-gap">
@@ -34,9 +34,10 @@ news-category: FIBF-FM
                 
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
 <video controls width="213px;" height="160px;" aria-label="What is Quality Service Management Office video"><source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4" type="video/mp4"></video>
-<BR><BR><BR>
+
 </div>
 
+             <P></P>
               
                 <hr class="margin-top-auto width-full">
             </div>
