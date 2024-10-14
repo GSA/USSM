@@ -28,8 +28,8 @@ news-category: FIBF-FM
                     The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the <a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">FM Marketplace Catalog</a> as a resource for agencies to identify and research from over 70 services and solutions that can support their financial management needs to accomplish both agency and shared government-wide goals.
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
-                    <li><a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">Explore FM Marketplace Catalog</a></li>
-                    <li>Contact the FM QSMO: <a href="mailto: FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a></li>
+                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the FM Marketplace Catalog" height="auto" style="vertical-align:middle;"><a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">Explore FM Marketplace Catalog</a><BR>
+                 <img src="/assets/images/marketplace/icon_why.png" alt="Contact the FM QSMO" height="auto" style="vertical-align:middle;">Contact the FM QSMO: <a href="mailto: FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a><BR>
                 </ul>
                 
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
@@ -49,18 +49,18 @@ news-category: FIBF-FM
                     </h2>
                 </div>
                 <p><b>President's Management Agenda</b></p>
-                <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0;">
-                    <li style="padding-left: 0px;">Priority 3: <a href="https://www.performance.gov/pma/businessofgov/#overview" title="performance.gov" target="_blank">Managing the Business of Government</a>, Strategy 2 <a href="https://www.performance.gov/pma/businessofgov/strategy/2/" target="_blank" title="Strengthen Federal Financial Management">Strengthen Federal Financial Management.</a></li>
+                <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+                    <li style="margin-left: 0px;">Priority 3: <a href="https://www.performance.gov/pma/businessofgov/#overview" title="performance.gov" target="_blank">Managing the Business of Government</a>, Strategy 2 <a href="https://www.performance.gov/pma/businessofgov/strategy/2/" target="_blank" title="Strengthen Federal Financial Management">Strengthen Federal Financial Management.</a></li>
                 </ul>
                   <p><b>Statute, Policy, and Strategy</b></p>
-                <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0;">
-                    <li style="padding-left: 0px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
-                    <li style="padding-left: 0px;"><a href="https://fmvision.fiscal.treasury.gov/" title="Treasury 10-Year Vision for Financial Management" target="_blank">Treasury 10-Year Vision for Financial Management</A></li>
-                    <li style="padding-left: 0px;"><a href="https://www.congress.gov/113/plaws/publ101/PLAW-113publ101.pdf" title="DATA Act of 2014" target="_blank">DATA Act of 2014</a></li>
-                    <li style="padding-left: 0px;"><a href="https://www.congress.gov/bill/104th-congress/house-bill/4319" title="Federal Financial Management Improvement Act" target="_blank">Federal Financial Management Improvement Act</a></li>
-                    <li style="padding-left: 0px;"><a href="https://www.govinfo.gov/app/details/STATUTE-104/STATUTE-104-Pg2838/context" title="CFO Act of 1990" target="_blank">CFO Act of 1990</a></li>
-                    <li style="padding-left: 0px;"><a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf" title="OMB Circular A-123" target="_blank">OMB Circular A-123</a> (Appendix <a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/M-18-16.pdf" target="_blank" title="Appendix A">A</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2019/08/Issuance-of-Revised-Appendix-B-to-OMB-Circular-A-123.pdf" target="_blank" title="Appendix B">B</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2021/03/M-21-19.pdf" target="_blank" title="Appendix C">C</a>, and <a href="https://www.whitehouse.gov/wp-content/uploads/2023/01/M_23-06-Appendix-D_final.pdf" target="_blank" title="Appendix D">D</a>)</li>
-                    <li style="padding-left: 0px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/a11.pdf" title="OMB Circular A-11" target="_blank">OMB Circular A-11</a></li>
+                <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+                    <li style="margin-left: 0px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
+                    <li style="margin-left: 0px;"><a href="https://fmvision.fiscal.treasury.gov/" title="Treasury 10-Year Vision for Financial Management" target="_blank">Treasury 10-Year Vision for Financial Management</A></li>
+                    <li style="margin-left: 0px;"><a href="https://www.congress.gov/113/plaws/publ101/PLAW-113publ101.pdf" title="DATA Act of 2014" target="_blank">DATA Act of 2014</a></li>
+                    <li style="margin-left: 0px;"><a href="https://www.congress.gov/bill/104th-congress/house-bill/4319" title="Federal Financial Management Improvement Act" target="_blank">Federal Financial Management Improvement Act</a></li>
+                    <li style="margin-left: 0px;"><a href="https://www.govinfo.gov/app/details/STATUTE-104/STATUTE-104-Pg2838/context" title="CFO Act of 1990" target="_blank">CFO Act of 1990</a></li>
+                    <li style="margin-left: 0px;"><a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf" title="OMB Circular A-123" target="_blank">OMB Circular A-123</a> (Appendix <a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/M-18-16.pdf" target="_blank" title="Appendix A">A</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2019/08/Issuance-of-Revised-Appendix-B-to-OMB-Circular-A-123.pdf" target="_blank" title="Appendix B">B</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2021/03/M-21-19.pdf" target="_blank" title="Appendix C">C</a>, and <a href="https://www.whitehouse.gov/wp-content/uploads/2023/01/M_23-06-Appendix-D_final.pdf" target="_blank" title="Appendix D">D</a>)</li>
+                    <li style="margin-left: 0px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/a11.pdf" title="OMB Circular A-11" target="_blank">OMB Circular A-11</a></li>
                 </ul>
                 <hr class="margin-top-auto width-full">
             </div>
