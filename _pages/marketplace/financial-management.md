@@ -43,6 +43,7 @@ news-category: FIBF-FM
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
+                  <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, and Policy Alignment" height="auto" style="vertical-align:middle;">
                         Goal, Priority, and Policy Alignment
                     </h2>
                 </div>
