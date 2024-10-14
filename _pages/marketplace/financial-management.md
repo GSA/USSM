@@ -7,7 +7,7 @@ news-category: FIBF-FM
 ---
 
 
-{% include banner.html title-override="GovOps Marketplace - Financial Management" width="grid-col-11" offset="grid-offset-1" %}
+{% include banner.html title-override="Marketplace - Financial Management" width="grid-col-11" offset="grid-offset-1" %}
 
 <div class="grid-container">
     <div class="grid-row grid-gap">
