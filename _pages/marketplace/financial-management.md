@@ -76,6 +76,26 @@ news-category: FIBF-FM
       border: none;
       cursor: pointer;
     }
+
+     /* Progress bar styling */
+    .progress-bar {
+      flex-grow: 1;
+      height: 5px;
+      background-color: #555;
+      margin: 0 10px;
+      position: relative;
+    }
+
+    .progress {
+      height: 100%;
+      background-color: #f00;
+      width: 0%;
+    }
+
+
+    
+
+    
   </style>
 
                 
@@ -88,6 +108,11 @@ news-category: FIBF-FM
     <button onclick="playPause()">Play/Pause</button>
     <button onclick="stopVideo()">Stop</button>
     <button onclick="toggleFullscreen()">Fullscreen</button>
+   <div class="progress-bar">
+    <div id="progress" class="progress"></div>
+  </div>
+  <span id="timer">0:00 / 0:00</span>
+
   </div>
 </div>
 
@@ -128,6 +153,21 @@ news-category: FIBF-FM
       video.msRequestFullscreen();
     }
   }
+
+ // Update progress bar and timer
+  video.addEventListener('timeupdate', () => {
+    const percentage = (video.currentTime / video.duration) * 100;
+    progress.style.width = `${percentage}%`;
+
+    const minutes = Math.floor(video.currentTime / 60);
+    const seconds = Math.floor(video.currentTime % 60);
+    const totalMinutes = Math.floor(video.duration / 60);
+    const totalSeconds = Math.floor(video.duration % 60);
+
+    timer.textContent = `${minutes}:${seconds.toString().padStart(2, '0')} / ${totalMinutes}:${totalSeconds.toString().padStart(2, '0')}`;
+  });
+
+    
 </script>
 
 
