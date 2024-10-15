@@ -167,6 +167,19 @@ news-category: FIBF-FM
     timer.textContent = `${minutes}:${seconds.toString().padStart(2, '0')} / ${totalMinutes}:${totalSeconds.toString().padStart(2, '0')}`;
   });
 
+ // Ensure progress bar persists while video is playing
+  video.addEventListener('play', () => {
+    requestAnimationFrame(updateProgress);
+  });
+
+  function updateProgress() {
+    if (!video.paused && !video.ended) {
+      const percentage = (video.currentTime / video.duration) * 100;
+      progress.style.width = `${percentage}%`;
+      requestAnimationFrame(updateProgress);
+    }
+  }
+    
     
 </script>
 
