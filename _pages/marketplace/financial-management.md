@@ -29,6 +29,7 @@ news-category: FIBF-FM
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the FM Marketplace Catalog" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">Explore the FM Marketplace Catalog</a><BR>
+  <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="FM Marketplace Acquisition Hub" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4215" title="FM Marketplace Acquisition Hub" target="_blank">FM Marketplace Acquisition Hub (Acquisition Professionals)</a><BR>
                  <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the FM QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a><BR>
                 </ul>
 
