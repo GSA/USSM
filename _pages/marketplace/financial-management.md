@@ -151,7 +151,6 @@ news-category: FIBF-FM
                   <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                     <li style="margin-left: 0px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
-                    <li style="margin-left: 0px;"><a href="https://fmvision.fiscal.treasury.gov/" title="Treasury 10-Year Vision for Financial Management" target="_blank">Treasury 10-Year Vision for Financial Management</A></li>
                     <li style="margin-left: 0px;"><a href="https://www.congress.gov/113/plaws/publ101/PLAW-113publ101.pdf" title="DATA Act of 2014" target="_blank">DATA Act of 2014</a></li>
                     <li style="margin-left: 0px;"><a href="https://www.congress.gov/bill/104th-congress/house-bill/4319" title="Federal Financial Management Improvement Act" target="_blank">Federal Financial Management Improvement Act</a></li>
                     <li style="margin-left: 0px;"><a href="https://www.govinfo.gov/app/details/STATUTE-104/STATUTE-104-Pg2838/context" title="CFO Act of 1990" target="_blank">CFO Act of 1990</a></li>
@@ -161,6 +160,7 @@ news-category: FIBF-FM
 
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+                      <li style="margin-left: 0px;"><a href="https://fmvision.fiscal.treasury.gov/" title="Treasury 10-Year Vision for Financial Management" target="_blank">Treasury 10-Year Vision for Financial Management</A></li>
                     <li style="margin-left: 0px;"><a href="https://www.cfo.gov" title="Federal CFO Council" target="_blank">Federal CFO Council</a></li>
                     <li style="margin-left: 0px;"><a href="https://www.fiscal.treasury.gov/fmsc/" title="Federal Financial Management Steering Committee" target="_blank">Federal Financial Management Steering Committee</a></li>
                     <li style="margin-left: 0px;"><a href="https://www.sac.gov/committees/finance/index.htm" title="Small Agency Finance Committee" target="_blank">Small Agency Finance Commmittee</a></li>
