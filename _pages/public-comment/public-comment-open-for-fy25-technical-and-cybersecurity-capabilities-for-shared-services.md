@@ -18,8 +18,8 @@ description: Draft Technical and Cybersecurity Capabilities for Use in Shared an
         Included for public comment in this release on regulations.gov is a draft capabilities baseline for:
         </p>
         <ul>
-            <li><a href="https://www.regulations.gov/docket/BSC-ITS-2024-0010" title="Information Technology Key Capabilities" target="_blank">Information Technology Key Capabilities</a> (Regulations.gov Docket ID: BSC-ITS-2024-0010)</li>
-            <li><a href="https://www.regulations.gov/docket/BSC-CYB-2024-0009" title="Cybersecurity Key Capabilities" target="_blank">Cybersecurity Key Capabilities</a> (Regulations.gov Docket ID: BSC-CYB-2024-0009)</li>
+            <li><a href="https://www.regulations.gov/docket/BSC-ITS-2024-0010" title="Information Technology Common Capabilities" target="_blank">Information Technology Common Capabilities</a> (Regulations.gov Docket ID: BSC-ITS-2024-0010)</li>
+            <li><a href="https://www.regulations.gov/docket/BSC-CYB-2024-0009" title="Cybersecurity Key Capabilities" target="_blank">Cybersecurity Common Capabilities</a> (Regulations.gov Docket ID: BSC-CYB-2024-0009)</li>
         </ul>
         <p>Please reach out to <a href="mailto: OSSPI.SharedServices@gsa.gov">OSSPI.SharedServices@gsa.gov</a> if you have any questions.</p>
     </div>
