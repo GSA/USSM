@@ -29,55 +29,49 @@ news-category: FIBF-FM
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the FM Marketplace Catalog" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">Explore the FM Marketplace Catalog</a><BR>
-  <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="FM Marketplace Acquisition Hub" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4215" title="FM Marketplace Acquisition Hub" target="_blank">Marketplace Hub for Acquisition Professionals</a><BR>
+  <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="FM Marketplace Acquisition Hub" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4215" title="FM Marketplace Acquisition Hub" target="_blank">Hub for Acquisition Professionals</a><BR>
                  <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the FM QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a><BR>
                 </ul>
 
 
-<style>
-    /* Basic styling */
+  <style>
+    /* Basic styling for the video player */
     video {
-      width: 600px; /* Set video width */
-      height: auto; /* Height will auto adjust to the aspect ratio */
+      width: 600px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
     }
 
-    /* Hide native controls by default */
-    video::-internal-media-controls {
-      display: none;
-    }
-
-    video::-webkit-media-controls {
-      display: none;
-    }
-
-    /* Show custom controls only when hovering over the video */
+    /* Custom controls container */
     .custom-controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 10px;
+      width: 600px;
+      margin: 10px auto;
+      position: relative;
+    }
+
+    /* Fullscreen controls container */
+    .fullscreen-controls {
       display: none;
-      position: absolute;
-      bottom: 10px;
-      width: 100%;
-      text-align: center;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
     }
 
-    .video-container:hover .custom-controls {
-      display: block; /* Show controls on hover */
-    }
-
-    .video-container {
-      position: relative; /* So we can position controls over the video */
-    }
-
-    /* Style the control buttons */
-    .custom-controls button {
-      margin: 5px;
-      padding: 5px 10px;
-      background-color: #333;
-      color: #fff;
-      border: none;
-      cursor: pointer;
-    }
-
-     /* Progress bar styling */
+    /* Progress bar styling */
     .progress-bar {
       flex-grow: 1;
       height: 5px;
@@ -91,44 +85,43 @@ news-category: FIBF-FM
       background-color: #f00;
       width: 0%;
     }
-
-
-    
-
-    
   </style>
 
-                
-<div class="video-container" style="display: flex; justify-content: center; align-items: center; height: 100%;">
-  <video id="myVideo" preload="metadata" width="320px;" height="240px;" poster="/assets/images/marketplace/thumbnail_FMQSMO_video.png" aria-label="What is Quality Service Management Office video">
-    <source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <div class="custom-controls">
-    <button onclick="playPause()">Play/Pause</button>
-    <button onclick="stopVideo()">Stop</button>
-    <button onclick="toggleFullscreen()">Fullscreen</button>
-   <div class="progress-bar">
+
+<!-- Video Player -->
+<video id="myVideo" poster="/assets/images/marketplace/thumbnail_FMQSMO_video.png" aria-label="What is Quality Service Management Office video">
+  <source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<div class="custom-controls">
+  <button onclick="playPause()">Play/Pause</button>
+  <button onclick="stopVideo()">Stop</button>
+  <button onclick="toggleFullscreen()">Fullscreen</button>
+  <div class="progress-bar">
     <div id="progress" class="progress"></div>
   </div>
   <span id="timer">0:00 / 0:00</span>
-
+</div>
+<div id="fullscreenControls" class="fullscreen-controls">
+  <button onclick="playPause()">Play/Pause</button>
+  <button onclick="stopVideo()">Stop</button>
+  <button onclick="exitFullscreen()">Exit Fullscreen</button>
+  <div class="progress-bar">
+    <div id="fullscreenProgress" class="progress"></div>
   </div>
+  <span id="fullscreenTimer">0:00 / 0:00</span>
 </div>
 
 
-
 <script>
-  // JavaScript to handle play/pause, stop, and fullscreen actions
-  var video = document.getElementById("myVideo");
-  
-    
-    // Toggle play/pause when clicking the video itself
-  video.addEventListener('click', function() {
-    playPause();
-  });
+  const video = document.getElementById("myVideo");
+  const progress = document.getElementById("progress");
+  const timer = document.getElementById("timer");
+  const fullscreenControls = document.getElementById("fullscreenControls");
+  const fullscreenProgress = document.getElementById("fullscreenProgress");
+  const fullscreenTimer = document.getElementById("fullscreenTimer");
 
-    
+  // Play or pause the video
   function playPause() {
     if (video.paused) {
       video.play();
@@ -137,11 +130,13 @@ news-category: FIBF-FM
     }
   }
 
+  // Stop the video and reset the time
   function stopVideo() {
     video.pause();
     video.currentTime = 0;
   }
 
+  // Fullscreen functionality
   function toggleFullscreen() {
     if (video.requestFullscreen) {
       video.requestFullscreen();
@@ -154,10 +149,24 @@ news-category: FIBF-FM
     }
   }
 
- // Update progress bar and timer
+  // Exit fullscreen functionality
+  function exitFullscreen() {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.mozCancelFullScreen) { /* Firefox */
+      document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) { /* IE/Edge */
+      document.msExitFullscreen();
+    }
+  }
+
+  // Update progress bar and timer
   video.addEventListener('timeupdate', () => {
     const percentage = (video.currentTime / video.duration) * 100;
     progress.style.width = `${percentage}%`;
+    fullscreenProgress.style.width = `${percentage}%`;
 
     const minutes = Math.floor(video.currentTime / 60);
     const seconds = Math.floor(video.currentTime % 60);
@@ -165,9 +174,10 @@ news-category: FIBF-FM
     const totalSeconds = Math.floor(video.duration % 60);
 
     timer.textContent = `${minutes}:${seconds.toString().padStart(2, '0')} / ${totalMinutes}:${totalSeconds.toString().padStart(2, '0')}`;
+    fullscreenTimer.textContent = `${minutes}:${seconds.toString().padStart(2, '0')} / ${totalMinutes}:${totalSeconds.toString().padStart(2, '0')}`;
   });
 
- // Ensure progress bar persists while video is playing
+  // Ensure progress bar persists while video is playing
   video.addEventListener('play', () => {
     requestAnimationFrame(updateProgress);
   });
@@ -176,12 +186,25 @@ news-category: FIBF-FM
     if (!video.paused && !video.ended) {
       const percentage = (video.currentTime / video.duration) * 100;
       progress.style.width = `${percentage}%`;
+      fullscreenProgress.style.width = `${percentage}%`;
       requestAnimationFrame(updateProgress);
     }
   }
-    
-    
+
+  // Show fullscreen controls when entering fullscreen mode
+  video.addEventListener('fullscreenchange', () => {
+    if (document.fullscreenElement) {
+      fullscreenControls.style.display = 'flex';
+    } else {
+      fullscreenControls.style.display = 'none';
+    }
+  });
+
 </script>
+
+
+
+
 
 
              <P></P>
