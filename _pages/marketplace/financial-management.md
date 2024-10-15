@@ -37,7 +37,7 @@ news-category: FIBF-FM
 <style>
     /* Basic styling */
     video {
-      width: 400px; /* Set video width */
+      width: 600px; /* Set video width */
       height: auto; /* Height will auto adjust to the aspect ratio */
     }
 
