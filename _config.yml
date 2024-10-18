@@ -114,16 +114,8 @@ primary_navigation:
           permalink: /fibf-ERM/
           show_in_menu: true
           show_in_footer: false
-        - text: 'Federal Sector Equal Employment Opportunity Services'
-          permalink: /fibf-eeo/
-          show_in_menu: true
-          show_in_footer: false
         - text: 'Financial Management'
           permalink: /fibf-fm/
-          show_in_menu: true
-          show_in_footer: false
-        - text: 'Freedom of Information Act (FOIA) Services'
-          permalink: /fibf-foia/
           show_in_menu: true
           show_in_footer: false
         - text: 'Grants Management'
@@ -211,6 +203,32 @@ primary_navigation:
           link: true
           external: false
           sub: true
+        - text: 'Real Property Management'
+          permalink: /fibf-RPM/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Travel and Expense Management'
+          permalink: /fibf-travel/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Initiating:'
+          type: 'divider'
+          show_in_menu: true
+          show_in_footer: false
+          style:
+            text-align: 'center'
+            font-weight: 'bold'
+            color: '#555'
+            margin: '20px 0'
+            border-top: '1px solid #ccc'
+        - text: 'Federal Sector Equal Employment Opportunity Services'
+          permalink: /fibf-eeo/
+          show_in_menu: true
+          show_in_footer: false
+        - text: 'Freedom of Information Act (FOIA) Services'
+          permalink: /fibf-foia/
+          show_in_menu: true
+          show_in_footer: false
         - text: 'Information Technology Services'
           permalink: /fibf-its/
           show_in_menu: true
@@ -219,16 +237,8 @@ primary_navigation:
           permalink: /fibf-mom/
           show_in_menu: true
           show_in_footer: false
-        - text: 'Real Property Management'
-          permalink: /fibf-RPM/
-          show_in_menu: true
-          show_in_footer: false
         - text: 'Regulation Management'
           permalink: /fibf-rm/
-          show_in_menu: true
-          show_in_footer: false
-        - text: 'Travel and Expense Management'
-          permalink: /fibf-travel/
           show_in_menu: true
           show_in_footer: false
     - text: 'Modernization'
