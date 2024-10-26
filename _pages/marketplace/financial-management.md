@@ -203,31 +203,26 @@ news-category: FIBF-FM
                         Data and Business Standards                 
                     </h2>
                 </div>
-                <p class="margin-top-1 margin-bottom-1"><b>President's Management Agenda</b></p>
-                <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                    <li style="margin-left: 2px;">Priority 3: <a href="https://www.performance.gov/pma/businessofgov/#overview" title="performance.gov" target="_blank">Managing the Business of Government</a>, Strategy 2 <a href="https://www.performance.gov/pma/businessofgov/strategy/2/" target="_blank" title="Strengthen Federal Financial Management">Strengthen Federal Financial Management.</a></li>
-                </ul>
 
-                
-                  <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
-                <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.congress.gov/113/plaws/publ101/PLAW-113publ101.pdf" title="DATA Act of 2014" target="_blank">DATA Act of 2014</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.congress.gov/bill/104th-congress/house-bill/4319" title="Federal Financial Management Improvement Act" target="_blank">Federal Financial Management Improvement Act</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.govinfo.gov/app/details/STATUTE-104/STATUTE-104-Pg2838/context" title="CFO Act of 1990" target="_blank">CFO Act of 1990</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf" title="OMB Circular A-123" target="_blank">OMB Circular A-123</a> (Appendix <a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/M-18-16.pdf" target="_blank" title="Appendix A">A</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2019/08/Issuance-of-Revised-Appendix-B-to-OMB-Circular-A-123.pdf" target="_blank" title="Appendix B">B</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2021/03/M-21-19.pdf" target="_blank" title="Appendix C">C</a>, and <a href="https://www.whitehouse.gov/wp-content/uploads/2023/01/M_23-06-Appendix-D_final.pdf" target="_blank" title="Appendix D">D</a>)</li>
-                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/a11.pdf" title="OMB Circular A-11" target="_blank">OMB Circular A-11</a></li>
-                </ul>
 
-    <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
-                <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                      <li style="margin-left: 2px;"><a href="https://fmvision.fiscal.treasury.gov/" title="Treasury 10-Year Vision for Financial Management" target="_blank">Treasury 10-Year Vision for Financial Management</A></li>
-                    <li style="margin-left: 2px;"><a href="https://www.cfo.gov" title="Federal CFO Council" target="_blank">Federal CFO Council</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.fiscal.treasury.gov/fmsc/" title="Federal Financial Management Steering Committee" target="_blank">Federal Financial Management Steering Committee</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.sac.gov/committees/finance/index.htm" title="Small Agency Finance Committee" target="_blank">Small Agency Finance Commmittee</a></li>
+    <ul class="margin-top-2">
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Budget Execution" target="_blank">Budget Execution</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Financial Asset and Information Management">Financial Asset and Information Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Payable Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Revenue Management">Revenue Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Receivable and Collection Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Delinquent Debt Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Cost Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">General Ledger Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle" target="_blank">Financial Reconciliation</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Financial / Performance Reporting</a></li>
 
 </ul>
-                
+
+
+
+
+     
                 <hr class="margin-top-auto width-full">
             </div>
         </div>
@@ -267,18 +262,34 @@ news-category: FIBF-FM
                 
                     </h2>
                 </div>
-                <ul class="margin-top-2">
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Budget Execution" target="_blank">Budget Execution</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Financial Asset and Information Management">Financial Asset and Information Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Payable Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Revenue Management">Revenue Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Receivable and Collection Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Delinquent Debt Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Cost Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">General Ledger Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle" target="_blank">Financial Reconciliation</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Financial / Performance Reporting</a></li>
+            
+                           <p class="margin-top-1 margin-bottom-1"><b>President's Management Agenda</b></p>
+                <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+                    <li style="margin-left: 2px;">Priority 3: <a href="https://www.performance.gov/pma/businessofgov/#overview" title="performance.gov" target="_blank">Managing the Business of Government</a>, Strategy 2 <a href="https://www.performance.gov/pma/businessofgov/strategy/2/" target="_blank" title="Strengthen Federal Financial Management">Strengthen Federal Financial Management.</a></li>
                 </ul>
+
+                
+                  <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
+                <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
+                    <li style="margin-left: 2px;"><a href="https://www.congress.gov/113/plaws/publ101/PLAW-113publ101.pdf" title="DATA Act of 2014" target="_blank">DATA Act of 2014</a></li>
+                    <li style="margin-left: 2px;"><a href="https://www.congress.gov/bill/104th-congress/house-bill/4319" title="Federal Financial Management Improvement Act" target="_blank">Federal Financial Management Improvement Act</a></li>
+                    <li style="margin-left: 2px;"><a href="https://www.govinfo.gov/app/details/STATUTE-104/STATUTE-104-Pg2838/context" title="CFO Act of 1990" target="_blank">CFO Act of 1990</a></li>
+                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf" title="OMB Circular A-123" target="_blank">OMB Circular A-123</a> (Appendix <a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/M-18-16.pdf" target="_blank" title="Appendix A">A</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2019/08/Issuance-of-Revised-Appendix-B-to-OMB-Circular-A-123.pdf" target="_blank" title="Appendix B">B</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2021/03/M-21-19.pdf" target="_blank" title="Appendix C">C</a>, and <a href="https://www.whitehouse.gov/wp-content/uploads/2023/01/M_23-06-Appendix-D_final.pdf" target="_blank" title="Appendix D">D</a>)</li>
+                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/a11.pdf" title="OMB Circular A-11" target="_blank">OMB Circular A-11</a></li>
+                </ul>
+
+    <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
+                <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+                      <li style="margin-left: 2px;"><a href="https://fmvision.fiscal.treasury.gov/" title="Treasury 10-Year Vision for Financial Management" target="_blank">Treasury 10-Year Vision for Financial Management</A></li>
+                    <li style="margin-left: 2px;"><a href="https://www.cfo.gov" title="Federal CFO Council" target="_blank">Federal CFO Council</a></li>
+                    <li style="margin-left: 2px;"><a href="https://www.fiscal.treasury.gov/fmsc/" title="Federal Financial Management Steering Committee" target="_blank">Federal Financial Management Steering Committee</a></li>
+                    <li style="margin-left: 2px;"><a href="https://www.sac.gov/committees/finance/index.htm" title="Small Agency Finance Committee" target="_blank">Small Agency Finance Commmittee</a></li>
+
+</ul>
+                
+            
+            
                 <hr class="margin-top-auto width-full">
             </div>
         </div>
