@@ -198,8 +198,9 @@ news-category: FIBF-FM
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
-                  <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, & Policy Alignment" height="auto" style="vertical-align:middle;">
-                        Goal, Priority, & Policy Alignment
+
+  <img src="/assets/images/marketplace/icon_standards.png" alt="Data and Business Standards" height="auto" style="vertical-align:middle;">
+                        Data and Business Standards                 
                     </h2>
                 </div>
                 <p class="margin-top-1 margin-bottom-1"><b>President's Management Agenda</b></p>
@@ -259,8 +260,11 @@ news-category: FIBF-FM
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#verified_user"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
-                      <img src="/assets/images/marketplace/icon_standards.png" alt="Data and Business Standards" height="auto" style="vertical-align:middle;">
-                        Data and Business Standards
+                    
+                     <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, & Policy Alignment" height="auto" style="vertical-align:middle;">
+                        Goal, Priority, & Policy Alignment
+                    
+                
                     </h2>
                 </div>
                 <ul class="margin-top-2">
