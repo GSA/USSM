@@ -221,7 +221,7 @@ news-category: FIBF-FM
 
    Related Services You May Also Be Interested In<BR>
 
-<IMG SRC="../assets/images/fibf/icons/icon.travel.webp"><BR>
+<IMG SRC="/assets/images/fibf/icons/icon.travel.webp"><BR>
 Travel & Expense
 
 
