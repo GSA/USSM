@@ -71,8 +71,12 @@ This template is for a single page that does not have a date associated with it.
         <div class="grid-col">
           <ul class="usa-button-group">
             {% if page.lifecycle-pdf %}
-            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.lifecycle-pdf}}" class="usa-button usa-button--accent-cool text-white">Federal
-              Business Lifecycle</a></li>
+            <li class="usa-button-group__item"><a class="usa-button usa-button--accent-cool text-white" 
+              href="{{ site.baseurl }}/{{ page.lifecycle-pdf }}" 
+              download="{{ page.lifecycle-pdf | basename }}">
+              Federal Business Lifecycle
+           </a>
+           </li>
             {% endif %}
             {% if page.capabilities-pdf %}
             <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.capabilities-pdf}}" class="usa-button usa-button--accent-cool text-white">Business
@@ -114,17 +118,21 @@ This template is for a single page that does not have a date associated with it.
           <p><i>Functions: Breakdown of a functional area into categories of services provided to customers.</i></p>
           <p><i>Activities: Within a function, processes that provide identifiable outputs/outcomes to customers are defined as activities.</i></p>
           <ul>
-          {% if page.lifecycle-source-document %}
-              <li>
-                <img src="{{ site.baseurl }}/assets/images/icon.{{page.lifecycle-source-document-type}}.webp" valign="middle" alt="{{page.lifecycle-source-document-type}}">
-                <a href="{{ site.baseurl }}/{{page.lifecycle-source-document}}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
-            </li>
+            {% if page.lifecycle-source-document %}
+                <li>
+                    <img src="{{ site.baseurl }}/assets/images/icon.{{ page.lifecycle-source-document-type }}.webp" valign="middle" alt="{{ page.lifecycle-source-document-type }}">
+                    {% if page.lifecycle-source-document | endswith: '.xlsx' %}
+                        <a href="{{ site.baseurl }}/{{ page.lifecycle-source-document }}" download="{{ page.lifecycle-source-document | basename }}">{{ page.sub-title }} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
+                    {% else %}
+                        <a href="{{ site.baseurl }}/{{ page.lifecycle-source-document }}">{{ page.sub-title }} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
+                    {% endif %}
+                </li>
             {% endif %}
-
+        
             {% if page.lifecycle-json-api %}
-            <li>
-              <a href="{{ site.baseurl }}{{ page.lifecycle-json-api }}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
-            </li>
+                <li>
+                    <a href="{{ site.baseurl }}{{ page.lifecycle-json-api }}">{{ page.sub-title }} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
+                </li>
             {% endif %}
           </ul>
         </div>
