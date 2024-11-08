@@ -313,719 +313,719 @@
       }
    ],
    "Business_Capabilities":[
-      {
-          "Capability ID": "FFM.010.010.011",
-          "Function": "FFM.010 Budget Execution",
-          "Activity Name": "FFM.010.010 Budget Setup and Maintenance",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Provide budgetary resource reporting attributes (for example, Treasury Account Symbol (TAS) and Business Event Type Code (BETC), expired, and unexpired) consistent with the budget execution activities as defined in OMB Circular A-11, the TFM, and FASAB.",
-          "Authoritative Reference": "(19) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Appendix H, Checklist for Fund Control Regulations, Section 4: Definitions, Terminology, and Concepts;\n(49) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution;\n(56) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 130, SF 133, Report on Budget Execution and Budgetary Resources;\n(57) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR;\n(100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting;\n(132) TFM, Volume I, Part 2, Chapter 1500, New Account Establishment, Updating Accounts, and Description of Accounts Relating to Financial Operations;\n(148) TFM Volume I, Part 1, Chapter 2000, Financial Operations Startup Procedures for New Federal Entities/Commissions"
-      },
-      {
-          "Capability ID": "FFM.010.010.012",
-          "Function": "FFM.010 Budget Execution",
-          "Activity Name": "FFM.010.010 Budget Setup and Maintenance",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain appropriated fund subdivisions and associated funding levels before any of the appropriated funds are obligated, expended, or disbursed according to OMB apportionments and the agency spend and operating plan, consistent with the budget execution activities as defined in OMB Circular A-11.",
-          "Authoritative Reference": "(49) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution;\n(57) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR"
-      },
-      {
-          "Capability ID": "FFM.010.010.013",
-          "Function": "FFM.010 Budget Execution",
-          "Activity Name": "FFM.010.010 Budget Setup and Maintenance",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide budgetary authority and resource data required to post GL transactions consistent with USSGL transaction codes, transaction categories (for example, funding) and transaction subcategories (for example, budgetary resources other than collections) as defined in the TFM.",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL),  Section III: Account Transactions;\n(114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.010.020.011",
-          "Function": "FFM.010 Budget Execution",
-          "Activity Name": "FFM.010.020 Fund Allocation and Control",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish federal funding attributes (for example, program, activity, and project) that can be used to align funding requests, funding allocations, fund obligations, fund expenditures, and costs with agency performance goals, as required by the Chief Financial Officer (CFO Act) as well as the Government Performance and Results Act and consistent with the FASAB Handbook, OMB Circular A-11, and OMB Circular A-136.",
-          "Authoritative Reference": "(46) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 2, Preparation and Submission of Budget Estimates, Number III, MAX Data and Other Materials Required After Passback, Section 83 - Object Classification (MAX Schedule O);\n(63) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 2, Preparation and Submission of Budget Estimates, Section 51, Basic Justification Materials;\n(64) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 2, Preparation and Submission of Budget Estimates, Section 55: Information Technology Investments;\n(65) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 2, Preparation and Submission of Budget Estimates, Number III, MAX Data and Other Materials Required After Passback, Section 82 Combined Schedule X [Programming and Financing (Schedule P)];\n(69) OMB Circular A-136, Financial Reporting Requirements;\n(88) SFFAS 4: Managerial Cost Accounting Standards and Concepts;\n(96) SFFAS 55: Amending Inter-entity Cost Provisions;\n(100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting;\n(144) SFFAS 15: Management\u2019s Discussions and Analysis"
-      },
-      {
-          "Capability ID": "FFM.010.020.021",
-          "Function": "FFM.010 Budget Execution",
-          "Activity Name": "FFM.010.020 Fund Allocation and Control",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Execute administrative control of funds consistent with OMB Circular A-11 to restrict obligation and expenditure from each account to the lower of the amount apportioned by OMB or the amount available for obligation and/or expenditure.",
-          "Authoritative Reference": "(58) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 145, Requirements for Reporting Antideficiency Act Violations;\n(59) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 150, Administrative Control of Funds"
-      },
-      {
-          "Capability ID": "FFM.010.020.022",
-          "Function": "FFM.010 Budget Execution",
-          "Activity Name": "FFM.010.020 Fund Allocation and Control",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Execute statutory limitation controls restricting obligations and expenditures to amounts authorized by law consistent with OMB Circular A-11.",
-          "Authoritative Reference": "(59) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 150, Administrative Control of Funds"
-      },
-      {
-          "Capability ID": "FFM.010.030.011",
-          "Function": "FFM.010 Budget Execution",
-          "Activity Name": "FFM.010.030 Budgetary Reporting",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide budget obligation and outlay data required to post GL transactions consistent with USSGL transaction codes, categories (for example, funding), and subcategories (for example, budgetary resources other than collections) as defined in the TFM.",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL),  Section III: Account Transactions;\n(114) TFM Volume I, Supplement: United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes;\n(119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014;\n(120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
-      },
-      {
-          "Capability ID": "FFM.010.030.012",
-          "Function": "FFM.010 Budget Execution",
-          "Activity Name": "FFM.010.030 Budgetary Reporting",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide reviewed and approved budgetary resource and budget execution data to support budget reporting activities as specified in the TFM, OMB Circular A-11, OMB Circular A-136, and the FASAB Handbook.",
-          "Authoritative Reference": "(49) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution;\n(57) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR;\n(60) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 120.29;\n(70) OMB Circular A-136, Financial Reporting Requirements, Number II.3.5, Statement of Budgetary Resources;\n(71) OMB Circular A-136, Financial Reporting Requirements, Number II.3.4.5. Unexpected Appropriations and Cumulative Results of Operations;\n(94) SFFAS 53: Budget and Accrual Reconciliation;\n(100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting;\n(119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014;\n(120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136;\n(141) TFM Volume I, Part 2, Central Accounting and Reporting"
-      },
-      {
-          "Capability ID": "FFM.020.010.011",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.010 Financial Asset Information Processing - Property, Plant, and Equipment",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government asset type (for example, entity, non-entity, governmental, and intragovernmental), category [for example, general property, plant, and equipment (PP&E) and subcategory (for example, building, land, software, inventory) consistent with the FASAB Handbook.",
-          "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities;\n(73) SFFAS 10: Accounting for Internal Use Software;\n(79) SFFAS 23: Eliminating the Category National Defense Property, Plant, and Equipment: Amending SFFAS 6 and 8 and Rescinding SFFAS 11;\n(84) SFFAS 3: Accounting for Inventory and Related Property;\n(89) SFFAS 40: Definitional Changes Related to Deferred Maintenance and Repairs: Amending SFFAS 6, Accounting for Property, Plant, and Equipment;\n(90) SFFAS 42: Deferred Maintenance and Repairs: Amending SFFAS 6, 14, 29, and 32;\n(95) SFFAS 54, as amended by SFFAS 58 and SFFAS 60: Leases: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment;\n(98) SFFAS 57: Omnibus Amendments 2019;\n(99) SFFAS 6: Accounting for Property, Plant, and Equipment"
-      },
-      {
-          "Capability ID": "FFM.020.010.012",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.010 Financial Asset Information Processing - Property, Plant, and Equipment",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain property, plant, and equipment asset value and adjustments (for example, depreciation, amortization) consistent with the FASAB Handbook.",
-          "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities;\n(73) SFFAS 10: Accounting for Internal Use Software;\n(79) SFFAS 23: Eliminating the Category National Defense Property, Plant, and Equipment: Amending SFFAS 6 and 8 and Rescinding SFFAS 11;\n(84) SFFAS 3: Accounting for Inventory and Related Property;\n(89) SFFAS 40: Definitional Changes Related to Deferred Maintenance and Repairs: Amending SFFAS 6, Accounting for Property, Plant, and Equipment;\n(90) SFFAS 42: Deferred Maintenance and Repairs: Amending SFFAS 6, 14, 29, and 32;\n(95) SFFAS 54, as amended by SFFAS 58 and SFFAS 60: Leases: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment;\n(98) SFFAS 57: Omnibus Amendments 2019;\n(99) SFFAS 6: Accounting for Property, Plant, and Equipment"
-      },
-      {
-          "Capability ID": "FFM.020.010.013",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.010 Financial Asset Information Processing - Property, Plant, and Equipment",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide property, plant, and equipment asset data required to post GL transactions consistent with USSGL accounts, account attributes, transaction codes, transaction categories (for example, disbursements and payables, collections and receivables), and transaction subcategories [for example, payables/accrued liabilities, asset sale and disposition (gains and losses)] as defined in the TFM.\n",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement: United States Standard General Ledger (USSGL),  Section III: Account Transactions;\n(114) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL)  Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.020.020.011",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.020 Financial Asset Information Processing - Loans",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government asset type (for example, entity, non-entity, governmental, and intragovernmental), category (for example, direct loans, nonrecourse loans) and subcategory (for example, post-1991 direct loans, pre-1992 direct loans) consistent with the FASAB Handbook.",
-          "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities;\n(76) SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;\n(77) SFFAS 19: Technical Amendments of Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;\n(78) SFFAS 2: Accounting for Direct Loans and Loan Guarantees;\n(84) SFFAS 3: Accounting for Inventory and Related Property"
-      },
-      {
-          "Capability ID": "FFM.020.020.012",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.020 Financial Asset Information Processing - Loans",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain loan asset value and adjustments (for example allowance for uncollectible amounts,  subsidy cost allowance, valuation allowance) consistent with the FASAB Handbook.",
-          "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities;\n(76) SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;\n(77) SFFAS 19: Technical Amendments of Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;\n(78) SFFAS 2: Accounting for Direct Loans and Loan Guarantees;\n(84) SFFAS 3: Accounting for Inventory and Related Property"
-      },
-      {
-          "Capability ID": "FFM.020.020.013",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.020 Financial Asset Information Processing - Loans",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide loan asset data required to post GL transactions consistent with USSGL accounts, account attributes, transaction codes, transaction categories (for example, disbursements and payables, collections and receivables), and transaction subcategories [for example, payables/accrued liabilities, asset sale and disposition (gains and losses)] as defined in the TFM.\n",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement: United States Standard General Ledger (USSGL),  Section III: Account Transactions;\n(114) TFM Volume I Supplement, United States Standards General Ledger (USSGL),  Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.020.030.011",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.030 Financial Asset Information Processing - Heritage Assets and Stewardship Land",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government asset type (for example, entity, non-entity, governmental, and intragovernmental), category (for example, heritage assets, stewardship land, and subcategory (for example, commercial use land, conservation and preservation land, operational land) consistent with the FASAB Handbook.",
-          "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities;\n(83) SFFAS 29: Heritage Assets and Stewardship Land;\n(90) SFFAS 42: Deferred Maintenance and Repairs: Amending SFFAS 6, 14, 29, and 32;\n(99) SFFAS 6: Accounting for Property, Plant, and Equipment"
-      },
-      {
-          "Capability ID": "FFM.020.030.012",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.030 Financial Asset Information Processing - Heritage Assets and Stewardship Land",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain heritage asset and stewardship land asset value and adjustments (for example, depreciation, amortization) consistent with the FASAB Handbook.",
-          "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities;\n(83) SFFAS 29: Heritage Assets and Stewardship Land;\n(90) SFFAS 42: Deferred Maintenance and Repairs: Amending SFFAS 6, 14, 29, and 32;\n(99) SFFAS 6: Accounting for Property, Plant, and Equipment"
-      },
-      {
-          "Capability ID": "FFM.020.030.013",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.030 Financial Asset Information Processing - Heritage Assets and Stewardship Land",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide heritage asset and stewardship land asset data required to post GL transactions consistent with USSGL accounts, account attributes, transaction codes, transaction categories (for example, disbursements and payables, collections and receivables), and transaction subcategories [for example, payables/accrued liabilities, asset sale and disposition (gains and losses)] as defined in the TFM.\n",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement: United States Standard General Ledger (USSGL),  Section III: Account Transactions;\n(114) TFM, United States Standards General Ledger (USSGL) Volume I Supplement, Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.020.040.011",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.040 Financial Asset Information Processing - Federal Oil and Gas Resources",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government asset type (for example, entity, non-entity, governmental, and intragovernmental), category [for example, federal oil and gas resources], and subcategory (for example, proved reserves, unproved reserves, undiscovered non-recoverable resources, undiscovered recoverable resources) consistent with the FASAB Handbook.\n",
-          "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities;\n(87) SFFAS 38: Accounting for Federal Oil and Gas Resources"
-      },
-      {
-          "Capability ID": "FFM.020.040.012",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.040 Financial Asset Information Processing - Federal Oil and Gas Resources",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain federal oil and gas resource asset value and adjustments (for example, unreported reserve changes) consistent with the FASAB Handbook.",
-          "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities;\n(87) SFFAS 38: Accounting for Federal Oil and Gas Resources"
-      },
-      {
-          "Capability ID": "FFM.020.040.013",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.040 Financial Asset Information Processing - Federal Oil and Gas Resources",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide federal oil and gas resource asset data required to post GL transactions consistent with USSGL accounts, account attributes, transaction codes, transaction categories (for example, disbursements and payables, collections and receivables), and transaction subcategories [for example, payables/accrued liabilities, asset sale and disposition (gains and losses)] as defined in the TFM.\n",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement: United States Standard General Ledger (USSGL),  Section III: Account Transactions;\n(114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.020.050.011",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.050 Financial Asset Information Processing - Other Federal Assets",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government asset type (for example, entity, non-entity, governmental, and intragovernmental), category [for example cash, investments in Treasury securities, operating materials and supplies, commodities, seized and forfeited assets], and subcategory (for example, restricted cash; federal and nonfederal securities; operating materials and supplies held in reserve for future use; excess, obsolete and unserviceable operating materials and supplies) consistent with the FASAB Handbook.\n",
-          "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities;\n(84) SFFAS 3: Accounting for Inventory and Related Property"
-      },
-      {
-          "Capability ID": "FFM.020.050.012",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.050 Financial Asset Information Processing - Other Federal Assets",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain other federal asset value and adjustments (for example,  amortization, commodity valuation allowance) consistent with the FASAB Handbook.",
-          "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities;\n(84) SFFAS 3: Accounting for Inventory and Related Property"
-      },
-      {
-          "Capability ID": "FFM.020.050.013",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.050 Financial Asset Information Processing - Other Federal Assets",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide other federal asset data required to post GL transactions consistent with USSGL accounts, account attributes, transaction codes, transaction categories (for example, disbursements and payables, collections and receivables), and transaction subcategories [for example, payables/accrued liabilities, asset sale and disposition (gains and losses)] as defined in the TFM.",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement: United States Standard General Ledger (USSGL),  Section III: Account Transactions;\n(114) TFM Volume I Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.020.060.011",
-          "Function": "FFM.020 Financial Asset Information Management",
-          "Activity Name": "FFM.020.060 Financial Asset Information Reporting",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide asset information, such as asset type (for example, entity, non-entity, governmental or intragovernmental), category, subcategory, value, quantity (for example, units), and GL account (for example, buildings, land, equipment, and software) for balance sheet and financial statement reporting consistent with the FASAB Handbook and as specified in the TFM.",
-          "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities;\n(73) SFFAS 10: Accounting for Internal Use Software;\n(76) SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;\n(77) SFFAS 19: Technical Amendments of Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;\n(78) SFFAS 2: Accounting for Direct Loans and Loan Guarantees;\n(79) SFFAS 23: Eliminating the Category National Defense Property, Plant, and Equipment: Amending SFFAS 6 and 8, and Rescinding SFFAS 11;\n(83) SFFAS 29: Heritage Assets and Stewardship Land;\n(84) SFFAS 3: Accounting for Inventory and Related Property;\n(87) SFFAS 38: Accounting for Federal Oil and Gas Resources;\n(89) SFFAS 40: Definitional Changes Related to Deferred Maintenance and Repairs: Amending SFFAS 6, Accounting for Property, Plant, and Equipment;\n(90) SFFAS 42: Deferred Maintenance and Repairs: Amending SFFAS 6, 14, 29, and 32;\n(95) SFFAS 54, as amended by SFFAS 58 and SFFAS 60: Leases: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment;\n(98) SFFAS 57: Omnibus Amendments 2019;\n(99) SFFAS 6: Accounting for Property, Plant, and Equipment;\n(113) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL)  Section III: Account Transactions;\n(114) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL)  Section IV: USSGL Account Attributes;\n(115) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section V: USSGL Crosswalks to Standard External Reports"
-      },
-      {
-          "Capability ID": "FFM.030.010.011",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.010 Payee Setup and Maintenance",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government unique payment recipient information (for example, federal vendor registration attributes or grant recipient information) consistent with that required to support the payment management and invoice processing activities defined in 5 CFR 1315, Federal Acquisition Regulation (FAR), and the TFM.",
-          "Authoritative Reference": "(52) 5 CFR 1315.4, Prompt Payment, Prompt Payment Standards and Required Notices to Vendors;\n(54) FAR 4.11, System for Award Management (SAM);\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014;\n(120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
-      },
-      {
-          "Capability ID": "FFM.030.050.011",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.050 Payment Processing - Travel Temporary Duty (TDY) and Local Payments",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government unique payable information for travel TDY and local payments (for example, Treasury Account Symbol) to support payment reports consistent with the TFM.",
-          "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities"
-      },
-      {
-          "Capability ID": "FFM.030.050.012",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.050 Payment Processing - Travel Temporary Duty (TDY) and Local Payments",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain proper payable amount and other payable information for travel TDY and local payments consistent with FASAB Handbook and as specified in the TFM.",
-          "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities;\n(92) SFFAS 5: Accounting for Liabilities of the Federal Government;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service"
-      },
-      {
-          "Capability ID": "FFM.030.050.013",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.050 Payment Processing - Travel Temporary Duty (TDY) and Local Payments",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide payable data required to post GL transactions for travel TDY and local payments consistent with USSGL transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL),  Section III: Account Transactions;\n(114) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL)  Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.030.060.011",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.060 Payment Processing - Travel PCS Payments",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government unique payable information for travel PCS payments (for example, Treasury Account Symbol) to support payment reports consistent with the TFM.",
-          "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities"
-      },
-      {
-          "Capability ID": "FFM.030.060.012",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.060 Payment Processing - Travel PCS Payments",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain proper payable amount and other payable information for travel PCS payments consistent with FASAB Handbook and as specified in the TFM.",
-          "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities;\n(92) SFFAS 5: Accounting for Liabilities of the Federal Government;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service"
-      },
-      {
-          "Capability ID": "FFM.030.060.013",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.060 Payment Processing - Travel PCS Payments",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide payable data required to post GL transactions for travel PCS payments consistent with USSGL transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions;\n(114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.030.070.011",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.070 Payment Processing - Commercial Payments",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government unique payable information for commercial payments (for example, Treasury Account Symbol) to support payment reports consistent with the TFM.",
-          "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014;\n(120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
-      },
-      {
-          "Capability ID": "FFM.030.070.012",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.070 Payment Processing - Commercial Payments",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain proper payable amount and other payable information for commercial payments consistent with FASAB Handbook, 48 CFR 32, and Federal Acquisition Regulation (FAR) and as specified in the TFM.",
-          "Authoritative Reference": "(53) FAR 32.905, Payment Documentation and Process;\n(72) SFFAS 1: Accounting for Selected Assets and Liabilities;\n(92) SFFAS 5: Accounting for Liabilities of the Federal Government;\n(106) TFM Volume I, Part 4, Chapter 4500 Government Purchase Cards;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service;\n(118) 48 CFR 32, Contract Financing;\n(119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014;\n(120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
-      },
-      {
-          "Capability ID": "FFM.030.070.013",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.070 Payment Processing - Commercial Payments",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide payable data required to post GL transactions for commercial payments consistent with USSGL transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions;\n(114) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.030.070.021",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.070 Payment Processing - Commercial Payments",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government unique invoice prompt payment information (for example, payment due date, discount date, offered discount rate, government interest rate) to support payment of invoices as specified in the CFR and TFM.",
-          "Authoritative Reference": "(5) 31 U.S.C. 39 \u2013 Prompt Payment;\n(7) 5 CFR 1315, Prompt Payment: 1315.2 Definitions, 1315.7 Discounts, 1315.9 Required documentation, 1315.10 Late payment interest penalties, 1315.11 Additional penalties, and 1315.5 Accelerated payment methods;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(118) 48 CFR 32, Contract Financing"
-      },
-      {
-          "Capability ID": "FFM.030.070.022",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.070 Payment Processing - Commercial Payments",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Determine whether to accelerate payment, execute discounted early payment, or include late payment interest and penalties, and calculate payment date and amount due to vendor as specified in the CFR and TFM.",
-          "Authoritative Reference": "(5) 31 U.S.C. 39 \u2013 Prompt Payment;\n(7) 5 CFR 1315, Prompt Payment: 1315.2 Definitions, 1315.7 Discounts, 1315.9 Required documentation, 1315.10 Late payment interest penalties, 1315.11 Additional penalties, and 1315.5 Accelerated payment methods;\n(52) 5 CFR 1315, Prompt Payment, 1315.4 Prompt Payment Standards and Required Notice to Vendors;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(118) 48 CFR 32, Contract Financing"
-      },
-      {
-          "Capability ID": "FFM.030.080.011",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.080 Payment Processing - Grant Payments",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government unique payable information for grant payments (for example, Treasury Account Symbol) to support payment reports consistent with the TFM.",
-          "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014;\n(120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
-      },
-      {
-          "Capability ID": "FFM.030.080.012",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.080 Payment Processing - Grant Payments",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain proper payable amount and other payable information for grant payments consistent with FASAB Handbook and as specified in the TFM.",
-          "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities;\n(92) SFFAS 5: Accounting for Liabilities of the Federal Government;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service;\n(119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014;\n(120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
-      },
-      {
-          "Capability ID": "FFM.030.080.013",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.080 Payment Processing - Grant Payments",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide payable data required to post GL transactions for grant payments consistent with USSGL transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions;\n(114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.030.090.011",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.090 Payment Processing - Loan Payments",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government unique payable information for loan payments (for example, Treasury Account Symbol) to support payment reports consistent with the TFM.",
-          "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014;\n(120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
-      },
-      {
-          "Capability ID": "FFM.030.090.012",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.090 Payment Processing - Loan Payments",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain proper payable amount and other payable information for loan payments consistent with FASAB Handbook and as specified in the TFM.",
-          "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities;\n(76) SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;\n(77) SFFAS 19: Technical Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;\n(78) SFFAS 2: Accounting for Direct Loans and Loan Guarantees;\n(92) SFFAS 5: Accounting for Liabilities of the Federal Government;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service;\n(119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014;\n(120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
-      },
-      {
-          "Capability ID": "FFM.030.090.013",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.090 Payment Processing - Loan Payments",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide payable data required to post GL transactions for loan payments consistent with USSGL transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions;\n(114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.030.100.011",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.100 Payment Processing - Other Payments",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government unique payable information for other types of payments (for example, Treasury Account Symbol) to support payment reports consistent with the TFM.",
-          "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014;\n(120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
-      },
-      {
-          "Capability ID": "FFM.030.100.012",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.100 Payment Processing - Other Payments",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain proper payable amount and other payable information for other types of payments consistent with FASAB Handbook, 48 CFR 32, and Federal Acquisition Regulation (FAR) and as specified in the TFM.",
-          "Authoritative Reference": "(53) FAR 32.905, Payment Documentation and Process;\n(72) SFFAS 1: Accounting for Selected Assets and Liabilities;\n(74) SFFAS 12: Recognition of Contingent Liabilities Arising from Litigation: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government;\n(75) SFFAS 17: Accounting for Social Insurance;\n(92) SFFAS 5: Accounting for Liabilities of the Federal Government;\n(93) SFFAS 51: Insurance Programs;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service;\n(118) 48 CFR 32, Contract Financing;\n(119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014;\n(120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
-      },
-      {
-          "Capability ID": "FFM.030.100.013",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.100 Payment Processing - Other Payments",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide payable data required to post GL transactions for other types of payments consistent with USSGL transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions;\n(114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL),  Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.030.110.011",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.110 Payment Disbursement",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide payment transaction information for the disbursing office to certify as specified in the TFM.",
-          "Authoritative Reference": "(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service"
-      },
-      {
-          "Capability ID": "FFM.030.110.012",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.110 Payment Disbursement",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Agencies for which Treasury disburses: Provide payment disbursement information at the required account classification level (for example, Treasury Account Symbol) and subclass code as specified in the TFM.",
-          "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service;\n(132) TFM, Volume I, Part 2, Chapter 1500, New Account Establishment, Updating Accounts, and Description of Accounts Relating to Financial Operations"
-      },
-      {
-          "Capability ID": "FFM.030.110.013",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.110 Payment Disbursement",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Agencies for which Treasury does not disburse: Provide payment disbursement TAS/BETC classification information as specified in the TFM.\n",
-          "Authoritative Reference": "(109) TFM Volume I, Part 4A, Chapter 4000 Requirements for Non-Treasury Disbursing Officers (NTDOs);\n(110)  TFM Volume I, Part 6, Chapter 8500, Cash Forecasting Requirements, Section 8530, General Large Dollar Notification Reporting Requirements for Deposits and Disbursements"
-      },
-      {
-          "Capability ID": "FFM.030.110.014",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.110 Payment Disbursement",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Agencies for which Treasury disburses: Capture disbursement schedule acceptance information as defined in the TFM.",
-          "Authoritative Reference": "(103) TFM Volume I, Part 2, Chapter 5100, Fund Balance with Treasury Accounts;\n(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions"
-      },
-      {
-          "Capability ID": "FFM.030.110.015",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.110 Payment Disbursement",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide payment disbursement data required to post GL transactions consistent with USSGL accounts (for example, disbursements in transit, delivered orders - obligations, paid), account attributes, account transaction categories (for example, disbursements and payables, and account transaction subcategories (for example, payments/purchases) as defined in the TFM.\n",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions;\n(114) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL)  Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.030.120.011",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.120 Payment Confirmation and Issue Resolution",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Agencies for which Treasury does not disburse (for example, the Department of Defense): Provide returned payment and other debit TAS/BETC classification information consistent with Government Accountability Office (GAO) policy and procedures and as specified in the TFM.",
-          "Authoritative Reference": "(55) GAO Policy and Procedures Manual for Guidance of Federal Agencies, Title 7 \u2013 Fiscal Guidance, Chapter 6, Disbursements;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities;\n(109) TFM Volume I, Part 4A, Chapter 4000, Requirements for Non-Treasury Disbursing Officers (NTDOs)"
-      },
-      {
-          "Capability ID": "FFM.030.130.011",
-          "Function": "FFM.030 Payable Management",
-          "Activity Name": "FFM.030.130 Payment Reporting",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide improper payment information as specified in OMB Circular A-123 and the TFM.",
-          "Authoritative Reference": "(67) OMB Circular A-123, Managements Responsibility for Enterprise Risk Management and Internal Control, Appendix C, Requirements for Payment Integrity Improvement;\n(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities"
-      },
-      {
-          "Capability ID": "FFM.040.010.011",
-          "Function": "FFM.040 Revenue Management",
-          "Activity Name": "FFM.040.010 Revenue Processing",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government revenue or other financing type (for example, exchange revenues, non-exchange revenues, budgetary resources), category (for example, taxes, duties, fines, user fees, and sale of goods and services), and subcategory (for example, income tax, excise tax, and donations) consistent with the FASAB Handbook.",
-          "Authoritative Reference": "(31) TFM Volume 1, Part 2, Chapter 4700 Federal Entity Reporting Requirements for the Financial Report of the United States Government;\n(82) SFFAS 27: Identifying and Reporting Earmarked Funds;\n(85) SFFAS 31: Accounting for Fiduciary Activities;\n(87) SFFAS 38: Accounting for Federal Oil and Gas Resources;\n(91) SFFAS 43: Dedicated Collections: Amending SFFAS 27, Identifying and Reporting Earmarked Funds;\n(94) SFFAS 53: Budget and Accrual Reconciliation;\n(100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting"
-      },
-      {
-          "Capability ID": "FFM.040.010.012",
-          "Function": "FFM.040 Revenue Management",
-          "Activity Name": "FFM.040.010 Revenue Processing",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Determine revenue classification (for example, exchange, non- exchange, and other financing sourcing) and value as specified in the FASAB Handbook.",
-          "Authoritative Reference": "(82) SFFAS 27: Identifying and Reporting Earmarked Funds;\n(85) SFFAS 31: Accounting for Fiduciary Activities;\n(87) SFFAS 38: Accounting for Federal Oil and Gas Resources;\n(91) SFFAS 43: Dedicated Collections: Amending SFFAS 27, Identifying and Reporting Earmarked Funds;\n(94) SFFAS 53: Budget and Accrual Reconciliation;\n(100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting"
-      },
-      {
-          "Capability ID": "FFM.040.010.013",
-          "Function": "FFM.040 Revenue Management",
-          "Activity Name": "FFM.040.010 Revenue Processing",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide revenue and other financing sources data to post GL transactions consistent with USSGL attributes (for example, exchange/non-exchange indicator and program indicator), transaction codes, transaction categories (for example, collections and receivables), and transaction subcategories (for example, receivables/accrued revenue) as defined in the TFM. \n",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement: United States Standard General Ledger (USSGL), Section III Account Transactions;\n(114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.040.020.011",
-          "Function": "FFM.040 Revenue Management",
-          "Activity Name": "FFM.040.020 Revenue Reporting",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide revenue and other financing sources disclosure and supplementary information for agency and government-wide reporting as specified in FASAB Handbook.",
-          "Authoritative Reference": "(74) SFFAS 12: Recognition of Contingent Liabilities Arising from Litigation: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government;\n(82) SFFAS 27: Identifying and Reporting Earmarked Funds;\n(85) SFFAS 31: Accounting for Fiduciary Activities;\n(87) SFFAS 38: Accounting for Federal Oil and Gas Resources;\n(91) SFFAS 43: Dedicated Collections: Amending SFFAS 27, Identifying and Reporting Earmarked Funds;\n(92) SFFAS 5: Accounting for Liabilities of the Federal Government;\n(94) SFFAS 53: Budget and Accrual Reconciliation;\n(95) SFFAS 54, as amended by SFFAS 58 and SFFAS 60: Leases: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment;\n(100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting"
-      },
-      {
-          "Capability ID": "FFM.060.020.011",
-          "Function": "FFM.060 Receivable and Collection Management",
-          "Activity Name": "FFM.060.020 Public Receivable Setup and Billing Invoicing",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government receivable information (for example, receivable type and customer information) to support agency management of and reporting on receivables to Treasury consistent with the TFM and as required by OMB Circular A-129 and the CFR.",
-          "Authoritative Reference": "(20) OMB Circular A-129, Policies for Federal Credit Programs and Non-Tax Receivables, Appendix A, Program Reviews, Part IV, Managing the Federal Government\u2019s Receivables;\n(50) 31 CFR 901, Standards for the Administrative Collection of Claims;\n(94) SFFAS 53: Budget and Accrual Reconciliation;\n(100) SFFAS 7: Accounting for Revenue and other Financing Sources;\n(104) TFM Volume I, Part 3, Chapter 7000, Treasury Report on Receivables (TROR), Section 7025, Reporting Requirements, and the Instructional Workbook for Preparing the Treasury Report on Receivables and Debt Collection Activities, Part I, Status of Receivables referenced therein;\n(105) TFM Volume I, Part 3, Chapter 7000 Treasury Report on Receivables (TROR);\n(118) 48 CFR 32, Contract Financing"
-      },
-      {
-          "Capability ID": "FFM.060.020.012",
-          "Function": "FFM.060 Receivable and Collection Management",
-          "Activity Name": "FFM.060.020 Public Receivable Setup and Billing Invoicing",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain receivable amount, including interest, penalties, and administrative fees, and other receivable information consistent with OMB Circular A-129, the FASAB Handbook, and the CFR.",
-          "Authoritative Reference": "(20) OMB Circular A-129, Policies for Federal Credit Programs and Non-Tax Receivables, Appendix A, Program Reviews, Part IV, Managing the Federal Government\u2019s Receivables;\n(50) 31 CFR 901, Standards for the Administrative Collection of Claims;\n(68) OMB Circular A-129, Policies for Federal Credit Programs and Non-Tax Receivables, Appendix A, Program Reviews, Part V, Delinquent Debt Collection;\n(72) SFFAS 1: Accounting for Selected Assets and Liabilities, Accounts Receivable;\n(94) SFFAS 53: Budget and Accrual Reconciliation;\n(100) SFFAS 7: Accounting for Revenue and other Financing Sources"
-      },
-      {
-          "Capability ID": "FFM.060.020.013",
-          "Function": "FFM.060 Receivable and Collection Management",
-          "Activity Name": "FFM.060.020 Public Receivable Setup and Billing Invoicing",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide receivable data required to post GL transactions consistent with USSGL transaction codes, transaction categories (for example, collections and receivables), and transaction subcategories (for example, receivables/accrued revenue) as defined in the TFM.",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL),  Section III: Account Transactions;\n(114) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL)  Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.060.030.011",
-          "Function": "FFM.060 Receivable and Collection Management",
-          "Activity Name": "FFM.060.030 Public Receipt Processing",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Deposit collections (for example, checks, cash) received as specified in the TFM.\n",
-          "Authoritative Reference": "(145) TFM Volume I, Part 5, Deposit Regulations;\n(146) TFM Volume I, Part 5, Chapter 2000, Depositing Domestic Checks and Cash Received in Over The Counter (OTC) Collections"
-      },
-      {
-          "Capability ID": "FFM.060.030.012",
-          "Function": "FFM.060 Receivable and Collection Management",
-          "Activity Name": "FFM.060.030 Public Receipt Processing",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture summary and detail public receipt collection information to reconcile agency collections with Treasury account balances.",
-          "Authoritative Reference": "(103) TFM Volume I, Part 2, Chapter 5100 Fund Balance with Treasury Accounts;\n(145) TFM Volume I, Part 5, Deposit Regulations"
-      },
-      {
-          "Capability ID": "FFM.060.030.021",
-          "Function": "FFM.060 Receivable and Collection Management",
-          "Activity Name": "FFM.060.030 Public Receipt Processing",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Determine allocation of amounts collected (for example, first to penalties, second to administrative costs, third to interest, then to accounts receivable) as specified in the CFR.",
-          "Authoritative Reference": "(50) 31 CFR 901, Standards for the Administrative Collection of Claims;\n(51) 31 CFR 901, Standards for the Administrative Collection of Claims, Section 13 Interest, Penalties, and Administrative Costs"
-      },
-      {
-          "Capability ID": "FFM.060.060.011",
-          "Function": "FFM.060 Receivable and Collection Management",
-          "Activity Name": "FFM.060.060 Public Receivable and Collection Reporting",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide receivable and collection status data to support federal receivable and collection reporting activities as defined in OMB Circular A-129 and as specified in the TFM.",
-          "Authoritative Reference": "(20) OMB Circular A-129, Policies for Federal Credit Programs and Non-Tax Receivables, Appendix A, Program Reviews, Part IV, Managing the Federal Government's Receivables;\n(104) TFM Volume I, Part 3, Chapter 7000, Treasury Report on Receivables (TROR), Section 7025, Reporting Requirements, and the Instructional Workbook for Preparing the Treasury Report on Receivables and Debt Collection Activities, Parts I and II referenced therein;\n(105) TFM Volume I, Part 3, Chapter 7000 Treasury Report on Receivables (TROR)"
-      },
-      {
-          "Capability ID": "FFM.070.010.011",
-          "Function": "FFM.070 Delinquent Debt Management",
-          "Activity Name": "FFM.070.010 Delinquent Debt Collection",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture debt category (for example, bankruptcy and at private collection agency) to support debt reporting consistent with the TFM.",
-          "Authoritative Reference": "(104) TFM Volume I, Part 3, Chapter 7000, Treasury Report on Receivables (TROR), Section 7025, Reporting Requirements, and the Instructional Workbook for Preparing the Treasury Report on Receivables and Debt Collection Activities, Parts I and II referenced therein;\n(105) TFM Volume I, Part 3, Chapter 7000 Treasury Report on Receivables (TROR)"
-      },
-      {
-          "Capability ID": "FFM.070.010.021",
-          "Function": "FFM.070 Delinquent Debt Management",
-          "Activity Name": "FFM.070.010 Delinquent Debt Collection",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Match delinquent debtor information with payment recipient information within and between federal agencies to affect administrative debt offsets (for example, by administrative wage garnishment and request for paying agency to collect the offset) as required by the CFR as well as OMB Circular A-129, and consistent with the TFM.",
-          "Authoritative Reference": "(50) 31 CFR 901, Standards for the Administrative Collection of Claims;\n(68) OMB Circular A-129, Policies for Federal Credit Programs and Non-Tax Receivables, Appendix A, Program Reviews, Part V, Delinquent Debt Collection;\n(104) TFM Volume I, Part 3, Chapter 7000, Treasury Report on Receivables (TROR), Section 7025, Reporting Requirements, and the Instructional Workbook for Preparing the Treasury Report on Receivables and Debt Collection Activities, Part II referenced therein;\n(105) TFM Volume I, Part 3, Chapter 7000 Treasury Report on Receivables (TROR)"
-      },
-      {
-          "Capability ID": "FFM.070.010.031",
-          "Function": "FFM.070 Delinquent Debt Management",
-          "Activity Name": "FFM.070.010 Delinquent Debt Collection",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Refer debt for collection (for example, to Treasury if delinquent more than a set number of days and to the Department of Justice whenever the agency determines debt is uncollectable) as required by OMB Circular A-129 and consistent with the TFM.",
-          "Authoritative Reference": "(104) TFM Volume I, Part 3, Chapter 7000, Treasury Report on Receivables (TROR), Section 7025, Reporting Requirements, and the Instructional Workbook for Preparing the Treasury Report on Receivables and Debt Collection Activities, Parts I and II referenced therein;\n(121) OMB Circular A-129 Policies for Federal Credit Programs and Non-Tax Receivables;\n(147) TFM Volume I, Part 4, Chapter 4000 Agency Use Of Credit Reports And Reporting Of Federal Nontax Debts To Credit Bureaus"
-      },
-      {
-          "Capability ID": "FFM.070.010.041",
-          "Function": "FFM.070 Delinquent Debt Management",
-          "Activity Name": "FFM.070.010 Delinquent Debt Collection",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide debt management data required to post GL transactions consistent with USSGL transaction codes, transaction categories (for example, adjustments/write- offs/reclassification), and transaction subcategories (for example, write-offs) as defined in the TFM.",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL),  Section III: Account Transactions;\n(114) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL)  Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.080.010.011",
-          "Function": "FFM.080 Cost Management",
-          "Activity Name": "FFM.080.010 Cost Management Setup and Maintenance",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Provide responsibility segments/cost centers (for example, managing public buildings and distributing supplies) and cost objects that align with outcomes (for example, program, activity, and product) that directly support the agency mission and management requirements consistent with the FASAB Handbook.\n",
-          "Authoritative Reference": "(88) SFFAS 4: Managerial Cost Accounting Standards and Concepts"
-      },
-      {
-          "Capability ID": "FFM.080.020.011",
-          "Function": "FFM.080 Cost Management",
-          "Activity Name": "FFM.080.020 Cost Accumulation and Allocation",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Determine intragovernmental entity costs in addition to other costs (for example, direct, indirect, and depreciation) by cost object and responsibility segment consistent with the FASAB Handbook.\n",
-          "Authoritative Reference": "(96) SFFAS 55: Amending Inter-entity Cost Provisions;\n(101) SFFAS 4: Managerial Cost Accounting Standards and Concepts"
-      },
-      {
-          "Capability ID": "FFM.080.020.012",
-          "Function": "FFM.080 Cost Management",
-          "Activity Name": "FFM.080.020 Cost Accumulation and Allocation",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide cost management data required to post GL transactions consistent with USSGL attributes (for example, program indicator), transaction codes, transaction categories (for example, accruals/non- budgetary transfers other than disbursements and collections), transaction subcategories (for example, accrual, depreciation, amortization, and depletion) as defined in the TFM.\n",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL),  Section III: Account Transactions;\n(114) TFM Volume I, Supplement, , United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.090.010.011",
-          "Function": "FFM.090 General Ledger Management",
-          "Activity Name": "FFM.090.010 General Ledger Setup and Maintenance",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Provide GL account classifications (for example, budgetary, assets, liabilities, revenues, and expenses), account categories (for example, receivables), and account subcategories (for example, accounts receivable) consistent with the United States Standard General Ledger (USSGL) accounts defined in the TFM.",
-          "Authoritative Reference": "(111) TFM Volume I, Supplement, United States Standard General Ledger (USSGL),  Section I: Chart of Accounts;\n(112) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section II: Accounts and Definitions"
-      },
-      {
-          "Capability ID": "FFM.090.010.012",
-          "Function": "FFM.090 General Ledger Management",
-          "Activity Name": "FFM.090.010 General Ledger Setup and Maintenance",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Provide GL proprietary account attributes (for example, exchange/nonexchange code and Federal/ non-Federal code) consistent with the USSGL account attributes defined in the TFM.",
-          "Authoritative Reference": "(114) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.090.010.013",
-          "Function": "FFM.090 General Ledger Management",
-          "Activity Name": "FFM.090.010 General Ledger Setup and Maintenance",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Provide GL budgetary account attributes (for example, Apportionment Category B Program Code and Authority Type Code) consistent with the USSGL attributes defined in the TFM.",
-          "Authoritative Reference": "(114) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.090.020.011",
-          "Function": "FFM.090 General Ledger Management",
-          "Activity Name": "FFM.090.020 General Ledger Posting",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture GL account transaction information provided by supporting financial management operations (for example, payments, receipts, liabilities, assets, and reimbursable/ intragovernmentals) consistent with the USSGL account attributes, account transaction codes, account transaction categories, and account transaction subcategories defined in the TFM.",
-          "Authoritative Reference": "(111) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section I: Chart of Accounts;\n(112) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section II: Accounts and Definitions;\n(113) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL)  Section III: Account Transactions;\n(114) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.090.020.012",
-          "Function": "FFM.090 General Ledger Management",
-          "Activity Name": "FFM.090.020 General Ledger Posting",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Post GL proprietary, budgetary, and memorandum account transactions consistent with USSGL account attributes, account transaction codes, account transaction categories, and account transaction subcategories as defined in the TFM.",
-          "Authoritative Reference": "(111) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section I: Chart of Accounts;\n(112) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section II: Accounts and Definitions;\n(113) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section III: Account Transactions;\n(114) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL),  Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.090.020.013",
-          "Function": "FFM.090 General Ledger Management",
-          "Activity Name": "FFM.090.020 General Ledger Posting",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Maintain ability to post transactions funded, obligated, or expended over multiple years to GL accounts that do not close (for example, undelivered orders\u2013 obligations, unpaid; delivered orders\u2013obligations, unpaid; authority outlayed not yet disbursed) consistent with the TFM.",
-          "Authoritative Reference": "(111) TFM  Volume I, Supplement, , United States Standard General Ledger (USSGL), Section I: Chart of Accounts;\n(112) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL), Section II: Accounts and Definitions;\n(113) TFM  Volume I, Supplement, United States Standard General Ledger (USSGL), Section III: Account Transactions;\n(117) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section VII: GTAS Validations and Edits"
-      },
-      {
-          "Capability ID": "FFM.090.030.011",
-          "Function": "FFM.090 General Ledger Management",
-          "Activity Name": "FFM.090.030 Accrual and Liability/Asset Processing",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Determine adjustments to budgetary and financial (proprietary) accruals consistent with the FASAB Handbook and OMB Circular A-11.",
-          "Authoritative Reference": "(49) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution;(100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting;\n(82) SFFAS 27: Identifying and Reporting Earmarked Funds;\n(91) SFFAS 43: Dedicated Collections: Amending SFFAS 27, Identifying and Reporting Earmarked Funds;\n(94) SFFAS 53: Budget and Accrual Reconciliation;\n(95) SFFAS 54, as amended by SFFAS 58 and SFFAS 60: Leases: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment"
-      },
-      {
-          "Capability ID": "FFM.090.030.021",
-          "Function": "FFM.090 General Ledger Management",
-          "Activity Name": "FFM.090.030 Accrual and Liability/Asset Processing",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Capture federal government liability type (for example, covered/not covered by budgetary resources, governmental, and Intragovernmental), category (for example, accounts payable, and interest payable and other current liabilities), and subcategory (for example, accrued employees' wages and entitlement benefits) consistent with the FASAB Handbook.",
-          "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities;\n(74) SFFAS 12: Recognition of Contingent Liabilities Arising from Litigation: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government;\n(75) SFFAS 17: Accounting for Social Insurance;\n(76) SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;\n(77) SFFAS 19: Technical Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;\n(78) SFFAS 2: Accounting for Direct Loans and Loan Guarantees;\n(86) SFFAS 33: Pensions, Other Retirement Benefits, and Other Postemployment Benefits: Reporting Gains and Losses from Changes in Assumptions, and Selecting Discount Rates and Valuations Dates;\n(92) SFFAS 5: Accounting for Liabilities of the Federal Government;\n(95) SFFAS 54: as amended by SFFAS 58 and SFFAS 60: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment;\n(99) SFFAS 6: Accounting for Property, Plant, and Equipment;\n(100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting"
-      },
-      {
-          "Capability ID": "FFM.090.030.022",
-          "Function": "FFM.090 General Ledger Management",
-          "Activity Name": "FFM.090.030 Accrual and Liability/Asset Processing",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Establish and maintain liability information consistent with the FASAB Handbook.",
-          "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities;\n(74) SFFAS 12: Recognition of Contingent Liabilities Arising from Litigation: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government;\n(75) SFFAS 17: Accounting for Social Insurance;\n(76) SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;\n(77) SFFAS 19: Technical Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2;\n(78) SFFAS 2: Accounting for Direct Loans and Loan Guarantees;\n(86) SFFAS 33: Pensions, Other Retirement Benefits, and Other Postemployment Benefits: Reporting Gains and Losses from Changes in Assumptions, and Selecting Discount Rates and Valuations Dates;\n(94) SFFAS 5: Accounting for Liabilities of the Federal Government;\n(95) SFFAS 54: as amended by SFFAS 58 and SFFAS 60: Leases: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment;\n(99) SFFAS 6: Accounting for Property, Plant, and Equipment;\n(100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting"
-      },
-      {
-          "Capability ID": "FFM.090.030.023",
-          "Function": "FFM.090 General Ledger Management",
-          "Activity Name": "FFM.090.030 Accrual and Liability/Asset Processing",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide liability data required to post GL transactions consistent with USSGL attributes (covered/not covered, Federal/non-Federal), transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.\n",
-          "Authoritative Reference": "(113) TFM  Volume I, Supplement, United States Standard General Ledger (USSGL), Section III: Account Transactions;\n(114) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes"
-      },
-      {
-          "Capability ID": "FFM.090.040.011",
-          "Function": "FFM.090 General Ledger Management",
-          "Activity Name": "FFM.090.040 Period End Closing",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Close non-fiduciary and fiduciary accounts consistent with USSGL account closing table rules as defined in the TFM.",
-          "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section III: Account Transactions;\n(117) TFM Volume I, Supplement, United States Standard General Ledger (USSGL),  Section VII: GTAS Validations and Edits, Closing Edit Details"
-      },
-      {
-          "Capability ID": "FFM.100.010.011",
-          "Function": "FFM.100 Financial Reconciliation",
-          "Activity Name": "FFM.100.010 Reconciliation of General Ledger and Subledgers",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Verify that GL account balances can be traced to aggregated or discrete transactions in agency programmatic systems and that the aggregated or discrete transactions can be traced to the point of entry and source documents consistent with the TFM.",
-          "Authoritative Reference": "(66) OMB Circular A-123, Management\u2019s Responsibility for Enterprise Risk Management and Internal Control, Appendix A, Management of Reporting and Data Integrity Risk;\n(81) SFFAS 26: Presentation of Significant Assumptions for the Statement of Social Insurance, Amending SFFAS 25;\n(103) TFM Volume I, Part 2, Chapter 5100 Fund Balance with Treasury Accounts"
-      },
-      {
-          "Capability ID": "FFM.100.010.021",
-          "Function": "FFM.100 Financial Reconciliation",
-          "Activity Name": "FFM.100.010 Reconciliation of General Ledger and Subledgers",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Verify that financial statements and other required financial and budget reports can be traced to GL account balances as required by OMB Circular A-123 and as specified in the TFM.",
-          "Authoritative Reference": "(114) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes;\n(115) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section V: USSGL Crosswalks to Standard External Reports;\n(116) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section VI: USSGL Crosswalks to Reclassified Statement;\n(122) OMB Circular A-123, Management\u2019s Responsibility for Enterprise Risk Management and Control, Section IV, Assessing Internal Control, Item D, Internal Control Evaluation Approach"
-      },
-      {
-          "Capability ID": "FFM.100.030.011",
-          "Function": "FFM.100 Financial Reconciliation",
-          "Activity Name": "FFM.100.030 Reconciliation with Treasury Balance",
-          "Input/ Output/ Process": "I",
-          "Business Capability Statement": "Retrieve Treasury account monthly activity information at the TAS-BETC-ALC level for agency TAS(s) as specified in the TFM.",
-          "Authoritative Reference": "(103) TFM Volume I, Part 2, Chapter 5100 Fund Balance with Treasury Accounts"
-      },
-      {
-          "Capability ID": "FFM.100.030.012",
-          "Function": "FFM.100 Financial Reconciliation",
-          "Activity Name": "FFM.100.030 Reconciliation with Treasury Balance",
-          "Input/ Output/ Process": "P",
-          "Business Capability Statement": "Reconcile agency USSGL FBwT account balance, activity, and transaction information with Treasury account balance, activity, and transaction information consistent with the FASAB Handbook and as specified in the TFM.",
-          "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities;\n(103) TFM Volume I, Part 2, Chapter 5100 Fund Balance with Treasury Accounts"
-      },
-      {
-          "Capability ID": "FFM.100.030.013",
-          "Function": "FFM.100 Financial Reconciliation",
-          "Activity Name": "FFM.100.030 Reconciliation with Treasury Balance",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide Treasury account activity adjustment or reclassification information consistent with the TFM.",
-          "Authoritative Reference": "(103) TFM Volume I, Part 2, Chapter 5100 Fund Balance with Treasury Accounts"
-      },
-      {
-          "Capability ID": "FFM.100.030.014",
-          "Function": "FFM.100 Financial Reconciliation",
-          "Activity Name": "FFM.100.030 Reconciliation with Treasury Balance",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide agency FBwT account adjustment or reclassification information required to post GL transactions consistent with USSGL transaction codes, account categories (for example, funding), and account subcategories (for example, budgetary resources other than collections) as defined in the TFM.\n",
-          "Authoritative Reference": "(103) TFM Volume I, Part 2, Chapter 5100, Fund Balance with Treasury Accounts"
-      },
-      {
-          "Capability ID": "FFM.110.010.011",
-          "Function": "FFM.110 Financial / Performance Reporting",
-          "Activity Name": "FFM.110.010 Treasury Reporting",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide reviewed and approved United States Standard General Ledger (USSGL) account balance information and appropriations account, object class/program activity, and award financial information for governmentwide reporting as specified in the TFM and consistent with guidelines in the FASAB Handbook as well as OMB Circular A-136.",
-          "Authoritative Reference": "(31) TFM Volume I, Part 2, Chapter 4700 Federal Entity Reporting Requirements for the Financial Report of the United States Government;\n(69) OMB Circular A-136, Financial Reporting Requirements;\n(80) SFFAS 24: Selected Standards for the Consolidated Financial Report of the United States Government;\n(97) SFFAS 56: Classified Activities;\n(101) Statement of Federal Financial Accounting Concepts (SFFAC) 4: Intended Audience and Qualitative Characteristics for the Consolidated Financial Report of the United States Government;\n(103) TFM Volume I, Part 2, Chapter 5100, Fund Balance with Treasury Accounts;\n(114) TFM Volume I, Supplement: United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes;\n(115) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section V: Crosswalks to Standard External Reports;\n(116) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section VI: Crosswalks to Reclassified Statements"
-      },
-      {
-          "Capability ID": "FFM.110.020.011",
-          "Function": "FFM.110 Financial / Performance Reporting",
-          "Activity Name": "FFM.110.020 Financial Statement Preparation",
-          "Input/ Output/ Process": "O",
-          "Business Capability Statement": "Provide GL information for agency financial statements consistent with OMB Circular A-136 and FASAB Handbook.",
-          "Authoritative Reference": "(31) TFM Volume I, Part 2, Chapter 4700 Federal Entity Reporting Requirements for the Financial Report of the United States Government;\n(69) OMB Circular A-136, Financial Reporting Requirements;\n(97) SFFAS 56: Classified Activities;\n(123) SFFAC 2: Entity and Display"
-      }
-   ],
+    {
+        "Capability ID": "FFM.010.010.011",
+        "Function": "FFM.010 Budget Execution",
+        "Activity Name": "FFM.010.010 Budget Setup and Maintenance",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Provide budgetary resource reporting attributes (for example, Treasury Account Symbol (TAS) and Business Event Type Code (BETC), expired, and unexpired) consistent with the budget execution activities as defined in OMB Circular A-11, the TFM, and FASAB.",
+        "Authoritative Reference": "(19) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Appendix H, Checklist for Fund Control Regulations, Section 4: Definitions, Terminology, and Concepts; (49) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution; (56) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 130, SF 133, Report on Budget Execution and Budgetary Resources; (57) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR; (100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting; (132) TFM, Volume I, Part 2, Chapter 1500, New Account Establishment, Updating Accounts, and Description of Accounts Relating to Financial Operations; (148) TFM Volume I, Part 1, Chapter 2000, Financial Operations Startup Procedures for New Federal Entities/Commissions"
+    },
+    {
+        "Capability ID": "FFM.010.010.012",
+        "Function": "FFM.010 Budget Execution",
+        "Activity Name": "FFM.010.010 Budget Setup and Maintenance",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain appropriated fund subdivisions and associated funding levels before any of the appropriated funds are obligated, expended, or disbursed according to OMB apportionments and the agency spend and operating plan, consistent with the budget execution activities as defined in OMB Circular A-11.",
+        "Authoritative Reference": "(49) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution; (57) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR"
+    },
+    {
+        "Capability ID": "FFM.010.010.013",
+        "Function": "FFM.010 Budget Execution",
+        "Activity Name": "FFM.010.010 Budget Setup and Maintenance",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide budgetary authority and resource data required to post GL transactions consistent with USSGL transaction codes, transaction categories (for example, funding) and transaction subcategories (for example, budgetary resources other than collections) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL),  Section III: Account Transactions; (114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.010.020.011",
+        "Function": "FFM.010 Budget Execution",
+        "Activity Name": "FFM.010.020 Fund Allocation and Control",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish federal funding attributes (for example, program, activity, and project) that can be used to align funding requests, funding allocations, fund obligations, fund expenditures, and costs with agency performance goals, as required by the Chief Financial Officer (CFO Act) as well as the Government Performance and Results Act and consistent with the FASAB Handbook, OMB Circular A-11, and OMB Circular A-136.",
+        "Authoritative Reference": "(46) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 2, Preparation and Submission of Budget Estimates, Number III, MAX Data and Other Materials Required After Passback, Section 83 - Object Classification (MAX Schedule O); (63) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 2, Preparation and Submission of Budget Estimates, Section 51, Basic Justification Materials; (64) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 2, Preparation and Submission of Budget Estimates, Section 55: Information Technology Investments; (65) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 2, Preparation and Submission of Budget Estimates, Number III, MAX Data and Other Materials Required After Passback, Section 82 Combined Schedule X [Programming and Financing (Schedule P)]; (69) OMB Circular A-136, Financial Reporting Requirements; (88) SFFAS 4: Managerial Cost Accounting Standards and Concepts; (96) SFFAS 55: Amending Inter-entity Cost Provisions; (100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting; (144) SFFAS 15: Management\u2019s Discussions and Analysis"
+    },
+    {
+        "Capability ID": "FFM.010.020.021",
+        "Function": "FFM.010 Budget Execution",
+        "Activity Name": "FFM.010.020 Fund Allocation and Control",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Execute administrative control of funds consistent with OMB Circular A-11 to restrict obligation and expenditure from each account to the lower of the amount apportioned by OMB or the amount available for obligation and/or expenditure.",
+        "Authoritative Reference": "(58) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 145, Requirements for Reporting Antideficiency Act Violations; (59) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 150, Administrative Control of Funds"
+    },
+    {
+        "Capability ID": "FFM.010.020.022",
+        "Function": "FFM.010 Budget Execution",
+        "Activity Name": "FFM.010.020 Fund Allocation and Control",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Execute statutory limitation controls restricting obligations and expenditures to amounts authorized by law consistent with OMB Circular A-11.",
+        "Authoritative Reference": "(59) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 150, Administrative Control of Funds"
+    },
+    {
+        "Capability ID": "FFM.010.030.011",
+        "Function": "FFM.010 Budget Execution",
+        "Activity Name": "FFM.010.030 Budgetary Reporting",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide budget obligation and outlay data required to post GL transactions consistent with USSGL transaction codes, categories (for example, funding), and subcategories (for example, budgetary resources other than collections) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL),  Section III: Account Transactions; (114) TFM Volume I, Supplement: United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes; (119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014; (120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
+    },
+    {
+        "Capability ID": "FFM.010.030.012",
+        "Function": "FFM.010 Budget Execution",
+        "Activity Name": "FFM.010.030 Budgetary Reporting",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide reviewed and approved budgetary resource and budget execution data to support budget reporting activities as specified in the TFM, OMB Circular A-11, OMB Circular A-136, and the FASAB Handbook.",
+        "Authoritative Reference": "(49) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution; (57) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Appendix F, Format of SF 132, SF 133, Schedule P, and SBR; (60) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution, Section 120.29; (70) OMB Circular A-136, Financial Reporting Requirements, Number II.3.5, Statement of Budgetary Resources; (71) OMB Circular A-136, Financial Reporting Requirements, Number II.3.4.5. Unexpected Appropriations and Cumulative Results of Operations; (94) SFFAS 53: Budget and Accrual Reconciliation; (100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting; (119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014; (120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136; (141) TFM Volume I, Part 2, Central Accounting and Reporting"
+    },
+    {
+        "Capability ID": "FFM.020.010.011",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.010 Financial Asset Information Processing - Property, Plant, and Equipment",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government asset type (for example, entity, non-entity, governmental, and intragovernmental), category [for example, general property, plant, and equipment (PP&E) and subcategory (for example, building, land, software, inventory) consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities; (73) SFFAS 10: Accounting for Internal Use Software; (79) SFFAS 23: Eliminating the Category National Defense Property, Plant, and Equipment: Amending SFFAS 6 and 8 and Rescinding SFFAS 11; (84) SFFAS 3: Accounting for Inventory and Related Property; (89) SFFAS 40: Definitional Changes Related to Deferred Maintenance and Repairs: Amending SFFAS 6, Accounting for Property, Plant, and Equipment; (90) SFFAS 42: Deferred Maintenance and Repairs: Amending SFFAS 6, 14, 29, and 32; (95) SFFAS 54, as amended by SFFAS 58 and SFFAS 60: Leases: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment; (98) SFFAS 57: Omnibus Amendments 2019; (99) SFFAS 6: Accounting for Property, Plant, and Equipment"
+    },
+    {
+        "Capability ID": "FFM.020.010.012",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.010 Financial Asset Information Processing - Property, Plant, and Equipment",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain property, plant, and equipment asset value and adjustments (for example, depreciation, amortization) consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities; (73) SFFAS 10: Accounting for Internal Use Software; (79) SFFAS 23: Eliminating the Category National Defense Property, Plant, and Equipment: Amending SFFAS 6 and 8 and Rescinding SFFAS 11; (84) SFFAS 3: Accounting for Inventory and Related Property; (89) SFFAS 40: Definitional Changes Related to Deferred Maintenance and Repairs: Amending SFFAS 6, Accounting for Property, Plant, and Equipment; (90) SFFAS 42: Deferred Maintenance and Repairs: Amending SFFAS 6, 14, 29, and 32; (95) SFFAS 54, as amended by SFFAS 58 and SFFAS 60: Leases: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment; (98) SFFAS 57: Omnibus Amendments 2019; (99) SFFAS 6: Accounting for Property, Plant, and Equipment"
+    },
+    {
+        "Capability ID": "FFM.020.010.013",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.010 Financial Asset Information Processing - Property, Plant, and Equipment",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide property, plant, and equipment asset data required to post GL transactions consistent with USSGL accounts, account attributes, transaction codes, transaction categories (for example, disbursements and payables, collections and receivables), and transaction subcategories [for example, payables/accrued liabilities, asset sale and disposition (gains and losses)] as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement: United States Standard General Ledger (USSGL),  Section III: Account Transactions; (114) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL)  Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.020.020.011",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.020 Financial Asset Information Processing - Loans",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government asset type (for example, entity, non-entity, governmental, and intragovernmental), category (for example, direct loans, nonrecourse loans) and subcategory (for example, post-1991 direct loans, pre-1992 direct loans) consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities; (76) SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; (77) SFFAS 19: Technical Amendments of Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; (78) SFFAS 2: Accounting for Direct Loans and Loan Guarantees; (84) SFFAS 3: Accounting for Inventory and Related Property"
+    },
+    {
+        "Capability ID": "FFM.020.020.012",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.020 Financial Asset Information Processing - Loans",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain loan asset value and adjustments (for example allowance for uncollectible amounts,  subsidy cost allowance, valuation allowance) consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities; (76) SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; (77) SFFAS 19: Technical Amendments of Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; (78) SFFAS 2: Accounting for Direct Loans and Loan Guarantees; (84) SFFAS 3: Accounting for Inventory and Related Property"
+    },
+    {
+        "Capability ID": "FFM.020.020.013",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.020 Financial Asset Information Processing - Loans",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide loan asset data required to post GL transactions consistent with USSGL accounts, account attributes, transaction codes, transaction categories (for example, disbursements and payables, collections and receivables), and transaction subcategories [for example, payables/accrued liabilities, asset sale and disposition (gains and losses)] as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement: United States Standard General Ledger (USSGL),  Section III: Account Transactions; (114) TFM Volume I Supplement, United States Standards General Ledger (USSGL),  Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.020.030.011",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.030 Financial Asset Information Processing - Heritage Assets and Stewardship Land",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government asset type (for example, entity, non-entity, governmental, and intragovernmental), category (for example, heritage assets, stewardship land, and subcategory (for example, commercial use land, conservation and preservation land, operational land) consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities; (83) SFFAS 29: Heritage Assets and Stewardship Land; (90) SFFAS 42: Deferred Maintenance and Repairs: Amending SFFAS 6, 14, 29, and 32; (99) SFFAS 6: Accounting for Property, Plant, and Equipment"
+    },
+    {
+        "Capability ID": "FFM.020.030.012",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.030 Financial Asset Information Processing - Heritage Assets and Stewardship Land",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain heritage asset and stewardship land asset value and adjustments (for example, depreciation, amortization) consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities; (83) SFFAS 29: Heritage Assets and Stewardship Land; (90) SFFAS 42: Deferred Maintenance and Repairs: Amending SFFAS 6, 14, 29, and 32; (99) SFFAS 6: Accounting for Property, Plant, and Equipment"
+    },
+    {
+        "Capability ID": "FFM.020.030.013",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.030 Financial Asset Information Processing - Heritage Assets and Stewardship Land",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide heritage asset and stewardship land asset data required to post GL transactions consistent with USSGL accounts, account attributes, transaction codes, transaction categories (for example, disbursements and payables, collections and receivables), and transaction subcategories [for example, payables/accrued liabilities, asset sale and disposition (gains and losses)] as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement: United States Standard General Ledger (USSGL),  Section III: Account Transactions; (114) TFM, United States Standards General Ledger (USSGL) Volume I Supplement, Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.020.040.011",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.040 Financial Asset Information Processing - Federal Oil and Gas Resources",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government asset type (for example, entity, non-entity, governmental, and intragovernmental), category [for example, federal oil and gas resources], and subcategory (for example, proved reserves, unproved reserves, undiscovered non-recoverable resources, undiscovered recoverable resources) consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities; (87) SFFAS 38: Accounting for Federal Oil and Gas Resources"
+    },
+    {
+        "Capability ID": "FFM.020.040.012",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.040 Financial Asset Information Processing - Federal Oil and Gas Resources",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain federal oil and gas resource asset value and adjustments (for example, unreported reserve changes) consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities; (87) SFFAS 38: Accounting for Federal Oil and Gas Resources"
+    },
+    {
+        "Capability ID": "FFM.020.040.013",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.040 Financial Asset Information Processing - Federal Oil and Gas Resources",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide federal oil and gas resource asset data required to post GL transactions consistent with USSGL accounts, account attributes, transaction codes, transaction categories (for example, disbursements and payables, collections and receivables), and transaction subcategories [for example, payables/accrued liabilities, asset sale and disposition (gains and losses)] as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement: United States Standard General Ledger (USSGL),  Section III: Account Transactions; (114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.020.050.011",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.050 Financial Asset Information Processing - Other Federal Assets",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government asset type (for example, entity, non-entity, governmental, and intragovernmental), category [for example cash, investments in Treasury securities, operating materials and supplies, commodities, seized and forfeited assets], and subcategory (for example, restricted cash; federal and nonfederal securities; operating materials and supplies held in reserve for future use; excess, obsolete and unserviceable operating materials and supplies) consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities; (84) SFFAS 3: Accounting for Inventory and Related Property"
+    },
+    {
+        "Capability ID": "FFM.020.050.012",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.050 Financial Asset Information Processing - Other Federal Assets",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain other federal asset value and adjustments (for example,  amortization, commodity valuation allowance) consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(72) Statement of Federal Financial Accounting Standard (SFFAS) 1: Accounting for Selected Assets and Liabilities; (84) SFFAS 3: Accounting for Inventory and Related Property"
+    },
+    {
+        "Capability ID": "FFM.020.050.013",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.050 Financial Asset Information Processing - Other Federal Assets",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide other federal asset data required to post GL transactions consistent with USSGL accounts, account attributes, transaction codes, transaction categories (for example, disbursements and payables, collections and receivables), and transaction subcategories [for example, payables/accrued liabilities, asset sale and disposition (gains and losses)] as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement: United States Standard General Ledger (USSGL),  Section III: Account Transactions; (114) TFM Volume I Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.020.060.011",
+        "Function": "FFM.020 Financial Asset Information Management",
+        "Activity Name": "FFM.020.060 Financial Asset Information Reporting",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide asset information, such as asset type (for example, entity, non-entity, governmental or intragovernmental), category, subcategory, value, quantity (for example, units), and GL account (for example, buildings, land, equipment, and software) for balance sheet and financial statement reporting consistent with the FASAB Handbook and as specified in the TFM.",
+        "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities; (73) SFFAS 10: Accounting for Internal Use Software; (76) SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; (77) SFFAS 19: Technical Amendments of Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; (78) SFFAS 2: Accounting for Direct Loans and Loan Guarantees; (79) SFFAS 23: Eliminating the Category National Defense Property, Plant, and Equipment: Amending SFFAS 6 and 8, and Rescinding SFFAS 11; (83) SFFAS 29: Heritage Assets and Stewardship Land; (84) SFFAS 3: Accounting for Inventory and Related Property; (87) SFFAS 38: Accounting for Federal Oil and Gas Resources; (89) SFFAS 40: Definitional Changes Related to Deferred Maintenance and Repairs: Amending SFFAS 6, Accounting for Property, Plant, and Equipment; (90) SFFAS 42: Deferred Maintenance and Repairs: Amending SFFAS 6, 14, 29, and 32; (95) SFFAS 54, as amended by SFFAS 58 and SFFAS 60: Leases: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment; (98) SFFAS 57: Omnibus Amendments 2019; (99) SFFAS 6: Accounting for Property, Plant, and Equipment; (113) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL)  Section III: Account Transactions; (114) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL)  Section IV: USSGL Account Attributes; (115) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section V: USSGL Crosswalks to Standard External Reports"
+    },
+    {
+        "Capability ID": "FFM.030.010.011",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.010 Payee Setup and Maintenance",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government unique payment recipient information (for example, federal vendor registration attributes or grant recipient information) consistent with that required to support the payment management and invoice processing activities defined in 5 CFR 1315, Federal Acquisition Regulation (FAR), and the TFM.",
+        "Authoritative Reference": "(52) 5 CFR 1315.4, Prompt Payment, Prompt Payment Standards and Required Notices to Vendors; (54) FAR 4.11, System for Award Management (SAM); (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014; (120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
+    },
+    {
+        "Capability ID": "FFM.030.050.011",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.050 Payment Processing - Travel Temporary Duty (TDY) and Local Payments",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government unique payable information for travel TDY and local payments (for example, Treasury Account Symbol) to support payment reports consistent with the TFM.",
+        "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities"
+    },
+    {
+        "Capability ID": "FFM.030.050.012",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.050 Payment Processing - Travel Temporary Duty (TDY) and Local Payments",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain proper payable amount and other payable information for travel TDY and local payments consistent with FASAB Handbook and as specified in the TFM.",
+        "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities; (92) SFFAS 5: Accounting for Liabilities of the Federal Government; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service"
+    },
+    {
+        "Capability ID": "FFM.030.050.013",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.050 Payment Processing - Travel Temporary Duty (TDY) and Local Payments",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide payable data required to post GL transactions for travel TDY and local payments consistent with USSGL transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL),  Section III: Account Transactions; (114) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL)  Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.030.060.011",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.060 Payment Processing - Travel PCS Payments",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government unique payable information for travel PCS payments (for example, Treasury Account Symbol) to support payment reports consistent with the TFM.",
+        "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities"
+    },
+    {
+        "Capability ID": "FFM.030.060.012",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.060 Payment Processing - Travel PCS Payments",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain proper payable amount and other payable information for travel PCS payments consistent with FASAB Handbook and as specified in the TFM.",
+        "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities; (92) SFFAS 5: Accounting for Liabilities of the Federal Government; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service"
+    },
+    {
+        "Capability ID": "FFM.030.060.013",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.060 Payment Processing - Travel PCS Payments",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide payable data required to post GL transactions for travel PCS payments consistent with USSGL transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions; (114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.030.070.011",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.070 Payment Processing - Commercial Payments",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government unique payable information for commercial payments (for example, Treasury Account Symbol) to support payment reports consistent with the TFM.",
+        "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014; (120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
+    },
+    {
+        "Capability ID": "FFM.030.070.012",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.070 Payment Processing - Commercial Payments",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain proper payable amount and other payable information for commercial payments consistent with FASAB Handbook, 48 CFR 32, and Federal Acquisition Regulation (FAR) and as specified in the TFM.",
+        "Authoritative Reference": "(53) FAR 32.905, Payment Documentation and Process; (72) SFFAS 1: Accounting for Selected Assets and Liabilities; (92) SFFAS 5: Accounting for Liabilities of the Federal Government; (106) TFM Volume I, Part 4, Chapter 4500 Government Purchase Cards; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service; (118) 48 CFR 32, Contract Financing; (119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014; (120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
+    },
+    {
+        "Capability ID": "FFM.030.070.013",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.070 Payment Processing - Commercial Payments",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide payable data required to post GL transactions for commercial payments consistent with USSGL transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions; (114) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.030.070.021",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.070 Payment Processing - Commercial Payments",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government unique invoice prompt payment information (for example, payment due date, discount date, offered discount rate, government interest rate) to support payment of invoices as specified in the CFR and TFM.",
+        "Authoritative Reference": "(5) 31 U.S.C. 39 \u2013 Prompt Payment; (7) 5 CFR 1315, Prompt Payment: 1315.2 Definitions, 1315.7 Discounts, 1315.9 Required documentation, 1315.10 Late payment interest penalties, 1315.11 Additional penalties, and 1315.5 Accelerated payment methods; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (118) 48 CFR 32, Contract Financing"
+    },
+    {
+        "Capability ID": "FFM.030.070.022",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.070 Payment Processing - Commercial Payments",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Determine whether to accelerate payment, execute discounted early payment, or include late payment interest and penalties, and calculate payment date and amount due to vendor as specified in the CFR and TFM.",
+        "Authoritative Reference": "(5) 31 U.S.C. 39 \u2013 Prompt Payment; (7) 5 CFR 1315, Prompt Payment: 1315.2 Definitions, 1315.7 Discounts, 1315.9 Required documentation, 1315.10 Late payment interest penalties, 1315.11 Additional penalties, and 1315.5 Accelerated payment methods; (52) 5 CFR 1315, Prompt Payment, 1315.4 Prompt Payment Standards and Required Notice to Vendors; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (118) 48 CFR 32, Contract Financing"
+    },
+    {
+        "Capability ID": "FFM.030.080.011",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.080 Payment Processing - Grant Payments",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government unique payable information for grant payments (for example, Treasury Account Symbol) to support payment reports consistent with the TFM.",
+        "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014; (120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
+    },
+    {
+        "Capability ID": "FFM.030.080.012",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.080 Payment Processing - Grant Payments",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain proper payable amount and other payable information for grant payments consistent with FASAB Handbook and as specified in the TFM.",
+        "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities; (92) SFFAS 5: Accounting for Liabilities of the Federal Government; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service; (119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014; (120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
+    },
+    {
+        "Capability ID": "FFM.030.080.013",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.080 Payment Processing - Grant Payments",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide payable data required to post GL transactions for grant payments consistent with USSGL transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions; (114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.030.090.011",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.090 Payment Processing - Loan Payments",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government unique payable information for loan payments (for example, Treasury Account Symbol) to support payment reports consistent with the TFM.",
+        "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014; (120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
+    },
+    {
+        "Capability ID": "FFM.030.090.012",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.090 Payment Processing - Loan Payments",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain proper payable amount and other payable information for loan payments consistent with FASAB Handbook and as specified in the TFM.",
+        "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities; (76) SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; (77) SFFAS 19: Technical Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; (78) SFFAS 2: Accounting for Direct Loans and Loan Guarantees; (92) SFFAS 5: Accounting for Liabilities of the Federal Government; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service; (119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014; (120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
+    },
+    {
+        "Capability ID": "FFM.030.090.013",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.090 Payment Processing - Loan Payments",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide payable data required to post GL transactions for loan payments consistent with USSGL transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions; (114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.030.100.011",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.100 Payment Processing - Other Payments",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government unique payable information for other types of payments (for example, Treasury Account Symbol) to support payment reports consistent with the TFM.",
+        "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014; (120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
+    },
+    {
+        "Capability ID": "FFM.030.100.012",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.100 Payment Processing - Other Payments",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain proper payable amount and other payable information for other types of payments consistent with FASAB Handbook, 48 CFR 32, and Federal Acquisition Regulation (FAR) and as specified in the TFM.",
+        "Authoritative Reference": "(53) FAR 32.905, Payment Documentation and Process; (72) SFFAS 1: Accounting for Selected Assets and Liabilities; (74) SFFAS 12: Recognition of Contingent Liabilities Arising from Litigation: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government; (75) SFFAS 17: Accounting for Social Insurance; (92) SFFAS 5: Accounting for Liabilities of the Federal Government; (93) SFFAS 51: Insurance Programs; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service; (118) 48 CFR 32, Contract Financing; (119) Digital Accountability and Transparency Act of 2014, Pub. L. No. 113\u2014101. 2014; (120) Coronavirus Aid, Relief, and Economic Security Act, Pub. L. No. 116\u2014136"
+    },
+    {
+        "Capability ID": "FFM.030.100.013",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.100 Payment Processing - Other Payments",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide payable data required to post GL transactions for other types of payments consistent with USSGL transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions; (114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL),  Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.030.110.011",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.110 Payment Disbursement",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide payment transaction information for the disbursing office to certify as specified in the TFM.",
+        "Authoritative Reference": "(107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service"
+    },
+    {
+        "Capability ID": "FFM.030.110.012",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.110 Payment Disbursement",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Agencies for which Treasury disburses: Provide payment disbursement information at the required account classification level (for example, Treasury Account Symbol) and subclass code as specified in the TFM.",
+        "Authoritative Reference": "(61) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 1, General Information, Section 20: Terms and Concepts; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (108) TFM Volume I, Part 4A, Chapter 3000 Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service; (132) TFM, Volume I, Part 2, Chapter 1500, New Account Establishment, Updating Accounts, and Description of Accounts Relating to Financial Operations"
+    },
+    {
+        "Capability ID": "FFM.030.110.013",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.110 Payment Disbursement",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Agencies for which Treasury does not disburse: Provide payment disbursement TAS/BETC classification information as specified in the TFM.",
+        "Authoritative Reference": "(109) TFM Volume I, Part 4A, Chapter 4000 Requirements for Non-Treasury Disbursing Officers (NTDOs); (110)  TFM Volume I, Part 6, Chapter 8500, Cash Forecasting Requirements, Section 8530, General Large Dollar Notification Reporting Requirements for Deposits and Disbursements"
+    },
+    {
+        "Capability ID": "FFM.030.110.014",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.110 Payment Disbursement",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Agencies for which Treasury disburses: Capture disbursement schedule acceptance information as defined in the TFM.",
+        "Authoritative Reference": "(103) TFM Volume I, Part 2, Chapter 5100, Fund Balance with Treasury Accounts; (113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions"
+    },
+    {
+        "Capability ID": "FFM.030.110.015",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.110 Payment Disbursement",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide payment disbursement data required to post GL transactions consistent with USSGL accounts (for example, disbursements in transit, delivered orders - obligations, paid), account attributes, account transaction categories (for example, disbursements and payables, and account transaction subcategories (for example, payments/purchases) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section III: Account Transactions; (114) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL)  Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.030.120.011",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.120 Payment Confirmation and Issue Resolution",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Agencies for which Treasury does not disburse (for example, the Department of Defense): Provide returned payment and other debit TAS/BETC classification information consistent with Government Accountability Office (GAO) policy and procedures and as specified in the TFM.",
+        "Authoritative Reference": "(55) GAO Policy and Procedures Manual for Guidance of Federal Agencies, Title 7 \u2013 Fiscal Guidance, Chapter 6, Disbursements; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities; (109) TFM Volume I, Part 4A, Chapter 4000, Requirements for Non-Treasury Disbursing Officers (NTDOs)"
+    },
+    {
+        "Capability ID": "FFM.030.130.011",
+        "Function": "FFM.030 Payable Management",
+        "Activity Name": "FFM.030.130 Payment Reporting",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide improper payment information as specified in OMB Circular A-123 and the TFM.",
+        "Authoritative Reference": "(67) OMB Circular A-123, Managements Responsibility for Enterprise Risk Management and Internal Control, Appendix C, Requirements for Payment Integrity Improvement; (107) TFM Volume I, Part 4A, Chapter 2000 Overall Disbursing Rules for All Federal Entities"
+    },
+    {
+        "Capability ID": "FFM.040.010.011",
+        "Function": "FFM.040 Revenue Management",
+        "Activity Name": "FFM.040.010 Revenue Processing",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government revenue or other financing type (for example, exchange revenues, non-exchange revenues, budgetary resources), category (for example, taxes, duties, fines, user fees, and sale of goods and services), and subcategory (for example, income tax, excise tax, and donations) consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(31) TFM Volume 1, Part 2, Chapter 4700 Federal Entity Reporting Requirements for the Financial Report of the United States Government; (82) SFFAS 27: Identifying and Reporting Earmarked Funds; (85) SFFAS 31: Accounting for Fiduciary Activities; (87) SFFAS 38: Accounting for Federal Oil and Gas Resources; (91) SFFAS 43: Dedicated Collections: Amending SFFAS 27, Identifying and Reporting Earmarked Funds; (94) SFFAS 53: Budget and Accrual Reconciliation; (100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting"
+    },
+    {
+        "Capability ID": "FFM.040.010.012",
+        "Function": "FFM.040 Revenue Management",
+        "Activity Name": "FFM.040.010 Revenue Processing",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Determine revenue classification (for example, exchange, non- exchange, and other financing sourcing) and value as specified in the FASAB Handbook.",
+        "Authoritative Reference": "(82) SFFAS 27: Identifying and Reporting Earmarked Funds; (85) SFFAS 31: Accounting for Fiduciary Activities; (87) SFFAS 38: Accounting for Federal Oil and Gas Resources; (91) SFFAS 43: Dedicated Collections: Amending SFFAS 27, Identifying and Reporting Earmarked Funds; (94) SFFAS 53: Budget and Accrual Reconciliation; (100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting"
+    },
+    {
+        "Capability ID": "FFM.040.010.013",
+        "Function": "FFM.040 Revenue Management",
+        "Activity Name": "FFM.040.010 Revenue Processing",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide revenue and other financing sources data to post GL transactions consistent with USSGL attributes (for example, exchange/non-exchange indicator and program indicator), transaction codes, transaction categories (for example, collections and receivables), and transaction subcategories (for example, receivables/accrued revenue) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement: United States Standard General Ledger (USSGL), Section III Account Transactions; (114) TFM Volume I, Supplement, United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.040.020.011",
+        "Function": "FFM.040 Revenue Management",
+        "Activity Name": "FFM.040.020 Revenue Reporting",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide revenue and other financing sources disclosure and supplementary information for agency and government-wide reporting as specified in FASAB Handbook.",
+        "Authoritative Reference": "(74) SFFAS 12: Recognition of Contingent Liabilities Arising from Litigation: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government; (82) SFFAS 27: Identifying and Reporting Earmarked Funds; (85) SFFAS 31: Accounting for Fiduciary Activities; (87) SFFAS 38: Accounting for Federal Oil and Gas Resources; (91) SFFAS 43: Dedicated Collections: Amending SFFAS 27, Identifying and Reporting Earmarked Funds; (92) SFFAS 5: Accounting for Liabilities of the Federal Government; (94) SFFAS 53: Budget and Accrual Reconciliation; (95) SFFAS 54, as amended by SFFAS 58 and SFFAS 60: Leases: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment; (100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting"
+    },
+    {
+        "Capability ID": "FFM.060.020.011",
+        "Function": "FFM.060 Receivable and Collection Management",
+        "Activity Name": "FFM.060.020 Public Receivable Setup and Billing Invoicing",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government receivable information (for example, receivable type and customer information) to support agency management of and reporting on receivables to Treasury consistent with the TFM and as required by OMB Circular A-129 and the CFR.",
+        "Authoritative Reference": "(20) OMB Circular A-129, Policies for Federal Credit Programs and Non-Tax Receivables, Appendix A, Program Reviews, Part IV, Managing the Federal Government\u2019s Receivables; (50) 31 CFR 901, Standards for the Administrative Collection of Claims; (94) SFFAS 53: Budget and Accrual Reconciliation; (100) SFFAS 7: Accounting for Revenue and other Financing Sources; (104) TFM Volume I, Part 3, Chapter 7000, Treasury Report on Receivables (TROR), Section 7025, Reporting Requirements, and the Instructional Workbook for Preparing the Treasury Report on Receivables and Debt Collection Activities, Part I, Status of Receivables referenced therein; (105) TFM Volume I, Part 3, Chapter 7000 Treasury Report on Receivables (TROR); (118) 48 CFR 32, Contract Financing"
+    },
+    {
+        "Capability ID": "FFM.060.020.012",
+        "Function": "FFM.060 Receivable and Collection Management",
+        "Activity Name": "FFM.060.020 Public Receivable Setup and Billing Invoicing",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain receivable amount, including interest, penalties, and administrative fees, and other receivable information consistent with OMB Circular A-129, the FASAB Handbook, and the CFR.",
+        "Authoritative Reference": "(20) OMB Circular A-129, Policies for Federal Credit Programs and Non-Tax Receivables, Appendix A, Program Reviews, Part IV, Managing the Federal Government\u2019s Receivables; (50) 31 CFR 901, Standards for the Administrative Collection of Claims; (68) OMB Circular A-129, Policies for Federal Credit Programs and Non-Tax Receivables, Appendix A, Program Reviews, Part V, Delinquent Debt Collection; (72) SFFAS 1: Accounting for Selected Assets and Liabilities, Accounts Receivable; (94) SFFAS 53: Budget and Accrual Reconciliation; (100) SFFAS 7: Accounting for Revenue and other Financing Sources"
+    },
+    {
+        "Capability ID": "FFM.060.020.013",
+        "Function": "FFM.060 Receivable and Collection Management",
+        "Activity Name": "FFM.060.020 Public Receivable Setup and Billing Invoicing",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide receivable data required to post GL transactions consistent with USSGL transaction codes, transaction categories (for example, collections and receivables), and transaction subcategories (for example, receivables/accrued revenue) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL),  Section III: Account Transactions; (114) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL)  Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.060.030.011",
+        "Function": "FFM.060 Receivable and Collection Management",
+        "Activity Name": "FFM.060.030 Public Receipt Processing",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Deposit collections (for example, checks, cash) received as specified in the TFM.",
+        "Authoritative Reference": "(145) TFM Volume I, Part 5, Deposit Regulations; (146) TFM Volume I, Part 5, Chapter 2000, Depositing Domestic Checks and Cash Received in Over The Counter (OTC) Collections"
+    },
+    {
+        "Capability ID": "FFM.060.030.012",
+        "Function": "FFM.060 Receivable and Collection Management",
+        "Activity Name": "FFM.060.030 Public Receipt Processing",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture summary and detail public receipt collection information to reconcile agency collections with Treasury account balances.",
+        "Authoritative Reference": "(103) TFM Volume I, Part 2, Chapter 5100 Fund Balance with Treasury Accounts; (145) TFM Volume I, Part 5, Deposit Regulations"
+    },
+    {
+        "Capability ID": "FFM.060.030.021",
+        "Function": "FFM.060 Receivable and Collection Management",
+        "Activity Name": "FFM.060.030 Public Receipt Processing",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Determine allocation of amounts collected (for example, first to penalties, second to administrative costs, third to interest, then to accounts receivable) as specified in the CFR.",
+        "Authoritative Reference": "(50) 31 CFR 901, Standards for the Administrative Collection of Claims; (51) 31 CFR 901, Standards for the Administrative Collection of Claims, Section 13 Interest, Penalties, and Administrative Costs"
+    },
+    {
+        "Capability ID": "FFM.060.060.011",
+        "Function": "FFM.060 Receivable and Collection Management",
+        "Activity Name": "FFM.060.060 Public Receivable and Collection Reporting",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide receivable and collection status data to support federal receivable and collection reporting activities as defined in OMB Circular A-129 and as specified in the TFM.",
+        "Authoritative Reference": "(20) OMB Circular A-129, Policies for Federal Credit Programs and Non-Tax Receivables, Appendix A, Program Reviews, Part IV, Managing the Federal Government's Receivables; (104) TFM Volume I, Part 3, Chapter 7000, Treasury Report on Receivables (TROR), Section 7025, Reporting Requirements, and the Instructional Workbook for Preparing the Treasury Report on Receivables and Debt Collection Activities, Parts I and II referenced therein; (105) TFM Volume I, Part 3, Chapter 7000 Treasury Report on Receivables (TROR)"
+    },
+    {
+        "Capability ID": "FFM.070.010.011",
+        "Function": "FFM.070 Delinquent Debt Management",
+        "Activity Name": "FFM.070.010 Delinquent Debt Collection",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture debt category (for example, bankruptcy and at private collection agency) to support debt reporting consistent with the TFM.",
+        "Authoritative Reference": "(104) TFM Volume I, Part 3, Chapter 7000, Treasury Report on Receivables (TROR), Section 7025, Reporting Requirements, and the Instructional Workbook for Preparing the Treasury Report on Receivables and Debt Collection Activities, Parts I and II referenced therein; (105) TFM Volume I, Part 3, Chapter 7000 Treasury Report on Receivables (TROR)"
+    },
+    {
+        "Capability ID": "FFM.070.010.021",
+        "Function": "FFM.070 Delinquent Debt Management",
+        "Activity Name": "FFM.070.010 Delinquent Debt Collection",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Match delinquent debtor information with payment recipient information within and between federal agencies to affect administrative debt offsets (for example, by administrative wage garnishment and request for paying agency to collect the offset) as required by the CFR as well as OMB Circular A-129, and consistent with the TFM.",
+        "Authoritative Reference": "(50) 31 CFR 901, Standards for the Administrative Collection of Claims; (68) OMB Circular A-129, Policies for Federal Credit Programs and Non-Tax Receivables, Appendix A, Program Reviews, Part V, Delinquent Debt Collection; (104) TFM Volume I, Part 3, Chapter 7000, Treasury Report on Receivables (TROR), Section 7025, Reporting Requirements, and the Instructional Workbook for Preparing the Treasury Report on Receivables and Debt Collection Activities, Part II referenced therein; (105) TFM Volume I, Part 3, Chapter 7000 Treasury Report on Receivables (TROR)"
+    },
+    {
+        "Capability ID": "FFM.070.010.031",
+        "Function": "FFM.070 Delinquent Debt Management",
+        "Activity Name": "FFM.070.010 Delinquent Debt Collection",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Refer debt for collection (for example, to Treasury if delinquent more than a set number of days and to the Department of Justice whenever the agency determines debt is uncollectable) as required by OMB Circular A-129 and consistent with the TFM.",
+        "Authoritative Reference": "(104) TFM Volume I, Part 3, Chapter 7000, Treasury Report on Receivables (TROR), Section 7025, Reporting Requirements, and the Instructional Workbook for Preparing the Treasury Report on Receivables and Debt Collection Activities, Parts I and II referenced therein; (121) OMB Circular A-129 Policies for Federal Credit Programs and Non-Tax Receivables; (147) TFM Volume I, Part 4, Chapter 4000 Agency Use Of Credit Reports And Reporting Of Federal Nontax Debts To Credit Bureaus"
+    },
+    {
+        "Capability ID": "FFM.070.010.041",
+        "Function": "FFM.070 Delinquent Debt Management",
+        "Activity Name": "FFM.070.010 Delinquent Debt Collection",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide debt management data required to post GL transactions consistent with USSGL transaction codes, transaction categories (for example, adjustments/write- offs/reclassification), and transaction subcategories (for example, write-offs) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL),  Section III: Account Transactions; (114) TFM Volume I, Supplement,, United States Standards General Ledger (USSGL)  Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.080.010.011",
+        "Function": "FFM.080 Cost Management",
+        "Activity Name": "FFM.080.010 Cost Management Setup and Maintenance",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Provide responsibility segments/cost centers (for example, managing public buildings and distributing supplies) and cost objects that align with outcomes (for example, program, activity, and product) that directly support the agency mission and management requirements consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(88) SFFAS 4: Managerial Cost Accounting Standards and Concepts"
+    },
+    {
+        "Capability ID": "FFM.080.020.011",
+        "Function": "FFM.080 Cost Management",
+        "Activity Name": "FFM.080.020 Cost Accumulation and Allocation",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Determine intragovernmental entity costs in addition to other costs (for example, direct, indirect, and depreciation) by cost object and responsibility segment consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(96) SFFAS 55: Amending Inter-entity Cost Provisions; (101) SFFAS 4: Managerial Cost Accounting Standards and Concepts"
+    },
+    {
+        "Capability ID": "FFM.080.020.012",
+        "Function": "FFM.080 Cost Management",
+        "Activity Name": "FFM.080.020 Cost Accumulation and Allocation",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide cost management data required to post GL transactions consistent with USSGL attributes (for example, program indicator), transaction codes, transaction categories (for example, accruals/non- budgetary transfers other than disbursements and collections), transaction subcategories (for example, accrual, depreciation, amortization, and depletion) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standards General Ledger (USSGL),  Section III: Account Transactions; (114) TFM Volume I, Supplement, , United States Standards General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.090.010.011",
+        "Function": "FFM.090 General Ledger Management",
+        "Activity Name": "FFM.090.010 General Ledger Setup and Maintenance",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Provide GL account classifications (for example, budgetary, assets, liabilities, revenues, and expenses), account categories (for example, receivables), and account subcategories (for example, accounts receivable) consistent with the United States Standard General Ledger (USSGL) accounts defined in the TFM.",
+        "Authoritative Reference": "(111) TFM Volume I, Supplement, United States Standard General Ledger (USSGL),  Section I: Chart of Accounts; (112) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section II: Accounts and Definitions"
+    },
+    {
+        "Capability ID": "FFM.090.010.012",
+        "Function": "FFM.090 General Ledger Management",
+        "Activity Name": "FFM.090.010 General Ledger Setup and Maintenance",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Provide GL proprietary account attributes (for example, exchange/nonexchange code and Federal/ non-Federal code) consistent with the USSGL account attributes defined in the TFM.",
+        "Authoritative Reference": "(114) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.090.010.013",
+        "Function": "FFM.090 General Ledger Management",
+        "Activity Name": "FFM.090.010 General Ledger Setup and Maintenance",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Provide GL budgetary account attributes (for example, Apportionment Category B Program Code and Authority Type Code) consistent with the USSGL attributes defined in the TFM.",
+        "Authoritative Reference": "(114) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.090.020.011",
+        "Function": "FFM.090 General Ledger Management",
+        "Activity Name": "FFM.090.020 General Ledger Posting",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture GL account transaction information provided by supporting financial management operations (for example, payments, receipts, liabilities, assets, and reimbursable/ intragovernmentals) consistent with the USSGL account attributes, account transaction codes, account transaction categories, and account transaction subcategories defined in the TFM.",
+        "Authoritative Reference": "(111) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section I: Chart of Accounts; (112) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section II: Accounts and Definitions; (113) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL)  Section III: Account Transactions; (114) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.090.020.012",
+        "Function": "FFM.090 General Ledger Management",
+        "Activity Name": "FFM.090.020 General Ledger Posting",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Post GL proprietary, budgetary, and memorandum account transactions consistent with USSGL account attributes, account transaction codes, account transaction categories, and account transaction subcategories as defined in the TFM.",
+        "Authoritative Reference": "(111) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section I: Chart of Accounts; (112) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section II: Accounts and Definitions; (113) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section III: Account Transactions; (114) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL),  Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.090.020.013",
+        "Function": "FFM.090 General Ledger Management",
+        "Activity Name": "FFM.090.020 General Ledger Posting",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Maintain ability to post transactions funded, obligated, or expended over multiple years to GL accounts that do not close (for example, undelivered orders\u2013 obligations, unpaid; delivered orders\u2013obligations, unpaid; authority outlayed not yet disbursed) consistent with the TFM.",
+        "Authoritative Reference": "(111) TFM  Volume I, Supplement, , United States Standard General Ledger (USSGL), Section I: Chart of Accounts; (112) TFM Volume I, Supplement,, United States Standard General Ledger (USSGL), Section II: Accounts and Definitions; (113) TFM  Volume I, Supplement, United States Standard General Ledger (USSGL), Section III: Account Transactions; (117) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section VII: GTAS Validations and Edits"
+    },
+    {
+        "Capability ID": "FFM.090.030.011",
+        "Function": "FFM.090 General Ledger Management",
+        "Activity Name": "FFM.090.030 Accrual and Liability/Asset Processing",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Determine adjustments to budgetary and financial (proprietary) accruals consistent with the FASAB Handbook and OMB Circular A-11.",
+        "Authoritative Reference": "(49) OMB Circular A-11, Preparation, Submission and Execution of the Budget, Part 4, Instructions on Budget Execution;(100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting; (82) SFFAS 27: Identifying and Reporting Earmarked Funds; (91) SFFAS 43: Dedicated Collections: Amending SFFAS 27, Identifying and Reporting Earmarked Funds; (94) SFFAS 53: Budget and Accrual Reconciliation; (95) SFFAS 54, as amended by SFFAS 58 and SFFAS 60: Leases: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment"
+    },
+    {
+        "Capability ID": "FFM.090.030.021",
+        "Function": "FFM.090 General Ledger Management",
+        "Activity Name": "FFM.090.030 Accrual and Liability/Asset Processing",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Capture federal government liability type (for example, covered/not covered by budgetary resources, governmental, and Intragovernmental), category (for example, accounts payable, and interest payable and other current liabilities), and subcategory (for example, accrued employees' wages and entitlement benefits) consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities; (74) SFFAS 12: Recognition of Contingent Liabilities Arising from Litigation: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government; (75) SFFAS 17: Accounting for Social Insurance; (76) SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; (77) SFFAS 19: Technical Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; (78) SFFAS 2: Accounting for Direct Loans and Loan Guarantees; (86) SFFAS 33: Pensions, Other Retirement Benefits, and Other Postemployment Benefits: Reporting Gains and Losses from Changes in Assumptions, and Selecting Discount Rates and Valuations Dates; (92) SFFAS 5: Accounting for Liabilities of the Federal Government; (95) SFFAS 54: as amended by SFFAS 58 and SFFAS 60: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment; (99) SFFAS 6: Accounting for Property, Plant, and Equipment; (100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting"
+    },
+    {
+        "Capability ID": "FFM.090.030.022",
+        "Function": "FFM.090 General Ledger Management",
+        "Activity Name": "FFM.090.030 Accrual and Liability/Asset Processing",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Establish and maintain liability information consistent with the FASAB Handbook.",
+        "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities; (74) SFFAS 12: Recognition of Contingent Liabilities Arising from Litigation: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government; (75) SFFAS 17: Accounting for Social Insurance; (76) SFFAS 18: Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; (77) SFFAS 19: Technical Amendments to Accounting Standards for Direct Loans and Loan Guarantees in SFFAS 2; (78) SFFAS 2: Accounting for Direct Loans and Loan Guarantees; (86) SFFAS 33: Pensions, Other Retirement Benefits, and Other Postemployment Benefits: Reporting Gains and Losses from Changes in Assumptions, and Selecting Discount Rates and Valuations Dates; (94) SFFAS 5: Accounting for Liabilities of the Federal Government; (95) SFFAS 54: as amended by SFFAS 58 and SFFAS 60: Leases: An Amendment of SFFAS 5, Accounting for Liabilities of the Federal Government, and SFFAS 6, Accounting for Property, Plant, and Equipment; (99) SFFAS 6: Accounting for Property, Plant, and Equipment; (100) SFFAS 7: Accounting for Revenue and Other Financing Sources and Concepts for Reconciling Budgetary and Financial Accounting"
+    },
+    {
+        "Capability ID": "FFM.090.030.023",
+        "Function": "FFM.090 General Ledger Management",
+        "Activity Name": "FFM.090.030 Accrual and Liability/Asset Processing",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide liability data required to post GL transactions consistent with USSGL attributes (covered/not covered, Federal/non-Federal), transaction codes, transaction categories (for example, disbursements and payables), and transaction subcategories (for example, payables/accrued liabilities) as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM  Volume I, Supplement, United States Standard General Ledger (USSGL), Section III: Account Transactions; (114) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes"
+    },
+    {
+        "Capability ID": "FFM.090.040.011",
+        "Function": "FFM.090 General Ledger Management",
+        "Activity Name": "FFM.090.040 Period End Closing",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Close non-fiduciary and fiduciary accounts consistent with USSGL account closing table rules as defined in the TFM.",
+        "Authoritative Reference": "(113) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section III: Account Transactions; (117) TFM Volume I, Supplement, United States Standard General Ledger (USSGL),  Section VII: GTAS Validations and Edits, Closing Edit Details"
+    },
+    {
+        "Capability ID": "FFM.100.010.011",
+        "Function": "FFM.100 Financial Reconciliation",
+        "Activity Name": "FFM.100.010 Reconciliation of General Ledger and Subledgers",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Verify that GL account balances can be traced to aggregated or discrete transactions in agency programmatic systems and that the aggregated or discrete transactions can be traced to the point of entry and source documents consistent with the TFM.",
+        "Authoritative Reference": "(66) OMB Circular A-123, Management\u2019s Responsibility for Enterprise Risk Management and Internal Control, Appendix A, Management of Reporting and Data Integrity Risk; (81) SFFAS 26: Presentation of Significant Assumptions for the Statement of Social Insurance, Amending SFFAS 25; (103) TFM Volume I, Part 2, Chapter 5100 Fund Balance with Treasury Accounts"
+    },
+    {
+        "Capability ID": "FFM.100.010.021",
+        "Function": "FFM.100 Financial Reconciliation",
+        "Activity Name": "FFM.100.010 Reconciliation of General Ledger and Subledgers",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Verify that financial statements and other required financial and budget reports can be traced to GL account balances as required by OMB Circular A-123 and as specified in the TFM.",
+        "Authoritative Reference": "(114) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes; (115) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section V: USSGL Crosswalks to Standard External Reports; (116) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section VI: USSGL Crosswalks to Reclassified Statement; (122) OMB Circular A-123, Management\u2019s Responsibility for Enterprise Risk Management and Control, Section IV, Assessing Internal Control, Item D, Internal Control Evaluation Approach"
+    },
+    {
+        "Capability ID": "FFM.100.030.011",
+        "Function": "FFM.100 Financial Reconciliation",
+        "Activity Name": "FFM.100.030 Reconciliation with Treasury Balance",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Retrieve Treasury account monthly activity information at the TAS-BETC-ALC level for agency TAS(s) as specified in the TFM.",
+        "Authoritative Reference": "(103) TFM Volume I, Part 2, Chapter 5100 Fund Balance with Treasury Accounts"
+    },
+    {
+        "Capability ID": "FFM.100.030.012",
+        "Function": "FFM.100 Financial Reconciliation",
+        "Activity Name": "FFM.100.030 Reconciliation with Treasury Balance",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Reconcile agency USSGL FBwT account balance, activity, and transaction information with Treasury account balance, activity, and transaction information consistent with the FASAB Handbook and as specified in the TFM.",
+        "Authoritative Reference": "(72) SFFAS 1: Accounting for Selected Assets and Liabilities; (103) TFM Volume I, Part 2, Chapter 5100 Fund Balance with Treasury Accounts"
+    },
+    {
+        "Capability ID": "FFM.100.030.013",
+        "Function": "FFM.100 Financial Reconciliation",
+        "Activity Name": "FFM.100.030 Reconciliation with Treasury Balance",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide Treasury account activity adjustment or reclassification information consistent with the TFM.",
+        "Authoritative Reference": "(103) TFM Volume I, Part 2, Chapter 5100 Fund Balance with Treasury Accounts"
+    },
+    {
+        "Capability ID": "FFM.100.030.014",
+        "Function": "FFM.100 Financial Reconciliation",
+        "Activity Name": "FFM.100.030 Reconciliation with Treasury Balance",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide agency FBwT account adjustment or reclassification information required to post GL transactions consistent with USSGL transaction codes, account categories (for example, funding), and account subcategories (for example, budgetary resources other than collections) as defined in the TFM.",
+        "Authoritative Reference": "(103) TFM Volume I, Part 2, Chapter 5100, Fund Balance with Treasury Accounts"
+    },
+    {
+        "Capability ID": "FFM.110.010.011",
+        "Function": "FFM.110 Financial / Performance Reporting",
+        "Activity Name": "FFM.110.010 Treasury Reporting",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide reviewed and approved United States Standard General Ledger (USSGL) account balance information and appropriations account, object class/program activity, and award financial information for governmentwide reporting as specified in the TFM and consistent with guidelines in the FASAB Handbook as well as OMB Circular A-136.",
+        "Authoritative Reference": "(31) TFM Volume I, Part 2, Chapter 4700 Federal Entity Reporting Requirements for the Financial Report of the United States Government; (69) OMB Circular A-136, Financial Reporting Requirements; (80) SFFAS 24: Selected Standards for the Consolidated Financial Report of the United States Government; (97) SFFAS 56: Classified Activities; (101) Statement of Federal Financial Accounting Concepts (SFFAC) 4: Intended Audience and Qualitative Characteristics for the Consolidated Financial Report of the United States Government; (103) TFM Volume I, Part 2, Chapter 5100, Fund Balance with Treasury Accounts; (114) TFM Volume I, Supplement: United States Standard General Ledger (USSGL), Section IV: USSGL Account Attributes; (115) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section V: Crosswalks to Standard External Reports; (116) TFM Volume I, Supplement, United States Standard General Ledger (USSGL), Section VI: Crosswalks to Reclassified Statements"
+    },
+    {
+        "Capability ID": "FFM.110.020.011",
+        "Function": "FFM.110 Financial / Performance Reporting",
+        "Activity Name": "FFM.110.020 Financial Statement Preparation",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Provide GL information for agency financial statements consistent with OMB Circular A-136 and FASAB Handbook.",
+        "Authoritative Reference": "(31) TFM Volume I, Part 2, Chapter 4700 Federal Entity Reporting Requirements for the Financial Report of the United States Government; (69) OMB Circular A-136, Financial Reporting Requirements; (97) SFFAS 56: Classified Activities; (123) SFFAC 2: Entity and Display"
+    }
+    ],
    "Business_Use_Cases":{
       "FFM Use Case Library Overview":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases Overview_FY 2024 Release.pdf",
       "FFM Use Cases 010 Budget Formulation-to-Execution":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 010 Budget Formulation-to-Execution_FY 2024 Release.pdf",

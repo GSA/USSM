@@ -25,24 +25,31 @@ def budget_exec(df):
 
 
 def business_capabilities(df):
+    df.columns = [col.replace('\n', ' ').strip() for col in df.columns]
+    print(df.columns)
     unique_capability_id = df['Capability ID'].unique()
     all_func_jsons = []
     print('{} total capability IDs'.format(len(unique_capability_id)))
+
     for id in unique_capability_id:
         filt_df = df[df['Capability ID'] == id]
-        res = filt_df[['Function ID and Name', 'Activity ID and Name', 'I-Input\nP-Process\nO-Output', 'Business Capability Statement\n [Federal Financial Management System Requirement (FFMSR)]', 'Authoritative Reference']].to_dict(orient='records')
+        res = filt_df[['Function ID and Name', 'Activity ID and Name', 'I-Input P-Process O-Output', 
+                       'Business Capability Statement  [Federal Financial Management System Requirement (FFMSR)]', 
+                       'Authoritative Reference']].to_dict(orient='records')
+
         if not filt_df.empty:
             for entry in res:
-                entry['Capability ID'] = id
-                entry['Function'] = entry.pop('Function ID and Name', None)
-                entry['Activity Name'] = entry.pop('Activity ID and Name', None)
-                entry['Input/ Output/ Process'] = entry.pop('I-Input\nP-Process\nO-Output', None)
-                entry['Business Capability Statement'] = entry.pop('Business Capability Statement\n [Federal Financial Management System Requirement (FFMSR)]', None)
-                entry['Authoritative Reference'] = entry.pop('Authoritative Reference', None)
-            all_func_jsons.append(entry)
-            
-    final_json = all_func_jsons  
-    json_res = json.dumps(final_json,indent=4)
+                entry = {key: str(value).replace('\n', ' ').strip() if value is not None else "" for key, value in entry.items()}
+                entry['Capability ID'] = id.strip()
+                entry['Function'] = entry.pop('Function ID and Name', '')
+                entry['Activity Name'] = entry.pop('Activity ID and Name', '')
+                entry['Input/Output/Process'] = entry.pop('I-Input P-Process O-Output', '')
+                entry['Business Capability \nStatement'] = entry.pop('Business Capability Statement  [Federal Financial Management System Requirement (FFMSR)]', '')
+                entry['Authoritative \nReference'] = entry.pop('Authoritative Reference', '')
+                all_func_jsons.append(entry)
+    
+    final_json = all_func_jsons
+    json_res = json.dumps(final_json, indent=4)
     return json_res
 
 def standard_data_elements(df):
