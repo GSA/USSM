@@ -28,11 +28,20 @@
             "Source": "GSA OSSPI",
             "Hyperlink": "https://ussm.gsa.gov/public-comment-open-enhancing-practices-to-optimize-cost-recovery/"
         },
+ {
+            "NewsID": "55",
+            "Homepage": "0",
+            "Category": "FIBF-TRT",
+            "Title": "GSA Releases FY 2025 CONUS per Diem Rates for Federal Travelers",
+            "Date": "2024-08-06",
+            "Source": "GSA Press Release",
+            "Hyperlink": "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-releases-fy-2025-conus-per-diem-rates-for-federal-travelers-08162024"
+        },
         {
             "NewsID": "55",
             "Homepage": "1",
             "Category": "FIBF-ITS",
-            "Title": "Public Comment: FY25 Key Technical and Cybersecurity Capabilities for use in Shared and Centralized Services",
+            "Title": "Public Comment: FY25 Technical and Cybersecurity Capabilities for use in Shared and Centralized Services",
             "Date": "2024-08-01",
             "Source": "Business Standards Council",
             "Hyperlink": "https://ussm.gsa.gov/public-comment-open-for-fy25-technical-and-cybersecurity-capabilities-for-shared-services/"
