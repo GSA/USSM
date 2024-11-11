@@ -29,7 +29,7 @@ news-category: FIBF-HR
                    <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Capital Management Icon" width="50px" height="auto" style="vertical-align:middle;">Human Capital Management Solutions
                 </h2>
                 <p>
-                   <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">OPM's Human Resources Quality Service Management Office (QSMO)</A> will Help Agencies modernize and upgrade human capital management capabilities faster through sharing and standardization, help operationalize OPM policies, standards, and services to produce meaningful outcomes, and provide a clear path for Industry to act as allies and partners in the quest to provide greater value to federal employees.
+                   <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">OPM's Human Resources QSMO</A> will (1) help agencies modernize and upgrade human capital management capabilities faster through sharing and standardization,(2) help operationalize federal workforce policies, standards, and services to produce meaningful outcomes, and (3) provide a clear path for Industry to act as allies and partners in the quest to provide greater value to federal employees.
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" CLASS="green-link">Explore the HR QSMO Marketplace</a><BR>
