@@ -29,13 +29,13 @@ news-category: FIBF-HR
                    <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Capital Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Human Capital Management
                 </h2>
                 <p>
-                   The Office of Personnel Management's <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">Human Resources Quality Services Management Office</A> is a key avenue to enhance the delivery of Human Resources (HR) services across government agencies. The HR QSMO promotes strong HR stakeholder relationships by fostering a culture of active engagement with agencies, shared service providers, and industry partners. Its mission is to serve the American people as the thought leader on human capital issues and assist agencies in making effective HR IT investment decisions.  
+                   The Office of Personnel Management's <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">Human Resources Quality Services Management Office</A> is a key avenue to enhance the delivery of agency Human Resources (HR) services. The HR QSMO promotes strong HR stakeholder relationships by fostering a culture of active engagement with agencies, shared service providers, and industry partners. Its mission is to serve the American people as the thought leader on human capital issues and assist agencies in making effective HR IT investment decisions.  
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the HR QSMO Marketplace" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" CLASS="green-link">Explore the HR QSMO Marketplace</a><BR>
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:hrqsmo@opm.gov" title="Contact the HR QSMO" target="_blank">Contact the HR QSMO</a><BR>
                 </ul>
-The HR QSMO will (1) help agencies modernize and upgrade human capital management capabilities faster through sharing and standardization, (2)help operationalize federal workforce policies, standards, and services to produce meaningful outcomes, and (3) provide a clear path for industry to act as allies and partners in the quest to provide greater value to federal employees.
+The HR QSMO will help (1) agencies modernize human capital management faster through sharing and standardization, (2) operationalize federal workforce policies, standards, and services to produce meaningful outcomes, and (3) provide a clear path for industry to act as allies and partners in the quest to provide greater value.
              <P></P>
               
                 <hr class="margin-top-auto width-full">
@@ -89,7 +89,7 @@ The HR QSMO will (1) help agencies modernize and upgrade human capital managemen
              
                   <p>
 
-The Federal government employs over 3 million people in service to our national priorities in delivering on agency missions. By prioritizing key workforce goals, the government ensures its employees are equipped to meet evolving challenges and uphold the trust of the American people.
+The Federal government employs over 3 million people in service to our national priorities in delivering on agency missions. By prioritizing its workforce goals, the government ensures employees and Federal agencies are equipped to meet evolving challenges and uphold the trust of the American people.
 </p>
 
 <ul> 
