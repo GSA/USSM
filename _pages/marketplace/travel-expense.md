@@ -141,8 +141,7 @@ ETS unified over 124 agencies to a common, secure, web-based, automated service.
                 References and Resources to ETSNext</h2>
                 <ul class="margin-top-0 margin-bottom-3">
                     <li>
-                          <A HRF="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/etsnext">E-Gov Travel Services Next Generation Solution (ETSNext)</A> | Deliver a single, shared, travel and expense service to support the missions of government agencies through an intuitive, streamlined, and secure customer experience, mitigating transition costs and risks.
-            
+                          <A HREF="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/etsnext">E-Gov Travel Services Next Generation Solution (ETSNext)</A> | <B>Mission:</B> Deliver a single, shared, travel and expense service to support the missions of government agencies through an intuitive, streamlined, and secure customer experience, mitigating transition costs and risks.
                     </li>
                     <li>
                         <a href="https://buy.gsa.gov/interact/community/192/activity-feed" title="ETSNext Industry Community Page" target="_blank">
@@ -153,11 +152,6 @@ ETS unified over 124 agencies to a common, secure, web-based, automated service.
                         <A href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/etsnext-faqs" title="ETSNext FAQ">
                         ETSNext Frequently Asked Questions</A>
                     </LI>
-                    <li>
-                        <a href="https://tfx.treasury.gov/fmqsmo/updates" title="FM QSMO’s Latest Updates" target="_blank">
-                            FM QSMO’s Latest Updates
-                        </a>
-                    </li>
                     <LI>For help with ETSNext message the team <A HREF="ETSNext@gsa.gov">ETSNext@gsa.gov</A></LI>
                 </ul>
             </div>
