@@ -7,7 +7,7 @@ news-category: FIBF-HR
 ---
 <style>
   a.green-link {
-    color: #00FF00; /* Green color */
+    color: #008000; /* Green color */
   }
 </style>
 
