@@ -29,10 +29,10 @@ news-category: FIBF-HR
                    <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Capital Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Human Capital Management
                 </h2>
                 <p>
-                   The Office of Personnel Management's <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">Human Resources Quality Services Management Office</A> is a key avenues to enhance the service delivery of Human Resources (HR) solutions across government agencies. The HR QSMO promotes strong federal HR stakeholder relationships by fostering a culture of active engagement with agencies, shared service providers, and industry partners. Its mission is to serve the American people as the thought leader on human capital issues and assist agencies in making effective HR IT investment decisions.  
+                   The Office of Personnel Management's <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">Human Resources Quality Services Management Office</A> is a key avenue to enhance the delivery of Human Resources (HR) services across government agencies. The HR QSMO promotes strong HR stakeholder relationships by fostering a culture of active engagement with agencies, shared service providers, and industry partners. Its mission is to serve the American people as the thought leader on human capital issues and assist agencies in making effective HR IT investment decisions.  
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" CLASS="green-link">Explore the HR QSMO Marketplace</a><BR>
+                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the HR QSMO Marketplace" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" CLASS="green-link">Explore the HR QSMO Marketplace</a><BR>
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:hrqsmo@opm.gov" title="Contact the HR QSMO" target="_blank">Contact the HR QSMO</a><BR>
                 </ul>
 The HR QSMO will (1) help agencies modernize and upgrade human capital management capabilities faster through sharing and standardization, (2)help operationalize federal workforce policies, standards, and services to produce meaningful outcomes, and (3) provide a clear path for industry to act as allies and partners in the quest to provide greater value to federal employees.
@@ -49,8 +49,6 @@ The HR QSMO will (1) help agencies modernize and upgrade human capital managemen
                         Data and Business Standards                 
                     </h2>
                 </div>
-
-
     
                    Enabling
 <ul class="margin-top-0">
@@ -91,15 +89,17 @@ The HR QSMO will (1) help agencies modernize and upgrade human capital managemen
              
                   <p>
 
-eGov Travel Services have unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. ETS has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars. Key tenants of this initiative will improve:
+The Federal government employs over 3 million people in service to our national priorities in delivering on agency missions. By prioritizing key workforce goals, the government ensures its employees are equipped to meet evolving challenges and uphold the trust of the American people.
 </p>
 
 <ul> 
-<LI>Reductions to Travel System Duplication and Cost</LI>
-<LI>Interoperability and Data Standardization</LI>
-<LI>Transaction Efficiency and Reduce Administrative Burden</LI>
-<LI>Employee Experience in Support of Mission Delivery</LI>
-<LI>Security and Compliance</LI>
+<LI>Attracting and Hiring Qualified Employees</LI>
+<LI>Strengthening Leadership Development</LI>
+<LI>Modernizing Human Capital Practices</LI>
+<LI>Improving Performance Management</LI>
+<LI>Facilitating Knowledge Transfer and Succession Planning</LI>
+  <LI>Shifting Workforce from Low to High Value Work</LI>
+<LI>Ensuring Ethical Standards and Integrity</LI>
 
                 </ul>
 
@@ -160,7 +160,7 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
 
                     <li>
                           <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11121">Communities of Practice</A>
-                         <UL> <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" title="Human Capital Data Analytics Community of Practice">Human Capital Data Analytics Community of Practice</A</LI>
+                         <UL> <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" title="Human Capital Data Analytics Community of Practice">Human Capital Data Analytics Community of Practice</A></LI>
                           <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11123" title="Workflow Automation Community of Practice">Workflow Automation Community of Practice</A></LI>
                     </li></UL>
 
