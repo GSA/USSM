@@ -52,17 +52,17 @@ news-category: FIBF-TRT
 
 
     <ul class="margin-top-2">
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Travel Personnel Profile Set-up and Maintenance" target="_blank">Travel Personnel Profile Set-up and Maintenance</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Travel Reservation Assistance and Processing">Travel Reservation Assistance and Processing</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Authorization Processing">Authorization Processing</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Travel Ticketing">Travel Ticketing</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Emergency Assistance Request Processing">Emergency Assistance Request Processing
+                    <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Travel Personnel Profile Set-up and Maintenance" target="_blank">Travel Personnel Profile Set-up and Maintenance</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Travel Reservation Assistance and Processing">Travel Reservation Assistance and Processing</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Authorization Processing">Authorization Processing</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Travel Ticketing">Travel Ticketing</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Emergency Assistance Request Processing">Emergency Assistance Request Processing
 </a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Voucher Processing and Audit">Voucher Processing and Audit</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Monitoring and Reconciliation">Monitoring and Reconciliation</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Regulatory Reporting">Regulatory Reporting</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Management Reporting and Analysis" target="_blank">Management Reporting and Analysis</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Policy Management and Audit">Policy Management and Audit</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Voucher Processing and Audit">Voucher Processing and Audit</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Monitoring and Reconciliation">Monitoring and Reconciliation</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Regulatory Reporting">Regulatory Reporting</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Management Reporting and Analysis" target="_blank">Management Reporting and Analysis</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Policy Management and Audit">Policy Management and Audit</a></li>
 
 </ul>
 
@@ -113,8 +113,7 @@ ETS unified over 124 agencies to a common, secure, web-based, automated service.
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                  
                     <li style="margin-left: 2px;"><a href="https://www.ecfr.gov/current/title-41/subtitle-F" title="Federal Travel Regulation" target="_blank">Federal Travel Regulation (FTR) 41 CFR Subtitle F</a></li>
-                    <li style="margin-left: 2px;"><a href="https://buy.gsa.gov/interact/community/192/activity-feed/post/2cfd80b0-e3eb-4692-9284-31e67a8acc1c/GSA_Bulletin_ETS_24-01_Transition_to_E-Gov_Travel_Service_Next_Generation_ETSNext" title="Transition to E-Gov Travel Service Next Generation" target="_blank">GSA Bulletin (ETS 24-01): Transition to E-Gov Travel Service Next Generation (ETS Next)</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.govinfo.gov/app/details/STATUTE-104/STATUTE-104-Pg2838/context" title="CFO Act of 1990" target="_blank">CFO Act of 1990</a></li>
+                    <li style="margin-left: 2px;"><a href="https://buy.gsa.gov/interact/community/192/activity-feed/post/2cfd80b0-e3eb-4692-9284-31e67a8acc1c/GSA_Bulletin_ETS_24-01_Transition_to_E-Gov_Travel_Service_Next_Generation_ETSNext" title="Transition to E-Gov Travel Service Next Generation" target="_blank">Bulletin: Transition to E-Gov Travel Service Next Generation (ETS 24-01)</a></li>
    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
                 </ul>
 
@@ -139,23 +138,27 @@ ETS unified over 124 agencies to a common, secure, web-based, automated service.
             <div class="tablet:grid-col-10 grid-offset-1">
                 <h2>
                   <img src="/assets/images/marketplace/icon_references.png" alt="Other References" height="auto" style="vertical-align:middle;">
-                Other References</h2>
+                References and Resources to ETSNext</h2>
                 <ul class="margin-top-0 margin-bottom-3">
                     <li>
-                        <a href="https://fmvision.fiscal.treasury.gov/files/Future-of-Financial-Management.pdf" title="Dept of Treasury’s 10-Year Vision for Financial Management" target="_blank">
-                            Department of Treasury’s 10-Year Vision for Financial Management (PDF)
-                        </a>
+                          <A HRF="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/etsnext">E-Gov Travel Services Next Generation Solution (ETSNext)</A> | Deliver a single, shared, travel and expense service to support the missions of government agencies through an intuitive, streamlined, and secure customer experience, mitigating transition costs and risks.
+            
                     </li>
                     <li>
-                        <a href="https://tfx.treasury.gov/fmqsmo/fmcf" title="Financial Management Capability Framework" target="_blank">
-                            Financial Management Capability Framework
+                        <a href="https://buy.gsa.gov/interact/community/192/activity-feed" title="ETSNext Industry Community Page" target="_blank">
+                            ETSNext Industry Community Page (Interact)
                         </a>
                     </li>
+                    <LI>
+                        <A href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/etsnext-faqs" title="ETSNext FAQ">
+                        ETSNext Frequently Asked Questions</A>
+                    </LI>
                     <li>
                         <a href="https://tfx.treasury.gov/fmqsmo/updates" title="FM QSMO’s Latest Updates" target="_blank">
                             FM QSMO’s Latest Updates
                         </a>
                     </li>
+                    <LI>For help with ETSNext message the team <A HREF="ETSNext@gsa.gov">ETSNext@gsa.gov</A></LI>
                 </ul>
             </div>
         </div>
