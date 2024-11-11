@@ -50,22 +50,22 @@ news-category: FIBF-HR
 
 
     <ul class="margin-top-2">
-                   <UL>Enabling
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-hcs/#business_lifecycle" title="Human Capital Strategy, Policies, & Operation Plan" target="_blank">Human Capital Strategy, Policies, & Operation Plan</a></li>
+                   Enabling
+                    <li><a href="https://ussm.gsa.gov/fibf-hr-hcs/#business_lifecycle" title="Strategy, Policies, & Operation Plan" target="_blank">Human Capital Strategy, Policies, & Operation Plan</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-hce/#business_lifecycle" title="Human Capital Evaluations">Human Capital Evaluations</a></li>
-                    </UL>
-                    <UL>Employee Lifescylce
+                   
+                    Employee Lifescycle
                     <li><a href="https://ussm.gsa.gov/fibf-hr-ac/#business_lifecycle" title="Authorization Processing">Talent Acquisition</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-td/#business_lifecycle" title="Talent Development">Talent Development</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-epm/#business_lifecycle" title="Employee Performance Management">Employee Performance Management</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-cb/#business_lifecycle" title="Compensation and Benefits">Compensation and Benefits</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-sep-ret/#business_lifecycle" title="Separation and Retirement">Separation and Retirement</a></li>
-                    </UL>
-                    <UL>Supporting
+                    
+                    Supporting
                     <li><a href="https://ussm.gsa.gov/fibf-hr-ea/#business_lifecycle" title="Employee Accountability">Employee Accountability</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-lr/#business_lifecycle" title="Labor Relations" target="_blank">Labor Relations</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-hca/#business_lifecycle" title="Analytics & Employee Records">Analytics & Employee Records</a></li>
-                    </UL>
+                    
                     <A HREF="https://ussm.gsa.gov/fibf-hr-par/#business_lifecycle" title="Personnel Action Request Processing">Personnel Action Request Processing</A>
 </ul>
 
