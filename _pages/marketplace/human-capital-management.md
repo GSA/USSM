@@ -28,11 +28,9 @@ news-category: FIBF-HR
                    <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">OPM's Human Resources Quality Service Management Office (QSMO)</A> will Help Agencies modernize and upgrade human capital management capabilities faster through sharing and standardization, help operationalize OPM policies, standards, and services to produce meaningful outcomes, and provide a clear path for Industry to act as allies and partners in the quest to provide greater value to federal employees.
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets" title="Learn more about ETS" target="_blank">Learn more about eGov Travel Services</a><BR>
-                   <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the ETS Program Office" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/contact-egov-travel" title="Contact the ETS Program Office" target="_blank">Contact the ETS Program Office</a><BR>
+                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank">Explore the HR QSMO Marketplace</a><BR>
+                   <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the HR QSMO height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:hrqsmo@opm.gov" title="Contact the HR QSMO" target="_blank">Contact the HR QSMO</a><BR>
                 </ul>
-
-
 
              <P></P>
               
@@ -51,7 +49,7 @@ news-category: FIBF-HR
 
     
                    Enabling
-<ul class="margin-top-2">
+<ul class="margin-top-0">
                    
                     <li><a href="https://ussm.gsa.gov/fibf-hr-hcs/#business_lifecycle" title="Strategy, Policies, & Operation Plan" target="_blank">Human Capital Strategy, Policies, & Operation Plan</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-hce/#business_lifecycle" title="Human Capital Evaluations">Human Capital Evaluations</a></li>
