@@ -22,15 +22,14 @@ news-category: FIBF-TRT
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                   <img src="/assets/images/fibf/icons/icon.corefm.webp" alt="Financial Management Icon" width="50px" height="auto" style="vertical-align:middle;"> Financial Management Solutions
+                   <img src="/assets/images/fibf/icons/icon.travel.webp" alt="Travel and Expense Icon" width="50px" height="auto" style="vertical-align:middle;"> Financial Management Solutions
                 </h2>
                 <p>
-                   e-Gov Travel Service (ETS) is a government wide, web-based, world-class travel management service. This streamlined service applies commercial best practices to realize efficiencies in delivering transparent, accountable, and sustainable travel services that yield exceptional customer satisfaction.
+                   <A HREF="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets">e-Gov Travel Service (ETS)</A> is a government wide, web-based, world-class travel management service. The ETS Program applies commercial best practices to realize efficiencies in delivering transparent, accountable, and sustainable travel services that yield exceptional agency and customer satisfaction.
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the FM Marketplace Catalog" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">Explore the FM Marketplace Catalog</a><BR>
-  <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="FM Marketplace Acquisition Hub" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4215" title="FM Marketplace Acquisition Hub" target="_blank">Hub for Acquisition Professionals</a><BR>
-                 <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the FM QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a><BR>
+                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about ETS" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">Explore the FM Marketplace Catalog</a><BR>
+                   <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the ETS Program Office" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/contact-egov-travel" title="Contact the ETS Program Office" target="_blank">Contact the ETS Program Office</a><BR>
                 </ul>
 
 
@@ -100,92 +99,7 @@ news-category: FIBF-TRT
 
 
 
-<!-- Video Player -->
-<div class="video-container" style="display: flex; justify-content: center; align-items: center; height: 100%;">
-  <video id="myVideo" preload="metadata" width="320px;" height="240px;" poster="/assets/images/marketplace/thumbnail_FMQSMO_video.png" aria-label="What is Quality Service Management Office video">
-    <source src="https://www.fiscal.treasury.gov/videos/fmqsmo/what-is-the-FMQSMO.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <div class="custom-controls">
-    <button onclick="playPause()">Play/Pause</button>
-    <button onclick="stopVideo()">Stop</button>
-    <button onclick="toggleFullscreen()">Fullscreen</button>
-   <div class="progress-bar">
-    <div id="progress" class="progress"></div>
-  </div>
-  <span id="timer">0:00 / 0:00</span>
 
-  </div>
-</div>
-
-
-
-
-
-<script>
-  // JavaScript to handle play/pause, stop, and fullscreen actions
-  var video = document.getElementById("myVideo");
-  
-    
-    // Toggle play/pause when clicking the video itself
-  video.addEventListener('click', function() {
-    playPause();
-  });
-
-    
-  function playPause() {
-    if (video.paused) {
-      video.play();
-    } else {
-      video.pause();
-    }
-  }
-
-  function stopVideo() {
-    video.pause();
-    video.currentTime = 0;
-  }
-
-  function toggleFullscreen() {
-    if (video.requestFullscreen) {
-      video.requestFullscreen();
-    } else if (video.mozRequestFullScreen) { /* Firefox */
-      video.mozRequestFullScreen();
-    } else if (video.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-      video.webkitRequestFullscreen();
-    } else if (video.msRequestFullscreen) { /* IE/Edge */
-      video.msRequestFullscreen();
-    }
-  }
-
- // Update progress bar and timer
-  video.addEventListener('timeupdate', () => {
-    const percentage = (video.currentTime / video.duration) * 100;
-    progress.style.width = `${percentage}%`;
-
-    const minutes = Math.floor(video.currentTime / 60);
-    const seconds = Math.floor(video.currentTime % 60);
-    const totalMinutes = Math.floor(video.duration / 60);
-    const totalSeconds = Math.floor(video.duration % 60);
-
-    timer.textContent = `${minutes}:${seconds.toString().padStart(2, '0')} / ${totalMinutes}:${totalSeconds.toString().padStart(2, '0')}`;
-  });
-
- // Ensure progress bar persists while video is playing
-  video.addEventListener('play', () => {
-    requestAnimationFrame(updateProgress);
-  });
-
-  function updateProgress() {
-    if (!video.paused && !video.ended) {
-      const percentage = (video.currentTime / video.duration) * 100;
-      progress.style.width = `${percentage}%`;
-      requestAnimationFrame(updateProgress);
-    }
-  }
-    
-    
-</script>
 
 
 
@@ -206,16 +120,17 @@ news-category: FIBF-TRT
 
 
     <ul class="margin-top-2">
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Budget Execution" target="_blank">Budget Execution</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Financial Asset and Information Management">Financial Asset and Information Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Payable Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Revenue Management">Revenue Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Receivable and Collection Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Delinquent Debt Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Cost Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">General Ledger Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle" target="_blank">Financial Reconciliation</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Financial / Performance Reporting</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Travel Personnel Profile Set-up and Maintenance" target="_blank">Travel Personnel Profile Set-up and Maintenance</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Travel Reservation Assistance and Processing">Travel Reservation Assistance and Processing</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Authorization Processing">Authorization Processing</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Travel Ticketing">Travel Ticketing</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Emergency Assistance Request Processing">Emergency Assistance Request Processing
+</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Voucher Processing and Audit">Voucher Processing and Audit</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Monitoring and Reconciliation">Monitoring and Reconciliation</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Regulatory Reporting">Regulatory Reporting</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Management Reporting and Analysis" target="_blank">Management Reporting and Analysis</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Policy Management and Audit">Policy Management and Audit</a></li>
 
 </ul>
 
