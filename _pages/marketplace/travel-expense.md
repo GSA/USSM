@@ -22,86 +22,18 @@ news-category: FIBF-TRT
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                   <img src="/assets/images/fibf/icons/icon.travel.webp" alt="Travel and Expense Icon" width="50px" height="auto" style="vertical-align:middle;"> Financial Management Solutions
+                   <img src="/assets/images/fibf/icons/icon.travel.webp" alt="Travel and Expense Icon" width="50px" height="auto" style="vertical-align:middle;"> Travel and Expense Solutions
                 </h2>
                 <p>
                    <A HREF="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets">e-Gov Travel Service (ETS)</A> is a government wide, web-based, world-class travel management service. The ETS Program applies commercial best practices to realize efficiencies in delivering transparent, accountable, and sustainable travel services that yield exceptional agency and customer satisfaction.
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about ETS" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank">Explore the FM Marketplace Catalog</a><BR>
+                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about ETS" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets" title="Learn more about ETS" target="_blank">Learn more about eGov Travel Services</a><BR>
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the ETS Program Office" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/contact-egov-travel" title="Contact the ETS Program Office" target="_blank">Contact the ETS Program Office</a><BR>
                 </ul>
 
 
- <style>
-    /* Basic styling */
-    video {
-      width: 600px; /* Set video width */
-      height: auto; /* Height will auto adjust to the aspect ratio */
-    }
-
-    /* Hide native controls by default */
-    video::-internal-media-controls {
-      display: none;
-    }
-
-    video::-webkit-media-controls {
-      display: none;
-    }
-
-    /* Show custom controls only when hovering over the video */
-    .custom-controls {
-      display: none;
-      position: absolute;
-      bottom: 10px;
-      width: 100%;
-      text-align: center;
-    }
-
-    .video-container:hover .custom-controls {
-      display: block; /* Show controls on hover */
-    }
-
-    .video-container {
-      position: relative; /* So we can position controls over the video */
-    }
-
-    /* Style the control buttons */
-    .custom-controls button {
-      margin: 5px;
-      padding: 5px 10px;
-      background-color: #333;
-      color: #fff;
-      border: none;
-      cursor: pointer;
-    }
-
-     /* Progress bar styling */
-    .progress-bar {
-      flex-grow: 1;
-      height: 5px;
-      background-color: #555;
-      margin: 0 10px;
-      position: relative;
-    }
-
-    .progress {
-      height: 100%;
-      background-color: #f00;
-      width: 0%;
-    }
-
-
-    
-
-    
-  </style>
-
-
-
-
-
-
+ 
 
 
              <P></P>
@@ -149,17 +81,18 @@ news-category: FIBF-TRT
                 </div>
              
                   <p>
-                    Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Federal agencies currently manage over $6 trillion in annual spending.  Common goals and objectives include:
-                </p>
-                <ul class="margin-top-0">
-                    <li>Improving Financial Transparency</li>
-                    <li>Enhancing Internal Controls to Reduce Risk</li>
-                    <li>Integrating Performance and Budgeting</li>
-                    <li>Strengthening Payment Integrity</li>
-                    <li>Automating Financial Processes</li>
-                    <li>Using Data to Maximize Resource Allocation</li>
+
+ETS unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. ETS has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars.
+</p>
+
+<ul> 
+<LI>Reduces Travel System Duplication and Cost</LI>
+<LI>Improves Interoperability and Data Standardization</LI>
+<LI>Elevates Employee Experience </LI>
+<LI>Improves Security and Compliance</LI>
+<LI>Increases Transaction Efficiency and Reduces Administrative Burden</LI>
+
                 </ul>
-                
 
                 <hr class="margin-top-auto width-full">
             </div>
@@ -175,30 +108,21 @@ news-category: FIBF-TRT
                     </h2>
                 </div>
             
-                           <p class="margin-top-1 margin-bottom-1"><b>President's Management Agenda</b></p>
-                <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                    <li style="margin-left: 2px;">Priority 3: <a href="https://www.performance.gov/pma/businessofgov/#overview" title="performance.gov" target="_blank">Managing the Business of Government</a>, Strategy 2 <a href="https://www.performance.gov/pma/businessofgov/strategy/2/" target="_blank" title="Strengthen Federal Financial Management">Strengthen Federal Financial Management.</a></li>
-                </ul>
-
-                
+                                        
                   <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.congress.gov/113/plaws/publ101/PLAW-113publ101.pdf" title="DATA Act of 2014" target="_blank">DATA Act of 2014</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.congress.gov/bill/104th-congress/house-bill/4319" title="Federal Financial Management Improvement Act" target="_blank">Federal Financial Management Improvement Act</a></li>
+                 
+                    <li style="margin-left: 2px;"><a href="https://www.ecfr.gov/current/title-41/subtitle-F" title="Federal Travel Regulation" target="_blank">Federal Travel Regulation (FTR) 41 CFR Subtitle F</a></li>
+                    <li style="margin-left: 2px;"><a href="https://buy.gsa.gov/interact/community/192/activity-feed/post/2cfd80b0-e3eb-4692-9284-31e67a8acc1c/GSA_Bulletin_ETS_24-01_Transition_to_E-Gov_Travel_Service_Next_Generation_ETSNext" title="Transition to E-Gov Travel Service Next Generation" target="_blank">GSA Bulletin (ETS 24-01): Transition to E-Gov Travel Service Next Generation (ETS Next)</a></li>
                     <li style="margin-left: 2px;"><a href="https://www.govinfo.gov/app/details/STATUTE-104/STATUTE-104-Pg2838/context" title="CFO Act of 1990" target="_blank">CFO Act of 1990</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf" title="OMB Circular A-123" target="_blank">OMB Circular A-123</a> (Appendix <a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/M-18-16.pdf" target="_blank" title="Appendix A">A</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2019/08/Issuance-of-Revised-Appendix-B-to-OMB-Circular-A-123.pdf" target="_blank" title="Appendix B">B</a>, <a href="https://www.whitehouse.gov/wp-content/uploads/2021/03/M-21-19.pdf" target="_blank" title="Appendix C">C</a>, and <a href="https://www.whitehouse.gov/wp-content/uploads/2023/01/M_23-06-Appendix-D_final.pdf" target="_blank" title="Appendix D">D</a>)</li>
-                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/a11.pdf" title="OMB Circular A-11" target="_blank">OMB Circular A-11</a></li>
+   <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
                 </ul>
 
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                      <li style="margin-left: 2px;"><a href="https://fmvision.fiscal.treasury.gov/" title="Treasury 10-Year Vision for Financial Management" target="_blank">Treasury 10-Year Vision for Financial Management</A></li>
-                    <li style="margin-left: 2px;"><a href="https://www.cfo.gov" title="Federal CFO Council" target="_blank">Federal CFO Council</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.fiscal.treasury.gov/fmsc/" title="Federal Financial Management Steering Committee" target="_blank">Federal Financial Management Steering Committee</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.sac.gov/committees/finance/index.htm" title="Small Agency Finance Committee" target="_blank">Small Agency Finance Commmittee</a></li>
-
-</ul>
+                      <li style="margin-left: 2px;">Senior Travel Officials Council (STOC)</li>
+                    <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="ETSNext Governance (Max Login Required)" target="_blank">ETSNext Governance (Max Login Required)</a></li>
+                </ul>
                 
             
             
