@@ -5,7 +5,11 @@ title: Human Capital Management
 description: "Talent Acquisition, Talent Development, Employee Performance Management, Compensation Management, Benefits Management"
 news-category: FIBF-HR 
 ---
-
+<style>
+  a.green-link {
+    color: #00FF00; /* Green color */
+  }
+</style>
 
 {% include banner.html title-override="Services Catalog" width="grid-col-11" offset="grid-offset-1" %}
 
@@ -28,7 +32,7 @@ news-category: FIBF-HR
                    <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">OPM's Human Resources Quality Service Management Office (QSMO)</A> will Help Agencies modernize and upgrade human capital management capabilities faster through sharing and standardization, help operationalize OPM policies, standards, and services to produce meaningful outcomes, and provide a clear path for Industry to act as allies and partners in the quest to provide greater value to federal employees.
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" style="font-color:00FF00;">Explore the HR QSMO Marketplace</a><BR>
+                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" CLASS="green-link">Explore the HR QSMO Marketplace</a><BR>
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:hrqsmo@opm.gov" title="Contact the HR QSMO" target="_blank">Contact the HR QSMO</a><BR>
                 </ul>
 
