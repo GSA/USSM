@@ -21,7 +21,7 @@ news-category: FIBF-HR
     </div>
 </div>
 
-<section class="pm" id="financial-management">
+<section class="pm" id="human-capital-management">
     <div class="grid-container">
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
@@ -147,21 +147,22 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
             <div class="tablet:grid-col-10 grid-offset-1">
                 <h2>
                   <img src="/assets/images/marketplace/icon_references.png" alt="Other References" height="auto" style="vertical-align:middle;">
-                References and Resources to ETSNext</h2>
+                Other References</h2>
                 <ul class="margin-top-0 margin-bottom-3">
-                    <li>
-                          <A HREF="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/etsnext">E-Gov Travel Services Next Generation Solution (ETSNext)</A> | <B>Mission:</B> Deliver a single, shared, travel and expense service to support the missions of government agencies through an intuitive, streamlined, and secure customer experience, mitigating transition costs and risks.
+
+                     <li>
+                          <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11105">Solutions Catalog</A>
                     </li>
+
                     <li>
-                        <a href="https://buy.gsa.gov/interact/community/192/activity-feed" title="ETSNext Industry Community Page" target="_blank">
-                            ETSNext Industry Community Page (Interact)
-                        </a>
+                          <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11121">Communities of Practice</A>
+                          <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122">Human Capital Data Analytics Community of Practice</A></LI>
+                          <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11123">Workflor Automation Community of Practice</A></LI>
                     </li>
-                    <LI>
-                        <A href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/etsnext-faqs" title="ETSNext FAQ">
-                        ETSNext Frequently Asked Questions</A>
-                    </LI>
-                    <LI>For help with ETSNext message the team <A HREF="ETSNext@gsa.gov">ETSNext@gsa.gov</A></LI>
+
+                    <li>
+                          <A HREF="https://www.opm.gov/data/">OPM Data Portal</A>
+                    </li>
                 </ul>
             </div>
         </div>
