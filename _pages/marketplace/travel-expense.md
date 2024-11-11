@@ -9,6 +9,13 @@ news-category: FIBF-TRT
 
 {% include banner.html title-override="Services Catalog" width="grid-col-11" offset="grid-offset-1" %}
 
+<style>
+  a.green-link {
+    color: #008000; /* Green color */
+  }
+</style>
+
+
 <div class="grid-container">
     <div class="grid-row grid-gap">
             <div class="tablet:grid-col-10 tablet:grid-offset-1 padding-top-1">
@@ -28,7 +35,7 @@ news-category: FIBF-TRT
                    <A HREF="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets">e-Gov Travel Service (ETS)</A> is a government wide, web-based, world-class travel management service. The ETS Program applies commercial best practices to realize efficiencies in delivering transparent, accountable, and sustainable travel services that yield exceptional agency and customer satisfaction.
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about ETS" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets" title="Learn more about ETS" target="_blank">Learn more about eGov Travel Services</a><BR>
+                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about ETS" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets" title="Learn more about ETS" target="_blank" class="green-link">Learn more about eGov Travel Services</a><BR>
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the ETS Program Office" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/contact-egov-travel" title="Contact the ETS Program Office" target="_blank">Contact the ETS Program Office</a><BR>
                 </ul>
 
