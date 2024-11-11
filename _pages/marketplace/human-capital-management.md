@@ -28,8 +28,8 @@ news-category: FIBF-HR
                    <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">OPM's Human Resources Quality Service Management Office (QSMO)</A> will Help Agencies modernize and upgrade human capital management capabilities faster through sharing and standardization, help operationalize OPM policies, standards, and services to produce meaningful outcomes, and provide a clear path for Industry to act as allies and partners in the quest to provide greater value to federal employees.
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank">Explore the HR QSMO Marketplace</a><BR>
-                   <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the HR QSMO height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:hrqsmo@opm.gov" title="Contact the HR QSMO" target="_blank">Contact the HR QSMO</a><BR>
+                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" style="font-color:00FF00;">Explore the HR QSMO Marketplace</a><BR>
+                   <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:hrqsmo@opm.gov" title="Contact the HR QSMO" target="_blank">Contact the HR QSMO</a><BR>
                 </ul>
 
              <P></P>
@@ -55,8 +55,7 @@ news-category: FIBF-HR
                     <li><a href="https://ussm.gsa.gov/fibf-hr-hce/#business_lifecycle" title="Human Capital Evaluations">Human Capital Evaluations</a></li>
 </UL>                   
                     Employee Lifecycle
-
-<ul class="margin-top-2">
+<ul class="margin-top-0">
                     <li><a href="https://ussm.gsa.gov/fibf-hr-ac/#business_lifecycle" title="Authorization Processing">Talent Acquisition</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-td/#business_lifecycle" title="Talent Development">Talent Development</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-epm/#business_lifecycle" title="Employee Performance Management">Employee Performance Management</a></li>
@@ -64,16 +63,15 @@ news-category: FIBF-HR
                     <li><a href="https://ussm.gsa.gov/fibf-hr-sep-ret/#business_lifecycle" title="Separation and Retirement">Separation and Retirement</a></li>
 </ul>
                     Supporting
-<ul class="margin-top-2">
+<ul class="margin-top-0">
                     <li><a href="https://ussm.gsa.gov/fibf-hr-ea/#business_lifecycle" title="Employee Accountability">Employee Accountability</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-lr/#business_lifecycle" title="Labor Relations" target="_blank">Labor Relations</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-hca/#business_lifecycle" title="Analytics & Employee Records">Analytics & Employee Records</a></li>
 </ul>
-<ul class="margin-top-2">     
-                    <A HREF="https://ussm.gsa.gov/fibf-hr-par/#business_lifecycle" title="Personnel Action Request Processing">Personnel Action Request Processing</A>
-</ul>
 
-     
+                    <A HREF="https://ussm.gsa.gov/fibf-hr-par/#business_lifecycle" title="Personnel Action Request Processing">Personnel Action Request Processing</A>
+
+
                 <hr class="margin-top-auto width-full">
             </div>
         </div>
