@@ -82,15 +82,15 @@ news-category: FIBF-TRT
              
                   <p>
 
-ETS unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. ETS has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars.
+eGov Travel Services have unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. ETS has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars. Key tenants of this initiative will improve:
 </p>
 
 <ul> 
-<LI>Reduces Travel System Duplication and Cost</LI>
-<LI>Improves Interoperability and Data Standardization</LI>
-<LI>Elevates Employee Experience </LI>
-<LI>Improves Security and Compliance</LI>
-<LI>Increases Transaction Efficiency and Reduces Administrative Burden</LI>
+<LI>Reductions to Travel System Duplication and Cost</LI>
+<LI>Interoperability and Data Standardization</LI>
+<LI>Transaction Efficiency and Reduce Administrative Burden</LI>
+<LI>Employee Experience in Support of Mission Delivery</LI>
+<LI>Security and Compliance</LI>
 
                 </ul>
 
@@ -120,7 +120,7 @@ ETS unified over 124 agencies to a common, secure, web-based, automated service.
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                       <li style="margin-left: 2px;">Senior Travel Officials Council (STOC)</li>
-                    <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="ETSNext Governance (Max Login Required)" target="_blank">ETSNext Governance (Max Login Required)</a></li>
+                    <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="ETSNext Governance (Max Login Required)" target="_blank">ETSNext Governance</A> (Max Login Required)</a></li>
                 </ul>
                 
             
