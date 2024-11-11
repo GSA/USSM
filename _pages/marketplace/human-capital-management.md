@@ -29,7 +29,7 @@ news-category: FIBF-HR
                    <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Capital Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Human Capital Management
                 </h2>
                 <p>
-                   <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">OPM's Human Resources QSMO</A> will (1) help agencies modernize and upgrade human capital management capabilities faster through sharing and standardization,(2) help operationalize federal workforce policies, standards, and services to produce meaningful outcomes, and (3) provide a clear path for Industry to act as allies and partners in the quest to provide greater value to federal employees.
+                   The Office of Personnel Management's <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">Human Resources Quality Services Management Office</A> is a key avenues to enhance the service delivery of Human Resources (HR) solutions across government agencies. The HR QSMO promotes strong federal HR stakeholder relationships by fostering a culture of active engagement with agencies, shared service providers, and industry partners. Its mission is to serve the American people as the thought leader on human capital issues and assist agencies in making effective HR IT investment decisions.  The HR QSMO will (1) help agencies modernize and upgrade human capital management capabilities faster through sharing and standardization, (2)help operationalize federal workforce policies, standards, and services to produce meaningful outcomes, and (3) provide a clear path for industry to act as allies and partners in the quest to provide greater value to federal employees.
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" CLASS="green-link">Explore the HR QSMO Marketplace</a><BR>
@@ -151,18 +151,20 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
                 <ul class="margin-top-0 margin-bottom-3">
 
                      <li>
-                          <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11105">Solutions Catalog</A>
+                          <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11105">HR QSMO Solutions Catalog</A>
+                    </li>
+
+                       <li>
+                          <A HREF="https://www.opm.gov/data/">OPM Data Portal</A>
                     </li>
 
                     <li>
                           <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11121">Communities of Practice</A>
-                          <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122">Human Capital Data Analytics Community of Practice</A></LI>
-                          <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11123">Workflor Automation Community of Practice</A></LI>
-                    </li>
+                         <UL> <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" title="Human Capital Data Analytics Community of Practice">Human Capital Data Analytics Community of Practice</A</LI>
+                          <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11123" title="Workflow Automation Community of Practice">Workflow Automation Community of Practice</A></LI>
+                    </li></UL>
 
-                    <li>
-                          <A HREF="https://www.opm.gov/data/">OPM Data Portal</A>
-                    </li>
+                 
                 </ul>
             </div>
         </div>
