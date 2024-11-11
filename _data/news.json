@@ -112,6 +112,15 @@
         {
             "NewsID": "46",
             "Homepage": "0",
+            "Category": "FIBF-TRT",
+            "Title": "Start Preparing for Transition to New Travel System, GSA Tells Agencies",
+            "Date": "2024-05-22",
+            "Source": "FedScoop",
+            "Hyperlink": "https://www.fedweek.com/federal-managers-daily-report/start-preparing-for-transition-to-new-travel-system-gsa-tells-agencies/"
+        },
+  {
+            "NewsID": "46",
+            "Homepage": "0",
             "Category": "FIBF-HR",
             "Title": "OPM Launches HR Shared Services Marketplace",
             "Date": "2024-05-14",
@@ -126,6 +135,15 @@
             "Date": "2024-05-01",
             "Source": "FedScoop",
             "Hyperlink": "https://fedscoop.com/opm-launches-hr-marketplace/"
+        },
+     {
+            "NewsID": "44",
+            "Homepage": "0",
+            "Category": "FIBF-TRT",
+            "Title": "GSA E-Gov Travel Service 2 (ETS2) Transition to E-Gov Travel Service, Next Generation (ETSNext)",
+            "Date": "2024-04-15",
+            "Source": "GSA Bulletin ETS 24-01",
+            "Hyperlink": "https://buy.gsa.gov/interact/system/files/ETSNext_GSA%20Bulletin%2024-01%20Final%201.pdf"
         },
         {
             "NewsID": "44",
@@ -162,6 +180,15 @@
             "Date": "2024-10-13",
             "Source": "Washington Technology",
             "Hyperlink": "https://www.washingtontechnology.com/contracts/2023/10/opm-puts-data-center-human-capital-modernization/391196/"
+        },
+        {
+            "NewsID": "40",
+            "Homepage": "0",
+            "Category": "FIBF-CYB",
+            "Title": "VDP Platform 2022 Annual Report Showcases Platform’s Success",
+            "Date": "2023-08-25",
+            "Source": "Cybersecurity and Infrastructure Services Agency",
+            "Hyperlink": "https://www.cisa.gov/news-events/news/vdp-platform-2022-annual-report-showcases-platforms-success"
         },
         {
             "NewsID": "40",
