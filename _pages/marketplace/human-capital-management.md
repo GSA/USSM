@@ -26,7 +26,7 @@ news-category: FIBF-HR
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                   <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Capital Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Human Capital Management Solutions
+                   <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Capital Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Human Capital Management
                 </h2>
                 <p>
                    <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">OPM's Human Resources QSMO</A> will (1) help agencies modernize and upgrade human capital management capabilities faster through sharing and standardization,(2) help operationalize federal workforce policies, standards, and services to produce meaningful outcomes, and (3) provide a clear path for Industry to act as allies and partners in the quest to provide greater value to federal employees.
