@@ -1,6 +1,6 @@
 ---
 layout: base
-permalink: /marketplace/qsmo-hcm/
+permalink: /marketplace/qsmo-hcm-new/
 title: Human Capital Management
 description: "Talent Acquisition, Talent Development, Employee Performance Management, Compensation Management, Benefits Management"
 news-category: FIBF-HR 
