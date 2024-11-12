@@ -96,6 +96,7 @@ The Federal government employs over 3 million people in service to our national 
 <LI>Attracting and Hiring Qualified Employees</LI>
 <LI>Strengthening Leadership Development</LI>
 <LI>Modernizing Human Capital Practices</LI>
+<LI>Leveraging Data as a Strategic Asset</LI>
 <LI>Improving Performance Management</LI>
 <LI>Facilitating Knowledge Transfer and Succession Planning</LI>
   <LI>Shifting Workforce from Low to High Value Work</LI>
