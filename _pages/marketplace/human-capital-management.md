@@ -35,7 +35,7 @@ news-category: FIBF-HR
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the HR QSMO Marketplace" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" CLASS="green-link">Explore the HR QSMO Marketplace</a><BR>
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:hrqsmo@opm.gov" title="Contact the HR QSMO" target="_blank">Contact the HR QSMO</a><BR>
                 </ul>
-The HR QSMO will help (1) agencies modernize human capital management faster through sharing and standardization, (2) operationalize federal workforce policies, standards, and services to produce meaningful outcomes, and (3) provide a clear path for industry to act as allies and partners in the quest to provide greater value.
+The HR QSMO will help (1) agencies modernize human capital management faster through sharing and standardization, (2) operationalize federal workforce policies, standards, and services to produce meaningful outcomes, and (3) provide a path for industry to act as allies and partners in the quest to provide greater value.
              <P></P>
               
                 <hr class="margin-top-auto width-full">
