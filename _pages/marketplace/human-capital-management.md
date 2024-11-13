@@ -117,13 +117,7 @@ The Federal government <B>employs over 3 million people</B> in service to our na
                     </h2>
                 </div>
 
-     <p class="margin-top-1 margin-bottom-1"><b>Goals</b></p>
- <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-  <li style="margin-left: 2px;"><a href="https://www.performance.gov/pma/workforce/" title="Strengthening and Empowering the Federal Workforce" target="_blank">PMA 46: Strengthening and Empowering the Federal Workforce</a></li>
-   <li style="margin-left: 2px;"><a href="https://trumpadministration.archives.performance.gov/CAP/low-value-to-high-value-work/" title="Shifting from Low Value to High Value Work" target="_blank">PMA 45: Shifting from Low Value to High-Value Work</a></li>
-
-   </ul>
-            
+         
                                         
                   <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
@@ -137,10 +131,26 @@ The Federal government <B>employs over 3 million people</B> in service to our na
 
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                      <li style="margin-left: 2px;"><A HREF="https://beta.chcoc.gov/">Federal CHCO Council</A></li>
-                    <li style="margin-left: 2px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance/" title="Multi-Agency Steering Committee" target="_blank">Multi-Agency Steering Committee</a></li>
-  <li style="margin-left: 2px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance" title="Human Resources Line of Business" target="_blank">Human Resources Line of Business</a></li>                    
+                      <li style="margin-left: 2px;"><A HREF="https://beta.chcoc.gov/">Chief Human Capital Officer's Council</A></li>
+                    <li style="margin-left: 2px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance/" title="Multi-Agency Steering Committee" target="_blank">Multi-Agency Steering Committee (MAESC)</a></li>
+  <li style="margin-left: 2px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance" title="Human Resources Line of Business" target="_blank">Human Resources Line of Business (HRLoB)</a></li>                    
                 </ul>
+
+
+     <p class="margin-top-1 margin-bottom-1"><b>Goals</b></p>
+ <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+  <li style="margin-left: 1px;"><a href="https://www.performance.gov/pma/workforce/" title="Strengthening and Empowering the Federal Workforce" target="_blank">PMA 46: Strengthening and Empowering the Federal Workforce</a></li>
+   <li style="margin-left: 1px;"><a href="https://trumpadministration.archives.performance.gov/CAP/low-value-to-high-value-work/" title="Shifting from Low Value to High Value Work" target="_blank">PMA 45: Shifting from Low Value to High-Value Work</a></li>
+
+   <li style="margin-left: 1px;"><a href="https://trumpadministration.archives.performance.gov/CAP/low-value-to-high-value-work/" title="Shifting from Low Value to High Value Work" target="_blank">PMA 45: Shifting from Low Value to High-Value Work</a></li>
+
+   <li style="margin-left: 1px;"><a href="https://obamaadministration.archives.performance.gov/node/3394.html#apg" title="People and Culture" target="_blank">PMA 44: People and Culture</a></li>
+
+   <li style="margin-left: 1px;"><a href="https://georgewbush-whitehouse.archives.gov/results/agenda/humancapital_year4.html" title="Strategic Management of Human Capital" target="_blank">PMA 43: Advancing Strategic Management of Human Capital</a></li>
+
+   </ul>
+
+
                 
         
                 <hr class="margin-top-auto width-full">
