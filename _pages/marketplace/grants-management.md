@@ -57,7 +57,10 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
                  
 
                    
-                    <UL><li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Program Administration" target="_blank">Grant Program Administration</a>
+                   
+              <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+
+                   <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Program Administration" target="_blank">Grant Program Administration</a>
                    
                     <UL>
                     <LI>Program Set-Up and Maintenance</LI>
@@ -70,7 +73,8 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
 
                     </UL>
 
-                    <UL>
+                              <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+
                     <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Pre-Award Management">Grant Pre-Award Management</a>
                     <UL>
                     <LI>Application Support and Receipt</LI>
@@ -80,8 +84,9 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
                     </UL>
                     
                     
-                    
-                     <UL><li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Award Management">Grant Award Management</a>
+                                    <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+
+                    <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Award Management">Grant Award Management</a>
 
                      <UL>
                     <LI>Award Issuance</LI>
@@ -90,8 +95,9 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
                     </li>
 </UL>
 
-                    
-                   <UL> <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Post-Award Management and Closeout">Grant Post-Award Management and Closeout</a>
+                              <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+
+              <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Post-Award Management and Closeout">Grant Post-Award Management and Closeout</a>
                    <UL>
                     <LI>Award Modification</LI>
                     <LI>Award Performance Review</LI>
@@ -103,7 +109,9 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
                     </li>
 </UL>
                     
-                   <UL> <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Program Oversight">Grant Program Oversight</a>
+                                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+
+                  <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Program Oversight">Grant Program Oversight</a>
 
                    <UL>
                     <LI>Program Reporting and Review</LI>
@@ -111,8 +119,9 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
                     </UL>
                     </LI>
 </UL>
-                    
-                  <UL>
+
+                            <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+
                     <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Recipient Oversight">Grant Recipient Oversight</a>
                     <UL>
                     <LI>Grant Recipient Indirect Cost Negotiation Rate</LI>
