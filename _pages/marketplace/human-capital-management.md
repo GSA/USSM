@@ -124,22 +124,22 @@ The Federal government <B>employs over 3 million people</B> in service to our na
 
   <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
                  
-                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2023/04/M-23-15.pdf" title="Measuring, Monitoring, and Improving Organizational Health and Organizational Performance in the Context of Evolving Agency Work Environments" target="_blank">M-23-15: Measuring, Monitoring, and Improving Organizational Health and Organizational Performance in the Context of Evolving Agency Work Environments</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2024/08/M-24-16-Improving-the-Federal-Hiring-Experience.pdf" title="Improving the Federal Hiring Experience" target="_blank">M-24-16: Improving the Federal Hiring Experience</a></li>
+                    <li style="margin-left: -5px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2023/04/M-23-15.pdf" title="Measuring, Monitoring, and Improving Organizational Health and Organizational Performance in the Context of Evolving Agency Work Environments" target="_blank">M-23-15: Measuring, Monitoring, and Improving Organizational Health and Organizational Performance in the Context of Evolving Agency Work Environments</a></li>
+                    <li style="margin-left: -5px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2024/08/M-24-16-Improving-the-Federal-Hiring-Experience.pdf" title="Improving the Federal Hiring Experience" target="_blank">M-24-16: Improving the Federal Hiring Experience</a></li>
                 </ul>
 
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                      <li style="margin-left: 2px;"><A HREF="https://beta.chcoc.gov/">Chief Human Capital Officer's Council</A></li>
-                    <li style="margin-left: 2px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance/" title="Multi-Agency Steering Committee" target="_blank">Multi-Agency Steering Committee (MAESC)</a></li>
-  <li style="margin-left: 2px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance" title="Human Resources Line of Business" target="_blank">Human Resources Line of Business (HRLoB)</a></li>          
+                      <li style="margin-left: -5px;"><A HREF="https://beta.chcoc.gov/">Chief Human Capital Officer's Council</A></li>
+                    <li style="margin-left: -5px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance/" title="Multi-Agency Steering Committee" target="_blank">Multi-Agency Steering Committee (MAESC)</a></li>
+  <li style="margin-left: -5px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance" title="Human Resources Line of Business" target="_blank">Human Resources Line of Business (HRLoB)</a></li>          
   
                 </ul>
 
 
      <p class="margin-top-1 margin-bottom-1"><b>Goals</b></p>
  <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-  <li style="margin-left: -10px"><a href="https://www.performance.gov/pma/workforce/" title="Strengthening and Empowering the Federal Workforce" target="_blank">PMA 46: Strengthening & Empowering the Federal Workforce</a></li>
+  <li style="margin-left: 1px"><a href="https://www.performance.gov/pma/workforce/" title="Strengthening and Empowering the Federal Workforce" target="_blank">PMA 46: Strengthening & Empowering the Federal Workforce</a></li>
      <li style="margin-left: 1px;"><a href="https://trumpadministration.archives.performance.gov/CAP/low-value-to-high-value-work/" title="Shifting from Low Value to High Value Work" target="_blank">PMA 45: Shifting from Low Value to High-Value Work</a></li>
 
    <li style="margin-left: 1px;"><a href="https://obamaadministration.archives.performance.gov/node/3394.html#apg" title="People and Culture" target="_blank">PMA 44: People and Culture</a></li>
