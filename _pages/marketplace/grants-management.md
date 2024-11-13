@@ -63,17 +63,24 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
                     <LI>Program Set-Up and Maintenance</LI>
                     <LI>Program Funding Opportunity</LI>
                     </UL>
+
+
+                    
                     </li>
 
                     </UL>
-<UL>
-                    
+
+                    <UL>
                     <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Pre-Award Management">Grant Pre-Award Management</a>
+                    <UL>
                     <LI>Application Support and Receipt</LI>
                     <LI>Application Review and Selection</LI>
+                    </UL>
+                    </LI>
+                    </UL>
                     
                     
-                    </li>
+                    
                     <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Award Management">Grant Award Management</a>
                     <LI>Award Issuance</LI>
                     <LI>Award Payment Processing</LI>
