@@ -34,7 +34,7 @@ news-category: FIBF-GRM
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the Federal Grants Marketplace (Federal Solutions)" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://ussm.gsa.gov/marketplace/grm/" title="Explore the Federal Grants Marketplace" target="_blank" CLASS="green-link">Federal Grants Marketplace (Federal Solutions)</a><BR>
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the Catalog of Market Research (Commercial Solutions)" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://ag-dashboard.acquisitiongateway.gov/system/files/shared_services/2024-09/Vendor%20Highlights%20Final%209.12.2024.pdf" title="Explore the Catalog of Market Research" target="_blank" CLASS="green-link">Catalog of Market Research (Commercial Solutions)</a><BR>
-<A HREF="https://www.acquisitiongateway.gov/shared-services/resources/4216">Grants Management Acquisition Gateway</A><BR>          
+ <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="Grants Management Acquisition Gateway" height="auto" style="vertical-align:middle;">&nbsp;<A HREF="https://www.acquisitiongateway.gov/shared-services/resources/4216">Acquisition Gateway (Acquisition Professionals)</A><BR>          
                    <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="Contact the Grants QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:GrantsQSMO@hhs.gov" title="Contact the Grants QSMO" target="_blank">Contact the Grants QSMO</a><BR>
                 </ul>
 Since the establishment of the Grants QSMO, adoption of shared services has increased from 19% to 48% of federal awarding agencies. To further help agencies, the Grants QSMO created the Catalog of Market Research consisting of commercial grants IT vendors vetted by a cross-government team to support agencies in selecting the most optimal grants management solution.
@@ -54,29 +54,17 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
                     </h2>
                 </div>
     
-                   Enabling
+                 
 <ul class="margin-top-0">
                    
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-hcs/#business_lifecycle" title="Strategy, Policies, & Operation Plan" target="_blank">Human Capital Strategy, Policies, & Operation Plan</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-hce/#business_lifecycle" title="Human Capital Evaluations">Human Capital Evaluations</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Program Administration" target="_blank">Grant Program Administration</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Pre-Award Management">Grant Pre-Award Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Award Management">Grant Award Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Post-Award Management and Closeout">Grant Post-Award Management and Closeout</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Program Oversight">Grant Program Oversight</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Recipient Oversight">Grant Recipient Oversight</a></li>
+                                        
 </UL>                   
-                    Employee Lifecycle
-<ul class="margin-top-0">
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-ac/#business_lifecycle" title="Authorization Processing">Talent Acquisition</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-td/#business_lifecycle" title="Talent Development">Talent Development</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-epm/#business_lifecycle" title="Employee Performance Management">Employee Performance Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-cb/#business_lifecycle" title="Compensation and Benefits">Compensation and Benefits</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-sep-ret/#business_lifecycle" title="Separation and Retirement">Separation and Retirement</a></li>
-</ul>
-                    Supporting
-<ul class="margin-top-0">
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-ea/#business_lifecycle" title="Employee Accountability">Employee Accountability</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-lr/#business_lifecycle" title="Labor Relations" target="_blank">Labor Relations</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-hca/#business_lifecycle" title="Analytics & Employee Records">Analytics & Employee Records</a></li>
-</ul>
-
-                    <A HREF="https://ussm.gsa.gov/fibf-hr-par/#business_lifecycle" title="Personnel Action Request Processing">Personnel Action Request Processing</A>
-
 
                 <hr class="margin-top-auto width-full">
             </div>
@@ -93,17 +81,16 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
              
                   <p>
 
-The Federal government employs over 3 million people in service to our national priorities in delivering on agency missions. By prioritizing its workforce goals, the government ensures employees and Federal agencies are equipped to meet evolving challenges and uphold the trust of the American people.
-</p>
+Each year, the <B>Federal government distributes over $1 trillion in grants and cooperative agreements across 52 awarding agencies</B>, representing one of the federal government’s largest investments to drive improvements for the American people. As agencies have largely managed their grants internally, there has not been a concerted effort to coordinate across the federal grants management systems landscape. This has resulted in a disconnected, aging systems environment made up of a myriad of systems with varying levels of maturity, as well as a fragmented user experience that increases the administrative burden for applicants, recipients, and awarding agencies.  Key priorities here include:</p>
 
 <ul> 
-<LI>Attracting and Hiring Qualified Employees</LI>
-<LI>Strengthening Leadership Development</LI>
-<LI>Modernizing Human Capital Practices</LI>
-<LI>Improving Performance Management</LI>
-<LI>Facilitating Knowledge Transfer and Succession Planning</LI>
-  <LI>Shifting Workforce from Low to High Value Work</LI>
-<LI>Ensuring Ethical Standards and Integrity</LI>
+<LI>Improving the Recipient Experience</LI>
+<LI>Enhancing Transparency and Accountability</LI>
+<LI>Reducing Administrative Burden</LI>
+<LI>Strengthening Internal Controls and Oversight</LI>
+<LI>Fostering Innovation and Flexibility</LI>
+  <LI>Improving the Use of Data for Strategic Decision Making</LI>
+<LI>Promoting Interagency Collaboration</LI>
 
                 </ul>
 
