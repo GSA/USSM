@@ -149,9 +149,9 @@ Each year, the <B>Federal government distributes over $1 trillion in grants and 
                 
                  
                     <li style="margin-left: 1px;"><a href="https://www.congress.gov/116/plaws/publ103/PLAW-116publ103.pdf" title="GREAT Act" 
-                    target="_blank">Grant Reporting Efficiency and Transparency Act of 2019 (GREAT Act)</a></li>
+                    target="_blank">Grant Reporting Efficiency and Transparency Act of 2019</a></li>
                     <li style="margin-left: 1px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2024/04/M-24-11-Revisions-to-2-CFR.pdf" title="Reducing Burden in the Administration of Federal Financial Assistance" 
-                    target="_blank">Reducing Burden in the Administration of Federal Financial Assistance</a></li>
+                    target="_blank">M-24-11: Reducing Burden in the Administration of Federal Financial Assistance</a></li>
                     
    <li style="margin-left: 1px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
                 </ul>
@@ -163,9 +163,9 @@ Each year, the <B>Federal government distributes over $1 trillion in grants and 
                 </ul>
 
      <p class="margin-top-1 margin-bottom-1"><b>Goals</b></p>
- <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-  <li style="margin-left: -10px"><a href="https://www.performance.gov/pma/businessofgov/strategy/2/" title="Strengthen the Business of Government" target="_blank">PMA 46: Strengthen the Business of Government</a></li>
-     <li style="margin-left: -10px"><a href="https://trumpadministration.archives.performance.gov/CAP/grants/" title="Results Oriented Accountability for Grants" target="_blank">PMA 45: Results Oriented Accountability for Grants</a></li>
+ <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:-5;">
+  <li style="margin-left: -5px"><a href="https://www.performance.gov/pma/businessofgov/strategy/2/" title="Strengthen the Business of Government" target="_blank">PMA 46: Strengthen the Business of Government</a></li>
+     <li style="margin-left: 1px"><a href="https://trumpadministration.archives.performance.gov/CAP/grants/" title="Results Oriented Accountability for Grants" target="_blank">PMA 45: Results Oriented Accountability for Grants</a></li>
  </ul>
          
             
