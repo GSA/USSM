@@ -81,32 +81,45 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
                     
                     
                     
-                    <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Award Management">Grant Award Management</a>
+                     <UL><li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Award Management">Grant Award Management</a>
+
+                     <UL>
                     <LI>Award Issuance</LI>
                     <LI>Award Payment Processing</LI>
-                    
-                    
+                      </UL>
                     </li>
-                    <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Post-Award Management and Closeout">Grant Post-Award Management and Closeout</a>
+</UL>
+
+                    
+                   <UL> <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Post-Award Management and Closeout">Grant Post-Award Management and Closeout</a>
+                   <UL>
                     <LI>Award Modification</LI>
                     <LI>Award Performance Review</LI>
                     <LI>Award Financial Review</LI>
                     <LI>Award Compliance Review</LI>
                     <LI>Award Risk Management</LI>
                     <LI>Award Closeout</LI>
-                    
+                    </UL>
                     </li>
-                    <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Program Oversight">Grant Program Oversight</a>
+</UL>
+                    
+                   <UL> <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Program Oversight">Grant Program Oversight</a>
+
+                   <UL>
                     <LI>Program Reporting and Review</LI>
                     <LI>Program Closeout</LI>
+                    </UL>
+                    </LI>
+</UL>
                     
-                    
-                    </li>
+                  <UL>
                     <li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Recipient Oversight">Grant Recipient Oversight</a>
+                    <UL>
                     <LI>Grant Recipient Indirect Cost Negotiation Rate</LI>
                     <LI>Grant Recipient Single Audit</LI>
-                  
-                    </li>
+                  </UL>
+          </LI>
+          </UL>
                                         
 </UL>                   
 
