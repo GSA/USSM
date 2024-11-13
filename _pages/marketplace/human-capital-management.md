@@ -164,12 +164,14 @@ The Federal government <B>employs over 3 million people</B> in service to our na
 
                     <li>
                           <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11121">Communities of Practice</A>
-                         <UL> <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" title="Human Capital Data Analytics Community of Practice">Human Capital Data Analytics Community of Practice</A></LI>
-                          <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11123" title="Workflow Automation Community of Practice">Workflow Automation Community of Practice</A></LI>
+                         <UL> <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" 
+                         title="Human Capital Data Analytics Community of Practice">Human Capital Data Analytics Community of Practice</A></LI>
+                          <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11123" 
+                          title="Workflow Automation Community of Practice">Workflow Automation Community of Practice</A></LI>
                     </UL>
 
                  
-                </ul>
+             
             </div>
         </div>
     </div>
