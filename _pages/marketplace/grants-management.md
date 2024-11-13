@@ -2,8 +2,8 @@
 layout: base
 permalink: /marketplace/qsmo-grm2/
 title: Grants Management
-description: "Talent Acquisition, Talent Development, Employee Performance Management, Compensation Management, Benefits Management"
-news-category: FIBF-HR 
+description: "Grant Program Administration, Grant Pre-Award Management, Grant Award Management, Grant Post-Award Management and Closeout, Grant Program Oversight, Grant Recipient Oversight"
+news-category: FIBF-GRM
 ---
 <style>
   a.green-link {
@@ -26,14 +26,16 @@ news-category: FIBF-HR
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                   <img src="/assets/images/fibf/icons/icon.grants.webp" alt="Grants Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Human Capital Management
+                   <img src="/assets/images/fibf/icons/icon.grants.webp" alt="Grants Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Grants Management
                 </h2>
                 <p>
                    The Department of Health and Human Services <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">Grants Management Quality Services Management Office</A> a Marketplace of shared grants management solutions and is  operationalizing a vision for federal grants that empowers and enables applicants, recipients, and federal awarding agencies to efficiently and effectively deliver on their missions. The Grants QSMO engages all 52 federal awarding agencies to ensure marketplace solutions and services align with their needs, challenges, and objectives.  
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the HR QSMO Marketplace" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" CLASS="green-link">Explore the HR QSMO Marketplace</a><BR>
-                   <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:GrantsQSMO@hhs.gov" title="Contact the Grants QSMO" target="_blank">Contact the Grants QSMO</a><BR>
+                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the Federal Grants Marketplace (Federal Solutions)" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://ussm.gsa.gov/marketplace/grm/" title="Explore the Federal Grants Marketplace" target="_blank" CLASS="green-link">Federal Grants Marketplace (Federal Solutions)</a><BR>
+                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the Catalog of Market Research (Commercial Solutions)" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://ag-dashboard.acquisitiongateway.gov/system/files/shared_services/2024-09/Vendor%20Highlights%20Final%209.12.2024.pdf" title="Explore the Catalog of Market Research" target="_blank" CLASS="green-link">Catalog of Market Research (Commercial Solutions)</a><BR>
+<A HREF="https://www.acquisitiongateway.gov/shared-services/resources/4216">Grants Management Acquisition Gateway</A><BR>          
+                   <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="Contact the Grants QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:GrantsQSMO@hhs.gov" title="Contact the Grants QSMO" target="_blank">Contact the Grants QSMO</a><BR>
                 </ul>
 Since the establishment of the Grants QSMO, adoption of shared services has increased from 19% to 48% of federal awarding agencies. To further help agencies, the Grants QSMO created the Catalog of Market Research consisting of commercial grants IT vendors vetted by a cross-government team to support agencies in selecting the most optimal grants management solution.
               
