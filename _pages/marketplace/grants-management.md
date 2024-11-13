@@ -142,10 +142,18 @@ Each year, the <B>Federal government distributes over $1 trillion in grants and 
                                         
                   <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+
+
+ <li style="margin-left: 1px;"><a href="https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200" title="2CFR200" 
+                    target="_blank">2CFR200: Uniform Administrative Requirements, Cost Principles, & Audit Requirements for Federal Awards</a></li>
+                
                  
-                    <li style="margin-left: 2px;"><a href="https://www.ecfr.gov/current/title-41/subtitle-F" title="Federal Travel Regulation" target="_blank">Federal Travel Regulation (FTR) 41 CFR Subtitle F</a></li>
-                    <li style="margin-left: 2px;"><a href="https://buy.gsa.gov/interact/community/192/activity-feed/post/2cfd80b0-e3eb-4692-9284-31e67a8acc1c/GSA_Bulletin_ETS_24-01_Transition_to_E-Gov_Travel_Service_Next_Generation_ETSNext" title="Transition to E-Gov Travel Service Next Generation" target="_blank">Bulletin: Transition to E-Gov Travel Service Next Generation (ETS 24-01)</a></li>
-   <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
+                    <li style="margin-left: 1px;"><a href="https://www.congress.gov/116/plaws/publ103/PLAW-116publ103.pdf" title="GREAT Act" 
+                    target="_blank">Grant Reporting Efficiency and Transparency Act of 2019 (GREAT Act)</a></li>
+                    <li style="margin-left: 1px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2024/04/M-24-11-Revisions-to-2-CFR.pdf" title="Reducing Burden in the Administration of Federal Financial Assistance" 
+                    target="_blank">Reducing Burden in the Administration of Federal Financial Assistance</a></li>
+                    
+   <li style="margin-left: 1px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
                 </ul>
 
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
@@ -172,18 +180,18 @@ Each year, the <B>Federal government distributes over $1 trillion in grants and 
                 Other References</h2>
                 <ul class="margin-top-0 margin-bottom-3">
 
-                     <li>
-                          <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11105">HR QSMO Solutions Catalog</A>
-                    </li>
+        
+                         <UL> 
+                         
 
-                       <li>
-                          <A HREF="https://www.opm.gov/data/">OPM Data Portal</A>
-                    </li>
-
-                    <li>
-                          <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11121">Communities of Practice</A>
-                         <UL> <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" title="Human Capital Data Analytics Community of Practice">Human Capital Data Analytics Community of Practice</A></LI>
-                          <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11123" title="Workflow Automation Community of Practice">Workflow Automation Community of Practice</A></LI>
+                         
+                         <LI><A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html" title="Grants QSMO Homepage">Grants QSMO Homepage</A></LI>
+                            <LI><A HREF="https://www.grants.gov/data-standards" title="Finalized Grants Data Standards and Guidance">Finalized Grants Data Standards & Guidance</A> <A HREF="mailto:GrantsDataStandards@hhs.gov">GrantsDataStandards@hhs.gov</A></LI>
+                         <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" title="Federal Grants Systems Hub">Federal Grants Systems Hub (Interactive Dashboard)</A></LI>
+     <LI><A HREF="https://www.fac.gov/" title="Federal Grants Systems Hub">Federal Audit Clearinghouse</A></LI>
+                        
+                        <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" title="Federal Grants Systems Hub">Report: Tribal Customer Experience Pilot for Post-Award Reporting (36 page PDF)</A></LI>
+        
                     </UL>
 
                  
