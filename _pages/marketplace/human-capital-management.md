@@ -89,19 +89,18 @@ The HR QSMO will help (1) agencies modernize human capital management faster thr
              
                   <p>
 
-The Federal government employs over 3 million people in service to our national priorities in delivering on agency missions. By prioritizing its workforce goals, the government ensures employees and Federal agencies are equipped to meet evolving challenges and uphold the trust of the American people.
+The Federal government <B>employs over 3 million people</B> in service to our national priorities through the delivery of agency missions. By prioritizing workforce goals, the government ensures employees and Federal agencies are equipped to meet evolving challenges and uphold the trust of the American people.
 </p>
 
 <ul> 
 <LI>Attracting and Hiring Qualified Employees</LI>
 <LI>Strengthening Leadership Development</LI>
 <LI>Modernizing Human Capital Practices</LI>
-<LI>Leveraging Data as a Strategic Asset</LI>
 <LI>Improving Performance Management</LI>
+<LI>Leveraging Data as a Strategic Asset</LI>
 <LI>Facilitating Knowledge Transfer and Succession Planning</LI>
-  <LI>Shifting Workforce from Low to High Value Work</LI>
+<LI>Shifting Workforce from Low to High-Value Work</LI>
 <LI>Ensuring Ethical Standards and Integrity</LI>
-
                 </ul>
 
                 <hr class="margin-top-auto width-full">
@@ -123,18 +122,23 @@ The Federal government employs over 3 million people in service to our national 
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                  
                     <li style="margin-left: 2px;"><a href="https://www.ecfr.gov/current/title-41/subtitle-F" title="Federal Travel Regulation" target="_blank">Federal Travel Regulation (FTR) 41 CFR Subtitle F</a></li>
-                    <li style="margin-left: 2px;"><a href="https://buy.gsa.gov/interact/community/192/activity-feed/post/2cfd80b0-e3eb-4692-9284-31e67a8acc1c/GSA_Bulletin_ETS_24-01_Transition_to_E-Gov_Travel_Service_Next_Generation_ETSNext" title="Transition to E-Gov Travel Service Next Generation" target="_blank">Bulletin: Transition to E-Gov Travel Service Next Generation (ETS 24-01)</a></li>
+                    <li style="margin-left: 2px;"><a href="https://www.chcoc.gov/sites/default/files/2022-Federal-Workforce-Priorities-Report-FWPR.pdf" title="Federal Workforce Priorities Report" target="_blank">Federal Workforce Priorities Report</a></li>
+                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2024/08/M-24-16-Improving-the-Federal-Hiring-Experience.pdf" title="Improving the Federal Hiring Experience" target="_blank">M-24-16: Improving the Federal Hiring Experience</a></li>
+                        
    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
+
+   <li style="margin-left: 2px;"><a href="https://trumpadministration.archives.performance.gov/CAP/low-value-to-high-value-work/" title="Shifting from Low Value to High Value Work" target="_blank"> Shifting from Low Value to High Value Work</a></li>
+   
                 </ul>
 
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                      <li style="margin-left: 2px;">Senior Travel Officials Council (STOC)</li>
-                    <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="ETSNext Governance (Max Login Required)" target="_blank">ETSNext Governance</A> (Max Login Required)</a></li>
+                      <li style="margin-left: 2px;"><A HREF="https://beta.chcoc.gov/">Federal CHCO Council</A></li>
+                    <li style="margin-left: 2px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance/" title="Multi-Agency Steering Committee" target="_blank">Multi-Agency Steering Committee</a></li>
+  <li style="margin-left: 2px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance" title="Human Resources Line of Business" target="_blank">Human Resources Line of Business</a></li>                    
                 </ul>
                 
-            
-            
+        
                 <hr class="margin-top-auto width-full">
             </div>
         </div>
