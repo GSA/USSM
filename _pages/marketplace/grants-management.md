@@ -163,8 +163,8 @@ Each year, the <B>Federal government distributes over $1 trillion in grants and 
                 </ul>
 
      <p class="margin-top-1 margin-bottom-1"><b>Goals</b></p>
- <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:-5;">
-  <li style="margin-left: -5px"><a href="https://www.performance.gov/pma/businessofgov/strategy/2/" title="Strengthen the Business of Government" target="_blank">PMA 46: Strengthen the Business of Government</a></li>
+ <ul>
+  <li style="margin-left: 1px"><a href="https://www.performance.gov/pma/businessofgov/strategy/2/" title="Strengthen the Business of Government" target="_blank">PMA 46: Strengthen the Business of Government</a></li>
      <li style="margin-left: 1px"><a href="https://trumpadministration.archives.performance.gov/CAP/grants/" title="Results Oriented Accountability for Grants" target="_blank">PMA 45: Results Oriented Accountability for Grants</a></li>
  </ul>
          
