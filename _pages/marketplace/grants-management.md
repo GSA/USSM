@@ -144,7 +144,7 @@ Each year, the <B>Federal government distributes over $1 trillion in grants and 
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
 
 
- <li style="margin-left: -10px;"><a href="https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200" title="2CFR200" 
+ <li style="margin-left: 1px;"><a href="https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200" title="2CFR200" 
                     target="_blank">2CFR200: Uniform Administrative Requirements, Cost Principles, & Audit Requirements for Federal Awards</a></li>
                 
                  
@@ -158,7 +158,7 @@ Each year, the <B>Federal government distributes over $1 trillion in grants and 
 
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                      <li style="margin-left: 2px;"><a href="https://www.coffa.gov" title="Council on Federal Financial Assistance" target="_blank">Council on Federal Financial Assissstance (COFFA)</li>
+                      <li style="margin-left: 2px;"><a href="https://www.coffa.gov" title="Council on Federal Financial Assistance" target="_blank">Council on Federal Financial Assissstance (COFFA)</A></li>
              
                 </ul>
 
