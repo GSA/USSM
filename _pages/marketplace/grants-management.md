@@ -55,7 +55,7 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
                 </div>
     
                  
-<ul class="margin-top-0">
+
                    
                     <UL><li><a href="https://ussm.gsa.gov/fibf-gm/#business_lifecycle" title="Grant Program Administration" target="_blank">Grant Program Administration</a>
                    
@@ -121,7 +121,6 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
           </LI>
           </UL>
                                         
-</UL>                   
 
                 <hr class="margin-top-auto width-full">
             </div>
