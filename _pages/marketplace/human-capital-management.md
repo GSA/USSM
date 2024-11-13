@@ -120,15 +120,14 @@ The Federal government <B>employs over 3 million people</B> in service to our na
                                         
                   <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+
+  <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
                  
-                    <li style="margin-left: 2px;"><a href="https://www.ecfr.gov/current/title-41/subtitle-F" title="Federal Travel Regulation" target="_blank">Federal Travel Regulation (FTR) 41 CFR Subtitle F</a></li>
+                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2023/04/M-23-15.pdf" title="Measuring, Monitoring, and Improving Organizational Health and Organizational Performance in the Context of Evolving Agency Work Environments" target="_blank">Measuring, Monitoring, and Improving Organizational Health and Organizational Performance in the Context of Evolving Agency Work Environments</a></li>
                     <li style="margin-left: 2px;"><a href="https://www.chcoc.gov/sites/default/files/2022-Federal-Workforce-Priorities-Report-FWPR.pdf" title="Federal Workforce Priorities Report" target="_blank">Federal Workforce Priorities Report</a></li>
                     <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2024/08/M-24-16-Improving-the-Federal-Hiring-Experience.pdf" title="Improving the Federal Hiring Experience" target="_blank">M-24-16: Improving the Federal Hiring Experience</a></li>
-                        
-   <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
-
-   <li style="margin-left: 2px;"><a href="https://trumpadministration.archives.performance.gov/CAP/low-value-to-high-value-work/" title="Shifting from Low Value to High Value Work" target="_blank"> Shifting from Low Value to High Value Work</a></li>
-   
+  <li style="margin-left: 2px;"><a href="https://www.performance.gov/pma/workforce/" title="Strengthening and Empowering the Federal Workforce" target="_blank">PMA 46: Strengthening and Empowering the Federal Workforce</a></li>
+   <li style="margin-left: 2px;"><a href="https://trumpadministration.archives.performance.gov/CAP/low-value-to-high-value-work/" title="Shifting from Low Value to High Value Work" target="_blank">PMA 45: Shifting from Low Value to High Value Work</a></li>
                 </ul>
 
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
