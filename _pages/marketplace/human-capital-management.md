@@ -29,7 +29,7 @@ news-category: FIBF-HR
                    <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Capital Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Human Capital Management
                 </h2>
                 <p>
-                   The Office of Personnel Management's <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217">Human Resources Quality Services Management Office</A> is a key avenue to enhance the delivery of agency Human Resources (HR) services. The HR QSMO promotes strong HR stakeholder relationships by fostering a culture of active engagement with agencies, shared service providers, and industry partners. Its mission is to serve the American people as the thought leader on human capital issues and assist agencies in making effective HR IT investment decisions.  
+                   The Office of Personnel Management's <A HREF="https://www.opm.gov/services-for-agencies/human-resources-quality-services-management-office-hr-qsmo/">Human Resources Quality Services Management Office</A> is a key avenue to enhance the delivery of agency Human Resources (HR) services. The HR QSMO promotes strong HR stakeholder relationships by fostering a culture of active engagement with agencies, shared service providers, and industry partners. Its mission is to serve the American people as the thought leader on human capital issues and assist agencies in making effective HR IT investment decisions.  
                 </p>
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the HR QSMO Marketplace" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" CLASS="green-link">Explore the HR QSMO Marketplace</a><BR>
@@ -124,8 +124,7 @@ The Federal government <B>employs over 3 million people</B> in service to our na
 
   <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
                  
-                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2023/04/M-23-15.pdf" title="Measuring, Monitoring, and Improving Organizational Health and Organizational Performance in the Context of Evolving Agency Work Environments" target="_blank">Measuring, Monitoring, and Improving Organizational Health and Organizational Performance in the Context of Evolving Agency Work Environments</a></li>
-                    <li style="margin-left: 2px;"><a href="https://www.chcoc.gov/sites/default/files/2022-Federal-Workforce-Priorities-Report-FWPR.pdf" title="Federal Workforce Priorities Report" target="_blank">Federal Workforce Priorities Report</a></li>
+                    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2023/04/M-23-15.pdf" title="Measuring, Monitoring, and Improving Organizational Health and Organizational Performance in the Context of Evolving Agency Work Environments" target="_blank">M-23-15: Measuring, Monitoring, and Improving Organizational Health and Organizational Performance in the Context of Evolving Agency Work Environments</a></li>
                     <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2024/08/M-24-16-Improving-the-Federal-Hiring-Experience.pdf" title="Improving the Federal Hiring Experience" target="_blank">M-24-16: Improving the Federal Hiring Experience</a></li>
                 </ul>
 
@@ -133,16 +132,15 @@ The Federal government <B>employs over 3 million people</B> in service to our na
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                       <li style="margin-left: 2px;"><A HREF="https://beta.chcoc.gov/">Chief Human Capital Officer's Council</A></li>
                     <li style="margin-left: 2px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance/" title="Multi-Agency Steering Committee" target="_blank">Multi-Agency Steering Committee (MAESC)</a></li>
-  <li style="margin-left: 2px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance" title="Human Resources Line of Business" target="_blank">Human Resources Line of Business (HRLoB)</a></li>                    
+  <li style="margin-left: 2px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance" title="Human Resources Line of Business" target="_blank">Human Resources Line of Business (HRLoB)</a></li>          
+  
                 </ul>
 
 
      <p class="margin-top-1 margin-bottom-1"><b>Goals</b></p>
  <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-  <li style="margin-left: 1px;"><a href="https://www.performance.gov/pma/workforce/" title="Strengthening and Empowering the Federal Workforce" target="_blank">PMA 46: Strengthening and Empowering the Federal Workforce</a></li>
-   <li style="margin-left: 1px;"><a href="https://trumpadministration.archives.performance.gov/CAP/low-value-to-high-value-work/" title="Shifting from Low Value to High Value Work" target="_blank">PMA 45: Shifting from Low Value to High-Value Work</a></li>
-
-   <li style="margin-left: 1px;"><a href="https://trumpadministration.archives.performance.gov/CAP/low-value-to-high-value-work/" title="Shifting from Low Value to High Value Work" target="_blank">PMA 45: Shifting from Low Value to High-Value Work</a></li>
+  <li style="margin-left: -10px"><a href="https://www.performance.gov/pma/workforce/" title="Strengthening and Empowering the Federal Workforce" target="_blank">PMA 46: Strengthening & Empowering the Federal Workforce</a></li>
+     <li style="margin-left: 1px;"><a href="https://trumpadministration.archives.performance.gov/CAP/low-value-to-high-value-work/" title="Shifting from Low Value to High Value Work" target="_blank">PMA 45: Shifting from Low Value to High-Value Work</a></li>
 
    <li style="margin-left: 1px;"><a href="https://obamaadministration.archives.performance.gov/node/3394.html#apg" title="People and Culture" target="_blank">PMA 44: People and Culture</a></li>
 
@@ -185,7 +183,8 @@ The Federal government <B>employs over 3 million people</B> in service to our na
                           title="Workflow Automation Community of Practice">Workflow Automation Community of Practice</A></LI>
                     </UL>
 
-                 
+   <li style="margin-left: 2px;"><a href="https://www.chcoc.gov/sites/default/files/2022-Federal-Workforce-Priorities-Report-FWPR.pdf" title="Federal Workforce Priorities Report" target="_blank">Federal Workforce Priorities Report</a></li>
+        <li style="margin-left: 2px;"><a href="https://www.chcoc.gov/sites/default/files/2022-Federal-Workforce-Priorities-Report-FWPR.pdf" title="Federal Workforce Priorities Report" target="_blank">Workforce of The Future Playbook</a></li>                 
              
             </div>
         </div>
