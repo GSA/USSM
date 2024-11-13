@@ -21,8 +21,8 @@ capabilities-source-document: assets/files/downloads/Finance_Excel/business_capa
 capabilities-json-api: /business-standards-api/fm/capabilities/
 use-cases-content: fm/use-cases.html
 data-elements-content: fm/data-elements.html
-capabilities-source-document-type: pdf
-lifecycle-source-document-type: pdf
+capabilities-source-document-type: xls
+lifecycle-source-document-type: xls
 metrics-content: fm/performance-metrics.html
 performance-metrics-pdf: assets/files/downloads/Finance_Excel/service_measures_2025.xlsx
 intro-extra: fm/intro-extra.html
