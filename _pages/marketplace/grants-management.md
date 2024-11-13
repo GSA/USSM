@@ -144,7 +144,7 @@ Each year, the <B>Federal government distributes over $1 trillion in grants and 
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
 
 
- <li style="margin-left: 1px;"><a href="https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200" title="2CFR200" 
+ <li style="margin-left: -10px;"><a href="https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200" title="2CFR200" 
                     target="_blank">2CFR200: Uniform Administrative Requirements, Cost Principles, & Audit Requirements for Federal Awards</a></li>
                 
                  
@@ -158,11 +158,16 @@ Each year, the <B>Federal government distributes over $1 trillion in grants and 
 
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                      <li style="margin-left: 2px;">Senior Travel Officials Council (STOC)</li>
-                    <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="ETSNext Governance (Max Login Required)" target="_blank">ETSNext Governance</A> (Max Login Required)</a></li>
+                      <li style="margin-left: 2px;"><a href="https://www.coffa.gov" title="Council on Federal Financial Assistance" target="_blank">Council on Federal Financial Assissstance (COFFA)</li>
+             
                 </ul>
-                
-            
+
+     <p class="margin-top-1 margin-bottom-1"><b>Goals</b></p>
+ <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+  <li style="margin-left: -10px"><a href="https://www.performance.gov/pma/businessofgov/strategy/2/" title="Strengthen the Business of Government" target="_blank">PMA 46: Strengthen the Business of Government</a></li>
+     <li style="margin-left: -10px"><a href="https://trumpadministration.archives.performance.gov/CAP/grants/" title="Results Oriented Accountability for Grants" target="_blank">PMA 45: Results Oriented Accountability for Grants</a></li>
+ </ul>
+         
             
                 <hr class="margin-top-auto width-full">
             </div>
@@ -186,7 +191,7 @@ Each year, the <B>Federal government distributes over $1 trillion in grants and 
 
                          
                          <LI><A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html" title="Grants QSMO Homepage">Grants QSMO Homepage</A></LI>
-                            <LI><A HREF="https://www.grants.gov/data-standards" title="Finalized Grants Data Standards and Guidance">Finalized Grants Data Standards & Guidance</A> <A HREF="mailto:GrantsDataStandards@hhs.gov">GrantsDataStandards@hhs.gov</A></LI>
+                            <LI><A HREF="https://www.grants.gov/data-standards" title="Finalized Grants Data Standards and Guidance">Finalized Grants Data Standards & Guidance</A> | <A HREF="mailto:GrantsDataStandards@hhs.gov">GrantsDataStandards@hhs.gov</A></LI>
                          <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" title="Federal Grants Systems Hub">Federal Grants Systems Hub (Interactive Dashboard)</A></LI>
      <LI><A HREF="https://www.fac.gov/" title="Federal Grants Systems Hub">Federal Audit Clearinghouse</A></LI>
                         
