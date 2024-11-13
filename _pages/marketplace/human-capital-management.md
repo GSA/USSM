@@ -51,7 +51,7 @@ The HR QSMO will help (1) agencies modernize human capital management faster thr
                 </div>
     
                    Enabling
-<ul class="margin-top-0">
+<ul class="margin-top-2">
                    
                     <li><a href="https://ussm.gsa.gov/fibf-hr-hcs/#business_lifecycle" title="Strategy, Policies, & Operation Plan" target="_blank">Human Capital Strategy, Policies, & Operation Plan</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-hr-hce/#business_lifecycle" title="Human Capital Evaluations">Human Capital Evaluations</a></li>
