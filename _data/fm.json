@@ -40,6 +40,11 @@
              "Description": "Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments (e.g., depreciation, impairment)"
          },
          {
+            "Identifier": "FFM.020.040",
+            "Activity": "Financial Asset Information Processing - Federal Oil and Gas Resources",
+            "Description": "Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments"
+         },
+         {
              "Identifier": "FFM.020.050",
              "Activity": "Financial Asset Information Processing - Other Federal Assets",
              "Description": "Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments; Includes financial asset information processing for operating materials and supplies, seized and forfeited assets, and investments in Treasury securities"
@@ -48,11 +53,6 @@
              "Identifier": "FFM.020.060",
              "Activity": "Financial Asset Information Reporting",
              "Description": "Provide financial asset information (e.g., asset type, value) for financial reporting and reconciliation with information in the asset management systems"
-         },
-         {
-             "Identifier": "FFM.020.040",
-             "Activity": "Financial Asset Information Processing - Federal Oil and Gas Resources",
-             "Description": "Record aggregated or discrete financial asset information including asset type, category, value, and value adjustments"
          }
      ]
        },
