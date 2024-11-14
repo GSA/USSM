@@ -71,8 +71,12 @@ This template is for a single page that does not have a date associated with it.
         <div class="grid-col">
           <ul class="usa-button-group">
             {% if page.lifecycle-pdf %}
-            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.lifecycle-pdf}}" class="usa-button usa-button--accent-cool text-white">Federal
-              Business Lifecycle</a></li>
+            <li class="usa-button-group__item"><a class="usa-button usa-button--accent-cool text-white" 
+              href="{{ site.baseurl }}/{{ page.lifecycle-pdf }}" 
+              download="{{ page.lifecycle-pdf | basename }}">
+              Federal Business Lifecycle
+           </a>
+           </li>
             {% endif %}
             {% if page.capabilities-pdf %}
             <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.capabilities-pdf}}" class="usa-button usa-button--accent-cool text-white">Business
@@ -114,17 +118,21 @@ This template is for a single page that does not have a date associated with it.
           <p><i>Functions: Breakdown of a functional area into categories of services provided to customers.</i></p>
           <p><i>Activities: Within a function, processes that provide identifiable outputs/outcomes to customers are defined as activities.</i></p>
           <ul>
-          {% if page.lifecycle-source-document %}
-              <li>
-                <img src="{{ site.baseurl }}/assets/images/icon.{{page.lifecycle-source-document-type}}.webp" valign="middle" alt="{{page.lifecycle-source-document-type}}">
-                <a href="{{ site.baseurl }}/{{page.lifecycle-source-document}}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
-            </li>
+            {% if page.lifecycle-source-document %}
+                <li>
+                    <img src="{{ site.baseurl }}/assets/images/icon.{{ page.lifecycle-source-document-type }}.webp" valign="middle" alt="{{ page.lifecycle-source-document-type }}">
+                    {% if page.lifecycle-source-document | endswith: '.xlsx' %}
+                        <a href="{{ site.baseurl }}/{{ page.lifecycle-source-document }}" download="{{ page.lifecycle-source-document | basename }}">{{ page.sub-title }} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
+                    {% else %}
+                        <a href="{{ site.baseurl }}/{{ page.lifecycle-source-document }}">{{ page.sub-title }} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
+                    {% endif %}
+                </li>
             {% endif %}
-
+        
             {% if page.lifecycle-json-api %}
-            <li>
-              <a href="{{ site.baseurl }}{{ page.lifecycle-json-api }}">{{page.sub-title}} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
-            </li>
+                <li>
+                    <a href="{{ site.baseurl }}{{ page.lifecycle-json-api }}">{{ page.sub-title }} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
+                </li>
             {% endif %}
           </ul>
         </div>
@@ -154,7 +162,7 @@ This template is for a single page that does not have a date associated with it.
                 <a href="{{ site.baseurl }}/{{page.capabilities-source-document}}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
               </li>
               {% if page.capabilities-json-api %}
-              <li>
+              <li style="white-space: normal !important; word-wrap: break-word !important;">
                 <a href="{{ site.baseurl }}{{ page.capabilities-json-api }}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
               </li>
               {% endif %}
@@ -165,14 +173,19 @@ This template is for a single page that does not have a date associated with it.
         {% if page.capabilities-content %}
           <div class="desktop:grid-col-12">
             <div class="usa-accordion usa-accordion--bordered margin-y-5">
-              <div><button class="usa-accordion__button" aria-expanded="true" aria-controls="capabilities"><img src="{{site.baseurl}}/assets/images/compass-regular.webp" alt="Business Capabilities Navigation" style="width:32px;vertical-align: middle;margin-right: 10px;margin-top: -3px;">Business Capabilities Explorer</button>
-                <div id="capabilities" class="usa-accordion__content usa-prose">
+              <div>
+                <button class="usa-accordion__button" aria-expanded="true" aria-controls="capabilities">
+                  <img src="{{site.baseurl}}/assets/images/compass-regular.webp" alt="Business Capabilities Navigation" style="width:32px; vertical-align: middle; margin-right: 10px; margin-top: -3px;">
+                  Business Capabilities Explorer
+                </button>
+                <div id="capabilities" class="usa-accordion__content usa-prose" style="white-space: normal !important;">
                   {% include {{ page.capabilities-content }} %}
                 </div>
               </div>
             </div>
           </div>
         {% endif %}
+
 
         <p><a class="text-primary" style="display:flex; justify-content:flex-end;"  href="#top">Back to top</a></p>
         </div>
