@@ -1027,18 +1027,18 @@
     }
     ],
    "Business_Use_Cases":{
-      "FFM Use Case Library Overview":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases Overview_FY 2024 Release.pdf",
-      "FFM Use Cases 010 Budget Formulation-to-Execution":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 010 Budget Formulation-to-Execution_FY 2024 Release.pdf",
-      "FFM Use Cases 020 Acquire-to-Dispose":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 020 Acquire-to-Dispose_FY 2024 Release.pdf",
-      "FFM Use Cases 030 Request-to-Procure":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 030 Request-to-Procure_FY 2024 Release.pdf",
-      "FFM Use Cases 040 Procure-to-Pay":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 040 Procure-to-Pay_FY 2024 Release.pdf",
-      "FFM Use Cases 050 Bill-to-Collect":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 050 Bill-to-Collect_FY 2024 Release.pdf",
-      "FFM Use Cases 060 Record-to-Report":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 060 Record-to-Report_FY 2024 Release.pdf",
-      "FFM Use Cases 070 Agree-to-Reimburse":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 070 Agree-to-Reimburse_FY 2024 Release.pdf",
-      "FFM Use Cases 080 Apply-to-Perform":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 080 Apply-to-Perform_FY 2024 Release.pdf",
-      "FFM Use Cases 090 Hire-to-Retire":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 090 Hire-to-Retire_FY 2024 Release.pdf",
-      "FFM Use Cases 100 Book-to-Reimburse":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 100 Book-to-Reimburse_FY 2024 Release.pdf",
-      "FFM Use Cases 110 Apply-to-Repay":"/assets/files/downloads/fm/FMCF-2_FFM Business Use Cases 110 Apply-to-Repay_Release FY2024_Tech Edit.pdf"
+      "FFM Business Use Cases Overview":"/assets/files/ussm_fin_mgmt/FFM Business Use Cases Overview.pdf",
+      "FFM Use Cases 010 Budget Formulation-to-Execution":"/assets/files/ussm_fin_mgmt/FFM Business Use Cases 010 Budget Formulation-to-Execution.pdf",
+      "FFM Use Cases 020 Acquire-to-Dispose":"/assets/files/ussm_fin_mgmt/FFM Business Use Cases 020 Acquire-to-Dispose.pdf",
+      "FFM Use Cases 030 Request-to-Procure":"/assets/files/ussm_fin_mgmt/FFM Business Use Cases 030 Request-to-Procure.pdf",
+      "FFM Use Cases 040 Procure-to-Pay":"/assets/files/ussm_fin_mgmt/FFM Business Use Cases 040 Procure-to-Pay.pdf",
+      "FFM Use Cases 050 Bill-to-Collect":"/assets/files/ussm_fin_mgmt/FFM Business Use Cases 050 Bill-to-Collect.pdf",
+      "FFM Use Cases 060 Record-to-Report":"/assets/files/ussm_fin_mgmt/FFM Business Use Cases 060 Record-to-Report.pdf",
+      "FFM Use Cases 070 Agree-to-Reimburse":"/assets/files/ussm_fin_mgmt/FFM Business Use Cases 070 Agree-to-Reimburse.pdf",
+      "FFM Use Cases 080 Apply-to-Perform":"/assets/files/ussm_fin_mgmt/FFM Business Use Cases 080 Apply-to-Perform.pdf",
+      "FFM Use Cases 090 Hire-to-Retire":"/assets/files/ussm_fin_mgmt/FFM Business Use Cases 090 Hire-to-Retire.pdf",
+      "FFM Use Cases 100 Book-to-Reimburse":"/assets/files/ussm_fin_mgmt/FFM Business Use Cases 100 Book-to-Reimburse.pdf",
+      "FFM Use Cases 110 Apply-to-Repay":"/assets/files/ussm_fin_mgmt/FFM Business Use Cases 110 Apply-to-Repay.pdf"
    },
  "Standard_Data_Elements": {
    "Federal Financial Management Standard Data Elements": "/assets/files/downloads/Finance_Excel/business_data_elements_2025.xlsx"
