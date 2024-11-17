@@ -2,7 +2,7 @@
 layout: base
 permalink: /marketplace/qsmo-ffm/
 title: Financial Management
-description: "Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer. Federal agencies currently manage over $6.5 trillion in annual spending."
+description: "Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer. Federal agencies currently manage over $6.7 trillion in annual spending."
 news-category: FIBF-FM 
 ---
 
@@ -215,7 +215,7 @@ news-category: FIBF-FM
                 </div>
              
                   <p>
-                    Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Federal agencies currently manage over $6.5 trillion in annual spending.  Common goals and objectives include:
+                    Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Federal agencies manage <B>over $6.7 trillion in annual spending</B>.  Common goals and objectives include:
                 </p>
                 <ul class="margin-top-0">
                     <li>Improving Financial Transparency</li>
@@ -225,6 +225,7 @@ news-category: FIBF-FM
                     <li>Automating Financial Processes</li>
                     <li>Using Data to Maximize Resource Allocation</li>
                 </ul>
+Shared and centralized approaches to Federal Financial Management will improve the likelihood of agency success in participating Federal Financial Management priorities, particularly as it relates to the availability of data to improve transparency and strategic decision-making, increased agency access to expertise and advanced technologies, greater cost-effectiveness and resource optimization, and improved efficiency and reduced risk.
                 
      
                 <hr class="margin-top-auto width-full">
