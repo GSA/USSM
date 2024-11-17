@@ -206,6 +206,36 @@ news-category: FIBF-FM
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
 
+
+    <h2 class="margin-bottom-0 margin-top-0">
+                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
+                        Why does it matter?
+                    </h2>
+                </div>
+             
+                  <p>
+                    Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Federal agencies currently manage over $6.5 trillion in annual spending.  Common goals and objectives include:
+                </p>
+                <ul class="margin-top-0">
+                    <li>Improving Financial Transparency</li>
+                    <li>Enhancing Internal Controls to Reduce Risk</li>
+                    <li>Integrating Performance and Budgeting</li>
+                    <li>Strengthening Payment Integrity</li>
+                    <li>Automating Financial Processes</li>
+                    <li>Using Data to Maximize Resource Allocation</li>
+                </ul>
+     
+                <hr class="margin-top-auto width-full">
+            </div>
+        </div>
+        <div class="grid-row">
+            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
+                <div class="display-flex flex-align-center">
+                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
+  
+
+<!-- Why does it matter text -->
+
   <img src="/assets/images/marketplace/icon_standards.png" alt="Data and Business Standards" height="auto" style="vertical-align:middle;">
                         Data and Business Standards                 
                     </h2>
@@ -225,33 +255,7 @@ news-category: FIBF-FM
                     <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Financial / Performance Reporting</a></li>
 
 </ul>
-
-     
-                <hr class="margin-top-auto width-full">
-            </div>
-        </div>
-        <div class="grid-row">
-            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
-                <div class="display-flex flex-align-center">
-                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
-                    <h2 class="margin-bottom-0 margin-top-0">
-                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
-                        Why does it matter?
-                    </h2>
-                </div>
-             
-                  <p>
-                    Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Federal agencies currently manage over $6.5 trillion in annual spending.  Common goals and objectives include:
-                </p>
-                <ul class="margin-top-0">
-                    <li>Improving Financial Transparency</li>
-                    <li>Enhancing Internal Controls to Reduce Risk</li>
-                    <li>Integrating Performance and Budgeting</li>
-                    <li>Strengthening Payment Integrity</li>
-                    <li>Automating Financial Processes</li>
-                    <li>Using Data to Maximize Resource Allocation</li>
-                </ul>
-                
+                                
 
                 <hr class="margin-top-auto width-full">
             </div>
