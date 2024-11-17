@@ -34,10 +34,13 @@ news-category: FIBF-FM
                 <p>
                     The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the FM Marketplace Catalog as a resource for agencies to identify and research from over 70 services and solutions that can support their financial management needs to accomplish both agency and shared government-wide goals.
                 </p>
+
+              Find solutions and get help here:
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the FM Marketplace Catalog" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank" class="green-link">Explore the FM Marketplace Catalog</a><BR>
   <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="FM Marketplace Acquisition Hub" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4215" title="FM Marketplace Acquisition Hub" target="_blank">Hub for Acquisition Professionals</a><BR>
-                 <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the FM QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a><BR>
+            
+                 <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the FM QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:FMQSMO@fiscal.treasury.gov" title="Contact the FM QSMO" target="_blank">FMQSMO@fiscal.treasury.gov</a> | <A HREF="https://tfx.treasury.gov/fmqsmo">Treasury FM QSMO Website</A><BR>
                 </ul>
 
 
@@ -225,9 +228,9 @@ news-category: FIBF-FM
                     <li>Automating Financial Processes</li>
                     <li>Using Data to Maximize Resource Allocation</li>
                 </ul>
-A shared and centralized approach to Federal Financial Management will improve the likelihood of agency success in delivering on the administration's Federal Financial Management priorities, particularly as it relates to (1) the availability of data to improve transparency, accountability and strategic decision-making in Federal spending, (2) increase agency access to expertise and advanced technologies, (3) drive greater cost-effectiveness and resource optimization, (4) improve management efficiency and reduce risk.
-                
-     
+
+A common set of high-performing solutions and services to support delivery on agency Federal Financial Management requirements will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending, (3) driving greater cost-effectiveness in agency resource optimization, (4) improve management efficiency and reduce risk.
+                    
                 <hr class="margin-top-auto width-full">
             </div>
         </div>
