@@ -262,7 +262,7 @@ Increase likelihood of agency success in adopting common solutions, improve publ
                     <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">General Ledger Management</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle" target="_blank">Financial Reconciliation</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Financial / Performance Reporting</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Standard Data Elements for Federal Financial Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#standard_data_elements" title="Business Lifecycle">Standard Data Elements for Federal Financial Management</a></li>
 
 </ul>
 You may also be interested in:<BR>
