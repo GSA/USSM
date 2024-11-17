@@ -243,7 +243,7 @@ news-category: FIBF-FM
                     </h2>
                 </div>
                 
-Increase the likelihood of agency success in adopting shared and centralized services, improve public sector engagement with industry in deploying native commercial approaches, and improve the availability of data for strategic decision-making in Federal Financial Management.
+Increase likelihood of agency success in adopting common solutions, improve public sector engagement with industry in deploying native commercial approaches, and improve availability of data for strategic decision-making in Federal Financial Management.
 
     <ul class="margin-top-2">
                     <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Budget Execution" target="_blank">Budget Execution</a></li>
