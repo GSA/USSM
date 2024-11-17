@@ -225,7 +225,7 @@ news-category: FIBF-FM
                     <li>Automating Financial Processes</li>
                     <li>Using Data to Maximize Resource Allocation</li>
                 </ul>
-Shared and centralized approaches to Federal Financial Management will improve the likelihood of agency success in participating Federal Financial Management priorities, particularly as it relates to the availability of data to improve transparency and strategic decision-making, increased agency access to expertise and advanced technologies, greater cost-effectiveness and resource optimization, and improved efficiency and reduced risk.
+A shared and centralized approach to Federal Financial Management will improve the likelihood of agency success in delivering on the administration's Federal Financial Management priorities, particularly as it relates to (1) the availability of data to improve transparency, accountability and strategic decision-making in Federal spending, (2) increase agency access to expertise and advanced technologies, (3) drive greater cost-effectiveness and resource optimization, (4) improve management efficiency and reduce risk.
                 
      
                 <hr class="margin-top-auto width-full">
