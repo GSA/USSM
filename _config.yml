@@ -297,12 +297,12 @@ primary_navigation:
       show_in_menu: true
       show_in_footer: false
       show_button_style: true
-    - text: 'Dev Hub'
-      href: pages/resources.md
-      permalink: /marketplace/
-      show_in_menu: true
-      show_in_footer: false
-      show_button_style: true
+  #  - text: 'Dev Hub'
+  #    href: pages/resources.md
+  #    permalink: /marketplace/
+  #    show_in_menu: true
+  #    show_in_footer: false
+  #    show_button_style: true
     # - text: 'Marketplace'
     #   href: pages/resources.md
     #   permalink: /marketplace/
