@@ -204,13 +204,8 @@ news-category: FIBF-FM
             <div class="tablet:grid-col-5 padding-top-4 display-flex flex-column">
            
      <!-- Data and Business Standards -->
-
-     
-                <hr class="margin-top-auto width-full">
-            </div>
-        </div>
-        <div class="grid-row">
-            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
+            
+                
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
@@ -231,6 +226,43 @@ news-category: FIBF-FM
                     <li>Using Data to Maximize Resource Allocation</li>
                 </ul>
                 
+     
+                <hr class="margin-top-auto width-full">
+            </div>
+        </div>
+        <div class="grid-row">
+            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
+          
+                
+                     <div class="display-flex flex-align-center">
+                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
+                    <h2 class="margin-bottom-0 margin-top-0">
+
+  <img src="/assets/images/marketplace/icon_standards.png" alt="Data and Business Standards" height="auto" style="vertical-align:middle;">
+                        Data and Business Standards                 
+                    </h2>
+                </div>
+                
+Increase the likelihood of agency success in adopting shared and centralized services, improve public sector engagement with industry in deploying native commercial approaches, and improve the availability of data for strategic decision-making in Federal Financial Management.
+
+    <ul class="margin-top-2">
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Budget Execution" target="_blank">Budget Execution</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Financial Asset and Information Management">Financial Asset and Information Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Payable Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Revenue Management">Revenue Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Receivable and Collection Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Delinquent Debt Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Cost Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">General Ledger Management</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle" target="_blank">Financial Reconciliation</a></li>
+                    <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Business Lifecycle">Financial / Performance Reporting</a></li>
+
+</ul>
+
+                
+                
+                
+
 
                 <hr class="margin-top-auto width-full">
             </div>
