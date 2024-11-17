@@ -298,7 +298,7 @@ primary_navigation:
       show_in_footer: false
       show_button_style: true
       - text: 'Dev Hub'
-      href: pages/resources.md
+      href: pages/team.md
       permalink: /automate/
       show_in_menu: true
       show_in_footer: false
