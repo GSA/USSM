@@ -229,7 +229,7 @@ news-category: FIBF-FM
                     <li>Using Data to Maximize Resource Allocation</li>
                 </ul>
 
-A common set of high-performing solutions and services to support delivery on agency Federal Financial Management requirements will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending, (3) driving greater cost-effectiveness in agency resource optimization, (4) improve management efficiency and reduce risk.
+The availability of a high-performing marketplace of expertise and advanced technologies to support delivery on agency Federal Financial Management needs will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending (3) increase agency cost-effectiveness in resource optimization and (4) improve management efficiency and reduce risk.
                     
                 <hr class="margin-top-auto width-full">
             </div>
