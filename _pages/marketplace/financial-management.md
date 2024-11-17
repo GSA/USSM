@@ -210,7 +210,8 @@ news-category: FIBF-FM
                         Data and Business Standards                 
                     </h2>
                 </div>
-
+                
+Increase the likelihood of success in adopting shared and centralized services, improve public sector engagement with industry in deploying commercial approaches.
 
     <ul class="margin-top-2">
                     <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Budget Execution" target="_blank">Budget Execution</a></li>
