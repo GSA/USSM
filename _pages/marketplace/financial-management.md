@@ -229,7 +229,7 @@ news-category: FIBF-FM
                     <li>Using Data to Maximize Resource Allocation</li>
                 </ul>
 
-A high-performing marketplace of the expertise and advanced technologies needed to support delivery on the needs of Federal Financial Management will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending (3) increase agency cost-effectiveness in resource optimization and (4) improve management efficiency and reduce risk.
+A high-performing marketplace of the expertise and advanced technologies needed to support delivery on the needs of agency Federal Financial Management will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending (3) increase agency cost-effectiveness in resource optimization and (4) improve management efficiency and reduce risk.
 <BR><BR>
 <sup>1 Source:<A HREF="https://www.cbo.gov/topics/budget">Congressional Budget Office, 2024</A></sup>
                     
@@ -249,7 +249,7 @@ A high-performing marketplace of the expertise and advanced technologies needed 
                     </h2>
                 </div>
                 
-Standardization increases the likelihood of agency success in adopting modern solutions, improves public sector engagement with industry in procuring and deploying commercial approaches, and avails decision-makers with the data needed to support strategic decision-making in Federal Financial Management.
+Standardization increases the likelihood of agency success in adopting modern solutions, improve public-private partnerships with industry in procuring and deploying commercial approaches, and avails decision-makers with the consistent data needed to support strategic decision-making in Federal Financial Management.
 
     <ul class="margin-top-2">
                     <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Budget Execution" target="_blank">Budget Execution</a></li>
