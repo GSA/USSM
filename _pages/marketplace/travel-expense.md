@@ -61,18 +61,18 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
                 </div>
              
                   <p>
-Streamlined travel processes minimize administrative burden, allowing workforce to focus on core responsibilities instead of navigating complex and inefficient travel logistics. Travel is often necessary to perform mission-critical tasks, such as providing oversight of agency work, conducting an inspection or investigation, or responding to emergencies.  Travelers should be able to book arrangements in a manner that efficiently leverages negotiated rates and contracts (e.g. <A HREF="https://www.gsa.gov/travel/plan-a-trip/transportation-airfare-rates-pov-rates-etc/airfare-rates-city-pair-program" title="GSA's City-Pair Program">GSA's City-Pair Program</A>). 
+Streamlined travel processes minimize administrative burden, allowing workforce to focus on core responsibilities instead of navigating complex, inefficient travel logistics. Travel is often necessary to perform mission-critical tasks, such as providing oversight of agency work, conducting an inspection or investigation, or responding to emergencies.  Travelers should be able to book arrangements in a way that efficiently leverages negotiated rates and contracts (e.g. <A HREF="https://www.gsa.gov/travel/plan-a-trip/transportation-airfare-rates-pov-rates-etc/airfare-rates-city-pair-program" title="GSA's City-Pair Program">GSA's City-Pair Program</A>). 
 <BR><BR>
-A centralized approach provides visibility into spending, ensuring alignment with Federal Travel Regulations (FTR) and audit requirements creating the transparency needed to sustain public trust by delivering and demonstrating responsible stewardship of taxpayer funds. This approach will:
+A centralized approach provides visibility into spending, ensuring alignment with Federal Travel Regulations (FTR) and audit requirements creating the transparency needed to sustain public trust by delivering and demonstrating responsible stewardship of taxpayer funds. This approach:
 
 <ul> 
-<LI>Reduce Technology Duplication and Cost</LI>
-<LI>Increase Transaction Cost Efficiency</LI>
-<LI>Improve Interoperability through Standardization</LI>
-<LI>Lower Agency Administrative Burden</LI>
-<LI>Improve Employee Response in Mission Delivery</LI>
-<LI>Drive Security and Compliance</LI>
-<LI>Create Transparency through Data</LI>
+<LI>Reduces Technology Duplication and Cost</LI>
+<LI>Increases Transaction Cost Efficiency</LI>
+<LI>Improves Interoperability through Standardization</LI>
+<LI>Lowers Agency Administrative Burden</LI>
+<LI>Improves Employee Response in Mission Delivery</LI>
+<LI>Drives Security and Compliance</LI>
+<LI>Creates Transparency through Data</LI>
 
 </ul>
 
