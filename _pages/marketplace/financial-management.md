@@ -249,7 +249,7 @@ A high-performing marketplace of the expertise and advanced technologies needed 
                     </h2>
                 </div>
                 
-Increase likelihood of agency success in adopting common solutions, improve public sector engagement with industry in deploying native commercial approaches, and improve availability of data for strategic decision-making in Federal Financial Management.
+Standardization increases the likelihood of agency success in adopting modern solutions, improves public sector engagement with industry in procuring and deploying commercial approaches, and avails decision-makers with the data needed to support strategic decision-making in Federal Financial Management.
 
     <ul class="margin-top-2">
                     <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Budget Execution" target="_blank">Budget Execution</a></li>
@@ -266,13 +266,13 @@ Increase likelihood of agency success in adopting common solutions, improve publ
 
 </ul>
 You may also be interested in:<BR>
-   <ul class="margin-top-2">
+<I>   <ul class="margin-top-2">
  <li><a href="https://tfx.treasury.gov/fmqsmo/fmcf" title="Federal Financial Management Capability Framework">Federal Financial Management Capability Framework</a></li>
-   </ul>
+   </ul></I>
 
                 
                 
-                
+               
 
 
                 <hr class="margin-top-auto width-full">
