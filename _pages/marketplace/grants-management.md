@@ -74,7 +74,7 @@ Each year, the <B>Federal government distributes over $1 trillion in grants and 
   <LI>Availability of Data for Strategic Decision Making</LI>
 <LI>Promoting Interagency Collaboration</LI>
 
-                </ul>
+                </ul><BR>
 <SUP>1 Source: <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">Grants QSMO</A> Department of Health and Human Services</SUP><BR>
 
          
