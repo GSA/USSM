@@ -71,8 +71,8 @@ A centralized approach provides visibility into spending, ensuring alignment wit
 <LI>Improves Interoperability through Standardization</LI>
 <LI>Lowers Agency Administrative Burden</LI>
 <LI>Improves Employee Response in Mission Delivery</LI>
-<LI>Drives Security and Compliance</LI>
-<LI>Creates Transparency through Data</LI>
+<LI>Enhances Security and Compliance</LI>
+<LI>Drives Transparency through Standardized Data</LI>
 
 </ul>
 
