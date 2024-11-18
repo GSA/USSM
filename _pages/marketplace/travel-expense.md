@@ -110,6 +110,11 @@ Standardization increases the likelihood of agency success in partnering with in
                     <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Regulatory Reporting">Regulatory Reporting</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Management Reporting and Analysis" target="_blank">Management Reporting and Analysis</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Policy Management and Audit">Policy Management and Audit</a></li>
+      <li><a href="https://ussm.gsa.gov/fibf-travel/#standard_data_elements" title="Travel - Standard Data Elements">Standard Data Elements</a></li>
+
+
+
+                    
 
 </ul>
 
