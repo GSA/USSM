@@ -45,11 +45,6 @@ news-category: FIBF-TRT
 eGov Travel Services have unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. ETS has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars.
 
 
-
-                </ul>
- 
-
-
              <P></P>
               
                 <hr class="margin-top-auto width-full">
