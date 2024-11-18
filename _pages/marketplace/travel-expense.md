@@ -66,9 +66,9 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
                 </div>
              
                   <p>
-Travel is often necessary to perform mission-critical tasks, such as responding to natural disasters, conducting inspections, or participating in international negotiations. Streamlined travel processes minimize administrative burdens, allowing workforce to focus on their core responsibilities instead of navigating complex or inefficient travel logistics.  In emergencies, such as public health crises or national security events, responders must be able to mobilize quickly, making arrangements quickly and in a manner that efficiently leverages negotiated rates and contracts (e.g. GSA's City-Pair Program). 
+Streamlined travel processes minimize agency administrative burden, allowing workforce to focus on core responsibilities instead of navigating complex and inefficient travel logistics. Travel is often necessary to perform mission-critical tasks, such as providing oversight of agency work, conducting an inspection or investigation, or participating in international negotiations.  In emergencies, responders must be able to mobilize quickly, booking travel arrangements in a manner that efficiently leverages negotiated rates and contracts (e.g. GSA's City-Pair Program). 
 <BR><BR>
-Centralized approaches to Travel provide better visibility into expenditures, ensuring alignment with Federal Travel Regulations (FTR) and audit requirements to create the transparency needed to sustain public trust by both delivering and demonstrating responsible stewardship of taxpayer funds. This centralized approach will:
+A shared services approach to travel provides better visibility into spending, ensuring alignment with Federal Travel Regulations (FTR) and audit requirements to create the transparency needed to sustain public trust by both delivering and demonstrating responsible stewardship of taxpayer funds in government travel activity. This approach will:
 
 <ul> 
 <LI>Reduce Technology Duplication and Cost</LI>
