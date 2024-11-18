@@ -11,7 +11,7 @@ news-category: FIBF-TRT
 
 <style>
   a.green-link {
-    color: #008000; /* Green color */
+    color: #D83933; /* Red color */
   }
 </style>
 
@@ -48,7 +48,42 @@ news-category: FIBF-TRT
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 padding-top-4 display-flex flex-column">
-                <div class="display-flex flex-align-center">
+            
+                
+                                <div class="display-flex flex-align-center">
+                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
+                    <h2 class="margin-bottom-0 margin-top-0">
+                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
+                        Why does it matter?
+                    </h2>
+                </div>
+             
+                  <p>
+
+eGov Travel Services have unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. ETS has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars. Key tenants of this initiative will improve:
+</p>
+
+<ul> 
+<LI>Reductions to Travel System Duplication and Cost</LI>
+<LI>Interoperability and Data Standardization</LI>
+<LI>Transaction Efficiency and Reduce Administrative Burden</LI>
+<LI>Employee Experience in Support of Mission Delivery</LI>
+<LI>Security and Compliance</LI>
+
+                </ul>
+                
+                
+              
+
+     
+                <hr class="margin-top-auto width-full">
+            </div>
+        </div>
+        <div class="grid-row">
+            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
+
+<!-- why it matters -->
+  <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
 
@@ -73,33 +108,6 @@ news-category: FIBF-TRT
 
 </ul>
 
-     
-                <hr class="margin-top-auto width-full">
-            </div>
-        </div>
-        <div class="grid-row">
-            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
-                <div class="display-flex flex-align-center">
-                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
-                    <h2 class="margin-bottom-0 margin-top-0">
-                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
-                        Why does it matter?
-                    </h2>
-                </div>
-             
-                  <p>
-
-eGov Travel Services have unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. ETS has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars. Key tenants of this initiative will improve:
-</p>
-
-<ul> 
-<LI>Reductions to Travel System Duplication and Cost</LI>
-<LI>Interoperability and Data Standardization</LI>
-<LI>Transaction Efficiency and Reduce Administrative Burden</LI>
-<LI>Employee Experience in Support of Mission Delivery</LI>
-<LI>Security and Compliance</LI>
-
-                </ul>
 
                 <hr class="margin-top-auto width-full">
             </div>
