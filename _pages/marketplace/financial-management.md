@@ -229,9 +229,9 @@ news-category: FIBF-FM
                     <li>Using Data to Maximize Resource Allocation</li>
                 </ul>
 
-The availability of a high-performing marketplace of expertise and advanced technologies to support delivery on agency Financial Management needs will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending (3) increase agency cost-effectiveness in resource optimization and (4) improve management efficiency and reduce risk.
-<BR>
-<sup>1</sup>Source:<A HREF="https://www.cbo.gov/topics/budget">Congressional Budget Office, 2024</A>
+A high-performing marketplace of the expertise and advanced technologies needed to support delivery on the needs of Federal Financial Management will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending (3) increase agency cost-effectiveness in resource optimization and (4) improve management efficiency and reduce risk.
+<BR><BR>
+<sup>1</sup>Source:<A HREF="https://www.cbo.gov/topics/budget" STYLE="font-size:7px;">Congressional Budget Office, 2024</A>
                     
                 <hr class="margin-top-auto width-full">
             </div>
