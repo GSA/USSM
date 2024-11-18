@@ -67,18 +67,19 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
              
                   <p>
 Travel is often necessary to perform mission-critical tasks, such as responding to natural disasters, conducting inspections, or participating in international negotiations. Streamlined travel processes minimize administrative burdens, allowing workforce to focus on their core responsibilities instead of navigating complex or inefficient travel logistics.  In emergencies, such as public health crises or national security events, responders must be able to mobilize quickly, making arrangements quickly and in a manner that efficiently leverages negotiated rates and contracts (e.g. GSA's City-Pair Program). 
-
-Centralized approaches to Travel provide better visibility into expenditures, ensuring alignment with Federal Travel Regulations (FTR) and audit requirements to create the transparency needed to sustain public trust by both delivering and demonstrating responsible stewardship of taxpayer funds. These approaches:
+<BR><BR>
+Centralized approaches to Travel provide better visibility into expenditures, ensuring alignment with Federal Travel Regulations (FTR) and audit requirements to create the transparency needed to sustain public trust by both delivering and demonstrating responsible stewardship of taxpayer funds. This centralized approach will:
 
 <ul> 
-<LI>Reduce Travel System Duplication and Technology Costs</LI>
+<LI>Reduce Technology Duplication and Cost</LI>
+<LI>Increase Transaction Cost Efficiency</LI>
 <LI>Improve Interoperability through Standardization</LI>
-<LI>Increase Transaction Efficiency</LI>
 <LI>Lower Administrative Burden</LI>
-<LI>Improve Response in Mission Delivery</LI>
-<LI>Elevate Employee Experience</LI>
-<LI>Security and Compliance</LI>
+<LI>Improve Employee Response in Mission Delivery</LI>
+<LI>Drive Security and Compliance</LI>
 <LI>Create Transparency through Data</LI>
+
+</ul>
 
 </p>
 
