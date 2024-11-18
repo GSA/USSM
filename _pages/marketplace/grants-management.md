@@ -29,7 +29,7 @@ news-category: FIBF-GRM
                    <img src="/assets/images/fibf/icons/icon.grants.webp" alt="Grants Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Grants Management
                 </h2>
                 <p>
-                   The Department of Health and Human Services <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">Grants Management Quality Services Management Office</A> established a Marketplace of shared grants management solutions and is operationalizing a vision for federal grants that empowers and enables applicants, recipients, and federal awarding agencies to efficiently and effectively deliver on their missions. The Grants QSMO engages all 52 federal awarding agencies to ensure marketplace solutions and services align with their needs, challenges, and objectives.  
+                   The Department of Health and Human Services <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">Grants Management Quality Services Management Office</A> established a Marketplace of shared grants management solutions and is operationalizing a vision for federal grants that enables applicants, recipients, and federal awarding agencies to efficiently and effectively deliver on their missions. The Grants QSMO engages all 52 federal awarding agencies to ensure marketplace solutions and services align with their needs, challenges, and objectives.  
                 </p>
 
 
@@ -41,7 +41,7 @@ news-category: FIBF-GRM
  <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="Grants Management Acquisition Gateway" height="auto" style="vertical-align:middle;">&nbsp;<A HREF="https://www.acquisitiongateway.gov/shared-services/resources/4216">Acquisition Gateway (for Acquisition Professionals)</A><BR>          
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the Grants QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:GrantsQSMO@hhs.gov" title="Contact the Grants QSMO" target="_blank">Contact the Grants QSMO</a> | <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">HHS Grants QSMO Website</A><BR>
                 </ul>
-Since the establishment of the Grants QSMO, adoption of shared services has increased from 19% to 48% of federal awarding agencies. To further help agencies, the Grants QSMO created the Catalog of Market Research consisting of commercial grants IT vendors vetted by a cross-government team to support agencies in selecting the most optimal grants management solution.
+Since the establishment of the Grants QSMO, adoption of shared services has increased from 19% to 48% of federal awarding agencies. To further help agencies, the Grants QSMO created the <A HREF="https://ag-dashboard.acquisitiongateway.gov/system/files/shared_services/2024-11/2024%20Catalog%20of%20Market%20Research%20Highlights%2011.13.2024.pdf">Catalog of Market Research</A> consisting of commercial grants IT vendors vetted by a cross-government team to support agencies in selecting the most optimal grants management solution.
               
               
               <P></P>
