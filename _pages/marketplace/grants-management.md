@@ -33,7 +33,7 @@ news-category: FIBF-GRM
                 </p>
 
 
-<B>Begin here - Find solutions and get help:</B>
+<B>Federal agencies, begin here - Find solutions and get help:</B>
               
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the Federal Grants Marketplace (Federal Solutions)" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://ussm.gsa.gov/marketplace/grm/" title="Explore the Federal Grants Marketplace" target="_blank" CLASS="green-link">Federal Grants Marketplace (Federal Solutions)</a><BR>
