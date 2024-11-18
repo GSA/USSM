@@ -132,13 +132,18 @@ Standardization increases the likelihood of agency success in partnering with in
                 
                     </h2>
                 </div>
-            
+
+ <p class="margin-top-1 margin-bottom-1"><b>Recent Bulletins</b></p>
+                <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+
+   <li style="margin-left: 2px;"><a href="https://buy.gsa.gov/interact/community/192/activity-feed/post/2cfd80b0-e3eb-4692-9284-31e67a8acc1c/GSA_Bulletin_ETS_24-01_Transition_to_E-Gov_Travel_Service_Next_Generation_ETSNext" title="Transition to E-Gov Travel Service Next Generation" target="_blank">Bulletin: Transition to E-Gov Travel Service Next Generation (ETS 24-01)</a></li>
+                            </ul>
                                         
                   <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                  
                     <li style="margin-left: 2px;"><a href="https://www.ecfr.gov/current/title-41/subtitle-F" title="Federal Travel Regulation" target="_blank">Federal Travel Regulation (FTR) 41 CFR Subtitle F</a></li>
-                    <li style="margin-left: 2px;"><a href="https://buy.gsa.gov/interact/community/192/activity-feed/post/2cfd80b0-e3eb-4692-9284-31e67a8acc1c/GSA_Bulletin_ETS_24-01_Transition_to_E-Gov_Travel_Service_Next_Generation_ETSNext" title="Transition to E-Gov Travel Service Next Generation" target="_blank">Bulletin: Transition to E-Gov Travel Service Next Generation (ETS 24-01)</a></li>
+                 
    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
                 </ul>
 
