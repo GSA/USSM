@@ -34,12 +34,24 @@ news-category: FIBF-TRT
                 <p>
                    <A HREF="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets">e-Gov Travel Service (ETS)</A> is a government wide, web-based, world-class travel management service. The ETS Program applies commercial best practices to realize efficiencies in delivering transparent, accountable, and sustainable travel services that yield exceptional agency and customer satisfaction.
                 </p>
+
+Begin here - Find solutions and get help:<BR><BR>
+
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about ETS" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets" title="Learn more about ETS" target="_blank" class="green-link">Learn more about eGov Travel Services</a><BR>
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the ETS Program Office" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/contact-egov-travel" title="Contact the ETS Program Office" target="_blank">Contact the ETS Program Office</a><BR>
                 </ul>
 
 
+
+<ul> 
+<LI>Reductions to Travel System Duplication and Cost</LI>
+<LI>Interoperability and Data Standardization</LI>
+<LI>Transaction Efficiency/Reduced Administrative Burden</LI>
+<LI>Employee Experience in Support of Mission Delivery</LI>
+<LI>Security and Compliance</LI>
+
+                </ul>
  
 
 
@@ -60,21 +72,11 @@ news-category: FIBF-TRT
              
                   <p>
 
-eGov Travel Services have unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. ETS has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars. Key tenants of this initiative will improve:
+eGov Travel Services have unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. ETS has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars.
 </p>
 
-<ul> 
-<LI>Reductions to Travel System Duplication and Cost</LI>
-<LI>Interoperability and Data Standardization</LI>
-<LI>Transaction Efficiency and Reduce Administrative Burden</LI>
-<LI>Employee Experience in Support of Mission Delivery</LI>
-<LI>Security and Compliance</LI>
-
-                </ul>
                 
-                
-              
-
+      
      
                 <hr class="margin-top-auto width-full">
             </div>
