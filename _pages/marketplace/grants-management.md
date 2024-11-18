@@ -66,11 +66,12 @@ Each year, the <B>Federal government distributes over $1 trillion in grants and 
 
 <ul> 
 <LI>Improving the Grant Recipient and Public Experience</LI>
-<LI>Enhancing Transparency and Accountability</LI>
+<LI>Enhancing Grants Transparency and Accountability</LI>
 <LI>Reducing Administrative Burden</LI>
+<LI>Accelerating Time to Solution Deployment</LI>
 <LI>Strengthening Internal Controls and Oversight</LI>
 <LI>Fostering Innovation and Flexibility</LI>
-  <LI>Improving Use of Data for Strategic Decision Making</LI>
+  <LI>Improving Availability of Data for Strategic Decision Making</LI>
 <LI>Promoting Interagency Collaboration</LI>
 
                 </ul>
