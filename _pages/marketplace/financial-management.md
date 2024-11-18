@@ -11,7 +11,7 @@ news-category: FIBF-FM
 
 <style>
   a.green-link {
-    color: #008000; /* Green color */
+    color: #D83933; /* Red color */
   }
 </style>
 
