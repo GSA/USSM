@@ -231,7 +231,7 @@ news-category: FIBF-FM
 
 A high-performing marketplace of the expertise and advanced technologies needed to support delivery on the needs of agency Federal Financial Management will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending (3) increase  cost-effectiveness in agency resource optimization (4) improve management efficiency and reduce risk.
 <BR><BR>
-<sup>1 Source:<A HREF="https://www.cbo.gov/topics/budget">Congressional Budget Office, 2024</A></sup>
+<I><sup>1 Source:<A HREF="https://www.cbo.gov/topics/budget">Congressional Budget Office, 2024</A></sup></I>
                     
                 <hr class="margin-top-auto width-full">
             </div>
@@ -266,9 +266,9 @@ Standardization increases the likelihood of agency success in partnering with in
 
 </ul>
 You may also be interested in:<BR>
-<I>   <ul class="margin-top-2">
+   <ul class="margin-top-2">
  <li><a href="https://tfx.treasury.gov/fmqsmo/fmcf" title="Federal Financial Management Capability Framework">Federal Financial Management Capability Framework</a></li>
-   </ul></I>
+   </ul>
 
                 
                 
