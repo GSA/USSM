@@ -49,7 +49,43 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 padding-top-4 display-flex flex-column">
+
+
+<!-- Why does it matter -->
                 <div class="display-flex flex-align-center">
+                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
+                    <h2 class="margin-bottom-0 margin-top-0">
+                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
+                        Why does it matter?
+                    </h2>
+                </div>
+             
+                  <p>
+
+Each year, the <B>Federal government distributes over $1 trillion in grants and cooperative agreements across 52 awarding agencies</B>, representing one of the federal government’s largest investments to drive improvements for the American people. As agencies have largely managed their grants internally, there has not been a concerted effort to coordinate across the federal grants management systems landscape. This has resulted in a disconnected, aging systems environment made up of a myriad of systems with varying levels of maturity, as well as a fragmented user experience that increases the administrative burden for applicants, recipients, and awarding agencies.  Key priorities here include:</p>
+
+<ul> 
+<LI>Improving the Grant Recipient and Public Experience</LI>
+<LI>Enhancing Transparency and Accountability</LI>
+<LI>Reducing Administrative Burden</LI>
+<LI>Strengthening Internal Controls and Oversight</LI>
+<LI>Fostering Innovation and Flexibility</LI>
+  <LI>Improving Use of Data for Strategic Decision Making</LI>
+<LI>Promoting Interagency Collaboration</LI>
+
+                </ul>
+
+
+         
+                                        
+
+                <hr class="margin-top-auto width-full">
+            </div>
+        </div>
+        <div class="grid-row">
+            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
+
+       <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
 
@@ -133,35 +169,18 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
                   </UL>
           </LI>
           </UL>
-                                        
 
-                <hr class="margin-top-auto width-full">
-            </div>
-        </div>
-        <div class="grid-row">
-            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
-                <div class="display-flex flex-align-center">
-                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
-                    <h2 class="margin-bottom-0 margin-top-0">
-                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
-                        Why does it matter?
-                    </h2>
-                </div>
-             
-                  <p>
 
-Each year, the <B>Federal government distributes over $1 trillion in grants and cooperative agreements across 52 awarding agencies</B>, representing one of the federal government’s largest investments to drive improvements for the American people. As agencies have largely managed their grants internally, there has not been a concerted effort to coordinate across the federal grants management systems landscape. This has resulted in a disconnected, aging systems environment made up of a myriad of systems with varying levels of maturity, as well as a fragmented user experience that increases the administrative burden for applicants, recipients, and awarding agencies.  Key priorities here include:</p>
 
-<ul> 
-<LI>Improving the Recipient Experience</LI>
-<LI>Enhancing Transparency and Accountability</LI>
-<LI>Reducing Administrative Burden</LI>
-<LI>Strengthening Internal Controls and Oversight</LI>
-<LI>Fostering Innovation and Flexibility</LI>
-  <LI>Improving the Use of Data for Strategic Decision Making</LI>
-<LI>Promoting Interagency Collaboration</LI>
 
-                </ul>
+
+
+
+
+
+
+
+                
 
                 <hr class="margin-top-auto width-full">
             </div>
