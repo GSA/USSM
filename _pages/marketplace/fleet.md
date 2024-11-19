@@ -42,6 +42,41 @@ news-category: FIBF-FLEET
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 padding-top-4 display-flex flex-column">
+               
+                       <div class="display-flex flex-align-center">
+                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
+                    <h2 class="margin-bottom-0 margin-top-0">
+                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
+                        Why does it matter?
+                    </h2>
+                </div>
+             
+                  <p>
+
+The Federal government employs over 3 million people in service to our national priorities in delivering on agency missions. By prioritizing its workforce goals, the government ensures employees and Federal agencies are equipped to meet evolving challenges and uphold the trust of the American people.
+</p>
+
+<ul> 
+<LI>Attracting and Hiring Qualified Employees</LI>
+<LI>Strengthening Leadership Development</LI>
+<LI>Modernizing Human Capital Practices</LI>
+<LI>Improving Performance Management</LI>
+<LI>Facilitating Knowledge Transfer and Succession Planning</LI>
+  <LI>Shifting Workforce from Low to High Value Work</LI>
+<LI>Ensuring Ethical Standards and Integrity</LI>
+
+                </ul>
+                
+                
+
+
+                <hr class="margin-top-auto width-full">
+            </div>
+        </div>
+        <div class="grid-row">
+            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
+
+                
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
@@ -74,35 +109,6 @@ news-category: FIBF-FLEET
 
                     <A HREF="https://ussm.gsa.gov/fibf-hr-par/#business_lifecycle" title="Personnel Action Request Processing">Personnel Action Request Processing</A>
 
-
-                <hr class="margin-top-auto width-full">
-            </div>
-        </div>
-        <div class="grid-row">
-            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
-                <div class="display-flex flex-align-center">
-                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
-                    <h2 class="margin-bottom-0 margin-top-0">
-                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
-                        Why does it matter?
-                    </h2>
-                </div>
-             
-                  <p>
-
-The Federal government employs over 3 million people in service to our national priorities in delivering on agency missions. By prioritizing its workforce goals, the government ensures employees and Federal agencies are equipped to meet evolving challenges and uphold the trust of the American people.
-</p>
-
-<ul> 
-<LI>Attracting and Hiring Qualified Employees</LI>
-<LI>Strengthening Leadership Development</LI>
-<LI>Modernizing Human Capital Practices</LI>
-<LI>Improving Performance Management</LI>
-<LI>Facilitating Knowledge Transfer and Succession Planning</LI>
-  <LI>Shifting Workforce from Low to High Value Work</LI>
-<LI>Ensuring Ethical Standards and Integrity</LI>
-
-                </ul>
 
                 <hr class="margin-top-auto width-full">
             </div>
