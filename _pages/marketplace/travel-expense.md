@@ -96,7 +96,7 @@ A centralized approach provides visibility into spending, ensuring alignment wit
                         Data and Business Standards                 
                     </h2>
                 </div>
-Standardization increases the likelihood of agency success in partnering with industry to procure and deploy commercial solutions, improves interoperability across agency operations functions, and avails decision-makers with the data needed to support strategic decision-making and oversight of agency travel.
+Standardization increases the likelihood of agency success in partnering with industry to procure and deploy commercial solutions, improves interoperability across agency operations functions, and provides leadership with the data needed to support strategic decision-making and oversight of agency travel.
 
     <ul class="margin-top-2">
                     <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Travel Personnel Profile Set-up and Maintenance" target="_blank">Travel Personnel Profile Set-up and Maintenance</a></li>
