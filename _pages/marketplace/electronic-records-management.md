@@ -2,7 +2,7 @@
 layout: base
 permalink: /marketplace/ess-erm2/
 title: Electronic Records Management
-description: "Grant Program Administration, Grant Pre-Award Management, Grant Award Management, Grant Post-Award Management and Closeout, Grant Program Oversight, Grant Recipient Oversight"
+description: "Records capture, Maintenance & Use, Records Disposal, Transfer of Permanent Records to NARA"
 news-category: FIBF-ERM
 ---
 <style>
@@ -21,12 +21,12 @@ news-category: FIBF-ERM
     </div>
 </div>
 
-<section class="pm" id="grants-management">
+<section class="pm" id="electronic-records-management">
     <div class="grid-container">
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                   <img src="/assets/images/fibf/icons/icon.grants.webp" alt="Grants Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Grants Management
+                   <img src="/assets/images/fibf/icons/icon.erm.webp" alt="Electronic Records Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Electronic Records Management
                 </h2>
                 <p>
                    The Department of Health and Human Services <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">Grants Management Quality Services Management Office</A> established a Marketplace of shared grants management solutions and is operationalizing a vision for federal grants that enables applicants, recipients, and federal awarding agencies to efficiently and effectively deliver on their missions. The Grants QSMO engages all 52 federal awarding agencies to ensure marketplace solutions and services align with their needs, challenges, and objectives.  
