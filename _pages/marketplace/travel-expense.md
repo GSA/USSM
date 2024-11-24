@@ -67,12 +67,12 @@ A centralized approach provides visibility into spending, ensuring alignment wit
 
 <ul> 
 <LI>Reduces Technology Duplication and Cost</LI>
-<LI>Increases Transaction Cost Efficiency</LI>
+<LI>Drives Transaction Cost Efficiency</LI>
 <LI>Improves Interoperability through Standardization</LI>
 <LI>Lowers Agency Administrative Burden</LI>
-<LI>Improves Employee Response in Mission Delivery</LI>
+<LI>Improves Employee Response in Delivering Mission</LI>
 <LI>Enhances Security and Compliance</LI>
-<LI>Drives Transparency through Standardized Data</LI>
+<LI>Increases Transparency through Standardized Data</LI>
 
 </ul>
 
