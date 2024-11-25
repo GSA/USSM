@@ -87,8 +87,13 @@ This template is for a single page that does not have a date associated with it.
               Cases</a></li>
             {% endif %}
             {% if page.standard-data-elements-pdf %}
-            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.standard-data-elements-pdf}}" class="usa-button usa-button--accent-cool text-white">Standard
-              Data Elements</a></li>
+              <li class="usa-button-group__item">
+                  <a
+                    class="usa-button usa-button--accent-cool text-white" 
+                    onclick="forceDownload('{{ site.baseurl }}/{{ page.standard-data-elements-pdf }}'); return false;">
+                      Standard Data Elements
+                  </a>
+              </li>
             {% endif %}
             {% if page.performance-metrics-pdf %}
             <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white" download>Service Measures</a></li>
@@ -267,3 +272,14 @@ This template is for a single page that does not have a date associated with it.
 
   </div>
 </div>
+
+<script>
+  function forceDownload(url) {
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = url.split('/').pop();
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+  }
+  </script>

@@ -3341,7 +3341,7 @@
        "100.TRT.L3.02 Group Employee Travel Attending A Conference":"/assets/files/downloads/Travel_2024/PDF/100.TRT.L3.02 Group Employee Travel Attending a Conference.pdf"
     },
     "Standard_Data_Elements":{
-      "TravelandExpense FIBF Standard Data Elements":"/assets/files/downloads/Travel_2024/Excel/Travel and Expense Management Standard Data Elements.xlsx",
+      "TravelandExpense FIBF Standard Data Elements":"/assets/files/downloads/Travel_2024/Excel/travel_standards_data_elements.xlsx",
       "jsonData": {
         "url":"/assets/json/TravelandExpense FIBF Standard Data Elements.json",
         "name":"Travel and Expense Management Standard Data Elements (JSON)"
