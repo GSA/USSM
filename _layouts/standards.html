@@ -83,7 +83,7 @@ This template is for a single page that does not have a date associated with it.
               Capabilities</a></li>
             {% endif %}
             {% if page.use-cases-pdf %}
-            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.use-cases-pdf}}" class="usa-button usa-button--accent-cool text-white">Business Use
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.use-cases-pdf}}" class="usa-button usa-button--accent-cool text-white" download>Business Use
               Cases</a></li>
             {% endif %}
             {% if page.standard-data-elements-pdf %}
@@ -91,10 +91,10 @@ This template is for a single page that does not have a date associated with it.
               Data Elements</a></li>
             {% endif %}
             {% if page.performance-metrics-pdf %}
-            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white">Service Measures</a></li>
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white" download>Service Measures</a></li>
             {% endif %}
             {% if page.all-zip %}
-            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.all-zip}}" class="usa-button text-white">Download
+            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.all-zip}}" class="usa-button text-white" download>Download
               All</a></li>
             {% endif %}
           </ul>

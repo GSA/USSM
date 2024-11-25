@@ -1,13 +1,16 @@
 import pandas as pd
-from finance_mgmt import budget_exec, save_file, business_capabilities, standard_data_elements
+from extract import biz_life, save_file, parse_biz_life, business_capabilities, standard_data_elements
 
 def main():
-    bus_elem_data = 'Finance_Excel/FMCF-3_Federal_Financial_Management_Business_Capabilities_(FFMSRs)_Release_FY2025[1].xlsx'
-    sheet1 = 'Business Capability List'
-    df = pd.read_excel(bus_elem_data, sheet_name=sheet1, header=4)
-    json_out = business_capabilities(df)
-    save_file(json_out, 'standard_data_elements.json')
-    
+    data = 'Travel_2024/Excel/Travel and Expense Management Service Measures.xlsx'
+    sheet1 = 'Service Measures'
+    df = pd.read_excel(data, sheet_name=sheet1)
+    print(df.columns.to_list())
+    json_out = standard_data_elements(df)
+    print('Check for {} entries'.format(len(json_out)))
+    file = open('standard_data_elements.json','w')
+    file.write(json_out)
+    file.close()
     
 if __name__ == '__main__':
     main()

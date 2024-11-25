@@ -211,7 +211,7 @@ primary_navigation:
           permalink: /fibf-travel/
           show_in_menu: true
           show_in_footer: false
-        - text: 'Initiating:'
+        - text: 'Initiating'
           type: 'divider'
           show_in_menu: true
           show_in_footer: false
