@@ -1,6 +1,6 @@
 ---
 layout: base
-permalink: /marketplace/ess-trt2/
+permalink: /marketplace/ess-trt/
 title: Travel and Expense
 description: "The Federal government spends over $15 billion on over 2.5 million travel transactions / year. This streamlined service continually applies commercial best practices to realize travel efficiencies and deliver a transparent, accountable, and sustainable service that yields exceptional employee experience."
 news-category: FIBF-TRT 
