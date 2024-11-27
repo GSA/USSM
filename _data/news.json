@@ -2,6 +2,15 @@
     "title": "News",
     "items": [
         {
+            "NewsID": "59",
+            "Homepage": "1",
+            "Category": "FIBF-TRT",
+            "Title": "GSA selects IBM to provide technology-managed service for governmentwide travel and expense management",
+            "Date": "2024-11-27",
+            "Source": "GSA Press Release",
+            "Hyperlink": "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-selects-ibm-to-provide-technologymanaged-service-for-governmentwide-travel-11272024"
+        },
+        {
             "NewsID": "58",
             "Homepage": "1",
             "Category": "FIBF-GRM",
