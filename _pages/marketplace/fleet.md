@@ -56,7 +56,8 @@ news-category: FIBF-FLEET
              
                   <p>
 
-Efficient management of the Federal Fleet is essential for optimizing operational effectiveness and reducing costs. <B>In Fiscal Year 2023, the U.S. government operated over 670,000 vehicles and drove over $4.6 Billion miles.</B> Fleet operations are a substantial opportunity to achieve efficiency in maintenance, fuel, and acquisition overhead. In 2023, federal agencies reported costs exceeding $5.5 billion for fleet operations (<A HREF="https://d2d.gsa.gov/report/federal-fleet-report-dashboard">GSA Federal Fleet Report</A>). An effective fleet management strategy combined with proper oversight ensures the fleet meets agency mission needs while supporting goals aligning with broader federal priorities on fiscal responsibility, <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  Key benefits to Fleet services include:
+ <B>In Fiscal Year 2023, the U.S. government operated over 670,000 vehicles, drove over 4.6 Billion miles, and reported costs of $5.5 billion for fleet operations<SUP>1</SUP></B> Fleet operations are a substantial opportunity to achieve efficiency in maintenance, fuel, and acquisition overhead. An effective goverment-wide and agency fleet management strategy ensures the Federal fleet will meet agency mission needs while supporting goals aligning with broader federal priorities on fiscal responsibility, <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  Key benefits to Fleet services include:
+
 
 </p>
 
@@ -71,8 +72,8 @@ Efficient management of the Federal Fleet is essential for optimizing operationa
 
                 </ul>
                 
-                
-
+<SUP>1 Source: <A HREF="https://d2d.gsa.gov/report/federal-fleet-report-dashboard">Federal Fleet Report Dashboard</A></SUP>                
+<BR>
 
                 <hr class="margin-top-auto width-full">
             </div>
@@ -105,7 +106,7 @@ Efficient management of the Federal Fleet is essential for optimizing operationa
                     <h2 class="margin-bottom-0 margin-top-0">
                     
                      <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, & Policy Alignment" height="auto" style="vertical-align:middle;">
-                        Priority, Policy, and Performance Alignment
+                        Priority, Policy, & Performance Alignment
                   </h2>
                 </div>
             
