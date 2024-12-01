@@ -150,7 +150,7 @@ Standardization increases the likelihood of agency success in partnering with in
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                       <li style="margin-left: 2px;">Senior Travel Officials Council (STOC)</li>
-                    <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="ETSNext Governance (Max Login Required)" target="_blank">ETSNext Governance</A> (Max Login Required)</a></li>
+                    <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="ETSNext Governance (Max Login Required)" target="_blank">ETSNext Governance</A> (Max Login Required)</li>
                 </ul>
                 
             
@@ -178,6 +178,15 @@ Standardization increases the likelihood of agency success in partnering with in
                             ETSNext Industry Community Page (Interact)
                         </a>
                     </li>
+
+                    <li>
+                        <a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/ets-pmo-services" title="ETSNext PMO Services" target="_blank">
+                            ETSNext PMO Services
+                        </a>
+                    </li>
+
+
+                    
                     <LI>
                         <A href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/etsnext-faqs" title="ETSNext FAQ">
                         ETSNext Frequently Asked Questions</A>
