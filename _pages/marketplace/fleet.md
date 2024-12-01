@@ -29,14 +29,26 @@ news-category: FIBF-FLEET
                    <img src="/assets/images/fibf/icons/car.icon.webp" alt="Fleet Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Fleet
                 </h2>
                 <p>
-                   The General Services Administration's <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management?topnav=buy-through-us">Fleet Program Office</A> GSA Fleet provides safe, reliable, low-cost vehicle solutions for federal agencies, eligible entities and tribal nations. GSA Fleet’s suite of offerings include <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-purchasing">vehicle purchasing</A>, <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-leasing">vehicle leasing</A>, <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/shortterm-rentals-str">short-term rentals</A>, and <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/fleet-electrification">fleet electrification</A>. 
+                   The General Services Administration's <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management?topnav=buy-through-us">Fleet Program Office</A> provides safe, reliable, low-cost vehicle solutions for federal agencies, eligible entities and tribal nations. GSA Fleet’s suite of offerings include <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-purchasing">vehicle purchasing</A>, <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-leasing">vehicle leasing</A>, <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/shortterm-rentals-str">short-term rentals</A>, and <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/fleet-electrification">fleet electrification</A>. 
                 </p>
 
 <B>Begin here - Find solutions and get help:</B><BR>
               
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore GSA Fleet" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management?topnav=buy-through-us" title="Explore GSA Fleet Management" target="_blank" CLASS="green-link">Explore GSA Fleet</a><BR>
-                   <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;Contact GSA Fleet at <a href="mailto:gsafleet@gsa.gov" title="Contact GSA Fleet" target="_blank">gsafleet@gsa.gov</a><BR>
+                   <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact GSA FLeet" height="auto" style="vertical-align:middle;">&nbsp;Contact GSA Fleet at <a href="mailto:gsafleet@gsa.gov" title="Contact GSA Fleet" target="_blank">gsafleet@gsa.gov</a><BR>
+
+                </ul>
+Key benefits to Fleet services include:
+<ul> 
+<LI>Fleet Optimization</LI>
+<LI>Sustainability and Compliance</LI>
+<LI>Data-Driven Decision Making</LI>
+<LI>Lifecycle Cost Analysis</LI>
+<LI>Risk Management</LI>
+<LI>Fleet Electricfication</LI>
+<LI>Workforce Development and Training</LI>
+
                 </ul>
 
 
@@ -56,21 +68,12 @@ news-category: FIBF-FLEET
              
                   <p>
 
- <B>In Fiscal Year 2023, the U.S. government operated over 670,000 vehicles, drove over 4.6 Billion miles, and reported costs of $5.5 billion for fleet operations<SUP>1</SUP></B> Fleet operations are a substantial opportunity to achieve efficiency in maintenance, fuel, and acquisition overhead. An effective goverment-wide and agency fleet management strategy ensures the Federal fleet will meet agency mission needs while supporting goals aligning with broader federal priorities on fiscal responsibility, <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  Key benefits to Fleet services include:
+ <B>In Fiscal Year 2023, the U.S. government operated over 670,000 vehicles, drove over 4.6 Billion miles, and reported costs of $5.5 billion for fleet operations<SUP>1</SUP></B> Fleet operations are a substantial opportunity to achieve efficiency in maintenance, fuel, and acquisition overhead. An effective goverment-wide and agency fleet management strategy ensures the Federal fleet will meet agency mission needs while supporting goals aligning with broader federal priorities on fiscal responsibility, <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  
 
 
 </p>
 
-<ul> 
-<LI>Fleet Optimization</LI>
-<LI>Sustainability and Compliance</LI>
-<LI>Data-Driven Decision Making</LI>
-<LI>Lifecycle Cost Analysis</LI>
-<LI>Risk Management</LI>
-<LI>Fleet Electricfication</LI>
-<LI>Workforce Development and Training</LI>
 
-                </ul>
                 
 <SUP>1 Source: <A HREF="https://d2d.gsa.gov/report/federal-fleet-report-dashboard">Federal Fleet Report Dashboard</A></SUP>                
 <BR>
@@ -91,9 +94,9 @@ news-category: FIBF-FLEET
                     </h2>
                 </div>
     
-      Detailed descriptions of each data element used to describe a fleet, a vehicle, a vehicle's fuel consumption, or a portion of a fleet's OMB A-11 fleet budget projections.
+      To drive consistency in vehicle reporting, detailed descriptions of each data element used to describe a fleet, a vehicle, a vehicle's fuel consumption, or a portion of a fleet's OMB A-11 fleet budget projections are managed and published by GSA and the Department of Energy.
       
-                    <li><a href="https://fastweb.inl.gov/help/index.cfm/resources/vld-reference/section/data-elements-and-rules" title="" target="_blank">Data Elements and Rules</a></li>
+                    <li><a href="https://fastweb.inl.gov/help/index.cfm/resources/vld-reference/section/data-elements-and-rules" title="" target="_blank">Data Elements and Rules Standards</a></li>
                  
        
 
@@ -121,7 +124,7 @@ news-category: FIBF-FLEET
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                       <li style="margin-left: 2px;"><A HREF="https://www.gsa.gov/policy-regulations/policy/vehicle-management-policy/federal-fleet-policy-council-fedfleet">Federal Fleet Policy Council</A></li>
-                    <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="ETSNext Governance (Max Login Required)" target="_blank">ETSNext Governance</A> (Max Login Required)</a></li>
+                
                 </ul>
 
     <p class="margin-top-1 margin-bottom-1"><b>Performance</b></p>
@@ -146,20 +149,10 @@ news-category: FIBF-FLEET
                 <ul class="margin-top-0 margin-bottom-3">
 
                      <li>
-                          <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11105">HR QSMO Solutions Catalog</A>
+                          <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11105"></A>
                     </li>
 
-                       <li>
-                          <A HREF="https://www.opm.gov/data/">OPM Data Portal</A>
-                    </li>
-
-                    <li>
-                          <A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11121">Communities of Practice</A>
-                         <UL> <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" title="Human Capital Data Analytics Community of Practice">Human Capital Data Analytics Community of Practice</A></LI>
-                          <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11123" title="Workflow Automation Community of Practice">Workflow Automation Community of Practice</A></LI>
-                    </UL>
-
-                 
+                      
                 </ul>
             </div>
         </div>
