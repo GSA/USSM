@@ -85,8 +85,7 @@ Key benefits to agency engagement in fleet shared services include:
         </div>
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
-
-                
+            
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
@@ -96,13 +95,10 @@ Key benefits to agency engagement in fleet shared services include:
                     </h2>
                 </div>
     
-      To drive consistency in vehicle and overall fleet reporting, the common data elements used to describe a fleet, a vehicle, fuel consumption, OMB A-11 fleet budget projections are managed and published by GSA and the Department of Energy.
+      To drive consistency in vehicle and overall fleet reporting, the common data elements used to describe a fleet, a vehicle, fuel consumption, as well as OMB A-11 fleet budget projections are managed and published by GSA and the Department of Energy.<BR>
       
                     <li><a href="https://fastweb.inl.gov/help/index.cfm/resources/vld-reference/section/data-elements-and-rules" title="" target="_blank">Data Elements and Rules Standards</a></li>
-                 
-       
-
-
+          
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 display-flex flex-column">
