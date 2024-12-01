@@ -42,8 +42,7 @@ news-category: FIBF-TRT
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the ETS Program Office" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/contact-egov-travel" title="Contact the ETS Program Office" target="_blank">Contact the ETS Program Office</a><BR>
                 </ul>
 
-eGov Travel Services have unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. ETS has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars.
-
+eGov Travel Services have unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. ETS has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars.  The service includes planning, authorizing, booking, and vouchering for travel expenses. It also provides audit and reporting services to ensure travel is performed in compliance with travel regulations.
 
              <P></P>
                 <hr class="margin-top-auto width-full">
@@ -62,7 +61,7 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
                   <p>
  <B>Civilian agencies move over 1 million federal travelers through 2.6 million transactions per year.<SUP>1</SUP></B>  Travel is often necessary to perform mission-critical tasks, such as providing oversight of agency work, conducting an inspection or investigation, or responding to public emergencies.  Travelers should be able to book arrangements in a way that efficiently leverages negotiated rates and contracts (e.g. <A HREF="https://www.gsa.gov/travel/plan-a-trip/transportation-airfare-rates-pov-rates-etc/airfare-rates-city-pair-program" title="GSA's City-Pair Program">GSA's City-Pair Program</A>) using streamlined tools that reduce administrative burden and allow workers to focus on their job responsibilities instead of navigating complex, inefficient travel processes.
 <BR><BR>
-A shared services approach to Travel also improves visibility into Federal travel spending, ensures alignment with Federal Travel Regulations (FTR) and audit requirements to support the transparency needed to sustain public trust in delivering responsible stewardship of taxpayer funds used for travel. This approach:
+A shared services approach to Travel & Expense also improves visibility into Federal travel spending to support the transparency needed to sustain public trust in delivering responsible stewardship of taxpayer funds used in travel. This approach:
 
 <ul> 
 <LI>Reduces Technology Duplication and Cost</LI>
