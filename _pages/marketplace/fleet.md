@@ -56,12 +56,12 @@ news-category: FIBF-FLEET
              
                   <p>
 
- <B>In Fiscal Year 2023, the U.S. government operated over 670,000 vehicles, drove over 4.6 Billion miles, and reported costs of $5.5 billion for fleet operations<SUP>1</SUP></B> Fleet operations are a substantial opportunity to achieve efficiency in maintenance, fuel, and acquisition overhead. An effective goverment-wide and agency fleet management strategy ensures the Federal fleet will meet agency mission needs while supporting goals aligning with broader federal priorities on fiscal responsibility, <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  
+ <B>In Fiscal Year 2023, the U.S. government operated over 670,000 vehicles, drove over 4.6 Billion miles, and reported costs of $5.5 billion for fleet operations<SUP>1</SUP></B> These operations are an opportunity to achieve agency efficiency in maintenance, fuel, and acquisition overhead. An effective goverment-wide and agency fleet management strategy ensures the Federal fleet will meet agency mission needs while supporting goals aligning with broader federal priorities such as (1) fiscal responsibility, (2) <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and (3) <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  
 
 
 </p>
 
-Key benefits to Fleet services include:
+Key benefits to agency engagement in fleet shared services include:
 <ul> 
 <LI>Fleet Optimization</LI>
 <LI>Sustainability and Compliance</LI>
@@ -96,7 +96,7 @@ Key benefits to Fleet services include:
                     </h2>
                 </div>
     
-      To drive consistency in vehicle reporting, detailed descriptions of each data element used to describe a fleet, a vehicle, a vehicle's fuel consumption, or a portion of a fleet's OMB A-11 fleet budget projections are managed and published by GSA and the Department of Energy.
+      To drive consistency in vehicle and overall fleet reporting, the common data elements used to describe a fleet, a vehicle, fuel consumption, OMB A-11 fleet budget projections are managed and published by GSA and the Department of Energy.
       
                     <li><a href="https://fastweb.inl.gov/help/index.cfm/resources/vld-reference/section/data-elements-and-rules" title="" target="_blank">Data Elements and Rules Standards</a></li>
                  
