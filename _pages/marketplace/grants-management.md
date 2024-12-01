@@ -64,7 +64,7 @@ Since the establishment of the Grants QSMO, adoption of shared services has incr
 
 Each year, the <B>Federal government distributes over $1 trillion in grants and cooperative agreements across 52 awarding agencies<SUP>1</SUP></B>, representing one of the federal government’s largest investments to drive improvements for the American people. As agencies have largely managed their grants internally, there has not been a concerted effort to coordinate across the federal grants management systems landscape.
 <BR><BR>
-This has resulted in a disconnected, aging systems environment made up of a myriad of systems at varying levels of maturity, as well as a fragmented user experience increasing administrative burden for applicants, recipients, and awarding agencies.  Key priorities here include:</p>
+This has often resulted in a disconnected, aging systems environment made up of myriad systems at varying levels of maturity, as well as a fragmented user experience that increases administrative burden for applicants, recipients, and awarding agencies.  Key priorities here include:</p>
 
 <ul> 
 <LI>Improving the Grant Recipient and Public Experience</LI>
