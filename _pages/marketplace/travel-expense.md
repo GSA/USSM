@@ -76,7 +76,7 @@ A shared services approach to Travel & Expense also improves visibility into Fed
 
 </p>
 
-                              <SUP>1 Source: <A HREF="https://www.gsa.gov/about-us/newsroom/news-releases/gsa-selects-ibm-to-provide-technologymanaged-service-for-governmentwide-travel-11272024">Technology Managed Service Seleted for Travel & Expense Managament</A></SUP>
+                              <SUP>1 Source: <A HREF="https://www.gsa.gov/about-us/newsroom/news-releases/gsa-selects-ibm-to-provide-technologymanaged-service-for-governmentwide-travel-11272024">GSA Press Release (11/27/2024)</A></SUP>
       
 <BR><BR>     
                 <hr class="margin-top-auto width-full">
