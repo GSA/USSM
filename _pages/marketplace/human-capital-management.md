@@ -132,7 +132,7 @@ The Federal government <B>employs over 3 million people</B> in service to our na
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                       <li style="margin-left: -5px;"><A HREF="https://beta.chcoc.gov/">Chief Human Capital Officer's Council</A></li>
                     <li style="margin-left: -5px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance/" title="Multi-Agency Steering Committee" target="_blank">Multi-Agency Steering Committee (MAESC)</a></li>
-  <li style="margin-left: -5px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/maesc-and-governance" title="Human Resources Line of Business" target="_blank">Human Resources Line of Business (HRLoB)</a></li>          
+  <li style="margin-left: -5px;"><a href="https://www.opm.gov/services-for-agencies/hr-line-of-business/" title="Human Resources Line of Business" target="_blank">Human Resources Line of Business (HRLoB)</a></li>          
   
                 </ul>
 
