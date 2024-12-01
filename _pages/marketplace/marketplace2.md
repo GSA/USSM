@@ -1,6 +1,6 @@
 ---
 layout: base
-permalink: /marketplace/marketplace2/
+permalink: /marketplace2
 title: GovOps Marketplace
 description: "Services and technologies to advance agency management and administration"
 news-category: FIBF-PROGRAM
