@@ -61,9 +61,9 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
                 </div>
              
                   <p>
- Travel is often necessary to perform mission-critical tasks, such as providing oversight of agency work, conducting an inspection or investigation, or responding to public emergencies.  Travelers should be able to book arrangements in a way that efficiently leverages negotiated rates and contracts (e.g. <A HREF="https://www.gsa.gov/travel/plan-a-trip/transportation-airfare-rates-pov-rates-etc/airfare-rates-city-pair-program" title="GSA's City-Pair Program">GSA's City-Pair Program</A>).  Moreover, streamlined travel processes and tools minimize administrative burden, allowing workforce to focus on their core responsibilities instead of navigating complex, inefficient travel logistics.
+ Travel is often necessary to perform mission-critical tasks, such as providing oversight of agency work, conducting an inspection or investigation, or responding to public emergencies.  Travelers should be able to book arrangements in a way that efficiently leverages negotiated rates and contracts (e.g. <A HREF="https://www.gsa.gov/travel/plan-a-trip/transportation-airfare-rates-pov-rates-etc/airfare-rates-city-pair-program" title="GSA's City-Pair Program">GSA's City-Pair Program</A>).  Streamlined travel tools minimize administrative burden, allowing workforce to focus on their core responsibilities instead of navigating complex, inefficient logistics.
 <BR><BR>
-A centralized, shared approach provides visibility into spending, ensuring alignment with Federal Travel Regulations (FTR) and audit requirements creating the transparency needed to sustain public trust delivering responsible stewardship of taxpayer funds. This approach:
+A shared services approach to Travel provides visibility into spending, ensures alignment with Federal Travel Regulations (FTR) and audit requirements to create the transparency needed to sustain public trust delivering responsible stewardship of taxpayer funds. This approach:
 
 <ul> 
 <LI>Reduces Technology Duplication and Cost</LI>
@@ -168,7 +168,7 @@ Standardization increases the likelihood of agency success in partnering with in
             <div class="tablet:grid-col-10 grid-offset-1">
                 <h2>
                   <img src="/assets/images/marketplace/icon_references.png" alt="Other References" height="auto" style="vertical-align:middle;">
-                References and Resources to ETSNext</h2>
+                References and Resources</h2>
                 <ul class="margin-top-0 margin-bottom-3">
                     <li>
                           <A HREF="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/etsnext">E-Gov Travel Services Next Generation Solution (ETSNext)</A> | <B>Mission:</B> Deliver a single, shared, travel and expense service to support the missions of government agencies through an intuitive, streamlined, and secure customer experience, mitigating transition costs and risks.
@@ -192,6 +192,8 @@ Standardization increases the likelihood of agency success in partnering with in
                         ETSNext Frequently Asked Questions</A>
                     </LI>
                     <LI>For help with ETSNext message the team <A HREF="ETSNext@gsa.gov">ETSNext@gsa.gov</A></LI>
+                    <LI>Federal Travel Reporting: <A HREF="https://d2d.gsa.gov/report/business-travel-and-relocation-dashboard">Business Travel and Relocation Dashbaord</A></LI>
+                    
                 </ul>
             </div>
         </div>
