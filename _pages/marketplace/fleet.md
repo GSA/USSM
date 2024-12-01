@@ -89,28 +89,11 @@ The Federal government employs over 3 million people in service to our national 
                     </h2>
                 </div>
     
-                   Enabling
-<ul class="margin-top-0">
-                   
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-hcs/#business_lifecycle" title="Strategy, Policies, & Operation Plan" target="_blank">Human Capital Strategy, Policies, & Operation Plan</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-hce/#business_lifecycle" title="Human Capital Evaluations">Human Capital Evaluations</a></li>
-</UL>                   
-                    Employee Lifecycle
-<ul class="margin-top-0">
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-ac/#business_lifecycle" title="Authorization Processing">Talent Acquisition</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-td/#business_lifecycle" title="Talent Development">Talent Development</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-epm/#business_lifecycle" title="Employee Performance Management">Employee Performance Management</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-cb/#business_lifecycle" title="Compensation and Benefits">Compensation and Benefits</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-sep-ret/#business_lifecycle" title="Separation and Retirement">Separation and Retirement</a></li>
-</ul>
-                    Supporting
-<ul class="margin-top-0">
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-ea/#business_lifecycle" title="Employee Accountability">Employee Accountability</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-lr/#business_lifecycle" title="Labor Relations" target="_blank">Labor Relations</a></li>
-                    <li><a href="https://ussm.gsa.gov/fibf-hr-hca/#business_lifecycle" title="Analytics & Employee Records">Analytics & Employee Records</a></li>
-</ul>
-
-                    <A HREF="https://ussm.gsa.gov/fibf-hr-par/#business_lifecycle" title="Personnel Action Request Processing">Personnel Action Request Processing</A>
+      Detailed descriptions of each data element used to describe a fleet, a vehicle, a vehicle's fuel consumption, or a portion of a fleet's OMB A-11 fleet budget projections.
+      
+                    <li><a href="https://fastweb.inl.gov/help/index.cfm/resources/vld-reference/section/data-elements-and-rules" title="" target="_blank">Data Elements and Rules</a></li>
+                 
+       
 
 
                 <hr class="margin-top-auto width-full">
