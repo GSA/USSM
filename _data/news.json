@@ -2,6 +2,24 @@
     "title": "News",
     "items": [
         {
+            "NewsID": "61",
+            "Homepage": "0",
+            "Category": "FIBF-TRT",
+            "Title": "GSA Taps IBM to Support Next-Generation Federal Travel and Expense Platform",
+            "Date": "2024-11-27",
+            "Source": "Federal News Radio",
+            "Hyperlink": "https://federalnewsnetwork.com/contractsawards/2024/11/gsa-taps-ibm-to-support-next-generation-federal-travel-and-expense-platform/"
+        },
+        {
+            "NewsID": "60",
+            "Homepage": "0",
+            "Category": "FIBF-TRT",
+            "Title": "IBM wins $903M GSA Contract to Modernize Federal Travel and Expense Management",
+            "Date": "2024-11-27",
+            "Source": "FedScoop",
+            "Hyperlink": "https://fedscoop.com/ibm-wins-903m-gsa-contract-to-moderniz-federal-travel-and-expense-management/"
+        },
+        {
             "NewsID": "59",
             "Homepage": "1",
             "Category": "FIBF-TRT",
