@@ -61,9 +61,9 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
                 </div>
              
                   <p>
-Streamlined travel processes minimize administrative burden, allowing workforce to focus on core responsibilities instead of navigating complex, inefficient travel logistics. Travel is often necessary to perform mission-critical tasks, such as providing oversight of agency work, conducting an inspection or investigation, or responding to emergencies.  Travelers should be able to book arrangements in a way that efficiently leverages negotiated rates and contracts (e.g. <A HREF="https://www.gsa.gov/travel/plan-a-trip/transportation-airfare-rates-pov-rates-etc/airfare-rates-city-pair-program" title="GSA's City-Pair Program">GSA's City-Pair Program</A>). 
+ Travel is often necessary to perform mission-critical tasks, such as providing oversight of agency work, conducting an inspection or investigation, or responding to public emergencies.  Travelers should be able to book arrangements in a way that efficiently leverages negotiated rates and contracts (e.g. <A HREF="https://www.gsa.gov/travel/plan-a-trip/transportation-airfare-rates-pov-rates-etc/airfare-rates-city-pair-program" title="GSA's City-Pair Program">GSA's City-Pair Program</A>).  Moreover, streamlined travel processes and tools minimize administrative burden, allowing workforce to focus on their core responsibilities instead of navigating complex, inefficient travel logistics.
 <BR><BR>
-A centralized approach provides visibility into spending, ensuring alignment with Federal Travel Regulations (FTR) and audit requirements creating the transparency needed to sustain public trust by delivering and demonstrating responsible stewardship of taxpayer funds. This approach:
+A centralized, shared approach provides visibility into spending, ensuring alignment with Federal Travel Regulations (FTR) and audit requirements creating the transparency needed to sustain public trust delivering responsible stewardship of taxpayer funds. This approach:
 
 <ul> 
 <LI>Reduces Technology Duplication and Cost</LI>
