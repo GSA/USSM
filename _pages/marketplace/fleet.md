@@ -39,18 +39,6 @@ news-category: FIBF-FLEET
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact GSA FLeet" height="auto" style="vertical-align:middle;">&nbsp;Contact GSA Fleet at <a href="mailto:gsafleet@gsa.gov" title="Contact GSA Fleet" target="_blank">gsafleet@gsa.gov</a><BR>
 
                 </ul>
-Key benefits to Fleet services include:
-<ul> 
-<LI>Fleet Optimization</LI>
-<LI>Sustainability and Compliance</LI>
-<LI>Data-Driven Decision Making</LI>
-<LI>Lifecycle Cost Analysis</LI>
-<LI>Risk Management</LI>
-<LI>Fleet Electricfication</LI>
-<LI>Workforce Development and Training</LI>
-
-                </ul>
-
 
              <P></P>
               
@@ -72,6 +60,20 @@ Key benefits to Fleet services include:
 
 
 </p>
+
+Key benefits to Fleet services include:
+<ul> 
+<LI>Fleet Optimization</LI>
+<LI>Sustainability and Compliance</LI>
+<LI>Data-Driven Decision Making</LI>
+<LI>Lifecycle Cost Analysis</LI>
+<LI>Risk Management</LI>
+<LI>Fleet Electricfication</LI>
+<LI>Workforce Development and Training</LI>
+
+                </ul>
+
+                <BR>
 
 
                 
