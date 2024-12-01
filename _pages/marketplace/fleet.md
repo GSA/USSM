@@ -56,17 +56,18 @@ news-category: FIBF-FLEET
              
                   <p>
 
-The Federal government employs over 3 million people in service to our national priorities in delivering on agency missions. By prioritizing its workforce goals, the government ensures employees and Federal agencies are equipped to meet evolving challenges and uphold the trust of the American people.
+Efficient management of the Federal Fleet is essential for optimizing operational effectiveness and reducing costs. <B>In Fiscal Year 2023, the U.S. government operated over 670,000 vehicles and drove over $4.6 Billion miles.</B> Fleet operations are a substantial opportunity to achieve efficiency in maintenance, fuel, and acquisition overhead. In 2023, federal agencies reported costs exceeding $5.5 billion for fleet operations (<A HREF="https://d2d.gsa.gov/report/federal-fleet-report-dashboard">GSA Federal Fleet Report</A>). An effective fleet management strategy combined with proper oversight ensures the fleet meets agency mission needs while supporting goals aligning with broader federal priorities on fiscal responsibility, <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  Key benefits to Fleet services include:
+
 </p>
 
 <ul> 
-<LI>Attracting and Hiring Qualified Employees</LI>
-<LI>Strengthening Leadership Development</LI>
-<LI>Modernizing Human Capital Practices</LI>
-<LI>Improving Performance Management</LI>
-<LI>Facilitating Knowledge Transfer and Succession Planning</LI>
-  <LI>Shifting Workforce from Low to High Value Work</LI>
-<LI>Ensuring Ethical Standards and Integrity</LI>
+<LI>Fleet Optimization</LI>
+<LI>Sustainability and Compliance</LI>
+<LI>Data-Driven Decision Making</LI>
+<LI>Lifecycle Cost Analysis</LI>
+<LI>Risk Management</LI>
+<LI>Fleet Electricfication</LI>
+<LI>Workforce Development and Training</LI>
 
                 </ul>
                 
@@ -104,29 +105,29 @@ The Federal government employs over 3 million people in service to our national 
                     <h2 class="margin-bottom-0 margin-top-0">
                     
                      <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, & Policy Alignment" height="auto" style="vertical-align:middle;">
-                        Goal, Priority, & Policy Alignment
-                    
-                
-                    </h2>
+                        Priority, Policy, and Performance Alignment
+                  </h2>
                 </div>
             
-                                        
-                  <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
+                   <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                  
-                    <li style="margin-left: 2px;"><a href="https://www.ecfr.gov/current/title-41/subtitle-C/chapter-102/subchapter-B/part-102-34" title="Fleet Management Regulations" target="_blank">Motor Vehicle Management (FTR) 41 CFR Subtitle C Chapter 102 Subchapter B Part 102-34</a></li>
-                    <li style="margin-left: 2px;"><a href="https://buy.gsa.gov/interact/community/192/activity-feed/post/2cfd80b0-e3eb-4692-9284-31e67a8acc1c/GSA_Bulletin_ETS_24-01_Transition_to_E-Gov_Travel_Service_Next_Generation_ETSNext" title="Transition to E-Gov Travel Service Next Generation" target="_blank">Bulletin: Transition to E-Gov Travel Service Next Generation (ETS 24-01)</a></li>
+                    <li style="margin-left: 2px;"><a href="https://www.ecfr.gov/current/title-41/subtitle-C/chapter-102/subchapter-B/part-102-34" title="Fleet Management Regulations" target="_blank">Motor Vehicle Management (FMR)</a></li>
+                       <li style="margin-left: 2px;"><a href="https://www.ecfr.gov/current/title-41/subtitle-C/chapter-102/subchapter-B/part-102-34" title="Interagency Fleet Management Systems" target="_blank">Interagency Fleet Management Systems</a></li>
    <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
                 </ul>
 
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                      <li style="margin-left: 2px;">Senior Travel Officials Council (STOC)</li>
+                      <li style="margin-left: 2px;"><A HREF="https://www.gsa.gov/policy-regulations/policy/vehicle-management-policy/federal-fleet-policy-council-fedfleet">Federal Fleet Policy Council</A></li>
                     <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="ETSNext Governance (Max Login Required)" target="_blank">ETSNext Governance</A> (Max Login Required)</a></li>
                 </ul>
-                
-            
-            
+
+    <p class="margin-top-1 margin-bottom-1"><b>Performance</b></p>
+                <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+                      <li style="margin-left: 2px;"><A HREF="https://d2d.gsa.gov/report/federal-fleet-report-dashboard">Federal Fleet Dashboard</A></li>
+                 </ul>
+
                 <hr class="margin-top-auto width-full">
             </div>
         </div>
