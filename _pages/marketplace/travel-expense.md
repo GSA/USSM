@@ -179,19 +179,16 @@ Standardization increases the likelihood of agency success in partnering with in
                         </a>
                     </li>
 
-                    <li>
-                        <a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/ets-pmo-services" title="ETSNext PMO Services" target="_blank">
-                            ETSNext PMO Services
-                        </a>
-                    </li>
-
-
-                    
                     <LI>
                         <A href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/etsnext-faqs" title="ETSNext FAQ">
                         ETSNext Frequently Asked Questions</A>
                     </LI>
                     <LI>For help with ETSNext message the team <A HREF="ETSNext@gsa.gov">ETSNext@gsa.gov</A></LI>
+                     <li>
+                        <a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/ets-pmo-services" title="ETSNext PMO Services" target="_blank">
+                            PMO Services
+                        </a>
+                    </li>
                     <LI>Federal Travel Reporting: <A HREF="https://d2d.gsa.gov/report/business-travel-and-relocation-dashboard">Business Travel and Relocation Dashbaord</A></LI>
                     
                 </ul>
