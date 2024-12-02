@@ -114,7 +114,7 @@ Benefits of agency engagement in fleet shared services include:
 <BR>
 Classifications for commercially available vehicles, as well as minimum technical, quality, and optional equipment specifications are published by GSA. These standards ensure Federal vehicles are safe, durable, and economical, and provide uniformity in the acquisition process.
 
- <li><a href="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-purchasing/federal-vehicle-standards" title="" target="_blank">Federal Vehicle Standards</a></li>
+ <li><a href="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-purchasing/federal-vehicle-standards" title="" target="_blank">Federal Fleet Vehicle Standards</a></li>
 
                 <hr class="margin-top-auto width-full">
             </div>
