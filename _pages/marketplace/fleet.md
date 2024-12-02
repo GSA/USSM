@@ -1,6 +1,6 @@
 ---
 layout: base
-permalink: /marketplace/ess-fleet/
+permalink: /marketplace/ess-fleet2/
 title: Fleet
 description: "Agencies interested in electrifying their fleets. Federal customers looking for information about zero-emission vehicles, charging station equipment, or installation services can start their journeys here."
 news-category: FIBF-FLEET
