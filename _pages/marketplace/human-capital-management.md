@@ -202,9 +202,7 @@ The Federal government <B>employs over 2.2 million people</B><SUP>1</SUP> in ser
 
    <li style="margin-left: 2px;"><a href="https://www.chcoc.gov/sites/default/files/2022-Federal-Workforce-Priorities-Report-FWPR.pdf" title="Federal Workforce Priorities Report" target="_blank">Federal Workforce Priorities Report</a></li>
         <li style="margin-left: 2px;"><a href="https://www.chcoc.gov/sites/default/files/2022-Federal-Workforce-Priorities-Report-FWPR.pdf" title="Federal Workforce Priorities Report" target="_blank">Workforce of The Future Playbook</a></li>                 
-             
-            </div>
-        </div>
-    </div>
-</section>
+
+             </DIV>
+
 
