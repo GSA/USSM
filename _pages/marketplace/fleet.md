@@ -106,15 +106,14 @@ Common priorities in agency fleet management include:
                         Data and Business Standards                 
                     </h3>
                 </div>
-    
+
+    <a href="https://fastweb.inl.gov/help/index.cfm/resources/vld-reference/section/data-elements-and-rules" title="" target="_blank">Data Elements and Rules Standards</a>
       To drive consistency in federal fleet reporting, GSA and the Department of Energy publish common data elements used to describe fleet vehicle inventories, fuel consumption, usage, and agency fleet budget projections.<BR>
 
-      
-                    <li><a href="https://fastweb.inl.gov/help/index.cfm/resources/vld-reference/section/data-elements-and-rules" title="" target="_blank">Data Elements and Rules Standards</a></li>
+    
 <BR>
+<a href="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-purchasing/federal-vehicle-standards" title="" target="_blank">Federal Fleet Vehicle Standards</a>
 Standard classifications for commercially available vehicles, as well as minimum technical, quality, and optional equipment specifications are published by GSA. These standards ensure Federal vehicles are safe, durable, and economical, and provide uniformity in the acquisition process.
-
- <li><a href="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-purchasing/federal-vehicle-standards" title="" target="_blank">Federal Fleet Vehicle Standards</a></li>
 
                 <hr class="margin-top-auto width-full">
             </div>
