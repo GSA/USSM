@@ -167,10 +167,19 @@ You may also be interested in:
     <p class="margin-top-1 margin-bottom-1"><b>Performance</b></p>
 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
   <li style="margin-left: 1px"><a href="https://www.opm.gov/data/data-products/" title="OPM Data Products" target="_blank">OPM Data Products</a></li>
+<UL>
+<li><A HREF="https://www.opm.gov/data/data-products/time-to-hire-dashboard/">Time to Hire Dashboard</li>
+<li><A HREF="https://www.opm.gov/fevs/reports/opm-fevs-dashboard/">OPM's Federal Employee Viewpoint Survey</li>
+<li><A HREF="https://www.opm.gov/data/data-products/cyber-workforce-dashboard/">Cyber Workforce Dashboard</li>
+<li><A HREF="https://www.opm.gov/data/data-products/pma-metric-hiring-manager-satisfaction-dashboard/">Hiring Manager Satisfaction Dashboard</li>
+<li><A HREF="https://www.fedscope.opm.gov/">FedScope: Federal Workforce Data</li>
+<li><A HREF="https://d2d.gsa.gov/report/hiring-assessment-and-selection-outcome-dashboard">Hiring Assessment & Selection Dashboard</li>
+
+</UL>
+
+  
 </ul>
-
-
-                
+              
         
                 <hr class="margin-top-auto width-full">
             </div>
