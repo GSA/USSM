@@ -73,11 +73,6 @@ The Federal government <B>employs over 3 million people</B> in service to our na
 
 
 
-
-
-
-  
-
                 <hr class="margin-top-auto width-full">
             </div>
         </div>
@@ -150,7 +145,7 @@ The Federal government <B>employs over 3 million people</B> in service to our na
   
                 </ul>
 
-
+<!--
      <p class="margin-top-1 margin-bottom-1"><b>Goals</b></p>
  <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
   <li style="margin-left: 1px"><a href="https://www.performance.gov/pma/workforce/" title="Strengthening and Empowering the Federal Workforce" target="_blank">PMA 46: Strengthening & Empowering the Federal Workforce</a></li>
@@ -161,7 +156,7 @@ The Federal government <B>employs over 3 million people</B> in service to our na
    <li style="margin-left: 1px;"><a href="https://georgewbush-whitehouse.archives.gov/results/agenda/humancapital_year4.html" title="Strategic Management of Human Capital" target="_blank">PMA 43: Advancing Strategic Management of Human Capital</a></li>
 
    </ul>
-
+-->
 
     <p class="margin-top-1 margin-bottom-1"><b>Performance</b></p>
 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
