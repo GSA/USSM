@@ -125,7 +125,7 @@ Find classifications for commercially available vehicles, as well as minimum tec
                     <h2 class="margin-bottom-0 margin-top-0">
                     
                      <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, & Policy Alignment" height="auto" style="vertical-align:middle;">
-                        Priority, Policy, & Strategic Alignment
+                        Priority, Policy, & Strategy Alignment
                   </h2>
                 </div>
             
