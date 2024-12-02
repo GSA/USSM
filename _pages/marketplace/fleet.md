@@ -40,16 +40,13 @@ news-category: FIBF-FLEET
 
                 </ul>
 
-             <P></P>
-
-
-<A HREF="https://www.gsafleet.gov">GSAFleet.gov</A> is user-centric platform that significantly enhances the management of federal vehicle fleets.
+<p><A HREF="https://www.gsafleet.gov">GSAFleet.gov</A> is a user-centric platform that significantly enhances the management of federal vehicle fleets.</p>
 
 <iframe 
         width="448" 
         height="252" 
         src="https://www.youtube.com/embed/_RCrrUfC5Q8" 
-        title="YouTube video player" 
+        title="GSAFleet.gov Overview" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
@@ -71,7 +68,6 @@ news-category: FIBF-FLEET
                 </div>
              
                   <p>
-
  <B>In 2023, the Federal government operated over 670,000 vehicles, drove over 4.6 billion miles, and reported costs of $5.5 billion for fleet operations<SUP>1</SUP></B> These operations present as an opportunity to continue advancing efficiencies in the maintenance, fuel, and acquisition overhead associated with managing the Federal fleet. A coordinated management strategy ensures the Federal fleet continues to meet agency mission needs while supporting goals that align with broader federal priorities such as (1) fiscal responsibility, (2) <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and (3) <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  
 
 
@@ -93,7 +89,7 @@ Benefits of agency engagement in fleet shared services include:
 
 
                 
-<SUP>1 Source: <A HREF="https://d2d.gsa.gov/report/federal-fleet-report-dashboard">Federal Fleet Report Dashboard</A></SUP>                
+<SUP>1 Source: <A HREF="https://d2d.gsa.gov/report/federal-fleet-report-dashboard">2023 Federal Fleet Report Dashboard</A></SUP>                
 <BR>
 
                 <hr class="margin-top-auto width-full">
