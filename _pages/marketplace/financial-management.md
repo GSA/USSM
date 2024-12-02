@@ -218,15 +218,15 @@ news-category: FIBF-FM
                 </div>
              
                   <p>
-                    Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Federal agencies manage <B>over $6.7 trillion in annual spending</B><sup>1</sup>.  Common goals and objectives include:
+                    Federal agencies manage <B>over $6.7 trillion in annual spending</B><sup>1</sup>.  Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Common goals and objectives in agency financial management include:
                 </p>
                 <ul class="margin-top-0">
                     <li>Improving Financial Transparency</li>
                     <li>Enhancing Internal Controls to Reduce Risk</li>
-                    <li>Integrating Performance and Budgeting</li>
+                    <li>Integrating Agency Performance with Budgeting</li>
                     <li>Strengthening Payment Integrity</li>
                     <li>Automating Financial Processes</li>
-                    <li>Using Data to Maximize Resource Allocation</li>
+                    <li>Using Data to Maximize Agency Resource Allocation</li>
                 </ul>
 
 A high-performing marketplace of the expertise and advanced technologies needed to support delivery on the needs of agency Federal Financial Management will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending (3) increase  cost-effectiveness in agency resource optimization (4) improve management efficiency and reduce risk.
