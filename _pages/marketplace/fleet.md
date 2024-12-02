@@ -42,13 +42,13 @@ news-category: FIBF-FLEET
 
              <P></P>
 
-    <iframe 
-        width="560" 
-        height="315" 
+<iframe 
+        width="448" 
+        height="252" 
         src="https://www.youtube.com/embed/SGauE8AMW0M" 
-        title="FY24 Federal Fleet" 
+        title="YouTube video player" 
         frameborder="0" 
-        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
     </iframe>
 
