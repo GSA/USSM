@@ -89,8 +89,6 @@ OPM's HR QSMO will help (1) agencies modernize human capital management faster t
                         Data and Business Standards                 
                     </h3>
                 </div>
-
-From the <A HREF="https://ussm.gsa.gov/fibf-hr-hcm/">Human Capital Management Data and Business Standards</A><BR>
     
                    Enabling
 <ul class="margin-top-2">
@@ -113,10 +111,11 @@ From the <A HREF="https://ussm.gsa.gov/fibf-hr-hcm/">Human Capital Management Da
                     <li><a href="https://ussm.gsa.gov/fibf-hr-hca/#business_lifecycle" title="Analytics & Employee Records">Analytics & Employee Records</a></li>
 </ul>
 
-                    <A HREF="https://ussm.gsa.gov/fibf-hr-par/#business_lifecycle" title="Personnel Action Request Processing">Personnel Action Request Processing</A>
+                    <A HREF="https://ussm.gsa.gov/fibf-hr-par/#business_lifecycle" title="Personnel Action Request Processing">Personnel Action Request Processing</A><BR>
 
 You may also be interested in:
-<LI><A HREF="https://www.opm.gov/services-for-agencies/hr-line-of-business/human-capital-information-model-hcim/">OPM's Human Capital Information Model</A><IMG SRC="https://ussm.gsa.gov/assets/img/external-link-dark.svg"></LI>
+<LI><A HREF="https://www.opm.gov/services-for-agencies/hr-line-of-business/human-capital-information-model-hcim/">OPM's Human Capital Information Model</A><IMG img alt="External Link" class="width-2 margin-left-05" SRC="https://ussm.gsa.gov/assets/img/external-link-dark.svg"></LI>
+<LI><A HREF="https://ussm.gsa.gov/fibf-hr-hcm/">Human Capital Management Data and Business Standards</A></LI>
 
           <BR>
 
