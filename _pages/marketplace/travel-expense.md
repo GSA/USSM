@@ -48,7 +48,6 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 padding-top-4 display-flex flex-column">
-            
                 
                                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
@@ -61,16 +60,16 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
                   <p>
  <B>Civilian agencies move over 1 million federal travelers through 2.6 million transactions per year.<SUP>1</SUP></B>  Travel is often necessary to perform mission-related tasks, such as oversight of agency work, conducting inspections and investigations, or responding to public emergencies.  Travelers should be able to book arrangements in a way that efficiently leverages negotiated rates and contracts (e.g. <A HREF="https://www.gsa.gov/travel/plan-a-trip/transportation-airfare-rates-pov-rates-etc/airfare-rates-city-pair-program" title="GSA's City-Pair Program">GSA's City-Pair Program</A>) using streamlined tools that reduce administrative burden and allow workers to focus on their job responsibilities instead of navigating complex, inefficient travel processes.
 <BR><BR>
-A shared services approach to Travel & Expense also improves visibility into Federal travel spending to support the transparency needed to sustain public trust in delivering responsible stewardship of taxpayer funds used in travel. This approach:
+A shared services approach to Travel & Expense also improves visibility into Federal travel spending to support the transparency needed to sustain public trust in delivering responsible stewardship of taxpayer funds used in travel by:
 
 <ul> 
-<LI>Reduces Technology Duplication and Cost</LI>
-<LI>Drives Transaction Cost Efficiency</LI>
-<LI>Improves Interoperability through Standardization</LI>
-<LI>Lowers Agency Administrative Burden</LI>
-<LI>Improves Employee Response in Delivering Mission</LI>
-<LI>Enhances Security and Compliance</LI>
-<LI>Increases Transparency through Standardized Data</LI>
+<LI>Reducing Technology Duplication and Cost</LI>
+<LI>Improving Transaction Cost Efficiency</LI>
+<LI>Driving Interoperability through Standardization</LI>
+<LI>Lowering Agency Administrative Burden</LI>
+<LI>Accelerating Employee Response in Delivering Mission</LI>
+<LI>Enhancing Security and Compliance</LI>
+<LI>Increasing Transparency through Standardized Data</LI>
 
 </ul>
 
