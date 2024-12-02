@@ -40,7 +40,7 @@ news-category: FIBF-FLEET
 
                 </ul>
 
-<p><A HREF="https://www.gsafleet.gov">GSAFleet.gov</A> is a user-centric platform that significantly enhances the management of federal vehicle fleets. Learn more below.</p>
+<p><A HREF="https://gsafleet.gov/gsa-fleet-how-to">GSAFleet.gov</A> is a user-centric platform that significantly enhances the management of federal vehicle fleets. Learn more below.</p>
 
 <iframe 
         width="448" 
