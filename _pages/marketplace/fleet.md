@@ -127,7 +127,7 @@ Find classifications for various types of commercially available vehicles, as we
                     <h2 class="margin-bottom-0 margin-top-0">
                     
                      <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, & Policy Alignment" height="auto" style="vertical-align:middle;">
-                        Priority, Policy, & Performance Alignment
+                        Priority, Policy, & Strategic Alignment
                   </h2>
                 </div>
             
