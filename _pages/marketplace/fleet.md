@@ -112,13 +112,11 @@ Benefits of agency engagement in fleet shared services include:
 
       
                     <li><a href="https://fastweb.inl.gov/help/index.cfm/resources/vld-reference/section/data-elements-and-rules" title="" target="_blank">Data Elements and Rules Standards</a></li>
-
-Find classifications for various types of commercially available vehicles, as well as minimum technical, quality, and optional equipment specifications. These standards are used to ensure Federal vehicles are safe, durable, and economical, and to provide uniformity in the acquisition process.
+<BR>
+Find classifications for commercially available vehicles, as well as minimum technical, quality, and optional equipment specifications. These standards ensure Federal vehicles are safe, durable, and economical, and provide uniformity in the acquisition process.
 
  <li><a href="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-purchasing/federal-vehicle-standards" title="" target="_blank">Federal Vehicle Standards</a></li>
 
-
-          
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 display-flex flex-column">
