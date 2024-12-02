@@ -48,7 +48,7 @@
         },    
         {
             "NewsID": "57",
-            "Homepage": "1",
+            "Homepage": "0",
             "Category": "FIBF-GRM",
             "Title": "Grants QSMO: 2024 Catalog of Market Research Award Management Systems",
             "Date": "2024-09-20",
@@ -57,7 +57,7 @@
         },
         {
             "NewsID": "56",
-            "Homepage": "1",
+            "Homepage": "0",
             "Category": "FSSP",
             "Title": "Public Comment: Enhancing Practices to Optimize Cost Recovery (Final Draft)",
             "Date": "2024-08-21",
@@ -84,7 +84,7 @@
         },
         {
             "NewsID": "53",
-            "Homepage": "1",
+            "Homepage": "0",
             "Category": "FIBF-HR",
             "Title": "RFI: USDA is Looking for Market Research Responses to Implement Modern Enterprise Solutions for the National Finance Center",
             "Date": "2024-07-24",
