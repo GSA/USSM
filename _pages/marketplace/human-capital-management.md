@@ -32,7 +32,7 @@ news-category: FIBF-HR
                    The Office of Personnel Management's <A HREF="https://www.opm.gov/services-for-agencies/human-resources-quality-services-management-office-hr-qsmo/">Human Resources Quality Services Management Office</A> is a key avenue to enhance the delivery of agency Human Resources (HR) services. The HR QSMO promotes strong HR stakeholder relationships by fostering a culture of active engagement with agencies, shared service providers, and industry partners. Its mission is to serve the American people as the thought leader on human capital issues and assist agencies in making effective HR IT investment decisions.  
                 </p>
 
-              <B>Begin here - Find HR solutions and get help:</B><BR>
+              <B>Agencies, begin here - Find HR solutions and get help:</B><BR>
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the HR QSMO Marketplace" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" CLASS="green-link">Explore the HR QSMO Marketplace</a><BR>
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:hrqsmo@opm.gov" title="Contact the HR QSMO" target="_blank">Contact the HR QSMO</a><BR>
