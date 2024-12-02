@@ -217,6 +217,15 @@
             "Source": "Regulations,gov",
             "Hyperlink": "https://www.regulations.gov/docket/BSC-FOI-2024-0001/document"
         },
+      {
+            "NewsID": "42",
+            "Homepage": "0",
+            "Category": "FIBF-FLEET",
+            "Title": "Fleet Management Technology Keeps Federal Vehicles Running",
+            "Date": "2024-03-18",
+            "Source": "FedTech Magazine",
+            "Hyperlink": "https://fedtechmagazine.com/article/2023/10/fleet-management-technology-keeps-federal-vehicles-running"
+        },
         {
             "NewsID": "41",
             "Homepage": "0",
@@ -297,6 +306,15 @@
             "Date": "2021-09-24",
             "Source": "NextGov",
             "Hyperlink": "https://www.nextgov.com/artificial-intelligence/2021/09/grants-management-shared-services-marketplace-set-launch-end-2021/185600/"
+        },
+     {
+            "NewsID": "34",
+            "Homepage": "0",
+            "Category": "FIBF-FLEET",
+            "Title": "Data in motion optimizes management of GSA’s vehicle fleet",
+            "Date": "2021-08-23",
+            "Source": "Federal News Network",
+            "Hyperlink": "https://federalnewsnetwork.com/big-data/2021/08/data-in-motion-optimizes-management-of-gsas-vehicle-fleet/"
         },
         {
             "NewsID": "33",
