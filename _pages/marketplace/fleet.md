@@ -78,7 +78,7 @@ Common priorities in agency fleet management include:
 <LI>Agency Fleet Inventory Optimization</LI>
 <LI>Sustainability and Compliance</LI>
 <LI>Data-Driven Decision Making</LI>
-<LI>Improved Lifecycle Cost Analysis</LI>
+<LI>Improved Vehicle Lifecycle Cost Analysis</LI>
 <LI>Risk Management</LI>
 <LI>Fleet Electrification</LI>
 <LI>Fleet Workforce Development and Training</LI>
