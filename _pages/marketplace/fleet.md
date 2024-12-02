@@ -45,7 +45,7 @@ news-category: FIBF-FLEET
 <iframe 
         width="448" 
         height="252" 
-        src="https://www.youtube.com/embed/_RCrrUfC5Q8" 
+        src="https://www.youtube.com/embed/Bg4KP9UqToo" 
         title="GSAFleet.gov Overview" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -130,6 +130,11 @@ Classifications for commercially available vehicles, as well as minimum technica
             
                    <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+
+
+
+
+   <li style="margin-left: 2px;"><a href="https://www.gsa.gov/policy-regulations/policy/vehicle-management-policy" title="Motor Vehicle Management Policy" target="_blank">Motor Vehicle Management Policy Overview</a></li>
                  
                     <li style="margin-left: 2px;"><a href="https://www.ecfr.gov/current/title-41/subtitle-C/chapter-102/subchapter-B/part-102-34" title="Fleet Management Regulations" target="_blank">Motor Vehicle Management (FMR)</a></li>
                        <li style="margin-left: 2px;"><a href="https://www.ecfr.gov/current/title-41/subtitle-C/chapter-102/subchapter-B/part-102-34" title="Interagency Fleet Management Systems" target="_blank">Interagency Fleet Management Systems</a></li>
