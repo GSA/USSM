@@ -64,17 +64,17 @@ Since establishment of the Grants QSMO in 2020, adoption of shared services has 
 
 Each year, the <B>Federal government distributes over $1 trillion in grants and cooperative agreements across 52 awarding agencies<SUP>1</SUP></B>, representing one of the federal government’s largest investments to drive improvements for the American people. As agencies have largely managed their grants internally, there has not been a concerted effort to coordinate across the federal grants management systems landscape.
 <BR><BR>
-This has often resulted in a disconnected, aging systems environment made up of myriad systems at varying levels of maturity, as well as a fragmented user experience that increases administrative burden for applicants, recipients, and awarding agencies.  Key priorities here include:</p>
+Leveraging a shared services approach to address a disconnected systems environment at varying levels of maturity, and re-align the user experience to reduce burden for applicants, recipients, and awarding agencies will:</p>
 
 <ul> 
-<LI>Improving the Grant Recipient and Public Experience</LI>
-<LI>Enhancing Grants Transparency and Accountability</LI>
-<LI>Reducing Administrative Burden</LI>
-<LI>Accelerating Time to Solution Deployment</LI>
-<LI>Strengthening Internal Controls and Oversight</LI>
-<LI>Fostering Innovation and Flexibility</LI>
-  <LI>Availability of Data for Strategic Decision Making</LI>
-<LI>Promoting Interagency Collaboration</LI>
+<LI>Enhance Grants Transparency and Accountability</LI>
+<LI>Reduce Administrative Burden</LI>
+<LI>Improve the Grant Recipient and Public Experience</LI>
+<LI>Accelerate Time to Solution Deployment</LI>
+<LI>Strengthen Internal Controls and Oversight</LI>
+<LI>Foster Innovation and Flexibility</LI>
+<LI>Improve Data for Strategic Decision Making</LI>
+<LI>Promote Interagency Collaboration</LI>
 
                 </ul><BR>
 <SUP>1 Source: <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">Grants QSMO</A> Department of Health and Human Services</SUP><BR>
