@@ -121,7 +121,7 @@ Classifications for commercially available vehicles, as well as minimum technica
             <div class="tablet:grid-col-5 display-flex flex-column">
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#verified_user"></use></svg> -->
-                    <h2 class="margin-bottom-0 margin-top-0">
+                    <h3 class="margin-bottom-0 margin-top-0">
                     
                      <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, & Policy Alignment" height="auto" style="vertical-align:middle;">
                         Priority, Policy, & Strategy Alignment
