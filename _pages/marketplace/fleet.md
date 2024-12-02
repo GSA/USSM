@@ -39,7 +39,7 @@ news-category: FIBF-FLEET
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact GSA FLeet" height="auto" style="vertical-align:middle;">&nbsp;Contact GSA Fleet at <a href="mailto:gsafleet@gsa.gov" title="Contact GSA Fleet" target="_blank">gsafleet@gsa.gov</a><BR>
 
                 </ul>
-<A HREF="https://gsafleet.gov/gsa-fleet-how-to">GSAFleet.gov</A> is a user-centric platform that significantly enhances the management of federal vehicle fleets. Learn more below.
+<A HREF="https://gsafleet.gov/gsa-fleet-how-to">GSAFleet.gov</A> is a user-centric platform that significantly enhances the management of agency vehicle fleets. Learn more below.
 <BR>
 
 <iframe 
