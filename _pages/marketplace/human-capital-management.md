@@ -89,6 +89,8 @@ OPM's HR QSMO will help (1) agencies modernize human capital management faster t
                         Data and Business Standards                 
                     </h3>
                 </div>
+
+From the <A HREF="https://ussm.gsa.gov/fibf-hr-hcm/">Human Capital Management Data and Business Standards</A><BR>
     
                    Enabling
 <ul class="margin-top-2">
@@ -112,6 +114,9 @@ OPM's HR QSMO will help (1) agencies modernize human capital management faster t
 </ul>
 
                     <A HREF="https://ussm.gsa.gov/fibf-hr-par/#business_lifecycle" title="Personnel Action Request Processing">Personnel Action Request Processing</A>
+
+You may also be interested in:
+<LI><A HREF="https://www.opm.gov/services-for-agencies/hr-line-of-business/human-capital-information-model-hcim/">OPM's Human Capital Information Model</A><IMG SRC="https://ussm.gsa.gov/assets/img/external-link-dark.svg"></LI>
 
           <BR>
 
