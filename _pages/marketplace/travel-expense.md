@@ -88,11 +88,11 @@ A shared services approach to travel improves the performance and transparency n
 <!-- why it matters -->
   <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
-                    <h2 class="margin-bottom-0 margin-top-0">
+                    <h3 class="margin-bottom-0 margin-top-0">
 
   <img src="/assets/images/marketplace/icon_standards.png" alt="Data and Business Standards" height="auto" style="vertical-align:middle;">
                         Data and Business Standards                 
-                    </h2>
+                    </h3>
                 </div>
 Standardization increases the likelihood of agency success in partnering with industry to procure and deploy commercial solutions, improves interoperability across agency operations functions, and provides leadership with the data needed to support strategic decision-making and oversight of agency travel.
 
@@ -119,13 +119,13 @@ Standardization increases the likelihood of agency success in partnering with in
             <div class="tablet:grid-col-5 display-flex flex-column">
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#verified_user"></use></svg> -->
-                    <h2 class="margin-bottom-0 margin-top-0">
+                    <h3 class="margin-bottom-0 margin-top-0">
                     
                      <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, & Policy Alignment" height="auto" style="vertical-align:middle;">
-                        Goal, Priority, & Policy Alignment
+                        Priority, Policy, & Strategy Alignment
                     
                 
-                    </h2>
+                    </h3>
                 </div>
 
  <p class="margin-top-1 margin-bottom-1"><b>Recent Bulletins</b></p>
