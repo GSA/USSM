@@ -139,6 +139,9 @@ Classifications for commercially available vehicles, as well as minimum technica
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                       <li style="margin-left: 2px;"><A HREF="https://www.gsa.gov/policy-regulations/policy/vehicle-management-policy/federal-fleet-policy-council-fedfleet">Federal Fleet Policy Council</A></li>
+
+                <li style="margin-left: 2px;"><A HREF="https://www.federalregister.gov/documents/2024/07/01/2024-14347/gsa-electric-vehicle-battery-management-strategic-plan">Electric Vehicle Battery Management Strategic Plan</A></li>
+                      
                 
                 </ul>
 
