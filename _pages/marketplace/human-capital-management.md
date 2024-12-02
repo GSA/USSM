@@ -71,7 +71,7 @@ The Federal government <B>employs over 2.2 million people</B><SUP>1</SUP> in ser
 <LI>Shifting Workforce from Low to High-Value Work</LI>
 <LI>Ensuring Ethical Standards and Integrity</LI>
                 </ul>
-
+<BR>
 <SUP>1 Source: <A HREF="https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABnsT72MN42oVOsW6DQAz9mTNph0Y_wyVhYIDjUBiANLBXlFzSqsBFcB3y9xUwpFWGvidL9vN7lp2yWJdVcVRpHIzWDDqNn4DocyNI4jZU6PncQ0%7EtfIHRZiO5UKREtAWiZ2fKqvAo94ew2gdASWN6q3sLlJxNe9IDiAg87OtOgxuvDnXzVV%7E0_Ka6a2tune7tCkQMlFyXzV%7E73QWEL0Aov4dhmTLT248p68SlXMsiz5Ws0iLPw0wF%7E_Wc6DU4IzKOiJwjYwyZQEbIJjIWXnTf3IAQ6ASEYdsC_pkZ7eMpQJ8B7YBcBNIc6B3IXwR_F9gMIHey%7EwKfOXfLO3MtTyz4AbZLbJc%3D">OPM Fedscope</A></SUP>
 
 
