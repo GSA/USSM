@@ -45,9 +45,52 @@ The HR QSMO will help (1) agencies modernize human capital management faster thr
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
                     <h2 class="margin-bottom-0 margin-top-0">
 
-  <img src="/assets/images/marketplace/icon_standards.png" alt="Data and Business Standards" height="auto" style="vertical-align:middle;">
-                        Data and Business Standards                 
+
+         
+                        
+                        
+                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
+                        Why does it matter?
                     </h2>
+                </div>
+             
+                  <p>
+
+The Federal government <B>employs over 3 million people</B> in service to our national priorities through the delivery of agency missions. By prioritizing its workforce goals, the government ensures employees and Federal agencies are equipped to meet evolving challenges and uphold the trust of the American people.
+</p>
+
+<ul> 
+<LI>Attracting and Hiring Qualified Employees</LI>
+<LI>Strengthening Leadership Development</LI>
+<LI>Modernizing Human Capital Practices</LI>
+<LI>Improving Performance Management</LI>
+<LI>Leveraging Data as a Strategic Asset</LI>
+<LI>Facilitating Knowledge Transfer and Succession Planning</LI>
+<LI>Shifting Workforce from Low to High-Value Work</LI>
+<LI>Ensuring Ethical Standards and Integrity</LI>
+                </ul>
+
+
+
+
+
+
+
+  
+
+                <hr class="margin-top-auto width-full">
+            </div>
+        </div>
+        <div class="grid-row">
+            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
+                <div class="display-flex flex-align-center">
+                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
+                    <h3 class="margin-bottom-0 margin-top-0">
+                
+                        
+                        <img src="/assets/images/marketplace/icon_standards.png" alt="Data and Business Standards" height="auto" style="vertical-align:middle;">
+                        Data and Business Standards                 
+                    </h3>
                 </div>
     
                    Enabling
@@ -73,48 +116,19 @@ The HR QSMO will help (1) agencies modernize human capital management faster thr
 
                     <A HREF="https://ussm.gsa.gov/fibf-hr-par/#business_lifecycle" title="Personnel Action Request Processing">Personnel Action Request Processing</A>
 
-
-                <hr class="margin-top-auto width-full">
-            </div>
-        </div>
-        <div class="grid-row">
-            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
-                <div class="display-flex flex-align-center">
-                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
-                    <h2 class="margin-bottom-0 margin-top-0">
-                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
-                        Why does it matter?
-                    </h2>
-                </div>
-             
-                  <p>
-
-The Federal government <B>employs over 3 million people</B> in service to our national priorities through the delivery of agency missions. By prioritizing its workforce goals, the government ensures employees and Federal agencies are equipped to meet evolving challenges and uphold the trust of the American people.
-</p>
-
-<ul> 
-<LI>Attracting and Hiring Qualified Employees</LI>
-<LI>Strengthening Leadership Development</LI>
-<LI>Modernizing Human Capital Practices</LI>
-<LI>Improving Performance Management</LI>
-<LI>Leveraging Data as a Strategic Asset</LI>
-<LI>Facilitating Knowledge Transfer and Succession Planning</LI>
-<LI>Shifting Workforce from Low to High-Value Work</LI>
-<LI>Ensuring Ethical Standards and Integrity</LI>
-                </ul>
+          
 
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 display-flex flex-column">
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#verified_user"></use></svg> -->
-                    <h2 class="margin-bottom-0 margin-top-0">
+                    <h3 class="margin-bottom-0 margin-top-0">
                     
                      <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, & Policy Alignment" height="auto" style="vertical-align:middle;">
-                        Goal, Priority, & Policy Alignment
-                    
+                      Priority, Policy, & Strategy Alignment
                 
-                    </h2>
+                    </h3>
                 </div>
 
          
@@ -147,6 +161,12 @@ The Federal government <B>employs over 3 million people</B> in service to our na
    <li style="margin-left: 1px;"><a href="https://georgewbush-whitehouse.archives.gov/results/agenda/humancapital_year4.html" title="Strategic Management of Human Capital" target="_blank">PMA 43: Advancing Strategic Management of Human Capital</a></li>
 
    </ul>
+
+
+    <p class="margin-top-1 margin-bottom-1"><b>Performance</b></p>
+<ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+  <li style="margin-left: 1px"><a href="https://www.opm.gov/data/data-products/" title="OPM Data Products" target="_blank">OPM Data Products</a></li>
+</ul>
 
 
                 
