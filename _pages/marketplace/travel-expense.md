@@ -109,10 +109,7 @@ Standardization increases the likelihood of agency success in partnering with in
                     <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Management Reporting and Analysis" target="_blank">Management Reporting and Analysis</a></li>
                     <li><a href="https://ussm.gsa.gov/fibf-travel/#business_lifecycle" title="Policy Management and Audit">Policy Management and Audit</a></li>
       <li><a href="https://ussm.gsa.gov/fibf-travel/#standard_data_elements" title="Travel - Standard Data Elements">Standard Data Elements</a></li>
-
-
-
-                    
+             
 
 </ul>
 
@@ -150,9 +147,15 @@ Standardization increases the likelihood of agency success in partnering with in
                       <li style="margin-left: 2px;">Senior Travel Officials Council (STOC)</li>
                     <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="ETSNext Governance (Max Login Required)" target="_blank">ETSNext Governance</A> (Max Login Required)</li>
                 </ul>
+
+ <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
+   <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
+                    <li style="margin-left: 2px;"><a href="https://d2d.gsa.gov/report/business-travel-and-relocation-dashboard" title="Federal TRIP Report" target="_blank">Federal TRIP Report</a></li>
+                </ul>
+
                 
-            
-            
+                
+  
                 <hr class="margin-top-auto width-full">
             </div>
         </div>
