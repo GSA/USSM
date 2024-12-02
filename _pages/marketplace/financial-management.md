@@ -249,7 +249,7 @@ A high-performing marketplace of the expertise and advanced technologies needed 
                     </h2>
                 </div>
                 
-Standardization increases the likelihood of agency success in partnering with industry to procure and deploy modern solutions, improves interoperability across management and operations functions, and avails decision-makers with the consistent evidence needed to support strategic decision-making in leveraging financial management as a means to deliver on their agencies' priorities.
+Standardization increases the likelihood of agency success in partnering with industry to procure and deploy modern solutions, improves interoperability across management and operations functions, and avails agency decision-makers with the evidence needed to effectively leverage financial management as a means to deliver on their agencies' priorities.
 
     <ul class="margin-top-2">
                     <li><a href="https://ussm.gsa.gov/fibf-fm/#business_lifecycle" title="Budget Execution" target="_blank">Budget Execution</a></li>
