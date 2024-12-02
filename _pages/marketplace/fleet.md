@@ -68,17 +68,17 @@ news-category: FIBF-FLEET
                 </div>
              
                   <p>
- <B>In 2023, the Federal fleet comprised over 670,000 vehicles, drove over 4.6 billion miles, and reported costs of $5.5 billion to sustain fleet operations<SUP>1</SUP></B><BR><BR>These operations present as an opportunity to continue advancing efficiencies in the maintenance, fuel, and acquisition overhead associated with managing the Federal fleet. A shared management strategy ensures the Federal fleet continues to meet agency mission needs while supporting goals that align with broader federal priorities such as (1) fiscal responsibility, (2) <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and (3) <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  
+ <B>In 2023, the Federal fleet comprised over 670,000 vehicles, drove over 4.6 billion miles, and reported costs of $5.5 billion to sustain fleet operations<SUP>1</SUP></B><BR><BR>These operations present are an opportunity to continue advancing efficiencies in the maintenance, fuel, and acquisition overhead associated with managing the Federal fleet. A shared strategy ensures the Federal fleet continues to meet agency mission needs while supporting goals that align with broader federal priorities such as (1) fiscal responsibility, (2) <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and (3) <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  
 
 
 </p>
 
-Benefits of agency engagement in fleet shared services include:
+Common priorities in agency fleet management include:
 <ul> 
-<LI>Fleet Optimization</LI>
+<LI>Agency Fleet Inventory Optimization</LI>
 <LI>Sustainability and Compliance</LI>
 <LI>Data-Driven Decision Making</LI>
-<LI>Lifecycle Cost Analysis</LI>
+<LI>Improved Lifecycle Cost Analysis</LI>
 <LI>Risk Management</LI>
 <LI>Fleet Electrification</LI>
 <LI>Fleet Workforce Development and Training</LI>
@@ -125,7 +125,7 @@ Classifications for commercially available vehicles, as well as minimum technica
                     
                      <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, & Policy Alignment" height="auto" style="vertical-align:middle;">
                         Priority, Policy, & Strategy Alignment
-                  </h2>
+                  </h3>
                 </div>
             
                    <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
