@@ -52,7 +52,7 @@ news-category: FIBF-FLEET
         allowfullscreen>
     </iframe>
 
-
+<BR>
              
               
                 <hr class="margin-top-auto width-full">
@@ -81,7 +81,7 @@ Key benefits to agency engagement in fleet shared services include:
 <LI>Data-Driven Decision Making</LI>
 <LI>Lifecycle Cost Analysis</LI>
 <LI>Risk Management</LI>
-<LI>Fleet Electricfication</LI>
+<LI>Fleet Electrification</LI>
 <LI>Workforce Development and Training</LI>
 
                 </ul>
@@ -109,8 +109,15 @@ Key benefits to agency engagement in fleet shared services include:
                 </div>
     
       To drive consistency in vehicle and overall fleet reporting, the common data elements used to describe a fleet, a vehicle, fuel consumption, as well as OMB A-11 fleet budget projections are managed and published by GSA and the Department of Energy.<BR>
+
       
                     <li><a href="https://fastweb.inl.gov/help/index.cfm/resources/vld-reference/section/data-elements-and-rules" title="" target="_blank">Data Elements and Rules Standards</a></li>
+
+Find classifications for various types of commercially available vehicles, as well as minimum technical, quality, and optional equipment specifications. These standards are used to ensure Federal vehicles are safe, durable, and economical, and to provide uniformity in the acquisition process.
+
+ <li><a href="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-purchasing/federal-vehicle-standards" title="" target="_blank">Federal Vehicle Standards</a></li>
+
+
           
                 <hr class="margin-top-auto width-full">
             </div>
