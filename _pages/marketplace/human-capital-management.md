@@ -58,7 +58,7 @@ OPM's HR QSMO will help (1) agencies modernize human capital management faster t
              
                   <p>
 
-The Federal government <B>employs over 2.2 million people</B><SUP>1</SUP> in service to our national priorities through the delivery of agency missions. By prioritizing its workforce goals, the government ensures employees and Federal agencies are equipped to meet evolving challenges and uphold the trust of the American people. 
+<B>The Federal government employs over 2.2 million people</B><SUP>1</SUP> in service to our national priorities through the delivery of agency missions. By prioritizing its workforce goals, the government ensures employees and Federal agencies are equipped to meet evolving challenges and uphold the trust of the American people. 
 </p>
 
 <ul> 
