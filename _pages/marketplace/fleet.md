@@ -69,12 +69,12 @@ news-category: FIBF-FLEET
              
                   <p>
 
- <B>In Fiscal Year 2023, the U.S. government operated over 670,000 vehicles, drove over 4.6 Billion miles, and reported costs of $5.5 billion for fleet operations<SUP>1</SUP></B> These operations are an opportunity to continue advancing efficiencies in maintenance, fuel, and acquisition overhead. A coordinated goverment-wide and agency fleet management strategy ensures the Federal fleet meets agency mission needs while supporting goals that align with broader federal priorities such as (1) fiscal responsibility, (2) <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and (3) <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  
+ <B>In 2023, the Federal government operated over 670,000 vehicles, drove over 4.6 Billion miles, and reported costs of $5.5 billion for fleet operations<SUP>1</SUP></B> These operations present as an opportunity to continue advancing efficiencies in maintenance, fuel, and acquisition overhead associated with managing the Federal fleet. A coordinated management strategy ensures the Federal fleet meets agency mission needs while supporting goals that align with broader federal priorities such as (1) fiscal responsibility, (2) <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and (3) <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  
 
 
 </p>
 
-Key benefits to agency engagement in fleet shared services include:
+Benefits of agency engagement in fleet shared services include:
 <ul> 
 <LI>Fleet Optimization</LI>
 <LI>Sustainability and Compliance</LI>
@@ -82,7 +82,7 @@ Key benefits to agency engagement in fleet shared services include:
 <LI>Lifecycle Cost Analysis</LI>
 <LI>Risk Management</LI>
 <LI>Fleet Electrification</LI>
-<LI>Workforce Development and Training</LI>
+<LI>Fleet Workforce Development and Training</LI>
 
                 </ul>
 
