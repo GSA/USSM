@@ -165,6 +165,8 @@ Standard classifications for commercially available vehicles, as well as minimum
                 <hr>
             </div>
         </div>
+
+        <!--
         <div class="grid-row padding-bottom-5">
             <div class="tablet:grid-col-10 grid-offset-1">
                 <h3>
@@ -179,7 +181,7 @@ Standard classifications for commercially available vehicles, as well as minimum
                       
                 </ul>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 
