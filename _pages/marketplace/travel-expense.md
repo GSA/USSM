@@ -148,7 +148,7 @@ Standardization increases the likelihood of agency success in partnering with in
                     <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="ETSNext Governance (Max Login Required)" target="_blank">ETSNext Governance</A> (Max Login Required)</li>
                 </ul>
 
- <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
+ <p class="margin-top-1 margin-bottom-1"><b>Performance</b></p>
    <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                     <li style="margin-left: 2px;"><a href="https://d2d.gsa.gov/report/business-travel-and-relocation-dashboard" title="Federal TRIP Report" target="_blank">Federal TRIP Report</a></li>
                 </ul>
