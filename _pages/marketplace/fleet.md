@@ -100,11 +100,11 @@ Common priorities in agency fleet management include:
             
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
-                    <h2 class="margin-bottom-0 margin-top-0">
+                    <h3 class="margin-bottom-0 margin-top-0">
 
   <img src="/assets/images/marketplace/icon_standards.png" alt="Data and Business Standards" height="auto" style="vertical-align:middle;">
                         Data and Business Standards                 
-                    </h2>
+                    </h3>
                 </div>
     
       To drive consistency in federal fleet reporting, common data elements used to describe a fleet, a vehicle, fuel consumption, as well as OMB A-11 fleet budget projections are managed and published by GSA and the Department of Energy.<BR>
@@ -166,9 +166,9 @@ Classifications for commercially available vehicles, as well as minimum technica
         </div>
         <div class="grid-row padding-bottom-5">
             <div class="tablet:grid-col-10 grid-offset-1">
-                <h2>
+                <h3>
                   <img src="/assets/images/marketplace/icon_references.png" alt="Other References" height="auto" style="vertical-align:middle;">
-                Other References</h2>
+                Other References</h3>
                 <ul class="margin-top-0 margin-bottom-3">
 
                      <li>
