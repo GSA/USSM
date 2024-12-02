@@ -29,8 +29,8 @@ news-category: FIBF-FLEET
                    <img src="/assets/images/fibf/icons/car.icon.webp" alt="Fleet Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;Fleet
                 </h2>
                 <p>
-                   The General Services Administration's <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management?topnav=buy-through-us">Fleet Program Office</A> provides safe, low-cost vehicle solutions for federal agencies, eligible entities and tribal nations. GSA Fleet’s suite of offerings include <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-purchasing">vehicle purchasing</A>, <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-leasing">vehicle leasing</A>, <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/shortterm-rentals-str">short-term rentals</A>, and <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/fleet-electrification">fleet electrification</A>. 
-                </p>
+                   The General Services Administration's <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management?topnav=buy-through-us">Fleet Program Office</A> provides safe, low-cost vehicle solutions for federal agencies, eligible entities and tribal nations. GSA Fleet’s suite of offerings include <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-purchasing">vehicle purchasing</A>, <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-leasing">vehicle leasing</A>, <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/shortterm-rentals-str">short-term rentals</A>, and <A HREF="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/fleet-electrification">fleet electrification</A>. <BR>
+             
 
 <B>Begin here - Find solutions and get help:</B>
               
@@ -40,7 +40,7 @@ news-category: FIBF-FLEET
 
                 </ul>
 <A HREF="https://gsafleet.gov/gsa-fleet-how-to">GSAFleet.gov</A> is a user-centric platform that significantly enhances the management of agency vehicle fleets. Learn more below.
-<BR>
+   </p>
 
 <iframe 
         width="448" 
