@@ -42,10 +42,13 @@ news-category: FIBF-FLEET
 
              <P></P>
 
+
+<A HREF="https://www.gsafleet.gov">GSAFleet.gov</A> is user-centric platform that significantly enhances the management of federal vehicle fleets.
+
 <iframe 
         width="448" 
         height="252" 
-        src="https://www.youtube.com/embed/SGauE8AMW0M" 
+        src="https://www.youtube.com/embed/_RCrrUfC5Q8" 
         title="YouTube video player" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -108,12 +111,12 @@ Benefits of agency engagement in fleet shared services include:
                     </h2>
                 </div>
     
-      To drive consistency in vehicle and overall fleet reporting, the common data elements used to describe a fleet, a vehicle, fuel consumption, as well as OMB A-11 fleet budget projections are managed and published by GSA and the Department of Energy.<BR>
+      To drive consistency in federal fleet reporting, common data elements used to describe a fleet, a vehicle, fuel consumption, as well as OMB A-11 fleet budget projections are managed and published by GSA and the Department of Energy.<BR>
 
       
                     <li><a href="https://fastweb.inl.gov/help/index.cfm/resources/vld-reference/section/data-elements-and-rules" title="" target="_blank">Data Elements and Rules Standards</a></li>
 <BR>
-Find classifications for commercially available vehicles, as well as minimum technical, quality, and optional equipment specifications. These standards ensure Federal vehicles are safe, durable, and economical, and provide uniformity in the acquisition process.
+Classifications for commercially available vehicles, as well as minimum technical, quality, and optional equipment specifications are published by GSA. These standards ensure Federal vehicles are safe, durable, and economical, and provide uniformity in the acquisition process.
 
  <li><a href="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-purchasing/federal-vehicle-standards" title="" target="_blank">Federal Vehicle Standards</a></li>
 
