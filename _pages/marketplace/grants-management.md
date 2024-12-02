@@ -1,6 +1,6 @@
 ---
 layout: base
-permalink: /marketplace/qsmo-grm/
+permalink: /marketplace/qsmo-grm2/
 title: Grants Management
 description: "Grant Program Administration, Grant Pre-Award Management, Grant Award Management, Grant Post-Award Management and Closeout, Grant Program Oversight, Grant Recipient Oversight"
 news-category: FIBF-GRM
