@@ -38,7 +38,7 @@ news-category: FIBF-FLEET
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore GSA Fleet" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management?topnav=buy-through-us" title="Explore GSA Fleet Management" target="_blank" CLASS="green-link">Explore GSA Fleet</a><BR>
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact GSA FLeet" height="auto" style="vertical-align:middle;">&nbsp;Contact GSA Fleet at <a href="mailto:gsafleet@gsa.gov" title="Contact GSA Fleet" target="_blank">gsafleet@gsa.gov</a><BR>
 
-                </ul>
+                </ul><p>
 <A HREF="https://gsafleet.gov/gsa-fleet-how-to">GSAFleet.gov</A> is a user-centric platform that significantly enhances the management of agency vehicle fleets. Learn more below.
    </p>
 
@@ -107,12 +107,12 @@ Common priorities in agency fleet management include:
                     </h3>
                 </div>
     
-      To drive consistency in federal fleet reporting, common data elements used to describe a fleet, a vehicle, fuel consumption, as well as OMB A-11 fleet budget projections are managed and published by GSA and the Department of Energy.<BR>
+      To drive consistency in federal fleet reporting, GSA and the Department of Energy publish common data elements used to describe fleet vehicle inventories, fuel consumption, usage, and agency fleet budget projections.<BR>
 
       
                     <li><a href="https://fastweb.inl.gov/help/index.cfm/resources/vld-reference/section/data-elements-and-rules" title="" target="_blank">Data Elements and Rules Standards</a></li>
 <BR>
-Classifications for commercially available vehicles, as well as minimum technical, quality, and optional equipment specifications are published by GSA. These standards ensure Federal vehicles are safe, durable, and economical, and provide uniformity in the acquisition process.
+Standard classifications for commercially available vehicles, as well as minimum technical, quality, and optional equipment specifications are published by GSA. These standards ensure Federal vehicles are safe, durable, and economical, and provide uniformity in the acquisition process.
 
  <li><a href="https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/vehicle-purchasing/federal-vehicle-standards" title="" target="_blank">Federal Fleet Vehicle Standards</a></li>
 
