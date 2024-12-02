@@ -41,10 +41,11 @@ news-category: FIBF-GRM
  <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="Grants Management Acquisition Gateway" height="auto" style="vertical-align:middle;">&nbsp;<A HREF="https://www.acquisitiongateway.gov/shared-services/resources/4216">Acquisition Gateway (for Acquisition Professionals)</A><BR>          
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the Grants QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:GrantsQSMO@hhs.gov" title="Contact the Grants QSMO" target="_blank">Contact the Grants QSMO</a> | <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">HHS Grants QSMO Website</A><BR>
                 </ul>
-Since establishment of the Grants QSMO in 2020, adoption of shared services has increased from 19% to 48% of awarding agencies. To further help agencies, the Grants QSMO created the <A HREF="https://ag-dashboard.acquisitiongateway.gov/system/files/shared_services/2024-11/2024%20Catalog%20of%20Market%20Research%20Highlights%2011.13.2024.pdf">Catalog of Market Research</A> consisting of commercial grants IT vendors vetted by a cross-government team to support agencies in selecting the most optimal grants management solution.
+<P>
+  Since establishment of the Grants QSMO in 2020, adoption of shared services has increased from 19% to 48% of awarding agencies. To further help agencies, the Grants QSMO created the <A HREF="https://ag-dashboard.acquisitiongateway.gov/system/files/shared_services/2024-11/2024%20Catalog%20of%20Market%20Research%20Highlights%2011.13.2024.pdf">Catalog of Market Research</A> consisting of commercial grants IT vendors vetted by a cross-government team to support agencies in selecting the most optimal grants management solution.
               
               
-              <P></P>
+              </P>
               
                 <hr class="margin-top-auto width-full">
             </div>
