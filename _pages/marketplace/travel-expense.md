@@ -60,7 +60,7 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
                   <p>
  <B>Civilian agencies move over 1 million federal travelers through 2.6 million transactions per year.<SUP>1</SUP></B><BR>
  
- Travel is often necessary to perform mission-related tasks and should be completed efficiently in a manner that leverages negotiated rates and contracts (e.g. <A HREF="https://www.gsa.gov/travel/plan-a-trip/transportation-airfare-rates-pov-rates-etc/airfare-rates-city-pair-program" title="GSA's City-Pair Program">GSA's City-Pair Program</A>) using streamlined tools that reduce administrative burden and allow workers to focus on their job responsibilities instead of navigating complex, inefficient travel processes.
+ Travel needed to perform mission-related tasks should be completed efficiently in a manner that leverages negotiated rates and contracts (e.g. <A HREF="https://www.gsa.gov/travel/plan-a-trip/transportation-airfare-rates-pov-rates-etc/airfare-rates-city-pair-program" title="GSA's City-Pair Program">GSA's City-Pair Program</A>) using streamlined tools that reduce administrative burden and allow workers to focus on their job responsibilities instead of navigating complex, inefficient travel processes.
 <BR><BR>
 A shared services approach to travel improves the performance and transparency needed to sustain public trust in delivering responsible stewardship of taxpayer funds by:
 <ul> 
