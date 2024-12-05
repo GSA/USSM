@@ -2,6 +2,42 @@
     "title": "News",
     "items": [
         {
+            "NewsID": "61",
+            "Homepage": "0",
+            "Category": "FIBF-TRT",
+            "Title": "GSA Taps IBM to Support Next-Generation Federal Travel and Expense Platform",
+            "Date": "2024-11-27",
+            "Source": "Federal News Radio",
+            "Hyperlink": "https://federalnewsnetwork.com/contractsawards/2024/11/gsa-taps-ibm-to-support-next-generation-federal-travel-and-expense-platform/"
+        },
+        {
+            "NewsID": "60",
+            "Homepage": "0",
+            "Category": "FIBF-TRT",
+            "Title": "IBM wins $903M GSA Contract to Modernize Federal Travel and Expense Management",
+            "Date": "2024-11-27",
+            "Source": "FedScoop",
+            "Hyperlink": "https://fedscoop.com/ibm-wins-903m-gsa-contract-to-moderniz-federal-travel-and-expense-management/"
+        },
+        {
+            "NewsID": "59",
+            "Homepage": "1",
+            "Category": "FIBF-TRT",
+            "Title": "GSA selects IBM to provide technology-managed service for governmentwide travel and expense management",
+            "Date": "2024-11-27",
+            "Source": "GSA Press Release",
+            "Hyperlink": "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-selects-ibm-to-provide-technologymanaged-service-for-governmentwide-travel-11272024"
+        },
+    {
+            "NewsID": "59",
+            "Homepage": "1",
+            "Category": "FIBF-FLEET",
+            "Title": "Registration is Open for FedFleet 2025 (Feb 3-6, 2025)",
+            "Date": "2024-11-01",
+            "Source": "Fleet Community Event",
+            "Hyperlink": "https://www.gsa.gov/buy-through-us/products-and-services/transportation-and-logistics-services/fleet-management/fedfleet-2025"
+        },
+        {
             "NewsID": "58",
             "Homepage": "1",
             "Category": "FIBF-GRM",
@@ -12,7 +48,7 @@
         },    
         {
             "NewsID": "57",
-            "Homepage": "1",
+            "Homepage": "0",
             "Category": "FIBF-GRM",
             "Title": "Grants QSMO: 2024 Catalog of Market Research Award Management Systems",
             "Date": "2024-09-20",
@@ -21,7 +57,7 @@
         },
         {
             "NewsID": "56",
-            "Homepage": "1",
+            "Homepage": "0",
             "Category": "FSSP",
             "Title": "Public Comment: Enhancing Practices to Optimize Cost Recovery (Final Draft)",
             "Date": "2024-08-21",
@@ -32,7 +68,7 @@
             "NewsID": "55",
             "Homepage": "1",
             "Category": "FIBF-ITS",
-            "Title": "Public Comment: FY25 Key Technical and Cybersecurity Capabilities for use in Shared and Centralized Services",
+            "Title": "Public Comment: FY25 Technical and Cybersecurity Capabilities for use in Shared and Centralized Services",
             "Date": "2024-08-01",
             "Source": "Business Standards Council",
             "Hyperlink": "https://ussm.gsa.gov/public-comment-open-for-fy25-technical-and-cybersecurity-capabilities-for-shared-services/"
@@ -48,7 +84,7 @@
         },
         {
             "NewsID": "53",
-            "Homepage": "1",
+            "Homepage": "0",
             "Category": "FIBF-HR",
             "Title": "RFI: USDA is Looking for Market Research Responses to Implement Modern Enterprise Solutions for the National Finance Center",
             "Date": "2024-07-24",
@@ -112,6 +148,15 @@
         {
             "NewsID": "46",
             "Homepage": "0",
+            "Category": "FIBF-TRT",
+            "Title": "Start Preparing for Transition to New Travel System, GSA Tells Agencies",
+            "Date": "2024-05-22",
+            "Source": "FedScoop",
+            "Hyperlink": "https://www.fedweek.com/federal-managers-daily-report/start-preparing-for-transition-to-new-travel-system-gsa-tells-agencies/"
+        },
+  {
+            "NewsID": "46",
+            "Homepage": "0",
             "Category": "FIBF-HR",
             "Title": "OPM Launches HR Shared Services Marketplace",
             "Date": "2024-05-14",
@@ -126,6 +171,24 @@
             "Date": "2024-05-01",
             "Source": "FedScoop",
             "Hyperlink": "https://fedscoop.com/opm-launches-hr-marketplace/"
+        },
+     {
+            "NewsID": "44",
+            "Homepage": "0",
+            "Category": "FIBF-TRT",
+            "Title": "GSA E-Gov Travel Service 2 (ETS2) Transition to E-Gov Travel Service, Next Generation (ETSNext)",
+            "Date": "2024-04-15",
+            "Source": "GSA Bulletin ETS 24-01",
+            "Hyperlink": "https://buy.gsa.gov/interact/system/files/ETSNext_GSA%20Bulletin%2024-01%20Final%201.pdf"
+        },
+     {
+            "NewsID": "44",
+            "Homepage": "0",
+            "Category": "FIBF-GRM",
+            "Title": "HHS Grants QSMO Wants Input on Commercial IT Market",
+            "Date": "2024-04-09",
+            "Source": "Meritalk",
+            "Hyperlink": "https://www.meritalk.com/articles/hhs-grants-qsmo-wants-input-on-commercial-it-market/"
         },
         {
             "NewsID": "44",
@@ -154,6 +217,15 @@
             "Source": "Regulations,gov",
             "Hyperlink": "https://www.regulations.gov/docket/BSC-FOI-2024-0001/document"
         },
+      {
+            "NewsID": "42",
+            "Homepage": "0",
+            "Category": "FIBF-FLEET",
+            "Title": "Fleet Management Technology Keeps Federal Vehicles Running",
+            "Date": "2024-03-18",
+            "Source": "FedTech Magazine",
+            "Hyperlink": "https://fedtechmagazine.com/article/2023/10/fleet-management-technology-keeps-federal-vehicles-running"
+        },
         {
             "NewsID": "41",
             "Homepage": "0",
@@ -162,6 +234,15 @@
             "Date": "2024-10-13",
             "Source": "Washington Technology",
             "Hyperlink": "https://www.washingtontechnology.com/contracts/2023/10/opm-puts-data-center-human-capital-modernization/391196/"
+        },
+        {
+            "NewsID": "40",
+            "Homepage": "0",
+            "Category": "FIBF-CYB",
+            "Title": "VDP Platform 2022 Annual Report Showcases Platform’s Success",
+            "Date": "2023-08-25",
+            "Source": "Cybersecurity and Infrastructure Services Agency",
+            "Hyperlink": "https://www.cisa.gov/news-events/news/vdp-platform-2022-annual-report-showcases-platforms-success"
         },
         {
             "NewsID": "40",
@@ -225,6 +306,15 @@
             "Date": "2021-09-24",
             "Source": "NextGov",
             "Hyperlink": "https://www.nextgov.com/artificial-intelligence/2021/09/grants-management-shared-services-marketplace-set-launch-end-2021/185600/"
+        },
+     {
+            "NewsID": "34",
+            "Homepage": "0",
+            "Category": "FIBF-FLEET",
+            "Title": "Data in motion optimizes management of GSA’s vehicle fleet",
+            "Date": "2021-08-23",
+            "Source": "Federal News Network",
+            "Hyperlink": "https://federalnewsnetwork.com/big-data/2021/08/data-in-motion-optimizes-management-of-gsas-vehicle-fleet/"
         },
         {
             "NewsID": "33",
