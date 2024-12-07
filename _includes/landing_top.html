@@ -2,86 +2,97 @@
 This will be displayed on the homepage. Ideally, you want to highlight key goals of the website
 {% endcomment %}
 
-<STYLE>
-.content {
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-#content-1, #content-2 {
-    display: none;
-    opacity: 0;
-    visibility: hidden;
-}
-
-#content-1.active, #content-2.active {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-}
-</STYLE>
-
-
-
-
-<section id="main-content">
-    <div class="usa-hero clearfix "  style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.webp');background-repeat:no-repeat">
-        <div class="grid-container">
-            <div class="usa-width-whole hero-content text-center">
-                <h1 class="text-white">Solutions to Advance Your Agency's Management Priorities</h1>
-                <p class="text-white big">A marketplace of commercial and Federal solutions, backed by agency business and data standards informed by industry, will drastically improve the ability of government to deliver mission outcomes, provide improved services, and effectively steward taxpayer dollars on behalf of the American people.</p>
-                <a class="usa-button usa-button--secondary tablet:margin-right-205" href="{{site.baseurl}}/ssgb/">Meet the Board</a>
-                <a class="usa-button usa-button--secondary" href="{{site.baseurl}}/sapoc/">Agency SAPOC</a>
-            </div>
-        </div>
-    </div>
-    <div class="usa-hero clearfix " id="content-2" style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.webp');background-repeat:no-repeat">
-        <div class="grid-container">
-            <div class="usa-width-whole hero-content text-center">
-                <h1 class="text-white">Solutions to Advance Your Agency's Management Priorities</h1>
-                <p class="text-white big">A marketplace of commercial and Federal solutions, backed by agency business and data standards informed by industry, will drastically improve the ability of government to deliver mission outcomes, provide improved services, and effectively steward taxpayer dollars on behalf of the American people.</p>
-                <a class="usa-button usa-button--secondary tablet:margin-right-205" href="{{site.baseurl}}/ssgb/">Meet the Board</a>
-                <a class="usa-button usa-button--secondary" href="{{site.baseurl}}/sapoc/">Agency SAPOC</a>
-            </div>
-        </div>
-    </div>
-     
-</section>
-
-    <!--
-
-    <SCRIPT>
-
-    
-document.addEventListener("DOMContentLoaded", () => {
-    const content1 = document.getElementById("content-1");
-    const content2 = document.getElementById("content-2");
-
-    let isContent1Visible = true;
-
-    const rotateContent = () => {
-        if (isContent1Visible) {
-            content1.style.display = "none";
-            content2.style.display = "block";
-        } else {
-            content1.style.display = "block";
-            content2.style.display = "none";
+ <style>
+        .content-container {
+            position: relative;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
         }
-        isContent1Visible = !isContent1Visible;
-    };
 
-    // Change content every 5 seconds
-    setInterval(rotateContent, 5000);
-});
+        .content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+        }
 
-    
+        .content.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .grid-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            flex-direction: column;
+        }
+
+        .hero-content h1, .hero-content p {
+            text-align: center;
+        }
+
+        .hero-content h1 {
+            margin-top: 20px;
+        }
+
+        .hero-content p {
+            margin-top: 10px;
+        }
+    </style>
 
 
 
-    </SCRIPT>
 
--->
+
+ <section id="main-content" class="content-container">
+        <!-- Content Set 1 -->
+        <div class="content active" id="content-1" style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.webp');background-repeat:no-repeat">
+            <div class="grid-container">
+                <div class="usa-width-whole hero-content text-center">
+                    <h1 class="text-white">Solutions to Advance Your Agency's Management Priorities</h1>
+                    <p class="text-white big">A marketplace of commercial and Federal solutions, backed by agency business and data standards informed by industry, will drastically improve the ability of government to deliver mission outcomes, provide improved services, and effectively steward taxpayer dollars on behalf of the American people.</p>
+                    <a class="usa-button usa-button--secondary tablet:margin-right-205" href="{{site.baseurl}}/ssgb/">Meet the Board</a>
+                    <a class="usa-button usa-button--secondary" href="{{site.baseurl}}/sapoc/">Agency SAPOC</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Set 2 -->
+        <div class="content" id="content-2" style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-3.webp');background-repeat:no-repeat">
+            <div class="grid-container">
+                <div class="usa-width-whole hero-content text-center">
+                    <h1 class="text-white">Innovative Approaches to Transform Government Services</h1>
+                    <p class="text-white big">Explore cutting-edge strategies and tools designed to empower agencies in delivering impactful outcomes and maximizing efficiency for the public good.</p>
+                    <a class="usa-button usa-button--secondary tablet:margin-right-205" href="{{site.baseurl}}/innovation/">Learn More</a>
+                    <a class="usa-button usa-button--secondary" href="{{site.baseurl}}/tools/">Explore Tools</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+ <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const contents = document.querySelectorAll(".content");
+            let currentIndex = 0;
+
+            const rotateContent = () => {
+                contents[currentIndex].classList.remove("active");
+                currentIndex = (currentIndex + 1) % contents.length;
+                contents[currentIndex].classList.add("active");
+            };
+
+            // Change content every 5 seconds
+            setInterval(rotateContent, 5000);
+        });
+    </script>
+
+
     
