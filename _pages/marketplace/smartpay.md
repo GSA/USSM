@@ -1,6 +1,6 @@
 ---
 layout: base
-permalink: /marketplace/ess-smartpay2
+permalink: /marketplace/ess-smartpay
 title: Smart Pay
 description: "Grant Program Administration, Grant Pre-Award Management, Grant Award Management, Grant Post-Award Management and Closeout, Grant Program Oversight, Grant Recipient Oversight"
 news-category: FIBF-SMART
