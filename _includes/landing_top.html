@@ -24,10 +24,43 @@ This will be displayed on the homepage. Ideally, you want to highlight key goals
 }
 </STYLE>
 
+    <SCRIPT>
+
+const rotateContent = () => {
+    content1.classList.toggle("active");
+    content2.classList.toggle("active");
+};
+    
+document.addEventListener("DOMContentLoaded", () => {
+    const content1 = document.getElementById("content-1");
+    const content2 = document.getElementById("content-2");
+
+    let isContent1Visible = true;
+
+    const rotateContent = () => {
+        if (isContent1Visible) {
+            content1.style.display = "none";
+            content2.style.display = "block";
+        } else {
+            content1.style.display = "block";
+            content2.style.display = "none";
+        }
+        isContent1Visible = !isContent1Visible;
+    };
+
+    // Change content every 5 seconds
+    setInterval(rotateContent, 5000);
+});
+
+    
+
+
+
+    </SCRIPT>
 
 
 <section id="main-content">
-    <div class="usa-hero clearfix " style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.webp');background-repeat:no-repeat">
+    <div class="usa-hero clearfix " id="content-1" style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.webp');background-repeat:no-repeat">
         <div class="grid-container">
             <div class="usa-width-whole hero-content text-center">
                 <h1 class="text-white">Solutions to Advance Your Agency's Management Priorities</h1>
@@ -37,4 +70,28 @@ This will be displayed on the homepage. Ideally, you want to highlight key goals
             </div>
         </div>
     </div>
+
+  <!-- Content Set 2 -->
+    <div class="usa-hero clearfix content" id="content-2" 
+         style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-3.webp');background-repeat:no-repeat; display:none;">
+        <div class="grid-container">
+            <div class="usa-width-whole hero-content text-center">
+                <h1 class="text-white">Innovative Approaches to Transform Government Services</h1>
+                <p class="text-white big">Explore cutting-edge strategies and tools designed to empower agencies in delivering impactful outcomes and maximizing efficiency for the public good.</p>
+                <a class="usa-button usa-button--secondary tablet:margin-right-205" href="{{site.baseurl}}/innovation/">Learn More</a>
+                <a class="usa-button usa-button--secondary" href="{{site.baseurl}}/tools/">Explore Tools</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
 </section>
+
+
+
+
+
+    
