@@ -2,6 +2,29 @@
 This will be displayed on the homepage. Ideally, you want to highlight key goals of the website
 {% endcomment %}
 
+<STYLE>
+.content {
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#content-1, #content-2 {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#content-1.active, #content-2.active {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+</STYLE>
+
+
 
 <section id="main-content">
     <div class="usa-hero clearfix " style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.webp');background-repeat:no-repeat">
