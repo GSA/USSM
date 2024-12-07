@@ -2,97 +2,16 @@
 This will be displayed on the homepage. Ideally, you want to highlight key goals of the website
 {% endcomment %}
 
- <style>
-        .content-container2 {
-            position: relative;
-            width: 100%;
-            height: auto;
-            overflow: hidden;
-        }
 
-        .content2 {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
-        }
-
-        .content2.active {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .grid-container2 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            flex-direction: column;
-        }
-
-        .hero-content2 h1, .hero-content2 p {
-            text-align: center;
-        }
-
-        .hero-content2 h1 {
-            margin-top: 20px;
-        }
-
-        .hero-content2 p {
-            margin-top: 10px;
-        }
-    </style>
-
-
-
-
-
- <section id="main-content" class="content-container2">
-        <!-- Content Set 1 -->
-        <div class="content2 active" id="content-1" style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.webp');background-repeat:no-repeat">
-            <div class="grid-container">
-                <div class="usa-width-whole hero-content2 text-center">
-                    <h1 class="text-white">Solutions to Advance Your Agency's Management Priorities</h1>
-                    <p class="text-white big">A marketplace of commercial and Federal solutions, backed by agency business and data standards informed by industry, will drastically improve the ability of government to deliver mission outcomes, provide improved services, and effectively steward taxpayer dollars on behalf of the American people.</p>
-                    <a class="usa-button usa-button--secondary tablet:margin-right-205" href="{{site.baseurl}}/ssgb/">Meet the Board</a>
-                    <a class="usa-button usa-button--secondary" href="{{site.baseurl}}/sapoc/">Agency SAPOC</a>
-                </div>
+<section id="main-content">
+    <div class="usa-hero clearfix " style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-2.webp');background-repeat:no-repeat">
+        <div class="grid-container">
+            <div class="usa-width-whole hero-content text-center">
+                <h1 class="text-white">Solutions to Advance Your Agency's Management Priorities</h1>
+                <p class="text-white big">A marketplace of commercial and Federal solutions, backed by agency business and data standards informed by industry, will drastically improve the ability of government to deliver mission outcomes, provide improved services, and effectively steward taxpayer dollars on behalf of the American people.</p>
+                <a class="usa-button usa-button--secondary tablet:margin-right-205" href="{{site.baseurl}}/ssgb/">Meet the Board</a>
+                <a class="usa-button usa-button--secondary" href="{{site.baseurl}}/sapoc/">Agency SAPOC</a>
             </div>
         </div>
-
-        <!-- Content Set 2 -->
-        <div class="content2" id="content-2" style="background-image: url('{{ site.baseurl }}/assets/images/homepage-update-image-3.webp');background-repeat:no-repeat">
-            <div class="grid-container">
-                <div class="usa-width-whole hero-content2 text-center">
-                    <h1 class="text-white">Innovative Approaches to Transform Government Services</h1>
-                    <p class="text-white big">Explore cutting-edge strategies and tools designed to empower agencies in delivering impactful outcomes and maximizing efficiency for the public good.</p>
-                    <a class="usa-button usa-button--secondary tablet:margin-right-205" href="{{site.baseurl}}/innovation/">Learn More</a>
-                    <a class="usa-button usa-button--secondary" href="{{site.baseurl}}/tools/">Explore Tools</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
- <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const contents = document.querySelectorAll(".content2");
-            let currentIndex = 0;
-
-            const rotateContent = () => {
-                contents[currentIndex].classList.remove("active");
-                currentIndex = (currentIndex + 1) % contents.length;
-                contents[currentIndex].classList.add("active");
-            };
-
-            // Change content every 5 seconds
-            setInterval(rotateContent, 5000);
-        });
-    </script>
-
-
-    
+    </div>
+</section>
