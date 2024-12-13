@@ -26,6 +26,10 @@
     {% assign bs = site.data.trt.Business_Lifecycle | where: 'type', page.title | first %}
 {% endif %}
 
+{% if page.url contains "mom" %} 
+    {% assign bs = site.data.mom.Business_Lifecycle | where: 'type', page.title | first %}
+{% endif %}
+
 {% if page.url contains "cyb/cvd/" %} 
     {% assign bs = site.data.cvd.Business_Lifecycle | where: 'type', page.title | first %}
 {% endif %}

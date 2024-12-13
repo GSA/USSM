@@ -3,18 +3,18 @@ import os
 import pandas as pd
 
 def biz_life(df):
-    unique_func_names = df['ServiceFunctionID and Name'].unique()
+    unique_func_names = df[' Function ID'].unique()
     all_func_jsons = []
     for name in unique_func_names:
-        filt_df = df[df['ServiceFunctionID and Name'] == name]
-        res = filt_df[['ServiceActivityID', 'ServiceActivityName', 'ServiceActivityDescription ']].to_dict(orient='records')
+        filt_df = df[df[' Function ID'] == name]
+        res = filt_df[[' Activity ID', ' Activity Name', 'Activity Description']].to_dict(orient='records')
         if not filt_df.empty:
-            id = filt_df['ServiceActivityID'].iloc[0]
-            heading = '{}'.format(id).lower()
+            id = filt_df[' Function ID'].iloc[0]
+            heading = '{}'.format(id).lower().replace('.','-')
             for entry in res:
-                entry['Identifier'] = entry.pop('ServiceActivityID', None)
-                entry['Activity'] = entry.pop('ServiceActivityName', None)
-                entry['Description'] = entry.pop('ServiceActivityDescription ', None)
+                entry['Identifier'] = entry.pop(' Activity ID', None)
+                entry['Activity'] = entry.pop(' Activity Name', None)
+                entry['Description'] = entry.pop('Activity Description', None)
             all_func_jsons.append({
                 "type":heading,
                 "data":res
@@ -51,24 +51,22 @@ def parse_biz_life(df):
 def business_capabilities(df):
     df.columns = [col.replace('\n', ' ').strip() for col in df.columns]
     df = df.map(lambda x: str(x).strip() if pd.notna(x) else "")
-    print(df.columns)
     unique_capability_id = df['Capability ID'].unique()
     all_func_jsons = []
-    print('{} total capability IDs'.format(len(unique_capability_id)))  
-    print(df['Service Function ID and Name'][0])
+    print('{} total capability IDs'.format(len(unique_capability_id))) 
     for id in unique_capability_id:
         filt_df = df[df['Capability ID'] == id]
-        res = filt_df[['Service Function ID and Name', 'Service Activity ID and Name', '(I)input (P)process (O)output', 
+        res = filt_df[['Activity Name', '(I)input (P)process (O)output', 
                     'Business Capability Statement', 
-                    'Authoritative Reference']].to_dict(orient='records')
+                    'Authoritative Reference', 'Function Name']].to_dict(orient='records')
         if not filt_df.empty:
             for entry in res:
                 entry = {key: str(value).replace('\n', ' ').strip() if value is not None else "" for key, value in entry.items()}
                 if (id.lower() == 'adjusted' or id.lower()== 'new'):
                     continue
                 entry['Capability ID'] = id.strip()
-                entry['Function'] = entry.pop('Service Function ID and Name', '')[8:]
-                entry['Activity Name'] = entry.pop('Service Activity ID and Name', '')[12:]
+                entry['Function'] = entry.pop('Function Name', '')
+                entry['Activity Name'] = entry.pop('Activity Name', '')
                 entry['Input/Output/Process'] = entry.pop('(I)input (P)process (O)output', '')
                 entry['Business Capability Statement'] = entry.pop('Business Capability Statement', '')
                 entry['Authoritative Reference'] = entry.pop('Authoritative Reference', '')

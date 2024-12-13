@@ -2,13 +2,13 @@ import pandas as pd
 from extract import biz_life, save_file, parse_biz_life, business_capabilities, standard_data_elements
 
 def main():
-    data = 'Travel_2024/Excel/Travel and Expense Management Service Measures.xlsx'
-    sheet1 = 'Service Measures'
+    data = 'MoM_2024/Mail Operations Management Business Capabilities.xlsx'
+    sheet1 = 'MOM Business Capabilities'
     df = pd.read_excel(data, sheet_name=sheet1)
     print(df.columns.to_list())
-    json_out = standard_data_elements(df)
+    json_out = business_capabilities(df)
     print('Check for {} entries'.format(len(json_out)))
-    file = open('standard_data_elements.json','w')
+    file = open('bus_cap.json','w')
     file.write(json_out)
     file.close()
     

@@ -401,6 +401,8 @@ collections:
     output: true
   it-services:
     output: true
+  mom:
+    output: true
 
 keep_files: [static-api]
 
@@ -460,6 +462,11 @@ page_gen:
     index_files: true # true
     name_expr: "record['type']"
     title: "record['type']"
+  - data: "mom.Business_Lifecycle"
+    template: "json-gen-layout"
+    dir: "business-standards-api/mom/business-lifecycle"
+    index_files: true
+    name_expr: "record['type']"
   - data: "cvd.Business_Lifecycle"
     template: "json-gen-layout"
     dir: "business-standards-api/cyb/cvd/business-lifecycle/"

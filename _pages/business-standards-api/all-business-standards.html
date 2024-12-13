@@ -107,6 +107,15 @@ permalink: /business-standards-api/
 "Service Measures": {% include business-standards-api/erm/erm-performance-metrics.html %}
 },
 {
+"Business-Standards": "Mail Operations Management",
+"Business Lifecycle": {% raw %}[{{% endraw %}
+{% for post in site.data.mom.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+{% raw %}}],{% endraw %}
+"Business Capabilities": [{% include business-standards-api/mom/mom-capabilities.html %}],
+},
+{
 "Business-Standards": "Travel and Expense Management Standards",
 "Business Lifecycle": {% raw %}[{{% endraw %}
 {% for post in site.data.trt.Business_Lifecycle %}
