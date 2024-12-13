@@ -1,0 +1,1133 @@
+{
+    "Business-Standards":"Mail Operations Management",
+    "Business_Lifecycle":[
+        {
+            "type": "mom-010",
+            "data":[
+                {
+                    "Identifier": "MOM.010.010",
+                    "Activity": "Agency Mail Operations Management Strategy",
+                    "Description": "Develop and document agency mail operations management goals and objectives; Develop and document agency performance information, including mail center resource allocation and accountability; Develop and document agency guidance on sustainable activities for agency mail programs; Develop and document a standard agency mail operations communication plan for internal agency customers (e.g., training, performance feedback)"
+                },
+                {
+                    "Identifier": "MOM.010.020",
+                    "Activity": "Agency Mail Operations Management Policy, Procedures, and Plans",
+                    "Description": "Develop and document agency mail operations management policy, procedures, and plans; Develop and document a plan for the agency to assess its compliance with its service provider standards and operational procedures; Develop and document agency procedures for proper address hygiene and verification; Develop and document agency policies for expedited mail, mass mailings, mailing lists, and couriers; Develop and document agency plans for proper and cost effective use of mail transportation, equipment, and supplies; Develop and document agency guidance on development of correspondence, design of mailing materials, business reply mail, letterhead, and mail piece design; Develop and document agency policy and plans for mail training, certification requirements, and tracking; Develop and document agency procedures and plans for stakeholder/customer engagement; Develop and document procedures for opening and closing the mail center"
+                },
+                {
+                    "Identifier": "MOM.010.030",
+                    "Activity": "Agency Mail Operations Security Policy, Procedures, and Plans",
+                    "Description": "Develop and document agency mail operations security goals and objectives; Develop agency mail operations security policies, procedures, and plans"
+                }
+            ]
+         },
+        {
+            "type": "mom-020",
+            "data": [
+                {
+                    "Identifier": "MOM.020.010",
+                    "Activity": "Agency Mail Operations Budget Planning and Monitoring",
+                    "Description": "Evaluate agency mail operations prior year and year-to-date costs and mail center budget request information; Develop and document original or updated agency mail operations budget request information, including agency mail operations funding needs and mail center budget requests; Evaluate actual cost of agency mail operations against planned cost; Develop and document budget adjustments to accommodate shortages and excesses"
+                }
+            ]
+         },
+        {
+            "type":"mom-030",
+            "data":[
+                {
+                    "Identifier": "MOM.030.010",
+                    "Activity": "Mail Center Operations Processing Incoming Mail",
+                    "Description": "Receive mail; Prepare mail for processing at a controlled area; Screen incoming mail; Obtain signature to verify receipt of accountable mail; Sort mail; Determine and document status of mail delivery to recipients within same facility or route to appropriate internal facility or external provider"
+                },
+                {
+                    "Identifier": "MOM.030.020",
+                    "Activity": "Mail Center Operations Processing Outgoing Mail",
+                    "Description": "Sort outgoing mail for appropriate carrier; Evaluate accuracy of address information and, if necessary, identify corrected address information; Determine mail class (e.g., express) and category (e.g., periodicals); Determine and document mail insurance coverage information; Determine appropriate packaging and that all packaging needs have been satisfied; Determine and apply postage; Determine appropriate carrier and pickup location; Review outgoing mail delivery status information and record results"
+                },
+                {
+                    "Identifier": "MOM.030.030",
+                    "Activity": "Mail Center Operations Financial Management",
+                    "Description": "Evaluate mail center prior year and year-to-date costs; Develop and document original or updated mail center budget request information; Evaluate intragovernmental mail operations purchase and usage information against agreement and route for review and approval; Receive and evaluate mail operations invoice against actual mail center purchases and usage; Provide approval/disapproval of mail operations invoice; Develop request for payment of mail operations invoice; Develop and document mail center financial reporting information\n"
+                },
+                {
+                    "Identifier": "MOM.030.040",
+                    "Activity": "Mail Center Operations Performance Management",
+                    "Description": "Develop and document mail center goals, objectives, and performance measures; Develop and document mail center policies, procedures, plans, and guidance; Evaluate mail center performance results against performance targets and develop and document mail center performance reporting information; Develop and document improvement plans to address mail center performance that does not meet agency goals, objectives, and measures; Evaluate service provider standards and operational procedures against those of the agency; Develop and document plans to address instances of agency non-compliance with service provider standards and operational procedures"
+                },
+                {
+                    "Identifier": "MOM.030.050",
+                    "Activity": "Mail Center Operations Security Management",
+                    "Description": "Determine and provide mail center classification; Develop or update mail center operations security procedures and plans based on agency security policy, procedures, plans, federal facility level of protection (LOP), and mail center classification; Conduct mail center security-related exercises, rehearsals, and drills; Conduct tests of countermeasure effectiveness; Develop and document a training plan and record of training for all mail center personnel; Develop and document security incident information"
+                }
+            ]
+         },
+        {
+            "type":"mom-040",
+            "data":[
+                {
+                    "Identifier": "MOM.040.010",
+                    "Activity": "Agency Mail Operations Financial and Performance Management Reporting",
+                    "Description": "Review and aggregate mail center financial and performance reporting information at the program and agency levels; Evaluate program and agency level mail financial reporting information against agency spend and operating plan; Evaluate program and agency level performance results against agency performance information, including targets; Develop and document program and agency performance reporting information"
+                }
+            ]
+         }
+        ],
+    "Business_Capabilities":[
+        {
+            "Capability ID": "MOM.010.010.011",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Strategy",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Retrieve agency mail operations management goals and objectives consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.010.010.012",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Strategy",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Retrieve new or revised legislation, Executive Orders (EO), Presidential directives and guidance, and other relevant requirements that may impact mail operations strategy, policies, and guidance.",
+            "Authoritative Reference": "No Authoritative Reference Identified"
+        },
+        {
+            "Capability ID": "MOM.010.010.013",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Strategy",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate agency mail operations management goals and objectives to determine if appropriate, achievable, and consistent with government-wide mail operations goals and objectives, and document results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.010.010.014",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Strategy",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of evaluation of agency mail operations management goals and objectives, to determine if appropriate, achievable, and consistent with government-wide mail operations goals and objectives consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.010.010.021",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Strategy",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document new or updated agency mail operations management goals and objectives consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.010.010.022",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Strategy",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide new or updated agency mail operations management goals and objectives consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.010.010.031",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Strategy",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document agency performance information, including for mail center resource allocation and accountability, consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.010.010.032",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Strategy",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide agency performance information, including for mail center resource allocation and accountability consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.010.010.041",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Strategy",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document new or updated agency guidance on sustainable activities for agency mail programs consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.010.042",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Strategy",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide new or updated agency guidance on sustainable activities for agency mail programs consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.010.051",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Strategy",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document a standard agency mail operations communication plan for internal agency customers (e.g., training, performance feedback) consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.010.052",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Strategy",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide a standard agency mail operations communication plan for internal agency customers (e.g., training, performance feedback) consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.011",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Retrieve government-wide mail operations management policy, procedures, and plans consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.012",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate agency mail operations management policies, procedures, and plans to determine if appropriate, achievable, and consistent with government-wide policies, procedures, and plans information and document results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.013",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of evaluation of agency mail operations management policies, procedures, and plans to determine if appropriate, achievable, and consistent with government-wide policies, procedures, and plans information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.021",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document new or updated agency mail operations management policies, procedures, and plans consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.022",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide new or updated agency policies, procedures, and plans consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.031",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document new or updated plan for the agency to assess its compliance with standards and operational procedures of agency service providers consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.032",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide the new or updated plan for the agency to assess its compliance with standards and operational procedures of agency service providers consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.041",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document new or updated agency procedures for proper address hygiene and address verification consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.042",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide new or updated agency procedures for proper address hygiene and address verification consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.051",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document new or updated agency policies for use of expedited mail, mass mailings, mailing lists, and couriers consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.052",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide new or updated agency policies for use of expedited mail, mass mailings, mailing lists, and couriers consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.061",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document new or updated agency plans for proper and cost effective use of mail transportation, equipment, and supplies consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.062",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide new or updated agency plans for proper and cost effective use of mail transportation, equipment, and supplies consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.071",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document new or updated agency guidance on the development of correspondence and the design of mailing materials, business reply mail, letter head, and mail piece consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.072",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide new or updated agency guidance on development of correspondence, design of mailing materials, business reply mail, letterhead, and mail piece design consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.081",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document new or updated agency policy and plans for mail training (e.g., mail piece design training), certification requirements, and tracking consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.082",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide new or updated agency policy and plans for mail training (e.g., mail piece design training), certification requirements, and tracking consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.091",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document new or updated agency procedures and plans for stakeholder/customer engagement consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.092",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide new or updated agency procedures and plans for stakeholder/customer engagement consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.101",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine and document procedures for opening and closing the mail center and completing associated logs and checklists daily consistent with 41 CFR 102-19 and Mail Center Security Guide 5th Edition - 2023.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.020.102",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Management Policy, Procedures, and Plans",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide procedures for opening and closing the mail center and completing logs and checklists daily consistent with 41 CFR 102-192 and Mail Center Security Guide 5th Edition - 2023.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.010.030.011",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Security Policy, Procedures, and Plans",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Retrieve government-wide mail operations management security goals and objectives consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "No Authoritative Reference Identified"
+        },
+        {
+            "Capability ID": "MOM.010.030.012",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Security Policy, Procedures, and Plans",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document agency mail operations new or updated security goals and objectives consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "No Authoritative Reference Identified"
+        },
+        {
+            "Capability ID": "MOM.010.030.013",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Security Policy, Procedures, and Plans",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide agency mail operations new or updated security goals and objectives consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "No Authoritative Reference Identified"
+        },
+        {
+            "Capability ID": "MOM.010.030.021",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Security Policy, Procedures, and Plans",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Retrieve government-wide mail operations security policy, procedures, and plans consistent with 41 CFR 102-192, HSPD 7, Mail Center Security Guide 5th Edition - 2023, and The Risk Management Process.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.70  (12) Homeland Security Presidential Directive (HSPD 7)"
+        },
+        {
+            "Capability ID": "MOM.010.030.022",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Security Policy, Procedures, and Plans",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop or update agency mail operations security policy, procedures, and plans based on government-wide security policy and guidance consistent with 41 CFR 102-192, HSPD 7, Mail Center Security Guide 5th Edition - 2023, and The Risk Management Process.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.70  (12) Homeland Security Presidential Directive (HSPD 7)"
+        },
+        {
+            "Capability ID": "MOM.010.030.023",
+            "Function": "Agency Mail Operations Strategy and Planning",
+            "Activity Name": "Agency Mail Operations Security Policy, Procedures, and Plans",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide agency mail operations security policy, procedures, and plans consistent with 41 CFR 102-192, HSPD 7, Mail Center Security Guide 5th Edition - 2023, and The Risk Management Process.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.70  (12) Homeland Security Presidential Directive (HSPD 7)"
+        },
+        {
+            "Capability ID": "MOM.020.010.011",
+            "Function": "Agency Mail Operations Budget Management",
+            "Activity Name": "Agency Mail Operations Budget Planning and Monitoring",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate agency mail operations prior year and year-to-date costs and document results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.020.010.012",
+            "Function": "Agency Mail Operations Budget Management",
+            "Activity Name": "Agency Mail Operations Budget Planning and Monitoring",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of evaluation of agency mail operations prior year and year-to-date costs consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.020.010.021",
+            "Function": "Agency Mail Operations Budget Management",
+            "Activity Name": "Agency Mail Operations Budget Planning and Monitoring",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate mail center budget request information and document results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.020.010.022",
+            "Function": "Agency Mail Operations Budget Management",
+            "Activity Name": "Agency Mail Operations Budget Planning and Monitoring",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of evaluation of mail center budget request information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.020.010.031",
+            "Function": "Agency Mail Operations Budget Management",
+            "Activity Name": "Agency Mail Operations Budget Planning and Monitoring",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document original or updated agency mail operations budget request information, including agency mail operations funding needs and mail center budget requests, consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.020.010.032",
+            "Function": "Agency Mail Operations Budget Management",
+            "Activity Name": "Agency Mail Operations Budget Planning and Monitoring",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide original or updated agency mail operations budget request information, including agency mail operations funding needs and mail center budget requests consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.020.010.041",
+            "Function": "Agency Mail Operations Budget Management",
+            "Activity Name": "Agency Mail Operations Budget Planning and Monitoring",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate actual cost of agency mail operations against planned cost and record results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.020.010.042",
+            "Function": "Agency Mail Operations Budget Management",
+            "Activity Name": "Agency Mail Operations Budget Planning and Monitoring",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of evaluation of actual cost of agency mail operations against planned cost consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.020.010.051",
+            "Function": "Agency Mail Operations Budget Management",
+            "Activity Name": "Agency Mail Operations Budget Planning and Monitoring",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document budget adjustments to accommodate shortages and excesses consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.020.010.052",
+            "Function": "Agency Mail Operations Budget Management",
+            "Activity Name": "Agency Mail Operations Budget Planning and Monitoring",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide budget adjustments to accommodate shortages and excesses consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.030.010.011",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Incoming Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Prepare mail for processing at a controlled area and document results (e.g., pieces of mail handled per full time equivalent employee (FTE)) consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)  (20) DoD Directive 5101.11E;  (21) Title 39 Section: 406, 3401, &3406;  (22) Title 39 Part IV"
+        },
+        {
+            "Capability ID": "MOM.030.010.012",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Incoming Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of preparing mail for processing at a controlled area (e.g., pieces of mail handled per full time equivalent employee (FTE)) consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)  (20) DoD Directive 5101.11E;  (21) Title 39 Section: 406, 3401, &3406;  (22) Title 39 Part IV"
+        },
+        {
+            "Capability ID": "MOM.030.010.021",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Incoming Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Screen incoming mail and document results (e.g., suspicious or potentially dangerous mail) consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)  (20) DoD Directive 5101.11E;  (21) Title 39 Section: 406, 3401, &3406;  (22) Title 39 Part IV"
+        },
+        {
+            "Capability ID": "MOM.030.010.022",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Incoming Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of screening incoming mail (e.g., suspicious or potentially dangerous mail) consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)  (20) DoD Directive 5101.11E;  (21) Title 39 Section: 406, 3401, &3406;  (22) Title 39 Part IV"
+        },
+        {
+            "Capability ID": "MOM.030.010.031",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Incoming Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine and document appropriate action to process screened mail consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)  (20) DoD Directive 5101.11E;  (21) Title 39 Section: 406, 3401, &3406;  (22) Title 39 Part IV"
+        },
+        {
+            "Capability ID": "MOM.030.010.032",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Incoming Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide appropriate action to process screened mail consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)  (20) DoD Directive 5101.11E;  (21) Title 39 Section: 406, 3401, &3406;  (22) Title 39 Part IV"
+        },
+        {
+            "Capability ID": "MOM.030.010.041",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Incoming Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Document signature for accountable letters and packages to verify delivery of complete shipments consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)  (20) DoD Directive 5101.11E;  (21) Title 39 Section: 406, 3401, &3406;  (22) Title 39 Part IV"
+        },
+        {
+            "Capability ID": "MOM.030.010.042",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Incoming Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide signature for accountable letters and packages and verify delivery of complete shipments consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)  (20) DoD Directive 5101.11E;  (21) Title 39 Section: 406, 3401, &3406;  (22) Title 39 Part IV"
+        },
+        {
+            "Capability ID": "MOM.030.010.051",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Incoming Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Identify and sort by delivery location and document results consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)  (20) DoD Directive 5101.11E;  (21) Title 39 Section: 406, 3401, &3406;  (22) Title 39 Part IV"
+        },
+        {
+            "Capability ID": "MOM.030.010.052",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Incoming Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of mail sorted by delivery location consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)  (20) DoD Directive 5101.11E;  (21) Title 39 Section: 406, 3401, &3406;  (22) Title 39 Part IV"
+        },
+        {
+            "Capability ID": "MOM.030.010.061",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Incoming Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine and document status of mail delivery to recipients within same facility or route to appropriate internal facility or external provider consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)  (20) DoD Directive 5101.11E;  (21) Title 39 Section: 406, 3401, &3406;  (22) Title 39 Part IV"
+        },
+        {
+            "Capability ID": "MOM.030.010.062",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Incoming Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide status of mail delivery to recipients within same facility or routing to appropriate internal facility or external provider consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)  (20) DoD Directive 5101.11E;  (21) Title 39 Section: 406, 3401, &3406;  (22) Title 39 Part IV"
+        },
+        {
+            "Capability ID": "MOM.030.020.011",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Identify destination and sort outgoing mail for appropriate carrier and document results consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.012",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide destination information and sorted outgoing mail for appropriate carrier consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.021",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate accuracy of address information and, if necessary, identify corrected address information and document results consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.022",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide corrected address information consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.031",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine and document mail class (e.g., express) and category (e.g., memoranda, microfiche) information consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.40;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.032",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide mail class and category (e.g., memoranda, microfiche) information consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.40;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.041",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine and document mail insurance coverage information consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.042",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide mail insurance coverage information consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.051",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine the appropriate packaging and that all packaging needs have been satisfied and document results consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.052",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of determination of appropriate packaging and that all packaging needs have been satisfied consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.061",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine and document required postage consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.062",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide required postage consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.071",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine appropriate carrier and pickup location information consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.072",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide carrier and pickup location information consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.081",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Receive outgoing mail delivery status information consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.082",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Review outgoing mail delivery status information and record results consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.020.083",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Processing Outgoing Mail",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of review of outgoing mail delivery status information consistent with 41 CFR 102-192, DMM, and the IMM.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130;  (14) Mailing Standards of the United States Postal Service Domestic Mail Manual (DMM);  (15) Mailing Standards of the United States Postal Service, International Mail Manual (IMM)"
+        },
+        {
+            "Capability ID": "MOM.030.030.011",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate mail center prior year and year-to-date costs and document results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.030.030.012",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of evaluation of mail center prior year and year-to-date costs consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.030.030.021",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document original or updated mail center budget request information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.030.030.022",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide original or updated mail center budget request information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.65"
+        },
+        {
+            "Capability ID": "MOM.030.030.031",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate intragovernmental mail operations purchase and usage information, including line of accounting information using standard accounting code structure and, if needed, trading partner, against agreement, route for review and approval, and record results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.60"
+        },
+        {
+            "Capability ID": "MOM.030.030.032",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide evaluation results for intragovernmental mail operations purchase and usage information, including line of accounting information using standard accounting code structure and, if needed, trading partner, against agreement consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.60"
+        },
+        {
+            "Capability ID": "MOM.030.030.041",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Receive monthly mail center reports consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.50"
+        },
+        {
+            "Capability ID": "MOM.030.030.042",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate mail operations invoice and supporting information, including line of accounting information using standard accounting code structure, against actual mail center purchases and usage consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.50"
+        },
+        {
+            "Capability ID": "MOM.030.030.043",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide evaluation results for mail operations invoice and supporting information, including line of accounting information using standard accounting code structure, against actual mail center purchases and usage consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.50"
+        },
+        {
+            "Capability ID": "MOM.030.030.044",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide approval/disapproval of mail operations invoice and supporting information, including line of accounting information using standard accounting code structure, against actual mail center purchases and usage consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.50"
+        },
+        {
+            "Capability ID": "MOM.030.030.051",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop request for payment of mail operations invoice consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.50"
+        },
+        {
+            "Capability ID": "MOM.030.030.052",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide request for payment of mail operations invoice consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.50"
+        },
+        {
+            "Capability ID": "MOM.030.030.061",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document mail center financial reporting information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.90"
+        },
+        {
+            "Capability ID": "MOM.030.030.062",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Financial Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide mail center financial reporting information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.90"
+        },
+        {
+            "Capability ID": "MOM.030.040.011",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate mail center goals, objectives, and performance measures to determine if appropriate, achievable, and consistent with agency mail operations goals, objectives, and performance information and document results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.012",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of evaluation of mail center goals, objectives, and performance measures to determine if appropriate, achievable, and consistent with agency mail operations goals, objectives, and performance information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.021",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document new or updated mail center goals, objectives, and performance measures (e.g., pieces of mail handled, mail delivered on time) consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.022",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide new or updated mail center goals, objectives, and performance measures (e.g., pieces of mail handled, mail delivered on time) consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.031",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate mail center policies, procedures, plans, and guidance to determine if appropriate, achievable, and consistent with agency policies, procedures, plans, and guidance information and document results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.032",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of evaluation of mail center policies, procedures, plans, and guidance to determine if appropriate, achievable, and consistent with agency policies, procedures, plans, and guidance information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.041",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document new or updated mail center policies, procedures, plans, and guidance consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.042",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide new or updated mail center policies, procedures, plans, and guidance consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.051",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate mail center performance results against performance targets and document results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.052",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of evaluation of mail center performance results against performance targets consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.061",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document mail center performance reporting information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.062",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide mail center performance reporting information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.071",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document improvement plans to address mail center performance that does not meet agency goals, objectives, and measures consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.072",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide improvement plans to address mail center performance that does not meet agency goals, objectives, and measures consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.110"
+        },
+        {
+            "Capability ID": "MOM.030.040.081",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Capture standards and operational procedures of agency's mail service providers consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.030.040.082",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate standards and operational procedures of service providers against agency practices and document results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.030.040.083",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of evaluation of standards and operational procedures of service providers against agency practices and document results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.030.040.091",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document plans to address instances of agency non-compliance with service provider standards and operational procedures consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.030.040.092",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Performance Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide plans to address instances of agency non-compliance with service provider standards and operational procedures consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.130"
+        },
+        {
+            "Capability ID": "MOM.030.050.011",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine mail center classification consistent with Mail Center Security Guide 5th Edition - 2023.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;"
+        },
+        {
+            "Capability ID": "MOM.030.050.012",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide mail center classification consistent with Mail Center Security Guide 5th Edition - 2023.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;"
+        },
+        {
+            "Capability ID": "MOM.030.050.021",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Receive federal facility security assessment information, including FSL, LOP, and countermeasures, consistent with The Risk Management Process.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;"
+        },
+        {
+            "Capability ID": "MOM.030.050.022",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop or update mail center operations security procedures and plans based on agency security policy, procedures, plans, federal facility level of protection (LOP), and mail center classification consistent with 41 CFR 102-192, HSPD 7, Mail Center Security Guide 5th Edition - 2023, and The Risk Management Process.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;"
+        },
+        {
+            "Capability ID": "MOM.030.050.023",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide mail center operations security procedures and plans consistent with 41 CFR 102-192, Mail Center Security Guide 5th Edition - 2023, The Risk Management Process, and Publication 166, Guide to Mail Center Security.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;"
+        },
+        {
+            "Capability ID": "MOM.030.050.031",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Conduct mail center security-related exercises, rehearsals, and drills consistent with 41 CFR 102-192, HSPD 7, Mail Center Security Guide 5th Edition - 2023, The Risk Management Process, and Publication 166, Guide to Mail Center Security.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;  (12) Homeland Security Presidential Directive (HSPD 7)"
+        },
+        {
+            "Capability ID": "MOM.030.050.032",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of mail center security-related exercises, rehearsals, and drills consistent with 41 CFR 102-192, HSPD 7, Mail Center Security Guide 5th Edition - 2023, The Risk Management Process, and Publication 166, Guide to Mail Center Security.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;  (12) Homeland Security Presidential Directive (HSPD 7)"
+        },
+        {
+            "Capability ID": "MOM.030.050.041",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Conduct tests of countermeasure effectiveness and document results consistent with 41 CFR 102-192, HSPD 7, Mail Center Security Guide 5th Edition - 2023, The Risk Management Process, and Publication 166, Guide to Mail Center Security.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;  (12) Homeland Security Presidential Directive (HSPD 7)"
+        },
+        {
+            "Capability ID": "MOM.030.050.042",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of tests of countermeasure effectiveness consistent with 41 CFR 102-192, HSPD 7, Mail Center Security Guide 5th Edition - 2023, The Risk Management Process, and Publication 166, Guide to Mail Center Security.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;  (12) Homeland Security Presidential Directive (HSPD 7)"
+        },
+        {
+            "Capability ID": "MOM.030.050.051",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document a training plan and record of training for all mail center personnel consistent with 41 CFR 102-192, Mail Center Security Guide 5th Edition - 2023, The Risk Management Process, and Publication 166, Guide to Mail Center Security.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80"
+        },
+        {
+            "Capability ID": "MOM.030.050.052",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide a training plan and record of training for all mail center personnel consistent with 41 CFR 102-192, Mail Center Security Guide 5th Edition - 2023, The Risk Management Process, and Publication 166, Guide to Mail Center Security.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80"
+        },
+        {
+            "Capability ID": "MOM.030.050.061",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Determine and document security incident information consistent with 41 CFR 102-192, HSPD 7, Mail Center Security Guide 5th Edition - 2023, The Risk Management Process, and Publication 166, Guide to Mail Center Security.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;  (12) Homeland Security Presidential Directive (HSPD 7)"
+        },
+        {
+            "Capability ID": "MOM.030.050.062",
+            "Function": "Mail Center Operations",
+            "Activity Name": "Mail Center Operations Security Management",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide security incident information consistent with 41 CFR 102-192, 49 CFR 100-185, HSPD 7, Mail Center Security Guide 5th Edition - 2023, The Risk Management Process, and Publication 166, Guide to Mail Center Security.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.80;  (12) Homeland Security Presidential Directive (HSPD 7)"
+        },
+        {
+            "Capability ID": "MOM.040.010.011",
+            "Function": "Agency Mail Operations Reporting",
+            "Activity Name": "Agency Mail Operations Financial and Performance Management Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Review and aggregate mail center financial and performance reporting information at the program and agency levels and document results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.90;  (10) Federal Regulation Management Bulletins"
+        },
+        {
+            "Capability ID": "MOM.040.010.012",
+            "Function": "Agency Mail Operations Reporting",
+            "Activity Name": "Agency Mail Operations Financial and Performance Management Reporting",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide program and agency level mail center financial and performance reporting information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.90;  (10) Federal Regulation Management Bulletins"
+        },
+        {
+            "Capability ID": "MOM.040.010.021",
+            "Function": "Agency Mail Operations Reporting",
+            "Activity Name": "Agency Mail Operations Financial and Performance Management Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate program and agency level mail financial reporting information against agency spend and operating plan and record results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.90"
+        },
+        {
+            "Capability ID": "MOM.040.010.022",
+            "Function": "Agency Mail Operations Reporting",
+            "Activity Name": "Agency Mail Operations Financial and Performance Management Reporting",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of evaluation of program and agency financial reporting information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.90"
+        },
+        {
+            "Capability ID": "MOM.040.010.031",
+            "Function": "Agency Mail Operations Reporting",
+            "Activity Name": "Agency Mail Operations Financial and Performance Management Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Evaluate program and agency level performance results against agency performance information, including targets, and document results consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.90"
+        },
+        {
+            "Capability ID": "MOM.040.010.032",
+            "Function": "Agency Mail Operations Reporting",
+            "Activity Name": "Agency Mail Operations Financial and Performance Management Reporting",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide results of evaluation of program and agency level performance results against performance targets consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.90"
+        },
+        {
+            "Capability ID": "MOM.040.010.041",
+            "Function": "Agency Mail Operations Reporting",
+            "Activity Name": "Agency Mail Operations Financial and Performance Management Reporting",
+            "Input/Output/Process": "P",
+            "Business Capability Statement": "Develop and document program and agency performance reporting information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.90"
+        },
+        {
+            "Capability ID": "MOM.040.010.042",
+            "Function": "Agency Mail Operations Reporting",
+            "Activity Name": "Agency Mail Operations Financial and Performance Management Reporting",
+            "Input/Output/Process": "O",
+            "Business Capability Statement": "Provide program and agency performance reporting information consistent with 41 CFR 102-192.",
+            "Authoritative Reference": "(2) 41 CFR 102-192.90"
+        }
+    ]
+}

@@ -3,8 +3,8 @@ ruby '>= 3.1.3'
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.3"
-gem "webrick"
-
+gem "webrick", ">= 1.8.2"
+gem 'jekyll-liquify', "0.0.2"
 # See https://github.com/envygeeks/jekyll-assets/issues/622
 gem "sprockets", "~> 3.7"
 

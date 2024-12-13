@@ -181,6 +181,12 @@ jQuery(document).ready(function () {
             accordian: 'eeo-lifecycle',
             url:  prefixUrl.concat('/business-standards-api/eeo'),
             hasSubsection: false
+        },
+        {
+            accordian: 'mom-lifecycle',
+            table: 'mom-capabilities',
+            url: prefixUrl.concat('/business-standards-api/mom'),
+            hasSubsection: false
         }
     ];
 function imageChecker(url){

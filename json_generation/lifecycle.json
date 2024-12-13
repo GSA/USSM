@@ -1,57 +1,72 @@
 {
     "Business_Lifecycle": [
         {
-            "type": "trt-010",
+            "type": "mom-010",
             "data": [
                 {
-                    "Identifier": "TRT.010.010",
-                    "Activity": "Travel Personnel Profile Set-up and Maintenance",
-                    "Description": "Determine and document travel personnel unique identification information; Determine and document travel personnel baseline profile information; Determine and document travel personnel role(s); Route and evaluate traveler reasonable accommodations and exemption from mandatory use of the travel charge card information; Develop and document traveler profile information; Develop and document updated travel personnel profile information"
+                    "Identifier": "MOM.010.010",
+                    "Activity": "Agency Mail Operations Management Strategy",
+                    "Description": "Develop and document agency mail operations management goals and objectives; Develop and document agency performance information, including mail center resource allocation and accountability; Develop and document agency guidance on sustainable activities for agency mail programs; Develop and document a standard agency mail operations communication plan for internal agency customers (e.g., training, performance feedback)"
                 },
                 {
-                    "Identifier": "TRT.010.020",
-                    "Activity": "Travel Reservation Assistance and Processing ",
-                    "Description": "Search for and identify transportation reservation information; Select transportation reservation information; Evaluate transportation reservation information (e.g., exception for contract city-pair fare, exception for coach-class accommodation); Translate common carrier fare basis code into terminology consistent with FTR; Calculate and document carbon footprint information; Search for and identify lodging reservation information; Select lodging reservation information; Evaluate exception information warranting reimbursement on an actual expenses basis; Search for and identify available lodging with rates above per diem at temporary duty (TDY) location(s) information; Search for and identify available lodging at alternate location(s) when lodging is not available at the temporary duty (TDY) location; Identify, apply, and document unused, partially used, or downgraded/exchanged ticket information; Identify, apply, and document promotional materials and frequent traveler benefits information; Develop and document travel reservation/updated reservation and fee information; Evaluate travel reservation/updated reservation information for completeness, errors, and compliance; Revise travel reservation/updated reservation to correct deficiencies, errors, and compliance issues; Develop and document notification to traveler of common carrier/commercial transportation schedule change(s) information; Develop and document updated reservation information; Cancel reservation information associated with canceled trip"
+                    "Identifier": "MOM.010.020",
+                    "Activity": "Agency Mail Operations Management Policy, Procedures, and Plans",
+                    "Description": "Develop and document agency mail operations management policy, procedures, and plans; Develop and document a plan for the agency to assess its compliance with its service provider standards and operational procedures; Develop and document agency procedures for proper address hygiene and verification; Develop and document agency policies for expedited mail, mass mailings, mailing lists, and couriers; Develop and document agency plans for proper and cost effective use of mail transportation, equipment, and supplies; Develop and document agency guidance on development of correspondence, design of mailing materials, business reply mail, letterhead, and mail piece design; Develop and document agency policy and plans for mail training, certification requirements, and tracking; Develop and document agency procedures and plans for stakeholder/customer engagement; Develop and document procedures for opening and closing the mail center"
                 },
                 {
-                    "Identifier": "TRT.010.030",
-                    "Activity": "Temporary Duty (TDY) and Local Travel Authorization Processing",
-                    "Description": "Develop and document information concerning agency acceptance of payment for expenses from non-Federal source(s); Obtain authorization for reservation assistance and develop and document reservation information when it is not practicable or possible to obtain written or electronic authorization prior to travel; Identify and document travel reservation/updated reservation information associated with the travel authorization; Determine, document, and calculate use of Government aircraft information; Determine and document privately owned vehicle (POV) mileage rate information; Compare constructive cost and other factor information; Determine and document per diem rate information; Calculate and document per diem information when crossing the International Dateline (IDL); Calculate and document actual expense information; Calculate and document estimated miscellaneous and other expense information; Calculate and document estimated total travel costs information; Determine and document travel advance information; Determine and document accounting classification information, to include amount and allocation percentage; Develop and document authorization information; Submit, route, and document travel authorization information for approval; Evaluate travel authorization information, route for review, and record results; Return unapproved travel authorization to traveler/travel arranger with identified issues; Develop and document request for funds availability check for travel authorization; Approve, date, and sign travel authorization; Develop and document approved travel authorization information changes; Determine and document travel authorization status information; Cancel and evaluate canceled travel authorization; Determine and document funds deobligation request information for the canceled travel authorization"
+                    "Identifier": "MOM.010.030",
+                    "Activity": "Agency Mail Operations Security Policy, Procedures, and Plans",
+                    "Description": "Develop and document agency mail operations security goals and objectives; Develop agency mail operations security policies, procedures, and plans"
+                }
+            ]
+        },
+        {
+            "type": "mom-020",
+            "data": [
+                {
+                    "Identifier": "MOM.020.010",
+                    "Activity": "Agency Mail Operations Budget Planning and Monitoring",
+                    "Description": "Evaluate agency mail operations prior year and year-to-date costs and mail center budget request information; Develop and document original or updated agency mail operations budget request information, including agency mail operations funding needs and mail center budget requests; Evaluate actual cost of agency mail operations against planned cost; Develop and document budget adjustments to accommodate shortages and excesses"
+                }
+            ]
+        },
+        {
+            "type": "mom-030",
+            "data": [
+                {
+                    "Identifier": "MOM.030.010",
+                    "Activity": "Mail Center Operations Processing Incoming Mail",
+                    "Description": "Receive mail; Prepare mail for processing at a controlled area; Screen incoming mail; Obtain signature to verify receipt of accountable mail; Sort mail; Determine and document status of mail delivery to recipients within same facility or route to appropriate internal facility or external provider"
                 },
                 {
-                    "Identifier": "TRT.010.040",
-                    "Activity": "Travel Ticketing",
-                    "Description": "Evaluate ticket/updated ticket information for completeness, errors, and compliance; Revise ticket/updated ticket information to correct deficiencies, errors and compliance issues; Issue ticket/updated ticket information to traveler; Receive notification to cancel or change issued ticket/updated ticket; Develop and document information for common carrier/commercial transportation to issue refund for unused, partially used, and exchanged ticket/updated ticket"
+                    "Identifier": "MOM.030.020",
+                    "Activity": "Mail Center Operations Processing Outgoing Mail",
+                    "Description": "Sort outgoing mail for appropriate carrier; Evaluate accuracy of address information and, if necessary, identify corrected address information; Determine mail class (e.g., express) and category (e.g., periodicals); Determine and document mail insurance coverage information; Determine appropriate packaging and that all packaging needs have been satisfied; Determine and apply postage; Determine appropriate carrier and pickup location; Review outgoing mail delivery status information and record results"
                 },
                 {
-                    "Identifier": "TRT.010.050",
-                    "Activity": "Traveler Emergency Assistance Request Processing",
-                    "Description": "Develop and document travel authorization information to interrupt or discontinue a temporary duty (TDY) travel assignment due to a personal emergency; Evaluate information to interrupt or discontinue a temporary duty (TDY) assignment due to a personal emergency; Route, review, date, and sign travel authorization information to interrupt or discontinue temporary duty (TDY) travel assignment due to personal emergency, and document results"
+                    "Identifier": "MOM.030.030",
+                    "Activity": "Mail Center Operations Financial Management",
+                    "Description": "Evaluate mail center prior year and year-to-date costs; Develop and document original or updated mail center budget request information; Evaluate intragovernmental mail operations purchase and usage information against agreement and route for review and approval; Receive and evaluate mail operations invoice against actual mail center purchases and usage; Provide approval/disapproval of mail operations invoice; Develop request for payment of mail operations invoice; Develop and document mail center financial reporting information\n"
                 },
                 {
-                    "Identifier": "TRT.010.060",
-                    "Activity": "Temporary Duty (TDY) and Local Travel Voucher Processing and Audit",
-                    "Description": "Determine and document travel authorization information associated with voucher/claim for reimbursement; Evaluate exception information on use of the travel charge card to pay for official expenses; Determine and calculate reductions in per diem and other travel reimbursement when employee receives contributions, awards and other payments from non-Federal sources or otherwise furnished by the Government; Determine, document, and verify documentary evidence for lodging receipt and every authorized expense over $75; Determine and document information on prior payment of travel and transportation expenses; Determine and compare cost of authorized transportation to traveler's actual \"out-of-channel\" transportation expense; Determine and document traveler's use of cash to pay for non-contract passenger services for common carrier transportation information; Determine and calculate privately owned vehicle (POV) mileage reimbursement information; Determine, document, and aggregate expenses considered part of the daily lodging cost when a traveler rents on a long-term basis information and aggregate expense information; Determine and document allowance paid for meals and incidental expenses (M&IE) information; Develop and document itemized list of expenses and other information; Determine and document updates to accounting classification information, to include amount and allocation percentage; Develop and document voucher/claim for reimbursement of expenses information; Verify documentary evidence review of voucher/claim for reimbursement information by traveler when voucher/claim is submitted by travel arranger; Submit and document voucher/claim for reimbursement of expenses information to proper approving official(s) for approval; Evaluate voucher/claim for reimbursement of expenses is proper information; Return voucher/claim for reimbursement of expenses information with identified issues; Calculate exchange rate adjustment for conversion of expenses paid in foreign currency to U.S. dollars information; Calculate travel expense information; Calculate information on remaining balance of outstanding travel advance to traveler; Calculate value amount to be split disbursed directly to the Government travel charge card contractor on the employee's/traveler's behalf; Develop and document traveler notification information of disallowed expenses; Develop and document request for funds availability check for voucher/claim for reimbursement; Approve, date, and sign voucher/claim for reimbursement; Develop and document request for voucher/claim for reimbursement of expenses payment disbursement information; Determine and document deobligation of any remaining funds previously obligated\n\nDetermine and calculate privately owned vehicle (POV) mileage reimbursement information for local voucher expense; Determine and document updates to accounting classification information for local voucher, to include amount and allocation percentage; Develop and document local voucher/claim for reimbursement of expenses information; Submit and evaluate local voucher information; Return unapproved local voucher to payee with identified issues; Develop and document traveler notification information of disallowed local voucher expenses; Develop and document request for funds availability check for local voucher; Approve, date, and sign local voucher; Develop and document request for local voucher payment disbursement information"
+                    "Identifier": "MOM.030.040",
+                    "Activity": "Mail Center Operations Performance Management",
+                    "Description": "Develop and document mail center goals, objectives, and performance measures; Develop and document mail center policies, procedures, plans, and guidance; Evaluate mail center performance results against performance targets and develop and document mail center performance reporting information; Develop and document improvement plans to address mail center performance that does not meet agency goals, objectives, and measures; Evaluate service provider standards and operational procedures against those of the agency; Develop and document plans to address instances of agency non-compliance with service provider standards and operational procedures"
                 },
                 {
-                    "Identifier": "TRT.010.70",
-                    "Activity": "Temporary Duty (TDY) and Local Travel Monitoring and Reconciliation",
-                    "Description": "Develop and document completed trips with vouchers/claims for reimbursement not submitted information; Develop and document refundable unused, partially used, and exchanged ticket information; Collect non-refundable and Government Travel Request (GTR) unused, partially used, or downgraded/exchanged tickets, from travelers upon completion of travel; Develop and document penalty information for accepting unauthorized payment for expenses from a non-Federal source; Reconcile voucher and centrally billed account (CBA) travel card information"
-                },
+                    "Identifier": "MOM.030.050",
+                    "Activity": "Mail Center Operations Security Management",
+                    "Description": "Determine and provide mail center classification; Develop or update mail center operations security procedures and plans based on agency security policy, procedures, plans, federal facility level of protection (LOP), and mail center classification; Conduct mail center security-related exercises, rehearsals, and drills; Conduct tests of countermeasure effectiveness; Develop and document a training plan and record of training for all mail center personnel; Develop and document security incident information"
+                }
+            ]
+        },
+        {
+            "type": "mom-040",
+            "data": [
                 {
-                    "Identifier": "TRT.010.80",
-                    "Activity": "Temporary Duty (TDY) and Local Travel Regulatory Reporting",
-                    "Description": "Develop and document travel and transportation payments (Travel Reporting Information Profile [TRIP] Report) information; Develop and document use of other than coach class transportation accommodations (Premium Class Travel Report [PCTR]) information; Identify and aggregate other than coach class transportation accommodations (Premium Class Travel Report [PCTR]) data that is protected from public disclosure by statute or Executive Order; Develop and document use of Government aircraft (to include chartered aircraft) by senior Federal officials and non-federal travelers (Senior Federal Travel Report [SFTR]) information; Develop and document travel expenses paid by non-Federal sources report information; Develop and document carbon footprint information for common carrier/commercial transportation and POV type"
-                },
-                {
-                    "Identifier": "TRT.010.90",
-                    "Activity": "Temporary Duty (TDY) and Local Travel Management Reporting and Analysis",
-                    "Description": "Develop and document travel information; Develop and document travel trends and patterns analysis content; Develop and document multiple government-designated sources"
-                },
-                {
-                    "Identifier": "TRT.010.100",
-                    "Activity": "Temporary Duty (TDY) and Local Travel Policy Management and Audit",
-                    "Description": "Determine and document per diem rate information and updates; Determine and document privately owned vehicle (POV) mileage reimbursement rate information; Develop and document government-wide and internal agency policies and associated compliance checks for Temporary Duty (TDY) and local travel; Develop and document traveler notification information for overpayment, or payment for expenses unnecessary or unjustified, with request for reimbursement to the Government"
+                    "Identifier": "MOM.040.010",
+                    "Activity": "Agency Mail Operations Financial and Performance Management Reporting",
+                    "Description": "Review and aggregate mail center financial and performance reporting information at the program and agency levels; Evaluate program and agency level mail financial reporting information against agency spend and operating plan; Evaluate program and agency level performance results against agency performance information, including targets; Develop and document program and agency performance reporting information"
                 }
             ]
         }
