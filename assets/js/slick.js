@@ -1643,12 +1643,13 @@
             $imgsToLoad = $('img[data-lazy]', _.$slider),
             image,
             imageSource,
-            imageToLoad;
+            imageToLoad,
+            DOMPurify = require('dompurify')(window);
 
         if ($imgsToLoad.length) {
 
             image = $imgsToLoad.first();
-            imageSource = image.attr('data-lazy');
+            imageSource = DOMPurify.sanitize(image.attr('data-lazy'));
             imageToLoad = document.createElement('img');
 
             imageToLoad.onload = function () {
