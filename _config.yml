@@ -84,12 +84,12 @@ primary_navigation:
       show_in_menu: true
       show_in_footer: false
       children:
-        - text: 'Publishing Functions'
-          link: false
         - text: 'Business Standards Home'
           permalink: /fibf/
           show_in_menu: true
           show_in_footer: false
+        - text: 'Publishing Functions'
+          link: false
         - text: 'Contract Writing'
           permalink: /fibf-cw/
           show_in_menu: true
