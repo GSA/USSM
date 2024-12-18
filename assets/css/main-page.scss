@@ -246,9 +246,9 @@ a {
 
 .navheader {
     text-decoration: none;
-    color: #02bfe7;
-    font-weight: bold;
-    margin-left: 0.75em;
+    color: #dee6e6;
+    // font-weight: bold;
+    padding-left: 20px;
 }
 
 [type="search"], .usa-search__input  {      /****DataTable Search*******/
@@ -408,6 +408,7 @@ abbr{
 @media (min-width: 64em) {
   .usa-nav__submenu .usa-nav__submenu-item a {
       line-height: unset;
+      margin-left:20px;
   }
 }
 
