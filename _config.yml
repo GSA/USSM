@@ -88,6 +88,8 @@ primary_navigation:
           permalink: /fibf/
           show_in_menu: true
           show_in_footer: false
+        - text: 'Publishing Functions'
+          link: false
         - text: 'Contract Writing'
           permalink: /fibf-cw/
           show_in_menu: true
@@ -211,16 +213,18 @@ primary_navigation:
           permalink: /fibf-travel/
           show_in_menu: true
           show_in_footer: false
-        - text: 'Initiating'
-          type: 'divider'
-          show_in_menu: true
-          show_in_footer: false
-          style:
-            text-align: 'center'
-            font-weight: 'bold'
-            color: '#555'
-            margin: '20px 0'
-            border-top: '1px solid #ccc'
+        - text: 'Initiating Functions'
+          link : false
+        # - text: 'Initiating Functions'
+        #   type: 'divider'
+        #   show_in_menu: true
+        #   show_in_footer: false
+        #   style:
+        #     text-align: 'center'
+        #     font-weight: 'bold'
+        #     color: '#555'
+        #     margin: '20px 0'
+        #     border-top: '1px solid #ccc'
         - text: 'Federal Sector Equal Employment Opportunity Services'
           permalink: /fibf-eeo/
           show_in_menu: true
