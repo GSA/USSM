@@ -78,18 +78,18 @@
   .m3-nav.is-visible{
     display: none;
   }
-  .usa-nav__primary > .usa-nav__primary-item > a, .usa-nav__primary button{
+  /* .usa-nav__primary > .usa-nav__primary-item > a, .usa-nav__primary button{
     font-weight: normal;
-  }
+  } */
   .usa-nav__primary-item{
     margin-bottom: 0;
     &.active {
     background-color: initial;
     }
 
-    button {
+   /*  button {
       font-weight: normal;
-    }
+    } */
 
     h2{
       color: white;
