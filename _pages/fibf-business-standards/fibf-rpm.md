@@ -7,7 +7,7 @@ sec-title: Real Property Management Standards Lead
 sec-name: GSA
 lifecycle-pdf: assets/files/downloads/RPM_2024/Excel/Real Property Management Business Lifecycle.xlsx
 capabilities-pdf: assets/files/downloads/RPM_2024/Excel/Real Property Management Business Capabilities.xlsx
-use-cases-pdf: assets/files/downloads/RPM_2024/PDF
+use-cases-pdf: assets/files/downloads/RPM_2024/all_rpm_business_use_case.zip
 standard-data-elements-pdf: assets/files/downloads/RPM_2024/Excel/Real Property Management Standard Data Elements.xlsx
 performance-metrics-pdf: assets/files/downloads/RPM_2024/Excel/real-property-management-service-measures.xlsx
 all-zip: assets/files/downloads/rpm/RPM_2024/All_RPM.zip
