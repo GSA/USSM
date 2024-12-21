@@ -10,7 +10,7 @@ sec-website: 'Financial Management Standards | TFX: Treasury Financial Experienc
 sec-website-href: https://tfx.treasury.gov/fm-standards
 lifecycle-pdf: assets/files/downloads/Finance_Excel/functions_and_activities_2025.xlsx
 capabilities-pdf: assets/files/downloads/Finance_Excel/business_capabilities_2025.xlsx
-use-cases-pdf: assets/files/downloads/fm/Financial-Management-Business-Use-Cases.zip
+use-cases-pdf: assets/files/downloads/fm/Financial-Business-Use-Cases-2024.zip
 standard-data-elements-pdf: assets/files/downloads/Finance_Excel/business_data_elements_2025.xlsx
 all-zip: assets/files/downloads/fm/Financial-Management-Download-All.zip
 lifecycle-source-document: assets/files/downloads/Finance_Excel/functions_and_activities_2025.xlsx

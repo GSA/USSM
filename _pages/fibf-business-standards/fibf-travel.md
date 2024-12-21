@@ -10,7 +10,7 @@ lifecycle-pdf: assets/files/downloads/Travel_2024/Excel/Travel and Expense Manag
 lifecycle-json-api: /business-standards-api/travel/business-lifecycle/
 capabilities-pdf: assets/files/downloads/Travel_2024/Excel/Travel and Expense Management Business Capabilities.xlsx
 capabilities-json-api: /business-standards-api/travel/capabilities/
-use-cases-pdf: assets/files/downloads/Travel_2024/assets/files/downloads/Travel_2024/all_travel_business_use_case.zip
+use-cases-pdf: assets/files/downloads/Travel_2024/all_travel_business_use_case.zip
 standard-data-elements-pdf: assets/files/downloads/Travel_2024/Excel/travel_standard_data_elements.xlsx
 all-zip: assets/files/downloads/Travel_2024/Excel/all_travel.zip
 lifecycle-content: travel/lifecycle.html
