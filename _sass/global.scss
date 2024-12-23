@@ -509,3 +509,10 @@ a.ogp-card__link--unset:hover {
       right: 0.7em;
   }
 }
+
+@media screen and (max-width: 1314px) {
+  .fibf-wheel {
+    margin-left:0rem;
+    margin-right: -2rem;
+  }
+}
