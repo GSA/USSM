@@ -35,7 +35,7 @@ news-category: FIBF-FM
                     The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the FM Marketplace Catalog as a resource for agencies to identify and research from over 70 services and solutions that can support their financial management needs to accomplish both agency and shared government-wide goals.
                 </p>
 
-              <B>Agencies, begin here - Find solutions to manage agency spending:</B><BR>
+              <B>Agencies, begin here - Find solutions to manage funding:</B><BR>
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the FM Marketplace Catalog" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank" class="green-link">Explore the FM Marketplace Catalog</a><BR>
   <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="FM Marketplace Acquisition Hub" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4215" title="FM Marketplace Acquisition Hub" target="_blank">Hub for Acquisition Professionals</a><BR>
@@ -220,7 +220,7 @@ news-category: FIBF-FM
                   <p>
                     <B>In 2024, Federal agencies managed over $6.8 trillion in spending in alignment with the federal budget.</B><sup>1</sup>.  
                     </p>
-                    <p>>
+                    <p>
                     Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Common goals and objectives in agency financial management include:
                 </p>
                 <ul class="margin-top-0">
