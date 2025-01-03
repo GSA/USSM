@@ -14,16 +14,16 @@ sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-busine
 metrics-content: hr/acquisition/performance-metrics.html
 capabilities-content: hr/acquisition/capabilities.html
 lifecycle-content: hr/acquisition/lifecycle.html
-lifecycle-pdf: assets/files/downloads/hr/acquisition/HCM Functions and Activities_A2 (Talent Acquisition).xlsx
-lifecycle-source-document: assets/files/downloads/hr/acquisition/HCM Functions and Activities_A2 (Talent Acquisition).xlsx
-standard-data-elements-pdf: assets/files/downloads/hr/acquisition/HCM Data Elements_A2 (Talent Acquisition).xlsx
+lifecycle-pdf: assets/files/downloads/HCM_Tal_Acq_2025/Talent Acquisition Business Lifecycle.xlsx
+lifecycle-source-document: assets/files/downloads/HCM_Tal_Acq_2025/Talent Acquisition Business Lifecycle.xlsx
+standard-data-elements-pdf: assets/files/downloads/HCM_Tal_Acq_2025/Talent Acquisition Standard Data Elements.xlsx
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 data-elements-content: hr/acquisition/data-elements.html
-capabilities-source-document: assets/files/downloads/hr/acquisition/HCM Business Capabilities_A2 (Talent Acquisition).xlsx
-capabilities-pdf: assets/files/downloads/hr/acquisition/HCM Business Capabilities_A2 (Talent Acquisition).xlsx
-<!-- performance-metrics-pdf: assets/files/downloads/hr/acquisition/HCM Service Measures_A2 (Talent Acquisition).xlsx -->
-all-zip: assets/files/downloads/hr/acquisition/acquisition.zip
+capabilities-source-document: assets/files/downloads/HCM_Tal_Acq_2025/Talent Acquisition Business Capabilities List.xlsx
+capabilities-pdf: assets/files/downloads/HCM_Tal_Acq_2025/Talent Acquisition Business Capabilities List.xlsx
+<!-- performance-metrics-pdf: assets/files/downloads/HCM_Tal_Acq_2025/Talent Acquisition Service Measures.xlsx -->
+all-zip: assets/files/downloads/HCM_Tal_Acq_2025/All Talent Acquisition.zip
 lifecycle-json-api: /business-standards-api/hr/acquisition/business-lifecycle
 capabilities-json-api: /business-standards-api/hr/acquisition/capabilities
 ---

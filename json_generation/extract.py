@@ -1,8 +1,10 @@
 import json
 import os
 import pandas as pd
+import math
+from pandasql import sqldf
 
-def biz_life(df):
+"""def biz_life(df):
     unique_func_names = df[' Function ID'].unique()
     all_func_jsons = []
     for name in unique_func_names:
@@ -22,7 +24,37 @@ def biz_life(df):
     final_json = {"Business_Lifecycle": all_func_jsons}    
     json_res = json.dumps(final_json,indent=4)
     return json_res
+"""
 
+def biz_life(df):
+    df.columns = [col.replace('\n','').strip() for col in df.columns]
+    df.columns = df.columns.str.strip()
+    id_name = df['ServiceFunctionID and Name'].unique()
+    obj = []
+    for i in id_name:
+        i = i[:8].replace('HCM.','hcm-')
+        temp = {
+            "type": i,
+            "data": []
+        }
+        obj.append(temp)
+    _hashmap = {item["type"]: idx for idx, item in enumerate(obj)}
+    for i in range(len(df['ServiceFunctionID and Name'])):
+        category = df['ServiceFunctionID and Name'][i][:8].replace('HCM.','hcm-')
+        index = _hashmap.get(category, None)
+        desc = df["ServiceActivityDescription"][i].replace('*', '\n•')
+        temp = {
+            "Identifier" : df["ServiceActivityID"][i],
+            "Activity": df["ServiceActivityName"][i],
+            "Description": desc
+        }
+        obj[index]["data"].append(temp)
+    obj = json.dumps(obj,indent=4)
+    return obj
+    
+    #print(obj2)        
+    #print('new columns : \n{}, of type'.format(df.columns)) 
+    
 
 def parse_biz_life(df):
     lis = (df['Activity ID and Name'].to_list())
@@ -46,7 +78,24 @@ def parse_biz_life(df):
     json_res = json.dumps(fin,indent=4)
     return json_res
         
- 
+
+def capabilities(df):
+    df.columns = [col.replace('\n','').strip() for col in df.columns]
+    df.columns = df.columns.str.strip()
+    ids = df['Capability ID'].unique()
+    obj = []
+    for i in range(len(ids)):
+        temp = {
+            "Capability ID": df['Capability ID'][i],
+            "Function": df['ServiceFunctionID and Name'][i],
+            "Activity Name": df['ServiceActivityID and Name'][i],
+            "Input/Output/Process": df['(I)nput, (P)rocess, (O)utput'][i],
+            "Business Capability Statement": df['Business Capability Statement'][i],
+            "Authoritative Reference": df['Authoritative Source 1'][i],
+        }
+        obj.append(temp)
+    obj = json.dumps(obj,indent=4)
+    return obj
     
 def business_capabilities(df):
     df.columns = [col.replace('\n', ' ').strip() for col in df.columns]

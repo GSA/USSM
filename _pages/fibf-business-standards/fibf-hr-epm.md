@@ -14,16 +14,16 @@ sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-busine
 metrics-content: hr/epm/performance-metrics.html
 capabilities-content: hr/epm/capabilities.html
 lifecycle-content: hr/epm/lifecycle.html
-lifecycle-pdf: assets/files/downloads/hr/epm/HCM Functions and Activities_A4 (Employee Performance Management).xlsx
-lifecycle-source-document: assets/files/downloads/hr/epm/HCM Functions and Activities_A4 (Employee Performance Management).xlsx
-standard-data-elements-pdf: assets/files/downloads/hr/epm/HCM Data Elements_A4 (Employee Performance Management).xlsx
+lifecycle-pdf: assets/files/downloads/HCM_Emp_MGMT_2025/Employee Performance Management Business Lifecycle.xlsx
+lifecycle-source-document: assets/files/downloads/HCM_Emp_MGMT_2025/Employee Performance Management Business Lifecycle.xlsx
+standard-data-elements-pdf: assets/files/downloads/HCM_Emp_MGMT_2025/Employee Performance Management Standard Data Elements.xlsx
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 data-elements-content: hr/epm/data-elements.html
-capabilities-source-document: assets/files/downloads/hr/epm/HCM Business Capabilities_A4 (Employee Performance Management).xlsx
-capabilities-pdf: assets/files/downloads/hr/epm/HCM Business Capabilities_A4 (Employee Performance Management).xlsx
-performance-metrics-pdf: assets/files/downloads/hr/epm/HCM Service Measures_A4 (Employee Performance Management).xlsx
-all-zip: assets/files/downloads/hr/epm/epm.zip
+capabilities-source-document: assets/files/downloads/HCM_Emp_MGMT_2025/Employee Performance Management Business Capabilities List.xlsx
+capabilities-pdf: assets/files/downloads/HCM_Emp_MGMT_2025/Employee Performance Management Business Capabilities List.xlsx
+performance-metrics-pdf: assets/files/downloads/HCM_Emp_MGMT_2025/Employee Performance Management Service Measures.xlsx
+all-zip: assets/files/downloads/HCM_Emp_MGMT_2025/All Employee Performance Management.zip
 lifecycle-json-api: /business-standards-api/hr/epm/business-lifecycle
 capabilities-json-api: /business-standards-api/hr/epm/capabilities
 ---
