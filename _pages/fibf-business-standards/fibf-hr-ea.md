@@ -15,18 +15,18 @@ sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-busine
 metrics-content: hr/employee-accountability/performance-metrics.html
 capabilities-content: hr/employee-accountability/capabilities.html
 lifecycle-content: hr/employee-accountability/lifecycle.html
-lifecycle-pdf: assets/files/downloads/hr/employee-accountability/HCM Functions and Activities_A7 (Employee Relations & Continuous Vetting).xlsx
-lifecycle-source-document: assets/files/downloads/hr/employee-accountability/HCM Functions and Activities_A7 (Employee Relations & Continuous Vetting).xlsx
+lifecycle-pdf: assets/files/downloads/HCM_Emp_Acc_2025/Employee Accountability Business Lifecycle.xlsx
+lifecycle-source-document: assets/files/downloads/HCM_Emp_Acc_2025/Employee Accountability Business Lifecycle.xlsx
 
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 
-capabilities-source-document: assets/files/downloads/hr/employee-accountability/HCM Business Capabilities_A7 (Employee Relations & Continuous Vetting).xlsx
-capabilities-pdf: assets/files/downloads/hr/employee-accountability/HCM Business Capabilities_A7 (Employee Relations & Continuous Vetting).xlsx
-performance-metrics-pdf: assets/files/downloads/hr/employee-accountability/HCM Service Measures_A7 (Employee Relations & Continuous Vetting).xlsx
+capabilities-source-document: assets/files/downloads/HCM_Emp_Acc_2025/Employee Accountability Business Capabilities List.xlsx
+capabilities-pdf: assets/files/downloads/HCM_Emp_Acc_2025/Employee Accountability Business Capabilities List.xlsx
+performance-metrics-pdf: assets/files/downloads/HCM_Emp_Acc_2025/Employee Accountability Service Measures.xlsx
 data-elements-content: hr/employee-accountability/data-elements.html
-standard-data-elements-pdf: assets/files/downloads/hr/employee-accountability/HCM Data Elements_A7 (Employee Relations & Continuous Vetting).xlsx
-all-zip: assets/files/downloads/hr/employee-accountability/employee-accountability.zip
+standard-data-elements-pdf: assets/files/downloads/HCM_Emp_Acc_2025/Employee Accountability Standard Data Elements.xlsx
+all-zip: assets/files/downloads/HCM_Emp_Acc_2025/All Employee Accountability.zip
 lifecycle-json-api: /business-standards-api/hr/employee/business-lifecycle
 capabilities-json-api: /business-standards-api/hr/employee/capabilities
 ---

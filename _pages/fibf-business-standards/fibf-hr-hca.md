@@ -14,16 +14,16 @@ sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-busine
 metrics-content: hr/hca/performance-metrics.html
 capabilities-content: hr/hca/capabilities.html
 lifecycle-content: hr/hca/lifecycle.html
-lifecycle-pdf: assets/files/downloads/hr/hca/HCM Functions and Activities_A9 (Workforce Analytics & Employee Records).xlsx
-lifecycle-source-document: assets/files/downloads/hr/hca/HCM Functions and Activities_A9 (Workforce Analytics & Employee Records).xlsx
+lifecycle-pdf: assets/files/downloads/HCM_HCA_2025/Human Capital Analytics & Employee Records Business Lifecycle.xlsx
+lifecycle-source-document: assets/files/downloads/HCM_HCA_2025/Human Capital Analytics & Employee Records Business Lifecycle.xlsx
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
-capabilities-source-document: assets/files/downloads/hr/hca/HCM Business Capabilities_A9 (Workforce Analytics & Employee Records).xlsx
-capabilities-pdf: assets/files/downloads/hr/hca/HCM Business Capabilities_A9 (Workforce Analytics & Employee Records).xlsx
-performance-metrics-pdf: assets/files/downloads/hr/hca/HCM Service Measures_A9 (Workforce Analytics & Employee Records).xlsx
+capabilities-source-document: assets/files/downloads/HCM_HCA_2025/Human Capital Analytics & Employee Records Business Capabilities List.xlsx
+capabilities-pdf: assets/files/downloads/HCM_HCA_2025/Human Capital Analytics & Employee Records Business Capabilities List.xlsx
+performance-metrics-pdf: assets/files/downloads/HCM_HCA_2025/Human Capital Analytics & Employee Records Service Measures.xlsx
 data-elements-content: hr/hca/data-elements.html
-standard-data-elements-pdf: assets/files/downloads/hr/hca/HCM Data Elements_A9 (Workforce Analytics & Employee Records).xlsx
-all-zip: assets/files/downloads/hr/hca/hca.zip
+standard-data-elements-pdf: assets/files/downloads/HCM_HCA_2025/Human Capital Analytics & Employee Records Standard Data Elements.xlsx
+all-zip: assets/files/downloads/HCM_HCA_2025/All Human Capital Analytics & Employee Records.zip
 lifecycle-json-api: /business-standards-api/hr/hca/business-lifecycle
 capabilities-json-api: /business-standards-api/hr/hca/capabilities
 ---

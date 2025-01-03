@@ -3,536 +3,536 @@
   "Sub-section": "Human Capital Evaluations",
   "Business_Lifecycle": [
     {
-      "type":"hcm-A10-1",
-      "data":[
-        {
-          "Identifier":"HCM.A10-1.010",
-          "Activity":"Human Capital Evaluation Program Planning",
-          "Description":"Developing and refining plans/policies for the agency HC evaluation program. The service may include reviewing internal/external factors that influence the HC evaluation program (e.g., agency operational concerns; Office of Management and Budget (OMB) guidance; White House President’s Management Agenda (PMA); Federal Workforce Priorities Report (FWPR); agency Human Capital Operating Plan (HCOP) goals; HRStat, Independent Audit Program (IAP), and Human Capital Review (HCR) results and findings; and/or strategic plan goals). The work may also include defining resource requirements and roles and responsibilities and a HC evaluation program logic model; and developing/refining a formal evaluation program communications plan, HC evaluation function strategic plan, and training curriculum for agency evaluators. The service outcome(s) will include, but not be limited to:\n<ul><li>HC Evaluation Program Policy Document (e.g., may include a description of the HC Evaluation Program and how it operates, specification of roles and responsibilities, and a HC evaluation program logic model)\n</li><li>HC Evaluation Program Logic Model \n</li><li>HC Evaluation Program Goals\n</li><li>HC Evaluation Program Financial and Human Resource Requirements\n</li><li>HC Evaluation Program Communications Plan\n</li><li>HC Evaluation Program Environmental Scan\n</li><li>HC Evaluation Program Annual Schedule of Evaluations\n</li><li>HC Program Evaluation Function Training Curriculum</li></ul>"
-        },
-        {
-          "Identifier":"HCM.A10-1.020",
-          "Activity":"Human Capital Evaluation Program Analysis",
-          "Description":"Conducting program-level analysis of the HC evaluation program, as well as implementing evaluation monitoring. The service may include conducting a research-based evaluation and analysis of HC evaluation program implementation, execution, and results, including how evaluations are planned, carried out, and completed. This service may also include analysis of various data sources, analysis of root causes of HC issues, analysis of HCOP and other strategic planning metrics, and evaluation activities. Evaluation program monitoring includes assessing measures, HC drivers (e.g., leadership practices, knowledge management), predictors of success, milestones, and critical success factors/focus areas used in evaluations, quality of reviews, and value to HCM operations to assess the impact of the strategies implemented and validity of metrics used. Finally, this service may also come in the form of an internal audit that is performed on the entire HC evaluation program. The service outcome(s) will include, but not be limited to:\n<ul><li>HC Evaluation Program Monitoring Operational Plan (this means defining the metrics, measures, and goals to be set up and measured)\n</li><li>HC Evaluation Program Results (every three years)\n</li><li>HC Evaluation Program HCR-related Analysis Report (this means analyzing what the program found; a review of findings)\n</li><li>Internal Assessment of HC Evaluation Program Data Sources (may include an assessment of the quality and validity of the measures being used, analysis results to be provided within agency HC planning documents, such as the HCOP, HRStat, IAP, and HCR)\n</li><li>HC Evaluation Program Communication Plan for Annual Results</li></ul>"
-        },
-        {
-          "Identifier":"HCM.A10-1.030",
-          "Activity":"Human Capital Evaluation Program Action Planning & Improvement",
-          "Description":"Developing a set of strategic recommendations to address gaps between an agency’s evaluation practices, program evaluation best practices, and agency human capital management (HCM) broadly. The service may include developing recommendations that include specific actions to take to address findings of Human Capital evaluation analysis (e.g., HRStat, IAP, HCR). This may include evaluating identification of appropriate data, metrics, data collection and analytical methods, workforce gaps or surpluses. Action planning includes details on who, when, where, and how actions will be taken; changes in how a program operates, reports, or evaluates itself; and advising on setting future targets for follow-on years of HC evaluation program operation. The service outcome(s) will include, but not be limited to:\n<ul><li>HC Evaluation Program Gap Analysis\n</li><li>HC Evaluation Program Improvement Plan\n</li><li>HC Evaluation Program Communication Plan for Annual Results\n</li><li>HC Evaluation Program Implementation Plan (this means the actual schedule of changes based on the gap analysis)\n</li><li>HC Program Enhancements Report</li></ul>"
-        },
-        {
-          "Identifier":"HCM.A10-1.040",
-          "Activity":"Human Capital Evaluation Planning",
-          "Description":"Creating a plan for a single HC evaluation or a series of evaluations across the Human Capital Framework Systems (i.e., Strategic Planning & Alignment, Talent Management, Performance Culture, and Evaluation). The service may include developing an actionable evaluation plan(s) for a specific evaluation or series of linked evaluations using expert-level program evaluation expertise and best practices, as well as developing useful templates and guides for future evaluations. The service may also include the development of individual components within the evaluation plan (e.g., research goals, data analysis plan), as well as support in linking evaluation to agency strategic outcomes. The service outcome(s) will include, but not be limited to:\n<ul><li>HC Evaluation Plan\n</li><li>HC Evaluation Purpose and Scope Definition\n</li><li>HC Evaluation Stakeholder Analysis\n</li><li>HC Evaluation Criteria\n</li><li>HC Evaluation Resource, Staffing, and Skill Requirements Definition & Verification\n</li><li>HC Evaluation Staff Gap Closure Plan (as applicable)\n</li><li>HC Evaluation Data Analysis Plan</li></ul>"
-        },
-        {
-          "Identifier":"HCM.A10-1.050",
-          "Activity":"Human Capital Implementation & Evaluation",
-          "Description":"Providing evaluation support in the execution of a HC evaluation and/or series of linked evaluations based on approved evaluation plans including the development of standard operating procedures, providing evaluation expertise, and conducting a key portion of the evaluation process(es). The service may include supporting evaluation processes ranging from management and execution of data collection, data analysis, data visualization, and providing results and HC program improvement recommendations to help improve quality and impact of evaluations using a range of advanced analytic techniques. The service outcome(s) will include, but not be limited to: \n<ul><li>HC Evaluation Execution Plan\n</li><li>HC Evaluation Data Collection Execution\n</li><li>HC Evaluation Data Analysis\n</li><li>HC Evaluation Findings Report\n</li><li>HC Evaluation Final Recommendations \n</li><li>HC Evaluation Recommendation Implementation Plan\n</li><li>HC Evaluation Agency HC Improvement Plan\n</li><li>HC Evaluation/Audit Closure Documents</li></ul>"
-        }
-      ]
+        "type": "hcm-A10-1",
+        "data": [
+            {
+                "Identifier": "HCM.A10-1.010",
+                "Activity": "Human Capital Evaluation Program Planning",
+                "Description": "Developing and refining plans/policies for the agency HC evaluation program. The service may include reviewing internal/external factors that influence the HC evaluation program (e.g., agency operational concerns; Office of Management and Budget (OMB) guidance; White House President\u2019s Management Agenda (PMA); Federal Workforce Priorities Report (FWPR); agency Human Capital Operating Plan (HCOP) goals; HRStat, Independent Audit Program (IAP), and Human Capital Review (HCR) results and findings; and/or strategic plan goals). The work may also include defining resource requirements and roles and responsibilities and a HC evaluation program logic model; and developing/refining a formal evaluation program communications plan, HC evaluation function strategic plan, and training curriculum for agency evaluators. The service outcome(s) will include, but not be limited to:\n\n\u2022HC Evaluation Program Policy Document (e.g., may include a description of the HC Evaluation Program and how it operates, specification of roles and responsibilities, and a HC evaluation program logic model)\n\n\u2022 HC Evaluation Program Logic Model \n\n\u2022 HC Evaluation Program Goals\n\n\u2022 HC Evaluation Program Financial and Human Resource Requirements\n\n\u2022 HC Evaluation Program Communications Plan\n\n\u2022 HC Evaluation Program Environmental Scan\n\n\u2022 HC Evaluation Program Annual Schedule of Evaluations\n\n\u2022 HC Program Evaluation Function Training Curriculum"
+            },
+            {
+                "Identifier": "HCM.A10-1.020",
+                "Activity": "Human Capital Evaluation Program Analysis",
+                "Description": "Conducting program-level analysis of the HC evaluation program, as well as implementing evaluation monitoring. The service may include conducting a research-based evaluation and analysis of HC evaluation program implementation, execution, and results, including how evaluations are planned, carried out, and completed. This service may also include analysis of various data sources, analysis of root causes of HC issues, analysis of HCOP and other strategic planning metrics, and evaluation activities. Evaluation program monitoring includes assessing measures, HC drivers (e.g., leadership practices, knowledge management), predictors of success, milestones, and critical success factors/focus areas used in evaluations, quality of reviews, and value to HCM operations to assess the impact of the strategies implemented and validity of metrics used. Finally, this service may also come in the form of an internal audit that is performed on the entire HC evaluation program. The service outcome(s) will include, but not be limited to:\n\n\u2022 HC Evaluation Program Monitoring Operational Plan (this means defining the metrics, measures, and goals to be set up and measured)\n\n\u2022 HC Evaluation Program Results (every three years)\n\n\u2022 HC Evaluation Program HCR-related Analysis Report (this means analyzing what the program found; a review of findings)\n\n\u2022 Internal Assessment of HC Evaluation Program Data Sources (may include an assessment of the quality and validity of the measures being used, analysis results to be provided within agency HC planning documents, such as the HCOP, HRStat, IAP, and HCR)\n\n\u2022 HC Evaluation Program Communication Plan for Annual Results"
+            },
+            {
+                "Identifier": "HCM.A10-1.030",
+                "Activity": "Human Capital Evaluation Program Action Planning & Improvement",
+                "Description": "Developing a set of strategic recommendations to address gaps between an agency\u2019s evaluation practices, program evaluation best practices, and agency human capital management (HCM) broadly. The service may include developing recommendations that include specific actions to take to address findings of Human Capital evaluation analysis (e.g., HRStat, IAP, HCR). This may include evaluating identification of appropriate data, metrics, data collection and analytical methods, workforce gaps or surpluses. Action planning includes details on who, when, where, and how actions will be taken; changes in how a program operates, reports, or evaluates itself; and advising on setting future targets for follow-on years of HC evaluation program operation. The service outcome(s) will include, but not be limited to:\n\n\u2022 HC Evaluation Program Gap Analysis\n\n\u2022 HC Evaluation Program Improvement Plan\n\n\u2022 HC Evaluation Program Communication Plan for Annual Results\n\n\u2022 HC Evaluation Program Implementation Plan (this means the actual schedule of changes based on the gap analysis)\n\n\u2022 HC Program Enhancements Report"
+            },
+            {
+                "Identifier": "HCM.A10-1.040",
+                "Activity": "Human Capital Evaluation Planning",
+                "Description": "Creating a plan for a single HC evaluation or a series of evaluations across the Human Capital Framework Systems (i.e., Strategic Planning & Alignment, Talent Management, Performance Culture, and Evaluation). The service may include developing an actionable evaluation plan(s) for a specific evaluation or series of linked evaluations using expert-level program evaluation expertise and best practices, as well as developing useful templates and guides for future evaluations. The service may also include the development of individual components within the evaluation plan (e.g., research goals, data analysis plan), as well as support in linking evaluation to agency strategic outcomes. The service outcome(s) will include, but not be limited to:\n\n\u2022 HC Evaluation Plan\n\n\u2022 HC Evaluation Purpose and Scope Definition\n\n\u2022 HC Evaluation Stakeholder Analysis\n\n\u2022 HC Evaluation Criteria\n\n\u2022 HC Evaluation Resource, Staffing, and Skill Requirements Definition & Verification\n\n\u2022 HC Evaluation Staff Gap Closure Plan (as applicable)\n\n\u2022 HC Evaluation Data Analysis Plan"
+            },
+            {
+                "Identifier": "HCM.A10-1.050",
+                "Activity": "Human Capital Implementation & Evaluation",
+                "Description": "Providing evaluation support in the execution of a HC evaluation and/or series of linked evaluations based on approved evaluation plans including the development of standard operating procedures, providing evaluation expertise, and conducting a key portion of the evaluation process(es). The service may include supporting evaluation processes ranging from management and execution of data collection, data analysis, data visualization, and providing results and HC program improvement recommendations to help improve quality and impact of evaluations using a range of advanced analytic techniques. The service outcome(s) will include, but not be limited to: \n\n\u2022 HC Evaluation Execution Plan\n\n\u2022 HC Evaluation Data Collection Execution\n\n\u2022 HC Evaluation Data Analysis\n\n\u2022 HC Evaluation Findings Report\n\n\u2022 HC Evaluation Final Recommendations \n\n\u2022 HC Evaluation Recommendation Implementation Plan\n\n\u2022 HC Evaluation Agency HC Improvement Plan\n\n\u2022 HC Evaluation/Audit Closure Documents"
+            }
+        ]
     }
   ],
   "Business_Capabilities":[
     {
-      "Capability ID":"HCM.A10-1.010.010",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Develop a formally documented HC evaluation program policy document, including specification of policy and program activities.",
-      "Authoritative Reference":"5 USC 1103c"
+        "Capability ID": "HCM.A10-1.010.010",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Develop a formally documented HC evaluation program policy document, including specification of policy and program activities.",
+        "Authoritative Reference": "5 U.S. Code \u00a7 1103c"
     },
     {
-      "Capability ID":"HCM.A10-1.010.020",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Ensure HC evaluation program policies define how the agency evaluation program operates, including outlining roles and responsibilities (e.g., using a RACI chart).",
-      "Authoritative Reference":"5 CFR 250.204"
+        "Capability ID": "HCM.A10-1.010.020",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Ensure HC evaluation program policies define how the agency evaluation program operates, including outlining roles and responsibilities (e.g., using a RACI chart).",
+        "Authoritative Reference": "5 CFR \u00a7 250.204"
     },
     {
-      "Capability ID":"HCM.A10-1.010.030",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Ensure HC evaluation program policies define how each component of the agency evaluation program operates to form a successful, complete evaluation program (e.g., using a logic model).",
-      "Authoritative Reference":"5 USC 1103c"
+        "Capability ID": "HCM.A10-1.010.030",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Ensure HC evaluation program policies define how each component of the agency evaluation program operates to form a successful, complete evaluation program (e.g., using a logic model).",
+        "Authoritative Reference": "5 U.S. Code \u00a7 1103c"
     },
     {
-      "Capability ID":"HCM.A10-1.010.040",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Ensure HC evaluation program policies define accountability/oversight measures (e.g., leaders are held accountable for sound HC practices through their performance appraisal).",
-      "Authoritative Reference":"5 USC 1103c"
+        "Capability ID": "HCM.A10-1.010.040",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Ensure HC evaluation program policies define accountability/oversight measures (e.g., leaders are held accountable for sound HC practices through their performance appraisal).",
+        "Authoritative Reference": "5 U.S. Code \u00a7 1103c"
     },
     {
-      "Capability ID":"HCM.A10-1.010.050",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Determine how HC evaluation program measures and metrics will be used, tracked, reviewed, and shared to determine program success.",
-      "Authoritative Reference":"5 USC 1103c"
+        "Capability ID": "HCM.A10-1.010.050",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Determine how HC evaluation program measures and metrics will be used, tracked, reviewed, and shared to determine program success.",
+        "Authoritative Reference": "5 U.S. Code \u00a7 1103c"
     },
     {
-      "Capability ID":"HCM.A10-1.010.060",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Define how data points from various sources will be used to develop planned metrics and sustain continuous improvement within the HC evaluation program.",
-      "Authoritative Reference":"GPRA Modernization Act of 2010; Public Law 111-352"
+        "Capability ID": "HCM.A10-1.010.060",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Define how data points from various sources will be used to develop planned metrics and sustain continuous improvement within the HC evaluation program.",
+        "Authoritative Reference": "GPRA Modernization Act of 2010; Public Law 111-352"
     },
     {
-      "Capability ID":"HCM.A10-1.010.070",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Define a process to review and incorporate HC evaluation program results in subsequent FY planning efforts.",
-      "Authoritative Reference":"Human Capital Framework"
+        "Capability ID": "HCM.A10-1.010.070",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Define a process to review and incorporate HC evaluation program results in subsequent FY planning efforts.",
+        "Authoritative Reference": "Human Capital Framework"
     },
     {
-      "Capability ID":"HCM.A10-1.010.080",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Implement an HC evaluation program with the support of leadership (e.g., CHCO, Performance Improvement Officer (PIO), Chief Information Officer (CIO), Chief Operations Officer (COO), Chief Financial Officer (CFO), and other senior leaders throughout the agency).  ",
-      "Authoritative Reference":"5 USC 1103c"
+        "Capability ID": "HCM.A10-1.010.080",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Implement an HC evaluation program with the support of leadership (e.g., CHCO, Performance Improvement Officer (PIO), Chief Information Officer (CIO), Chief Operations Officer (COO), Chief Financial Officer (CFO), and other senior leaders throughout the agency).  ",
+        "Authoritative Reference": "5 U.S. Code \u00a7 1103c"
     },
     {
-      "Capability ID":"HCM.A10-1.010.090",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Integrate a Human Capital Operations Plan (HCOP) roadmap and metrics into HC evaluation program policy and planning documents.",
-      "Authoritative Reference":"5 CFR 250.205"
+        "Capability ID": "HCM.A10-1.010.090",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Integrate a Human Capital Operations Plan (HCOP) roadmap and metrics into HC evaluation program policy and planning documents.",
+        "Authoritative Reference": "5 CFR \u00a7 250.205"
     },
     {
-      "Capability ID":"HCM.A10-1.010.100",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Develop a robust communication plan that tailors the message for targeted audiences using appropriate communication methods.",
-      "Authoritative Reference":"M-20-12 (6. Plan Dissemination Strategically)"
+        "Capability ID": "HCM.A10-1.010.100",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Develop a robust communication plan that tailors the message for targeted audiences using appropriate communication methods.",
+        "Authoritative Reference": "M-20-12 (6. Plan Dissemination Strategically)"
     },
     {
-      "Capability ID":"HCM.A10-1.010.110",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Ensure communication plan is developed in accordance with established timelines to ensure leadership and stakeholders are aware of HC evaluation program elements and results of evaluation system activities (e.g., data analysis, survey results, outcomes from implementing HC strategies, HC audits/evaluations, communicate action plans developed in response to audit findings).",
-      "Authoritative Reference":"Human Capital Framework (Evaluation, Operational View)"
+        "Capability ID": "HCM.A10-1.010.110",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Ensure communication plan is developed in accordance with established timelines to ensure leadership and stakeholders are aware of HC evaluation program elements and results of evaluation system activities (e.g., data analysis, survey results, outcomes from implementing HC strategies, HC audits/evaluations, communicate action plans developed in response to audit findings).",
+        "Authoritative Reference": "Human Capital Framework (Evaluation, Operational View)"
     },
     {
-      "Capability ID":"HCM.A10-1.010.120",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Identify or develop an Accountability Program Manager (APM) role and APM program (or related role/program) for the agency that is led by a senior staff member, and has complete autonomy in identifying the types of HC programmatic and transactional reviews to audit and report on.",
-      "Authoritative Reference":"5 CFR 250.204"
+        "Capability ID": "HCM.A10-1.010.120",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Identify or develop an Accountability Program Manager (APM) role and APM program (or related role/program) for the agency that is led by a senior staff member, and has complete autonomy in identifying the types of HC programmatic and transactional reviews to audit and report on.",
+        "Authoritative Reference": "5 CFR \u00a7 250.204"
     },
     {
-      "Capability ID":"HCM.A10-1.010.130",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"I/P",
-      "Business Capability Statement":"Develop plan to provide adequate financial and human resources for carrying out planned HC  evaluations.",
-      "Authoritative Reference":"5 USC 1103c"
+        "Capability ID": "HCM.A10-1.010.130",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "I/P",
+        "Business Capability Statement": "Develop plan to provide adequate financial and human resources for carrying out planned HC  evaluations.",
+        "Authoritative Reference": "5 U.S. Code \u00a7 1103c"
     },
     {
-      "Capability ID":"HCM.A10-1.010.140",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Ensure agency has dedicated staff with extensive knowledge in human capital management across the employee lifecycle, as defined by the Human Capital Framework (HCF) and described in the Human Capital Business Reference Model (HCBRM).",
-      "Authoritative Reference":"HCBRM"
+        "Capability ID": "HCM.A10-1.010.140",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Ensure agency has dedicated staff with extensive knowledge in human capital management across the employee lifecycle, as defined by the Human Capital Framework (HCF) and described in the Human Capital Business Reference Model (HCBRM).",
+        "Authoritative Reference": "HCBRM"
     },
     {
-      "Capability ID":"HCM.A10-1.010.150",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"I/P",
-      "Business Capability Statement":"Identify training needs associated with all areas of the Independent Audit Program (IAP) and HC evaluation program processes and provide internal training to resolve competency gaps.",
-      "Authoritative Reference":"5 CFR Part 250 Subpart B"
+        "Capability ID": "HCM.A10-1.010.150",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "I/P",
+        "Business Capability Statement": "Identify training needs associated with all areas of the Independent Audit Program (IAP) and HC evaluation program processes and provide internal training to resolve competency gaps.",
+        "Authoritative Reference": "5 CFR Part 250 Subpart B"
     },
     {
-      "Capability ID":"HCM.A10-1.010.160",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Use OPM's Evaluation Standards and Maturity Model to identify HC evaluation program maturity level.",
-      "Authoritative Reference":"M-20-12"
+        "Capability ID": "HCM.A10-1.010.160",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Use OPM's Evaluation Standards and Maturity Model to identify HC evaluation program maturity level.",
+        "Authoritative Reference": "M-20-12"
     },
     {
-      "Capability ID":"HCM.A10-1.010.170",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Develop analytical methods and tools to identify root cause(s) of variations in key areas of organizational performance.",
-      "Authoritative Reference":"5 CFR 250.204 d (7i)"
+        "Capability ID": "HCM.A10-1.010.170",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Develop analytical methods and tools to identify root cause(s) of variations in key areas of organizational performance.",
+        "Authoritative Reference": "5 CFR \u00a7 250.204 d (7i)"
     },
     {
-      "Capability ID":"HCM.A10-1.010.180",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Establish a formal schedule of HC evaluation program activities, which incorporates an assessment of the Human Capital Framework (HCF) systems.",
-      "Authoritative Reference":"Human Capital Framework"
+        "Capability ID": "HCM.A10-1.010.180",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Establish a formal schedule of HC evaluation program activities, which incorporates an assessment of the Human Capital Framework (HCF) systems.",
+        "Authoritative Reference": "Human Capital Framework"
     },
     {
-      "Capability ID":"HCM.A10-1.010.190",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Ensure HC evaluation teams abide by current professional and ethical standards and regulations (including informed consent, confidentiality, and prevention of harm) pertaining to evaluation participants. ",
-      "Authoritative Reference":"M-20-12 (7. Ethical Treatment)"
+        "Capability ID": "HCM.A10-1.010.190",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Ensure HC evaluation teams abide by current professional and ethical standards and regulations (including informed consent, confidentiality, and prevention of harm) pertaining to evaluation participants.\u00a0",
+        "Authoritative Reference": "M-20-12 (7. Ethical Treatment)"
     },
     {
-      "Capability ID":"HCM.A10-1.010.200",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.010 Human Capital Evaluation Program Planning",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
-      "Authoritative Reference":"5 U.S. Code § 552a "
+        "Capability ID": "HCM.A10-1.010.200",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.010 Human Capital Evaluation Program Planning",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Track and manage records in accordance with NARA\u2019s General Records Schedule or an agency-specific records schedule",
+        "Authoritative Reference": "5 U.S. Code \u00a7 552a "
     },
     {
-      "Capability ID":"HCM.A10-1.020.010",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.020 Human Capital Evaluation Program Analysis",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Ensure HC evaluation teams abide by current professional and ethical standards and regulations (including informed consent, confidentiality, and prevention of harm) pertaining to evaluation participants. ",
-      "Authoritative Reference":"M-20-12 (7. Ethical Treatment)"
+        "Capability ID": "HCM.A10-1.020.010",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.020 Human Capital Evaluation Program Analysis",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Ensure HC evaluation teams abide by current professional and ethical standards and regulations (including informed consent, confidentiality, and prevention of harm) pertaining to evaluation participants.\u00a0",
+        "Authoritative Reference": "M-20-12 (7. Ethical Treatment)"
     },
     {
-      "Capability ID":"HCM.A10-1.020.020",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.020 Human Capital Evaluation Program Analysis",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Continuously monitor evaluation methodology to ensure evaluations include steps to determine evaluation goals, research questions, constraints, required data, and design (e.g., implementation, outcome, program impact).",
-      "Authoritative Reference":"M-20-12"
+        "Capability ID": "HCM.A10-1.020.020",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.020 Human Capital Evaluation Program Analysis",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Continuously monitor evaluation methodology to ensure evaluations include steps to determine evaluation goals, research questions, constraints, required data, and design (e.g., implementation, outcome, program impact).",
+        "Authoritative Reference": "M-20-12"
     },
     {
-      "Capability ID":"HCM.A10-1.020.030",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.020 Human Capital Evaluation Program Analysis",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Review evaluation feedback from agency and oversight stakeholders, agency program evaluation documents (e.g., HCOP, HRStat, IAP), audit findings, survey results, hiring metrics, employee engagement scores, or other data, to identify deficiencies and areas in need of improvement. ",
-      "Authoritative Reference":"Human Capital Framework (Evaluation, Strategic View)"
+        "Capability ID": "HCM.A10-1.020.030",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.020 Human Capital Evaluation Program Analysis",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Review evaluation feedback from agency and oversight stakeholders, agency program evaluation documents (e.g., HCOP, HRStat, IAP), audit findings, survey results, hiring metrics, employee engagement scores, or other data, to identify deficiencies and areas in need of improvement. ",
+        "Authoritative Reference": "Human Capital Framework (Evaluation, Strategic View)"
     },
     {
-      "Capability ID":"HCM.A10-1.020.040",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.020 Human Capital Evaluation Program Analysis",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Monitor HC evaluation program data collection, analysis, and validation activities.",
-      "Authoritative Reference":"Human Capital Framework (Evaluation, Operational View)"
+        "Capability ID": "HCM.A10-1.020.040",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.020 Human Capital Evaluation Program Analysis",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Monitor HC evaluation program data collection, analysis, and validation activities.",
+        "Authoritative Reference": "Human Capital Framework (Evaluation, Operational View)"
     },
     {
-      "Capability ID":"HCM.A10-1.020.050",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.020 Human Capital Evaluation Program Analysis",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Produce and communicate HC evaluation program findings and recommendations to stakeholders and agency leaders.",
-      "Authoritative Reference":"GPRA Modernization Act of 2010; Public Law 111-352"
+        "Capability ID": "HCM.A10-1.020.050",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.020 Human Capital Evaluation Program Analysis",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Produce and communicate HC evaluation program findings and recommendations to stakeholders and agency leaders.",
+        "Authoritative Reference": "GPRA Modernization Act of 2010; Public Law 111-352"
     },
     {
-      "Capability ID":"HCM.A10-1.020.060",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.020 Human Capital Evaluation Program Analysis",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Conduct internal audits of HC evaluation program operations, data, data management processes, communication, etc.",
-      "Authoritative Reference":"5 CFR 250.204 d (5)"
+        "Capability ID": "HCM.A10-1.020.060",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.020 Human Capital Evaluation Program Analysis",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Conduct internal audits of HC evaluation program operations, data, data management processes, communication, etc.",
+        "Authoritative Reference": "5 CFR \u00a7 250.204 d (5)"
     },
     {
-      "Capability ID":"HCM.A10-1.020.070",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.020 Human Capital Evaluation Program Analysis",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Use HC evaluation program systems to analyze HC drivers (e.g., leadership practices, employee engagement, knowledge management) and predictors between human capital and organizational performance. ",
-      "Authoritative Reference":"Human Capital Framework"
+        "Capability ID": "HCM.A10-1.020.070",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.020 Human Capital Evaluation Program Analysis",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Use HC evaluation program systems to analyze HC drivers (e.g., leadership practices, employee engagement, knowledge management) and predictors between human capital and organizational performance. ",
+        "Authoritative Reference": "Human Capital Framework"
     },
     {
-      "Capability ID":"HCM.A10-1.020.080",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.020 Human Capital Evaluation Program Analysis",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Conduct program-level self assessment performance reviews (e.g., using Human Capital Framework (HCF) diagnostic tool).",
-      "Authoritative Reference":"5 CFR 250.204 d (6)"
+        "Capability ID": "HCM.A10-1.020.080",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.020 Human Capital Evaluation Program Analysis",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Conduct program-level self assessment performance reviews (e.g., using Human Capital Framework (HCF) diagnostic tool).",
+        "Authoritative Reference": "5 CFR \u00a7 250.204 d (6)"
     },
     {
-      "Capability ID":"HCM.A10-1.020.090",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.020 Human Capital Evaluation Program Analysis",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Validate data used to determine gaps and identify gap closure strategies.",
-      "Authoritative Reference":"Human Capital Framework (Evaluation, Operational View)"
+        "Capability ID": "HCM.A10-1.020.090",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.020 Human Capital Evaluation Program Analysis",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Validate data used to determine gaps and identify gap closure strategies.",
+        "Authoritative Reference": "Human Capital Framework (Evaluation, Operational View)"
     },
     {
-      "Capability ID":"HCM.A10-1.020.100",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.020 Human Capital Evaluation Program Analysis",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
-      "Authoritative Reference":"5 U.S. Code § 552a "
+        "Capability ID": "HCM.A10-1.020.100",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.020 Human Capital Evaluation Program Analysis",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Track and manage records in accordance with NARA\u2019s General Records Schedule or an agency-specific records schedule",
+        "Authoritative Reference": "5 U.S. Code \u00a7 552a "
     },
     {
-      "Capability ID":"HCM.A10-1.030.010",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Ensure HC evaluation teams abide by current professional and ethical standards and regulations (including informed consent, confidentiality, and prevention of harm) pertaining to evaluation participants. ",
-      "Authoritative Reference":"M-20-12 (7. Ethical Treatment)"
+        "Capability ID": "HCM.A10-1.030.010",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Ensure HC evaluation teams abide by current professional and ethical standards and regulations (including informed consent, confidentiality, and prevention of harm) pertaining to evaluation participants.\u00a0",
+        "Authoritative Reference": "M-20-12 (7. Ethical Treatment)"
     },
     {
-      "Capability ID":"HCM.A10-1.030.020",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Produce and communicate HC evaluation program findings and recommendations to stakeholders and agency leaders.",
-      "Authoritative Reference":"GPRA Modernization Act of 2010; Public Law 111-352"
+        "Capability ID": "HCM.A10-1.030.020",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Produce and communicate HC evaluation program findings and recommendations to stakeholders and agency leaders.",
+        "Authoritative Reference": "GPRA Modernization Act of 2010; Public Law 111-352"
     },
     {
-      "Capability ID":"HCM.A10-1.030.030",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Validate data used to determine gaps and identify gap closure strategies.",
-      "Authoritative Reference":"Human Capital Framework (Evaluation, Operational View)"
+        "Capability ID": "HCM.A10-1.030.030",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Validate data used to determine gaps and identify gap closure strategies.",
+        "Authoritative Reference": "Human Capital Framework (Evaluation, Operational View)"
     },
     {
-      "Capability ID":"HCM.A10-1.030.040",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Develop an HC evaluation program improvement plan (or update/revise the existing evaluation plan) to improve program maturity, effectiveness, and/or alignment with agency HCOP and other agency-tracked metrics based on evaluation program and audit data.",
-      "Authoritative Reference":"GPRA Modernization Act of 2010; Public Law 111-352"
+        "Capability ID": "HCM.A10-1.030.040",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Develop an HC evaluation program improvement plan (or update/revise the existing evaluation plan) to improve program maturity, effectiveness, and/or alignment with agency HCOP and other agency-tracked metrics based on evaluation program and audit data.",
+        "Authoritative Reference": "GPRA Modernization Act of 2010; Public Law 111-352"
     },
     {
-      "Capability ID":"HCM.A10-1.030.050",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Request sponsorship of HC evaluation program improvement opportunities from agency leaders and stakeholders.",
-      "Authoritative Reference":"5 CFR 250.203"
+        "Capability ID": "HCM.A10-1.030.050",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Request sponsorship of HC evaluation program improvement opportunities from agency leaders and stakeholders.",
+        "Authoritative Reference": "5 CFR \u00a7 250.203"
     },
     {
-      "Capability ID":"HCM.A10-1.030.060",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Identify and enact data-driven improvements to the HC evaluation program based on assessment results (e.g., additional training, improve data infrastructure).",
-      "Authoritative Reference":"Human Capital Framework (Evaluation)"
+        "Capability ID": "HCM.A10-1.030.060",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Identify and enact data-driven improvements to the HC evaluation program based on assessment results (e.g., additional training, improve data infrastructure).",
+        "Authoritative Reference": "Human Capital Framework (Evaluation)"
     },
     {
-      "Capability ID":"HCM.A10-1.030.070",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Conduct an internal lessons-learned process to identify changes in future evaluations.",
-      "Authoritative Reference":"Human Capital Framework (Evaluation)"
+        "Capability ID": "HCM.A10-1.030.070",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Conduct an internal lessons-learned process to identify changes in future evaluations.",
+        "Authoritative Reference": "Human Capital Framework (Evaluation)"
     },
     {
-      "Capability ID":"HCM.A10-1.030.080",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
-      "Authoritative Reference":"5 U.S. Code § 552a "
+        "Capability ID": "HCM.A10-1.030.080",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.030 Human Capital Evaluation Program Action Planning & Improvement",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Track and manage records in accordance with NARA\u2019s General Records Schedule or an agency-specific records schedule",
+        "Authoritative Reference": "5 U.S. Code \u00a7 552a "
     },
     {
-      "Capability ID":"HCM.A10-1.040.010",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.040 Human Capital Evaluation Planning",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Ensure HC evaluation teams abide by current professional and ethical standards and regulations (including informed consent, confidentiality, and prevention of harm) pertaining to evaluation participants. ",
-      "Authoritative Reference":"M-20-12 (7. Ethical Treatment)"
+        "Capability ID": "HCM.A10-1.040.010",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.040 Human Capital Evaluation Planning",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Ensure HC evaluation teams abide by current professional and ethical standards and regulations (including informed consent, confidentiality, and prevention of harm) pertaining to evaluation participants.\u00a0",
+        "Authoritative Reference": "M-20-12 (7. Ethical Treatment)"
     },
     {
-      "Capability ID":"HCM.A10-1.040.020",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.040 Human Capital Evaluation Planning",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Develop (or adopt) a logic model to aid in planning the HC evaluation, communicating results, and planning for evaluation and implementation.",
-      "Authoritative Reference":"OPM Human Capital Reviews"
+        "Capability ID": "HCM.A10-1.040.020",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.040 Human Capital Evaluation Planning",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Develop (or adopt) a logic model to aid in planning the HC evaluation, communicating results, and planning for evaluation and implementation.",
+        "Authoritative Reference": "OPM Human Capital Reviews"
     },
     {
-      "Capability ID":"HCM.A10-1.040.030",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.040 Human Capital Evaluation Planning",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Determine HC evaluation goals, research questions, constraints, required data, and design (e.g., implementation, outcome, program impact) as part of HC evaluation plan to ensure program maturity improvement.",
-      "Authoritative Reference":"Human Capital Framework (Evaluation)"
+        "Capability ID": "HCM.A10-1.040.030",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.040 Human Capital Evaluation Planning",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Determine HC evaluation goals, research questions, constraints, required data, and design (e.g., implementation, outcome, program impact) as part of HC evaluation plan to ensure program maturity improvement.",
+        "Authoritative Reference": "Human Capital Framework (Evaluation)"
     },
     {
-      "Capability ID":"HCM.A10-1.040.040",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.040 Human Capital Evaluation Planning",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Review HC evaluation inputs from agency and oversight stakeholders, agency documents (e.g., HCOP, HRStat, IAP, HCR), or other data.",
-      "Authoritative Reference":"Human Capital Framework (Evaluation, Strategic View)"
+        "Capability ID": "HCM.A10-1.040.040",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.040 Human Capital Evaluation Planning",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Review HC evaluation inputs from agency and oversight stakeholders, agency documents (e.g., HCOP, HRStat, IAP, HCR), or other data.",
+        "Authoritative Reference": "Human Capital Framework (Evaluation, Strategic View)"
     },
     {
-      "Capability ID":"HCM.A10-1.040.050",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.040 Human Capital Evaluation Planning",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Conduct a review of current research literature in order to understand HC program factors (e.g., program history, related policies, knowledge base) and focus evaluation questions and provide important context for evaluation.",
-      "Authoritative Reference":"Human Capital Framework"
+        "Capability ID": "HCM.A10-1.040.050",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.040 Human Capital Evaluation Planning",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Conduct a review of current research literature in order to understand HC program factors (e.g., program history, related policies, knowledge base) and focus evaluation questions and provide important context for evaluation.",
+        "Authoritative Reference": "Human Capital Framework"
     },
     {
-      "Capability ID":"HCM.A10-1.040.060",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.040 Human Capital Evaluation Planning",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Develop a written evaluation plan that helps evaluators agree on and communicate a clear plan of action for the project team and its advisors, requestors, and other stakeholders.",
-      "Authoritative Reference":"5 CFR 250.204 d (5ii)"
+        "Capability ID": "HCM.A10-1.040.060",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.040 Human Capital Evaluation Planning",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Develop a written evaluation plan that helps evaluators agree on and communicate a clear plan of action for the project team and its advisors, requestors, and other stakeholders.",
+        "Authoritative Reference": "5 CFR \u00a7 250.204 d (5ii)"
     },
     {
-      "Capability ID":"HCM.A10-1.040.070",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.040 Human Capital Evaluation Planning",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Review the relevant policies and consult agency officials and other stakeholders to understand their perceptions on the program’s purpose and goals, the activities and organizations involved, and the changes in program strategy, scope, or goals.",
-      "Authoritative Reference":"Human Capital Framework"
+        "Capability ID": "HCM.A10-1.040.070",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.040 Human Capital Evaluation Planning",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Review the relevant policies and consult agency officials and other stakeholders to understand their perceptions on the program\u2019s purpose and goals, the activities and organizations involved, and the changes in program strategy, scope, or goals.",
+        "Authoritative Reference": "Human Capital Framework"
     },
     {
-      "Capability ID":"HCM.A10-1.040.080",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.040 Human Capital Evaluation Planning",
-      "Input/Output/Process":"I/P",
-      "Business Capability Statement":"Identify HC program data sources and collection procedures to obtain relevant, credible information.",
-      "Authoritative Reference":"Human Capital Framework (Evaluation)"
+        "Capability ID": "HCM.A10-1.040.080",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.040 Human Capital Evaluation Planning",
+        "Input/Output/Process": "I/P",
+        "Business Capability Statement": "Identify HC program data sources and collection procedures to obtain relevant, credible information.",
+        "Authoritative Reference": "Human Capital Framework (Evaluation)"
     },
     {
-      "Capability ID":"HCM.A10-1.040.090",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.040 Human Capital Evaluation Planning",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Assess the relevance and quality of HC program data to answer the evaluation research questions, and whether these sources will provide evidence that is both sufficient and appropriate to support findings and conclusions.",
-      "Authoritative Reference":"Human Capital Framework (Evaluation, Strategic View)"
+        "Capability ID": "HCM.A10-1.040.090",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.040 Human Capital Evaluation Planning",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Assess the relevance and quality of HC program data to answer the evaluation research questions, and whether these sources will provide evidence that is both sufficient and appropriate to support findings and conclusions.",
+        "Authoritative Reference": "Human Capital Framework (Evaluation, Strategic View)"
     },
     {
-      "Capability ID":"HCM.A10-1.040.100",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.040 Human Capital Evaluation Planning",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Explore with primary stakeholders the limitations and strengths of the core evaluation research questions and approaches for answering those questions. ",
-      "Authoritative Reference":"Human Capital Framework"
+        "Capability ID": "HCM.A10-1.040.100",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.040 Human Capital Evaluation Planning",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Explore with primary stakeholders the limitations and strengths of the core evaluation research questions and approaches for answering those questions.\u00a0",
+        "Authoritative Reference": "Human Capital Framework"
     },
     {
-      "Capability ID":"HCM.A10-1.040.110",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.040 Human Capital Evaluation Planning",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Ensure the HC evaluation team possesses the required evaluation-specific knowledge, skills, abilities, and experiences for each evaluation.",
-      "Authoritative Reference":"M-20-12 (1. Build and Maintain Evaluation Capacity & 2. Use Expert Consultation Effectively)"
+        "Capability ID": "HCM.A10-1.040.110",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.040 Human Capital Evaluation Planning",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Ensure the HC evaluation team possesses the required evaluation-specific knowledge, skills, abilities, and experiences for each evaluation.",
+        "Authoritative Reference": "M-20-12 (1. Build and Maintain Evaluation Capacity & 2. Use Expert Consultation Effectively)"
     },
     {
-      "Capability ID":"HCM.A10-1.040.120",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.040 Human Capital Evaluation Planning",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
-      "Authoritative Reference":"5 U.S. Code § 552a "
+        "Capability ID": "HCM.A10-1.040.120",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.040 Human Capital Evaluation Planning",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Track and manage records in accordance with NARA\u2019s General Records Schedule or an agency-specific records schedule",
+        "Authoritative Reference": "5 U.S. Code \u00a7 552a "
     },
     {
-      "Capability ID":"HCM.A10-1.050.010",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.050 Human Capital Implementation & Evaluation",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Ensure HC evaluation teams abide by current professional and ethical standards and regulations (including informed consent, confidentiality, and prevention of harm) pertaining to evaluation participants. ",
-      "Authoritative Reference":"M-20-12 (7. Ethical Treatment)"
+        "Capability ID": "HCM.A10-1.050.010",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.050 Human Capital Implementation & Evaluation",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Ensure HC evaluation teams abide by current professional and ethical standards and regulations (including informed consent, confidentiality, and prevention of harm) pertaining to evaluation participants.\u00a0",
+        "Authoritative Reference": "M-20-12 (7. Ethical Treatment)"
     },
     {
-      "Capability ID":"HCM.A10-1.050.020",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.050 Human Capital Implementation & Evaluation",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Conduct an internal lessons-learned process to identify changes in future evaluations.",
-      "Authoritative Reference":"Human Capital Framework (Evaluation)"
+        "Capability ID": "HCM.A10-1.050.020",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.050 Human Capital Implementation & Evaluation",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Conduct an internal lessons-learned process to identify changes in future evaluations.",
+        "Authoritative Reference": "Human Capital Framework (Evaluation)"
     },
     {
-      "Capability ID":"HCM.A10-1.050.030",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.050 Human Capital Implementation & Evaluation",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Execute approved HC evaluation plan, including carrying out selected evaluation design (e.g., outcome, implementation) using approved project planning methodologies.",
-      "Authoritative Reference":"OPM Human Capital Reviews"
+        "Capability ID": "HCM.A10-1.050.030",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.050 Human Capital Implementation & Evaluation",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Execute approved HC evaluation plan, including carrying out selected evaluation design (e.g., outcome, implementation) using approved project planning methodologies.",
+        "Authoritative Reference": "OPM Human Capital Reviews"
     },
     {
-      "Capability ID":"HCM.A10-1.050.040",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.050 Human Capital Implementation & Evaluation",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Develop a HC program data analysis plan that sufficiently answer evaluation research questions.",
-      "Authoritative Reference":"Human Capital Framework (Evaluation)"
+        "Capability ID": "HCM.A10-1.050.040",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.050 Human Capital Implementation & Evaluation",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Develop a HC program data analysis plan that sufficiently answer evaluation research questions.",
+        "Authoritative Reference": "Human Capital Framework (Evaluation)"
     },
     {
-      "Capability ID":"HCM.A10-1.050.050",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.050 Human Capital Implementation & Evaluation",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Collect appropriate HC program data via data collection methods such as (interviews, surveys, available HR sources of databases).",
-      "Authoritative Reference":"Human Capital Framework (Evaluation, Operational View)"
+        "Capability ID": "HCM.A10-1.050.050",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.050 Human Capital Implementation & Evaluation",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Collect appropriate HC program data via data collection methods such as (interviews, surveys, available HR sources of databases).",
+        "Authoritative Reference": "Human Capital Framework (Evaluation, Operational View)"
     },
     {
-      "Capability ID":"HCM.A10-1.050.060",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.050 Human Capital Implementation & Evaluation",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Analyze HC program data and produce final research analysis output and recommendations for program improvements based on results.",
-      "Authoritative Reference":"Human Capital Framework (Evaluation, Strategic View)"
+        "Capability ID": "HCM.A10-1.050.060",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.050 Human Capital Implementation & Evaluation",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Analyze HC program data and produce final research analysis output and recommendations for program improvements based on results.",
+        "Authoritative Reference": "Human Capital Framework (Evaluation, Strategic View)"
     },
     {
-      "Capability ID":"HCM.A10-1.050.070",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.050 Human Capital Implementation & Evaluation",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Communicate HC evaluation findings and recommendations to stakeholders and agency leaders.",
-      "Authoritative Reference":"5 CFR 250.204 d (5ii)"
+        "Capability ID": "HCM.A10-1.050.070",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.050 Human Capital Implementation & Evaluation",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Communicate HC evaluation findings and recommendations to stakeholders and agency leaders.",
+        "Authoritative Reference": "5 CFR \u00a7 250.204 d (5ii)"
     },
     {
-      "Capability ID":"HCM.A10-1.050.080",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.050 Human Capital Implementation & Evaluation",
-      "Input/Output/Process":"O",
-      "Business Capability Statement":"Ensure HC evaluation results align with current agency goals and priorities, and can inform future agency goals and priorities. ",
-      "Authoritative Reference":"Human Capital Framework"
+        "Capability ID": "HCM.A10-1.050.080",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.050 Human Capital Implementation & Evaluation",
+        "Input/Output/Process": "O",
+        "Business Capability Statement": "Ensure HC evaluation results align with current agency goals and priorities, and can inform future agency goals and priorities. ",
+        "Authoritative Reference": "Human Capital Framework"
     },
     {
-      "Capability ID":"HCM.A10-1.050.090",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.050 Human Capital Implementation & Evaluation",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Engage stakeholders to identify and refine HC evaluation improvement opportunities.",
-      "Authoritative Reference":"5 CFR 250.203"
+        "Capability ID": "HCM.A10-1.050.090",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.050 Human Capital Implementation & Evaluation",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Engage stakeholders to identify and refine HC evaluation improvement opportunities.",
+        "Authoritative Reference": "5 CFR \u00a7 250.203"
     },
     {
-      "Capability ID":"HCM.A10-1.050.100",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.050 Human Capital Implementation & Evaluation",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Request sponsorship of HC evaluation improvement opportunities from agency leaders and stakeholders.",
-      "Authoritative Reference":"5 CFR 250.203"
+        "Capability ID": "HCM.A10-1.050.100",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.050 Human Capital Implementation & Evaluation",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Request sponsorship of HC evaluation improvement opportunities from agency leaders and stakeholders.",
+        "Authoritative Reference": "5 CFR \u00a7 250.203"
     },
     {
-      "Capability ID":"HCM.A10-1.050.110",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.050 Human Capital Implementation & Evaluation",
-      "Input/Output/Process":"I",
-      "Business Capability Statement":"Identify and develop key actions based on data-driven analysis and audit results to improve and correct deficiencies in HC policies and programs.  ",
-      "Authoritative Reference":"Human Capital Framework (Evaluation)"
+        "Capability ID": "HCM.A10-1.050.110",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.050 Human Capital Implementation & Evaluation",
+        "Input/Output/Process": "I",
+        "Business Capability Statement": "Identify and develop key actions based on data-driven analysis and audit results to improve and correct deficiencies in HC policies and programs.  ",
+        "Authoritative Reference": "Human Capital Framework (Evaluation)"
     },
     {
-      "Capability ID":"HCM.A10-1.050.120",
-      "Function":"HCM.A10-1 Human Capital Programmatic Evaluation",
-      "Activity Name":"HCM.A10-1.050 Human Capital Implementation & Evaluation",
-      "Input/Output/Process":"P",
-      "Business Capability Statement":"Track and manage records in accordance with NARA’s General Records Schedule or an agency-specific records schedule",
-      "Authoritative Reference":"5 U.S. Code § 552a "
+        "Capability ID": "HCM.A10-1.050.120",
+        "Function": "HCM.A10-1 Human Capital Programmatic Evaluation",
+        "Activity Name": "HCM.A10-1.050 Human Capital Implementation & Evaluation",
+        "Input/Output/Process": "P",
+        "Business Capability Statement": "Track and manage records in accordance with NARA\u2019s General Records Schedule or an agency-specific records schedule",
+        "Authoritative Reference": "5 U.S. Code \u00a7 552a "
     }
   ],
   "Business_Use_Cases":"coming soon",
   "Standard_Data_Elements":{
-    "Standard Data Elements":"/assets/files/downloads/hr/hce/HCM Data Elements_A10 (Agency Human Capital Evaluation).xlsx"
+    "Standard Data Elements":"/assets/files/downloads/HCM_Eval_2025/Human Capital Evaluations Standard Data Elements.xlsx"
   }
 }
