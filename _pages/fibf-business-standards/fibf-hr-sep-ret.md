@@ -14,16 +14,16 @@ sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-busine
 metrics-content: hr/retirement/performance-metrics.html
 capabilities-content: hr/retirement/capabilities.html
 lifecycle-content: hr/retirement/lifecycle.html
-lifecycle-pdf: assets/files/downloads/hr/retirement/HCM Functions and Activities_A6 (Separation and Retirement).xlsx
-lifecycle-source-document: assets/files/downloads/hr/retirement/HCM Functions and Activities_A6 (Separation and Retirement).xlsx
-standard-data-elements-pdf: assets/files/downloads/hr/retirement/HCM Data Elements_A6 (Separation and Retirement).xlsx
+lifecycle-pdf: assets/files/downloads/HCM_Sep_Ret_2025/Separation and Retirement Business Lifecycle.xlsx
+lifecycle-source-document: assets/files/downloads/HCM_Sep_Ret_2025/Separation and Retirement Business Lifecycle.xlsx
+standard-data-elements-pdf: assets/files/downloads/HCM_Sep_Ret_2025/Separation and Retirement Standard Data Elements.xlsx
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 data-elements-content: hr/retirement/data-elements.html
-capabilities-source-document: assets/files/downloads/hr/retirement/HCM Business Capabilities Standards_A6 (Separation and Retirement).xlsx
-capabilities-pdf: assets/files/downloads/hr/retirement/HCM Business Capabilities Standards_A6 (Separation and Retirement).xlsx
-<!-- performance-metrics-pdf: assets/files/downloads/hr/retirement/HCM Service Measures_A6 (Separation and Retirement).xlsx -->
-all-zip: assets/files/downloads/hr/retirement/retirement.zip
+capabilities-source-document: assets/files/downloads/HCM_Sep_Ret_2025/Separation and Retirement Business Capabilities List.xlsx
+capabilities-pdf: assets/files/downloads/HCM_Sep_Ret_2025/Separation and Retirement Business Capabilities List.xlsx
+<!-- performance-metrics-pdf: assets/files/downloads/HCM_Sep_Ret_2025/Separation and Retirement Service Measures.xlsx -->
+all-zip: assets/files/downloads/HCM_Sep_Ret_2025/All Separation and Retirement.zip
 lifecycle-json-api: /business-standards-api/hr/retirement/business-lifecycle
 capabilities-json-api: /business-standards-api/hr/retirement/capabilities
 ---
