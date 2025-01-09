@@ -14,16 +14,16 @@ sec-references-href: https://www.opm.gov/services-for-agencies/hr-line-of-busine
 metrics-content: hr/hce/performance-metrics.html
 capabilities-content: hr/hce/capabilities.html
 lifecycle-content: hr/hce/lifecycle.html
-lifecycle-pdf: assets/files/downloads/hr/hce/HCM Functions and Activities_A10 (Agency Human Capital Evaluation).xlsx
-lifecycle-source-document: assets/files/downloads/hr/hce/HCM Functions and Activities_A10 (Agency Human Capital Evaluation).xlsx
+lifecycle-pdf: assets/files/downloads/HCM_Eval_2025/Human Capital Evaluations Business Lifecycle.xlsx
+lifecycle-source-document: assets/files/downloads/HCM_Eval_2025/Human Capital Evaluations Business Lifecycle.xlsx
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
-capabilities-source-document: assets/files/downloads/hr/hce/HCM Business Capabilities_A10 (Agency Human Capital Evaluation).xlsx
-capabilities-pdf: assets/files/downloads/hr/hce/HCM Business Capabilities_A10 (Agency Human Capital Evaluation).xlsx
-performance-metrics-pdf: assets/files/downloads/hr/hce/HCM Service Measures_A10 (Agency Human Capital Evaluation).xlsx
+capabilities-source-document: assets/files/downloads/HCM_Eval_2025/Human Capital Evaluations Business Capabilities List.xlsx
+capabilities-pdf: assets/files/downloads/HCM_Eval_2025/Human Capital Evaluations Business Capabilities List.xlsx
+performance-metrics-pdf: assets/files/downloads/HCM_Eval_2025/Human Capital Evaluations Service Measures.xlsx
 data-elements-content: hr/hce/data-elements.html
-standard-data-elements-pdf: assets/files/downloads/hr/hce/HCM Data Elements_A10 (Agency Human Capital Evaluation).xlsx
-all-zip: assets/files/downloads/hr/hce/hce.zip
+standard-data-elements-pdf: assets/files/downloads/HCM_Eval_2025/Human Capital Evaluations Standard Data Elements.xlsx
+all-zip: assets/files/downloads/HCM_Eval_2025/All Human Capital Evaluations.zip
 lifecycle-json-api: /business-standards-api/hr/hce/business-lifecycle
 capabilities-json-api: /business-standards-api/hr/hce/capabilities
 ---

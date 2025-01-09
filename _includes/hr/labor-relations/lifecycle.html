@@ -1,53 +1,116 @@
-<p><i>Select from the list of available functions to view associated activities</i></p>
-<div id="hr-labor-lifecycle" class="usa-accordion usa-accordion--bordered" data-allow-multiple>
-    <div>
-        <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a1">HCM.A8-1 Labor Management Relations Administration</button>
-        <div id="b-a1" class="usa-accordion__content usa-prose">
-            <table id="hcm-A8-1" aria-label="HCM.A8-1 Labor Management Relations Administration">
-                <thead>
-                    <tr>
-                        <th class="capability_class" scope="col"><strong><strong><em>Identifier</em></strong></strong></th>
-                        <th class="capability_class" scope="col"><strong><em>Activity</em></strong></th>
-                        <th class="capability_class" scope="col"><strong><em>Description</em></strong></th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://designsystem.digital.gov/styles/uswds.css">
+    <style>
+        td.capability_class ul {
+            margin: 0;
+            padding-left: 1.5em;
+        }
+        td.capability_class li {
+            list-style-type: disc;
+            margin-bottom: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <p><i>Select from the list of available functions to view associated activities</i></p>
+    <div id="hr-labor-lifecycle" class="usa-accordion usa-accordion--bordered" data-allow-multiple>
+        <div>
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a1">HCM.A8-1 Labor Management Relations Administration</button>
+            <div id="b-a1" class="usa-accordion__content usa-prose">
+                <table id="hcm-A8-1" aria-label="HCM.A8-1 Labor Management Relations Administration">
+                    <thead>
+                        <tr>
+                            <th class="capability_class" scope="col"><strong><strong><em>Identifier</em></strong></strong></th>
+                            <th class="capability_class" scope="col"><strong><em>Activity</em></strong></th>
+                            <th class="capability_class" scope="col"><strong><em>Description</em></strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
         </div>
+        <div>
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a2">HCM.A8-2 Negotiated Grievances and Third-Party Proceedings</button>
+            <div id="b-a2" class="usa-accordion__content usa-prose">
+                <table id="hcm-A8-2" aria-label="HCM.A8-2 Negotiated Grievances and Third-Party Proceedings">
+                    <thead>
+                        <tr>
+                            <th class="capability_class" scope="col"><strong><strong><em>Identifier</em></strong></strong></th>
+                            <th class="capability_class" scope="col"><strong><em>Activity</em></strong></th>
+                            <th class="capability_class" scope="col"><strong><em>Description</em></strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a3">HCM.A8-3 Collective Bargaining</button>
+            <div id="b-a3" class="usa-accordion__content usa-prose">
+                <table id="hcm-A8-3" aria-label="HCM.A8-3 Collective Bargaining">
+                    <thead>
+                        <tr>
+                            <th class="capability_class" scope="col"><strong><strong><em>Identifier</em></strong></strong></th>
+                            <th class="capability_class" scope="col"><strong><em>Activity</em></strong></th>
+                            <th class="capability_class" scope="col"><strong><em>Description</em></strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
     </div>
-    <div>
-        <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a2">HCM.A8-2 Negotiated Grievances and Third-Party Proceedings</button>
-        <div id="b-a2" class="usa-accordion__content usa-prose">
-            <table id="hcm-A8-2" aria-label="HCM.A8-2 Negotiated Grievances and Third-Party Proceedings">
-                <thead>
-                    <tr>
-                        <th class="capability_class" scope="col"><strong><strong><em>Identifier</em></strong></strong></th>
-                        <th class="capability_class" scope="col"><strong><em>Activity</em></strong></th>
-                        <th class="capability_class" scope="col"><strong><em>Description</em></strong></th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-      </div>
-
-      <div>
-        <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a3">HCM.A8-3 Collective Bargaining</button>
-        <div id="b-a3" class="usa-accordion__content usa-prose">
-            <table id="hcm-A8-3" aria-label="HCM.A8-3 Collective Bargaining">
-                <thead>
-                    <tr>
-                        <th class="capability_class" scope="col"><strong><strong><em>Identifier</em></strong></strong></th>
-                        <th class="capability_class" scope="col"><strong><em>Activity</em></strong></th>
-                        <th class="capability_class" scope="col"><strong><em>Description</em></strong></th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-       </div>
-
-</div>
+    <script>
+        const processTableContent = tbody => {
+            if (!tbody) return;
+    
+            const rows = tbody.querySelectorAll('tr');
+            rows.forEach(row => {
+                const descriptionCell = row.querySelector('td.capability_class:last-child');
+                if (descriptionCell && descriptionCell.textContent.includes('•')) {
+                    const rawText = descriptionCell.textContent;
+                    const mainText = rawText.split('•')[0].trim();
+                    const bulletPoints = rawText.split('•').slice(1).map(line => line.trim()).filter(line => line !== "");
+                    descriptionCell.textContent = mainText;
+                    const ul = document.createElement('ul');
+                    bulletPoints.forEach(point => {
+                        const li = document.createElement('li');
+                        li.textContent = point;
+                        ul.appendChild(li);
+                    });
+                    descriptionCell.appendChild(ul);
+                }
+            });
+        };
+    
+        const observeAllTables = () => {
+            const tablesWithTbody = document.querySelectorAll('table tbody');
+            if (!tablesWithTbody.length) return;
+    
+            tablesWithTbody.forEach(tbody => {
+                const observer = new MutationObserver(mutations => {
+                    mutations.forEach(() => {
+                        processTableContent(tbody);
+                    });
+                });
+    
+                observer.observe(tbody, {
+                    childList: true,
+                    subtree: true,
+                });
+            });
+        };
+    
+        observeAllTables();
+    </script>
+</body>
+</html>
