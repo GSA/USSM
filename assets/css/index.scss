@@ -120,12 +120,12 @@
   font-size: 14px;
 }
 
-// @media screen and (min-width: 768px) {
-//   .ck {
-//     display: none
-//   }
+@media screen and (min-width: 768px) {
+  .ck {
+    display: none
+  }
 
-// }
+}
 
 .usa-sidenav a:not(.usa-button):not(.usa-current-1) {
   color: #ffffff;
