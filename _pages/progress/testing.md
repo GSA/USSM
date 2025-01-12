@@ -80,7 +80,7 @@ news-category: FIBF-PROGRAM
              <!--- insert the sources -->
 
              <A HREF="/public-comment-open-for-fy25-annual-update-to-mission-support-data-and-business-standards/" STYLE="display: inline;">Baseline Technology</A>
-In November 2024, information technology and cybersecurity baseline capabilities for shared and centralized services were published by GSA through a process that included agency partners and industry (through public comment). The capability set is first being <A HREF="" style="display: inline !important;">used by the department</A> by the Department of Treasury and GSA to identify commercial cloud and Software as a Service financial management technologies used to manage plan, manage, and report on agency spending. This capability-standard will be promoted for use across all management functions in the portfolio.
+In November 2024, information technology and cybersecurity baseline capabilities for shared and centralized services were published by GSA through a process that included agency partners and industry (through public comment). The capability set is first being <A HREF="">used by the department</A> by the Department of Treasury and GSA to identify commercial cloud and Software as a Service financial management technologies used to manage plan, manage, and report on agency spending. This capability-standard will be promoted for use across all management functions in the portfolio.
 <BR>
 
              <P></P>
