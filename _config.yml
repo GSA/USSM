@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Business standards enable the Federal Government to better coordinate and document common business needs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ussm.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
-logo: /assets/images/placeholder-logo.gif
+logo: /assets/images/placeholder-quality-logo.png
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
 
