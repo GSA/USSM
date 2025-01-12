@@ -74,7 +74,7 @@ news-category: FIBF-PROGRAM
 <section class="pm" id="financial-management">
     <div class="grid-container">
         <div class="grid-row">
-            <div >
+            <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-row">
             Marketplace - nothing here
 
              <!--- insert the sources -->
