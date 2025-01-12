@@ -79,6 +79,10 @@ news-category: FIBF-PROGRAM
 
              <!--- insert the sources -->
 
+             <A HREF="/public-comment-open-for-fy25-annual-update-to-mission-support-data-and-business-standards/" STYLE="display: inline;">Baseline Technology</A>
+In November 2024, information technology and cybersecurity baseline capabilities for shared and centralized services were published by GSA through a process that included agency partners and industry (through public comment). The capability set is first being <A HREF="">used</A> by the Department of Treasury and GSA to identify commercial cloud and Software as a Service financial management technologies used to manage plan, manage, and report on agency spending. This capability-standard will be promoted for use across all management functions in the portfolio.
+<BR>
+
              <P></P>
                 <hr class="margin-top-auto width-full">
             </div>
@@ -89,7 +93,7 @@ news-category: FIBF-PROGRAM
      <!-- Data and Business Standards -->
             
                 
-                           Agency Data & Business Standards2
+                           Agency Data & Business Standards2<BR>
             
 <A HREF="/public-comment-open-for-fy25-annual-update-to-mission-support-data-and-business-standards/" STYLE="display: inline;">Baseline Technology</A>
 In November 2024, information technology and cybersecurity baseline capabilities for shared and centralized services were published by GSA through a process that included agency partners and industry (through public comment). The capability set is first being <A HREF="">used</A> by the Department of Treasury and GSA to identify commercial cloud and Software as a Service financial management technologies used to manage plan, manage, and report on agency spending. This capability-standard will be promoted for use across all management functions in the portfolio.
@@ -99,11 +103,6 @@ In November 2024, information technology and cybersecurity baseline capabilities
                 <BR><BR><BR>
             </div>
         </div>
-
-        
-<div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
-A governance model that balances inclusiveness, cooperation and the ability to make decisions that impact the entire Federal enterprise is essential to creating the constructive tensions that will develop the productive operation of a high-performing marketplace. The enterprise-wide governance model for the oversight of mission­ support services is comprised of a network of managing partners within each line of business, Federal and commercial providers, and customer agencies. This model includes integration and oversight bodies such as the <a href="{{site.baseurl}}/ssgb" title="Shared Services Governance Board (SSGB)">Shared Services Governance Board (SSGB)</a> and Unified Shared Services Management (USSM) leading the cross-disciplinary, government-wide coordination needed to effectively implement the vision.
-</div>
      
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
