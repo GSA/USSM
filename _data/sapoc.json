@@ -36,8 +36,8 @@
           },
           {
             "agency": "Department of Health and Human Services",
-            "sapoc": "Christine Jones (Interim)",
-            "title": "DAS-Operations in ASFR’s Immediate Office",
+            "sapoc": "Garey Rice",
+            "title": " ",
             "logo": "department-of-health-and-human-services.svg"
           },
           {
@@ -55,10 +55,9 @@
           },
           {
             "agency": "Department of the Interior",
-            "sapoc": "Joan Mooney",
-            "title": "Principal Deputy Assistant Secretary for Policy, Management, and Budget",
-            "logo": "department-of-the-interior.svg",
-            "agency_url":"https://www.doi.gov/joan-mooney"
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "department-of-the-interior.svg"
           },
           {
             "agency": "Department of Justice",
@@ -76,23 +75,21 @@
           },
           {
             "agency": "Department of State",
-            "sapoc": "Susana Ramirez",
-            "title": "Office of the Comptroller and Global Financial Services ",
+            "sapoc": "Daniel Gaush",
+            "title": "Deputy Director, ICASS Service Center",
             "logo": "department-of-state.svg"
           },
           {
             "agency": "Department of Transportation",
-            "sapoc": "Victoria Wassmer",
-            "title": "Deputy Assistant Secretary for Finance and Budget",
-            "logo": "department-of-transportation.svg",
-            "agency_url":"https://www.transportation.gov/mission/victoria-b-wassmer"
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "department-of-transportation.svg"
           },
           {
             "agency": "Department of the Treasury",
-            "sapoc": "Anna Canfield Roth",
-            "title": "Assistant Secretary for Management",
-            "logo": "department-of-commerce 2.svg",
-            "agency_url":"https://home.treasury.gov/about/general-information/officials/anna-canfield-roth"
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "department-of-commerce 2.svg"
           },
           {
             "agency": "Department of Veterans Affairs",
@@ -121,10 +118,9 @@
           },
           {
             "agency": "General Services Administration",
-            "sapoc": "Katy Kale",
-            "title": "Deputy Administrator",
-            "logo": "general-services-administration.svg",
-            "agency_url":"https://www.gsa.gov/about-us/organization/leadership-directory/deputy-administrator"
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "general-services-administration.svg"
           },
           {
             "agency": "National Science Foundation",
@@ -147,13 +143,13 @@
           },
           {
             "agency": "Small Business Administration",
-            "sapoc": "Tony Paul",
-            "title": "Director Office of Financial Systems",
+            "sapoc": "TBD",
+            "title": "TBD",
             "logo": "small-business-administration.svg"
           },
           {
             "agency": "Social Security Administration",
-            "sapoc": "Chad Poist",
+            "sapoc": "Sean Brune",
             "title": "Deputy Commissioner for the Office of Budget, Finance, and Management",
             "logo": "us-social-security-admin-seal.svg"
           }
