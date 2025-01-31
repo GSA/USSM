@@ -1116,7 +1116,7 @@
        "Min Length": "",
        "Max Length": "",
        "Example Value\n": "",
-       "Domain Values": "Male (M);\nFemale (F);\nUnspecified or Another Gender Identity (X)",
+       "Domain Values": "Male (M);\nFemale (F)",
        "Validations": "",
        "Related Data Element Reference": ""
    },
