@@ -295,7 +295,7 @@ primary_navigation:
       permalink: /performance-management/
       show_in_menu: true
       show_in_footer: false
-    - text: 'Marketplace'
+    - text: 'MARKETPLACE'
       href: pages/resources.md
       permalink: /marketplace/
       show_in_menu: true
@@ -303,7 +303,7 @@ primary_navigation:
       show_button_style: true
       - text: 'DEV HUB'
       href: pages/resources.md
-      permalink: /marketplace/
+      permalink: /automate/
       show_in_menu: true
       show_in_footer: false
       show_button_style: true
