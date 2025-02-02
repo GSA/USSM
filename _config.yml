@@ -78,7 +78,7 @@ primary_navigation:
       permalink: /governance/
       show_in_menu: true
       show_in_footer: false
-    - text: 'Data & Business Standards'
+    - text: 'Business Standards'
       href: /pages/team.md
       permalink: /fibf/
       show_in_menu: true
@@ -245,7 +245,7 @@ primary_navigation:
           permalink: /fibf-rm/
           show_in_menu: true
           show_in_footer: false
-    - text: 'Agency Modernization'
+    - text: 'M3 Playbook'
       href: /pages/team.md
       permalink: /m3/
       show_in_menu: true
