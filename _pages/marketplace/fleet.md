@@ -70,7 +70,7 @@ news-category: FIBF-FLEET
                 </div>
              
                   <p>
- <B>In 2023, the Federal fleet was comprised of over 670,000 vehicles, drove over 4.6 billion miles, and reported costs of $5.5 billion to sustain operations<SUP>1</SUP></B><BR><BR>Fleet operations are n opportunity to continue the march towards increased efficiencies in agency costs associated with maintenance, fuel, and acquisition overhead needed to manage the Federal fleet. A common approach fleet management will meet agency mission needs while supporting goals that align with broader federal priorities such as (1) fiscal responsibility, (2) <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and (3) <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  
+ <B>In 2023, the Federal fleet was comprised of over 670,000 vehicles, drove over 4.6 billion miles, and reported costs of $5.5 billion to sustain operations<SUP>1</SUP></B><BR><BR>Fleet operations present as a chance to find efficiencies in the agency costs associated with fleet maintenance, fuel, and acquisition overhead. A government-wide approach to fleet management will meet agency mission needs and support goals that align to broader federal priorities such as (1) fiscal responsibility, (2) <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and (3) <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  
 
 
 </p>
