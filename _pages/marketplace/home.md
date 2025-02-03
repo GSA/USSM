@@ -7,7 +7,7 @@ news-category: FIBF-PROGRAM
 ---
 
 
-{% include banner.html title-override="Services Catalog" width="grid-col-11" offset="grid-offset-1" %}
+{% include banner.html title-override="GovOps Marketplace" width="grid-col-11" offset="grid-offset-1" %}
 
 <style>
   a.green-link {
