@@ -9,7 +9,8 @@ name: Vacant
 position: 
 department: TBD
 logo: 1-cfo-logo.webp | https://www.cfoc.gov | CFOC
-company: CFOC
+company: Chief Financial Officers
+order: 2
 ---
 
 Coming soon.
