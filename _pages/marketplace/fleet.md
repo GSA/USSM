@@ -70,7 +70,7 @@ news-category: FIBF-FLEET
                 </div>
              
                   <p>
- <B>In 2023, the Federal fleet was comprised of over 670,000 vehicles, drove over 4.6 billion miles, and reported costs of $5.5 billion to sustain operations<SUP>1</SUP></B><BR><BR>Fleet operations present as a chance to find efficiencies in the agency costs associated with fleet maintenance, fuel, and acquisition overhead. A government-wide approach to fleet management will meet agency mission needs and support goals that align to broader federal priorities such as (1) fiscal responsibility, (2) <A HREF="https://www.madeinamerica.gov/">Made in America</A>, and (3) <A HREF="https://www.sustainability.gov/federalsustainabilityplan/fleet.html">sustainability</A>.  
+ <B>In 2023, the Federal fleet was comprised of over 670,000 vehicles, drove over 4.6 billion miles, and reported costs of $5.5 billion to sustain operations<SUP>1</SUP></B><BR><BR>Fleet operations present as a chance to find efficiencies in the agency costs associated with fleet maintenance, fuel, and acquisition overhead. A government-wide approach to fleet management will meet agency mission needs and support goals that align to broader federal priorities such as fiscal responsibility and <A HREF="https://www.madeinamerica.gov/">Made in America</A>.  
 
 
 </p>
@@ -78,12 +78,12 @@ news-category: FIBF-FLEET
 Common priorities in agency fleet management include:
 <ul> 
 <LI>Fleet Inventory Optimization to Mission</LI>
-  <LI>Reduced Vehicle Lifecycle Costs</LI>
-<LI>Sustainability and Compliance</LI>
+<LI>Reduced Vehicle Lifecycle Costs</LI>
 <LI>Data-Driven Decision Making</LI>
+<LI>Fleet Workforce Development and Training</LI>
+<LI>Compliance</LI>
 <LI>Risk Management</LI>
 <LI>Fleet Electrification</LI>
-<LI>Fleet Workforce Development and Training</LI>
 
                 </ul>
 
