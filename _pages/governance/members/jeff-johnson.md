@@ -1,7 +1,7 @@
 ---
 layout: governance/representative
 permalink: /ssgb/jeffery-johnson/
-portrait: jeff-johnson.webp
+portrait: jeffery-johnson.jpg
 type: Member Councils
 title: Shared Services Governance Board
 name: Jeffery Johnson
