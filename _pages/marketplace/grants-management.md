@@ -70,7 +70,7 @@ Leveraging a shared services approach to address a disconnected systems environm
 
 <ul> 
 <LI>Enhance Grants Transparency and Accountability</LI>
-<LI>Reduce Costs Resulting Administrative Burden</LI>
+<LI>Reduce the Costs of Unnecessary Administrative Burden</LI>
 <LI>Improve the Management of Grants Spending to Align with National Priorities</LI>
 <LI>Improve the Grant Recipient and Public Experience</LI>
 <LI>Accelerate Time to Solution Deployment</LI>
