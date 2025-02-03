@@ -63,13 +63,15 @@ news-category: FIBF-GRM
              
                   <p>
 
-Each year, the <B>Federal government distributes over $1 trillion in grants and cooperative agreements across 52 awarding agencies<SUP>1</SUP></B>, representing one of the federal government’s largest investments to drive improvements for the American people. As agencies have largely managed their grants internally, there has not been a concerted effort to coordinate across the federal grants management systems landscape.
-<BR><BR>
-Leveraging a shared services approach to address a disconnected systems environment at varying levels of maturity, and re-align the user experience to reduce burden for applicants, recipients, and awarding agencies will:</p>
+Each year, the <B>Federal government distributes over $1 trillion in grants and cooperative agreements across 52 awarding agencies<SUP>1</SUP></B>, representing one of the federal government’s largest investments to drive improvements for the American people. <BR><BR>
+
+As agencies have largely managed their grants internally, there has not been a concerted effort to coordinate across the federal grants management systems landscape until recently.
+Leveraging a shared services approach to address a disconnected systems environment at varying levels of maturity, and re-align the user experience to reduce burden for public applicants, recipients, and awarding agencies will:</p>
 
 <ul> 
 <LI>Enhance Grants Transparency and Accountability</LI>
-<LI>Reduce Administrative Burden</LI>
+<LI>Reduce Costs Resulting Administrative Burden</LI>
+<LI>Improve the Management of Grants Spending to Align with National Priorities</LI>
 <LI>Improve the Grant Recipient and Public Experience</LI>
 <LI>Accelerate Time to Solution Deployment</LI>
 <LI>Strengthen Internal Controls and Oversight</LI>
