@@ -73,11 +73,9 @@ Leveraging a shared services approach to address a disconnected systems environm
 <LI>Reduce the Costs of Unnecessary Administrative Burden</LI>
 <LI>Improve the Management of Grants Spending to Align with National Priorities</LI>
 <LI>Improve the Grant Recipient and Public Experience</LI>
-<LI>Accelerate Time to Solution Deployment</LI>
 <LI>Strengthen Internal Controls and Oversight</LI>
 <LI>Foster Innovation and Flexibility</LI>
 <LI>Improve Data for Strategic Decision Making</LI>
-<LI>Promote Interagency Collaboration</LI>
 
                 </ul><BR>
 <SUP>1 Source: <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">Grants QSMO</A> Department of Health and Human Services</SUP><BR>
