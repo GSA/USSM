@@ -51,8 +51,13 @@ document.addEventListener("DOMContentLoaded", function () {
     let rightVideos = document.querySelectorAll(".m3-playbook-right iframe");
 
     rightVideos.forEach(video => {
-        video.addEventListener("click", function () {
+        video.addEventListener("click", function (event) {
+            event.preventDefault(); 
             let newSrc = this.getAttribute("src");
+            if (!newSrc.includes("autoplay=1")) {
+                newSrc = newSrc.includes("?") ? `${newSrc}&autoplay=1` : `${newSrc}?autoplay=1`;
+            }
+
             mainVideo.setAttribute("src", newSrc);
         });
     });
