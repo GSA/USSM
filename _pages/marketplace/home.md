@@ -1,13 +1,13 @@
 ---
 layout: base
-permalink: /marketplace/qsmo-ffm/
-title: Financial Management
+permalink: /marketplace/home/
+title: GovOps Marketplace
 description: "Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer. Federal agencies currently manage over $6.7 trillion in annual spending."
-news-category: FIBF-FM 
+news-category: FIBF-PROGRAM
 ---
 
 
-{% include banner.html title-override="Services Catalog" width="grid-col-11" offset="grid-offset-1" %}
+{% include banner.html title-override="" width="grid-col-11" offset="grid-offset-1" %}
 
 <style>
   a.green-link {
@@ -24,12 +24,12 @@ news-category: FIBF-FM
     </div>
 </div>
 
-<section class="pm" id="financial-management">
+<section class="pm" id="GovOps Marketplace">
     <div class="grid-container">
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                   <img src="/assets/images/fibf/icons/icon.corefm.webp" alt="Financial Management Icon" width="50px" height="auto" style="vertical-align:middle;"> Financial Management
+                   <img src="/assets/images/marketplace/icon_govops.jpg" alt="GovOps Marketplace Icon" width="125px" height="auto" style="vertical-align:middle;"> GovOps Marketplace
                 </h2>
                 <p>
                     The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the FM Marketplace Catalog as a resource for agencies to identify and research from over 70 services and solutions that can support their financial management needs to accomplish both agency and shared government-wide goals.
@@ -232,7 +232,7 @@ news-category: FIBF-FM
                     <li>Using Data to Maximize Agency Resource Allocation</li>
                 </ul>
 
-A high-performing marketplace of the expertise and advanced financial management technologies will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending (3) increase  cost-effectiveness in agency resource optimization (4) improve management efficiency and reduce risk.
+A high-performing marketplace of the expertise and advanced technologies needed to support delivery on the needs of agency Federal Financial Management will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending (3) increase  cost-effectiveness in agency resource optimization (4) improve management efficiency and reduce risk.
 <BR><BR>
 <sup>1 Source:<A HREF="https://www.cbo.gov/topics/budget">Congressional Budget Office, 2024</A></sup>
                     

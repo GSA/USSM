@@ -205,6 +205,10 @@ primary_navigation:
           link: true
           external: false
           sub: true
+        - text: 'Mail Operations Management'
+          permalink: /fibf-mom/
+          show_in_menu: true
+          show_in_footer: false
         - text: 'Real Property Management'
           permalink: /fibf-RPM/
           show_in_menu: true
@@ -235,10 +239,6 @@ primary_navigation:
           show_in_footer: false
         - text: 'Information Technology Services'
           permalink: /fibf-its/
-          show_in_menu: true
-          show_in_footer: false
-        - text: 'Mail Operations Management'
-          permalink: /fibf-mom/
           show_in_menu: true
           show_in_footer: false
         - text: 'Regulation Management'
@@ -295,12 +295,24 @@ primary_navigation:
       permalink: /performance-management/
       show_in_menu: true
       show_in_footer: false
-    - text: 'Marketplace'
-      href: pages/resources.md
-      permalink: /marketplace/
-      show_in_menu: true
-      show_in_footer: false
-      show_button_style: true
+#    - text: 'MARKETPLACE'
+#      href: pages/resources.md
+#      permalink: /marketplace/
+#      show_in_menu: true
+#      show_in_footer: false
+#      show_button_style: true
+#    - text: 'DEVHUB'
+#      href: pages/resources.md
+#      permalink: /automat/
+#      show_in_menu: true
+#      show_in_footer: false
+#      show_button_style: true 
+  #   - text: 'DEV HUB'
+  #  href: pages/resources.md
+  #    permalink: /automate/
+  #    show_in_menu: true
+  #    show_in_footer: false
+  #    show_button_style: true
   #  - text: 'Dev Hub'
   #    href: pages/resources.md
   #    permalink: /marketplace/

@@ -37,7 +37,7 @@ news-category: FIBF-GRM
               
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the Federal Grants Marketplace (Federal Solutions)" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://ussm.gsa.gov/marketplace/grm/" title="Explore the Federal Grants Marketplace" target="_blank" CLASS="green-link">Federal Grants Marketplace (Federal Solutions)</a><BR>
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the Catalog of Market Research (Commercial Solutions)" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://ag-dashboard.acquisitiongateway.gov/system/files/shared_services/2024-11/2024%20Catalog%20of%20Market%20Research%20Highlights%2011.13.2024.pdf" title="Explore the Catalog of Market Research" target="_blank" CLASS="green-link">Catalog of Market Research (Commercial Solutions)</a><BR>
+                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the Catalog of Market Research (Commercial Solutions)" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.acquisitiongateway.gov/shared-services/resources/4216" title="Explore the Catalog of Market Research" target="_blank" CLASS="green-link">Catalog of Market Research (Commercial Solutions)</a><BR>
  <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="Grants Management Acquisition Gateway" height="auto" style="vertical-align:middle;">&nbsp;<A HREF="https://www.acquisitiongateway.gov/shared-services/resources/4216">Acquisition Gateway (for Acquisition Professionals)</A><BR>          
                    <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the Grants QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:GrantsQSMO@hhs.gov" title="Contact the Grants QSMO" target="_blank">Contact the Grants QSMO</a> | <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">HHS Grants QSMO Website</A><BR>
                 </ul>
@@ -63,19 +63,19 @@ news-category: FIBF-GRM
              
                   <p>
 
-Each year, the <B>Federal government distributes over $1 trillion in grants and cooperative agreements across 52 awarding agencies<SUP>1</SUP></B>, representing one of the federal government’s largest investments to drive improvements for the American people. As agencies have largely managed their grants internally, there has not been a concerted effort to coordinate across the federal grants management systems landscape.
-<BR><BR>
-Leveraging a shared services approach to address a disconnected systems environment at varying levels of maturity, and re-align the user experience to reduce burden for applicants, recipients, and awarding agencies will:</p>
+Each year, the <B>Federal government distributes over $1 trillion in grants and cooperative agreements across 52 awarding agencies<SUP>1</SUP></B>, representing one of the federal government’s largest investments to drive improvements for the American people. <BR><BR>
+
+As agencies have largely managed their grants internally, there has not been a concerted effort to coordinate across the federal grants management systems landscape until recently.
+Leveraging a shared services approach to address a disconnected systems environment at varying levels of maturity, and re-align the user experience to reduce burden for public applicants, recipients, and awarding agencies will:</p>
 
 <ul> 
 <LI>Enhance Grants Transparency and Accountability</LI>
-<LI>Reduce Administrative Burden</LI>
+<LI>Reduce the Costs of Unnecessary Administrative Burden</LI>
+<LI>Improve the Management of Grants Spending to Align with National Priorities</LI>
 <LI>Improve the Grant Recipient and Public Experience</LI>
-<LI>Accelerate Time to Solution Deployment</LI>
 <LI>Strengthen Internal Controls and Oversight</LI>
 <LI>Foster Innovation and Flexibility</LI>
 <LI>Improve Data for Strategic Decision Making</LI>
-<LI>Promote Interagency Collaboration</LI>
 
                 </ul><BR>
 <SUP>1 Source: <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">Grants QSMO</A> Department of Health and Human Services</SUP><BR>
