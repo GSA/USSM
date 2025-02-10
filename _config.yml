@@ -205,6 +205,10 @@ primary_navigation:
           link: true
           external: false
           sub: true
+        - text: 'Mail Operations Management'
+          permalink: /fibf-mom/
+          show_in_menu: true
+          show_in_footer: false
         - text: 'Real Property Management'
           permalink: /fibf-RPM/
           show_in_menu: true
@@ -235,10 +239,6 @@ primary_navigation:
           show_in_footer: false
         - text: 'Information Technology Services'
           permalink: /fibf-its/
-          show_in_menu: true
-          show_in_footer: false
-        - text: 'Mail Operations Management'
-          permalink: /fibf-mom/
           show_in_menu: true
           show_in_footer: false
         - text: 'Regulation Management'
