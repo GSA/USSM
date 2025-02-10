@@ -44,3 +44,16 @@ document.querySelectorAll('.filterlist').forEach(function(filterlist) {
 		});
 	});
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    let mainVideo = document.getElementById("main-video");
+    let rightVideos = document.querySelectorAll(".m3-playbook-right iframe");
+
+    rightVideos.forEach(video => {
+        video.addEventListener("click", function () {
+            let newSrc = this.getAttribute("src");
+            mainVideo.setAttribute("src", newSrc);
+        });
+    });
+});
