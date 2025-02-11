@@ -48,16 +48,15 @@ document.querySelectorAll('.filterlist').forEach(function(filterlist) {
 
 document.addEventListener("DOMContentLoaded", function () {
     let mainVideo = document.getElementById("main-video");
-    let rightVideos = document.querySelectorAll(".m3-playbook-right iframe");
+    let videoThumbnails = document.querySelectorAll(".video-thumbnail");
 
-    rightVideos.forEach(video => {
-        video.addEventListener("click", function (event) {
+    videoThumbnails.forEach(thumbnail => {
+        thumbnail.addEventListener("click", function (event) {
             event.preventDefault(); 
-            let newSrc = this.getAttribute("src");
+            let newSrc = this.getAttribute("data-video-src");
             if (!newSrc.includes("autoplay=1")) {
                 newSrc = newSrc.includes("?") ? `${newSrc}&autoplay=1` : `${newSrc}?autoplay=1`;
             }
-
             mainVideo.setAttribute("src", newSrc);
         });
     });
