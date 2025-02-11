@@ -48,16 +48,22 @@ document.querySelectorAll('.filterlist').forEach(function(filterlist) {
 
 document.addEventListener("DOMContentLoaded", function () {
     let mainVideo = document.getElementById("main-video");
+    let videoTitle = document.getElementById("videoTitle");
     let videoThumbnails = document.querySelectorAll(".video-thumbnail");
 
     videoThumbnails.forEach(thumbnail => {
         thumbnail.addEventListener("click", function (event) {
-            event.preventDefault(); 
+            event.preventDefault();
             let newSrc = this.getAttribute("data-video-src");
+            
             if (!newSrc.includes("autoplay=1")) {
                 newSrc = newSrc.includes("?") ? `${newSrc}&autoplay=1` : `${newSrc}?autoplay=1`;
             }
             mainVideo.setAttribute("src", newSrc);
+            let figcaption = this.parentElement.querySelector("figcaption");
+            if (figcaption && videoTitle) {
+                videoTitle.innerHTML = figcaption.innerHTML;
+            }
         });
     });
 });
