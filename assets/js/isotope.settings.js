@@ -83,29 +83,35 @@ jQuery(document).ready(function ($) {
         } // filterSelect
 
         function onHashChange() {
-            // Current hash value
             var hashFilter = getHashFilter();
-            // Concatenate subject and role for Isotope filtering
-            var theFilter = hashFilter["subject"] + hashFilter["role"] + hashFilter["status"];
-
-            if (hashFilter) {
-                // Repaint Isotope container with current filters and sorts
-                $container.isotope({
-                    filter: decodeURIComponent(theFilter),
-                    sortBy: hashFilter["sorts"]
-                });
-
-                updateFilterCount();
-                // Toggle checked status of sort button
-                if (hashFilter["sorts"]) {
-                    $(".sort").addClass("checked");
-                } else {
-                    $(".sort").removeClass("checked");
-                }
-                // Toggle checked status of filter buttons
-                $(".filter-list").find(".checked").removeClass("checked").attr("aria-checked", "false");
-                $(".filter-list").find("[data-filter='" + hashFilter["subject"] + "'],[data-filter='" + hashFilter["role"] + "'] ,[data-filter='" + hashFilter["status"] + "']").addClass("checked").attr("aria-checked", "true");
+            var theFilter = "";
+        
+            if (hashFilter["subject"] !== "*") {
+                theFilter += hashFilter["subject"];
             }
+            if (hashFilter["role"] !== "*") {
+                theFilter += hashFilter["role"];
+            }
+            if (hashFilter["status"] !== "*" && hashFilter["status"]) {
+                theFilter += hashFilter["status"];
+            }
+            if (theFilter === "") {
+                theFilter = "*";
+            }
+        
+            $container.isotope({
+                filter: decodeURIComponent(theFilter),
+                sortBy: hashFilter["sorts"]
+            });
+        
+            updateFilterCount();
+            if (hashFilter["sorts"]) {
+                $(".sort").addClass("checked");
+            } else {
+                $(".sort").removeClass("checked");
+            }
+            $(".filter-list").find(".checked").removeClass("checked").attr("aria-checked", "false");
+            $(".filter-list").find("[data-filter='" + hashFilter["subject"] + "'],[data-filter='" + hashFilter["role"] + "'],[data-filter='" + hashFilter["status"] + "']").addClass("checked").attr("aria-checked", "true");
         } // onHahschange
 
         function getHashFilter() {
