@@ -130,23 +130,17 @@ Marketplace solutions will blend commercial practices with federal requirements 
 
      By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the government will deliver a public-focused, accountable, performance-driven approach to operations that restores agency focus on core mission in service to American taxpayers.
     </p>
-
-
 <!--
 <SPAN><H2 STYLE="font-style: italic; text-align: center;">In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.</H2></SPAN>
    -->
 
             </div>
         </div>
-
-        <!---  chop end -->
-      
-         
       
       <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                   <img src="/assets/images/marketplace/icon_govops.jpg"  alt="Performance Alignment" style="width:50px; height:50px; vertical-align: middle;">&nbsp;Effective Management, Public Trust
+                   <img src="/assets/images/marketplace/icon_govops.jpg"  alt="Performance Alignment" style="width:50px; height:50px; vertical-align: middle;">&nbsp;Smart Management Leads to Public Trust
                 </h2>
                 <p>
 
