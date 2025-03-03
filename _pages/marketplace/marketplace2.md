@@ -29,11 +29,42 @@ news-category: FIBF-PROGRAM
               <div class="grid-row padding-bottom-5">
             <div class="tablet:grid-col-10 grid-offset-1">
 <BR><BR>
-  <span class="margin-bottom-0 margin-top-0">
-                   <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
-                                                                        style="width:125px; height:125px; vertical-align: top;">&nbsp;The GovOps Marketplace is a solutions hub rooted in commercial practices needed to improve agency efficiency and reduce operating costs and aligned to federal requirements needed to improve accountability to the public. Leveraging subject matter expertise from agencies such as Treasury (Financial Management), OPM (Human Capital Management / Workforce), HHS (Grants Management), CISA (Cybersecurity), and GSA (Travel, Real Property, Contract Writing, Fleet, and more) the marketpalce will provide the customer-centric, performance-driven approaches needed to restore agency focus on core missions to better serve the taxpayer.
-                </span>
 
+
+<style>
+
+.govops-container {
+    display: flex;
+    align-items: center; /* Vertically aligns the text and image */
+    gap: 20px; /* Adds spacing between the image and text */
+}
+
+.govops-logo {
+    width: 100px; /* Adjust based on your logo size */
+    height: auto;
+}
+
+.govops-text {
+    flex: 1; /* Allows text to take up remaining space */
+}
+  
+</style>
+
+<span class="govops-container">
+    <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
+                                                                        style="width:125px; height:125px; vertical-align: top;">
+    <p class="govops-text">
+        The GovOps Marketplace is a solutions hub rooted in commercial practices needed to improve
+        agency efficiency and reduce operating costs, aligned to federal requirements needed to improve
+        accountability to the public. Leveraging subject matter expertise from agencies such as Treasury 
+        (Financial Management), OPM (Human Capital Management / Workforce), HHS (Grants Management), 
+        CISA (Cybersecurity), and GSA (Travel, Real Property, Contract Writing, Fleet, and more), the 
+        marketplace will provide the customer-centric, performance-driven approaches needed to restore 
+        agency focus on core missions to better serve the taxpayer.
+    </p>
+</span>
+
+                
               
                 <ul class="margin-top-0 margin-bottom-3">
 
