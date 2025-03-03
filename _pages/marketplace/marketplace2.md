@@ -51,7 +51,7 @@ news-category: FIBF-PROGRAM
     <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
                                                                         style="width:150px; height:150px; vertical-align: top;">
     <p class="govops-text">
-Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce operating costs, and drive public accountability.<font style="font-size:4px;"><BR><BR></font>Leveraging shared expertise and technology across common management functions such as Financial, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the marketplace will deliver a customer-focused, performance-driven approach allowing agencies to restore focus on core mission to better serve the American taxpayer.
+Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce operating costs, and drive public accountability.<font style="font-size:4px;"><BR></font>By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the marketplace will deliver a customer-focused, performance-driven approach enabling agencies to restore focus on core mission to better serve the American taxpayer.
     </p>
 </span>
 
