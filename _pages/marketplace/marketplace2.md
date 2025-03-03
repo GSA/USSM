@@ -31,7 +31,7 @@ news-category: FIBF-PROGRAM
 
   <h2 class="margin-bottom-0 margin-top-0">
                    <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
-                                                                        style="width:50px; height:50px; vertical-align: middle;">&nbsp;GovOps Marketplace
+                                                                        style="width:200px; height:200px; vertical-align: middle;">&nbsp;GovOps Marketplace
                 </h2>
 
               
