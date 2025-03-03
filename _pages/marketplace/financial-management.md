@@ -228,16 +228,11 @@ news-category: FIBF-FM
         </div>
     </div>
     <div style="font-size: 20px; color: #333; max-width: 500px;">
-        In 2024, Federal agencies managed over $6.8 trillion of funding in alignment with the federal budget.
+        In 2024, Federal agencies managed over $6.8 trillion of funding in alignment with the federal budget.<sup>1</sup>
     </div>
 </div>
 
-
-             
-                  <p>
-                    <B>In 2024, Federal agencies managed over $6.8 trillion of funding in alignment with the federal budget.</B><sup>1</sup>.  
-                    </p>
-                    <p>
+           <p>
                     Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Common goals and objectives in agency financial management include:
                 </p>
                 <ul class="margin-top-0">
@@ -251,7 +246,7 @@ news-category: FIBF-FM
 
 A high-performing marketplace of the expertise and advanced financial management technologies will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending (3) increase  cost-effectiveness in agency resource optimization (4) improve management efficiency and reduce risk.
 <BR><BR>
-<sup>1 Source:<A HREF="https://www.cbo.gov/topics/budget">Congressional Budget Office, 2024</A></sup>
+<sup>1 Source:<A HREF="https://www.cbo.gov/topics/budget">Congressional Budget Office, 2024</A></sup><BR>
                     
                 <hr class="margin-top-auto width-full">
             </div>
