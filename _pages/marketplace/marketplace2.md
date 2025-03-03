@@ -65,7 +65,7 @@ news-category: FIBF-PROGRAM
 
 <span class="govops-container">
     <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
-                                                                        style="width:150px; height:150px; vertical-align: top;">
+                                                                        style="width:125px; height:125px; vertical-align: top;">
    <div class="rectangle">
         In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.
     </div>    
