@@ -60,6 +60,29 @@ news-category: FIBF-PROGRAM
             margin: auto;
         }
 
+  .icon-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .icon {
+            text-align: center;
+        }
+        .icon img {
+            width: 50px;
+            height: 50px;
+        }
+        .icon p {
+            margin-top: 5px;
+            font-size: 14px;
+            color: black;
+        }
+
+
+
+  
 
 </style>
 
@@ -82,46 +105,18 @@ news-category: FIBF-PROGRAM
 Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce agency operating costs, and drive public accountability.
 
    <span style="display: block; height: 8px;"></span>
-
-  <a href="{{site.baseurl}}/marketplace/qsmo-ffm/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title="">
-        <img class="width-full maxw-10" src="{{ site.baseurl }}/assets/images/fibf/icons/icon.corefm.webp" alt="Icon" loading="lazy "/>
-        <p class="text-center">Core Financial Management</p>
-    </a>
-    <a href="{{site.baseurl}}/marketplace/qsmo-grm/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title="">
-        <img class="width-full maxw-10" src="{{ site.baseurl }}/assets/images/fibf/icons/icon.grants.webp" alt="Icon" loading="lazy "/>
-        <p class="text-center">Grants Management</p>
-    </a>
-    <a href="{{site.baseurl}}/marketplace/qsmo-hcm/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title="">
-        <img class="width-full maxw-10" src="{{ site.baseurl }}/assets/images/fibf/icons/icon.hr.webp" alt="Icon" loading="lazy "/>
-        <p class="text-center">Human Resources</p>
-    </a>
-    <a href="{{site.baseurl}}/marketplace/ess-trt2/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title="">
-        <img class="width-full maxw-10" src="{{ site.baseurl }}/assets/images/fibf/icons/icon.travel.webp" alt="Icon" loading="lazy "/>
-        <p class="text-center">Travel & Expense</p>
-    </a>
-    <a href="{{site.baseurl}}/marketplace/qsmo-cyb/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title="">
-        <img class="width-full maxw-10" src="{{ site.baseurl }}/assets/images/fibf/icons/icon.cyber.webp" alt="Icon" loading="lazy "/>
-        <p class="text-center">Cybersecurity Services</p>
-    </a>
-    <a href="{{site.baseurl}}/marketplace/ess-eis/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title="">
-        <img class="width-full maxw-10" src="{{ site.baseurl }}/assets/images/fibf/icons/icon.computer.webp" alt="Icon" loading="lazy "/>
-        <p class="text-center">IT Infrastructure Services</p>
-    </a>
-    <a href="{{site.baseurl}}/marketplace/ess-fleet/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title="">
-        <img class="width-full maxw-10" src="{{ site.baseurl }}/assets/images/fibf/icons/car.icon.webp" alt="Icon" loading="lazy "/>
-        <p class="text-center">Fleet</p>
-    </a>
-    <a href="{{site.baseurl}}/marketplace/ess-smartpay/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title="">
-        <img class="width-full maxw-10" src="{{ site.baseurl }}/assets/images/fibf/icons/icon.smartpay.webp" alt="Icon" loading="lazy "/>
-        <p class="text-center">Purchase Cards</p>
-    </a>
-    <a href="{{site.baseurl}}/marketplace/ess-erm/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title="">
-        <img class="width-full maxw-10" src="{{ site.baseurl }}/assets/images/fibf/icons/icon.erm.webp" alt="Icon" loading="lazy "/>
-        <p class="text-center">Electronic Records Management</p>
-    </a>
-
-
-   
+ <div class="icon-container">
+        <div class="icon"><img src="icon1.png" alt="Icon 1"><p>Word 1</p></div>
+        <div class="icon"><img src="icon2.png" alt="Icon 2"><p>Word 2</p></div>
+        <div class="icon"><img src="icon3.png" alt="Icon 3"><p>Word 3</p></div>
+        <div class="icon"><img src="icon4.png" alt="Icon 4"><p>Word 4</p></div>
+        <div class="icon"><img src="icon5.png" alt="Icon 5"><p>Word 5</p></div>
+        <div class="icon"><img src="icon6.png" alt="Icon 6"><p>Word 6</p></div>
+        <div class="icon"><img src="icon7.png" alt="Icon 7"><p>Word 7</p></div>
+        <div class="icon"><img src="icon8.png" alt="Icon 8"><p>Word 8</p></div>
+        <div class="icon"><img src="icon9.png" alt="Icon 9"><p>Word 9</p></div>
+    </div>
+</SPAN>   
       By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the marketplace will deliver a customer-focused, performance-driven approach that restores agency focus on core mission to better serve the American taxpayer.
     </p>
 
