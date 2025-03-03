@@ -106,14 +106,14 @@ Marketplace solutions will blend commercial practices with federal requirements 
 
    <span style="display: block; height: 8px;"></span>
  <div class="icon-container">
-        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.corefm.webp" alt="Icon 1"><p>Financial Management</p></div>
-        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.grants.webp" alt="Icon 2"><p>Grants Management</p></div>
-        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.hr.webp" alt="Icon 3"><p>Human Resources</p></div>
-        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.travel.webp" alt="Icon 4"><p>Travel & Expense</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.corefm.webp" alt="Icon 1"><p>Financial<BR>Management</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.grants.webp" alt="Icon 2"><p>Grants<BR>Management</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.hr.webp" alt="Icon 3"><p>Human<BR>Resources</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.travel.webp" alt="Icon 4"><p>Travel &<BR>Expense</p></div>
         <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.cyber.webp" alt="Icon 5"><p>Cybersecurity<BR>Services</p></div>
         <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.computer.webp" alt="Icon 6"><p>IT Infrastructure<BR>Services</p></div>
         <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/car.icon.webp" alt="Icon 7"><p>Fleet</p></div>
-        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.smartpay.webp" alt="Icon 8"><p>Purchase Cards</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.smartpay.webp" alt="Icon 8"><p>Purchase<BR>Cards</p></div>
         <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.erm.webp" alt="Icon 9"><p>ELectronic<BR>Records<BR>Management</p></div>
     </div>
 
