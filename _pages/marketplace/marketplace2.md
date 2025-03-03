@@ -44,19 +44,40 @@ news-category: FIBF-PROGRAM
 .govops-text {
     flex: 1; /* Allows text to take up remaining space */
 }
-  
+
+.rectangle {
+            background-color: #0A2A66; /* Dark blue */
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            padding: 30px;
+            width: 60%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            margin: auto;
+        }
+
+
 </style>
 
 <span class="govops-container">
     <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
                                                                         style="width:150px; height:150px; vertical-align: top;">
     <p class="govops-text">
-Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce operating costs, and drive public accountability.<font style="font-size:4px;"><BR><BR></font>By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the marketplace will deliver a customer-focused, performance-driven approach enabling agencies to restore focus on core mission to better serve the American taxpayer.
+Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce operating costs, and drive public accountability.
+      <br style="line-height: 8px;">
+      By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the marketplace will deliver a customer-focused, performance-driven approach enabling agencies to restore focus on core mission to better serve the American taxpayer.
     </p>
 </span>
 
 <SPAN><H2 STYLE="font-style: italic; text-align: center;">In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.</H2></SPAN>
-                
+   
+       
+       <div class="rectangle">
+        In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.
+    </div>          
               
                 <ul class="margin-top-0 margin-bottom-3">
 
