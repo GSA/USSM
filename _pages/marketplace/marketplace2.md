@@ -28,26 +28,16 @@ news-category: FIBF-PROGRAM
   
               <div class="grid-row padding-bottom-5">
             <div class="tablet:grid-col-10 grid-offset-1">
-                <h2>
-                  <img src="/assets/images/marketplace/icon_references.png" alt="Other References" height="auto" style="vertical-align:middle;">
-                Other References</h2>
+
+  <h2 class="margin-bottom-0 margin-top-0">
+                   <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
+                                                                        style="width:50px; height:50px; vertical-align: middle;">&nbsp;GovOps Marketplace
+                </h2>
+
+              
                 <ul class="margin-top-0 margin-bottom-3">
 
-        
-                         <UL> 
-                         
-
-                         
-                         <LI><A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html" title="Grants QSMO Homepage">Grants QSMO Homepage</A></LI>
-                            <LI><A HREF="https://www.grants.gov/data-standards" title="Finalized Grants Data Standards and Guidance">Finalized Grants Data Standards & Guidance</A> | <A HREF="mailto:GrantsDataStandards@hhs.gov">GrantsDataStandards@hhs.gov</A></LI>
-                         <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" title="Federal Grants Systems Hub">Federal Grants Systems Hub (Interactive Dashboard)</A></LI>
-     <LI><A HREF="https://www.fac.gov/" title="Federal Grants Systems Hub">Federal Audit Clearinghouse</A></LI>
-                        
-                        <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" title="Federal Grants Systems Hub">Report: Tribal Customer Experience Pilot for Post-Award Reporting (36 page PDF)</A></LI>
-        
-                    </UL>
-
-                 
+                    
                 </ul>
             </div>
         </div>
