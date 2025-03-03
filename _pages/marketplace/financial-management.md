@@ -244,7 +244,7 @@ news-category: FIBF-FM
                     <li>Using Data to Maximize Agency Resource Allocation</li>
                 </ul>
 
-A competitive marketplace of expertise and advanced financial management technologies will (1) enhance the success rate of achieving the administration’s fiscal priorities, (2) expand access to data for greater transparency, accountability, and strategic decision-making in Federal spending, (3) optimize government resources for maximum cost-effectiveness, and (4) streamline management while minimizing risk.
+A competitive marketplace of expertise and modern financial management systems will (1) enhance the success rate of achieving the administration’s fiscal priorities, (2) expand access to data for greater transparency, accountability, and strategic decision-making in Federal spending, (3) optimize government resources for maximum cost-effectiveness.
 
              
 <BR><BR>
