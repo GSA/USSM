@@ -129,7 +129,7 @@ Marketplace solutions will blend commercial practices with federal requirements 
     </div>
 
 
-     The marketplace will deliver shared expertise and modern, secure technologies to agency management functions such as Accounting/Finance, Grants, Human Capital, Travel, Real Property, and Information Technology / Cybersecurity. In this manner, government will be better positioned to deliver a public-focused, accountable, and efficient approach to agency management and operations that restores focus on mission delivery in service to the American taxpayer.
+     The marketplace will deliver shared expertise and modern, secure technologies to agency management functions such as Accounting/Finance, Grants, Human Capital, Travel, Real Property, and Information Technology / Cybersecurity. In this manner, government will be better positioned to deliver a public-focused, accountable, and efficient approach to management and operations that restores agency focus on mission delivery in service to the American taxpayer.
     </p>
 
 
