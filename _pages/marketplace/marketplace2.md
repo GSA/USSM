@@ -31,9 +31,9 @@ news-category: FIBF-PROGRAM
 <BR><BR>
   <h2 class="margin-bottom-0 margin-top-0">
                    <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
-                                                                        style="width:125px; height:125px; vertical-align: middle; align">&nbsp;Technology and Services Marketplace
+                                                                        style="width:125px; height:125px; vertical-align: top;">&nbsp;The GovOps Marketplace is a solutions hub rooted in commercial practices needed to improve agency efficiency and reduce operating costs and aligned to federal requirements needed to improve accountability to the public. Leveraging subject matter expertise from agencies such as Treasury (Financial Management), OPM (Human Capital Management / Workforce), HHS (Grants Management), CISA (Cybersecurity), and GSA (Travel, Real Property, Contract Writing, Fleet, and more) the marketpalce will provide the customer-centric, performance-driven approaches needed to restore agency focus on core missions to better serve the taxpayer.
                 </h2>
-The GovOps Marketplace is a solutions hub rooted in commercial practice and aligned to the federal requirements needed to improve agency efficiency, reduce operating costs, and improve accountability to the public. By leveraging subject matter expertise from agencies such as Treasury (Financial Management), OPM (Human Capital Management / Workforce), HHS (Grants Management), CISA (Cybersecurity), and GSA (Travel, Real Property, Contract Writing, Fleet, and more) agency management teams will benefit from the customer-centric, performance-driven approaches needed to restore focus on their core missions to better serve the taxpayer.
+
               
                 <ul class="margin-top-0 margin-bottom-3">
 
