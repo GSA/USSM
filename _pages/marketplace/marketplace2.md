@@ -48,7 +48,7 @@ news-category: FIBF-PROGRAM
 .rectangle {
             background-color: #0A2A66; /* Dark blue */
             color: white;
-            font-size: 20px;
+            font-size: 16px;
             font-weight: bold;
             font-style: italic;
             text-align: center;
@@ -73,6 +73,10 @@ news-category: FIBF-PROGRAM
   
    
 </span>
+
+
+
+<hr>
 
  <p class="govops-text">
 Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce agency operating costs, and drive public accountability.
