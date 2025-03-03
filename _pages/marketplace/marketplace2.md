@@ -66,21 +66,27 @@ news-category: FIBF-PROGRAM
 <span class="govops-container">
     <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
                                                                         style="width:150px; height:150px; vertical-align: top;">
-    <p class="govops-text">
+   <div class="rectangle">
+        In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.
+    </div>    
+
+  
+   
+</span>
+
+ <p class="govops-text">
 Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce agency operating costs, and drive public accountability.
       <span style="display: block; height: 8px;"></span>
       By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the marketplace will deliver a customer-focused, performance-driven approach that restores agency focus on core mission to better serve the American taxpayer.
     </p>
-</span>
+
 
 <!--
 <SPAN><H2 STYLE="font-style: italic; text-align: center;">In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.</H2></SPAN>
    -->
 
    <BR>
-      <div class="rectangle">
-        In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.
-    </div>          
+         
               
                 <ul class="margin-top-0 margin-bottom-3">
 
