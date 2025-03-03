@@ -216,6 +216,17 @@ news-category: FIBF-FM
                         Why does it matter?
                     </h2>
                 </div>
+
+<div style="text-align: center;">
+    <div style="font-size: 46px; font-weight: bold; color: rgb(100, 100, 100);">
+        $6.8
+    </div>
+    <div style="font-size: 24px; color: #444; text-transform: uppercase; letter-spacing: 1px;">
+        Trillion
+    </div>
+</div>
+
+
              
                   <p>
                     <B>In 2024, Federal agencies managed over $6.8 trillion of funding in alignment with the federal budget.</B><sup>1</sup>.  
