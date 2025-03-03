@@ -48,7 +48,7 @@ news-category: FIBF-PROGRAM
 .rectangle {
             background-color: #0A2A66; /* Dark blue */
             color: white;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: bold;
             font-style: italic;
             text-align: center;
