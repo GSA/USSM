@@ -63,7 +63,7 @@ OPM's HR QSMO will help (1) agencies modernize human capital management faster t
         </div>
     </div>
     <div style="font-size: 20px; color: #333; max-width: 500px;">
-        In 2024, the Federal workforce was comprised of approximately 2.3 million civilian employees.
+        In 2024, the Federal workforce was comprised of approximately 2.3 million civilian employees.<sup>1</sup>
     </div>
 </div>
 
