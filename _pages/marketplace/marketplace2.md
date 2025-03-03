@@ -1,6 +1,6 @@
 ---
 layout: base
-permalink: /marketplace
+permalink: /marketplace3
 title: GovOps Marketplace
 description: "Services and technologies to advance agency management and administration"
 news-category: FIBF-PROGRAM
@@ -26,7 +26,8 @@ news-category: FIBF-PROGRAM
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                   <img src="/assets/images/fibf/icons/icon.grants.webp" alt="GovOps Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;GovOps Marketplace
+                   <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
+                                                                        style="width:50px; height:50px; vertical-align: middle;">&nbsp;GovOps Marketplace
                 </h2>
                 <p>
                    The Department of Health and Human Services <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">Grants Management Quality Services Management Office</A> established a Marketplace of shared grants management solutions and is operationalizing a vision for federal grants that enables applicants, recipients, and federal awarding agencies to efficiently and effectively deliver on their missions. The Grants QSMO engages all 52 federal awarding agencies to ensure marketplace solutions and services align with their needs, challenges, and objectives.  
