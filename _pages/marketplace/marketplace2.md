@@ -21,7 +21,7 @@ news-category: FIBF-PROGRAM
     </div>
 </div>
 
-<section class="pm" id="grants-management">
+<section class="pm" id="govops-marketplace">
     <div class="grid-container">
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
@@ -30,19 +30,14 @@ news-category: FIBF-PROGRAM
                                                                         style="width:50px; height:50px; vertical-align: middle;">&nbsp;GovOps Marketplace
                 </h2>
                 <p>
-                   The Department of Health and Human Services <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">Grants Management Quality Services Management Office</A> established a Marketplace of shared grants management solutions and is operationalizing a vision for federal grants that enables applicants, recipients, and federal awarding agencies to efficiently and effectively deliver on their missions. The Grants QSMO engages all 52 federal awarding agencies to ensure marketplace solutions and services align with their needs, challenges, and objectives.  
+
+opening text
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img"> <use fill=blue href="/assets/img/sprite.svg#people"></use> </svg>
+
                 </p>
 
+a place for 
 
-<B>Federal agencies, begin here - Find solutions and get help:</B>
-              
-                <ul class="margin-top-0 margin-bottom-3">
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the Federal Grants Marketplace (Federal Solutions)" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://ussm.gsa.gov/marketplace/grm/" title="Explore the Federal Grants Marketplace" target="_blank" CLASS="green-link">Federal Grants Marketplace (Federal Solutions)</a><BR>
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the Catalog of Market Research (Commercial Solutions)" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://ag-dashboard.acquisitiongateway.gov/system/files/shared_services/2024-11/2024%20Catalog%20of%20Market%20Research%20Highlights%2011.13.2024.pdf" title="Explore the Catalog of Market Research" target="_blank" CLASS="green-link">Catalog of Market Research (Commercial Solutions)</a><BR>
- <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="Grants Management Acquisition Gateway" height="auto" style="vertical-align:middle;">&nbsp;<A HREF="https://www.acquisitiongateway.gov/shared-services/resources/4216">Acquisition Gateway (for Acquisition Professionals)</A><BR>          
-                   <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the Grants QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:GrantsQSMO@hhs.gov" title="Contact the Grants QSMO" target="_blank">Contact the Grants QSMO</a> | <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">HHS Grants QSMO Website</A><BR>
-                </ul>
-Since the establishment of the Grants QSMO, adoption of shared services has increased from 19% to 48% of federal awarding agencies. To further help agencies, the Grants QSMO created the Catalog of Market Research consisting of commercial grants IT vendors vetted by a cross-government team to support agencies in selecting the most optimal grants management solution.
               
               
               <P></P>
