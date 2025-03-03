@@ -20,7 +20,7 @@ news-category: FIBF-PROGRAM
             </div>
     </div>
 </div>
-
+<BR>
 <section class="pm" id="govops-marketplace">
     <div class="grid-container">
 
@@ -106,18 +106,18 @@ Marketplace solutions will blend commercial practices with federal requirements 
 
    <span style="display: block; height: 8px;"></span>
  <div class="icon-container">
-        <div class="icon"><img src="icon1.png" alt="Icon 1"><p>Word 1</p></div>
-        <div class="icon"><img src="icon2.png" alt="Icon 2"><p>Word 2</p></div>
-        <div class="icon"><img src="icon3.png" alt="Icon 3"><p>Word 3</p></div>
-        <div class="icon"><img src="icon4.png" alt="Icon 4"><p>Word 4</p></div>
-        <div class="icon"><img src="icon5.png" alt="Icon 5"><p>Word 5</p></div>
-        <div class="icon"><img src="icon6.png" alt="Icon 6"><p>Word 6</p></div>
-        <div class="icon"><img src="icon7.png" alt="Icon 7"><p>Word 7</p></div>
-        <div class="icon"><img src="icon8.png" alt="Icon 8"><p>Word 8</p></div>
-        <div class="icon"><img src="icon9.png" alt="Icon 9"><p>Word 9</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.corefm.webp" alt="Icon 1"><p>Financial Management</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.grants.webp" alt="Icon 2"><p>Grants Management</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.hr.webp" alt="Icon 3"><p>Human Resources</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.travel.webp" alt="Icon 4"><p>Travel & Expense</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.cyber.webp" alt="Icon 5"><p>Cybersecurity<BR>Services</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.computer.webp" alt="Icon 6"><p>IT Infrastructure<BR>Services</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/car.icon.webp" alt="Icon 7"><p>Fleet</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.smartpay.webp" alt="Icon 8"><p>Purchase Cards</p></div>
+        <div class="icon"><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.erm.webp" alt="Icon 9"><p>ELectronic<BR>Records<BR>Management</p></div>
     </div>
-</SPAN>   
-      By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the marketplace will deliver a customer-focused, performance-driven approach that restores agency focus on core mission to better serve the American taxpayer.
+
+     By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the marketplace will deliver a customer-focused, performance-driven approach that restores agency focus on core mission to better serve the American taxpayer.
     </p>
 
 
