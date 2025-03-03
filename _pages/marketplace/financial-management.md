@@ -217,12 +217,18 @@ news-category: FIBF-FM
                     </h2>
                 </div>
 
-<div style="text-align: center;">
-    <div style="font-size: 46px; font-weight: bold; color: rgb(100, 100, 100);">
-        $6.8
+                
+<div style="display: flex; align-items: center; gap: 20px;">
+    <div style="text-align: center;">
+        <div style="font-size: 55px; font-weight: bold; color: rgb(100, 100, 100);">
+            $6.8
+        </div>
+        <div style="font-size: 28px; color: #444; text-transform: uppercase; letter-spacing: 1px;">
+            Trillion
+        </div>
     </div>
-    <div style="font-size: 24px; color: #444; text-transform: uppercase; letter-spacing: 1px;">
-        Trillion
+    <div style="font-size: 20px; color: #333; max-width: 500px;">
+        In 2024, Federal agencies managed over $6.8 trillion of funding in alignment with the federal budget.
     </div>
 </div>
 
