@@ -136,7 +136,7 @@ Marketplace solutions will blend commercial practices with federal requirements 
 
             </div>
         </div>
-      
+  <!--    
       <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
@@ -217,4 +217,6 @@ a place for
             </div>
         </div>
     </div>
+
+    -->
 </section>
