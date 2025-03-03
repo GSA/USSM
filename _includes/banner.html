@@ -3,7 +3,7 @@
     <div class="grid-container">
        <div class="grid-row grid-gap">
             <div class="{% if include.width %}{{ include.width}} {% else %}grid-col-12 {% endif %}{% if include.offset %}{{ include.offset}}{% endif %} padding-top-4 padding-bottom-4">
-                <h1 class="pm-hero__heading margin-0 padding-bottom-2 padding-top-2 font-merriweather font-body-2xl text-light">
+                <h1 class="pm-hero__heading margin-0 padding-bottom-1 padding-top-1 font-merriweather font-body-2xl text-light">
                     
                     {% if include.title-override %}{{ include.title-override}}{% else %}{{page.title}}{% endif %}
                  </h1>
