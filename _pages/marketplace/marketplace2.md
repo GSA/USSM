@@ -68,7 +68,7 @@ news-category: FIBF-PROGRAM
     <p class="govops-text">
 Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce operating costs, and drive public accountability.
       <br style="line-height: 8px;">
-      By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the marketplace will deliver a customer-focused, performance-driven approach enabling agencies to restore focus on core mission to better serve the American taxpayer.
+      By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the marketplace will deliver a customer-focused, performance-driven approach that restores agency focus on core mission to better serve the American taxpayer.
     </p>
 </span>
 
