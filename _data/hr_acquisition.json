@@ -588,7 +588,7 @@
         "Function": "HCM.A2-1   Talent Acquisition Management",
         "Activity Name": "HCM.A2-1.070 Talent Acquisition Data Capture, Transfer and Reporting",
         "Input/Output/Process": "I",
-        "Business Capability Statement": "Collect and report on race and national origin, gender/disability, and other demographic information about the applicant pool.",
+        "Business Capability Statement": "Collect and report on race and national origin, sex, disability, and other demographic information about the applicant pool.",
         "Authoritative Reference": "29 CFR \u00a7 1607.4 "
     },
     {
