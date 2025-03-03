@@ -217,20 +217,22 @@ news-category: FIBF-FM
                     </h2>
                 </div>
 
-                
 <div style="display: flex; align-items: center; gap: 20px;">
-    <div style="text-align: center;">
-        <div style="font-size: 55px; font-weight: bold; color: rgb(100, 100, 100);">
+    <div style="text-align: center; background-color: rgb(100, 100, 100); padding: 10px 20px; border-radius: 8px;">
+        <div style="font-size: 55px; font-weight: bold; color: white;">
             $6.8
         </div>
-        <div style="font-size: 28px; color: #444; text-transform: uppercase; letter-spacing: 1px;">
+        <div style="font-size: 28px; color: white; text-transform: uppercase; letter-spacing: 1px;">
             Trillion
         </div>
     </div>
     <div style="font-size: 20px; color: #333; max-width: 500px;">
-        In 2024, Federal agencies managed over $6.8 trillion of funding in alignment with the federal budget.<sup>1</sup>
+        In 2024, Federal agencies managed over $6.8 trillion of funding in alignment with the federal budget.
     </div>
 </div>
+
+
+           
 
            <p>
                     Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Common goals and objectives in agency financial management include:
