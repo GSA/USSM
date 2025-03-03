@@ -77,15 +77,14 @@ news-category: FIBF-PROGRAM
         .icon img:hover {
             transform: rotateY(360deg);
         }
-        .icon img:not(:hover) {
-            transform: none !important;
+        .icon img:active {
+            transform: rotateY(360deg);
         }
         .icon p {
             margin-top: 5px;
             font-size: 14px;
             color: black;
-        }
-  
+        }  
 
 </style>
 
