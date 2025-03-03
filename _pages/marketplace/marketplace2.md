@@ -130,97 +130,20 @@ Marketplace solutions will blend commercial practices with federal requirements 
 
      By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the government will deliver a public-focused, accountable, performance-driven approach to modern operations that restores agency focus on core mission in service to American taxpayers.
     </p>
-<!--
-<SPAN><H2 STYLE="font-style: italic; text-align: center;">In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.</H2></SPAN>
-   -->
+
 
             </div>
         </div>
-  <!--    
-      <div class="grid-row">
-            <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
-                <h2 class="margin-bottom-0 margin-top-0">
-                  Smarter Management -> Effective Delivery
-                </h2>
-                <p>
 
-opening text
-<svg class="usa-icon" aria-hidden="true" focusable="false" role="img"> <use fill=blue href="/assets/img/sprite.svg#people"></use> </svg>
-
-                </p>
-
-a place for 
-
-              
-              
-              <P></P>
-              
-                <hr class="margin-top-auto width-full">
-            </div>
-            
-     -->
-            <!--
-            
-            <div class="tablet:grid-col-5 padding-top-4 display-flex flex-column">
-
-
-<!-- Why does it matter -->
-                <div class="display-flex flex-align-center">
-                    <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#local_grocery_store"></use></svg> -->
-                    <h2 class="margin-bottom-0 margin-top-0">
-                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
-                        Why does it matter?
-                    </h2>
-                </div>
-             
-             
-
-         
-                                        
-
-                <hr class="margin-top-auto width-full">
-            </div>
-        </div>
-        <div class="grid-row">
-            <div class="tablet:grid-col-6 tablet:grid-offset-1 tablet:padding-right-3 display-flex flex-column">
-
-       <div class="display-flex flex-align-center">
-           
-                  
-                </div>
-    
-               
-       
-
-                <hr class="margin-top-auto width-full">
-            </div>
-            <div class="tablet:grid-col-5 display-flex flex-column">
-                <div class="display-flex flex-align-center">
-
-              
-                    <h2 class="margin-bottom-0 margin-top-0">
-                    
-              
-                    </h2>
-                </div>
        
             
-                <hr class="margin-top-auto width-full">
-            </div>
-        </div>
-        <div class="grid-row">
-            <div class="tablet:grid-col-11 grid-offset-1">
-    
-         
-            </div>
-        </div>
-        <div class="grid-row padding-bottom-5">
-            <div class="tablet:grid-col-10 grid-offset-1">
-       
+ 
      
-            </div>
         </div>
+     
+     
+      
     </div>
 
-    -->
+ 
 </section>
