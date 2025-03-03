@@ -55,10 +55,23 @@ OPM's HR QSMO will help (1) agencies modernize human capital management faster t
                         Why does it matter?
                     </h2>
                 </div>
+
+<div style="display: flex; align-items: center; gap: 20px;">
+    <div style="text-align: center; background-color: rgb(100, 100, 100); padding: 10px 20px; border-radius: 8px;">
+        <div style="font-size: 55px; font-weight: bold; color: white;">
+            2.3M
+        </div>
+    </div>
+    <div style="font-size: 20px; color: #333; max-width: 500px;">
+        In 2024, the Federal workforce was comprised of approximately 2.3 million civilian employees.
+    </div>
+</div>
+
              
                   <p>
 
-<B>In 2024, the Federal government employed over 2.2 million people</B><SUP>1</SUP> in service to national priorities through the delivery of agency missions. Enabling agencies to access the modern tools and services needed to prioritize workforce goals, the government is prepared to meet its evolving challenges and uphold the trust of the American people. 
+Enabling agencies to access the modern tools and services needed to prioritize workforce goals is essential to preparing the government
+ to meet its evolving challenges and uphold the trust of the American people. 
 </p>
 
 <ul> 
