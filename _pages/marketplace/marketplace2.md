@@ -101,7 +101,7 @@ news-category: FIBF-PROGRAM
 <hr>
 
  <p class="govops-text">
-Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce agency operating costs, and drive public accountability in agency management and operations.
+Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce agency operating costs, and drive public accountability in agency management and operations. Find solutions:
 
    <span style="display: block; height: 8px;"></span>
  <div class="icon-container">
