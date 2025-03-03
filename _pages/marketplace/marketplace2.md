@@ -50,9 +50,10 @@ news-category: FIBF-PROGRAM
             color: white;
             font-size: 20px;
             font-weight: bold;
+            font-style: italic;
             text-align: center;
-            padding: 30px;
-            width: 90%;
+            padding: 15px;
+            width: 97%;
             max-width: 800px;
             border-radius: 10px;
             box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
