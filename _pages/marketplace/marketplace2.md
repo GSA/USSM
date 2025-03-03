@@ -68,7 +68,7 @@ news-category: FIBF-PROGRAM
                                                                         style="width:150px; height:150px; vertical-align: top;">
     <p class="govops-text">
 Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce operating costs, and drive public accountability.
-      <br style="line-height: 8px;">
+      <br style="line-height: 11px;">
       By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the marketplace will deliver a customer-focused, performance-driven approach that restores agency focus on core mission to better serve the American taxpayer.
     </p>
 </span>
@@ -76,6 +76,8 @@ Marketplace solutions will blend commercial practices with federal requirements 
 <!--
 <SPAN><H2 STYLE="font-style: italic; text-align: center;">In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.</H2></SPAN>
    -->
+
+   <BR>
       <div class="rectangle">
         In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.
     </div>          
