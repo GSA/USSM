@@ -641,7 +641,7 @@
        "Service Area": "HCIM",
        "HCIM ID": 11569,
        "Data Element Label": "Person Sex Code",
-       "Definition": "Identification of a person's gender.",
+       "Definition": "Identification of a person's sex.",
        "Data Length": "1",
        "Data Type": "Code",
        "Data Example": "F",
