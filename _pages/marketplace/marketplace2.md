@@ -48,11 +48,11 @@ news-category: FIBF-PROGRAM
 .rectangle {
             background-color: #0A2A66; /* Dark blue */
             color: white;
-            font-size: 17px;
+            font-size: 20px;
             font-weight: bold;
             font-style: italic;
             text-align: center;
-            padding: 10px;
+            padding: 12px;
             width: 97%;
             max-width: 800px;
             border-radius: 10px;
@@ -68,7 +68,7 @@ news-category: FIBF-PROGRAM
                                                                         style="width:150px; height:150px; vertical-align: top;">
     <p class="govops-text">
 Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce operating costs, and drive public accountability.
-      <br style="line-height: 13px;">
+      <br style="line-height: 13px;"></br>
       By leveraging shared expertise and technology across common management functions such as Accounting, Grants, Human Capital, Travel, and Real Property, as well as Cybersecurity, IT, and beyond, the marketplace will deliver a customer-focused, performance-driven approach that restores agency focus on core mission to better serve the American taxpayer.
     </p>
 </span>
