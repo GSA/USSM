@@ -136,31 +136,18 @@ Marketplace solutions will blend commercial practices with federal requirements 
 <SPAN><H2 STYLE="font-style: italic; text-align: center;">In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.</H2></SPAN>
    -->
 
-   <BR>
-         
-              
-                <ul class="margin-top-0 margin-bottom-3">
-
-                    
-                </ul>
             </div>
         </div>
 
         <!---  chop end -->
       
-      
-      
-      
-      
-      
-      
-      
+         
       
       <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                   <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
-                                                                        style="width:50px; height:50px; vertical-align: middle;">&nbsp;GovOps Marketplace
+                   <img src="/assets/images/marketplace/icon_govops.jpg"  alt="Performance Alignment" 
+                                                                        style="width:50px; height:50px; vertical-align: middle;">&nbsp;Performance Alignment to Service Delivery
                 </h2>
                 <p>
 
