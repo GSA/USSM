@@ -218,7 +218,7 @@ news-category: FIBF-FM
                 </div>
 
 <div style="display: flex; align-items: center; gap: 20px;">
-    <div style="text-align: center; background-color: rgb(100, 100, 100); padding: 10px 20px; border-radius: 8px;">
+    <div style="text-align: center; background-color: rgb(120, 120, 120); padding: 10px 20px; border-radius: 8px;">
         <div style="font-size: 55px; font-weight: bold; color: white;">
             $6.8
         </div>
@@ -227,7 +227,7 @@ news-category: FIBF-FM
         </div>
     </div>
     <div style="font-size: 20px; color: #333; max-width: 500px;">
-        In 2024, Federal agencies managed over $6.8 trillion of funding in alignment with the federal budget.
+        In 2024, Federal agencies managed over $6.8 trillion of funding in alignment with the federal budget.<sup>1</sup>
     </div>
 </div>
 
@@ -246,7 +246,7 @@ news-category: FIBF-FM
                     <li>Using Data to Maximize Agency Resource Allocation</li>
                 </ul>
 
-A competitive marketplace of expertise and modern financial management systems will (1) enhance the success rate of achieving the administration’s fiscal priorities, (2) expand access to data for greater transparency, accountability, and strategic decision-making in Federal spending, (3) optimize government resources for maximum cost-effectiveness.
+A competitive marketplace of expertise and modern financial management systems will (1) enhance the success rate of achieving the administration’s fiscal priorities, (2) expand access to data for greater transparency, accountability, and strategic decision-making in Federal spending, (3) optimize government resources to maximize value for taxpayers.
 
              
 <BR><BR>
