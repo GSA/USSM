@@ -140,7 +140,7 @@ Marketplace solutions will blend commercial practices with federal requirements 
       <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                   <img src="/assets/images/marketplace/icon_govops.jpg"  alt="Performance Alignment" style="width:50px; height:50px; vertical-align: middle;">&nbsp;Smart Management Leads to Public Trust
+                  Smarter Management Leads to Effective Mission Delivery
                 </h2>
                 <p>
 
