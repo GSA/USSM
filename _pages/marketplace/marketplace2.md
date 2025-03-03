@@ -52,7 +52,7 @@ news-category: FIBF-PROGRAM
             font-weight: bold;
             text-align: center;
             padding: 30px;
-            width: 60%;
+            width: 90%;
             max-width: 800px;
             border-radius: 10px;
             box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
