@@ -59,7 +59,7 @@ news-category: FIBF-PROGRAM
             margin: auto;
         }
 
-   .icon-container {
+     .icon-container {
             display: flex;
             justify-content: center;
             gap: 20px;
@@ -75,16 +75,13 @@ news-category: FIBF-PROGRAM
             transition: transform 0.6s ease-in-out;
         }
         .icon img:hover {
-            transform: rotateY(360deg);
-        }
-        .icon img:active {
-            transform: rotateY(360deg);
+            transform: rotateY(180deg);
         }
         .icon p {
             margin-top: 5px;
             font-size: 14px;
             color: black;
-        }  
+        }
 
 </style>
 
