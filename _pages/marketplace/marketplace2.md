@@ -73,10 +73,10 @@ Marketplace solutions will blend commercial practices with federal requirements 
     </p>
 </span>
 
+<!--
 <SPAN><H2 STYLE="font-style: italic; text-align: center;">In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.</H2></SPAN>
-   
-       
-       <div class="rectangle">
+   -->
+      <div class="rectangle">
         In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.
     </div>          
               
