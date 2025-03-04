@@ -10,9 +10,9 @@ This tagline will appear in your homepage
 
             <div class="tablet:grid-col-9 qsmo-crd">
                 <p class="filter-count qsmo-tag margin-top-0 text-gray-50 text-thin"></p>
-                <div class="qsmos">
+                <div class="qsmos grid-row">
                     {% for qsmos in site.qsmos %}
-                    <div class="desktop:grid-col-4 usa-card grid-spacing qsmo {{ qsmos.filters }} " >
+                    <div class="desktop:grid-col-4 usa-card grid-spacing qsmo {{ qsmos.filters }}">
                         <div class="container-GoG" tabindex="0" style="background-color:#f9f9f9;padding:0px;#{{qsmos.border}} solid 2px; cursor:default;">
                             <div style="background:#{{qsmos.border}};border-radius:10px 10px 0px 0px; padding:14px;">
                                 <span class="qsmo-tag" style="color:white">{{ qsmos.phase }}</span><br>
