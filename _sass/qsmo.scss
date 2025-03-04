@@ -475,3 +475,23 @@ only screen and (max-width: 760px),
   text-transform: uppercase;
   color: #323a45;
 }
+
+.qsmo-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* adjust spacing as needed */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .qsmo-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .qsmo-container {
+    grid-template-columns: 1fr;
+  }
+}
+
