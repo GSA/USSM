@@ -6,9 +6,8 @@ jQuery(document).ready(function ($) {
     var link = window.location.href;
     var $container = $(".qsmos");
 
-    // Filter isotope
+    // Initialize Isotope on the container
     $container.isotope({
-        // options
         itemSelector: ".qsmo",
         layoutMode: "masonry",
         getSortData: {
@@ -19,54 +18,72 @@ jQuery(document).ready(function ($) {
     var iso = $container.data('isotope');
     var $filterCount = $('.filter-count');
 
+    // Update filter count display
     function updateFilterCount() {
         if (typeof iso !== 'undefined') {
             $filterCount.text(iso.filteredItems.length + ' items');
         }
     }
 
-    // Alphabetical sort
-    // Sort items alphabetically based on course title
+    // Alphabetical sort functionality
     var sortValue = false;
-    $(".sort").on("click", function(e){
-        e.preventDefault();
+    $(".sort").on("click", function(){
         var currentHash = location.hash;
-        if ( $(this).hasClass("checked") ) {
+        if ($(this).hasClass("checked")) {
             sortValue = false;
-            location.hash = currentHash.replace( /&sort=([^&]+)/i, "");
+            location.hash = currentHash.replace(/&sort=([^&]+)/i, "");
         } else {
             sortValue = $(this).attr("data-sort-value");
-            location.hash = currentHash + "&sort=" + encodeURIComponent( sortValue );
+            location.hash = currentHash + "&sort=" + encodeURIComponent(sortValue);
         }
     });
 
-    if ($container.length) {
-        // Set up filters array with default values
+    // Only execute the filter logic if we're on a QSMO page
+    if (link.indexOf("/qsmo/") !== -1) {
+        // Set up the filters object with default values
         var filters = {};
-        // When a button is pressed, run filterSelect
+        // When a filter button is clicked, run filterSelect
         $(".filter-list a").on("click", filterSelect);
-        // Set the URI hash to the current selected filters
-        function filterSelect(e) {
-            e.preventDefault();
+
+        // Update the URL hash based on current filter selections
+        function filterSelect() {
             var hashFilter = getHashFilter();
+            // Initialize the filters from the current hash values
             filters["subject"] = hashFilter["subject"];
             filters["role"] = hashFilter["role"];
             filters["status"] = hashFilter["status"];
+
+            // Get data-filter attribute from clicked button
             var currentFilter = $(this).attr("data-filter");
+            // Get the filter group (subject, role, or status)
             var $navGroup = $(this).parents(".filter-list");
             var filterGroup = $navGroup.attr("data-filter-group");
-            if (currentFilter == hashFilter["subject"] || currentFilter == hashFilter["role"] || currentFilter == hashFilter["status"]) {
+
+            // Toggle the filter value: if already selected, reset to "*"
+            if (currentFilter === hashFilter["subject"] ||
+                currentFilter === hashFilter["role"] ||
+                currentFilter === hashFilter["status"]) {
                 filters[filterGroup] = "*";
             } else {
-                filters[filterGroup] = $(this).attr("data-filter");
+                filters[filterGroup] = currentFilter;
             }
-            var newHash = "subject=" + encodeURIComponent(filters["subject"]) + "&role=" + encodeURIComponent(filters["role"]) + "&status=" + encodeURIComponent(filters["status"]);
+
+            // Build new hash string from the filter values
+            var newHash =
+                "subject=" + encodeURIComponent(filters["subject"]) +
+                "&role=" + encodeURIComponent(filters["role"]) +
+                "&status=" + encodeURIComponent(filters["status"]);
+
+            // Append sort if one is active
             if (sortValue) {
-                newHash = newHash + "&sort=" + encodeURIComponent(sortValue);
+                newHash += "&sort=" + encodeURIComponent(sortValue);
             }
+
+            // Update the location hash (which triggers onHashChange)
             location.hash = newHash;
         } // filterSelect
 
+        // When the hash changes, update Isotope filtering/sorting
         function onHashChange() {
             var hashFilter = getHashFilter();
             var theFilter = "";
@@ -84,21 +101,30 @@ jQuery(document).ready(function ($) {
                 theFilter = "*";
             }
 
+            // Apply the filters and sort order to the Isotope container
             $container.isotope({
                 filter: decodeURIComponent(theFilter),
                 sortBy: hashFilter["sorts"]
             });
 
             updateFilterCount();
+
+            // Toggle sort button's checked status
             if (hashFilter["sorts"]) {
                 $(".sort").addClass("checked");
             } else {
                 $(".sort").removeClass("checked");
             }
-            $(".filter-list").find(".checked").removeClass("checked").attr("aria-checked", "false");
-            $(".filter-list").find("[data-filter='" + hashFilter["subject"] + "'],[data-filter='" + hashFilter["role"] + "'],[data-filter='" + hashFilter["status"] + "']").addClass("checked").attr("aria-checked", "true");
-        } // onHahschange
 
+            // Update filter button visual states
+            $(".filter-list").find(".checked").removeClass("checked").attr("aria-checked", "false");
+            $(".filter-list")
+                .find("[data-filter='" + hashFilter["subject"] + "'],[data-filter='" + hashFilter["role"] + "'],[data-filter='" + hashFilter["status"] + "']")
+                .addClass("checked")
+                .attr("aria-checked", "true");
+        } // onHashChange
+
+        // Parse the URL hash to get current filter and sort values
         function getHashFilter() {
             var subject = location.hash.match(/subject=([^&]+)/i);
             var role = location.hash.match(/role=([^&]+)/i);
@@ -114,7 +140,10 @@ jQuery(document).ready(function ($) {
             return hashFilter;
         } // getHashFilter
 
+        // Set up hash change event listener for filtering
         window.onhashchange = onHashChange;
-        onHashChange();
     }
+
+    // Run the hash change handler on page load
+    onHashChange();
 });
