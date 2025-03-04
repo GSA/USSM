@@ -40,7 +40,7 @@ jQuery(document).ready(function ($) {
         }
     });
 
-    if (link.indexOf("/qsmo/") != -1) {
+    if ($container.length) {
         // Set up filters array with default values
         var filters = {};
         // When a button is pressed, run filterSelect
