@@ -44,7 +44,7 @@ description: ""
                 <h2 class="margin-bottom-0 margin-top-0">
                    <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Capital Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;
                 </h2>
-<P>The Shared Services developer hub is an active, open source community for engineers focused on creating the tooling used to plan for, understand, and deploy the modern solutions needed to improve and automate management and operations of of the federal government. </P> 
+<P>The Developer Hub is an active community for engineers and technical staff focused on creating the tooling used to plan for, understand, and deploy the modern solutions needed to improve and automate the management and operations of the federal government. </P> 
 
 
                 <hr class="margin-top-auto width-full">
