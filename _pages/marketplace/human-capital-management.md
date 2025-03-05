@@ -11,7 +11,7 @@ news-category: FIBF-HR
   }
 </style>
 
-{% include banner.html title-override="Developer Hub" width="grid-col-11" offset="grid-offset-1" %}
+{% include banner.html title-override="GovOps Marketplace" width="grid-col-11" offset="grid-offset-1" %}
 
 <div class="grid-container">
     <div class="grid-row grid-gap">
