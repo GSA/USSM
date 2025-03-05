@@ -7,8 +7,10 @@ layout: base
 This template is for all M3 pages with the M3 menu.
 {% endcomment %}
 <div class="pm-content">
-  {% include pm/menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
-  <section  id="main-content">
+  {% if page.hide_menu != true %}
+    {% include pm/menu.html primary_navigation=site.primary_navigation secondary_navigation=site.secondary_navigation %}
+  {% endif %}
+  <section id="main-content">
       {{ content }}
   </section>
   <div class="grid-container">
