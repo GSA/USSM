@@ -295,12 +295,12 @@ primary_navigation:
       permalink: /performance-management/
       show_in_menu: true
       show_in_footer: false
-#    - text: 'MARKETPLACE'
-#      href: pages/resources.md
-#      permalink: /marketplace/
-#      show_in_menu: true
-#      show_in_footer: false
-#      show_button_style: true
+    - text: 'MARKETPLACE'
+      href: pages/resources.md
+      permalink: /marketplace/
+      show_in_menu: true
+      show_in_footer: false
+      show_button_style: true
 #    - text: 'DEVHUB'
 #      href: pages/resources.md
 #      permalink: /automat/

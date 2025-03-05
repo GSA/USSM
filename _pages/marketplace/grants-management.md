@@ -11,7 +11,7 @@ news-category: FIBF-GRM
   }
 </style>
 
-{% include banner.html title-override="Services Catalog" width="grid-col-11" offset="grid-offset-1" %}
+{% include banner.html title-override="GovOps Marketplace" width="grid-col-11" offset="grid-offset-1" %}
 
 <div class="grid-container">
     <div class="grid-row grid-gap">
@@ -63,14 +63,28 @@ news-category: FIBF-GRM
              
                   <p>
 
-Each year, the <B>Federal government distributes over $1 trillion in grants and cooperative agreements across 52 awarding agencies<SUP>1</SUP></B>, representing one of the federal government’s largest investments to drive improvements for the American people. <BR><BR>
+<div style="display: flex; align-items: center; gap: 20px;">
+    <div style="text-align: center; background-color: rgb(100, 100, 100); padding: 10px 20px; border-radius: 8px;">
+        <div style="font-size: 55px; font-weight: bold; color: white;">
+            $1
+        </div>
+        <div style="font-size: 28px; color: white; text-transform: uppercase; letter-spacing: 1px;">
+            Trillion
+        </div>
+    </div>
+    <div style="font-size: 20px; color: #333; max-width: 500px;">
+        In 2024, agencies distributed over $1 trillion in grants and cooperative agreements across 52 awarding agencies.<sup>1</sup>
+    </div>
+</div>
+
+
 
 As agencies have largely managed their grants internally, there has not been a concerted effort to coordinate across the federal grants management systems landscape until recently.
 Leveraging a shared services approach to address a disconnected systems environment at varying levels of maturity, and re-align the user experience to reduce burden for public applicants, recipients, and awarding agencies will:</p>
 
 <ul> 
 <LI>Enhance Grants Transparency and Accountability</LI>
-<LI>Reduce the Costs of Unnecessary Administrative Burden</LI>
+<LI>Reduce Cost and Delays due to Administrative Burden</LI>
 <LI>Improve the Management of Grants Spending to Align with National Priorities</LI>
 <LI>Improve the Grant Recipient and Public Experience</LI>
 <LI>Strengthen Internal Controls and Oversight</LI>
