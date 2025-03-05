@@ -23,7 +23,7 @@ description: ""
     
     <div class="grid-container">
         
-        
+<BR>        
         <div class="grid-row">
             <div class="tablet:grid-col-11 grid-offset-1">
                     
@@ -44,16 +44,9 @@ description: ""
                 <h2 class="margin-bottom-0 margin-top-0">
                    <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Capital Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;
                 </h2>
- 
+<P>The Shared Services developer hub is an active, open source community for engineers focused on creating the tooling used to plan for, understand, and deploy the modern solutions needed to improve and automate management and operations of of the federal government. </P> 
 
-              <B>Agencies, begin here - Find HR solutions and get help:</B><BR>
-                <ul class="margin-top-0 margin-bottom-3">
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the HR QSMO Marketplace" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11114" title="Explore the HR QSMO Marketplace" target="_blank" CLASS="green-link">Explore the HR QSMO Marketplace</a><BR>
-                   <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the HR QSMO" height="auto" style="vertical-align:middle;">&nbsp;<a href="mailto:hrqsmo@opm.gov" title="Contact the HR QSMO" target="_blank">Contact the HR QSMO</a><BR>
-                </ul>
-OPM's HR QSMO will help (1) agencies modernize human capital management faster through sharing and standardization, (2) operationalize federal workforce policies, standards, and services to produce meaningful outcomes, and (3) provide a path for industry to act as allies and partners in the quest to provide greater value.
-             <P></P>
-              
+
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 padding-top-4 display-flex flex-column">
