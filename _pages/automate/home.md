@@ -8,8 +8,6 @@ description: ""
 
 {% include banner.html title-override="Developer Hub" width="grid-col-11" offset="grid-offset-1" %}
 
-
-
 <div class="grid-container">
     <div class="grid-row grid-gap">
             <div class="tablet:grid-col-10 tablet:grid-offset-1 padding-top-1">
@@ -45,34 +43,21 @@ description: ""
         
                 </h2>
 <P>The Developer Hub is an active community for engineers and technical staff focused on creating the tooling used to plan for, understand, and deploy the modern solutions needed to improve and automate the management and operations of the federal government. </P> 
-
+   <h2 class="margin-bottom-0 margin-top-0">
+                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
+                        Why does it matter?
+                    </h2>
 
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 padding-top-4 display-flex flex-column">
                 <div class="display-flex flex-align-center">
                     <!-- <svg class="usa-icon usa-icon--size-4 text-primary" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use></svg> -->
-                    <h2 class="margin-bottom-0 margin-top-0">
 
 
-         
-                        
-                        
-                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
-                        Why does it matter?
-                    </h2>
+                 
                 </div>
 
-<div style="display: flex; align-items: center; gap: 20px;">
-    <div style="text-align: center; background-color: rgb(100, 100, 100); padding: 10px 20px; border-radius: 8px;">
-        <div style="font-size: 55px; font-weight: bold; color: white;">
-            2.3M
-        </div>
-    </div>
-    <div style="font-size: 20px; color: #333; max-width: 500px;">
-        In 2024, the Federal workforce was comprised of approximately 2.3 million civilian employees.<sup>1</sup>
-    </div>
-</div>
 
              
                   <p>
