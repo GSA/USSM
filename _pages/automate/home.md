@@ -5,17 +5,10 @@ title: Developer Hub
 description: ""
 ---
 
-<div id="main-content" class="usa-layout-docs">
-    <section class="usa-graphic-list margin-bottom-4">
-        <div class="usa-hero clearfix heading">
-            <div class="grid-container">
-                <div class="usa-width-whole hero-content text-center">
-                    <h1 class="color-white">{{page.title}}</h1>
-                    <p class="color-white">{{page.description}}</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
+{% include banner.html title-override="GovOps Marketplace" width="grid-col-11" offset="grid-offset-1" %}
+
+
 
 <div class="grid-container">
     <div class="grid-row grid-gap">
