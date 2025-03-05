@@ -42,7 +42,7 @@ description: ""
         <div class="grid-row">
             <div class="tablet:grid-col-6 tablet:grid-offset-1 padding-top-4 tablet:padding-right-3 display-flex flex-column">
                 <h2 class="margin-bottom-0 margin-top-0">
-                   <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Capital Management Icon" width="50px" height="auto" style="vertical-align:middle;">&nbsp;
+        
                 </h2>
 <P>The Developer Hub is an active community for engineers and technical staff focused on creating the tooling used to plan for, understand, and deploy the modern solutions needed to improve and automate the management and operations of the federal government. </P> 
 
