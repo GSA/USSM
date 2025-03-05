@@ -2,7 +2,7 @@
 layout: performance-management
 title: Governance Ecosystem
 permalink: /governance/
-show_menu: false
+hide_menu: true
 ---
 
 <style>
