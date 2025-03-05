@@ -78,7 +78,7 @@ primary_navigation:
       permalink: /governance/
       show_in_menu: true
       show_in_footer: false
-    - text: 'Data Business Standards'
+    - text: 'Data Standards'
       href: /pages/team.md
       permalink: /fibf/
       show_in_menu: true
