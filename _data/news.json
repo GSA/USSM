@@ -2,6 +2,17 @@
     "title": "News",
     "items": [
         
+      {
+            "NewsID": "63",
+            "Homepage": "1",
+            "Category": "FIBF-HR",
+            "Title": "USDA’s automations taking some of the burden out of HR work",
+            "Date": "2025-03-04",
+            "Source": "Federal News Radio",
+            "Hyperlink": "https://www.govexec.com/technology/2024/12/ibm-wins-930m-federal-employee-travel-system-contract/401368/"
+        },
+
+
         
         {
             "NewsID": "62",
