@@ -2,7 +2,7 @@
 layout: base
 permalink: /automate/
 title: Developer Hub
-description: "Empower Your Agency: Accelerate delivery of your agency's top management priorities by connecting with trusted service providers to the Federal community available through this government-wide catalog."
+description: "Build a more automated process to the management and operations of the Federal government."
 ---
 
 <div id="main-content" class="usa-layout-docs">
