@@ -2,7 +2,7 @@
 layout: base
 permalink: /automate/
 title: Developer Hub
-description: "Build a more automated process to the management and operations of the Federal government."
+description: ""
 ---
 
 <div id="main-content" class="usa-layout-docs">
@@ -21,7 +21,7 @@ description: "Build a more automated process to the management and operations of
     <div class="grid-container">
         <div class="usa-graphic-list__row grid-row grid-gap">
 
-
+Helping Developers Modernize and Automate the Management and Operations of Government.
 
 
         </div>
