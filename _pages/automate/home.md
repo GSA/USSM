@@ -58,7 +58,9 @@ description: ""
                  
                 </div>
 
-
+<h2 class="margin-bottom-0 margin-top-0">
+                        <img src="/assets/images/marketplace/icon_why.png" alt="Why does it matter?" height="auto" style="vertical-align:middle;">
+Automation Areas of Interest </h2>
              
                   <p>
 
@@ -66,16 +68,7 @@ Enabling agencies to access the modern tools and services needed to prioritize w
  to meet its evolving challenges and uphold the trust of the American people. 
 </p>
 
-<ul> 
-<LI>Attracting and Hiring Qualified Employees</LI>
-<LI>Strengthening Leadership Development</LI>
-<LI>Modernizing Human Capital Practices</LI>
-<LI>Improving Performance Management</LI>
-<LI>Leveraging Workforce Data as a Strategic Asset</LI>
-<LI>Knowledge Transfer and Succession Planning</LI>
-<LI>Shifting Workforce from Low to High-Value Work</LI>
-<LI>Ensuring Ethical Standards and Integrity</LI>
-                </ul>
+
 <BR>
 <SUP>1 Source: <A HREF="https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABnsT72MN42oVOsW6DQAz9mTNph0Y_wyVhYIDjUBiANLBXlFzSqsBFcB3y9xUwpFWGvidL9vN7lp2yWJdVcVRpHIzWDDqNn4DocyNI4jZU6PncQ0%7EtfIHRZiO5UKREtAWiZ2fKqvAo94ew2gdASWN6q3sLlJxNe9IDiAg87OtOgxuvDnXzVV%7E0_Ka6a2tune7tCkQMlFyXzV%7E73QWEL0Aov4dhmTLT248p68SlXMsiz5Ws0iLPw0wF%7E_Wc6DU4IzKOiJwjYwyZQEbIJjIWXnTf3IAQ6ASEYdsC_pkZ7eMpQJ8B7YBcBNIc6B3IXwR_F9gMIHey%7EwKfOXfLO3MtTyz4AbZLbJc%3D">OPM Fedscope</A></SUP>
 
