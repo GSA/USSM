@@ -26,7 +26,7 @@ description: ""
             <div class="tablet:grid-col-11 grid-offset-1">
                     
                        <h2 class="margin-bottom-0 margin-top-0">
-                 Helping Developers Modernize the Management of Government
+                 Helping Developers Streamline the Management of Government
                 </h2>
                 
                 <hr>
