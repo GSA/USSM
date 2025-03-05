@@ -33,6 +33,8 @@ show_menu: false
         <div class="image-wrap">
           <img src="{{ site.baseurl }}/assets/images/governance/governance-diagram-1.webp" alt="Governance and operating model" style="display:block;">
           <div style="text-align:center;">
+            <em>Agency & Governance Ecosystem</em>
+            <br>
             <a href="#governance" title="Enlarge image" class="image-link usa-button usa-button--secondary margin-top-5" style="display:inline-block;">Enlarge</a>
           </div>
         </div>
@@ -83,12 +85,4 @@ show_menu: false
           <a href="{{ site.baseurl }}/fibf">Federal Integrated Business Framework (FIBF)</a>.
         </p>
       </section>
-      <section class="pm margin-top-4 margin-bottom-4">
-        <p>
-          For more information about the Governance Ecosystem, contact us at:
-          <a href="mailto:OSSPI.SharedServices@gsa.gov">OSSPI.SharedServices@gsa.gov</a>.
-        </p>
-      </section>
-    </div>
-  </div>
-</div>
+      <sec
