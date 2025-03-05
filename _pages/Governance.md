@@ -31,8 +31,10 @@ show_menu: false
     <div class="tablet:grid-col-8 tablet:grid-offset-1">
       <section class="pm" id="overview">
         <div class="image-wrap">
-          <img src="{{ site.baseurl }}/assets/images/governance/governance-diagram-1.webp" alt="Governance and operating model">
-          <a href="#governance" title="Enlarge image" class="image-link usa-button usa-button--secondary margin-top-5">Enlarge</a>
+          <img src="{{ site.baseurl }}/assets/images/governance/governance-diagram-1.webp" alt="Governance and operating model" style="display:block;">
+          <div style="text-align:center;">
+            <a href="#governance" title="Enlarge image" class="image-link usa-button usa-button--secondary margin-top-5" style="display:inline-block;">Enlarge</a>
+          </div>
         </div>
         <div id="governance" class="white-popup mfp-hide">
           <img alt="Governance and operating model" src="{{ site.baseurl }}/assets/images/governance/governance-diagram-1.webp">
