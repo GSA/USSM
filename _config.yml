@@ -301,18 +301,18 @@ primary_navigation:
       show_in_menu: true
       show_in_footer: false
       show_button_style: true
-#    - text: 'DEVHUB'
-#      href: pages/resources.md
-#      permalink: /automat/
-#      show_in_menu: true
-#      show_in_footer: false
-#      show_button_style: true 
-     - text: 'DEV HUB'
-    href: pages/resources.md
+    - text: 'DEVHUB'
+      href: pages/resources.md
       permalink: /automate/
       show_in_menu: true
       show_in_footer: false
-      show_button_style: true
+      show_button_style: true 
+#     - text: 'DEV HUB'
+#    href: pages/resources.md
+#      permalink: /automate/
+#      show_in_menu: true
+#      show_in_footer: false
+#      show_button_style: true
   #  - text: 'Dev Hub'
   #    href: pages/resources.md
   #    permalink: /marketplace/
