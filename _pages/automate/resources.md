@@ -33,7 +33,11 @@ description: ""
         
         <div class="grid-row">
             <div class="tablet:grid-col-11 grid-offset-1">
-                    Helping Developers Modernize the Management and Operations of the Federal Government
+                    
+                       <h2 class="margin-bottom-0 margin-top-0">
+                 Helping Developers Modernize the Management and Operations of the Federal Government
+                </h2>
+                
                 <hr>
             </div>
         </div>
