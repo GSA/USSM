@@ -111,10 +111,9 @@
           },
           {
             "agency": "Agency for International Development",
-            "sapoc": "Colleen Allen",
-            "title": "Administrator for Management",
+            "sapoc": "TBD",
+            "title": "TBD",
             "logo": "us-agency-for-international-development.svg",
-            "agency_url":"https://www.usaid.gov/organization/colleen-allen"
           },
           {
             "agency": "General Services Administration",
@@ -136,10 +135,9 @@
           },
           {
             "agency": "Office of Personnel Management",
-            "sapoc": "Erica Roach",
-            "title": "Chief Financial Officer",
-            "logo": "office-of-personnel-management.svg",
-            "agency_url":"https://www.opm.gov/about-us/our-people-organization/senior-staff-bios/erica-roach/"
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "office-of-personnel-management.svg"
           },
           {
             "agency": "Small Business Administration",
