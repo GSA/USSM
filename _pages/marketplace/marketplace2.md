@@ -145,8 +145,51 @@ Marketplace solutions will blend commercial practices with federal requirements 
  
      
         </div>
-     
-     
+
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .graphic {
+            background-color: #4CAF50; /* Green background */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 250px;
+        }
+
+        .graphic .title {
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+        .graphic .main-number {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .graphic .sub-text {
+            font-size: 1.1rem;
+            margin-top: 5px;
+        }
+    </style>
+
+ <div class="graphic">
+        <div class="title">Fleet</div>
+        <div class="main-number">670k Vehicles</div>
+        <div class="sub-text">4.7B Miles</div>
+    </div>
+    
       
     </div>
 
