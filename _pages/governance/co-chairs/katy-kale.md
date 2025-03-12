@@ -10,7 +10,7 @@ name: Vacant
 position: TBD
 department: General Services Administration (GSA)
 logo: general-services-administration-logo.svg | https://www.cfo.gov/about-the-council/
-logo-link: https://www.cfo.gov/about-the-council/
+logo-link: https://www.cfoc.gov
 ---
 
 TBD
