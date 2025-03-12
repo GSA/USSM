@@ -8,7 +8,7 @@ name: TBD
 title: Shared Services Governance Board
 name: Vacant
 position: TBD
-department: General Services Administration (GSA)
+department: TBD
 logo: general-services-administration-logo.svg | 
 logo-link: 
 ---
