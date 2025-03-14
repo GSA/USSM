@@ -1,29 +1,95 @@
 <!--***********buttons for policy catalog page*********************************************-->
 
 <div class="tablet:grid-col-3 qsmo-fltr">
+  <a
+    class="usa-button usa-button--accent-cool margin-bottom-2"
+    href="{{ site.baseurl }}/qsmo/#subject=*&role=*&status=*"
+    >Reset Filter</a
+  >
 
-    <a class="usa-button usa-button--accent-cool margin-bottom-2" href="{{ site.baseurl }}/qsmo/#subject=*&role=*&status=*">Reset Filter</a>
+  <nav id="filter" class="filters" aria-label="Filter">
+    <h3
+      class="filter-title text-primary font-sans-sm"
+      style="font-size: 22px"
+      aria-label="Filter by Phase"
+    >
+      Filter by Phase
+    </h3>
+    <ul class="filter-list" data-filter-group="role">
+      <li>
+        <a
+          style="
+            border-left-color: #008659;
+            border-left-style: solid;
+            border-left-width: 7px;
+          "
+          aria-label="Filter by Agency: CAOC"
+          role="checkbox"
+          href="javascript:void(0)"
+          data-filter="formal"
+          >Formal Designation</a
+        >
+      </li>
+      <li>
+        <a
+          style="
+            border-left-color: #162e51;
+            border-left-style: solid;
+            border-left-width: 7px;
+          "
+          aria-label="Filter by Agency: CFOC"
+          role="checkbox"
+          href="javascript:void(0)"
+          data-filter="pre"
+          >Pre-designation</a
+        >
+      </li>
+    </ul>
 
-    <nav id="filter" class="filters" aria-label="Filter">
-
-
-        <h3 class="filter-title text-primary font-sans-sm" style="font-size:22px" aria-label="Filter by Phase">Filter by Phase</h3>
-        <ul class="filter-list" data-filter-group="role">
-            <li><a style="border-left-color:#008659; border-left-style: solid; border-left-width:7px;" aria-label="Filter by Agency: CAOC" role="checkbox" href="javascript:void(0)" data-filter=".formal">Formal Designation</a></li>
-            <li><a style="border-left-color:#162e51; border-left-style: solid; border-left-width:7px;" aria-label="Filter by Agency: CFOC" role="checkbox" href="javascript:void(0)" data-filter=".pre">Pre-designation</a></li>
-
-        </ul>
-
-        <h3 class="filter-title text-primary font-sans-sm" style="font-size:22px" aria-label="Filter by QSMO">Filter by QSMO</h3>
-        <ul class="filter-list" data-filter-group="subject">
-            <li><a aria-label="Filter by Type: Individual" role="checkbox" href="javascript:void(0)" data-filter=".hr">Human Resources</a></li>
-            <li><a aria-label="Filter by Type: Team" role="checkbox" href="javascript:void(0)" data-filter=".finance">Financial Management</a></li>
-            <li><a aria-label="Filter by Type: Team" role="checkbox" href="javascript:void(0)" data-filter=".cyber">Cybersecurity</a></li>
-            <li><a aria-label="Filter by Type: Team" role="checkbox" href="javascript:void(0)" data-filter=".grants">Grants Management</a></li>
-
-        </ul>
-
-
-
-    </nav>
+    <h3
+      class="filter-title text-primary font-sans-sm"
+      style="font-size: 22px"
+      aria-label="Filter by QSMO"
+    >
+      Filter by QSMO
+    </h3>
+    <ul class="filter-list" data-filter-group="subject">
+      <li>
+        <a
+          aria-label="Filter by Type: Individual"
+          role="checkbox"
+          href="javascript:void(0)"
+          data-filter="hr"
+          >Human Resources</a
+        >
+      </li>
+      <li>
+        <a
+          aria-label="Filter by Type: Team"
+          role="checkbox"
+          href="javascript:void(0)"
+          data-filter="finance"
+          >Financial Management</a
+        >
+      </li>
+      <li>
+        <a
+          aria-label="Filter by Type: Team"
+          role="checkbox"
+          href="javascript:void(0)"
+          data-filter="cyber"
+          >Cybersecurity</a
+        >
+      </li>
+      <li>
+        <a
+          aria-label="Filter by Type: Team"
+          role="checkbox"
+          href="javascript:void(0)"
+          data-filter="grants"
+          >Grants Management</a
+        >
+      </li>
+    </ul>
+  </nav>
 </div>
