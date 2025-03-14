@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
       '.qsmo[style="display: block;"]'
     );
     const filterCountElement = document.querySelector(".filter-count");
-    filterCountElement.textContent = `${visibleItems.length} items found`;
+    filterCountElement.textContent = `${visibleItems.length} items`;
   }
 
   // Add reset functionality to clear filters
