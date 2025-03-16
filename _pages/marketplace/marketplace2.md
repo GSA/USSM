@@ -123,6 +123,12 @@ margin-right: 5px;
 
  </div>
 
+ <div class="icon-container">
+      <div class="icon">
+          <a href="{{site.baseurl}}/marketplace/ess-eis/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title=""><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.computer.webp" alt="Icon 6"><p>Information<BR>Technology</p></a></div>
+
+     </div>
+
 
 
 </span>
