@@ -177,9 +177,142 @@ margin-right: 5px;
 </STYLE>
 
 
+<STYLE>
+
+.govops-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;  /* Left col for seal/IT, right col for icons */
+  grid-template-rows: auto auto;    /* Top row for seal & top icons, bottom row for IT & bottom icons */
+  gap: 1rem;
+  align-items: start;               /* Top-align rows */
+}
+
+/* Center the entire seal container in its grid cell */
+.govops-seal {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;   /* Stack image/text (if any) vertically */
+  align-items: center;      /* Center horizontally */
+  justify-content: center;  /* If you want vertical centering within the cell */
+}
+
+.govops-seal img {
+  width: 100px;  /* GovOps seal at 100px wide */
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* IT icon directly under the seal, also centered */
+.it-icon {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;   /* Stack image + text */
+  align-items: center;      /* Center horizontally */
+  justify-content: center;
+  text-align: center;       /* Ensures the text is also centered */
+}
+
+.it-icon img {
+  width: 50px;   /* IT icon at 50px wide */
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* Right column: top icons and bottom icons each as a grid */
+.top-icons,
+.bottom-icons {
+  grid-column: 2;        /* Right column */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 icons across */
+  gap: 1rem;
+}
+
+.top-icons {
+  grid-row: 1;  /* Top row of icons */
+}
+.bottom-icons {
+  grid-row: 2;  /* Bottom row of icons */
+}
+
+.icon {
+  text-align: center;
+  font-weight: bold;
+}
+
+.icon img {
+  max-width: 50px; /* Adjust as needed for all right-side icons */
+  display: block;
+  margin: 0 auto 0.5rem;
+}
+
+
+</STYLE>
 
 
 
+<div class="govops-grid">
+  <!-- Top-left: GovOps Seal -->
+  <div class="govops-seal">
+    <img 
+      src="/assets/images/marketplace/icon_govops.jpg" 
+      alt="GovOps Shared Services Marketplace"
+    >
+    <!-- If you need text for the seal, you could put it here -->
+  </div>
+
+  <!-- Top-right: Row of icons (Financial, Grants, etc.) -->
+  <div class="top-icons">
+    <div class="icon">
+      <img src="/assets/images/fibf/icons/icon.corefm.webp" alt="Financial Management">
+      <p>Financial<br>Management</p>
+    </div>
+    <div class="icon">
+      <img src="/assets/images/fibf/icons/icon.grants.webp" alt="Grants Management">
+      <p>Grants<br>Management</p>
+    </div>
+    <div class="icon">
+      <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Resources">
+      <p>Human<br>Resources</p>
+    </div>
+    <div class="icon">
+      <img src="/assets/images/fibf/icons/icon.travel.webp" alt="Travel & Expense">
+      <p>Travel &<br>Expense</p>
+    </div>
+    <div class="icon">
+      <img src="/assets/images/fibf/icons/icon.cyber.webp" alt="Cybersecurity Services">
+      <p>Cybersecurity<br>Services</p>
+    </div>
+  </div>
+
+  <!-- Bottom-left: IT icon (centered under seal) -->
+  <div class="it-icon">
+    <img 
+      src="/assets/images/fibf/icons/icon.computer.webp" 
+      alt="Information Technology"
+    >
+    <p>Information<br>Technology</p>
+  </div>
+
+  <!-- Bottom-right: Second row of icons (Fleet, Purchase Cards, etc.) -->
+  <div class="bottom-icons">
+    <div class="icon">
+      <img src="/assets/images/fibf/icons/icon.fleet.webp" alt="Fleet">
+      <p>Fleet</p>
+    </div>
+    <div class="icon">
+      <img src="/assets/images/fibf/icons/icon.purchasecards.webp" alt="Purchase Cards">
+      <p>Purchase<br>Cards</p>
+    </div>
+    <!-- Add more icons or placeholders here as needed -->
+  </div>
+</div>
+
+
+
+
+<!--
 <div class="govops-grid">
   <!-- Top left: GovOps Seal -->
   <div class="govops-seal">
@@ -233,7 +366,7 @@ margin-right: 5px;
   </div>
 </div>
 
-
+-->
 
 
 
