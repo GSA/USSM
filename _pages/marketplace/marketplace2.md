@@ -298,14 +298,19 @@ margin-right: 5px;
   <!-- Bottom-right: Second row of icons (Fleet, Purchase Cards, etc.) -->
   <div class="bottom-icons">
     <div class="icon">
-      <img src="/assets/images/fibf/icons/icon.fleet.webp" alt="Fleet">
+      <img src="{{ site.baseurl }}/assets/images/fibf/icons/car.icon.webp" alt="Fleet">
       <p>Fleet</p>
     </div>
     <div class="icon">
-      <img src="/assets/images/fibf/icons/icon.purchasecards.webp" alt="Purchase Cards">
+      <img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.smartpay.webp" alt="Purchase Cards">
       <p>Purchase<br>Cards</p>
     </div>
     <!-- Add more icons or placeholders here as needed -->
+    <div class="icon">
+      <img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.erm.webp" alt="Records Management">
+      <p>Records<br>Management</p>
+    </div>
+  
   </div>
 </div>
 </SPAN>
