@@ -198,7 +198,7 @@ margin-right: 5px;
 }
 
 .govops-seal img {
-  width: 100px;  /* GovOps seal at 100px wide */
+  width: 115px;  /* GovOps seal at 115px wide */
   height: auto;
   margin-bottom: 0.5rem;
 }
@@ -212,6 +212,7 @@ margin-right: 5px;
   align-items: center;      /* Center horizontally */
   justify-content: center;
   text-align: center;       /* Ensures the text is also centered */
+  font-weight: bold;
 }
 
 .it-icon img {
