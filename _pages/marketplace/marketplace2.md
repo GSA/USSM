@@ -104,95 +104,126 @@ margin-right: 5px;
 
 <STYLE>
 
-.govops-layout {
-  display: flex;        /* Create a horizontal layout with 2 columns */
-  gap: 2rem;            /* Space between columns (adjust as needed) */
-  align-items: flex-start; /* Top-align both columns */
-  
-  /* Optionally add padding, background, etc.
-     padding: 1rem;
-     background-color: #fff;
-     border-radius: 8px;
-  */
+.govops-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;   /* Left column for the seal/IT, right column for icons */
+  grid-template-rows: auto auto;      /* Two rows: top row for first set, bottom row for second set */
+  gap: 1rem;                         /* Space between grid cells */
+  align-items: start;
 }
 
-.left-col {
-  display: flex;
-  flex-direction: column;   /* Stack seal and IT icon vertically */
-  align-items: center;  /* Left-align them */
-}
-
+/* Left Column */
 .govops-seal {
-  width: 125px;   /* Adjust as needed */
-  height: auto;
-  margin-bottom: 1rem; /* Space below the seal before IT icon */
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center; /* Center the seal horizontally */
 }
 
 .it-icon {
-  margin-top: 1rem;  /* Additional spacing if desired */
+  grid-column: 1;
+  grid-row: 2;
+  justify-self: center; /* Center the IT icon horizontally */
 }
 
-.right-col {
-  display: flex;
-  flex-wrap: wrap;   /* Let icons wrap on smaller screens if needed */
-  gap: 1rem;         /* Space between icons */
+.govops-seal img,
+.it-icon img {
+  max-width: 125px; /* Adjust as needed */
+  height: auto;
 }
 
+/* Right Column (Icons) */
+/* Both rows will share the same grid structure so that each column aligns */
+.top-icons,
+.bottom-icons {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns for 5 icons */
+  gap: 1rem;
+}
+
+.top-icons {
+  grid-row: 1;
+}
+
+.bottom-icons {
+  grid-row: 2;
+}
+
+/* Icon styling */
 .icon {
   text-align: center;
   font-weight: bold;
 }
 
 .icon img {
-  max-width: 50px;   /* Adjust as needed */
+  max-width: 50px; /* Adjust as needed */
   display: block;
   margin: 0 auto 0.5rem;
 }
+
+/* Optional: Placeholder styling (if needed) */
+.placeholder {
+  visibility: hidden;
+}
+
+  
 
 </STYLE>
 
 
 
-<div class="govops-layout">
-  <!-- Left column -->
-  <div class="left-col">
-    <!-- GovOps seal -->
-    <img 
-      src="/assets/images/marketplace/icon_govops.jpg" 
-      alt="GovOps Shared Services Marketplace" 
-      class="govops-seal"
-    >
-    
-    <!-- Information Technology icon directly under the seal -->
-    <div class="icon it-icon">
-      <img src="/assets/images/fibf/icons/icon.computer.webp" alt="Information Technology">
-      <p>Information<BR>Technology</p>
+
+
+<div class="govops-grid">
+  <!-- Top left: GovOps Seal -->
+  <div class="govops-seal">
+    <img src="/assets/images/marketplace/icon_govops.jpg" alt="GovOps Shared Services Marketplace">
+  </div>
+
+  <!-- Top right: First row of icons -->
+  <div class="top-icons">
+    <div class="icon" id="icon-financial">
+      <img src="/assets/images/fibf/icons/icon.corefm.webp" alt="Financial Management">
+      <p>Financial<br>Management</p>
+    </div>
+    <div class="icon" id="icon-grants">
+      <img src="/assets/images/fibf/icons/icon.grants.webp" alt="Grants Management">
+      <p>Grants<br>Management</p>
+    </div>
+    <div class="icon" id="icon-hr">
+      <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Resources">
+      <p>Human<br>Resources</p>
+    </div>
+    <div class="icon" id="icon-travel">
+      <img src="/assets/images/fibf/icons/icon.travel.webp" alt="Travel & Expense">
+      <p>Travel &<br>Expense</p>
+    </div>
+    <div class="icon" id="icon-cyber">
+      <img src="/assets/images/fibf/icons/icon.cyber.webp" alt="Cybersecurity Services">
+      <p>Cybersecurity<br>Services</p>
     </div>
   </div>
 
-  <!-- Right column (other icons) -->
-  <div class="right-col">
-    <div class="icon">
-      <img src="/assets/images/fibf/icons/icon.corefm.webp" alt="Financial Management">
-      <p>Financial<BR>Management</p>
+  <!-- Bottom left: Information Technology Icon -->
+  <div class="it-icon">
+    <img src="/assets/images/fibf/icons/icon.computer.webp" alt="Information Technology">
+    <p>Information<br>Technology</p>
+  </div>
+
+  <!-- Bottom right: Second row of icons -->
+  <div class="bottom-icons">
+    <div class="icon" id="icon-fleet">
+      <img src="/assets/images/fibf/icons/icon.fleet.webp" alt="Fleet">
+      <p>Fleet</p>
     </div>
-    <div class="icon">
-      <img src="/assets/images/fibf/icons/icon.grants.webp" alt="Grants Management">
-      <p>Grants<BR>Management</p>
+    <div class="icon" id="icon-pcards">
+      <img src="/assets/images/fibf/icons/icon.purchasecards.webp" alt="Purchase Cards">
+      <p>Purchase<br>Cards</p>
     </div>
-    <div class="icon">
-      <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Resources">
-      <p>Human<BR>Resources</p>
-    </div>
-    <div class="icon">
-      <img src="/assets/images/fibf/icons/icon.travel.webp" alt="Travel & Expense">
-      <p>Travel &<BR>Expense</p>
-    </div>
-    <div class="icon">
-      <img src="/assets/images/fibf/icons/icon.cyber.webp" alt="Cybersecurity Services">
-      <p>Cybersecurity<BR>Services</p>
-    </div>
-    <!-- Add more icons here as needed -->
+    <!-- If there are no bottom icons for a particular top icon, you can add an empty placeholder -->
+    <div class="icon placeholder"></div>
+    <div class="icon placeholder"></div>
+    <div class="icon placeholder"></div>
   </div>
 </div>
 
