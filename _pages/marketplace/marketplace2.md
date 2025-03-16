@@ -98,7 +98,7 @@ margin-right: 5px;
         In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.
     </div>    
 
-
+<BR>
 
 <span class="govops-container">
     <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
