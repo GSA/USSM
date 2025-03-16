@@ -100,6 +100,122 @@ margin-right: 5px;
 
 <BR>
 
+
+
+<STYLE>
+
+.govops-grid {
+  /* Create a 2-column grid: 
+     1) auto-width column for the seal 
+     2) flexible column for the icons */
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto; /* 2 rows (you can add more if needed) */
+  gap: 1rem; /* space between columns/rows */
+  align-items: start; /* top-align rows */
+  
+  /* If you want a background color or padding around it, uncomment these:
+     background-color: #fff;
+     padding: 1rem;
+     border-radius: 8px;
+  */
+}
+
+.govops-seal {
+  /* Place the seal in the left column, spanning 2 rows. 
+     This ensures it stays on the left, while icons can fill row 1 & row 2 to the right. */
+  grid-column: 1;
+  grid-row: 1 / 3; /* spans rows 1 and 2 */
+  
+  /* Center or top-align the image inside the seal container as you wish */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.govops-seal img {
+  max-width: 125px;
+  height: auto;
+}
+
+.icon-row {
+  /* Each .icon-row is a row in the grid, in the second column. */
+  grid-column: 2;
+  /* The first .icon-row will be row 1, the second .icon-row is row 2, etc. */
+  
+  display: flex;       /* flex layout for icons in a row */
+  flex-wrap: wrap;     /* allows wrapping if needed on smaller screens */
+  gap: 1rem;           /* space between icons */
+}
+
+.icon {
+  text-align: center;  /* center icon + text */
+}
+
+.icon img {
+  max-width: 50px;
+  display: block;
+  margin: 0 auto 0.5rem;
+}
+
+
+</STYLE>
+
+
+<div class="govops-grid">
+  <!-- GovOps Seal (stays on the left, spanning multiple rows) -->
+  <div class="govops-seal">
+    <img 
+      src="/assets/images/marketplace/icon_govops.jpg" 
+      alt="GovOps Shared Services Marketplace" 
+    >
+  </div>
+
+  <!-- First row of icons (Financial, Grants, HR, Travel, Cyber) -->
+  <div class="icon-row">
+    <div class="icon">
+      <img src="icon.corefm.webp" alt="Financial Management">
+      <p>Financial<BR>Management</p>
+    </div>
+    <div class="icon">
+      <img src="icon.grants.webp" alt="Grants Management">
+      <p>Grants<BR>Management</p>
+    </div>
+    <div class="icon">
+      <img src="icon.hr.webp" alt="Human Resources">
+      <p>Human<BR>Resources</p>
+    </div>
+    <div class="icon">
+      <img src="icon.travel.webp" alt="Travel & Expense">
+      <p>Travel &<BR>Expense</p>
+    </div>
+    <div class="icon">
+      <img src="icon.cyber.webp" alt="Cybersecurity Services">
+      <p>Cybersecurity<BR>Services</p>
+    </div>
+  </div>
+
+  <!-- Second row of icons (Information Technology, etc.) -->
+  <div class="icon-row">
+    <div class="icon">
+      <img src="icon.computer.webp" alt="Information Technology">
+      <p>Information<BR>Technology</p>
+    </div>
+    <!-- Add more icons here in the future -->
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<BR><BR>
 <span class="govops-container">
     <img src="/assets/images/marketplace/icon_govops.jpg"  alt="GovOps Shared Services Marketplace" 
                                                                         style="width:125px; height:125px; vertical-align: top;">
