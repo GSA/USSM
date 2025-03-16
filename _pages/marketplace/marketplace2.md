@@ -226,7 +226,7 @@ margin-right: 5px;
   grid-column: 2;        /* Right column */
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* 5 icons across */
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .top-icons {
@@ -307,6 +307,16 @@ margin-right: 5px;
     </div>
     <!-- Add more icons or placeholders here as needed -->
     <div class="icon">
+      <img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.erm.webp" alt="Records Management">
+      <p>Records<br>Management</p>
+    </div>
+
+     <div class="icon">
+      <img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.erm.webp" alt="Records Management">
+      <p>Records<br>Management</p>
+    </div>
+
+     <div class="icon">
       <img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.erm.webp" alt="Records Management">
       <p>Records<br>Management</p>
     </div>
