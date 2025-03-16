@@ -119,7 +119,7 @@ margin-right: 5px;
 .left-col {
   display: flex;
   flex-direction: column;   /* Stack seal and IT icon vertically */
-  align-items: flex-start;  /* Left-align them */
+  align-items: center;  /* Left-align them */
 }
 
 .govops-seal {
