@@ -125,11 +125,7 @@ margin-right: 5px;
   justify-self: center; /* Center the IT icon horizontally */
 }
 
-.govops-seal img,
-.it-icon img {
-  max-width: 50px; /* Adjust as needed */
-  height: auto;
-}
+
 
 /* Right Column (Icons) */
 /* Both rows will share the same grid structure so that each column aligns */
@@ -166,6 +162,16 @@ margin-right: 5px;
   visibility: hidden;
 }
 
+
+  .govops-seal img {
+  width: 100px;
+  height: auto;
+}
+
+.it-icon img {
+  width: 50px;
+  height: auto;
+}
   
 
 </STYLE>
