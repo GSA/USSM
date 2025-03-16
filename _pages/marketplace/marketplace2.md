@@ -86,6 +86,8 @@ news-category: FIBF-PROGRAM
 </style>
 
   <div class="rectangle">
+
+    <IMG SRC="/asets/images/icon_us_flag_64.png">&nbsp;&nbsp;
         In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.
     </div>    
 
