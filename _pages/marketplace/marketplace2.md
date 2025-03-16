@@ -127,8 +127,7 @@ margin-right: 5px;
 
 .govops-seal img,
 .it-icon img {
-  max-width: 125px; /* Adjust as needed */
-  height: auto;
+
 }
 
 /* Right Column (Icons) */
