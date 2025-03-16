@@ -227,6 +227,7 @@ margin-right: 5px;
   grid-column: 2;        /* Right column */
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* 5 icons across */
+  align-items: start;
   gap: 0.5rem;
 }
 
