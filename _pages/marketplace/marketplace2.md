@@ -45,20 +45,27 @@ news-category: FIBF-PROGRAM
 }
 
 .rectangle {
-            background-color: #0A2A66; /* Dark blue */
-            color: white;
-            font-size: 18px;
+       
+  background-color: #0A2A66;  /* Dark blue */
+  color: #fff;               /* White text (if desired) */
+    padding: 12px;
+            width: 97%;
+     font-size: 18px;
             font-weight: bold;
             font-style: italic;
             text-align: center;
-            padding: 12px;
-            width: 97%;
-            max-width: 800px;
-            border-radius: 10px;
-            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-            margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center; /* Ensures both flag and text are vertically centered */
+ 
         }
 
+.rectangle img {
+margin-right: 10px;
+
+}
+  
      .icon-container {
             display: flex;
             justify-content: center;
