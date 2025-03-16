@@ -219,11 +219,11 @@ margin-right: 5px;
   <!-- Bottom right: Second row of icons -->
   <div class="bottom-icons">
     <div class="icon" id="icon-fleet">
-      <img src="/assets/images/fibf/icons/icon.fleet.webp" alt="Fleet">
+      <img src="{{ site.baseurl }}/assets/images/fibf/icons/car.icon.webp" alt="Fleet">
       <p>Fleet</p>
     </div>
     <div class="icon" id="icon-pcards">
-      <img src="/assets/images/fibf/icons/icon.purchasecards.webp" alt="Purchase Cards">
+      <img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.smartpay.webp" alt="Purchase Cards">
       <p>Purchase<br>Cards</p>
     </div>
     <!-- If there are no bottom icons for a particular top icon, you can add an empty placeholder -->
