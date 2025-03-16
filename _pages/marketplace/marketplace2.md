@@ -104,104 +104,95 @@ margin-right: 5px;
 
 <STYLE>
 
-.govops-grid {
-  /* Create a 2-column grid: 
-     1) auto-width column for the seal 
-     2) flexible column for the icons */
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto auto; /* 2 rows (you can add more if needed) */
-  gap: 1rem; /* space between columns/rows */
-  align-items: start; /* top-align rows */
+.govops-layout {
+  display: flex;        /* Create a horizontal layout with 2 columns */
+  gap: 2rem;            /* Space between columns (adjust as needed) */
+  align-items: flex-start; /* Top-align both columns */
   
-  /* If you want a background color or padding around it, uncomment these:
-     background-color: #fff;
+  /* Optionally add padding, background, etc.
      padding: 1rem;
+     background-color: #fff;
      border-radius: 8px;
   */
 }
 
-.govops-seal {
-  /* Place the seal in the left column, spanning 2 rows. 
-     This ensures it stays on the left, while icons can fill row 1 & row 2 to the right. */
-  grid-column: 1;
-  grid-row: 1 / 3; /* spans rows 1 and 2 */
-  
-  /* Center or top-align the image inside the seal container as you wish */
+.left-col {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;   /* Stack seal and IT icon vertically */
+  align-items: flex-start;  /* Left-align them */
 }
 
-.govops-seal img {
-  max-width: 125px;
+.govops-seal {
+  width: 125px;   /* Adjust as needed */
   height: auto;
+  margin-bottom: 1rem; /* Space below the seal before IT icon */
 }
 
-.icon-row {
-  /* Each .icon-row is a row in the grid, in the second column. */
-  grid-column: 2;
-  /* The first .icon-row will be row 1, the second .icon-row is row 2, etc. */
-  
-  display: flex;       /* flex layout for icons in a row */
-  flex-wrap: wrap;     /* allows wrapping if needed on smaller screens */
-  gap: 1rem;           /* space between icons */
+.it-icon {
+  margin-top: 1rem;  /* Additional spacing if desired */
+}
+
+.right-col {
+  display: flex;
+  flex-wrap: wrap;   /* Let icons wrap on smaller screens if needed */
+  gap: 1rem;         /* Space between icons */
 }
 
 .icon {
-  text-align: center;  /* center icon + text */
+  text-align: center;
+  font-weight: bold;
 }
 
 .icon img {
-  max-width: 50px;
+  max-width: 50px;   /* Adjust as needed */
   display: block;
   margin: 0 auto 0.5rem;
 }
 
-
 </STYLE>
 
 
-<div class="govops-grid">
-  <!-- GovOps Seal (stays on the left, spanning multiple rows) -->
-  <div class="govops-seal">
+
+<div class="govops-layout">
+  <!-- Left column -->
+  <div class="left-col">
+    <!-- GovOps seal -->
     <img 
       src="/assets/images/marketplace/icon_govops.jpg" 
       alt="GovOps Shared Services Marketplace" 
+      class="govops-seal"
     >
+    
+    <!-- Information Technology icon directly under the seal -->
+    <div class="icon it-icon">
+      <img src="/assets/images/fibf/icons/icon.computer.webp" alt="Information Technology">
+      <p>Information<BR>Technology</p>
+    </div>
   </div>
 
-  <!-- First row of icons (Financial, Grants, HR, Travel, Cyber) -->
-  <div class="icon-row">
+  <!-- Right column (other icons) -->
+  <div class="right-col">
     <div class="icon">
-      <img src="icon.corefm.webp" alt="Financial Management">
+      <img src="/assets/images/fibf/icons/icon.corefm.webp" alt="Financial Management">
       <p>Financial<BR>Management</p>
     </div>
     <div class="icon">
-      <img src="icon.grants.webp" alt="Grants Management">
+      <img src="/assets/images/fibf/icons/icon.grants.webp" alt="Grants Management">
       <p>Grants<BR>Management</p>
     </div>
     <div class="icon">
-      <img src="icon.hr.webp" alt="Human Resources">
+      <img src="/assets/images/fibf/icons/icon.hr.webp" alt="Human Resources">
       <p>Human<BR>Resources</p>
     </div>
     <div class="icon">
-      <img src="icon.travel.webp" alt="Travel & Expense">
+      <img src="/assets/images/fibf/icons/icon.travel.webp" alt="Travel & Expense">
       <p>Travel &<BR>Expense</p>
     </div>
     <div class="icon">
-      <img src="icon.cyber.webp" alt="Cybersecurity Services">
+      <img src="/assets/images/fibf/icons/icon.cyber.webp" alt="Cybersecurity Services">
       <p>Cybersecurity<BR>Services</p>
     </div>
-  </div>
-
-  <!-- Second row of icons (Information Technology, etc.) -->
-  <div class="icon-row">
-    <div class="icon">
-      <img src="icon.computer.webp" alt="Information Technology">
-      <p>Information<BR>Technology</p>
-    </div>
-    <!-- Add more icons here in the future -->
+    <!-- Add more icons here as needed -->
   </div>
 </div>
 
