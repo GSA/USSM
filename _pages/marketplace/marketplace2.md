@@ -48,13 +48,13 @@ news-category: FIBF-PROGRAM
        
   background-color: #0A2A66;  /* Dark blue */
   color: #fff;               /* White text (if desired) */
-    padding: 5px;
+    padding: 10px;
             width: 97%;
      font-size: 18px;
             font-weight: bold;
             font-style: italic;
             text-align: center;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   display: flex;
   align-items: center; /* Ensures both flag and text are vertically centered */
@@ -62,7 +62,7 @@ news-category: FIBF-PROGRAM
         }
 
 .rectangle img {
-margin-right: 1px;
+margin-right: 5px;
 
 }
   
