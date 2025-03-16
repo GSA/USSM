@@ -219,6 +219,7 @@ margin-right: 5px;
   width: 50px;   /* IT icon at 50px wide */
   height: auto;
   margin-bottom: 0.5rem;
+   align-items: start;
 }
 
 /* Right column: top icons and bottom icons each as a grid */
