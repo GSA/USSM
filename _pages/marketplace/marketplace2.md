@@ -386,8 +386,10 @@ margin-right: 5px;
 
  
  <p class="govops-text">
-Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce agency operating costs, and drive public accountability in agency management and operations. 
-  
+
+     <!--
+   Marketplace solutions will blend commercial practices with federal requirements to improve government efficiency, reduce agency operating costs, and drive public accountability in agency management and operations. 
+
 <P><B>Find solutions here:</B></P>
    <span style="display: block; height: 8px;"></span>
  <div class="icon-container">
@@ -412,9 +414,9 @@ Marketplace solutions will blend commercial practices with federal requirements 
         <div class="icon">
           <a href="{{site.baseurl}}/marketplace/ess-erm/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title=""><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.erm.webp" alt="Icon 9"><p>Records<BR>Management</p></a></div>
     </div>
+-->
 
-
-     The marketplace will deliver shared expertise and modern, secure technologies to agency management functions such as Accounting/Finance, Grants, Human Resources, Travel, Real Property, and Information Technology / Cybersecurity. An efficient management ecosystem will deliver a public-focused, accountable, performance-driven approach to agency operations that restores focus on the administration's priorities and improves mission delivery in service to the American taxpayer.
+     The marketplace delivers modern, secure technologies to service agency operations in areas such as Accounting/Finance, Grants, Human Resources, Travel, Real Property, and Information Technology / Cybersecurity. An efficient management ecosystem delivers a citizen-focused, accountable, performance-driven approach to agency operations that restores focus on the administration's priorities and improves mission delivery in service to the American taxpayer.
     </p>
 
 
