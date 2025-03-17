@@ -21,6 +21,55 @@ news-category: FIBF-ERM
     </div>
 </div>
 
+<STYLE>
+
+.hover-container {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-link {
+  text-decoration: none;
+  color: #0073e6; /* change to your preferred link color */
+  font-weight: bold;
+}
+
+.hover-info {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: absolute;
+  top: 100%;      /* Places the info box directly below the link */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #222;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+  white-space: nowrap;
+  pointer-events: none; /* prevents accidental hovers on the box */
+}
+
+.hover-container:hover .hover-info {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+
+</STYLE>
+
+
+<div class="hover-container">
+  <a href="#" class="hover-link">hover me</a>
+  <span class="hover-info">
+    <strong>$6.8 Trillion</strong><br>
+    2024 Federal Budget
+  </span>
+</div>
+
+
+
 <section class="pm" id="electronic-records-management">
     <div class="grid-container">
         <div class="grid-row">
