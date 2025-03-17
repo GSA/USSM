@@ -60,13 +60,6 @@ news-category: FIBF-ERM
 </STYLE>
 
 
-<div class="hover-container">
-  <a href="#" class="hover-link">hover me</a>
-  <span class="hover-info">
-    <strong>$6.8 Trillion</strong><br>
-    2024 Federal Budget
-  </span>
-</div>
 
 
 
@@ -80,6 +73,13 @@ news-category: FIBF-ERM
                 <p>
                    The Department of Health and Human Services <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">Grants Management Quality Services Management Office</A> established a Marketplace of shared grants management solutions and is operationalizing a vision for federal grants that enables applicants, recipients, and federal awarding agencies to efficiently and effectively deliver on their missions. The Grants QSMO engages all 52 federal awarding agencies to ensure marketplace solutions and services align with their needs, challenges, and objectives.  
                 </p>
+<div class="hover-container">
+  <a href="#" class="hover-link">hover me</a>
+  <span class="hover-info">
+    <strong>$6.8 Trillion</strong><br>
+    2024 Federal Budget
+  </span>
+</div>
 
 
 <B>Federal agencies, begin here - Find solutions and get help:</B>
