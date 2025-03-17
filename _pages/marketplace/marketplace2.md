@@ -416,7 +416,7 @@ margin-right: 5px;
     </div>
 -->
 
-     The marketplace delivers modern, secure technologies to service agency operations in areas such as Accounting/Finance, Grants, Human Resources, Travel, Real Property, and Information Technology / Cybersecurity. An efficient management ecosystem delivers a citizen-focused, accountable, performance-driven approach to agency operations that restores focus on the administration's priorities and improves mission delivery in service to the American taxpayer.
+    Marketplace partners are to deliver modern, secure technologies that service agency operations need.  An efficient management ecosystem will deliver a citizen-centric, accountable, performance-driven approach to agency operations that restores the government's focus on administration's priorities and improves mission delivery in service to American taxpayers.
     </p>
 
 
