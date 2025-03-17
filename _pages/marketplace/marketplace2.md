@@ -416,7 +416,7 @@ margin-right: 5px;
     </div>
 -->
 
-    Marketplace partners are to deliver modern, secure technologies that service agency operations need.  An efficient management ecosystem will deliver a citizen-centric, accountable, performance-driven approach to agency operations that restores the government's focus on administration's priorities and improves mission delivery in service to American taxpayers.
+    Marketplace partners must deliver modern technology and services needed to propery manage agency operations. An efficient management ecosystem will deliver a citizen-centric, accountable, performance-driven approach to agency operations that restores the government's focus on administration's priorities and improves mission delivery in service to American taxpayers.
     </p>
 
 
