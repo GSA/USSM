@@ -268,6 +268,11 @@ margin-right: 5px;
   <!-- Top-right: Row of icons (Financial, Grants, etc.) -->
   <div class="top-icons">
     <div class="icon">
+      <img src="/assets/images/fibf/icons/icon.cyber.webp" alt="Cybersecurity Services">
+      <p>Cybersecurity<br>Services</p>
+    </div>
+    
+    <div class="icon">
       <A HREF="/marketplace/qsmo-ffm/"><img src="/assets/images/fibf/icons/icon.corefm.webp" alt="Financial Management"></A>
       <p>Financial<br>Management</p>
     </div>
@@ -283,10 +288,7 @@ margin-right: 5px;
       <A HREF="/marketplace/ess-trt2/"><img src="/assets/images/fibf/icons/icon.travel.webp" alt="Travel & Expense"></A>
       <p>Travel &<br>Expense</p>
     </div>
-    <div class="icon">
-      <img src="/assets/images/fibf/icons/icon.cyber.webp" alt="Cybersecurity Services">
-      <p>Cybersecurity<br>Services</p>
-    </div>
+
   </div>
 
   <!-- Bottom-left: IT icon (centered under seal) -->
