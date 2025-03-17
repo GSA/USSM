@@ -290,7 +290,7 @@ margin-right: 5px;
   </div>
 
   <!-- Bottom-left: IT icon (centered under seal) -->
-  <div class="it-icon" style="align-items: start;">
+  <div class="it-icon">
     <img 
       src="/assets/images/fibf/icons/icon.computer.webp" 
       alt="Information Technology"
