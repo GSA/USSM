@@ -290,6 +290,8 @@ margin-right: 5px;
   </div>
 
   <!-- Bottom-left: IT icon (centered under seal) -->
+
+  <!--
   <div class="it-icon">
     <img 
       src="/assets/images/fibf/icons/icon.computer.webp" 
@@ -297,9 +299,18 @@ margin-right: 5px;
     >
     <p>Information<br>Technology</p>
   </div>
+-->
 
   <!-- Bottom-right: Second row of icons (Fleet, Purchase Cards, etc.) -->
   <div class="bottom-icons">
+    <div class="icon">
+    <img 
+      src="{{ site.baseurl }}/assets/images/fibf/icons/icon.computer.webp" 
+      alt="Information Technology"
+    >
+    <p>Information<br>Technology</p>
+    </div>
+    
     <div class="icon">
       <img src="{{ site.baseurl }}/assets/images/fibf/icons/car.icon.webp" alt="Fleet">
       <p>Fleet</p>
@@ -314,6 +325,7 @@ margin-right: 5px;
       <p>Records<br>Management</p>
     </div>
 
+<!--
      <div class="icon">
       <img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.erm.webp" alt="Records Management">
       <p>Records<br>Management</p>
@@ -323,6 +335,8 @@ margin-right: 5px;
       <img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.erm.webp" alt="Records Management">
       <p>Records<br>Management</p>
     </div>
+
+-->
   
   </div>
 </div>
