@@ -306,10 +306,9 @@ margin-right: 5px;
   <!-- Bottom-right: Second row of icons (Fleet, Purchase Cards, etc.) -->
   <div class="bottom-icons">
     <div class="icon">
-    <img 
+     <a href="{{site.baseurl}}/marketplace/ess-eis/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title=""><img 
       src="{{ site.baseurl }}/assets/images/fibf/icons/icon.computer.webp" 
-      alt="Information Technology"
-    >
+      alt="Information Technology"></a>
     <p>Information<br>Technology</p>
     </div>
     
@@ -318,12 +317,12 @@ margin-right: 5px;
       <p>Fleet</p>
     </div>
     <div class="icon">
-      <img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.smartpay.webp" alt="Purchase Cards">
+      <A HREF="{{site.baseurl}}/marketplace/ess-smartpay/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title=""><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.smartpay.webp" alt="Purchase Cards"></A>
       <p>Purchase<br>Cards</p>
     </div>
     <!-- Add more icons or placeholders here as needed -->
     <div class="icon">
-      <img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.erm.webp" alt="Records Management">
+      <A HREF="{{site.baseurl}}/marketplace/ess-erm/" class="margin-bottom-2 grid-col-4 text-center text-no-underline text-black text-bold line-height-sans-2 font-body-3xs" title=""><img src="{{ site.baseurl }}/assets/images/fibf/icons/icon.erm.webp" alt="Records Management"></A>
       <p>Records<br>Management</p>
     </div>
 
