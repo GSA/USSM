@@ -328,6 +328,58 @@ margin-right: 5px;
 </div>
 </SPAN>
 
+<STYLE>
+
+/* The hover box that appears on hover */
+.icon-hover-info {
+  position: absolute;
+  /* By default, place it above the icon; adjust top/bottom as needed */
+  bottom: 100%;       /* Positions the box above the icon */
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px);
+  
+  /* Visual styles */
+  background: #222;           /* Dark background */
+  color: #fff;                /* White text */
+  padding: 0.5rem 1rem;
+  border-radius: 8px;         /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  
+  /* Start hidden */
+  opacity: 0;
+  pointer-events: none;
+  
+  /* Smooth transition */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Show the box on hover */
+.icon:hover .icon-hover-info {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-12px);
+  pointer-events: auto; /* So you can hover over the box if desired */
+}
+
+/* Optional styling for text inside the hover box */
+.budget-amount {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.budget-year {
+  font-size: 0.9rem;
+  opacity: 0.9;  /* Slightly lighter if you want */
+  margin-top: 0.25rem;
+}
+
+</STYLE>
+
+
+<div class="icon-hover-info">
+    <div class="budget-amount">$6.8 Trillion</div>
+    <div class="budget-year">2024 Federal Budget</div>
+  </div>
+
+
 <hr>
 
  
