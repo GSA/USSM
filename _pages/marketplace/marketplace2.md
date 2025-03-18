@@ -98,9 +98,6 @@ margin-right: 5px;
         In order to improve the way government delivers services externally, we must aggressively reform the way government delivers services internally.
     </div>    
 
-<BR>
-
-
 
 <STYLE>
 
@@ -261,10 +258,14 @@ margin-right: 5px;
   margin: 0 auto 0.5rem;
 }
 
+.tight-spacing {
+    margin-top: 5px;    /* Adjust as needed */
+    margin-bottom: 5px; /* Adjust as needed */
+}
 
 </STYLE>
 
-      Find modern, centralized capabilities to improve your agency's management and operations performance.<BR><BR>
+      <P CLASS="tight-spacing">Find modern, centralized capabilities to improve your agency's management and operations performance.</P>
 
 <span class="govops-container">
 <div class="govops-grid">
