@@ -406,44 +406,44 @@ Emerging agency interests flagged by <A HREF="https://ussm.gsa.gov/ssgb">Shared 
   
   <div class="icon">
       <img src="/assets/images/fibf/icons/icon_ai.png" alt="Artificial Intelligence">
-      <p>Artificial<BR>
+      <p>(1) Artificial<BR>
       Intelligence</p>
     </div>
     
     <div class="icon">
      <img src="/assets/images/fibf/icons/icon_cx.png" alt="Customer Experience">
-      <p>Customer<BR>
+      <p>(2) Customer<BR>
       Experience</p>
     </div>
     <div class="icon">
       <img src="/assets/images/fibf/icons/icon_contractwriting.png" alt="Contract Writing">
-      <p>Contract<BR>Writing</p>
+      <p>(3) Contract<BR>Writing</p>
     </div>
     <div class="icon">
       <img src="/assets/images/fibf/icons/icon_icam.png" alt="Identity Management">
-      <p>Identity<BR>
+      <p>(4) Identity<BR>
       Management</p>
     </div>
     <div class="icon">
      <img src="/assets/images/fibf/icons/icon_data.png" alt="Data Services">
-      <p>Data<BR>Services</p>
+      <p>(5) Data<BR>Services</p>
     </div>
 
     <div class="icon">
       <img src="/assets/images/fibf/icons/icon_rpm3.png" alt="Real Property Management">
-      <p>Real<BR>Property
+      <p>(6) Real<BR>Property
       </p>
     </div>
     
     <div class="icon">
     <img src="/assets/images/fibf/icons/icon_international2.png" alt="International Services">
-      <p>International<BR>
+      <p>(7) International<BR>
       Services</p>
     </div>
     
     <div class="icon">
      <img src="/assets/images/fibf/icons/icon_foia.png" alt="FOIA Services">
-      <p>FOIA<BR>Services</p>
+      <p>(8) FOIA<BR>Services</p>
     </div>
   
   </div>
