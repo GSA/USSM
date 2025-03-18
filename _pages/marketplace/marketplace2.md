@@ -396,7 +396,7 @@ margin-right: 5px;
 
  
  <p class="govops-text">
-Emerging agency interests flagged by <A HREF="https://ussm.gsa.gov/ssgb">Shared Services Governance Board</A> and <A HREF="https://ussm.gsa.gov/SAPOC">Senior Accountable Point of Contact</A>.
+Emerging agency interests flagged by <A HREF="https://ussm.gsa.gov/ssgb">Shared Services Governance Board</A> and <A HREF="https://ussm.gsa.gov/sapoc">Senior Accountable Point of Contact</A>.
 <div class="ssgb-icons">
 
   
@@ -407,12 +407,12 @@ Emerging agency interests flagged by <A HREF="https://ussm.gsa.gov/ssgb">Shared 
     </div>
     
     <div class="icon">
-      <A HREF="/marketplace/qsmo-ffm/"><img src="/assets/images/fibf/icons/icon_cx.png" alt="Customer Experience"></A>
+      <A HREF="/marketplace/ess-cx/"><img src="/assets/images/fibf/icons/icon_cx.png" alt="Customer Experience"></A>
       <p>Customer<BR>
       Experience</p>
     </div>
     <div class="icon">
-      <A HREF="/marketplace/qsmo-grm/"><img src="/assets/images/fibf/icons/icon_contractwriting.png" alt="Contract Writing"></A>
+      <A HREF="/marketplace/ess-cw/"><img src="/assets/images/fibf/icons/icon_contractwriting.png" alt="Contract Writing"></A>
       <p>Contract<BR>Writing</p>
     </div>
     <div class="icon">
