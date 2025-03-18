@@ -396,9 +396,9 @@ margin-right: 5px;
 
  
  <p class="govops-text">
-
+Emerging priority areas flagged by the <A HREF="https://ussm.gsa.gov/ssgb">Shared Services Governance Board</A>.
 <div class="ssgb-icons">
-Emerging priority areas flagged by the <A HREF="https://ussm.gsa.gov/ssgb">Shared Services Governance Board</A>
+
   
   <div class="icon">
       <img src="/assets/images/fibf/icons/icon.cyber.webp" alt="Cybersecurity Services">
