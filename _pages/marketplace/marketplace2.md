@@ -396,7 +396,7 @@ margin-right: 5px;
 
  
  <p class="govops-text">
-Emerging priority areas flagged by the <A HREF="https://ussm.gsa.gov/ssgb">Shared Services Governance Board</A>.
+Emerging agency interests flagged by <A HREF="https://ussm.gsa.gov/ssgb">Shared Services Governance Board</A> and <A HREF="https://ussm.gsa.gov/SAPOC">Senior Accountable Point of Contact</A>.
 <div class="ssgb-icons">
 
   
