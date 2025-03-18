@@ -259,8 +259,8 @@ margin-right: 5px;
 }
 
 .tight-spacing {
-    margin-top: 5px;    /* Adjust as needed */
-    margin-bottom: 5px; /* Adjust as needed */
+    margin-top: 7px;    /* Adjust as needed */
+    margin-bottom: 7px; /* Adjust as needed */
 }
 
 </STYLE>
