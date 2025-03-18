@@ -328,7 +328,7 @@ margin-right: 5px;
     </div>
     
     <div class="icon">
-      <img src="{{ site.baseurl }}/assets/images/fibf/icons/car.icon.webp" alt="Fleet">
+      <A HREF="https://ussm.gsa.gov/marketplace/ess-fleet/"><img src="{{ site.baseurl }}/assets/images/fibf/icons/car.icon.webp" alt="Fleet"></A>
       <p>Fleet</p>
     </div>
     <div class="icon">
