@@ -1,6 +1,6 @@
 ---
 name: Human Resources
-border: 162e51
+border: 008659
 phase: Formally Designated
 agency: OPM
 contact: hrqsmo@opm.gov
