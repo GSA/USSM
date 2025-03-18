@@ -407,12 +407,12 @@ Emerging priority areas flagged by the <A HREF="https://ussm.gsa.gov/ssgb">Share
     </div>
     
     <div class="icon">
-      <A HREF="/marketplace/qsmo-ffm/"><img src="/assets/images/fibf/icons/icon.cx.png" alt="Customer Experience"></A>
+      <A HREF="/marketplace/qsmo-ffm/"><img src="/assets/images/fibf/icons/icon_cx.png" alt="Customer Experience"></A>
       <p>Customer<BR>
       Experience</p>
     </div>
     <div class="icon">
-      <A HREF="/marketplace/qsmo-grm/"><img src="/assets/images/fibf/icons/icon.contractwriting.png" alt="Contract Writing"></A>
+      <A HREF="/marketplace/qsmo-grm/"><img src="/assets/images/fibf/icons/icon_contractwriting.png" alt="Contract Writing"></A>
       <p>Contract<BR>Writing</p>
     </div>
     <div class="icon">
