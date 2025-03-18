@@ -264,7 +264,7 @@ margin-right: 5px;
 
 </STYLE>
 
-      Find modern, centralized capabilities to improve your agency's management and operations performance.<BR>
+      Find modern, centralized capabilities to improve your agency's management and operations performance.<BR><BR>
 
 <span class="govops-container">
 <div class="govops-grid">
