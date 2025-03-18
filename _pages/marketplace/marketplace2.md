@@ -420,12 +420,12 @@ Emerging agency interests flagged by <A HREF="https://ussm.gsa.gov/ssgb">Shared 
       <p>Contract<BR>Writing</p>
     </div>
     <div class="icon">
-      <A HREF="/marketplace/qsmo-hcm/"><img src="/assets/images/fibf/icons/icon_icam.png" alt="Identity Management"></A>
+      <A HREF="/marketplace/ess-icam/"><img src="/assets/images/fibf/icons/icon_icam.png" alt="Identity Management"></A>
       <p>Identity<BR>
       Management</p>
     </div>
     <div class="icon">
-      <A HREF="/marketplace/ess-trt2/"><img src="/assets/images/fibf/icons/icon_data.png" alt="Data Services"></A>
+      <A HREF="/marketplace/ess-data/"><img src="/assets/images/fibf/icons/icon_data.png" alt="Data Services"></A>
       <p>Data<BR>Services</p>
     </div>
 
@@ -436,13 +436,13 @@ Emerging agency interests flagged by <A HREF="https://ussm.gsa.gov/ssgb">Shared 
     </div>
     
     <div class="icon">
-      <A HREF="/marketplace/qsmo-ffm/"><img src="/assets/images/fibf/icons/icon_international2.png" alt="International Services"></A>
+      <A HREF="/marketplace/ess-icass/"><img src="/assets/images/fibf/icons/icon_international2.png" alt="International Services"></A>
       <p>International<BR>
       Services</p>
     </div>
     
     <div class="icon">
-      <A HREF="/marketplace/qsmo-grm/"><img src="/assets/images/fibf/icons/icon_foia.png" alt="FOIA Services"></A>
+      <A HREF="/marketplace/qsmo-foia/"><img src="/assets/images/fibf/icons/icon_foia.png" alt="FOIA Services"></A>
       <p>FOIA<BR>Services</p>
     </div>
   
