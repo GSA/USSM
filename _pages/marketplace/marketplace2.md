@@ -411,21 +411,21 @@ Emerging agency interests flagged by <A HREF="https://ussm.gsa.gov/ssgb">Shared 
     </div>
     
     <div class="icon">
-     <img src="/assets/images/fibf/icons/icon_cx.png" alt="Customer Experience"></A>
+     <img src="/assets/images/fibf/icons/icon_cx.png" alt="Customer Experience">
       <p>Customer<BR>
       Experience</p>
     </div>
     <div class="icon">
-      <img src="/assets/images/fibf/icons/icon_contractwriting.png" alt="Contract Writing"></A>
+      <img src="/assets/images/fibf/icons/icon_contractwriting.png" alt="Contract Writing">
       <p>Contract<BR>Writing</p>
     </div>
     <div class="icon">
-      <img src="/assets/images/fibf/icons/icon_icam.png" alt="Identity Management"></A>
+      <img src="/assets/images/fibf/icons/icon_icam.png" alt="Identity Management">
       <p>Identity<BR>
       Management</p>
     </div>
     <div class="icon">
-     <img src="/assets/images/fibf/icons/icon_data.png" alt="Data Services"></A>
+     <img src="/assets/images/fibf/icons/icon_data.png" alt="Data Services">
       <p>Data<BR>Services</p>
     </div>
 
@@ -436,13 +436,13 @@ Emerging agency interests flagged by <A HREF="https://ussm.gsa.gov/ssgb">Shared 
     </div>
     
     <div class="icon">
-    <img src="/assets/images/fibf/icons/icon_international2.png" alt="International Services"></A>
+    <img src="/assets/images/fibf/icons/icon_international2.png" alt="International Services">
       <p>International<BR>
       Services</p>
     </div>
     
     <div class="icon">
-     <img src="/assets/images/fibf/icons/icon_foia.png" alt="FOIA Services"></A>
+     <img src="/assets/images/fibf/icons/icon_foia.png" alt="FOIA Services">
       <p>FOIA<BR>Services</p>
     </div>
   
