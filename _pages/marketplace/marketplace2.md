@@ -266,9 +266,9 @@ margin-right: 5px;
 
 
 <span class="govops-container">
+      Elevate mission-support performance with the help of available centralized capabilities for your agency.
 <div class="govops-grid">
 
-      Elevate your agency's management and operations performance through the services portfolio.
 
   <!-- Top-left: GovOps Seal -->
   <div class="govops-seal">
