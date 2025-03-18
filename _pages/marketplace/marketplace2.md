@@ -431,7 +431,7 @@ margin-right: 5px;
     
     <div class="icon">
       <A HREF="/marketplace/qsmo-ffm/"><img src="/assets/images/fibf/icons/icon.corefm.webp" alt="Financial Management"></A>
-      <p>International Administrative<<BR>
+      <p>International Administrative<BR>
       Services</p>
     </div>
     <div class="icon">
