@@ -278,6 +278,7 @@ margin-right: 5px;
 
   <!-- Top-right: Row of icons (Financial, Grants, etc.) -->
   <div class="top-icons">
+    Elevate your agency's management and operations performance through the services portfolio.
     <div class="icon">
       <img src="/assets/images/fibf/icons/icon.cyber.webp" alt="Cybersecurity Services">
       <p>Cybersecurity<br>Services</p>
