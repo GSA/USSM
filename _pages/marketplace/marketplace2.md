@@ -137,6 +137,13 @@ margin-right: 5px;
   gap: 1rem;
 }
 
+  .ssgb-icons {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); /* 5 columns for 5 icons */
+  gap: 1rem;
+}
+
 .top-icons {
   grid-row: 1;
 }
@@ -386,7 +393,7 @@ margin-right: 5px;
  
  <p class="govops-text">
 
-<div class="top-icons">
+<div class="ssgb-icons">
     <div class="icon">
       <img src="/assets/images/fibf/icons/icon.cyber.webp" alt="Cybersecurity Services">
       <p>Cybersecurity<br>Services</p>
