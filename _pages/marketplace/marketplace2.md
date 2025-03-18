@@ -264,9 +264,9 @@ margin-right: 5px;
 
 </STYLE>
 
+      Elevate mission-support performance with the help of available centralized capabilities for your agency.
 
 <span class="govops-container">
-      Elevate mission-support performance with the help of available centralized capabilities for your agency.
 <div class="govops-grid">
 
 
