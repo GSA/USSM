@@ -144,6 +144,10 @@ margin-right: 5px;
   gap: 1rem;
 }
 
+  .ssgb-icons {
+  grid-row: 1;
+}
+
 .top-icons {
   grid-row: 1;
 }
