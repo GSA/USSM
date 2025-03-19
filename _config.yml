@@ -78,7 +78,7 @@ primary_navigation:
       permalink: /governance/
       show_in_menu: true
       show_in_footer: false
-    - text: 'Data & Business Standards'
+    - text: 'Data Standards'
       href: /pages/team.md
       permalink: /fibf/
       show_in_menu: true
@@ -303,16 +303,16 @@ primary_navigation:
       show_button_style: true
 #    - text: 'DEVHUB'
 #      href: pages/resources.md
-#      permalink: /automat/
+#      permalink: /automate/
 #      show_in_menu: true
 #      show_in_footer: false
 #      show_button_style: true 
-  #   - text: 'DEV HUB'
-  #  href: pages/resources.md
-  #    permalink: /automate/
-  #    show_in_menu: true
-  #    show_in_footer: false
-  #    show_button_style: true
+#     - text: 'DEV HUB'
+#    href: pages/resources.md
+#      permalink: /automate/
+#      show_in_menu: true
+#      show_in_footer: false
+#      show_button_style: true
   #  - text: 'Dev Hub'
   #    href: pages/resources.md
   #    permalink: /marketplace/

@@ -1,16 +1,15 @@
 ---
 layout: governance/representative
-permalink: /ssgb/vacant-cochair1/
+permalink: /ssgb/vacant-cio/
 portrait: vacant.webp
-type: Board Chair
 title: Shared Services Governance Board
-name: TBD
+name: Member Councils
 title: Shared Services Governance Board
 name: Vacant
-position: TBD
+position: 
 department: TBD
-logo: general-services-administration-logo.svg | 
-logo-link: 
+logo: 3-cioc-logo.webp | https://www.cio.gov/about/vision/ | CIOC
+company: CIOC
 ---
 
-TBD
+Coming soon.
