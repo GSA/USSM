@@ -1,6 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Get all filter groups
   const filterGroups = document.querySelectorAll(".filter-list");
+  const qsmosContainer = document.querySelector(".qsmos");
+  const qsmos = Array.from(document.querySelectorAll(".qsmo"));
+  const resetButton = document.querySelector(
+    'a[href="/qsmo/#subject=*&role=*&status=*"], .usa-button--accent-cool'
+  );
+
+  // Store the original order of items
+  const originalOrder = [...qsmos];
 
   filterGroups.forEach((group) => {
     group.addEventListener("click", function (e) {
@@ -16,9 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
           // Otherwise, toggle it on (add 'checked' class) and remove from others in the same group
           const groupLinks = group.querySelectorAll("a");
-          groupLinks.forEach((link) => {
-            link.classList.remove("checked");
-          });
+          groupLinks.forEach((link) => link.classList.remove("checked"));
           clickedFilter.classList.add("checked");
         }
 
@@ -37,9 +43,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const group = selected.closest(".filter-list").dataset.filterGroup;
       selectedFilters[group] = selected.getAttribute("data-filter");
     });
-
-    const qsmosContainer = document.querySelector(".qsmos");
-    const qsmos = Array.from(document.querySelectorAll(".qsmo"));
 
     let filteredItems = [];
     let hiddenItems = [];
@@ -64,18 +67,31 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 
-    // Reorder elements: First add visible ones, then hidden ones
+    // Move filtered items to the top
     qsmosContainer.innerHTML = "";
     filteredItems.forEach((item) => qsmosContainer.appendChild(item));
-    hiddenItems.forEach((item) => qsmosContainer.appendChild(item)); // Keeps layout intact
-
-    // Apply shuffle effect for smooth movement
-    qsmosContainer.style.display = "flex";
-    qsmosContainer.style.flexWrap = "wrap";
-    qsmosContainer.style.gap = "1rem";
-    qsmosContainer.style.justifyContent = "start";
+    hiddenItems.forEach((item) => qsmosContainer.appendChild(item));
 
     // Update filter count
+    updateFilterCount();
+  }
+
+  // Function to reset filters and restore original order
+  function resetFilters() {
+    // Show all items
+    document
+      .querySelectorAll(".qsmo")
+      .forEach((qsmo) => qsmo.classList.remove("hidden"));
+
+    // Remove 'checked' class from all filters
+    document
+      .querySelectorAll(".filter-list a")
+      .forEach((link) => link.classList.remove("checked"));
+
+    // Restore original order
+    qsmosContainer.innerHTML = "";
+    originalOrder.forEach((item) => qsmosContainer.appendChild(item));
+
     updateFilterCount();
   }
 
@@ -87,25 +103,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Reset button functionality
-  const resetButton = document.querySelector(
-    'a[href="/qsmo/#subject=*&role=*&status=*"], .usa-button--accent-cool'
-  );
   if (resetButton) {
     resetButton.addEventListener("click", function (e) {
       e.preventDefault();
-
-      // Show all items
-      document.querySelectorAll(".qsmo").forEach((qsmo) => {
-        qsmo.classList.remove("hidden");
-      });
-
-      // Remove 'checked' class from all filters
-      document.querySelectorAll(".filter-list a").forEach((link) => {
-        link.classList.remove("checked");
-      });
-
-      // Update the filter count
-      updateFilterCount();
+      resetFilters();
     });
   }
 
