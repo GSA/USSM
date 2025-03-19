@@ -975,3 +975,23 @@ opacity: 0;
   text-transform: uppercase;
   padding: 2px;
 }
+
+.qsmo {
+  opacity: 1;
+  transform: translateY(0) translateX(0); /* Initially no movement */
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.qsmo.hidden {
+  opacity: 0;
+  transform: translateY(20px) translateX(10px); /* Random horizontal movement */
+  visibility: hidden;
+}
+
+/* Adding a class for shuffle movement */
+.qsmo.shuffling {
+  opacity: 0;
+  transform: translateY(10px) translateX(-10px); /* Slight shuffle effect */
+  visibility: hidden;
+}
+
