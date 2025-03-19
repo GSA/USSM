@@ -1,6 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Get all filter links
   const filterLinks = document.querySelectorAll(".filter-list a");
+  const qsmos = document.querySelectorAll(".qsmo");
+  qsmos.forEach((qsmo) => {
+    qsmo.style.display = "block"; // Force visibility
+  });
+
+  // Update the initial filter count after ensuring all items are visible
+  updateFilterCount();
 
   // Loop through each filter link and add a click event listener
   filterLinks.forEach((link) => {
@@ -11,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const filterClass = e.target.getAttribute("data-filter");
 
       // Get all the QSMO cards
-      const qsmos = document.querySelectorAll(".qsmo");
+      // const qsmos = document.querySelectorAll(".qsmo");
 
       // Loop through each QSMO and check if it matches the filter
       qsmos.forEach((qsmo) => {
