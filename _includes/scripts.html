@@ -1,43 +1,45 @@
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 <!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
 
-{% if page.permalink == "/marketplace/" %}
 <script src="{{ site.baseurl }}/assets/js/isotope.pkgd.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/isotope.settings.js"></script>
-{% endif %}}
-
 {% if site.ga.ua %}
 <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga.ua }}"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id={{ site.ga.ua }}"
+></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
   /**
-    * `forceSSL` was used for analytics.js (the older Google Analytics script).
-    * It isn't documented for gtag.js, but the term occurs in the gtag.js code;
-    * figure it doesn't hurt to leave it in. -@afeld, 5/29/19
-    */
-  gtag('config', '{{ site.ga.ua }}', { 'anonymize_ip': true, 'forceSSL': true });
+   * `forceSSL` was used for analytics.js (the older Google Analytics script).
+   * It isn't documented for gtag.js, but the term occurs in the gtag.js code;
+   * figure it doesn't hurt to leave it in. -@afeld, 5/29/19
+   */
+  gtag("config", "{{ site.ga.ua }}", { anonymize_ip: true, forceSSL: true });
 </script>
 {% endif %}
 
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/slick.js?{{ site.time | date: '%s%N' }}"></script>
+<script
+  type="text/javascript"
+  src="{{ site.baseurl }}/assets/js/slick.js?{{ site.time | date: '%s%N' }}"
+></script>
 
 <script type="text/javascript">
-    jQuery(document).ready(function(){
-        jQuery('.carousel').slick({
-            lazyLoad: 'ondemand', // ondemand progressive anticipated
-            infinite: true,
-            dots:true,
-            arrows:false
-        });
-
+  jQuery(document).ready(function () {
+    jQuery(".carousel").slick({
+      lazyLoad: "ondemand", // ondemand progressive anticipated
+      infinite: true,
+      dots: true,
+      arrows: false,
     });
-
+  });
 </script>
-
 
 <script src="{{ site.baseurl }}/assets/js/uswds.min.js?{{ site.time | date: '%s%N' }}"></script>
 <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
@@ -50,29 +52,38 @@
 <script src="https://cdn.datatables.net/buttons/1.7.0/js/buttons.print.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/app.js?{{ site.time | date: '%s%N' }}"></script>
 
-
-
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/slick.js?1617716038051754794"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/magnific-popup.js?1617716038051754794"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/m3.js"></script>
-  {% for file in page.attached %}
-  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ file }}.js"></script>
-  {% endfor %}
+<script
+  type="text/javascript"
+  src="{{ site.baseurl }}/assets/js/slick.js?1617716038051754794"
+></script>
+<script
+  type="text/javascript"
+  src="{{ site.baseurl }}/assets/js/magnific-popup.js?1617716038051754794"
+></script>
+<script
+  type="text/javascript"
+  src="{{ site.baseurl }}/assets/js/m3.js"
+></script>
+{% for file in page.attached %}
+<script
+  type="text/javascript"
+  src="{{ site.baseurl }}/assets/js/{{ file }}.js"
+></script>
+{% endfor %}
 
 <script type="text/javascript">
-jQuery(document).ready(function(){
-  jQuery('.top').slick({
-      lazyLoad: 'ondemand', // ondemand progressive anticipated
+  jQuery(document).ready(function () {
+    jQuery(".top").slick({
+      lazyLoad: "ondemand", // ondemand progressive anticipated
       infinite: true,
-      dots:true,
-      arrows:false
+      dots: true,
+      arrows: false,
+    });
+    jQuery(".image-link").magnificPopup({
+      type: "inline",
+      midClick: true,
+    });
   });
-  jQuery('.image-link').magnificPopup({
-      type:'inline',
-      midClick: true
-  });
-});
-
 </script>
 
 {% if page.permalink == "/marketplace/"%}
