@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Frequently Asked Questions
+title: Sharing Quality Services FAQ
 permalink: /faq/
 banner: true
 ---
@@ -14,9 +14,10 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
       <a name="key-takeaways"></a>KEY TAKEAWAYS
     </button>
   </h3>
-  <div id="key-takeaways" class="usa-accordion__content usa-prose">
+<div id="key-takeaways" class="usa-accordion__content usa-prose">
     <div class="usa-accordion usa-accordion--bordered">
-      <ol>
+      <<p><strong>The SQS Strategy intends to:</strong></p>
+      <ol style="padding-left: 20px;">
         <li>Improve mission support services to agencies so they can focus on mission delivery to taxpayers.</li>
         <li>Create process improvements so our workforce can focus on higher value work that aligns with agency missions.</li>
         <li>Establish agreed upon standards to bring modern solutions to government that reduce customization and enhance interoperability between systems.</li>
@@ -24,8 +25,7 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
         <li>Plan for additional shared service offerings to support mission support functions.</li>
       </ol>
     </div>
-  </div>
-
+</div>
   <h3 class="usa-accordion__heading">
     <button type="button" class="usa-accordion__button top-level" aria-expanded="false" aria-controls="faqs">
       <a name="faqs"></a>FREQUENTLY ASKED QUESTIONS
