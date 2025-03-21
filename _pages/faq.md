@@ -41,8 +41,8 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
       <div id="faq1" class="usa-accordion__content usa-prose">
         <ul>
           <li>
-            Shared services refers to the delivery of common mission-support services through consolidated, standardized, and scalable capabilities available in a marketplace of both commercial and federal providers. Agencies are operating under OMB Memorandum M-19-16, <em>Centralized Mission Support Capabilities for the Federal Government</em>.
-          </li>
+            Shared services refers to the delivery of common mission-support services through consolidated, standardized, and scalable capabilities available in a marketplace of both commercial and federal providers. Agencies are operating under <a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/m-19-16.pdf">OMB Memorandum M-19-16, <em>Centralized Mission Support Capabilities for the Federal Government</em>.</a>
+          </li> 
         </ul>
       </div>
       <h4 class="usa-accordion__heading">
@@ -53,7 +53,7 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
       <div id="faq2" class="usa-accordion__content usa-prose">
         <ul>
           <li>
-            Shared services is an industry best practice growing in popularity across the private sector that can improve the effectiveness and efficiency of the federal government. In its July 2023 paper on ‘Measuring the Business Value of Shared Services’, the Shared Services Leadership Coalition reported that 60% of large private organizations have transitioned to an approach of organization-wide shared services. Many state governments, nonprofits, and businesses have been able to reduce costs and improve their operational effectiveness by adopting shared services.
+            Shared services is an industry best practice growing in popularity across the private sector that can improve the effectiveness and efficiency of the federal government. In its July 2023 paper on ‘<a href="https://sharedservicesnow.org/wp-content/uploads/2023/09/A-Primer-on-Shared-Services-Center-Measures-for-the-US-Government-8-30-23.pdf">Measuring the Business Value of Shared Services</a>’, the Shared Services Leadership Coalition reported that 60% of large private organizations have transitioned to an approach of organization-wide shared services. Many state governments, nonprofits, and businesses have been able to reduce costs and improve their operational effectiveness by adopting shared services.
           </li>
           <li>
             Shared services are designed to increase government efficiency, address redundancies, improve service quality, reduce operating costs, and drive better use of technology across the federal government. The federal government can achieve:
@@ -78,7 +78,7 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
           <li>Leveraging Lessons Learned – This strategy is informed by the successes and lessons learned from previous initiatives and identifies a long-term vision that will deliver better value and outcomes for American taxpayers.</li>
           <li>Following the lead of Successful Existing Services – There are great examples of how shared services work in government today – such as the efficiencies and scale GSA can deliver when managing agencies' vehicle fleet. Managing this shared service resulted in a savings of $0.23 cents per mile driven when GSA manages an agencies’ fleet compared to when agencies manage their own.</li>
           <li>We are using a well-researched, data-driven approach to identify common standards that aligns to commercial best practices. The underpinning of this entire effort is ensuring we follow standards to help determine where sharing opportunities make sense and where they do not. It is an essential first step to drive economies of scale and leverage the government’s buying power.</li>
-          <li>This effort moves away from the current “one size fits all” model and creates long-term options for agencies based on their own maturity and readiness. It allows agencies to partner with Quality Service Management Offices (QSMOs) to implement a sharing model at their agency, which may include technology, services or both.</li>
+          <li>This effort moves away from the current “one size fits all” model and creates long-term options for agencies based on their own maturity and readiness. It allows agencies to partner with Quality Service Management Offices (QSMOs) to implement a sharing model at their agency, which may include technology, services or both.</li> 
         </ul>
       </div>
       <h4 class="usa-accordion__heading">
@@ -87,27 +87,27 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
         </button>
       </h4>
       <div id="faq4" class="usa-accordion__content usa-prose">
-        <ul>
-          <li>QSMOs act as marketplace brokers. The QSMOs themselves are not shared service providers. Instead each QSMO operates a marketplace of pre-vetted commercial and federal solutions for their specific functional area. Marketplace solutions are designed to address common agency needs and are based on government-wide standards (defined in the Federal Integrated Business Framework). QSMOs are strategically located within parent organizations whose mission is consistent with the QSMO’s functional area, ensuring alignment for long term stability.</li>
+        <ul> 
+          <li>QSMOs act as marketplace brokers. The QSMOs themselves are not shared service providers. Instead each QSMO operates a marketplace of pre-vetted commercial and federal solutions for their specific functional area. Marketplace solutions are designed to address common agency needs and are based on government-wide standards (defined in the <a href="https://ussm.gsa.gov/fibf/">Federal Integrated Business Framework</a>). QSMOs are strategically located within parent organizations whose mission is consistent with the QSMO’s functional area, ensuring alignment for long term stability.</li>
           <li>Besides setting up and managing shared service marketplaces, QSMOs are instrumental in working with current federal shared service providers on their modernization plans and providing support for efforts to obtain funding for much needed technology modernization efforts. The QSMOs are able to partner with federal shared service providers to determine options to modernization strategy and timing for migrating themselves and their customers to solutions available in QSMO marketplaces (via a Joint Business Case document). Approval to partner with federal shared service providers must come from the agency Deputy Secretary (in collaboration with the Senior Accountable Point of Contact (SAPOC)), as well as final approval on the path forward.</li>
-          <li>All agencies that have a need for new investment to modernize or enhance their software or services in an area where a QSMO is pre-designated or designated must engage with the QSMO to discuss their goals, business needs and timelines. QSMO offerings leverage government-wide standards defined in the Federal Integrated Business Framework).</li>
+          <li>All agencies that have a need for new investment to modernize or enhance their software or services in an area where a QSMO is pre-designated or designated must engage with the QSMO to discuss their goals, business needs and timelines. QSMO offerings leverage government-wide standards (defined in the <a href="https://ussm.gsa.gov/fibf/">Federal Integrated Business Framework</a>).</li>
         </ul>
       </div>
-      <h4 class="usa-accordion__heading">
+      <h4 class="usa-accordion__heading"> 
         <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="faq5">
           5. How do you ensure offerings meet agency needs and federal requirements?
         </button>
       </h4>
       <div id="faq5" class="usa-accordion__content usa-prose">
         <ul>
-          <li>We have identified lead agencies that work on creating standards for each functional area, in partnership with their cross-agency community, to make sure every agency has the opportunity to contribute their own requirements to the enterprise-wide effort which are documented in the Federal Integrated Business Framework (FIBF).</li>
+          <li>We have identified lead agencies that work on creating standards for each functional area, in partnership with their cross-agency community, to make sure every agency has the opportunity to contribute their own requirements to the enterprise-wide effort which are documented in the <a href="https://ussm.gsa.gov/fibf/">Federal Integrated Business Framework</a> (FIBF).</li>
           <li>Once the majority of the standards for a functional area are agreed upon by the cross-agency community, it may be considered a good candidate for sharing. If there are regulatory or legislative reasons for something to be different for an agency, that will be addressed outside of the standards process.</li>
           <li>In FY24, OSSPI developed a performance management framework for shared service providers in the marketplaces that consists of six dimensions (Customer, Financial, Standards Adoption, Provider Operations, Technology, and Organizational). The framework was developed in collaboration and consultation with the QSMOs and OMB and is based on insights from provider outreach and industry research and best practices. Each dimension contains common performance measures intended to help assess and monitor provider performance. See <a href="https://ussm.gsa.gov/performance-management/">ussm.gsa.gov/performance-management/</a> for more information.</li>
           <li>A role of the Shared Services Governance Board (SSGB) is to understand how marketplace offerings align to generally accepted performance management standards and to propose corrective actions when necessary.</li>
           <li>OSSPI conducts an Annual Shared Services Customer Satisfaction Survey to assess whether and how well provider offerings meet agency needs and to identify additional service needs.</li>
         </ul>
       </div>
-      <h4 class="usa-accordion__heading">
+      <h4 class="usa-accordion__heading"> 
         <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="faq6">
           6. How do you ensure the voice of the customers (aka agencies) is heard?
         </button>
@@ -115,17 +115,17 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
       <div id="faq6" class="usa-accordion__content usa-prose">
         <ul>
           <li>Agencies have been involved for years in building the standards that are the backbone of this strategy through their participation in standards working groups and the Business Standards Council (BSC).</li>
-          <li>Customer agency perspectives are heard through the ‘voice of the customer’ bodies, i.e. the Shared Services Governance Board (SSGB) and agency Senior Accountable Points of Contact (SAPOCs). These bodies are essential to the direction-setting that will garner long-term support for the implementation of shared services into agency management functions on a government-wide basis.</li>
+          <li>Customer agency perspectives are heard through the ‘voice of the customer’ bodies, i.e. the <a href="https://ussm.gsa.gov/ssgb/">Shared Services Governance Board</a> (SSGB) and agency <a href="https://ussm.gsa.gov/sapoc/">Senior Accountable Points of Contact</a> (SAPOCs). These bodies are essential to the direction-setting that will garner long-term support for the implementation of shared services into agency management functions on a government-wide basis.</li>
         </ul>
       </div>
-      <h4 class="usa-accordion__heading">
+      <h4 class="usa-accordion__heading"> 
         <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="faq7">
           7. How does the government ensure systems are not heavily customized?
         </button>
       </h4>
       <div id="faq7" class="usa-accordion__content usa-prose">
         <ul>
-          <li>Systems and solutions available through QSMO marketplaces are based on standards established in the Federal Integrated Business Framework (FIBF).</li>
+          <li>Systems and solutions available through QSMO marketplaces are based on standards established in the <a href="https://ussm.gsa.gov/fibf/">Federal Integrated Business Framework</a> (FIBF).</li>
           <li>The QSMOs are responsible for helping agencies rethink legacy business processes to drive to new standardized solutions and services offered through the QSMO’s marketplace.</li>
         </ul>
       </div>
@@ -156,7 +156,7 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
           </li>
           <li><strong>Industry’s Role</strong>
             <ul>
-              <li>Industry is being asked to bring modern, configurable and outcome-oriented solutions to the government that align with the data and business standards developed in the Federal Integrated Business Framework (FIBF) to reduce unnecessary or duplicative technology footprint and minimize the risk and cost of operating aging technology. Additionally, industry is expected to bring solutions that are innovative and improve customer experience.</li>
+              <li>Industry is being asked to bring modern, configurable and outcome-oriented solutions to the government that align with the data and business standards developed in the <a href="https://ussm.gsa.gov/fibf/">Federal Integrated Business Framework</a> (FIBF) to reduce unnecessary or duplicative technology footprint and minimize the risk and cost of operating aging technology. Additionally, industry is expected to bring solutions that are innovative and improve customer experience.</li>
               <li>Industry is instrumental in providing business support that allows the government to be more agile and responsive to changes in demand.</li>
               <li>Commercial solutions are a critical component of the marketplaces to provide customer agencies a broad range of options for their mission support needs.</li>
             </ul>
@@ -171,7 +171,7 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
       <div id="faq10" class="usa-accordion__content usa-prose">
         <ul>
           <li>As agencies set their strategic plans, they should engage with the QSMOs.</li>
-          <li>OMB Memorandum M-19-16 does not set timelines for transition but rather encourages agencies to engage with QSMOs to plan for the next phase of the technology/service prior to its end of life. The QSMOs act as marketplace brokers and can provide agencies with valuable resources and insight.</li>
+          <li><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/m-19-16.pdf">OMB Memorandum M-19-16</a> does not set timelines for transition but rather encourages agencies to engage with QSMOs to plan for the next phase of the technology/service prior to its end of life. The QSMOs act as marketplace brokers and can provide agencies with valuable resources and insight.</li>
         </ul>
       </div>
       <h4 class="usa-accordion__heading">
@@ -183,7 +183,7 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
         <ul>
           <li>The pre-designation phase is designed to allow the QSMOs to begin to plan for implementation and what services and solutions will be provided. Specific scope and timeline for services offered by the QSMOs are determined and defined during the pre-designation phase.</li>
           <li>See <a href="https://ussm.gsa.gov/qsmo">ussm.gsa.gov/qsmo</a> for more information regarding (pre-)designated functional areas.</li>
-          <li>Visit the QSMO marketplaces to explore each QSMO’s service and solutions offerings.</li>
+          <li>Visit the <a href="https://ussm.gsa.gov/marketplace/">QSMO marketplaces</a> to explore each QSMO’s service and solutions offerings.</li>
         </ul>
       </div>
       <h4 class="usa-accordion__heading">
@@ -219,7 +219,7 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
       </h4>
       <div id="faq14" class="usa-accordion__content usa-prose">
         <ul>
-          <li>As OMB Memorandum M-19-16 states, once an agency is pre-designated as a QSMO for a particular set of mission support functions, agencies are to engage with the QSMO to discuss their goals, business needs, and timeline for modernization.</li>
+          <li>As <a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/m-19-16.pdf">OMB Memorandum M-19-16</a> states, once an agency is pre-designated as a QSMO for a particular set of mission support functions, agencies are to engage with the QSMO to discuss their goals, business needs, and timeline for modernization.</li>
           <li>Please refer to the Investment Action Plan process on <a href="https://ussm.gsa.gov/">ussm.gsa.gov</a> for further detail on working with the QSMOs to assess business needs and, if needed, submit an Investment Action Plan to leverage services outside of the QSMO.</li>
         </ul>
       </div>
