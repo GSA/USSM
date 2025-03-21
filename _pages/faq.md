@@ -16,13 +16,13 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
   </h3>
 <div id="key-takeaways" class="usa-accordion__content usa-prose">
     <div class="usa-accordion usa-accordion--bordered">
-      <<p><strong>The SQS Strategy intends to:</strong></p>
+      <p><strong>The SQS Strategy intends to:</strong></p>
       <ol style="padding-left: 20px;">
-        <li>Improve mission support services to agencies so they can focus on mission delivery to taxpayers.</li>
-        <li>Create process improvements so our workforce can focus on higher value work that aligns with agency missions.</li>
-        <li>Establish agreed upon standards to bring modern solutions to government that reduce customization and enhance interoperability between systems.</li>
-        <li>Increase adoption of marketplaces and existing shared services that already produce value.</li>
-        <li>Plan for additional shared service offerings to support mission support functions.</li>
+            <li><strong>Improve</strong> mission support services to agencies so they can focus on mission delivery to taxpayers.</li>
+            <li><strong>Create</strong> process improvements so our workforce can focus on higher value work that aligns with agency missions.</li>
+            <li><strong>Establish</strong> agreed upon standards to bring modern solutions to government that reduce customization and enhance interoperability between systems.</li>
+            <li><strong>Increase</strong> adoption of marketplaces and existing shared services that already produce value.</li>
+            <li><strong>Plan</strong> for additional shared service offerings to support mission support functions.</li>
       </ol>
     </div>
 </div>
