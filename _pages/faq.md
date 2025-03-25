@@ -249,7 +249,4 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
     width: 95% !important;
   }
 
-  .usa-accordion__content {
-    max-width: 95% !important;
-  }
 </style>
