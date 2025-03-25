@@ -240,9 +240,6 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
 
 <style>
   .usa-prose,
-  .usa-prose p,
-  .usa-prose ul,
-  .usa-prose ol,
   .usa-prose li,
   .usa-prose blockquote {
     max-width: 95% !important;
