@@ -239,8 +239,7 @@ Learn about Shared Services - <a href="https://ussm.gsa.gov/video-center/"
 </div>
 
 <style>
-  .usa-prose,
-  .usa-prose li {
+  .usa-prose {
     max-width: 95% !important;
     width: 95% !important;
   }
