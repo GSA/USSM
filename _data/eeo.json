@@ -1,7 +1,17 @@
 { 
     "Business-Standards": "Federal Sector Equal Employment Opportunity Services", 
     "Business_Lifecycle": [], 
-    "Business_Capabilities": [], 
+    "Business_Capabilities": [
+        {
+            "Capability ID": "EEO.010.030.011",
+            "Function": "EEO.010 Federal Sector Equal Employment Opportunity Government-Wide Management",
+            "Activity Name": "EEO.010.030 Federal Sector Equal Employment Opportunity Administrative Judge (AJ) Hearings",
+            "Input/Output/Process": "I",
+            "Business Capability Statement": "Receive hearing request consistent with 29 CFR Part 1614 and EEO MD 110",
+            "Authoritative Reference": "29 CFR Part 1614 (Oct. 2, 2023); EEO Management Directive 110",
+            "Other Reference": ""
+        }
+    ], 
     "Business_Use-Cases": {}, 
     "Standard_Data-Elements": "[]", 
     "Service_Measures": "coming soon" 
