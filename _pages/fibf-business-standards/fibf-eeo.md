@@ -12,8 +12,8 @@ standard-data-elements-pdf: assets/files/downloads/erm/Electronic-Records-Manage
 all-zip: assets/files/downloads/erm/Electronic-Records-Management-Download-All.zip
 lifecycle-content: erm/lifecycle.html
 capabilities-content: erm/capabilities.html
-use-cases-content: erm/use-cases.html
-data-elements-content: erm/data-elements.html
+use-cases-content: eeo/use-cases.html
+data-elements-content: eeo/data-elements.html
 capabilities-source-document-type: xls
 lifecycle-source-document-type: xls
 capabilities-source-document: assets/files/downloads/erm/Electronic-Records-Management-Business-Capabilities.xlsx
