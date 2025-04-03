@@ -1,7 +1,15 @@
 {
     "title": "News",
     "items": [
-        
+    {
+            "NewsID": "64",
+            "Homepage": "1",
+            "Category": "FIBF-AI",
+            "Title": "Two new AI tools help illuminate GSA’s future state",
+            "Date": "2025-03-25",
+            "Source": "Federal News Network",
+            "Hyperlink": "https://federalnewsnetwork.com/management/2025/03/two-new-ai-tools-help-illuminate-gsas-future-state/"
+        },      
       {
             "NewsID": "63",
             "Homepage": "1",
