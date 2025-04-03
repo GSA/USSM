@@ -131,6 +131,11 @@ jQuery(document).ready(function () {
             hasSubsection: false
         },
         {
+            UseCasesList: 'eeo-use-cases',
+            url:  prefixUrl.concat('/business-standards-api/eeo'),
+            hasSubsection: false
+        },
+        {
             accordian: 'erm-lifecycle',
             table: 'erm-capabilities',
             UseCasesList: 'erm-use-cases',
