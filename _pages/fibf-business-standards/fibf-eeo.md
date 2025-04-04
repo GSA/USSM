@@ -6,4 +6,5 @@ sub-title: Federal Sector Equal Employment Opportunity Services
 sec-title: Federal Sector Equal Employment Opportunity Services Standards Lead
 sec-name: Equal Employment Opportunity Commission (EEOC)
 contact: fibf-eeo@eeoc.gov
+use-cases-content: erm/use-cases.html
 ---
