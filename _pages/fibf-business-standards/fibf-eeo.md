@@ -6,6 +6,6 @@ sub-title: Federal Sector Equal Employment Opportunity Services
 sec-title: Federal Sector Equal Employment Opportunity Services Standards Lead
 sec-name: Equal Employment Opportunity Commission (EEOC)
 contact: fibf-eeo@eeoc.gov
-performance-metrics-pdf: assets/files/downloads/eeo/ERM-FIBF-Performance-Measures-8-18-23.xlsx
+performance-metrics-pdf: assets/files/downloads/eeo/EEO FIBF Service Measures v1.1_2024.09.24.xlsx
 metrics-content: eeo/performance-metrics.html
 ---
