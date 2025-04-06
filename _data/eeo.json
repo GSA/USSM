@@ -1,5 +1,10 @@
 {
     "Business-Standards":"Electronic Records Management",
+    "Business_Use-Cases": {
+        "EEO.L1.01 Alternative Dispute Resolution and Final Agency Decision Requested":"https://ussm.gsa.gov/assets/files/EEO.L1.01.Alternative.Dispute.Resolution.and.Final.Agency.Decision.Requested.pdf",
+        "EEO.L1.02 Pre-Complaint Counseling and AJ Heari=ng Requested":"https://ussm.gsa.gov/assets/files/EEO.L1.02.Pre-Complaint.Counseling.and.AJ.Hearing.Requested.pdf",
+        "EEO.L1.03 Dismissed Complaint is Appealed by Complainant":"https://ussm.gsa.gov/assets/files/EEO.L1.03.Dismissed.Complaint.is.Appealed.by.Complainant.pdf"
+    },
     "Service_Measures":{
        "Equal Employment Opportunity Service Measures":"/assets/files/downloads/eeo/EEO FIBF Service Measures v1.1_2024.09.24.xlsx"
     }
