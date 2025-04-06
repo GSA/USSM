@@ -131,6 +131,11 @@ jQuery(document).ready(function () {
             hasSubsection: false
         },
         {
+            PerformanceMetricsList:"eeo-performance-metrics",
+            url:  prefixUrl.concat('/business-standards-api/erm'),
+            hasSubsection: false
+        },
+        {
             accordian: 'erm-lifecycle',
             table: 'erm-capabilities',
             UseCasesList: 'erm-use-cases',
