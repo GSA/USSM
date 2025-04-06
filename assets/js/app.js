@@ -133,7 +133,7 @@ jQuery(document).ready(function () {
         {
             UseCasesList: 'eeo-use-cases',
             PerformanceMetricsList:"eeo-performance-metrics",
-            url:  prefixUrl.concat('/business-standards-api/erm'),
+            url:  prefixUrl.concat('/business-standards-api/eeo'),
             hasSubsection: false
         },
         {
