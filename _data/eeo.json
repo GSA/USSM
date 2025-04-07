@@ -1,227 +1,282 @@
 {
     "Business-Standards":"Electronic Records Management",
-    "Business_Lifecycle":[
+    "Business_Lifecycle": [
         {
-           "type":"eeo-010",
-           "data":[
-              {
-                 "Identifier":"EEO.010.010",
-                 "Activity":"Federal Sector Equal Employment Opportunity Government-Wide Goals, Objectives, and Strategies",
-                 "Description":"Develop government-wide Federal Sector Equal Employment Opportunity (EEO) goals, objectives, and strategies; Develop government-wide guidance for EEO affirmative employment, anti-harassment, reasonable accommodations, and complaint management"
-              },
-              {
-                "Identifier":"EEO.010.020",
-                "Activity":"Federal Sector Equal Employment Opportunity Government-Wide Processes and Procedures",
-                "Description":"Develop government-wide Federal Sector EEO process and procedures  for Administrative Judge (AJ) Hearings; Develop government-wide Federal Sector EEO process and procedures  for complainant appeals"
-              },
-              {
-                "Identifier":"EEO.010.030",
-                "Activity":"Federal Sector Equal Employment Opportunity Administrative Judge (AJ) Hearings",
-                "Description":"Receive hearing request and develop notification to provide complaint file; Develop notification acknowledging receipt of the hearing request and complaint file; Identify and document the assigned EEOC AJ; Develop and issue Acknowledgement Orders; Evaluate hearing request and complaint file and document results; Develop and issue Notice of Intent to Issue a Decision Without a Hearing (summary judgement); Receive and evaluate response(s) to the Notice of Intent to Issue a Decision Without a Hearing (summary judgement) and document results; Develop and issue a Decision Without a Hearing (summary judgement); Develop and issue a Notice of Intent to Dismiss; Receive and evaluate response(s) to the Notice of Intent to Dismiss and document results; Develop and issue an Order of Dismissal; Develop and issue an order scheduling the initial conference; Conduct initial conference and develop and issue an initial conference order; Determine and document authorization to seek discovery; Receive and evaluate request for authorization to seek discovery and provide notification of right to seek discovery; Receive and evaluate motion to compel and document results; Develop and issue AJ orders to produce evidence; Receive and evaluate evidence and document results; Receive and evaluate a motion for a decision without a hearing and document results; Receive and evaluate response in opposition to a motion for a decision without a hearing and document results; Develop and issue Hearing Scheduling Order; Receive pre-hearing statement(s) and conduct pre-hearing conference and document results; Develop and issue Pre-Hearing Conference Order; Conduct liability hearing and develop and issue liability decision; Develop notification of remedial/damages hearing; Conduct remedial/damages hearing and develop and issue remedial/damages decision; Develop and issue Order Entering Judgment; Receive itemized billing statement information and develop and issue Decision on Attorney's Fees and Costs; Develop and document case closeout information; Receive and document AJ hearing recordings, transcripts, and exhibits; Receive motion to amend the complaint and response to a motion to amend the complaint; Develop and issue an order granting, denying, or granting-in-part the motion to amend the complaint; Receive motion for sanctions, response to motion for sanctions, and reply to response to motion for sanctions; Develop and issue an order granting, denying, or granting-in-part the motion for sanctions; Receive motion or request to withdraw the hearing request; Develop and issue an order granting the motion/request to withdraw the hearing request; Receive motion to dismiss the case due to settlement; Develop and issue an order granting the motion to dismiss the complaint due to settlement; Receive motion to consolidate one or more cases, complainant response to motion to consolidate one or more cases, and complainant reply to response to motion to consolidate one or more cases; Develop and issue an order granting or denying the motion to consolidate one or more cases; Receive miscellaneous motion, complainant response to miscellaneous motion, and complainant reply to response to miscellaneous motion; Develop and issue an order granting or denying the miscellaneous motion"
-              },
-              {
-                "Identifier":"EEO.010.040",
-                "Activity":"Federal Sector Equal Employment Opportunity Appeals",
-                "Description":"Receive and review appeal request; Develop notification acknowledging receipt of appeal; Receive and review complaint file; Receive and review briefs or statements related to the appeal; Request, receive, and review supplementation to the appeal record; Issue appellate decision; Receive and review request for reconsideration, including supporting documentation; Issue reconsideration decision"
-              },
-              {
-                "Identifier":"EEO.010.050",
-                "Activity":"Federal Sector Employment Practice Investigations",
-                "Description":"Identify employment practices requiring investigations; Conduct investigation of identified employment practices; Determine and provide investigation results"
-              },
-              {
-                "Identifier":"EEO.010.060",
-                "Activity":"Federal Sector Equal Employment Opportunity Remedies and  Enforcement",
-                "Description":"Determine appropriate remedies, relief, and damages; Collect evidence of compliance; Determine compliance with final commission decisions, settlement agreements and final actions; Develop and issue sanctions or other non-compliance measures, including referrals to Office of Special Counsel"
-              },
-              {
-                "Identifier":"EEO.010.070",
-                "Activity":"Federal Sector Equal Employment Opportunity Government-Wide Reporting",
-                "Description":"Retrieve and compile Agency workforce statistics; Compile Agency EEO complaint statistical data; Compile EEO hearing statistical data; Compile EEO appeals statistical data; Compile Agency reasonable accommodations data; Compile Agency Part G self-assessment data; Develop government-wide EEO reports"
-              },
-              {
-                "Identifier":"EEO.010.080",
-                "Activity":"Non-Federal Political Appointee Appeal",
-                "Description":"Obtain and review the complaint files and the appellate briefs; Prepare a recommended decision for dismissal, interlocutory review, or AJ decision; Obtain and review of decisions by Merit Systems Protection Board (MSPB) and decisions involving union grievances; Prepare recommended decisions"
-              },
-              {
-                "Identifier":"EEO.020.010",
-                "Activity":"Federal Agency EEO Program Strategy and Planning",
-                "Description":"Develop and communicate overall agency EEO program goals, objectives, and strategies; Develop and communicate overall agency EEO policies"
-              },
-              {
-                "Identifier":"EEO.020.020",
-                "Activity":"Federal Agency EEO Program Assessment",
-                "Description":"Assess overall agency EEO program (affirmative employment, anti-harassment, reasonable accommodations, and complaint management) for compliance with laws, regulations, and directives; Evaluate overall agency EEO program effectiveness for affirmative employment and complaint management"
-              },
-              {
-                "Identifier":"EEO.020.030",
-                "Activity":"Federal Agency EEO Training",
-                "Description":"Develop and conduct agency training on EEO policy, standards, and procedures; Develop and conduct training on EEO rights for all employees and supervisors (including retaliation, harassment, religious accommodations, disability accommodations, pregnancy accommodations, the EEO complaint process, and ADR); Receive and review training feedback and identify improvements "
-              },
-              {
-                "Identifier":"EEO.030.010",
-                "Activity":"Federal Agency EEO Affirmative Employment Program Operations",
-                "Description":"Develop and communicate agency EEO affirmative employment strategies, plans, and standards; Review agency affirmative employment strategies, plans, and standards for compliance with government-wide guidance; Develop and execute campaigns to proactively prevent/eradicate employment discrimination"
-              },
-              {
-                "Identifier":"EEO.030.020",
-                "Activity":"Federal Agency EEO Affirmative Employment Program Assessments and Compliance",
-                "Description":"Conduct self-assessments of agency affirmative employment program performance; Receive and respond to notifications of non-compliance with affirmative employment policies and standards; Determine guidance and recommendations for disciplinary action against supervisors; Evaluate and identify potential supervisors for recognition"
-              },
-              {
-                "Identifier":"EEO.030.030",
-                "Activity":"Federal Agency EEO Improvements ",
-                "Description":"Identify barriers to EEO; Evaluate barriers and identify improvement action plans; Assess effectiveness of improvements implemented to eliminate identified barriers"
-              },
-              {
-                "Identifier":"EEO.040.010",
-                "Activity":"Federal Sector Anti-Harassment Policies and Procedures",
-                "Description":"Develop and communicate agency anti-harassment program policies and procedures that comply with Federal EEO enforcement guidance"
-              },
-              {
-                "Identifier":"EEO.040.020",
-                "Activity":"Federal Sector Anti-Harassment Training",
-                "Description":"Develop and conduct agency training on anti-harassment policy and procedures; Receive and review training feedback to determine improvements"
-              },
-              {
-                "Identifier":"EEO.040.030",
-                "Activity":"Federal Sector Anti-Harassment Inquiries and Investigations",
-                "Description":"Conduct prompt, fair, and thorough investigation of harassment allegations; Develop and provide harassment allegations findings report"
-              },
-              {
-                "Identifier":"EEO.040.040",
-                "Activity":"Federal Sector Anti-Harassment Program Assessment",
-                "Description":"Assess overall agency anti-harassment program for compliance with laws, regulations, and directives; Develop a tracking mechanism to collect and analyze data. Evaluate the agency's anti-harassment program effectiveness and complaint management"
-              },
-              {
-                "Identifier":"EEO.040.050",
-                "Activity":"Federal Sector Anti-Harassment Information Sharing",
-                "Description":"Develop and provide anti-harassment information for sharing with Divisions/Offices; Receive and assess anti-harassment  reports; Develop responses to anti-harassment information requests"
-              },
-              {
-                "Identifier":"EEO.050.010",
-                "Activity":"Federal Agency Reasonable Accommodation Program Policy and Procedures",
-                "Description":"Develop and provide agency Reasonable Accommodation Program policy and procedures; Develop and provide Personal Assistance Services (PAS) procedures"
-              },
-              {
-                "Identifier":"EEO.050.020",
-                "Activity":"Federal Agency Processing of Reasonable Accommodation Request",
-                "Description":"Review requests for reasonable accommodation and PAS; Develop and issue determinations"
-              },
-              {
-                "Identifier":"EEO.050.030",
-                "Activity":"Federal Agency Reasonable Accommodation Program Assessment",
-                "Description":"Assess overall agency reasonable accommodation program for compliance with laws, regulations, and directives; Develop a tracking mechanism to collect and analyze data. Evaluate the agency's reasonable accommodation program effectiveness"
-              },
-              {
-                "Identifier":"EEO.050.040",
-                "Activity":"Federal Agency Reasonable Accommodation Program Training",
-                "Description":"Develop and conduct agency training on reasonable accommodation policy and procedures; Receive and review training feedback to determine improvements"
-              },
-              {
-                "Identifier":"EEO.050.050",
-                "Activity":"Federal Agency Reasonable Accommodation Information Sharing ",
-                "Description":"Develop and provide reasonable accommodation  information for sharing among divisions/offices; Receive and assess reasonable accommodation  information requests; Develop responses to reasonable accommodation information requests"
-              },
-              {
-                "Identifier":"EEO.060.010",
-                "Activity":"Federal Agency Complaint Management Strategy",
-                "Description":"Develop and communicate agency complaint management strategies and plans; Develop agency standards for investigations and compliance reviews"
-              },
-              {
-                "Identifier":"EEO.060.020",
-                "Activity":"Federal Agency EEO Complaint Management Oversight ",
-                "Description":"Review agency complaint management strategies and plans for compliance with government-wide guidance;  Assess agency compliance with EEO complaint management standards and regulations; Receive and respond to notifications of non-compliance with complaint management policies and standards"
-              },
-              {
-                "Identifier":"EEO.070.010",
-                "Activity":"Federal Agency EEO Complaint Management Procedures",
-                "Description":"Develop Agency EEO procedures to process and review complaints; Develop EEO procedures for Alternative Dispute Resolution (ADR); Develop EEO complaint process materials for employees and applicants"
-              },
-              {
-                "Identifier":"EEO.070.020",
-                "Activity":"Federal Agency EEO Complaint Management Training ",
-                "Description":"Develop and provide training for EEO Counselors, EEO Investigators, EEO Alternative Dispute Resolution (ADR) Mediators, and Agency Decision Writers (including refresher training); Receive and review training feedback to determine improvements"
-              },
-              {
-                "Identifier":"EEO.080.010",
-                "Activity":"Federal Agency EEO Pre-Complaint Processing",
-                "Description":"Document alleged discriminatory incident(s) in a pre-complaint file; Identify and document pre-complaint processing start date in the pre-complaint file; Conduct initial counseling session and document results in the pre-complaint file; Develop and document notice of rights and responsibilities; Conduct limited inquiry and document claim(s) and basis(es) in the pre-complaint file; Determine if claim(s) is amendable to ADR and document ADR offering in the pre-complaint file; Develop notification that resolution may be attempted through pre-complaint counseling or ADR (if applicable); Identify and document pre-complaint processing end date in the pre-complaint file; Conduct pre-complaint counseling activities and document in the pre-complaint file; Develop and document EEO Counselor Report and include in the pre-complaint file; Develop and document notice of the right to file a formal complaint"
-              },
-              {
-                "Identifier":"EEO.080.020",
-                "Activity":"Federal Agency EEO Alternative Dispute Resolution (ADR)",
-                "Description":"Review and select appropriate ADR technique(s) (e.g., mediation, facilitation, settlement conference) and document in the pre-complaint file; Review sources of neutrals and select neutral(s); Conduct pre-EEO ADR meeting and document results; Conduct ADR proceedings and document proceeding and outcome information in the pre-complaint file"
-              },
-              {
-                "Identifier":"EEO.080.030",
-                "Activity":"Federal Agency EEO Complaint Review",
-                "Description":"Receive formal complaint and document in the complaint file; Develop notification acknowledging receipt of formal complaint; Identify claim(s) from the formal complaint information and document results in the complaint file; Determine and document dismissal, partial dismissal, or acceptance of the formal complaint in the complaint file; Develop notification of dismissal, partial dismissal, or acceptance of formal complaint, including identified claim(s); Receive and review complainant objections to the identified claim(s) and document updated claim(s) in the complaint file; Identify and document investigation period in the complaint file"
-              },
-              {
-                "Identifier":"EEO.080.040",
-                "Activity":"Federal Agency EEO Investigation",
-                "Description":"Develop investigation plans including request for documentation and testimonial evidence based on complaint file information; Review documentation and testimonial evidence and document findings in the investigative file; Develop and document investigative summary information in the investigative file; Request review of investigative file; Update investigative file based on response to request for review of investigative file; Update complaint file with investigative file information; Develop notification of right to request Final Agency Decision (FAD) or Administration Judge (AJ) Hearing"
-              },
-              {
-                "Identifier":"EEO.080.050",
-                "Activity":"Federal Agency EEO Final Agency Decision",
-                "Description":"Identify and document FAD period in the complaint file; Develop and issue FAD, including the notice of the right to file an appeal, based on complaint file information; Review and update complaint file with final agency decision or final action information"
-              },
-              {
-                "Identifier":"EEO.080.060",
-                "Activity":"Federal Agency EEO Settlement",
-                "Description":"Evaluate and document risks and benefits of settlement and litigation for finding of discrimination; Receive and review request to seek negotiation of a settlement; Develop request to seek negotiation of a settlement; Develop and document settlement terms, including non-monetary (e.g., personnel actions) and monetary relief, for inclusion in settlement agreement; Request, receive and review response to settlement terms; Develop and provide settlement agreement; Receive acceptance of settlement agreement; Obtain signatures and execute settlement agreement; Update complaint file"
-              },
-              {
-                "Identifier":"EEO.090.010",
-                "Activity":"Federal Agency Participation in EEO Administrative Judge (AJ) Discovery",
-                "Description":"Review request for a hearing before an EEOC AJ and document results in the complaint file; Identify and document AJ hearing period in the complaint file; Develop agency response to Notice of Intent to Issue a Decision Without a Hearing (summary judgement); Develop agency response to Notice of Intent to Dismiss; Develop and document request for authorization to seek discovery; Develop agency motion to compel; Document evidence in response to AJ orders to produce evidence; Develop agency motion for a decision without a hearing; Develop agency response in opposition to a motion for a decision without a hearing; Develop agency pre-hearing statement in response to order for a pre-hearing conference; Review Hearing Scheduling Order and document agency Scheduling Order actions; Develop and document agency response to the motion to amend the complaint; Develop and document motion for sanctions; Develop and document agency response to motion for sanctions; Develop and document agency reply to complainant response to motion for sanctions; Develop and document agency response to itemized billing statement; Develop and document motion to consolidate one or more cases; Develop and document agency response to motion to consolidate one or more cases; Develop and document agency reply to complainant response to motion to consolidate one or more cases; Develop and document miscellaneous motion; Develop and document agency response to miscellaneous motion; Develop and document agency reply to complainant response to miscellaneous motion"
-              },
-              {
-                "Identifier":"EEO.090.020",
-                "Activity":"Federal Agency Review of EEO Administrative Judge Orders",
-                "Description":"Review records of AJ hearings, AJ decision(s), and Order Entering Judgment and document results in complaint file; Develop final agency order to partially or fully implement he AJ decision(s) and document in the complaint file"
-              },
-              {
-                "Identifier":"EEO.100.010",
-                "Activity":"Federal Agency EEO Appeal Processing",
-                "Description":"Receive and review notice of right to file an appeal; Develop and file appeal; Receive and review notice of appeal from the Complainant; Update and provide complaint file to EEOC OFO; Develop statement or brief for the appeal; Develop response to request to supplement the appeal record"
-              },
-              {
-                "Identifier":"EEO.100.020",
-                "Activity":"Federal Agency EEO Appeal Decision",
-                "Description":"Update complaint file with appellate decision information; Determine and document appellate implementation actions based on appellate decision information; Develop and document request for reconsideration"
-              },
-              {
-                "Identifier":"EEO.110.010",
-                "Activity":"Federal Agency EEO Remedies",
-                "Description":"Determine appropriate remedies, relief, and damages (as directed by EEOC decision or upon Agency's determination of discrimination); Provide interim relief, remedies, relief, and damages as required or directed"
-              },
-              {
-                "Identifier":"EEO.110.020",
-                "Activity":"Federal Agency EEO Compliance and Enforcement",
-                "Description":"Determine actions required by agency to be in compliance with final actions or settlement agreements; Verify agency actions to be in compliance; Develop and provide compliance report for appellate decisions containing corrective action; Review notice to show cause and determine actions to correct deficiencies"
-              },
-              {
-                "Identifier":"EEO.110.030",
-                "Activity":"Federal District Court Complaints",
-                "Description":"Review and develop response to civil actions filed in Federal district court; Compile and provide requested documentation; Develop and provide witness statements; Receive request for and confirm witness participation "
-              },
-              {
-                "Identifier":"EEO.120.010",
-                "Activity":"Federal Agency EEO Reporting",
-                "Description":"Retrieve human resource information on race, national origin, sex, and disability status; Compile and report pre-complaint information and status; Compile and report Agency EEO complaint statistical data; Develop agency Federal EEO reports including quarterly EEO complaint data; Review decision information and identify trends, issues, and problems; Prepare and provide No FEAR Act report"
-              },
-              {
-                "Identifier":"EEO.120.020",
-                "Activity":"Federal Agency EEO Information Sharing",
-                "Description":"Develop and provide EEO information for sharing among departments/agencies; Receive and assess EEO information requests; Develop response to EEO information requests"
-              }
-           ]
+          "type": "EEO.010",
+          "data": [
+            {
+              "Identifier": "EEO.010.010",
+              "Activity": "Federal Sector Equal Employment Opportunity Government-Wide Goals, Objectives, and Strategies",
+              "Description": "Develop government-wide Federal Sector Equal Employment Opportunity (EEO) goals, objectives, and strategies; Develop government-wide guidance for EEO affirmative employment, anti-harassment, reasonable accommodations, and complaint management"
+            },
+            {
+              "Identifier": "EEO.010.020",
+              "Activity": "Federal Sector Equal Employment Opportunity Government-Wide Processes and Procedures",
+              "Description": "Develop government-wide Federal Sector EEO process and procedures  for Administrative Judge (AJ) Hearings; Develop government-wide Federal Sector EEO process and procedures  for complainant appeals"
+            },
+            {
+              "Identifier": "EEO.010.030",
+              "Activity": "Federal Sector Equal Employment Opportunity Administrative Judge (AJ) Hearings",
+              "Description": "Receive hearing request and develop notification to provide complaint file; Develop notification acknowledging receipt of the hearing request and complaint file; Identify and document the assigned EEOC AJ; Develop and issue Acknowledgement Orders; Evaluate hearing request and complaint file and document results; Develop and issue Notice of Intent to Issue a Decision Without a Hearing (summary judgement); Receive and evaluate response(s) to the Notice of Intent to Issue a Decision Without a Hearing (summary judgement) and document results; Develop and issue a Decision Without a Hearing (summary judgement); Develop and issue a Notice of Intent to Dismiss; Receive and evaluate response(s) to the Notice of Intent to Dismiss and document results; Develop and issue an Order of Dismissal; Develop and issue an order scheduling the initial conference; Conduct initial conference and develop and issue an initial conference order; Determine and document authorization to seek discovery; Receive and evaluate request for authorization to seek discovery and provide notification of right to seek discovery; Receive and evaluate motion to compel and document results; Develop and issue AJ orders to produce evidence; Receive and evaluate evidence and document results; Receive and evaluate a motion for a decision without a hearing and document results; Receive and evaluate response in opposition to a motion for a decision without a hearing and document results; Develop and issue Hearing Scheduling Order; Receive pre-hearing statement(s) and conduct pre-hearing conference and document results; Develop and issue Pre-Hearing Conference Order; Conduct liability hearing and develop and issue liability decision; Develop notification of remedial/damages hearing; Conduct remedial/damages hearing and develop and issue remedial/damages decision; Develop and issue Order Entering Judgment; Receive itemized billing statement information and develop and issue Decision on Attorney's Fees and Costs; Develop and document case closeout information; Receive and document AJ hearing recordings, transcripts, and exhibits; Receive motion to amend the complaint and response to a motion to amend the complaint; Develop and issue an order granting, denying, or granting-in-part the motion to amend the complaint; Receive motion for sanctions, response to motion for sanctions, and reply to response to motion for sanctions; Develop and issue an order granting, denying, or granting-in-part the motion for sanctions; Receive motion or request to withdraw the hearing request; Develop and issue an order granting the motion/request to withdraw the hearing request; Receive motion to dismiss the case due to settlement; Develop and issue an order granting the motion to dismiss the complaint due to settlement; Receive motion to consolidate one or more cases, complainant response to motion to consolidate one or more cases, and complainant reply to response to motion to consolidate one or more cases; Develop and issue an order granting or denying the motion to consolidate one or more cases; Receive miscellaneous motion, complainant response to miscellaneous motion, and complainant reply to response to miscellaneous motion; Develop and issue an order granting or denying the miscellaneous motion"
+            },
+            {
+              "Identifier": "EEO.010.040",
+              "Activity": "Federal Sector Equal Employment Opportunity Appeals",
+              "Description": "Receive and review appeal request; Develop notification acknowledging receipt of appeal; Receive and review complaint file; Receive and review briefs or statements related to the appeal; Request, receive, and review supplementation to the appeal record; Issue appellate decision; Receive and review request for reconsideration, including supporting documentation; Issue reconsideration decision"
+            },
+            {
+              "Identifier": "EEO.010.050",
+              "Activity": "Federal Sector Employment Practice Investigations",
+              "Description": "Identify employment practices requiring investigations; Conduct investigation of identified employment practices; Determine and provide investigation results"
+            },
+            {
+              "Identifier": "EEO.010.060",
+              "Activity": "Federal Sector Equal Employment Opportunity Remedies and  Enforcement",
+              "Description": "Determine appropriate remedies, relief, and damages; Collect evidence of compliance; Determine compliance with final commission decisions, settlement agreements and final actions; Develop and issue sanctions or other non-compliance measures, including referrals to Office of Special Counsel"
+            },
+            {
+              "Identifier": "EEO.010.070",
+              "Activity": "Federal Sector Equal Employment Opportunity Government-Wide Reporting",
+              "Description": "Retrieve and compile Agency workforce statistics; Compile Agency EEO complaint statistical data; Compile EEO hearing statistical data; Compile EEO appeals statistical data; Compile Agency reasonable accommodations data; Compile Agency Part G self-assessment data; Develop government-wide EEO reports"
+            },
+            {
+              "Identifier": "EEO.010.080",
+              "Activity": "Non-Federal Political Appointee Appeal",
+              "Description": "Obtain and review the complaint files and the appellate briefs; Prepare a recommended decision for dismissal, interlocutory review, or AJ decision; Obtain and review of decisions by Merit Systems Protection Board (MSPB) and decisions involving union grievances; Prepare recommended decisions"
+            }
+          ]
+        },
+        {
+          "type": "EEO.020",
+          "data": [
+            {
+              "Identifier": "EEO.020.010",
+              "Activity": "Federal Agency EEO Program Strategy and Planning",
+              "Description": "Develop and communicate overall agency EEO program goals, objectives, and strategies; Develop and communicate overall agency EEO policies"
+            },
+            {
+              "Identifier": "EEO.020.020",
+              "Activity": "Federal Agency EEO Program Assessment",
+              "Description": "Assess overall agency EEO program (affirmative employment, anti-harassment, reasonable accommodations, and complaint management) for compliance with laws, regulations, and directives; Evaluate overall agency EEO program effectiveness for affirmative employment and complaint management"
+            },
+            {
+              "Identifier": "EEO.020.030",
+              "Activity": "Federal Agency EEO Training",
+              "Description": "Develop and conduct agency training on EEO policy, standards, and procedures; Develop and conduct training on EEO rights for all employees and supervisors (including retaliation, harassment, religious accommodations, disability accommodations, pregnancy accommodations, the EEO complaint process, and ADR); Receive and review training feedback and identify improvements "
+            }
+          ]
+        },
+        {
+          "type": "EEO.030",
+          "data": [
+            {
+              "Identifier": "EEO.030.010",
+              "Activity": "Federal Agency EEO Affirmative Employment Program Operations",
+              "Description": "Develop and communicate agency EEO affirmative employment strategies, plans, and standards; Review agency affirmative employment strategies, plans, and standards for compliance with government-wide guidance; Develop and execute campaigns to proactively prevent/eradicate employment discrimination"
+            },
+            {
+              "Identifier": "EEO.030.020",
+              "Activity": "Federal Agency EEO Affirmative Employment Program Assessments and Compliance",
+              "Description": "Conduct self-assessments of agency affirmative employment program performance; Receive and respond to notifications of non-compliance with affirmative employment policies and standards; Determine guidance and recommendations for disciplinary action against supervisors; Evaluate and identify potential supervisors for recognition"
+            },
+            {
+              "Identifier": "EEO.030.030",
+              "Activity": "Federal Agency EEO Improvements ",
+              "Description": "Identify barriers to EEO; Evaluate barriers and identify improvement action plans; Assess effectiveness of improvements implemented to eliminate identified barriers"
+            }
+          ]
+        },
+        {
+          "type": "EEO.040",
+          "data": [
+            {
+              "Identifier": "EEO.040.010",
+              "Activity": "Federal Sector Anti-Harassment Policies and Procedures",
+              "Description": "Develop and communicate agency anti-harassment program policies and procedures that comply with Federal EEO enforcement guidance"
+            },
+            {
+              "Identifier": "EEO.040.020",
+              "Activity": "Federal Sector Anti-Harassment Training",
+              "Description": "Develop and conduct agency training on anti-harassment policy and procedures; Receive and review training feedback to determine improvements"
+            },
+            {
+              "Identifier": "EEO.040.030",
+              "Activity": "Federal Sector Anti-Harassment Inquiries and Investigations",
+              "Description": "Conduct prompt, fair, and thorough investigation of harassment allegations; Develop and provide harassment allegations findings report"
+            },
+            {
+              "Identifier": "EEO.040.040",
+              "Activity": "Federal Sector Anti-Harassment Program Assessment",
+              "Description": "Assess overall agency anti-harassment program for compliance with laws, regulations, and directives; Develop a tracking mechanism to collect and analyze data. Evaluate the agency's anti-harassment program effectiveness and complaint management"
+            },
+            {
+              "Identifier": "EEO.040.050",
+              "Activity": "Federal Sector Anti-Harassment Information Sharing",
+              "Description": "Develop and provide anti-harassment information for sharing with Divisions/Offices; Receive and assess anti-harassment  reports; Develop responses to anti-harassment information requests"
+            }
+          ]
+        },
+        {
+          "type": "EEO.050",
+          "data": [
+            {
+              "Identifier": "EEO.050.010",
+              "Activity": "Federal Agency Reasonable Accommodation Program Policy and Procedures",
+              "Description": "Develop and provide agency Reasonable Accommodation Program policy and procedures; Develop and provide Personal Assistance Services (PAS) procedures"
+            },
+            {
+              "Identifier": "EEO.050.020",
+              "Activity": "Federal Agency Processing of Reasonable Accommodation Request",
+              "Description": "Review requests for reasonable accommodation and PAS; Develop and issue determinations"
+            },
+            {
+              "Identifier": "EEO.050.030",
+              "Activity": "Federal Agency Reasonable Accommodation Program Assessment",
+              "Description": "Assess overall agency reasonable accommodation program for compliance with laws, regulations, and directives; Develop a tracking mechanism to collect and analyze data. Evaluate the agency's reasonable accommodation program effectiveness"
+            },
+            {
+              "Identifier": "EEO.050.040",
+              "Activity": "Federal Agency Reasonable Accommodation Program Training",
+              "Description": "Develop and conduct agency training on reasonable accommodation policy and procedures; Receive and review training feedback to determine improvements"
+            },
+            {
+              "Identifier": "EEO.050.050",
+              "Activity": "Federal Agency Reasonable Accommodation Information Sharing ",
+              "Description": "Develop and provide reasonable accommodation  information for sharing among divisions/offices; Receive and assess reasonable accommodation  information requests; Develop responses to reasonable accommodation information requests"
+            }
+          ]
+        },
+        {
+          "type": "EEO.060",
+          "data": [
+            {
+              "Identifier": "EEO.060.010",
+              "Activity": "Federal Agency Complaint Management Strategy",
+              "Description": "Develop and communicate agency complaint management strategies and plans; Develop agency standards for investigations and compliance reviews"
+            },
+            {
+              "Identifier": "EEO.060.020",
+              "Activity": "Federal Agency EEO Complaint Management Oversight ",
+              "Description": "Review agency complaint management strategies and plans for compliance with government-wide guidance;  Assess agency compliance with EEO complaint management standards and regulations; Receive and respond to notifications of non-compliance with complaint management policies and standards"
+            }
+          ]
+        },
+        {
+          "type": "EEO.070",
+          "data": [
+            {
+              "Identifier": "EEO.070.010",
+              "Activity": "Federal Agency EEO Complaint Management Procedures",
+              "Description": "Develop Agency EEO procedures to process and review complaints; Develop EEO procedures for Alternative Dispute Resolution (ADR); Develop EEO complaint process materials for employees and applicants"
+            },
+            {
+              "Identifier": "EEO.070.020",
+              "Activity": "Federal Agency EEO Complaint Management Training ",
+              "Description": "Develop and provide training for EEO Counselors, EEO Investigators, EEO Alternative Dispute Resolution (ADR) Mediators, and Agency Decision Writers (including refresher training); Receive and review training feedback to determine improvements"
+            }
+          ]
+        },
+        {
+          "type": "EEO.080",
+          "data": [
+            {
+              "Identifier": "EEO.080.010",
+              "Activity": "Federal Agency EEO Pre-Complaint Processing",
+              "Description": "Document alleged discriminatory incident(s) in a pre-complaint file; Identify and document pre-complaint processing start date in the pre-complaint file; Conduct initial counseling session and document results in the pre-complaint file; Develop and document notice of rights and responsibilities; Conduct limited inquiry and document claim(s) and basis(es) in the pre-complaint file; Determine if claim(s) is amendable to ADR and document ADR offering in the pre-complaint file; Develop notification that resolution may be attempted through pre-complaint counseling or ADR (if applicable); Identify and document pre-complaint processing end date in the pre-complaint file; Conduct pre-complaint counseling activities and document in the pre-complaint file; Develop and document EEO Counselor Report and include in the pre-complaint file; Develop and document notice of the right to file a formal complaint"
+            },
+            {
+              "Identifier": "EEO.080.020",
+              "Activity": "Federal Agency EEO Alternative Dispute Resolution (ADR)",
+              "Description": "Review and select appropriate ADR technique(s) (e.g., mediation, facilitation, settlement conference) and document in the pre-complaint file; Review sources of neutrals and select neutral(s); Conduct pre-EEO ADR meeting and document results; Conduct ADR proceedings and document proceeding and outcome information in the pre-complaint file"
+            },
+            {
+              "Identifier": "EEO.080.030",
+              "Activity": "Federal Agency EEO Complaint Review",
+              "Description": "Receive formal complaint and document in the complaint file; Develop notification acknowledging receipt of formal complaint; Identify claim(s) from the formal complaint information and document results in the complaint file; Determine and document dismissal, partial dismissal, or acceptance of the formal complaint in the complaint file; Develop notification of dismissal, partial dismissal, or acceptance of formal complaint, including identified claim(s); Receive and review complainant objections to the identified claim(s) and document updated claim(s) in the complaint file; Identify and document investigation period in the complaint file"
+            },
+            {
+              "Identifier": "EEO.080.040",
+              "Activity": "Federal Agency EEO Investigation",
+              "Description": "Develop investigation plans including request for documentation and testimonial evidence based on complaint file information; Review documentation and testimonial evidence and document findings in the investigative file; Develop and document investigative summary information in the investigative file; Request review of investigative file; Update investigative file based on response to request for review of investigative file; Update complaint file with investigative file information; Develop notification of right to request Final Agency Decision (FAD) or Administration Judge (AJ) Hearing"
+            },
+            {
+              "Identifier": "EEO.080.050",
+              "Activity": "Federal Agency EEO Final Agency Decision",
+              "Description": "Identify and document FAD period in the complaint file; Develop and issue FAD, including the notice of the right to file an appeal, based on complaint file information; Review and update complaint file with final agency decision or final action information"
+            },
+            {
+              "Identifier": "EEO.080.060",
+              "Activity": "Federal Agency EEO Settlement",
+              "Description": "Evaluate and document risks and benefits of settlement and litigation for finding of discrimination; Receive and review request to seek negotiation of a settlement; Develop request to seek negotiation of a settlement; Develop and document settlement terms, including non-monetary (e.g., personnel actions) and monetary relief, for inclusion in settlement agreement; Request, receive and review response to settlement terms; Develop and provide settlement agreement; Receive acceptance of settlement agreement; Obtain signatures and execute settlement agreement; Update complaint file"
+            }
+          ]
+        },
+        {
+          "type": "EEO.090",
+          "data": [
+            {
+              "Identifier": "EEO.090.010",
+              "Activity": "Federal Agency Participation in EEO Administrative Judge (AJ) Discovery",
+              "Description": "Review request for a hearing before an EEOC AJ and document results in the complaint file; Identify and document AJ hearing period in the complaint file; Develop agency response to Notice of Intent to Issue a Decision Without a Hearing (summary judgement); Develop agency response to Notice of Intent to Dismiss; Develop and document request for authorization to seek discovery; Develop agency motion to compel; Document evidence in response to AJ orders to produce evidence; Develop agency motion for a decision without a hearing; Develop agency response in opposition to a motion for a decision without a hearing; Develop agency pre-hearing statement in response to order for a pre-hearing conference; Review Hearing Scheduling Order and document agency Scheduling Order actions; Develop and document agency response to the motion to amend the complaint; Develop and document motion for sanctions; Develop and document agency response to motion for sanctions; Develop and document agency reply to complainant response to motion for sanctions; Develop and document agency response to itemized billing statement; Develop and document motion to consolidate one or more cases; Develop and document agency response to motion to consolidate one or more cases; Develop and document agency reply to complainant response to motion to consolidate one or more cases; Develop and document miscellaneous motion; Develop and document agency response to miscellaneous motion; Develop and document agency reply to complainant response to miscellaneous motion"
+            },
+            {
+              "Identifier": "EEO.090.020",
+              "Activity": "Federal Agency Review of EEO Administrative Judge Orders",
+              "Description": "Review records of AJ hearings, AJ decision(s), and Order Entering Judgment and document results in complaint file; Develop final agency order to partially or fully implement he AJ decision(s) and document in the complaint file"
+            }
+          ]
+        },
+        {
+          "type": "EEO.100",
+          "data": [
+            {
+              "Identifier": "EEO.100.010",
+              "Activity": "Federal Agency EEO Appeal Processing",
+              "Description": "Receive and review notice of right to file an appeal; Develop and file appeal; Receive and review notice of appeal from the Complainant; Update and provide complaint file to EEOC OFO; Develop statement or brief for the appeal; Develop response to request to supplement the appeal record"
+            },
+            {
+              "Identifier": "EEO.100.020",
+              "Activity": "Federal Agency EEO Appeal Decision",
+              "Description": "Update complaint file with appellate decision information; Determine and document appellate implementation actions based on appellate decision information; Develop and document request for reconsideration"
+            }
+          ]
+        },
+        {
+          "type": "EEO.110",
+          "data": [
+            {
+              "Identifier": "EEO.110.010",
+              "Activity": "Federal Agency EEO Remedies",
+              "Description": "Determine appropriate remedies, relief, and damages (as directed by EEOC decision or upon Agency's determination of discrimination); Provide interim relief, remedies, relief, and damages as required or directed"
+            },
+            {
+              "Identifier": "EEO.110.020",
+              "Activity": "Federal Agency EEO Compliance and Enforcement",
+              "Description": "Determine actions required by agency to be in compliance with final actions or settlement agreements; Verify agency actions to be in compliance; Develop and provide compliance report for appellate decisions containing corrective action; Review notice to show cause and determine actions to correct deficiencies"
+            },
+            {
+              "Identifier": "EEO.110.030",
+              "Activity": "Federal District Court Complaints",
+              "Description": "Review and develop response to civil actions filed in Federal district court; Compile and provide requested documentation; Develop and provide witness statements; Receive request for and confirm witness participation "
+            }
+          ]
+        },
+        {
+          "type": "EEO.120",
+          "data": [
+            {
+              "Identifier": "EEO.120.010",
+              "Activity": "Federal Agency EEO Reporting",
+              "Description": "Retrieve human resource information on race, national origin, sex, and disability status; Compile and report pre-complaint information and status; Compile and report Agency EEO complaint statistical data; Develop agency Federal EEO reports including quarterly EEO complaint data; Review decision information and identify trends, issues, and problems; Prepare and provide No FEAR Act report"
+            },
+            {
+              "Identifier": "EEO.120.020",
+              "Activity": "Federal Agency EEO Information Sharing",
+              "Description": "Develop and provide EEO information for sharing among departments/agencies; Receive and assess EEO information requests; Develop response to EEO information requests"
+            }
+          ]
         }
-    ],
+      ],    
     "Business_Use_Cases": {
         "EEO.L1.01 Alternative Dispute Resolution and Final Agency Decision Requested":"https://ussm.gsa.gov/assets/files/EEO.L1.01.Alternative.Dispute.Resolution.and.Final.Agency.Decision.Requested.pdf",
         "EEO.L1.02 Pre-Complaint Counseling and AJ Hearing Requested":"https://ussm.gsa.gov/assets/files/EEO.L1.02.Pre-Complaint.Counseling.and.AJ.Hearing.Requested.pdf",
