@@ -14,4 +14,5 @@ lifecycle-content: procurement/lifecycle.html
 capabilities-content: procurement/capabilities.html
 data-elements-content: procurement/data-elements.html
 use-cases-content: procurement/use-cases.html
+intro-extra: cw/intro-extra.html
 ---
