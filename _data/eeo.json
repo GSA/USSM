@@ -2,7 +2,7 @@
     "Business-Standards":"Electronic Records Management",
     "Business_Lifecycle": [
         {
-          "type": "EEO.010",
+          "type": "eeo-010",
           "data": [
             {
               "Identifier": "EEO.010.010",
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "type": "EEO.020",
+          "type": "eeo-020",
           "data": [
             {
               "Identifier": "EEO.020.010",
@@ -67,7 +67,7 @@
           ]
         },
         {
-          "type": "EEO.030",
+          "type": "eeo-030",
           "data": [
             {
               "Identifier": "EEO.030.010",
@@ -87,7 +87,7 @@
           ]
         },
         {
-          "type": "EEO.040",
+          "type": "eeo-040",
           "data": [
             {
               "Identifier": "EEO.040.010",
@@ -117,7 +117,7 @@
           ]
         },
         {
-          "type": "EEO.050",
+          "type": "eeo-050",
           "data": [
             {
               "Identifier": "EEO.050.010",
@@ -147,7 +147,7 @@
           ]
         },
         {
-          "type": "EEO.060",
+          "type": "eeo-060",
           "data": [
             {
               "Identifier": "EEO.060.010",
@@ -162,7 +162,7 @@
           ]
         },
         {
-          "type": "EEO.070",
+          "type": "eeo-070",
           "data": [
             {
               "Identifier": "EEO.070.010",
@@ -177,7 +177,7 @@
           ]
         },
         {
-          "type": "EEO.080",
+          "type": "eeo-080",
           "data": [
             {
               "Identifier": "EEO.080.010",
@@ -212,7 +212,7 @@
           ]
         },
         {
-          "type": "EEO.090",
+          "type": "eeo-090",
           "data": [
             {
               "Identifier": "EEO.090.010",
@@ -227,7 +227,7 @@
           ]
         },
         {
-          "type": "EEO.100",
+          "type": "eeo-100",
           "data": [
             {
               "Identifier": "EEO.100.010",
@@ -242,7 +242,7 @@
           ]
         },
         {
-          "type": "EEO.110",
+          "type": "eeo-110",
           "data": [
             {
               "Identifier": "EEO.110.010",
@@ -262,7 +262,7 @@
           ]
         },
         {
-          "type": "EEO.120",
+          "type": "eeo-120",
           "data": [
             {
               "Identifier": "EEO.120.010",
