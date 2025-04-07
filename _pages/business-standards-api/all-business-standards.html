@@ -108,6 +108,11 @@ permalink: /business-standards-api/
 },
 {
 "Business-Standards": "Federal Sector Equal Employment Opportunity Services",
+"Business Lifecycle": {% raw %}[{{% endraw %}
+{% for post in site.data.eeo.Business_Lifecycle %}
+"{{post.type |strip_newlines}}": {{ post["data"] |  remove: '<p>' | remove: '</p>' | replace: "=>", ":" | strip_newlines  }}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+{% raw %}}],{% endraw %}
 "Business Use Cases": [{% include business-standards-api/eeo/eeo-use-cases.html %}],
 "Service Measures": {% include business-standards-api/eeo/eeo-performance-metrics.html %}
 },
