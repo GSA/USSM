@@ -187,6 +187,7 @@ jQuery(document).ready(function () {
         },
         {
             accordian: 'eeo-lifecycle',
+            table: 'eeo-capabilities',
             url:  prefixUrl.concat('/business-standards-api/eeo'),
             hasSubsection: false
         },
