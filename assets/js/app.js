@@ -131,6 +131,14 @@ jQuery(document).ready(function () {
             hasSubsection: false
         },
         {
+            accordian: 'eeo-lifecycle',
+            table: 'eeo-capabilities',
+            UseCasesList: 'eeo-use-cases',
+            PerformanceMetricsList:"eeo-performance-metrics",
+            url:  prefixUrl.concat('/business-standards-api/eeo'),
+            hasSubsection: false
+        },
+        {
             accordian: 'erm-lifecycle',
             table: 'erm-capabilities',
             UseCasesList: 'erm-use-cases',
@@ -179,6 +187,7 @@ jQuery(document).ready(function () {
         },
         {
             accordian: 'eeo-lifecycle',
+            table: 'eeo-capabilities',
             url:  prefixUrl.concat('/business-standards-api/eeo'),
             hasSubsection: false
         },
