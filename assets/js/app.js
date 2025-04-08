@@ -132,6 +132,7 @@ jQuery(document).ready(function () {
         },
         {
             accordian: 'eeo-lifecycle',
+            table: 'eeo-capabilities',
             UseCasesList: 'eeo-use-cases',
             PerformanceMetricsList:"eeo-performance-metrics",
             url:  prefixUrl.concat('/business-standards-api/eeo'),
