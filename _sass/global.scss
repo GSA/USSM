@@ -58,7 +58,11 @@
   border-radius: 100%;
   z-index: 2;
   box-shadow: 5px 5px 10px 0px #d2d3d5;
-  margin: 0
+  margin: 0;
+
+  box-shadow:
+  0 0 0 2px white,        /* Solid 2px white border (shadow-like) */
+  5px 5px 10px 0px #2a297b; /* Existing soft drop shadow */
 }
 
 .circle__usage {
@@ -508,4 +512,41 @@ a.ogp-card__link--unset:hover {
   .usa-nav__secondary {
       right: 0.7em;
   }
+}
+
+
+/* ARC css*/
+
+svg.arc-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 410px; /* 350 + (2px gap * 2) + stroke thickness (10) */
+  height: 410px;
+  transform: translate(-30px, -30px); /* Adjust to hug the circle with 2px gap */
+  overflow: visible;
+  pointer-events: auto;
+}
+
+.arc {
+  fill: none;
+  stroke: #2a297b;
+  stroke-width: 60;
+}
+
+text {
+  font-size: 16px;
+  fill: white;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
+
+#arcClickArea {
+  fill: transparent;
+  cursor: pointer;
+}
+
+#be-text {
+  cursor: pointer;
 }
