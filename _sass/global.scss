@@ -550,3 +550,16 @@ text {
 #be-text {
   cursor: pointer;
 }
+
+
+#be-text textPath {
+  fill: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#be-text:hover textPath {
+  fill: #007bff; /* Change to your desired hover color */
+  text-decoration: underline;
+}

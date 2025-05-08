@@ -56,6 +56,8 @@
       <h2>FIBF</h2>
     </div>
   </div>
+  {% if page.url == "/fibf-fm/" or page.url == "/fibf-RPM/" or page.url ==
+  "/fibf-travel/" %}
   <svg class="arc-overlay" viewBox="0 0 410 410">
     <defs>
       <path id="arcPath" d="" />
@@ -68,6 +70,7 @@
       </textPath>
     </text>
   </svg>
+  {% endif %}
   <p class="text-center margin-right-5" style="margin-top: 50px">
     <i>Click wheel to review standards</i>
   </p>
