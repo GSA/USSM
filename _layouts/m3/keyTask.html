@@ -160,9 +160,9 @@ layout: m3/m3-layout
           </div>
 
           {% if page.activitiesText %}
-            <p style="font-weight: normal;">{{ page.activitiesText }}nn</p>
+            <p style="font-weight: normal;">{{ page.activitiesText }}</p>
           {% endif %}
-
+ 
           {% if page.activitiesGroups %}
             {% for item in page.activitiesGroups %}
               <h4>{{item.group}}</h4>
@@ -173,7 +173,6 @@ layout: m3/m3-layout
             {% assign activitiesGroup = page.activities %}
             {% include m3/activitiesGroup.html %}
           {% endif %}
-
         </div>
 
         <div class="best-practices">
