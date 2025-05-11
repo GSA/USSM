@@ -78,7 +78,13 @@ layout: m3/m3-layout
           {% endif %}
           
         </section>
-        <h1><img src="/assets/images/m3/icon_play.png" width=32 height=32> {{page.phase}}.{{page.keyTask}} : {{page.name}}</h1>
+
+<div style="display: flex; align-items: center;">
+  <img src="/assets/images/m3/icon_play.png" alt="Play Icon" style="height: 32px; margin-right: 10px;">
+    <h1>{{page.phase}}.{{page.keyTask}} : {{page.name}}</h1>
+</div>
+        
+     
       </div>
 
       <div class="desktop:grid-col-8">
