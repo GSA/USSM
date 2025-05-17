@@ -84,7 +84,7 @@ primary_navigation:
       show_in_menu: true
       show_in_footer: false
       children:
-        - text: 'Business Standards Home'
+        - text: 'Data Standards Home'
           permalink: /fibf/
           show_in_menu: true
           show_in_footer: false
