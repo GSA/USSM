@@ -2,12 +2,21 @@
 layout: m3/m3-layout
 ---
 <style>
-
-.usa-process-list__item {
-  perspective: 600px; /* Gives a 3D feel to child transforms */
+@keyframes coinspin {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
 }
 
-  .usa-process-list__item::before {
+
+  .usa-process-list__item {
+  perspective: 600px;
+}
+
+.usa-process-list__item::before {
   /* ...your existing styles... */
   display: flex;
   align-items: center;
@@ -19,14 +28,14 @@ layout: m3/m3-layout
   font-weight: bold;
   border-radius: 50%;
   font-size: 1em;
-  transition: transform 0.7s cubic-bezier(.68,-0.55,.27,1.55);
-  /* Start unrotated */
-  transform: rotateY(0deg);
-} 
-
-  .usa-process-list__item:hover::before {
-  transform: rotateY(360deg);
+  /* no initial transform needed for animation */
 }
+
+/* Animation on hover, play only once */
+.usa-process-list__item:hover::before {
+  animation: coinspin 0.8s cubic-bezier(.68,-0.55,.27,1.55) 1 forwards;
+}
+  
   
 </style>
 
