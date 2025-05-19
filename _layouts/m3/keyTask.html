@@ -8,8 +8,17 @@ layout: m3/m3-layout
   transition: transform 0.5s cubic-bezier(.68,-0.55,.27,1.55); /* smooth animation */
 }
 
-/* Spin the circle on hover */
+@keyframes pulse {
+  0% { transform: scale(1);}
+  50% { transform: scale(1.2);}
+  100% { transform: scale(1);}
+}
 .usa-process-list__item:hover::before {
+  animation: pulse 0.6s;
+}
+  
+/* Spin the circle on hover */
+.usa-process-list__item:hover::pulse {
   transform: rotate(360deg);
 }
 
