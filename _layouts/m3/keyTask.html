@@ -1,7 +1,20 @@
 ---
 layout: m3/m3-layout
 ---
+<style>
 
+.usa-process-list__item::before {
+  /* ...existing styles... */
+  transition: transform 0.5s cubic-bezier(.68,-0.55,.27,1.55); /* smooth animation */
+}
+
+/* Spin the circle on hover */
+.usa-process-list__item:hover::before {
+  transform: rotate(360deg);
+}
+
+  
+</style>
 
 {% assign parent = site.pages | where: 'layout', 'm3/phase' | where: 'phase', page.phase | first %}
 
