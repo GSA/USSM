@@ -3,30 +3,30 @@ layout: m3/m3-layout
 ---
 <style>
 
-.usa-process-list__item::before {
-  /* ...existing styles... */
-  transition: transform 0.5s cubic-bezier(.68,-0.55,.27,1.55); /* smooth animation */
+.usa-process-list__item {
+  perspective: 600px; /* Gives a 3D feel to child transforms */
 }
 
-@keyframes pulse {
-  0% { transform: scale(1);}
-  50% { transform: scale(1.2);}
-  100% { transform: scale(1);}
-}
-.usa-process-list__item:hover::before {
-  animation: pulse 0.6s;
-}
+  .usa-process-list__item::before {
+  /* ...your existing styles... */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2em;
+  height: 2em;
+  background: #e14c32;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 1em;
+  transition: transform 0.7s cubic-bezier(.68,-0.55,.27,1.55);
+  /* Start unrotated */
+  transform: rotateY(0deg);
+} 
 
-  
-.usa-process-list__item:hover::before {
-  transform: scale(1.2);
+  .usa-process-list__item:hover::before {
+  transform: rotateY(360deg);
 }
-  
-/* Spin the circle on hover */
-.usa-process-list__item:hover::before {
-  transform: rotate(360deg);
-}
-
   
 </style>
 
