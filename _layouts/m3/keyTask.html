@@ -3,48 +3,15 @@ layout: m3/m3-layout
 ---
 <style>
 
-@keyframes pulseAndSettle {
-  0%   { transform: scale(1); }
-  40%  { transform: scale(1.25); }
-  80%  { transform: scale(1); }
-  100% { transform: scale(1.12); }
+@keyframes pulse {
+  0% { transform: scale(1);}
+  50% { transform: scale(1.2);}
+  100% { transform: scale(1);}
 }
-
-  .usa-process-list__item {
-  perspective: 600px; /* If you want 3D, not needed for pulse */
-}
-
-.usa-process-list__item::before {
-  /* ...your circle styles... */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2em;
-  height: 2em;
-  background: #e14c32;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 50%;
-  font-size: 1em;
-  transition: transform 0.25s cubic-bezier(.68,-0.55,.27,1.55); /* for smooth scale back */
-  transform: scale(1);
-}
-
-/* On hover: play the pulse and settle animation, then stay at 1.12x */
 .usa-process-list__item:hover::before {
-  animation: pulseAndSettle 0.6s cubic-bezier(.68,-0.55,.27,1.55) 1 forwards;
+  animation: pulse 0.6s;
 }
 
-  .usa-process-list__item::before {
-  transition: transform 0.25s cubic-bezier(.68,-0.55,.27,1.55);
-}
-
-.usa-process-list__item:not(:hover)::before {
-  /* This line is only needed if you want to be explicit, but the above covers it */
-  transform: scale(1);
-}
-
-  
   
 </style>
 
