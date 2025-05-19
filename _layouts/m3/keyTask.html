@@ -16,9 +16,14 @@ layout: m3/m3-layout
 .usa-process-list__item:hover::before {
   animation: pulse 0.6s;
 }
+
+  
+.usa-process-list__item:hover::before {
+  transform: scale(1.2);
+}
   
 /* Spin the circle on hover */
-.usa-process-list__item:hover::pulse {
+.usa-process-list__item:hover::before {
   transform: rotate(360deg);
 }
 
