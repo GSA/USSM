@@ -2,38 +2,14 @@
 layout: m3/m3-layout
 ---
 <style>
-@keyframes coinspin {
-  0% {
-    transform: rotateX(0deg);
-  }
-  100% {
-    transform: rotateX(360deg);
-  }
+
+@keyframes pulse {
+  0% { transform: scale(1);}
+  50% { transform: scale(1.2);}
+  100% { transform: scale(1);}
 }
-
-
-  .usa-process-list__item {
-  perspective: 600px;
-}
-
-.usa-process-list__item::before {
-  /* ...your existing styles... */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2em;
-  height: 2em;
-  background: #e14c32;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 50%;
-  font-size: 1em;
-  /* no initial transform needed for animation */
-}
-
-/* Animation on hover, play only once */
 .usa-process-list__item:hover::before {
-  animation: coinspin 0.8s cubic-bezier(.68,-0.55,.27,1.55) 1 forwards;
+  animation: pulse 0.6s;
 }
   
   
