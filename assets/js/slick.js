@@ -14,7 +14,7 @@
  Issues: http://github.com/kenwheeler/slick/issues
 
  */
-/* global window, document, define, jQuery, setInterval, clearInterval */
+/* global window, document, define, jQuery, setInterval, clearInterval, DOMPurify */
 (function (factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -1649,6 +1649,9 @@
 
             image = $imgsToLoad.first();
             imageSource = image.attr('data-lazy');
+
+            // Sanitize the imageSource to ensure it is safe
+            imageSource = DOMPurify.sanitize(imageSource, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] });
 
             // Sanitize the imageSource to ensure it is a valid URL
             var isValidUrl = function (url) {
