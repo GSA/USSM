@@ -1649,6 +1649,21 @@
 
             image = $imgsToLoad.first();
             imageSource = image.attr('data-lazy');
+
+            // Sanitize the imageSource to ensure it is a valid URL
+            var isValidUrl = function (url) {
+                try {
+                    var parsedUrl = new URL(url, window.location.origin);
+                    return parsedUrl.protocol === "http:" || parsedUrl.protocol === "https:";
+                } catch (e) {
+                    return false;
+                }
+            };
+
+            if (!isValidUrl(imageSource)) {
+                console.warn("Invalid data-lazy URL:", imageSource);
+                return;
+            }
             imageToLoad = document.createElement('img');
 
             imageToLoad.onload = function () {
