@@ -1459,7 +1459,7 @@
             $('img[data-lazy]', imagesScope).each(function () {
 
                 var image = $(this),
-                    imageSource = $(this).attr('data-lazy'),
+                    imageSource = DOMPurify.sanitize($(this).attr('data-lazy')),
                     imageToLoad = document.createElement('img');
 
                 imageToLoad.onload = function () {
