@@ -1,53 +1,117 @@
-<p><i>Select from the list of available functions to view associated activities</i></p>
-<div id="hr-td-lifecycle" class="usa-accordion usa-accordion--bordered" data-allow-multiple>
-       <div>
-        <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a5">HCM.A3-1 Talent Development Planning</button>
-        <div id="b-a5" class="usa-accordion__content usa-prose">
-            <table id="hcm-A3-1" aria-label="HCM.A3-1 Talent Development Planning">
-                <thead>
-                    <tr>
-                        <th class="capability_class" scope="col"><strong><strong><em>Identifier</em></strong></strong></th>
-                        <th class="capability_class" scope="col"><strong><em>Activity</em></strong></th>
-                        <th class="capability_class" scope="col"><strong><em>Description</em></strong></th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://designsystem.digital.gov/styles/uswds.css">
+    <style>
+        td.capability_class ul {
+            margin: 0;
+            padding-left: 1.5em;
+        }
+        td.capability_class li {
+            list-style-type: disc;
+            margin-bottom: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <p><i>Select from the list of available functions to view associated activities</i></p>
+        <div id="hr-td-lifecycle" class="usa-accordion usa-accordion--bordered" data-allow-multiple>
+            <div>
+                <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a5">HCM.A3-1 Talent Development Planning</button>
+                <div id="b-a5" class="usa-accordion__content usa-prose">
+                    <table id="hcm-A3-1" aria-label="HCM.A3-1 Talent Development Planning">
+                        <thead>
+                            <tr>
+                                <th class="capability_class" scope="col"><strong><strong><em>Identifier</em></strong></strong></th>
+                                <th class="capability_class" scope="col"><strong><em>Activity</em></strong></th>
+                                <th class="capability_class" scope="col"><strong><em>Description</em></strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
 
-      <div>
-        <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a6">HCM.A3-2 Talent Development and Training</button>
-        <div id="b-a6" class="usa-accordion__content usa-prose">
-            <table id="hcm-A3-2" aria-label="HCM.A3-2 Talent Development and Training">
-                <thead>
-                    <tr>
-                        <th class="capability_class" scope="col"><strong><strong><em>Identifier</em></strong></strong></th>
-                        <th class="capability_class" scope="col"><strong><em>Activity</em></strong></th>
-                        <th class="capability_class" scope="col"><strong><em>Description</em></strong></th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-      </div>
+            <div>
+                <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a6">HCM.A3-2 Talent Development and Training</button>
+                <div id="b-a6" class="usa-accordion__content usa-prose">
+                    <table id="hcm-A3-2" aria-label="HCM.A3-2 Talent Development and Training">
+                        <thead>
+                            <tr>
+                                <th class="capability_class" scope="col"><strong><strong><em>Identifier</em></strong></strong></th>
+                                <th class="capability_class" scope="col"><strong><em>Activity</em></strong></th>
+                                <th class="capability_class" scope="col"><strong><em>Description</em></strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
 
-      <div>
-        <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a7">HCM.A3-3 Learning Administration</button>
-        <div id="b-a7" class="usa-accordion__content usa-prose">
-            <table id="hcm-A3-3" aria-label="HCM.A3-3 Learning Administration">
-                <thead>
-                    <tr>
-                        <th class="capability_class" scope="col"><strong><strong><em>Identifier</em></strong></strong></th>
-                        <th class="capability_class" scope="col"><strong><em>Activity</em></strong></th>
-                        <th class="capability_class" scope="col"><strong><em>Description</em></strong></th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
+            <div>
+                <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a7">HCM.A3-3 Learning Administration</button>
+                <div id="b-a7" class="usa-accordion__content usa-prose">
+                    <table id="hcm-A3-3" aria-label="HCM.A3-3 Learning Administration">
+                        <thead>
+                            <tr>
+                                <th class="capability_class" scope="col"><strong><strong><em>Identifier</em></strong></strong></th>
+                                <th class="capability_class" scope="col"><strong><em>Activity</em></strong></th>
+                                <th class="capability_class" scope="col"><strong><em>Description</em></strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-      </div>
-</div>
+        <script>
+            const processTableContent = tbody => {
+                if (!tbody) return;
+        
+                const rows = tbody.querySelectorAll('tr');
+                rows.forEach(row => {
+                    const descriptionCell = row.querySelector('td.capability_class:last-child');
+                    if (descriptionCell && descriptionCell.textContent.includes('•')) {
+                        const rawText = descriptionCell.textContent;
+                        const mainText = rawText.split('•')[0].trim();
+                        const bulletPoints = rawText.split('•').slice(1).map(line => line.trim()).filter(line => line !== "");
+                        descriptionCell.textContent = mainText;
+                        const ul = document.createElement('ul');
+                        bulletPoints.forEach(point => {
+                            const li = document.createElement('li');
+                            li.textContent = point;
+                            ul.appendChild(li);
+                        });
+                        descriptionCell.appendChild(ul);
+                    }
+                });
+            };
+        
+            const observeAllTables = () => {
+                const tablesWithTbody = document.querySelectorAll('table tbody');
+                if (!tablesWithTbody.length) return;
+        
+                tablesWithTbody.forEach(tbody => {
+                    const observer = new MutationObserver(mutations => {
+                        mutations.forEach(() => {
+                            processTableContent(tbody);
+                        });
+                    });
+        
+                    observer.observe(tbody, {
+                        childList: true,
+                        subtree: true,
+                    });
+                });
+            };
+        
+            observeAllTables();
+        </script>
+</body>
+
+</html>

@@ -21,6 +21,48 @@ news-category: FIBF-ERM
     </div>
 </div>
 
+<STYLE>
+
+.hover-container {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-link {
+  text-decoration: none;
+  color: #0073e6; /* change to your preferred link color */
+  font-weight: bold;
+}
+
+.hover-info {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: absolute;
+  top: 100%;      /* Places the info box directly below the link */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #222;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+  white-space: nowrap;
+  pointer-events: none; /* prevents accidental hovers on the box */
+}
+
+.hover-container:hover .hover-info {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+
+</STYLE>
+
+
+
+
+
 <section class="pm" id="electronic-records-management">
     <div class="grid-container">
         <div class="grid-row">
@@ -31,6 +73,13 @@ news-category: FIBF-ERM
                 <p>
                    The Department of Health and Human Services <A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html">Grants Management Quality Services Management Office</A> established a Marketplace of shared grants management solutions and is operationalizing a vision for federal grants that enables applicants, recipients, and federal awarding agencies to efficiently and effectively deliver on their missions. The Grants QSMO engages all 52 federal awarding agencies to ensure marketplace solutions and services align with their needs, challenges, and objectives.  
                 </p>
+<div class="hover-container">
+  <a href="#" class="hover-link">hover me</a>
+  <span class="hover-info">
+    <strong>$6.8 Trillion</strong><br>
+    2024 Federal Budget
+  </span>
+</div>
 
 
 <B>Federal agencies, begin here - Find solutions and get help:</B>

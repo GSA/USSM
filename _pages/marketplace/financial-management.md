@@ -7,7 +7,7 @@ news-category: FIBF-FM
 ---
 
 
-{% include banner.html title-override="Services Catalog" width="grid-col-11" offset="grid-offset-1" %}
+{% include banner.html title-override="GovOps Marketplace" width="grid-col-11" offset="grid-offset-1" %}
 
 <style>
   a.green-link {
@@ -19,7 +19,7 @@ news-category: FIBF-FM
 <div class="grid-container">
     <div class="grid-row grid-gap">
             <div class="tablet:grid-col-10 tablet:grid-offset-1 padding-top-1">
-            {% include breadcrumbs.html %}
+            {% include breadcrumbs-marketplace.html %}
             </div>
     </div>
 </div>
@@ -32,10 +32,10 @@ news-category: FIBF-FM
                    <img src="/assets/images/fibf/icons/icon.corefm.webp" alt="Financial Management Icon" width="50px" height="auto" style="vertical-align:middle;"> Financial Management
                 </h2>
                 <p>
-                    The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the FM Marketplace Catalog as a resource for agencies to identify and research from over 70 services and solutions that can support their financial management needs to accomplish both agency and shared government-wide goals.
+                    The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the FM Marketplace Catalog as a resource to identify from over 70 services and solutions that that will support financial management needs that accomplish both agency and shared government-wide goals.
                 </p>
 
-              <B>Agencies, begin here - Find FM solutions and get help:</B><BR>
+              <B>Agencies, begin here - Find solutions to manage funding:</B><BR>
                 <ul class="margin-top-0 margin-bottom-3">
                      <img src="/assets/images/marketplace/icon_cart_16.png" alt="Explore the FM Marketplace Catalog" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://tfx.treasury.gov/fmqsmo/marketplace-catalog" title="FM Marketplace Catalog" target="_blank" class="green-link">Explore the FM Marketplace Catalog</a><BR>
   <img src="/assets/images/marketplace/icon_acquisitionhub_16.png" alt="FM Marketplace Acquisition Hub" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://acquisitiongateway.gov/shared-services/resources/4215" title="FM Marketplace Acquisition Hub" target="_blank">Hub for Acquisition Professionals</a><BR>
@@ -216,9 +216,26 @@ news-category: FIBF-FM
                         Why does it matter?
                     </h2>
                 </div>
-             
-                  <p>
-                    <B>Federal agencies manage over $6.8 trillion in annual spending</B><sup>1</sup>.  Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Common goals and objectives in agency financial management include:
+
+<div style="display: flex; align-items: center; gap: 20px;">
+    <div style="text-align: center; background-color: rgb(120, 120, 120); padding: 10px 20px; border-radius: 8px;">
+        <div style="font-size: 55px; font-weight: bold; color: white;">
+            $6.8
+        </div>
+        <div style="font-size: 28px; color: white; text-transform: uppercase; letter-spacing: 1px;">
+            Trillion
+        </div>
+    </div>
+    <div style="font-size: 20px; color: #333; max-width: 500px;">
+        In 2024, Federal agencies managed over $6.8 trillion of funding in alignment with the federal budget.<sup>1</sup>
+    </div>
+</div>
+
+
+           
+
+           <p>
+                    Effective stewardship of taxpayer funds is a responsibility of the Federal Government and the Chief Financial Officer.  Common goals and objectives in agency financial management include:
                 </p>
                 <ul class="margin-top-0">
                     <li>Improving Financial Transparency</li>
@@ -229,9 +246,11 @@ news-category: FIBF-FM
                     <li>Using Data to Maximize Agency Resource Allocation</li>
                 </ul>
 
-A high-performing marketplace of the expertise and advanced technologies needed to support delivery on the needs of agency Federal Financial Management will (1) improve the likelihood of success in delivering on the administration's fiscal priorities (2) increase the availability of data to improve transparency, accountability and strategic decision-making in Federal spending (3) increase  cost-effectiveness in agency resource optimization (4) improve management efficiency and reduce risk.
+A competitive marketplace of expertise and modern financial management systems will (1) enhance the success rate of achieving the administration’s fiscal priorities, (2) expand access to data for greater transparency, accountability, and strategic decision-making in Federal spending, (3) optimize government resources to maximize value for taxpayers.
+
+             
 <BR><BR>
-<sup>1 Source:<A HREF="https://www.cbo.gov/topics/budget">Congressional Budget Office, 2024</A></sup>
+<sup>1 Source:<A HREF="https://www.cbo.gov/topics/budget">Congressional Budget Office, 2024</A></sup><BR>
                     
                 <hr class="margin-top-auto width-full">
             </div>
@@ -289,12 +308,7 @@ You may also be interested in:<BR>
                     </h2>
                 </div>
             
-                           <p class="margin-top-1 margin-bottom-1"><b>President's Management Agenda</b></p>
-                <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-                    <li style="margin-left: 2px;">Priority 3: <a href="https://www.performance.gov/pma/businessofgov/#overview" title="performance.gov" target="_blank">Managing the Business of Government</a>, Strategy 2 <a href="https://www.performance.gov/pma/businessofgov/strategy/2/" target="_blank" title="Strengthen Federal Financial Management">Strengthen Federal Financial Management.</a></li>
-                </ul>
-
-                
+               
                   <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                     <li style="margin-left: 2px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>

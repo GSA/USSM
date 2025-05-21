@@ -1,6 +1,33 @@
 {
     "title": "News",
     "items": [
+    {
+            "NewsID": "64",
+            "Homepage": "1",
+            "Category": "FIBF-AI",
+            "Title": "Two new AI tools help illuminate GSA’s future state",
+            "Date": "2025-03-25",
+            "Source": "Federal News Network",
+            "Hyperlink": "https://federalnewsnetwork.com/management/2025/03/two-new-ai-tools-help-illuminate-gsas-future-state/"
+        },      
+      {
+            "NewsID": "63",
+            "Homepage": "1",
+            "Category": "FIBF-HR",
+            "Title": "USDA’s Automations Taking Burden Out of HR work",
+            "Date": "2025-03-04",
+            "Source": "Federal News Network",
+            "Hyperlink": "https://federalnewsnetwork.com/ask-the-cio/2025/03/usdas-automations-taking-some-of-the-burden-out-of-hr-work/?utm_source=widget&utm_medium=web&utm_content=article&utm_term=recent_cat_posts"
+        },
+       {
+            "NewsID": "62",
+            "Homepage": "1",
+            "Category": "FIBF-TRT",
+            "Title": "GSA Plans Modernized Travel System (ETSNext)",
+            "Date": "2024-12-04",
+            "Source": "GovExec",
+            "Hyperlink": "https://www.govexec.com/technology/2024/12/ibm-wins-930m-federal-employee-travel-system-contract/401368/"
+        },
         {
             "NewsID": "61",
             "Homepage": "0",

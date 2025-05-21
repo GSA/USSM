@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Treasury ARC Services</title>
+    <style>
+        .tree ul {
+            display: none;
+            padding-left: 20px;
+        }
+        .tree li {
+            list-style-type: none;
+            cursor: pointer;
+            position: relative;
+        }
+        .tree li::before {
+            content: '▶';
+            position: absolute;
+            left: -15px;
+            color: #666;
+            transition: transform 0.2s;
+        }
+        .tree li.open::before {
+            transform: rotate(90deg);
+        }
+        .tree li.open > ul {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="tree">
+        <ul>
+            <li>Financial Services
+                <ul>
+                    <li>Accounting
+                        <ul>
+                            <li>Commercial Accounts Payable (IPP)</li>
+                            <li>Commercial Accounts Payable (Non-IPP)</li>
+                            <li>Payroll Accounting</li>
+                            <li>Budget Processing</li>
+                            <li>Budget Reporting</li>
+                            <li>General Ledger Accounting</li>
+                        </ul>
+                    </li>
+                    <li>Payment Processing
+                        <ul>
+                            <li>Miscellaneous Payments</li>
+                            <li>Foreign & PSC Payments</li>
+                            <li>Grant Transaction Processing</li>
+                            <li>Loan Transaction Processing</li>
+                        </ul>
+                    </li>
+                    <li>Financial Management
+                        <ul>
+                            <li>Cash Services</li>
+                            <li>Investment Accounting</li>
+                            <li>Financial Statements</li>
+                            <li>Compliance Support</li>
+                        </ul>
+                    </li>
+                    <li>Reporting
+                        <ul>
+                            <li>Oracle Federal Financials R12 Hosting</li>
+                            <li>Oracle Business Intelligence Reporting</li>
+                            <li>OneStream XFMAX Reporting</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Human Resources
+                <ul>
+                    <li>HR Administration
+                        <ul>
+                            <li>Recruitment and Staffing</li>
+                            <li>Benefits Administration</li>
+                            <li>Employee Relations</li>
+                        </ul>
+                    </li>
+                    <li>HR Management
+                        <ul>
+                            <li>Performance Management</li>
+                            <li>Training and Development</li>
+                            <li>HR Policy and Compliance</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>IT Services
+                <ul>
+                    <li>Infrastructure
+                        <ul>
+                            <li>IT Infrastructure Support</li>
+                            <li>Network Management</li>
+                        </ul>
+                    </li>
+                    <li>Security and Development
+                        <ul>
+                            <li>Cybersecurity Services</li>
+                            <li>Data Management and Analysis</li>
+                            <li>Application Development</li>
+                            <li>Help Desk Services</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Procurement and Travel
+                <ul>
+                    <li>Procurement
+                        <ul>
+                            <li>Acquisition Planning</li>
+                            <li>Contracting Services</li>
+                            <li>Vendor Management</li>
+                            <li>Procurement Policy</li>
+                        </ul>
+                    </li>
+                    <li>Travel Management
+                        <ul>
+                            <li>Travel Management Services</li>
+                            <li>Travel Policy</li>
+                            <li>Expense Reporting</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        document.querySelector('.tree').addEventListener('click', function(e) {
+            if (e.target.tagName === 'LI') {
+                e.target.classList.toggle('open');
+                e.stopPropagation();
+            }
+        });
+    </script>
+</body>
+</html>
