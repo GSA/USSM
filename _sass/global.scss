@@ -181,7 +181,18 @@
 .circle .slice:nth-child(1) .label:before,
 .circle .slice:nth-child(1) .label:after {
   transform: translateX(-38%) rotate(2deg);
+  
 }
+.circle .slice:nth-child(1) .label:before {
+  transform: translateX(-42%) rotate(2deg);
+    width: 184px;
+}
+.circle .slice:nth-child(1) .label:after {
+   transform: translateX(-44%) rotate(2deg);
+    width: 196px !important;
+    font-size: 14px;
+}
+
 
 .circle .slice:nth-child(2) {
   transform: rotate(36deg);
