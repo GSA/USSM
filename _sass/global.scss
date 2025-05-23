@@ -58,7 +58,11 @@
   border-radius: 100%;
   z-index: 2;
   box-shadow: 5px 5px 10px 0px #d2d3d5;
-  margin: 0
+  margin: 0;
+
+  box-shadow:
+  0 0 0 2px white,        /* Solid 2px white border (shadow-like) */
+  5px 5px 10px 0px #2a297b; /* Existing soft drop shadow */
 }
 
 .circle__usage {
@@ -153,11 +157,11 @@
   content: attr(data-label);
   position: absolute;
   z-index: 10;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .circle .slice:nth-child(1) {
-  transform: rotate(-37deg);
+  transform: rotate(-42deg);
   transition-delay: 0.6s;
   background-color: #66519e;
 }
@@ -177,10 +181,23 @@
 .circle .slice:nth-child(1) .label:before,
 .circle .slice:nth-child(1) .label:after {
   transform: translateX(-38%) rotate(2deg);
+ 
+  
+}
+.circle .slice:nth-child(1) .label:before {
+     transform: translateX(-39%) rotate(8deg);
+    width: 191px;
+    top: 16px;
+}
+.circle .slice:nth-child(1) .label:after {
+   transform: translateX(-44%) rotate(2deg);
+    width: 196px !important;
+    font-size: 14px;
 }
 
+
 .circle .slice:nth-child(2) {
-  transform: rotate(36deg);
+  transform: rotate(40deg);
   transition-delay: 0.4s;
   background-color: #2e7abb;
   box-shadow: 5px 5px 5px 9px #48357c;
@@ -200,7 +217,7 @@
 
 .circle .slice:nth-child(2) .label:before,
 .circle .slice:nth-child(2) .label:after {
-  transform: translateX(-50%) rotate(-71deg);
+  transform: translateX(-42%) rotate(-74deg);
 }
 
 .circle .slice:nth-child(3) {
@@ -224,7 +241,7 @@
 
 .circle .slice:nth-child(3) .label:before,
 .circle .slice:nth-child(3) .label:after {
-  transform: translateX(-50%) rotate(-143deg);
+  transform: translateX(-50%) rotate(-144deg);
 }
 
 .circle .slice:nth-child(4) {
@@ -248,11 +265,11 @@
 
 .circle .slice:nth-child(4) .label:before,
 .circle .slice:nth-child(4) .label:after {
-  transform: translateX(-47%) rotate(-214deg);
+  transform: translateX(-53%) rotate(-211deg);
 }
 
 .circle .slice:nth-child(5) {
-  transform: rotate(251deg);
+  transform: rotate(245deg);
   transition-delay: -0.2s;
   box-shadow: 5px -30px 5px 9px #2b6d63;
 }
@@ -274,7 +291,7 @@
 
 .circle .slice:nth-child(5) .label:before,
 .circle .slice:nth-child(5) .label:after {
-  transform: translateX(-50%) rotate(-285deg);
+  transform: translateX(-43%) rotate(-280deg);
 }
 
 span[role="link"] {
@@ -510,3 +527,52 @@ a.ogp-card__link--unset:hover {
   }
 }
 
+
+/* ARC css*/
+
+svg.arc-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 410px; /* 350 + (2px gap * 2) + stroke thickness (10) */
+  height: 410px;
+  transform: translate(-30px, -30px); /* Adjust to hug the circle with 2px gap */
+  overflow: visible;
+  pointer-events: auto;
+}
+
+.arc {
+  fill: none;
+  stroke: #2a297b;
+  stroke-width: 60;
+}
+
+text {
+  font-size: 16px;
+  fill: white;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
+
+#arcClickArea {
+  fill: transparent;
+  cursor: pointer;
+}
+
+#be-text {
+  cursor: pointer;
+}
+
+
+#be-text textPath {
+  fill: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#be-text:hover textPath {
+  //fill: #007bff; 
+  text-decoration: underline;
+}

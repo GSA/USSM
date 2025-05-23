@@ -22,6 +22,12 @@
             "logo": "department-of-defense.svg"
           },
           {
+            "agency": "Department of Education",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "department-of-education.svg"
+          },
+          {
             "agency": "Department of Energy",
             "sapoc": "Ingrid Kolb",
             "title": "Director of Management",
@@ -101,6 +107,12 @@
             "sapoc": "Anita Harrell",
             "title": "NSSC Executive Director",
             "logo": "national-aeronautics-and-space-administration.svg",
+          },
+          {
+            "agency": "Agency for International Development",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "us-agency-for-international-development.svg",
           },
           {
             "agency": "General Services Administration",
