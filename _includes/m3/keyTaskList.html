@@ -81,7 +81,9 @@
 <h3>Objective</h3>
     {{ item.objective }}     
         </section>
-          
+
+ <section class="borderBottom">
+        
           <h3>Responsible Party</h3>
           <svg class="usa-icon color-{{ responsibleParty }}" aria-hidden="true" focusable="false" role="img">
             <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = responsibleParty %}"></use>
@@ -134,7 +136,7 @@
 
         <section class="textAlignCenter">
           <a href="{{site.baseurl}}{{item.url}}" class="usa-button" aria-label="View details of {{item.name }}">
-            View Details2
+            View Details
           </a>
         </section>
 
