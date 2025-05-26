@@ -76,35 +76,31 @@ all links inside overlayLinkContainer
 https://codepen.io/pwkip/pen/oGMZjb
 */
 .overlayLinkContainer {
-  position:relative;
-}
-
-.overlayLinkContainer {
     position: relative;
     display: flex;
-    align-items: left;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between; /* push content and buttons apart */
 }
 
-.overlayLinkContainer a {
-  z-index: 1;
-}
-.overlayLinkContainer .overlayLink::before {
-  content: "";
-  position:absolute;
-  left:0; top:0; bottom:0; right:0;
+/* Ensuring that only the main text content expands to take up space */
+.overlayLinkContainer .keyTask-name {
+    flex-grow: 1;
 }
 
+/* Specifically ensure the button stays in place */
+.overlayLinkContainer .usa-button {
+    position: relative;
+    z-index: 3; /* ensure it sits above overlay */
+}
+
+/* Maintain overlay clickable area behind the buttons */
 .overlayLinkContainer .overlayLink::before {
+    content: "";
     position: absolute;
-    left: 0;
     top: 0;
+    left: 0;
     bottom: 0;
     right: 0;
-    z-index: 1; /* make sure this is below your buttons */
-}
-
-.overlayLinkContainer a.usa-button {
-    position: relative;
-    z-index: 2;
+    z-index: 1;
+    pointer-events: auto; /* or none, depending on needs */
 }
