@@ -77,30 +77,25 @@ https://codepen.io/pwkip/pen/oGMZjb
 */
 .overlayLinkContainer {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* push content and buttons apart */
+    padding-right: 150px; /* reserve space explicitly for buttons */
 }
 
-/* Ensuring that only the main text content expands to take up space */
-.overlayLinkContainer .keyTask-name {
-    flex-grow: 1;
-}
-
-/* Specifically ensure the button stays in place */
-.overlayLinkContainer .usa-button {
-    position: relative;
-    z-index: 3; /* ensure it sits above overlay */
-}
-
-/* Maintain overlay clickable area behind the buttons */
+/* Ensure overlay only covers left area (excluding buttons) */
 .overlayLinkContainer .overlayLink::before {
-    content: "";
     position: absolute;
+    content: "";
     top: 0;
-    left: 0;
     bottom: 0;
-    right: 0;
+    left: 0;
+    right: 150px; /* exclude buttons area */
     z-index: 1;
-    pointer-events: auto; /* or none, depending on needs */
+}
+
+/* explicitly position buttons neatly on the right side */
+.overlayLinkContainer .usa-button {
+    position: absolute;
+    right: 10px; /* slight padding from edge */
+    top: 50%;
+    transform: translateY(-50%); /* vertically center */
+    z-index: 2; /* above overlay */
 }
