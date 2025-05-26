@@ -21,7 +21,7 @@
         </svg>
         {{responsibleParty}}
       </div>
-
+<div class="button-container">
       <a href="{{site.baseurl}}{{item.url}}" class="usa-button usa-button--outline" aria-label="View details of {{item.name }}">
         Detail View
       </a>
@@ -29,7 +29,7 @@
       <a href="#modal-{{ page.phase }}-{{item.keyTask}}" aria-controls="modal-{{ page.phase }}-{{item.keyTask}}" data-open-modal class="usa-button usa-button--outline" aria-label="Quick view of {{item.name }}">
         Quick View
       </a>
-
+ </div>
     </li>
   {% endfor %}
 </ul>
