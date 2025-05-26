@@ -82,7 +82,7 @@ https://codepen.io/pwkip/pen/oGMZjb
 .overlayLinkContainer {
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
 }
 
@@ -102,4 +102,9 @@ https://codepen.io/pwkip/pen/oGMZjb
     bottom: 0;
     right: 0;
     z-index: 1; /* make sure this is below your buttons */
+}
+
+.overlayLinkContainer a.usa-button {
+    position: relative;
+    z-index: 2;
 }
