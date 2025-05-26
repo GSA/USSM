@@ -130,8 +130,9 @@ layout: m3/m3-layout
         {% if page.exitCriteria %}
         <div class="m3-summary-box usa-summary-box" role="complementary">
           <div class="usa-summary-box__body">
-            <h2 class="usa-summary-box__heading">Exit Criteria (to move into Phase {{ page.phase | plus:1 }})</h2>
+            <h2 class="usa-summary-box__heading">Phase {{ page.phase | plus:1 }} Readiness Indicators)</h2>
             <div class="usa-summary-box__text">
+              Readiness Indicators are not strictly required to advance.
               <ul>
                 {% for item in page.exitCriteria  %}
                 <li>
