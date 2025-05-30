@@ -84,7 +84,7 @@ primary_navigation:
       show_in_menu: true
       show_in_footer: false
       children:
-        - text: 'Business Standards Home'
+        - text: 'Data Standards Home'
           permalink: /fibf/
           show_in_menu: true
           show_in_footer: false
@@ -275,8 +275,8 @@ primary_navigation:
           permalink: /m3phase3/
           show_in_menu: false
           show_in_footer: false
-        - text: 'Phase 4: Migration'
-          tooltip: 'Phase 4 (Migration): Build, test, and deploy the new system, concept of operations, and workforce design. An Agile approach should be adopted for this phase.'
+        - text: 'Phase 4: Implementation'
+          tooltip: 'Phase 4 (Implementation): Build, test, and deploy the new system, concept of operations, and workforce design. An Agile approach should be adopted for this phase.'
           permalink: /m3phase4/
           show_in_menu: false
           show_in_footer: false

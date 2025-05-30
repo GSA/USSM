@@ -76,13 +76,34 @@ all links inside overlayLinkContainer
 https://codepen.io/pwkip/pen/oGMZjb
 */
 .overlayLinkContainer {
-  position:relative;
+    position: relative;
+    padding-right: 220px; /* sufficient space for both buttons */
 }
-.overlayLinkContainer a {
-  z-index: 1;
-}
+
+/* Reduce overlay clickable area to exclude button area */
 .overlayLinkContainer .overlayLink::before {
-  content: "";
-  position:absolute;
-  left:0; top:0; bottom:0; right:0;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 220px;
+    z-index: 1;
+}
+
+/* create a button container within overlayLinkContainer */
+.overlayLinkContainer .button-container {
+    position: absolute;
+    right: 10px;   /* aligns to right edge nicely */
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 10px; /* space between buttons */
+    z-index: 2; /* above overlay */
+}
+
+/* reset buttons to remove conflicts */
+.overlayLinkContainer .button-container .usa-button {
+    position: relative;
+    z-index: 3; 
 }

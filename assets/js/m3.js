@@ -55,11 +55,15 @@ document.addEventListener("DOMContentLoaded", function () {
         thumbnail.addEventListener("click", function (event) {
             event.preventDefault();
             let newSrc = this.getAttribute("data-video-src");
-            
-            if (!newSrc.includes("autoplay=1")) {
-                newSrc = newSrc.includes("?") ? `${newSrc}&autoplay=1` : `${newSrc}?autoplay=1`;
+            try {
+                let url = new URL(newSrc, window.location.origin);
+                if (!url.searchParams.has("autoplay")) {
+                    url.searchParams.append("autoplay", "1");
+                }
+                mainVideo.setAttribute("src", url.toString());
+            } catch (e) {
+                console.error("Invalid video URL:", newSrc);
             }
-            mainVideo.setAttribute("src", newSrc);
             let figcaption = this.parentElement.querySelector("figcaption");
             if (figcaption && videoTitle) {
                 videoTitle.innerHTML = figcaption.innerHTML;

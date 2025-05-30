@@ -14,7 +14,7 @@
  Issues: http://github.com/kenwheeler/slick/issues
 
  */
-/* global window, document, define, jQuery, setInterval, clearInterval */
+/* global window, document, define, jQuery, setInterval, clearInterval, DOMPurify */
 (function (factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -1459,7 +1459,7 @@
             $('img[data-lazy]', imagesScope).each(function () {
 
                 var image = $(this),
-                    imageSource = $(this).attr('data-lazy'),
+                    imageSource = DOMPurify.sanitize($(this).attr('data-lazy')),
                     imageToLoad = document.createElement('img');
 
                 imageToLoad.onload = function () {
@@ -1649,6 +1649,24 @@
 
             image = $imgsToLoad.first();
             imageSource = image.attr('data-lazy');
+
+            // Sanitize the imageSource to ensure it is safe
+            imageSource = DOMPurify.sanitize(imageSource, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] });
+
+            // Sanitize the imageSource to ensure it is a valid URL
+            var isValidUrl = function (url) {
+                try {
+                    var parsedUrl = new URL(url, window.location.origin);
+                    return parsedUrl.protocol === "http:" || parsedUrl.protocol === "https:";
+                } catch (e) {
+                    return false;
+                }
+            };
+
+            if (!isValidUrl(imageSource)) {
+                console.warn("Invalid data-lazy URL:", imageSource);
+                return;
+            }
             imageToLoad = document.createElement('img');
 
             imageToLoad.onload = function () {
