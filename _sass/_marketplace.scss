@@ -5,7 +5,7 @@
     background-color: rgba(251, 253, 255, 1);
     border: none;
     box-shadow: 1px 1px 5px rgba(128, 128, 128, 35%);
-    padding: 2em;
+    // padding: 2em;
     h2 {
       color: black;
       margin-top: 0;
@@ -185,4 +185,13 @@
       }
     }
   }
+}
+
+/*custom css for layout*/
+
+@media (min-width: 64em) {
+    .desktop\:grid-col-9 {
+        flex: 0 1 auto;
+        width: 81%;
+    }
 }

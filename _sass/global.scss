@@ -1,4 +1,8 @@
 @use '../node_modules/@uswds/uswds/packages/uswds-core/src/styles/mixins/helpers/at-media' as *;
+
+html {
+  scroll-behavior: smooth;
+}
 .ogp-usa-card__container {
   text-decoration: unset;
 
@@ -575,4 +579,346 @@ text {
 #be-text:hover textPath {
   //fill: #007bff; 
   text-decoration: underline;
+}
+
+
+/* Navigation Styling */
+.menu-toggle {
+  display: none;
+  background: #005ea2;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+.sidebar {
+    width: 260px;
+    padding: 20px;
+    // background-image: radial-gradient(#d9d9d9 1px, transparent 1px);
+    background-size: 10px 10px;
+    box-sizing: border-box;
+}
+
+.sidebar .nav-item {
+    margin-bottom: 16px;
+}
+
+.sidebar .nav-link {
+    text-decoration: none;
+    color: #0033a0;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.sidebar .nav-link.active {
+  background: transparent;
+  text-decoration: underline;
+}
+.sidebar .nav-link svg {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    flex-shrink: 0;
+    fill: #005ea2;
+    stroke: white;
+}
+
+.sidebar .submenu {
+    border-left: 2px solid #005ea2;
+    padding-left: 14px;
+    margin-left: 14px;
+    margin-top: 8px;
+    display: block;
+}
+
+.sidebar .submenu a {
+    text-decoration: none;
+    display: block;
+    color: #0033a0;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.sidebar .submenu a:hover,.sidebar .submenu a.active {
+    text-decoration: underline;
+    background: transparent;
+    font-weight: bold;
+    
+}
+
+/*New Home Page*/
+
+
+.page-container {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  color: #000;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(52deg,   #162e51 0%,   #28a0cb 32%,   #162e51 100%);
+  height: 100px;
+  
+}
+
+.logo {
+  height: 50px;
+}
+
+.subheading {
+  font-size: 0.95rem;
+  color: #333;
+  margin-top: -10px;
+}
+
+.intro {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cta {
+  background-color: #003366;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  flex: 1 1 250px;
+  border-radius: 4px;
+}
+
+.cta:hover {
+  background-color: #005ea2;
+}
+
+.initiatives h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #003366;
+}
+
+.initiatives h3 {
+  margin-top: 1.5rem;
+  color: #005ea2;
+}
+
+.initiatives p {
+  margin-bottom: 1rem;
+}
+
+.contact-bar {
+  background-color: #e6f1fb;
+  padding: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.95rem;
+  border-top: 4px solid #005ea2;
+}
+
+.contact-bar a {
+  color: #005ea2;
+  text-decoration: underline;
+}
+
+/*Content*/
+.home-content {
+  padding: 20px;
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+  .highlight {
+    font-weight: bold;
+  }
+
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px 35px;
+}
+
+  .blue-box {
+    flex: 1;
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 33px 27px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+   
+    font-size: 22px;
+  }
+
+  .blue-box:hover {
+    background-color: #0055a5;
+  }
+
+  .home-content h3 {
+    margin-top: 30px;
+    color: #000;
+  }
+
+  .home-content h4 {
+    margin-bottom: 5px;
+  }
+/*Catalog Page*/
+ .blue-link {
+      color: #003366;
+      text-decoration: underline;
+    }
+  .home-content .button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+  width: 300px;
+  text-decoration: none;
+  }
+  .home-content .button:hover {
+background-color: #1a4480;
+  }
+  .service-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px;
+  }
+  .service-box {
+    width: 30%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 22px;
+     text-decoration: none;
+     cursor: pointer;
+  }
+  .yellow {
+    background-color: #f2b124;
+  }
+  .navy {
+    background-color: #0d1a46;
+  }
+  .cyan {
+    background-color: #2ba9c8;
+  }
+  .footer-text {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  /*Contact link*/
+ .email-link {
+      color: #003366;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .bullet-section {
+      margin: 20px 0;
+    }
+    .bullet-section ul {
+      padding-left: 20px;
+    }
+   .newsletter-section {
+  display: flex;
+  gap: 3%;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  margin: 30px;
+  font-size: 22px;
+}
+.newsletter-section a {
+  color: #fff;
+}
+
+.left-box {
+  width: 30%;
+  background-color: #003366;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.right-box {
+  width: 67%;
+  background-color: #e1e1e1;
+  font-weight: bold;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+    .note {
+      font-size: 14px;
+      margin-top: 10px;
+      font-style: italic;
+    }
+    @media (max-width: 600px) {
+      .newsletter-section {
+        flex-direction: column;
+      }
+    }
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    height: 100%;
+    z-index: 999;
+    overflow-y: auto;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .sidebar.open {
+    display: block;
+  }
+
+  .menu-toggle {
+    display: block;
+    
+  }
+  .blue-box {
+        flex: 1 1 100%;
+  }
+  .newsletter-section {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+  }
+  .service-box {
+    width: 100%;
+  }
 }
