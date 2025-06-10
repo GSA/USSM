@@ -8,8 +8,8 @@ attached:
 
 <div class="grid-container">
   <div id="esgms-header" class="grid-row">
-    {% include leftNavigation.html %}
-    <div class="column-left desktop:grid-col-9">
+    {% include left-navigation.html %}
+    <!-- <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
       <div class="home-content">
         <p>
@@ -67,6 +67,6 @@ attached:
         </p>
       </div>
       {% include grantFooter.html %}
-    </div>
+    </div> -->
   </div>
 </div>

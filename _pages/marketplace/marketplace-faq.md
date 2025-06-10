@@ -8,13 +8,13 @@ attached:
 
 <div class="grid-container" id="federal">
   <div id="esgms-header" class="grid-row">
-    {% include leftNavigation.html %}
-    <div class="column-left desktop:grid-col-9">
+    {% include left-navigation.html %}
+    <!-- <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
       <div class="home-content">
        <h1>FAQ...</h1>
       </div>
       {% include grantFooter.html %}
-    </div>
+    </div> -->
   </div>
 </div>
