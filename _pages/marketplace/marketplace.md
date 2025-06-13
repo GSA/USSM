@@ -7,12 +7,15 @@ attached:
 ---
 
 <div class="grid-container">
+<button class="menu-toggle" onclick="toggleSidebar()">☰</button>
   <div id="esgms-header" class="grid-row">
     {% include left-navigation.html %}
-    <!-- <div class="column-left desktop:grid-col-9">
+    <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-      <div class="home-content">
-        <p>
+      <div class="home-content"><h1>Catalog...</h1></div>
+      <!--<div class="home-content">
+      
+         <p>
           The Grants QSMO addresses fragmented and outdated federal grants
           management systems across the government. We empower applicants,
           recipients, and federal agencies to deliver their missions effectively
@@ -65,8 +68,8 @@ attached:
           Grants Data Standards. The Grants QSMO communicates these requirements
           to customers and vetted grants IT solution providers.
         </p>
-      </div>
+      </div> -->
       {% include grantFooter.html %}
-    </div> -->
+    </div> 
   </div>
 </div>
