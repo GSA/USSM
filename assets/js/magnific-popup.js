@@ -10,9 +10,9 @@
         factory(require('jquery'));
     } else {
         // Browser globals
-        factory(window.jQuery || window.Zepto);
+        factory(window.jQuery || window.Zepto, window.DOMPurify);
     }
-}(function($) {
+}(function($, DOMPurify) {
 
     /*>>core*/
     /**
@@ -89,7 +89,9 @@
         },
         _getCloseBtn = function(type) {
             if(type !== _currPopupType || !mfp.currTemplate.closeBtn) {
-                mfp.currTemplate.closeBtn = $( mfp.st.closeMarkup.replace('%title%', mfp.st.tClose ) );
+                var sanitizedCloseMarkup = DOMPurify.sanitize(mfp.st.closeMarkup);
+                var sanitizedTClose = DOMPurify.sanitize(mfp.st.tClose);
+                mfp.currTemplate.closeBtn = $( sanitizedCloseMarkup.replace('%title%', sanitizedTClose) );
                 _currPopupType = type;
             }
             return mfp.currTemplate.closeBtn;
