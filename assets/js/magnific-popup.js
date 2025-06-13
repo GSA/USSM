@@ -10,7 +10,7 @@
         factory(require('jquery'));
     } else {
         // Browser globals
-        factory(window.jQuery || window.Zepto, window.DOMPurify);
+        factory(window.jQuery || window.Zepto, window.DOMPurify); // Ensure DOMPurify is passed to the factory
     }
 }(function($, DOMPurify) {
 
@@ -508,6 +508,7 @@
                 _mfpTrigger('FirstMarkupParse', markup);
 
                 if(markup) {
+                    markup = DOMPurify.sanitize(markup); // Sanitize the markup to prevent XSS
                     mfp.currTemplate[type] = $(markup);
                 } else {
                     // if there is no markup found we just define that template is parsed
