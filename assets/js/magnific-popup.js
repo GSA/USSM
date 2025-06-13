@@ -209,6 +209,13 @@
             mfp.st = $.extend(true, {}, $.magnificPopup.defaults, data );
             mfp.fixedContentPos = mfp.st.fixedContentPos === 'auto' ? !mfp.probablyMobile : mfp.st.fixedContentPos;
 
+            // Sanitize or validate mfp.st.prependTo
+            if (typeof mfp.st.prependTo === 'string') {
+                mfp.st.prependTo = DOMPurify.sanitize(mfp.st.prependTo);
+            } else if (!(mfp.st.prependTo instanceof $)) {
+                mfp.st.prependTo = $(document.body); // Default fallback
+            }
+
             if(mfp.st.modal) {
                 mfp.st.closeOnContentClick = false;
                 mfp.st.closeOnBgClick = false;
