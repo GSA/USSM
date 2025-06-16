@@ -7,6 +7,7 @@ attached:
 ---
 
 <div class="grid-container" id="federal">
+<button class="menu-toggle" onclick="toggleSidebar()">☰</button>
   <div id="esgms-header" class="grid-row">
     {% include left-navigation.html %}
     <div class="column-left desktop:grid-col-9">
