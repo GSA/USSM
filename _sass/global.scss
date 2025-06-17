@@ -120,7 +120,8 @@
   z-index: 2;
   background-color: transparent;
   color: #FFf;
-  transition: color
+  transition: color;
+  pointer-events: none;
 }
 
 .circle .slice:after {
@@ -305,7 +306,8 @@ span[role="link"]:focus {
 }
 
 .slice a {
-  color: #fff
+  color: #fff;
+  pointer-events: auto;
 }
 
 .slice a:focus,
