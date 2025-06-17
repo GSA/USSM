@@ -578,3 +578,18 @@ text {
   //fill: #007bff; 
   text-decoration: underline;
 }
+
+
+.fibf-circle-wrapper {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+}
+
+
+@media (max-width: 768px) {
+  .fibf-circle-wrapper{
+    transform: scale(0.85); 
+    transform-origin: top center;
+  }
+}
