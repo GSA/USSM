@@ -1,36 +1,100 @@
-<div class="desktop:grid-col-5 mobile:grid-col-12 fibf-wheel-media fibf-wheel-media3">
+<div
+  class="desktop:grid-col-5 mobile:grid-col-12 fibf-wheel-media fibf-wheel-media3"
+>
+  <div class="fibf-circle-wrapper">
     <div class="circle">
-        <div class="slice slice-1" tabindex="1">
-            <a href="#business_lifecycle" aria-label="Federal Business Lifecycle link">
-                <span class="label margin-top-neg-1 text-center" data-label="Federal Business Lifecycle"> </span></a>
+      <div class="slice slice-1" tabindex="1">
+        <a
+          href="#business_lifecycle"
+          aria-label="Federal Business Lifecycle link"
+        >
+          <span
+            class="label margin-top-neg-1 text-center"
+            data-label="Federal Business Lifecycle"
+          >
+            <span
+              style="
+                position: absolute;
+                font-size: 11px;
+                width: 128px;
+                left: -54px;
+                text-align: center;
+                top: 25px;
+                transform: translateX(6%) rotate(8deg) translateY(64%);
+                color: lightgrey;
+                line-height: 12px;
+              "
+            >
+              End To End Process <br />
 
-        </div>
+              Functions Activities List
+            </span>
+          </span></a
+        >
+      </div>
 
-        <div class="slice slice-2">
-            <a href="#business_capabilities" aria-label="Business Capabilities link">
-                <span class="label text-center" data-label="Business Capabilities"></span></a>
-        </div>
+      <div class="slice slice-2">
+        <a
+          href="#business_capabilities"
+          aria-label="Business Capabilities link"
+        >
+          <span
+            class="label text-center"
+            data-label="Business Capabilities"
+          ></span
+        ></a>
+      </div>
 
-        <div class="slice slice-3">
-            <a href="#business_use_cases" aria-label="Business Use Cases link">
-                <span class="label margin-left-2 text-center" data-label="Business Use Cases"></span></a>
-        </div>
+      <div class="slice slice-3">
+        <a href="#business_use_cases" aria-label="Business Use Cases link">
+          <span
+            class="label margin-left-2 text-center"
+            data-label="Business Use Cases"
+          ></span
+        ></a>
+      </div>
 
-        <div class="slice slice-4">
-            <a href="#standard_data_elements" aria-label="Standard Data Elements link">
-                <span class="label margin-left-05 ogp-margin-top-neg-07 text-center" data-label="Standard Data Elements"></span></a>
-        </div>
+      <div class="slice slice-4">
+        <a
+          href="#standard_data_elements"
+          aria-label="Standard Data Elements link"
+        >
+          <span
+            class="label margin-left-05 ogp-margin-top-neg-07 text-center"
+            data-label="Standard Data Elements"
+          ></span
+        ></a>
+      </div>
 
-        <div class="slice slice-5">
-            <a href="#performance_metrics" aria-label="Service Measures link">
-                <span class="label text-center" data-label="Service Measures"></span></a>
-        </div>
+      <div class="slice slice-5">
+        <a href="#performance_metrics" aria-label="Service Measures link">
+          <span class="label text-center" data-label="Service Measures"></span
+        ></a>
+      </div>
 
-
-        <div class="circle-semitrans"></div>
-        <div class="circle__usage">
-            <h2>FIBF</h2>
-        </div>
+      <div class="circle-semitrans"></div>
+      <div class="circle__usage">
+        <h2>FIBF</h2>
+      </div>
     </div>
-    <p class="text-center margin-right-5"><i>Click wheel to review standards</i></p>
+    {% if page.url == "/fibf-fm/" or page.url == "/fibf-RPM/" or page.url ==
+    "/fibf-travel/" %}
+    <svg class="arc-overlay" viewBox="0 0 410 410">
+      <defs>
+        <path id="arcPath" d="" />
+      </defs>
+      <path id="arcClickArea" />
+      <path d="" class="arc" id="arcVisual" />
+      <text dy="11" text-anchor="middle" id="be-text">
+        <textPath href="#arcPath" startOffset="50%">
+          Business Information Exchanges and Business Reports
+        </textPath>
+      </text>
+    </svg>
+    {% endif %}
+  </div>
+
+  <p class="text-center margin-right-5" style="margin-top: 50px">
+    <i>Click wheel to review standards</i>
+  </p>
 </div>
