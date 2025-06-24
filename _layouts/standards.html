@@ -2,275 +2,496 @@
 layout: base
 ---
 
-{% comment %}
-This template is for a single page that does not have a date associated with it. For example, an about page.
-{% endcomment %}
+{% comment %} This template is for a single page that does not have a date
+associated with it. For example, an about page. {% endcomment %}
 
 <div class="usa-overlay"></div>
 <div id="top"></div>
 <div class="page-wrapper chiller-theme toggled">
   {% include side-nav.html %}
-  <div id="main-content" class="page-content ">
-<section class="usa-section about margin-bottom-1 padding-y-105">
-  <div class="usa-grid">
-    <div class="grid-container">
-      {% if page.permalink contains 'fibf-cyb' %}
-      <div class="usa-alert usa-alert--info">
-        <div class="usa-alert__body">
-          <p class="usa-alert__text">
-            Note: The business standards and capabilities listed below are not representative of the full Federal cybersecurity lifecycle. Additional phases of the cybersecurity lifecycle will be added as they become available.
-          </p>
-        </div>
-      </div>
-      {% endif %}
-      <div class="priority-tag-line"><h1 class="margin-y-105 font-ui-l">{{ page.title }}</h1></div>
-      <div id ="fibf-wheel-and-text" class="grid-row">
-      {% include fibf-circle.html %}
-      <div class="desktop:grid-col-7 mobile:grid-col-12 fibf-wheel-media2">
-        <p class="text-italic text-primary font-body-md">Federal Integrated Business Framework (FIBF)</p>
-        <p>The FIBF is a model that enables the Federal government to better coordinate and document common business needs across agencies and focus on outcomes, data, processes and performance. It is the essential first step towards standards that will drive economies of scale and leverage the government’s buying power.</p>
-        {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{% endif %}
-        {% if page.sec-title %}
-        <div id="rcorners2">
-         <p><strong>{{ page.sec-title}}</strong></p>
-          <p style="word-wrap: break-word;">
-            {% if page.sec-name-href %}
-            <strong>Name:</strong>&nbsp;<a href="{{page.sec-name-href}}">{{ page.sec-name }}</a><br/>
-            {% elsif page.sec-name %}
-            <strong>Name:</strong>&nbsp;{{ page.sec-name }}<br/>
-            {% endif %}
-            {% if page.sec-website-href %}
-            <strong>Website:</strong>&nbsp;<a href="{{page.sec-website-href}}">{{ page.sec-website }}</a><br/>
-            {% endif %}
-            {% if page.sec-references %}
-            <strong>References:</strong>&nbsp;<a href="{{page.sec-references-href}}">{{ page.sec-references }}</a>
-            {% endif %}
-            {% if page.contact %}
-            <strong>Contact:</strong>&nbsp;<a href="mailto:{{page.contact}}">{{ page.contact }}</a>
-            {% endif %}
-          </p>
-        </div>
-        {% endif %}
-      </div>
-      </div>
-      <div class="grid-row">
-        <div class="grid-col-12">
-          {% if page.lifecycle-pdf or page.use-cases-pdf or page.capabilities-pdf or page.standard-data-elements-pdf or page.performance-metrics-pdf  %}
-            <h2 class="text-center text-primary">Download {{page.sub-title}} Business Standards Components</h2>
+  <div id="main-content" class="page-content">
+    <section class="usa-section about margin-bottom-1 padding-y-105">
+      <div class="usa-grid">
+        <div class="grid-container">
+          {% if page.permalink contains 'fibf-cyb' %}
+          <div class="usa-alert usa-alert--info">
+            <div class="usa-alert__body">
+              <p class="usa-alert__text">
+                Note: The business standards and capabilities listed below are
+                not representative of the full Federal cybersecurity lifecycle.
+                Additional phases of the cybersecurity lifecycle will be added
+                as they become available.
+              </p>
+            </div>
+          </div>
           {% endif %}
-        </div>
-        <div class="grid-col">
-          <ul class="usa-button-group">
-            {% if page.lifecycle-pdf %}
-            <li class="usa-button-group__item"><a class="usa-button usa-button--accent-cool text-white" 
-              href="{{ site.baseurl }}/{{ page.lifecycle-pdf }}" 
-              download="{{ page.lifecycle-pdf | basename }}">
-              Federal Business Lifecycle
-           </a>
-           </li>
-            {% endif %}
-            {% if page.capabilities-pdf %}
-            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.capabilities-pdf}}" class="usa-button usa-button--accent-cool text-white">Business
-              Capabilities</a></li>
-            {% endif %}
-            {% if page.use-cases-pdf %}
-            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.use-cases-pdf}}" class="usa-button usa-button--accent-cool text-white" download>Business Use
-              Cases</a></li>
-            {% endif %}
-            {% if page.standard-data-elements-pdf %}
-              <li class="usa-button-group__item">
-                  <a
-                    class="usa-button usa-button--accent-cool text-white" 
-                    onclick="forceDownload('{{ site.baseurl }}/{{ page.standard-data-elements-pdf }}'); return false;">
-                      Standard Data Elements
-                  </a>
-              </li>
-            {% endif %}
-            {% if page.performance-metrics-pdf %}
-            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}" class="usa-button usa-button--accent-cool text-white" download>Service Measures</a></li>
-            {% endif %}
-            {% if page.all-zip %}
-            <li class="usa-button-group__item"><a href="{{ site.baseurl }}/{{page.all-zip}}" class="usa-button text-white" download>Download
-              All</a></li>
-            {% endif %}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section  id="main-content-standards" class="usa-section padding-top-2" >
-  <div class="usa-grid">
-    <div class="grid-container font-sans-sm">
-      <div id="business_lifecycle" class="lifecycle border-top-1px">
-      <h2>Federal Business Lifecycle - {{ page.sub-title }}</h2>
-      <div class="grid-row">
-        <div class="desktop:grid-col-3">
-          <img src="{{ site.baseurl }}/assets/images/fibf/01.federal.business.lifecycle.sm.webp" alt="" class="fibf-wheel-image">
-        </div>
-        <div class="desktop:grid-col-9">
-
-          <p><i>Federal Business Lifecycles, functional areas, functions, and activities serve as the basis for a common understanding of what services agencies need and solutions should offer.</i></p>
-          <p><i>Functions: Breakdown of a functional area into categories of services provided to customers.</i></p>
-          <p><i>Activities: Within a function, processes that provide identifiable outputs/outcomes to customers are defined as activities.</i></p>
-          <ul>
-            {% if page.lifecycle-source-document %}
-                <li>
-                    <img src="{{ site.baseurl }}/assets/images/icon.{{ page.lifecycle-source-document-type }}.webp" valign="middle" alt="{{ page.lifecycle-source-document-type }}">
-                    {% if page.lifecycle-source-document | endswith: '.xlsx' %}
-                        <a href="{{ site.baseurl }}/{{ page.lifecycle-source-document }}" download="{{ page.lifecycle-source-document | basename }}">{{ page.sub-title }} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
-                    {% else %}
-                        <a href="{{ site.baseurl }}/{{ page.lifecycle-source-document }}">{{ page.sub-title }} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
-                    {% endif %}
-                </li>
-            {% endif %}
-        
-            {% if page.lifecycle-json-api %}
-                <li>
-                    <a href="{{ site.baseurl }}{{ page.lifecycle-json-api }}">{{ page.sub-title }} Business Lifecycle {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
-                </li>
-            {% endif %}
-          </ul>
-        </div>
-        {% if page.lifecycle-content %}
-        <div class="desktop:grid-col-12">{% include {{ page.lifecycle-content }} %}</div>
-        {% endif %}
-      </div>
-
-        <p><a class="text-primary" style="display:flex; justify-content:flex-end;"  href="#top">Back to top</a></p>
-      </div>
-
-
-      <div id="business_capabilities" class ="capabilities border-top-1px">
-        <h2>Business Capabilities - {{ page.sub-title }}</h2>
-        <div class="grid-row">
-          <div class="desktop:grid-col-3">
-            <img src="{{ site.baseurl }}/assets/images/fibf/02.business.capabilities.sm.webp" alt="" class="fibf-wheel-image">
+          <div class="priority-tag-line">
+            <h1 class="margin-y-105 font-ui-l">{{ page.title }}</h1>
           </div>
-          <div class="desktop:grid-col-9">
-            <p><i>Business Capabilities are the outcome-based business needs mapped to Federal government authoritative references, forms, and data standards.</i>
-            </p>
-
-            {% if page.capabilities-source-document %}
-            <ul>
-              <li>
-                <img src="{{ site.baseurl }}/assets/images/icon.{{page.capabilities-source-document-type}}.webp" valign="middle" alt="{{page.capabilities-source-document-type}}">
-                <a href="{{ site.baseurl }}/{{page.capabilities-source-document}}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a>
-              </li>
-              {% if page.capabilities-json-api %}
-              <li style="white-space: normal !important; word-wrap: break-word !important;">
-                <a href="{{ site.baseurl }}{{ page.capabilities-json-api }}">{{page.sub-title}} Business Capabilities {% if page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %} (JSON)</a>
-              </li>
+          <div id="fibf-wheel-and-text" class="grid-row">
+            {% include fibf-circle.html %}
+            <div
+              class="desktop:grid-col-7 mobile:grid-col-12 fibf-wheel-media2"
+            >
+              <p class="text-italic text-primary font-body-md">
+                Federal Integrated Business Framework (FIBF)
+              </p>
+              <p>
+                The FIBF is a model that enables the Federal government to
+                better coordinate and document common business needs across
+                agencies and focus on outcomes, data, processes and performance.
+                It is the essential first step towards standards that will drive
+                economies of scale and leverage the government’s buying power.
+              </p>
+              {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{%
+              endif %} {% if page.sec-title %}
+              <div id="rcorners2">
+                <p><strong>{{ page.sec-title}}</strong></p>
+                <p style="word-wrap: break-word">
+                  {% if page.sec-name-href %}
+                  <strong>Name:</strong>&nbsp;<a href="{{page.sec-name-href}}"
+                    >{{ page.sec-name }}</a
+                  ><br />
+                  {% elsif page.sec-name %}
+                  <strong>Name:</strong>&nbsp;{{ page.sec-name }}<br />
+                  {% endif %} {% if page.sec-website-href %}
+                  <strong>Website:</strong>&nbsp;<a
+                    href="{{page.sec-website-href}}"
+                    >{{ page.sec-website }}</a
+                  ><br />
+                  {% endif %} {% if page.sec-references %}
+                  <strong>References:</strong>&nbsp;<a
+                    href="{{page.sec-references-href}}"
+                    >{{ page.sec-references }}</a
+                  >
+                  {% endif %} {% if page.contact %}
+                  <strong>Contact:</strong>&nbsp;<a
+                    href="mailto:{{page.contact}}"
+                    >{{ page.contact }}</a
+                  >
+                  {% endif %}
+                </p>
+              </div>
               {% endif %}
-            </ul>
-            {% endif %}
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-col-12">
+              {% if page.lifecycle-pdf or page.use-cases-pdf or
+              page.capabilities-pdf or page.standard-data-elements-pdf or
+              page.performance-metrics-pdf %}
+              <h2 class="text-center text-primary">
+                Download {{page.sub-title}} Business Standards Components
+              </h2>
+              {% endif %}
+            </div>
+            <div class="grid-col">
+              <ul class="usa-button-group">
+                {% if page.lifecycle-pdf %}
+                <li class="usa-button-group__item">
+                  <a
+                    class="usa-button usa-button--accent-cool text-white"
+                    href="{{ site.baseurl }}/{{ page.lifecycle-pdf }}"
+                    download="{{ page.lifecycle-pdf | basename }}"
+                  >
+                    Federal Business Lifecycle
+                  </a>
+                </li>
+                {% endif %} {% if page.capabilities-pdf %}
+                <li class="usa-button-group__item">
+                  <a
+                    href="{{ site.baseurl }}/{{page.capabilities-pdf}}"
+                    class="usa-button usa-button--accent-cool text-white"
+                    >Business Capabilities</a
+                  >
+                </li>
+                {% endif %} {% if page.use-cases-pdf %}
+                <li class="usa-button-group__item">
+                  <a
+                    href="{{ site.baseurl }}/{{page.use-cases-pdf}}"
+                    class="usa-button usa-button--accent-cool text-white"
+                    download
+                    >Business Use Cases</a
+                  >
+                </li>
+                {% endif %} {% if page.standard-data-elements-pdf %}
+                <li class="usa-button-group__item">
+                  <a
+                    class="usa-button usa-button--accent-cool text-white"
+                    onclick="forceDownload('{{ site.baseurl }}/{{ page.standard-data-elements-pdf }}'); return false;"
+                  >
+                    Standard Data Elements
+                  </a>
+                </li>
+                {% endif %} {% if page.performance-metrics-pdf %}
+                <li class="usa-button-group__item">
+                  <a
+                    href="{{ site.baseurl }}/{{page.performance-metrics-pdf}}"
+                    class="usa-button usa-button--accent-cool text-white"
+                    download
+                    >Service Measures</a
+                  >
+                </li>
+                {% endif %} {% if page.all-zip %}
+                <li class="usa-button-group__item">
+                  <a
+                    href="{{ site.baseurl }}/{{page.all-zip}}"
+                    class="usa-button text-white"
+                    download
+                    >Download All</a
+                  >
+                </li>
+                {% endif %}
+              </ul>
+            </div>
           </div>
         </div>
-        {% if page.capabilities-content %}
-          <div class="desktop:grid-col-12">
-            <div class="usa-accordion usa-accordion--bordered margin-y-5">
-              <div>
-                <button class="usa-accordion__button" aria-expanded="true" aria-controls="capabilities">
-                  <img src="{{site.baseurl}}/assets/images/compass-regular.webp" alt="Business Capabilities Navigation" style="width:32px; vertical-align: middle; margin-right: 10px; margin-top: -3px;">
-                  Business Capabilities Explorer
-                </button>
-                <div id="capabilities" class="usa-accordion__content usa-prose" style="white-space: normal !important;">
-                  {% include {{ page.capabilities-content }} %}
+      </div>
+    </section>
+    <section id="main-content-standards" class="usa-section padding-top-2">
+      <div class="usa-grid">
+        <div class="grid-container font-sans-sm">
+          <div id="business_lifecycle" class="lifecycle border-top-1px">
+            <h2>Federal Business Lifecycle - {{ page.sub-title }}</h2>
+            <div class="grid-row">
+              <div class="desktop:grid-col-3">
+                <img
+                  src="{{ site.baseurl }}/assets/images/fibf/01.federal.business.lifecycle.sm.webp"
+                  alt=""
+                  class="fibf-wheel-image"
+                />
+              </div>
+              <div class="desktop:grid-col-9">
+                <p>
+                  <i
+                    >Federal Business Lifecycles, functional areas, functions,
+                    and activities serve as the basis for a common understanding
+                    of what services agencies need and solutions should
+                    offer.</i
+                  >
+                </p>
+                <p>
+                  <i
+                    >Functions: Breakdown of a functional area into categories
+                    of services provided to customers.</i
+                  >
+                </p>
+                <p>
+                  <i
+                    >Activities: Within a function, processes that provide
+                    identifiable outputs/outcomes to customers are defined as
+                    activities.</i
+                  >
+                </p>
+                <ul>
+                  {% if page.lifecycle-source-document %}
+                  <li>
+                    <img
+                      src="{{ site.baseurl }}/assets/images/icon.{{ page.lifecycle-source-document-type }}.webp"
+                      valign="middle"
+                      alt="{{ page.lifecycle-source-document-type }}"
+                    />
+                    {% if page.lifecycle-source-document | endswith: '.xlsx' %}
+                    <a
+                      href="{{ site.baseurl }}/{{ page.lifecycle-source-document }}"
+                      download="{{ page.lifecycle-source-document | basename }}"
+                      >{{ page.sub-title }} Business Lifecycle {% if
+                      page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a
+                    >
+                    {% else %}
+                    <a
+                      href="{{ site.baseurl }}/{{ page.lifecycle-source-document }}"
+                      >{{ page.sub-title }} Business Lifecycle {% if
+                      page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a
+                    >
+                    {% endif %}
+                  </li>
+                  {% endif %} {% if page.lifecycle-json-api %}
+                  <li>
+                    <a href="{{ site.baseurl }}{{ page.lifecycle-json-api }}"
+                      >{{ page.sub-title }} Business Lifecycle {% if
+                      page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %}
+                      (JSON)</a
+                    >
+                  </li>
+                  {% endif %}
+                </ul>
+              </div>
+              {% if page.lifecycle-content %}
+              <div class="desktop:grid-col-12">
+                {% include {{ page.lifecycle-content }} %}
+              </div>
+              {% endif %}
+            </div>
+
+            <p>
+              <a
+                class="text-primary"
+                style="display: flex; justify-content: flex-end"
+                href="#top"
+                >Back to top</a
+              >
+            </p>
+          </div>
+
+          <div id="business_capabilities" class="capabilities border-top-1px">
+            <h2>Business Capabilities - {{ page.sub-title }}</h2>
+            <div class="grid-row">
+              <div class="desktop:grid-col-3">
+                <img
+                  src="{{ site.baseurl }}/assets/images/fibf/02.business.capabilities.sm.webp"
+                  alt=""
+                  class="fibf-wheel-image"
+                />
+              </div>
+              <div class="desktop:grid-col-9">
+                <p>
+                  <i
+                    >Business Capabilities are the outcome-based business needs
+                    mapped to Federal government authoritative references,
+                    forms, and data standards.</i
+                  >
+                </p>
+
+                {% if page.capabilities-source-document %}
+                <ul>
+                  <li>
+                    <img
+                      src="{{ site.baseurl }}/assets/images/icon.{{page.capabilities-source-document-type}}.webp"
+                      valign="middle"
+                      alt="{{page.capabilities-source-document-type}}"
+                    />
+                    <a
+                      href="{{ site.baseurl }}/{{page.capabilities-source-document}}"
+                      >{{page.sub-title}} Business Capabilities {% if
+                      page.permalink == '/fibf-gm/' %}Version 2.0{% endif %}</a
+                    >
+                  </li>
+                  {% if page.capabilities-json-api %}
+                  <li
+                    style="
+                      white-space: normal !important;
+                      word-wrap: break-word !important;
+                    "
+                  >
+                    <a href="{{ site.baseurl }}{{ page.capabilities-json-api }}"
+                      >{{page.sub-title}} Business Capabilities {% if
+                      page.permalink == '/fibf-gm/' %}Version 2.0 {% endif %}
+                      (JSON)</a
+                    >
+                  </li>
+                  {% endif %}
+                </ul>
+                {% endif %}
+              </div>
+            </div>
+            {% if page.capabilities-content %}
+            <div class="desktop:grid-col-12">
+              <div class="usa-accordion usa-accordion--bordered margin-y-5">
+                <div>
+                  <button
+                    class="usa-accordion__button"
+                    aria-expanded="true"
+                    aria-controls="capabilities"
+                  >
+                    <img
+                      src="{{site.baseurl}}/assets/images/compass-regular.webp"
+                      alt="Business Capabilities Navigation"
+                      style="
+                        width: 32px;
+                        vertical-align: middle;
+                        margin-right: 10px;
+                        margin-top: -3px;
+                      "
+                    />
+                    Business Capabilities Explorer
+                  </button>
+                  <div
+                    id="capabilities"
+                    class="usa-accordion__content usa-prose"
+                    style="white-space: normal !important"
+                  >
+                    {% include {{ page.capabilities-content }} %}
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        {% endif %}
+            {% endif %}
 
-
-        <p><a class="text-primary" style="display:flex; justify-content:flex-end;"  href="#top">Back to top</a></p>
-        </div>
-
-
-      <div id="business_use_cases" class ="use_cases border-top-1px">
-        <h2>Business Use Cases - {{ page.sub-title }}</h2>
-        <div class="grid-row">
-          <div class="desktop:grid-col-3">
-            <img src="{{ site.baseurl }}/assets/images/fibf/03.business.use.cases.sm.webp" alt="" class="fibf-wheel-image">
-          </div>
-          <div class="desktop:grid-col-9">
             <p>
-              <i>A set of agency “stories” that document the key activities, inputs, outputs, and other LOB intersections to describe how the Federal government operates.</i>
+              <a
+                class="text-primary"
+                style="display: flex; justify-content: flex-end"
+                href="#top"
+                >Back to top</a
+              >
             </p>
-            {% if page.use-cases-content %}
-              {% include {{ page.use-cases-content }} %}
-            {% else %}
-              {% if page.permalink contains 'fibf-hr' %}
+          </div>
+
+          <div id="business_use_cases" class="use_cases border-top-1px">
+            <h2>Business Use Cases - {{ page.sub-title }}</h2>
+            <div class="grid-row">
+              <div class="desktop:grid-col-3">
+                <img
+                  src="{{ site.baseurl }}/assets/images/fibf/03.business.use.cases.sm.webp"
+                  alt=""
+                  class="fibf-wheel-image"
+                />
+              </div>
+              <div class="desktop:grid-col-9">
+                <p>
+                  <i
+                    >A set of agency “stories” that document the key activities,
+                    inputs, outputs, and other LOB intersections to describe how
+                    the Federal government operates.</i
+                  >
+                </p>
+                {% if page.use-cases-content %} {% include {{
+                page.use-cases-content }} %} {% else %} {% if page.permalink
+                contains 'fibf-hr' %}
                 <p class="text-center">
                   <b>Under Construction</b>
                 </p>
-              {% endif %}
-            {% endif %}
-          </div>
-        </div>
-        <p><a class="text-primary" style="display:flex; justify-content:flex-end;"  href="#top">Back to top</a></p>
-
-
-      </div>
-      <div id="standard_data_elements" class ="data_elements border-top-1px">
-        <h2>Standard Data Elements - {{ page.sub-title }}</h2>
-        <div class="grid-row">
-          <div class="desktop:grid-col-3">
-            <img src="{{ site.baseurl }}/assets/images/fibf/04.standard.data.elements.sm.webp" alt="" class="fibf-wheel-image">
-          </div>
-          <div class="desktop:grid-col-9">
-            {% if page.permalink contains 'fibf-hr' %}
+                {% endif %} {% endif %}
+              </div>
+            </div>
             <p>
-              <i><b>Standard Data Elements</b> identify the minimum data fields required to support the inputs and outputs noted in the use cases and capabilities.</i>
+              <a
+                class="text-primary"
+                style="display: flex; justify-content: flex-end"
+                href="#top"
+                >Back to top</a
+              >
             </p>
+          </div>
+          <div id="standard_data_elements" class="data_elements border-top-1px">
+            <h2>Standard Data Elements - {{ page.sub-title }}</h2>
+            <div class="grid-row">
+              <div class="desktop:grid-col-3">
+                <img
+                  src="{{ site.baseurl }}/assets/images/fibf/04.standard.data.elements.sm.webp"
+                  alt=""
+                  class="fibf-wheel-image"
+                />
+              </div>
+              <div class="desktop:grid-col-9">
+                {% if page.permalink contains 'fibf-hr' %}
+                <p>
+                  <i
+                    ><b>Standard Data Elements</b> identify the minimum data
+                    fields required to support the inputs and outputs noted in
+                    the use cases and capabilities.</i
+                  >
+                </p>
+                <p>
+                  <i
+                    ><b
+                      >The HC FIBF Standard Data elements are a subset of the
+                      Human Capital Information Model (HCIM).</b
+                    >
+                    Comprised of metadata and information packages, the HCIM is
+                    the “Rosetta Stone” to achieving interoperable human capital
+                    systems that enable paperless data sharing across the
+                    Federal human capital community. Click the link below to
+                    access the Standard Data Elements for
+                    <b>{{page.function-title}}.</b></i
+                  >
+                </p>
+                {% else %}
+                <p>
+                  <i
+                    >Identify the minimum data fields required to support the
+                    inputs and outputs noted in the use cases and
+                    capabilities.</i
+                  >
+                  {% endif %} {% if page.data-elements-content %} {% include {{
+                  page.data-elements-content }} %} {% endif %}
+                </p>
+              </div>
+            </div>
             <p>
-              <i><b>The HC FIBF Standard Data elements are a subset of the Human Capital Information Model (HCIM).</b> Comprised of metadata and information packages, the HCIM is the “Rosetta Stone” to achieving interoperable human capital systems that enable paperless data sharing across the Federal human capital community.  Click the link below to access the Standard Data Elements for <b>{{page.function-title}}.</b></i>
+              <a
+                class="text-primary"
+                href="#top"
+                style="display: flex; justify-content: flex-end"
+                >Back to top</a
+              >
             </p>
-            {% else %}
-            <p><i>Identify the minimum data fields required to support the inputs and outputs noted in the use cases and capabilities.</i>
-            {% endif %}
-            {% if page.data-elements-content %}
-            {% include {{ page.data-elements-content }} %}
-            {% endif %}
           </div>
-        </div>
-        <p><a class="text-primary" href="#top" style="display:flex; justify-content:flex-end;">Back to top</a></p>
-
-      </div>
-      <div id="performance_metrics" class ="metrics border-top-1px">
-        <h2>Service Measures - {{ page.sub-title }}</h2>
-        <div class="grid-row">
-          <div class="desktop:grid-col-3">
-            <img src="{{ site.baseurl }}/assets/images/fibf/05.service.measures.sm.webp" alt="" class="fibf-wheel-image">
-          </div>
-          <div class="desktop:grid-col-9">
-            <p><i>Define how the government measures successful delivery of outcomes based on timeliness, efficiency, and accuracy targets.</i>
+          <div id="performance_metrics" class="metrics border-top-1px">
+            <h2>Service Measures - {{ page.sub-title }}</h2>
+            <div class="grid-row">
+              <div class="desktop:grid-col-3">
+                <img
+                  src="{{ site.baseurl }}/assets/images/fibf/05.service.measures.sm.webp"
+                  alt=""
+                  class="fibf-wheel-image"
+                />
+              </div>
+              <div class="desktop:grid-col-9">
+                <p>
+                  <i
+                    >Define how the government measures successful delivery of
+                    outcomes based on timeliness, efficiency, and accuracy
+                    targets.</i
+                  >
+                </p>
+                {% if page.metrics-content %} {% include {{ page.metrics-content
+                }} %} {% endif %}
+              </div>
+            </div>
+            <p>
+              <a
+                class="text-primary"
+                href="#top"
+                style="display: flex; justify-content: flex-end"
+                >Back to top</a
+              >
             </p>
-            {% if page.metrics-content %}
-            {% include {{ page.metrics-content }} %}
-            {% endif %}
           </div>
+          {% if page.url == "/fibf-fm/" or page.url == "/fibf-RPM/" or page.url
+          == "/fibf-travel/" %}
+          <div id="business_exchange" class="metrics border-top-1px">
+            <h2>
+              Business Information Exchange and Business Reports - {{
+              page.sub-title }}
+            </h2>
+            <p>
+              <i>
+                Business Exchange and Information Reports outline the critical
+                data interactions and communication flows between systems and
+                stakeholders supporting {{page.sub-title}} in the Federal
+                government.
+              </i>
+            </p>
+            <div class="margin-bottom-2">
+              {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{%
+              endif %}
+            </div>
+          </div>
+
+          <p>
+            <a
+              class="text-primary"
+              href="#top"
+              style="display: flex; justify-content: flex-end"
+              >Back to top</a
+            >
+          </p>
+          {% endif %} {{ content }}
         </div>
-        <p><a class="text-primary" href="#top" style="display:flex; justify-content:flex-end;">Back to top</a></p>
-
       </div>
-      {{ content }}
-
-
-    </div>
-  </div>
-</section>
-
+    </section>
   </div>
 </div>
 
 <script>
   function forceDownload(url) {
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = url.split('/').pop();
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = url.split("/").pop();
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
-  </script>
+</script>

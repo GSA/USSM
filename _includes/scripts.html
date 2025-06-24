@@ -8,9 +8,7 @@
   id="_fed_an_ua_tag"
   src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency={{site.dap.agency}}{% if site.dap.subagency %}&subagency={{site.dap.subagency}}{% endif %}"
 ></script>
-{% endif %}
-
-{% if site.ga.ua %}
+{% endif %} {% if site.ga.ua %}
 <!-- Google Analytics -->
 <script
   async
@@ -93,3 +91,74 @@
 {% if page.permalink == "/marketplace/"%}
 <script type="module" src="{{site.baseurl}}/assets/js/resources.js"></script>
 {% endif %}
+
+<!-- ARC -->
+
+<script>
+  const svgSize = 410;
+  const center = svgSize / 2;
+  const circleRadius = 175;
+  const gap = 5;
+  const strokeWidth = 10;
+
+  const arcRadius = circleRadius + gap + strokeWidth / 2;
+  const startAngle = 155;
+  const endAngle = -49.5;
+
+  const toRadians = (angle) => (angle * Math.PI) / 180;
+  const polarToCartesian = (r, angle) => ({
+    x: center + r * Math.cos(toRadians(angle)),
+    y: center + r * Math.sin(toRadians(angle)),
+  });
+
+  const start = polarToCartesian(arcRadius, startAngle);
+  const end = polarToCartesian(arcRadius, endAngle);
+  const largeArcFlag = Math.abs(endAngle - startAngle) <= 180 ? 0 : 1;
+
+  const arcD = `
+    M ${start.x} ${start.y}
+    A ${arcRadius} ${arcRadius} 0 ${largeArcFlag} 0 ${end.x} ${end.y}
+  `.trim();
+
+  document.getElementById("arcPath").setAttribute("d", arcD);
+  document.getElementById("arcVisual").setAttribute("d", arcD);
+
+  function describeArcSector(
+    cx,
+    cy,
+    innerRadius,
+    outerRadius,
+    startAngle,
+    endAngle
+  ) {
+    const startOuter = polarToCartesian(outerRadius, startAngle);
+    const endOuter = polarToCartesian(outerRadius, endAngle);
+    const startInner = polarToCartesian(innerRadius, endAngle);
+    const endInner = polarToCartesian(innerRadius, startAngle);
+    const largeArcFlag = Math.abs(endAngle - startAngle) <= 180 ? 0 : 1;
+
+    return `
+      M ${startOuter.x} ${startOuter.y}
+      A ${outerRadius} ${outerRadius} 0 ${largeArcFlag} 0 ${endOuter.x} ${endOuter.y}
+      L ${startInner.x} ${startInner.y}
+      A ${innerRadius} ${innerRadius} 0 ${largeArcFlag} 1 ${endInner.x} ${endInner.y}
+      Z
+    `.trim();
+  }
+
+  const arcClickPath = describeArcSector(
+    center,
+    center,
+    arcRadius - 30,
+    arcRadius + 30,
+    startAngle,
+    endAngle
+  );
+  document.getElementById("arcClickArea").setAttribute("d", arcClickPath);
+
+  document.getElementById("be-text").addEventListener("click", () => {
+    document
+      .getElementById("business_exchange")
+      .scrollIntoView({ behavior: "smooth" });
+  });
+</script>
