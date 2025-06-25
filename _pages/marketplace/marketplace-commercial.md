@@ -23,7 +23,7 @@ attached:
       <h2>Commercial Vendors - Award Management Systems</h2>
       <div class="vendor-card">
         <div class="vendor-header">
-          <img src="/assets/images/earnts&young.png" alt="EY Logo" class="vendor-logo">
+          <img src="{{site.baseurl}}/assets/images/earnts&young.png" alt="EY Logo" class="vendor-logo">
           <h3>Ernst & Young: Grants Accelerator</h3>
         </div>
         <div class="vendor-content">
@@ -54,7 +54,7 @@ attached:
       </div>
       <div class="vendor-card">
         <div class="vendor-header">
-          <img src="/assets/images/fl-consulting.png" alt="FI Consulting Logo" class="vendor-logo">
+          <img src="{{site.baseurl}}/assets/images/fl-consulting.png" alt="FI Consulting Logo" class="vendor-logo">
           <h3>FI Consulting: Program Investment Manager</h3>
         </div>
         <div class="vendor-content">
@@ -83,7 +83,7 @@ attached:
       </div>
        <div class="vendor-card">
         <div class="vendor-header">
-          <img src="/assets/images/groundswell.png" alt="Groundswell Logo" class="vendor-logo">
+          <img src="{{site.baseurl}}/assets/images/groundswell.png" alt="Groundswell Logo" class="vendor-logo">
           <h3>Groundswell: GLAS</h3>
         </div>
         <div class="vendor-content">
@@ -113,7 +113,7 @@ attached:
       </div>
       <div class="vendor-card">
         <div class="vendor-header">
-          <img src="/assets/images/rei-systems.png" alt="REI systems Logo" class="vendor-logo">
+          <img src="{{site.baseurl}}/assets/images/rei-systems.png" alt="REI systems Logo" class="vendor-logo">
           <h3>REI Systems: GovGrants</h3>
         </div>
         <div class="vendor-content">
@@ -143,7 +143,7 @@ attached:
       </div>
       <div class="vendor-card">
         <div class="vendor-header">
-          <img src="/assets/images/salesforce.png" alt="Salesforce Logo" class="vendor-logo">
+          <img src="{{site.baseurl}}/assets/images/salesforce.png" alt="Salesforce Logo" class="vendor-logo">
           <h3>Salesforce: PSS Grantmaking</h3>
         </div>
         <div class="vendor-content">
@@ -177,7 +177,7 @@ attached:
       </div>
       <div class="vendor-card">
         <div class="vendor-header">
-          <img src="/assets/images/unison.png" alt="Unison Logo" class="vendor-logo">
+          <img src="{{site.baseurl}}/assets/images/unison.png" alt="Unison Logo" class="vendor-logo">
           <h3>Unison Software: PRISM Grants</h3>
         </div>
         <div class="vendor-content">
