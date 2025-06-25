@@ -10,7 +10,7 @@ attached:
 <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
   <div id="esgms-header" class="grid-row">
     {% include left-navigation.html %}
-   <!--  <div class="column-left desktop:grid-col-9">
+   <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
       <div class="home-content">
         <h1>Grants QSMO Marketplace Catalog</h1>
@@ -37,15 +37,14 @@ attached:
           Explore below to learn more about each provider and their unique role
           in supporting grants management.
         </p>
-
         <div class="service-boxes">
-          <a class="service-box yellow" href="{{site.baseurl}}/marketplace/federal/" >Federal<br />Shared Services</a>
-          <a class="service-box navy" href="{{site.baseurl}}/marketplace/commercial/">Commercial<br />Shared Services</a>
-          <a class="service-box cyan" href="{{site.baseurl}}/marketplace/mandatory/">
-            Mandatory<br />Federal Solutions <br />& Services
+          <a class="service-box yellow" href="{{site.baseurl}}/marketplace/marketplace-catalog/federal">Federal<br/>Shared Services</a>
+          <a class="service-box navy" href="{{site.baseurl}}/marketplace/marketplace-catalog/commercial">Commercial
+          <br/>Shared Services</a>
+          <a class="service-box cyan" href="{{site.baseurl}}/marketplace/marketplace-catalog/mandatory">
+            Mandatory<br/>Federal Solutions <br/>& Services
           </a>
         </div>
-
         <p class="footer-text">
           If the solutions in the Grants QSMO Marketplace Catalog do not meet
           your agency's needs, visit the <a href="#">Resources</a> tab for
@@ -55,6 +54,6 @@ attached:
         </p>
       </div>
       {% include grantFooter.html %}
-    </div> -->
+    </div> 
   </div>
 </div>

@@ -17,15 +17,14 @@
  }
 
  .federal-accordion {
-     border: 1px solid #ccc;
-     border-radius: 4px;
+     border-bottom: 1px solid #000;
      background-color: white;
  }
 
  .federal-accordion-header {
-     background-color: #003366;
+     background-color: #0059af;
      color: white;
-     padding: 14px 20px;
+     padding: 8px 20px;
      font-weight: bold;
      font-size: 18px;
      cursor: pointer;
@@ -37,7 +36,7 @@
  .federal-accordion-content {
      display: none;
      padding: 0;
-     border-top: 1px solid #ccc;
+     border-bottom: 1px solid #ccc;
  }
 
  .federal-accordion-table {
@@ -47,8 +46,9 @@
 
  .federal-accordion-table td {
      vertical-align: top;
-     padding: 16px;
+     padding: 5px;
      border-right: 1px solid #ccc;
+     width: 75%;
  }
 
  .federal-accordion-table td:last-child {
@@ -57,12 +57,11 @@
 
  .federal-services-list {
      list-style-type: none;
-     padding-left: 20px;
+     padding: 0;
      margin: 0;
  }
 
  .federal-services-list li::before {
-     content: "•";
      color: #003366;
      font-weight: bold;
      display: inline-block;
@@ -79,6 +78,8 @@
      color: #003366;
      font-size: 20px;
      font-weight: bold;
+     display: flex;
+     gap: 10px;
  }
 
  .federal-agency-details strong {
@@ -193,6 +194,11 @@
      border-collapse: collapse;
  }
 
+ .federal-accordion-table tbody {
+     border: 1px solid #ccc;
+     border-collapse: collapse;
+ }
+
  .federal-row {
      display: flex;
      flex-wrap: wrap;
@@ -274,4 +280,12 @@
  .accordion-header.active::after {
      content: '\2212';
      /* Unicode for minus (−) */
+ }
+
+ .accordion-content {
+     display: none;
+ }
+
+ .accordion-header.active {
+     color: initial;
  }
