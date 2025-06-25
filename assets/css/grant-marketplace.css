@@ -1,291 +1,293 @@
- .home-content hr {
-     border: 1px solid #003366;
- }
+/* CSS specific to grant marketplce pages*/
 
- .federal-shared-title {
-     color: #0033a0 !important;
- }
+.home-content hr {
+    border: 1px solid #003366;
+}
 
- .federal-shared-description {
-     margin-bottom: 20px;
-     line-height: 1.6;
- }
+.federal-shared-title {
+    color: #0033a0 !important;
+}
 
- .federal-shared-description a {
-     color: #003366;
-     text-decoration: underline;
- }
+.federal-shared-description {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
 
- .federal-accordion {
-     border-bottom: 1px solid #000;
-     background-color: white;
- }
+.federal-shared-description a {
+    color: #003366;
+    text-decoration: underline;
+}
 
- .federal-accordion-header {
-     background-color: #0059af;
-     color: white;
-     padding: 8px 20px;
-     font-weight: bold;
-     font-size: 18px;
-     cursor: pointer;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
+.federal-accordion {
+    border-bottom: 1px solid #000;
+    background-color: white;
+}
 
- .federal-accordion-content {
-     display: none;
-     padding: 0;
-     border-bottom: 1px solid #ccc;
- }
+.federal-accordion-header {
+    background-color: #0059af;
+    color: white;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
- .federal-accordion-table {
-     width: 100%;
-     border-collapse: collapse;
- }
+.federal-accordion-content {
+    display: none;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+}
 
- .federal-accordion-table td {
-     vertical-align: top;
-     padding: 5px;
-     border-right: 1px solid #ccc;
-     width: 75%;
- }
+.federal-accordion-table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
- .federal-accordion-table td:last-child {
-     border-right: none;
- }
+.federal-accordion-table td {
+    vertical-align: top;
+    padding: 5px;
+    border-right: 1px solid #ccc;
+    width: 75%;
+}
 
- .federal-services-list {
-     list-style-type: none;
-     padding: 0;
-     margin: 0;
- }
+.federal-accordion-table td:last-child {
+    border-right: none;
+}
 
- .federal-services-list li::before {
-     color: #003366;
-     font-weight: bold;
-     display: inline-block;
-     width: 1em;
-     margin-left: -1em;
- }
+.federal-services-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
- .federal-toggle-icon {
-     font-size: 22px;
-     font-weight: bold;
- }
+.federal-services-list li::before {
+    color: #003366;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
 
- .federal-agency-title {
-     color: #003366;
-     font-size: 20px;
-     font-weight: bold;
-     display: flex;
-     gap: 10px;
- }
+.federal-toggle-icon {
+    font-size: 22px;
+    font-weight: bold;
+}
 
- .federal-agency-details strong {
-     color: #333;
- }
+.federal-agency-title {
+    color: #003366;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+}
 
- .federal-shared-footer {
-     margin-top: 20px;
-     font-size: 14px;
- }
+.federal-agency-details strong {
+    color: #333;
+}
 
- .federal-shared-footer a {
-     color: #003366;
- }
+.federal-shared-footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
 
- /* Commercial*/
+.federal-shared-footer a {
+    color: #003366;
+}
+
+/* Commercial*/
 
 
- .vendors-section {
-     margin-top: 30px;
- }
+.vendors-section {
+    margin-top: 30px;
+}
 
- .vendors-section h2 {
-     background: #1a4e9a;
-     color: #fff;
-     padding: 10px;
-     font-size: 1.2em;
- }
+.vendors-section h2 {
+    background: #1a4e9a;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.2em;
+}
 
- .vendor-card {
-     border: 1px solid #ddd;
-     margin: 20px 0;
-     border-radius: 6px;
-     background: #fafafa;
-     padding: 15px;
- }
+.vendor-card {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    border-radius: 6px;
+    background: #fafafa;
+    padding: 15px;
+}
 
- .vendor-header {
-     display: flex;
-     align-items: center;
-     gap: 20px;
- }
+.vendor-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
- .vendor-logo {
-     width: 80px;
-     height: auto;
- }
+.vendor-logo {
+    width: 80px;
+    height: auto;
+}
 
- .vendor-header h3 {
-     margin: 0;
-     color: #1a4e9a;
- }
+.vendor-header h3 {
+    margin: 0;
+    color: #1a4e9a;
+}
 
- .vendor-content {
-     margin-top: 15px;
- }
+.vendor-content {
+    margin-top: 15px;
+}
 
- .vendor-content p {
-     margin: 5px 0;
- }
+.vendor-content p {
+    margin: 5px 0;
+}
 
- .contacts {
-     margin: 10px 0;
-     display: flex;
-     gap: 30px;
- }
+.contacts {
+    margin: 10px 0;
+    display: flex;
+    gap: 30px;
+}
 
- .contact {
-     margin-bottom: 8px;
- }
+.contact {
+    margin-bottom: 8px;
+}
 
- .vendor-icons {
-     margin-top: 10px;
-     font-size: 0.9em;
-     color: #555;
- }
+.vendor-icons {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
 
- .vendor-icons span {
-     display: inline-block;
-     margin-right: 15px;
- }
+.vendor-icons span {
+    display: inline-block;
+    margin-right: 15px;
+}
 
- @media (max-width: 768px) {
-     .vendor-header {
-         flex-direction: column;
-         align-items: flex-start;
-     }
+@media (max-width: 768px) {
+    .vendor-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-     .vendor-logo {
-         width: 120px;
-     }
+    .vendor-logo {
+        width: 120px;
+    }
 
-     .contacts {
-         display: block;
-     }
- }
+    .contacts {
+        display: block;
+    }
+}
 
- /* Mandatory*/
+/* Mandatory*/
 
- .federal-title {
-     color: #1a4e9a;
-     font-size: 1.8em;
-     margin-bottom: 10px;
- }
+.federal-title {
+    color: #1a4e9a;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
 
- .federal-intro {
-     margin-bottom: 30px;
- }
+.federal-intro {
+    margin-bottom: 30px;
+}
 
- .federal-table {
-     width: 100%;
-     border-collapse: collapse;
- }
+.federal-table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
- .federal-accordion-table tbody {
-     border: 1px solid #ccc;
-     border-collapse: collapse;
- }
+.federal-accordion-table tbody {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
 
- .federal-row {
-     display: flex;
-     flex-wrap: wrap;
-     border-bottom: 1px solid #ddd;
- }
+.federal-row {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ddd;
+}
 
- .federal-header {
-     background: #1a4e9a;
-     color: #fff;
-     font-weight: bold;
- }
+.federal-header {
+    background: #1a4e9a;
+    color: #fff;
+    font-weight: bold;
+}
 
- .federal-cell {
-     padding: 15px;
- }
+.federal-cell {
+    padding: 15px;
+}
 
- .federal-col-name {
-     flex: 1 1 30%;
-     border-right: 1px solid #ddd;
- }
+.federal-col-name {
+    flex: 1 1 30%;
+    border-right: 1px solid #ddd;
+}
 
- .federal-col-desc {
-     flex: 1 1 70%;
- }
+.federal-col-desc {
+    flex: 1 1 70%;
+}
 
- .federal-logo {
-     width: 120px;
-     margin-bottom: 10px;
- }
+.federal-logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
 
- .federal-col-name p {
-     margin: 5px 0;
- }
+.federal-col-name p {
+    margin: 5px 0;
+}
 
- .federal-col-name a,
- .federal-col-desc a {
-     color: #1a4e9a;
-     text-decoration: none;
- }
+.federal-col-name a,
+.federal-col-desc a {
+    color: #1a4e9a;
+    text-decoration: none;
+}
 
- .federal-col-name a:hover,
- .federal-col-desc a:hover {
-     text-decoration: underline;
- }
+.federal-col-name a:hover,
+.federal-col-desc a:hover {
+    text-decoration: underline;
+}
 
- @media (max-width: 768px) {
-     .federal-row {
-         flex-direction: column;
-     }
+@media (max-width: 768px) {
+    .federal-row {
+        flex-direction: column;
+    }
 
-     .federal-col-name {
-         border-right: none;
-         border-bottom: 1px solid #ddd;
-     }
- }
+    .federal-col-name {
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+}
 
- /*Resources*/
- .accordion-header {
-     width: 100%;
-     text-align: left;
-     padding: 12px 16px;
-     font-weight: bold;
-     background: #eaeaea;
-     border: none;
-     cursor: pointer;
-     font-size: 16px;
-     position: relative;
- }
+/*Resources*/
+.accordion-header {
+    width: 100%;
+    text-align: left;
+    padding: 12px 16px;
+    font-weight: bold;
+    background: #eaeaea;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
 
- .accordion-header::after {
-     content: '\002B';
-     /* Unicode for plus (+) */
-     position: absolute;
-     right: 20px;
-     font-size: 20px;
-     transition: transform 0.3s ease;
- }
+.accordion-header::after {
+    content: '\002B';
+    /* Unicode for plus (+) */
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
 
- .accordion-header.active::after {
-     content: '\2212';
-     /* Unicode for minus (−) */
- }
+.accordion-header.active::after {
+    content: '\2212';
+    /* Unicode for minus (−) */
+}
 
- .accordion-content {
-     display: none;
- }
+.accordion-content {
+    display: none;
+}
 
- .accordion-header.active {
-     color: initial;
- }
+.accordion-header.active {
+    color: initial;
+}
