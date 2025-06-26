@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
    <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-      <div class="home-content">
+      <!--<div class="home-content">
         <h1>Grants QSMO Marketplace Catalog</h1>
         <p>
           HHS manages the Grants QSMO Marketplace Catalog, offering agencies a
@@ -52,7 +52,7 @@ attached:
           mind that developing an IAP should only be a last resort and avoided
           whenever feasible.
         </p>
-      </div>
+      </div>-->
       {% include grantFooter.html %}
     </div> 
   </div>

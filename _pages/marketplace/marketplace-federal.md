@@ -111,11 +111,11 @@ attached:
       Payment Systems
       <span class="federal-toggle-icon">+</span>
     </div>
-    <div class="federal-accordion-content">
+    <div class="federal-accordion-content" style="display:none">
       <table class="federal-accordion-table">
         <tr>
           <td class="federal-agency-details">
-            <div class="federal-agency-title"><img class="agency-logo" alt="Automated Standard Application for Payments (ASAP) logo" src="/assets/images/asap-logo.svg">Automated Standard Application for Products</div><br>
+            <div class="federal-agency-title"><img class="agency-logo" alt="Automated Standard Application for Payments (ASAP) logo" src="/assets/images/asap-logo.svg">Automated Standard Application for Products (ASAP)</div><br>
             <p><strong>Provider Agency:</strong> U.S. Dept. of Treasury</p>
             <p><strong>Website:</strong> <a href="https://fiscal/treasury.gov/asap " target="_blank"> https://fiscal/treasury.gov/asap </a></p>
             <p><strong>Contact:</strong>asaphelpdesk@fiscal.treasury.gov</p>
@@ -124,10 +124,11 @@ attached:
           </td>
           <td>
             <ul class="federal-services-list">
-              <li>Electronic Funds Transfer</li>
-              <li>Payment Scheduling</li>
-              <li>Real-time Fund Access</li>
-              <li>Payment Authorization Workflow</li>
+              <li>Grant Award Inssurance</li>
+              <li>Grant Award Payment Processing</li>
+              <li>Grant Award Financial Review </li>
+              <li>Grant Award Closeout</li>
+              <li>Grant Program Reporting and Reveiw</li>
             </ul>
           </td>
         </tr>
@@ -135,7 +136,7 @@ attached:
        <table class="federal-accordion-table">
         <tr>
           <td class="federal-agency-details">
-            <div class="federal-agency-title"><img class="agency-logo" alt="PMS logo" src="/assets/images/PSC.webp">Payment Management System</div><br>
+            <div class="federal-agency-title"><img class="agency-logo" alt="PMS logo" src="/assets/images/PSC.webp">Payment Management System (PMS)</div><br>
             <p><strong>Provider Agency:</strong> U.S. Dept. of Health and Human Services, Program Support Center
 </p>
             <p><strong>Website:</strong> <a href="https://pms.psc.gov" target="_blank">https://pms.psc.gov</a></p>
@@ -147,10 +148,11 @@ attached:
           </td>
           <td>
             <ul class="federal-services-list">
-              <li>Electronic Funds Transfer</li>
-              <li>Payment Scheduling</li>
-              <li>Real-time Fund Access</li>
-              <li>Payment Authorization Workflow</li>
+               <li>Grant Award Inssurance</li>
+              <li>Grant Award Payment Processing</li>
+              <li>Grant Award Financial Review </li>
+              <li>Grant Award Closeout</li>
+              <li>Grant Program Reporting and Reveiw</li>
             </ul>
           </td>
         </tr>
@@ -164,7 +166,7 @@ attached:
       Indirect Cost Negotiation Services
       <span class="federal-toggle-icon">+</span>
     </div>
-    <div class="federal-accordion-content">
+    <div class="federal-accordion-content" style="display:none">
       <table class="federal-accordion-table">
         <tr>
           <td class="federal-agency-details">
@@ -177,12 +179,7 @@ attached:
           </td>
           <td>
             <ul class="federal-services-list">
-              <li>Indirect Cost Rate Negotiation</li>
-              <li>Cost Allocation Plan Review</li>
-              <li>Rate Agreement Issuance</li>
-              <li>Audit Support and Review</li>
-              <li>Agency Coordination</li>
-              <li>Rate Amendment Management</li>
+              <li>Grant Recipient Indirect Cost Rate Negotiation</li>
             </ul>
           </td>
         </tr>
@@ -200,12 +197,7 @@ attached:
           </td>
           <td>
             <ul class="federal-services-list">
-              <li>Indirect Cost Rate Negotiation</li>
-              <li>Cost Allocation Plan Review</li>
-              <li>Rate Agreement Issuance</li>
-              <li>Audit Support and Review</li>
-              <li>Agency Coordination</li>
-              <li>Rate Amendment Management</li>
+              <li>Grant Recipient Indirect Cost Rate Negotiation</li>
             </ul>
           </td>
         </tr>

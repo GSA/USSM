@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
    <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-      <div class="home-content">
+      <!--<div class="home-content">
       <h2>Resources</h2>
     <p>
       Consider these resources from the Grants QSMO for your needs. Some links lead to the Grants QSMO
@@ -28,8 +28,8 @@ attached:
         </ul>
         <h4>Federal Shared Service Provider Information</h4>
         <ul>
-          <li><a href="#">Sharing Insights (pdf)</a></li>
-          <li><a href="#">Shared Service Value Highlight (pdf)</a></li>
+          <li><a href="#">Buying Insights (pdf)</a></li>
+          <li><a href="#">Shared Service Value Insights (pdf)</a></li>
         </ul>
         <h4>Commercial Provider Information</h4>
         <ul>
@@ -39,10 +39,10 @@ attached:
           <li><a href="#">Grants QSMO Industry Day 2024 (pdf)</a></li>
         </ul>
         <h4>Investment Resources</h4>
-        <p>The Grants QSMO is ready to assist...</p>
+        <p>The Grants QSMO is here to support your agency in navigating grants IT investments—whether for modernization, new system development, or adopting shared services. We provide expert contacts, clear guidance, and essential resources to simplify your investment process. Visit the Grants QSMO <a>Acquisition Gateway</a> to explore tools and access key forms.</p>
         <div class="buttons">
-          <button>Investment Insights</button>
-          <button>Investment Details Form</button>
+          <button class="investment-buttons">Investment Insights</button>
+          <button class="investment-buttons">Investment Details Form</button>
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@ attached:
         </ul>
       </div>
     </div>
-      </div>
+      </div>-->
       {% include grantFooter.html %}
     </div> 
   </div>

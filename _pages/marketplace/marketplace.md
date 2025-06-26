@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
     <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-      <div class="home-content">
+    <!--  <div class="home-content">
          <p>
           The Grants QSMO addresses fragmented and outdated federal grants
           management systems across the government. We empower applicants,
@@ -60,7 +60,7 @@ attached:
           Grants Data Standards. The Grants QSMO communicates these requirements
           to customers and vetted grants IT solution providers.
         </p>
-      </div>
+      </div>-->
       {% include grantFooter.html %}
     </div> 
   </div>

@@ -13,14 +13,14 @@ attached:
     <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
       <div class="home-content">
-         <h1>Commercial Shared Services</h1>
-    <p>
+         <h1 style="display:none">Commercial Shared Services</h1>
+      <p style="display:none">
       Grants QSMO-recommended commercial vendors provide award management Software as a Solution (SaaS) products aligned with the 
       <a href="#">Federal Integrated Business Framework (FIBF)</a> for Grants Management. Explore the Catalog of Market Research on the Grants QSMO’s 
       <a href="#">Acquisition Gateway</a> webpage for detailed vendor information and solutions.
     </p>
     <div class="vendors-section">
-      <h2>Commercial Vendors - Award Management Systems</h2>
+      <h2 style="display:none">Commercial Vendors - Award Management Systems</h2>
       <div class="vendor-card">
         <div class="vendor-header">
           <img src="/assets/images/earnts&young.png" alt="EY Logo" class="vendor-logo">
@@ -52,7 +52,7 @@ attached:
           </div>
         </div>
       </div>
-      <div class="vendor-card">
+      <div class="vendor-card" style="display:none">
         <div class="vendor-header">
           <img src="/assets/images/fl-consulting.png" alt="FI Consulting Logo" class="vendor-logo">
           <h3>FI Consulting: Program Investment Manager</h3>
@@ -81,7 +81,7 @@ attached:
         </div>
       </div>
       </div>
-       <div class="vendor-card">
+       <div class="vendor-card" style="display:none">
         <div class="vendor-header">
           <img src="/assets/images/groundswell.png" alt="Groundswell Logo" class="vendor-logo">
           <h3>Groundswell: GLAS</h3>
@@ -111,7 +111,7 @@ attached:
           </div>
       </div>
       </div>
-      <div class="vendor-card">
+      <div class="vendor-card" style="display:none">
         <div class="vendor-header">
           <img src="/assets/images/rei-systems.png" alt="REI systems Logo" class="vendor-logo">
           <h3>REI Systems: GovGrants</h3>
@@ -141,7 +141,7 @@ attached:
           </div>
       </div>
       </div>
-      <div class="vendor-card">
+      <div class="vendor-card" style="display:none">
         <div class="vendor-header">
           <img src="/assets/images/salesforce.png" alt="Salesforce Logo" class="vendor-logo">
           <h3>Salesforce: PSS Grantmaking</h3>
@@ -175,7 +175,7 @@ attached:
           </div>
       </div>
       </div>
-      <div class="vendor-card">
+      <div class="vendor-card" style="display:none">
         <div class="vendor-header">
           <img src="/assets/images/unison.png" alt="Unison Logo" class="vendor-logo">
           <h3>Unison Software: PRISM Grants</h3>

@@ -289,3 +289,32 @@
  .accordion-header.active {
      color: initial;
  }
+
+ .investment-buttons {
+     background: #2a297b;
+     color: white;
+     width: 25%;
+     height: 30px;
+     border: none;
+ }
+
+ button#sendEmail {
+     cursor: pointer;
+     background: transparent;
+     border: 000;
+     color: white;
+ }
+
+
+ /*Temporary css*/
+
+ .federal-accordion-header,
+ .federal-shared-description,
+ .federal-shared-title,
+ hr {
+     display: none;
+ }
+
+ .federal-accordion-content {
+     display: block;
+ }
