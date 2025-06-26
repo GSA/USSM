@@ -24,7 +24,7 @@ attached:
       </div>
       <div class="federal-row">
         <div class="federal-cell federal-col-name">
-          <img src="/assets/images/grants.gov.png" alt="Grants.gov Logo" class="federal-logo">
+          <img src="{{site.baseurl}}/assets/images/grants.gov.png" alt="Grants.gov Logo" class="federal-logo">
           <p><strong>Provider Agency:</strong> U.S. Dept. of Health and Human Services</p>
           <p><strong>Website:</strong> <a href="https://www.grants.gov/">https://www.grants.gov/</a></p>
           <p><strong>Contact:</strong> support@grants.gov</p>
@@ -35,7 +35,7 @@ attached:
       </div>
       <div class="federal-row" style="display:none">
         <div class="federal-cell federal-col-name">
-          <img src="/assets/images/sam.gov.png" alt="SAM.gov Logo" class="federal-logo">
+          <img src="{{site.baseurl}}/assets/images/sam.gov.png" alt="SAM.gov Logo" class="federal-logo">
           <p><strong>Provider Agency:</strong> GSA</p>
           <p><strong>Website:</strong> <a href="https://sam.gov/">https://sam.gov/</a></p>
           <p><strong>Contact:</strong> IAEOutreach@gsa.gov</p>
@@ -47,11 +47,10 @@ attached:
       </div>
       <div class="federal-row" style="display:none">
         <div class="federal-cell federal-col-name">
-          <img src="/assets/images/fac.gov.png" alt="FAC Logo" class="federal-logo">
-          <p><strong>Provider Agency:</strong> U.S. General Services Administration
-</p>
-          <p><strong>Website:</strong> <a href=" https://fac.gov"> https://fac.gov</a></p>
-          <p><strong>Contact:</strong>fac@gsa.gov</p>
+          <img src="{{site.baseurl}}/assets/images/fac.gov.png" alt="FAC Logo" class="federal-logo">
+          <p><strong>Provider Agency:</strong> GSA</p>
+          <p><strong>Website:</strong> <a href="https://sam.gov/">https://sam.gov/</a></p>
+          <p><strong>Contact:</strong> IAEOutreach@gsa.gov</p>
         </div>
         <div class="federal-cell federal-col-desc">
          The Federal Audit Clearinghouse (FAC), established under the Single Audit Act Amendments of 1996 <a href="#">(Pub. L. No. 104—156)</a> and <a href="#">2 CFR Part 200</a>, is the central repository for single audit reporting packages from federal financial assistance 

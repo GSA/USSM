@@ -39,7 +39,7 @@ attached:
       <table class="federal-accordion-table">
         <tr>
           <td class="federal-agency-details">
-            <div class="federal-agency-title"><div><img src="/assets/images/era-logo-lg.webp" alt="era logo" style="width:35px;"></div>Electronic Research Administration (eRA)</div><br>
+            <div class="federal-agency-title"><div><img src="{{site.baseurl}}/assets/images/era-logo-lg.webp" alt="era logo" style="width:35px;"></div>Electronic Research Administration (eRA)</div><br>
             <p><strong>Provider Agency:</strong> U.S. Dept. of Health and Human Services, National Institutes of Health</p>
             <p><strong>Website:</strong> <a href="https://era.nih.gov" target="_blank">https://era.nih.gov</a></p>
             <p><strong>Contact:</strong> eRAinfo@mail.nih.gov</p>
@@ -71,7 +71,7 @@ attached:
       <table class="federal-accordion-table">
         <tr>
           <td class="federal-agency-details">
-            <div class="federal-agency-title"><div><img class="agency-logo" alt="GrantSolutions logo" src="/assets/images/GrantSolutions_LogoMark.webp"></div>GrantSolutions</div><br>
+            <div class="federal-agency-title"><div><img class="agency-logo" alt="GrantSolutions logo" src="{{site.baseurl}}/assets/images/GrantSolutions_LogoMark.webp"></div>GrantSolutions</div><br>
             <p><strong>Provider Agency:</strong> U.S. Dept. of Health and Human Services</p>
             <p><strong>Website:</strong> <a href="https://grantsolutions.gov" target="_blank"> https://grantsolutions.gov </a></p>
             <p><strong>Contact:</strong> information@grantsolutions.gov or Renee.Lobanovskyy@hhs.gov</p>
@@ -115,7 +115,7 @@ attached:
       <table class="federal-accordion-table">
         <tr>
           <td class="federal-agency-details">
-            <div class="federal-agency-title"><img class="agency-logo" alt="Automated Standard Application for Payments (ASAP) logo" src="/assets/images/asap-logo.svg">Automated Standard Application for Products (ASAP)</div><br>
+            <div class="federal-agency-title"><img class="agency-logo" alt="Automated Standard Application for Payments (ASAP) logo" src="{{site.baseurl}}/assets/images/asap-logo.svg">Automated Standard Application for Products</div><br>
             <p><strong>Provider Agency:</strong> U.S. Dept. of Treasury</p>
             <p><strong>Website:</strong> <a href="https://fiscal/treasury.gov/asap " target="_blank"> https://fiscal/treasury.gov/asap </a></p>
             <p><strong>Contact:</strong>asaphelpdesk@fiscal.treasury.gov</p>
@@ -136,7 +136,7 @@ attached:
        <table class="federal-accordion-table">
         <tr>
           <td class="federal-agency-details">
-            <div class="federal-agency-title"><img class="agency-logo" alt="PMS logo" src="/assets/images/PSC.webp">Payment Management System (PMS)</div><br>
+            <div class="federal-agency-title"><img class="agency-logo" alt="PMS logo" src="{{site.baseurl}}/assets/images/PSC.webp">Payment Management System</div><br>
             <p><strong>Provider Agency:</strong> U.S. Dept. of Health and Human Services, Program Support Center
 </p>
             <p><strong>Website:</strong> <a href="https://pms.psc.gov" target="_blank">https://pms.psc.gov</a></p>
@@ -170,7 +170,7 @@ attached:
       <table class="federal-accordion-table">
         <tr>
           <td class="federal-agency-details">
-            <div class="federal-agency-title"><img class="agency-logo" alt="Interior Business Center logo" src="/assets/images/IBC.webp">Interior Business Center, Indirect Cost Rate Negotiation Service</div><br>
+            <div class="federal-agency-title"><img class="agency-logo" alt="Interior Business Center logo" src="{{site.baseurl}}/assets/images/IBC.webp">Interior Business Center, Indirect Cost Rate Negotiation Service</div><br>
             <p><strong>Provider Agency:</strong> U.S. Dept. of the Interior</p>
             <p><strong>Website:</strong> <a href=" https://ibc.doi.gov/ICS/indirect-cost " target="_blank"> https://ibc.doi.gov/ICS/indirect-cost </a></p>
             <p><strong>Contact:</strong>https://ibc.doi.gov/ICS/contact-us or craig_wills@ibc.doi.gov</p>
@@ -187,7 +187,7 @@ attached:
       <table class="federal-accordion-table">
         <tr>
           <td class="federal-agency-details">
-            <div class="federal-agency-title"><img class="agency-logo" alt="PSC logo" src="/assets/images/PSC.webp">Program Support Center Cost Allocation Services, Indirect Cost Rate Negotiation Service</div><br>
+            <div class="federal-agency-title"><img class="agency-logo" alt="PSC logo" src="{{site.baseurl}}/assets/images/PSC.webp">Program Support Center Cost Allocation Services, Indirect Cost Rate Negotiation Service</div><br>
             <p><strong>Provider Agency:</strong>U.S. Dept. of the Interior</p>
             <p><strong>Website:</strong> <a href="https://www.hhs.gov/about/agencies/asa/psc/indirect-cost-negotiations/index.html  " target="_blank">https://www.hhs.gov/about/agencies/asa/psc/indirect-cost-negotiations/index.html </a></p>
             <p><strong>Contact:</strong>CAS-Bethesda@psc.hhs.gov</p>
