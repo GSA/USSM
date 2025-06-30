@@ -13,45 +13,33 @@ attached:
    <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
       <!--<div class="home-content">
-        <h1>Grants QSMO Marketplace Catalog</h1>
-        <p>
-          HHS manages the Grants QSMO Marketplace Catalog, offering agencies a
-          trusted resource to identify validated federal and commercial shared
-          services and solutions. These solutions provide high-quality,
-          innovative services that support functions and activities across the
-          grants lifecycle, aligning with the
-          <a href="#" class="blue-link"
-            >Federal Integrated Business Framework (FIBF)</a
-          >
-          for Grants Management (GRM).
-        </p>
-        <p>
-          For agency staff seeking grants IT acquisition tools and resources,
-          explore the Grants QSMO Acquisition Gateway - a centralized,
-          federal-only platform designed to support your needs (login required).
-        </p>
-        <a class="button">Acquisition Gateway</a>
-        <p>
-          Both federal and commercial providers are key contributors to the
-          Grants QSMO Marketplace, offering diverse expertise and services.
-          Explore below to learn more about each provider and their unique role
-          in supporting grants management.
-        </p>
-        <div class="service-boxes">
-          <a class="service-box yellow" href="{{site.baseurl}}/marketplace/marketplace-catalog/federal">Federal<br/>Shared Services</a>
-          <a class="service-box navy" href="{{site.baseurl}}/marketplace/marketplace-catalog/commercial">Commercial
-          <br/>Shared Services</a>
-          <a class="service-box cyan" href="{{site.baseurl}}/marketplace/marketplace-catalog/mandatory">
-            Mandatory<br/>Federal Solutions <br/>& Services
-          </a>
-        </div>
-        <p class="footer-text">
-          If the solutions in the Grants QSMO Marketplace Catalog do not meet
-          your agency's needs, visit the <a href="#">Resources</a> tab for
-          guidance on creating an Investment Action Plan (IAP). However, keep in
-          mind that developing an IAP should only be a last resort and avoided
-          whenever feasible.
-        </p>
+        <h1>Grants QSMO Marketplace</h1>
+      <div class="subtitle">
+      Your gateway to top-tier grants management solutions. Aligned with the
+      <span class="highlight">Federal Integrated Business Framework (FIBF)</span>
+      for Grants Management (GRM), these solutions drive more efficient federal grants administration.
+    </div>
+    <div class="boxes">
+      <div class="box federal">
+        <h3>Federal Shared Services</h3>
+        <p>Non-mandatory, federal solutions that accept external customers.</p>
+      </div>
+      <div class="box commercial">
+        <h3>Commercial Shared Services</h3>
+        <p>Award management Software as a Solution (SaaS) products.</p>
+      </div>
+      <div class="box centralized">
+        <h3>Centralized Federal Shared Services</h3>
+        <p>Required interoperable systems for grants management processes.</p>
+      </div>
+    </div>
+    <div class="acquisition-text">
+      For grants IT acquisition resources, visit the Grants QSMO
+      <a href="#" class="highlight">Acquisition Gateway</a>—a federal-only platform providing specialized tools, insights, and downloadable resources to enhance your grants management process (login required). If Marketplace solutions don’t fit your specific needs, the Gateway provides additional support to help you find the right approach.
+    </div>
+    <div class="button-wrapper">
+      <a href="#" class="gateway-button">Acquisition Gateway</a>
+    </div>
       </div>-->
       {% include grantFooter.html %}
     </div> 

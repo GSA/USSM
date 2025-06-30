@@ -106,7 +106,7 @@ attached:
   </div>
 
   <!-- Accordion 2 -->
-  <div class="federal-accordion">
+  <!--<div class="federal-accordion">
     <div class="federal-accordion-header" onclick="toggleFederalAccordion(this)">
       Payment Systems
       <span class="federal-toggle-icon">+</span>
@@ -161,7 +161,7 @@ attached:
   </div>
 
   <!-- Accordion 3 -->
-  <div class="federal-accordion">
+  <!--<div class="federal-accordion">
     <div class="federal-accordion-header" onclick="toggleFederalAccordion(this)">
       Indirect Cost Negotiation Services
       <span class="federal-toggle-icon">+</span>
@@ -203,7 +203,7 @@ attached:
         </tr>
       </table>
     </div>
-  </div>
+  </div>-->
 
   <div class="federal-shared-footer">
     Explore detailed information about services and GRM areas at

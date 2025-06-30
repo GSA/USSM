@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
    <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-      <!--<div class="home-content">
+    <div class="home-content">
       <h2>Resources</h2>
     <p>
       Consider these resources from the Grants QSMO for your needs. Some links lead to the Grants QSMO
@@ -46,7 +46,7 @@ attached:
         </div>
       </div>
     </div>
-    <div class="accordion">
+    <!--<div class="accordion">
       <button class="accordion-header">Other Resources</button>
       <div class="accordion-content">
         <ul>

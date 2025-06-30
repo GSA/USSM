@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
      <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-      <!--<div class="home-content">
+      <div class="home-content">
        <div class="faq-header">
     <h1>Frequently Asked Questions (FAQs)</h1>
     <p>Find answers to common questions about the Grants QSMO, its Marketplace, and ways to engage—whether you're a federal agency, grant recipient, shared service provider, or vendor. Browse by topic for quick information on shared solutions, governance, acquisition support, and collaboration.</p>
@@ -27,7 +27,7 @@ attached:
       <p>Supports grant-making agencies with shared technology solutions and services.</p>
     </div>
   </div>
-  <div class="faq-item">
+  <!--<div class="faq-item">
     <button class="faq-question" aria-expanded="false">Does the QSMO serve only HHS or all federal agencies?</button>
     <div class="faq-answer" role="region" aria-hidden="true">
       <p>Operated by HHS but serves all federal awarding agencies.</p>

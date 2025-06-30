@@ -791,17 +791,17 @@ text {
   .home-content .button {
     background-color: #003366;
     color: white;
-    padding: 10px 20px;
+    padding: 30px 20px;
     display: block;
-    
+    font-size: 18px;
     text-align: center;
     margin: 20px auto;
     font-weight: bold;
-  width: 300px;
-  text-decoration: none;
+    width: 300px;
+    text-decoration: none;
   }
   .home-content .button:hover {
-background-color: #1a4480;
+    background-color: #1a4480;
   }
   .service-boxes {
     display: flex;
