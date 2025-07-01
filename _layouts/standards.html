@@ -456,14 +456,24 @@ associated with it. For example, an about page. {% endcomment %}
               Business Information Exchange and Business Reports - {{
               page.sub-title }}
             </h2>
-            <p>
-              <i>
-                Business Exchange and Information Reports outline the critical
-                data interactions and communication flows between systems and
-                stakeholders supporting {{page.sub-title}} in the Federal
-                government.
-              </i>
-            </p>
+            <div class="grid-row">
+              <div class="desktop:grid-col-3">
+                <img
+                  src="{{ site.baseurl }}/assets/images/fibf/06.business.information.exchages.reports.sm.webp"
+                  alt=""
+                  class="fibf-wheel-image"
+                />
+              </div>
+            <div class="desktop:grid-col-9">
+              <p>
+                <i>
+                  Business Exchange and Information Reports outline the critical
+                  data interactions and communication flows between systems and
+                  stakeholders supporting {{page.sub-title}} in the Federal
+                  government.
+                </i>
+              </p>
+            </div>
             <div class="margin-bottom-2">
               {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{%
               endif %}
