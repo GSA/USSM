@@ -52,7 +52,7 @@ attached:
           </div>
         </div>
       </div>
-      <div class="vendor-card" style="display:none">
+      <div class="vendor-card">
         <div class="vendor-header">
           <img src="{{site.baseurl}}/assets/images/fl-consulting.png" alt="FI Consulting Logo" class="vendor-logo">
           <h3>FI Consulting: Program Investment Manager</h3>
@@ -81,7 +81,7 @@ attached:
         </div>
       </div>
       </div>
-       <div class="vendor-card" style="display:none">
+       <div class="vendor-card">
         <div class="vendor-header">
           <img src="{{site.baseurl}}/assets/images/groundswell.png" alt="Groundswell Logo" class="vendor-logo">
           <h3>Groundswell: GLAS</h3>
@@ -111,7 +111,7 @@ attached:
           </div>
       </div>
       </div>
-      <div class="vendor-card" style="display:none">
+      <div class="vendor-card">
         <div class="vendor-header">
           <img src="{{site.baseurl}}/assets/images/rei-systems.png" alt="REI systems Logo" class="vendor-logo">
           <h3>REI Systems: GovGrants</h3>
@@ -141,7 +141,7 @@ attached:
           </div>
       </div>
       </div>
-      <div class="vendor-card" style="display:none">
+      <div class="vendor-card">
         <div class="vendor-header">
           <img src="{{site.baseurl}}/assets/images/salesforce.png" alt="Salesforce Logo" class="vendor-logo">
           <h3>Salesforce: PSS Grantmaking</h3>
@@ -175,7 +175,7 @@ attached:
           </div>
       </div>
       </div>
-      <div class="vendor-card" style="display:none">
+      <div class="vendor-card">
         <div class="vendor-header">
           <img src="{{site.baseurl}}/assets/images/unison.png" alt="Unison Logo" class="vendor-logo">
           <h3>Unison Software: PRISM Grants</h3>

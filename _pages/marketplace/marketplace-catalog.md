@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
    <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-      <!--<div class="home-content">
+      <div class="home-content">
         <h1>Grants QSMO Marketplace</h1>
       <div class="subtitle">
       Your gateway to top-tier grants management solutions. Aligned with the
@@ -40,7 +40,7 @@ attached:
     <div class="button-wrapper">
       <a href="#" class="gateway-button">Acquisition Gateway</a>
     </div>
-      </div>-->
+      </div>
       {% include grantFooter.html %}
     </div> 
   </div>

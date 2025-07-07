@@ -33,7 +33,7 @@ attached:
           Grants.gov is the central hub for federal discretionary grant and cooperative agreement funding announcements, known as Notices of Funding Opportunity (NOFOs). Directed by the Office of Management and Budget (OMB), all federal grant-making agencies must publish these opportunities on the platform, making it easier for the public to identify and apply for funding. Established under the Federal Financial Assistance Management Improvement Act of 1999 (<a href="#">Pub. L. No. 106—107</a>) and OMB Memorandum M-04-01, Grants.gov also provides resources to streamline the application process.
         </div>
       </div>
-      <div class="federal-row" style="display:none">
+      <div class="federal-row">
         <div class="federal-cell federal-col-name">
           <img src="{{site.baseurl}}/assets/images/sam.gov.png" alt="SAM.gov Logo" class="federal-logo">
           <p><strong>Provider Agency:</strong> GSA</p>
@@ -45,7 +45,7 @@ attached:
           SAM.gov is the authoritative repository for financial assistance data, integrating the Unique Entity Identifier and System for Award Management (as outlined in <a href="#">2 CFR Part 25</a>), the Federal Awardee Performance and Integrity Information System (FAPIIS), mandated by <a href="#">41 U.S.C. § 2313</a>, and the Federal Funding Accountability and Transparency Act (FFATA) of 2006 (<a href="#">Pub. L. No. 109—282</a>). Together, these components ensure comprehensive oversight and accessibility to federal award information.
         </div>
       </div>
-      <div class="federal-row" style="display:none">
+      <div class="federal-row">
         <div class="federal-cell federal-col-name">
           <img src="{{site.baseurl}}/assets/images/fac.gov.png" alt="FAC Logo" class="federal-logo">
           <p><strong>Provider Agency:</strong> GSA</p>

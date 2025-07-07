@@ -46,7 +46,7 @@ attached:
         </div>
       </div>
     </div>
-    <!--<div class="accordion">
+    <div class="accordion">
       <button class="accordion-header">Other Resources</button>
       <div class="accordion-content">
         <ul>
@@ -67,7 +67,7 @@ attached:
         </ul>
       </div>
     </div>
-      </div>-->
+      </div>
       {% include grantFooter.html %}
     </div> 
   </div>
