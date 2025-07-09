@@ -181,6 +181,9 @@
      flex: 1;
      border-top: 5px solid transparent;
      min-height: 100px;
+     cursor: pointer;
+     text-decoration: none;
+     color: #000;
  }
 
  .box.federal {
@@ -233,10 +236,11 @@
  }
 
  .vendors-section h2 {
-     background: #1a4e9a;
-     color: #fff;
+     background: #003366;
+     color: #fff !important;
      padding: 10px;
      font-size: 1.2em;
+     margin-bottom: 0;
  }
 
  .vendor-card {

@@ -27,7 +27,7 @@ attached:
       <p>Supports grant-making agencies with shared technology solutions and services.</p>
     </div>
   </div>
-  <!--<div class="faq-item">
+  <div class="faq-item">
     <button class="faq-question" aria-expanded="false">Does the QSMO serve only HHS or all federal agencies?</button>
     <div class="faq-answer" role="region" aria-hidden="true">
       <p>Operated by HHS but serves all federal awarding agencies.</p>
@@ -185,7 +185,7 @@ attached:
       <p>Contact QSMO for investment planning, vendor coordination, or general support.</p>
     </div>
   </div>
-      </div>-->
+      </div>
       {% include grantFooter.html %}
     </div> 
   </div>

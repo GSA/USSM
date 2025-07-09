@@ -20,18 +20,24 @@ attached:
       for Grants Management (GRM), these solutions drive more efficient federal grants administration.
     </div>
     <div class="boxes">
-      <div class="box federal">
+      <a href="{{site.baseurl}}/marketplace/marketplace-catalog/federal" class="box federal">
         <h3>Federal Shared Services</h3>
-        <p>Non-mandatory, federal solutions that accept external customers.</p>
-      </div>
-      <div class="box commercial">
+        <p style="
+    padding: 0 5px 0px 5px;
+">Non-mandatory, federal solutions that accept external customers.</p>
+      </a>
+      <a href="{{site.baseurl}}/marketplace/marketplace-catalog/commercial" class="box commercial">
         <h3>Commercial Shared Services</h3>
-        <p>Award management Software as a Solution (SaaS) products.</p>
-      </div>
-      <div class="box centralized">
+        <p style="
+    padding: 0 5px 0px 5px;
+">Award management Software as a Solution (SaaS) products.</p>
+      </a>
+      <a href="{{site.baseurl}}/marketplace/marketplace-catalog/mandatory" class="box centralized">
         <h3>Centralized Federal Shared Services</h3>
-        <p>Required interoperable systems for grants management processes.</p>
-      </div>
+        <p style="
+    padding: 0 5px 0px 5px;
+">Required interoperable systems for grants management processes.</p>
+      </a>
     </div>
     <div class="acquisition-text">
       For grants IT acquisition resources, visit the Grants QSMO
