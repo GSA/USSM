@@ -179,7 +179,7 @@
      border: 1px solid #ccc;
      padding: 1rem;
      flex: 1;
-     border-top: 5px solid transparent;
+     border-top: 8px solid transparent;
      min-height: 100px;
      cursor: pointer;
      text-decoration: none;
