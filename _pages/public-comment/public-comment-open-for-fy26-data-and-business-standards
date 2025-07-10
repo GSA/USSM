@@ -20,9 +20,10 @@ description: Welcome to the Mission Support Services Catalog. Agencies can use t
             <li><a href="https://www.regulations.gov/docket/BSC-MOM-2025-0035" title="" target="_blank">Mail Operations Management</a> (GSA, Docket ID: BSC-MOM-2025-0035)</li>
             <li><a href="https://www.regulations.gov/docket/BSC-ERM-2025-0002" title="Electronic Records Management" target="_blank">Electronic Records Management</a> (NARA, Docket ID: BSC-ERM-2025-0002)</li>
         </ul>
-        <p><b>Important:</b> 
+        <p><b>Important:</b> <uL>
             <LI>Please use the draft FY26 business and data standards attached to the above dockets for public review to provide your feedback by 11:59PM EST August 15, 2025.</LI>
             <LI>To review the documents in order, use the “Sort By” filter to sort by title A-Z.</LI>
+</UL>
       </p>
         <h2>Background Information</h2>
         <p><b>What are the data and business standards?</b></p>
