@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
     <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-     <div class="home-content">
+    <!-- <div class="home-content">
         <div class="intro-text">
       <div class="text">
         <p>The Grants QSMO modernizes and streamlines federal grants management systems for applicants, recipients, and federal agencies by offering a marketplace of validated, high-quality solutions that support every stage of the grants management lifecycle.</p>
@@ -33,7 +33,7 @@ attached:
     <p class="paragraph">
       The Grants QSMO connects agencies with vetted grants management solutions through a dynamic marketplace, driving efficiency, transparency, and informed decision-making. By engaging stakeholders, implementing data standards, and providing a central hub for grants-related information, it ensures continuous improvement in federal grants administration.
     </p>
-      </div>
+      </div>-->
       {% include grantFooter.html %}
     </div> 
   </div>

@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
      <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-      <div class="home-content">
+      <!--<div class="home-content">
        <div class="faq-header">
     <h1>Frequently Asked Questions (FAQs)</h1>
     <p>Find answers to common questions about the Grants QSMO, its Marketplace, and ways to engage—whether you're a federal agency, grant recipient, shared service provider, or vendor. Browse by topic for quick information on shared solutions, governance, acquisition support, and collaboration.</p>
@@ -185,7 +185,7 @@ attached:
       <p>Contact QSMO for investment planning, vendor coordination, or general support.</p>
     </div>
   </div>
-      </div>
+      </div>-->
       {% include grantFooter.html %}
     </div> 
   </div>

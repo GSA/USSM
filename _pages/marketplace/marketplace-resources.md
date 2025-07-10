@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
    <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-    <div class="home-content">
+   <!-- <div class="home-content">
       <h2>Resources</h2>
     <p>
       Consider these resources from the Grants QSMO for your needs. Some links lead to the Grants QSMO
@@ -67,7 +67,7 @@ attached:
         </ul>
       </div>
     </div>
-      </div>
+      </div>-->
       {% include grantFooter.html %}
     </div> 
   </div>

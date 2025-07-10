@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
     <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-      <div class="home-content">
+      <!--<div class="home-content">
        <h1 class="federal-title" style="display:none">Mandatory Federal Solutions & Services</h1>
     <p class="federal-intro" style="display:none">
       Mandatory solutions and services, mandated by federal law or regulation, ensure interoperability across key grants management processes.
@@ -58,7 +58,7 @@ attached:
         </div>
       </div>
     </div>
-      </div>
+      </div>-->
       {% include grantFooter.html %}
     </div> 
   </div>

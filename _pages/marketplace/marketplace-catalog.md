@@ -14,11 +14,11 @@ attached:
       {% include grantHeader.html %}
       <div class="home-content">
         <h1>Grants QSMO Marketplace</h1>
-      <div class="subtitle">
+     <!-- <div class="subtitle">
       Your gateway to top-tier grants management solutions. Aligned with the
       <span class="highlight">Federal Integrated Business Framework (FIBF)</span>
       for Grants Management (GRM), these solutions drive more efficient federal grants administration.
-    </div>
+    </div>-->
     <div class="boxes">
       <a href="{{site.baseurl}}/marketplace/marketplace-catalog/federal" class="box federal">
         <h3>Federal Shared Services</h3>
