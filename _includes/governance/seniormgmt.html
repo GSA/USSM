@@ -1,8 +1,7 @@
 <div class="sapoc-listing">
-    <div class="grid-container">
-        <div class="grid-row flex-wrap flex-justify-center">
-            {% for each_agency in site.data.seniormgmt.agencies %}
+  <div class="grid-container">
 
+    {% for each_agency in site.data.seniormgmt.agencies %}
     <div class="grid-row flex-align-start padding-y-2 border-bottom-1px" style="min-height: 80px;">
 
       <!-- Column 1: Logo -->
@@ -39,23 +38,9 @@
           <p class="font-body-md text-italic margin-0">TBD</p>
         {% endif %}
       </div>
-           
-                 <!--
-                    <div class="padding-x-3">
-                        {% if each_agency.agency_url %}<a href="{{ each_agency.agency_url }}" title="Read more about {{ each_agency.sapoc }}" class="display-flex flex-align-center flex-justify-center text-no-underline" target="_blank">{% endif %}
-                        <h2 style="color: #0168CA;" class="margin-0 padding-right-1 font-body-sm text-bold">
-                            {{ each_agency.sapoc }}
-                        </h2>
-                        {% if each_agency.agency_url %}
-                        <img src="{{site.baseurl}}/assets/images/governance/profile-icon.svg" alt="">
-                        {% endif %}
-                        {% if each_agency.agency_url %}</a>{% endif %}
-                        <p class="text-base-dark font-body-xs margin-0 grey-50">{{ each_agency.title }}</p>
-                        <p class="text-base font-body-sm margin-0 grey-30"><i>{{ each_agency.agency }}</i></p>
-                    </div>
-                -->
-              </div>
-            {% endfor %}
-        </div>
+
     </div>
+    {% endfor %}
+
+  </div>
 </div>
