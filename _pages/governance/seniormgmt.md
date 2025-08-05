@@ -1,6 +1,6 @@
 ---
 title: "Senior Management Officials"
-layout: governance/sapoc
+layout: governance/seniormgmt
 permalink: /seniormgmt/
 ---
 
