@@ -2,16 +2,30 @@
     <div class="grid-container">
         <div class="grid-row flex-wrap flex-justify-center">
             {% for each_agency in site.data.seniormgmt.agencies %}
-             <div class="agency tablet:grid-col-4 text-center margin-top-5">
-                    <div class="logo">
-                        <img width="150" height="150" loading="lazy" src="{{site.baseurl}}/assets/images/governance/sopac-logos/{{ each_agency.logo }}" alt="{{ each_agency.title }} Logo">
-                    </div>
-                 <div>
-                       {{ each_agency.sapoc }}
-                    </div> 
-                 <div>
-                       {{ each_agency.title }}
-                </div>
+
+<div class="grid-row flex-align-center border-bottom-1px padding-y-2">
+          
+          <!-- Column 1: Logo -->
+          <div class="grid-col-4 text-center">
+            <img width="100" height="100" loading="lazy" 
+                 src="{{site.baseurl}}/assets/images/governance/sopac-logos/{{ each_agency.logo }}" 
+                 alt="{{ each_agency.title }} Logo">
+          </div>
+          
+          <!-- Column 2: SAPOC -->
+          <div class="grid-col-4 text-center">
+            <div class="font-body-md text-bold">
+              {{ each_agency.sapoc }}
+            </div>
+          </div>
+          
+          <!-- Column 3: Title -->
+          <div class="grid-col-4 text-center">
+            <div class="font-body-md">
+              {{ each_agency.title }}
+            </div>
+          </div>
+           
                  <!--
                     <div class="padding-x-3">
                         {% if each_agency.agency_url %}<a href="{{ each_agency.agency_url }}" title="Read more about {{ each_agency.sapoc }}" class="display-flex flex-align-center flex-justify-center text-no-underline" target="_blank">{% endif %}
@@ -26,7 +40,7 @@
                         <p class="text-base font-body-sm margin-0 grey-30"><i>{{ each_agency.agency }}</i></p>
                     </div>
                 -->
-                </div>
+              </div>
             {% endfor %}
         </div>
     </div>
