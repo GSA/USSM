@@ -1,0 +1,141 @@
+{
+    "title": "Senior Management Official",
+    "agencies": [
+          {
+            "agency": "Department of Agriculture",
+            "sapoc": "Lynn Moaney",
+            "title": "Deputy Chief Financial Officer",
+            "logo": "department-of-agriculture.svg",
+            "agency_url":"https://www.usda.gov/ocfo/about-us/senior-leadership"
+          },
+          {
+            "agency": "Department of Commerce",
+            "sapoc": "Kurt Bersani",
+            "title": "Executive Director for Enterprise Services",
+            "logo": "department-of-commerce.svg",
+            "agency_url": "https://www.commerce.gov/about/leadership/kurt-bersani"
+          },
+          {
+            "agency": "Department of Defense",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "department-of-defense.svg"
+          },
+          {
+            "agency": "Department of Energy",
+            "sapoc": "Ingrid Kolb",
+            "title": "Director of Management",
+            "logo": "department-of-energy.svg",
+            "agency_url":"https://www.energy.gov/management/person/ingrid-ann-christner-kolb"
+          },
+          {
+            "agency": "Department of Health and Human Services",
+            "sapoc": "Garey Rice",
+            "title": " ",
+            "logo": "department-of-health-and-human-services.svg"
+          },
+          {
+            "agency": "Department of Homeland Security",
+            "sapoc": " Benjamine “Carry” Huffman",
+            "title": "Senior Official Performing the Duties of the Under Secretary for Management",
+            "logo": "department-of-homeland-security.svg"
+          },
+          {
+            "agency": "Department of Housing and Urban Development",
+            "sapoc": "Patrice Clement",
+            "title": "Senior Advisor to the Assistant Secretary for Administration",
+            "logo": "department-of-housing-and-urban-development.svg"
+          },
+          {
+            "agency": "Department of the Interior",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "department-of-the-interior.svg"
+          },
+          {
+            "agency": "Department of Justice",
+            "sapoc": "Melinda Rogers",
+            "title": "Chief Information Officer",
+            "logo": "department-of-justice.svg",
+            "agency_url":"https://www.cio.gov/about/members-and-leadership/rogers-melinda/"
+          },
+          {
+            "agency": "Department of Labor",
+            "sapoc": "Geoff Kenyon",
+            "title": "Acting Assistant Secretary",
+            "logo": "department-of-labor.svg"
+          },
+          {
+            "agency": "Department of State",
+            "sapoc": "Daniel Gaush",
+            "title": "Deputy Director, ICASS Service Center",
+            "logo": "department-of-state.svg"
+          },
+          {
+            "agency": "Department of Transportation",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "department-of-transportation.svg"
+          },
+          {
+            "agency": "Department of the Treasury",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "dept-treasury.svg"
+          },
+          {
+            "agency": "Department of Veterans Affairs",
+            "sapoc": "David Orso",
+            "title": "Executive Director, Enterprise Program Management Office, Office of Policy and Planning",
+            "logo": "department-of-veterans-affairs.svg"
+          },
+          {
+            "agency": "Environmental Protection Agency",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "environmental-protection-agency.svg"
+          },
+          {
+            "agency": "National Aeronautics and Space Administration",
+            "sapoc": "Anita Harrell",
+            "title": "NSSC Executive Director",
+            "logo": "national-aeronautics-and-space-administration.svg",
+          },
+          {
+            "agency": "General Services Administration",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "general-services-administration.svg"
+          },
+          {
+            "agency": "National Science Foundation",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "national-science-foundation.svg"
+          },
+          {
+            "agency": "Nuclear Regulatory Commission",
+            "sapoc": "Eric Benner",
+            "title": "Acting Deputy Chief Financial Officer",
+            "logo": "nuclear-regulatory-commission.webp"
+          },
+          {
+            "agency": "Office of Personnel Management",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "office-of-personnel-management.svg"
+          },
+          {
+            "agency": "Small Business Administration",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "small-business-administration.svg"
+          },
+          {
+            "agency": "Social Security Administration",
+            "sapoc": "Sean Brune",
+            "title": "Deputy Commissioner for the Office of Budget, Finance, and Management",
+            "logo": "us-social-security-admin-seal.svg"
+          }
+    ]
+  }
