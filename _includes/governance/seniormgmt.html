@@ -3,28 +3,29 @@
         <div class="grid-row flex-wrap flex-justify-center">
             {% for each_agency in site.data.seniormgmt.agencies %}
 
-<div class="grid-row flex-align-center border-bottom-1px padding-y-2">
-          
-          <!-- Column 1: Logo -->
-          <div class="grid-col-4 text-center">
-            <img width="100" height="100" loading="lazy" 
-                 src="{{site.baseurl}}/assets/images/governance/sopac-logos/{{ each_agency.logo }}" 
-                 alt="{{ each_agency.title }} Logo">
-          </div>
-          
-          <!-- Column 2: SAPOC -->
-          <div class="grid-col-4 text-center">
-            <div class="font-body-md text-bold">
-              {{ each_agency.sapoc }}
-            </div>
-          </div>
-          
-          <!-- Column 3: Title -->
-          <div class="grid-col-4 text-center">
-            <div class="font-body-md">
-              {{ each_agency.title }}
-            </div>
-          </div>
+<div class="grid-row flex-align-start margin-y-3 padding-y-2 border-bottom-1px">
+
+        <!-- Column 1: Logo -->
+        <div class="grid-col-2">
+          <img 
+            width="100" height="100" loading="lazy"
+            src="{{ site.baseurl }}/assets/images/governance/sopac-logos/{{ each_agency.logo }}"
+            alt="{{ each_agency.title }} Logo">
+        </div>
+
+        <!-- Column 2: SAPOC -->
+        <div class="grid-col-5">
+          <p class="font-body-md text-bold margin-0">
+            {{ each_agency.sapoc }}
+          </p>
+        </div>
+
+        <!-- Column 3: Title -->
+        <div class="grid-col-5">
+          <p class="font-body-md margin-0">
+            {{ each_agency.title }}
+          </p>
+        </div>
            
                  <!--
                     <div class="padding-x-3">
