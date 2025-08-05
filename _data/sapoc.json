@@ -16,6 +16,12 @@
             "agency_url": "https://www.commerce.gov/about/leadership/kurt-bersani"
           },
           {
+            "agency": "Department of Education",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "logo": "department-of-education.svg"
+          },
+          {
             "agency": "Department of Defense",
             "sapoc": "TBD",
             "title": "TBD",
