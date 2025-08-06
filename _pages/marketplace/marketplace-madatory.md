@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
     <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-      <!--<div class="home-content">
+      <div class="home-content">
        <h1 class="federal-title" style="display:none">Mandatory Federal Solutions & Services</h1>
     <p class="federal-intro" style="display:none">
       Mandatory solutions and services, mandated by federal law or regulation, ensure interoperability across key grants management processes.
@@ -33,7 +33,7 @@ attached:
           Grants.gov is the central hub for federal discretionary grant and cooperative agreement funding announcements, known as Notices of Funding Opportunity (NOFOs). Directed by the Office of Management and Budget (OMB), all federal grant-making agencies must publish these opportunities on the platform, making it easier for the public to identify and apply for funding. Established under the Federal Financial Assistance Management Improvement Act of 1999 (<a href="#">Pub. L. No. 106—107</a>) and OMB Memorandum M-04-01, Grants.gov also provides resources to streamline the application process.
         </div>
       </div>
-      <div class="federal-row">
+      <!--<div class="federal-row">
         <div class="federal-cell federal-col-name">
           <img src="{{site.baseurl}}/assets/images/sam.gov.png" alt="SAM.gov Logo" class="federal-logo">
           <p><strong>Provider Agency:</strong> GSA</p>
@@ -56,9 +56,9 @@ attached:
          The Federal Audit Clearinghouse (FAC), established under the Single Audit Act Amendments of 1996 <a href="#">(Pub. L. No. 104—156)</a> and <a href="#">2 CFR Part 200</a>, is the central repository for single audit reporting packages from federal financial assistance 
          recipients meeting the federal expenditure threshold during their fiscal year. It distributes audit packages to federal agencies, supports Office of Management and Budget (OMB) oversight, maintains a public database of completed audits,and helps streamline compliance with Single Audit requirements for auditors and auditees.
         </div>
-      </div>
-    </div>
       </div>-->
+    </div>
+      </div>
       {% include grantFooter.html %}
     </div> 
   </div>

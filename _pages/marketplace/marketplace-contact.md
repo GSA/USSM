@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Grants QSMO Marketplace"
 permalink: /marketplace/contact/
 layout: full-width
@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
    <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-   <!--<div class="home-content">
+    <div class="home-content">
       <p>
       Are you considering modernizing your grants solutions or services? We want to hear from you! Reach out to us at
       <a class="email-link" href="mailto:GrantsQSMO@hhs.gov">GrantsQSMO@hhs.gov</a>, and here's how we can assist you:
@@ -37,7 +37,7 @@ attached:
       <p class="note">
       *Clicking the button above creates a pre-filled email—simply review and hit send!
       </p>
-      </div> -->
+      </div>
       {% include grantFooter.html %}
     </div> 
   </div>
@@ -63,3 +63,4 @@ We look forward to supporting your grants modernization journey!`;
     window.location.href = mailto;
   });
 </script>
+ -->

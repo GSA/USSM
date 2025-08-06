@@ -12,7 +12,7 @@ attached:
     {% include left-navigation.html %}
     <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
-     <!-- <div class="home-content">
+     <div class="home-content">
        <h2 class="federal-shared-title">Federal Shared Services</h2>
 <hr>
   <div class="federal-shared-description">
@@ -29,7 +29,7 @@ attached:
     font-size: 30px;
 ">Federal Provider
     </div>
-   Accordion 1
+   <!--Accordion 1-->
   <div class="federal-accordion">
     <div class="federal-accordion-header" onclick="toggleFederalAccordion(this)">
       Award Management Solutions
@@ -98,7 +98,7 @@ attached:
       </table>
     </div>
   </div>
-  <!-- Accordion 2 
+  <!-- Accordion 2 -->
   <div class="federal-accordion">
     <div class="federal-accordion-header" onclick="toggleFederalAccordion(this)">
       Payment Systems
@@ -147,7 +147,7 @@ attached:
     </div>
   </div>
 
-  <!-- Accordion 3
+  <!-- Accordion 3-->
   <div class="federal-accordion">
     <div class="federal-accordion-header" onclick="toggleFederalAccordion(this)">
       Indirect Cost Negotiation Services
@@ -200,7 +200,7 @@ attached:
       icon.textContent = isOpen ? "+" : "–";
     }
   </script>
-  </div>--->
+  </div>
       {% include grantFooter.html %}
   </div>
   </div>

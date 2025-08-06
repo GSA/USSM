@@ -10,8 +10,12 @@
      flex: 2;
      color: #000;
      position: relative;
+     padding: 0;
+     font-size: 21px;
  }
-
+ .intro-text .text p {
+    margin-top: 0;
+ }
  .intro-text .image {
      flex: 1;
      height: auto;
@@ -19,7 +23,7 @@
 
  .intro-text .image img {
      width: 100%;
-     height: auto;
+     height: 230px;
      border-radius: 4px;
  }
 
@@ -27,13 +31,14 @@
      font-style: italic;
      font-weight: bold;
      margin-top: 20px;
+     font-size: 21px;
  }
 
  .buttons {
      display: flex;
      gap: 20px;
      margin: 20px 0;
-     padding: 0px 30px;
+     padding: 0px 40px;
  }
 
  .button {
@@ -50,6 +55,7 @@
  .paragraph {
      margin-top: 20px;
      line-height: 1.6;
+     font-size: 21px;
  }
 
  .home-content hr {
@@ -63,6 +69,7 @@
  .federal-shared-description {
      margin-bottom: 20px;
      line-height: 1.6;
+     font-size: 21px;
  }
 
  .federal-shared-description a {
@@ -80,7 +87,7 @@
      color: white;
      padding: 8px 20px;
      font-weight: bold;
-     font-size: 18px;
+     font-size: 21px;
      cursor: pointer;
      display: flex;
      justify-content: space-between;
@@ -130,7 +137,7 @@
 
  .federal-agency-title {
      color: #003366;
-     font-size: 20px;
+     font-size: 21px;
      font-weight: bold;
      display: flex;
      gap: 10px;
@@ -142,7 +149,7 @@
 
  .federal-shared-footer {
      margin-top: 20px;
-     font-size: 14px;
+     font-size: 21px;
  }
 
  .federal-shared-footer a {
@@ -161,6 +168,7 @@
  .subtitle {
      margin-bottom: 20px;
      line-height: 1.6;
+     font-size: 21px;
  }
 
  .highlight {
@@ -172,6 +180,7 @@
      display: flex;
      gap: 20px;
      margin: 20px 0;
+     font-size: 18px;
  }
 
  .box {
@@ -185,7 +194,9 @@
      text-decoration: none;
      color: #000;
  }
-
+.commercial-text {
+    font-size: 21px;
+}
  .box.federal {
      border-top-color: #f9b233;
  }
@@ -202,16 +213,19 @@
      margin-top: 0;
      font-size: 1rem;
      color: #003366;
+     font-size: 19px;
  }
 
  .acquisition-text {
      margin-top: 20px;
      line-height: 1.6;
+     font-size: 21px;
  }
 
  .button-wrapper {
      margin-top: 30px;
      text-align: center;
+     font-size: 21px;
  }
 
  .gateway-button {
@@ -326,6 +340,7 @@
  .federal-table {
      width: 100%;
      border-collapse: collapse;
+     font-size: 21px;
  }
 
  .federal-accordion-table tbody {
@@ -387,6 +402,16 @@
          border-right: none;
          border-bottom: 1px solid #ddd;
      }
+      .buttons {
+        flex-direction: column;
+        padding: 0 20px; /* Reduce horizontal padding on small screens */
+    }
+
+    .button {
+        width: 100%;
+        margin-bottom: 10px;
+        flex: none;
+    }
  }
 
  /*Resources*/

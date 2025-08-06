@@ -14,11 +14,11 @@ attached:
       {% include grantHeader.html %}
       <div class="home-content">
         <h1>Grants QSMO Marketplace</h1>
-     <!-- <div class="subtitle">
+      <div class="subtitle">
       Your gateway to top-tier grants management solutions. Aligned with the
       <span class="highlight">Federal Integrated Business Framework (FIBF)</span>
       for Grants Management (GRM), these solutions drive more efficient federal grants administration.
-    </div>-->
+    </div>
     <div class="boxes">
       <a href="{{site.baseurl}}/marketplace/marketplace-catalog/federal" class="box federal">
         <h3>Federal Shared Services</h3>
@@ -44,7 +44,7 @@ attached:
       <a href="#" class="highlight">Acquisition Gateway</a>—a federal-only platform providing specialized tools, insights, and downloadable resources to enhance your grants management process (login required). If Marketplace solutions don’t fit your specific needs, the Gateway provides additional support to help you find the right approach.
     </div>
     <div class="button-wrapper">
-      <a href="#" class="gateway-button">Acquisition Gateway</a>
+      <a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=440" class="gateway-button">Acquisition Gateway</a>
     </div>
       </div>
       {% include grantFooter.html %}

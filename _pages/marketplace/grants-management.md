@@ -182,12 +182,6 @@ Leveraging a shared services approach to address a disconnected systems environm
                   </UL>
           </LI>
           </UL>
-
-
-
-
-                
-
                 <hr class="margin-top-auto width-full">
             </div>
             <div class="tablet:grid-col-5 display-flex flex-column">
@@ -197,20 +191,12 @@ Leveraging a shared services approach to address a disconnected systems environm
                     
                      <img src="/assets/images/marketplace/icon_priorities.png" alt="Goals, Priority, & Policy Alignment" height="auto" style="vertical-align:middle;">
                         Priority, Policy, & Strategy Alignment
-                    
-                
                     </h3>
                 </div>
-            
-                                        
                   <p class="margin-top-1 margin-bottom-1"><b>Policy and Statute</b></p>
                 <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
-
-
  <li style="margin-left: 1px;"><a href="https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200" title="2CFR200" 
                     target="_blank">2CFR200: Uniform Administrative Requirements, Cost Principles, & Audit Requirements for Federal Awards</a></li>
-                
-                 
                     <li style="margin-left: 1px;"><a href="https://www.congress.gov/116/plaws/publ103/PLAW-116publ103.pdf" title="GREAT Act" 
                     target="_blank">Grant Reporting Efficiency and Transparency Act of 2019</a></li>
                     <li style="margin-left: 1px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2024/04/M-24-11-Revisions-to-2-CFR.pdf" title="Reducing Burden in the Administration of Federal Financial Assistance" 
@@ -218,13 +204,10 @@ Leveraging a shared services approach to address a disconnected systems environm
                     
    <li style="margin-left: 1px;"><a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf?page=3" title="Centralized Mission Support Capabilities for the Federal Government" target="_blank"> M-19-16: Centralized Mission Support Capabilities for the Federal Government</a></li>
                 </ul>
-
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                       <li style="margin-left: 2px;"><a href="https://www.coffa.gov" title="Council on Federal Financial Assistance" target="_blank">Council on Federal Financial Assissstance (COFFA)</A></li>
-             
                 </ul>
-
      <p class="margin-top-1 margin-bottom-1"><b>Goals</b></p>
   <ul class="margin-top-0 margin-bottom-0" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
   <li style="margin-left: 1px"><a href="https://www.performance.gov/pma/businessofgov/strategy/2/" title="Strengthen the Business of Government" target="_blank">PMA 46: Strengthen the Business of Government</a></li>
@@ -236,8 +219,6 @@ Leveraging a shared services approach to address a disconnected systems environm
   <li style="margin-left: 1px"><a href="https://app.powerbigov.us/view?r=eyJrIjoiYTMyZGUwNzktNGIwZi00NWQ2LTllZTQtYmNhYTFlNGIwYzA1IiwidCI6ImQ1OGFkZGVhLTUwNTMtNGE4MC04NDk5LWJhNGQ5NDQ5MTBkZiJ9" title="Grants Systems Hub" target="_blank">Federal Grants Systems Hub (Beta)</a></li>
      <li style="margin-left: 1px"><a href="https://www.usaspending.gov/search/?hash=8f9794f1a0e65e4c56965b27f833940f" title="USASpending (Federal Grants)" target="_blank">USASpending (Federal Grants)</a></li>
  </ul>
-
-
                 <hr class="margin-top-auto width-full">
             </div>
         </div>
@@ -253,22 +234,14 @@ Leveraging a shared services approach to address a disconnected systems environm
                   <img src="/assets/images/marketplace/icon_references.png" alt="Other References" height="auto" style="vertical-align:middle;">
                 Other References</h2>
                 <ul class="margin-top-0 margin-bottom-3">
-
-        
                          <UL> 
-                         
-
-                         
                          <LI><A HREF="https://www.hhs.gov/about/agencies/asfr/grants-quality-service-management-office/index.html" title="Grants QSMO Homepage">Grants QSMO Homepage</A></LI>
                             <LI><A HREF="https://www.grants.gov/data-standards" title="Finalized Grants Data Standards and Guidance">Finalized Grants Data Standards & Guidance</A> | <A HREF="mailto:GrantsDataStandards@hhs.gov">GrantsDataStandards@hhs.gov</A></LI>
                          <LI><A HREF="https://app.powerbigov.us/view?r=eyJrIjoiYTMyZGUwNzktNGIwZi00NWQ2LTllZTQtYmNhYTFlNGIwYzA1IiwidCI6ImQ1OGFkZGVhLTUwNTMtNGE4MC04NDk5LWJhNGQ5NDQ5MTBkZiJ9" title="Federal Grants Systems Hub">Federal Grants Systems Hub (Interactive Dashboard)</A></LI>
      <LI><A HREF="https://www.fac.gov/" title="Federal Grants Systems Hub">Federal Audit Clearinghouse</A></LI>
                         
                         <LI><A HREF="https://acquisitiongateway.gov/shared-services/resources/4217?nid=11122" title="Federal Grants Systems Hub">Report: Tribal Customer Experience Pilot for Post-Award Reporting (36 page PDF)</A></LI>
-        
                     </UL>
-
-                 
                 </ul>
             </div>
         </div>
