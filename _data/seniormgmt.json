@@ -3,8 +3,10 @@
     "agencies": [
           {
             "agency": "Department of Agriculture",
-            "sapoc": "Malcom A Shorter",
-            "title": "Acting Assistant Secretary for Administration",
+            "sapoc": "Lynn Moaney",
+            "title": "Deputy Chief Financial Officer",
+            "asm": "Malcom A Shorter",
+            "asmtitle": "Acting Assistant Secretary for Administration",
             "logo": "department-of-agriculture.svg",
             "agency_url":"https://www.usda.gov/about-usda/general-information/staff-offices/departmental-administration/leadership-and-offices/assistant-secretary-administration-malcom-shorter"
           },
@@ -12,6 +14,8 @@
             "agency": "Department of Commerce",
             "sapoc": "Kurt Bersani",
             "title": "Executive Director for Enterprise Services",
+            "asm": "Jeremy Pelter",
+            "asmtitle": "Acting Chief Financial Officer and Assistant Secretary for Administration",
             "logo": "department-of-commerce.svg",
             "agency_url": "https://www.commerce.gov/about/leadership/kurt-bersani"
           },
@@ -19,6 +23,8 @@
             "agency": "Department of Defense",
             "sapoc": "TBD",
             "title": "TBD",
+            "asm": "Jennifer C. Walsh",
+            "asmtitle": "Acting Director of Administration & Management",
             "logo": "department-of-defense.svg"
           }
     ]
