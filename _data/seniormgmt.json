@@ -60,5 +60,78 @@
             "asmtitle": "Acting Assistant Secretary of Administration",
             "logo": "department-of-housing-and-urban-development.svg"
           }
+          {
+            "agency": "Department of the Interior",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "asm": "Tyler Hassen",
+            "asmtitle": "Acting Assistant Secretary Policy, Management & Budget",
+            "logo": "department-of-the-interior.svg"
+          },
+          {
+            "agency": "Department of Justice",
+            "sapoc": "",
+            "title": "",
+            "asm": "Jolene Ann Lauria",
+            "asmtitle": "Assistant Attorney General for Administration",
+            "logo": "department-of-justice.svg",
+            "agency_url":"https://www.cio.gov/about/members-and-leadership/rogers-melinda/"
+          },
+          {
+            "agency": "Department of Labor",
+            "sapoc": "Geoff Kenyon",
+            "title": "Acting Assistant Secretary",
+            "asm": "Dean Heyl",
+            "asmtitle": "Assistant Secretary for Administration and Management",
+            "logo": "department-of-labor.svg"
+          },
+          {
+            "agency": "Department of State",
+            "sapoc": "Daniel Gaush",
+            "title": "Deputy Director, ICASS Service Center",
+            "asm": "Michael Rigas",
+            "asmtitle": "Under Secretary of State for Management",
+            "logo": "department-of-state.svg"
+          },
+          {
+            "agency": "Department of Transportation",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "asm": "Anne Byrd",
+            "asmtitle": "Assistant Secretary for Administration",
+            "logo": "department-of-transportation.svg"
+          },
+          {
+            "agency": "Department of the Treasury",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "asm": "John York",
+            "asmtitle": "Assistant Secretary for Management",
+            "logo": "dept-treasury.svg"
+          },
+          {
+            "agency": "Department of Veterans Affairs",
+            "sapoc": "David Orso",
+            "title": "Executive Director, Enterprise Program Management Office, Office of Policy and Planning",
+            "asm": "Mark MRE Engelbaum",
+            "asmtitle": "Assistant Secretary for Human Resources and Administration",
+            "logo": "department-of-veterans-affairs.svg"
+          },
+          {
+            "agency": "Environmental Protection Agency",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "asm": "Michael Molina",
+            "asmtitle": "Principal Deputy Assistant Administrator for the Office of Mission Support",
+            "logo": "environmental-protection-agency.svg"
+          },
+          {
+            "agency": "National Aeronautics and Space Administration",
+            "sapoc": "Anita Harrell",
+            "title": "NSSC Executive Director",
+            "asm": "David Mitchell",
+            "asmtitle": "Associate Administrator for the Mission Support Directorate",
+            "logo": "national-aeronautics-and-space-administration.svg",
+          }
     ]
   }
