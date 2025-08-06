@@ -69,15 +69,8 @@ html {
   margin: 0;
 
   box-shadow:
-<<<<<<< HEAD
-    0 0 0 2px white,
-    /* Solid 2px white border (shadow-like) */
-    5px 5px 10px 0px #2a297b;
-  /* Existing soft drop shadow */
-=======
   0 0 0 2px white,        /* Solid 2px white border (shadow-like) */
   5px 5px 10px 0px #2a297b; /* Existing soft drop shadow */
->>>>>>> 4cc968b57d3a596d00d534f7d90684117672e097
 }
 
 .circle__usage {
@@ -198,24 +191,6 @@ html {
 .circle .slice:nth-child(1) .label:before,
 .circle .slice:nth-child(1) .label:after {
   transform: translateX(-38%) rotate(2deg);
-<<<<<<< HEAD
-
-
-}
-
-.circle .slice:nth-child(1) .label:before {
-  transform: translateX(-39%) rotate(8deg);
-  width: 191px;
-  top: 16px;
-}
-
-.circle .slice:nth-child(1) .label:after {
-  transform: translateX(-44%) rotate(2deg);
-  width: 196px !important;
-  font-size: 14px;
-}
-
-=======
  
   
 }
@@ -230,7 +205,6 @@ html {
     font-size: 14px;
 }
 
->>>>>>> 4cc968b57d3a596d00d534f7d90684117672e097
 
 .circle .slice:nth-child(2) {
   transform: rotate(40deg);
