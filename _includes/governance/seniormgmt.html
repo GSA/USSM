@@ -33,7 +33,7 @@
           <p class="font-body-md text-bold margin-0">
             {{ each_agency.asm }}
           </p>
-          <p class="font-body-sm margin-0">
+          <p class="font-body-xs margin-0">
             {{ each_agency.asmtitle }}
           </p>
         {% else %}
@@ -44,10 +44,10 @@
       <!-- Column 3: SAPOC -->
       <div class="grid-col-5">
         {% if each_agency.sapoc %}
-          <p class="font-body-md margin-0">
+          <p class="font-body-md text-bold margin-0">
             {{ each_agency.sapoc }}
           </p>
-          <p class="font-body-sm margin-0">
+          <p class="font-body-xs margin-0">
             {{ each_agency.title }}
           </p>
         {% else %}
