@@ -11,17 +11,16 @@
   "dependencies": {
     "@uswds/uswds": "3.8.1",
     "dot-prop": "^5.3.0",
-    "netlify-cms": "^2.10.55",
-    "uswds": "~2.11.0"
+    "uswds": "~2.11.0",
+    "dompurify": "^3.2.6"
   },
   "devDependencies": {
-    "a11y": "^0.5.1",
     "rimraf": "^3.0.2"
   },
   "overrides": {
     "cross-spawn": "6.0.6",
     "minimist": "1.2.8",
-    "trim":">=0.0.3",
+    "trim": ">=0.0.3",
     "tough-cookie": ">=4.1.4",
     "got": ">=11.8.5",
     "trim-newlines": ">=5.0.0"

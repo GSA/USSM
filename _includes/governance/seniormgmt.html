@@ -1,0 +1,62 @@
+<style>
+.sapoc-listing img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+} 
+</style>
+
+<div class="sapoc-listing">
+  <div class="grid-container">
+
+    {% for each_agency in site.data.seniormgmt.agencies %}
+    <div class="grid-row flex-align-start padding-y-2 border-bottom-1px" style="min-height: 80px;">
+
+      <!-- Column 1: Logo -->
+      <div class="grid-col-2">
+        {% if each_agency.logo %}
+          <img 
+            src="{{ site.baseurl }}/assets/images/governance/sopac-logos/{{ each_agency.logo }}" 
+            alt="{{ each_agency.title }} Logo"
+            width="35" height="35"
+            style="object-fit: contain; display: block;">
+        {% else %}
+          <span class="font-body-sm text-italic">TBD</span>
+        {% endif %}
+ <p class="text-base font-body-sm margin-0 grey-30"><i>{{ each_agency.agency }}</i></p>
+        
+      </div>
+
+      <!-- Column 2: SAPOC -->
+      <div class="grid-col-5">
+        {% if each_agency.sapoc %}
+          <p class="font-body-md text-bold margin-0">
+            {{ each_agency.asm }}
+          </p>
+          <p class="font-body-md margin-0">
+            {{ each_agency.asmtitle }}
+          </p>
+        {% else %}
+          <p class="font-body-md text-italic margin-0">TBD</p>
+        {% endif %}
+      </div>
+
+      <!-- Column 3: Title -->
+      <div class="grid-col-5">
+        {% if each_agency.sapoc %}
+          <p class="font-body-md margin-0">
+            {{ each_agency.sapoc }}
+          </p>
+          <p class="font-body-md margin-0">
+            {{ each_agency.title }}
+          </p>
+        {% else %}
+          <p class="font-body-md text-italic margin-0">TBD</p>
+        {% endif %}
+      </div>
+
+    </div>
+    {% endfor %}
+
+  </div>
+</div>

@@ -32,7 +32,7 @@ news-category: FIBF-FM
                    <img src="/assets/images/fibf/icons/icon.corefm.webp" alt="Financial Management Icon" width="50px" height="auto" style="vertical-align:middle;"> Financial Management
                 </h2>
                 <p>
-                    The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the FM Marketplace Catalog as a resource to identify from over 70 services and solutions that that will support financial management needs that accomplish both agency and shared government-wide goals.
+                    The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the FM Marketplace Catalog as a resource to identify from over 130 services and solutions that will support financial management needs that accomplish both agency and shared government-wide goals.
                 </p>
 
               <B>Agencies, begin here - Find solutions to manage funding:</B><BR>

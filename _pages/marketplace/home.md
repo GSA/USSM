@@ -32,7 +32,7 @@ news-category: FIBF-PROGRAM
                    <img src="/assets/images/marketplace/icon_govops.jpg" alt="GovOps Marketplace Icon" width="125px" height="auto" style="vertical-align:middle;"> GovOps Marketplace
                 </h2>
                 <p>
-                    The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the FM Marketplace Catalog as a resource for agencies to identify and research from over 70 services and solutions that can support their financial management needs to accomplish both agency and shared government-wide goals.
+                    The Department of Treasury’s <a href="https://tfx.treasury.gov/fmqsmo" title="Financial Management Quality Service Management Office" target="_blank">Financial Management Quality Service Management Office</a> manages the FM Marketplace Catalog as a resource for agencies to identify and research from over 130 services and solutions that support financial management needs that accomplish both agency and shared government-wide goals.
                 </p>
 
               <B>Agencies, begin here - Find solutions to manage funding:</B><BR>

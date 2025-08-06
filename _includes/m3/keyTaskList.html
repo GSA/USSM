@@ -11,7 +11,7 @@
 
       <div class="keyTask-id">{{ page.phase }}.{{item.keyTask}}</div>
 
-      <a href="#modal-{{ page.phase }}-{{item.keyTask}}" aria-controls="modal-{{ page.phase }}-{{item.keyTask}}" data-open-modal class="keyTask-name overlayLink">
+      <a href="{{site.baseurl}}{{item.url}}" class="keyTask-name overlayLink">
         {{ item.name }}
       </a>
       
@@ -21,11 +21,15 @@
         </svg>
         {{responsibleParty}}
       </div>
-
+<div class="button-container">
       <a href="{{site.baseurl}}{{item.url}}" class="usa-button usa-button--outline" aria-label="View details of {{item.name }}">
-        View Details
+        Detail View
       </a>
-
+      
+      <a href="#modal-{{ page.phase }}-{{item.keyTask}}" aria-controls="modal-{{ page.phase }}-{{item.keyTask}}" data-open-modal class="usa-button usa-button--outline" aria-label="Quick view of {{item.name }}">
+        Quick View
+      </a>
+ </div>
     </li>
   {% endfor %}
 </ul>
@@ -77,7 +81,13 @@
           <h2 id="modal-{{ page.phase }}-{{item.keyTask}}-keytaskname">{{ item.name }}</h2>
         </section>
 
-        <section class="borderBottom">
+ <section class="borderBottom">
+<h3>Objective</h3>
+    {{ item.objective }}     
+        </section>
+
+ <section class="borderBottom">
+        
           <h3>Responsible Party</h3>
           <svg class="usa-icon color-{{ responsibleParty }}" aria-hidden="true" focusable="false" role="img">
             <use xlink:href="{{site.baseurl}}/assets/images/m3/spritesheet.svg#{% include m3/categoryTag.html category = responsibleParty %}"></use>

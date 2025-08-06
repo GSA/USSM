@@ -1,42 +1,38 @@
 {
-    "title": "Senior Accountable Point of Contacts",
+    "title": "Senior Management Officials",
     "agencies": [
           {
             "agency": "Department of Agriculture",
             "sapoc": "Lynn Moaney",
             "title": "Deputy Chief Financial Officer",
+            "asm": "Malcom A Shorter",
+            "asmtitle": "Acting Assistant Secretary for Administration",
             "logo": "department-of-agriculture.svg",
-            "agency_url":"https://www.usda.gov/ocfo/about-us/senior-leadership"
+            "agency_url":"https://www.usda.gov/about-usda/general-information/staff-offices/departmental-administration/leadership-and-offices/assistant-secretary-administration-malcom-shorter"
           },
           {
             "agency": "Department of Commerce",
             "sapoc": "Kurt Bersani",
             "title": "Executive Director for Enterprise Services",
+            "asm": "Jeremy Pelter",
+            "asmtitle": "Acting Chief Financial Officer and Assistant Secretary for Administration",
             "logo": "department-of-commerce.svg",
             "agency_url": "https://www.commerce.gov/about/leadership/kurt-bersani"
-          },
-          {
-            "agency": "Department of Education",
-            "sapoc": "TBD",
-            "title": "TBD",
-            "logo": "department-of-education.svg"
           },
           {
             "agency": "Department of Defense",
             "sapoc": "TBD",
             "title": "TBD",
+            "asm": "Robert G. Salesses",
+            "asmtitle": "Director of Administration & Management",
             "logo": "department-of-defense.svg"
           },
-          {
-            "agency": "Department of Education",
-            "sapoc": "TBD",
-            "title": "TBD",
-            "logo": "department-of-education.svg"
-          },
-          {
+         {
             "agency": "Department of Energy",
             "sapoc": "Ingrid Kolb",
             "title": "Director of Management",
+            "asm": "Ingrid Kolb",
+            "asmtitle": "Director of Management",
             "logo": "department-of-energy.svg",
             "agency_url":"https://www.energy.gov/management/person/ingrid-ann-christner-kolb"
           },
@@ -44,30 +40,40 @@
             "agency": "Department of Health and Human Services",
             "sapoc": "Garey Rice",
             "title": " ",
+            "asm": "Shana Weir",
+            "asmtitle": "Acting Assistant Secretary for Administration (ASA)",
             "logo": "department-of-health-and-human-services.svg"
           },
           {
             "agency": "Department of Homeland Security",
-            "sapoc": " Benjamine “Carry” Huffman",
+            "sapoc": "Benjamine “Carry” Huffman",
             "title": "Senior Official Performing the Duties of the Under Secretary for Management",
+            "asm": "Benjamine “Carry” Huffman",
+            "asmtitle": "Senior Official Performing the Duties of the Under Secretary for Management",
             "logo": "department-of-homeland-security.svg"
           },
           {
             "agency": "Department of Housing and Urban Development",
             "sapoc": "Patrice Clement",
             "title": "Senior Advisor to the Assistant Secretary for Administration",
+            "asm": "Chad Cowan, Jr",
+            "asmtitle": "Acting Assistant Secretary of Administration",
             "logo": "department-of-housing-and-urban-development.svg"
           },
           {
             "agency": "Department of the Interior",
             "sapoc": "TBD",
             "title": "TBD",
+            "asm": "Tyler Hassen",
+            "asmtitle": "Acting Assistant Secretary Policy, Management & Budget",
             "logo": "department-of-the-interior.svg"
           },
           {
             "agency": "Department of Justice",
-            "sapoc": "Melinda Rogers",
-            "title": "Chief Information Officer",
+            "sapoc": "",
+            "title": "",
+            "asm": "Jolene Ann Lauria",
+            "asmtitle": "Assistant Attorney General for Administration",
             "logo": "department-of-justice.svg",
             "agency_url":"https://www.cio.gov/about/members-and-leadership/rogers-melinda/"
           },
@@ -75,84 +81,104 @@
             "agency": "Department of Labor",
             "sapoc": "Geoff Kenyon",
             "title": "Acting Assistant Secretary",
+            "asm": "Dean Heyl",
+            "asmtitle": "Assistant Secretary for Administration and Management",
             "logo": "department-of-labor.svg"
           },
           {
             "agency": "Department of State",
             "sapoc": "Daniel Gaush",
             "title": "Deputy Director, ICASS Service Center",
+            "asm": "Michael Rigas",
+            "asmtitle": "Under Secretary of State for Management",
             "logo": "department-of-state.svg"
           },
           {
             "agency": "Department of Transportation",
             "sapoc": "TBD",
             "title": "TBD",
+            "asm": "Anne Byrd",
+            "asmtitle": "Assistant Secretary for Administration",
             "logo": "department-of-transportation.svg"
           },
           {
             "agency": "Department of the Treasury",
             "sapoc": "TBD",
             "title": "TBD",
+            "asm": "John York",
+            "asmtitle": "Assistant Secretary for Management",
             "logo": "dept-treasury.svg"
           },
           {
             "agency": "Department of Veterans Affairs",
             "sapoc": "David Orso",
             "title": "Executive Director, Enterprise Program Management Office, Office of Policy and Planning",
+            "asm": "Mark MRE Engelbaum",
+            "asmtitle": "Assistant Secretary for Human Resources and Administration",
             "logo": "department-of-veterans-affairs.svg"
           },
           {
             "agency": "Environmental Protection Agency",
             "sapoc": "TBD",
             "title": "TBD",
+            "asm": "Michael Molina",
+            "asmtitle": "Principal Deputy Assistant Administrator for the Office of Mission Support",
             "logo": "environmental-protection-agency.svg"
           },
           {
             "agency": "National Aeronautics and Space Administration",
             "sapoc": "Anita Harrell",
             "title": "NSSC Executive Director",
+            "asm": "David Mitchell",
+            "asmtitle": "Associate Administrator for the Mission Support Directorate",
             "logo": "national-aeronautics-and-space-administration.svg",
           },
-          {
-            "agency": "Agency for International Development",
-            "sapoc": "TBD",
-            "title": "TBD",
-            "logo": "us-agency-for-international-development.svg",
-          },
-          {
+,       {
             "agency": "General Services Administration",
             "sapoc": "TBD",
             "title": "TBD",
+            "asm": "TBD",
+            "asmtitle": "TBD",
             "logo": "general-services-administration.svg"
           },
           {
             "agency": "National Science Foundation",
             "sapoc": "TBD",
             "title": "TBD",
+            "asm": "Micah Cheatham",
+            "asmtitle": "Chief Management Officer",
             "logo": "national-science-foundation.svg"
           },
           {
             "agency": "Nuclear Regulatory Commission",
             "sapoc": "Eric Benner",
             "title": "Acting Deputy Chief Financial Officer",
+            "asm": "Mike King",
+            "asmtitle": "Executive Director for Operations",
             "logo": "nuclear-regulatory-commission.webp"
           },
           {
             "agency": "Office of Personnel Management",
             "sapoc": "TBD",
             "title": "TBD",
+            "asm": "TBD",
+            "asmtitle": "TBD",
             "logo": "office-of-personnel-management.svg"
           },
           {
             "agency": "Small Business Administration",
             "sapoc": "TBD",
             "title": "TBD",
+            "asm": "Robin Wright",
+            "asmtitle": "Chief Operating Officer",
             "logo": "small-business-administration.svg"
           },
           {
             "agency": "Social Security Administration",
             "sapoc": "Sean Brune",
             "title": "Deputy Commissioner for the Office of Budget, Finance, and Management",
+            "asm": "Tom Holland",
+            "asmtitle": "Deputy Commissioner, Mission Support",
             "logo": "us-social-security-admin-seal.svg"
           }
     ]

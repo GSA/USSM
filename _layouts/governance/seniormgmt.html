@@ -1,0 +1,25 @@
+---
+title: "Senior Management Official"
+layout: base
+---
+
+{% comment %}
+This template is for the main Senior Management Official Page
+{% endcomment %}
+
+<div id="main-content" class="council-content">
+    {% include banner.html %}
+    <div class="grid-container padding-top-6 padding-bottom-6 font-merriweather">
+      <div class="text-light">
+        {{ content }}
+      </div>
+      {% include governance/seniormgmt.html %}
+      <a href="{{site.baseurl}}/governance/" class="text-uppercase grid-row flex-row flex-align-center text-semibold padding-top-4" title="Members">&#9664; Back to Governance</a>
+    </div>
+  <div class="grid-container">
+    <div class="grid-row grid-gap space-between">
+      <div class="desktop:grid-col-12 margin-bottom-2">
+        <a href="#main-content">Return to top</a>
+      </div>
+    </div>
+  </div>

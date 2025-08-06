@@ -36,12 +36,12 @@ sections:
         description: Group of individuals responsible for verifying and validating processes
       - name: Information Systems Security Officer (ISSO)
         description: Individual(s)  who is (are) responsible for information systems security 
-      - name: Labor Relations Leader
-        description: Responsible leader(s) for labor relations with the Union(s)
+      - name: Human Resources Leader
+        description: Responsible leader(s) for workforce design planning and support
       - name: Network SME
         description: Individual(s) with network subject matter expertise
       - name: O&M Team
-        description: Group of individuals who run O&M for customer and provider 
+        description: A Group of individuals who run O&M for customer and provider 
       - name: OSSPI
         description: Office that coordinates government-wide shared services governance, executes program management, and develops processes to support development and implementation of OMB policy as it relates to mission support services
       - name: PMO Lead

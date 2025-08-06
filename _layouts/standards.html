@@ -24,6 +24,7 @@ associated with it. For example, an about page. {% endcomment %}
               </p>
             </div>
           </div>
+<<<<<<< HEAD
           {% endif %} {% if page.permalink contains 'fibf-hr' %}
           <div class="usa-alert usa-alert--info">
             <div class="usa-alert__body">
@@ -45,6 +46,8 @@ associated with it. For example, an about page. {% endcomment %}
               </p>
             </div>
           </div>
+=======
+>>>>>>> 4cc968b57d3a596d00d534f7d90684117672e097
           {% endif %}
           <div class="priority-tag-line">
             <h1 class="margin-y-105 font-ui-l">{{ page.title }}</h1>
@@ -64,13 +67,8 @@ associated with it. For example, an about page. {% endcomment %}
                 It is the essential first step towards standards that will drive
                 economies of scale and leverage the government’s buying power.
               </p>
-              {% if page.url != "/fibf-fm/" and page.url != "/fibf-RPM/" and
-              page.url != "/fibf-travel/" %}
-              <div class="margin-bottom-2">
-                {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{%
-                endif %}
-              </div>
-              {% endif %} {% if page.sec-title %}
+              {% if page.intro-extra %}{% include {{ page.intro-extra }} %}{%
+              endif %} {% if page.sec-title %}
               <div id="rcorners2">
                 <p><strong>{{ page.sec-title}}</strong></p>
                 <p style="word-wrap: break-word">
@@ -495,7 +493,6 @@ associated with it. For example, an about page. {% endcomment %}
               endif %}
             </div>
           </div>
-          {% endif %}
           <p>
             <a
               class="text-primary"
@@ -504,7 +501,7 @@ associated with it. For example, an about page. {% endcomment %}
               >Back to top</a
             >
           </p>
-          {{ content }}
+          {% endif %} {{ content }}
         </div>
       </div>
     </section>
