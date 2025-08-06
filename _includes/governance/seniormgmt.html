@@ -31,10 +31,10 @@
       <div class="grid-col-5">
         {% if each_agency.sapoc %}
           <p class="font-body-md text-bold margin-0">
-            {{ each_agency.sapoc }}
+            {{ each_agency.asm }}
           </p>
           <p class="font-body-md margin-0">
-            {{ each_agency.title }}
+            {{ each_agency.asmtitle }}
           </p>
         {% else %}
           <p class="font-body-md text-italic margin-0">TBD</p>
@@ -43,7 +43,10 @@
 
       <!-- Column 3: Title -->
       <div class="grid-col-5">
-        {% if each_agency.title %}
+        {% if each_agency.sapoc %}
+          <p class="font-body-md margin-0">
+            {{ each_agency.sapoc }}
+          </p>
           <p class="font-body-md margin-0">
             {{ each_agency.title }}
           </p>
