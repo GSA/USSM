@@ -9,11 +9,25 @@
 <div class="sapoc-listing">
   <div class="grid-container">
 
+    <div class="grid-col-2" style="text-align: center;">
+
+    </div>
+
+     <div class="grid-col-5">
+         <p class="font-body-md text-bold margin-0">Senior Management Official</p>
+     </div>
+    
+     <div class="grid-col-5">
+         <p class="font-body-md text-bold margin-0">Senior Accountable Point of Contact</p>
+    </div>
+    
+
+    
     {% for each_agency in site.data.seniormgmt.agencies %}
     <div class="grid-row flex-align-start padding-y-2 border-bottom-1px" style="min-height: 80px;">
 
       <!-- Column 1: Logo -->
-      <div class="grid-col-2">
+      <div class="grid-col-2" style="text-align: center;">
         {% if each_agency.logo %}
           <img 
             src="{{ site.baseurl }}/assets/images/governance/sopac-logos/{{ each_agency.logo }}" 
