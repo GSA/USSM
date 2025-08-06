@@ -23,9 +23,42 @@
             "agency": "Department of Defense",
             "sapoc": "TBD",
             "title": "TBD",
-            "asm": "Jennifer C. Walsh",
-            "asmtitle": "Acting Director of Administration & Management",
+            "asm": "Robert G. Salesses",
+            "asmtitle": "Director of Administration & Management",
             "logo": "department-of-defense.svg"
+          },
+         {
+            "agency": "Department of Energy",
+            "sapoc": "Ingrid Kolb",
+            "title": "Director of Management",
+            "asm": "Ingrid Kolb",
+            "asmtitle": "Director of Management",
+            "logo": "department-of-energy.svg",
+            "agency_url":"https://www.energy.gov/management/person/ingrid-ann-christner-kolb"
+          },
+          {
+            "agency": "Department of Health and Human Services",
+            "sapoc": "Garey Rice",
+            "title": " ",
+            "asm": "Shana Weir",
+            "asmtitle": "Acting Assistant Secretary for Administration (ASA)",
+            "logo": "department-of-health-and-human-services.svg"
+          },
+          {
+            "agency": "Department of Homeland Security",
+            "sapoc": "Benjamine “Carry” Huffman",
+            "title": "Senior Official Performing the Duties of the Under Secretary for Management",
+            "asm": "Benjamine “Carry” Huffman",
+            "asmtitle": "Senior Official Performing the Duties of the Under Secretary for Management",
+            "logo": "department-of-homeland-security.svg"
+          },
+          {
+            "agency": "Department of Housing and Urban Development",
+            "sapoc": "Patrice Clement",
+            "title": "Senior Advisor to the Assistant Secretary for Administration",
+            "asm": "Chad Cowan, Jr",
+            "asmtitle": "Acting Assistant Secretary of Administration",
+            "logo": "department-of-housing-and-urban-development.svg"
           }
     ]
   }
