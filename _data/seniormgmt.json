@@ -132,6 +132,54 @@
             "asm": "David Mitchell",
             "asmtitle": "Associate Administrator for the Mission Support Directorate",
             "logo": "national-aeronautics-and-space-administration.svg",
+          },
+,       {
+            "agency": "General Services Administration",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "asm": "TBD",
+            "asmtitle": "TBD",
+            "logo": "general-services-administration.svg"
+          },
+          {
+            "agency": "National Science Foundation",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "asm": "Micah Cheatham",
+            "asmtitle": "Chief Management Officer",
+            "logo": "national-science-foundation.svg"
+          },
+          {
+            "agency": "Nuclear Regulatory Commission",
+            "sapoc": "Eric Benner",
+            "title": "Acting Deputy Chief Financial Officer",
+            "asm": "Mike King",
+            "asmtitle": "Executive Director for Operations",
+            "logo": "nuclear-regulatory-commission.webp"
+          },
+          {
+            "agency": "Office of Personnel Management",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "asm": "TBD",
+            "asmtitle": "TBD",
+            "logo": "office-of-personnel-management.svg"
+          },
+          {
+            "agency": "Small Business Administration",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "asm": "Robin Wright",
+            "asmtitle": "Chief Operating Officer",
+            "logo": "small-business-administration.svg"
+          },
+          {
+            "agency": "Social Security Administration",
+            "sapoc": "Sean Brune",
+            "title": "Deputy Commissioner for the Office of Budget, Finance, and Management",
+            "asm": "Tom Holland",
+            "asmtitle": "Deputy Commissioner, Mission Support",
+            "logo": "us-social-security-admin-seal.svg"
           }
     ]
   }
