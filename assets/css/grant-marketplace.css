@@ -11,7 +11,7 @@
      color: #000;
      position: relative;
      padding: 0;
-     font-size: 21px;
+     font-size: 18px;
  }
  .intro-text .text p {
     margin-top: 0;
@@ -55,7 +55,7 @@
  .paragraph {
      margin-top: 20px;
      line-height: 1.6;
-     font-size: 21px;
+     font-size: 18px;
  }
 
  .home-content hr {
@@ -69,7 +69,7 @@
  .federal-shared-description {
      margin-bottom: 20px;
      line-height: 1.6;
-     font-size: 21px;
+     font-size: 18px;
  }
 
  .federal-shared-description a {
@@ -137,7 +137,7 @@
 
  .federal-agency-title {
      color: #003366;
-     font-size: 21px;
+     font-size: 18px;
      font-weight: bold;
      display: flex;
      gap: 10px;
@@ -149,7 +149,7 @@
 
  .federal-shared-footer {
      margin-top: 20px;
-     font-size: 21px;
+     font-size: 18px;
  }
 
  .federal-shared-footer a {
@@ -195,7 +195,7 @@
      color: #000;
  }
 .commercial-text {
-    font-size: 21px;
+    font-size: 18px;
 }
  .box.federal {
      border-top-color: #f9b233;
@@ -219,13 +219,13 @@
  .acquisition-text {
      margin-top: 20px;
      line-height: 1.6;
-     font-size: 21px;
+     font-size: 18px;
  }
 
  .button-wrapper {
      margin-top: 30px;
      text-align: center;
-     font-size: 21px;
+     font-size: 18px;
  }
 
  .gateway-button {
@@ -340,7 +340,7 @@
  .federal-table {
      width: 100%;
      border-collapse: collapse;
-     font-size: 21px;
+     font-size: 18px;
  }
 
  .federal-accordion-table tbody {
