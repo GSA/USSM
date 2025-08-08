@@ -323,6 +323,21 @@
      .contacts {
          display: block;
      }
+     
+     .intro-text {
+    flex-direction: column;
+  }
+
+  .intro-text .text,
+  .intro-text .image {
+    flex: 1 1 100%; 
+    align-self: center;
+  }
+
+  .intro-text .image img {
+    width: 100%;
+    height: auto;
+  }
  }
 
  /* Mandatory*/
@@ -464,5 +479,3 @@
      color: white;
  }
 
-
- /*Temporary css*/

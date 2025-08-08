@@ -185,7 +185,6 @@ attached:
       </table>
     </div>
   </div>-->
-
   <div class="federal-shared-footer">
     Explore detailed information about services and GRM areas at
     <a href="https://ussm.gsa.gov/fibf-gm/">https://ussm.gsa.gov/fibf-gm/</a>. For insights on specific providers, visit the Buying Insights Profiles on
