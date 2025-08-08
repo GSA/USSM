@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: "Grants QSMO Marketplace"
 permalink: /marketplace/resources/
 layout: full-width
@@ -14,7 +14,7 @@ attached:
       {% include grantHeader.html %}
    <div class="home-content">
       <h2>Resources</h2>
-    <p>
+    <!--<p>
       Consider these resources from the Grants QSMO for your needs. Some links lead to the Grants QSMO
       <a href="#">Acquisition Gateway</a>, a platform for federal agencies with valuable insights on market research.
     </p>
@@ -66,7 +66,7 @@ attached:
           <li><a href="#">FM QSMO</a></li>
         </ul>
       </div>
-    </div>
+    </div>-->
       </div>
       {% include grantFooter.html %}
     </div> 
