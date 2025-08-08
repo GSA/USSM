@@ -13,8 +13,8 @@ attached:
     <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
      <div class="home-content">
-        <!-- --- <h2 class="about-heading">About Us</h2>
-    <h3 class="about-subheading about-title-blue">Background</h3>
+       <h2 class="about-heading">About Us</h2>
+     <!-- --- <h3 class="about-subheading about-title-blue">Background</h3>
     <p class="about-text">
       Established in April 2019 through Office of Management and Budget (OMB) Memorandum <strong>M-19-16</strong>, Quality Service Management Offices (QSMOs) were created to enhance agency mission delivery by promoting efficient, effective, and modern shared services. In January 2021, OMB designated the U.S. Department of Health and Human Services as the Grants QSMO, tasked with improving grants management across the federal landscape. The Grants QSMO leverages the government’s buying power to:
     </p>
