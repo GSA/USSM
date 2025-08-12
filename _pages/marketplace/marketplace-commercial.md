@@ -14,7 +14,7 @@ attached:
       {% include grantHeader.html %}
       <div class="home-content">
          <h1>Commercial Shared Services</h1>
-      <p class="commercial-text">
+    <!--  <p class="commercial-text">
       Grants QSMO-recommended commercial vendors provide award management Software as a Solution (SaaS) products aligned with the 
       <a href="https://ussm.gsa.gov/fibf/">Federal Integrated Business Framework (FIBF)</a> for Grants Management. Explore the Catalog of Market Research on the Grants QSMO’s 
       <a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=440">Acquisition Gateway</a> webpage for detailed vendor information and solutions.
