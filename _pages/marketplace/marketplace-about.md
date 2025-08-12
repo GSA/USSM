@@ -58,16 +58,16 @@ attached:
     <ul class="about-list">
       <li>  <span class="list-icon"><img src="{{site.baseurl}}/assets/images/marketplace/Icon4.svg" alt="Recognition Icon" /></span>
         <span class="list-txt"
-        >In May 2025, the Grants QSMO was awarded <strong>ACT-IAC’s 2025 Innovation Impact Award</strong> for the 
-        <a href="#" class="about-link">Federal Grants Systems Hub</a>, which reduces administrative burden for recipients.</span>
+        >In May 2025, the Grants QSMO was awarded <strong style="color:#43b0cd">ACT-IAC’s 2025 Innovation Impact Award</strong> for the 
+        <a href="https://app.powerbigov.us/view?r=eyJrIjoiYTMyZGUwNzktNGIwZi00NWQ2LTllZTQtYmNhYTFlNGIwYzA1IiwidCI6ImQ1OGFkZGVhLTUwNTMtNGE4MC04NDk5LWJhNGQ5NDQ5MTBkZiJ9" class="about-link">Federal Grants Systems Hub</a>, which reduces administrative burden for recipients.</span>
       </li>
       <li>   <span class="list-icon" style="width:85px;"><img src="{{site.baseurl}}/assets/images/marketplace/Icon9.svg" alt="Recognition Icon" /></span>
        <span class="list-txt"> In June 2024, the Grants QSMO, in partnership with Executive Office of the President, U.S. Department of the Treasury, and the U.S. Department of the Interior, published the 
-        <a href="#" class="about-link">Tribal Customer Experience Pilot for Post-Award Reporting (pdf)</a> focusing on enhancing post-award reporting and reducing burden for Tribal grant recipients.</span>
+        <a href="https://www.hhs.gov/sites/default/files/grants-qsmo-tribal-cx-report.pdf" class="about-link">Tribal Customer Experience Pilot for Post-Award Reporting (pdf)</a> focusing on enhancing post-award reporting and reducing burden for Tribal grant recipients.</span>
       </li>
       <li>  <span class="list-icon"><img src="{{site.baseurl}}/assets/images/marketplace/Icon4.svg" alt="Recognition Icon" /></span>
        <span class="list-txt"> In December 2023, the Government Accountability Office (GAO) recognized the successful launch of the Grants QSMO Marketplace and its integration of commercial-off-the-shelf (COTS) grants management solutions. 
-        (See <a href="#" class="about-link">GAO-24-106088</a>.) </span>
+        (See <a href="https://www.gao.gov/assets/d24106008.pdf" class="about-link">GAO-24-106088</a>.) </span>
       </li>
     </ul>
      </div>

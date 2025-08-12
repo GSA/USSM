@@ -339,6 +339,9 @@
     height: auto;
   }
  }
+ a.about-link {
+    color:#43b0cd;
+ }
 
  /* Mandatory*/
 
