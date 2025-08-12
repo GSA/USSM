@@ -18,7 +18,7 @@ attached:
     <p class="about-text">
       Established in April 2019 through Office of Management and Budget (OMB) Memorandum <strong>M-19-16</strong>, Quality Service Management Offices (QSMOs) were created to enhance agency mission delivery by promoting efficient, effective, and modern shared services. In January 2021, OMB designated the U.S. Department of Health and Human Services as the Grants QSMO, tasked with improving grants management across the federal landscape. The Grants QSMO leverages the government’s buying power to:
     </p>
-    <ul class="about-list">
+    <ul class="about-text-list">
       <li>Enhance user experience and service quality for applicants, recipients, and agencies,</li>
       <li>Streamline and modernize aging grants system, and</li>
       <li>Provide federal agencies with cost-effective, high-quality shared solutions</li>

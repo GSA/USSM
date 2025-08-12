@@ -342,7 +342,9 @@
  a.about-link {
     color:#43b0cd;
  }
-
+.about-text-list {
+    font-size: 21px;
+}
  /* Mandatory*/
 
  .federal-title {
