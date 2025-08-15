@@ -16,10 +16,10 @@ attached:
         <h1>Grants QSMO Marketplace</h1>
       <div class="subtitle">
       Your gateway to top-tier grants management solutions. Aligned with the
-      <span class="highlight">Federal Integrated Business Framework (FIBF)</span>
-      for Grants Management (GRM), these solutions drive more efficient federal grants administration.
+      <span class="highlight"><a href="https://ussm.gsa.gov/fibf/" class="highlight">Federal Integrated Business Framework (FIBF)</a>
+      for Grants Management (GRM),</span> these solutions drive more efficient federal grants administration.
     </div>
-   <!-- <div class="boxes">
+   <div class="boxes">
       <a href="{{site.baseurl}}/marketplace/marketplace-catalog/federal" class="box federal">
         <h3>Federal Shared Services</h3>
         <p style="
@@ -45,7 +45,7 @@ attached:
     </div>
     <div class="button-wrapper">
       <a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=440" class="gateway-button">Acquisition Gateway</a>
-    </div>-->
+    </div>
       </div>
       {% include grantFooter.html %}
     </div> 
