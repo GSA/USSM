@@ -7,8 +7,8 @@ title: Shared Services Governance Board
 name: Jason Gray
 position: Chief Information Officer 
 department: U.S. Agency for International Development (USAID)
-logo: 3-cioc-logo.webp | https://www.cio.gov/about/vision/ | CIOC
-company: CIOC 
+logo: 3-cioc-logo.webp | https://www.cio.gov/about/vision/ | CIOC2
+company: CIOC2
 ---
 
 USAID's Chief Information Officer Jason Gray has over two decades of leadership in management, operations, and handling of large information technology (IT) portfolios for both civil service and private sector organizations. Jason’s career began at Lockheed Martin, where he worked as a Systems Engineer and Analyst, and later in a management role for over a decade. He has also spent time in the healthcare field, as CIO of the Miami VA Healthcare System and as Chief Technology Officer of the National Naval Medical Center. Here, he became familiar with providing IT solutions that better serve those in public service and in the federal government. These were skills which he later applied in his role as the Associate CIO at the Department of Transportation (DOT) where he managed DOT’s $3.5 billion IT portfolio, in addition to providing executive leadership on IT policy and oversight for information governance, compliance, and departmental policy.
