@@ -13,7 +13,7 @@ attached:
    <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
       <div class="home-content">
-        <h1>Grants QSMO Marketplace</h1>
+        <h1 style="margin-top:0px">Grants QSMO Marketplace</h1>
       <div class="subtitle">
       Your gateway to top-tier grants management solutions. Aligned with the
       <span class="highlight"><a href="https://ussm.gsa.gov/fibf/" class="highlight">Federal Integrated Business Framework (FIBF)</a>
