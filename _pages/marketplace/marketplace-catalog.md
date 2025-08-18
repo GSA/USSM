@@ -41,7 +41,7 @@ attached:
     </div>
     <div class="acquisition-text">
       For grants IT acquisition resources, visit the Grants QSMO
-      <a href="#" class="highlight">Acquisition Gateway</a>—a federal-only platform providing specialized tools, insights, and downloadable resources to enhance your grants management process (login required). If Marketplace solutions don’t fit your specific needs, the Gateway provides additional support to help you find the right approach.
+      <a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=440" class="highlight">Acquisition Gateway</a>—a federal-only platform providing specialized tools, insights, and downloadable resources to enhance your grants management process (login required). If Marketplace solutions don’t fit your specific needs, the Gateway provides additional support to help you find the right approach.
     </div>
     <div class="button-wrapper">
       <a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=440" class="gateway-button">Acquisition Gateway</a>
