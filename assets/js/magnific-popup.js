@@ -908,9 +908,18 @@
 
 
 
+    /**
+     * Initialize Magnific Popup on a jQuery element.
+     *
+     * WARNING: Some options, such as `closeMarkup`, are evaluated and inserted into the DOM as HTML.
+     * Do NOT set these options from untrusted sources. Never allow user-provided data to influence
+     * these options, or you risk cross-site scripting (XSS) vulnerabilities.
+     *
+     * @param {object|string} options Configuration options or API method name.
+     */
     $.fn.magnificPopup = function(options) {
-        _checkInstance();
 
+        _checkInstance();
         var jqEl = $(this);
 
         // We call some API method of first param is a string
@@ -938,6 +947,19 @@
 
         } else {
             // clone options obj
+            // SECURITY WARNING: Ensure closeMarkup is not set from untrusted sources!
+            if (
+                typeof options.closeMarkup === 'string' &&
+                /<script[\s>]/i.test(options.closeMarkup)
+            ) {
+                if (window && window.console && typeof window.console.warn === 'function') {
+                    window.console.warn(
+                        "Magnific Popup: 'closeMarkup' contains potentially unsafe code. Refusing to initialize."
+                    );
+                }
+                return this;
+            }
+
             options = $.extend(true, {}, options);
 
             /*
