@@ -89,7 +89,8 @@
         },
         _getCloseBtn = function(type) {
             if(type !== _currPopupType || !mfp.currTemplate.closeBtn) {
-                mfp.currTemplate.closeBtn = $( mfp.st.closeMarkup.replace('%title%', mfp.st.tClose ) );
+                const safeTitle = $('<div>').text(mfp.st.tClose).html();
+                mfp.currTemplate.closeBtn = $(mfp.st.closeMarkup.replace('%title%', safeTitle));
                 _currPopupType = type;
             }
             return mfp.currTemplate.closeBtn;
@@ -505,8 +506,9 @@
                 // allows to modify markup
                 _mfpTrigger('FirstMarkupParse', markup);
 
-                if(markup) {
-                    mfp.currTemplate[type] = $(markup);
+                if (markup) {
+                    const safeMarkup = DOMPurify.sanitize(markup);
+                    mfp.currTemplate[type] = $(safeMarkup);
                 } else {
                     // if there is no markup found we just define that template is parsed
                     mfp.currTemplate[type] = true;
