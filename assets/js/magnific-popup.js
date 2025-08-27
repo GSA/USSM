@@ -87,10 +87,27 @@
                 }
             }
         },
+        // SECURITY: The closeMarkup option must NEVER include unsanitized user input, as it is interpreted as HTML.
+        //           If you allow user input to influence closeMarkup, you risk XSS vulnerabilities.
         _getCloseBtn = function(type) {
             if(type !== _currPopupType || !mfp.currTemplate.closeBtn) {
+                // Construct close button safely:
                 const safeTitle = $('<div>').text(mfp.st.tClose).html();
-                mfp.currTemplate.closeBtn = $(mfp.st.closeMarkup.replace('%title%', safeTitle));
+                // Only allow default markup (do not interpret user-supplied HTML).
+                if (
+                    mfp.st.closeMarkup &&
+                    mfp.st.closeMarkup === $.magnificPopup.defaults.closeMarkup
+                ) {
+                    mfp.currTemplate.closeBtn = $(
+                        mfp.st.closeMarkup.replace('%title%', safeTitle)
+                    );
+                } else {
+                    // If custom markup is supplied, document risk and escape output
+                    // WARNING: Custom closeMarkup must be trusted and properly sanitized
+                    mfp.currTemplate.closeBtn = $(
+                        $('<div>').html(mfp.st.closeMarkup.replace('%title%', safeTitle)).text()
+                    );
+                }
                 _currPopupType = type;
             }
             return mfp.currTemplate.closeBtn;
