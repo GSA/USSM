@@ -105,7 +105,7 @@
                     // If custom markup is supplied, document risk and escape output
                     // WARNING: Custom closeMarkup must be trusted and properly sanitized
                     mfp.currTemplate.closeBtn = $(
-                        $('<div>').html(mfp.st.closeMarkup.replace('%title%', safeTitle)).text()
+                        $('<div>').text(mfp.st.closeMarkup.replace('%title%', safeTitle)).html()
                     );
                 }
                 _currPopupType = type;
