@@ -87,9 +87,27 @@
                 }
             }
         },
+        // SECURITY: The closeMarkup option must NEVER include unsanitized user input, as it is interpreted as HTML.
+        //           If you allow user input to influence closeMarkup, you risk XSS vulnerabilities.
         _getCloseBtn = function(type) {
             if(type !== _currPopupType || !mfp.currTemplate.closeBtn) {
-                mfp.currTemplate.closeBtn = $( mfp.st.closeMarkup.replace('%title%', mfp.st.tClose ) );
+                // Construct close button safely:
+                const safeTitle = $('<div>').text(mfp.st.tClose).html();
+                // Only allow default markup (do not interpret user-supplied HTML).
+                if (
+                    mfp.st.closeMarkup &&
+                    mfp.st.closeMarkup === $.magnificPopup.defaults.closeMarkup
+                ) {
+                    mfp.currTemplate.closeBtn = $(
+                        mfp.st.closeMarkup.replace('%title%', safeTitle)
+                    );
+                } else {
+                    // If custom markup is supplied, document risk and escape output
+                    // WARNING: Custom closeMarkup must be trusted and properly sanitized
+                    mfp.currTemplate.closeBtn = $(
+                        $('<div>').text(mfp.st.closeMarkup.replace('%title%', safeTitle)).html()
+                    );
+                }
                 _currPopupType = type;
             }
             return mfp.currTemplate.closeBtn;
@@ -505,8 +523,9 @@
                 // allows to modify markup
                 _mfpTrigger('FirstMarkupParse', markup);
 
-                if(markup) {
-                    mfp.currTemplate[type] = $(markup);
+                if (markup) {
+                    const safeMarkup = DOMPurify.sanitize(markup);
+                    mfp.currTemplate[type] = $(safeMarkup);
                 } else {
                     // if there is no markup found we just define that template is parsed
                     mfp.currTemplate[type] = true;
@@ -906,9 +925,18 @@
 
 
 
+    /**
+     * Initialize Magnific Popup on a jQuery element.
+     *
+     * WARNING: Some options, such as `closeMarkup`, are evaluated and inserted into the DOM as HTML.
+     * Do NOT set these options from untrusted sources. Never allow user-provided data to influence
+     * these options, or you risk cross-site scripting (XSS) vulnerabilities.
+     *
+     * @param {object|string} options Configuration options or API method name.
+     */
     $.fn.magnificPopup = function(options) {
-        _checkInstance();
 
+        _checkInstance();
         var jqEl = $(this);
 
         // We call some API method of first param is a string
@@ -936,6 +964,19 @@
 
         } else {
             // clone options obj
+            // SECURITY WARNING: Ensure closeMarkup is not set from untrusted sources!
+            if (
+                typeof options.closeMarkup === 'string' &&
+                /<script[\s>]/i.test(options.closeMarkup)
+            ) {
+                if (window && window.console && typeof window.console.warn === 'function') {
+                    window.console.warn(
+                        "Magnific Popup: 'closeMarkup' contains potentially unsafe code. Refusing to initialize."
+                    );
+                }
+                return this;
+            }
+
             options = $.extend(true, {}, options);
 
             /*
