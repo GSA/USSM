@@ -15,9 +15,7 @@ attached:
       <div class="home-content">
          <h1>Commercial Shared Services</h1>
        <p class="commercial-text">
-      Grants QSMO-recommended commercial vendors provide award management Software as a Solution (SaaS) products aligned with the 
-      <a href="https://ussm.gsa.gov/fibf/">Federal Integrated Business Framework (FIBF)</a> for Grants Management. Explore the Catalog of Market Research on the Grants QSMO’s 
-      <a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=440">Acquisition Gateway</a> webpage for detailed vendor information and solutions.
+These commercial vendors are Grants QSMO-recommended and offer award management Software as a Solution (SaaS) products for grants management. For vendor-specific insights, visit Commercial Award Management IT Vendors on the  <a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=440">Acquisition Gateway</a> (Federal users only; log-in required).
     </p>
     <div class="vendors-section">
       <h2>Commercial Vendors - Award Management Systems</h2>
@@ -34,7 +32,7 @@ attached:
             <p><strong>Business Type:</strong> Other than Small Business</p>
             <p><strong>System Platform:</strong> Microsoft Power Platform</p>
             <p><strong>Solution Customers:</strong> Canada Mitacs, Navy Judge Advocate General's Corps, Home Energy Efficiency Programmes for Scotland, Hawaii Dept. of Human Services, Illinois Dept. of Health and Family Services, Iowa Economic Development Authority, Hillsborough County, FL, Ventura County, CA, Bergen County, NJ, City of Flint, MI, City of Newark, NJ, Comcast RISE, KY Broadband</p>
-            <p><strong>Website:</strong> <a href="#">EY Grants Accelerator</a></p>
+            <p><strong>Website:</strong> <a href="https://www.ey.com/en_us/alliances/ey-grants-accelerator">EY Grants Accelerator</a></p>
             <div class="contacts">
               <div style="font-weight: bold;">Contacts:</div>
               <div class="contact">
@@ -67,7 +65,7 @@ attached:
             <p><strong>Business Type:</strong> Small Business</p>
             <p><strong>System Platform:</strong> Microsoft Power Platform</p>
             <p><strong>Solution Customers:</strong> U.S. Small Business Administration, U.S. Dept. of the Treasury - State Small Business Credit Initiative</p>
-            <p><strong>Website:</strong> <a href="#">FI Consulting PIM</a></p>
+            <p><strong>Website:</strong> <a href="https://ficonsulting.com/program-investment-manager/">FI Consulting PIM</a></p>
             <div class="contacts">
               <div style="font-weight: bold;">Contacts:</div>
               <div class="contact">
@@ -98,7 +96,7 @@ attached:
             <p><strong>Business Type:</strong> Small Business</p>
             <p><strong>System Platform:</strong> Microsoft Power Platform</p>
             <p><strong>Solution Customers:</strong> U.S. Small Business Administration, U.S. Dept. of the Treasury - State Small Business Credit Initiative</p>
-            <p><strong>Website:</strong> <a href="#">FI Consulting PIM</a></p>
+            <p><strong>Website:</strong> <a href="https://gswell.com/">Groundswell</a></p>
             <div class="contacts">
               <div style="font-weight: bold;">Contacts:</div>
               <div class="contact">
