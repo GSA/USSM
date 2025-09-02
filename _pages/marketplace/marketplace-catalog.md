@@ -14,6 +14,7 @@ attached:
       {% include grantHeader.html %}
       <div class="home-content">
         <h1 style="margin-top:0px">Grants QSMO Marketplace</h1>
+        <hr>
       <div class="subtitle">
       Your gateway to top-tier grants management solutions. Aligned with the
       <span class="highlight"><a href="https://ussm.gsa.gov/fibf/" class="highlight">Federal Integrated Business Framework (FIBF)</a>

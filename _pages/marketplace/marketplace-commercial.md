@@ -14,8 +14,10 @@ attached:
       {% include grantHeader.html %}
       <div class="home-content">
          <h1>Commercial Shared Services</h1>
+         <hr>
        <p class="commercial-text">
-These commercial vendors are Grants QSMO-recommended and offer award management Software as a Solution (SaaS) products for grants management. For vendor-specific insights, visit Commercial Award Management IT Vendors on the  <a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=440">Acquisition Gateway</a> (Federal users only; log-in required).
+       These commercial vendors are Grants QSMO-recommended and offer award management Software as a Solution (SaaS) products for grants management. For vendor-specific insights, visit Commercial Award Management IT Vendors on the
+      <a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=440">Acquisition Gateway</a> (Federal users only; log-in required).
     </p>
     <div class="vendors-section">
       <h2>Commercial Vendors - Award Management Systems</h2>
@@ -45,9 +47,9 @@ These commercial vendors are Grants QSMO-recommended and offer award management 
               </div>
             </div>
             <div class="vendor-icons">
-              <span>Available on GSA MAS contract</span>
-              <span>FedRAMP Authorized or in Progress</span>
-              <span>In Production by Federal Customers</span>
+              <span><img src="{{site.baseurl}}/assets/images/GSA-MAS.png" alt="FI Consulting Logo" class="vendor-logo"> Available on GSA MAS contract</span>
+              <span><img src="{{site.baseurl}}/assets/images/FR-Icon.ico" alt="FI Consulting Logo" class="vendor-logo"> FedRAMP Authorized or in Progress</span>
+              <span><img src="{{site.baseurl}}/assets/images/black-rocket.png" alt="FI Consulting Logo" class="vendor-logo"> In Production by Federal Customers</span>
             </div>
           </div>
         </div>
@@ -76,9 +78,9 @@ These commercial vendors are Grants QSMO-recommended and offer award management 
               </div>
             </div>
             <div class="vendor-icons">
-              <span>Available on GSA MAS contract</span>
-              <span>FedRAMP Authorized or in Progress</span>
-              <span>In Production by Federal Customers</span>
+              <span><img src="{{site.baseurl}}/assets/images/GSA-MAS.png" alt="FI Consulting Logo" class="vendor-logo"> Available on GSA MAS contract</span>
+              <span><img src="{{site.baseurl}}/assets/images/FR-Icon.ico" alt="FI Consulting Logo" class="vendor-logo"> FedRAMP Authorized or in Progress</span>
+              <span><img src="{{site.baseurl}}/assets/images/black-rocket.png" alt="FI Consulting Logo" class="vendor-logo"> In Production by Federal Customers</span>
             </div>
           </div>
         </div>
@@ -108,10 +110,9 @@ These commercial vendors are Grants QSMO-recommended and offer award management 
                 <a href="mailto:bTempleman@gswell.com">bTempleman@gswell.com</a>
               </div>
             </div>
-            <div class="vendor-icons">
-              <span>Available on GSA MAS contract</span>
-              <span>FedRAMP Authorized or in Progress</span>
-              <span>In Production by Federal Customers</span>
+           <div class="vendor-icons">
+              <span><img src="{{site.baseurl}}/assets/images/GSA-MAS.png" alt="FI Consulting Logo" class="vendor-logo"> Available on GSA MAS contract</span>
+              <span><img src="{{site.baseurl}}/assets/images/FR-Icon.ico" alt="FI Consulting Logo" class="vendor-logo"> FedRAMP Authorized or in Progress</span>
             </div>
           </div>
         </div>
@@ -141,10 +142,10 @@ These commercial vendors are Grants QSMO-recommended and offer award management 
                 <a href="mailto:hmorgon@reisystems.com">hmorgon@reisystems.com</a>
               </div>
             </div>
-            <div class="vendor-icons">
-              <span>Available on GSA MAS contract</span>
-              <span>FedRAMP Authorized or in Progress</span>
-              <span>In Production by Federal Customers</span>
+           <div class="vendor-icons">
+              <span><img src="{{site.baseurl}}/assets/images/GSA-MAS.png" alt="FI Consulting Logo" class="vendor-logo"> Available on GSA MAS contract</span>
+              <span><img src="{{site.baseurl}}/assets/images/FR-Icon.ico" alt="FI Consulting Logo" class="vendor-logo"> FedRAMP Authorized or in Progress</span>
+              <span><img src="{{site.baseurl}}/assets/images/black-rocket.png" alt="FI Consulting Logo" class="vendor-logo"> In Production by Federal Customers</span>
             </div>
           </div>
         </div>
@@ -178,10 +179,10 @@ These commercial vendors are Grants QSMO-recommended and offer award management 
                 <a href="mailto:sklvett@salesforce.com">sklvett@salesforce.com</a>
               </div>
             </div>
-            <div class="vendor-icons">
-              <span>Available on GSA MAS contract</span>
-              <span>FedRAMP Authorized or in Progress</span>
-              <span>In Production by Federal Customers</span>
+           <div class="vendor-icons">
+              <span><img src="{{site.baseurl}}/assets/images/GSA-MAS.png" alt="FI Consulting Logo" class="vendor-logo"> Available on GSA MAS contract</span>
+              <span><img src="{{site.baseurl}}/assets/images/FR-Icon.ico" alt="FI Consulting Logo" class="vendor-logo"> FedRAMP Authorized or in Progress</span>
+              <span><img src="{{site.baseurl}}/assets/images/black-rocket.png" alt="FI Consulting Logo" class="vendor-logo"> In Production by Federal Customers</span>
             </div>
           </div>
         </div>
@@ -214,9 +215,9 @@ These commercial vendors are Grants QSMO-recommended and offer award management 
               </div>
             </div>
             <div class="vendor-icons">
-              <span>Available on GSA MAS contract</span>
-              <span>FedRAMP Authorized or in Progress</span>
-              <span>In Production by Federal Customers</span>
+              <span><img src="{{site.baseurl}}/assets/images/GSA-MAS.png" alt="FI Consulting Logo" class="vendor-logo"> Available on GSA MAS contract</span>
+              <span><img src="{{site.baseurl}}/assets/images/FR-Icon.ico" alt="FI Consulting Logo" class="vendor-logo"> FedRAMP Authorized or in Progress</span>
+              <span><img src="{{site.baseurl}}/assets/images/black-rocket.png" alt="FI Consulting Logo" class="vendor-logo"> In Production by Federal Customers</span>
             </div>
           </div>
         </div>
@@ -262,8 +263,5 @@ These commercial vendors are Grants QSMO-recommended and offer award management 
   background-color: #ffffff;
 }
 
-.vendor-logo {
-  height: 40px;
-  width: auto;
-}
+
 </style>

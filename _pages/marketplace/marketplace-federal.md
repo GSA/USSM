@@ -13,15 +13,10 @@ attached:
     <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
      <div class="home-content">
-       <h2 class="federal-shared-title">Federal Shared Services</h2>
+       <h1 class="federal-shared-title">Federal Shared Services</h1>
 <hr>
   <div class="federal-shared-description">
-    Grants QSMO-validated federal shared service providers offer trusted, high-quality solutions and services aligned with the
-    <a href="https://ussm.gsa.gov/fibf-gm/">Federal Integrated Business Framework (FIBF)</a> for Grants Management. Explore the Marketplace’s externally shared federal solutions, validated through the Grants QSMO’s Marketplace Validated Process, that address diverse grants management needs.
-    <br><br>
-    <em>Externally shared federal solutions are non-mandatory, federal solutions that accept external customers. These solutions are validated by the Grants QSMO after completing our
-      <a href="#">Marketplace Validation Process</a>.
-    </em>
+    Federal shared service providers are Grants QSMO-validated and offer high-quality, reliable solutions for grants management. For provider-specific insights, visit Buying Insights Profiles on <a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=440">Acquisition Gateway</a> (Federal users only; log-in required).
   </div>
 <div class="federal-accordion-header" style="
     height: 55px;
@@ -39,7 +34,7 @@ attached:
       <table class="federal-accordion-table">
         <tr>
           <td class="federal-agency-details">
-            <div class="federal-agency-title"><div><img src="{{site.baseurl}}/assets/images/era-logo-lg.webp" alt="era logo" style="width:35px;"></div>Electronic Research Administration (eRA)</div><br>
+            <div class="federal-agency-title"><div><img src="{{site.baseurl}}/assets/images/era-logo-lg.webp" alt="era logo" style="width:35px;"></div>eRA</div><br>
             <p><strong>Provider Agency:</strong> U.S. Dept. of Health and Human Services, National Institutes of Health</p>
             <p><strong>Website:</strong> <a href="https://era.nih.gov" target="_blank">https://era.nih.gov</a></p>
             <p><strong>Contact:</strong> eRAinfo@mail.nih.gov</p>

@@ -13,9 +13,10 @@ attached:
     <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
       <div class="home-content">
-       <h1 class="federal-title" style="display:none">Mandatory Federal Solutions & Services</h1>
-    <p class="federal-intro" style="display:none">
-      Mandatory solutions and services, mandated by federal law or regulation, ensure interoperability across key grants management processes.
+       <h1 class="federal-title">Centralised Federal Shared Services</h1>
+       <hr>
+    <p class="federal-intro">
+     Centralized shared services, mandated by federal law or regulation, ensure interoperability across key grants management processes. 
     </p>
     <div class="federal-table">
       <div class="federal-row federal-header">

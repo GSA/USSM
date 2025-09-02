@@ -11,7 +11,7 @@
      color: #000;
      position: relative;
      padding: 0;
-     font-size: 18px;
+     font-size: 22px;
  }
  .intro-text .text p {
     margin-top: 0;
@@ -22,8 +22,6 @@
  }
 
  .intro-text .image img {
-     width: 100%;
-     height: 230px;
      border-radius: 4px;
  }
 
@@ -31,7 +29,7 @@
      font-style: italic;
      font-weight: bold;
      margin-top: 20px;
-     font-size: 21px;
+     font-size: 24px;
  }
 
  .buttons {
@@ -55,7 +53,7 @@
  .paragraph {
      margin-top: 20px;
      line-height: 1.6;
-     font-size: 18px;
+     font-size: 22px;
  }
 
  .home-content hr {
@@ -69,7 +67,7 @@
  .federal-shared-description {
      margin-bottom: 20px;
      line-height: 1.6;
-     font-size: 18px;
+     font-size: 22px;
  }
 
  .federal-shared-description a {
@@ -196,7 +194,18 @@
      color: #000;
  }
 .commercial-text {
-    font-size: 18px;
+    font-size: 22px;
+}
+.vendor-header .vendor-logo {
+        height: 40px;
+    width: auto;
+}
+
+.vendor-icons .vendor-logo {
+    height: 30px;
+    width: auto;
+    position: relative;
+    top: 5px; 
 }
  .box.federal {
      border-top-color: #f9b233;
@@ -272,10 +281,6 @@
      gap: 20px;
  }
 
- .vendor-logo {
-     width: 80px;
-     height: auto;
- }
 
  .vendor-header h3 {
      margin: 0;
@@ -320,9 +325,6 @@
          align-items: flex-start;
      }
 
-     .vendor-logo {
-         width: 120px;
-     }
 
      .contacts {
          display: block;
@@ -359,12 +361,13 @@
 
  .federal-intro {
      margin-bottom: 30px;
+     font-size: 22px;
  }
 
  .federal-table {
      width: 100%;
      border-collapse: collapse;
-     font-size: 18px;
+     font-size: px;
  }
 
  .federal-accordion-table tbody {
