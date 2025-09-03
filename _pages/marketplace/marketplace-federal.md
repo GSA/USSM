@@ -14,7 +14,7 @@ attached:
       {% include grantHeader.html %}
      <div class="home-content">
        <h1 class="federal-shared-title">Federal Shared Services</h1>
-<hr>
+      <hr>
   <div class="federal-shared-description">
     Federal shared service providers are Grants QSMO-validated and offer high-quality, reliable solutions for grants management. For provider-specific insights, visit Buying Insights Profiles on <a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=440">Acquisition Gateway</a> (Federal users only; log-in required).
   </div>
@@ -41,6 +41,7 @@ attached:
             <p><strong>Customer Agency:</strong> U.S. Dept. of Health and Human Services, Department of Commerce, US Department of Agriculture</p>
             <p><strong>Solution Description:</strong> eRA provides mission-critical support for federal agencies awarding grants and other funding mechanisms. eRA’s electronic grants management services and business intelligence capabilities allow agencies to manage the receipt, processing, review, award and monitoring of grants and are used by applicants and grantees worldwide, including the U.S. and 55 countries.</p>
             <p><strong>Services Provided</strong></p>
+            <div class="services-list-wrapper">
              <ul class="federal-services-list">
               <li>Grant Program Set-up & Maintenance</li>
               <li>Grant Program Funding Opportunity</li>
@@ -50,7 +51,9 @@ attached:
               <li>Grant Award Payment Processing</li>
               <li>Grant Award Modification</li>
               <li>Grant Award Performance Review</li>
-              <li>Grant Award Financial Review</li>
+            </ul>
+            <ul class="federal-services-list">
+            <li>Grant Award Financial Review</li>
               <li>Grant Award Compliance Review</li>
               <li>Grant Award Risk Management</li>
               <li>Grant Award Closeout</li>
@@ -59,6 +62,7 @@ attached:
               <li>Grant Recipient Indirect Cost Rate Negotiation</li>
               <li>Grant Recipient Single Audit</li>
             </ul>
+            </div>
           </td>
           <td class="federal-agency-details">
             <div class="federal-agency-title"><div><img class="agency-logo" alt="GrantSolutions logo" src="{{site.baseurl}}/assets/images/GrantSolutions_LogoMark.webp"></div>GrantSolutions</div><br>
@@ -93,7 +97,7 @@ attached:
       </table>
     </div>
   </div>
-  <!-- Accordion 2 
+  <!-- Accordion 2 -->
   <div class="federal-accordion">
     <div class="federal-accordion-header" onclick="toggleFederalAccordion(this)">
       Payment Systems
@@ -142,7 +146,7 @@ attached:
     </div>
   </div>
 
-  <!-- Accordion 3
+  <!-- Accordion 3-->
   <div class="federal-accordion">
     <div class="federal-accordion-header" onclick="toggleFederalAccordion(this)">
       Indirect Cost Negotiation Services
@@ -179,7 +183,7 @@ attached:
         </tr>
       </table>
     </div>
-  </div>-->
+  </div>
   <div class="federal-shared-footer">
     Explore detailed information about services and GRM areas at
     <a href="https://ussm.gsa.gov/fibf-gm/">https://ussm.gsa.gov/fibf-gm/</a>. For insights on specific providers, visit the Buying Insights Profiles on
