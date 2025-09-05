@@ -5,7 +5,34 @@ layout: full-width
 attached:
   - marketplace
 ---
+<style>
+.accordion-header {
+  background: #003366;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  font-size:22px
+}
 
+.accordion-content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+.accordion-item.active .accordion-content {
+  display: block;
+  background:#fff !important;
+  color:#1b1b1b !important;
+}
+</style>
 <div class="grid-container">
 <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
   <div id="esgms-header" class="grid-row">
@@ -18,14 +45,20 @@ attached:
     <p class="federal-intro">
      Centralized shared services, mandated by federal law or regulation, ensure interoperability across key grants management processes. 
     </p>
-    <div class="federal-table">
-      <div class="federal-row federal-header">
-        <div class="federal-cell federal-col-name">Solution Name</div>
-        <div class="federal-cell federal-col-desc">Description</div>
-      </div>
+
+   <div class="federal-accordion-header" style="
+    height: 55px;
+">Solution
+    </div> 
+   <div class="federal-table">
+
+  <!-- Grants.gov -->
+  <div class="accordion-item">
+    <button class="accordion-header">Grants.gov</button>
+    <div class="accordion-content">
       <div class="federal-row">
         <div class="federal-cell federal-col-name">
-          <img src="{{site.baseurl}}/assets/images/grants.gov.png" alt="Grants.gov Logo" class="federal-logo">
+          <img src="/assets/images/grants.gov.png" alt="Grants.gov Logo" class="federal-logo">
           <p><strong>Provider Agency:</strong> U.S. Dept. of Health and Human Services</p>
           <p><strong>Website:</strong> <a href="https://www.grants.gov/">https://www.grants.gov/</a></p>
           <p><strong>Contact:</strong> support@grants.gov</p>
@@ -34,9 +67,16 @@ attached:
           Grants.gov is the central hub for federal discretionary grant and cooperative agreement funding announcements, known as Notices of Funding Opportunity (NOFOs). Directed by the Office of Management and Budget (OMB), all federal grant-making agencies must publish these opportunities on the platform, making it easier for the public to identify and apply for funding. Established under the Federal Financial Assistance Management Improvement Act of 1999 (<a href="#">Pub. L. No. 106—107</a>) and OMB Memorandum M-04-01, Grants.gov also provides resources to streamline the application process.
         </div>
       </div>
-      <!--<div class="federal-row">
+    </div>
+  </div>
+
+  <!-- SAM.gov -->
+  <div class="accordion-item">
+    <button class="accordion-header">SAM.gov</button>
+    <div class="accordion-content">
+      <div class="federal-row">
         <div class="federal-cell federal-col-name">
-          <img src="{{site.baseurl}}/assets/images/sam.gov.png" alt="SAM.gov Logo" class="federal-logo">
+          <img src="/assets/images/sam.gov.png" alt="SAM.gov Logo" class="federal-logo">
           <p><strong>Provider Agency:</strong> GSA</p>
           <p><strong>Website:</strong> <a href="https://sam.gov/">https://sam.gov/</a></p>
           <p><strong>Contact:</strong> IAEOutreach@gsa.gov</p>
@@ -46,9 +86,16 @@ attached:
           SAM.gov is the authoritative repository for financial assistance data, integrating the Unique Entity Identifier and System for Award Management (as outlined in <a href="#">2 CFR Part 25</a>), the Federal Awardee Performance and Integrity Information System (FAPIIS), mandated by <a href="#">41 U.S.C. § 2313</a>, and the Federal Funding Accountability and Transparency Act (FFATA) of 2006 (<a href="#">Pub. L. No. 109—282</a>). Together, these components ensure comprehensive oversight and accessibility to federal award information.
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- FAC -->
+  <div class="accordion-item">
+    <button class="accordion-header">Federal Audit Clearinghouse (FAC)</button>
+    <div class="accordion-content">
       <div class="federal-row">
         <div class="federal-cell federal-col-name">
-          <img src="{{site.baseurl}}/assets/images/fac.gov.png" alt="FAC Logo" class="federal-logo">
+          <img src="/assets/images/fac.gov.png" alt="FAC Logo" class="federal-logo">
           <p><strong>Provider Agency:</strong> GSA</p>
           <p><strong>Website:</strong> <a href="https://sam.gov/">https://sam.gov/</a></p>
           <p><strong>Contact:</strong> IAEOutreach@gsa.gov</p>
@@ -57,10 +104,19 @@ attached:
          The Federal Audit Clearinghouse (FAC), established under the Single Audit Act Amendments of 1996 <a href="#">(Pub. L. No. 104—156)</a> and <a href="#">2 CFR Part 200</a>, is the central repository for single audit reporting packages from federal financial assistance 
          recipients meeting the federal expenditure threshold during their fiscal year. It distributes audit packages to federal agencies, supports Office of Management and Budget (OMB) oversight, maintains a public database of completed audits,and helps streamline compliance with Single Audit requirements for auditors and auditees.
         </div>
-      </div>-->
-    </div>
       </div>
-      {% include grantFooter.html %}
-    </div> 
+    </div>
   </div>
 </div>
+</div>
+      {% include grantFooter.html %}
+</div> 
+</div>
+</div>
+<script>
+document.querySelectorAll(".accordion-header").forEach(header => {
+  header.addEventListener("click", () => {
+    header.parentElement.classList.toggle("active");
+  });
+});
+</script>
