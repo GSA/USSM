@@ -13,7 +13,7 @@ attached:
    <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
     <div class="home-content">
-      <!-- ---<p>
+      <p>
       Are you considering modernizing your grants solutions or services? We want to hear from you! Reach out to us at
       <a class="email-link" href="mailto:GrantsQSMO@hhs.gov">GrantsQSMO@hhs.gov</a>, and here's how we can assist you:
       </p>
@@ -36,7 +36,7 @@ attached:
       </div>
       <p class="note">
       *Clicking the button above creates a pre-filled email—simply review and hit send!
-      </p>-->
+      </p>
       </div>
       {% include grantFooter.html %}
     </div> 
