@@ -26,9 +26,9 @@ attached:
           Explore our offerings, connect with our team, and discover how we’re transforming federal grants management – together.
         </p>
     <div class="buttons">
-      <a href="{{site.baseurl}}/marketplace/marketplace-catalog/federal" class="button">FEDERAL GRANTS <br>SYSTEMS HUB</a>
-      <a href="{{site.baseurl}}/marketplace/marketplace-catalog/commercial" class="button">GRANTS QSMO <br>MARKETPLACE</a>
-      <a href="{{site.baseurl}}/marketplace/marketplace-catalog/mandatory" class="button">TOOLS FOR <br>AGENCIES</a>
+      <a href="{{site.baseurl}}/marketplace/marketplace-catalog/federal/" class="button">FEDERAL GRANTS <br>SYSTEMS HUB</a>
+      <a href="{{site.baseurl}}/marketplace/marketplace-catalog/" class="button">GRANTS QSMO <br>MARKETPLACE</a>
+      <a href="{{site.baseurl}}/marketplace/resources/" class="button">TOOLS FOR <br>AGENCIES</a>
     </div>
     <p class="paragraph">
       The Grants QSMO connects agencies with vetted grants management solutions through a dynamic marketplace, driving efficiency, transparency, and informed decision-making. By engaging stakeholders, implementing data standards, and providing a central hub for grants-related information, it ensures continuous improvement in federal grants administration.
