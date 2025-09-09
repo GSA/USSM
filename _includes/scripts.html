@@ -162,3 +162,18 @@
       .scrollIntoView({ behavior: "smooth" });
   });
 </script>
+<script>
+  function toggleSidebar() {
+    document.getElementById("sidebar").classList.toggle("open");
+  }
+
+  // Close sidebar when any link is clicked
+  document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll(".sidebar a");
+    links.forEach((link) => {
+      link.addEventListener("click", () => {
+        document.getElementById("sidebar").classList.remove("open");
+      });
+    });
+  });
+</script>
