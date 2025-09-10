@@ -15,13 +15,13 @@ attached:
     <div class="home-content">
       <p>
       Are you considering modernizing your grants solutions or services? We want to hear from you! Reach out to us at
-      <a class="email-link" href="mailto:GrantsQSMO@hhs.gov">GrantsQSMO@hhs.gov</a>, and here's how we can assist you:
+      <a class="email-link" href="mailto:GrantsQSMO@hhs.gov">GrantsQSMO@hhs.gov</a> and you can:
       </p>
       <div class="bullet-section">
       <ul>
-        <li>Schedule a meeting or share tailored insights about using the Grants QSMO Marketplace, including grants management solutions and services for federal agencies.</li>
-        <li>Provide answers to any questions not covered in our Frequently Asked Questions (FAQs).</li>
-        <li>Gather your feedback to enhance our website and services.</li>
+        <li>Request a meeting or information about the Grants QSMO Marketplace.</li>
+        <li>Submit questions that are not addressed by our Frequently Asked Questions (FAQs).</li>
+        <li>Learn about how other agencies have worked with the Grants QSMO on modernizations of their grant systems.</li>
       </ul>
       </div>
       <p>We look forward to supporting your grants modernization journey!</p>
