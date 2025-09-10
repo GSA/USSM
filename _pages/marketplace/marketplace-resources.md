@@ -60,10 +60,9 @@ attached:
    <div class="column-left desktop:grid-col-9">
       {% include grantHeader.html %}
    <div class="home-content">
-      <h2>Resources</h2>
+      <h2>Tools for Agencies</h2>
     <p>
-      Consider these resources from the Grants QSMO for your needs. Some links lead to the Grants QSMO
-      <a href="#">Acquisition Gateway</a>, a platform for federal agencies with valuable insights on market research.
+      Explore these Grants QSMO resources designed to support your needs. Some links lead to the Grants QSMO <a href="https://www.acquisitiongateway.gov">Acquisition Gateway</a> —a federal platform for agencies to find valuable market research insights.
     </p>
     <div class="accordion">
       <button class="accordion-header">For Federal Agencies</button>
