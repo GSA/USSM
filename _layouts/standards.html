@@ -286,7 +286,8 @@ associated with it. For example, an about page. {% endcomment %}
               </div>
             </div>
             {% if page.capabilities-content %}
-            <div class="desktop:grid-col-12">
+            <div class="desktop:grid-col-12 {% if page.url == '/fibf-eeo/' %}eeo-table-wrapper{% endif %}">
+              {{page.url}}
               <div class="usa-accordion usa-accordion--bordered margin-y-5">
                 <div>
                   <button
@@ -479,7 +480,6 @@ associated with it. For example, an about page. {% endcomment %}
               endif %}
             </div>
           </div>
-
           <p>
             <a
               class="text-primary"
@@ -494,7 +494,6 @@ associated with it. For example, an about page. {% endcomment %}
     </section>
   </div>
 </div>
-
 <script>
   function forceDownload(url) {
     const link = document.createElement("a");
