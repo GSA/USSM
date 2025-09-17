@@ -30,7 +30,7 @@
         },      
     {
             "NewsID": "64",
-            "Homepage": "1",
+            "Homepage": "0",
             "Category": "FIBF-AI",
             "Title": "Two new AI tools help illuminate GSA’s future state",
             "Date": "2025-03-25",
@@ -48,7 +48,7 @@
         },
        {
             "NewsID": "62",
-            "Homepage": "1",
+            "Homepage": "0",
             "Category": "FIBF-TRT",
             "Title": "GSA Plans Modernized Travel System (ETSNext)",
             "Date": "2024-12-04",
@@ -75,7 +75,7 @@
         },
         {
             "NewsID": "59",
-            "Homepage": "1",
+            "Homepage": "0",
             "Category": "FIBF-TRT",
             "Title": "GSA selects IBM to provide technology-managed service for governmentwide travel and expense management",
             "Date": "2024-11-27",
@@ -84,7 +84,7 @@
         },
     {
             "NewsID": "59",
-            "Homepage": "1",
+            "Homepage": "0",
             "Category": "FIBF-FLEET",
             "Title": "Registration is Open for FedFleet 2025 (Feb 3-6, 2025)",
             "Date": "2024-11-01",
@@ -93,7 +93,7 @@
         },
         {
             "NewsID": "58",
-            "Homepage": "1",
+            "Homepage": "0",
             "Category": "FIBF-GRM",
             "Title": "Back on the QSMO Bandwagon: The Important Work of the Grants QSMO",
             "Date": "2024-09-24",
