@@ -20,4 +20,5 @@ lifecycle-source-document: assets/files/downloads/grants/Grants-Management-Feder
 lifecycle-json-api: /business-standards-api/grants/business-lifecycle
 capabilities-source-document: assets/files/downloads/grants/Grants-Management-Business-Capabilities-version-2.0.xlsm
 capabilities-json-api: /business-standards-api/grants/capabilities
+intro-extra: grants/intro-extra.html
 ---
