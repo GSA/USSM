@@ -2,6 +2,15 @@
     "title": "News",
     "items": [
    {
+            "NewsID": "66",
+            "Homepage": "1",
+            "Category": "FIBF-TRT",
+            "Title": "GSA Unveils GO.gov: A New Era for Federal Travel Management",
+            "Date": "2025-07-30",
+            "Source": "General Services Administration",
+            "Hyperlink": "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-unveils-gogov-a-new-era-for-federal-travel-management-07292025"
+        },      
+   {
             "NewsID": "65",
             "Homepage": "1",
             "Category": "FIBF-FM",
