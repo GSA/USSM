@@ -2,6 +2,15 @@
     "title": "News",
     "items": [
    {
+            "NewsID": "67",
+            "Homepage": "1",
+            "Category": "FIBF-AI",
+            "Title": "GSA introduces USAi.Gov to Streamline AI Adoption Across Government",
+            "Date": "2025-08-14",
+            "Source": "NextGov/FCW",
+            "Hyperlink": "https://www.nextgov.com/artificial-intelligence/2025/08/gsa-introduces-usaigov-streamline-ai-adoption-across-government/407443/"
+        },       
+        {
             "NewsID": "66",
             "Homepage": "1",
             "Category": "FIBF-TRT",
