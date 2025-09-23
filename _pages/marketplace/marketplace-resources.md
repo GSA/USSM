@@ -45,6 +45,7 @@ attached:
       margin: 0 0 10px 0;
       font-size: 15px;
       color: #333;
+      text-align: center; 
     }
 
     .card p {
@@ -65,7 +66,7 @@ attached:
       Explore these Grants QSMO resources designed to support your needs. Some links lead to the Grants QSMO <a href="https://www.acquisitiongateway.gov">Acquisition Gateway</a> —a federal platform for agencies to find valuable market research insights.
     </p>
     <div class="accordion">
-      <button class="accordion-header">For Federal Agencies</button>
+      <button class="accordion-header">For Grant Stakeholders</button>
       <div class="accordion-content">
        <div class="section-title">Grants QSMO Information</div>
         <div class="grid">
