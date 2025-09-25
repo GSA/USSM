@@ -37,9 +37,9 @@ attached:
   <div class="faq-item">
     <button class="faq-question" aria-expanded="false">How does the QSMO support federal priorities like the GREAT Act?</button>
     <div class="faq-answer" role="region" aria-hidden="true">
-      <p>The Grants QSMO helps implement the Grants Reporting Efficiency and Agreements Transparency (GREAT) Act of 2019 (Pub. L. No. 116—103) by validating solutions that align with government-wide data standards. It collaborates with the Grants Data Standards Lead and contributes to federal efforts to ensure consistent, transparent, and interoperable data across agencies.</p>
+      <p>The Grants QSMO helps implement the Grants Reporting Efficiency and Agreements Transparency (GREAT) Act of 2019 <a href="https://www.congress.gov/bill/116th-congress/house-bill/150/text">(Pub. L. No. 116—103)</a> by validating solutions that align with government-wide data standards. It collaborates with the <a href="https://www.grants.gov/data-standards">Grants Data Standards</a> Lead and contributes to federal efforts to ensure consistent, transparent, and interoperable data across agencies.</p>
     </div>
-  </div>
+  </div> 
 
   <div class="section-title">Marketplace Management</div>
 
@@ -48,9 +48,9 @@ attached:
     <div class="faq-answer" role="region" aria-hidden="true">
       <p>The Marketplace offers a variety of federal shared services and commercial solutions, including:</p>
       <ul>
-        <li>Software platforms and resources for managing the grants lifecycle</li>
-        <li>Modular services for intake, workflow, monitoring, and reporting</li>
-        <li>Full lifecycle systems designed for pre-award, award, post-award, and closeout phases</li>
+        <li><strong>Software platforms</strong> and resources for managing the grants lifecycle</li>
+        <li><strong>Modular services</strong> for intake, workflow, monitoring, and reporting</li>
+        <li><strong>Full lifecycle systems</strong> designed for pre-award, award, post-award, and closeout phases</li>
       </ul>
       <p>All solutions align with the Federal Integrated Business Framework (FIBF) for Grants Management (GRM) functional areas.</p>
     </div>
@@ -112,7 +112,7 @@ attached:
   <div class="faq-item">
     <button class="faq-question" aria-expanded="false">How can I contact the Grants QSMO or provide feedback?</button>
     <div class="faq-answer" role="region" aria-hidden="true">
-      <p>You can reach the Grants QSMO at <a href="mailto:GrantsQSMO@hhs.gov">GrantsQSMO@hhs.gov</a>. The QSMO gathers feedback through outreach, surveys, and meetings. Stay connected by subscribing to the Grants QSMO newsletter for updates, resources, and engagement opportunities.</p>
+      <p>You can reach the Grants QSMO at <a href="mailto:GrantsQSMO@hhs.gov" target="_blank">GrantsQSMO@hhs.gov</a>. The QSMO gathers feedback through outreach, surveys, and meetings. Stay connected by subscribing to the Grants QSMO newsletter for updates, resources, and engagement opportunities.</p>
     </div>
   </div>
 </div>

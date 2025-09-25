@@ -30,7 +30,7 @@ attached:
           Stay Up to Date with<br />Grants QSMO!<br />
           <button type="button" id="sendEmail">(click here)</button>
         </div>
-        <div class="right-box">
+        <div class="right-box" style="text-align: center;">
           Subscribe to our newsletter and get Grants QSMO news and updates delivered right to your inbox.
         </div>
       </div>
