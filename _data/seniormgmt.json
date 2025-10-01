@@ -19,14 +19,6 @@
             "logo": "department-of-commerce.svg",
             "agency_url": "https://www.commerce.gov/about/leadership/kurt-bersani"
           },
-          {
-            "agency": "Department of War",
-            "sapoc": "TBD",
-            "title": "TBD",
-            "asm": "Robert G. Salesses",
-            "asmtitle": "Director of Administration & Management",
-            "logo": "department-of-defense.png"
-          },
          {
             "agency": "Department of Energy",
             "sapoc": "Ingrid Kolb",
@@ -116,6 +108,14 @@
             "asm": "Mark Engelbaum",
             "asmtitle": "Assistant Secretary for Human Resources and Administration",
             "logo": "department-of-veterans-affairs.svg"
+          },
+                  {
+            "agency": "Department of War",
+            "sapoc": "TBD",
+            "title": "TBD",
+            "asm": "Robert G. Salesses",
+            "asmtitle": "Director of Administration & Management",
+            "logo": "department-of-defense.png"
           },
           {
             "agency": "Environmental Protection Agency",
