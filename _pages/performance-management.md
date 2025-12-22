@@ -373,7 +373,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                 </div>
                                 <h3 class="text-uppercase text-center pink margin-bottom-0">Phase 1</h3>
                                 <p class="text-center margin-bottom-0 margin-top-0">
-                                    Measures<br> operationalized in 
+                                    Measures<br> developed in 
                                 </p>
                                 <p class="pink text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY22</p>
                             </div>
@@ -384,7 +384,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                 </div>
                                 <h3 class="text-uppercase text-center blue margin-bottom-0">Phase 2</h3>
                                 <p class="text-center margin-bottom-0 margin-top-0">
-                                    Measures<br> operationalized in 
+                                    Measures<br> developed in 
                                 </p>
                                 <p class="blue text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY23</p>
                             </div>
@@ -395,9 +395,9 @@ description: The Playbook provides tools, templates, and best practices for fede
                                 </div>
                                 <h3 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h3>
                                 <p class="text-center margin-bottom-0 margin-top-0">
-                                    Measures<br> operationalized in 
+                                    Measures<br> developed in 
                                 </p>
-                                <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY25+</p>
                             </div>
                         </div>
                     </div>
@@ -468,7 +468,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
-                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY25+</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -501,7 +501,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
-                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY25+</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -513,7 +513,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
-                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY25+</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -558,7 +558,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
-                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY25+</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -603,7 +603,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
-                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY25+</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -615,7 +615,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
-                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY25+</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -684,7 +684,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
-                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY25+</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -696,7 +696,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
-                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY25+</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -708,7 +708,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
-                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY25+</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -720,7 +720,7 @@ description: The Playbook provides tools, templates, and best practices for fede
                                                 <div class="tablet:grid-col-3 display-flex flex-align-center flex-justify-center">
                                                     <div class="text-center">
                                                         <h4 class="text-uppercase text-center purple margin-bottom-0">Phase 3</h4>
-                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY24+</p>
+                                                        <p class="purple text-center font-body-2xl margin-top-0 margin-bottom-0 line-height-sans-2 text-light">FY25+</p>
                                                     </div>
                                                 </div>
                                             </div>
