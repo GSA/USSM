@@ -1,6 +1,6 @@
 ---
 layout: governance/representative
-permalink: /ssgb/vacant-cochair1/
+permalink: /ssgb/vacant-cochair2/
 portrait: ed-forst.jpg
 type: Board Chair
 title: Shared Services Governance Board
