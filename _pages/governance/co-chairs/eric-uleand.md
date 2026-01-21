@@ -1,7 +1,7 @@
 ---
 layout: governance/representative
 permalink: /ssgb/vacant-cochair1/
-portrait: vacant.webp
+portrait: eric-ueland.jpg
 type: Board Chair
 title: Shared Services Governance Board
 name: Eric Ueland
