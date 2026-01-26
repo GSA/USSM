@@ -9,7 +9,7 @@ title: Administrator
 name: Ed Forst
 position: Administrator
 department: General Services Administration
-logo: gsa-logo.webp | https://www.gsa.gov
+logo: gsa-logo.png | https://www.gsa.gov
 logo-link: https://www.gsa.gov
 ---
 Edward C. Forst is the 24th Administrator of the U.S. General Services Administration. He oversees about 8,000 people who handle the federal government’s buildings, purchasing, and technology.
