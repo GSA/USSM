@@ -1,6 +1,6 @@
 ---
 layout: governance/representative
-permalink: /ssgb/vacant-cochair1/
+permalink: /ssgb/eric-ueland/
 portrait: eric-ueland.jpg
 type: Board Chair
 title: Shared Services Governance Board
@@ -9,7 +9,7 @@ title: Shared Services Governance Board
 name: Eric Ueland
 position: Deputy Director for Management
 department: Office of Management and Budget (OMB)
-logo: omb-seal.webp | https://www.whitehouse.gov/omb/
+logo: omb-logo.png | https://www.whitehouse.gov/omb/
 logo-link: https://www.whitehouse.gov/omb/
 ---
 Eric M. Ueland serves as the Deputy Director for Management at the Office of Management and Budget. 
