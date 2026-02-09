@@ -130,7 +130,7 @@ attached:
             <p><strong>Business Type:</strong> Other than Small Business</p>
             <p><strong>System Platform:</strong> Salesforce</p>
             <p><strong>Solution Customers:</strong> U.S. Dept. of Veterans Affairs, Inter-American Foundation, Northern Border Regional Commission, Library of Congress, Legal Services Corporation, National Endowment for Democracy, Utah State Board of Education, California Dept. of Education, Washington Office of Superintendent of Public Instruction</p>
-            <p><strong>Website:</strong> <a href="https://www.reisystems.com/govgrants/">https://www.reisystems.com/govgrants/</a></p>
+            <p><strong>Website:</strong> <a href="https://www.reisystems.com/govgrants/">REI Systems GovGrants</a></p>
             <div class="contacts">
               <div style="font-weight: bold;">Contacts:</div>
               <div class="contact">
