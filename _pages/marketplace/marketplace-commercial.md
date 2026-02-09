@@ -200,7 +200,7 @@ attached:
             <p><strong>Business Type:</strong> Other than Small Business</p>
             <p><strong>System Platform:</strong> PRISM</p>
             <p><strong>Solution Customers:</strong> U.S. Dept. of Energy, Nuclear Regulatory Commission, U.S. Dept. of Transportation - Pipeline and HazMat Safety Administration, and multiple U.S. Dept. of Defense/Intel Organizations</p>
-            <p><strong>Website:</strong> <a href="https://www.unisonglobal.com/product/financial-assistance">https://www.unisonglobal.com/product/financial-assistance</a></p>
+            <p><strong>Website:</strong> <a href="https://www.unisonglobal.com/product/financial-assistance">Unison Software PRISM Grants</a></p>
             <div class="contacts">
               <div style="font-weight: bold;">Contacts:</div>
               <div class="contact">
