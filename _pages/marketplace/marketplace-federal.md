@@ -69,7 +69,7 @@ attached:
              <p><strong>Solution Description:</strong>  GrantSolutions supports federal agencies throughout the full grants lifecycle - from pre-award planning through application, award, and closeout. As a shared service provider, GrantSolutions offerings solve for shared mission needs across agencies while incorporating unique business and regulatory processes for grant programs.</p>
             <p><strong>Provider Agency:</strong> U.S. Dept. of Health and Human Services</p>
             <p><strong>Website:</strong> <a href="https://grantsolutions.gov" target="_blank"> https://grantsolutions.gov </a></p>
-            <p><strong>Contact:</strong> information@grantsolutions.gov or Renee.Lobanovskyy@hhs.gov</p>
+            <p><strong>Contact:</strong> information@grantsolutions.gov</p>
             <p><strong>Customer Agency:</strong>  U.S. Consumer Product Safety Commission, U.S. Dept. of Homeland Security, U.S. Dept. of the Interior, U.S. Dept. of Labor, U.S. Dept. of Transportation, Executive Office of the President, Federal Communications Commission, Gulf Coast Ecosystem Restoration Council, U.S. Dept. of Health and Human Services, U.S. Small Business Administration, Social Security Administration, U.S. Dept. of Treasury, U.S. Dept. of Agriculture, U.S. Dept. of Veterans Affairs
 </p>
                <strong>Services Provided</strong>
