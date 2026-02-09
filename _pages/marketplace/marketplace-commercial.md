@@ -97,7 +97,7 @@ attached:
           <div class="vendor-content">
             <p><strong>Business Type:</strong> Small Business</p>
             <p><strong>System Platform:</strong> Microsoft Power Platform</p>
-            <p><strong>Solution Customers:</strong> U.S. Small Business Administration, U.S. Dept. of the Treasury - State Small Business Credit Initiative</p>
+            <p><strong>Solution Customers:</strong> N/A</p>
             <p><strong>Website:</strong> <a href="https://gswell.com/">Groundswell</a></p>
             <div class="contacts">
               <div style="font-weight: bold;">Contacts:</div>
