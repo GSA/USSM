@@ -46,14 +46,8 @@ attached:
 <script>
   document.getElementById("sendEmail").addEventListener("click", function () {
     const email = "GrantsQSMO@hhs.gov";
-    const subject = "Modernizing Grants Solutions & Services";
-    const body = `Are you considering modernizing your grants solutions or services? We want to hear from you! Here’s how we can assist:
-
-• Schedule a meeting or discuss tailored insights about using the Grants QSMO Marketplace.
-• Provide answers to questions not covered in our FAQs.
-• Gather your feedback to enhance our website and services.
-
-We look forward to supporting your grants modernization journey!`;
+    const subject = "Subscribe";
+    const body = " ";
 
     const mailto = 
       `mailto:${email}` +
