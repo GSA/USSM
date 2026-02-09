@@ -159,7 +159,7 @@ attached:
              <p><strong>Solution Description:</strong> The Interior Business Center (IBC) is a federal shared services provider that operates under a fee-for-service, full cost recovery business model, offering indirect cost rate negotiation services.</p>
             <p><strong>Provider Agency:</strong> U.S. Dept. of the Interior</p>
             <p><strong>Website:</strong> <a href=" https://ibc.doi.gov/ICS/indirect-cost " target="_blank"> https://ibc.doi.gov/ICS/indirect-cost </a></p>
-            <p><strong>Contact:</strong> https://ibc.doi.gov/ICS/contact-us or craig_wills@ibc.doi.gov</p>
+            <p><strong>Contact:</strong> craig_wills@ibc.doi.gov</p>
             <p><strong>Customer Agency:</strong> Need updated list</p>
             <strong>Services Provided</strong>
           <ul class="federal-services-list">
