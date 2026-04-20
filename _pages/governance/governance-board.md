@@ -1,5 +1,5 @@
 ---
-title: Shared Services Governance Board
+title: "Shared Services Governance Board"
 layout: governance/council
 permalink: /ssgb/
 ---
