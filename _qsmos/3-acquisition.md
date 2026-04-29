@@ -1,5 +1,5 @@
 ---
-name: Acquistion
+name: Acquisition
 border:  162e51
 phase: Pre-designated
 agency: GSA
