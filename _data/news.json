@@ -2,6 +2,24 @@
     "title": "News",
     "items": [
    {
+            "NewsID": "70",
+            "Homepage": "1",
+            "Category": "FIBF-ACQ",
+            "Title": "GSA to Drive Savings through Acquisition Shared Services QSMO",
+            "Date": "2026-03-13",
+            "Source": "GSA Blog",
+            "Hyperlink": "https://www.gsa.gov/blog/2026/03/13/gsa-to-drive-savings-through-acquisition-shared-services-and-solutions-quality-service"
+        },   
+   {
+            "NewsID": "69",
+            "Homepage": "1",
+            "Category": "FIBF-ACQ",
+            "Title": "GSA to be Designated as QSMO for Acquisition",
+            "Date": "2026-03-5",
+            "Source": "Federal News Network",
+            "Hyperlink": "https://federalnewsnetwork.com/acquisition-policy/2026/03/gsa-to-be-designated-as-qsmo-for-acquisition/"
+        },   
+        {
             "NewsID": "68",
             "Homepage": "1",
             "Category": "FIBF-FM",
