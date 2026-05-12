@@ -95,8 +95,8 @@ attached:
           <h3>Groundswell: GLAS</h3>
           </div>
           <div class="vendor-content">
-            <p><strong>Business Type:</strong> Small Business</p>
-            <p><strong>System Platform:</strong> Microsoft Power Platform</p>
+            <p><strong>Business Type:</strong> Other than Small Business</p>
+            <p><strong>System Platform:</strong> Appian</p>
             <p><strong>Solution Customers:</strong> N/A</p>
             <p><strong>Website:</strong> <a href="https://gswell.com/">Groundswell</a></p>
             <div class="contacts">
