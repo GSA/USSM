@@ -11,9 +11,6 @@ This Knowledge Library serves as a compendium of resources, guidance, and lesson
 [OMB Memo M-19-16](https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf){:target="_blank"}<br>
 Foundational policy memo outlining the next steps in a continuously evolving vision for enabling agencies to fully leverage and benefit of shared and centralized services in delivering on their mission-support responsibilities.
 
-[Advancing the PMA through Shared Services](https://ussm.gsa.gov/assets/files/PMA%20Placemat.pdf)<br>
-A one-page placemat to help agencies, policymakers, and industry stakeholders better understand the role that shared services can play as a lever for advancing the priorities of the President's Management Agenda.
-
 [Concept of Operations]({{site.baseurl}}/conops/)<br>
 The Federal government supports the stability, welfare, and prosperity of our nation through agency missions and services delivered to the American people. These services encompass important missions, such as the safety of our national food supply, stabilization of capital and consumer markets, support for scientific and medical research, and the integrity of our national infrastructure, law enforcement, and national defense.
 
