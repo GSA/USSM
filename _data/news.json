@@ -1,7 +1,16 @@
 {
     "title": "News",
     "items": [
-   {
+{
+            "NewsID": "71",
+            "Homepage": "1",
+            "Category": "FIBF-HR",
+            "Title": "GSA to Drive Savings through Acquisition Shared Services QSMO",
+            "Date": "2026-06-10",
+            "Source": "Federal News Network",
+            "Hyperlink": "https://www.gsa.gov/blog/2026/03/13/gsa-to-drive-savings-through-acquisition-shared-services-and-solutions-quality-service"
+        },   
+{
             "NewsID": "70",
             "Homepage": "1",
             "Category": "FIBF-ACQ",
