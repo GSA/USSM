@@ -145,7 +145,7 @@ Standardization increases the likelihood of agency success in partnering with in
     <p class="margin-top-1 margin-bottom-1"><b>Governance and Strategy</b></p>
                 <ul class="margin-top-0 margin-bottom-3" style="list-style-position: inside; padding-left: 0px; margin-left:0;">
                       <li style="margin-left: 2px;">Senior Travel Officials Council (STOC)</li>
-                    <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="ETSNext Governance (Max Login Required)" target="_blank">ETSNext Governance</A> (Max Login Required)</li>
+                    <li style="margin-left: 2px;"><a href="https://community.connect.gov/x/AWrMi" title="GO.gov Governance (Max Login Required)" target="_blank">GO.gov Governance</A> (Max Login Required)</li>
                 </ul>
 
  <p class="margin-top-1 margin-bottom-1"><b>Performance</b></p>
