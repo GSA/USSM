@@ -32,17 +32,17 @@ news-category: FIBF-TRT
                    <img src="/assets/images/fibf/icons/icon.travel.webp" alt="Travel and Expense Icon" width="50px" height="auto" style="vertical-align:middle;"> Travel and Expense Solutions
                 </h2>
                 <p>
-                   <A HREF="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets">e-Gov Travel Service (ETS)</A> is a government wide, web-based, world-class travel management service. The ETS Program applies commercial best practices to realize efficiencies in delivering transparent, accountable, and sustainable travel services that yield exceptional agency and customer satisfaction.
+                   <A HREF="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets">GO.gov</A> is a fully modernized, cloud-based travel and expense management platform tailored to meet the evolving needs of federal civilian agencies and their travelers. Built with a focus on usability, security, and compliance, the platform enables travelers, approving officials, and travel managers to navigate the travel process with greater ease, efficiency, and transparency. Developed by the General Services Administration, GO.gov represents the next generation of travel services for civilian agencies.
                 </p>
 
 <B>Agencies, begin here - Find travel solutions and get help:</B><BR>
 
                 <ul class="margin-top-0 margin-bottom-3">
-                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about ETS" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets" title="Learn more about ETS" target="_blank" class="green-link">Learn more about eGov Travel Services</a><BR>
-                   <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the ETS Program Office" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://www.gsa.gov/travel/travel-and-lodging-services/egov-travel-services-ets/contact-egov-travel" title="Contact the ETS Program Office" target="_blank">Contact the ETS Program Office</a><BR>
+                     <img src="/assets/images/marketplace/icon_cart_16.png" alt="Learn more about GO.gov" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://go.gov" title="Learn more about GO.gov" target="_blank" class="green-link">Learn more about GO.gov</a><BR>
+                   <img src="/assets/images/marketplace/icon_email_16.png" alt="Contact the GO.gov Program Office" height="auto" style="vertical-align:middle;">&nbsp;<a href="https://go.gov/support.html" title="Obtain support from GO.gov" target="_blank">Contact the GO.gov Program Office</a><BR>
                 </ul>
 
-eGov Travel Services have unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. ETS has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars.  The service includes planning, authorizing, booking, and vouchering for travel expenses. It also provides audit and reporting services to ensure travel is performed in compliance with travel regulations.
+Beetween 2016 and 2026 the government-wide shared services approach to travel and expens has unified over 124 agencies to a common, secure, web-based, automated service. It eliminated over 250 disparate, non-web based and paper-driven systems; leveraged the government's purchasing power; increased online adoption; reduced reimbursement cycle time; and significantly reduced vendor costs. This approach has lowered reimbursement time to three days, increased online adoption to over 70%, and delivered an average annual savings of $21 million dollars.  The service includes planning, authorizing, booking, and vouchering for travel expenses. It also provides audit and reporting services to ensure travel is performed in compliance with travel regulations.
 
              <P></P>
                 <hr class="margin-top-auto width-full">
@@ -58,7 +58,7 @@ eGov Travel Services have unified over 124 agencies to a common, secure, web-bas
                 </div>
              
                   <p>
- <B>Civilian agencies move over 1 million federal travelers through 2.6 million transactions per year.<SUP>1</SUP></B><BR><BR>
+ <B>Civilian agencies have historically moved as many as over 1 million federal travelers through 2.6 million transactions per year.<SUP>1</SUP></B><BR><BR>
  
 The travel that's needed to perform mission-related tasks should be completed efficiently in a manner that leverages negotiated rates and contracts (e.g. <A HREF="https://www.gsa.gov/travel/plan-a-trip/transportation-airfare-rates-pov-rates-etc/airfare-rates-city-pair-program" title="GSA's City-Pair Program">GSA's City-Pair Program</A>) using streamlined tools that reduce administrative burden and allow workers to focus on their job responsibilities instead of navigating complex, inefficient travel processes.
 <BR><BR>
