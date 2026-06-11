@@ -2,13 +2,22 @@
     "title": "News",
     "items": [
 {
-            "NewsID": "71",
+            "NewsID": "72",
             "Homepage": "1",
             "Category": "FIBF-HR",
             "Title": "OPM awards major HR IT modernization contract to Oracle",
             "Date": "2026-06-10",
             "Source": "Federal News Network",
             "Hyperlink": "https://federalnewsnetwork.com/contracting/2026/06/opm-awards-major-hr-it-modernization-contract-to-oracle/"
+        },  
+{
+            "NewsID": "71",
+            "Homepage": "1",
+            "Category": "FIBF-GRM",
+            "Title": "HHS Grants QSMO and GSA Establish New Government‑Wide Acquisition Pathway for Modern Grants Management",
+            "Date": "2026-06-08",
+            "Source": "HHS Press Release",
+            "Hyperlink": "https://www.hhs.gov/press-room/hhs-grants-qsmo-gsa-establish-new-government-wide-acquisition-pathway-modern-grants-management.html"
         },   
 {
             "NewsID": "70",
