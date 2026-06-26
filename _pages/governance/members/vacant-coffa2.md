@@ -7,6 +7,6 @@ title: Shared Services Governance Board
 name: Vacant
 position: 
 department: TBD
-logo: 6-coffa-logo.webp | https://www.cfo.gov/coffa/ | COFFA
+logo: 6-coffa-logo.webp | https://www.councils.gov/coffa/ | COFFA
 order: 6
 ---
