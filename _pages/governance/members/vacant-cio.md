@@ -8,7 +8,7 @@ title: Shared Services Governance Board
 name: Vacant
 position: 
 department: TBD
-logo: 3-cioc-logo.webp | https://www.cio.gov/about/vision/ | CIOC
+logo: 3-cioc-logo.webp | https://www.councils.gov/cioc/ | CIOC
 company: CIOC
 ---
 
