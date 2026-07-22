@@ -12,7 +12,7 @@ department: General Services Administration
 logo: gsa-logo.png | https://www.gsa.gov
 logo-link: https://www.gsa.gov
 ---
-Edward C. Forst is the 24th Administrator of the U.S. General Services Administration. He oversees about 8,000 people who handle the federal government’s buildings, purchasing, and technology.
+Edward C. Forst is the 24th Administrator of the US General Services Administration. He oversees about 8,000 people who handle the federal government’s buildings, purchasing, and technology.
 
 Before being nominated by President Donald J. Trump, Ed spent more than 40 years in finance, real estate, academia, government, and senior management. He ran large organizations, made tough calls in difficult markets, kept costs under control, and invested with discipline. Over time, he came to believe that clear accountability, efficiency, and strong risk management are what drive results.
 
