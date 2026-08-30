@@ -7941,7 +7941,7 @@
        "Functional Area":"FFM",
        "Functional Area Steward":"FFM",
        "Data Element Label":"IntragovernmentalShipToLocationIdentifier",
-       "Definition":"The identifer for a shipping end point or location associated with an intragovernmental agreement.  ",
+       "Definition":"The identifier for a shipping end point or location associated with an intragovernmental agreement.  ",
        "Activity Reference":"FFM.030.020 Obligation Management",
        "Business Capability Reference":"",
        "Authoritative and Other Reference(s)":"(125) TFM Volume I, Part 2, Chapter 4700, Appendix 8 Intra-Governmental Transaction (IGT) Buy/Sell",
@@ -8457,7 +8457,7 @@
        "Min Length":"",
        "Max Length":"",
        "Example Value":"",
-       "Domain Values":"(37) NGA.mil, NSG Standards Registry GENC Standard;\r\n\r\nhttps://nsgreg.nga.mil/doc/view?i=2624\r\n\r\nSelect \"Document Dowload\" to download the GENC mapping file. Go to the tab titled \"GE - GENC to ISO 3166\" and use the column titled \"Name\"\r\n",
+       "Domain Values":"(37) NGA.mil, NSG Standards Registry GENC Standard;\r\n\r\nhttps://nsgreg.nga.mil/doc/view?i=2624\r\n\r\nSelect \"Document Download\" to download the GENC mapping file. Go to the tab titled \"GE - GENC to ISO 3166\" and use the column titled \"Name\"\r\n",
        "Core FS \r\n Pre-Loaded Master Reference Data":"Required",
        "Validations":"",
        "Related Data Element Reference(s)":"Common: CountryName;\r\n\r\nDAIMS: LegalEntityCountryName;\r\n\r\nGENC: Name;\r\n\r\nGSA SAM: PHYSICAL ADDRESS COUNTRY;\r\n\r\nGSA SAM: MAILING ADDRESS COUNTRY"
@@ -8592,7 +8592,7 @@
        "Functional Area":"FFM",
        "Functional Area Steward":"FFM",
        "Data Element Label":"LegalEntityForeignSubdivisionCode",
-       "Definition":"Code for the country's subdivsion (e.g., state, provice, locality) in which the legal entity's foreign address is located.",
+       "Definition":"Code for the country's subdivsion (e.g., state, provide, locality) in which the legal entity's foreign address is located.",
        "Activity Reference":"FFM.030.010 Payee Set-up and Maintenance;\r\nFFM.060.010 Payer Setup and Maintenance",
        "Business Capability Reference":"FFMSR 2.2.1.1;\r\nFFMSR 2.2.4.1",
        "Authoritative and Other Reference(s)":"(4) 2 CFR 25.350;\r\n(11) FAR 4.1102, System for Award Management: Policy;\r\n(54) FAR 4.11, System for Award Management (SAM)",
@@ -8613,7 +8613,7 @@
        "Functional Area":"FFM",
        "Functional Area Steward":"FFM",
        "Data Element Label":"LegalEntityForeignSubdivisionName",
-       "Definition":"Name for the country's subdivsion (e.g., state, provice, locality) in which the legal entity's foreign address is located.",
+       "Definition":"Name for the country's subdivsion (e.g., state, provide, locality) in which the legal entity's foreign address is located.",
        "Activity Reference":"FFM.030.010 Payee Set-up and Maintenance;\r\nFFM.060.010 Payer Setup and Maintenance",
        "Business Capability Reference":"FFMSR 2.2.1.1;\r\nFFMSR 2.2.4.1",
        "Authoritative and Other Reference(s)":"(4) 2 CFR 25.350;\r\n(11) FAR 4.1102, System for Award Management: Policy;\r\n(33) DATA Act Information Model Schema (DAIMS);\r\n(48) TFM, Volume I, Part 2, Chapter 6000 Agency Reporting Requirements for USAspending.gov;\r\n(54) FAR 4.11, System for Award Management (SAM)",
@@ -12282,7 +12282,7 @@
        "Domain Values":"",
        "Core FS \r\n Pre-Loaded Master Reference Data":"",
        "Validations":"",
-       "Related Data Element Reference(s)":"G-Invoicing: Requesting Agency Security Cooperation (formerly Foregin Military Sales (FMS) Customer Code)"
+       "Related Data Element Reference(s)":"G-Invoicing: Requesting Agency Security Cooperation (formerly Foreign Military Sales (FMS) Customer Code)"
     },
     {
        "Functional Area":"FFM",
@@ -12387,7 +12387,7 @@
        "Domain Values":"",
        "Core FS \r\n Pre-Loaded Master Reference Data":"",
        "Validations":"",
-       "Related Data Element Reference(s)":"G-Invoicing: Requesting Unique Entity Identifer"
+       "Related Data Element Reference(s)":"G-Invoicing: Requesting Unique Entity Identifier"
     },
     {
        "Functional Area":"FFM",
@@ -13794,7 +13794,7 @@
        "Domain Values":"",
        "Core FS \r\n Pre-Loaded Master Reference Data":"",
        "Validations":"",
-       "Related Data Element Reference(s)":"G-Invoicing: Servicing Agency Security Cooperation (formerly Foregin Military Sales (FMS) Customer Code)"
+       "Related Data Element Reference(s)":"G-Invoicing: Servicing Agency Security Cooperation (formerly Foreign Military Sales (FMS) Customer Code)"
     },
     {
        "Functional Area":"FFM",
@@ -13899,7 +13899,7 @@
        "Domain Values":"",
        "Core FS \r\n Pre-Loaded Master Reference Data":"",
        "Validations":"",
-       "Related Data Element Reference(s)":"G-Invoicing: Servicing Unique Entity Identifer"
+       "Related Data Element Reference(s)":"G-Invoicing: Servicing Unique Entity Identifier"
     },
     {
        "Functional Area":"FFM",
