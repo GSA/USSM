@@ -44,13 +44,14 @@ attached:
   <div class="section-title">Marketplace Management</div>
 
   <div class="faq-item">
-    <button class="faq-question" aria-expanded="false">What types of solutions are available?</button>
+    <button class="faq-question" aria-expanded="false">What types of grants management offerings are available?</button>
     <div class="faq-answer" role="region" aria-hidden="true">
-      <p>The Marketplace offers a variety of federal shared services and commercial solutions, including:</p>
+      <p>The Marketplace offers a variety of federal shared services and commercial grants management offerings, including:</p>
       <ul>
         <li><strong>Software platforms</strong> and resources for managing the grants lifecycle</li>
         <li><strong>Modular services</strong> for intake, workflow, monitoring, and reporting</li>
         <li><strong>Full lifecycle systems</strong> designed for pre-award, award, post-award, and closeout phases</li>
+        <li>Implementation and support services to assist with system integration, operations, maintenance, and modernization efforts</li>
       </ul>
       <p>All solutions align with the Federal Integrated Business Framework (FIBF) for Grants Management (GRM) functional areas.</p>
     </div>
