@@ -31,7 +31,7 @@ attached:
         <h3>Commercial Shared Services</h3>
         <p style="
     padding: 0 5px 0px 5px;
-">Award management Software as a Solution (SaaS) products.</p>
+">Solution and services available through the Grants Management SIN</p>
       </a>
       <a href="{{site.baseurl}}/marketplace/marketplace-catalog/mandatory" class="box centralized">
         <h3>Centralized Federal Shared Services</h3>
