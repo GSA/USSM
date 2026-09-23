@@ -92,7 +92,8 @@ attached:
           <p>An overview of federal service provider benefits, capabilities, and data.</p>
           </div>
         </div>
-         <div class="section-title">Commercial Market Research</div>
+         <div class="section-title">Commercial Shared Services</div>
+        <p>(Note the Catalog of Market Research is transitioning to the Grants Management SIN. For more information visit Acqusition Gateway (<A HREF="https://acquisitiongateway.gov/shared-services/resources/4216?nid=41667">https://acquisitiongateway.gov/shared-services/resources/4216?nid=41667</A>.))</p>
         <div class="grid">
           <div class="card border__blue "><h4><a href="{{site.baseurl}}/assets/files/Marketplace Files/2024 Catalog of Market Research Higlights_GrantsQSMO.pdf">Grants QSMO 2024 Catalog of Market Research Highlights</a></h4><p>A listing of commercial vendors offering grants management SaaS solutions.</p></div>
           <div class="card border__blue "><h4><a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=36917">Grants QSMO 2024 Catalog of Market Research</a></h4><p>Non-public insights on Marketplace commercial vendors.</p></div>
