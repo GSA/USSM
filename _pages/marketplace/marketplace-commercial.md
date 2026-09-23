@@ -16,8 +16,8 @@ attached:
          <h1>Commercial Shared Services</h1>
          <hr>
        <p class="commercial-text">
-       These commercial vendors are Grants QSMO-recommended and offer award management Software as a Solution (SaaS) products for grants management. For vendor-specific insights, visit Commercial Award Management IT Vendors on the
-      <a href="https://acquisitiongateway.gov/shared-services/resources/4216?_a%5Eg_nid=440">Acquisition Gateway</a> (Federal users only; log-in required).
+The Grants Management (GM) SIN (518210GM) is the Grants QSMO's recommended acquisition pathway for commercial grants management solutions and services. Current GM SIN contractor information is available through the GSA eLibrary Contractor Listing (<A HREF="https://www.gsaelibrary.gsa.gov/ElibMain/sinDetails.do?scheduleNumber=MAS&specialItemNumber=518210GM&executeQuery=YES">https://www.gsaelibrary.gsa.gov/ElibMain/sinDetails.do?scheduleNumber=MAS&specialItemNumber=518210GM</A>). The vendor information below reflects the Grants QSMO's prior market research of commercial core award management solutions and is maintained for reference during the transition to the GM SIN."
+    
     </p>
     <div class="vendors-section">
       <h2>Commercial Vendors - Award Management Systems</h2>
