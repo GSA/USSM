@@ -46,7 +46,7 @@ attached:
 
 <script>
   document.getElementById("sendEmail").addEventListener("click", function () {
-    const email = "GrantsQSMO@hhs.gov";
+    const email = "grantscommunity-subscribe-request@listserv.gsa.gov";
     const subject = "Subscribe";
     const body = " ";
 
