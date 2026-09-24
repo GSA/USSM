@@ -81,7 +81,7 @@ attached:
         <div class="section-title">Federal Shared Services</div>
         <div class="grid">
           <div class="card border__purple">
-          <h4><a href="{{site.baseurl}}/assets/files/Marketplace Files/Grants QSMO Agency Acquisition Guide 4.14.2025.docx">Agency Acquisition Guide</a></h4>
+          <h4><a href="{{site.baseurl}}/assets/files/Marketplace Files/Grants QSMO Agency Acquisition Guide.4.14.2025.docx">Agency Acquisition Guide</a></h4>
           <p>A streamlined resource for federal awarding agencies to enhance grants IT acquisition processes.</p>
           </div>
           <div class="card border__purple">
