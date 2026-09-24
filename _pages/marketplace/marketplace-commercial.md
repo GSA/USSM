@@ -16,7 +16,7 @@ attached:
          <h1>Commercial Shared Services</h1>
          <hr>
        <p class="commercial-text">
-The Grants Management (GM) SIN (518210GM) is the Grants QSMO's recommended acquisition pathway for commercial grants management solutions and services. Current GM SIN contractor information is available through the GSA eLibrary Contractor Listing (<A HREF="https://www.gsaelibrary.gsa.gov/ElibMain/sinDetails.do?scheduleNumber=MAS&specialItemNumber=518210GM&executeQuery=YES">https://www.gsaelibrary.gsa.gov/ElibMain/sinDetails.do?scheduleNumber=MAS&specialItemNumber=518210GM</A>). The vendor information below reflects the Grants QSMO's prior market research of commercial core award management solutions and is maintained for reference during the transition to the GM SIN."
+The Grants Management (GM) SIN (518210GM) is the Grants QSMO's recommended acquisition pathway for commercial grants management solutions and services. Current GM SIN contractor information is available through the GSA eLibrary Contractor Listing (<A HREF="https://www.gsaelibrary.gsa.gov/ElibMain/sinDetails.do?scheduleNumber=MAS&specialItemNumber=518210GM&executeQuery=YES">https://www.gsaelibrary.gsa.gov/ElibMain/sinDetails.do?scheduleNumber=MAS&specialItemNumber=518210GM</A>). The vendor information below reflects the Grants QSMO's prior market research of commercial core award management solutions and is maintained for reference during the transition to the GM SIN.
     
     </p>
     <div class="vendors-section">
