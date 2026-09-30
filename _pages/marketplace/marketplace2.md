@@ -405,8 +405,8 @@ Emerging interests flagged by <A HREF="https://ussm.gsa.gov/ssgb">Shared Service
 
   
   <div class="icon">
-      <img src="/assets/images/fibf/icons/icon_ai.png" alt="Artificial Intelligence">
-      <p>Artificial<BR>
+      <img src="/assets/images/fibf/icons/icon_ai.png" alt="Super Intelligence">
+      <p>Super<BR>
       Intelligence</p>
     </div>
     
